@@ -17,7 +17,9 @@ Athena is being built. This file is kept up to date as work finishes.
 - Reminders, Google Classroom sync and the refresh spec are built but not switched on.
 
 ## How to open Athena
-Double-click `scripts\start-athena.bat`. It opens http://127.0.0.1:8765 in your browser. Keep that window open while you study.
+Double-click **Open Athena** at the top of the Athena folder. It opens http://127.0.0.1:8765 in your browser. Keep that window open while you study.
+
+To keep it one click away, right-click **Open Athena** and choose **Pin to Start**, or **Show more options**, then **Pin to taskbar**.
 
 ## Needs you
 1. **Your end-semester exam dates.** I found no EST datesheet anywhere. When you get it, drop a photo or PDF into `inbox\_exams\` (or type the dates in Athena's Settings page once it's ready). Until then the planner spreads subjects evenly.
