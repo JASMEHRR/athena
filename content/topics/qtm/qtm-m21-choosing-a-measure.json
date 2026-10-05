@@ -1,0 +1,576 @@
+{
+  "id": "qtm-m21-choosing-a-measure",
+  "subject_id": "qtm",
+  "deck_id": "qtm--module-2-1",
+  "title": "Which measure to use: data types, pros and cons, and common mistakes",
+  "order": 204,
+  "summary": "Which central tendency fits each data type, the pros and cons of mean, median and mode, why the three are not always enough, and how to pick one in business situations.",
+  "est_minutes": 25,
+  "difficulty": 2,
+  "source_refs": [
+    "qtm--module-2-1#17",
+    "qtm--module-2-1#18",
+    "qtm--module-2-1#19",
+    "qtm--module-2-1#21",
+    "qtm--module-2-1#29",
+    "qtm--module-2-1#31",
+    "qtm--module-2-1#32"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "qtm-m21-choosing-a-measure-c1",
+      "heading": "Central tendencies of various data types",
+      "explanation_md": "The slide draws a tree. **Data** splits into **Qualitative** and **Quantitative**:\n\n- **Qualitative**\n  - **Nominal**: **Mode** only\n  - **Ordinal**: **Mode, Median**\n- **Quantitative**\n  - **Discrete** and **Continuous**: **Mode, Median, Mean**\n\nSo: nominal data gets only the mode; ordinal adds the median; quantitative data (discrete or continuous) can use all three.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "Nominal: mode. Ordinal: mode and median. Discrete and continuous (quantitative): mode, median and mean.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m21-choosing-a-measure-q-5257ff78",
+          "type": "mcq",
+          "stem": "Which measure(s) of central tendency does the slide allow for nominal data?",
+          "options": [
+            "Mode only",
+            "Mode and median",
+            "Mode, median and mean",
+            "Mean only"
+          ],
+          "answer": "Mode only",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2-1#17"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m21-choosing-a-measure-q-efbbcac6",
+          "type": "mcq",
+          "stem": "For ordinal data, the slide lists:",
+          "options": [
+            "Mode and median",
+            "Mode only",
+            "Mean and median",
+            "Mean only"
+          ],
+          "answer": "Mode and median",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2-1#17"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m21-choosing-a-measure-q-d73a0bcd",
+          "type": "true_false",
+          "stem": "According to the tree, the mean can be used for discrete and continuous data.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2-1#17"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-2-1#17"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m21-choosing-a-measure-c2",
+      "heading": "Which measure to use? Pros and cons",
+      "explanation_md": "The professor's comparison table:\n\n| Measure | Pros | Cons |\n|---|---|---|\n| **Mean** | Takes all the values into account. Sensitive and reliable. | **Biased in presence of extreme values.** |\n| **Median** | Not affected by extreme values. | Less sensitive than mean. |\n| **Mode** (only way to represent **nominal** data) | Not affected by extreme values and can be used for **qualitative** data. | It can take **multiple values or no value at all**. Less sensitive than mean. |\n\nThe trade-off in one line: the **mean uses every value**, which makes it sensitive, but that same sensitivity means **extreme values bias it**. The median and mode ignore extreme values but are **less sensitive** than the mean.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "Mean: uses all values, sensitive and reliable, but biased by extreme values. Median: not affected by extreme values, less sensitive. Mode: only way to represent nominal data, may have multiple values or none.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m21-choosing-a-measure-q-21016768",
+          "type": "mcq",
+          "stem": "Which con does the slide give for the mean?",
+          "options": [
+            "Biased in presence of extreme values",
+            "Less sensitive than the median",
+            "It can take multiple values or no value at all"
+          ],
+          "answer": "Biased in presence of extreme values",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2-1#18"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m21-choosing-a-measure-q-a9971f3e",
+          "type": "mcq",
+          "stem": "Which measure is described as the only way to represent nominal data?",
+          "options": [
+            "Mode",
+            "Median",
+            "Mean"
+          ],
+          "answer": "Mode",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2-1#18"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m21-choosing-a-measure-q-2c1e59d2",
+          "type": "fill",
+          "stem": "A con of the mode is that it can take multiple values or ____ value at all.",
+          "options": [],
+          "answer": "no",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2-1#18"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-2-1#18"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m21-choosing-a-measure-c3",
+      "heading": "Are mean, median and mode sufficient?",
+      "explanation_md": "The slide asks this question with two suppliers' data:\n\n- **Supplier-1:** 1, 2, 3, 4, 5, 6, 6, 7, 8, 9, 10, 11\n- **Supplier-2:** 4, 5, 5, 5, 6, 6, 6, 6, 7, 7, 7, 8\n\nThe dot plots beside them show:\n\n- **Set I:** **Mean = Median = Mode = 6**, and the dots run from 1 to 11. Label: **Data are spread out.**\n- **Set II:** **Mean = Median = Mode = 6**, and the dots bunch between 4 and 8. Label: **Data are clustered together.**\n\nAll three centre measures are identical, yet the two data sets look completely different. What differs is the **spread**. That is where the next tools in this module come in: quartiles, and the **interquartile range**, which **measures the spread of the middle 50% of the data**.",
+      "example_ids": [
+        "qtm-ex-m21-supplier-sets"
+      ],
+      "key_terms": [],
+      "exam_line": "Supplier-1 and Supplier-2 both have Mean = Median = Mode = 6, but Set I is spread out and Set II is clustered together.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m21-choosing-a-measure-q-0e967df6",
+          "type": "mcq",
+          "stem": "What do the two supplier data sets have in common on the slide?",
+          "options": [
+            "Mean = Median = Mode = 6 for both",
+            "Both are clustered together",
+            "Both are spread out",
+            "Both have no mode"
+          ],
+          "answer": "Mean = Median = Mode = 6 for both",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2-1#19"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m21-choosing-a-measure-q-201ee0c1",
+          "type": "mcq",
+          "stem": "How does the slide describe Supplier-2's data (Set II)?",
+          "options": [
+            "Data are clustered together",
+            "Data are spread out",
+            "Data are bimodal"
+          ],
+          "answer": "Data are clustered together",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2-1#19",
+            "qtm--module-2-1#13"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-2-1#19",
+        "qtm--module-2-1#21"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m21-choosing-a-measure-c4",
+      "heading": "Advanced interpretation: when, strengths, limits",
+      "explanation_md": "This table goes one level deeper, with a business example for each measure.\n\n**Mean**\n- **When to use:** data is **symmetric**, **outliers are absent**, and values are all important.\n- **Strength:** uses every value; **necessary for further analysis** (like standard deviation).\n- **Limitation:** **sensitive to outliers**.\n- **Example:** if the **CEO earns ₹10 crore** and others **average ₹6 lakh**, the mean salary could **mislead stakeholders**.\n\n**Median**\n- **When to use:** data is **skewed** or contains significant outliers.\n- **Strength:** not influenced by extreme values; good for reporting **typical outcomes**.\n- **Limitation:** **does not use all values** in a dataset.\n- **Example:** **median home price** is often used by realtors because it is not inflated by a few luxury homes.\n\n**Mode**\n- **When to use:** **categorical data**, or when identifying the **\"most popular\"** is critical.\n- **Strength:** identifies the most frequently occurring, or \"typical\", value.\n- **Limitation:** may have **more than one mode** (bimodal/multimodal) **or none at all**.\n- **Examples:** fashion retail, where the **most sold t-shirt size** guides inventory purchases; a restaurant menu, where the **mode meal ordered** helps design new combos.",
+      "example_ids": [
+        "qtm-ex-m21-ceo-salary",
+        "qtm-ex-m21-median-home-price",
+        "qtm-ex-m21-tshirt-menu"
+      ],
+      "key_terms": [],
+      "exam_line": "Mean for symmetric data without outliers (CEO ₹10 crore example shows the danger); median for skewed data (median home price); mode for categorical data or the most popular item (t-shirt size, menu combos).",
+      "clarification": {
+        "term": "outliers",
+        "text": "data values that lie far away from most of the other values in a data set."
+      },
+      "check_questions": [
+        {
+          "id": "qtm-m21-choosing-a-measure-q-7ba4a45c",
+          "type": "mcq",
+          "stem": "If the CEO earns ₹10 crore and others average ₹6 lakh, which measure could mislead stakeholders?",
+          "options": [
+            "The mean salary",
+            "The median salary",
+            "The modal salary"
+          ],
+          "answer": "The mean salary",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2-1#29"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m21-choosing-a-measure-q-3380412d",
+          "type": "mcq",
+          "stem": "Realtors often use the median home price because:",
+          "options": [
+            "It is not inflated by a few luxury homes",
+            "It uses every value in the dataset",
+            "It shows the most frequently sold home"
+          ],
+          "answer": "It is not inflated by a few luxury homes",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2-1#29"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m21-choosing-a-measure-q-5d3092d3",
+          "type": "mcq",
+          "stem": "Which limitation does the table give for the median?",
+          "options": [
+            "Does not use all values in a dataset",
+            "Sensitive to outliers",
+            "May have more than one mode or none at all"
+          ],
+          "answer": "Does not use all values in a dataset",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2-1#29"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-2-1#29"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m21-choosing-a-measure-c5",
+      "heading": "Choosing in practice, and common mistakes",
+      "explanation_md": "**Choosing the appropriate central tendency:**\n\n| Situation | Best measure | Why? | Example |\n|---|---|---|---|\n| Employees' salaries (skewed) | **Median** | Robust to outliers | Most earn ₹40k, but the CEO earns ₹8L |\n| Best-selling product size | **Mode** | Shows most frequent occurrence | Size 'M' t-shirts |\n| Daily sales in a stable market | **Mean** | All values comparable | Supermarket with consistent sales |\n\n**Common mistakes and misinterpretations:**\n\n1. **Reporting the mean in the presence of outliers** (can distort business decisions).\n2. **Ignoring multiple modes** when they matter for production planning.\n3. **Not specifying which average** is being used in reports.",
+      "example_ids": [
+        "qtm-ex-m21-choosing-cases"
+      ],
+      "key_terms": [],
+      "exam_line": "Skewed salaries: median. Best-selling size: mode. Stable daily sales: mean. Mistakes: mean with outliers, ignoring multiple modes, not saying which average you used.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m21-choosing-a-measure-q-dcd9fc0e",
+          "type": "mcq",
+          "stem": "Most employees earn ₹40k but the CEO earns ₹8L. Which measure does the slide recommend?",
+          "options": [
+            "Median",
+            "Mean",
+            "Mode"
+          ],
+          "answer": "Median",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2-1#31"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m21-choosing-a-measure-q-e1dc8080",
+          "type": "mcq",
+          "stem": "Daily sales in a stable market (a supermarket with consistent sales) are best summarised by:",
+          "options": [
+            "Mean",
+            "Median",
+            "Mode"
+          ],
+          "answer": "Mean",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2-1#31"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m21-choosing-a-measure-q-e4eb06b5",
+          "type": "true_false",
+          "stem": "Not specifying which average is being used in a report is listed as a common mistake.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2-1#32"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-2-1#31",
+        "qtm--module-2-1#32"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "qtm-m21-choosing-a-measure-f1",
+      "front": "Central tendency by data type",
+      "back": "Nominal: mode. Ordinal: mode, median. Discrete and continuous: mode, median, mean.",
+      "kind": "list",
+      "source_refs": [
+        "qtm--module-2-1#17"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m21-choosing-a-measure-f2",
+      "front": "Mean: pros and cons",
+      "back": "Pros: takes all values into account, sensitive and reliable. Con: biased in presence of extreme values.",
+      "kind": "fact",
+      "source_refs": [
+        "qtm--module-2-1#18"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m21-choosing-a-measure-f3",
+      "front": "Median: pros and cons",
+      "back": "Pro: not affected by extreme values. Con: less sensitive than mean.",
+      "kind": "fact",
+      "source_refs": [
+        "qtm--module-2-1#18"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m21-choosing-a-measure-f4",
+      "front": "Mode: pros and cons",
+      "back": "Pros: not affected by extreme values, can be used for qualitative data (only way to represent nominal data). Cons: can take multiple values or none; less sensitive than mean.",
+      "kind": "fact",
+      "source_refs": [
+        "qtm--module-2-1#18"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m21-choosing-a-measure-f5",
+      "front": "Supplier-1 vs Supplier-2",
+      "back": "Both have Mean = Median = Mode = 6, but Supplier-1's data are spread out and Supplier-2's are clustered together.",
+      "kind": "example",
+      "source_refs": [
+        "qtm--module-2-1#19"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m21-choosing-a-measure-f6",
+      "front": "CEO earns ₹10 crore, others average ₹6 lakh",
+      "back": "The mean salary could mislead stakeholders: the mean is sensitive to outliers.",
+      "kind": "example",
+      "source_refs": [
+        "qtm--module-2-1#29"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m21-choosing-a-measure-f7",
+      "front": "Best measure: skewed salaries / best-selling size / stable daily sales",
+      "back": "Median (robust to outliers) / Mode (most frequent occurrence) / Mean (all values comparable).",
+      "kind": "list",
+      "source_refs": [
+        "qtm--module-2-1#31"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m21-choosing-a-measure-f8",
+      "front": "Three common mistakes with averages",
+      "back": "Reporting the mean with outliers; ignoring multiple modes that matter for production planning; not specifying which average is used in reports.",
+      "kind": "list",
+      "source_refs": [
+        "qtm--module-2-1#32"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [],
+  "explain_back": {
+    "prompt": "How would you choose between the mean, median and mode? Use the data types, the pros and cons, and the professor's business examples.",
+    "rubric": [
+      {
+        "point": "Data type: nominal uses mode; ordinal mode and median; discrete and continuous all three",
+        "source_ref": "qtm--module-2-1#17"
+      },
+      {
+        "point": "Mean uses all values but is biased by extreme values; median and mode are not affected by extreme values",
+        "source_ref": "qtm--module-2-1#18"
+      },
+      {
+        "point": "Median for skewed data such as salaries (CEO example) or home prices",
+        "source_ref": "qtm--module-2-1#29"
+      },
+      {
+        "point": "Mode when the most frequent item matters, e.g. the best-selling t-shirt size",
+        "source_ref": "qtm--module-2-1#31"
+      },
+      {
+        "point": "The three common mistakes: mean with outliers, ignoring multiple modes, not saying which average is used",
+        "source_ref": "qtm--module-2-1#32"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

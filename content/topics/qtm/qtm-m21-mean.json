@@ -1,0 +1,473 @@
+{
+  "id": "qtm-m21-mean",
+  "subject_id": "qtm",
+  "deck_id": "qtm--module-2-1",
+  "title": "Measures of central tendency and the mean",
+  "order": 201,
+  "summary": "The five measures on the module's list, the professor's definitions of mean, median and mode, and the sample and population mean formulas.",
+  "est_minutes": 20,
+  "difficulty": 1,
+  "source_refs": [
+    "qtm--module-2-1#2",
+    "qtm--module-2-1#3",
+    "qtm--module-2-1#4",
+    "qtm--module-2-1#5",
+    "qtm--module-2-1#19",
+    "qtm--module-2-1#6"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "qtm-m21-mean-c1",
+      "heading": "Five measures, three of them 'central tendency'",
+      "explanation_md": "The module opens with a list of five measures: **Mean, Median, Mode, Percentiles and Quartiles**.\n\nOn the slide, a brace groups only **Mean, Median and Mode** and labels them the **central tendency score**. Percentiles and Quartiles come after, as separate tools (you meet them later in this module).\n\nThe professor's one-line definitions:\n\n- **(Arithmetic) Mean**: also known as the **average**; it is the **sum of the values divided by the number of values**.\n- **Median**: the **middle value** that separates a data set into a **higher and a lower half**.\n- **Mode**: the value that **appears most frequently** in a data set.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Mean (arithmetic)",
+          "meaning": "Also known as the average: the sum of the values divided by the number of values.",
+          "source_ref": "qtm--module-2-1#3"
+        },
+        {
+          "term": "Median",
+          "meaning": "The middle value that separates a data set into a higher and a lower half.",
+          "source_ref": "qtm--module-2-1#3"
+        },
+        {
+          "term": "Mode",
+          "meaning": "The value that appears most frequently in a data set.",
+          "source_ref": "qtm--module-2-1#3"
+        }
+      ],
+      "exam_line": "Mean = sum of values / number of values; median = middle value splitting the data into a higher and lower half; mode = most frequent value.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m21-mean-q-37a7b32b",
+          "type": "mcq",
+          "stem": "Which measure is the middle value that separates a data set into a higher and a lower half?",
+          "options": [
+            "Median",
+            "Mean",
+            "Mode",
+            "Quartile"
+          ],
+          "answer": "Median",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2-1#3",
+            "qtm--module-2-1#2"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m21-mean-q-eca1d623",
+          "type": "fill",
+          "stem": "The arithmetic mean is also known as the ____.",
+          "options": [],
+          "answer": "average",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2-1#3"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m21-mean-q-d70fa58f",
+          "type": "true_false",
+          "stem": "On the opening list, Percentiles and Quartiles are grouped with Mean, Median and Mode under the label 'central tendency score'.",
+          "options": [],
+          "answer": "False",
+          "accept": [],
+          "explanation": "The brace covers only Mean, Median and Mode.",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2-1#2"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-2-1#2",
+        "qtm--module-2-1#3"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m21-mean-c2",
+      "heading": "The mean: sample and population formulas",
+      "explanation_md": "The **mean** of a data set is the **average of all the data values**.\n\nThe slides give two versions. They look the same; the difference is *whose* data you are adding up.\n\n**Sample mean:**\n\nX̄ = Σxᵢ / n\n\n- Σxᵢ = sum of the values of the **n observations**\n- n = **number of observations in the sample**\n\n**Population mean:**\n\nμ = Σxᵢ / N\n\n- Σxᵢ = sum of the values of the **N observations**\n- N = **number of observations in the population**\n\nSo small **n** and **X̄** go with a sample; capital **N** and **μ** (mu) go with the population.\n\nThe slide adds one more line: **the sample mean X̄ is the point estimator of the population mean μ**.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Sample mean (X̄)",
+          "meaning": "X̄ = Σxᵢ / n, where n is the number of observations in the sample.",
+          "source_ref": "qtm--module-2-1#5"
+        },
+        {
+          "term": "Population mean (μ)",
+          "meaning": "μ = Σxᵢ / N, where N is the number of observations in the population.",
+          "source_ref": "qtm--module-2-1#5"
+        }
+      ],
+      "exam_line": "Sample mean X̄ = Σxᵢ / n; population mean μ = Σxᵢ / N. The sample mean is the point estimator of the population mean μ.",
+      "clarification": {
+        "term": "point estimator",
+        "text": "A single number worked out from a sample and used as the best estimate of the matching value for the whole population."
+      },
+      "check_questions": [
+        {
+          "id": "qtm-m21-mean-q-12cddb62",
+          "type": "mcq",
+          "stem": "Which symbol stands for the population mean?",
+          "options": [
+            "μ",
+            "X̄",
+            "n",
+            "Σxᵢ"
+          ],
+          "answer": "μ",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2-1#4",
+            "qtm--module-2-1#5"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m21-mean-q-b9d6b35a",
+          "type": "fill",
+          "stem": "In X̄ = Σxᵢ / n, n is the number of observations in the ____.",
+          "options": [],
+          "answer": "sample",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2-1#5"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m21-mean-q-d4795a5a",
+          "type": "mcq",
+          "stem": "According to the slide, the sample mean X̄ is the point estimator of:",
+          "options": [
+            "The population mean μ",
+            "The sample median",
+            "The number of observations N"
+          ],
+          "answer": "The population mean μ",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2-1#4"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-2-1#4",
+        "qtm--module-2-1#5"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m21-mean-c3",
+      "heading": "Using the formula once",
+      "explanation_md": "Take the **Supplier-1** data set from later in the deck: 1, 2, 3, 4, 5, 6, 6, 7, 8, 9, 10, 11.\n\n**Step 1: add the values.** Σxᵢ = 1 + 2 + 3 + 4 + 5 + 6 + 6 + 7 + 8 + 9 + 10 + 11 = 72\n\n**Step 2: count the observations.** n = 12\n\n**Step 3: divide.** X̄ = Σxᵢ / n = 72 / 12 = **6**\n\nThis matches the slide's own label for that set: **Mean = 6**.\n\nTreat it as a sample (X̄, n) or as a whole population (μ, N): the arithmetic is the same, only the symbols change.",
+      "example_ids": [
+        "qtm-ex-m21-supplier-sets"
+      ],
+      "key_terms": [],
+      "exam_line": "To find a mean: add all the values (Σxᵢ), count them (n or N), divide.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m21-mean-q-5ef04b5d",
+          "type": "mcq",
+          "stem": "Supplier-2's values are 4,5,5,5,6,6,6,6,7,7,7,8. What is their mean?",
+          "options": [
+            "6",
+            "5",
+            "7",
+            "8"
+          ],
+          "answer": "6",
+          "accept": [],
+          "explanation": "The values add to 72 and there are 12 of them; 72 / 12 = 6, which matches the slide's label Mean = 6.",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2-1#19",
+            "qtm--module-2-1#5"
+          ],
+          "derived": [
+            "72",
+            "12"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m21-mean-q-903ad26c",
+          "type": "true_false",
+          "stem": "To get the mean you divide the sum of the values by the number of values.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2-1#3",
+            "qtm--module-2-1#5"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-2-1#5",
+        "qtm--module-2-1#19"
+      ],
+      "derived": [
+        "72",
+        "12"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m21-mean-c4",
+      "heading": "Class activity: Class Height Exercise",
+      "explanation_md": "The deck stops for an **activity**: the **Class Height Exercise**. The first round asks for two things:\n\n- the **Population Mean**\n- the **Sample Mean**\n\nNo data is printed on the slide; the numbers come from the class during the session.\n\nWhat to do with the formulas: the **population mean** uses all **N** observations in the population, μ = Σxᵢ / N. The **sample mean** uses only the **n** observations in the sample, X̄ = Σxᵢ / n.\n\nThe same exercise returns later in the deck for the **median** and the **mode**.",
+      "example_ids": [
+        "qtm-ex-m21-class-height"
+      ],
+      "key_terms": [],
+      "exam_line": "Population mean divides by N (all observations in the population); sample mean divides by n (observations in the sample).",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m21-mean-q-854f2d57",
+          "type": "mcq",
+          "stem": "In the Class Height Exercise, the population mean divides the sum of the heights by:",
+          "options": [
+            "N, the number of observations in the population",
+            "n, the number of observations in the sample",
+            "The middle value of the heights"
+          ],
+          "answer": "N, the number of observations in the population",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2-1#6",
+            "qtm--module-2-1#5"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m21-mean-q-5a5f3d65",
+          "type": "true_false",
+          "stem": "The Class Height Exercise slide prints a table of heights to use.",
+          "options": [],
+          "answer": "False",
+          "accept": [],
+          "explanation": "No data is printed on the slide; the class supplies it.",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2-1#6"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-2-1#6",
+        "qtm--module-2-1#5"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "qtm-m21-mean-f1",
+      "front": "The five measures on the module's opening list",
+      "back": "Mean, Median, Mode (the central tendency score), then Percentiles and Quartiles.",
+      "kind": "list",
+      "source_refs": [
+        "qtm--module-2-1#2"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m21-mean-f2",
+      "front": "(Arithmetic) mean",
+      "back": "Also known as the average: the sum of the values divided by the number of values.",
+      "kind": "term",
+      "source_refs": [
+        "qtm--module-2-1#3"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m21-mean-f3",
+      "front": "Median (definition)",
+      "back": "The middle value that separates a data set into a higher and a lower half.",
+      "kind": "term",
+      "source_refs": [
+        "qtm--module-2-1#3"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m21-mean-f4",
+      "front": "Mode (definition)",
+      "back": "The value that appears most frequently in a data set.",
+      "kind": "term",
+      "source_refs": [
+        "qtm--module-2-1#3"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m21-mean-f5",
+      "front": "Sample mean formula",
+      "back": "X̄ = Σxᵢ / n; Σxᵢ is the sum of the values of the n observations, n is the number of observations in the sample.",
+      "kind": "formula",
+      "source_refs": [
+        "qtm--module-2-1#5"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m21-mean-f6",
+      "front": "Population mean formula",
+      "back": "μ = Σxᵢ / N; Σxᵢ is the sum of the values of the N observations, N is the number of observations in the population.",
+      "kind": "formula",
+      "source_refs": [
+        "qtm--module-2-1#5"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m21-mean-f7",
+      "front": "What is the sample mean the point estimator of?",
+      "back": "The population mean μ.",
+      "kind": "fact",
+      "source_refs": [
+        "qtm--module-2-1#4"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [],
+  "explain_back": {
+    "prompt": "Explain what the mean is and how the sample mean differs from the population mean, with both formulas.",
+    "rubric": [
+      {
+        "point": "The mean is the average: the sum of the values divided by the number of values",
+        "source_ref": "qtm--module-2-1#3"
+      },
+      {
+        "point": "Sample mean X̄ = Σxᵢ / n, where n is the number of observations in the sample",
+        "source_ref": "qtm--module-2-1#5"
+      },
+      {
+        "point": "Population mean μ = Σxᵢ / N, where N is the number of observations in the population",
+        "source_ref": "qtm--module-2-1#5"
+      },
+      {
+        "point": "The sample mean is the point estimator of the population mean μ",
+        "source_ref": "qtm--module-2-1#4"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

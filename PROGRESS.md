@@ -66,7 +66,8 @@ No exam dates, so round-robin across subjects. Validate, ground and cover each d
 - [x] P4 pass A: mm--session-2-mm (22 slides, 10 visual)
   - 5 topics (mm-s2-*), 21 chunks, 61 checks, 39 cards, 7 examples. By subagent, reviewed: slide 9 names Kodak and NOKIA because the words are printed on the pictured products; no story added. Slide 14 says "social", slide 19 "societal" marketing concept; lesson notes it. Slides 21 and 22 give no explanation or answer, and the lessons say so.
 - [ ] P4 pass A: oml--casestudypeople-express (1 slides, 0 visual)
-- [ ] P4 pass A: qtm--module-2-1 (33 slides, 18 visual)
+- [x] P4 pass A: qtm--module-2-1 (33 slides, 18 visual)
+  - 6 topics (qtm-m21-*), 29 chunks, 78 checks, 41 cards, 15 examples. By subagent (resumed), reviewed; derived answers re-computed (2 players: same mean 32.75, medians 10 and 30.5, modes 4 and 45; net worth P50 22, P80 32.5; retail stores mean 508/15, Q1 30, Q2 34, Q3 38, top 10% stores 4 and 12). Slide 24 says "alphabetical order" for an ascending list; lesson notes it.
 - [ ] P4 pass A: sce--introduction-to-social-entrepreneurship-2025 (23 slides, 7 visual)
 - [ ] P4 pass A: aib--ai-for-business-chapters-2-3 (17 slides, 0 visual)
 - [ ] P4 pass A: be--sessions-4-and-5 (50 slides, 38 visual)

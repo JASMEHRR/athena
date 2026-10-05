@@ -1,0 +1,668 @@
+{
+  "id": "qtm-m21-percentile-practice",
+  "subject_id": "qtm",
+  "deck_id": "qtm--module-2-1",
+  "title": "Percentile practice: net worths, the 80th percentile and the retail stores",
+  "order": 206,
+  "summary": "Worked percentile problems from the deck: the 20 net worths, the 80th percentile of 70 values and what it means, the stem-leaf plot, and the 15 retail stores practice problem.",
+  "est_minutes": 35,
+  "difficulty": 3,
+  "source_refs": [
+    "qtm--module-2-1#24",
+    "qtm--module-2-1#23",
+    "qtm--module-2-1#16",
+    "qtm--module-2-1#27",
+    "qtm--module-2-1#25",
+    "qtm--module-2-1#26",
+    "qtm--module-2-1#22",
+    "qtm--module-2-1#30",
+    "qtm--module-2-1#28",
+    "qtm--module-2-1#5",
+    "qtm--module-2-1#13",
+    "qtm--module-2-1#21"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "qtm-m21-percentile-practice-c1",
+      "heading": "Practice: net worth of the 20 richest individuals",
+      "explanation_md": "The problem: **Forbes** publishes a list of the world's wealthiest individuals. For **2007**, the net worth of the **20 richest individuals**, in **billions of dollars**, in no particular order:\n\n33, 26, 24, 21, 19, 20, 18, 18, 52, 56, 27, 22, 18, 49, 22, 20, 23, 32, 20, 18\n\n**Find the 50th and 80th percentiles.**\n\n**Step 1: sort.** The slide's heading says \"alphabetical order\", but the list it gives is in ascending order, which is what the percentile rule needs:\n\n18, 18, 18, 18, 19, 20, 20, 20, 21, 22, 22, 23, 24, 26, 27, 32, 33, 49, 52, 56\n\n**Step 2: compute the index**, i = (p/100)n, with n = 20.\n\n**Step 3: calculate the percentile.** The slide stops here and prints no final answers, so here they are using its rule:\n\n- **50th:** i = (50/100) × 20 = 10, an integer. Average the 10th and 11th values: (22 + 22)/2 = **22**.\n- **80th:** i = (80/100) × 20 = 16, an integer. Average the 16th and 17th values: (32 + 33)/2 = **32.5**.\n\nA useful check: these 20 values match TABLE 1-2 from the mean, median and mode slide, and 22 is where that dot plot marks the median, as it should be since the 50th percentile is the median.",
+      "example_ids": [
+        "qtm-ex-m21-forbes-net-worth"
+      ],
+      "key_terms": [],
+      "exam_line": "Sort, i = (p/100)n; if i is an integer, average the ith and (i + 1)th values.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m21-percentile-practice-q-5f828482",
+          "type": "mcq",
+          "stem": "What is the 50th percentile of the 20 net worths?",
+          "options": [
+            "22",
+            "21",
+            "23",
+            "26.9"
+          ],
+          "answer": "22",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2-1#24",
+            "qtm--module-2-1#23",
+            "qtm--module-2-1#16"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m21-percentile-practice-q-961e605b",
+          "type": "mcq",
+          "stem": "What is the 80th percentile of the 20 net worths?",
+          "options": [
+            "32.5",
+            "32",
+            "33",
+            "49"
+          ],
+          "answer": "32.5",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2-1#24",
+            "qtm--module-2-1#23"
+          ],
+          "derived": [
+            "32.5"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m21-percentile-practice-q-560f2609",
+          "type": "mcq",
+          "stem": "For the 80th percentile of these 20 values, what is the index i?",
+          "options": [
+            "16",
+            "8",
+            "56",
+            "20"
+          ],
+          "answer": "16",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2-1#24",
+            "qtm--module-2-1#23",
+            "qtm--module-2-1#25"
+          ],
+          "derived": [
+            "16"
+          ],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-2-1#24",
+        "qtm--module-2-1#23",
+        "qtm--module-2-1#16",
+        "qtm--module-2-1#27"
+      ],
+      "derived": [
+        "11",
+        "16",
+        "17",
+        "32.5"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m21-percentile-practice-c2",
+      "heading": "The 80th percentile of 70 values",
+      "explanation_md": "A bigger worked example: **70 data values**, already in **ascending order** (425 up to 615).\n\n**Index:**\n\ni = (p/100) n = (80/100)70 = **56**\n\n56 is an integer, so the rule says: **average the 56th and 57th data values**. In the table those are **535** and **549**.\n\n**80th Percentile = (535 + 549)/2 = 542**",
+      "example_ids": [
+        "qtm-ex-m21-80th-percentile"
+      ],
+      "key_terms": [],
+      "exam_line": "i = (80/100)70 = 56; average the 56th and 57th values: (535 + 549)/2 = 542.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m21-percentile-practice-q-0da44a17",
+          "type": "mcq",
+          "stem": "For the 80th percentile of the 70 values, what is i?",
+          "options": [
+            "56",
+            "57",
+            "70",
+            "80"
+          ],
+          "answer": "56",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2-1#25"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m21-percentile-practice-q-15059bab",
+          "type": "mcq",
+          "stem": "What is the 80th percentile of the 70 values?",
+          "options": [
+            "542",
+            "535",
+            "549",
+            "550"
+          ],
+          "answer": "542",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2-1#25"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m21-percentile-practice-q-1f146822",
+          "type": "true_false",
+          "stem": "Because i = 56 is an integer, the 80th percentile is the average of the 56th and 57th values.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2-1#25",
+            "qtm--module-2-1#23"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-2-1#25",
+        "qtm--module-2-1#23"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m21-percentile-practice-c3",
+      "heading": "What 542 means",
+      "explanation_md": "The next slide circles the values to show the percentile definition in action:\n\n- **\"At least 80% of the items take on a value of 542 or less.\"** The first 56 values (425 up to 535) are below 542: **56/70 = .8 or 80%**.\n- **\"At least 20% of the items take on a value of 542 or more.\"** The last 14 values (549 up to 615) are above it: **14/70 = .2 or 20%**.\n\nThat is exactly the pth percentile definition with p = 80: at least p per cent at or below, at least (100 - p) per cent at or above.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "80th percentile 542: at least 80% of items are 542 or less (56/70), at least 20% are 542 or more (14/70).",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m21-percentile-practice-q-d8da560f",
+          "type": "mcq",
+          "stem": "How many of the 70 values take on a value of 542 or more?",
+          "options": [
+            "14",
+            "56",
+            "20",
+            "70"
+          ],
+          "answer": "14",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2-1#26"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m21-percentile-practice-q-83ab19f6",
+          "type": "fill",
+          "stem": "56/70 = .8 or ____%.",
+          "options": [],
+          "answer": "80",
+          "accept": [
+            "80%"
+          ],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2-1#26"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-2-1#26",
+        "qtm--module-2-1#22"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m21-percentile-practice-c4",
+      "heading": "The stem-leaf plot",
+      "explanation_md": "The deck also shows a **Stem-Leaf Plot** with three columns: **Count**, **Stem** and **Leaf**. The slide gives the plot without any explanation.\n\nSome rows:\n\n| Count | Stem | Leaf |\n|---|---|---|\n| 1 | 42 | 5 |\n| 7 | 43 | 0,0,5,5,5,5,5 |\n| 10 | 44 | 0,0,0,0,0,5,5,5,5,5 |\n| 0 | 56 | (none) |\n| 2 | 61 | 5,5 |\n\nThe stems run from 42 to 61, the Count column says how many leaves sit in each row, and the counts add up to 70.\n\nThe plot lines up with the 70-value table from the 80th percentile slides: stem 42 with leaf 5 reads as 425 (the smallest value), stem 61 with leaves 5,5 as 615 and 615 (the two largest), and stem 44 holds five 440s and five 445s.",
+      "example_ids": [
+        "qtm-ex-m21-stem-leaf"
+      ],
+      "key_terms": [],
+      "exam_line": "Stem-leaf plot: Count, Stem, Leaf columns; stem 42 with leaf 5 is 425, and the counts add up to the number of values.",
+      "clarification": {
+        "term": "stem-leaf plot",
+        "text": "A table that splits each value into a leading part (the stem) and its last digit (the leaf), so every original value can be read back while the shape of the data stays visible."
+      },
+      "check_questions": [
+        {
+          "id": "qtm-m21-percentile-practice-q-1f27bf3b",
+          "type": "mcq",
+          "stem": "In the stem-leaf plot, how many values sit on stem 44?",
+          "options": [
+            "10",
+            "7",
+            "5",
+            "44"
+          ],
+          "answer": "10",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2-1#30"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m21-percentile-practice-q-a1ede044",
+          "type": "mcq",
+          "stem": "Which stem has a count of 0 in the plot?",
+          "options": [
+            "56",
+            "42",
+            "53",
+            "61"
+          ],
+          "answer": "56",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2-1#30"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-2-1#30",
+        "qtm--module-2-1#25"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m21-percentile-practice-c5",
+      "heading": "Practice: 15 retail stores, tasks 1 and 2",
+      "explanation_md": "You are the **manager of a chain of retail stores**. At the end of the financial year you have the **monthly sales (₹ lakhs)** of each of your **15 stores**:\n\n| Store | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 |\n|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|\n| Sales | 28 | 34 | 31 | 41 | 38 | 27 | 32 | 36 | 34 | 30 | 29 | 44 | 35 | 39 | 30 |\n\nThe slide sets four tasks and prints no answers. Here are tasks 1 and 2 worked with the deck's own tools.\n\n**Task 1: stores below the average monthly sales** (they may need support or a revised strategy).\n\nMean = Σxᵢ / n = 508 / 15 = **33.87** (rounded)\n\nStores below 33.87: **store 1 (28), store 3 (31), store 6 (27), store 7 (32), store 10 (30), store 11 (29), store 15 (30)**.\n\n**Task 2: the cluster of stores at a particular figure** (to study their common features: location, management style, product mix).\n\nLook for the value with the greatest frequency, the **mode**. Two values each appear twice: **30** (stores 10 and 15) and **34** (stores 2 and 9). Exactly two modes, so the sales are **bimodal**: two small clusters, not one.",
+      "example_ids": [
+        "qtm-ex-m21-retail-stores"
+      ],
+      "key_terms": [],
+      "exam_line": "Store mean = 508/15 = 33.87; seven stores fall below it. Modes 30 and 34 (bimodal).",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m21-percentile-practice-q-83a97ea4",
+          "type": "mcq",
+          "stem": "What is the average monthly sales per store for the 15 stores?",
+          "options": [
+            "About 33.87",
+            "34",
+            "30",
+            "35"
+          ],
+          "answer": "About 33.87",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2-1#28",
+            "qtm--module-2-1#5"
+          ],
+          "derived": [
+            "33.87"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m21-percentile-practice-q-13265e28",
+          "type": "mcq",
+          "stem": "Which values are the modes of the 15 stores' sales?",
+          "options": [
+            "30 and 34",
+            "34 only",
+            "27 and 44",
+            "30 only"
+          ],
+          "answer": "30 and 34",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2-1#28",
+            "qtm--module-2-1#13"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m21-percentile-practice-q-d8a20ce1",
+          "type": "true_false",
+          "stem": "Store 2, with sales of 34, is below the average monthly sales per store.",
+          "options": [],
+          "answer": "False",
+          "accept": [],
+          "explanation": "The mean is 508/15, about 33.87, and 34 is above it.",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2-1#28"
+          ],
+          "derived": [
+            "508",
+            "33.87"
+          ],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-2-1#28",
+        "qtm--module-2-1#5",
+        "qtm--module-2-1#13"
+      ],
+      "derived": [
+        "508",
+        "33.87"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m21-percentile-practice-c6",
+      "heading": "Practice: 15 retail stores, tasks 3 and 4",
+      "explanation_md": "Sorted sales, with store numbers in brackets:\n\n27 (6), 28 (1), 29 (11), 30 (10), 30 (15), 31 (3), 32 (7), 34 (2), 34 (9), 35 (13), 36 (8), 38 (5), 39 (14), 41 (4), 44 (12)\n\n**Task 3: four groups by quartile.** With n = 15, n + 1 = 16 and the raw-data formulas give:\n\n- Q1 = (16/4)th = 4th term = **30**\n- Q2 = (16/2)th = 8th term = **34** (the median)\n- Q3 = (3 × 16/4)th = 12th term = **38**\n\nStores **below Q1**: store 6 (27), store 1 (28), store 11 (29). These are the lowest-quartile candidates for urgent intervention or training. Stores 10 and 15 sit **exactly on Q1** (30).\n\nStores **above Q3**: store 14 (39), store 4 (41), store 12 (44), the top-quartile group to study for best practices. Store 5 sits **exactly on Q3** (38).\n\nThe slide gives no answer here, and it does not say how to split 15 stores into four equal groups or which group a store sitting exactly on a quartile joins.\n\n**Task 4: the top 10%.** Find the 90th percentile with the index rule:\n\ni = (90/100) × 15 = 13.5, not an integer, so round up to the **14th** value = **41**.\n\nBy the percentile definition, at least 10% of the stores take on a value of 41 or more: **store 4 (41) and store 12 (44)**. Reading \"break into the top 10%\" as these stores is our working; the slide prints no answer.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "Q1 = 30, Q2 = 34, Q3 = 38 (positions 4, 8, 12 when n = 15). 90th percentile: i = 13.5, round up to the 14th value, 41: stores 4 and 12.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m21-percentile-practice-q-d496c600",
+          "type": "mcq",
+          "stem": "Using Q1 = ((n + 1)/4)th term, what is Q1 of the 15 stores' sales?",
+          "options": [
+            "30",
+            "29",
+            "31",
+            "34"
+          ],
+          "answer": "30",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2-1#28",
+            "qtm--module-2-1#21"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m21-percentile-practice-q-d33e1675",
+          "type": "mcq",
+          "stem": "Using the index rule, which stores reach the top 10% (the 90th percentile of 41 or more)?",
+          "options": [
+            "Stores 4 and 12",
+            "Store 12 only",
+            "Stores 4, 12 and 14",
+            "Stores 5, 4 and 12"
+          ],
+          "answer": "Stores 4 and 12",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2-1#28",
+            "qtm--module-2-1#23",
+            "qtm--module-2-1#22"
+          ],
+          "derived": [
+            "90"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m21-percentile-practice-q-2e01d823",
+          "type": "true_false",
+          "stem": "The practice problem slide prints the answers to its four tasks.",
+          "options": [],
+          "answer": "False",
+          "accept": [],
+          "explanation": "It only sets the tasks; the answers here are worked using the deck's formulas.",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2-1#28"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-2-1#28",
+        "qtm--module-2-1#21",
+        "qtm--module-2-1#23",
+        "qtm--module-2-1#22"
+      ],
+      "derived": [
+        "16",
+        "90",
+        "13.5"
+      ],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "qtm-m21-percentile-practice-f1",
+      "front": "Net worth practice problem: what is asked?",
+      "back": "Forbes 2007 net worth of the 20 richest individuals (billions of dollars): find the 50th and 80th percentiles.",
+      "kind": "example",
+      "source_refs": [
+        "qtm--module-2-1#24"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m21-percentile-practice-f2",
+      "front": "80th percentile of the 70 values",
+      "back": "i = (80/100)70 = 56; average the 56th and 57th values: (535 + 549)/2 = 542.",
+      "kind": "example",
+      "source_refs": [
+        "qtm--module-2-1#25"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m21-percentile-practice-f3",
+      "front": "What does an 80th percentile of 542 mean?",
+      "back": "At least 80% of the items take on a value of 542 or less (56/70); at least 20% take on 542 or more (14/70).",
+      "kind": "fact",
+      "source_refs": [
+        "qtm--module-2-1#26"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m21-percentile-practice-f4",
+      "front": "Why average two values when i = 56?",
+      "back": "Because i is an integer: the pth percentile is the average of the values in the ith and (i + 1)th positions.",
+      "kind": "fact",
+      "source_refs": [
+        "qtm--module-2-1#23",
+        "qtm--module-2-1#25"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m21-percentile-practice-f5",
+      "front": "Columns of the stem-leaf plot",
+      "back": "Count, Stem and Leaf.",
+      "kind": "fact",
+      "source_refs": [
+        "qtm--module-2-1#30"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m21-percentile-practice-f6",
+      "front": "Retail stores practice: the four tasks",
+      "back": "1. Stores below the average monthly sales. 2. The cluster of stores at a particular figure. 3. Four equal groups by quartile (lowest Q1, top Q4). 4. Stores in the top 10% for rewards.",
+      "kind": "list",
+      "source_refs": [
+        "qtm--module-2-1#28"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [],
+  "explain_back": {
+    "prompt": "Walk through how the deck finds the 80th percentile of the 70 values, and explain what the answer means.",
+    "rubric": [
+      {
+        "point": "The data must be in ascending order",
+        "source_ref": "qtm--module-2-1#25"
+      },
+      {
+        "point": "i = (80/100)70 = 56",
+        "source_ref": "qtm--module-2-1#25"
+      },
+      {
+        "point": "i is an integer, so average the 56th and 57th values: (535 + 549)/2 = 542",
+        "source_ref": "qtm--module-2-1#25"
+      },
+      {
+        "point": "At least 80% of the items are 542 or less (56/70) and at least 20% are 542 or more (14/70)",
+        "source_ref": "qtm--module-2-1#26"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

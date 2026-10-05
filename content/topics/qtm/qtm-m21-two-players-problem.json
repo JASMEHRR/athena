@@ -1,0 +1,462 @@
+{
+  "id": "qtm-m21-two-players-problem",
+  "subject_id": "qtm",
+  "deck_id": "qtm--module-2-1",
+  "title": "The 2 Players' Problem: mean, median and mode side by side",
+  "order": 203,
+  "summary": "Working the professor's two-player runs data through the mean, median and mode, and reading all three on one dot plot.",
+  "est_minutes": 25,
+  "difficulty": 2,
+  "source_refs": [
+    "qtm--module-2-1#7",
+    "qtm--module-2-1#5",
+    "qtm--module-2-1#11",
+    "qtm--module-2-1#10",
+    "qtm--module-2-1#8",
+    "qtm--module-2-1#14",
+    "qtm--module-2-1#13",
+    "qtm--module-2-1#16"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "qtm-m21-two-players-problem-c1",
+      "heading": "The data, and the same mean twice",
+      "explanation_md": "The slide gives the **runs scored by two players in different matches**, 20 matches each:\n\n- **Player-1:** 78, 2, 67, 45, 8, 0, 4, 78, 90, 3, 12, 12, 56, 3, 4, 5, 90, 90, 4, 4\n- **Player-2:** 45, 25, 35, 45, 27, 45, 32, 45, 26, 30, 28, 31, 32, 38, 37, 26, 26, 27, 28, 27\n\nStart with the **mean**, X̄ = Σxᵢ / n, with n = 20 for each player.\n\n**Player-1:** Σxᵢ = 655, so X̄ = 655 / 20 = **32.75**\n\n**Player-2:** Σxᵢ = 655, so X̄ = 655 / 20 = **32.75**\n\nSame total, same mean. If you only looked at the average, the two players would look identical. Now look at the raw numbers again: they clearly are not.",
+      "example_ids": [
+        "qtm-ex-m21-two-players"
+      ],
+      "key_terms": [],
+      "exam_line": "Both players' runs add to the same total, so the mean alone cannot tell the two players apart.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m21-two-players-problem-q-c39fafff",
+          "type": "mcq",
+          "stem": "Using X̄ = Σxᵢ / n on the 20 scores, what is Player-1's mean?",
+          "options": [
+            "32.75",
+            "45",
+            "10",
+            "90"
+          ],
+          "answer": "32.75",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2-1#7",
+            "qtm--module-2-1#5"
+          ],
+          "derived": [
+            "32.75"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m21-two-players-problem-q-a1ee63f7",
+          "type": "true_false",
+          "stem": "Player-1 and Player-2 have the same mean runs.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "Both sets of scores add to 655, and 655 / 20 = 32.75 for each.",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2-1#7"
+          ],
+          "derived": [
+            "655",
+            "32.75"
+          ],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-2-1#7",
+        "qtm--module-2-1#5"
+      ],
+      "derived": [
+        "655",
+        "32.75"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m21-two-players-problem-c2",
+      "heading": "Mean and median: the first question",
+      "explanation_md": "The next slide repeats the tables and asks: **\"What is observation made by you from Mean and Median?\"** The slide prints no answer; it is for you to work out.\n\n**Median** (n = 20 is even, so average the (n/2)th and (n/2 + 1)th terms, the 10th and 11th):\n\n- Player-1 in ascending order: 0, 2, 3, 3, 4, 4, 4, 4, 5, **8**, **12**, 12, 45, 56, 67, 78, 78, 90, 90, 90. Median = (8 + 12)/2 = **10**\n- Player-2 in ascending order: 25, 26, 26, 26, 27, 27, 27, 28, 28, **30**, **31**, 32, 32, 35, 37, 38, 45, 45, 45, 45. Median = (30 + 31)/2 = **30.5**\n\n**What the numbers show:**\n\n- Player-1: mean 32.75 but median only 10. In half of the matches Player-1 scored 8 runs or fewer; a handful of big scores (90, 90, 90, 78, 78, 67, 56) lift the mean.\n- Player-2: mean 32.75 and median 30.5, close together. All scores sit between 25 and 45.\n\nThis is the median slide's point in action: **a few extremely large values can inflate the mean**, and **whenever a data set has extreme values, the median is the preferred measure of central location**.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "Same mean, very different medians: Player-1's few big scores inflate the mean, so the median shows the typical score better.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m21-two-players-problem-q-debf164e",
+          "type": "mcq",
+          "stem": "What is Player-1's median runs?",
+          "options": [
+            "10",
+            "32.75",
+            "8",
+            "12"
+          ],
+          "answer": "10",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2-1#11",
+            "qtm--module-2-1#7",
+            "qtm--module-2-1#10"
+          ],
+          "derived": [
+            "32.75"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m21-two-players-problem-q-7ef0487a",
+          "type": "mcq",
+          "stem": "What is Player-2's median runs?",
+          "options": [
+            "30.5",
+            "32.75",
+            "45",
+            "28"
+          ],
+          "answer": "30.5",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2-1#11",
+            "qtm--module-2-1#7",
+            "qtm--module-2-1#10"
+          ],
+          "derived": [
+            "30.5",
+            "32.75"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m21-two-players-problem-q-edc279d0",
+          "type": "true_false",
+          "stem": "The slide asking for your observation from the mean and median prints its own answer.",
+          "options": [],
+          "answer": "False",
+          "accept": [],
+          "explanation": "It only asks the question; you work out the answer.",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2-1#11"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-2-1#11",
+        "qtm--module-2-1#7",
+        "qtm--module-2-1#10",
+        "qtm--module-2-1#8"
+      ],
+      "derived": [
+        "32.75",
+        "30.5",
+        "11"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m21-two-players-problem-c3",
+      "heading": "Adding the mode: the second question",
+      "explanation_md": "The third version of the slide asks: **\"What is observation made by you from Mean, Median and Mode?\"** Again, no answer is printed.\n\n**Mode** (the value with the greatest frequency):\n\n- Player-1: **4** appears four times (90 appears three times). Mode = **4**.\n- Player-2: **45** appears four times (26 and 27 appear three times each). Mode = **45**.\n\nPut the three measures together:\n\n| | Mean | Median | Mode |\n|---|---|---|---|\n| Player-1 | 32.75 | 10 | 4 |\n| Player-2 | 32.75 | 30.5 | 45 |\n\nThe means match, but the median and mode tell very different stories about the two players. The deck asks you to look at all three, not just the average.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "Both players have the same mean but very different medians and modes, so the three measures can tell different stories.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m21-two-players-problem-q-415c482f",
+          "type": "mcq",
+          "stem": "What is the mode of Player-2's runs?",
+          "options": [
+            "45",
+            "26",
+            "27",
+            "32.75"
+          ],
+          "answer": "45",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2-1#14",
+            "qtm--module-2-1#7",
+            "qtm--module-2-1#13"
+          ],
+          "derived": [
+            "32.75"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m21-two-players-problem-q-e4ad5d34",
+          "type": "mcq",
+          "stem": "What is the mode of Player-1's runs?",
+          "options": [
+            "4",
+            "90",
+            "3",
+            "12"
+          ],
+          "answer": "4",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2-1#14",
+            "qtm--module-2-1#7",
+            "qtm--module-2-1#13"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-2-1#14",
+        "qtm--module-2-1#13",
+        "qtm--module-2-1#7"
+      ],
+      "derived": [
+        "32.75",
+        "30.5"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m21-two-players-problem-c4",
+      "heading": "Mean, median and mode on one dot plot",
+      "explanation_md": "This slide shows all three measures on one picture.\n\n**TABLE 1-2** lists each data value with its frequency: **18 (4)**, 19 (1), 20 (3), 21 (1), 22 (2), 23 (1), 24 (1), 26 (1), 27 (1), 32 (1), 33 (1), 49 (1), 52 (1), 56 (1).\n\nThe **dot plot** stacks one dot per value on an axis from 18 to 56, and marks:\n\n- **Mode** under **18**: the tallest stack, four dots (greatest frequency).\n- **Median** under the 22 area.\n- **Mean (26.9)** between 26 and 28.\n\nCheck the mean yourself: the frequencies add to 20 values, and the values add to 538, so 538 / 20 = **26.9**.\n\nLook at where the dots sit: most between 18 and 33, and three far to the right at **49, 52 and 56**. The mean is the measure furthest to the right. Link it back to the median slide: a few extremely large values can inflate the mean.",
+      "example_ids": [
+        "qtm-ex-m21-frequency-table"
+      ],
+      "key_terms": [],
+      "exam_line": "On the Table 1-2 dot plot: Mode at 18, Median near 22, Mean 26.9, with three large values (49, 52, 56) far to the right.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m21-two-players-problem-q-0979717a",
+          "type": "mcq",
+          "stem": "In Table 1-2, which value is marked as the mode?",
+          "options": [
+            "18",
+            "22",
+            "26.9",
+            "56"
+          ],
+          "answer": "18",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2-1#16"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m21-two-players-problem-q-5528f43e",
+          "type": "mcq",
+          "stem": "What mean does the dot plot show for Table 1-2?",
+          "options": [
+            "26.9",
+            "18",
+            "22",
+            "32"
+          ],
+          "answer": "26.9",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2-1#16"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m21-two-players-problem-q-7caf0a0b",
+          "type": "fill",
+          "stem": "On the dot plot, the measure with the tallest stack of dots, at 18, is the ____.",
+          "options": [],
+          "answer": "mode",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2-1#16"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-2-1#16",
+        "qtm--module-2-1#8"
+      ],
+      "derived": [
+        "538",
+        "20"
+      ],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "qtm-m21-two-players-problem-f1",
+      "front": "2 Players' Problem: what do the slides ask?",
+      "back": "What observation do you make from the mean and median, and then from the mean, median and mode, of the runs scored by Player-1 and Player-2? The slides print no answer.",
+      "kind": "example",
+      "source_refs": [
+        "qtm--module-2-1#11",
+        "qtm--module-2-1#14"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m21-two-players-problem-f2",
+      "front": "Table 1-2 dot plot: where are the three measures?",
+      "back": "Mode at 18 (tallest stack), Median near 22, Mean at 26.9, with three far values at 49, 52 and 56.",
+      "kind": "example",
+      "source_refs": [
+        "qtm--module-2-1#16"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m21-two-players-problem-f3",
+      "front": "Table 1-2: which value has the greatest frequency?",
+      "back": "18, with frequency 4, so it is the mode.",
+      "kind": "fact",
+      "source_refs": [
+        "qtm--module-2-1#16"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m21-two-players-problem-f4",
+      "front": "Why can the mean and median of the same data be far apart?",
+      "back": "A few extremely large values can inflate the mean; with extreme values the median is the preferred measure.",
+      "kind": "fact",
+      "source_refs": [
+        "qtm--module-2-1#8"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m21-two-players-problem-f5",
+      "front": "Three steps to compare two data sets on centre",
+      "back": "Mean = Σxᵢ / n; median = middle value after sorting (average of the middle two for an even count); mode = value with the greatest frequency.",
+      "kind": "list",
+      "source_refs": [
+        "qtm--module-2-1#5",
+        "qtm--module-2-1#10",
+        "qtm--module-2-1#13"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [],
+  "explain_back": {
+    "prompt": "Using the 2 Players' Problem, explain what you learn by looking at the mean, the median and the mode of each player's runs.",
+    "rubric": [
+      {
+        "point": "Mean = Σxᵢ / n for each player; both come out the same, so the mean alone cannot separate them",
+        "source_ref": "qtm--module-2-1#7"
+      },
+      {
+        "point": "Median: sort the scores and average the middle two; Player-1's median is far below its mean, Player-2's is close to its mean",
+        "source_ref": "qtm--module-2-1#11"
+      },
+      {
+        "point": "Mode: Player-1's most frequent score is very low, Player-2's is high",
+        "source_ref": "qtm--module-2-1#14"
+      },
+      {
+        "point": "A few extremely large values can inflate the mean, so with extreme values the median is preferred",
+        "source_ref": "qtm--module-2-1#8"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

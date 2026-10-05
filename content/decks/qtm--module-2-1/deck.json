@@ -5,7 +5,7 @@
   "source": "college",
   "file_type": "pdf",
   "sha256": "b3a040f6240cf3770ef6e0f2a69b5fb3e7769aac47fec6d944545093149e0cd8",
-  "title": "Module 2.1",
+  "title": "Module 2.1: Measures of Central Tendency",
   "order": 2,
   "duplicates": [
     "college:study material/THAPAR MBA/THAPAR MBA/Quantitative Techniques for Managers/Module 2.1.pdf"
@@ -14,7 +14,7 @@
   "slides": [
     {
       "n": 1,
-      "kind": "content",
+      "kind": "title",
       "title": "",
       "text": "OP5302 Quantitative Techniques for Managers\nDr. Mohammad Faisal Noor/Dr. Manjot Singh Bhatia\nModule 2.1\nOP5302 Quantitative Techniques for Managers\nDr. Mohammad Faisal Noor/Dr. Manjot Singh Bhatia\nDr. Mo | Dr. Mo\nModule 2.1",
       "bullets": [],
@@ -52,13 +52,13 @@
       ],
       "notes": "",
       "charts": [],
-      "visual_text": "",
+      "visual_text": "Title slide: OP5302 Quantitative Techniques for Managers, Dr. Mohammad Faisal Noor/Dr. Manjot Singh Bhatia, Module 2.1, with the school and institute logos and the line Seeking Excellence Together.",
       "images": [
         "slides/qtm--module-2-1/img-a132cbeca9786572.jpeg",
         "slides/qtm--module-2-1/img-530a7c3cad651676.jpeg"
       ],
       "render": "slides/qtm--module-2-1/slide-001.jpg",
-      "needs_visual": true,
+      "needs_visual": false,
       "word_count": 34
     },
     {
@@ -94,7 +94,7 @@
       ],
       "notes": "",
       "charts": [],
-      "visual_text": "",
+      "visual_text": "Five bullets: Mean, Median, Mode (in bold), then Percentiles and Quartiles (in italics). A curly brace groups Mean, Median and Mode with the label Central tendency score.",
       "images": [],
       "render": "slides/qtm--module-2-1/slide-002.jpg",
       "needs_visual": true,
@@ -200,7 +200,7 @@
       ],
       "notes": "",
       "charts": [],
-      "visual_text": "",
+      "visual_text": "Two boxed formulas with callouts. Sample mean: X̄ = Σxᵢ / n, where Σxᵢ is the sum of the values of the n observations and n is the number of observations in the sample. Population mean: μ = Σxᵢ / N, where Σxᵢ is the sum of the values of the N observations and N is the number of observations in the population.",
       "images": [],
       "render": "slides/qtm--module-2-1/slide-005.jpg",
       "needs_visual": true,
@@ -228,7 +228,7 @@
       ],
       "notes": "",
       "charts": [],
-      "visual_text": "",
+      "visual_text": "Activity slide: Class Height Exercise, with two bullets: Population Mean and Sample Mean. No data is printed on the slide.",
       "images": [],
       "render": "slides/qtm--module-2-1/slide-006.jpg",
       "needs_visual": true,
@@ -264,7 +264,7 @@
       ],
       "notes": "",
       "charts": [],
-      "visual_text": "",
+      "visual_text": "Two tables of runs scored by players in different matches, 20 matches each. Player-1: 78, 2, 67, 45, 8, 0, 4, 78, 90, 3, 12, 12, 56, 3, 4, 5, 90, 90, 4, 4. Player-2: 45, 25, 35, 45, 27, 45, 32, 45, 26, 30, 28, 31, 32, 38, 37, 26, 26, 27, 28, 27.",
       "images": [],
       "render": "slides/qtm--module-2-1/slide-007.jpg",
       "needs_visual": true,
@@ -336,7 +336,7 @@
       ],
       "notes": "",
       "charts": [],
-      "visual_text": "",
+      "visual_text": "For an odd number of observations: the 7 observations 26, 18, 27, 12, 14, 27, 19 are rearranged in ascending order as 12, 14, 18, 19, 26, 27, 27, with 19 circled in red as the middle value. Formula shown: Median = ((n + 1)/2)th term. Result: Median = 19.",
       "images": [],
       "render": "slides/qtm--module-2-1/slide-009.jpg",
       "needs_visual": true,
@@ -372,7 +372,7 @@
       ],
       "notes": "",
       "charts": [],
-      "visual_text": "",
+      "visual_text": "For an even number of observations: the 8 observations 26, 18, 27, 12, 14, 27, 30, 19 are rearranged in ascending order as 12, 14, 18, 19, 26, 27, 27, 30, with 19 and 26 circled together as the middle two values. Formula shown: Median = ((n/2)th term + (n/2 + 1)th term) / 2. Result: Median = (19 + 26)/2 = 22.5.",
       "images": [],
       "render": "slides/qtm--module-2-1/slide-010.jpg",
       "needs_visual": true,
@@ -408,7 +408,7 @@
       ],
       "notes": "",
       "charts": [],
-      "visual_text": "",
+      "visual_text": "The same two tables of runs as the first 2 Players' Problem slide. Player-1: 78, 2, 67, 45, 8, 0, 4, 78, 90, 3, 12, 12, 56, 3, 4, 5, 90, 90, 4, 4. Player-2: 45, 25, 35, 45, 27, 45, 32, 45, 26, 30, 28, 31, 32, 38, 37, 26, 26, 27, 28, 27. Question below: What is observation made by you from Mean and Median.",
       "images": [],
       "render": "slides/qtm--module-2-1/slide-011.jpg",
       "needs_visual": false,
@@ -436,7 +436,7 @@
       ],
       "notes": "",
       "charts": [],
-      "visual_text": "",
+      "visual_text": "Activity slide: Class Height Exercise, with one bullet: Median. No data is printed on the slide.",
       "images": [],
       "render": "slides/qtm--module-2-1/slide-012.jpg",
       "needs_visual": true,
@@ -508,7 +508,7 @@
       ],
       "notes": "",
       "charts": [],
-      "visual_text": "",
+      "visual_text": "The same two tables of runs again. Player-1: 78, 2, 67, 45, 8, 0, 4, 78, 90, 3, 12, 12, 56, 3, 4, 5, 90, 90, 4, 4. Player-2: 45, 25, 35, 45, 27, 45, 32, 45, 26, 30, 28, 31, 32, 38, 37, 26, 26, 27, 28, 27. Question below: What is observation made by you from Mean, Median and Mode.",
       "images": [],
       "render": "slides/qtm--module-2-1/slide-014.jpg",
       "needs_visual": false,
@@ -536,7 +536,7 @@
       ],
       "notes": "",
       "charts": [],
-      "visual_text": "",
+      "visual_text": "Activity slide: Class Height Exercise, with one bullet: Mode. No data is printed on the slide.",
       "images": [],
       "render": "slides/qtm--module-2-1/slide-015.jpg",
       "needs_visual": true,
@@ -551,7 +551,7 @@
       "tables": [],
       "notes": "",
       "charts": [],
-      "visual_text": "",
+      "visual_text": "Left: TABLE 1-2, Frequencies of Occurrence of Data Values in Example 1-2. Value and frequency: 18 (4), 19 (1), 20 (3), 21 (1), 22 (2), 23 (1), 24 (1), 26 (1), 27 (1), 32 (1), 33 (1), 49 (1), 52 (1), 56 (1). Right: a dot plot of the same values on an x axis from 18 to 56, one dot per data value. Labels under the axis: Mode under 18 (the tallest stack, four dots), Median under the 22 area, and Mean (26.9) between 26 and 28. Most dots sit between 18 and 33, with three far to the right at 49, 52 and 56.",
       "images": [
         "slides/qtm--module-2-1/img-b5ca9123d70c946b.jpeg",
         "slides/qtm--module-2-1/img-2071b6793b9ce3c3.jpeg"
@@ -582,7 +582,7 @@
       ],
       "notes": "",
       "charts": [],
-      "visual_text": "",
+      "visual_text": "A tree diagram. In the picture the boxes render empty, but the slide's text fills them: Data splits into Qualitative and Quantitative. Qualitative splits into Nominal and Ordinal; Quantitative splits into Discrete and Continuous. Coloured labels beside the leaves: Nominal: Mode. Ordinal: Mode, Median. Discrete and Continuous (one brace for both): Mode, Median, Mean.",
       "images": [],
       "render": "slides/qtm--module-2-1/slide-017.jpg",
       "needs_visual": true,
@@ -597,7 +597,7 @@
       "tables": [],
       "notes": "",
       "charts": [],
-      "visual_text": "",
+      "visual_text": "A table titled Which Measure to Use? with columns Measures of Central Tendency, Pros and Cons. Mean: pros, takes all the values into account, sensitive and reliable; cons, biased in presence of extreme values. Median: pros, not effected by extreme values; cons, less sensitive than mean. Mode (only way to represent Nominal data): pros, not effected by extreme values and can be used for qualitative data; cons, it can take multiple values or no value at all, less sensitive than mean.",
       "images": [
         "slides/qtm--module-2-1/img-1ae74baa77f9a8a0.jpeg"
       ],
@@ -629,7 +629,7 @@
       ],
       "notes": "",
       "charts": [],
-      "visual_text": "",
+      "visual_text": "Beside the two supplier lists, two dot plots. Set I: dots at 1, 2, 3, 4, 5, 6 (two dots), 7, 8, 9, 10, 11, a triangle under 6, labelled Mean = Median = Mode = 6, with a brace saying Data are spread out. Set II: dots at 4, 5 (three), 6 (four), 7 (three), 8, a triangle under 6, labelled Mean = Median = Mode = 6, with a brace saying Data are clustered together.",
       "images": [
         "slides/qtm--module-2-1/img-b6bfb9a4aa119dcc.jpeg"
       ],
@@ -659,7 +659,7 @@
       ],
       "notes": "",
       "charts": [],
-      "visual_text": "",
+      "visual_text": "A number line from Min to Max with marks at Q1, Median (also labelled Q2) and Q3. Braces above: 25% from Min to Q1, and 75% from Min to Q3. Braces below: 50% from Min to the Median, and 50% from the Median to Max.",
       "images": [],
       "render": "slides/qtm--module-2-1/slide-020.jpg",
       "needs_visual": true,
@@ -687,7 +687,7 @@
       ],
       "notes": "",
       "charts": [],
-      "visual_text": "",
+      "visual_text": "Left, For ungrouped data (Raw): Q1 = ((n + 1)/4)th term; Q2 = ((n + 1)/2)th term (Median); Q3 = (3(n + 1)/4)th term. Right, For grouped data (Class Intervals): Qk = L + ((k · n/4 - F)/f) · h, where Qk is the k-th quartile (k = 1, 2, 3), L is the lower boundary of the quartile class, n is the total frequency, F is the cumulative frequency before the quartile class, f is the frequency of the quartile class, and h is the width of the class interval. Bottom: Interquartile Range (IQR) = Q3 - Q1, with Purpose of IQR: measures the spread of the middle 50% of the data; useful for identifying outliers and understanding data variability; less affected by extreme values than the range.",
       "images": [
         "slides/qtm--module-2-1/img-c6749ae5bfcc3388.jpeg"
       ],
@@ -833,7 +833,7 @@
       ],
       "notes": "",
       "charts": [],
-      "visual_text": "",
+      "visual_text": "Working: i = (p/100) n = (80/100)70 = 56. Averaging the 56th and 57th data values: 80th Percentile = (535 + 549)/2 = 542. Below, a table of 70 values in ascending order, 10 per row: 425, 430, 430, 435, 435, 435, 435, 435, 440, 440 / 440, 440, 440, 445, 445, 445, 445, 445, 450, 450 / 450, 450, 450, 450, 450, 460, 460, 460, 465, 465 / 465, 470, 470, 472, 475, 475, 475, 480, 480, 480 / 480, 485, 490, 490, 490, 500, 500, 500, 500, 510 / 510, 515, 525, 525, 525, 535, 549, 550, 570, 570 / 575, 575, 580, 590, 600, 600, 600, 600, 615, 615. Note: Data is in ascending order.",
       "images": [
         "slides/qtm--module-2-1/img-d12394b4b771dbf1.jpeg"
       ],
@@ -863,7 +863,7 @@
       ],
       "notes": "",
       "charts": [],
-      "visual_text": "",
+      "visual_text": "The same table of 70 values. A thick outline encloses the first 56 values (425 up to 535), with the callout: At least 80% of the items take on a value of 542 or less, 56/70 = .8 or 80%. An arrow points to the last 14 values (549 up to 615), with the callout: At least 20% of the items take on a value of 542 or more, 14/70 = .2 or 20%.",
       "images": [
         "slides/qtm--module-2-1/img-c34dfd8eaec91937.jpeg"
       ],
@@ -1037,7 +1037,7 @@
       ],
       "notes": "",
       "charts": [],
-      "visual_text": "",
+      "visual_text": "Practice Problem. You are the manager of a chain of retail stores. At the end of the financial year, you collect the monthly sales figures (in lakhs of rupees) for each of your 15 stores. Table of Store and Monthly Sales (₹ lakhs): 1: 28, 2: 34, 3: 31, 4: 41, 5: 38, 6: 27, 7: 32, 8: 36, 9: 34, 10: 30, 11: 29, 12: 44, 13: 35, 14: 39, 15: 30. Four tasks: 1. Stores consistently below the average monthly sales per store may need support or a revised strategy; identify those stores. 2. If several stores cluster at a particular figure, investigate what common feature these stores have (location, management style, product mix) to replicate success elsewhere; identify the cluster of such stores. 3. Divide the stores into four equal groups based on sales; stores in the lowest quartile (Q1) might need urgent intervention or training, top quartile (Q4) performers can be studied for best practices. 4. Create special rewards for stores that break into the top 10% to get performance incentives; identify the stores for this reward.",
       "images": [],
       "render": "slides/qtm--module-2-1/slide-028.jpg",
       "needs_visual": false,
@@ -1130,7 +1130,7 @@
       "tables": [],
       "notes": "",
       "charts": [],
-      "visual_text": "",
+      "visual_text": "A table titled Stem-Leaf Plot with columns Count, Stem and Leaf. 1, 42: 5. 7, 43: 0,0,5,5,5,5,5. 10, 44: 0,0,0,0,0,5,5,5,5,5. 7, 45: 0,0,0,0,0,0,0. 6, 46: 0,0,0,5,5,5. 6, 47: 0,0,2,5,5,5. 5, 48: 0,0,0,0,5. 3, 49: 0,0,0. 4, 50: 0,0,0,0. 3, 51: 0,0,5. 3, 52: 5,5,5. 1, 53: 5. 1, 54: 9. 1, 55: 0. 0, 56: (none). 4, 57: 0,0,5,5. 1, 58: 0. 1, 59: 0. 4, 60: 0,0,0,0. 2, 61: 5,5.",
       "images": [
         "slides/qtm--module-2-1/img-e3bd89dcc0c828bf.jpeg"
       ],

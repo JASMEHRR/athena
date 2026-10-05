@@ -691,5 +691,202 @@
     ],
     "needs_check": false,
     "retired": false
+  },
+  {
+    "id": "qtm-ex-m21-class-height",
+    "deck_id": "qtm--module-2-1",
+    "slide": 6,
+    "label": "Class Height Exercise",
+    "text": "A class activity repeated through the deck: work out the population mean and sample mean, then the median, then the mode of the class's heights. No data is printed on the slides.",
+    "kind": "illustration",
+    "taught_in": [
+      "qtm-m21-mean-c4",
+      "qtm-m21-median-and-mode-c5"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "qtm-ex-m21-two-players",
+    "deck_id": "qtm--module-2-1",
+    "slide": 7,
+    "label": "2 Players' Problem",
+    "text": "Runs scored by Player-1 and Player-2 in different matches, shown in two tables. The deck asks what you observe from the mean and median, and then from the mean, median and mode.",
+    "kind": "numeric",
+    "taught_in": [
+      "qtm-m21-two-players-problem-c1"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "qtm-ex-m21-odd-median",
+    "deck_id": "qtm--module-2-1",
+    "slide": 9,
+    "label": "Median of 7 observations",
+    "text": "26, 18, 27, 12, 14, 27, 19 in ascending order is 12, 14, 18, 19, 26, 27, 27, so the median is the middle value, 19.",
+    "kind": "numeric",
+    "taught_in": [
+      "qtm-m21-median-and-mode-c2"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "qtm-ex-m21-even-median",
+    "deck_id": "qtm--module-2-1",
+    "slide": 10,
+    "label": "Median of 8 observations",
+    "text": "26, 18, 27, 12, 14, 27, 30, 19 in ascending order is 12, 14, 18, 19, 26, 27, 27, 30; the median is the average of the middle two values, (19 + 26)/2 = 22.5.",
+    "kind": "numeric",
+    "taught_in": [
+      "qtm-m21-median-and-mode-c3"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "qtm-ex-m21-income-property",
+    "deck_id": "qtm--module-2-1",
+    "slide": 8,
+    "label": "Annual income and property values",
+    "text": "The median is the measure of location most often (not always) reported for annual income and property value data, because a few extremely large incomes or property values can inflate the mean.",
+    "kind": "illustration",
+    "taught_in": [
+      "qtm-m21-median-and-mode-c1"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "qtm-ex-m21-frequency-table",
+    "deck_id": "qtm--module-2-1",
+    "slide": 16,
+    "label": "Table 1-2 and its dot plot",
+    "text": "A frequency table of data values from 18 to 56 with a dot plot marking the mode at 18, the median near 22 and the mean at 26.9.",
+    "kind": "numeric",
+    "taught_in": [
+      "qtm-m21-two-players-problem-c4"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "qtm-ex-m21-supplier-sets",
+    "deck_id": "qtm--module-2-1",
+    "slide": 19,
+    "label": "Supplier-1 and Supplier-2",
+    "text": "Supplier-1: 1,2,3,4,5,6,6,7,8,9,10,11. Supplier-2: 4,5,5,5,6,6,6,6,7,7,7,8. Both have Mean = Median = Mode = 6, but the first set is spread out and the second is clustered together.",
+    "kind": "numeric",
+    "taught_in": [
+      "qtm-m21-mean-c3",
+      "qtm-m21-choosing-a-measure-c3"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "qtm-ex-m21-ceo-salary",
+    "deck_id": "qtm--module-2-1",
+    "slide": 29,
+    "label": "CEO salary and the mean",
+    "text": "If the CEO earns ₹10 crore and others average ₹6 lakh, the mean salary could mislead stakeholders.",
+    "kind": "illustration",
+    "taught_in": [
+      "qtm-m21-choosing-a-measure-c4"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "qtm-ex-m21-median-home-price",
+    "deck_id": "qtm--module-2-1",
+    "slide": 29,
+    "label": "Median home price",
+    "text": "Median home price is often used by realtors because it is not inflated by a few luxury homes.",
+    "kind": "illustration",
+    "taught_in": [
+      "qtm-m21-choosing-a-measure-c4"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "qtm-ex-m21-tshirt-menu",
+    "deck_id": "qtm--module-2-1",
+    "slide": 29,
+    "label": "T-shirt sizes and menu combos",
+    "text": "Fashion retail: the most sold t-shirt size (mode) guides inventory purchases. Restaurant menu: the mode meal ordered helps design new combos.",
+    "kind": "illustration",
+    "taught_in": [
+      "qtm-m21-choosing-a-measure-c4"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "qtm-ex-m21-choosing-cases",
+    "deck_id": "qtm--module-2-1",
+    "slide": 31,
+    "label": "Three situations, three measures",
+    "text": "Employees' salaries (skewed, most earn ₹40k but the CEO earns ₹8L): median. Best-selling product size (size M t-shirts): mode. Daily sales in a stable market (supermarket with consistent sales): mean.",
+    "kind": "illustration",
+    "taught_in": [
+      "qtm-m21-choosing-a-measure-c5"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "qtm-ex-m21-forbes-net-worth",
+    "deck_id": "qtm--module-2-1",
+    "slide": 24,
+    "label": "Net worth of the 20 richest individuals",
+    "text": "Forbes list for 2007: the net worth of the 20 richest individuals in billions of dollars (33, 26, 24, 21, 19, 20, 18, 18, 52, 56, 27, 22, 18, 49, 22, 20, 23, 32, 20, 18). Find the 50th and 80th percentiles.",
+    "kind": "numeric",
+    "taught_in": [
+      "qtm-m21-percentile-practice-c1"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "qtm-ex-m21-80th-percentile",
+    "deck_id": "qtm--module-2-1",
+    "slide": 25,
+    "label": "80th percentile of 70 values",
+    "text": "For 70 values in ascending order, i = (80/100)70 = 56, so the 80th percentile is the average of the 56th and 57th values: (535 + 549)/2 = 542.",
+    "kind": "numeric",
+    "taught_in": [
+      "qtm-m21-percentile-practice-c2"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "qtm-ex-m21-stem-leaf",
+    "deck_id": "qtm--module-2-1",
+    "slide": 30,
+    "label": "Stem-leaf plot",
+    "text": "A stem-leaf plot with Count, Stem and Leaf columns, stems from 42 to 61; the first row is stem 42 with leaf 5 and the last row is stem 61 with leaves 5,5.",
+    "kind": "numeric",
+    "taught_in": [
+      "qtm-m21-percentile-practice-c4"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "qtm-ex-m21-retail-stores",
+    "deck_id": "qtm--module-2-1",
+    "slide": 28,
+    "label": "Monthly sales of 15 retail stores",
+    "text": "Monthly sales (₹ lakhs) of 15 stores: 28, 34, 31, 41, 38, 27, 32, 36, 34, 30, 29, 44, 35, 39, 30. Tasks: stores below the average, the cluster of stores, four equal groups by quartile, and the top 10% for rewards.",
+    "kind": "numeric",
+    "taught_in": [
+      "qtm-m21-percentile-practice-c5"
+    ],
+    "needs_check": false,
+    "retired": false
   }
 ]

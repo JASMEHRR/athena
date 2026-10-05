@@ -1,0 +1,577 @@
+{
+  "id": "qtm-m21-median-and-mode",
+  "subject_id": "qtm",
+  "deck_id": "qtm--module-2-1",
+  "title": "Median and mode",
+  "order": 202,
+  "summary": "How to find the median for an odd and an even number of observations, why the median is preferred with extreme values, and the mode with bimodal and multimodal data.",
+  "est_minutes": 25,
+  "difficulty": 1,
+  "source_refs": [
+    "qtm--module-2-1#8",
+    "qtm--module-2-1#9",
+    "qtm--module-2-1#10",
+    "qtm--module-2-1#13",
+    "qtm--module-2-1#12",
+    "qtm--module-2-1#15"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "qtm-m21-median-and-mode-c1",
+      "heading": "Median: the middle value",
+      "explanation_md": "The **median** of a data set is the **value in the middle** when the data items are **arranged in ascending order**. Ordering first is not optional: no sorting, no median.\n\nWhy bother with it when we have the mean? The slide's answer:\n\n- **Whenever a data set has extreme values, the median is the preferred measure of central location.**\n- The median is the measure of location **most often reported for annual income and property value data**. The professor adds a bold **(Not always)** here, so do not write that it is always used.\n- The reason: **a few extremely large incomes or property values can inflate the mean.** The median does not get pulled up the same way.",
+      "example_ids": [
+        "qtm-ex-m21-income-property"
+      ],
+      "key_terms": [
+        {
+          "term": "Median",
+          "meaning": "The value in the middle when the data items are arranged in ascending order.",
+          "source_ref": "qtm--module-2-1#8"
+        }
+      ],
+      "exam_line": "With extreme values the median is the preferred measure of central location; a few extremely large incomes or property values can inflate the mean.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m21-median-and-mode-q-d0515a05",
+          "type": "mcq",
+          "stem": "Whenever a data set has extreme values, which measure of central location does the slide prefer?",
+          "options": [
+            "Median",
+            "Mean",
+            "Mode"
+          ],
+          "answer": "Median",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2-1#8"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m21-median-and-mode-q-26ff51b8",
+          "type": "true_false",
+          "stem": "The slide says the median is always the measure reported for annual income and property value data.",
+          "options": [],
+          "answer": "False",
+          "accept": [],
+          "explanation": "It says most often, with a bold (Not always).",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2-1#8"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m21-median-and-mode-q-6230a86e",
+          "type": "fill",
+          "stem": "A few extremely large incomes or property values can ____ the mean.",
+          "options": [],
+          "answer": "inflate",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2-1#8"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-2-1#8"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m21-median-and-mode-c2",
+      "heading": "Odd number of observations",
+      "explanation_md": "The slide's data: **26, 18, 27, 12, 14, 27, 19** (7 observations).\n\n**Step 1: arrange in ascending order.** 12, 14, 18, 19, 26, 27, 27\n\n**Step 2: find the middle position.**\n\nMedian = ((n + 1)/2)th term\n\nWith n = 7: (7 + 1)/2 = 4, so the 4th term.\n\n**Step 3: read it off.** The 4th term is **19**.\n\n**Median = 19.** Three values sit below it (12, 14, 18) and three above (26, 27, 27).",
+      "example_ids": [
+        "qtm-ex-m21-odd-median"
+      ],
+      "key_terms": [],
+      "exam_line": "Odd n: arrange in ascending order, Median = ((n + 1)/2)th term. For 26, 18, 27, 12, 14, 27, 19 the median is 19.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m21-median-and-mode-q-86f50148",
+          "type": "mcq",
+          "stem": "What is the median of 26, 18, 27, 12, 14, 27, 19?",
+          "options": [
+            "19",
+            "14",
+            "26",
+            "27"
+          ],
+          "answer": "19",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2-1#9"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m21-median-and-mode-q-8396902e",
+          "type": "fill",
+          "stem": "For an odd number of observations, Median = ((n + 1)/____)th term.",
+          "options": [],
+          "answer": "2",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2-1#9"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m21-median-and-mode-q-d3784283",
+          "type": "mcq",
+          "stem": "With 7 observations in ascending order, which term is the median?",
+          "options": [
+            "The 4th term",
+            "The 3rd term",
+            "The 7th term",
+            "The average of the 3rd and 4th terms"
+          ],
+          "answer": "The 4th term",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2-1#9"
+          ],
+          "derived": [
+            "4"
+          ],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-2-1#9"
+      ],
+      "derived": [
+        "4"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m21-median-and-mode-c3",
+      "heading": "Even number of observations",
+      "explanation_md": "Add one value, 30, and you get **26, 18, 27, 12, 14, 27, 30, 19** (8 observations).\n\n**Step 1: arrange in ascending order.** 12, 14, 18, 19, 26, 27, 27, 30\n\n**Step 2: there is no single middle value**, so the median is the **average of the middle two values**:\n\nMedian = ((n/2)th term + (n/2 + 1)th term) / 2\n\nWith n = 8: the 4th term and the 5th term, which are **19** and **26**.\n\n**Step 3: average them.**\n\nMedian = (19 + 26)/2 = **22.5**\n\nNotice that 22.5 is not one of the eight data values.",
+      "example_ids": [
+        "qtm-ex-m21-even-median"
+      ],
+      "key_terms": [],
+      "exam_line": "Even n: Median = ((n/2)th term + (n/2 + 1)th term)/2. For the slide's 8 values: (19 + 26)/2 = 22.5.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m21-median-and-mode-q-ef840105",
+          "type": "mcq",
+          "stem": "What is the median of 26, 18, 27, 12, 14, 27, 30, 19?",
+          "options": [
+            "22.5",
+            "19",
+            "26",
+            "27"
+          ],
+          "answer": "22.5",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2-1#10"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m21-median-and-mode-q-b96b3276",
+          "type": "mcq",
+          "stem": "With 8 observations in ascending order, the median is the average of which terms?",
+          "options": [
+            "The 4th and 5th terms",
+            "The 3rd and 4th terms",
+            "The 4th term only",
+            "The 1st and 8th terms"
+          ],
+          "answer": "The 4th and 5th terms",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2-1#10"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m21-median-and-mode-q-2cb0af83",
+          "type": "true_false",
+          "stem": "For an even number of observations, the median is the average of the middle two values.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2-1#10"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-2-1#10"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m21-median-and-mode-c4",
+      "heading": "Mode: the most frequent value",
+      "explanation_md": "The **mode** of a data set is the **value that occurs with the greatest frequency**.\n\nThree rules from the slide:\n\n- The greatest frequency **can occur at two or more different values**.\n- If the data have **exactly two modes**, the data are **bimodal**.\n- If the data have **more than two modes**, the data are **multimodal**.\n\nQuick try with the odd-numbered median data: 26, 18, 27, 12, 14, **27**, 19. Only 27 appears twice, so the **mode is 27**.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Mode",
+          "meaning": "The value that occurs with the greatest frequency.",
+          "source_ref": "qtm--module-2-1#13"
+        },
+        {
+          "term": "Bimodal",
+          "meaning": "Data with exactly two modes.",
+          "source_ref": "qtm--module-2-1#13"
+        },
+        {
+          "term": "Multimodal",
+          "meaning": "Data with more than two modes.",
+          "source_ref": "qtm--module-2-1#13"
+        }
+      ],
+      "exam_line": "Mode = value with the greatest frequency; exactly two modes = bimodal; more than two modes = multimodal.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m21-median-and-mode-q-8e5dce3f",
+          "type": "mcq",
+          "stem": "Data that have exactly two modes are called:",
+          "options": [
+            "Bimodal",
+            "Multimodal",
+            "Skewed"
+          ],
+          "answer": "Bimodal",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2-1#13",
+            "qtm--module-2-1#29"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m21-median-and-mode-q-8b5a28e3",
+          "type": "mcq",
+          "stem": "What is the mode of 26, 18, 27, 12, 14, 27, 19?",
+          "options": [
+            "27",
+            "19",
+            "26",
+            "12"
+          ],
+          "answer": "27",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2-1#9",
+            "qtm--module-2-1#13"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m21-median-and-mode-q-89edcbac",
+          "type": "fill",
+          "stem": "If the data have more than two modes, the data are ____.",
+          "options": [],
+          "answer": "multimodal",
+          "accept": [
+            "multi-modal"
+          ],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2-1#13"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-2-1#13",
+        "qtm--module-2-1#9"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m21-median-and-mode-c5",
+      "heading": "Class Height Exercise: median and mode rounds",
+      "explanation_md": "The **Class Height Exercise** comes back twice:\n\n- after the median slides, the activity asks for the **Median** of the class heights;\n- after the mode slide, it asks for the **Mode**.\n\nNo heights are printed on the slides. The method you need is the one above:\n\n- **Median**: arrange the heights in **ascending order**, then take the **middle value** (odd count) or the **average of the middle two values** (even count).\n- **Mode**: the height that occurs with the **greatest frequency**. If two heights tie, the data are bimodal; more than two, multimodal.",
+      "example_ids": [
+        "qtm-ex-m21-class-height"
+      ],
+      "key_terms": [],
+      "exam_line": "Median: sort first, then middle value or average of the middle two. Mode: the value with the greatest frequency.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m21-median-and-mode-q-a06c1d9a",
+          "type": "mcq",
+          "stem": "In the median round of the Class Height Exercise, what is the first thing you do with the heights?",
+          "options": [
+            "Arrange them in ascending order",
+            "Add them all up",
+            "Count how often each height occurs"
+          ],
+          "answer": "Arrange them in ascending order",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2-1#12",
+            "qtm--module-2-1#8"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m21-median-and-mode-q-88b1ee88",
+          "type": "true_false",
+          "stem": "If exactly two heights share the greatest frequency, the class heights are bimodal.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2-1#15",
+            "qtm--module-2-1#13"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-2-1#12",
+        "qtm--module-2-1#15"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "qtm-m21-median-and-mode-f1",
+      "front": "Median (definition on the median slide)",
+      "back": "The value in the middle when the data items are arranged in ascending order.",
+      "kind": "term",
+      "source_refs": [
+        "qtm--module-2-1#8"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m21-median-and-mode-f2",
+      "front": "Preferred measure when a data set has extreme values",
+      "back": "The median.",
+      "kind": "fact",
+      "source_refs": [
+        "qtm--module-2-1#8"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m21-median-and-mode-f3",
+      "front": "Why is the median reported for income and property values (most often, not always)?",
+      "back": "A few extremely large incomes or property values can inflate the mean.",
+      "kind": "fact",
+      "source_refs": [
+        "qtm--module-2-1#8"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m21-median-and-mode-f4",
+      "front": "Median formula, odd number of observations",
+      "back": "Median = ((n + 1)/2)th term, after arranging in ascending order.",
+      "kind": "formula",
+      "source_refs": [
+        "qtm--module-2-1#9"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m21-median-and-mode-f5",
+      "front": "Median formula, even number of observations",
+      "back": "Median = ((n/2)th term + (n/2 + 1)th term)/2, after arranging in ascending order.",
+      "kind": "formula",
+      "source_refs": [
+        "qtm--module-2-1#10"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m21-median-and-mode-f6",
+      "front": "Median of 26, 18, 27, 12, 14, 27, 30, 19",
+      "back": "(19 + 26)/2 = 22.5",
+      "kind": "example",
+      "source_refs": [
+        "qtm--module-2-1#10"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m21-median-and-mode-f7",
+      "front": "Bimodal vs multimodal",
+      "back": "Exactly two modes: bimodal. More than two modes: multimodal.",
+      "kind": "term",
+      "source_refs": [
+        "qtm--module-2-1#13"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [],
+  "explain_back": {
+    "prompt": "Explain how to find the median for an odd and an even number of observations, using the slide examples, and say when the median is preferred over the mean.",
+    "rubric": [
+      {
+        "point": "Arrange the data in ascending order first",
+        "source_ref": "qtm--module-2-1#8"
+      },
+      {
+        "point": "Odd n: Median = ((n + 1)/2)th term; 26, 18, 27, 12, 14, 27, 19 gives 19",
+        "source_ref": "qtm--module-2-1#9"
+      },
+      {
+        "point": "Even n: average of the (n/2)th and (n/2 + 1)th terms; the 8-value example gives (19 + 26)/2 = 22.5",
+        "source_ref": "qtm--module-2-1#10"
+      },
+      {
+        "point": "With extreme values the median is preferred, since a few very large values can inflate the mean",
+        "source_ref": "qtm--module-2-1#8"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}
