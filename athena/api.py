@@ -16,7 +16,7 @@ from fastapi.responses import FileResponse, JSONResponse, PlainTextResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
 
-from . import __version__, config, db, planner, progress, services, srs
+from . import __version__, admin, config, db, insights, planner, progress, services, srs
 
 API = "/api/v1"
 
@@ -263,6 +263,35 @@ def create_app() -> FastAPI:
         names = {sid: s["short_name"] for sid, s in services.subject_map(conn).items()}
         return PlainTextResponse(planner.to_ics(cal, names), media_type="text/calendar",
                                  headers={"Content-Disposition": 'attachment; filename="athena-plan.ics"'})
+
+    # ---------------------------------------------------------------- insights and library
+
+    @app.get(f"{API}/insights")
+    def insights_view(days: int = Query(30, ge=7, le=120), conn: sqlite3.Connection = Depends(get_conn)):
+        return insights.insights(conn, days)
+
+    @app.get(f"{API}/library")
+    def library_view(conn: sqlite3.Connection = Depends(get_conn)):
+        return insights.library(conn)
+
+    # ---------------------------------------------------------------- admin
+
+    @app.get(f"{API}/sources")
+    def sources(conn: sqlite3.Connection = Depends(get_conn)):
+        return admin.sources_view(conn)
+
+    @app.post(f"{API}/backup")
+    def backup_now():
+        return admin.backup_now()
+
+    @app.get(f"{API}/export")
+    def export(conn: sqlite3.Connection = Depends(get_conn)):
+        return JSONResponse(admin.export_progress(conn),
+                            headers={"Content-Disposition": 'attachment; filename="athena-progress.json"'})
+
+    @app.post(f"{API}/refresh/prepare")
+    def refresh_prepare(conn: sqlite3.Connection = Depends(get_conn)):
+        return admin.prepare_refresh(conn)
 
     # ---------------------------------------------------------------- static files
 

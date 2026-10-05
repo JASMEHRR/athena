@@ -24,6 +24,7 @@ Claude writes all teaching content. This is the workflow and the draft format.
 ```json
 {
   "deck_id": "aib--...", "subject_id": "aib", "short": "s2",
+  "title": "Session 2: clean deck title in the professor's words (optional)",
   "kinds": {"1": "title", "19": "end"},
   "visual_text": {"4": "What the picture on slide 4 shows, in words."},
   "gaps": {"7": "Reason slide 7 is not taught (e.g. a video link only)."},

@@ -203,16 +203,31 @@ def build_plan(inp: PlanInputs) -> Plan:
                 # Balanced rotation: least recently touched first, then a stable rotation.
                 order = sorted(candidates, key=lambda s: (last_touched.get(s, date.min), (subjects_with_lessons.index(s) - rotation_index) % max(1, len(subjects_with_lessons))))
                 rotation_index += 1
-            for sid in order:
+            def take(sid: str) -> bool:
                 queue = queues[sid]
-                while queue and used + queue[0].est_minutes <= cap + OVERFILL_MIN:
+                if queue and used + queue[0].est_minutes <= cap + OVERFILL_MIN:
                     t = queue.pop(0)
                     verb = "Continue" if t.status == "started" else "Learn"
                     add(Task(day, "learn", f"{verb}: {t.title}", t.est_minutes, sid, t.id))
-                    if not has_exams:
-                        break  # one topic per subject per day keeps the rotation balanced
-                if used >= cap:
-                    break
+                    return True
+                return False
+
+            if has_exams:
+                for sid in order:
+                    while take(sid):
+                        pass
+                    if used >= cap:
+                        break
+            else:
+                # Rotation: one topic per subject per round, more rounds while time is left.
+                progressed = True
+                while progressed and used < cap:
+                    progressed = False
+                    for sid in order:
+                        if take(sid):
+                            progressed = True
+                        if used >= cap:
+                            break
 
             # 5. Keep every subject touched at least every 3 days (short revision of a learned topic).
             for sid in subjects_with_lessons:

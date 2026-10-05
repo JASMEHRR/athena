@@ -187,6 +187,8 @@ def apply(draft: dict, force: bool = False) -> dict:
         deck.slides[n - 1].visual_text = text.strip()
 
     status = contentio.load_deck_status(deck_id)
+    if draft.get("title"):
+        status["title"] = draft["title"].strip()
     if draft.get("kinds"):
         status["kinds"] = {**(status.get("kinds") or {}), **draft["kinds"]}
     if draft.get("gaps"):

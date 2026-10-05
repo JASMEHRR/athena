@@ -36,7 +36,8 @@ Notes for the next round go under each ticked task.
   - web/js/pages/learn.js. Side slide panel at 1280px+, popup below. Enter continues, 1-4 answer, 1-5 confidence, ?part=N deep link. Clicked through end to end in the test browser.
 - [x] P3.4 Review (FSRS) and quick quiz; mastery, streak, time tracking.
   - review.js (Space flips, 1-4 rate), practice.js quick quiz; practice_modes.js is where P6.2 adds answer writing, cases and mocks. Activity heartbeat every 30 s while visible and active (idle after 2 min).
-- [ ] P3.5 scripts\start-athena.bat and a full smoke test of every page and endpoint.
+- [x] P3.5 scripts\start-athena.bat and a full smoke test of every page and endpoint.
+  - start-athena.bat (import, backup keeps 14, server; reuses a running server), install-athena.bat. tests/test_smoke_app.py hits every GET/POST endpoint, every page module, and parses all JS with node --check. Settings and Sources pages built here too.
 
 ## P4 Pass A for every remaining deck
 No exam dates, so round-robin across subjects. Validate, ground and cover each deck before ticking it.
@@ -69,9 +70,11 @@ No exam dates, so round-robin across subjects. Validate, ground and cover each d
 - [ ] P4 pass A: qtm--module-6 (38 slides, 16 visual)
 
 ## P5 Planning and nudges
-- [ ] P5.1 Planner, Plan page, .ics export, Settings.
+- [x] P5.1 Planner, Plan page, .ics export, Settings.
+  - planner.py rules unit-tested in tests/test_planner.py; plan.js day/week/month, re-plan, mark done/skip; /api/v1/plan/export.ics; settings.js (exam dates override content/exams.json, study minutes, days off, reminders, display, backup/export, refresh request).
 - [ ] P5.2 Nudges with dry run and the ntfy option; install and uninstall scripts (do not run them).
-- [ ] P5.3 Insights page.
+- [x] P5.3 Insights page.
+  - insights.py + insights.js: heatmap, time per subject, accuracy and minutes per day (SVG), 12-week streak calendar, totals.
 
 ## P6 Pass B and practice
 - [ ] P6.1 Pass B for the first subject (AIB).
@@ -125,6 +128,7 @@ No exam dates, so round-robin across subjects. Validate, ground and cover each d
 | sce--list-of-business-ideas | sce | yes | | | |
 | sce--step-startup-pitching-template-very-early-stage | sce | yes | | | |
 | sip1--sip-2026-27-organization-selection-presentation-po | sip1 | yes | | | |
+
 
 
 

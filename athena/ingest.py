@@ -61,7 +61,10 @@ def apply_kind_overrides(deck: Deck) -> int:
     title slide, a thank-you slide). Overrides live in status.json so they
     survive re-ingests.
     """
-    kinds = contentio.load_deck_status(deck.id).get("kinds") or {}
+    status = contentio.load_deck_status(deck.id)
+    kinds = status.get("kinds") or {}
+    if status.get("title"):
+        deck.title = status["title"]  # a clean title chosen during the content pass
     applied = 0
     for key, kind in kinds.items():
         n = int(key)

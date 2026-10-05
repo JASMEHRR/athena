@@ -442,7 +442,7 @@ def search(conn: sqlite3.Connection, query: str, limit: int = 30) -> list[dict]:
     fts_query = " ".join('"' + w.replace('"', "") + '"*' for w in words)
     try:
         rows = conn.execute(
-            """SELECT kind, ref_id, subject_id, title, snippet(search_fts, 4, '[', ']', ' ... ', 14) AS snip
+            """SELECT kind, ref_id, subject_id, title, snippet(search_fts, 4, char(2), char(3), ' ... ', 14) AS snip
                FROM search_fts WHERE search_fts MATCH ? ORDER BY rank LIMIT ?""",
             (fts_query, limit),
         ).fetchall()
