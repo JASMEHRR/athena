@@ -1,0 +1,390 @@
+{
+  "deck_id": "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai",
+  "subject_id": "aib",
+  "short": "s2",
+  "kinds": {"1": "title", "19": "end"},
+  "visual_text": {
+    "2": "Three portrait photos side by side, each above a product logo: ChatGPT, Copilot and Gemini. The slide does not print the people's names.",
+    "4": "Heading: Artificial intelligence? Text: AI is a computer program which enables a machine to simulate human behavior like learning, planning, reasoning, knowledge sharing, problem solving etc. Pictures: a phone screen showing Hey Siri; a Machine Learning illustration; a Venn diagram where Robotics and Artificial Intelligence overlap, with an arrow from the overlap to an Intelligent Robot.",
+    "5": "Infographic titled Attractive Opportunities in the Artificial Intelligence Market. USD 86.9 billion in 2022, rising to USD 407.0 billion in 2027, a CAGR of 36.2%. The global AI market is projected to account for USD 407.0 billion by 2027, growing at a CAGR of 36.2% during the forecast period. Growth drivers listed: the rapid surge of cybersecurity incidents and ransomware attacks across the globe during the COVID-19 pandemic; the increasing need for new use cases for businesses, such as decision support, interactive games and real-time retail recommendation engines; the growing demand to access historical datasets to predict trends. North America is expected to account for the largest market share during the forecast period; the region is one of the leaders in technological advancements and is home to major AI providers. Several AI vendors are expanding their reach and exploring opportunities in Asia Pacific, due to the rapid digital transformation of multiple countries in the region. Source: Secondary Research, Expert Interviews, and MarketsandMarkets Analysis.",
+    "6": "Diagram titled Types of AI: AI branches into three boxes. Artificial Narrow Intelligence: labelled Weak AI, with a robot arm doing one task and example app icons such as Netflix. Artificial General Intelligence: a robot, a person and a bulb, with the line 'We are halfway into successfully implementing this phase' and the logos IBM Watson and OpenAI GPT-3. Artificial Super Intelligence: robots cleaning and a person talking to a robot, with the line 'Imagined how the world would be if machines occupy it'.",
+    "7": "A three-row table. Narrow AI (ANI): task-specific, common; examples Netflix, Siri, Alexa, Face ID. General AI (AGI): learns across domains; examples ChatGPT, IBM Watson, Google Gemini. Super AI (ASI): beyond human capability; theoretical, future sci-fi robotics.",
+    "8": "Nested circles titled Difference between AI, ML and Deep Learning: Artificial Intelligence is the outer circle, Machine Learning sits inside it, and Deep Learning sits inside Machine Learning. The text beside it matches the slide text.",
+    "9": "Left side: a diagram titled AI in Marketing Management with an AI head at the centre linked to Content Creation, Customer Engagement, Predictive Analytics, Marketing Automation, Digital Marketing and Ads. Right side: the six numbered points in the slide text.",
+    "10": "A diagram titled Human Resources Management with AI at the centre and arrows to Talent Management, Recruitment and Hiring, Onboarding, Employee Training, Performance Evaluation and Employee Engagement, next to the six points in the slide text.",
+    "11": "A diagram titled In Accounting and Finance Management: an AI robot at the centre linked to Transaction Coding, Invoice Processing, Expense Reporting, Financial Analysis, Talent Management, Risk Assessment and Fraud Detection, next to the same points in the slide text.",
+    "12": "A diagram titled AI in Operations Management and Supply Chain: an AI figure linked to Demand Forecasting, Inventory Management, Quality Control, Predictive Maintenance, Supply Chain Optimization and Autonomous Vehicles, next to the same points in the slide text.",
+    "15": "Text only, no picture content beyond the four bullets.",
+    "16": "Text only, no picture content beyond the seven bullets.",
+    "18": "A single bullet that links to a news video: AI Assistant Tool Wipes Out Entire Company Database | GRAVITAS."
+  },
+  "examples": [
+    {"key": "chatgpt-copilot-gemini", "slide": 2, "label": "ChatGPT, Copilot and Gemini", "text": "The deck opens with the people behind three AI tools, shown with the ChatGPT, Copilot and Gemini logos.", "kind": "product"},
+    {"key": "haptik", "slide": 3, "label": "Haptik", "text": "Enterprise conversational AI platform (text and voice chatbots) used in insurance, e-commerce and government; the MyGov Corona Helpdesk reached 30M+ users.", "kind": "company"},
+    {"key": "yellow-ai", "slide": 3, "label": "Yellow.ai", "text": "Omnichannel customer support automation platform; also launched YellowG, a small generative AI model.", "kind": "company"},
+    {"key": "krutrim-kruti", "slide": 3, "label": "Krutrim (Kruti)", "text": "Kruti, India's first agentic AI assistant: books taxis, orders food, pays bills; supports 13 Indian languages.", "kind": "company"},
+    {"key": "sarvam-ai", "slide": 3, "label": "Sarvam AI", "text": "Language-specific LLMs for 10 Indian languages, voice-enabled chatbots, and the open-source 2B-parameter model Sarvam 2B.", "kind": "company"},
+    {"key": "lumio-ai", "slide": 3, "label": "Lumio AI", "text": "A multi-model AI platform that lets users compare and switch between ChatGPT, Gemini, Claude and more via a single interface.", "kind": "company"},
+    {"key": "corover-bharatgpt", "slide": 3, "label": "CoRover.ai (BharatGPT)", "text": "BharatGPT, a sovereign AI assistant offering text, voice and video outputs tailored for India.", "kind": "company"},
+    {"key": "zoho-ai", "slide": 3, "label": "Zoho Corporation", "text": "In-house LLM and AI agents integrated across its productivity suite for drafting, analysis and automation.", "kind": "company"},
+    {"key": "hey-siri", "slide": 4, "label": "Hey Siri", "text": "A phone showing Hey Siri illustrates AI that simulates human behaviour.", "kind": "product"},
+    {"key": "ai-market-size", "slide": 5, "label": "AI market size", "text": "The global AI market: USD 86.9 billion in 2022, projected USD 407.0 billion by 2027, a CAGR of 36.2%.", "kind": "numeric"},
+    {"key": "ani-examples", "slide": 7, "label": "Narrow AI examples", "text": "Netflix, Siri, Alexa and Face ID as examples of task-specific narrow AI.", "kind": "product"},
+    {"key": "agi-examples", "slide": 7, "label": "General AI examples", "text": "ChatGPT, IBM Watson and Google Gemini listed as examples of general AI that learns across domains.", "kind": "product"},
+    {"key": "ai-ml-dl-examples", "slide": 8, "label": "AI, ML and DL examples", "text": "AI: chatbots, facial recognition, recommendation engines. ML: spam email filtering, stock prediction, language translation. DL: voice assistants, image classification, autonomous driving.", "kind": "illustration"},
+    {"key": "marketing-ai-tools", "slide": 9, "label": "AI in marketing examples", "text": "Jasper AI and ChatGPT creating Instagram captions; Haptik or Drift answering FAQs; Mailchimp sending birthday offers; forecasting sales spikes before Diwali; Google Ads auto-bidding; Meta (Facebook) suggesting products.", "kind": "company"},
+    {"key": "hr-learning-platforms", "slide": 10, "label": "AI tutors in training", "text": "Employee training uses AI tutors and adaptive learning platforms such as Coursera and LinkedIn Learning.", "kind": "company"},
+    {"key": "industry-4-companies", "slide": 13, "label": "Companies using AI in Industry 4.0", "text": "GE, Siemens, Bosch and Caterpillar (predictive maintenance); IBM Watson (sensor data, equipment failures); Tesla (quality checks, assembly lines); Amazon (demand, inventory, delivery routes); ABB (ML in robotics); John Deere (precision agriculture); P&G (supply chain and manufacturing).", "kind": "company"},
+    {"key": "mba-ai-employers", "slide": 14, "label": "Employers for AI-literate MBAs", "text": "Deloitte, McKinsey, EY, BCG and Accenture for AI strategy consulting; Goldman Sachs, Paytm, Razorpay and ICICI for AI-powered finance roles.", "kind": "company"},
+    {"key": "professions-at-risk", "slide": 17, "label": "Professions at risk", "text": "Data entry clerks, customer service agents, bank tellers, telemarketers, basic bookkeepers, paralegals, media content writers, travel agents, proofreaders and entry-level coders, each with the AI capability replacing it.", "kind": "illustration"},
+    {"key": "database-wipe", "slide": 18, "label": "AI tool wipes a database", "text": "A news video: AI Assistant Tool Wipes Out Entire Company Database (GRAVITAS).", "kind": "case"}
+  ],
+  "topics": [
+    {
+      "slug": "what-is-ai",
+      "title": "What AI is, and how ML and DL fit inside it",
+      "summary": "The professor's definition of AI, where robotics meets AI, and the AI, ML, DL nesting with an example at each level.",
+      "minutes": 20,
+      "difficulty": 1,
+      "chunks": [
+        {
+          "heading": "AI in one line",
+          "refs": [2, 4],
+          "examples": ["chatgpt-copilot-gemini", "hey-siri"],
+          "body": "The deck starts with three tools you already use: **ChatGPT**, **Copilot** and **Gemini**. They are the face of AI today.\n\nHere is the definition your professor uses: **AI is a computer program which enables a machine to simulate human behavior** like **learning, planning, reasoning, knowledge sharing and problem solving**.\n\nThe key word is *simulate*. The machine is not human; it copies human behaviours. When you say \"Hey Siri\" and your phone understands and answers, that is AI simulating listening and reasoning.",
+          "terms": [["Artificial intelligence (AI)", "A computer program which enables a machine to simulate human behavior like learning, planning, reasoning, knowledge sharing and problem solving.", 4]],
+          "exam": "AI is a computer program which enables a machine to simulate human behavior like learning, planning, reasoning, knowledge sharing and problem solving.",
+          "checks": [
+            {"type": "fill", "q": "AI is a computer program which enables a machine to simulate human ____ like learning, planning and reasoning.", "a": "behavior", "accept": ["behaviour", "behaviours", "behaviors"], "refs": [4]},
+            {"type": "mcq", "q": "Which list matches the human behaviours that AI simulates, as given on the slide?", "options": ["Learning, planning, reasoning, knowledge sharing, problem solving", "Storing, copying, printing, deleting", "Typing, scrolling, clicking, saving"], "a": "Learning, planning, reasoning, knowledge sharing, problem solving", "refs": [4]},
+            {"type": "mcq", "q": "Which three tools does the deck show on its 'Key AI founders' slide?", "options": ["ChatGPT, Copilot and Gemini", "Siri, Alexa and Face ID", "Haptik, Yellow.ai and Zoho"], "a": "ChatGPT, Copilot and Gemini", "refs": [2, 3, 7]}
+          ]
+        },
+        {
+          "heading": "Robotics plus AI gives an intelligent robot",
+          "refs": [4],
+          "body": "The same slide draws two overlapping circles: **Robotics** and **Artificial Intelligence**. Where they overlap you get an **Intelligent Robot**.\n\nThink of it this way: robotics gives the machine a body that can move; AI gives it the ability to learn, plan and reason. Put both together and the robot can act smartly, not just repeat movements.",
+          "terms": [["Intelligent robot", "What you get where robotics and artificial intelligence overlap.", 4]],
+          "exam": "Robotics and AI overlap to create an intelligent robot.",
+          "checks": [
+            {"type": "mcq", "q": "In the slide's Venn diagram, what sits where Robotics and Artificial Intelligence overlap?", "options": ["An intelligent robot", "Machine learning", "A chatbot"], "a": "An intelligent robot", "refs": [4]},
+            {"type": "tf", "q": "According to the slide, robotics and AI are shown as two overlapping fields.", "a": "True", "refs": [4]}
+          ]
+        },
+        {
+          "heading": "AI, ML and DL: circles inside circles",
+          "refs": [8],
+          "examples": ["ai-ml-dl-examples"],
+          "body": "Picture three circles, one inside the other.\n\n- **Artificial Intelligence (AI)** is the **broadest field**. It simulates human intelligence and includes everything from **rule-based systems to learning algorithms**. Examples: chatbots, facial recognition, recommendation engines.\n- **Machine Learning (ML)** is a **subset of AI** that enables systems to **learn from data**. Examples: spam email filtering, stock prediction, language translation.\n- **Deep Learning (DL)** is a **subset of ML** that uses **neural networks to mimic the human brain**. Examples: voice assistants, image classification, autonomous driving.\n\nSo every DL system is ML, and every ML system is AI, but not the other way round.",
+          "terms": [
+            ["Machine Learning (ML)", "Subset of AI that enables systems to learn from data.", 8],
+            ["Deep Learning (DL)", "Subset of ML that uses neural networks to mimic the human brain.", 8]
+          ],
+          "exam": "AI is the broadest field; ML is a subset of AI that learns from data; DL is a subset of ML that uses neural networks.",
+          "checks": [
+            {"type": "mcq", "q": "Which statement matches the slide?", "options": ["ML is a subset of AI, and DL is a subset of ML", "AI is a subset of ML, and ML is a subset of DL", "AI, ML and DL are separate, unrelated fields"], "a": "ML is a subset of AI, and DL is a subset of ML", "refs": [8]},
+            {"type": "mcq", "q": "Spam email filtering is given as an example of which level?", "options": ["Machine Learning", "Deep Learning only", "Robotics"], "a": "Machine Learning", "refs": [8]},
+            {"type": "fill", "q": "Deep Learning uses ____ networks to mimic the human brain.", "a": "neural", "refs": [8]}
+          ]
+        }
+      ],
+      "cards": [
+        ["Professor's definition of AI", "A computer program which enables a machine to simulate human behavior like learning, planning, reasoning, knowledge sharing, problem solving.", [4], "term"],
+        ["What do Robotics and AI create where they overlap?", "An intelligent robot.", [4], "fact"],
+        ["AI vs ML vs DL (nesting)", "AI is the broadest field; ML is a subset of AI that learns from data; DL is a subset of ML using neural networks.", [8], "list"],
+        ["Examples of AI (broad)", "Chatbots, facial recognition, recommendation engines.", [8], "example"],
+        ["Examples of ML", "Spam email filtering, stock prediction, language translation.", [8], "example"],
+        ["Examples of DL", "Voice assistants, image classification, autonomous driving.", [8], "example"]
+      ],
+      "explain": {
+        "prompt": "Explain what AI is and how AI, ML and DL relate to each other, with one example for each.",
+        "points": [
+          ["AI is a computer program that lets a machine simulate human behaviour such as learning, planning, reasoning and problem solving", 4],
+          ["AI is the broadest field, from rule-based systems to learning algorithms (e.g. chatbots)", 8],
+          ["ML is a subset of AI that learns from data (e.g. spam filtering)", 8],
+          ["DL is a subset of ML using neural networks that mimic the brain (e.g. voice assistants)", 8]
+        ]
+      }
+    },
+    {
+      "slug": "indian-ai-and-market",
+      "title": "India's AI players and the AI market",
+      "summary": "Seven Indian AI products and platforms from the slide, and the size and growth drivers of the global AI market.",
+      "minutes": 20,
+      "difficulty": 1,
+      "chunks": [
+        {
+          "heading": "Indian AI for customer conversations",
+          "refs": [3],
+          "examples": ["haptik", "yellow-ai", "corover-bharatgpt"],
+          "body": "Your professor lists **Leading Indian AI Products & Platforms**. Three of them are about talking to customers:\n\n- **Haptik**: an **enterprise conversational AI platform** (text and voice chatbots), used in insurance, e-commerce and government. Its **MyGov Corona Helpdesk reached 30M+ users**.\n- **Yellow.ai**: an **omnichannel customer support automation platform**. It also launched **YellowG**, a small generative AI model.\n- **CoRover.ai (BharatGPT)**: **BharatGPT** is a **sovereign AI assistant** offering text, voice and video outputs tailored for India.",
+          "exam": "Haptik (conversational AI, MyGov Corona Helpdesk 30M+ users), Yellow.ai (omnichannel support automation, YellowG) and CoRover.ai (BharatGPT, sovereign AI assistant).",
+          "checks": [
+            {"type": "mcq", "q": "Which Indian platform's MyGov Corona Helpdesk reached 30M+ users?", "options": ["Haptik", "Sarvam AI", "Lumio AI"], "a": "Haptik", "refs": [3]},
+            {"type": "mcq", "q": "BharatGPT is a sovereign AI assistant from which company?", "options": ["CoRover.ai", "Yellow.ai", "Zoho Corporation"], "a": "CoRover.ai", "refs": [3]},
+            {"type": "fill", "q": "Yellow.ai launched ____, a small generative AI model.", "a": "YellowG", "refs": [3]}
+          ]
+        },
+        {
+          "heading": "Indian AI assistants, language models and platforms",
+          "refs": [3],
+          "examples": ["krutrim-kruti", "sarvam-ai", "lumio-ai", "zoho-ai"],
+          "body": "The other four on the same slide:\n\n- **Krutrim (Kruti)**: **Kruti** is called **India's first agentic AI assistant**. It books taxis, orders food and pays bills, and supports **13 Indian languages**.\n- **Sarvam AI**: **language-specific LLMs for 10 Indian languages**, voice-enabled chatbots, and an open-source **2B-parameter model, Sarvam 2B**.\n- **Lumio AI**: a **multi-model AI platform** that lets users compare and switch between ChatGPT, Gemini, Claude and more from a single interface.\n- **Zoho Corporation**: an **in-house LLM and AI agents** built into its productivity suite for drafting, analysis and automation.\n\nNotice the theme: Indian languages and Indian use cases.",
+          "terms": [["Agentic AI assistant", "An assistant that completes tasks for you; Kruti books taxis, orders food and pays bills.", 3]],
+          "exam": "Kruti is India's first agentic AI assistant (13 Indian languages); Sarvam AI builds LLMs for 10 Indian languages including Sarvam 2B.",
+          "checks": [
+            {"type": "mcq", "q": "Which product is described as India's first agentic AI assistant?", "options": ["Kruti (Krutrim)", "BharatGPT", "Lumio"], "a": "Kruti (Krutrim)", "refs": [3]},
+            {"type": "mcq", "q": "Sarvam AI builds language-specific LLMs for how many Indian languages?", "options": ["10", "13", "2"], "a": "10", "refs": [3]},
+            {"type": "mcq", "q": "Which platform lets users compare and switch between ChatGPT, Gemini and Claude in one interface?", "options": ["Lumio AI", "Haptik", "Zoho Corporation"], "a": "Lumio AI", "refs": [3]}
+          ]
+        },
+        {
+          "heading": "How big is the AI market?",
+          "refs": [5],
+          "examples": ["ai-market-size"],
+          "body": "The slide uses a market report to show how fast AI is growing:\n\n- **USD 86.9 billion in 2022**\n- **USD 407.0 billion projected by 2027**\n- a **CAGR of 36.2%** over the forecast period\n\n**Why is it growing?** The slide gives three drivers:\n1. a rapid surge of **cybersecurity incidents and ransomware attacks** during the **COVID-19** pandemic;\n2. the need for **new business use cases** like decision support, interactive games and real-time retail recommendation engines;\n3. growing demand to **access historical datasets to predict trends**.\n\n**Where?** **North America** is expected to hold the **largest market share**. Vendors are also expanding into **Asia Pacific** because of rapid digital transformation there.",
+          "terms": [["CAGR", "The yearly growth rate of the market over the forecast period; 36.2% on this slide.", 5]],
+          "exam": "Global AI market: USD 86.9 billion (2022) to USD 407.0 billion (2027), CAGR 36.2%; North America holds the largest share.",
+          "checks": [
+            {"type": "mcq", "q": "What is the projected size of the global AI market by 2027 on the slide?", "options": ["USD 407.0 billion", "USD 86.9 billion", "USD 36.2 billion"], "a": "USD 407.0 billion", "refs": [5]},
+            {"type": "fill", "q": "The AI market is growing at a CAGR of ____% during the forecast period.", "a": "36.2", "accept": ["36.2%"], "refs": [5]},
+            {"type": "tf", "q": "Asia Pacific is expected to hold the largest share of the AI market during the forecast period.", "a": "False", "refs": [5], "why": "North America is expected to hold the largest share; vendors are expanding into Asia Pacific."}
+          ]
+        }
+      ],
+      "cards": [
+        ["Haptik", "Enterprise conversational AI platform (text and voice chatbots); MyGov Corona Helpdesk reached 30M+ users.", [3], "example"],
+        ["Yellow.ai", "Omnichannel customer support automation platform; launched YellowG, a small generative AI model.", [3], "example"],
+        ["Kruti (Krutrim)", "India's first agentic AI assistant: books taxis, orders food, pays bills; 13 Indian languages.", [3], "example"],
+        ["Sarvam AI", "Language-specific LLMs for 10 Indian languages, voice chatbots, open-source 2B-parameter model Sarvam 2B.", [3], "example"],
+        ["BharatGPT", "Sovereign AI assistant by CoRover.ai with text, voice and video outputs tailored for India.", [3], "example"],
+        ["Global AI market size (slide)", "USD 86.9 billion in 2022 to USD 407.0 billion by 2027, CAGR 36.2%.", [5], "fact"],
+        ["Three drivers of AI market growth", "Surge of cybersecurity incidents and ransomware during COVID-19; need for new business use cases; demand to use historical datasets to predict trends.", [5], "list"]
+      ],
+      "explain": {
+        "prompt": "Name four Indian AI products from the slide with what each does, then describe the size and growth drivers of the AI market.",
+        "points": [
+          ["Haptik: conversational AI platform; MyGov Corona Helpdesk 30M+ users", 3],
+          ["Kruti: India's first agentic AI assistant in 13 Indian languages", 3],
+          ["Sarvam AI or BharatGPT or Yellow.ai or Lumio or Zoho described correctly", 3],
+          ["Market: USD 86.9 billion (2022) to USD 407.0 billion (2027), CAGR 36.2%", 5],
+          ["Drivers: cybersecurity incidents, new use cases, historical data to predict trends", 5]
+        ]
+      }
+    },
+    {
+      "slug": "types-of-ai",
+      "title": "Types of AI: narrow, general and super",
+      "summary": "ANI, AGI and ASI with their key traits and the professor's examples.",
+      "minutes": 15,
+      "difficulty": 1,
+      "chunks": [
+        {
+          "heading": "Narrow AI (ANI): one task, done well",
+          "refs": [6, 7],
+          "examples": ["ani-examples"],
+          "body": "The deck splits AI into three types. The first is **Artificial Narrow Intelligence (ANI)**, also called **Weak AI**.\n\n**Key trait:** it is **task-specific** and **common**. It is built for one job and that is all it does.\n\n**Examples from the slide:** **Netflix** recommendations, **Siri**, **Alexa** and **Face ID**. Each is clever at one thing only.",
+          "terms": [["Artificial Narrow Intelligence (ANI)", "Weak AI: task-specific and common.", 7]],
+          "exam": "Narrow AI (ANI) is task-specific and common, e.g. Netflix, Siri, Alexa, Face ID.",
+          "checks": [
+            {"type": "mcq", "q": "Narrow AI (ANI) is best described as:", "options": ["Task-specific and common", "Learns across domains", "Beyond human capability"], "a": "Task-specific and common", "refs": [7]},
+            {"type": "mcq", "q": "Which of these is given as an example of narrow AI?", "options": ["Face ID", "IBM Watson", "Future sci-fi robotics"], "a": "Face ID", "refs": [7]},
+            {"type": "fill", "q": "Artificial Narrow Intelligence is also called ____ AI.", "a": "Weak", "refs": [6]}
+          ]
+        },
+        {
+          "heading": "General AI (AGI): learning across domains",
+          "refs": [6, 7],
+          "examples": ["agi-examples"],
+          "body": "The second type is **Artificial General Intelligence (AGI)**.\n\n**Key trait:** it **learns across domains**, not just one task.\n\n**Examples on this deck's table:** **ChatGPT**, **IBM Watson** and **Google Gemini**. The diagram also shows **IBM Watson** and **OpenAI GPT-3** and says: *\"We are halfway into successfully implementing this phase.\"*\n\nRemember this is how this deck classifies these tools. In the exam, quote the slide's examples.",
+          "terms": [["Artificial General Intelligence (AGI)", "AI that learns across domains.", 7]],
+          "exam": "General AI (AGI) learns across domains, e.g. ChatGPT, IBM Watson, Google Gemini; 'we are halfway into successfully implementing this phase'.",
+          "checks": [
+            {"type": "mcq", "q": "Which key trait does the slide give for General AI (AGI)?", "options": ["Learns across domains", "Task-specific, common", "Theoretical only"], "a": "Learns across domains", "refs": [7]},
+            {"type": "mcq", "q": "According to the diagram, how far along are we with AGI?", "options": ["Halfway into successfully implementing this phase", "Fully achieved", "Not started at all"], "a": "Halfway into successfully implementing this phase", "refs": [6]}
+          ]
+        },
+        {
+          "heading": "Super AI (ASI): beyond human capability",
+          "refs": [6, 7],
+          "body": "The third type is **Artificial Super Intelligence (ASI)**.\n\n**Key trait:** **beyond human capability**.\n\n**Example:** none exists. The table calls it **theoretical, future sci-fi robotics**, and the diagram says it is *\"imagined how the world would be if machines occupy it\"*.",
+          "terms": [["Artificial Super Intelligence (ASI)", "AI beyond human capability; theoretical, future sci-fi robotics.", 7]],
+          "exam": "Super AI (ASI) is beyond human capability and is still theoretical (future sci-fi robotics).",
+          "checks": [
+            {"type": "tf", "q": "The slide gives real working products as examples of Super AI (ASI).", "a": "False", "refs": [7], "why": "ASI is described as theoretical, future sci-fi robotics."},
+            {"type": "mcq", "q": "Match the type: 'beyond human capability'.", "options": ["ASI", "ANI", "AGI"], "a": "ASI", "refs": [7]}
+          ]
+        }
+      ],
+      "cards": [
+        ["ANI (Narrow AI)", "Task-specific, common; also called Weak AI. Examples: Netflix, Siri, Alexa, Face ID.", [6, 7], "term"],
+        ["AGI (General AI)", "Learns across domains. Examples: ChatGPT, IBM Watson, Google Gemini.", [7], "term"],
+        ["ASI (Super AI)", "Beyond human capability. Theoretical: future sci-fi robotics.", [7], "term"],
+        ["Where are we with AGI, per the diagram?", "We are halfway into successfully implementing this phase.", [6], "fact"]
+      ],
+      "explain": {
+        "prompt": "Explain the three types of AI with the key trait and an example of each from the slides.",
+        "points": [
+          ["ANI: task-specific and common (weak AI), e.g. Netflix, Siri, Alexa, Face ID", 7],
+          ["AGI: learns across domains, e.g. ChatGPT, IBM Watson, Google Gemini", 7],
+          ["ASI: beyond human capability, theoretical future sci-fi robotics", 7]
+        ]
+      }
+    },
+    {
+      "slug": "ai-in-business-functions",
+      "title": "AI across business functions",
+      "summary": "How AI is used in marketing, HR, accounting and finance, operations and supply chain, plus companies using AI in Industry 4.0.",
+      "minutes": 25,
+      "difficulty": 2,
+      "chunks": [
+        {
+          "heading": "AI in marketing management",
+          "refs": [9],
+          "examples": ["marketing-ai-tools"],
+          "body": "The slide lists **six ways AI helps marketing**, each with an example:\n\n1. **Content creation**: AI writes blogs, ad copies and product descriptions (Jasper AI, ChatGPT creating Instagram captions).\n2. **Customer engagement**: chatbots and assistants offer **24/7 support** (Haptik or Drift answering FAQs instantly).\n3. **Marketing automation**: automates emails, SMS and campaigns (Mailchimp sending birthday offers automatically).\n4. **Predictive analytics**: predicts future trends from data (forecasting sales spikes before Diwali using historical data).\n5. **Digital marketing**: optimizes ad spend, targeting and A/B testing (Google Ads auto-bidding based on user behavior).\n6. **Ads and targeting**: delivers personalized ads to the right audience (Meta (Facebook) suggesting products based on your browsing).",
+          "exam": "Six uses of AI in marketing: content creation, customer engagement, marketing automation, predictive analytics, digital marketing, ads and targeting.",
+          "checks": [
+            {"type": "mcq", "q": "Mailchimp sending birthday offers automatically is an example of:", "options": ["Marketing automation", "Predictive analytics", "Content creation"], "a": "Marketing automation", "refs": [9]},
+            {"type": "mcq", "q": "Forecasting sales spikes before Diwali using historical data is an example of:", "options": ["Predictive analytics", "Customer engagement", "Ads and targeting"], "a": "Predictive analytics", "refs": [9]},
+            {"type": "mcq", "q": "Google Ads auto-bidding based on user behavior falls under:", "options": ["Digital marketing", "Content creation", "Marketing automation"], "a": "Digital marketing", "refs": [9]}
+          ]
+        },
+        {
+          "heading": "AI in human resource management",
+          "refs": [10],
+          "examples": ["hr-learning-platforms"],
+          "body": "In HRM the slide shows AI at the centre of six activities:\n\n- **Recruitment and hiring**: automates resume screening and candidate matching.\n- **Onboarding**: delivers personalized welcome kits, FAQs and training schedules.\n- **Employee training**: AI tutors and adaptive learning platforms (Coursera, LinkedIn Learning).\n- **Performance evaluation**: tracks KPIs and gives unbiased feedback reports.\n- **Employee engagement**: monitors sentiment, recommends wellness activities, AI chatbots for HR queries.\n- **Talent management**: identifies high-potential employees and suggests career development paths.",
+          "exam": "AI in HRM: recruitment, onboarding, training, performance evaluation, engagement and talent management.",
+          "checks": [
+            {"type": "mcq", "q": "Automating resume screening and candidate matching is AI in:", "options": ["Recruitment and hiring", "Onboarding", "Talent management"], "a": "Recruitment and hiring", "refs": [10]},
+            {"type": "mcq", "q": "Which HR activity uses AI to track KPIs and give unbiased feedback reports?", "options": ["Performance evaluation", "Employee engagement", "Employee training"], "a": "Performance evaluation", "refs": [10]}
+          ]
+        },
+        {
+          "heading": "AI in accounting and finance",
+          "refs": [11],
+          "body": "Seven **key functions** of AI in accounting and finance management:\n\n- **Transaction coding**: automates data entry and classification of expenses.\n- **Invoice processing**: extracts data, verifies and processes bills faster.\n- **Expense reporting**: tracks spending and flags anomalies.\n- **Financial analysis**: forecasts trends, prepares dashboards, aids decision-making.\n- **Talent management**: optimizes hiring for finance roles via predictive analytics.\n- **Risk assessment**: evaluates financial risks and credit scores.\n- **Fraud detection**: flags suspicious activity using AI pattern recognition.",
+          "exam": "AI in accounting and finance: transaction coding, invoice processing, expense reporting, financial analysis, talent management, risk assessment, fraud detection.",
+          "checks": [
+            {"type": "mcq", "q": "Flagging suspicious activity using AI pattern recognition is called:", "options": ["Fraud detection", "Risk assessment", "Expense reporting"], "a": "Fraud detection", "refs": [11]},
+            {"type": "mcq", "q": "Which function evaluates financial risks and credit scores?", "options": ["Risk assessment", "Transaction coding", "Invoice processing"], "a": "Risk assessment", "refs": [11]},
+            {"type": "fill", "q": "Automating data entry and classification of expenses is called transaction ____.", "a": "coding", "refs": [11]}
+          ]
+        },
+        {
+          "heading": "AI in operations and supply chain",
+          "refs": [12],
+          "body": "Six **key roles** of AI in operations management and supply chain management:\n\n- **Demand forecasting**: predicts future product demand using data trends.\n- **Inventory management**: tracks stock levels and automates reordering.\n- **Quality control**: detects product defects using **AI vision systems**.\n- **Predictive maintenance**: prevents machine failures by forecasting maintenance needs.\n- **Supply chain optimization**: improves logistics, reduces delays and cuts costs.\n- **Autonomous vehicles**: driverless transport and smart deliveries.",
+          "exam": "AI in operations and supply chain: demand forecasting, inventory management, quality control, predictive maintenance, supply chain optimization, autonomous vehicles.",
+          "checks": [
+            {"type": "mcq", "q": "Detecting product defects using AI vision systems is part of:", "options": ["Quality control", "Demand forecasting", "Inventory management"], "a": "Quality control", "refs": [12]},
+            {"type": "mcq", "q": "Preventing machine failures by forecasting maintenance needs is called:", "options": ["Predictive maintenance", "Supply chain optimization", "Autonomous vehicles"], "a": "Predictive maintenance", "refs": [12]}
+          ]
+        },
+        {
+          "heading": "Companies using AI in Industry 4.0",
+          "refs": [13],
+          "examples": ["industry-4-companies"],
+          "body": "The slide names real companies and what they use AI for in **Industry 4.0**:\n\n1. **Predictive maintenance**, optimized production and less downtime: **GE, Siemens, Bosch, Caterpillar**.\n2. **Insights into manufacturing**: companies use **IBM Watson** to analyze sensor data, predict equipment failures and optimize production lines.\n3. **Automated quality checks and assembly lines**: **Tesla**.\n4. **Logistics and warehouses**: **Amazon**, where ML algorithms forecast demand, manage inventory and improve delivery routes.\n5. **Manufacturing efficiency**: **ABB** integrates machine learning into its robotics and automation.\n6. **Precision agriculture**: **John Deere**.\n7. **Supply chain and manufacturing optimization**: **Procter & Gamble (P&G)**.",
+          "exam": "Industry 4.0 AI users: GE, Siemens, Bosch, Caterpillar (predictive maintenance), IBM Watson, Tesla, Amazon, ABB, John Deere, P&G.",
+          "checks": [
+            {"type": "mcq", "q": "Which company is linked to precision agriculture solutions on the slide?", "options": ["John Deere", "ABB", "Tesla"], "a": "John Deere", "refs": [13]},
+            {"type": "mcq", "q": "Amazon uses ML algorithms mainly to:", "options": ["Forecast demand, manage inventory and improve delivery routes", "Automate quality checks on assembly lines", "Analyze sensor data with Watson"], "a": "Forecast demand, manage inventory and improve delivery routes", "refs": [13]},
+            {"type": "mcq", "q": "Which group of companies is given for predictive maintenance?", "options": ["GE, Siemens, Bosch, Caterpillar", "Tesla, Amazon, ABB", "John Deere, P&G, IBM"], "a": "GE, Siemens, Bosch, Caterpillar", "refs": [13]}
+          ]
+        }
+      ],
+      "cards": [
+        ["Six uses of AI in marketing", "Content creation, customer engagement, marketing automation, predictive analytics, digital marketing, ads and targeting.", [9], "list"],
+        ["AI in marketing: example of customer engagement", "Haptik or Drift answering FAQs instantly (24/7 support).", [9], "example"],
+        ["Six uses of AI in HRM", "Recruitment and hiring, onboarding, employee training, performance evaluation, employee engagement, talent management.", [10], "list"],
+        ["Seven AI functions in accounting and finance", "Transaction coding, invoice processing, expense reporting, financial analysis, talent management, risk assessment, fraud detection.", [11], "list"],
+        ["Six AI roles in operations and supply chain", "Demand forecasting, inventory management, quality control, predictive maintenance, supply chain optimization, autonomous vehicles.", [12], "list"],
+        ["Tesla's use of AI (Industry 4.0 slide)", "Automate quality checks and optimize assembly lines.", [13], "example"],
+        ["How companies use IBM Watson in manufacturing", "Analyze sensor data, predict equipment failures, optimize production lines.", [13], "example"]
+      ],
+      "explain": {
+        "prompt": "Pick any three business functions and explain how AI is used in each, with the professor's examples.",
+        "points": [
+          ["Marketing: content creation, engagement, automation, predictive analytics, digital marketing, ads (e.g. Mailchimp, Google Ads)", 9],
+          ["HRM: recruitment, onboarding, training (Coursera, LinkedIn Learning), performance, engagement, talent", 10],
+          ["Finance: transaction coding, invoices, expenses, analysis, risk, fraud detection", 11],
+          ["Operations and supply chain: demand forecasting, inventory, quality control, predictive maintenance", 12],
+          ["Industry 4.0 company example such as GE, Tesla, Amazon or John Deere", 13]
+        ]
+      }
+    },
+    {
+      "slug": "ai-and-mba-careers",
+      "title": "AI and your MBA career: opportunity or threat",
+      "summary": "Career roles for AI-literate MBAs, tools to learn, industries hiring, professions at risk, and why not everything is right with AI.",
+      "minutes": 20,
+      "difficulty": 1,
+      "chunks": [
+        {
+          "heading": "Eight careers for AI-literate MBAs",
+          "refs": [14],
+          "examples": ["mba-ai-employers"],
+          "body": "The deck's title asks if AI is **an opportunity or a threat**. This slide is the opportunity side: **top career opportunities for AI-literate MBA graduates**.\n\n1. **AI Product Manager**: the bridge between business, data and engineering; defines AI use cases.\n2. **Business Analyst / AI Strategy Consultant**: uses AI tools to drive insights and recommend automation (Deloitte, McKinsey, EY, BCG, Accenture).\n3. **Digital Transformation Manager**: leads AI adoption across supply chain, finance and HR.\n4. **Marketing Intelligence Specialist**: predictive analytics, personalized ads, campaign optimization.\n5. **AI-Powered Finance Roles**: risk modeling, fraud detection, algorithmic trading, credit scoring (Goldman Sachs, Paytm, Razorpay, ICICI).\n6. **Operations & Supply Chain Analyst (AI-enabled)**: demand forecasting, route optimization, warehouse automation.\n7. **Talent Analytics / HR Tech Consultant**: workforce planning, hiring automation, employee retention.\n8. **Chief AI Officer / Innovation Lead** (long-term): drives enterprise AI strategy.",
+          "exam": "Careers for AI-literate MBAs include AI Product Manager, AI Strategy Consultant, Digital Transformation Manager and Chief AI Officer.",
+          "checks": [
+            {"type": "mcq", "q": "Which role is described as the bridge between business, data and engineering?", "options": ["AI Product Manager", "Digital Transformation Manager", "Talent Analytics Consultant"], "a": "AI Product Manager", "refs": [14]},
+            {"type": "mcq", "q": "Risk modeling, fraud detection, algorithmic trading and credit scoring belong to which career?", "options": ["AI-Powered Finance Roles", "Marketing Intelligence Specialist", "Operations & Supply Chain Analyst"], "a": "AI-Powered Finance Roles", "refs": [14]}
+          ]
+        },
+        {
+          "heading": "Tools to learn and industries that hire",
+          "refs": [15, 16],
+          "body": "**Tools MBAs should learn:**\n- Excel + Power BI + Tableau\n- ChatGPT and **prompt engineering**\n- Python basics\n- ML/AI for business (Google AI tools, Microsoft Copilot)\n\n**Industries hiring AI-literate MBAs:** Fintech; Retail & E-commerce; Healthcare; Auto & Logistics; Consulting & Strategy; Telecom & IT; and **BFSI** (Banking, Financial Services, Insurance).",
+          "terms": [["BFSI", "Banking, Financial Services, Insurance.", 16]],
+          "exam": "Tools: Excel, Power BI, Tableau, ChatGPT and prompt engineering, Python basics, ML/AI for business. Industries: Fintech, Retail, Healthcare, Auto, Consulting, Telecom, BFSI.",
+          "checks": [
+            {"type": "fill", "q": "BFSI stands for Banking, Financial Services and ____.", "a": "Insurance", "refs": [16]},
+            {"type": "mcq", "q": "Which of these is on the slide's list of tools MBAs should learn?", "options": ["Python basics", "Advanced chip design", "Assembly language"], "a": "Python basics", "refs": [15]}
+          ]
+        },
+        {
+          "heading": "Professions most at risk from AI",
+          "refs": [17],
+          "examples": ["professions-at-risk"],
+          "body": "Now the threat side. The slide's table gives **why each job is at risk** and **what replaces it**:\n\n| Profession | Why at risk | AI replacing it |\n|---|---|---|\n| Data entry clerks | Highly repetitive and rule-based | Automation and OCR tools |\n| Customer service agents | Scripted interactions | Chatbots and voice AI assistants |\n| Bank tellers | Transactional tasks | Digital banking and ATMs |\n| Telemarketers | Predictable call flows | AI-driven outreach and personalization |\n| Basic bookkeepers | Routine financial tracking | AI accounting software |\n| Paralegals and legal assistants | Document review and research | AI legal research tools |\n| Media content writers | Formulaic writing | Generative AI like ChatGPT |\n| Travel agents | Standard itinerary planning | AI travel platforms and apps |\n| Proofreaders | Grammar and syntax checks | AI editing tools like Grammarly |\n| Entry-level coders | Basic programming tasks | AI code generation (GitHub Copilot) |\n\nThe pattern: **repetitive, scripted, rule-based** work is most at risk.",
+          "exam": "Jobs most at risk are repetitive, scripted or rule-based, e.g. data entry clerks (OCR), customer service agents (chatbots), proofreaders (Grammarly).",
+          "checks": [
+            {"type": "mcq", "q": "Why are data entry clerks at risk, according to the slide?", "options": ["Highly repetitive and rule-based work", "Predictable call flows", "Formulaic writing"], "a": "Highly repetitive and rule-based work", "refs": [17]},
+            {"type": "mcq", "q": "Which AI capability is replacing proofreaders?", "options": ["AI editing tools like Grammarly", "Digital banking and ATMs", "AI travel platforms"], "a": "AI editing tools like Grammarly", "refs": [17]},
+            {"type": "mcq", "q": "Entry-level coders are at risk from:", "options": ["AI code generation (e.g., GitHub Copilot)", "Automation and OCR tools", "Chatbots and voice assistants"], "a": "AI code generation (e.g., GitHub Copilot)", "refs": [17]}
+          ]
+        },
+        {
+          "heading": "Not everything is right with AI",
+          "refs": [1, 18],
+          "examples": ["database-wipe"],
+          "body": "The deck ends its argument with a warning slide titled *\"Every think is not all right with AI\"*. It links a news video: **AI Assistant Tool Wipes Out Entire Company Database** (GRAVITAS).\n\nThat is the balance in the deck's title, **Survival for the fittest: Adoption of AI, an opportunity or a threat**. AI opens new careers and new business uses, but it can also replace routine jobs and can make costly mistakes when trusted blindly.",
+          "exam": "AI is both an opportunity and a threat: it creates new roles but replaces routine jobs and can fail badly (an AI tool wiped out a company database).",
+          "checks": [
+            {"type": "mcq", "q": "What happened in the news example on the 'Every think is not all right with AI' slide?", "options": ["An AI assistant tool wiped out an entire company database", "An AI wrote a best-selling novel", "An AI predicted Diwali sales"], "a": "An AI assistant tool wiped out an entire company database", "refs": [18, 9]},
+            {"type": "tf", "q": "The deck presents AI adoption as both an opportunity and a threat.", "a": "True", "refs": [1]}
+          ]
+        }
+      ],
+      "cards": [
+        ["Eight AI careers for MBAs (slide)", "AI Product Manager; Business Analyst/AI Strategy Consultant; Digital Transformation Manager; Marketing Intelligence Specialist; AI-Powered Finance Roles; Operations & Supply Chain Analyst; Talent Analytics/HR Tech Consultant; Chief AI Officer/Innovation Lead.", [14], "list"],
+        ["Tools MBAs should learn", "Excel + Power BI + Tableau; ChatGPT and prompt engineering; Python basics; ML/AI for business (Google AI tools, Microsoft Copilot).", [15], "list"],
+        ["Industries hiring AI-literate MBAs", "Fintech; Retail & E-commerce; Healthcare; Auto & Logistics; Consulting & Strategy; Telecom & IT; BFSI.", [16], "list"],
+        ["Customer service agents: why at risk and what replaces them", "Scripted interactions; chatbots and voice AI assistants.", [17], "fact"],
+        ["Bank tellers: why at risk and what replaces them", "Transactional tasks; digital banking and ATMs.", [17], "fact"],
+        ["Media content writers: why at risk and what replaces them", "Formulaic writing; generative AI like ChatGPT.", [17], "fact"]
+      ],
+      "explain": {
+        "prompt": "Is AI an opportunity or a threat for an MBA graduate? Argue both sides using the slides.",
+        "points": [
+          ["Opportunity: new roles such as AI Product Manager, AI Strategy Consultant, Chief AI Officer", 14],
+          ["Opportunity: tools to learn (Excel, Power BI, Tableau, ChatGPT, Python) and industries hiring (Fintech, BFSI, Healthcare)", 15],
+          ["Threat: repetitive, scripted, rule-based jobs at risk (data entry, customer service, bookkeepers)", 17],
+          ["Caution: AI can fail badly, e.g. an AI tool wiped out a company database", 18]
+        ]
+      }
+    }
+  ]
+}
