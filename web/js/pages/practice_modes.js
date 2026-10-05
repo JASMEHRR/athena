@@ -219,8 +219,32 @@ async function mockMode(body, subjects, query, state) {
   }
 }
 
+async function answersMode(body) {
+  clear(body);
+  const items = await api.get("/written");
+  if (!items.length) {
+    body.append(empty("No written answers yet", "Explain-it-back answers and practice answers you write appear here, with feedback after a refresh."));
+    return;
+  }
+  body.append(el("p", { class: "muted small" }, "Answers you sent for deep review are graded against your slides at the next refresh; the feedback shows here."));
+  for (const a of items) {
+    const fb = a.feedback;
+    const status = fb ? pill(`Graded ${fb.score} / ${fb.max_score}`, "good") : a.queued ? pill("Waiting for deep review", "warn") : pill(`Self-check ${a.score ?? 0} / ${a.max_score ?? 0}`);
+    add(body, el("div", { class: "card section stack" },
+      el("div", { class: "row between" }, el("span", { class: "label" }, a.kind === "explain_back" ? "Explain it back" : "Exam answer"), status),
+      el("div", { class: "small faint" }, `${new Date(a.created_at).toLocaleString("en-IN")} · `, el("a", { href: `#/learn/${encodeURIComponent(a.topic_id)}` }, "Open topic")),
+      el("details", {}, el("summary", { class: "small" }, "Your answer"), el("p", { class: "small", style: { whiteSpace: "pre-wrap" } }, a.text)),
+      fb ? el("div", { class: "card pad-sm", style: { background: "var(--surface-2)" } },
+        el("span", { class: "label" }, "Feedback"),
+        el("div", { class: "lesson", html: md(fb.feedback_md), style: { fontSize: "16px", marginTop: "8px" } }),
+        fb.points_missed?.length ? el("div", { class: "small" }, el("b", {}, "Add next time: "), fb.points_missed.join("; ")) : null,
+        fb.source_refs?.length ? el("div", { style: { marginTop: "8px" } }, refChips(fb.source_refs)) : null) : null));
+  }
+}
+
 export const MODES = [
   { key: "write", label: "Answer writing", render: (b, s, q) => writtenRunner(b, s, q, ["short", "long", "differentiate"], { button: "Give me a question", none: "No written questions yet", kind: "Exam question" }) },
   { key: "case", label: "Case practice", render: (b, s, q) => writtenRunner(b, s, q, ["case"], { button: "Give me a case", none: "No case questions yet", kind: "Case question" }) },
   { key: "mock", label: "Mock paper", render: mockMode },
+  { key: "answers", label: "My answers", render: answersMode },
 ];

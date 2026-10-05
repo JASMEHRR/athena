@@ -94,7 +94,8 @@ No exam dates, so round-robin across subjects. Validate, ground and cover each d
 - [ ] P7.2 YouTube picks: one yt-dlp search per topic, 3 seconds apart, cached; 3 picks per topic labelled "Extra help, not exam source".
 - [x] P7.3 Classroom sync, tested with mocks.
   - athena/sync_classroom.py: read-only scopes, ACTIVE courses, materials/coursework/announcements Drive files, PPT/PPTX/PDF + Slides exported to PPTX into inbox/<Course>/, skip by file id + modifiedTime (data/classroom_state.json), due dates into p_deadlines (shown on Plan). Fake-client tests in tests/test_sync_classroom.py. Setup steps in MORNING.md.
-- [ ] P7.4 Review queue, REFRESH.md, refresh button, /api/v1/summary.
+- [x] P7.4 Review queue, REFRESH.md, refresh button, /api/v1/summary.
+  - 'Send for deep review' writes data/review_queue/<id>.json; refresh writes content/feedback/<id>.json, shown in Practice > My answers. Settings 'Prepare a Claude Code refresh' writes data/refresh_request.json and shows the command. REFRESH.md (tasks R1-R8, state in REFRESH_PROGRESS.md). /api/v1/summary for Ascend/Jarvis.
 
 ## P8 Finish
 - [ ] P8.1 All tests green; grounding and coverage clean or explained; Playwright screenshots of every page at desktop and phone width, looked at and fixed.
@@ -131,6 +132,7 @@ No exam dates, so round-robin across subjects. Validate, ground and cover each d
 | sce--list-of-business-ideas | sce | yes | | | |
 | sce--step-startup-pitching-template-very-early-stage | sce | yes | | | |
 | sip1--sip-2026-27-organization-selection-presentation-po | sip1 | yes | | | |
+
 
 
 
