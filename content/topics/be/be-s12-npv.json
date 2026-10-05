@@ -1,0 +1,397 @@
+{
+  "id": "be-s12-npv",
+  "subject_id": "be",
+  "deck_id": "be--session-1-and-2",
+  "title": "Net present value: should the firm invest?",
+  "order": 105,
+  "summary": "NPV as PV of future cash flows minus the initial cost, the accept or reject rule, two worked examples and the refrigerator practice question.",
+  "est_minutes": 25,
+  "difficulty": 2,
+  "source_refs": [
+    "be--session-1-and-2#31",
+    "be--session-1-and-2#32",
+    "be--session-1-and-2#33",
+    "be--session-1-and-2#34",
+    "be--session-1-and-2#35",
+    "be--session-1-and-2#36",
+    "be--session-1-and-2#24"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "be-s12-npv-c1",
+      "heading": "What NPV is and the decision rule",
+      "explanation_md": "**Net Present Value (NPV)** is the **sum of the present values of all future cash flows from a project, minus the initial cost**.\n\nSuppose a manager can buy a stream of future receipts (FVₜ) by **spending C₀ dollars today**. Then:\n\n**NPV = FV₁/(1 + i)^1 + FV₂/(1 + i)^2 + ... + FVₙ/(1 + i)^n - C₀**\n\n**Decision rule:**\n- **NPV < 0: reject the project.**\n- **NPV > 0: accept the project.**\n\nIn plain words: accept only if what the project gives you back, valued in today's money, is more than what you pay today.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Net Present Value (NPV)",
+          "meaning": "Sum of the present values of all future cash flows from a project, minus the initial cost (C₀).",
+          "source_ref": "be--session-1-and-2#31"
+        }
+      ],
+      "exam_line": "NPV = PV of future cash flows - C₀; accept if NPV > 0, reject if NPV < 0.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s12-npv-q-4ef7e051",
+          "type": "mcq",
+          "stem": "If a project's NPV is less than zero, the manager should:",
+          "options": [
+            "Reject the project",
+            "Accept the project",
+            "Accept it only if the future cash flows are large"
+          ],
+          "answer": "Reject the project",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-1-and-2#31"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s12-npv-q-eff6461c",
+          "type": "fill",
+          "stem": "NPV is the sum of the present values of all future cash flows from a project, minus the initial ____.",
+          "options": [],
+          "answer": "cost",
+          "accept": [
+            "cost (C₀)",
+            "investment"
+          ],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-1-and-2#31"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-1-and-2#31"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-npv-c2",
+      "heading": "Worked example: a $5,000 machine",
+      "explanation_md": "**Question:** a machine **costs $5,000 today** and will generate **$2,000 at the end of each of the next 3 years**. At **7%**, what is the NPV? Should the firm buy it?\n\n**Given:** FV = $2000, i = 7%, Cost = $5000.\n\n**Step 1: PV of the receipts.**\nPV = 2000/(1.07)^1 + 2000/(1.07)^2 + 2000/(1.07)^3 = **$5,248.63**\n\n**Step 2: subtract the cost.**\nNPV = PV - Cost = 5,248.63 - 5000 = **$248.63**\n\n**Decision:** NPV > 0, so **the firm should buy the machine.**",
+      "example_ids": [
+        "be-ex-machine-npv"
+      ],
+      "key_terms": [],
+      "exam_line": "Machine: PV = $5,248.63; NPV = 5,248.63 - 5000 = $248.63 > 0, so buy it.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s12-npv-q-23549fca",
+          "type": "fill",
+          "stem": "The NPV of the $5,000 machine at 7% is $____.",
+          "options": [],
+          "answer": "248.63",
+          "accept": [
+            "$248.63"
+          ],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-1-and-2#32",
+            "be--session-1-and-2#33"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s12-npv-q-0a65e16a",
+          "type": "mcq",
+          "stem": "What should the firm do about the machine?",
+          "options": [
+            "Buy it, because NPV > 0",
+            "Not buy it, because NPV < 0",
+            "Buy it only if the interest rate is zero"
+          ],
+          "answer": "Buy it, because NPV > 0",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-1-and-2#32",
+            "be--session-1-and-2#33"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-1-and-2#32",
+        "be--session-1-and-2#33"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-npv-c3",
+      "heading": "Worked example: a $20,000 project over four years",
+      "explanation_md": "**Question:** a project needs **$20,000 today** and generates **$6,000, $8,000, $9,000 and $7,000** at the end of Years 1 to 4. The **opportunity cost of funds is 9%**. Compute the NPV and decide.\n\n**Given:** FV = 6000, 8000, 9000, 7000; i = 9%; Cost = $20000.\n\n**Step 1:** PV = 6000/(1.09)^1 + 8000/(1.09)^2 + 9000/(1.09)^3 + 7000/(1.09)^4 = **$24,146.65**\n\n**Step 2:** NPV = PV - Cost = 24,146.65 - 20,000 = **$4,146.65**\n\n**Decision:** NPV > 0, so **the firm should proceed with the project.**",
+      "example_ids": [
+        "be-ex-project-npv"
+      ],
+      "key_terms": [],
+      "exam_line": "Project: PV = $24,146.65; NPV = $4,146.65 > 0, so proceed.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s12-npv-q-e256a1e0",
+          "type": "fill",
+          "stem": "The NPV of the $20,000 project at 9% is $____.",
+          "options": [],
+          "answer": "4,146.65",
+          "accept": [
+            "4146.65",
+            "$4,146.65",
+            "$4146.65"
+          ],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-1-and-2#34",
+            "be--session-1-and-2#35"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s12-npv-q-a95cb8e1",
+          "type": "mcq",
+          "stem": "What is the PV of the project's four cash flows at 9%?",
+          "options": [
+            "$24,146.65",
+            "$20,000",
+            "$4,146.65"
+          ],
+          "answer": "$24,146.65",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-1-and-2#34",
+            "be--session-1-and-2#35"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-1-and-2#34",
+        "be--session-1-and-2#35"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-npv-c4",
+      "heading": "Practice: which refrigerator should you buy?",
+      "explanation_md": "**Practice question:** for your company's break room, the **energy-efficient model sells for $550** and **saves $28 at the end of each of the next 5 years** in electricity. The **standard model costs $420** with no savings. Your **opportunity cost of funds is 5 percent**. Which should you buy?\n\nThe slide gives no solution, so here is the working with the deck's own NPV method.\n\n**Step 1: extra cost today.** The efficient model costs 550 - 420 = **$130** more.\n\n**Step 2: PV of the savings** (a series of $28 for 5 years at 5%):\n\nPV = 28/(1.05)^1 + 28/(1.05)^2 + 28/(1.05)^3 + 28/(1.05)^4 + 28/(1.05)^5 ≈ **$121.23**\n\n**Step 3: NPV of choosing the efficient model** = 121.23 - 130 ≈ **-$8.77**.\n\n**Decision:** NPV < 0, so **buy the standard model**. Another way to see it: the efficient model costs 550 - 121.23 ≈ $428.77 in today's money, more than the $420 standard model.",
+      "example_ids": [
+        "be-ex-refrigerator"
+      ],
+      "key_terms": [],
+      "exam_line": "Treat the extra price as C₀ and the yearly savings as the future cash flows; if NPV < 0, the extra spend is not worth it.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s12-npv-q-2f119009",
+          "type": "mcq",
+          "stem": "Using NPV, which refrigerator should you buy?",
+          "options": [
+            "The standard model at $420",
+            "The energy-efficient model at $550",
+            "Either; they are worth exactly the same"
+          ],
+          "answer": "The standard model at $420",
+          "accept": [],
+          "explanation": "The $28 savings for 5 years are worth about $121.23 today, less than the extra $130 the efficient model costs, so the NPV is about -$8.77.",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-1-and-2#36",
+            "be--session-1-and-2#31",
+            "be--session-1-and-2#24"
+          ],
+          "derived": [
+            "121.23",
+            "130",
+            "8.77"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s12-npv-q-65f94ec8",
+          "type": "true_false",
+          "stem": "To compare the two refrigerators, the $28 yearly savings must be discounted at 5 percent before comparing them with the extra price.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-1-and-2#36",
+            "be--session-1-and-2#31",
+            "be--session-1-and-2#24"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-1-and-2#36",
+        "be--session-1-and-2#31",
+        "be--session-1-and-2#24"
+      ],
+      "derived": [
+        "1.05",
+        "130",
+        "121.23",
+        "8.77",
+        "428.77"
+      ],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "be-s12-npv-f1",
+      "front": "Net Present Value (NPV)",
+      "back": "Sum of the present values of all future cash flows from a project, minus the initial cost.",
+      "kind": "term",
+      "source_refs": [
+        "be--session-1-and-2#31"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-npv-f2",
+      "front": "NPV formula",
+      "back": "NPV = FV₁/(1 + i)^1 + FV₂/(1 + i)^2 + ... + FVₙ/(1 + i)^n - C₀.",
+      "kind": "formula",
+      "source_refs": [
+        "be--session-1-and-2#31"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-npv-f3",
+      "front": "NPV decision rule",
+      "back": "NPV > 0: accept the project. NPV < 0: reject the project.",
+      "kind": "fact",
+      "source_refs": [
+        "be--session-1-and-2#31"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-npv-f4",
+      "front": "$5,000 machine, $2,000 a year for 3 years at 7%",
+      "back": "PV = $5,248.63; NPV = $248.63; buy the machine.",
+      "kind": "example",
+      "source_refs": [
+        "be--session-1-and-2#33"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-npv-f5",
+      "front": "$20,000 project, flows 6000, 8000, 9000, 7000 at 9%",
+      "back": "PV = $24,146.65; NPV = $4,146.65; proceed.",
+      "kind": "example",
+      "source_refs": [
+        "be--session-1-and-2#35"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [],
+  "explain_back": {
+    "prompt": "Explain net present value and its decision rule, and work through the $5,000 machine example from the slides.",
+    "rubric": [
+      {
+        "point": "NPV is the sum of present values of all future cash flows minus the initial cost C₀",
+        "source_ref": "be--session-1-and-2#31"
+      },
+      {
+        "point": "Accept if NPV > 0, reject if NPV < 0",
+        "source_ref": "be--session-1-and-2#31"
+      },
+      {
+        "point": "Machine: PV = 2000/(1.07)^1 + 2000/(1.07)^2 + 2000/(1.07)^3 = $5,248.63",
+        "source_ref": "be--session-1-and-2#33"
+      },
+      {
+        "point": "NPV = 5,248.63 - 5000 = $248.63 > 0, so buy the machine",
+        "source_ref": "be--session-1-and-2#33"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

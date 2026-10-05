@@ -1,0 +1,517 @@
+{
+  "id": "be-s12-firm-valuation",
+  "subject_id": "be",
+  "deck_id": "be--session-1-and-2",
+  "title": "Valuing a firm, with and without profit growth",
+  "order": 107,
+  "summary": "Firm value as the present value of current and future profits, constant profits forever, the two growth formulas and their worked examples.",
+  "est_minutes": 25,
+  "difficulty": 3,
+  "source_refs": [
+    "be--session-1-and-2#41",
+    "be--session-1-and-2#42",
+    "be--session-1-and-2#43",
+    "be--session-1-and-2#37",
+    "be--session-1-and-2#44",
+    "be--session-1-and-2#45",
+    "be--session-1-and-2#46",
+    "be--session-1-and-2#47"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "be-s12-firm-valuation-c1",
+      "heading": "Firm value and profit maximization",
+      "explanation_md": "**The value of a firm equals the present value of current and future profits (cash flows):**\n\n**PV(firm) = π₀ + π₁/(1 + i)^1 + π₂/(1 + i)^2 + π₃/(1 + i)^3 + ...**\n\nHere π (pi) stands for profit: π₀ is this period's profit, π₁ next period's, and so on. This period's profit is not discounted.\n\nA **common assumption among economists** is that the **firm's goal is to maximize profits**. The slide explains what that really means: maximizing **the present value of current and future profits**, so **the firm is maximizing its value**.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Value of a firm",
+          "meaning": "The present value of current and future profits (cash flows).",
+          "source_ref": "be--session-1-and-2#41"
+        }
+      ],
+      "exam_line": "PV(firm) = π₀ + π₁/(1 + i) + π₂/(1 + i)^2 + ...; maximizing profits means maximizing the PV of current and future profits, i.e. the firm's value.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s12-firm-valuation-q-8ed12e06",
+          "type": "mcq",
+          "stem": "According to the slide, the value of a firm equals:",
+          "options": [
+            "The present value of current and future profits",
+            "This year's accounting profit",
+            "Total revenue minus explicit costs"
+          ],
+          "answer": "The present value of current and future profits",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-1-and-2#41",
+            "be--session-1-and-2#14"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s12-firm-valuation-q-5e760b07",
+          "type": "true_false",
+          "stem": "When economists say a firm maximizes profits, the slide means it maximizes the present value of current and future profits, that is, its value.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-1-and-2#41"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-1-and-2#41"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-firm-valuation-c2",
+      "heading": "Constant profits forever: the $50,000 firm",
+      "explanation_md": "**Question:** a firm earns **constant annual profits of $50,000**, all paid out as dividends, **forever**. Current profits **have yet to be paid out**, and the interest rate is **10%**. What is the firm worth?\n\n**How the slide reads it:**\n- The dividend never changes: it stays at **$50,000 indefinitely**.\n- The $50,000 **hasn't been paid to the owner yet**; it will be paid at the **end of this year**. So **no current payment exists**: π₀ = 0.\n\n**Given:** π₀ = 0; π = $50,000; i = 10%.\n\n**Working:** PV(firm) = π₀ + π / i = 0 + 50,000 / 0.10 = **$500,000**\n\nThe π / i part is just the perpetuity formula CF / i, with profit as the cash flow.",
+      "example_ids": [
+        "be-ex-firm-50000"
+      ],
+      "key_terms": [],
+      "exam_line": "Constant $50,000 profits forever, first paid at the end of this year, at 10%: PV(firm) = 0 + 50,000 / 0.10 = $500,000.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s12-firm-valuation-q-bad83b73",
+          "type": "fill",
+          "stem": "In the slide's solution, the value of the firm with constant $50,000 profits at 10% is $____.",
+          "options": [],
+          "answer": "500,000",
+          "accept": [
+            "500000",
+            "$500,000",
+            "$500000"
+          ],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-1-and-2#42",
+            "be--session-1-and-2#43",
+            "be--session-1-and-2#37"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s12-firm-valuation-q-56a25807",
+          "type": "mcq",
+          "stem": "Why does the slide set π₀ = 0 in the $50,000 question?",
+          "options": [
+            "The $50,000 will be paid at the end of this year, so no current payment exists",
+            "The firm made no profit this year",
+            "The interest rate is zero"
+          ],
+          "answer": "The $50,000 will be paid at the end of this year, so no current payment exists",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-1-and-2#42",
+            "be--session-1-and-2#43",
+            "be--session-1-and-2#37"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-1-and-2#42",
+        "be--session-1-and-2#43",
+        "be--session-1-and-2#37"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-firm-valuation-c3",
+      "heading": "Profits that grow: two formulas",
+      "explanation_md": "Now suppose **profits grow at a constant rate g**, and **current period profits are π₀**. The slide gives two formulas, and the only difference is the timing of this period's dividend:\n\n- **Before current profits have been paid out as dividends:**\n  **PV(firm) = π₀ × (1 + i) / (i - g)**\n- **Immediately after current profits are paid out as dividends:**\n  **PV(firm) = π₀ × (1 + g) / (i - g)**\n\nMemory trick: **before** payout the top is **(1 + i)**; **after** payout the top is **(1 + g)**. The bottom is always **(i - g)**.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Growth rate (g)",
+          "meaning": "The constant rate at which the firm's profits grow each period.",
+          "source_ref": "be--session-1-and-2#44"
+        }
+      ],
+      "exam_line": "Before payout: PV(firm) = π₀(1 + i)/(i - g). Immediately after payout: PV(firm) = π₀(1 + g)/(i - g).",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s12-firm-valuation-q-089eea98",
+          "type": "mcq",
+          "stem": "Which formula values a growing firm immediately after current profits are paid out as dividends?",
+          "options": [
+            "π₀(1 + g)/(i - g)",
+            "π₀(1 + i)/(i - g)",
+            "π₀ / i"
+          ],
+          "answer": "π₀(1 + g)/(i - g)",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-1-and-2#44",
+            "be--session-1-and-2#43"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s12-firm-valuation-q-f80741ac",
+          "type": "fill",
+          "stem": "Before current profits are paid out, PV(firm) = π₀(1 + ____)/(i - g).",
+          "options": [],
+          "answer": "i",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-1-and-2#44"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-1-and-2#44"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-firm-valuation-c4",
+      "heading": "Worked example: $20,000 profits growing at 3%",
+      "explanation_md": "**Question:** current profits are **$20,000**, expected to **grow at 3% a year forever**. Dividends equal profits and the interest rate is **10%**. What is the firm worth now, and immediately after it pays this year's dividend?\n\n**Given:** π = 20,000; g = 3%; i = 10%.\n\n**Case 1: value of the firm (before the dividend is paid)**\n\nPV(firm) = π₀ × (1 + i)/(i - g) = 20,000 × (1 + 0.10)/(0.10 - 0.03) = **$314,285.71**\n\n**Case 2: value immediately after it pays a dividend equal to profits**\n\nPV(firm) = π₀ × (1 + g)/(i - g) = 20,000 × (1 + 0.03)/(0.10 - 0.03) = **$294,285.71**\n\nCheck: the two answers differ by exactly $20,000, the dividend that was just paid out.",
+      "example_ids": [
+        "be-ex-firm-growth-20000"
+      ],
+      "key_terms": [],
+      "exam_line": "$20,000 growing at 3%, i = 10%: before payout $314,285.71; immediately after payout $294,285.71.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s12-firm-valuation-q-2ec92a10",
+          "type": "fill",
+          "stem": "Value of the firm before payout, with π = 20,000, g = 3% and i = 10%: $____.",
+          "options": [],
+          "answer": "314,285.71",
+          "accept": [
+            "314285.71",
+            "$314,285.71",
+            "$314285.71"
+          ],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-1-and-2#45",
+            "be--session-1-and-2#46"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s12-firm-valuation-q-60fad17b",
+          "type": "mcq",
+          "stem": "What is the firm's value immediately after it pays a dividend equal to current profits?",
+          "options": [
+            "$294,285.71",
+            "$314,285.71",
+            "$500,000"
+          ],
+          "answer": "$294,285.71",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-1-and-2#45",
+            "be--session-1-and-2#46",
+            "be--session-1-and-2#43"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s12-firm-valuation-q-6c7cd05c",
+          "type": "true_false",
+          "stem": "In the worked example, the before-payout value is higher than the after-payout value by the $20,000 dividend.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-1-and-2#45",
+            "be--session-1-and-2#46"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-1-and-2#45",
+        "be--session-1-and-2#46"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-firm-valuation-c5",
+      "heading": "Practice: a software firm under four growth scenarios",
+      "explanation_md": "**Practice question:** a software company's CFO wants a valuation assuming the firm stays a single entity forever. **Current profits are $3.2 billion (not yet paid to shareholders)** and the interest rate is **9 percent**. Value the firm if profits **grow at 11%**, **grow at 4%**, **grow at 0%**, or **decline at 4%** a year.\n\nThe slide gives no solution, so here is the working. Profits are **not yet paid**, so use the **before-payout** formula: PV(firm) = π₀ × (1 + i)/(i - g), with π₀ = 3.2 billion and i = 0.09. The top is 3.2 × 1.09 = 3.488 every time.\n\n1. **g = 11%:** i - g = 0.09 - 0.11 = -0.02. The bottom is negative, so the formula gives -174.4 billion, a negative value for a firm earning positive profits. The slide gives no answer for this case, so check it with your professor.\n2. **g = 4%:** 3.488 / (0.09 - 0.04) = 3.488 / 0.05 = **$69.76 billion**\n3. **g = 0%:** 3.488 / 0.09 ≈ **$38.76 billion**\n4. **g = -4% (decline):** 3.488 / (0.09 + 0.04) = 3.488 / 0.13 ≈ **$26.83 billion**\n\nPattern: the faster profits grow, the higher the firm's value.",
+      "example_ids": [
+        "be-ex-software-cfo"
+      ],
+      "key_terms": [],
+      "exam_line": "Not yet paid means use π₀(1 + i)/(i - g); higher growth gives a higher value.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s12-firm-valuation-q-bb7749a6",
+          "type": "mcq",
+          "stem": "In the software firm question, profits are not yet paid to shareholders. Which formula should you use?",
+          "options": [
+            "π₀(1 + i)/(i - g)",
+            "π₀(1 + g)/(i - g)",
+            "π₀ / i"
+          ],
+          "answer": "π₀(1 + i)/(i - g)",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-1-and-2#47",
+            "be--session-1-and-2#44",
+            "be--session-1-and-2#43"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s12-firm-valuation-q-aaad0f96",
+          "type": "mcq",
+          "stem": "With profits growing at 4% a year, the software firm is worth about:",
+          "options": [
+            "$69.76 billion",
+            "$38.76 billion",
+            "$26.83 billion"
+          ],
+          "answer": "$69.76 billion",
+          "accept": [],
+          "explanation": "3.2 × 1.09 / (0.09 - 0.04) = 3.488 / 0.05 = $69.76 billion.",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-1-and-2#47",
+            "be--session-1-and-2#44"
+          ],
+          "derived": [
+            "69.76",
+            "38.76",
+            "26.83",
+            "0.04",
+            "0.05",
+            "0.09",
+            "1.09",
+            "3.488"
+          ],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-1-and-2#47",
+        "be--session-1-and-2#44"
+      ],
+      "derived": [
+        "1.09",
+        "3.488",
+        "0.09",
+        "0.11",
+        "0.02",
+        "174.4",
+        "0.04",
+        "0.05",
+        "69.76",
+        "38.76",
+        "0.13",
+        "26.83"
+      ],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "be-s12-firm-valuation-f1",
+      "front": "Value of a firm (formula)",
+      "back": "PV(firm) = π₀ + π₁/(1 + i)^1 + π₂/(1 + i)^2 + π₃/(1 + i)^3 + ...",
+      "kind": "formula",
+      "source_refs": [
+        "be--session-1-and-2#41"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-firm-valuation-f2",
+      "front": "What does profit maximization mean for firm value?",
+      "back": "Maximizing the present value of current and future profits, so the firm is maximizing its value.",
+      "kind": "fact",
+      "source_refs": [
+        "be--session-1-and-2#41"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-firm-valuation-f3",
+      "front": "Constant $50,000 profits forever at 10% (first paid at end of year)",
+      "back": "PV(firm) = 0 + 50,000 / 0.10 = $500,000.",
+      "kind": "example",
+      "source_refs": [
+        "be--session-1-and-2#43"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-firm-valuation-f4",
+      "front": "Firm value with growth, before payout",
+      "back": "PV(firm) = π₀(1 + i)/(i - g).",
+      "kind": "formula",
+      "source_refs": [
+        "be--session-1-and-2#44"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-firm-valuation-f5",
+      "front": "Firm value with growth, immediately after payout",
+      "back": "PV(firm) = π₀(1 + g)/(i - g).",
+      "kind": "formula",
+      "source_refs": [
+        "be--session-1-and-2#44"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-firm-valuation-f6",
+      "front": "$20,000 growing at 3%, i = 10%",
+      "back": "Before payout $314,285.71; immediately after payout $294,285.71.",
+      "kind": "example",
+      "source_refs": [
+        "be--session-1-and-2#46"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [],
+  "explain_back": {
+    "prompt": "Explain how the value of a firm is calculated, with and without profit growth, using the slides' worked examples.",
+    "rubric": [
+      {
+        "point": "Firm value is the present value of current and future profits; maximizing profits means maximizing this value",
+        "source_ref": "be--session-1-and-2#41"
+      },
+      {
+        "point": "Constant profits forever: PV(firm) = π₀ + π / i, e.g. 0 + 50,000 / 0.10 = $500,000",
+        "source_ref": "be--session-1-and-2#43"
+      },
+      {
+        "point": "Growth before payout: π₀(1 + i)/(i - g); after payout: π₀(1 + g)/(i - g)",
+        "source_ref": "be--session-1-and-2#44"
+      },
+      {
+        "point": "Example: $20,000, g = 3%, i = 10% gives $314,285.71 before and $294,285.71 after payout",
+        "source_ref": "be--session-1-and-2#46"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

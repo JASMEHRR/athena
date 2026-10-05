@@ -1,0 +1,558 @@
+{
+  "id": "be-s12-calculus-optimization",
+  "subject_id": "be",
+  "deck_id": "be--session-1-and-2",
+  "title": "Continuous decisions: optimizing with calculus",
+  "order": 109,
+  "summary": "Profit as a function of Q, the first and second order conditions, the TR = 50Q - Q² worked example, a monopolist practice question and the session's three takeaways.",
+  "est_minutes": 25,
+  "difficulty": 3,
+  "source_refs": [
+    "be--session-1-and-2#55",
+    "be--session-1-and-2#56",
+    "be--session-1-and-2#57",
+    "be--session-1-and-2#58",
+    "be--session-1-and-2#59",
+    "be--session-1-and-2#53",
+    "be--session-1-and-2#61",
+    "be--session-1-and-2#48",
+    "be--session-1-and-2#54"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "be-s12-calculus-optimization-c1",
+      "heading": "From tables to functions",
+      "explanation_md": "For continuous decisions, **instead of tables we use mathematical functions**.\n\nSuppose revenue and cost both depend on quantity:\n\n- TR = f(Q)\n- TC = f(Q)\n\nThen **profit** is:\n\n**π(Q) = TR(Q) - TC(Q)**\n\n**To arrive at the marginal quantities, differentiate this equation.**",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Profit function",
+          "meaning": "π(Q) = TR(Q) - TC(Q).",
+          "source_ref": "be--session-1-and-2#55"
+        }
+      ],
+      "exam_line": "For continuous decisions, write π(Q) = TR(Q) - TC(Q) and differentiate to get the marginal quantities.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s12-calculus-optimization-q-7748ff92",
+          "type": "fill",
+          "stem": "π(Q) = TR(Q) - ____(Q).",
+          "options": [],
+          "answer": "TC",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-1-and-2#55"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s12-calculus-optimization-q-13bb73af",
+          "type": "true_false",
+          "stem": "For continuous decisions, the slide says we use mathematical functions instead of tables.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-1-and-2#55"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-1-and-2#55"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-calculus-optimization-c2",
+      "heading": "First and second order conditions",
+      "explanation_md": "**Step 1: differentiate the profit function.**\n\ndπ/dQ = dTR/dQ - dTC/dQ\n\n**Step 2: recognize the marginal values.**\n\n**MR = dTR/dQ** and **MC = dTC/dQ**\n\n**Decision rule:**\n\n- **First order condition:** profit is maximized when **dπ/dQ = 0**, or equivalently **Marginal Revenue = Marginal Cost**.\n- **Second order condition:** **d²π/dQ² < 0**. The slide describes this as the second-order condition for a maximum being satisfied.\n\nYou need **both**: the first tells you where the flat point is, the second confirms it is a maximum.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "First order condition",
+          "meaning": "Profit is maximized when dπ/dQ = 0, i.e. MR = MC.",
+          "source_ref": "be--session-1-and-2#56"
+        },
+        {
+          "term": "Second order condition",
+          "meaning": "d²π/dQ² < 0 for a maximum.",
+          "source_ref": "be--session-1-and-2#56"
+        }
+      ],
+      "exam_line": "First order condition: dπ/dQ = 0, i.e. MR = MC. Second order condition: d²π/dQ² < 0.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s12-calculus-optimization-q-625e4f9b",
+          "type": "mcq",
+          "stem": "What is the first order condition for profit maximization?",
+          "options": [
+            "dπ/dQ = 0, i.e. MR = MC",
+            "d²π/dQ² > 0",
+            "TR = TC"
+          ],
+          "answer": "dπ/dQ = 0, i.e. MR = MC",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-1-and-2#56"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s12-calculus-optimization-q-0ed15071",
+          "type": "mcq",
+          "stem": "What does the second order condition require for a maximum?",
+          "options": [
+            "d²π/dQ² < 0",
+            "d²π/dQ² > 0",
+            "dπ/dQ < 0"
+          ],
+          "answer": "d²π/dQ² < 0",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-1-and-2#56"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s12-calculus-optimization-q-9a18b88e",
+          "type": "fill",
+          "stem": "MR = d____/dQ.",
+          "options": [],
+          "answer": "TR",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-1-and-2#56"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-1-and-2#56"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-calculus-optimization-c3",
+      "heading": "Worked example: TR = 50Q - Q² and TC = 10Q",
+      "explanation_md": "**Question:** a firm's **TR = 50Q - Q²** and **TC = 10Q**. Find the profit-maximizing quantity and the maximum profit.\n\n**Step 1: profit function.** π(Q) = TR(Q) - TC(Q) = **50Q - Q² - 10Q**\n\n**Step 2: first order condition.** Differentiate and set equal to zero: dπ/dQ = dTR/dQ - dTC/dQ = 0, so MR - MC = 0, so **MR = MC**.\n\n- MR = 50 - 2Q (the slide prints this as \"50Q - 2Q\"; differentiating 50Q - Q² gives 50 - 2Q, which is what produces the answer)\n- MC = 10\n- MR = MC: 50 - 2Q = 10, so **Q = 20**\n\n**Step 3: second order condition.** d²π/dQ² = -2 < 0, so **profits are maximised at Q = 20**.\n\n**Step 4: maximum profit.** 50Q - Q² - 10Q = 50 × 20 - 20 × 20 - 10 × 20 = 1,000 - 400 - 200 = **$400**",
+      "example_ids": [
+        "be-ex-calculus-example"
+      ],
+      "key_terms": [],
+      "exam_line": "TR = 50Q - Q², TC = 10Q: MR = MC gives Q = 20; d²π/dQ² = -2 < 0; maximum profit = $400.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s12-calculus-optimization-q-dc4c63c4",
+          "type": "fill",
+          "stem": "With TR = 50Q - Q² and TC = 10Q, the profit-maximizing quantity is Q = ____.",
+          "options": [],
+          "answer": "20",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-1-and-2#57",
+            "be--session-1-and-2#58"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s12-calculus-optimization-q-80289fea",
+          "type": "mcq",
+          "stem": "What is the maximum profit in this example?",
+          "options": [
+            "$400",
+            "$200",
+            "$1,000"
+          ],
+          "answer": "$400",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-1-and-2#57",
+            "be--session-1-and-2#58"
+          ],
+          "derived": [
+            "200",
+            "1,000"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s12-calculus-optimization-q-1dc2fb31",
+          "type": "true_false",
+          "stem": "In this example, d²π/dQ² = -2, which confirms the profit is a maximum.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-1-and-2#57",
+            "be--session-1-and-2#58"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-1-and-2#57",
+        "be--session-1-and-2#58"
+      ],
+      "derived": [
+        "1,000",
+        "200"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-calculus-optimization-c4",
+      "heading": "Practice: a monopolist's quantity, price and profit",
+      "explanation_md": "**Practice question:** a **monopolist** faces **demand P = 100 - 2Q** and **total cost TC = 50 + 10Q + 3Q²**. Find the profit-maximizing quantity, price and profit.\n\nThe slide gives no solution, so here is the working with the deck's own tools.\n\n**Step 1: total revenue.** TR = P × Q = (100 - 2Q) × Q = **100Q - 2Q²**\n\n**Step 2: marginal values.** MR = dTR/dQ = **100 - 4Q**; MC = dTC/dQ = **10 + 6Q**\n\n**Step 3: MR = MC.** 100 - 4Q = 10 + 6Q, so 90 = 10Q, so **Q = 9**\n\n**Step 4: second order condition.** d²π/dQ² = -4 - 6 = -10 < 0, so this is a maximum.\n\n**Step 5: price.** P = 100 - 2 × 9 = 100 - 18 = **82**\n\n**Step 6: profit.** TR = 82 × 9 = 738; TC = 50 + 10 × 9 + 3 × 81 = 50 + 90 + 243 = 383; **profit = 738 - 383 = 355**",
+      "example_ids": [
+        "be-ex-monopolist"
+      ],
+      "key_terms": [],
+      "exam_line": "When given a demand curve, first build TR = P × Q, then set MR = MC, check d²π/dQ² < 0, and plug Q back in for price and profit.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s12-calculus-optimization-q-950dedcf",
+          "type": "mcq",
+          "stem": "For the monopolist with P = 100 - 2Q and TC = 50 + 10Q + 3Q², what is the profit-maximizing quantity?",
+          "options": [
+            "9",
+            "10",
+            "20"
+          ],
+          "answer": "9",
+          "accept": [],
+          "explanation": "MR = 100 - 4Q and MC = 10 + 6Q; setting them equal gives 90 = 10Q, so Q = 9.",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-1-and-2#59",
+            "be--session-1-and-2#53",
+            "be--session-1-and-2#56"
+          ],
+          "derived": [
+            "90"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s12-calculus-optimization-q-8b5df0b1",
+          "type": "mcq",
+          "stem": "At the profit-maximizing quantity, what price does the monopolist charge?",
+          "options": [
+            "82",
+            "100",
+            "50"
+          ],
+          "answer": "82",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-1-and-2#59",
+            "be--session-1-and-2#53",
+            "be--session-1-and-2#56"
+          ],
+          "derived": [
+            "82",
+            "18"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s12-calculus-optimization-q-3a691134",
+          "type": "fill",
+          "stem": "The monopolist's maximum profit is ____.",
+          "options": [],
+          "answer": "355",
+          "accept": [
+            "$355"
+          ],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-1-and-2#59",
+            "be--session-1-and-2#53",
+            "be--session-1-and-2#56"
+          ],
+          "derived": [
+            "355",
+            "738",
+            "383"
+          ],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-1-and-2#59",
+        "be--session-1-and-2#53",
+        "be--session-1-and-2#56"
+      ],
+      "derived": [
+        "90",
+        "82",
+        "738",
+        "81",
+        "243",
+        "383",
+        "355",
+        "18"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-calculus-optimization-c5",
+      "heading": "Three takeaways from the session",
+      "explanation_md": "The professor closes with three rules that tie the whole session together:\n\n1. **Include all costs and benefits when making decisions** (that means **opportunity cost**, as in economic profit).\n2. **When decisions span time, compare apples to apples** (that means **PV analysis**: bring every amount to today's value).\n3. **Optimal economic decisions are made at the margin** (that means **marginal analysis**: MB versus MC, MR versus MC).",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "Include all costs and benefits (opportunity cost); compare apples to apples over time (PV analysis); decide at the margin (marginal analysis).",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s12-calculus-optimization-q-3de86bf7",
+          "type": "mcq",
+          "stem": "When decisions span time, the conclusion slide says to compare apples to apples using:",
+          "options": [
+            "PV analysis",
+            "Marginal analysis",
+            "Opportunity cost only"
+          ],
+          "answer": "PV analysis",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-1-and-2#61",
+            "be--session-1-and-2#48",
+            "be--session-1-and-2#54"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s12-calculus-optimization-q-7a19ad7f",
+          "type": "fill",
+          "stem": "Optimal economic decisions are made at the ____.",
+          "options": [],
+          "answer": "margin",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-1-and-2#61",
+            "be--session-1-and-2#48",
+            "be--session-1-and-2#54"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-1-and-2#61",
+        "be--session-1-and-2#48",
+        "be--session-1-and-2#54"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "be-s12-calculus-optimization-f1",
+      "front": "Profit function (continuous)",
+      "back": "π(Q) = TR(Q) - TC(Q); differentiate to get marginal quantities.",
+      "kind": "formula",
+      "source_refs": [
+        "be--session-1-and-2#55"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-calculus-optimization-f2",
+      "front": "MR and MC with calculus",
+      "back": "MR = dTR/dQ and MC = dTC/dQ.",
+      "kind": "formula",
+      "source_refs": [
+        "be--session-1-and-2#56"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-calculus-optimization-f3",
+      "front": "First order condition",
+      "back": "dπ/dQ = 0, i.e. marginal revenue = marginal cost.",
+      "kind": "formula",
+      "source_refs": [
+        "be--session-1-and-2#56"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-calculus-optimization-f4",
+      "front": "Second order condition",
+      "back": "d²π/dQ² < 0.",
+      "kind": "formula",
+      "source_refs": [
+        "be--session-1-and-2#56"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-calculus-optimization-f5",
+      "front": "TR = 50Q - Q², TC = 10Q: answer",
+      "back": "Q = 20; d²π/dQ² = -2 < 0; maximum profit $400.",
+      "kind": "example",
+      "source_refs": [
+        "be--session-1-and-2#58"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-calculus-optimization-f6",
+      "front": "Three takeaways of the session",
+      "back": "Include all costs and benefits (opportunity cost); compare apples to apples over time (PV analysis); decide at the margin (marginal analysis).",
+      "kind": "list",
+      "source_refs": [
+        "be--session-1-and-2#61"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [],
+  "explain_back": {
+    "prompt": "Explain how calculus is used to find the profit-maximizing output, using the TR = 50Q - Q², TC = 10Q example from the slides.",
+    "rubric": [
+      {
+        "point": "Write profit as π(Q) = TR(Q) - TC(Q)",
+        "source_ref": "be--session-1-and-2#55"
+      },
+      {
+        "point": "First order condition: dπ/dQ = 0, so MR = dTR/dQ equals MC = dTC/dQ",
+        "source_ref": "be--session-1-and-2#56"
+      },
+      {
+        "point": "Second order condition: d²π/dQ² < 0",
+        "source_ref": "be--session-1-and-2#56"
+      },
+      {
+        "point": "Example: MR = MC gives Q = 20, second derivative -2 < 0, profit $400",
+        "source_ref": "be--session-1-and-2#58"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

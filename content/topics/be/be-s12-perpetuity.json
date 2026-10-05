@@ -1,0 +1,318 @@
+{
+  "id": "be-s12-perpetuity",
+  "subject_id": "be",
+  "deck_id": "be--session-1-and-2",
+  "title": "Present value of a perpetuity",
+  "order": 106,
+  "summary": "Cash flows that go on forever, the CF / i shortcut, the $500 example and a deferred perpetuity practice question.",
+  "est_minutes": 15,
+  "difficulty": 2,
+  "source_refs": [
+    "be--session-1-and-2#37",
+    "be--session-1-and-2#38",
+    "be--session-1-and-2#39",
+    "be--session-1-and-2#40",
+    "be--session-1-and-2#20"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "be-s12-perpetuity-c1",
+      "heading": "A perpetuity and its shortcut formula",
+      "explanation_md": "An asset that **perpetually generates a stream of cash flows (CF) at the end of each period** is called a **perpetuity**. Think of it as a series that never ends.\n\nIf it pays the **same amount every period** (CF = CF₁ = CF₂ = ...), its present value is:\n\n**PV(perpetuity) = CF/(1 + i)^1 + CF/(1 + i)^2 + CF/(1 + i)^3 + ... = CF / i**\n\nSo an endless list of discounted payments collapses into one simple division: **the yearly cash flow divided by the interest rate**.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Perpetuity",
+          "meaning": "An asset that perpetually generates a stream of cash flows at the end of each period.",
+          "source_ref": "be--session-1-and-2#37"
+        }
+      ],
+      "exam_line": "A perpetuity pays forever; with an equal cash flow each period, PV = CF / i.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s12-perpetuity-q-2570fc06",
+          "type": "mcq",
+          "stem": "What is the present value of a perpetuity paying the same CF at the end of each period?",
+          "options": [
+            "CF / i",
+            "CF × i",
+            "CF / (1 + i)"
+          ],
+          "answer": "CF / i",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-1-and-2#37"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s12-perpetuity-q-2f0985a4",
+          "type": "fill",
+          "stem": "An asset that perpetually generates a stream of cash flows at the end of each period is called a ____.",
+          "options": [],
+          "answer": "perpetuity",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-1-and-2#37"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-1-and-2#37"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-perpetuity-c2",
+      "heading": "Worked example: $500 a year forever at 5%",
+      "explanation_md": "**Question:** an investment pays **$500 at the end of every year, forever**. The interest rate is **5%**. What is its present value?\n\n**Given:** CF = 500, i = 0.05.\n\n**Working:** PV(perpetuity) = CF / i = 500 / 0.05 = **$10,000**\n\nRemember to write the interest rate as a decimal (5% = 0.05) before dividing.",
+      "example_ids": [
+        "be-ex-perpetuity-500"
+      ],
+      "key_terms": [],
+      "exam_line": "$500 a year forever at 5%: PV = 500 / 0.05 = $10,000.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s12-perpetuity-q-4df2e331",
+          "type": "fill",
+          "stem": "PV of $500 at the end of every year forever at 5% = $____.",
+          "options": [],
+          "answer": "10,000",
+          "accept": [
+            "10000",
+            "$10,000",
+            "$10000"
+          ],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-1-and-2#38",
+            "be--session-1-and-2#39"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s12-perpetuity-q-0a4d18c2",
+          "type": "mcq",
+          "stem": "Which working is correct for the $500 perpetuity at 5%?",
+          "options": [
+            "500 / 0.05",
+            "500 × 0.05",
+            "500 / 5"
+          ],
+          "answer": "500 / 0.05",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-1-and-2#38",
+            "be--session-1-and-2#39"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-1-and-2#38",
+        "be--session-1-and-2#39"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-perpetuity-c3",
+      "heading": "Practice: a deferred perpetuity",
+      "explanation_md": "**Practice question:** an endowment pays **$800 per year forever**, but the **first payment arrives at the end of Year 5** (a \"deferred perpetuity\"). At **6%**, what is it worth today?\n\nThe slide gives no solution, so here is the working using two formulas from this deck.\n\n**Step 1: value the perpetuity one period before its first payment.** In the formula CF/(1 + i)^1 + CF/(1 + i)^2 + ..., the first payment is discounted by one period. So CF / i gives the value one year before the first payment. Here the first payment is at the end of Year 5, so CF / i is the value at the end of Year 4:\n\n800 / 0.06 ≈ **$13,333.33** (at the end of Year 4)\n\n**Step 2: bring that single amount back to today** with PV = FV / (1 + i)^n, where n = 4:\n\n13,333.33 / (1.06)^4 ≈ **$10,561.25**",
+      "example_ids": [
+        "be-ex-deferred-endowment"
+      ],
+      "key_terms": [],
+      "exam_line": "For a perpetuity that starts later, CF / i gives its value one period before the first payment; then discount that amount back to today with PV = FV / (1 + i)^n.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s12-perpetuity-q-5231bb56",
+          "type": "mcq",
+          "stem": "For the $800 endowment whose first payment is at the end of Year 5, 800 / 0.06 gives its value at which point in time?",
+          "options": [
+            "End of Year 4",
+            "Today",
+            "End of Year 5"
+          ],
+          "answer": "End of Year 4",
+          "accept": [],
+          "explanation": "CF / i values the payments one period before the first one, which is the end of Year 4.",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-1-and-2#40",
+            "be--session-1-and-2#37",
+            "be--session-1-and-2#20"
+          ],
+          "derived": [
+            "0.06"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s12-perpetuity-q-a88254f4",
+          "type": "mcq",
+          "stem": "What is the present value today of the deferred perpetuity (to the nearest dollar)?",
+          "options": [
+            "About $10,561",
+            "About $13,333",
+            "$800"
+          ],
+          "answer": "About $10,561",
+          "accept": [],
+          "explanation": "800 / 0.06 = $13,333.33 at the end of Year 4; 13,333.33 / (1.06)^4 is about $10,561.25 today.",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-1-and-2#40",
+            "be--session-1-and-2#37",
+            "be--session-1-and-2#20"
+          ],
+          "derived": [
+            "10,561",
+            "13,333",
+            "0.06",
+            "1.06",
+            "10,561.25",
+            "13,333.33"
+          ],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-1-and-2#40",
+        "be--session-1-and-2#37",
+        "be--session-1-and-2#20"
+      ],
+      "derived": [
+        "0.06",
+        "13,333.33",
+        "1.06",
+        "10,561.25"
+      ],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "be-s12-perpetuity-f1",
+      "front": "Perpetuity",
+      "back": "An asset that perpetually generates a stream of cash flows at the end of each period.",
+      "kind": "term",
+      "source_refs": [
+        "be--session-1-and-2#37"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-perpetuity-f2",
+      "front": "PV of a perpetuity (equal cash flows)",
+      "back": "PV = CF/(1 + i)^1 + CF/(1 + i)^2 + ... = CF / i.",
+      "kind": "formula",
+      "source_refs": [
+        "be--session-1-and-2#37"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-perpetuity-f3",
+      "front": "$500 a year forever at 5%",
+      "back": "PV = 500 / 0.05 = $10,000.",
+      "kind": "example",
+      "source_refs": [
+        "be--session-1-and-2#39"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-perpetuity-f4",
+      "front": "Deferred perpetuity method",
+      "back": "Use CF / i to value the payments one period before the first payment, then discount that amount back to today with PV = FV / (1 + i)^n.",
+      "kind": "fact",
+      "source_refs": [
+        "be--session-1-and-2#40",
+        "be--session-1-and-2#37",
+        "be--session-1-and-2#20"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [],
+  "explain_back": {
+    "prompt": "Explain what a perpetuity is, give its present value formula, and work out the value of $500 a year forever at 5%.",
+    "rubric": [
+      {
+        "point": "A perpetuity generates a stream of cash flows at the end of each period forever",
+        "source_ref": "be--session-1-and-2#37"
+      },
+      {
+        "point": "With an equal cash flow, PV = CF/(1 + i) + CF/(1 + i)^2 + ... = CF / i",
+        "source_ref": "be--session-1-and-2#37"
+      },
+      {
+        "point": "Example: CF = 500, i = 0.05, PV = 500 / 0.05 = $10,000",
+        "source_ref": "be--session-1-and-2#39"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

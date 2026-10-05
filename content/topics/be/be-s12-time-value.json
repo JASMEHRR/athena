@@ -1,0 +1,375 @@
+{
+  "id": "be-s12-time-value",
+  "subject_id": "be",
+  "deck_id": "be--session-1-and-2",
+  "title": "Time value of money and present value",
+  "order": 103,
+  "summary": "Why money today is worth more than the same money later, the present value formula, PV = FV - OCW, and the ₹1,100 worked example.",
+  "est_minutes": 20,
+  "difficulty": 2,
+  "source_refs": [
+    "be--session-1-and-2#19",
+    "be--session-1-and-2#20",
+    "be--session-1-and-2#21",
+    "be--session-1-and-2#22",
+    "be--session-1-and-2#23"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "be-s12-time-value-c1",
+      "heading": "Why ₹10,000 today is not the same as ₹10,000 next year",
+      "explanation_md": "**Business decisions are long horizon**, and **the value of money today will differ from tomorrow**.\n\nThe slide asks: *would you prefer ₹10,000 today or ₹10,000 one year from now? Why?*\n\nThe answer is about **opportunity cost**. If you take the money later, you give up what you could have done with it now. The slide puts it exactly: **the opportunity cost of receiving ₹10,000 one year from now is the amount of interest foregone that could be earned from investing ₹10,000 today.**\n\nSo money today is worth more, because it can earn interest in the meantime.",
+      "example_ids": [
+        "be-ex-rupees-today-or-later"
+      ],
+      "key_terms": [
+        {
+          "term": "Time value of money",
+          "meaning": "The idea that the value of money today differs from its value tomorrow, because money today can be invested to earn interest.",
+          "source_ref": "be--session-1-and-2#19"
+        }
+      ],
+      "exam_line": "The opportunity cost of receiving ₹10,000 one year from now is the interest foregone that could be earned by investing ₹10,000 today.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s12-time-value-q-dabe7ee1",
+          "type": "mcq",
+          "stem": "What is the opportunity cost of receiving ₹10,000 one year from now instead of today?",
+          "options": [
+            "The interest foregone that could be earned from investing ₹10,000 today",
+            "Nothing, because the amount is the same",
+            "The full ₹10,000"
+          ],
+          "answer": "The interest foregone that could be earned from investing ₹10,000 today",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-1-and-2#19"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s12-time-value-q-95b8c899",
+          "type": "true_false",
+          "stem": "The slide says that because business decisions are long horizon, the value of money today will differ from tomorrow.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-1-and-2#19"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-1-and-2#19"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-time-value-c2",
+      "heading": "Future value, present value and the PV formula",
+      "explanation_md": "Two definitions:\n\n- **Future Value (FV):** the value of money at a future date **after earning interest**.\n- **Present Value (PV):** the **current value** of money to be received in the future.\n\nThe formula:\n\n**PV = FV / (1 + i)^n**\n\nwhere **PV** = present value, **FV** = future value, **i** = interest rate, **n** = number of periods.\n\nThe next slide gives another way to see it. **PV reflects the difference between the future value and the opportunity cost of waiting (OCW):**\n\n**PV = FV - OCW**\n\n- **If i = 0, then PV = FV.** No interest, so no cost of waiting.\n- **As i increases, the OCW gets higher and the PV gets lower.**",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Future Value (FV)",
+          "meaning": "Value of money at a future date after earning interest.",
+          "source_ref": "be--session-1-and-2#20"
+        },
+        {
+          "term": "Present Value (PV)",
+          "meaning": "Current value of money to be received in the future.",
+          "source_ref": "be--session-1-and-2#20"
+        },
+        {
+          "term": "Opportunity cost of waiting (OCW)",
+          "meaning": "The gap between future value and present value: PV = FV - OCW.",
+          "source_ref": "be--session-1-and-2#21"
+        }
+      ],
+      "exam_line": "PV = FV / (1 + i)^n; equivalently PV = FV - OCW. If i = 0, PV = FV; as i rises, OCW rises and PV falls.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s12-time-value-q-4ece4cda",
+          "type": "mcq",
+          "stem": "As the interest rate i increases, what happens to present value?",
+          "options": [
+            "PV falls",
+            "PV rises",
+            "PV stays the same"
+          ],
+          "answer": "PV falls",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-1-and-2#20",
+            "be--session-1-and-2#21"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s12-time-value-q-bbf2f3aa",
+          "type": "fill",
+          "stem": "If i = 0, then PV = ____.",
+          "options": [],
+          "answer": "FV",
+          "accept": [
+            "future value"
+          ],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-1-and-2#20",
+            "be--session-1-and-2#21"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s12-time-value-q-e83e647c",
+          "type": "mcq",
+          "stem": "In PV = FV / (1 + i)^n, what does n stand for?",
+          "options": [
+            "Number of periods",
+            "Interest rate",
+            "Future value"
+          ],
+          "answer": "Number of periods",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-1-and-2#20",
+            "be--session-1-and-2#21"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-1-and-2#20",
+        "be--session-1-and-2#21"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-time-value-c3",
+      "heading": "Worked example: ₹1,100 received after a year",
+      "explanation_md": "**Question:** you receive **₹1,100 after a year**. The interest rate is **10%**. What is it worth today?\n\n**Step 1: write down what you know.**\n- Future Value (FV) = ₹1,100\n- Time (n) = 1 year\n- Interest rate (i) = 10%\n\n**Step 2: plug into the formula.**\n\nPV = FV / (1 + i)^n = 1,100 / (1 + 0.10) = **₹1,000**\n\n**Link to PV = FV - OCW:** the opportunity cost of waiting here is 1,100 - 1,000 = ₹100, the interest you could have earned on ₹1,000 in a year.",
+      "example_ids": [
+        "be-ex-pv-1100"
+      ],
+      "key_terms": [],
+      "exam_line": "PV of ₹1,100 received after one year at 10% = 1,100 / (1 + 0.10) = ₹1,000.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s12-time-value-q-e28538cc",
+          "type": "fill",
+          "stem": "PV of ₹1,100 received after one year at an interest rate of 10% = ₹____.",
+          "options": [],
+          "answer": "1,000",
+          "accept": [
+            "1000",
+            "₹1,000",
+            "₹1000"
+          ],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-1-and-2#22",
+            "be--session-1-and-2#23"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s12-time-value-q-3b46daaf",
+          "type": "mcq",
+          "stem": "Using PV = FV - OCW, what is the opportunity cost of waiting in the ₹1,100 example?",
+          "options": [
+            "₹100",
+            "₹1,000",
+            "₹1,100"
+          ],
+          "answer": "₹100",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-1-and-2#21",
+            "be--session-1-and-2#23"
+          ],
+          "derived": [
+            "100"
+          ],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-1-and-2#22",
+        "be--session-1-and-2#23",
+        "be--session-1-and-2#21"
+      ],
+      "derived": [
+        "100"
+      ],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "be-s12-time-value-f1",
+      "front": "Future Value (FV)",
+      "back": "Value of money at a future date after earning interest.",
+      "kind": "term",
+      "source_refs": [
+        "be--session-1-and-2#20"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-time-value-f2",
+      "front": "Present Value (PV)",
+      "back": "Current value of money to be received in the future.",
+      "kind": "term",
+      "source_refs": [
+        "be--session-1-and-2#20"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-time-value-f3",
+      "front": "Present value formula",
+      "back": "PV = FV / (1 + i)^n, where i = interest rate and n = number of periods.",
+      "kind": "formula",
+      "source_refs": [
+        "be--session-1-and-2#20"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-time-value-f4",
+      "front": "PV and the opportunity cost of waiting",
+      "back": "PV = FV - OCW. If i = 0, PV = FV. As i increases, OCW rises and PV falls.",
+      "kind": "formula",
+      "source_refs": [
+        "be--session-1-and-2#21"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-time-value-f5",
+      "front": "Opportunity cost of receiving ₹10,000 a year later",
+      "back": "The interest foregone that could be earned from investing ₹10,000 today.",
+      "kind": "fact",
+      "source_refs": [
+        "be--session-1-and-2#19"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-time-value-f6",
+      "front": "PV of ₹1,100 after one year at 10%",
+      "back": "1,100 / (1 + 0.10) = ₹1,000.",
+      "kind": "example",
+      "source_refs": [
+        "be--session-1-and-2#23"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [],
+  "explain_back": {
+    "prompt": "Explain the time value of money and show how to find the present value of ₹1,100 received after one year at 10%.",
+    "rubric": [
+      {
+        "point": "Business decisions are long horizon; money today differs in value from money tomorrow",
+        "source_ref": "be--session-1-and-2#19"
+      },
+      {
+        "point": "Opportunity cost of waiting is the interest foregone by not investing today",
+        "source_ref": "be--session-1-and-2#19"
+      },
+      {
+        "point": "Formula PV = FV / (1 + i)^n with each symbol defined",
+        "source_ref": "be--session-1-and-2#20"
+      },
+      {
+        "point": "PV = FV - OCW; if i = 0, PV = FV; higher i means higher OCW and lower PV",
+        "source_ref": "be--session-1-and-2#21"
+      },
+      {
+        "point": "Working: 1,100 / (1 + 0.10) = ₹1,000",
+        "source_ref": "be--session-1-and-2#23"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}
