@@ -14,6 +14,7 @@ from .catalog import Catalog
 from .models import OBJECTIVE_TYPES, parse_source_ref
 
 QID_RE = re.compile(r"-q-[0-9a-f]{8}$")
+EM_DASH = "—"
 
 
 def _check_ref(cat: Catalog, ref: str, where: str, errors: list[str]) -> None:
@@ -58,6 +59,8 @@ def check(cat: Catalog) -> tuple[list[str], list[str]]:
 
     for topic in cat.topics.values():
         where = f"topic {topic.id}"
+        if EM_DASH in topic.model_dump_json():
+            errors.append(f"{where}: contains an em dash; JasMehr's text must not use them")
         if topic.subject_id not in cat.subjects:
             errors.append(f"{where}: unknown subject {topic.subject_id}")
         if topic.deck_id not in cat.decks:

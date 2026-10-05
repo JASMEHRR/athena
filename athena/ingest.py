@@ -54,6 +54,26 @@ def _carry_over(old: Deck | None, new_slides: list[Slide]) -> int:
     return carried
 
 
+def apply_kind_overrides(deck: Deck) -> int:
+    """Apply hand-checked slide kinds from status.json ("kinds": {"1": "title"}).
+
+    The extractor guesses kinds; a content pass may correct them (a picture
+    title slide, a thank-you slide). Overrides live in status.json so they
+    survive re-ingests.
+    """
+    kinds = contentio.load_deck_status(deck.id).get("kinds") or {}
+    applied = 0
+    for key, kind in kinds.items():
+        n = int(key)
+        if 1 <= n <= len(deck.slides) and kind in ("content", "title", "agenda", "end", "blank"):
+            slide = deck.slides[n - 1]
+            slide.kind = kind
+            if kind != "content":
+                slide.needs_visual = False
+            applied += 1
+    return applied
+
+
 def _existing_by_sha() -> dict[str, Deck]:
     return {deck.sha256: deck for deck in contentio.iter_decks()}
 
@@ -158,6 +178,7 @@ def run(force: bool = False, only: str | None = None, render: bool = True) -> di
             report["problems"].append((item.key, str(exc)))
             continue
         _carry_over(existing, deck.slides)
+        apply_kind_overrides(deck)
         if existing is not None and existing.sha256 != item.sha256:
             report["stale_topics"] += _mark_topics_stale(deck_id)
         contentio.save_deck(deck)

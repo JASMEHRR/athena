@@ -1,0 +1,326 @@
+{
+  "id": "aib-s2-types-of-ai",
+  "subject_id": "aib",
+  "deck_id": "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai",
+  "title": "Types of AI: narrow, general and super",
+  "order": 103,
+  "summary": "ANI, AGI and ASI with their key traits and the professor's examples.",
+  "est_minutes": 15,
+  "difficulty": 1,
+  "source_refs": [
+    "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#6",
+    "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#7"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "aib-s2-types-of-ai-c1",
+      "heading": "Narrow AI (ANI): one task, done well",
+      "explanation_md": "The deck splits AI into three types. The first is **Artificial Narrow Intelligence (ANI)**, also called **Weak AI**.\n\n**Key trait:** it is **task-specific** and **common**. It is built for one job and that is all it does.\n\n**Examples from the slide:** **Netflix** recommendations, **Siri**, **Alexa** and **Face ID**. Each is clever at one thing only.",
+      "example_ids": [
+        "aib-ex-ani-examples"
+      ],
+      "key_terms": [
+        {
+          "term": "Artificial Narrow Intelligence (ANI)",
+          "meaning": "Weak AI: task-specific and common.",
+          "source_ref": "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#7"
+        }
+      ],
+      "exam_line": "Narrow AI (ANI) is task-specific and common, e.g. Netflix, Siri, Alexa, Face ID.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "aib-s2-types-of-ai-q-84fdcc40",
+          "type": "mcq",
+          "stem": "Narrow AI (ANI) is best described as:",
+          "options": [
+            "Task-specific and common",
+            "Learns across domains",
+            "Beyond human capability"
+          ],
+          "answer": "Task-specific and common",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#7"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-s2-types-of-ai-q-1d64d847",
+          "type": "mcq",
+          "stem": "Which of these is given as an example of narrow AI?",
+          "options": [
+            "Face ID",
+            "IBM Watson",
+            "Future sci-fi robotics"
+          ],
+          "answer": "Face ID",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#7"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-s2-types-of-ai-q-ef9b7f4e",
+          "type": "fill",
+          "stem": "Artificial Narrow Intelligence is also called ____ AI.",
+          "options": [],
+          "answer": "Weak",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#6"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#6",
+        "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s2-types-of-ai-c2",
+      "heading": "General AI (AGI): learning across domains",
+      "explanation_md": "The second type is **Artificial General Intelligence (AGI)**.\n\n**Key trait:** it **learns across domains**, not just one task.\n\n**Examples on this deck's table:** **ChatGPT**, **IBM Watson** and **Google Gemini**. The diagram also shows **IBM Watson** and **OpenAI GPT-3** and says: *\"We are halfway into successfully implementing this phase.\"*\n\nRemember this is how this deck classifies these tools. In the exam, quote the slide's examples.",
+      "example_ids": [
+        "aib-ex-agi-examples"
+      ],
+      "key_terms": [
+        {
+          "term": "Artificial General Intelligence (AGI)",
+          "meaning": "AI that learns across domains.",
+          "source_ref": "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#7"
+        }
+      ],
+      "exam_line": "General AI (AGI) learns across domains, e.g. ChatGPT, IBM Watson, Google Gemini; 'we are halfway into successfully implementing this phase'.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "aib-s2-types-of-ai-q-a4c0f8f3",
+          "type": "mcq",
+          "stem": "Which key trait does the slide give for General AI (AGI)?",
+          "options": [
+            "Learns across domains",
+            "Task-specific, common",
+            "Theoretical only"
+          ],
+          "answer": "Learns across domains",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#7"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-s2-types-of-ai-q-68d45a00",
+          "type": "mcq",
+          "stem": "According to the diagram, how far along are we with AGI?",
+          "options": [
+            "Halfway into successfully implementing this phase",
+            "Fully achieved",
+            "Not started at all"
+          ],
+          "answer": "Halfway into successfully implementing this phase",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#6"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#6",
+        "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s2-types-of-ai-c3",
+      "heading": "Super AI (ASI): beyond human capability",
+      "explanation_md": "The third type is **Artificial Super Intelligence (ASI)**.\n\n**Key trait:** **beyond human capability**.\n\n**Example:** none exists. The table calls it **theoretical, future sci-fi robotics**, and the diagram says it is *\"imagined how the world would be if machines occupy it\"*.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Artificial Super Intelligence (ASI)",
+          "meaning": "AI beyond human capability; theoretical, future sci-fi robotics.",
+          "source_ref": "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#7"
+        }
+      ],
+      "exam_line": "Super AI (ASI) is beyond human capability and is still theoretical (future sci-fi robotics).",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "aib-s2-types-of-ai-q-08b0445b",
+          "type": "true_false",
+          "stem": "The slide gives real working products as examples of Super AI (ASI).",
+          "options": [],
+          "answer": "False",
+          "accept": [],
+          "explanation": "ASI is described as theoretical, future sci-fi robotics.",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#7"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-s2-types-of-ai-q-57e3d76f",
+          "type": "mcq",
+          "stem": "Match the type: 'beyond human capability'.",
+          "options": [
+            "ASI",
+            "ANI",
+            "AGI"
+          ],
+          "answer": "ASI",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#7"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#6",
+        "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "aib-s2-types-of-ai-f1",
+      "front": "ANI (Narrow AI)",
+      "back": "Task-specific, common; also called Weak AI. Examples: Netflix, Siri, Alexa, Face ID.",
+      "kind": "term",
+      "source_refs": [
+        "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#6",
+        "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s2-types-of-ai-f2",
+      "front": "AGI (General AI)",
+      "back": "Learns across domains. Examples: ChatGPT, IBM Watson, Google Gemini.",
+      "kind": "term",
+      "source_refs": [
+        "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s2-types-of-ai-f3",
+      "front": "ASI (Super AI)",
+      "back": "Beyond human capability. Theoretical: future sci-fi robotics.",
+      "kind": "term",
+      "source_refs": [
+        "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s2-types-of-ai-f4",
+      "front": "Where are we with AGI, per the diagram?",
+      "back": "We are halfway into successfully implementing this phase.",
+      "kind": "fact",
+      "source_refs": [
+        "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#6"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [],
+  "explain_back": {
+    "prompt": "Explain the three types of AI with the key trait and an example of each from the slides.",
+    "rubric": [
+      {
+        "point": "ANI: task-specific and common (weak AI), e.g. Netflix, Siri, Alexa, Face ID",
+        "source_ref": "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#7"
+      },
+      {
+        "point": "AGI: learns across domains, e.g. ChatGPT, IBM Watson, Google Gemini",
+        "source_ref": "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#7"
+      },
+      {
+        "point": "ASI: beyond human capability, theoretical future sci-fi robotics",
+        "source_ref": "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#7"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

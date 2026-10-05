@@ -24,7 +24,8 @@ Notes for the next round go under each ticked task.
 ## P2 One deck end to end
 - [x] P2.1 Transcribe exams and PYQs if present.
   - exams.json is empty (no EST datesheet). PYQs: be, sce (MST 2025), emdm (MST 2023 xlsx, tasks from sheet labels), aib (tutorial sheet). Patterns for all four. Syllabus maps for aib, be, far, mm, oml, qtm, sce. PYQ topic_ids are mapped once topics exist.
-- [ ] P2.2 Pass A for one deck of the first subject (no exam dates, so alphabetical: AIB, deck aib--sesssion-2-survival-for-the-fittest-adoption-of-ai). Validate, ground, cover.
+- [x] P2.2 Pass A for one deck of the first subject (no exam dates, so alphabetical: AIB, deck aib--sesssion-2-survival-for-the-fittest-adoption-of-ai). Validate, ground, cover.
+  - 5 topics, 18 chunks, 46 checks, 30 cards, 19 examples. Grounding 0 failures, coverage 100%. Workflow and draft format: docs/AUTHORING.md (python -m athena.author). Drafts live in the scratchpad, topic JSON is the source of truth.
 
 ## P3 Core app
 - [ ] P3.1 Content import into SQLite with FTS5; API for subjects, topics, lessons, questions, progress.
@@ -92,7 +93,7 @@ No exam dates, so round-robin across subjects. Validate, ground and cover each d
 ## Deck status
 | Deck | Subject | Ingested | Pass A | Pass B | Verified |
 |---|---|---|---|---|---|
-| aib--sesssion-2-survival-for-the-fittest-adoption-of-ai | aib | yes | | | |
+| aib--sesssion-2-survival-for-the-fittest-adoption-of-ai | aib | yes | done | | |
 | aib--aib-session3-4-introduction-to-ai | aib | yes | | | |
 | aib--aib-session4-5-types-of-ai | aib | yes | | | |
 | aib--ai-for-business-chapters-2-3 | aib | yes | | | |
@@ -120,4 +121,5 @@ No exam dates, so round-robin across subjects. Validate, ground and cover each d
 | sce--list-of-business-ideas | sce | yes | | | |
 | sce--step-startup-pitching-template-very-early-stage | sce | yes | | | |
 | sip1--sip-2026-27-organization-selection-presentation-po | sip1 | yes | | | |
+
 

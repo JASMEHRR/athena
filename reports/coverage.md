@@ -1,10 +1,10 @@
 # Coverage report
 
-Generated 2026-10-05 12:49. A deck's pass A is complete at 100% of content slides (cited by a lesson chunk, or the gap explained) with every example taught.
+Generated 2026-10-05 13:01. A deck's pass A is complete at 100% of content slides (cited by a lesson chunk, or the gap explained) with every example taught.
 
 | Deck | Subject | Topics | Content slides | Cited | Explained | Coverage | Examples taught | Pass A |
 |---|---|---|---|---|---|---|---|---|
-| aib--sesssion-2-survival-for-the-fittest-adoption-of-ai | aib | 0 | 19 | 0 | 0 | 0% | 0/0 |  |
+| aib--sesssion-2-survival-for-the-fittest-adoption-of-ai | aib | 5 | 17 | 17 | 0 | 100% | 19/19 | done |
 | aib--aib-session3-4-introduction-to-ai | aib | 0 | 42 | 0 | 0 | 0% | 0/0 |  |
 | aib--aib-session4-5-types-of-ai | aib | 0 | 54 | 0 | 0 | 0% | 0/0 |  |
 | aib--ai-for-business-chapters-2-3 | aib | 0 | 17 | 0 | 0 | 0% | 0/0 |  |

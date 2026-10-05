@@ -1,0 +1,413 @@
+{
+  "id": "aib-s2-indian-ai-and-market",
+  "subject_id": "aib",
+  "deck_id": "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai",
+  "title": "India's AI players and the AI market",
+  "order": 102,
+  "summary": "Seven Indian AI products and platforms from the slide, and the size and growth drivers of the global AI market.",
+  "est_minutes": 20,
+  "difficulty": 1,
+  "source_refs": [
+    "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#3",
+    "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#5"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "aib-s2-indian-ai-and-market-c1",
+      "heading": "Indian AI for customer conversations",
+      "explanation_md": "Your professor lists **Leading Indian AI Products & Platforms**. Three of them are about talking to customers:\n\n- **Haptik**: an **enterprise conversational AI platform** (text and voice chatbots), used in insurance, e-commerce and government. Its **MyGov Corona Helpdesk reached 30M+ users**.\n- **Yellow.ai**: an **omnichannel customer support automation platform**. It also launched **YellowG**, a small generative AI model.\n- **CoRover.ai (BharatGPT)**: **BharatGPT** is a **sovereign AI assistant** offering text, voice and video outputs tailored for India.",
+      "example_ids": [
+        "aib-ex-haptik",
+        "aib-ex-yellow-ai",
+        "aib-ex-corover-bharatgpt"
+      ],
+      "key_terms": [],
+      "exam_line": "Haptik (conversational AI, MyGov Corona Helpdesk 30M+ users), Yellow.ai (omnichannel support automation, YellowG) and CoRover.ai (BharatGPT, sovereign AI assistant).",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "aib-s2-indian-ai-and-market-q-1bd341f5",
+          "type": "mcq",
+          "stem": "Which Indian platform's MyGov Corona Helpdesk reached 30M+ users?",
+          "options": [
+            "Haptik",
+            "Sarvam AI",
+            "Lumio AI"
+          ],
+          "answer": "Haptik",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#3"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-s2-indian-ai-and-market-q-dd201519",
+          "type": "mcq",
+          "stem": "BharatGPT is a sovereign AI assistant from which company?",
+          "options": [
+            "CoRover.ai",
+            "Yellow.ai",
+            "Zoho Corporation"
+          ],
+          "answer": "CoRover.ai",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#3"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-s2-indian-ai-and-market-q-dd0c075f",
+          "type": "fill",
+          "stem": "Yellow.ai launched ____, a small generative AI model.",
+          "options": [],
+          "answer": "YellowG",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#3"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#3"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s2-indian-ai-and-market-c2",
+      "heading": "Indian AI assistants, language models and platforms",
+      "explanation_md": "The other four on the same slide:\n\n- **Krutrim (Kruti)**: **Kruti** is called **India's first agentic AI assistant**. It books taxis, orders food and pays bills, and supports **13 Indian languages**.\n- **Sarvam AI**: **language-specific LLMs for 10 Indian languages**, voice-enabled chatbots, and an open-source **2B-parameter model, Sarvam 2B**.\n- **Lumio AI**: a **multi-model AI platform** that lets users compare and switch between ChatGPT, Gemini, Claude and more from a single interface.\n- **Zoho Corporation**: an **in-house LLM and AI agents** built into its productivity suite for drafting, analysis and automation.\n\nNotice the theme: Indian languages and Indian use cases.",
+      "example_ids": [
+        "aib-ex-krutrim-kruti",
+        "aib-ex-sarvam-ai",
+        "aib-ex-lumio-ai",
+        "aib-ex-zoho-ai"
+      ],
+      "key_terms": [
+        {
+          "term": "Agentic AI assistant",
+          "meaning": "An assistant that completes tasks for you; Kruti books taxis, orders food and pays bills.",
+          "source_ref": "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#3"
+        }
+      ],
+      "exam_line": "Kruti is India's first agentic AI assistant (13 Indian languages); Sarvam AI builds LLMs for 10 Indian languages including Sarvam 2B.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "aib-s2-indian-ai-and-market-q-707c5b04",
+          "type": "mcq",
+          "stem": "Which product is described as India's first agentic AI assistant?",
+          "options": [
+            "Kruti (Krutrim)",
+            "BharatGPT",
+            "Lumio"
+          ],
+          "answer": "Kruti (Krutrim)",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#3"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-s2-indian-ai-and-market-q-c4936a43",
+          "type": "mcq",
+          "stem": "Sarvam AI builds language-specific LLMs for how many Indian languages?",
+          "options": [
+            "10",
+            "13",
+            "2"
+          ],
+          "answer": "10",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#3"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-s2-indian-ai-and-market-q-0f2981f1",
+          "type": "mcq",
+          "stem": "Which platform lets users compare and switch between ChatGPT, Gemini and Claude in one interface?",
+          "options": [
+            "Lumio AI",
+            "Haptik",
+            "Zoho Corporation"
+          ],
+          "answer": "Lumio AI",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#3"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#3"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s2-indian-ai-and-market-c3",
+      "heading": "How big is the AI market?",
+      "explanation_md": "The slide uses a market report to show how fast AI is growing:\n\n- **USD 86.9 billion in 2022**\n- **USD 407.0 billion projected by 2027**\n- a **CAGR of 36.2%** over the forecast period\n\n**Why is it growing?** The slide gives three drivers:\n1. a rapid surge of **cybersecurity incidents and ransomware attacks** during the **COVID-19** pandemic;\n2. the need for **new business use cases** like decision support, interactive games and real-time retail recommendation engines;\n3. growing demand to **access historical datasets to predict trends**.\n\n**Where?** **North America** is expected to hold the **largest market share**. Vendors are also expanding into **Asia Pacific** because of rapid digital transformation there.",
+      "example_ids": [
+        "aib-ex-ai-market-size"
+      ],
+      "key_terms": [
+        {
+          "term": "CAGR",
+          "meaning": "The yearly growth rate of the market over the forecast period; 36.2% on this slide.",
+          "source_ref": "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#5"
+        }
+      ],
+      "exam_line": "Global AI market: USD 86.9 billion (2022) to USD 407.0 billion (2027), CAGR 36.2%; North America holds the largest share.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "aib-s2-indian-ai-and-market-q-5f1424c4",
+          "type": "mcq",
+          "stem": "What is the projected size of the global AI market by 2027 on the slide?",
+          "options": [
+            "USD 407.0 billion",
+            "USD 86.9 billion",
+            "USD 36.2 billion"
+          ],
+          "answer": "USD 407.0 billion",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#5"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-s2-indian-ai-and-market-q-54f8c714",
+          "type": "fill",
+          "stem": "The AI market is growing at a CAGR of ____% during the forecast period.",
+          "options": [],
+          "answer": "36.2",
+          "accept": [
+            "36.2%"
+          ],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#5"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-s2-indian-ai-and-market-q-3efde5ea",
+          "type": "true_false",
+          "stem": "Asia Pacific is expected to hold the largest share of the AI market during the forecast period.",
+          "options": [],
+          "answer": "False",
+          "accept": [],
+          "explanation": "North America is expected to hold the largest share; vendors are expanding into Asia Pacific.",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#5"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#5"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "aib-s2-indian-ai-and-market-f1",
+      "front": "Haptik",
+      "back": "Enterprise conversational AI platform (text and voice chatbots); MyGov Corona Helpdesk reached 30M+ users.",
+      "kind": "example",
+      "source_refs": [
+        "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#3"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s2-indian-ai-and-market-f2",
+      "front": "Yellow.ai",
+      "back": "Omnichannel customer support automation platform; launched YellowG, a small generative AI model.",
+      "kind": "example",
+      "source_refs": [
+        "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#3"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s2-indian-ai-and-market-f3",
+      "front": "Kruti (Krutrim)",
+      "back": "India's first agentic AI assistant: books taxis, orders food, pays bills; 13 Indian languages.",
+      "kind": "example",
+      "source_refs": [
+        "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#3"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s2-indian-ai-and-market-f4",
+      "front": "Sarvam AI",
+      "back": "Language-specific LLMs for 10 Indian languages, voice chatbots, open-source 2B-parameter model Sarvam 2B.",
+      "kind": "example",
+      "source_refs": [
+        "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#3"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s2-indian-ai-and-market-f5",
+      "front": "BharatGPT",
+      "back": "Sovereign AI assistant by CoRover.ai with text, voice and video outputs tailored for India.",
+      "kind": "example",
+      "source_refs": [
+        "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#3"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s2-indian-ai-and-market-f6",
+      "front": "Global AI market size (slide)",
+      "back": "USD 86.9 billion in 2022 to USD 407.0 billion by 2027, CAGR 36.2%.",
+      "kind": "fact",
+      "source_refs": [
+        "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#5"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s2-indian-ai-and-market-f7",
+      "front": "Three drivers of AI market growth",
+      "back": "Surge of cybersecurity incidents and ransomware during COVID-19; need for new business use cases; demand to use historical datasets to predict trends.",
+      "kind": "list",
+      "source_refs": [
+        "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#5"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [],
+  "explain_back": {
+    "prompt": "Name four Indian AI products from the slide with what each does, then describe the size and growth drivers of the AI market.",
+    "rubric": [
+      {
+        "point": "Haptik: conversational AI platform; MyGov Corona Helpdesk 30M+ users",
+        "source_ref": "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#3"
+      },
+      {
+        "point": "Kruti: India's first agentic AI assistant in 13 Indian languages",
+        "source_ref": "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#3"
+      },
+      {
+        "point": "Sarvam AI or BharatGPT or Yellow.ai or Lumio or Zoho described correctly",
+        "source_ref": "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#3"
+      },
+      {
+        "point": "Market: USD 86.9 billion (2022) to USD 407.0 billion (2027), CAGR 36.2%",
+        "source_ref": "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#5"
+      },
+      {
+        "point": "Drivers: cybersecurity incidents, new use cases, historical data to predict trends",
+        "source_ref": "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#5"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

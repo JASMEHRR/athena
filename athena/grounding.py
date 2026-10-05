@@ -54,6 +54,8 @@ illustrate outline highlight justify examine elaborate mention write give show
 first second third fourth fifth finally also overall together hence so thus
 both either neither each every all any some none most many few
 yes no not only also
+pick choose name argue caution warning careful imagine picture start begin end finish quick recap
+match spot fill complete read look see watch try practise practice revise review test check
 monday tuesday wednesday thursday friday saturday sunday january february march april may june july august
 september october november december
 """.split())
@@ -126,10 +128,23 @@ def build_evidence(texts: list[str]) -> Evidence:
     return Evidence(text=lower, words=words, numbers=nums)
 
 
+def stem(word: str) -> str:
+    """Very light English stemmer: enough to match 'Detecting' with 'detects'."""
+    w = word.lower()
+    for suffix in ("ing", "ed", "es", "s", "ly"):
+        if len(w) > len(suffix) + 2 and w.endswith(suffix):
+            w = w[: -len(suffix)]
+            break
+    if len(w) > 3 and w[-1] == w[-2] and w[-1] not in "aeiou":
+        w = w[:-1]  # flagg -> flag
+    return w.rstrip("e")
+
+
 def _lower_words(text: str, vocab: set[str]) -> None:
     for w in WORD_RE.findall(text):
         if w.islower():
             vocab.add(_strip_possessive(w))
+            vocab.add("~" + stem(_strip_possessive(w)))
 
 
 def corpus_lowercase_vocab(cat: Catalog) -> set[str]:
@@ -186,7 +201,7 @@ def check_text(text: str, ev: Evidence, vocab: set[str], derived: set[str]) -> t
         missing.append(raw)
     for word in proper_nouns(text):
         low = word.lower()
-        if not word.isupper() and (low in vocab or (low.endswith("s") and low[:-1] in vocab)):
+        if not word.isupper() and (low in vocab or "~" + stem(low) in vocab):
             continue
         if not _noun_ok(word, ev):
             missing.append(word)
