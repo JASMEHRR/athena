@@ -1,6 +1,6 @@
 # Coverage report
 
-Generated 2026-10-05 14:10. A deck's pass A is complete at 100% of content slides (cited by a lesson chunk, or the gap explained) with every example taught.
+Generated 2026-10-05 15:06. A deck's pass A is complete at 100% of content slides (cited by a lesson chunk, or the gap explained) with every example taught.
 
 | Deck | Subject | Topics | Content slides | Cited | Explained | Coverage | Examples taught | Pass A |
 |---|---|---|---|---|---|---|---|---|
@@ -18,7 +18,7 @@ Generated 2026-10-05 14:10. A deck's pass A is complete at 100% of content slide
 | mm--session-1-mm | mm | 0 | 16 | 0 | 0 | 0% | 0/0 |  |
 | mm--session-2-mm | mm | 0 | 21 | 0 | 0 | 0% | 0/0 |  |
 | mm--session3-mm | mm | 0 | 21 | 0 | 0 | 0% | 0/0 |  |
-| oml--1-ob-introduction | oml | 0 | 22 | 0 | 0 | 0% | 0/0 |  |
+| oml--1-ob-introduction | oml | 5 | 22 | 22 | 0 | 100% | 6/6 | ready |
 | oml--casestudypeople-express | oml | 0 | 1 | 0 | 0 | 0% | 0/0 |  |
 | oml--peoples-expressedpjul30 | oml | 0 | 17 | 0 | 0 | 0% | 0/0 |  |
 | qtm--module-1 | qtm | 0 | 41 | 0 | 0 | 0% | 0/0 |  |

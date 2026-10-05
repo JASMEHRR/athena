@@ -1,0 +1,435 @@
+{
+  "id": "oml-intro-management-and-organization",
+  "subject_id": "oml",
+  "deck_id": "oml--1-ob-introduction",
+  "title": "Management and organizations",
+  "order": 101,
+  "summary": "Why OB starts with people, what management means (Follet, Stoner), effectiveness vs efficiency, and what an organization is.",
+  "est_minutes": 20,
+  "difficulty": 1,
+  "source_refs": [
+    "oml--1-ob-introduction#2",
+    "oml--1-ob-introduction#3",
+    "oml--1-ob-introduction#4",
+    "oml--1-ob-introduction#5",
+    "oml--1-ob-introduction#6"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "oml-intro-management-and-organization-c1",
+      "heading": "Organizations perform through people",
+      "explanation_md": "The module opens with one idea from **Kozlowski and Klein (2000)**: *organizations do not 'perform'; individuals in organizations perform* in ways that let the organization achieve good results.\n\nThat is why OB matters to a manager. If you want the organization to do well, you have to understand the **people** inside it.\n\nThe module then covers, in this order: management and organization, the **P-O-L-C** framework, management roles and managerial skills, organizational behaviour, a framework for studying OB, the disciplines that contribute to OB, a basic OB model, contemporary realities that affect OB, and today's challenges in the Indian workplace.",
+      "example_ids": [
+        "oml-ex-intro-kozlowski-klein"
+      ],
+      "key_terms": [],
+      "exam_line": "Organizations do not 'perform'; individuals in organizations perform in ways that allow the organization to achieve desirable outcomes (Kozlowski and Klein, 2000).",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "oml-intro-management-and-organization-q-ffe0aaef",
+          "type": "mcq",
+          "stem": "According to Kozlowski and Klein (2000), who actually performs in an organization?",
+          "options": [
+            "Individuals in the organization",
+            "The organization as a whole",
+            "Only top management"
+          ],
+          "answer": "Individuals in the organization",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "oml--1-ob-introduction#2"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "oml-intro-management-and-organization-q-4499eb05",
+          "type": "true_false",
+          "stem": "The quote in the module says organizations themselves 'perform', independent of the people in them.",
+          "options": [],
+          "answer": "False",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "oml--1-ob-introduction#2"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "oml--1-ob-introduction#2",
+        "oml--1-ob-introduction#3"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "oml-intro-management-and-organization-c2",
+      "heading": "What management is",
+      "explanation_md": "The slide gives three ways to say what management is:\n\n- **Mary Parker Follet:** *\"The art of getting things done through people.\"*\n- **James A.F. Stoner:** *\"Management is the process of **planning, organizing, leading and controlling** the efforts of organization members and of using all other organizational resources to achieve stated organizational goals.\"*\n- In short: **the process of getting things done effectively and efficiently, with and through people.**\n\nNotice that Stoner's definition already contains the four management functions you will meet next.",
+      "example_ids": [
+        "oml-ex-intro-follet",
+        "oml-ex-intro-stoner"
+      ],
+      "key_terms": [
+        {
+          "term": "Management",
+          "meaning": "The process of getting things done effectively and efficiently, with and through people.",
+          "source_ref": "oml--1-ob-introduction#4"
+        }
+      ],
+      "exam_line": "Management: the process of getting things done effectively and efficiently, with and through people.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "oml-intro-management-and-organization-q-5bffbcaa",
+          "type": "mcq",
+          "stem": "Who defined management as 'the art of getting things done through people'?",
+          "options": [
+            "Mary Parker Follet",
+            "James A.F. Stoner",
+            "Stephen P Robbins"
+          ],
+          "answer": "Mary Parker Follet",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "oml--1-ob-introduction#4",
+            "oml--1-ob-introduction#13"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "oml-intro-management-and-organization-q-d82aeee7",
+          "type": "fill",
+          "stem": "Management is the process of getting things done effectively and efficiently, with and through ____.",
+          "options": [],
+          "answer": "people",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "oml--1-ob-introduction#4"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "oml--1-ob-introduction#4"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "oml-intro-management-and-organization-c3",
+      "heading": "Effectiveness vs efficiency",
+      "explanation_md": "Two words that sound alike but mean different things:\n\n- **Effectiveness: doing the right things.** It is about **ends**: **goal attainment**. High effectiveness means **high attainment** of goals.\n- **Efficiency: doing things right.** It is about **means**: **resource usage**. High efficiency means **low waste**.\n\nThe diagram puts **goals** in the middle: a good manager aims for low waste *and* high attainment at the same time.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Effectiveness",
+          "meaning": "Doing the right things; ends; goal attainment (high attainment).",
+          "source_ref": "oml--1-ob-introduction#5"
+        },
+        {
+          "term": "Efficiency",
+          "meaning": "Doing things right; means; resource usage (low waste).",
+          "source_ref": "oml--1-ob-introduction#5"
+        }
+      ],
+      "exam_line": "Effectiveness = doing the right things (ends, goal attainment). Efficiency = doing things right (means, resource usage, low waste).",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "oml-intro-management-and-organization-q-ea7012a6",
+          "type": "mcq",
+          "stem": "'Doing things right' describes:",
+          "options": [
+            "Efficiency",
+            "Effectiveness",
+            "Leadership"
+          ],
+          "answer": "Efficiency",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "oml--1-ob-introduction#4"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "oml-intro-management-and-organization-q-c5fab9d2",
+          "type": "mcq",
+          "stem": "On the diagram, effectiveness is linked to which idea?",
+          "options": [
+            "Ends: goal attainment",
+            "Means: resource usage",
+            "Low waste"
+          ],
+          "answer": "Ends: goal attainment",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "oml--1-ob-introduction#5"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "oml-intro-management-and-organization-q-ed181721",
+          "type": "true_false",
+          "stem": "Efficiency is about means and low waste of resources.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "oml--1-ob-introduction#5"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "oml--1-ob-introduction#4",
+        "oml--1-ob-introduction#5"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "oml-intro-management-and-organization-c4",
+      "heading": "What an organization is",
+      "explanation_md": "An **organization** is *a deliberate arrangement of people brought together to accomplish a specific purpose.*\n\nEvery organization has **three characteristics**:\n1. **People**\n2. **Goals**\n3. **Structure**\n\nTake away any one and it is no longer an organization: no people means no one to do the work, no goal means no purpose, and no structure means no arrangement.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Organization",
+          "meaning": "A deliberate arrangement of people brought together to accomplish a specific purpose.",
+          "source_ref": "oml--1-ob-introduction#6"
+        }
+      ],
+      "exam_line": "Organization: a deliberate arrangement of people brought together to accomplish a specific purpose; three characteristics: people, goals, structure.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "oml-intro-management-and-organization-q-76ceb4ed",
+          "type": "mcq",
+          "stem": "Which set lists the three characteristics of organizations from the slide?",
+          "options": [
+            "People, goals, structure",
+            "Planning, leading, controlling",
+            "Psychology, sociology, anthropology"
+          ],
+          "answer": "People, goals, structure",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "oml--1-ob-introduction#6",
+            "oml--1-ob-introduction#8",
+            "oml--1-ob-introduction#18"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "oml-intro-management-and-organization-q-5f7a45ce",
+          "type": "fill",
+          "stem": "An organization is a deliberate arrangement of people brought together to accomplish a specific ____.",
+          "options": [],
+          "answer": "purpose",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "oml--1-ob-introduction#6"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "oml--1-ob-introduction#6"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "oml-intro-management-and-organization-f1",
+      "front": "Kozlowski and Klein (2000) on performance",
+      "back": "Organizations do not 'perform'; individuals in organizations perform in ways that allow the organizations to achieve desirable performance outcomes.",
+      "kind": "fact",
+      "source_refs": [
+        "oml--1-ob-introduction#2"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "oml-intro-management-and-organization-f2",
+      "front": "Mary Parker Follet's definition of management",
+      "back": "The art of getting things done through people.",
+      "kind": "term",
+      "source_refs": [
+        "oml--1-ob-introduction#4"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "oml-intro-management-and-organization-f3",
+      "front": "James A.F. Stoner's definition of management",
+      "back": "The process of planning, organizing, leading and controlling the efforts of organization members and of using all other organizational resources to achieve stated organizational goals.",
+      "kind": "term",
+      "source_refs": [
+        "oml--1-ob-introduction#4"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "oml-intro-management-and-organization-f4",
+      "front": "Effectiveness",
+      "back": "Doing the right things: ends, goal attainment.",
+      "kind": "term",
+      "source_refs": [
+        "oml--1-ob-introduction#4",
+        "oml--1-ob-introduction#5"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "oml-intro-management-and-organization-f5",
+      "front": "Efficiency",
+      "back": "Doing things right: means, resource usage, low waste.",
+      "kind": "term",
+      "source_refs": [
+        "oml--1-ob-introduction#4",
+        "oml--1-ob-introduction#5"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "oml-intro-management-and-organization-f6",
+      "front": "Organization (definition)",
+      "back": "A deliberate arrangement of people brought together to accomplish a specific purpose.",
+      "kind": "term",
+      "source_refs": [
+        "oml--1-ob-introduction#6"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "oml-intro-management-and-organization-f7",
+      "front": "Three characteristics of organizations",
+      "back": "People, goals, structure.",
+      "kind": "list",
+      "source_refs": [
+        "oml--1-ob-introduction#6"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [],
+  "explain_back": {
+    "prompt": "Explain what management is, the difference between effectiveness and efficiency, and what makes something an organization.",
+    "rubric": [
+      {
+        "point": "Management is getting things done effectively and efficiently, with and through people (Follet: through people)",
+        "source_ref": "oml--1-ob-introduction#4"
+      },
+      {
+        "point": "Stoner's definition: planning, organizing, leading and controlling to achieve organizational goals",
+        "source_ref": "oml--1-ob-introduction#4"
+      },
+      {
+        "point": "Effectiveness is doing the right things (goal attainment); efficiency is doing things right (low waste)",
+        "source_ref": "oml--1-ob-introduction#5"
+      },
+      {
+        "point": "An organization is a deliberate arrangement of people for a specific purpose, with people, goals and structure",
+        "source_ref": "oml--1-ob-introduction#6"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

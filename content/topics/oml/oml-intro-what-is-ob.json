@@ -1,0 +1,404 @@
+{
+  "id": "oml-intro-what-is-ob",
+  "subject_id": "oml",
+  "deck_id": "oml--1-ob-introduction",
+  "title": "What organizational behaviour is and why it matters",
+  "order": 103,
+  "summary": "Definitions of OB (including Stephen P Robbins), its goal, the three levels of influence, and how OB can transform a company.",
+  "est_minutes": 20,
+  "difficulty": 1,
+  "source_refs": [
+    "oml--1-ob-introduction#12",
+    "oml--1-ob-introduction#13",
+    "oml--1-ob-introduction#3",
+    "oml--1-ob-introduction#14",
+    "oml--1-ob-introduction#15",
+    "oml--1-ob-introduction#16"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "oml-intro-what-is-ob-c1",
+      "heading": "What OB studies",
+      "explanation_md": "**Organizational behaviour (OB)** is described on the slides in several ways:\n\n- how individuals interact within groups;\n- the study of **human behavior in the organization**;\n- the application of **psychology in the workplace**;\n- how people and groups in organizations behave;\n- the role of organizational **systems, structures and processes** in shaping behavior, to understand how organizations really work.\n\nThe formal version: OB studies **the influence that individuals, groups and structure have on behavior within organizations**.\n\n**Stephen P Robbins:** *\"Organisational Behaviour is a systematic study of the actions and attitudes that people exhibit within the organisations.\"*",
+      "example_ids": [
+        "oml-ex-intro-robbins"
+      ],
+      "key_terms": [
+        {
+          "term": "Organizational behavior",
+          "meaning": "The study of the influence that individuals, groups and structure have on behavior within organizations.",
+          "source_ref": "oml--1-ob-introduction#13"
+        }
+      ],
+      "exam_line": "OB studies the influence that individuals, groups and structure have on behavior within organizations (Robbins: a systematic study of the actions and attitudes people exhibit within organisations).",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "oml-intro-what-is-ob-q-151d51d6",
+          "type": "mcq",
+          "stem": "According to the slide, OB studies the influence of which three things on behavior within organizations?",
+          "options": [
+            "Individuals, groups and structure",
+            "Planning, leading and controlling",
+            "Productivity, effectiveness and efficiency"
+          ],
+          "answer": "Individuals, groups and structure",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "oml--1-ob-introduction#13",
+            "oml--1-ob-introduction#8",
+            "oml--1-ob-introduction#22"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "oml-intro-what-is-ob-q-24c34719",
+          "type": "mcq",
+          "stem": "Who called OB 'a systematic study of the actions and attitudes that people exhibit within the organisations'?",
+          "options": [
+            "Stephen P Robbins",
+            "Henry Mintzberg",
+            "Mary Parker Follet"
+          ],
+          "answer": "Stephen P Robbins",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "oml--1-ob-introduction#13",
+            "oml--1-ob-introduction#9",
+            "oml--1-ob-introduction#4"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "oml--1-ob-introduction#12",
+        "oml--1-ob-introduction#13",
+        "oml--1-ob-introduction#3"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "oml-intro-what-is-ob-c2",
+      "heading": "The goal of OB",
+      "explanation_md": "Why study OB at all? Two answers from the slides:\n\n- Its **chief goal** is to **apply that knowledge toward improving an organization's effectiveness**.\n- **The goal** is to **explain, predict, and control behavior** within an organization.\n\nRemember the three verbs in order: **explain, predict, control**.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "The goal of OB is to explain, predict, and control behavior within an organization, and to apply that knowledge to improve the organization's effectiveness.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "oml-intro-what-is-ob-q-b7808de8",
+          "type": "fill",
+          "stem": "The goal of organizational behavior is to explain, predict, and ____ behavior within an organization.",
+          "options": [],
+          "answer": "control",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "oml--1-ob-introduction#14"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "oml-intro-what-is-ob-q-0cb24aea",
+          "type": "true_false",
+          "stem": "OB's chief goal is to apply its knowledge toward improving an organization's effectiveness.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "oml--1-ob-introduction#13"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "oml--1-ob-introduction#13",
+        "oml--1-ob-introduction#14"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "oml-intro-what-is-ob-c3",
+      "heading": "Three levels of influence",
+      "explanation_md": "OB examines behavior at **three different levels of influence**, shown as rising steps (the **layers of OB**):\n\n- **The Individual:** emotions, values and attitudes, perception, personality. Linked to the next level by **motivating self and others**.\n- **The Group:** negotiation, conflict, communication, groups and teams. Linked to the next level by **power and politics**.\n- **The Organization:** change, organizational culture, decision making, leadership.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "OB examines behavior at three levels: the individual, the group and the organization.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "oml-intro-what-is-ob-q-26365963",
+          "type": "mcq",
+          "stem": "On the 'layers of OB' slide, organizational culture belongs to which level?",
+          "options": [
+            "The Organization",
+            "The Group",
+            "The Individual"
+          ],
+          "answer": "The Organization",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "oml--1-ob-introduction#15"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "oml-intro-what-is-ob-q-18c8dbc3",
+          "type": "mcq",
+          "stem": "Personality and perception sit at which level?",
+          "options": [
+            "The Individual",
+            "The Group",
+            "The Organization"
+          ],
+          "answer": "The Individual",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "oml--1-ob-introduction#15"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "oml-intro-what-is-ob-q-afbdbc1b",
+          "type": "fill",
+          "stem": "On the slide, the step linking the group to the organization is power and ____.",
+          "options": [],
+          "answer": "politics",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "oml--1-ob-introduction#15"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "oml--1-ob-introduction#15"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "oml-intro-what-is-ob-c4",
+      "heading": "How OB can transform a company",
+      "explanation_md": "The slide asks: **how can implementing OB transform a company?**\n\n- It gives the **insights needed to run smoothly and efficiently**.\n- It is **essential to become effective at all levels**.\n- **Employee behavior influences an organization's performance** and enables **strategy execution**.\n- When employees are **led effectively and motivated** to do their best, the entire organization grows and develops.\n- **Documented benefits:** improved health, productivity, job satisfaction, organizational commitment, and low employee turnover.\n- It shows how organizations work, **from individual motivation to team dynamics to organizational structure**.\n- It gives a **foundation for the effective management of people**.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "Documented benefits of OB: improved health, productivity, job satisfaction, organizational commitment and low employee turnover.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "oml-intro-what-is-ob-q-8295169d",
+          "type": "mcq",
+          "stem": "Which is listed as a documented benefit of implementing OB?",
+          "options": [
+            "Low employee turnover",
+            "Higher employee turnover",
+            "Fewer team dynamics"
+          ],
+          "answer": "Low employee turnover",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "oml--1-ob-introduction#16"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "oml-intro-what-is-ob-q-7a72478e",
+          "type": "true_false",
+          "stem": "The slide says employee behavior influences an organization's performance and enables strategy execution.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "oml--1-ob-introduction#16"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "oml--1-ob-introduction#16"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "oml-intro-what-is-ob-f1",
+      "front": "Organizational behavior (definition)",
+      "back": "The study of the influence that individuals, groups and structure have on behavior within organizations.",
+      "kind": "term",
+      "source_refs": [
+        "oml--1-ob-introduction#13"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "oml-intro-what-is-ob-f2",
+      "front": "Stephen P Robbins on OB",
+      "back": "A systematic study of the actions and attitudes that people exhibit within the organisations.",
+      "kind": "term",
+      "source_refs": [
+        "oml--1-ob-introduction#13"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "oml-intro-what-is-ob-f3",
+      "front": "Goal of organizational behavior (three verbs)",
+      "back": "Explain, predict, and control behavior within an organization.",
+      "kind": "list",
+      "source_refs": [
+        "oml--1-ob-introduction#14"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "oml-intro-what-is-ob-f4",
+      "front": "Three levels of influence in OB",
+      "back": "The individual, the group, the organization.",
+      "kind": "list",
+      "source_refs": [
+        "oml--1-ob-introduction#15"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "oml-intro-what-is-ob-f5",
+      "front": "Topics at the individual level in the layers of OB",
+      "back": "Emotions, values and attitudes, perception, personality.",
+      "kind": "list",
+      "source_refs": [
+        "oml--1-ob-introduction#15"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "oml-intro-what-is-ob-f6",
+      "front": "Documented benefits of OB",
+      "back": "Improved health, productivity, job satisfaction, organizational commitment, low employee turnover.",
+      "kind": "list",
+      "source_refs": [
+        "oml--1-ob-introduction#16"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [],
+  "explain_back": {
+    "prompt": "Explain what OB is, its goal, the levels at which it studies behavior, and how it can transform a company.",
+    "rubric": [
+      {
+        "point": "OB studies how individuals, groups and structure influence behavior in organizations (Robbins: actions and attitudes)",
+        "source_ref": "oml--1-ob-introduction#13"
+      },
+      {
+        "point": "Goal: explain, predict and control behavior; improve the organization's effectiveness",
+        "source_ref": "oml--1-ob-introduction#14"
+      },
+      {
+        "point": "Three levels: individual, group, organization",
+        "source_ref": "oml--1-ob-introduction#15"
+      },
+      {
+        "point": "Benefits: health, productivity, job satisfaction, commitment, low turnover",
+        "source_ref": "oml--1-ob-introduction#16"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}
