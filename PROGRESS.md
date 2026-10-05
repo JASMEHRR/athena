@@ -57,7 +57,8 @@ No exam dates, so round-robin across subjects. Validate, ground and cover each d
   - 4 topics (sce-ent-*), 11 chunks, 24 checks, 19 cards. One clarification (incremental venture).
 - [x] P4 pass A: sip1--sip-2026-27-organization-selection-presentation-po (22 slides, 19 visual)
   - 1 topic (template: sections, fields, five selection factors).
-- [ ] P4 pass A: aib--aib-session4-5-types-of-ai (56 slides, 24 visual)
+- [x] P4 pass A: aib--aib-session4-5-types-of-ai (56 slides, 24 visual)
+  - 10 topics (aib-s45-*), 47 chunks, 127 checks, 72 cards, 27 examples. By subagent (resumed from the cut-off run), reviewed: brand names on slides 12, 22, 23 are printed words, not logos. Slide contradictions named in lessons: ChatGPT/GPT-4/Gemini/Watson called early AGI (slide 9) but ANI (12, 23); UBI means income policy (37) vs Universal Basic Intelligence (40); slide 30 promises 9 AGI definitions, prints 8; slide 34 says levels 0 to 5 but names five.
 - [x] P4 pass A: be--session-3 (20 slides, 14 visual)
   - 3 topics (be-s3-*), 13 chunks, 36 checks, 21 cards, 9 examples. By subagent, reviewed. Slides leave gaps the lessons name plainly: slide 14 graph does not match the slide 13 table; equi-marginal law never stated in words and the 100 rupee samosa/tea question has no answer on the slides.
 - [x] P4 pass A: far--session-discussion-31-july-2026 (9 slides, 1 visual)

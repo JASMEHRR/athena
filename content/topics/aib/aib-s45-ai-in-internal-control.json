@@ -1,0 +1,605 @@
+{
+  "id": "aib-s45-ai-in-internal-control",
+  "subject_id": "aib",
+  "deck_id": "aib--aib-session4-5-types-of-ai",
+  "title": "AI in internal control: applications, cases, challenges and the future",
+  "order": 309,
+  "summary": "How AI is used in internal control, three case studies with results, the challenges, future directions, the Figure 14 learning timeline and the driverless car drawing.",
+  "est_minutes": 25,
+  "difficulty": 2,
+  "source_refs": [
+    "aib--aib-session4-5-types-of-ai#39",
+    "aib--aib-session4-5-types-of-ai#41",
+    "aib--aib-session4-5-types-of-ai#44",
+    "aib--aib-session4-5-types-of-ai#46",
+    "aib--aib-session4-5-types-of-ai#45",
+    "aib--aib-session4-5-types-of-ai#47"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "aib-s45-ai-in-internal-control-c1",
+      "heading": "Practical applications of AI in internal control",
+      "explanation_md": "The paper gives **three practical applications**:\n\n**1. Automation of routine tasks.** AI tools streamline **data entry, approval workflows and reconciliations**. This **reduces human error and increases speed**.\n\n**2. Enhanced decision support.** Predictive models give insights for **planning, budgeting and resource allocation**. **Real-time activity-based costing (ABC)** optimizes operations (e.g. a **25% cost reduction in logistics**).\n\n**3. Real-time monitoring.** AI **detects anomalies** through data analysis (e.g. financial logs, employee actions) and provides **alerts to prevent fraud or process failures**.",
+      "example_ids": [
+        "aib-ex-s45-abc-logistics"
+      ],
+      "key_terms": [],
+      "exam_line": "AI in internal control: automating routine tasks (data entry, approvals, reconciliations), enhanced decision support (real-time ABC, e.g. 25% logistics cost cut), real-time monitoring (anomaly alerts against fraud).",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "aib-s45-ai-in-internal-control-q-56114a06",
+          "type": "mcq",
+          "stem": "Real-time activity-based costing (ABC) is given as an example under which application?",
+          "options": [
+            "Enhanced decision support",
+            "Automation of routine tasks",
+            "Real-time monitoring"
+          ],
+          "answer": "Enhanced decision support",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session4-5-types-of-ai#39"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-s45-ai-in-internal-control-q-18dec8ee",
+          "type": "mcq",
+          "stem": "What cost reduction in logistics does the slide give as an example?",
+          "options": [
+            "25%",
+            "30%",
+            "20%"
+          ],
+          "answer": "25%",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session4-5-types-of-ai#39",
+            "aib--aib-session4-5-types-of-ai#41"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-s45-ai-in-internal-control-q-ed349a2e",
+          "type": "true_false",
+          "stem": "Under real-time monitoring, AI detects anomalies and provides alerts to prevent fraud or process failures.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session4-5-types-of-ai#39"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#39"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-ai-in-internal-control-c2",
+      "heading": "Three case studies",
+      "explanation_md": "| Organisation | What AI did | Result |\n|---|---|---|\n| **Manufacturing company** | AI in inventory control improved **demand forecasting** | **20% inventory reduction**, proactive supplier monitoring |\n| **Financial institution** | **AI-based fraud detection**; automated compliance systems | **cut losses by 30%**; improved regulatory response |\n| **Tech firm** | analysed **employee performance and project data** | **boosted productivity by 25%**; optimized resource use |\n\nA quick way to remember: **manufacturing 20, finance 30, tech 25**.",
+      "example_ids": [
+        "aib-ex-s45-ic-case-studies"
+      ],
+      "key_terms": [],
+      "exam_line": "Case studies: manufacturing (20% inventory reduction), financial institution (fraud detection cut losses by 30%), tech firm (productivity up 25%).",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "aib-s45-ai-in-internal-control-q-af9f720b",
+          "type": "mcq",
+          "stem": "In the case studies, AI-based fraud detection at a financial institution cut losses by:",
+          "options": [
+            "30%",
+            "20%",
+            "25%"
+          ],
+          "answer": "30%",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session4-5-types-of-ai#41"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-s45-ai-in-internal-control-q-2eb05c8a",
+          "type": "mcq",
+          "stem": "Which organisation achieved a 20% inventory reduction?",
+          "options": [
+            "Manufacturing company",
+            "Financial institution",
+            "Tech firm"
+          ],
+          "answer": "Manufacturing company",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session4-5-types-of-ai#41"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-s45-ai-in-internal-control-q-b1766192",
+          "type": "fill",
+          "stem": "At the tech firm, AI boosted productivity by ____%.",
+          "options": [],
+          "answer": "25",
+          "accept": [
+            "25%"
+          ],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session4-5-types-of-ai#41"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#41"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-ai-in-internal-control-c3",
+      "heading": "Challenges and limitations",
+      "explanation_md": "Three problems hold AI in internal control back:\n\n**1. Data quality.** **Poor data degrades AI accuracy**, so strong **data governance and validation** are needed.\n\n**2. Skill shortage.** A **lack of talent** in AI, data science and internal control limits adoption.\n\n**3. Ethical and legal issues.** Risks of **bias, surveillance and privacy violations**. Organizations must adopt **ethical standards** and ensure **AI accountability**.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "Challenges: data quality (needs governance and validation), skill shortage, ethical and legal issues (bias, surveillance, privacy).",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "aib-s45-ai-in-internal-control-q-e0377cce",
+          "type": "mcq",
+          "stem": "Which challenge 'requires strong data governance and validation'?",
+          "options": [
+            "Data quality",
+            "Skill shortage",
+            "Ethical and legal issues"
+          ],
+          "answer": "Data quality",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session4-5-types-of-ai#44"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-s45-ai-in-internal-control-q-b5e50e89",
+          "type": "mcq",
+          "stem": "Bias, surveillance and privacy violations fall under which challenge?",
+          "options": [
+            "Ethical and legal issues",
+            "Data quality",
+            "Skill shortage"
+          ],
+          "answer": "Ethical and legal issues",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session4-5-types-of-ai#44"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#44"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-ai-in-internal-control-c4",
+      "heading": "Future directions",
+      "explanation_md": "**1. Integration with other technologies.**\n- **AI + Blockchain** ensures **data transparency**.\n- **AI + IoT** enables **real-time control and monitoring**.\n\n**2. Continuous learning.** AI systems must adapt through **self-learning algorithms**, which keeps them relevant **as business risks evolve**.\n\n**3. Global standards.** **Unified frameworks** are needed for ethical, consistent AI use in internal control. **Businesses and governments must collaborate** to build and follow these regulations.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "Future directions: AI + Blockchain (data transparency), AI + IoT (real-time control), continuous self-learning, global standards built by businesses and governments together.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "aib-s45-ai-in-internal-control-q-336b19c2",
+          "type": "mcq",
+          "stem": "Which pairing 'ensures data transparency'?",
+          "options": [
+            "AI + Blockchain",
+            "AI + IoT",
+            "AI + RPA"
+          ],
+          "answer": "AI + Blockchain",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session4-5-types-of-ai#46",
+            "aib--aib-session4-5-types-of-ai#43"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-s45-ai-in-internal-control-q-c49c2822",
+          "type": "fill",
+          "stem": "AI + ____ enables real-time control and monitoring.",
+          "options": [],
+          "answer": "IoT",
+          "accept": [
+            "iot"
+          ],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session4-5-types-of-ai#46"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-s45-ai-in-internal-control-q-927d71d7",
+          "type": "true_false",
+          "stem": "The slide says businesses and governments must collaborate to build and follow global standards.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session4-5-types-of-ai#46"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#46"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-ai-in-internal-control-c5",
+      "heading": "Figure 14: how AI keeps learning",
+      "explanation_md": "**Figure 14** is a timeline showing how AI systems **continuously learn and adapt** to new business environments and challenges, in four rising steps:\n\n1. **Initial Learning (2022):** basic models and small datasets; focused on data collection, basic pattern recognition and foundational learning algorithms.\n2. **Continuous Learning (2023):** adapts based on **feedback** and new data; refines its models using new inputs, feedback loops or real-time data.\n3. **Advanced Learning (2024):** improves **decision-making accuracy and flexibility**; more complex algorithms; handles larger datasets and more intricate problems.\n4. **Mature Learning (2025):** integrates with complex systems and adapts to **dynamic** business challenges; built into **real-time autonomous decision-making**, adjusting to new and unforeseen challenges with minimal human (the last word is cut off on the slide).",
+      "example_ids": [
+        "aib-ex-s45-learning-timeline"
+      ],
+      "key_terms": [],
+      "exam_line": "Figure 14: Initial (2022), Continuous (2023), Advanced (2024), Mature (2025) learning; at maturity AI is part of real-time autonomous decision-making.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "aib-s45-ai-in-internal-control-q-fa6ff445",
+          "type": "mcq",
+          "stem": "In Figure 14, which stage is 'AI adapts based on feedback and new data'?",
+          "options": [
+            "Continuous Learning (2023)",
+            "Initial Learning (2022)",
+            "Mature Learning (2025)"
+          ],
+          "answer": "Continuous Learning (2023)",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session4-5-types-of-ai#45"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-s45-ai-in-internal-control-q-b97f135e",
+          "type": "mcq",
+          "stem": "At which stage is AI integrated into real-time autonomous decision-making?",
+          "options": [
+            "Mature Learning",
+            "Advanced Learning",
+            "Initial Learning"
+          ],
+          "answer": "Mature Learning",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session4-5-types-of-ai#45"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#45"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-ai-in-internal-control-c6",
+      "heading": "A labelled driverless car",
+      "explanation_md": "The deck also shows a labelled drawing titled **Tesla Driverless Car**, with its sensors marked:\n\n- **Cameras:** 360-degree vision (a wide cone above the roof).\n- **AI chip:** processing sensor data.\n- **GPS & IMU:** localization.\n- **Radar:** forward-looking perception.\n- **Ultrasonic sensor** at the rear.\n\nThe slide has no other text, so learn it as the list of parts and what each does.",
+      "example_ids": [
+        "aib-ex-s45-tesla-car"
+      ],
+      "key_terms": [],
+      "exam_line": "Driverless car parts: cameras (360-degree vision), AI chip (processing sensor data), GPS & IMU (localization), radar (forward-looking perception), ultrasonic sensor.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "aib-s45-ai-in-internal-control-q-2f009abc",
+          "type": "mcq",
+          "stem": "In the driverless car drawing, what does the AI chip do?",
+          "options": [
+            "Processing sensor data",
+            "Localization",
+            "360-degree vision"
+          ],
+          "answer": "Processing sensor data",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session4-5-types-of-ai#47"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-s45-ai-in-internal-control-q-ca643a12",
+          "type": "mcq",
+          "stem": "Which part is labelled for localization?",
+          "options": [
+            "GPS & IMU",
+            "Radar",
+            "Cameras"
+          ],
+          "answer": "GPS & IMU",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session4-5-types-of-ai#47"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#47"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "aib-s45-ai-in-internal-control-f1",
+      "front": "Three practical applications of AI in internal control",
+      "back": "Automation of routine tasks; enhanced decision support; real-time monitoring.",
+      "kind": "list",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#39"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-ai-in-internal-control-f2",
+      "front": "Real-time ABC example",
+      "back": "Real-time activity-based costing optimizes operations, e.g. a 25% cost reduction in logistics.",
+      "kind": "example",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#39"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-ai-in-internal-control-f3",
+      "front": "Case studies: results",
+      "back": "Manufacturing: 20% inventory reduction. Financial institution: fraud losses cut by 30%. Tech firm: productivity up 25%.",
+      "kind": "example",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#41"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-ai-in-internal-control-f4",
+      "front": "Three challenges of AI in internal control",
+      "back": "Data quality; skill shortage; ethical and legal issues.",
+      "kind": "list",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#44"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-ai-in-internal-control-f5",
+      "front": "AI + Blockchain vs AI + IoT",
+      "back": "Blockchain: data transparency. IoT: real-time control and monitoring.",
+      "kind": "fact",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#46"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-ai-in-internal-control-f6",
+      "front": "Three future directions",
+      "back": "Integration with other technologies; continuous learning; global standards.",
+      "kind": "list",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#46"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-ai-in-internal-control-f7",
+      "front": "Figure 14 stages",
+      "back": "Initial Learning (2022), Continuous Learning (2023), Advanced Learning (2024), Mature Learning (2025).",
+      "kind": "list",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#45"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-ai-in-internal-control-f8",
+      "front": "Driverless car sensors",
+      "back": "Cameras (360-degree vision), AI chip, GPS & IMU (localization), radar (forward-looking perception), ultrasonic sensor.",
+      "kind": "list",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#47"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [],
+  "explain_back": {
+    "prompt": "Explain how AI is used in internal control, with the case study results, the challenges and the future directions from the slides.",
+    "rubric": [
+      {
+        "point": "Applications: automating routine tasks, enhanced decision support (real-time ABC), real-time monitoring of anomalies",
+        "source_ref": "aib--aib-session4-5-types-of-ai#39"
+      },
+      {
+        "point": "Case studies: 20% inventory reduction, fraud losses cut by 30%, productivity up 25%",
+        "source_ref": "aib--aib-session4-5-types-of-ai#41"
+      },
+      {
+        "point": "Challenges: data quality, skill shortage, ethical and legal issues",
+        "source_ref": "aib--aib-session4-5-types-of-ai#44"
+      },
+      {
+        "point": "Future: AI + Blockchain and AI + IoT, continuous learning, global standards",
+        "source_ref": "aib--aib-session4-5-types-of-ai#46"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

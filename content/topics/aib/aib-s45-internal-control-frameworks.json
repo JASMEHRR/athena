@@ -1,0 +1,611 @@
+{
+  "id": "aib-s45-internal-control-frameworks",
+  "subject_id": "aib",
+  "deck_id": "aib--aib-session4-5-types-of-ai",
+  "title": "Internal control in business and AI: why it matters and the frameworks",
+  "order": 308,
+  "summary": "A research paper on internal control in the AGI, ASI and UBI eras: what internal control does, how AI is evolving and where it is used, and the RBV, TTF and COSO frameworks with the fit matrix.",
+  "est_minutes": 25,
+  "difficulty": 2,
+  "source_refs": [
+    "aib--aib-session4-5-types-of-ai#36",
+    "aib--aib-session4-5-types-of-ai#37",
+    "aib--aib-session4-5-types-of-ai#40",
+    "aib--aib-session4-5-types-of-ai#42",
+    "aib--aib-session4-5-types-of-ai#38",
+    "aib--aib-session4-5-types-of-ai#43"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "aib-s45-internal-control-frameworks-c1",
+      "heading": "Why internal control matters in business",
+      "explanation_md": "The next part of the deck summarises a paper: **The Significance of Internal Control in Business Management and the Application of Advanced AI in AGI, ASI, and UBI Eras**.\n\n**1. Definition and objectives.** **Internal control (IC)** involves **policies and procedures ensuring organizational goals are met**. The **COSO framework** has **five components**: **Control Environment, Risk Assessment, Control Activities, Information & Communication, and Monitoring**.\n\n**2. Operational efficiency.** IC ensures tasks are performed **consistently**; it reduces waste and rework and improves customer satisfaction.\n\n**3. Risk management.** IC helps **identify, assess and mitigate** business risks like **fraud or credit risks**, and maintains financial integrity and corporate reputation.\n\n**4. Compliance and governance.** IC ensures **legal and regulatory compliance** and supports ethical conduct and accountability through **transparent reporting**.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Internal control (IC)",
+          "meaning": "Policies and procedures ensuring organizational goals are met.",
+          "source_ref": "aib--aib-session4-5-types-of-ai#36"
+        }
+      ],
+      "exam_line": "Internal control = policies and procedures ensuring organizational goals are met; COSO's five components: control environment, risk assessment, control activities, information & communication, monitoring.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "aib-s45-internal-control-frameworks-q-6bb6e033",
+          "type": "mcq",
+          "stem": "Which of these is NOT one of the COSO framework's five components on the slide?",
+          "options": [
+            "Task-Technology Fit",
+            "Control Environment",
+            "Monitoring",
+            "Information & Communication"
+          ],
+          "answer": "Task-Technology Fit",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session4-5-types-of-ai#36",
+            "aib--aib-session4-5-types-of-ai#38"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-s45-internal-control-frameworks-q-3badabac",
+          "type": "mcq",
+          "stem": "Under which heading does IC 'identify, assess and mitigate business risks like fraud or credit risks'?",
+          "options": [
+            "Risk management",
+            "Operational efficiency",
+            "Compliance and governance"
+          ],
+          "answer": "Risk management",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session4-5-types-of-ai#36"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-s45-internal-control-frameworks-q-f28b9b6b",
+          "type": "fill",
+          "stem": "Internal control involves policies and ____ ensuring organizational goals are met.",
+          "options": [],
+          "answer": "procedures",
+          "accept": [
+            "procedure"
+          ],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session4-5-types-of-ai#36"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#36"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-internal-control-frameworks-c2",
+      "heading": "AI technologies of the coming eras: AGI, ASI and UBI",
+      "explanation_md": "The paper covers the rise of three things that **will reshape business strategy, workforce and operations**:\n\n- **AGI:** human-level intelligence.\n- **ASI:** beyond human.\n- **UBI:** on the text slide, a **social policy for income stability**.\n\n**Figure 3, a timeline of AI technologies:**\n- **Early AI:** 1950s\n- **Narrow AI:** 2010s\n- **AGI:** predicted for **mid-21st century**\n- **ASI:** hypothetical future\n- **UBI:** labelled **Universal Basic Intelligence**, a future concept\n\n**Heads up:** the two slides give UBI different meanings (a social policy for income stability on the text slide, Universal Basic Intelligence on the timeline). The slides do not explain the difference, so quote whichever slide the question uses.",
+      "example_ids": [
+        "aib-ex-s45-ai-timeline"
+      ],
+      "key_terms": [],
+      "exam_line": "AGI (human-level), ASI (beyond human) and UBI will reshape business strategy, workforce and operations; timeline: early AI 1950s, narrow AI 2010s, AGI predicted mid-21st century, ASI hypothetical.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "aib-s45-internal-control-frameworks-q-01164dcd",
+          "type": "mcq",
+          "stem": "On the Figure 3 timeline, when is AGI predicted?",
+          "options": [
+            "Mid-21st century",
+            "2010s",
+            "1950s"
+          ],
+          "answer": "Mid-21st century",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session4-5-types-of-ai#40"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-s45-internal-control-frameworks-q-a574d58d",
+          "type": "mcq",
+          "stem": "On the 'Evolution of AI' text slide, UBI is described as:",
+          "options": [
+            "A social policy for income stability",
+            "Human-level intelligence",
+            "Beyond human intelligence"
+          ],
+          "answer": "A social policy for income stability",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session4-5-types-of-ai#37"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-s45-internal-control-frameworks-q-dd2a8073",
+          "type": "true_false",
+          "stem": "The paper says AGI, ASI and UBI will reshape business strategy, workforce and operations.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session4-5-types-of-ai#37"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#37",
+        "aib--aib-session4-5-types-of-ai#40"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-internal-control-frameworks-c3",
+      "heading": "Where AI is applied in business",
+      "explanation_md": "**AI in business:** applications span **marketing, logistics, customer service** and more, enabling **predictive analytics, automation and personalization** across industries.\n\n**Figure 4** is a pie chart of the **distribution of AI applications across business functions**:\n\n| Function | Share |\n|---|---|\n| Marketing | **30%** |\n| Customer Service | 20% |\n| Supply Chain Management | 15% |\n| Research and Development | 15% |\n| Finance and Accounting | 10% |\n| Human Resources | 10% |",
+      "example_ids": [
+        "aib-ex-s45-ai-by-function"
+      ],
+      "key_terms": [],
+      "exam_line": "AI enables predictive analytics, automation and personalization; Figure 4: marketing 30%, customer service 20%, supply chain management 15%, research and development 15%, finance and accounting 10%, human resources 10%.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "aib-s45-internal-control-frameworks-q-a191456d",
+          "type": "mcq",
+          "stem": "In Figure 4, which business function has the largest share of AI applications?",
+          "options": [
+            "Marketing (30%)",
+            "Customer Service (20%)",
+            "Supply Chain Management (15%)"
+          ],
+          "answer": "Marketing (30%)",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session4-5-types-of-ai#42"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-s45-internal-control-frameworks-q-ef5785a1",
+          "type": "mcq",
+          "stem": "What share does Figure 4 give to Human Resources?",
+          "options": [
+            "10%",
+            "15%",
+            "20%"
+          ],
+          "answer": "10%",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session4-5-types-of-ai#42"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-s45-internal-control-frameworks-q-0275a1ef",
+          "type": "fill",
+          "stem": "AI enables predictive analytics, automation and ____ across industries.",
+          "options": [],
+          "answer": "personalization",
+          "accept": [
+            "personalisation"
+          ],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session4-5-types-of-ai#37"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#37",
+        "aib--aib-session4-5-types-of-ai#42"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-internal-control-frameworks-c4",
+      "heading": "Three frameworks: RBV, TTF and COSO with AI",
+      "explanation_md": "The paper uses three theoretical frameworks for **AI in internal control**:\n\n**1. Resource-Based View (RBV).** AI is a **strategic resource** that enhances **VRIN**: **Value, Rarity, Inimitability, Non-substitutability**. It offers a **competitive edge** (e.g. fraud detection, cost reduction).\n\n**2. Task-Technology Fit (TTF).** AI effectiveness **depends on matching task needs**. A matrix shows how AI technologies (ML, NLP, RPA, etc.) fit internal control functions like auditing, fraud detection and compliance.\n\n**3. COSO framework enhancement with AI.** AI improves **all five components** through:\n- better risk prediction\n- real-time monitoring\n- data-driven decision-making\n- automating controls (e.g. reconciliations)",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "VRIN",
+          "meaning": "Value, Rarity, Inimitability, Non-substitutability: what AI enhances as a strategic resource under RBV.",
+          "source_ref": "aib--aib-session4-5-types-of-ai#38"
+        },
+        {
+          "term": "Task-Technology Fit (TTF)",
+          "meaning": "The idea that AI effectiveness depends on matching task needs.",
+          "source_ref": "aib--aib-session4-5-types-of-ai#38"
+        }
+      ],
+      "exam_line": "RBV: AI is a strategic resource enhancing VRIN; TTF: AI works when it matches task needs; COSO with AI: better risk prediction, real-time monitoring, data-driven decisions, automated controls.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "aib-s45-internal-control-frameworks-q-254e2b3e",
+          "type": "mcq",
+          "stem": "Which framework treats AI as a strategic resource that enhances VRIN?",
+          "options": [
+            "Resource-Based View (RBV)",
+            "Task-Technology Fit (TTF)",
+            "COSO framework"
+          ],
+          "answer": "Resource-Based View (RBV)",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session4-5-types-of-ai#38"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-s45-internal-control-frameworks-q-35bfbd6c",
+          "type": "fill",
+          "stem": "In VRIN, the I stands for ____.",
+          "options": [],
+          "answer": "Inimitability",
+          "accept": [
+            "inimitability"
+          ],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session4-5-types-of-ai#38"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-s45-internal-control-frameworks-q-07adfebe",
+          "type": "mcq",
+          "stem": "Automating reconciliations is given as an example of AI enhancing which framework?",
+          "options": [
+            "COSO framework",
+            "Resource-Based View",
+            "Levels of AGI"
+          ],
+          "answer": "COSO framework",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session4-5-types-of-ai#38",
+            "aib--aib-session4-5-types-of-ai#32"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#38"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-internal-control-frameworks-c5",
+      "heading": "The task-technology fit matrix",
+      "explanation_md": "**Figure 6** is the TTF matrix: how well each AI technology fits each internal control task.\n\n| Task | ML | NLP | RPA | Data analytics | Anomaly detection |\n|---|---|---|---|---|---|\n| Risk assessment | High | Medium | Medium | High | High |\n| Auditing | High | High | Medium | High | Medium |\n| Transaction monitoring | High | **Low** | High | High | High |\n| Compliance checking | Medium | High | High | Medium | Medium |\n| Fraud detection | High | Medium | Medium | Medium | High |\n\nThe only **Low** fit in the matrix is **NLP for transaction monitoring**.",
+      "example_ids": [
+        "aib-ex-s45-ttf-matrix"
+      ],
+      "key_terms": [],
+      "exam_line": "TTF matrix (Figure 6): the only Low fit is NLP for transaction monitoring; fraud detection is High with ML and anomaly detection.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "aib-s45-internal-control-frameworks-q-ee9914b4",
+          "type": "mcq",
+          "stem": "In the TTF matrix, which pairing is rated Low?",
+          "options": [
+            "NLP for transaction monitoring",
+            "ML for fraud detection",
+            "RPA for compliance checking"
+          ],
+          "answer": "NLP for transaction monitoring",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session4-5-types-of-ai#43",
+            "aib--aib-session4-5-types-of-ai#38"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-s45-internal-control-frameworks-q-eb77ae67",
+          "type": "mcq",
+          "stem": "How does the matrix rate RPA (Robotic Process Automation) for compliance checking?",
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ],
+          "answer": "High",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session4-5-types-of-ai#43"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-s45-internal-control-frameworks-q-e1c7d9bf",
+          "type": "true_false",
+          "stem": "The matrix rates Machine Learning as High for fraud detection.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session4-5-types-of-ai#43"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#43",
+        "aib--aib-session4-5-types-of-ai#38"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "aib-s45-internal-control-frameworks-f1",
+      "front": "Internal control (IC)",
+      "back": "Policies and procedures ensuring organizational goals are met.",
+      "kind": "term",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#36"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-internal-control-frameworks-f2",
+      "front": "COSO framework: five components",
+      "back": "Control Environment, Risk Assessment, Control Activities, Information & Communication, Monitoring.",
+      "kind": "list",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#36"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-internal-control-frameworks-f3",
+      "front": "Four reasons internal control matters",
+      "back": "Definition and objectives; operational efficiency; risk management; compliance and governance.",
+      "kind": "list",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#36"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-internal-control-frameworks-f4",
+      "front": "Figure 3 timeline of AI",
+      "back": "Early AI 1950s; Narrow AI 2010s; AGI predicted mid-21st century; ASI hypothetical future; UBI (Universal Basic Intelligence) future concept.",
+      "kind": "list",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#40"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-internal-control-frameworks-f5",
+      "front": "Figure 4: AI applications by function",
+      "back": "Marketing 30%, Customer Service 20%, Supply Chain Management 15%, Research and Development 15%, Finance and Accounting 10%, Human Resources 10%.",
+      "kind": "fact",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#42"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-internal-control-frameworks-f6",
+      "front": "VRIN",
+      "back": "Value, Rarity, Inimitability, Non-substitutability.",
+      "kind": "term",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#38"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-internal-control-frameworks-f7",
+      "front": "How AI improves the COSO components",
+      "back": "Better risk prediction, real-time monitoring, data-driven decision-making, automating controls (e.g. reconciliations).",
+      "kind": "list",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#38"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-internal-control-frameworks-f8",
+      "front": "Only Low fit in the TTF matrix",
+      "back": "Natural Language Processing (NLP) for transaction monitoring.",
+      "kind": "fact",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#43",
+        "aib--aib-session4-5-types-of-ai#38"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [],
+  "explain_back": {
+    "prompt": "Explain why internal control matters and how the three frameworks in the paper (RBV, TTF, COSO) describe AI's role in it.",
+    "rubric": [
+      {
+        "point": "IC is policies and procedures ensuring organizational goals are met; it supports efficiency, risk management and compliance",
+        "source_ref": "aib--aib-session4-5-types-of-ai#36"
+      },
+      {
+        "point": "COSO's five components: control environment, risk assessment, control activities, information & communication, monitoring",
+        "source_ref": "aib--aib-session4-5-types-of-ai#36"
+      },
+      {
+        "point": "RBV: AI is a strategic resource enhancing VRIN, giving a competitive edge",
+        "source_ref": "aib--aib-session4-5-types-of-ai#38"
+      },
+      {
+        "point": "TTF: AI works when it fits the task; e.g. the matrix rates NLP Low for transaction monitoring",
+        "source_ref": "aib--aib-session4-5-types-of-ai#43"
+      },
+      {
+        "point": "COSO with AI: better risk prediction, real-time monitoring, data-driven decisions, automated controls",
+        "source_ref": "aib--aib-session4-5-types-of-ai#38"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

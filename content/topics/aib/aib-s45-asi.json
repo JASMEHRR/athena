@@ -1,0 +1,611 @@
+{
+  "id": "aib-s45-asi",
+  "subject_id": "aib",
+  "deck_id": "aib--aib-session4-5-types-of-ai",
+  "title": "Artificial Superintelligence (ASI): traits, thinkers, benefits and risks",
+  "order": 310,
+  "summary": "What ASI is and how it differs from ANI and AGI, its five core characteristics, the thinkers behind the idea, its potential benefits, its risks, and the safeguards being researched.",
+  "est_minutes": 20,
+  "difficulty": 2,
+  "source_refs": [
+    "aib--aib-session4-5-types-of-ai#48",
+    "aib--aib-session4-5-types-of-ai#50",
+    "aib--aib-session4-5-types-of-ai#49",
+    "aib--aib-session4-5-types-of-ai#51",
+    "aib--aib-session4-5-types-of-ai#52",
+    "aib--aib-session4-5-types-of-ai#53",
+    "aib--aib-session4-5-types-of-ai#54"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "aib-s45-asi-c1",
+      "heading": "What is ASI?",
+      "explanation_md": "**Artificial Superintelligence (ASI)** is a **hypothetical future AI system** that **surpasses human intelligence across all domains**, including:\n\n- creativity\n- general wisdom\n- scientific reasoning\n- emotional intelligence\n- strategic decision-making\n- social manipulation and persuasion\n\n**AGI vs ASI:** AGI **matches** human-level cognitive capabilities; ASI goes **far beyond**, potentially becoming **the most intelligent entity on Earth**.\n\nThe ASI summary diagram puts it side by side:\n- **ANI:** below human level, **narrow**.\n- **AGI:** equal to human level, **broad**.\n- **ASI:** AI that surpasses human intelligence in all domains.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Artificial Superintelligence (ASI)",
+          "meaning": "A hypothetical future AI system that surpasses human intelligence across all domains.",
+          "source_ref": "aib--aib-session4-5-types-of-ai#48"
+        }
+      ],
+      "exam_line": "ASI is a hypothetical future AI that surpasses human intelligence in all domains; AGI matches human level, ANI is below human level and narrow.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "aib-s45-asi-q-35b26471",
+          "type": "mcq",
+          "stem": "In the ASI summary diagram, AGI is described as:",
+          "options": [
+            "Equal to human level, broad",
+            "Below human level, narrow",
+            "Surpasses human intelligence in all domains"
+          ],
+          "answer": "Equal to human level, broad",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session4-5-types-of-ai#50"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-s45-asi-q-23b12894",
+          "type": "mcq",
+          "stem": "Which of these is listed as a domain where ASI would surpass humans?",
+          "options": [
+            "Social manipulation and persuasion",
+            "Only board games",
+            "Only spam filtering"
+          ],
+          "answer": "Social manipulation and persuasion",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session4-5-types-of-ai#48"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-s45-asi-q-f2e863ba",
+          "type": "true_false",
+          "stem": "The slide says ASI could potentially become the most intelligent entity on Earth.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session4-5-types-of-ai#48"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#48",
+        "aib--aib-session4-5-types-of-ai#50"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-asi-c2",
+      "heading": "Five core characteristics of ASI",
+      "explanation_md": "| Feature | Description |\n|---|---|\n| **Cognitive superiority** | Solves complex problems faster and better than humans in all fields. |\n| **Self-improving** | Can **recursively upgrade its own algorithms and hardware**. |\n| **Goal-driven** | Operates on programmed or learned goals, which **may or may not align with human values**. |\n| **Autonomous** | Makes independent decisions and executes actions **without human input**. |\n| **Generalized knowledge** | Applies reasoning across disciplines: science, economics, law, etc. |",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "ASI's five characteristics: cognitive superiority, self-improving, goal-driven, autonomous, generalized knowledge.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "aib-s45-asi-q-0e508f9c",
+          "type": "mcq",
+          "stem": "Which characteristic says ASI 'can recursively upgrade its own algorithms and hardware'?",
+          "options": [
+            "Self-improving",
+            "Cognitive superiority",
+            "Autonomous"
+          ],
+          "answer": "Self-improving",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session4-5-types-of-ai#49"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-s45-asi-q-a1939334",
+          "type": "mcq",
+          "stem": "Goals that 'may or may not align with human values' describe which characteristic?",
+          "options": [
+            "Goal-driven",
+            "Generalized knowledge",
+            "Autonomous"
+          ],
+          "answer": "Goal-driven",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session4-5-types-of-ai#49"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-s45-asi-q-5ab9d35d",
+          "type": "fill",
+          "stem": "An autonomous ASI makes independent decisions and executes actions without human ____.",
+          "options": [],
+          "answer": "input",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session4-5-types-of-ai#49"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#49",
+        "aib--aib-session4-5-types-of-ai#50"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-asi-c3",
+      "heading": "Thinkers behind the idea",
+      "explanation_md": "The slide names the **theoretical origins and thinkers** of ASI:\n\n- **Nick Bostrom:** *Superintelligence: Paths, Dangers, Strategies*.\n- **Ray Kurzweil:** *The Singularity is Near*.\n- **Elon Musk and Stephen Hawking:** **warned about uncontrolled ASI posing existential risks**.",
+      "example_ids": [
+        "aib-ex-s45-asi-thinkers"
+      ],
+      "key_terms": [],
+      "exam_line": "ASI thinkers: Nick Bostrom (Superintelligence), Ray Kurzweil (The Singularity is Near); Elon Musk and Stephen Hawking warned of existential risks from uncontrolled ASI.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "aib-s45-asi-q-925c5997",
+          "type": "mcq",
+          "stem": "Who wrote 'The Singularity is Near', according to the slide?",
+          "options": [
+            "Ray Kurzweil",
+            "Nick Bostrom",
+            "Stephen Hawking"
+          ],
+          "answer": "Ray Kurzweil",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session4-5-types-of-ai#51"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-s45-asi-q-e2049d28",
+          "type": "mcq",
+          "stem": "What did Elon Musk and Stephen Hawking warn about, per the slide?",
+          "options": [
+            "Uncontrolled ASI posing existential risks",
+            "Slow adoption of chatbots",
+            "Poor data quality in audits"
+          ],
+          "answer": "Uncontrolled ASI posing existential risks",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session4-5-types-of-ai#51",
+            "aib--aib-session4-5-types-of-ai#44"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#51"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-asi-c4",
+      "heading": "Potential benefits of ASI",
+      "explanation_md": "Four **potential benefits**:\n\n1. **Solving global problems:** climate change, disease eradication, poverty and clean energy.\n2. **Scientific breakthroughs:** faster innovation in physics, biology, medicine and space.\n3. **Policy and diplomacy:** optimized geopolitical decision-making and conflict prevention.\n4. **Economic efficiency:** self-regulating markets, resource optimization, smart governance.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "ASI benefits: solving global problems, scientific breakthroughs, policy and diplomacy, economic efficiency.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "aib-s45-asi-q-ba65fac1",
+          "type": "mcq",
+          "stem": "'Self-regulating markets, resource optimization, smart governance' is which benefit?",
+          "options": [
+            "Economic efficiency",
+            "Policy and diplomacy",
+            "Scientific breakthroughs"
+          ],
+          "answer": "Economic efficiency",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session4-5-types-of-ai#52"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-s45-asi-q-6667f319",
+          "type": "mcq",
+          "stem": "Conflict prevention is listed under which benefit?",
+          "options": [
+            "Policy and diplomacy",
+            "Solving global problems",
+            "Economic efficiency"
+          ],
+          "answer": "Policy and diplomacy",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session4-5-types-of-ai#52"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#52",
+        "aib--aib-session4-5-types-of-ai#50"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-asi-c5",
+      "heading": "Risks and challenges of ASI",
+      "explanation_md": "Four **risks and challenges**:\n\n1. **Alignment problem:** will ASI share human values? **Misaligned goals** could lead to catastrophic outcomes.\n2. **Control problem:** can we control something vastly more intelligent than us?\n3. **Existential risk (X-Risk):** ASI might inadvertently or deliberately **harm humanity** if misaligned or malicious.\n4. **Concentration of power:** ASI controlled by a **single corporation or government** could lead to global inequality or totalitarianism.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "ASI risks: alignment problem, control problem, existential risk (X-Risk), concentration of power.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "aib-s45-asi-q-3f742e0f",
+          "type": "mcq",
+          "stem": "'Will ASI share human values?' is the question behind which risk?",
+          "options": [
+            "Alignment problem",
+            "Control problem",
+            "Concentration of power"
+          ],
+          "answer": "Alignment problem",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session4-5-types-of-ai#53"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-s45-asi-q-32ef28bf",
+          "type": "mcq",
+          "stem": "ASI controlled by a single corporation or government is the risk of:",
+          "options": [
+            "Concentration of power",
+            "Existential risk",
+            "Control problem"
+          ],
+          "answer": "Concentration of power",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session4-5-types-of-ai#53"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-s45-asi-q-8eafeabe",
+          "type": "fill",
+          "stem": "Existential risk is shortened on the slide to ____.",
+          "options": [],
+          "answer": "X-Risk",
+          "accept": [
+            "x-risk",
+            "X Risk",
+            "XRisk"
+          ],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session4-5-types-of-ai#53"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#53",
+        "aib--aib-session4-5-types-of-ai#50"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-asi-c6",
+      "heading": "Research directions and safeguards",
+      "explanation_md": "Four safeguards being worked on:\n\n1. **AI alignment research:** ensures ASI goals are **compatible with human values**.\n2. **Interpretability and explainability:** understanding **how ASI reasons and makes decisions**.\n3. **Global governance frameworks:** institutions like the **OECD**, the **UN** and partnerships (e.g. the **Partnership on AI**) working on **global AI safety protocols**.\n4. **\"Boxing\" or constraining ASI:** running ASI in **restricted environments** to prevent uncontrolled behavior.",
+      "example_ids": [
+        "aib-ex-s45-asi-governance"
+      ],
+      "key_terms": [],
+      "exam_line": "ASI safeguards: AI alignment research, interpretability and explainability, global governance (OECD, UN, Partnership on AI), boxing ASI in restricted environments.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "aib-s45-asi-q-33a7a643",
+          "type": "mcq",
+          "stem": "Running ASI in restricted environments to prevent uncontrolled behavior is called:",
+          "options": [
+            "Boxing",
+            "Alignment research",
+            "Interpretability"
+          ],
+          "answer": "Boxing",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session4-5-types-of-ai#54"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-s45-asi-q-d535671b",
+          "type": "mcq",
+          "stem": "Which institutions does the slide name as working on global AI safety protocols?",
+          "options": [
+            "OECD, UN and the Partnership on AI",
+            "DeepMind and OpenAI",
+            "Tesla and IBM"
+          ],
+          "answer": "OECD, UN and the Partnership on AI",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session4-5-types-of-ai#54",
+            "aib--aib-session4-5-types-of-ai#3",
+            "aib--aib-session4-5-types-of-ai#4",
+            "aib--aib-session4-5-types-of-ai#2",
+            "aib--aib-session4-5-types-of-ai#47"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#54"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "aib-s45-asi-f1",
+      "front": "ASI (definition)",
+      "back": "A hypothetical future AI system that surpasses human intelligence across all domains.",
+      "kind": "term",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#48"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-asi-f2",
+      "front": "ANI vs AGI vs ASI (summary diagram)",
+      "back": "ANI: below human level, narrow. AGI: equal to human level, broad. ASI: surpasses human intelligence in all domains.",
+      "kind": "fact",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#50"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-asi-f3",
+      "front": "Five core characteristics of ASI",
+      "back": "Cognitive superiority; self-improving; goal-driven; autonomous; generalized knowledge.",
+      "kind": "list",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#49"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-asi-f4",
+      "front": "Nick Bostrom",
+      "back": "Author of Superintelligence: Paths, Dangers, Strategies.",
+      "kind": "example",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#51"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-asi-f5",
+      "front": "Four potential benefits of ASI",
+      "back": "Solving global problems; scientific breakthroughs; policy and diplomacy; economic efficiency.",
+      "kind": "list",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#52"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-asi-f6",
+      "front": "Four risks of ASI",
+      "back": "Alignment problem; control problem; existential risk (X-Risk); concentration of power.",
+      "kind": "list",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#53"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-asi-f7",
+      "front": "Four safeguards for ASI",
+      "back": "AI alignment research; interpretability and explainability; global governance frameworks; boxing or constraining ASI.",
+      "kind": "list",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#54"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [],
+  "explain_back": {
+    "prompt": "Explain what ASI is, how it differs from ANI and AGI, and weigh its benefits against its risks and safeguards.",
+    "rubric": [
+      {
+        "point": "ASI is a hypothetical future AI surpassing human intelligence across all domains",
+        "source_ref": "aib--aib-session4-5-types-of-ai#48"
+      },
+      {
+        "point": "ANI is below human level and narrow, AGI equal to human level and broad",
+        "source_ref": "aib--aib-session4-5-types-of-ai#50"
+      },
+      {
+        "point": "Benefits: global problems, scientific breakthroughs, policy and diplomacy, economic efficiency",
+        "source_ref": "aib--aib-session4-5-types-of-ai#52"
+      },
+      {
+        "point": "Risks: alignment problem, control problem, existential risk, concentration of power",
+        "source_ref": "aib--aib-session4-5-types-of-ai#53"
+      },
+      {
+        "point": "Safeguards: alignment research, interpretability and explainability, global governance, boxing",
+        "source_ref": "aib--aib-session4-5-types-of-ai#54"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

@@ -1,0 +1,486 @@
+{
+  "id": "aib-s45-ani-systems-market",
+  "subject_id": "aib",
+  "deck_id": "aib--aib-session4-5-types-of-ai",
+  "title": "Popular ANI systems, market growth and adoption speed",
+  "order": 303,
+  "summary": "Well-known narrow AI systems and what they do, the ANI market by domain, India's AI market, and how quickly AI is being adopted.",
+  "est_minutes": 20,
+  "difficulty": 2,
+  "source_refs": [
+    "aib--aib-session4-5-types-of-ai#12",
+    "aib--aib-session4-5-types-of-ai#13",
+    "aib--aib-session4-5-types-of-ai#14",
+    "aib--aib-session4-5-types-of-ai#15",
+    "aib--aib-session4-5-types-of-ai#16"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "aib-s45-ani-systems-market-c1",
+      "heading": "Popular ANI systems and what they do",
+      "explanation_md": "The slide's table pairs each **ANI system** with its **function**:\n\n- **ChatGPT (OpenAI):** natural language conversation, summarization, Q&A, code generation.\n- **Google Bard / Gemini** (the same row also prints Grammally): conversational AI, search-powered dialogue.\n- **Siri / Alexa / Google Assistant**, **Descript / Otter.ai:** voice-based commands, question answering, smart home control.\n- A recommendation row that names no system: movie and show recommendations based on watch history.\n- **Netflix, Spotify, Amazon:** music suggestions and personalized playlists; product recommendations based on browsing and purchase patterns.\n- **IBM Watson:** medical diagnosis, legal reasoning, enterprise decision support.\n- **Waymo (by Alphabet):** fully autonomous self-driving vehicle technology.\n- **PathAI:** AI-based pathology diagnosis.\n\n**Careful:** the picture has typos and its domain column does not line up with the systems in several rows (IBM Watson sits in the Autonomous Systems row, Waymo in Healthcare). Learn each **system with its function**.",
+      "example_ids": [
+        "aib-ex-s45-popular-ani-systems"
+      ],
+      "key_terms": [],
+      "exam_line": "Popular ANI systems: ChatGPT (conversation, code), Siri/Alexa (voice commands), Netflix/Spotify/Amazon (recommendations), IBM Watson (diagnosis, legal reasoning), Waymo (self-driving), PathAI (pathology).",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "aib-s45-ani-systems-market-q-7ee833ef",
+          "type": "mcq",
+          "stem": "Which system is listed for fully autonomous self-driving vehicle technology?",
+          "options": [
+            "Waymo",
+            "PathAI",
+            "Otter.ai"
+          ],
+          "answer": "Waymo",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session4-5-types-of-ai#12"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-s45-ani-systems-market-q-0aa1fae3",
+          "type": "mcq",
+          "stem": "PathAI's listed function is:",
+          "options": [
+            "AI-based pathology diagnosis",
+            "Music suggestions",
+            "Smart home control"
+          ],
+          "answer": "AI-based pathology diagnosis",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session4-5-types-of-ai#12"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-s45-ani-systems-market-q-0e9ab69e",
+          "type": "true_false",
+          "stem": "In the table, Spotify is linked to music suggestions and personalized playlists.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session4-5-types-of-ai#12"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#12"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-ani-systems-market-c2",
+      "heading": "How big is the ANI market?",
+      "explanation_md": "The **ANI Domains & Market Growth** table:\n\n| ANI domain | 2024 to 2025 value | 2030 to 2034 forecast | Approx. CAGR |\n|---|---|---|---|\n| General AI / combined ANI market | USD 230 to 280 billion (2024) | USD 1.8 trillion by 2030 | about 29 to 36% |\n| Marketing & language/text AI | USD 20 to 31 billion (2024) | USD 82 to 227 billion by 2030 to 32 | about 25 to 28% |\n| Enterprise / predictive analytics | USD 24 billion (2024) | USD 155 billion by 2030 | about 37.6% |\n| AI agents / conversational bots | USD 5.25 billion (2024) | USD 52.6 billion by 2030 | about 32% |\n| Big data + AI combined | USD 420 billion (2025 est.) | USD 1.54 trillion by 2034 | about 15.6% |\n\nThe chart **Market Growth of ANI Domains** shows the same story: the **CAGR line peaks at enterprise analytics AI** and is **lowest for big data + AI**, while the biggest bars are the general AI market and big data + AI.",
+      "example_ids": [
+        "aib-ex-s45-ani-market"
+      ],
+      "key_terms": [
+        {
+          "term": "CAGR",
+          "meaning": "The approximate yearly growth rate column in the ANI market table.",
+          "source_ref": "aib--aib-session4-5-types-of-ai#13"
+        }
+      ],
+      "exam_line": "Highest CAGR in the table and chart: enterprise / predictive analytics (about 37.6%, USD 24 billion to USD 155 billion by 2030); lowest: big data + AI (about 15.6%).",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "aib-s45-ani-systems-market-q-f755c3b3",
+          "type": "mcq",
+          "stem": "Which ANI domain has the highest approximate CAGR in the table (about 37.6%)?",
+          "options": [
+            "Enterprise / predictive analytics",
+            "Big data + AI combined",
+            "AI agents / conversational bots"
+          ],
+          "answer": "Enterprise / predictive analytics",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session4-5-types-of-ai#13"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-s45-ani-systems-market-q-85bc2e51",
+          "type": "mcq",
+          "stem": "The combined ANI market is forecast to reach what by 2030?",
+          "options": [
+            "USD 1.8 trillion",
+            "USD 1.54 trillion",
+            "USD 155 billion"
+          ],
+          "answer": "USD 1.8 trillion",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session4-5-types-of-ai#13"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-s45-ani-systems-market-q-679dbb08",
+          "type": "fill",
+          "stem": "AI agents / conversational bots: USD 5.25 billion (2024) to USD ____ billion by 2030.",
+          "options": [],
+          "answer": "52.6",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session4-5-types-of-ai#13"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#13",
+        "aib--aib-session4-5-types-of-ai#14"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-ani-systems-market-c3",
+      "heading": "India's AI market",
+      "explanation_md": "Under the chart, the slide gives India's numbers:\n\n- around **USD 8 billion in 2025**\n- projected **USD 17 billion by 2027**\n- an **annual growth rate of 25 to 40%**\n\n**Drivers:** **enterprise deployments**, **government initiatives** and **AI talent growth**.",
+      "example_ids": [
+        "aib-ex-s45-india-ai-market"
+      ],
+      "key_terms": [],
+      "exam_line": "India's AI market: about USD 8 billion (2025) to USD 17 billion (2027), growing 25 to 40% a year, driven by enterprise deployments, government initiatives and AI talent growth.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "aib-s45-ani-systems-market-q-1b9bd07d",
+          "type": "mcq",
+          "stem": "India's AI market is projected to reach how much by 2027?",
+          "options": [
+            "USD 17 billion",
+            "USD 8 billion",
+            "USD 52.6 billion"
+          ],
+          "answer": "USD 17 billion",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session4-5-types-of-ai#13",
+            "aib--aib-session4-5-types-of-ai#14"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-s45-ani-systems-market-q-e1c05f4d",
+          "type": "mcq",
+          "stem": "Which is NOT one of the three drivers of India's AI market on the slide?",
+          "options": [
+            "Falling smartphone prices",
+            "Government initiatives",
+            "AI talent growth"
+          ],
+          "answer": "Falling smartphone prices",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session4-5-types-of-ai#14"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#14"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-ani-systems-market-c4",
+      "heading": "AI is being adopted faster than older technologies",
+      "explanation_md": "**Modern technologies are quicker to be adopted.** The slide's chart says:\n- it took **five decades** for U.S. households to go from **10% to 99%** adoption of electricity;\n- it took **just 15 years** for social media to go from **5% to 79%**.\n\nThe chart also places three survey points for AI: **Heard of ChatGPT**, **Use AI at least once a month** and **Have ever used ChatGPT**. A second chart plots percent penetration in the US against years since each product was invented, for the Internet, mobile phone, PC, TV, electricity, airplane, telephone and automobile.\n\n**ChatGPT weekly active users (millions):** 100 (Nov 2023), 200 (Aug 2024), 250 (Oct 2024), 300 (Dec 2024), 400 (Feb 2025), **800 (Mar 2025)**, 800 (Apr 2025).",
+      "example_ids": [
+        "aib-ex-s45-adoption-speed",
+        "aib-ex-s45-chatgpt-users"
+      ],
+      "key_terms": [],
+      "exam_line": "Electricity took five decades to go from 10% to 99% of U.S. households; social media took 15 years from 5% to 79%; ChatGPT weekly users rose from 100 million (Nov 2023) to 800 million (Mar 2025).",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "aib-s45-ani-systems-market-q-7baa0d41",
+          "type": "mcq",
+          "stem": "How long did social media take to go from 5% to 79% adoption, per the chart?",
+          "options": [
+            "15 years",
+            "Five decades",
+            "Two years"
+          ],
+          "answer": "15 years",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session4-5-types-of-ai#15"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-s45-ani-systems-market-q-82441dec",
+          "type": "mcq",
+          "stem": "ChatGPT weekly active users in Mar 2025, per the chart:",
+          "options": [
+            "800 million",
+            "400 million",
+            "100 million"
+          ],
+          "answer": "800 million",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session4-5-types-of-ai#16"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-s45-ani-systems-market-q-3e652925",
+          "type": "true_false",
+          "stem": "The chart's headline is that modern technologies are quicker to be adopted.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session4-5-types-of-ai#15"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#15",
+        "aib--aib-session4-5-types-of-ai#16"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "aib-s45-ani-systems-market-f1",
+      "front": "Waymo (by Alphabet)",
+      "back": "ANI system for fully autonomous self-driving vehicle technology.",
+      "kind": "example",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#12"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-ani-systems-market-f2",
+      "front": "ChatGPT's listed ANI functions",
+      "back": "Natural language conversation, summarization, Q&A, code generation.",
+      "kind": "example",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#12"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-ani-systems-market-f3",
+      "front": "Enterprise / predictive analytics market",
+      "back": "USD 24 billion (2024) to USD 155 billion by 2030, about 37.6% CAGR.",
+      "kind": "fact",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#13"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-ani-systems-market-f4",
+      "front": "Big data + AI combined market",
+      "back": "USD 420 billion (2025 est.) to USD 1.54 trillion by 2034, about 15.6% CAGR.",
+      "kind": "fact",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#13"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-ani-systems-market-f5",
+      "front": "India's AI market",
+      "back": "About USD 8 billion (2025) to USD 17 billion by 2027; 25 to 40% a year.",
+      "kind": "fact",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#14"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-ani-systems-market-f6",
+      "front": "Drivers of India's AI market",
+      "back": "Enterprise deployments, government initiatives, AI talent growth.",
+      "kind": "list",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#14"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-ani-systems-market-f7",
+      "front": "Electricity vs social media adoption",
+      "back": "Electricity: five decades from 10% to 99% of U.S. households. Social media: 15 years from 5% to 79%.",
+      "kind": "fact",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#15"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-ani-systems-market-f8",
+      "front": "ChatGPT weekly active users",
+      "back": "100 million (Nov 2023) to 800 million (Mar 2025).",
+      "kind": "fact",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#16"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [],
+  "explain_back": {
+    "prompt": "Using the slides, show how fast narrow AI is growing: name some popular ANI systems, give market numbers and describe how quickly AI is being adopted.",
+    "rubric": [
+      {
+        "point": "Popular ANI systems with functions, e.g. ChatGPT, Siri/Alexa, Netflix, Waymo, PathAI",
+        "source_ref": "aib--aib-session4-5-types-of-ai#12"
+      },
+      {
+        "point": "ANI market: combined USD 230 to 280 billion (2024) to USD 1.8 trillion by 2030; enterprise analytics fastest at about 37.6%",
+        "source_ref": "aib--aib-session4-5-types-of-ai#13"
+      },
+      {
+        "point": "India: about USD 8 billion (2025) to USD 17 billion (2027) at 25 to 40% a year",
+        "source_ref": "aib--aib-session4-5-types-of-ai#14"
+      },
+      {
+        "point": "Modern technologies are adopted faster: electricity five decades vs social media 15 years",
+        "source_ref": "aib--aib-session4-5-types-of-ai#15"
+      },
+      {
+        "point": "ChatGPT weekly users grew from 100 million to 800 million",
+        "source_ref": "aib--aib-session4-5-types-of-ai#16"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

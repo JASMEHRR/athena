@@ -1,0 +1,619 @@
+{
+  "id": "aib-s45-how-siri-works",
+  "subject_id": "aib",
+  "deck_id": "aib--aib-session4-5-types-of-ai",
+  "title": "How Siri works: an ANI system step by step",
+  "order": 304,
+  "summary": "Siri as a worked example of narrow AI: the six technical steps from wake word to on-device learning, what Siri can do, how it compares with Alexa and Google Assistant, and a multilingual voice flow.",
+  "est_minutes": 25,
+  "difficulty": 2,
+  "source_refs": [
+    "aib--aib-session4-5-types-of-ai#17",
+    "aib--aib-session4-5-types-of-ai#18",
+    "aib--aib-session4-5-types-of-ai#19",
+    "aib--aib-session4-5-types-of-ai#20",
+    "aib--aib-session4-5-types-of-ai#21",
+    "aib--aib-session4-5-types-of-ai#22",
+    "aib--aib-session4-5-types-of-ai#55"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "aib-s45-how-siri-works-c1",
+      "heading": "The simple picture: voice in, processing, action out",
+      "explanation_md": "The first picture splits Siri into **voice input** and **processing**: you speak, the phone does **speech recognition**, an arrow leads to a cloud with a network, and then to the **action** (the picture shows a phone with a music note).\n\nThe second picture walks through one request:\n1. **Voice input:** \"Hey Siri, what's weather today?\"\n2. **Speech recognition:** the speech is analysed and turned into text.\n3. **Natural language processing:** fetching or calculating the result.\n4. **Response & action:** \"It's currently 72°F and sunny.\"\n\nAfter the response, arrows lead to **continuous learning** and then to **processing / query resolution** (fetch or read an answer).",
+      "example_ids": [
+        "aib-ex-s45-siri-weather"
+      ],
+      "key_terms": [],
+      "exam_line": "Siri in brief: voice input, speech recognition, natural language processing, query resolution, response and action, with continuous learning.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "aib-s45-how-siri-works-q-da3184da",
+          "type": "mcq",
+          "stem": "In the How Siri Works picture, what comes straight after voice input?",
+          "options": [
+            "Speech recognition",
+            "Response & action",
+            "Continuous learning"
+          ],
+          "answer": "Speech recognition",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session4-5-types-of-ai#18"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-s45-how-siri-works-q-4e5b88c4",
+          "type": "true_false",
+          "stem": "The simple diagram groups everything after voice input under 'processing'.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session4-5-types-of-ai#17"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#17",
+        "aib--aib-session4-5-types-of-ai#18"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-how-siri-works-c2",
+      "heading": "Steps 1 to 3: wake word, speech recognition, understanding",
+      "explanation_md": "The technical deep dive has **six steps**. The first three turn your voice into meaning.\n\n**1. Voice input & wake word detection.** The microphone **continuously listens for the wake word** (\"Hey Siri\") using a **low-power chip** (for example Apple's A-series Neural Engine). A small **wake-word detection model** (a small neural network trained to recognise \"Hey Siri\") **runs locally**.\n\n**2. Speech recognition (ASR: Automatic Speech Recognition).** Once activated, your speech is recorded and processed into **phonemes** (basic sound units). These are decoded into **text** using an **RNN-T** (Recurrent Neural Network Transducer) or a Transformer-based ASR model. This happens **locally or on Apple's servers**, depending on the device's capabilities and settings.\n\n**3. Natural Language Understanding (NLU).** Converts the text into **intent + parameters**. Example: intent **\"get weather\"**, parameters **location: current, time: today**. It uses models trained with **intent classification, slot filling and entity recognition** (similar to BERT or Apple's own Core ML NLP stack).",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "ASR",
+          "meaning": "Automatic Speech Recognition: turns recorded speech into phonemes and then into text.",
+          "source_ref": "aib--aib-session4-5-types-of-ai#20"
+        },
+        {
+          "term": "NLU",
+          "meaning": "Natural Language Understanding: converts text into intent + parameters.",
+          "source_ref": "aib--aib-session4-5-types-of-ai#20"
+        },
+        {
+          "term": "Phonemes",
+          "meaning": "Basic sound units that speech is processed into.",
+          "source_ref": "aib--aib-session4-5-types-of-ai#20"
+        }
+      ],
+      "exam_line": "Siri steps 1 to 3: wake word detection (runs locally on a low-power chip), ASR (speech to phonemes to text via RNN-T or Transformer models), NLU (text to intent + parameters).",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "aib-s45-how-siri-works-q-e74fd2ea",
+          "type": "mcq",
+          "stem": "In NLU, 'get weather' is an example of:",
+          "options": [
+            "An intent",
+            "A parameter",
+            "A phoneme"
+          ],
+          "answer": "An intent",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session4-5-types-of-ai#20"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-s45-how-siri-works-q-17322be7",
+          "type": "fill",
+          "stem": "In speech recognition, speech is first processed into ____, the basic sound units.",
+          "options": [],
+          "answer": "phonemes",
+          "accept": [
+            "phoneme"
+          ],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session4-5-types-of-ai#20"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-s45-how-siri-works-q-5761310a",
+          "type": "mcq",
+          "stem": "Where does the wake-word detection model run?",
+          "options": [
+            "Locally",
+            "Only on Apple's servers",
+            "In a third-party app"
+          ],
+          "answer": "Locally",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session4-5-types-of-ai#20"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#19",
+        "aib--aib-session4-5-types-of-ai#20"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-how-siri-works-c3",
+      "heading": "Steps 4 to 6: routing, answering and learning",
+      "explanation_md": "**4. Task management & query resolution.** The interpreted command is **routed to a domain-specific engine**: weather, reminders, calendar, phone, or third-party app integrations via **SiriKit**. These engines call the relevant **APIs or services** (for example WeatherKit, Apple Maps, Contacts).\n\n**5. Action execution.** Siri formats the response:\n- text goes to **Text-to-Speech (TTS)**;\n- the interface **displays info** (for example a weather card).\nTTS uses advanced models like **WaveNet** or Apple's neural TTS system for more human-like responses.\n\n**6. Feedback loop & on-device learning.** Apple uses **differential privacy** to learn from **aggregate interactions** (opt-in). Siri adapts through **contextual awareness** (location, app usage) and **user preferences** (frequently called contacts, typical routes). **No raw audio is stored**; privacy is preserved via **on-device learning** when possible.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "TTS",
+          "meaning": "Text-to-Speech: turns Siri's text response into speech.",
+          "source_ref": "aib--aib-session4-5-types-of-ai#20"
+        },
+        {
+          "term": "SiriKit",
+          "meaning": "The route for third-party app integrations with Siri.",
+          "source_ref": "aib--aib-session4-5-types-of-ai#20"
+        }
+      ],
+      "exam_line": "Siri steps 4 to 6: route the command to a domain-specific engine that calls APIs, execute the action (TTS or on-screen card), then learn through differential privacy and on-device learning; no raw audio is stored.",
+      "clarification": {
+        "term": "differential privacy",
+        "text": "A way of learning from patterns across many users' data together without revealing any one person's details."
+      },
+      "check_questions": [
+        {
+          "id": "aib-s45-how-siri-works-q-40955a7e",
+          "type": "mcq",
+          "stem": "Through what does Siri integrate with third-party apps?",
+          "options": [
+            "SiriKit",
+            "WaveNet",
+            "Core ML"
+          ],
+          "answer": "SiriKit",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session4-5-types-of-ai#20"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-s45-how-siri-works-q-3451a029",
+          "type": "mcq",
+          "stem": "Which two things does Siri adapt through in the feedback loop?",
+          "options": [
+            "Contextual awareness and user preferences",
+            "Raw audio recordings and ads",
+            "Phonemes and wake words"
+          ],
+          "answer": "Contextual awareness and user preferences",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session4-5-types-of-ai#20"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-s45-how-siri-works-q-138674e7",
+          "type": "true_false",
+          "stem": "According to the slide, Siri stores raw audio to improve itself.",
+          "options": [],
+          "answer": "False",
+          "accept": [],
+          "explanation": "The slide says no raw audio is stored; privacy is preserved via on-device learning when possible.",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session4-5-types-of-ai#20"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#19",
+        "aib--aib-session4-5-types-of-ai#20"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-how-siri-works-c4",
+      "heading": "What Siri can do for you",
+      "explanation_md": "The slide groups Siri's jobs into **seven areas**:\n\n- **Communication:** send and read messages, make phone calls, read voicemail, send emails.\n- **Productivity & reminders:** set alarms and timers, create reminders, manage calendar events.\n- **Device control:** adjust settings, open apps, control volume.\n- **Information & updates:** weather forecasts, news briefings, sports scores, stock market updates.\n- **Navigation:** get directions, find nearby places, check traffic.\n- **Smart home control:** manage lights and devices, adjust thermostat, lock and unlock doors.\n- **Entertainment:** play music and podcasts, control playback, identify songs.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "Siri's seven areas: communication, productivity & reminders, device control, information & updates, navigation, smart home control, entertainment.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "aib-s45-how-siri-works-q-c32a15cf",
+          "type": "mcq",
+          "stem": "'Adjust thermostat' falls under which Siri area?",
+          "options": [
+            "Smart home control",
+            "Device control",
+            "Information & updates"
+          ],
+          "answer": "Smart home control",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session4-5-types-of-ai#21"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-s45-how-siri-works-q-1a46a62d",
+          "type": "mcq",
+          "stem": "'Identify songs' falls under which Siri area?",
+          "options": [
+            "Entertainment",
+            "Communication",
+            "Navigation"
+          ],
+          "answer": "Entertainment",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session4-5-types-of-ai#21"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#21"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-how-siri-works-c5",
+      "heading": "ANI's comparison: Siri, Alexa and Google Assistant",
+      "explanation_md": "Three voice assistants side by side:\n\n| Assistant | Users | Notes |\n|---|---|---|\n| **Siri** | **87 million** | integrated with devices; focus on privacy |\n| **Alexa** | **76 million** | high device penetration; **significant losses** |\n| **Google Assistant** | **82 million** | bundled with products; **advertising revenue** |\n\nSiri and Alexa's notes are headed **economic notes**; Google Assistant's are headed **bundled with**.",
+      "example_ids": [
+        "aib-ex-s45-voice-assistants"
+      ],
+      "key_terms": [],
+      "exam_line": "Siri 87 million users (privacy, device integration); Google Assistant 82 million (bundled, advertising revenue); Alexa 76 million (high device penetration, significant losses).",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "aib-s45-how-siri-works-q-91146a3f",
+          "type": "mcq",
+          "stem": "Which assistant's economic notes mention significant losses?",
+          "options": [
+            "Alexa",
+            "Siri",
+            "Google Assistant"
+          ],
+          "answer": "Alexa",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session4-5-types-of-ai#22"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-s45-how-siri-works-q-9afd7f25",
+          "type": "mcq",
+          "stem": "How many users does the slide give for Google Assistant?",
+          "options": [
+            "82 million",
+            "87 million",
+            "76 million"
+          ],
+          "answer": "82 million",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session4-5-types-of-ai#22"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-s45-how-siri-works-q-c555316e",
+          "type": "true_false",
+          "stem": "Siri's notes on the slide are 'integrated with devices' and 'focus on privacy'.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session4-5-types-of-ai#22"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#22"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-how-siri-works-c6",
+      "heading": "A voice flow for many languages",
+      "explanation_md": "Near the end of the deck an untitled slide shows another step-by-step voice flow, this one built for **many languages**:\n\n1. **Language detection & selection**\n2. **Multilingual ASR**\n3. **Natural language understanding**\n4. **Localization & cultural adaptation**\n5. **Voice synthesis**\n6. **Continuous improvement**\n\nBeside it is a folk-art style painting of a robot with **AI** written on its head, holding a tablet with a rising chart, surrounded by village scenes (a farmer ploughing, people with food, a woman shaping a clay pot). The slide adds no text to explain the painting.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "Multilingual voice flow: language detection & selection, multilingual ASR, natural language understanding, localization & cultural adaptation, voice synthesis, continuous improvement.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "aib-s45-how-siri-works-q-148979e4",
+          "type": "mcq",
+          "stem": "In the multilingual voice flow, what comes right after natural language understanding?",
+          "options": [
+            "Localization & cultural adaptation",
+            "Language detection & selection",
+            "Multilingual ASR"
+          ],
+          "answer": "Localization & cultural adaptation",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session4-5-types-of-ai#55"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-s45-how-siri-works-q-d0aba258",
+          "type": "fill",
+          "stem": "The first step of the multilingual voice flow is language detection & ____.",
+          "options": [],
+          "answer": "selection",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session4-5-types-of-ai#55"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#55"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "aib-s45-how-siri-works-f1",
+      "front": "Six steps of how Siri works",
+      "back": "Voice input & wake word detection; speech recognition (ASR); natural language understanding (NLU); task management & query resolution; action execution; feedback loop & on-device learning.",
+      "kind": "list",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#19"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-how-siri-works-f2",
+      "front": "NLU example from the Siri slide",
+      "back": "Intent: get weather. Parameters: location current, time today.",
+      "kind": "example",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#20"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-how-siri-works-f3",
+      "front": "How Siri protects privacy while learning",
+      "back": "Differential privacy on aggregate interactions (opt-in); no raw audio stored; on-device learning when possible.",
+      "kind": "fact",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#20"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-how-siri-works-f4",
+      "front": "What turns Siri's text answer into speech?",
+      "back": "Text-to-Speech (TTS), using models like WaveNet or Apple's neural TTS.",
+      "kind": "fact",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#20"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-how-siri-works-f5",
+      "front": "Siri's seven areas",
+      "back": "Communication; productivity & reminders; device control; information & updates; navigation; smart home control; entertainment.",
+      "kind": "list",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#21"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-how-siri-works-f6",
+      "front": "Voice assistant users (slide)",
+      "back": "Siri 87 million; Google Assistant 82 million; Alexa 76 million.",
+      "kind": "fact",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#22"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-how-siri-works-f7",
+      "front": "Multilingual voice flow",
+      "back": "Language detection & selection, multilingual ASR, natural language understanding, localization & cultural adaptation, voice synthesis, continuous improvement.",
+      "kind": "list",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#55"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [],
+  "explain_back": {
+    "prompt": "Walk through how Siri answers 'Hey Siri, what's the weather today?' using the six steps on the slides.",
+    "rubric": [
+      {
+        "point": "Wake word detection: the microphone listens for 'Hey Siri' with a small model running locally on a low-power chip",
+        "source_ref": "aib--aib-session4-5-types-of-ai#20"
+      },
+      {
+        "point": "ASR: speech is processed into phonemes and decoded into text (RNN-T or Transformer model)",
+        "source_ref": "aib--aib-session4-5-types-of-ai#20"
+      },
+      {
+        "point": "NLU: text becomes intent ('get weather') plus parameters (location current, time today)",
+        "source_ref": "aib--aib-session4-5-types-of-ai#20"
+      },
+      {
+        "point": "Task management routes it to a domain-specific engine that calls APIs; action execution replies via TTS or a weather card",
+        "source_ref": "aib--aib-session4-5-types-of-ai#20"
+      },
+      {
+        "point": "Feedback loop: differential privacy and on-device learning; no raw audio stored",
+        "source_ref": "aib--aib-session4-5-types-of-ai#20"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

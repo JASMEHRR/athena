@@ -1,0 +1,459 @@
+{
+  "id": "aib-s45-three-types",
+  "subject_id": "aib",
+  "deck_id": "aib--aib-session4-5-types-of-ai",
+  "title": "Types of AI: ANI, AGI and ASI",
+  "order": 302,
+  "summary": "The three types of AI with the professor's definitions, nicknames, status, examples and key insights.",
+  "est_minutes": 20,
+  "difficulty": 1,
+  "source_refs": [
+    "aib--aib-session4-5-types-of-ai#7",
+    "aib--aib-session4-5-types-of-ai#8",
+    "aib--aib-session4-5-types-of-ai#11",
+    "aib--aib-session4-5-types-of-ai#9",
+    "aib--aib-session4-5-types-of-ai#12",
+    "aib--aib-session4-5-types-of-ai#26",
+    "aib--aib-session4-5-types-of-ai#10"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "aib-s45-three-types-c1",
+      "heading": "Three types at a glance",
+      "explanation_md": "The deck's poster sorts AI into three types:\n\n- **ANI (Narrow AI):** current practical systems, such as **Siri** and **recommendation engines**.\n- **AGI (General AI):** **human-level intelligence** (future potential).\n- **ASI (Super AI):** **beyond human intelligence** (speculative).\n\nAn easy way to hold it in your head: narrow is **here now**, general is **human level**, super is **beyond human**.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "ANI = current practical systems; AGI = human-level intelligence (future potential); ASI = beyond human intelligence (speculative).",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "aib-s45-three-types-q-ffc1a082",
+          "type": "mcq",
+          "stem": "On the poster, which type is described as 'beyond human intelligence (speculative)'?",
+          "options": [
+            "ASI",
+            "AGI",
+            "ANI"
+          ],
+          "answer": "ASI",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session4-5-types-of-ai#7"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-s45-three-types-q-73714d0b",
+          "type": "fill",
+          "stem": "AGI stands for Artificial ____ Intelligence.",
+          "options": [],
+          "answer": "General",
+          "accept": [
+            "general"
+          ],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session4-5-types-of-ai#7",
+            "aib--aib-session4-5-types-of-ai#9"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-three-types-c2",
+      "heading": "ANI, the 'Weak AI': one task, inside its training",
+      "explanation_md": "**Definition:** ANI is **task-specific**, designed to perform a **single function or a limited range of functions**. It **can't learn beyond what it's programmed for**.\n\nThe second ANI slide adds: **ANI is what we have today**. It works **only in the domain it was trained for** and **cannot transfer its skills** to unrelated areas.\n\n**Real-world examples:**\n- **Netflix** recommendation system: suggests shows and movies from your viewing history.\n- **Face recognition** apps: **Face ID**, **Aadhaar** authentication, security surveillance.\n- **Google Maps / Siri / Alexa**: limited but well-defined tasks like navigation or setting reminders.\n- **Spam filters**: recognise patterns to block junk emails.\n- Also **Amazon** recommendations and Siri and Alexa for voice recognition.\n\n**Key insight:** this is the **most common type of AI today**. It is everywhere, but **not truly 'intelligent' beyond its coding**.",
+      "example_ids": [
+        "aib-ex-s45-ani-examples"
+      ],
+      "key_terms": [
+        {
+          "term": "Artificial Narrow Intelligence (ANI)",
+          "meaning": "Weak AI: task-specific AI that performs a single function or a limited range of functions and cannot learn beyond what it is programmed for.",
+          "source_ref": "aib--aib-session4-5-types-of-ai#8"
+        }
+      ],
+      "exam_line": "ANI (Weak AI) is task-specific, cannot generalize beyond its domain, and is the most common AI today, e.g. Netflix recommendations, Face ID, spam filters.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "aib-s45-three-types-q-3c3a46bc",
+          "type": "mcq",
+          "stem": "Which statement about ANI matches the slides?",
+          "options": [
+            "It works only in the domain it was trained for",
+            "It can transfer its skills to any unrelated area",
+            "It surpasses human intelligence in every way"
+          ],
+          "answer": "It works only in the domain it was trained for",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session4-5-types-of-ai#10",
+            "aib--aib-session4-5-types-of-ai#11"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-s45-three-types-q-692e8740",
+          "type": "mcq",
+          "stem": "Aadhaar authentication is given as an example of which ANI application?",
+          "options": [
+            "Face recognition",
+            "Spam filtering",
+            "Recommendation system"
+          ],
+          "answer": "Face recognition",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session4-5-types-of-ai#8"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-s45-three-types-q-24c3ece6",
+          "type": "true_false",
+          "stem": "The slide calls ANI the most common type of AI today.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session4-5-types-of-ai#8"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#8",
+        "aib--aib-session4-5-types-of-ai#11"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-three-types-c3",
+      "heading": "AGI, the 'Strong AI': human-like across domains",
+      "explanation_md": "**Definition:** AGI refers to machines that can **think, reason, learn and adapt like a human across different domains**.\n\n**Current status:** we are **still developing AGI**. Tools like **ChatGPT** are early examples: they **mimic general understanding but lack self-awareness or true reasoning**.\n\n**Real-world examples on the slide:**\n- **OpenAI GPT-4 / GPT-3 / Gemini**: general research, tutoring, problem-solving and coding.\n- **IBM Watson**: used in hospitals and enterprises to analyse medical records or optimise logistics.\n- **AI writing assistants** such as **Grammarly** or **Copilot**, improving human workflows across domains.\n\n**Key insight:** *\"We are halfway to AGI.\"* ChatGPT and others show multi-domain learning but don't yet match full human cognition.\n\n**Heads up:** the deck is not consistent here. This slide treats ChatGPT as an early AGI example, but the popular ANI systems table lists ChatGPT as an ANI system, and a later AGI slide says AGI doesn't exist yet. The slides do not settle this, so quote whichever slide the question is about.",
+      "example_ids": [
+        "aib-ex-s45-agi-examples"
+      ],
+      "key_terms": [
+        {
+          "term": "Artificial General Intelligence (AGI)",
+          "meaning": "Strong AI: machines that can think, reason, learn and adapt like a human across different domains.",
+          "source_ref": "aib--aib-session4-5-types-of-ai#9"
+        }
+      ],
+      "exam_line": "AGI (Strong AI) thinks, reasons, learns and adapts like a human across domains; still being developed; 'we are halfway to AGI'.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "aib-s45-three-types-q-cd203a43",
+          "type": "mcq",
+          "stem": "What nickname does the slide give AGI?",
+          "options": [
+            "Strong AI",
+            "Weak AI",
+            "Future AI"
+          ],
+          "answer": "Strong AI",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session4-5-types-of-ai#8",
+            "aib--aib-session4-5-types-of-ai#9",
+            "aib--aib-session4-5-types-of-ai#10"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-s45-three-types-q-34953cae",
+          "type": "mcq",
+          "stem": "According to the AGI slide, what do tools like ChatGPT lack?",
+          "options": [
+            "Self-awareness or true reasoning",
+            "The ability to write text",
+            "Any users"
+          ],
+          "answer": "Self-awareness or true reasoning",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session4-5-types-of-ai#9"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-s45-three-types-q-f786f707",
+          "type": "fill",
+          "stem": "Key insight on the AGI slide: we are ____ to AGI.",
+          "options": [],
+          "answer": "halfway",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session4-5-types-of-ai#9"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#9",
+        "aib--aib-session4-5-types-of-ai#12",
+        "aib--aib-session4-5-types-of-ai#26"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-three-types-c4",
+      "heading": "ASI, the 'Future AI': beyond us in every way",
+      "explanation_md": "**Definition:** ASI is **hypothetical AI that surpasses human intelligence in every way**: **logic, creativity, emotions and decision-making**.\n\n**Status:** **still fictional**; it has not been achieved.\n\n**Imagined use cases:**\n- robots that **replace doctors, teachers, judges**;\n- AI that solves complex societal problems (climate change, space colonization);\n- **fully autonomous societies run by AI**, as in the sci-fi movies **Her** or **Ex Machina**.\n\n**Concerns:** ethical and existential risks like **job displacement, privacy loss or AI domination**.",
+      "example_ids": [
+        "aib-ex-s45-asi-imagined"
+      ],
+      "key_terms": [
+        {
+          "term": "Artificial Super Intelligence (ASI)",
+          "meaning": "Future AI: hypothetical AI that surpasses human intelligence in every way (logic, creativity, emotions, decision-making).",
+          "source_ref": "aib--aib-session4-5-types-of-ai#10"
+        }
+      ],
+      "exam_line": "ASI (Future AI) is hypothetical and still fictional; concerns include job displacement, privacy loss and AI domination.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "aib-s45-three-types-q-29a746b4",
+          "type": "mcq",
+          "stem": "Which concern is listed for ASI?",
+          "options": [
+            "AI domination",
+            "Spam emails",
+            "Slow navigation"
+          ],
+          "answer": "AI domination",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session4-5-types-of-ai#10"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-s45-three-types-q-ee25419a",
+          "type": "true_false",
+          "stem": "The slide says ASI has already been achieved in a few research labs.",
+          "options": [],
+          "answer": "False",
+          "accept": [],
+          "explanation": "The slide says ASI is still fictional and has not been achieved.",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session4-5-types-of-ai#10"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#10"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "aib-s45-three-types-f1",
+      "front": "ANI ('Weak AI')",
+      "back": "Task-specific; a single function or limited range; can't learn beyond its programming; most common AI today.",
+      "kind": "term",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#8"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-three-types-f2",
+      "front": "AGI ('Strong AI')",
+      "back": "Machines that think, reason, learn and adapt like a human across domains; still being developed.",
+      "kind": "term",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#9"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-three-types-f3",
+      "front": "ASI ('Future AI')",
+      "back": "Hypothetical AI surpassing humans in logic, creativity, emotions and decision-making; still fictional.",
+      "kind": "term",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#10"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-three-types-f4",
+      "front": "Four ANI examples (slide)",
+      "back": "Netflix recommendations; face recognition (Face ID, Aadhaar); Google Maps / Siri / Alexa; spam filters.",
+      "kind": "example",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#8"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-three-types-f5",
+      "front": "AGI examples (slide)",
+      "back": "OpenAI GPT-4 / GPT-3 / Gemini; IBM Watson; AI writing assistants like Grammarly or Copilot.",
+      "kind": "example",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#9"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-three-types-f6",
+      "front": "Why can't ANI move to a new area?",
+      "back": "It works only in the domain it was trained for and cannot transfer its skills to unrelated areas.",
+      "kind": "fact",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#11"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-three-types-f7",
+      "front": "ASI concerns",
+      "back": "Job displacement, privacy loss, AI domination.",
+      "kind": "list",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#10"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [],
+  "explain_back": {
+    "prompt": "Explain the three types of AI (ANI, AGI, ASI) with each one's definition, status and an example from the slides.",
+    "rubric": [
+      {
+        "point": "ANI (Weak AI): task-specific, cannot learn beyond its programming, most common today, e.g. Netflix recommendations or spam filters",
+        "source_ref": "aib--aib-session4-5-types-of-ai#8"
+      },
+      {
+        "point": "AGI (Strong AI): thinks, reasons, learns and adapts like a human across domains; still developing, 'halfway to AGI'",
+        "source_ref": "aib--aib-session4-5-types-of-ai#9"
+      },
+      {
+        "point": "AGI examples such as GPT-4, Gemini, IBM Watson",
+        "source_ref": "aib--aib-session4-5-types-of-ai#9"
+      },
+      {
+        "point": "ASI (Future AI): hypothetical, surpasses humans in every way, still fictional; concerns like job displacement and AI domination",
+        "source_ref": "aib--aib-session4-5-types-of-ai#10"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

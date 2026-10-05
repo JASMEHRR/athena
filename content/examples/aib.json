@@ -623,5 +623,356 @@
     ],
     "needs_check": false,
     "retired": false
+  },
+  {
+    "id": "aib-ex-s45-ibm-watson",
+    "deck_id": "aib--aib-session4-5-types-of-ai",
+    "slide": 2,
+    "label": "IBM Watson on Jeopardy!",
+    "text": "IBM Watson was built to compete on the US quiz show Jeopardy! and in 2011 defeated top human champions Ken Jennings and Brad Rutter. It used the DeepQA architecture and was later applied in healthcare (cancer diagnosis), finance (risk management) and legal services.",
+    "kind": "case",
+    "taught_in": [
+      "aib-s45-milestones-c1"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "aib-ex-s45-alphago",
+    "deck_id": "aib--aib-session4-5-types-of-ai",
+    "slide": 3,
+    "label": "AlphaGo beats Lee Sedol",
+    "text": "AlphaGo, created by DeepMind (a Google subsidiary), defeated world champion Lee Sedol at the board game Go in 2016, using deep neural networks, reinforcement learning and Monte Carlo Tree Search.",
+    "kind": "case",
+    "taught_in": [
+      "aib-s45-milestones-c2"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "aib-ex-s45-gpt-evolution",
+    "deck_id": "aib--aib-session4-5-types-of-ai",
+    "slide": 4,
+    "label": "GPT-1 to GPT-4",
+    "text": "GPT-1 (2018) proof of concept; GPT-2 (2019) first widely capable model, initially withheld over safety concerns; GPT-3 (2020) 175B parameters; GPT-4 (2023) multimodal. GPTs power ChatGPT, Copilot (coding), DALL·E (images) and Whisper (speech).",
+    "kind": "product",
+    "taught_in": [
+      "aib-s45-milestones-c3"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "aib-ex-s45-ani-examples",
+    "deck_id": "aib--aib-session4-5-types-of-ai",
+    "slide": 8,
+    "label": "Narrow AI examples",
+    "text": "Netflix recommendation system (suggests shows from viewing history); face recognition apps (Face ID, Aadhaar authentication, security surveillance); Google Maps, Siri and Alexa (navigation, reminders); spam filters (block junk emails).",
+    "kind": "product",
+    "taught_in": [
+      "aib-s45-three-types-c2"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "aib-ex-s45-agi-examples",
+    "deck_id": "aib--aib-session4-5-types-of-ai",
+    "slide": 9,
+    "label": "General AI examples",
+    "text": "OpenAI GPT-4 / GPT-3 / Gemini (research, tutoring, problem-solving, coding); IBM Watson (hospitals and enterprises: medical records, logistics); AI writing assistants such as Grammarly or Copilot.",
+    "kind": "product",
+    "taught_in": [
+      "aib-s45-three-types-c3"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "aib-ex-s45-asi-imagined",
+    "deck_id": "aib--aib-session4-5-types-of-ai",
+    "slide": 10,
+    "label": "Imagined uses of super AI",
+    "text": "Robots that replace doctors, teachers and judges; AI that solves climate change or space colonization; fully autonomous societies run by AI, as in the sci-fi movies Her or Ex Machina.",
+    "kind": "illustration",
+    "taught_in": [
+      "aib-s45-three-types-c4"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "aib-ex-s45-popular-ani-systems",
+    "deck_id": "aib--aib-session4-5-types-of-ai",
+    "slide": 12,
+    "label": "Popular ANI systems",
+    "text": "ChatGPT (OpenAI) for conversation, summarization, Q&A and code; Google Bard / Gemini for conversational AI; Siri / Alexa / Google Assistant and Descript / Otter.ai for speech; Netflix, Spotify and Amazon for recommendations; IBM Watson for medical diagnosis, legal reasoning and enterprise decisions; Waymo (by Alphabet) for self-driving; PathAI for AI-based pathology diagnosis.",
+    "kind": "product",
+    "taught_in": [
+      "aib-s45-ani-systems-market-c1"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "aib-ex-s45-ani-market",
+    "deck_id": "aib--aib-session4-5-types-of-ai",
+    "slide": 13,
+    "label": "ANI market by domain",
+    "text": "Combined ANI market USD 230 to 280 billion (2024) to USD 1.8 trillion by 2030; enterprise / predictive analytics USD 24 billion (2024) to USD 155 billion by 2030 at about 37.6%; AI agents / conversational bots USD 5.25 billion (2024) to USD 52.6 billion by 2030; big data + AI USD 420 billion (2025 est.) to USD 1.54 trillion by 2034 at about 15.6%.",
+    "kind": "numeric",
+    "taught_in": [
+      "aib-s45-ani-systems-market-c2"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "aib-ex-s45-india-ai-market",
+    "deck_id": "aib--aib-session4-5-types-of-ai",
+    "slide": 14,
+    "label": "India's AI market",
+    "text": "India's AI market was around USD 8 billion in 2025, projected to reach USD 17 billion by 2027 at an annual growth rate of 25 to 40%, driven by enterprise deployments, government initiatives and AI talent growth.",
+    "kind": "numeric",
+    "taught_in": [
+      "aib-s45-ani-systems-market-c3"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "aib-ex-s45-adoption-speed",
+    "deck_id": "aib--aib-session4-5-types-of-ai",
+    "slide": 15,
+    "label": "Modern technologies are adopted faster",
+    "text": "It took five decades for U.S. households to go from 10% adoption of electricity to 99%; it took just 15 years for social media to go from 5% adoption to 79%.",
+    "kind": "numeric",
+    "taught_in": [
+      "aib-s45-ani-systems-market-c4"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "aib-ex-s45-chatgpt-users",
+    "deck_id": "aib--aib-session4-5-types-of-ai",
+    "slide": 16,
+    "label": "ChatGPT weekly active users",
+    "text": "ChatGPT weekly active users grew from 100 million (Nov 2023) to 200 million (Aug 2024), 300 million (Dec 2024), 400 million (Feb 2025) and 800 million (Mar 2025).",
+    "kind": "numeric",
+    "taught_in": [
+      "aib-s45-ani-systems-market-c4"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "aib-ex-s45-siri-weather",
+    "deck_id": "aib--aib-session4-5-types-of-ai",
+    "slide": 18,
+    "label": "Hey Siri, what's the weather?",
+    "text": "Voice input \"Hey Siri, what's weather today?\" goes through speech recognition, natural language processing and query resolution to the response \"It's currently 72°F and sunny.\"",
+    "kind": "illustration",
+    "taught_in": [
+      "aib-s45-how-siri-works-c1"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "aib-ex-s45-voice-assistants",
+    "deck_id": "aib--aib-session4-5-types-of-ai",
+    "slide": 22,
+    "label": "Siri vs Alexa vs Google Assistant",
+    "text": "Siri 87 million users (integrated with devices, focus on privacy); Alexa 76 million users (high device penetration, significant losses); Google Assistant 82 million users (bundled with products, advertising revenue).",
+    "kind": "numeric",
+    "taught_in": [
+      "aib-s45-how-siri-works-c5"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "aib-ex-s45-ani-use-cases",
+    "deck_id": "aib--aib-session4-5-types-of-ai",
+    "slide": 23,
+    "label": "Use cases of ANI",
+    "text": "General AI market (cross-domain ANI's): GPT-4, Gemini, Claude, IBM Watson. Marketing & text AI: Grammarly, ChatGPT, Jasper AI, Google Translate. Enterprise & predictive analytics AI: IBM Watson, Salesforce Einstein, Zest AI. AI agents / chatbots: Alexa, Siri, Google Assistant, Intercom, Drift. Big data + AI platforms: Azure ML, AWS SageMaker, Google Vertex AI.",
+    "kind": "product",
+    "taught_in": [
+      "aib-s45-ani-use-cases-c2"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "aib-ex-s45-ani-in-business",
+    "deck_id": "aib--aib-session4-5-types-of-ai",
+    "slide": 25,
+    "label": "ANI in business: retail, healthcare, BFSI",
+    "text": "Retail: recommendation engines, dynamic pricing, inventory management (personalized experiences, rapid market growth). Healthcare: diagnostic image analysis, predictive risk modeling, fraud detection (improved accuracy, $29 billion in 2024). BFSI: fraud detection, credit scoring, AI chatbots (faster service response, $26.2 billion in 2024).",
+    "kind": "numeric",
+    "taught_in": [
+      "aib-s45-ani-use-cases-c3"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "aib-ex-s45-agi-definitions",
+    "deck_id": "aib--aib-session4-5-types-of-ai",
+    "slide": 30,
+    "label": "Case studies of AGI definitions",
+    "text": "Turing Test (too reliant on deception); Strong AI, Searle (requires consciousness); brain analogy (not necessary for performance); cognitive tasks, Legg and Goertzel (capability, not embodiment); learning tasks, Shanahan (metacognitive ability); economic value, OpenAI (excludes non-economic intelligence); real-world tasks, Marcus and Suleyman (flexibility and generality); LLMs as AGI, Arcas and Norvig (generality present, performance lacking).",
+    "kind": "case",
+    "taught_in": [
+      "aib-s45-levels-of-agi-c2"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "aib-ex-s45-agi-levels",
+    "deck_id": "aib--aib-session4-5-types-of-ai",
+    "slide": 32,
+    "label": "Levels of AGI",
+    "text": "Level 0: No AI (calculators); Level 1: Emerging AGI (ChatGPT); Level 2: Competent AGI (not yet achieved); Level 3: Expert AGI; Level 4: Virtuoso AGI; Level 5: ASI.",
+    "kind": "illustration",
+    "taught_in": [
+      "aib-s45-levels-of-agi-c4"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "aib-ex-s45-autonomy-levels",
+    "deck_id": "aib--aib-session4-5-types-of-ai",
+    "slide": 34,
+    "label": "Levels of autonomy",
+    "text": "Tool (basic automation, e.g. grammar checker), Consultant (advice when prompted), Collaborator (shared goals), Expert (AI leads, human gives feedback), Agent (fully autonomous AI).",
+    "kind": "illustration",
+    "taught_in": [
+      "aib-s45-levels-of-agi-c6"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "aib-ex-s45-ai-timeline",
+    "deck_id": "aib--aib-session4-5-types-of-ai",
+    "slide": 40,
+    "label": "Timeline of AI technologies (Figure 3)",
+    "text": "Early AI: 1950s; Narrow AI: 2010s; AGI: predicted for mid-21st century; ASI: hypothetical future; UBI: Universal Basic Intelligence, future concept.",
+    "kind": "illustration",
+    "taught_in": [
+      "aib-s45-internal-control-frameworks-c2"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "aib-ex-s45-ai-by-function",
+    "deck_id": "aib--aib-session4-5-types-of-ai",
+    "slide": 42,
+    "label": "AI applications by business function (Figure 4)",
+    "text": "Marketing 30%, Customer Service 20%, Supply Chain Management 15%, Research and Development 15%, Finance and Accounting 10%, Human Resources 10%.",
+    "kind": "numeric",
+    "taught_in": [
+      "aib-s45-internal-control-frameworks-c3"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "aib-ex-s45-ttf-matrix",
+    "deck_id": "aib--aib-session4-5-types-of-ai",
+    "slide": 43,
+    "label": "Task-technology fit matrix (Figure 6)",
+    "text": "Fit of ML, NLP, RPA, data analytics and anomaly detection with risk assessment, auditing, transaction monitoring, compliance checking and fraud detection, rated High, Medium or Low; the only Low is NLP for transaction monitoring.",
+    "kind": "illustration",
+    "taught_in": [
+      "aib-s45-internal-control-frameworks-c5"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "aib-ex-s45-abc-logistics",
+    "deck_id": "aib--aib-session4-5-types-of-ai",
+    "slide": 39,
+    "label": "Real-time activity-based costing",
+    "text": "Real-time activity-based costing (ABC) optimizes operations, for example a 25% cost reduction in logistics.",
+    "kind": "numeric",
+    "taught_in": [
+      "aib-s45-ai-in-internal-control-c1"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "aib-ex-s45-ic-case-studies",
+    "deck_id": "aib--aib-session4-5-types-of-ai",
+    "slide": 41,
+    "label": "Internal control case studies",
+    "text": "Manufacturing company: AI in inventory control improved demand forecasting, 20% inventory reduction, proactive supplier monitoring. Financial institution: AI-based fraud detection cut losses by 30%, automated compliance improved regulatory response. Tech firm: AI analysed employee performance and project data, boosting productivity by 25%.",
+    "kind": "case",
+    "taught_in": [
+      "aib-s45-ai-in-internal-control-c2"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "aib-ex-s45-learning-timeline",
+    "deck_id": "aib--aib-session4-5-types-of-ai",
+    "slide": 45,
+    "label": "How AI keeps learning (Figure 14)",
+    "text": "Initial Learning (2022), Continuous Learning (2023), Advanced Learning (2024), Mature Learning (2025): AI moves from basic models and small datasets to real-time autonomous decision-making.",
+    "kind": "illustration",
+    "taught_in": [
+      "aib-s45-ai-in-internal-control-c5"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "aib-ex-s45-tesla-car",
+    "deck_id": "aib--aib-session4-5-types-of-ai",
+    "slide": 47,
+    "label": "Tesla driverless car",
+    "text": "A labelled drawing: cameras (360-degree vision), AI chip (processing sensor data), GPS & IMU (localization), radar (forward-looking perception) and an ultrasonic sensor.",
+    "kind": "product",
+    "taught_in": [
+      "aib-s45-ai-in-internal-control-c6"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "aib-ex-s45-asi-thinkers",
+    "deck_id": "aib--aib-session4-5-types-of-ai",
+    "slide": 51,
+    "label": "Thinkers behind ASI",
+    "text": "Nick Bostrom (Superintelligence: Paths, Dangers, Strategies); Ray Kurzweil (The Singularity is Near); Elon Musk and Stephen Hawking warned about uncontrolled ASI posing existential risks.",
+    "kind": "person",
+    "taught_in": [
+      "aib-s45-asi-c3"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "aib-ex-s45-asi-governance",
+    "deck_id": "aib--aib-session4-5-types-of-ai",
+    "slide": 54,
+    "label": "Global AI safety bodies",
+    "text": "Institutions like the OECD, the UN and partnerships such as the Partnership on AI are working on global AI safety protocols.",
+    "kind": "illustration",
+    "taught_in": [
+      "aib-s45-asi-c6"
+    ],
+    "needs_check": false,
+    "retired": false
   }
 ]
