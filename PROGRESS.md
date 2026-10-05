@@ -1,11 +1,13 @@
-# Athena progress
+﻿# Athena progress
 
 Notes for the next round go under each ticked task.
 
 ## P0 Foundations
-- [ ] P0.1 Folders, git init, .gitignore, CLAUDE.md, README stub, PROGRESS.md, DECISIONS.md, MORNING.md.
-- [ ] P0.2 Python 3.11 venv, pinned requirements.txt, install, import smoke test.
-- [ ] P0.3 docs/ARCHITECTURE.md, docs/CONTENT_SCHEMA.md, Pydantic models, SQLite schema and migrations, config.
+- [x] P0.1 Folders, git init, .gitignore, CLAUDE.md, README stub, PROGRESS.md, DECISIONS.md, MORNING.md.
+- [x] P0.2 Python 3.11 venv, pinned requirements.txt, install, import smoke test.
+  - All libs install and import. fsrs 6.3.2 API: Scheduler.review_card, Card.to_dict/from_dict, get_card_retrievability.
+- [x] P0.3 docs/ARCHITECTURE.md, docs/CONTENT_SCHEMA.md, Pydantic models, SQLite schema and migrations, config.
+  - models.py is the contract. db.py MIGRATIONS list; c_* rebuilt on import, p_* never dropped.
 - [ ] P0.4 Inventory E:\college and inbox/ into reports/inventory.md.
 
 ## P1 Ingestion
@@ -50,3 +52,4 @@ Notes for the next round go under each ticked task.
 ## Deck status
 | Deck | Subject | Ingested | Pass A | Pass B | Verified |
 |---|---|---|---|---|---|
+
