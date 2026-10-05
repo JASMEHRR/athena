@@ -1,0 +1,476 @@
+{
+  "id": "qtm-m3-discrete-distributions",
+  "subject_id": "qtm",
+  "deck_id": "qtm--module-3",
+  "title": "Discrete distributions: Bernoulli and Poisson",
+  "order": 309,
+  "summary": "The map of probability distribution functions, the conditions for Bernoulli trials, the Bernoulli random variable with its mean p and variance p(1 - p), and the Poisson distribution with its assumptions, formula, mean and variance.",
+  "est_minutes": 25,
+  "difficulty": 2,
+  "source_refs": [
+    "qtm--module-3#47",
+    "qtm--module-3#48",
+    "qtm--module-3#49",
+    "qtm--module-3#50",
+    "qtm--module-3#41",
+    "qtm--module-3#51"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "qtm-m3-discrete-distributions-c1",
+      "heading": "The map of probability distributions",
+      "explanation_md": "The deck groups the distributions you need into two families:\n\n**Discrete distributions** (countable values):\n- **Bernoulli random variable**\n- **Binomial distribution**\n- **Poisson distribution**\n\n**Continuous distributions** (any value in an interval):\n- **Uniform distribution**\n- **Normal distribution**\n- **Standard normal distribution (z)**\n\nKeep this list as your checklist for the rest of the module.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "Discrete: Bernoulli, binomial, Poisson. Continuous: uniform, normal, standard normal (z).",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m3-discrete-distributions-q-c7d64311",
+          "type": "mcq",
+          "stem": "Which of these is listed under continuous distributions?",
+          "options": [
+            "Uniform distribution",
+            "Poisson distribution",
+            "Binomial distribution",
+            "Bernoulli random variable"
+          ],
+          "answer": "Uniform distribution",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#47"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m3-discrete-distributions-q-2f0070e6",
+          "type": "true_false",
+          "stem": "The Poisson distribution is listed as a discrete distribution.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#47"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-3#47"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-discrete-distributions-c2",
+      "heading": "Bernoulli trials",
+      "explanation_md": "The slide lists the conditions under the Bernoulli heading:\n\n1. The experiment consists of **n identical trials**.\n2. Each trial results in a **success or a failure**.\n3. The probability of success on any trial is **p** and **remains constant** from trial to trial. So the probability of failure, **q**, is also constant from trial to trial.\n4. The trials are **independent** (the results of the trials have nothing to do with each other).\n\n**Bernoulli trial:** a trial whose outcome can only be **either a success or a failure**.\n\n**Bernoulli random variable:** the **number of successes X in one Bernoulli trial**, which can be **1 or 0**.\n\n**Example:** toss a coin, take **heads as 1 (success)** and **tails as 0 (failure)**. The outcome of a toss is a Bernoulli random variable.",
+      "example_ids": [
+        "qtm-ex-m3-coin-bernoulli"
+      ],
+      "key_terms": [
+        {
+          "term": "Bernoulli trial",
+          "meaning": "A trial whose outcome can only be either a success or a failure.",
+          "source_ref": "qtm--module-3#49"
+        },
+        {
+          "term": "Bernoulli random variable",
+          "meaning": "The number of successes X in one Bernoulli trial, which can be 1 or 0.",
+          "source_ref": "qtm--module-3#49"
+        }
+      ],
+      "exam_line": "Bernoulli trial: only success or failure. Bernoulli random variable: number of successes in one trial (1 or 0), e.g. heads = 1, tails = 0. Conditions: n identical trials, success or failure, constant p, independent trials.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m3-discrete-distributions-q-a05f1a9e",
+          "type": "mcq",
+          "stem": "Which value can a Bernoulli random variable take?",
+          "options": [
+            "Only 1 or 0",
+            "Any whole number from 0 to n",
+            "Any value between 0 and 1",
+            "Only negative numbers"
+          ],
+          "answer": "Only 1 or 0",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#49"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m3-discrete-distributions-q-5c3daa77",
+          "type": "mcq",
+          "stem": "Which is not one of the conditions on the slide?",
+          "options": [
+            "The probability of success changes from trial to trial",
+            "Each trial results in a success or a failure",
+            "The trials are independent",
+            "The experiment consists of n identical trials"
+          ],
+          "answer": "The probability of success changes from trial to trial",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#48"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m3-discrete-distributions-q-8733be01",
+          "type": "true_false",
+          "stem": "In the coin example, heads is taken as 1 (success) and tails as 0 (failure).",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#49"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-3#48",
+        "qtm--module-3#49"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-discrete-distributions-c3",
+      "heading": "Bernoulli distribution: mean and variance",
+      "explanation_md": "Take **x = 1 as success** and **x = 0 as failure**:\n\n| x | P(x) |\n|---|---|\n| 1 | p |\n| 0 | 1 - p |\n\n**Mean:** E(X) = 1·p + 0·(1 - p) = **p**\n\n**Mean of the square:** E(X²) = 1²·p + 0²·(1 - p) = p\n\n**Variance (Method 2):** V(X) = E(X²) - [E(X)]² = p - p² = **p(1 - p)**\n\nAnd **1 - p = q**, the **probability of failure**, so V(X) = pq.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "q (probability of failure)",
+          "meaning": "q = 1 - p.",
+          "source_ref": "qtm--module-3#50"
+        }
+      ],
+      "exam_line": "Bernoulli: P(1) = p, P(0) = 1 - p; E(X) = p; V(X) = p - p² = p(1 - p); q = 1 - p.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m3-discrete-distributions-q-a4c55d9d",
+          "type": "mcq",
+          "stem": "What is the variance of a Bernoulli random variable?",
+          "options": [
+            "p(1 - p)",
+            "p",
+            "1 - p",
+            "p²"
+          ],
+          "answer": "p(1 - p)",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#50"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m3-discrete-distributions-q-e4ada896",
+          "type": "fill",
+          "stem": "For a Bernoulli random variable, E(X) = ____.",
+          "options": [],
+          "answer": "p",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#50"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m3-discrete-distributions-q-b700a1af",
+          "type": "true_false",
+          "stem": "In the Bernoulli distribution, q = 1 - p is the probability of failure.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#50"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-3#50",
+        "qtm--module-3#41"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-discrete-distributions-c4",
+      "heading": "Poisson distribution",
+      "explanation_md": "Use Poisson for **the number of times an event occurs over an interval of time or space**, when you can assume:\n\n1. The probability of the event's occurrence is **the same for any two intervals of equal length**, and\n2. Whether the event occurs in any interval is **independent** of whether it occurs in any other **nonoverlapping** interval.\n\nThen the probability that the event occurs **x times** in a specified interval is\n\n**p(x) = e^(-μ) μ^x / x!**, for x = 0, 1, 2, ...\n\nwhere **e = 2.71828** and μ is the mean of X (see the next line).\n\nIf X ~ P(μ), the slide gives **E(X) = np = μ** and **V(X) = np = μ**. So in a Poisson distribution the **mean and the variance are equal**.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Poisson probability",
+          "meaning": "p(x) = e^(-μ) μ^x / x!, the probability the event occurs x times in a specified interval.",
+          "source_ref": "qtm--module-3#51"
+        }
+      ],
+      "exam_line": "Poisson: p(x) = e^(-μ)μ^x / x!, x = 0, 1, 2, ...; e = 2.71828; E(X) = V(X) = μ. Assumes equal probability for equal-length intervals and independence across nonoverlapping intervals.",
+      "clarification": {
+        "term": "x!",
+        "text": "It is read as x factorial and means multiplying all the whole numbers from x down to one; zero factorial is taken as one."
+      },
+      "check_questions": [
+        {
+          "id": "qtm-m3-discrete-distributions-q-e2661362",
+          "type": "mcq",
+          "stem": "For a Poisson random variable, how do the mean and variance compare?",
+          "options": [
+            "They are equal (both μ)",
+            "The variance is the square of the mean",
+            "The variance is always zero",
+            "The mean is twice the variance"
+          ],
+          "answer": "They are equal (both μ)",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#51"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m3-discrete-distributions-q-786ab7c7",
+          "type": "fill",
+          "stem": "In the Poisson formula, e = ____.",
+          "options": [],
+          "answer": "2.71828",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#51"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m3-discrete-distributions-q-c41f5752",
+          "type": "true_false",
+          "stem": "Poisson assumes that whether the event occurs in one interval is independent of whether it occurs in any other nonoverlapping interval.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#51"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-3#51"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "qtm-m3-discrete-distributions-f1",
+      "front": "Discrete vs continuous distributions in this module",
+      "back": "Discrete: Bernoulli, binomial, Poisson. Continuous: uniform, normal, standard normal (z).",
+      "kind": "list",
+      "source_refs": [
+        "qtm--module-3#47"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-discrete-distributions-f2",
+      "front": "Conditions listed on the Bernoulli slide",
+      "back": "n identical trials; each a success or failure; constant probability of success p (and failure q); independent trials.",
+      "kind": "list",
+      "source_refs": [
+        "qtm--module-3#48"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-discrete-distributions-f3",
+      "front": "Bernoulli random variable",
+      "back": "Number of successes in one Bernoulli trial: 1 or 0 (e.g. heads = 1, tails = 0).",
+      "kind": "term",
+      "source_refs": [
+        "qtm--module-3#49"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-discrete-distributions-f4",
+      "front": "Bernoulli mean and variance",
+      "back": "E(X) = p; V(X) = p(1 - p); q = 1 - p.",
+      "kind": "formula",
+      "source_refs": [
+        "qtm--module-3#50"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-discrete-distributions-f5",
+      "front": "Poisson formula",
+      "back": "p(x) = e^(-μ) μ^x / x!, x = 0, 1, 2, ...; e = 2.71828.",
+      "kind": "formula",
+      "source_refs": [
+        "qtm--module-3#51"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-discrete-distributions-f6",
+      "front": "Poisson mean and variance",
+      "back": "E(X) = np = μ and V(X) = np = μ.",
+      "kind": "formula",
+      "source_refs": [
+        "qtm--module-3#51"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-discrete-distributions-f7",
+      "front": "Two Poisson assumptions",
+      "back": "Same probability for any two intervals of equal length; occurrences in nonoverlapping intervals are independent.",
+      "kind": "list",
+      "source_refs": [
+        "qtm--module-3#51"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [],
+  "explain_back": {
+    "prompt": "Explain the Bernoulli and Poisson distributions: when each applies, the formula, and the mean and variance.",
+    "rubric": [
+      {
+        "point": "Bernoulli trial has only success or failure; the Bernoulli random variable is 1 or 0",
+        "source_ref": "qtm--module-3#49"
+      },
+      {
+        "point": "Bernoulli: E(X) = p, V(X) = p(1 - p), q = 1 - p",
+        "source_ref": "qtm--module-3#50"
+      },
+      {
+        "point": "Poisson counts occurrences in an interval of time or space; equal-length intervals have equal probability; nonoverlapping intervals are independent",
+        "source_ref": "qtm--module-3#51"
+      },
+      {
+        "point": "Poisson: p(x) = e^(-μ)μ^x / x!, with E(X) = V(X) = μ",
+        "source_ref": "qtm--module-3#51"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

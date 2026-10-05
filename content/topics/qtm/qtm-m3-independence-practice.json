@@ -1,0 +1,606 @@
+{
+  "id": "qtm-m3-independence-practice",
+  "subject_id": "qtm",
+  "deck_id": "qtm--module-3",
+  "title": "Independent events and 'at least one' practice problems",
+  "order": 304,
+  "summary": "The three conditions for independence, the salary inequity test, the television and billboard ads, defective corks, finding a qualifying consumer, and three mutually exclusive and exhaustive events.",
+  "est_minutes": 35,
+  "difficulty": 3,
+  "source_refs": [
+    "qtm--module-3#21",
+    "qtm--module-3#11",
+    "qtm--module-3#22",
+    "qtm--module-3#23",
+    "qtm--module-3#10",
+    "qtm--module-3#24",
+    "qtm--module-3#25",
+    "qtm--module-3#26"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "qtm-m3-independence-practice-c1",
+      "heading": "Conditions for independence",
+      "explanation_md": "Two events A and B are **independent** when knowing one happened tells you nothing about the other. The slide gives the **conditions for the independence of two events A and B**:\n\n- P(A | B) = P(A)\n- P(B | A) = P(B)\n- and, **most useful:** **P(A ∩ B) = P(A) P(B)**\n\nWhy \"most useful\"? Because in a problem you usually test independence by multiplying P(A) and P(B) and checking whether you get the joint probability. If you do, the events are independent; if not, they are dependent.\n\nThis matches the earlier slide: independent means the occurrence of one doesn't affect the other.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Independence of A and B",
+          "meaning": "P(A|B) = P(A), P(B|A) = P(B), and most usefully P(A ∩ B) = P(A)P(B).",
+          "source_ref": "qtm--module-3#21"
+        }
+      ],
+      "exam_line": "A and B are independent if P(A|B) = P(A), P(B|A) = P(B), and (most useful) P(A ∩ B) = P(A)P(B).",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m3-independence-practice-q-b4fa334e",
+          "type": "mcq",
+          "stem": "Which condition does the slide call the 'most useful' test of independence?",
+          "options": [
+            "P(A ∩ B) = P(A)P(B)",
+            "P(A ∩ B) = 0",
+            "P(A) + P(B) = 1",
+            "P(A|B) = P(B)"
+          ],
+          "answer": "P(A ∩ B) = P(A)P(B)",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#21",
+            "qtm--module-3#11"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m3-independence-practice-q-befa6b2b",
+          "type": "true_false",
+          "stem": "If A and B are independent, then P(A | B) = P(A).",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#21"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-3#21",
+        "qtm--module-3#11"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-independence-practice-c2",
+      "heading": "Practice problem 5: is there salary inequity?",
+      "explanation_md": "**Data:** twenty-one per cent of executives are at the **top salary level**; **40%** of all executives are **women**; **6.4%** of all executives are **women at the top salary level**. Is there evidence of salary inequity?\n\n**Idea:** if there were no inequity, being a woman and being at the top would be **independent**, so\n\nP(woman and top) should equal P(woman) × P(top) = 0.40 × 0.21 = 0.084 = **8.4%**\n\n**Compare:** the actual figure is **6.4% < 8.4%**.\n\n**Conclusion (from the slide):** women are **underrepresented** at the top salary level relative to their overall presence at the firm. Only 6.4% of executives are women at the top, while it would be 8.4% if there were no systemic discrepancy.\n\nSame check using P(A|B) = P(A): P(top | woman) = 0.064 / 0.40 = 0.16, which is below P(top) = 0.21.",
+      "example_ids": [
+        "qtm-ex-m3-salary-inequity"
+      ],
+      "key_terms": [],
+      "exam_line": "No inequity would mean independence: 0.40 × 0.21 = 8.4%; actual 6.4% < 8.4%, so women are underrepresented at the top salary level.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m3-independence-practice-q-52aff286",
+          "type": "mcq",
+          "stem": "If gender and salary level were independent, what percent of executives would be women at the top salary level?",
+          "options": [
+            "8.4%",
+            "6.4%",
+            "40%",
+            "61%"
+          ],
+          "answer": "8.4%",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#22"
+          ],
+          "derived": [
+            "61"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m3-independence-practice-q-4bc6dffb",
+          "type": "true_false",
+          "stem": "Since 6.4% < 8.4%, the slide concludes women are underrepresented at the top salary level.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#22"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m3-independence-practice-q-10c00d77",
+          "type": "mcq",
+          "stem": "Which idea is used to test for salary inequity?",
+          "options": [
+            "Compare the actual joint percentage with P(woman) × P(top), the value under independence",
+            "Check whether the events are mutually exclusive",
+            "Add the two percentages together"
+          ],
+          "answer": "Compare the actual joint percentage with P(woman) × P(top), the value under independence",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#22",
+            "qtm--module-3#21"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-3#22",
+        "qtm--module-3#21"
+      ],
+      "derived": [
+        "0.40",
+        "0.21",
+        "0.084",
+        "0.064",
+        "0.16"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-independence-practice-c3",
+      "heading": "Practice problem 6: television and billboard ads",
+      "explanation_md": "P(exposed through a **television commercial**) = **0.04**. P(exposed through a **billboard**) = **0.06**. The two events are **independent**.\n\n**a) Exposed to both ads?** Independent, so multiply:\n\n0.04 × 0.06 = **0.0024**\n\n**b) Exposed to at least one ad?** Use the complement: \"at least one\" is the opposite of \"neither\".\n\n- P(misses the commercial) = 1 - 0.04 = 0.96\n- P(misses the billboard) = 1 - 0.06 = 0.94\n- P(neither) = 0.96 × 0.94 = 0.9024\n- P(at least one) = 1 - 0.9024 = **0.0976**\n\nBoth answers match the slide: **0.0024** and **0.0976**.",
+      "example_ids": [
+        "qtm-ex-m3-tv-billboard-ads"
+      ],
+      "key_terms": [],
+      "exam_line": "Both ads: 0.04 × 0.06 = 0.0024. At least one: 1 - P(neither) = 0.0976.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m3-independence-practice-q-85077e1b",
+          "type": "mcq",
+          "stem": "What is the probability the consumer sees both the television commercial and the billboard ad?",
+          "options": [
+            "0.0024",
+            "0.10",
+            "0.0976",
+            "0.024"
+          ],
+          "answer": "0.0024",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#23"
+          ],
+          "derived": [
+            "0.10",
+            "0.024"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m3-independence-practice-q-e7e9b0f6",
+          "type": "fill",
+          "stem": "The probability of being exposed to at least one of the two ads is ____.",
+          "options": [],
+          "answer": "0.0976",
+          "accept": [
+            ".0976"
+          ],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#23"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m3-independence-practice-q-52292595",
+          "type": "true_false",
+          "stem": "'At least one' is the complement of 'neither'.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#23",
+            "qtm--module-3#10"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-3#23",
+        "qtm--module-3#10"
+      ],
+      "derived": [
+        "0.94",
+        "0.9024"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-independence-practice-c4",
+      "heading": "Practice problem 7: defective wine corks",
+      "explanation_md": "The rate of defects in corks is very high: **75%**. Assume independence and open **four** bottles.\n\n**a) All four corks defective?** Multiply four times:\n\n0.75 × 0.75 × 0.75 × 0.75 = (0.75)^4 = **0.316**\n\n**b) At least one cork defective?** Complement of \"no cork defective\":\n\n- P(a cork is fine) = 1 - 0.75 = 0.25\n- P(all four fine) = (0.25)^4\n- P(at least one defective) = 1 - (0.25)^4 = **0.996**",
+      "example_ids": [
+        "qtm-ex-m3-wine-corks"
+      ],
+      "key_terms": [],
+      "exam_line": "All four defective = 0.75^4 = 0.316; at least one defective = 1 - 0.25^4 = 0.996.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m3-independence-practice-q-778f446c",
+          "type": "mcq",
+          "stem": "With a 75% defect rate, what is the probability all four corks are defective?",
+          "options": [
+            "0.316",
+            "0.75",
+            "0.996",
+            "0.004"
+          ],
+          "answer": "0.316",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#24"
+          ],
+          "derived": [
+            "0.75",
+            "0.004"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m3-independence-practice-q-b096fd76",
+          "type": "fill",
+          "stem": "The probability that at least one of the four corks is defective is ____.",
+          "options": [],
+          "answer": "0.996",
+          "accept": [
+            ".996"
+          ],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#24"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-3#24",
+        "qtm--module-3#10"
+      ],
+      "derived": [
+        "0.75",
+        "0.25"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-independence-practice-c5",
+      "heading": "Practice problem 8: at least 1 of 10 qualifies",
+      "explanation_md": "A marketing research firm wants to interview a consumer who uses a certain product. **10%** of the public uses it. The firm picks a random sample of **10 people**. What is the probability that **at least 1** qualifies?\n\nSame trick: **at least one = 1 - none**.\n\n- P(a person does not qualify) = 1 - 0.10 = 0.90\n- P(none of the 10 qualifies) = (0.90)^10\n- P(at least 1 qualifies) = 1 - (0.90)^10 = **0.6513**",
+      "example_ids": [
+        "qtm-ex-m3-market-research-sample"
+      ],
+      "key_terms": [],
+      "exam_line": "P(at least 1 of 10 qualifies) = 1 - (0.90)^10 = 0.6513.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m3-independence-practice-q-d72f602f",
+          "type": "mcq",
+          "stem": "10% of the public qualifies. What is the probability that at least 1 of 10 randomly chosen people qualifies?",
+          "options": [
+            "0.6513",
+            "0.10",
+            "1",
+            "0.3487"
+          ],
+          "answer": "0.6513",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#25"
+          ],
+          "derived": [
+            "0.10",
+            "0.3487"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m3-independence-practice-q-51695509",
+          "type": "true_false",
+          "stem": "To find P(at least 1 qualifies), compute 1 minus the probability that nobody in the sample qualifies.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#25",
+            "qtm--module-3#10"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-3#25",
+        "qtm--module-3#10"
+      ],
+      "derived": [
+        "0.10",
+        "0.90"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-independence-practice-c6",
+      "heading": "Practice problem 9: three exclusive and exhaustive events",
+      "explanation_md": "A, B and C are **mutually exclusive and exhaustive**, with **P(B) = 1.5 P(A)** and **P(C) = 0.5 P(B)**. Find P(A).\n\n**Key fact:** exclusive and exhaustive means the three probabilities **add up to 1**: P(A) + P(B) + P(C) = 1.\n\n**Step 1:** write everything in terms of P(A): P(B) = 1.5 P(A); P(C) = 0.5 × 1.5 P(A) = 0.75 P(A).\n\n**Step 2:** P(A) + 1.5 P(A) + 0.75 P(A) = 1, so 3.25 P(A) = 1.\n\n**Step 3:** P(A) = 1 / 3.25 = **0.308**",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "Exclusive and exhaustive: P(A) + P(B) + P(C) = 1; with P(B) = 1.5P(A) and P(C) = 0.5P(B), P(A) = 1/3.25 = 0.308.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m3-independence-practice-q-384272fd",
+          "type": "mcq",
+          "stem": "A, B, C are mutually exclusive and exhaustive, P(B) = 1.5 P(A), P(C) = 0.5 P(B). What is P(A)?",
+          "options": [
+            "0.308",
+            "0.333",
+            "0.5",
+            "0.231"
+          ],
+          "answer": "0.308",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#26"
+          ],
+          "derived": [
+            "0.333",
+            "0.231"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m3-independence-practice-q-7f78b859",
+          "type": "fill",
+          "stem": "For mutually exclusive and exhaustive events, P(A) + P(B) + P(C) = ____.",
+          "options": [],
+          "answer": "1",
+          "accept": [
+            "one"
+          ],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#26",
+            "qtm--module-3#11"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-3#26",
+        "qtm--module-3#11"
+      ],
+      "derived": [
+        "0.75",
+        "3.25"
+      ],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "qtm-m3-independence-practice-f1",
+      "front": "Three conditions for independence of A and B",
+      "back": "P(A|B) = P(A); P(B|A) = P(B); most useful: P(A ∩ B) = P(A)P(B).",
+      "kind": "list",
+      "source_refs": [
+        "qtm--module-3#21"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-independence-practice-f2",
+      "front": "Salary inequity answer",
+      "back": "6.4% < 8.4%: women are underrepresented at the top salary level relative to their overall presence at the firm.",
+      "kind": "example",
+      "source_refs": [
+        "qtm--module-3#22"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-independence-practice-f3",
+      "front": "Television and billboard ads (independent)",
+      "back": "Both: 0.0024. At least one: 0.0976.",
+      "kind": "example",
+      "source_refs": [
+        "qtm--module-3#23"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-independence-practice-f4",
+      "front": "Wine corks, 75% defective, four bottles",
+      "back": "All four defective: 0.316. At least one defective: 0.996.",
+      "kind": "example",
+      "source_refs": [
+        "qtm--module-3#24"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-independence-practice-f5",
+      "front": "At least 1 of 10 people qualifies (10% qualify)",
+      "back": "0.6513.",
+      "kind": "example",
+      "source_refs": [
+        "qtm--module-3#25"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-independence-practice-f6",
+      "front": "Mutually exclusive and exhaustive A, B, C with P(B) = 1.5P(A), P(C) = 0.5P(B)",
+      "back": "P(A) = 0.308.",
+      "kind": "example",
+      "source_refs": [
+        "qtm--module-3#26"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [],
+  "explain_back": {
+    "prompt": "Explain how to test whether two events are independent and how to find 'at least one' probabilities, using the professor's practice problems.",
+    "rubric": [
+      {
+        "point": "Independence: P(A|B) = P(A), P(B|A) = P(B), most usefully P(A ∩ B) = P(A)P(B)",
+        "source_ref": "qtm--module-3#21"
+      },
+      {
+        "point": "Salary inequity: 6.4% < 8.4% expected under independence, so women are underrepresented at the top",
+        "source_ref": "qtm--module-3#22"
+      },
+      {
+        "point": "Independent ads: both = 0.0024, at least one = 0.0976",
+        "source_ref": "qtm--module-3#23"
+      },
+      {
+        "point": "At least one = 1 minus none, e.g. at least one of four corks defective = 0.996",
+        "source_ref": "qtm--module-3#24"
+      },
+      {
+        "point": "At least 1 of 10 people qualifies = 0.6513",
+        "source_ref": "qtm--module-3#25"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

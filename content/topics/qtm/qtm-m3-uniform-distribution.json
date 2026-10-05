@@ -1,0 +1,438 @@
+{
+  "id": "qtm-m3-uniform-distribution",
+  "subject_id": "qtm",
+  "deck_id": "qtm--module-3",
+  "title": "Continuous distributions and the uniform distribution",
+  "order": 310,
+  "summary": "Why a continuous variable's probability is an area under the density curve, the uniform density f(x) = 1/(b - a), its mean (a + b)/2 and variance (b - a)²/12, and the salad example.",
+  "est_minutes": 20,
+  "difficulty": 2,
+  "source_refs": [
+    "qtm--module-3#52",
+    "qtm--module-3#53",
+    "qtm--module-3#54",
+    "qtm--module-3#55"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "qtm-m3-uniform-distribution-c1",
+      "heading": "Probability as an area under a curve",
+      "explanation_md": "A **continuous random variable** can assume **any value in an interval** on the real line (or in a collection of intervals).\n\nBecause there are infinitely many possible values, **it is not possible to talk about the probability of the random variable assuming a particular value**. Instead we talk about the probability of it assuming a value **within a given interval**.\n\n**Key definition:** the probability that the variable takes a value between **x1 and x2** is the **area under the graph of the probability density function between x1 and x2**.\n\nThe slide's picture shows a bell-shaped curve f(x) with the slice between x1 and x2 shaded: that shaded area is the probability.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Probability for a continuous variable",
+          "meaning": "The area under the graph of the probability density function between x1 and x2.",
+          "source_ref": "qtm--module-3#52"
+        }
+      ],
+      "exam_line": "For a continuous random variable, P(x1 to x2) = area under the probability density function between x1 and x2; we cannot talk about the probability of one particular value.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m3-uniform-distribution-q-9d7d602d",
+          "type": "mcq",
+          "stem": "For a continuous random variable, the probability of a value between x1 and x2 is:",
+          "options": [
+            "The area under the probability density function between x1 and x2",
+            "The height of the curve at x1",
+            "The sum of P(x) for x1 and x2",
+            "Always zero"
+          ],
+          "answer": "The area under the probability density function between x1 and x2",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#52"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m3-uniform-distribution-q-fac64db5",
+          "type": "true_false",
+          "stem": "For a continuous random variable, we usually talk about the probability of it taking one particular value.",
+          "options": [],
+          "answer": "False",
+          "accept": [],
+          "explanation": "It is not possible to talk about a particular value; we talk about an interval.",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#52"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-3#52"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-uniform-distribution-c2",
+      "heading": "The uniform density function",
+      "explanation_md": "A random variable is **uniformly distributed** whenever the **probability is proportional to the interval's length**.\n\n**Uniform probability density function:**\n\n**f(x) = 1/(b - a)** for a ≤ x ≤ b\n\n**f(x) = 0** elsewhere\n\nwhere **a = smallest value** the variable can assume and **b = largest value**.\n\nThe graph is a **flat line** at height 1/(b - a) from a to b, so it looks like a rectangle. Its area is width (b - a) × height 1/(b - a) = 1. To find a probability, multiply the **length of your interval** by the height 1/(b - a).",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Uniform distribution",
+          "meaning": "Probability is proportional to the interval's length; f(x) = 1/(b - a) for a ≤ x ≤ b, 0 elsewhere.",
+          "source_ref": "qtm--module-3#53"
+        }
+      ],
+      "exam_line": "Uniform: f(x) = 1/(b - a) for a ≤ x ≤ b, 0 elsewhere; a = smallest value, b = largest value; probability is proportional to the interval's length.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m3-uniform-distribution-q-a74772cc",
+          "type": "mcq",
+          "stem": "What is the uniform probability density function between a and b?",
+          "options": [
+            "f(x) = 1/(b - a)",
+            "f(x) = (a + b)/2",
+            "f(x) = (b - a)²/12",
+            "f(x) = b - a"
+          ],
+          "answer": "f(x) = 1/(b - a)",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#53",
+            "qtm--module-3#54"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m3-uniform-distribution-q-2949c3cc",
+          "type": "fill",
+          "stem": "In the uniform distribution, a is the ____ value the variable can assume.",
+          "options": [],
+          "answer": "smallest",
+          "accept": [
+            "lowest",
+            "minimum"
+          ],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#53"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m3-uniform-distribution-q-54a2dd2e",
+          "type": "true_false",
+          "stem": "A random variable is uniformly distributed when the probability is proportional to the interval's length.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#53"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-3#53"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-uniform-distribution-c3",
+      "heading": "Uniform mean and variance",
+      "explanation_md": "If X is a continuous uniform random variable over a ≤ x ≤ b:\n\n**Mean:** μ = E(X) = **(a + b)/2** (the midpoint of the interval)\n\n**Variance:** σ² = V(X) = **(b - a)²/12**\n\nThese two are worth memorising exactly; the 12 in the denominator is easy to forget.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "Uniform: E(X) = (a + b)/2 and V(X) = (b - a)²/12.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m3-uniform-distribution-q-4662c01d",
+          "type": "mcq",
+          "stem": "What is the variance of a uniform random variable over [a, b]?",
+          "options": [
+            "(b - a)²/12",
+            "(a + b)/2",
+            "1/(b - a)",
+            "(b - a)/12"
+          ],
+          "answer": "(b - a)²/12",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#54",
+            "qtm--module-3#53"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m3-uniform-distribution-q-f0fe893f",
+          "type": "fill",
+          "stem": "For a uniform distribution, E(X) = (a + b)/____.",
+          "options": [],
+          "answer": "2",
+          "accept": [
+            "two"
+          ],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#54"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-3#54"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-uniform-distribution-c4",
+      "heading": "Example: salad at a hotel",
+      "explanation_md": "Customers are charged for the salad they take. The amount taken is **uniformly distributed between 5 ounces and 15 ounces**. So **a = 5** and **b = 15**. No answers are printed on the slide; here is the working with the deck's formulas.\n\n**PD (probability density):**\n\nf(x) = 1/(15 - 5) = **1/10** for 5 ≤ x ≤ 15, and 0 elsewhere.\n\n**Expected value:** E(X) = (5 + 15)/2 = **10 ounces**\n\n**Variance:** V(X) = (15 - 5)²/12 = 100/12 ≈ **8.33**\n\n**P(between 12 and 15 ounces):** interval length × height = (15 - 12) × 1/10 = 3/10 = **0.3**",
+      "example_ids": [
+        "qtm-ex-m3-salad-uniform"
+      ],
+      "key_terms": [],
+      "exam_line": "Salad, a = 5, b = 15: f(x) = 1/10; E(X) = 10; V(X) = 100/12 ≈ 8.33; P(12 to 15) = 3/10 = 0.3.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m3-uniform-distribution-q-8222a762",
+          "type": "mcq",
+          "stem": "For the salad example, what is the expected amount of salad taken?",
+          "options": [
+            "10 ounces",
+            "15 ounces",
+            "5 ounces",
+            "8.33 ounces"
+          ],
+          "answer": "10 ounces",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#55",
+            "qtm--module-3#54"
+          ],
+          "derived": [
+            "8.33"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m3-uniform-distribution-q-4f3dd11c",
+          "type": "mcq",
+          "stem": "What is the probability a customer takes between 12 and 15 ounces?",
+          "options": [
+            "0.3",
+            "0.2",
+            "0.5",
+            "0.12"
+          ],
+          "answer": "0.3",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#55",
+            "qtm--module-3#53"
+          ],
+          "derived": [
+            "0.3",
+            "0.2",
+            "0.5",
+            "0.12"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m3-uniform-distribution-q-f24c9e2e",
+          "type": "fill",
+          "stem": "For the salad example, the density is f(x) = 1/____ between 5 and 15 ounces.",
+          "options": [],
+          "answer": "10",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#55",
+            "qtm--module-3#53"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-3#55",
+        "qtm--module-3#53",
+        "qtm--module-3#54"
+      ],
+      "derived": [
+        "100",
+        "8.33",
+        "0.3",
+        "20"
+      ],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "qtm-m3-uniform-distribution-f1",
+      "front": "Probability for a continuous random variable",
+      "back": "The area under the probability density function between x1 and x2; not the probability of a single value.",
+      "kind": "fact",
+      "source_refs": [
+        "qtm--module-3#52"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-uniform-distribution-f2",
+      "front": "Uniform density function",
+      "back": "f(x) = 1/(b - a) for a ≤ x ≤ b; 0 elsewhere (a = smallest value, b = largest value).",
+      "kind": "formula",
+      "source_refs": [
+        "qtm--module-3#53"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-uniform-distribution-f3",
+      "front": "Uniform mean and variance",
+      "back": "E(X) = (a + b)/2; V(X) = (b - a)²/12.",
+      "kind": "formula",
+      "source_refs": [
+        "qtm--module-3#54"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-uniform-distribution-f4",
+      "front": "When is a variable uniformly distributed?",
+      "back": "Whenever the probability is proportional to the interval's length.",
+      "kind": "term",
+      "source_refs": [
+        "qtm--module-3#53"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-uniform-distribution-f5",
+      "front": "Salad example set-up",
+      "back": "Uniform between 5 ounces and 15 ounces; find PD, expected value, variance and P(between 12 and 15 ounces).",
+      "kind": "example",
+      "source_refs": [
+        "qtm--module-3#55"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [],
+  "explain_back": {
+    "prompt": "Explain how probability works for a continuous random variable and describe the uniform distribution with its formulas.",
+    "rubric": [
+      {
+        "point": "A continuous variable takes any value in an interval; probability is the area under the density between x1 and x2, not at a single value",
+        "source_ref": "qtm--module-3#52"
+      },
+      {
+        "point": "Uniform: probability proportional to interval length; f(x) = 1/(b - a) for a ≤ x ≤ b, 0 elsewhere",
+        "source_ref": "qtm--module-3#53"
+      },
+      {
+        "point": "E(X) = (a + b)/2 and V(X) = (b - a)²/12",
+        "source_ref": "qtm--module-3#54"
+      },
+      {
+        "point": "Salad example: uniform between 5 and 15 ounces",
+        "source_ref": "qtm--module-3#55"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

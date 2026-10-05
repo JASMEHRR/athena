@@ -1,0 +1,570 @@
+{
+  "id": "qtm-m3-conditional-probability",
+  "subject_id": "qtm",
+  "deck_id": "qtm--module-3",
+  "title": "Conditional probability, Bayes' theorem and contingency tables",
+  "order": 303,
+  "summary": "P(A|B) = P(A and B)/P(B), the unemployed dropouts example, the multiplication forms behind Bayes' theorem, the consulting firm's two bids, and the IBM and AT&T projects solved with a contingency table.",
+  "est_minutes": 30,
+  "difficulty": 2,
+  "source_refs": [
+    "qtm--module-3#13",
+    "qtm--module-3#14",
+    "qtm--module-3#15",
+    "qtm--module-3#20",
+    "qtm--module-3#18",
+    "qtm--module-3#19"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "qtm-m3-conditional-probability-c1",
+      "heading": "Conditional probability: 'given that'",
+      "explanation_md": "**Conditional probability** is the probability of an event, **given that another has occurred**.\n\n**Formula:** P(A|B) = P(A and B) / P(B)\n\nRead P(A|B) as \"probability of A **given** B\". Once B has happened, B becomes your new, smaller sample space, so you divide by P(B).\n\n**Business example from the slide:** the probability a customer **buys a warranty**, given they **purchased a premium product**. Here A = buys a warranty and B = bought a premium product.",
+      "example_ids": [
+        "qtm-ex-m3-warranty-premium"
+      ],
+      "key_terms": [
+        {
+          "term": "Conditional probability",
+          "meaning": "The probability of an event, given that another has occurred: P(A|B) = P(A and B)/P(B).",
+          "source_ref": "qtm--module-3#13"
+        }
+      ],
+      "exam_line": "Conditional probability: P(A|B) = P(A and B)/P(B), e.g. P(buys warranty | purchased premium product).",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m3-conditional-probability-q-990fe5c7",
+          "type": "mcq",
+          "stem": "Which formula gives the conditional probability P(A|B)?",
+          "options": [
+            "P(A and B) / P(B)",
+            "P(A) × P(B)",
+            "P(A) + P(B)",
+            "1 - P(B)"
+          ],
+          "answer": "P(A and B) / P(B)",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#13"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m3-conditional-probability-q-0c08075f",
+          "type": "true_false",
+          "stem": "'The probability a customer buys a warranty, given they purchased a premium product' is a conditional probability.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#13"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-3#13"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-conditional-probability-c2",
+      "heading": "Worked example: unemployed, given a dropout",
+      "explanation_md": "**Question:** of the population aged **16-21** in a locality, **13.5%** are unemployed, **29.5%** are high school dropouts, and **5.32%** are unemployed high school dropouts. What is the probability that a person is unemployed, **given that** he is a high school dropout?\n\n**Name the events:** U = being unemployed; D = being a high school dropout.\n\n**Write the numbers as the slide does:** P(U) = 0.135, P(D) = 0.2905, P(U ∩ D) = 0.0532\n\n**Apply the formula:**\n\nP(U|D) = P(U ∩ D) / P(D) = **18.31%**\n\nNote: P(U) = 0.135 is not needed; only the joint probability and the probability of the given event go into the formula.\n\nWatch out: the question text says 29.5%, but the slide's working uses 0.2905, which is what gives 18.31%. With 0.295 you would get about 18.03%. Quote the slide's answer, 18.31%.",
+      "example_ids": [
+        "qtm-ex-m3-unemployed-dropouts"
+      ],
+      "key_terms": [],
+      "exam_line": "P(U|D) = P(U ∩ D)/P(D) = 0.0532/0.2905 = 18.31%.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m3-conditional-probability-q-528797be",
+          "type": "mcq",
+          "stem": "In the dropout example, which probability goes in the denominator of P(U|D)?",
+          "options": [
+            "P(D), the probability of being a dropout",
+            "P(U), the probability of being unemployed",
+            "P(U ∩ D)",
+            "1"
+          ],
+          "answer": "P(D), the probability of being a dropout",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#14"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m3-conditional-probability-q-2f1f725a",
+          "type": "fill",
+          "stem": "On the slide, P(U|D) = P(U ∩ D)/P(D) = ____%.",
+          "options": [],
+          "answer": "18.31",
+          "accept": [
+            "18.31%",
+            "0.1831"
+          ],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#14"
+          ],
+          "derived": [
+            "0.1831"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m3-conditional-probability-q-f68b02ac",
+          "type": "true_false",
+          "stem": "In this example, 5.32% is the probability of being both unemployed and a high school dropout.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#14"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-3#14",
+        "qtm--module-3#13"
+      ],
+      "derived": [
+        "18.03",
+        "0.295"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-conditional-probability-c3",
+      "heading": "Multiplication forms and Bayes' theorem",
+      "explanation_md": "If you rearrange the conditional formula and you get the **general multiplication rule**, written two ways on the slide:\n\n- P(A ∩ B) = P(B) P(A|B)\n- P(A ∩ B) = P(A) P(B|A)\n\n**Bayes' theorem** puts both together: P(A ∩ B) = P(A) P(B|A) = P(B) P(A|B), which gives\n\n**P(B|A) = P(A|B) P(B) / P(A)**\n\nIt lets you flip a conditional: if you know P(A|B), you can find P(B|A).\n\n**Practice problem 4 (consulting firm):** the firm bids for two jobs. P(job with firm A) = **0.45**. If it gets the job with A, the probability firm B also gives it the job is **0.90**, so P(B|A) = 0.90. Chance of **both** jobs:\n\nP(A ∩ B) = P(A) P(B|A) = 0.45 × 0.90 = **0.405**",
+      "example_ids": [
+        "qtm-ex-m3-consulting-bids"
+      ],
+      "key_terms": [
+        {
+          "term": "Bayes' theorem",
+          "meaning": "P(B|A) = P(A|B) P(B) / P(A), from P(A ∩ B) = P(A) P(B|A) = P(B) P(A|B).",
+          "source_ref": "qtm--module-3#15"
+        }
+      ],
+      "exam_line": "P(A ∩ B) = P(A) P(B|A) = P(B) P(A|B); Bayes: P(B|A) = P(A|B)P(B)/P(A). Two jobs: 0.45 × 0.90 = 0.405.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m3-conditional-probability-q-5f22318b",
+          "type": "mcq",
+          "stem": "Which is Bayes' theorem as written on the slide?",
+          "options": [
+            "P(B|A) = P(A|B) P(B) / P(A)",
+            "P(B|A) = P(A) P(B)",
+            "P(B|A) = P(A) + P(B)",
+            "P(B|A) = 1 - P(A|B)"
+          ],
+          "answer": "P(B|A) = P(A|B) P(B) / P(A)",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#15"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m3-conditional-probability-q-0f4bb87e",
+          "type": "mcq",
+          "stem": "P(job A) = 0.45 and P(job B | job A) = 0.90. What is the chance of getting both jobs?",
+          "options": [
+            "0.405",
+            "1.35",
+            "0.45",
+            "0.90"
+          ],
+          "answer": "0.405",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#20"
+          ],
+          "derived": [
+            "1.35"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m3-conditional-probability-q-3c0d8e54",
+          "type": "fill",
+          "stem": "P(A ∩ B) = P(A) × P(B|____).",
+          "options": [],
+          "answer": "A",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#15"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-3#15",
+        "qtm--module-3#20"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-conditional-probability-c4",
+      "heading": "Practice problem 3: IBM or AT&T, given telecommunications",
+      "explanation_md": "**The setup:** a government starts **100 new projects** in computer development and telecommunications. **IBM** gets **40** projects: 30 computer, 10 telecommunications. **AT&T** gets **60**: 40 telecommunications, 20 computer.\n\n**Question:** given that a randomly chosen project is in **telecommunications**, what is the probability it is undertaken by **IBM**?\n\n**The intuitive way (the slide's hint):** there are **50** telecommunications projects (10 IBM + 40 AT&T), and **10** of them are IBM's. So\n\nP(IBM | telecommunications) = 10/50 = **0.2**\n\nThe slide says this \"confirms the definition of conditional probability in an intuitive sense\": once you know the project is in telecommunications, only those 50 projects count.\n\nThe slide's picture shows the 100 projects as dots in a grid, split into AT&T and IBM columns and telecommunications and computer rows.",
+      "example_ids": [
+        "qtm-ex-m3-ibm-att-projects"
+      ],
+      "key_terms": [],
+      "exam_line": "Given telecommunications, P(IBM) = 10/50 = 0.2.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m3-conditional-probability-q-7880cc5b",
+          "type": "mcq",
+          "stem": "Given that a project is in telecommunications, what is the probability it is IBM's?",
+          "options": [
+            "0.2",
+            "0.1",
+            "0.25",
+            "0.4"
+          ],
+          "answer": "0.2",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#18"
+          ],
+          "derived": [
+            "0.25",
+            "0.1",
+            "0.4"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m3-conditional-probability-q-169dcce4",
+          "type": "fill",
+          "stem": "There are ____ telecommunications projects in total.",
+          "options": [],
+          "answer": "50",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#18"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-3#18"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-conditional-probability-c5",
+      "heading": "The contingency table method",
+      "explanation_md": "When two events and their complements are of interest, arrange the data in a **contingency table**. It helps you **visualize information and solve problems**.\n\n| | AT&T | IBM | Total |\n|---|---|---|---|\n| Telecommunications | 40 | 10 | 50 |\n| Computers | 20 | 30 | 50 |\n| Total | 60 | 40 | 100 |\n\n**How to read it:** for a plain probability divide by the grand total (100). For \"given X\", divide by the **total of X's row or column**.\n\n1. P(Computers) = 50/100 = **0.5**\n2. P(Computers | AT&T) = 20/60 = **0.33**\n3. P(Computers | IBM) = 30/40 = **0.75**\n4. P(AT&T | Telecommunications) = 40/50 = **0.8**\n5. P(Telecommunications | AT&T) = 40/60 = **0.667**\n\nCompare 4 and 5: same cell (40), different denominator. The \"given\" part decides what you divide by.",
+      "example_ids": [
+        "qtm-ex-m3-ibm-att-projects"
+      ],
+      "key_terms": [
+        {
+          "term": "Contingency table",
+          "meaning": "A table of two events and their complements that helps visualize information and solve probability problems.",
+          "source_ref": "qtm--module-3#19"
+        }
+      ],
+      "exam_line": "With a contingency table, a conditional probability = cell / total of the given row or column, e.g. P(Computers | IBM) = 30/40 = 0.75.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m3-conditional-probability-q-26fb5cdf",
+          "type": "mcq",
+          "stem": "Using the table, what is P(Computers | AT&T)?",
+          "options": [
+            "0.33",
+            "0.2",
+            "0.5",
+            "0.4"
+          ],
+          "answer": "0.33",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#19"
+          ],
+          "derived": [
+            "0.2",
+            "0.4"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m3-conditional-probability-q-1549aaa9",
+          "type": "mcq",
+          "stem": "What is P(AT&T | Telecommunications)?",
+          "options": [
+            "0.8",
+            "0.667",
+            "0.4",
+            "0.6"
+          ],
+          "answer": "0.8",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#19"
+          ],
+          "derived": [
+            "0.4",
+            "0.6"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m3-conditional-probability-q-3149d848",
+          "type": "fill",
+          "stem": "P(Computers | IBM) = 30/40 = ____.",
+          "options": [],
+          "answer": "0.75",
+          "accept": [
+            ".75",
+            "75%"
+          ],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#19"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-3#19"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "qtm-m3-conditional-probability-f1",
+      "front": "Conditional probability formula",
+      "back": "P(A|B) = P(A and B) / P(B).",
+      "kind": "formula",
+      "source_refs": [
+        "qtm--module-3#13"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-conditional-probability-f2",
+      "front": "Unemployed given dropout (ages 16-21)",
+      "back": "P(U|D) = P(U ∩ D)/P(D) = 18.31%, using P(D) = 0.2905 and P(U ∩ D) = 0.0532.",
+      "kind": "example",
+      "source_refs": [
+        "qtm--module-3#14"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-conditional-probability-f3",
+      "front": "Bayes' theorem",
+      "back": "P(B|A) = P(A|B) P(B) / P(A).",
+      "kind": "formula",
+      "source_refs": [
+        "qtm--module-3#15"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-conditional-probability-f4",
+      "front": "Two forms of P(A ∩ B)",
+      "back": "P(A ∩ B) = P(B) P(A|B) = P(A) P(B|A).",
+      "kind": "formula",
+      "source_refs": [
+        "qtm--module-3#15"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-conditional-probability-f5",
+      "front": "Consulting firm: P(A) = 0.45, P(B|A) = 0.90",
+      "back": "Both jobs = 0.405.",
+      "kind": "example",
+      "source_refs": [
+        "qtm--module-3#20"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-conditional-probability-f6",
+      "front": "IBM given telecommunications",
+      "back": "10 of the 50 telecommunications projects are IBM's: 0.2.",
+      "kind": "example",
+      "source_refs": [
+        "qtm--module-3#18"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-conditional-probability-f7",
+      "front": "Why use a contingency table?",
+      "back": "When two events and their complements are of interest; it helps visualize information and solve problems.",
+      "kind": "fact",
+      "source_refs": [
+        "qtm--module-3#19"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [],
+  "explain_back": {
+    "prompt": "Explain conditional probability and Bayes' theorem, and show how a contingency table answers 'given that' questions, using the professor's examples.",
+    "rubric": [
+      {
+        "point": "P(A|B) = P(A and B)/P(B), the probability of an event given another has occurred",
+        "source_ref": "qtm--module-3#13"
+      },
+      {
+        "point": "Worked: P(U|D) = 0.0532/0.2905 = 18.31%",
+        "source_ref": "qtm--module-3#14"
+      },
+      {
+        "point": "P(A ∩ B) = P(A)P(B|A) = P(B)P(A|B) and Bayes: P(B|A) = P(A|B)P(B)/P(A)",
+        "source_ref": "qtm--module-3#15"
+      },
+      {
+        "point": "Contingency table: divide the cell by the total of the given row or column, e.g. P(Computers | IBM) = 30/40 = 0.75",
+        "source_ref": "qtm--module-3#19"
+      },
+      {
+        "point": "Multiplication example: both consulting jobs = 0.45 × 0.90 = 0.405",
+        "source_ref": "qtm--module-3#20"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

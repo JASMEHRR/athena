@@ -206,5 +206,490 @@
     ],
     "needs_check": false,
     "retired": false
+  },
+  {
+    "id": "qtm-ex-m3-business-uncertainty",
+    "deck_id": "qtm--module-3",
+    "slide": 2,
+    "label": "Business decisions under uncertainty",
+    "text": "Will a new product launch succeed? What is the likelihood a key client defaults on payment? How do supply chain disruptions affect fulfillment rates?",
+    "kind": "scenario",
+    "taught_in": [
+      "qtm-m3-probability-basics-c1"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "qtm-ex-m3-probability-types-examples",
+    "deck_id": "qtm--module-3",
+    "slide": 4,
+    "label": "Examples of the three types of probability",
+    "text": "Classical: dice, coins (all outcomes equally likely). Empirical: late deliveries out of the last 100. Subjective: a manager's estimate.",
+    "kind": "illustration",
+    "taught_in": [
+      "qtm-m3-probability-basics-c2"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "qtm-ex-m3-terminology-examples",
+    "deck_id": "qtm--module-3",
+    "slide": 5,
+    "label": "Shipping examples of probability terms",
+    "text": "Experiment: rolling dice, shipping a product. Outcome: product arrives late. Event: shipment is delivered, or at least one defective item.",
+    "kind": "illustration",
+    "taught_in": [
+      "qtm-m3-probability-basics-c3"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "qtm-ex-m3-ace-cards",
+    "deck_id": "qtm--module-3",
+    "slide": 6,
+    "label": "Drawing an ace from 52 cards",
+    "text": "P(Ace) = 4/52 = 1/13 because a deck has 4 aces and 52 cards; P(Ace of Hearts) = 1/52.",
+    "kind": "numeric",
+    "taught_in": [
+      "qtm-m3-probability-basics-c4"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "qtm-ex-m3-odd-even-gamble",
+    "deck_id": "qtm--module-3",
+    "slide": 7,
+    "label": "Gaurav's odd and even gamble",
+    "text": "Gaurav wins on odd numbers, the speaker wins on even numbers; {1, 3, 5} and {2, 4, 6} are both subsets of the sample space S.",
+    "kind": "illustration",
+    "taught_in": [
+      "qtm-m3-probability-basics-c3"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "qtm-ex-m3-business-cases",
+    "deck_id": "qtm--module-3",
+    "slide": 8,
+    "label": "Late deliveries, loan defaults and stockouts",
+    "text": "4 of 100 deliveries late: 4/100 = 0.04 or 4%. 3 of every 100 business loans default: 3/100 = 0.03 or 3%. 10 stockout days in 200 sales days: 10/200 = 0.05 or 5%.",
+    "kind": "numeric",
+    "taught_in": [
+      "qtm-m3-probability-basics-c5"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "qtm-ex-m3-venn-diagrams",
+    "deck_id": "qtm--module-3",
+    "slide": 9,
+    "label": "Venn diagrams for A, B, complements, union and intersection",
+    "text": "Six shaded Venn diagrams: A, B, A' (complement of A), B' (complement of B), A union B and A intersect B.",
+    "kind": "illustration",
+    "taught_in": [
+      "qtm-m3-probability-rules-c1"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "qtm-ex-m3-event-type-examples",
+    "deck_id": "qtm--module-3",
+    "slide": 11,
+    "label": "Shipments and a die roll as event types",
+    "text": "Mutually exclusive: shipment arrives late and on time. Independent: two unrelated shipments. Mutually exhaustive: the events 1 to 6 on a single die roll.",
+    "kind": "illustration",
+    "taught_in": [
+      "qtm-m3-probability-rules-c3"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "qtm-ex-m3-two-good-parts",
+    "deck_id": "qtm--module-3",
+    "slide": 12,
+    "label": "Two good parts when 2% are defective",
+    "text": "2% of parts are defective, so each part is good with probability 0.98; both good: 0.98 x 0.98 = 0.9604 or 96.04%.",
+    "kind": "numeric",
+    "taught_in": [
+      "qtm-m3-probability-rules-c4"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "qtm-ex-m3-warranty-premium",
+    "deck_id": "qtm--module-3",
+    "slide": 13,
+    "label": "Warranty given a premium product",
+    "text": "The probability a customer buys a warranty, given they purchased a premium product.",
+    "kind": "scenario",
+    "taught_in": [
+      "qtm-m3-conditional-probability-c1"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "qtm-ex-m3-unemployed-dropouts",
+    "deck_id": "qtm--module-3",
+    "slide": 14,
+    "label": "Unemployed high school dropouts",
+    "text": "Ages 16-21: P(U) = 0.135, P(D) = 0.2905, P(U n D) = 0.0532, so P(U|D) = P(U n D)/P(D) = 18.31%.",
+    "kind": "numeric",
+    "taught_in": [
+      "qtm-m3-conditional-probability-c2"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "qtm-ex-m3-managers-committee",
+    "deck_id": "qtm--module-3",
+    "slide": 16,
+    "label": "Choosing 1 of 20 midlevel managers",
+    "text": "Age and gender data for 20 midlevel managers; P(woman or over 50) = 0.6 and P(under 30) = 0.1.",
+    "kind": "numeric",
+    "taught_in": [
+      "qtm-m3-probability-rules-c5"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "qtm-ex-m3-machine-states",
+    "deck_id": "qtm--module-3",
+    "slide": 17,
+    "label": "Machine out of control or down",
+    "text": "P(out of control) = 0.02, P(down) = 0.015; the events are mutually exclusive; P(call a repair person) = 0.035; P(machine can produce) = 0.985, the complement of down.",
+    "kind": "numeric",
+    "taught_in": [
+      "qtm-m3-probability-rules-c6"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "qtm-ex-m3-ibm-att-projects",
+    "deck_id": "qtm--module-3",
+    "slide": 18,
+    "label": "IBM and AT&T projects",
+    "text": "100 projects: IBM 40 (30 computer, 10 telecommunications), AT&T 60 (40 telecommunications, 20 computer). Given telecommunications, P(IBM) = 10/50 = 0.2.",
+    "kind": "numeric",
+    "taught_in": [
+      "qtm-m3-conditional-probability-c4",
+      "qtm-m3-conditional-probability-c5"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "qtm-ex-m3-consulting-bids",
+    "deck_id": "qtm--module-3",
+    "slide": 20,
+    "label": "Consulting firm bidding for two jobs",
+    "text": "P(job with firm A) = 0.45; if A is won, P(B also gives the job) = 0.90; chance of both jobs = 0.405.",
+    "kind": "numeric",
+    "taught_in": [
+      "qtm-m3-conditional-probability-c3"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "qtm-ex-m3-salary-inequity",
+    "deck_id": "qtm--module-3",
+    "slide": 22,
+    "label": "Salary inequity check",
+    "text": "Twenty-one per cent of executives at top salary, 40% are women, 6.4% are women at the top. 6.4% < 8.4%, so women are underrepresented at the top salary level.",
+    "kind": "numeric",
+    "taught_in": [
+      "qtm-m3-independence-practice-c2"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "qtm-ex-m3-tv-billboard-ads",
+    "deck_id": "qtm--module-3",
+    "slide": 23,
+    "label": "Television and billboard ads",
+    "text": "P(television commercial) = 0.04, P(billboard) = 0.06, independent. Both: 0.0024. At least one: 0.0976.",
+    "kind": "numeric",
+    "taught_in": [
+      "qtm-m3-independence-practice-c3"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "qtm-ex-m3-wine-corks",
+    "deck_id": "qtm--module-3",
+    "slide": 24,
+    "label": "Defective wine corks",
+    "text": "Cork defect rate 75%, four bottles opened, independent. All four defective: 0.316. At least one defective: 0.996.",
+    "kind": "numeric",
+    "taught_in": [
+      "qtm-m3-independence-practice-c4"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "qtm-ex-m3-market-research-sample",
+    "deck_id": "qtm--module-3",
+    "slide": 25,
+    "label": "Finding a qualifying consumer",
+    "text": "10% of the public uses the product; in a random sample of 10 people, P(at least 1 qualifies) = 0.6513.",
+    "kind": "numeric",
+    "taught_in": [
+      "qtm-m3-independence-practice-c5"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "qtm-ex-m3-four-births",
+    "deck_id": "qtm--module-3",
+    "slide": 28,
+    "label": "Number of girls in four births",
+    "text": "X = 0 to 4 girls; P(X) = 1/16, 4/16, 6/16, 4/16, 1/16 (0.0625, 0.2500, 0.3750, 0.2500, 0.0625), shown as a probability table and a bar chart.",
+    "kind": "numeric",
+    "taught_in": [
+      "qtm-m3-random-variables-c1",
+      "qtm-m3-random-variables-c2"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "qtm-ex-m3-discrete-continuous-examples",
+    "deck_id": "qtm--module-3",
+    "slide": 29,
+    "label": "Discrete money, continuous temperature",
+    "text": "Discrete: money made on an investment, $500 or a loss of -$200, measured to the nearest cent. Continuous: temperature (36.111000099 degrees), weight, height, time.",
+    "kind": "illustration",
+    "taught_in": [
+      "qtm-m3-random-variables-c3"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "qtm-ex-m3-two-dice-sum",
+    "deck_id": "qtm--module-3",
+    "slide": 30,
+    "label": "Sum of two dice",
+    "text": "Each of the 36 pairs has probability (1/6)(1/6) = 1/36. X = sum of dots, from 2 to 12, with P(2) = 1/36 rising to P(7) = 6/36 and back to P(12) = 1/36.",
+    "kind": "numeric",
+    "taught_in": [
+      "qtm-m3-random-variables-c5",
+      "qtm-m3-cumulative-distribution-c2"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "qtm-ex-m3-baby-girls-cdf",
+    "deck_id": "qtm--module-3",
+    "slide": 34,
+    "label": "1 to 3 girls in 4 births",
+    "text": "P(1<=X<=3) = F(3) - F(0) = 14/16.",
+    "kind": "numeric",
+    "taught_in": [
+      "qtm-m3-cumulative-distribution-c3"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "qtm-ex-m3-telephone-calls",
+    "deck_id": "qtm--module-3",
+    "slide": 35,
+    "label": "Telephone calls at an exchange",
+    "text": "Calls per minute between noon and 1:00 P.M.: x = 0 to 5 with P(x) = 0.3, 0.2, 0.2, 0.1, 0.1, 0.1. Verify the distribution, find the cumulative distribution function, and find P(more than two calls) between 12:34 and 12:35 P.M.",
+    "kind": "numeric",
+    "taught_in": [
+      "qtm-m3-cumulative-distribution-c4"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "qtm-ex-m3-coin-game",
+    "deck_id": "qtm--module-3",
+    "slide": 38,
+    "label": "Win or lose a dollar on a coin",
+    "text": "Heads wins a dollar, tails loses a dollar; h(x) = 2X - 1; E[h(x)] = (-1)(.50) + (1)(.50) = 0.",
+    "kind": "numeric",
+    "taught_in": [
+      "qtm-m3-expected-value-c3"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "qtm-ex-m3-monthly-sales-profit",
+    "deck_id": "qtm--module-3",
+    "slide": 39,
+    "label": "Monthly sales and profit",
+    "text": "Sales of 5,000 to 9,000 items with P(x) = 0.2, 0.3, 0.2, 0.2, 0.1; fixed monthly production cost $8,000; each item brings $2. Find expected monthly profit by the Type 1 and Type 2 formulas.",
+    "kind": "numeric",
+    "taught_in": [
+      "qtm-m3-expected-value-c4"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "qtm-ex-m3-dialing-switches",
+    "deck_id": "qtm--module-3",
+    "slide": 42,
+    "label": "Number of dialing switches",
+    "text": "x = 0 to 5 with P(x) = 0.1, 0.2, 0.3, 0.2, 0.1, 0.1; E(X) = 2.3; variance = 2.01.",
+    "kind": "numeric",
+    "taught_in": [
+      "qtm-m3-variance-sd-c3",
+      "qtm-m3-variance-sd-c4"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "qtm-ex-m3-profit-variance",
+    "deck_id": "qtm--module-3",
+    "slide": 45,
+    "label": "Variance of monthly profit",
+    "text": "Profit = 2X - 8,000. E(X squared) = 46,500,000, E(X) = 6,700, V(X) = 1,610,000; variance of profit = 6,440,000; standard deviation = 2,537.72.",
+    "kind": "numeric",
+    "taught_in": [
+      "qtm-m3-variance-sd-c5"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "qtm-ex-m3-oil-well",
+    "deck_id": "qtm--module-3",
+    "slide": 46,
+    "label": "Oil well investment",
+    "text": "Outcomes: -$40,000 (no oil) with .25, 10,000 (some oil) with .7, 70,000 (much oil) with .05. Find the expected monetary outcome and its variance.",
+    "kind": "numeric",
+    "taught_in": [
+      "qtm-m3-variance-sd-c6"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "qtm-ex-m3-coin-bernoulli",
+    "deck_id": "qtm--module-3",
+    "slide": 49,
+    "label": "Coin toss as a Bernoulli variable",
+    "text": "Heads taken as 1 (success) and tails as 0 (failure): the outcome of a toss is a Bernoulli random variable.",
+    "kind": "illustration",
+    "taught_in": [
+      "qtm-m3-discrete-distributions-c2"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "qtm-ex-m3-salad-uniform",
+    "deck_id": "qtm--module-3",
+    "slide": 55,
+    "label": "Salad taken at a hotel",
+    "text": "Amount of salad uniformly distributed between 5 ounces and 15 ounces; find the PD, expected value, variance, and P(between 12 and 15 ounces).",
+    "kind": "numeric",
+    "taught_in": [
+      "qtm-m3-uniform-distribution-c4"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "qtm-ex-m3-normal-applications",
+    "deck_id": "qtm--module-3",
+    "slide": 56,
+    "label": "Where the normal distribution is used",
+    "text": "Heights of people, scientific measurements, test scores, amounts of rainfall.",
+    "kind": "illustration",
+    "taught_in": [
+      "qtm-m3-normal-distribution-c1"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "qtm-ex-m3-toll-plaza",
+    "deck_id": "qtm--module-3",
+    "slide": 62,
+    "label": "Toll plaza response time",
+    "text": "Mean 160 microseconds, standard deviation 30. P(100 < X < 180) = P(-2 < Z < 0.6666) = 0.4772 + 0.2475 = 0.7247.",
+    "kind": "numeric",
+    "taught_in": [
+      "qtm-m3-normal-examples-c1"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "qtm-ex-m3-semiconductor",
+    "deck_id": "qtm--module-3",
+    "slide": 63,
+    "label": "Semiconductor impurities",
+    "text": "Mean 127 parts per million, standard deviation 22; acceptable below 150. P(X < 150) = P(Z < 1.045) = 0.5 + 0.3520 = 0.8520.",
+    "kind": "numeric",
+    "taught_in": [
+      "qtm-m3-normal-examples-c2"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "qtm-ex-m3-gold-price",
+    "deck_id": "qtm--module-3",
+    "slide": 64,
+    "label": "Daily gold price",
+    "text": "May 1995: mean $383, standard deviation $12. P(394 < X < 399) = P(0.9166 < Z < 1.3333) = 0.4088 - 0.3203 = 0.0885.",
+    "kind": "numeric",
+    "taught_in": [
+      "qtm-m3-normal-examples-c3"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "qtm-ex-m3-clt-uses",
+    "deck_id": "qtm--module-3",
+    "slide": 66,
+    "label": "Where the CLT is used",
+    "text": "Election polling, quality control, finance, and estimating average outcomes in populations.",
+    "kind": "illustration",
+    "taught_in": [
+      "qtm-m3-central-limit-theorem-c2"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "qtm-ex-m3-clt-excel-article",
+    "deck_id": "qtm--module-3",
+    "slide": 67,
+    "label": "Excel simulation article on the Central Limit Theorem",
+    "text": "Additional reading: an American Journal of Business Education article on a Microsoft Excel simulation illustrating the Central Limit Theorem's appropriateness for comparing the difference between the means of any two populations.",
+    "kind": "illustration",
+    "taught_in": [
+      "qtm-m3-central-limit-theorem-c3"
+    ],
+    "needs_check": false,
+    "retired": false
   }
 ]

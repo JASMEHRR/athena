@@ -71,7 +71,8 @@ No exam dates, so round-robin across subjects. Validate, ground and cover each d
 - [ ] P4 pass A: far--five-elements-fs-recognition (3 slides, 3 visual)
 - [ ] P4 pass A: mm--session3-mm (22 slides, 17 visual)
 - [ ] P4 pass A: oml--peoples-expressedpjul30 (18 slides, 16 visual)
-- [ ] P4 pass A: qtm--module-3 (68 slides, 41 visual)
+- [x] P4 pass A: qtm--module-3 (68 slides, 41 visual)
+  - 13 topics (qtm-m3-*), 60 chunks, 161 checks, 78 cards, 37 examples. By subagent, reviewed. Unanswered practice slides (35, 39, 46, 55, 59, 60) solved with the deck's formulas, numbers marked derived. Slide errors named in lessons: slide 14 uses 0.2905 for 29.5%, slide 32 asks P(X >= 9) but computes P(X > 9). Binomial is listed but has no slide of its own.
 - [ ] P4 pass A: sce--list-of-business-ideas (5 slides, 1 visual)
 - [ ] P4 pass A: far--session-14-case-2-1-case-3-1-maynard-a-b-full (2 slides, 2 visual)
 - [ ] P4 pass A: qtm--module-4 (34 slides, 13 visual)

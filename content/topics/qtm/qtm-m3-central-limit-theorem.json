@@ -1,0 +1,321 @@
+{
+  "id": "qtm-m3-central-limit-theorem",
+  "subject_id": "qtm",
+  "deck_id": "qtm--module-3",
+  "title": "The Central Limit Theorem",
+  "order": 313,
+  "summary": "What the CLT says about the sampling distribution of the mean, the n ≥ 30 guideline, why it matters in practice, and the additional reading on an Excel simulation of the theorem.",
+  "est_minutes": 15,
+  "difficulty": 2,
+  "source_refs": [
+    "qtm--module-3#65",
+    "qtm--module-3#66",
+    "qtm--module-3#67"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "qtm-m3-central-limit-theorem-c1",
+      "heading": "What the Central Limit Theorem says",
+      "explanation_md": "The **Central Limit Theorem** states that, for **any population with a finite mean and variance**, the **sampling distribution of the mean approaches a normal distribution as the sample size increases**, **regardless of the shape of the population distribution**.\n\nThis means:\n\n- For **large sample sizes (usually n ≥ 30)**, the **means of repeated samples** will be **approximately normally distributed**.\n- The **mean of these sample means equals the population mean**.\n- The **variability (standard deviation) decreases** as the sample size increases, because the sample means **cluster more tightly** around the true population mean.\n\nIn plain words: take many samples, work out each sample's mean, and those means form a bell curve centred on the true mean, even if the original data was not bell-shaped.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Central Limit Theorem",
+          "meaning": "For any population with a finite mean and variance, the sampling distribution of the mean approaches a normal distribution as the sample size increases, regardless of the population's shape.",
+          "source_ref": "qtm--module-3#65"
+        }
+      ],
+      "exam_line": "Central Limit Theorem: for any population with finite mean and variance, the sampling distribution of the mean approaches normal as n grows (usually n ≥ 30); mean of sample means = population mean; its spread shrinks as n grows.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m3-central-limit-theorem-q-74fe1885",
+          "type": "mcq",
+          "stem": "According to the slide, what sample size is usually treated as large enough for the Central Limit Theorem?",
+          "options": [
+            "n ≥ 30",
+            "n ≥ 5",
+            "n ≥ 1",
+            "n ≥ 3"
+          ],
+          "answer": "n ≥ 30",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#65"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m3-central-limit-theorem-q-b2907f15",
+          "type": "mcq",
+          "stem": "What happens to the standard deviation of the sample means as the sample size increases?",
+          "options": [
+            "It decreases",
+            "It increases",
+            "It stays the same",
+            "It becomes equal to the population mean"
+          ],
+          "answer": "It decreases",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#65"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m3-central-limit-theorem-q-698971cb",
+          "type": "true_false",
+          "stem": "The CLT works only when the population itself is normally distributed.",
+          "options": [],
+          "answer": "False",
+          "accept": [],
+          "explanation": "It holds regardless of the shape of the population distribution.",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#65",
+            "qtm--module-3#66"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-3#65"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-central-limit-theorem-c2",
+      "heading": "Why the CLT matters in practice",
+      "explanation_md": "Practical relevance from the slide:\n\n- The **CLT allows the use of normal probability theory even when the original data is not normal**.\n- It **enables confidence intervals and hypothesis testing** about population parameters **based on sample data**, even for non-normal populations.\n- It is used in **election polling, quality control, finance**, and **estimating average outcomes in populations**.\n\nSo everything you learned about the normal curve and z becomes usable for sample means, almost whatever the data looks like.",
+      "example_ids": [
+        "qtm-ex-m3-clt-uses"
+      ],
+      "key_terms": [],
+      "exam_line": "The CLT lets us use normal probability theory for non-normal data, enabling confidence intervals and hypothesis testing; used in election polling, quality control, finance.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m3-central-limit-theorem-q-cba6c48b",
+          "type": "mcq",
+          "stem": "Which list matches the fields the slide says use the CLT?",
+          "options": [
+            "Election polling, quality control, finance",
+            "Heights of people, test scores, amounts of rainfall",
+            "Dice, coins, card games"
+          ],
+          "answer": "Election polling, quality control, finance",
+          "accept": [],
+          "explanation": "Heights, test scores and rainfall are the slide's applications of the normal distribution; dice and coins are classical probability examples.",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#66",
+            "qtm--module-3#56",
+            "qtm--module-3#4"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m3-central-limit-theorem-q-3783c759",
+          "type": "true_false",
+          "stem": "The CLT allows the use of normal probability theory even when the original data is not normal.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#66"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-3#66"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-central-limit-theorem-c3",
+      "heading": "Additional reading: an Excel simulation of the Central Limit Theorem",
+      "explanation_md": "The professor adds one reading: an article in the **American Journal of Business Education** titled *A Microsoft Excel Simulation Illustrating The Central Limit Theorem's Appropriateness For Comparing The Difference Between The Means Of Any Two Populations*.\n\nIts abstract says it builds **interactive, computerized learning modules in Microsoft Excel** to show the **Central Limit Theorem's appropriateness for comparing the difference between the means of any two populations**, and that these modules are used in the classroom to improve understanding of the theorem.\n\nThe link is on the slide if you want to try the simulation.",
+      "example_ids": [
+        "qtm-ex-m3-clt-excel-article"
+      ],
+      "key_terms": [],
+      "exam_line": "Additional reading: an Excel simulation article illustrating the Central Limit Theorem for comparing the means of two populations.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m3-central-limit-theorem-q-c7cf74db",
+          "type": "mcq",
+          "stem": "What tool does the additional reading use to illustrate the Central Limit Theorem?",
+          "options": [
+            "Microsoft Excel simulations",
+            "A deck of cards",
+            "A standard normal table",
+            "Two dice"
+          ],
+          "answer": "Microsoft Excel simulations",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#67",
+            "qtm--module-3#59",
+            "qtm--module-3#6",
+            "qtm--module-3#30"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m3-central-limit-theorem-q-cb0b6b6b",
+          "type": "true_false",
+          "stem": "The reading uses the Central Limit Theorem to compare the difference between the means of two populations.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#67"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-3#67",
+        "qtm--module-3#65"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "qtm-m3-central-limit-theorem-f1",
+      "front": "Central Limit Theorem",
+      "back": "For any population with finite mean and variance, the sampling distribution of the mean approaches normal as sample size increases, regardless of the population's shape.",
+      "kind": "term",
+      "source_refs": [
+        "qtm--module-3#65"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-central-limit-theorem-f2",
+      "front": "Central Limit Theorem: three consequences",
+      "back": "Large samples (usually n ≥ 30) give approximately normal sample means; mean of sample means = population mean; spread decreases as sample size grows.",
+      "kind": "list",
+      "source_refs": [
+        "qtm--module-3#65"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-central-limit-theorem-f3",
+      "front": "Practical relevance of the CLT",
+      "back": "Normal theory for non-normal data; confidence intervals and hypothesis testing; used in election polling, quality control, finance and estimating averages.",
+      "kind": "list",
+      "source_refs": [
+        "qtm--module-3#66"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-central-limit-theorem-f4",
+      "front": "Additional reading on the Central Limit Theorem",
+      "back": "A Microsoft Excel simulation illustrating the Central Limit Theorem's appropriateness for comparing the difference between the means of any two populations (American Journal of Business Education).",
+      "kind": "fact",
+      "source_refs": [
+        "qtm--module-3#67"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [],
+  "explain_back": {
+    "prompt": "State the Central Limit Theorem and explain why it is useful to a manager.",
+    "rubric": [
+      {
+        "point": "Sampling distribution of the mean approaches normal as sample size increases, regardless of population shape (finite mean and variance)",
+        "source_ref": "qtm--module-3#65"
+      },
+      {
+        "point": "Usually n ≥ 30; mean of sample means = population mean; spread shrinks with bigger samples",
+        "source_ref": "qtm--module-3#65"
+      },
+      {
+        "point": "Lets us use normal theory for non-normal data, for confidence intervals and hypothesis testing",
+        "source_ref": "qtm--module-3#66"
+      },
+      {
+        "point": "Used in election polling, quality control, finance",
+        "source_ref": "qtm--module-3#66"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

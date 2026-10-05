@@ -1,0 +1,730 @@
+{
+  "id": "qtm-m3-probability-rules",
+  "subject_id": "qtm",
+  "deck_id": "qtm--module-3",
+  "title": "Probability rules, Venn diagrams and types of events",
+  "order": 302,
+  "summary": "Complement, union and intersection in Venn diagrams; the three basic rules plus the addition and multiplication rules; mutually exclusive, independent and exhaustive events; worked examples on defective parts, a committee of managers and a machine's states.",
+  "est_minutes": 30,
+  "difficulty": 2,
+  "source_refs": [
+    "qtm--module-3#9",
+    "qtm--module-3#10",
+    "qtm--module-3#11",
+    "qtm--module-3#12",
+    "qtm--module-3#16",
+    "qtm--module-3#17"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "qtm-m3-probability-rules-c1",
+      "heading": "Reading Venn diagrams",
+      "explanation_md": "The slide shows six Venn diagrams. In each one the **rectangle is the sample space** and the two circles are events **A** and **B**. The shaded part is what the label means:\n\n- **A**: all of circle A.\n- **B**: all of circle B.\n- **A' (complement of A)**: everything **outside** circle A.\n- **B' (complement of B)**: everything outside circle B.\n- **A ∪ B (A union B)**: both circles, meaning **A or B** (or both).\n- **A ∩ B (A intersect B)**: only the **overlap**, meaning **A and B** together.\n\nKeep this picture in your head: \"or\" is the union, \"and\" is the intersection, \"not\" is the complement.",
+      "example_ids": [
+        "qtm-ex-m3-venn-diagrams"
+      ],
+      "key_terms": [
+        {
+          "term": "Complement of A (A')",
+          "meaning": "Everything in the sample space outside A.",
+          "source_ref": "qtm--module-3#9"
+        },
+        {
+          "term": "A union B (A ∪ B)",
+          "meaning": "The region covered by A or B.",
+          "source_ref": "qtm--module-3#9"
+        },
+        {
+          "term": "A intersect B (A ∩ B)",
+          "meaning": "Only the overlap of A and B.",
+          "source_ref": "qtm--module-3#9"
+        }
+      ],
+      "exam_line": "A' (complement) is everything outside A; A ∪ B (union) covers A or B; A ∩ B (intersect) is only the overlap.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m3-probability-rules-q-59ff85ab",
+          "type": "mcq",
+          "stem": "In a Venn diagram, which region is shaded for A ∩ B?",
+          "options": [
+            "Only the overlap of A and B",
+            "Everything outside A",
+            "All of both circles",
+            "All of circle A"
+          ],
+          "answer": "Only the overlap of A and B",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#9"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m3-probability-rules-q-7090308e",
+          "type": "mcq",
+          "stem": "Everything outside circle A is called:",
+          "options": [
+            "The complement of A (A')",
+            "A union B",
+            "A intersect B"
+          ],
+          "answer": "The complement of A (A')",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#9"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m3-probability-rules-q-1e74b7ea",
+          "type": "true_false",
+          "stem": "A ∪ B (A union B) shades both circles A and B.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#9"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-3#9"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-probability-rules-c2",
+      "heading": "The probability rules",
+      "explanation_md": "Learn these five lines; almost every problem in this module uses them.\n\n- **Rule 1:** 0 ≤ P(Event) ≤ 1. A probability can never be below 0 or above 1.\n- **Rule 2:** P(Certain event) = 1. Example: an order is **either delivered or not**, so that is certain.\n- **Rule 3 (complement):** P(Complement) = 1 - P(Event). Example: if P(late) = 0.04, then P(order NOT late) = 1 - 0.04 = **0.96**.\n- **Addition rule (for \"or\" events):** if A and B are **mutually exclusive**, P(A or B) = P(A) + P(B).\n- **Multiplication rule (for \"and\" events):** if A and B are **independent**, P(A and B) = P(A) × P(B).\n\nNotice the conditions: you can only simply add when the events **cannot happen together**, and only simply multiply when the events **do not affect each other**.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Complement rule",
+          "meaning": "P(Complement) = 1 - P(Event).",
+          "source_ref": "qtm--module-3#10"
+        },
+        {
+          "term": "Addition rule (mutually exclusive)",
+          "meaning": "P(A or B) = P(A) + P(B).",
+          "source_ref": "qtm--module-3#10"
+        },
+        {
+          "term": "Multiplication rule (independent)",
+          "meaning": "P(A and B) = P(A) × P(B).",
+          "source_ref": "qtm--module-3#10"
+        }
+      ],
+      "exam_line": "0 ≤ P ≤ 1; P(certain) = 1; P(complement) = 1 - P(event); mutually exclusive: P(A or B) = P(A) + P(B); independent: P(A and B) = P(A) × P(B).",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m3-probability-rules-q-9830ea38",
+          "type": "mcq",
+          "stem": "If the probability an order is late is 0.04, what is the probability it is NOT late?",
+          "options": [
+            "0.96",
+            "0.04",
+            "1.04",
+            "0.40"
+          ],
+          "answer": "0.96",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#10"
+          ],
+          "derived": [
+            "1.04",
+            "0.40"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m3-probability-rules-q-13e25946",
+          "type": "mcq",
+          "stem": "For independent events A and B, P(A and B) equals:",
+          "options": [
+            "P(A) × P(B)",
+            "P(A) + P(B)",
+            "1 - P(A)",
+            "0"
+          ],
+          "answer": "P(A) × P(B)",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#10"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m3-probability-rules-q-001a297d",
+          "type": "fill",
+          "stem": "If A and B are mutually exclusive, P(A or B) = P(A) ____ P(B).",
+          "options": [],
+          "answer": "+",
+          "accept": [
+            "plus"
+          ],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#10"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-3#10"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-probability-rules-c3",
+      "heading": "Mutually exclusive, independent and exhaustive events",
+      "explanation_md": "Three ideas that students often mix up:\n\n**Mutually exclusive:** two events **can't happen at the same time**. Example: a shipment arrives **late** and **on time**. Formula: **P(A and B) = 0**. Picture: two circles that do not touch.\n\n**Independent:** the occurrence of one **doesn't affect** the other. Example: **two unrelated shipments**. Formula: **P(A and B) = P(A) × P(B)**. Picture: two circles that overlap (the overlap AB is the product).\n\n**Mutually exhaustive:** a set of events where **at least one must occur**, covering all possible outcomes. Example: on a single die roll, the events \"1\", \"2\", \"3\", \"4\", \"5\" and \"6\" are exhaustive because the roll must show one of them. Formula: **P(A1 or A2 or ... or An) = 1**.\n\nKey contrast: mutually exclusive events have **zero** overlap; independent events usually **do** overlap.",
+      "example_ids": [
+        "qtm-ex-m3-event-type-examples"
+      ],
+      "key_terms": [
+        {
+          "term": "Mutually exclusive events",
+          "meaning": "Two events that can't happen at the same time; P(A and B) = 0.",
+          "source_ref": "qtm--module-3#11"
+        },
+        {
+          "term": "Independent events",
+          "meaning": "The occurrence of one doesn't affect the other; P(A and B) = P(A) × P(B).",
+          "source_ref": "qtm--module-3#11"
+        },
+        {
+          "term": "Mutually exhaustive events",
+          "meaning": "At least one of the events must occur, covering all possible outcomes; P(A1 or A2 or ... or An) = 1.",
+          "source_ref": "qtm--module-3#11"
+        }
+      ],
+      "exam_line": "Mutually exclusive: P(A and B) = 0 (late and on time). Independent: P(A and B) = P(A) × P(B) (two unrelated shipments). Exhaustive: P(A1 or ... or An) = 1 (faces of one die).",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m3-probability-rules-q-6f5f1a90",
+          "type": "mcq",
+          "stem": "'A shipment arrives late' and 'the same shipment arrives on time' are:",
+          "options": [
+            "Mutually exclusive",
+            "Independent",
+            "Both independent and exhaustive"
+          ],
+          "answer": "Mutually exclusive",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#11"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m3-probability-rules-q-a9735251",
+          "type": "mcq",
+          "stem": "For mutually exclusive events A and B, P(A and B) equals:",
+          "options": [
+            "0",
+            "1",
+            "P(A) × P(B)",
+            "P(A) + P(B)"
+          ],
+          "answer": "0",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#11"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m3-probability-rules-q-0cb90f2a",
+          "type": "true_false",
+          "stem": "The events 1, 2, 3, 4, 5 and 6 on a single die roll are mutually exhaustive because the roll must show one of them.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#11"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-3#11"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-probability-rules-c4",
+      "heading": "Worked example: both parts good",
+      "explanation_md": "**Question:** a manufacturer finds that **2% of parts are defective**. If two parts are chosen randomly, what is the probability that **both are good**?\n\n**Step 1 (complement):** P(a part is good) = 1 - 0.02 = **0.98**.\n\n- Probability first is good: **0.98**\n- Probability second is good: **0.98**\n\n**Step 2 (multiplication rule, the parts are chosen independently):**\n\nBoth good = 0.98 × 0.98 = **0.9604 or 96.04%**",
+      "example_ids": [
+        "qtm-ex-m3-two-good-parts"
+      ],
+      "key_terms": [],
+      "exam_line": "Both parts good = 0.98 × 0.98 = 0.9604 (complement of 2% defective, then multiply).",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m3-probability-rules-q-2a2073c8",
+          "type": "mcq",
+          "stem": "2% of parts are defective. What is the probability two randomly chosen parts are both good?",
+          "options": [
+            "0.9604",
+            "0.98",
+            "0.0004",
+            "0.96"
+          ],
+          "answer": "0.9604",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#12",
+            "qtm--module-3#10"
+          ],
+          "derived": [
+            "0.0004"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m3-probability-rules-q-b2ca4392",
+          "type": "fill",
+          "stem": "If 2% of parts are defective, the probability one part is good is ____.",
+          "options": [],
+          "answer": "0.98",
+          "accept": [
+            ".98",
+            "98%"
+          ],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#12"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-3#12",
+        "qtm--module-3#10"
+      ],
+      "derived": [
+        "0.02"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-probability-rules-c5",
+      "heading": "Practice problem 1: choosing a manager",
+      "explanation_md": "**Data:** age and gender of **20 midlevel managers**: 34 F, 49 M, 27 M, 63 F, 33 F, 29 F, 45 M, 46 M, 30 F, 39 M, 42 M, 30 F, 48 M, 35 F, 32 F, 37 F, 48 F, 50 M, 48 F, 61 F. One manager is chosen at random for a committee.\n\n**a) P(woman or over 50)**\n\n- Count the women (F): **12** of them.\n- Over 50: only **63 F** and **61 F**. Both are already counted as women (50 M is not *over* 50).\n- So 12 managers are a woman or over 50: 12/20 = **0.6**\n\nCareful: a woman can also be over 50, so you count each manager **once**; do not add the two groups blindly.\n\n**b) P(under 30)**\n\n- Under 30: **27 M** and **29 F** (the 30 F managers are not under 30).\n- 2/20 = **0.1**",
+      "example_ids": [
+        "qtm-ex-m3-managers-committee"
+      ],
+      "key_terms": [],
+      "exam_line": "P(woman or over 50) = 0.6 and P(under 30) = 0.1 for the 20 managers; count each person once.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m3-probability-rules-q-82d761aa",
+          "type": "mcq",
+          "stem": "Of the 20 managers, what is the probability the chosen one is a woman or over 50?",
+          "options": [
+            "0.6",
+            "0.7",
+            "0.1",
+            "0.5"
+          ],
+          "answer": "0.6",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#16"
+          ],
+          "derived": [
+            "0.7",
+            "0.5"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m3-probability-rules-q-63c6ab55",
+          "type": "mcq",
+          "stem": "What is the probability the chosen manager is under 30?",
+          "options": [
+            "0.1",
+            "0.2",
+            "0.15",
+            "0.05"
+          ],
+          "answer": "0.1",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#16"
+          ],
+          "derived": [
+            "0.2",
+            "0.15",
+            "0.05"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m3-probability-rules-q-0dbe55ac",
+          "type": "true_false",
+          "stem": "In this data, every manager over 50 is a woman.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#16"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-3#16"
+      ],
+      "derived": [
+        "12"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-probability-rules-c6",
+      "heading": "Practice problem 2: a machine's three states",
+      "explanation_md": "A machine is in **one, and only one,** of three states: **operational, out of control, or down**. P(out of control) = **0.02**, P(down) = **0.015**.\n\n**a) Relationship between \"out of control\" and \"down\"?** The machine can't be in both states at once, so they are **mutually exclusive**.\n\n**b) A repair person is called if the machine is out of control or down.** Mutually exclusive, so add:\n\n0.02 + 0.015 = **0.035**\n\n**c) The machine can produce unless it is down.** That is the **complement** of \"down\":\n\n1 - 0.015 = **0.985**, and the relationship with \"machine is down\" is **complement event**.",
+      "example_ids": [
+        "qtm-ex-m3-machine-states"
+      ],
+      "key_terms": [],
+      "exam_line": "Out of control and down are mutually exclusive: P(repair) = 0.02 + 0.015 = 0.035; P(can produce) = 1 - 0.015 = 0.985 (complement).",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m3-probability-rules-q-084b47aa",
+          "type": "mcq",
+          "stem": "What is the relationship between 'machine is out of control' and 'machine is down'?",
+          "options": [
+            "Mutually exclusive",
+            "Independent",
+            "Complements of each other"
+          ],
+          "answer": "Mutually exclusive",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#17"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m3-probability-rules-q-19ab7e6d",
+          "type": "mcq",
+          "stem": "What is the probability that a repair person must be called right now?",
+          "options": [
+            "0.035",
+            "0.0003",
+            "0.985",
+            "0.02"
+          ],
+          "answer": "0.035",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#17"
+          ],
+          "derived": [
+            "0.0003"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m3-probability-rules-q-86727a3e",
+          "type": "fill",
+          "stem": "The probability that the machine can produce a component right now is ____.",
+          "options": [],
+          "answer": "0.985",
+          "accept": [
+            ".985"
+          ],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#17"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-3#17",
+        "qtm--module-3#10",
+        "qtm--module-3#11"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "qtm-m3-probability-rules-f1",
+      "front": "A' in a Venn diagram",
+      "back": "Complement of A: everything outside circle A.",
+      "kind": "term",
+      "source_refs": [
+        "qtm--module-3#9"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-probability-rules-f2",
+      "front": "A ∪ B vs A ∩ B",
+      "back": "A ∪ B (union): A or B, both circles shaded. A ∩ B (intersect): only the overlap.",
+      "kind": "term",
+      "source_refs": [
+        "qtm--module-3#9"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-probability-rules-f3",
+      "front": "Rules 1 to 3 of probability",
+      "back": "0 ≤ P(Event) ≤ 1; P(Certain event) = 1; P(Complement) = 1 - P(Event).",
+      "kind": "list",
+      "source_refs": [
+        "qtm--module-3#10"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-probability-rules-f4",
+      "front": "Addition rule (mutually exclusive)",
+      "back": "P(A or B) = P(A) + P(B).",
+      "kind": "formula",
+      "source_refs": [
+        "qtm--module-3#10"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-probability-rules-f5",
+      "front": "Multiplication rule (independent)",
+      "back": "P(A and B) = P(A) × P(B).",
+      "kind": "formula",
+      "source_refs": [
+        "qtm--module-3#10"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-probability-rules-f6",
+      "front": "Mutually exclusive vs independent",
+      "back": "Mutually exclusive: can't happen together, P(A and B) = 0 (late and on time). Independent: one doesn't affect the other, P(A and B) = P(A) × P(B) (two unrelated shipments).",
+      "kind": "term",
+      "source_refs": [
+        "qtm--module-3#11"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-probability-rules-f7",
+      "front": "Mutually exhaustive events",
+      "back": "At least one must occur, covering all outcomes; P(A1 or A2 or ... or An) = 1 (faces of one die).",
+      "kind": "term",
+      "source_refs": [
+        "qtm--module-3#11"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-probability-rules-f8",
+      "front": "Both parts good when 2% are defective",
+      "back": "0.98 × 0.98 = 0.9604 or 96.04%.",
+      "kind": "example",
+      "source_refs": [
+        "qtm--module-3#12"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [],
+  "explain_back": {
+    "prompt": "State the probability rules and explain the difference between mutually exclusive, independent and exhaustive events, with the professor's examples.",
+    "rubric": [
+      {
+        "point": "0 ≤ P ≤ 1, P(certain event) = 1, P(complement) = 1 - P(event), e.g. not late = 1 - 0.04 = 0.96",
+        "source_ref": "qtm--module-3#10"
+      },
+      {
+        "point": "Addition rule for mutually exclusive events and multiplication rule for independent events",
+        "source_ref": "qtm--module-3#10"
+      },
+      {
+        "point": "Mutually exclusive: P(A and B) = 0, e.g. shipment late and on time",
+        "source_ref": "qtm--module-3#11"
+      },
+      {
+        "point": "Independent: P(A and B) = P(A) × P(B), e.g. two unrelated shipments; exhaustive: probabilities add to 1, e.g. die faces",
+        "source_ref": "qtm--module-3#11"
+      },
+      {
+        "point": "Worked example such as both parts good = 0.98 × 0.98 = 0.9604",
+        "source_ref": "qtm--module-3#12"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

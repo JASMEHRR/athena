@@ -1,0 +1,659 @@
+{
+  "id": "qtm-m3-variance-sd",
+  "subject_id": "qtm",
+  "deck_id": "qtm--module-3",
+  "title": "Variance and standard deviation of a random variable",
+  "order": 308,
+  "summary": "What variance and standard deviation measure, Method 1 and Method 2 formulas, the dialing switches example both ways, the variance of monthly profit, and the oil well exercise.",
+  "est_minutes": 35,
+  "difficulty": 3,
+  "source_refs": [
+    "qtm--module-3#40",
+    "qtm--module-3#41",
+    "qtm--module-3#42",
+    "qtm--module-3#43",
+    "qtm--module-3#44",
+    "qtm--module-3#45",
+    "qtm--module-3#46",
+    "qtm--module-3#36"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "qtm-m3-variance-sd-c1",
+      "heading": "What variance and standard deviation tell you",
+      "explanation_md": "**Variance** is a measure of the **dispersion** of the possible values of the random variable **about the mean**. It gives an idea of the **variation or uncertainty** associated with the random variable.\n\n- Variance is a **squared quantity**, so it is often more useful to take its **square root**: the **standard deviation**.\n- When two random variables are compared, the one with the **larger variance (standard deviation)** is the **more variable** one.\n- **Investments:** of two investments with the **same expected return**, the one with the **higher standard deviation** is considered **riskier**. (A higher standard deviation means returns are more variable, both **below and above** the mean.)\n- In the calculation, the **probabilities of the values are used as weights** in computing the expected squared deviation from the mean.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Variance of a random variable",
+          "meaning": "A measure of the dispersion of its possible values about the mean; the variation or uncertainty associated with it.",
+          "source_ref": "qtm--module-3#40"
+        },
+        {
+          "term": "Standard deviation of a random variable",
+          "meaning": "The square root of the variance.",
+          "source_ref": "qtm--module-3#40"
+        }
+      ],
+      "exam_line": "Variance measures dispersion about the mean; standard deviation is its square root; with equal expected returns, the investment with the higher standard deviation is riskier.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m3-variance-sd-q-2ddc9978",
+          "type": "mcq",
+          "stem": "Two investments have the same expected return. Which is considered riskier?",
+          "options": [
+            "The one with the higher standard deviation",
+            "The one with the lower standard deviation",
+            "Neither, because the means are equal"
+          ],
+          "answer": "The one with the higher standard deviation",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#40"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m3-variance-sd-q-fbbb47ae",
+          "type": "fill",
+          "stem": "The standard deviation is the square ____ of the variance.",
+          "options": [],
+          "answer": "root",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#40"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m3-variance-sd-q-e0b0b2cd",
+          "type": "true_false",
+          "stem": "In the variance of a discrete random variable, the probabilities are used as weights.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#40"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-3#40"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-variance-sd-c2",
+      "heading": "The formulas: Method 1, Method 2 and SD",
+      "explanation_md": "**Method 1 (definition):**\n\nσ² = V(X) = E[(X - μ)²] = Σ (x - μ)² P(x) (over all x)\n\nTake each value's distance from the mean, square it, weight it by its probability, add.\n\n**Method 2 (computational formula):**\n\n**σ² = V(X) = E(X²) - [E(X)]²**\n\n\"Mean of the squares minus the square of the mean.\" Usually faster.\n\n**Standard deviation:**\n\n**σ = SD(X) = √V(X)**",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Method 1 (variance)",
+          "meaning": "σ² = V(X) = E[(X - μ)²] = Σ (x - μ)² P(x).",
+          "source_ref": "qtm--module-3#41"
+        },
+        {
+          "term": "Method 2 (computational formula)",
+          "meaning": "σ² = V(X) = E(X²) - [E(X)]².",
+          "source_ref": "qtm--module-3#41"
+        },
+        {
+          "term": "SD(X)",
+          "meaning": "σ = SD(X) = √V(X).",
+          "source_ref": "qtm--module-3#41"
+        }
+      ],
+      "exam_line": "V(X) = Σ (x - μ)² P(x) (Method 1) = E(X²) - [E(X)]² (Method 2); SD(X) = √V(X).",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m3-variance-sd-q-94cf6fec",
+          "type": "mcq",
+          "stem": "Which is the computational (Method 2) formula for variance?",
+          "options": [
+            "V(X) = E(X²) - [E(X)]²",
+            "V(X) = Σ x P(x)",
+            "V(X) = √E(X)",
+            "V(X) = E(X) - E(X²)"
+          ],
+          "answer": "V(X) = E(X²) - [E(X)]²",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#41"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m3-variance-sd-q-56aa6e18",
+          "type": "mcq",
+          "stem": "SD(X) equals:",
+          "options": [
+            "√V(X)",
+            "V(X)²",
+            "E(X)/V(X)",
+            "V(X)/2"
+          ],
+          "answer": "√V(X)",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#41"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-3#41"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-variance-sd-c3",
+      "heading": "Dialing switches: variance by Method 1",
+      "explanation_md": "**Switch scenario:** x = number of dialing switches.\n\n| x | P(x) | xP(x) |\n|---|---|---|\n| 0 | 0.1 | 0 |\n| 1 | 0.2 | 0.2 |\n| 2 | 0.3 | 0.6 |\n| 3 | 0.2 | 0.6 |\n| 4 | 0.1 | 0.4 |\n| 5 | 0.1 | 0.5 |\n| Total | 1.00 | **2.3 = E(X)** |\n\n**Variance (Method 1)** with μ = 2.3:\n\nσ² = Σ (x - μ)² P(x)\n= (0 - 2.3)²(0.1) + (1 - 2.3)²(0.2) + (2 - 2.3)²(0.3) + (3 - 2.3)²(0.2) + (4 - 2.3)²(0.1) + (5 - 2.3)²(0.1)\n= **2.01**\n\n**Standard deviation:** σ = SD(X) = √V(X) = √2.01 ≈ **1.42** (the slide shows the formula; this number is worked out from it).",
+      "example_ids": [
+        "qtm-ex-m3-dialing-switches"
+      ],
+      "key_terms": [],
+      "exam_line": "Switches: E(X) = 2.3; V(X) = Σ (x - 2.3)² P(x) = 2.01; SD = √2.01.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m3-variance-sd-q-6f6f4282",
+          "type": "mcq",
+          "stem": "For the dialing switches, what is E(X)?",
+          "options": [
+            "2.3",
+            "2.01",
+            "2.5",
+            "1.00"
+          ],
+          "answer": "2.3",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#42"
+          ],
+          "derived": [
+            "2.5"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m3-variance-sd-q-f50f5052",
+          "type": "fill",
+          "stem": "The variance of the number of dialing switches is ____.",
+          "options": [],
+          "answer": "2.01",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#42"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m3-variance-sd-q-3cd3a6c4",
+          "type": "mcq",
+          "stem": "What is the standard deviation of the number of switches, to two decimals?",
+          "options": [
+            "1.42",
+            "2.01",
+            "4.04",
+            "1.15"
+          ],
+          "answer": "1.42",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#42"
+          ],
+          "derived": [
+            "1.42",
+            "4.04",
+            "1.15"
+          ],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-3#42"
+      ],
+      "derived": [
+        "1.42"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-variance-sd-c4",
+      "heading": "Dialing switches: the shortcut (Method 2)",
+      "explanation_md": "Same switches, the **alternate method** (the slide calls it the **shortcut formula**). Add a column for x²P(x):\n\n| x | P(x) | xP(x) | x²P(x) |\n|---|---|---|---|\n| 0 | 0.1 | 0 | 0 |\n| 1 | 0.2 | 0.2 | 0.2 |\n| 2 | 0.3 | 0.6 | 1.2 |\n| 3 | 0.2 | 0.6 | 1.8 |\n| 4 | 0.1 | 0.4 | 1.6 |\n| 5 | 0.1 | 0.5 | 2.5 |\n| Total | 1.00 | **2.3** (mean of X) | **7.3** (mean of X²) |\n\nV(X) = E(X²) - [E(X)]² = 7.3 - (2.3)² = **2.01**\n\nSame answer as Method 1, with less work.",
+      "example_ids": [
+        "qtm-ex-m3-dialing-switches"
+      ],
+      "key_terms": [],
+      "exam_line": "Shortcut: E(X²) = 7.3, E(X) = 2.3, so V(X) = 7.3 - (2.3)² = 2.01.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m3-variance-sd-q-edcbca29",
+          "type": "mcq",
+          "stem": "In the shortcut table for the switches, what is E(X²)?",
+          "options": [
+            "7.3",
+            "2.3",
+            "5.29",
+            "2.01"
+          ],
+          "answer": "7.3",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#43"
+          ],
+          "derived": [
+            "5.29"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m3-variance-sd-q-854be064",
+          "type": "true_false",
+          "stem": "Method 1 and the shortcut Method 2 give the same variance of 2.01 for the switches.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#43",
+            "qtm--module-3#42"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m3-variance-sd-q-22f46d92",
+          "type": "fill",
+          "stem": "V(X) = 7.3 - (2.3)² = ____.",
+          "options": [],
+          "answer": "2.01",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#43"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-3#43",
+        "qtm--module-3#41"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-variance-sd-c5",
+      "heading": "Example 2: variance of the monthly profit",
+      "explanation_md": "Back to monthly sales: items 5,000 to 9,000 with P(x) = 0.2, 0.3, 0.2, 0.2, 0.1; fixed cost **$8,000**; each item brings **$2**. **Profit = 2X - 8,000.** Find the variance of the profit using the Type 2 approach.\n\n**Step 1: E(X²)**\n\nE(X²) = (5,000)²(0.2) + (6,000)²(0.3) + (7,000)²(0.2) + (8,000)²(0.2) + (9,000)²(0.1) = **46,500,000**\n\n**Step 2: V(X)**, with E(X) = **6,700**:\n\nV(X) = E(X²) - [E(X)]² = 46,500,000 - (6,700)² = **1,610,000**\n\n**Step 3: variance of the profit.** The slide multiplies by the square of the multiplier 2 (it cites its equation 3-10):\n\n2²(1,610,000) = **6,440,000**\n\n**Step 4: standard deviation of the profit:** √6,440,000 = **2,537.72**\n\nNotice the fixed $8,000 does not appear in step 3: only the multiplier 2 matters, and it is squared.",
+      "example_ids": [
+        "qtm-ex-m3-profit-variance"
+      ],
+      "key_terms": [],
+      "exam_line": "V(X) = 46,500,000 - (6,700)² = 1,610,000; variance of profit = 2²(1,610,000) = 6,440,000; standard deviation of profit = 2,537.72.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m3-variance-sd-q-a888455b",
+          "type": "mcq",
+          "stem": "What is the variance of the monthly profit 2X - 8,000?",
+          "options": [
+            "6,440,000",
+            "1,610,000",
+            "3,220,000",
+            "46,500,000"
+          ],
+          "answer": "6,440,000",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#45"
+          ],
+          "derived": [
+            "3220000"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m3-variance-sd-q-c08a9f83",
+          "type": "fill",
+          "stem": "The standard deviation of the profit is √6,440,000 = ____.",
+          "options": [],
+          "answer": "2,537.72",
+          "accept": [
+            "2537.72",
+            "$2,537.72"
+          ],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#45"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m3-variance-sd-q-cdc23c99",
+          "type": "true_false",
+          "stem": "In the slide's working, V(X) = 46,500,000 - (6,700)² = 1,610,000.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#45"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-3#44",
+        "qtm--module-3#45"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-variance-sd-c6",
+      "heading": "Exercise: the oil well",
+      "explanation_md": "An oil well investment has three outcomes:\n\n| x = outcome in $ | p(x) |\n|---|---|\n| -40,000 (no oil) | .25 |\n| 10,000 (some oil) | .7 |\n| 70,000 (much oil) | .05 |\n\nNo answers are printed on the slide, so here is the working with the deck's formulas.\n\n**Q1. Expected monetary outcome, E(X) = Σ x P(x):**\n\n(-40,000)(.25) + (10,000)(.7) + (70,000)(.05) = -10,000 + 7,000 + 3,500 = **$500**\n\n**Q2. Variance, using Method 2:**\n\nE(X²) = (40,000)²(.25) + (10,000)²(.7) + (70,000)²(.05) = 400,000,000 + 70,000,000 + 245,000,000 = 715,000,000\n\nV(X) = 715,000,000 - (500)² = 715,000,000 - 250,000 = **714,750,000**\n\nStandard deviation = √714,750,000 ≈ **26,734.81**\n\nA small positive expected outcome with a huge standard deviation: a risky investment.",
+      "example_ids": [
+        "qtm-ex-m3-oil-well"
+      ],
+      "key_terms": [],
+      "exam_line": "Oil well: E(X) = -10,000 + 7,000 + 3,500 = $500; V(X) = 715,000,000 - 500² = 714,750,000.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m3-variance-sd-q-e54a09f8",
+          "type": "mcq",
+          "stem": "What is the expected monetary outcome of the oil well?",
+          "options": [
+            "$500",
+            "$13,333",
+            "-$40,000",
+            "$10,000"
+          ],
+          "answer": "$500",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#46"
+          ],
+          "derived": [
+            "500",
+            "13333"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m3-variance-sd-q-4d3d20b6",
+          "type": "true_false",
+          "stem": "To find the oil well's expected outcome, multiply each outcome by its probability and add.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#46",
+            "qtm--module-3#36"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-3#46",
+        "qtm--module-3#36",
+        "qtm--module-3#41",
+        "qtm--module-3#40"
+      ],
+      "derived": [
+        "7000",
+        "3500",
+        "500",
+        "400000000",
+        "70000000",
+        "245000000",
+        "715000000",
+        "250000",
+        "714750000",
+        "26734.81"
+      ],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "qtm-m3-variance-sd-f1",
+      "front": "Variance (Method 1)",
+      "back": "σ² = V(X) = E[(X - μ)²] = Σ (x - μ)² P(x).",
+      "kind": "formula",
+      "source_refs": [
+        "qtm--module-3#41"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-variance-sd-f2",
+      "front": "Variance (Method 2, computational)",
+      "back": "σ² = V(X) = E(X²) - [E(X)]².",
+      "kind": "formula",
+      "source_refs": [
+        "qtm--module-3#41"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-variance-sd-f3",
+      "front": "Standard deviation of a random variable",
+      "back": "σ = SD(X) = √V(X).",
+      "kind": "formula",
+      "source_refs": [
+        "qtm--module-3#41"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-variance-sd-f4",
+      "front": "Which investment is riskier?",
+      "back": "With the same expected return, the one with the higher standard deviation.",
+      "kind": "fact",
+      "source_refs": [
+        "qtm--module-3#40"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-variance-sd-f5",
+      "front": "Dialing switches: E(X), E(X²), V(X)",
+      "back": "E(X) = 2.3; E(X²) = 7.3; V(X) = 7.3 - (2.3)² = 2.01.",
+      "kind": "example",
+      "source_refs": [
+        "qtm--module-3#43"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-variance-sd-f6",
+      "front": "Monthly profit 2X - 8,000: variance and standard deviation",
+      "back": "V(X) = 1,610,000; variance of profit = 2²(1,610,000) = 6,440,000; standard deviation = 2,537.72.",
+      "kind": "example",
+      "source_refs": [
+        "qtm--module-3#45"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [],
+  "explain_back": {
+    "prompt": "Explain variance and standard deviation of a random variable, give both formulas, and work through the dialing switches example.",
+    "rubric": [
+      {
+        "point": "Variance measures dispersion about the mean; SD is its square root; higher SD means riskier for the same expected return",
+        "source_ref": "qtm--module-3#40"
+      },
+      {
+        "point": "Method 1: Σ (x - μ)² P(x); Method 2: E(X²) - [E(X)]²; SD = √V(X)",
+        "source_ref": "qtm--module-3#41"
+      },
+      {
+        "point": "Switches: E(X) = 2.3 and Σ (x - 2.3)² P(x) = 2.01",
+        "source_ref": "qtm--module-3#42"
+      },
+      {
+        "point": "Shortcut: 7.3 - (2.3)² = 2.01",
+        "source_ref": "qtm--module-3#43"
+      },
+      {
+        "point": "Profit example: variance of 2X - 8,000 = 2²(1,610,000) = 6,440,000",
+        "source_ref": "qtm--module-3#45"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

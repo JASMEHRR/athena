@@ -1,0 +1,369 @@
+{
+  "id": "qtm-m3-normal-examples",
+  "subject_id": "qtm",
+  "deck_id": "qtm--module-3",
+  "title": "Worked normal distribution problems",
+  "order": 312,
+  "summary": "Three solved normal problems from the deck: the toll plaza response time (between, opposite sides of the mean), semiconductor impurities (less than), and the daily gold price (between, same side of the mean).",
+  "est_minutes": 25,
+  "difficulty": 3,
+  "source_refs": [
+    "qtm--module-3#61",
+    "qtm--module-3#62",
+    "qtm--module-3#63",
+    "qtm--module-3#64"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "qtm-m3-normal-examples-c1",
+      "heading": "Toll plaza: between two values on opposite sides of the mean",
+      "explanation_md": "**Question:** the time for the electronic device in a car to respond to the toll plaza signal is normal with **mean 160 microseconds** and **standard deviation 30**. What is the probability it responds within **100 to 180 microseconds**?\n\n**Step 1: convert both ends to z.**\n\nP(100 < X < 180) = P((100 - μ)/σ < (X - μ)/σ < (180 - μ)/σ)\n\n= P((100 - 160)/30 < Z < (180 - 160)/30)\n\n= P(-2 < Z < 0.6666)\n\n**Step 2: read the table and combine.** The two z values are on **opposite sides of 0**, so **add** the two areas from 0 (the curve is symmetric, so the area from -2 to 0 equals the area from 0 to 2):\n\n= 0.4772 + 0.2475 = **0.7247**\n\nThe slide's picture shows the X curve (100 to 180 shaded) and the Z curve (-2 to 0.6666 shaded) with **equal areas = 0.7247**.",
+      "example_ids": [
+        "qtm-ex-m3-toll-plaza"
+      ],
+      "key_terms": [],
+      "exam_line": "Toll plaza: P(100 < X < 180) = P(-2 < Z < 0.6666) = 0.4772 + 0.2475 = 0.7247.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m3-normal-examples-q-4c580d61",
+          "type": "mcq",
+          "stem": "In the toll plaza example, what z value corresponds to 100 microseconds?",
+          "options": [
+            "-2",
+            "2",
+            "-0.6666",
+            "0.6666"
+          ],
+          "answer": "-2",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#62"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m3-normal-examples-q-a65b3d72",
+          "type": "mcq",
+          "stem": "What is the probability the device responds within 100 to 180 microseconds?",
+          "options": [
+            "0.7247",
+            "0.2525",
+            "0.4772",
+            "0.2297"
+          ],
+          "answer": "0.7247",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#62"
+          ],
+          "derived": [
+            "0.2525",
+            "0.2297"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m3-normal-examples-q-b14dc95b",
+          "type": "true_false",
+          "stem": "Because -2 and 0.6666 are on opposite sides of 0, the slide adds the two table areas.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#62"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-3#61",
+        "qtm--module-3#62"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-normal-examples-c2",
+      "heading": "Semiconductor impurities: less than a value",
+      "explanation_md": "**Question:** impurity concentration in a semiconductor is normal with **mean 127 parts per million** and **standard deviation 22**. A semiconductor is acceptable only if impurities are **below 150 parts per million**. What proportion is acceptable?\n\n**Step 1: convert to z.**\n\nP(X < 150) = P((X - μ)/σ < (150 - μ)/σ) = P(Z < (150 - 127)/22)\n\n= P(Z < 1.045)\n\n**Step 2: less than a positive z means the whole left half plus the area from 0 to z:**\n\n= 0.5 + 0.3520 = **0.8520**\n\nSo about **85.2%** of semiconductors are acceptable. The picture shows equal areas = 0.8520 under the X and Z curves.",
+      "example_ids": [
+        "qtm-ex-m3-semiconductor"
+      ],
+      "key_terms": [],
+      "exam_line": "Semiconductors: P(X < 150) = P(Z < (150 - 127)/22) = P(Z < 1.045) = 0.5 + 0.3520 = 0.8520.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m3-normal-examples-q-48a245e2",
+          "type": "mcq",
+          "stem": "What proportion of semiconductors are acceptable (impurities below 150 ppm)?",
+          "options": [
+            "0.8520",
+            "0.3520",
+            "0.1480",
+            "0.5"
+          ],
+          "answer": "0.8520",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#63"
+          ],
+          "derived": [
+            "0.1480"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m3-normal-examples-q-22c326c0",
+          "type": "fill",
+          "stem": "For the semiconductors, z = (150 - 127)/22 = ____.",
+          "options": [],
+          "answer": "1.045",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#63"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m3-normal-examples-q-85916776",
+          "type": "true_false",
+          "stem": "In this example, 0.5 is added because the whole area to the left of the mean is included.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#63"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-3#63"
+      ],
+      "derived": [
+        "85.2"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-normal-examples-c3",
+      "heading": "Gold price: between two values on the same side",
+      "explanation_md": "**Question:** in May 1995 the daily price of gold (1 troy ounce) was taken as normal with **mean $383** and **standard deviation $12**. A broker has an order to sell the client's gold if the next day's price is **between $394 and $399**. What is the probability the gold is sold the next day?\n\n**Step 1: convert to z.**\n\nP(394 < X < 399) = P((394 - μ)/σ < (X - μ)/σ < (399 - μ)/σ)\n\n= P((394 - 383)/12 < Z < (399 - 383)/12)\n\n= P(0.9166 < Z < 1.3333)\n\n**Step 2: both z values are above 0, so subtract the smaller area from the larger:**\n\n= 0.4088 - 0.3203 = **0.0885**\n\nThe slide's picture shows a thin shaded slice between 394 and 399 and the same area = 0.0885 between z = 0.92 and 1.33.",
+      "example_ids": [
+        "qtm-ex-m3-gold-price"
+      ],
+      "key_terms": [],
+      "exam_line": "Gold: P(394 < X < 399) = P(0.9166 < Z < 1.3333) = 0.4088 - 0.3203 = 0.0885.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m3-normal-examples-q-3ed9eba2",
+          "type": "mcq",
+          "stem": "What is the probability that the client's gold will be sold the next day?",
+          "options": [
+            "0.0885",
+            "0.7291",
+            "0.4088",
+            "0.3203"
+          ],
+          "answer": "0.0885",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#64"
+          ],
+          "derived": [
+            "0.7291"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m3-normal-examples-q-17b44237",
+          "type": "mcq",
+          "stem": "Why does the gold example subtract the two table areas?",
+          "options": [
+            "Both z values are on the same side of 0",
+            "The z values are on opposite sides of 0",
+            "The distribution is uniform"
+          ],
+          "answer": "Both z values are on the same side of 0",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#64"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m3-normal-examples-q-ba2e73f9",
+          "type": "fill",
+          "stem": "In the gold example, z for $399 is (399 - 383)/12 = ____.",
+          "options": [],
+          "answer": "1.3333",
+          "accept": [
+            "1.33"
+          ],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#64"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-3#64"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "qtm-m3-normal-examples-f1",
+      "front": "Toll plaza answer",
+      "back": "P(100 < X < 180) = P(-2 < Z < 0.6666) = 0.4772 + 0.2475 = 0.7247.",
+      "kind": "example",
+      "source_refs": [
+        "qtm--module-3#62"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-normal-examples-f2",
+      "front": "Semiconductor answer",
+      "back": "P(X < 150) = P(Z < 1.045) = 0.5 + 0.3520 = 0.8520.",
+      "kind": "example",
+      "source_refs": [
+        "qtm--module-3#63"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-normal-examples-f3",
+      "front": "Gold price answer",
+      "back": "P(394 < X < 399) = P(0.9166 < Z < 1.3333) = 0.4088 - 0.3203 = 0.0885.",
+      "kind": "example",
+      "source_refs": [
+        "qtm--module-3#64"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-normal-examples-f4",
+      "front": "Between two z values: add or subtract?",
+      "back": "Opposite sides of 0: add the two areas (toll plaza). Same side: subtract (gold).",
+      "kind": "fact",
+      "source_refs": [
+        "qtm--module-3#62",
+        "qtm--module-3#64"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [],
+  "explain_back": {
+    "prompt": "Walk through how to solve a normal probability problem, using the toll plaza and semiconductor examples.",
+    "rubric": [
+      {
+        "point": "Convert each x to z = (x - μ)/σ, e.g. (100 - 160)/30 = -2 and (180 - 160)/30 = 0.6666",
+        "source_ref": "qtm--module-3#62"
+      },
+      {
+        "point": "Opposite sides of the mean: add areas, 0.4772 + 0.2475 = 0.7247",
+        "source_ref": "qtm--module-3#62"
+      },
+      {
+        "point": "Less than a positive z: 0.5 + area, P(Z < 1.045) = 0.5 + 0.3520 = 0.8520",
+        "source_ref": "qtm--module-3#63"
+      },
+      {
+        "point": "Same side of the mean: subtract areas, 0.4088 - 0.3203 = 0.0885",
+        "source_ref": "qtm--module-3#64"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

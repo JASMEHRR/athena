@@ -1,0 +1,627 @@
+{
+  "id": "qtm-m3-probability-basics",
+  "subject_id": "qtm",
+  "deck_id": "qtm--module-3",
+  "title": "What probability is: types, terms and first examples",
+  "order": 301,
+  "summary": "Why managers need probability, the 0 to 1 scale, classical, empirical and subjective probability, the key terms (experiment, outcome, sample space, event), and the professor's card, gambling and business examples.",
+  "est_minutes": 25,
+  "difficulty": 1,
+  "source_refs": [
+    "qtm--module-3#2",
+    "qtm--module-3#3",
+    "qtm--module-3#4",
+    "qtm--module-3#5",
+    "qtm--module-3#7",
+    "qtm--module-3#6",
+    "qtm--module-3#8"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "qtm-m3-probability-basics-c1",
+      "heading": "Why probability matters in business",
+      "explanation_md": "Your professor opens with one line: **decisions under uncertainty are everywhere in management**. Three examples from the slide:\n\n- Will a **new product launch** succeed?\n- What is the likelihood a **key client defaults** on payment?\n- How do **supply chain disruptions** affect fulfillment rates?\n\nNone of these has a sure answer, so we need a way to measure *how likely* each outcome is. That is probability.\n\n**Probability quantifies uncertainty** by assigning a number **from 0 to 1** for the likelihood that an event occurs. 0 means it cannot happen; 1 means it is certain.\n\nIn business, probability helps you **gauge risk, optimise resources and improve forecasting**.",
+      "example_ids": [
+        "qtm-ex-m3-business-uncertainty"
+      ],
+      "key_terms": [
+        {
+          "term": "Probability",
+          "meaning": "A number from 0 to 1 that quantifies the likelihood that an event occurs.",
+          "source_ref": "qtm--module-3#3"
+        }
+      ],
+      "exam_line": "Probability quantifies uncertainty by assigning a number from 0 to 1 to the likelihood of an event; in business it helps gauge risk, optimise resources and improve forecasting.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m3-probability-basics-q-78a0d501",
+          "type": "mcq",
+          "stem": "Probability assigns a number in which range to the likelihood of an event?",
+          "options": [
+            "0 to 1",
+            "1 to 10",
+            "minus 1 to 1",
+            "0 to infinity"
+          ],
+          "answer": "0 to 1",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#3"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m3-probability-basics-q-9f20e2a3",
+          "type": "mcq",
+          "stem": "According to the slide, probability helps a business do which three things?",
+          "options": [
+            "Gauge risk, optimise resources and improve forecasting",
+            "Hire staff, set prices and design ads",
+            "Audit accounts, file taxes and raise capital"
+          ],
+          "answer": "Gauge risk, optimise resources and improve forecasting",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#3"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m3-probability-basics-q-3d57e49c",
+          "type": "true_false",
+          "stem": "The deck gives 'will a new product launch succeed?' as an example of a decision under uncertainty.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#2"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-3#2",
+        "qtm--module-3#3"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-probability-basics-c2",
+      "heading": "Three types of probability",
+      "explanation_md": "The slide names **three types of probability**. Learn each with its example:\n\n1. **Classical (theoretical):** all outcomes are **equally likely**. Example: **dice, coins**. You can work it out before anything happens.\n2. **Empirical (relative frequency):** based on **observations or experiments**. Example: **late deliveries out of the last 100**. You count what actually happened.\n3. **Subjective:** based on **personal judgment or experience**. Example: **a manager's estimate**.\n\nQuick way to remember: classical comes from *logic*, empirical from *data*, subjective from *judgment*.",
+      "example_ids": [
+        "qtm-ex-m3-probability-types-examples"
+      ],
+      "key_terms": [
+        {
+          "term": "Classical (theoretical) probability",
+          "meaning": "All outcomes equally likely, e.g. dice, coins.",
+          "source_ref": "qtm--module-3#4"
+        },
+        {
+          "term": "Empirical (relative frequency) probability",
+          "meaning": "Based on observations or experiments, e.g. late deliveries out of the last 100.",
+          "source_ref": "qtm--module-3#4"
+        },
+        {
+          "term": "Subjective probability",
+          "meaning": "Based on personal judgment or experience, e.g. a manager's estimate.",
+          "source_ref": "qtm--module-3#4"
+        }
+      ],
+      "exam_line": "Three types: classical (equally likely outcomes, dice and coins), empirical or relative frequency (observations, late deliveries out of the last 100), subjective (judgment, a manager's estimate).",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m3-probability-basics-q-d6de6852",
+          "type": "mcq",
+          "stem": "'Late deliveries out of the last 100' is an example of which type of probability?",
+          "options": [
+            "Empirical (relative frequency)",
+            "Classical (theoretical)",
+            "Subjective"
+          ],
+          "answer": "Empirical (relative frequency)",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#4"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m3-probability-basics-q-0c581ba3",
+          "type": "mcq",
+          "stem": "A manager's estimate is an example of:",
+          "options": [
+            "Subjective probability",
+            "Classical probability",
+            "Empirical probability"
+          ],
+          "answer": "Subjective probability",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#4"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m3-probability-basics-q-3de1deba",
+          "type": "fill",
+          "stem": "Classical probability assumes all outcomes are equally ____.",
+          "options": [],
+          "answer": "likely",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#4"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-3#4"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-probability-basics-c3",
+      "heading": "Key terms: experiment, outcome, sample space, event",
+      "explanation_md": "Four words you must define precisely:\n\n- **Experiment:** any **repeatable process with an uncertain outcome**. Examples: rolling dice, shipping a product.\n- **Outcome:** the **result of a single trial**. Example: \"product arrives late\".\n- **Sample space (S):** the **set of all possible outcomes**.\n- **Event:** a **subset of outcomes**. Examples: \"shipment is delivered\" or \"at least one defective item\".\n\nThe slide's picture is a rectangle (the sample space of all outcomes) holding circles A and B; each circle is an event.\n\n**Example 2 (the gamble):** Gaurav and the speaker roll a die. Gaurav wins on **odd** numbers, the speaker wins on **even** numbers. So **{1, 3, 5}** and **{2, 4, 6}** are **both subsets of S**, which makes each of them an event. The slide draws them as two small circles inside one big circle (S).",
+      "example_ids": [
+        "qtm-ex-m3-terminology-examples",
+        "qtm-ex-m3-odd-even-gamble"
+      ],
+      "key_terms": [
+        {
+          "term": "Experiment",
+          "meaning": "Any repeatable process with an uncertain outcome (e.g. rolling dice, shipping a product).",
+          "source_ref": "qtm--module-3#5"
+        },
+        {
+          "term": "Outcome",
+          "meaning": "The result of a single trial (e.g. product arrives late).",
+          "source_ref": "qtm--module-3#5"
+        },
+        {
+          "term": "Sample space (S)",
+          "meaning": "The set of all possible outcomes.",
+          "source_ref": "qtm--module-3#5"
+        },
+        {
+          "term": "Event",
+          "meaning": "A subset of outcomes (e.g. shipment is delivered, at least one defective item).",
+          "source_ref": "qtm--module-3#5"
+        }
+      ],
+      "exam_line": "Experiment = repeatable process with uncertain outcome; outcome = result of one trial; sample space S = set of all possible outcomes; event = a subset of outcomes.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m3-probability-basics-q-5c842008",
+          "type": "mcq",
+          "stem": "Which term means 'the set of all possible outcomes'?",
+          "options": [
+            "Sample space",
+            "Event",
+            "Experiment",
+            "Outcome"
+          ],
+          "answer": "Sample space",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#5"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m3-probability-basics-q-6cc0d205",
+          "type": "mcq",
+          "stem": "In the odd and even gamble, what are {1, 3, 5} and {2, 4, 6}?",
+          "options": [
+            "Subsets of S, so they are events",
+            "Two different sample spaces",
+            "Single outcomes",
+            "Experiments"
+          ],
+          "answer": "Subsets of S, so they are events",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#7",
+            "qtm--module-3#5"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m3-probability-basics-q-0908d740",
+          "type": "fill",
+          "stem": "An event is a ____ of outcomes.",
+          "options": [],
+          "answer": "subset",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#5"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-3#5",
+        "qtm--module-3#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-probability-basics-c4",
+      "heading": "Classical example: drawing an ace",
+      "explanation_md": "**Example 1.** One card is drawn from a deck. The **sample space is 52 cards**, and every card has an equal chance, so this is classical probability:\n\n**P(event) = number of outcomes in the event / size of the sample space**\n\n**a) P(Ace)**: a deck has **4 aces** and **52 cards**, so the size of A is 4 and the size of the sample space is 52.\n\nP(Ace) = **4/52 = 1/13**\n\n**b) P(Ace of Hearts)**: there is only **1** Ace of Hearts among 52 cards.\n\nP(Ace of Hearts) = **1/52**",
+      "example_ids": [
+        "qtm-ex-m3-ace-cards"
+      ],
+      "key_terms": [],
+      "exam_line": "P(Ace) = 4/52 = 1/13; P(Ace of Hearts) = 1/52 (size of the event divided by the size of the sample space).",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m3-probability-basics-q-23dbfca1",
+          "type": "mcq",
+          "stem": "What is the probability of drawing an Ace from a deck of 52 cards?",
+          "options": [
+            "1/13",
+            "1/52",
+            "4/13",
+            "1/4"
+          ],
+          "answer": "1/13",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#6"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m3-probability-basics-q-83c66e32",
+          "type": "fill",
+          "stem": "The probability of picking the Ace of Hearts from 52 cards is 1/____.",
+          "options": [],
+          "answer": "52",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#6"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m3-probability-basics-q-76bc1490",
+          "type": "true_false",
+          "stem": "In the ace example, the size of event A is 4 and the size of the sample space is 52.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#6"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-3#6"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-probability-basics-c5",
+      "heading": "Probability in action: three business cases",
+      "explanation_md": "Each case uses past data (empirical probability): **times it happened / total observations**.\n\n**Case 1 (logistics):** on average **4 out of 100** deliveries are late. Probability a random delivery is late next week:\n\n4/100 = **0.04 or 4%**\n\n**Case 2 (loans):** historically **3 out of every 100** business loan applications default. Probability a new applicant defaults:\n\n3/100 = **0.03 or 3%**\n\n**Case 3 (retail):** in the past **200 sales days**, **10 days** had key item stockouts. Probability of a stockout on any given day:\n\n10/200 = **0.05 or 5%**",
+      "example_ids": [
+        "qtm-ex-m3-business-cases"
+      ],
+      "key_terms": [],
+      "exam_line": "Empirical probability = times it happened / total: late delivery 4/100 = 0.04; loan default 3/100 = 0.03; stockout 10/200 = 0.05.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m3-probability-basics-q-5970156b",
+          "type": "mcq",
+          "stem": "A retail manager saw stockouts on 10 of the past 200 sales days. What is the probability of a stockout on a given day?",
+          "options": [
+            "0.05",
+            "0.5",
+            "0.02",
+            "0.10"
+          ],
+          "answer": "0.05",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#8"
+          ],
+          "derived": [
+            "0.02",
+            "0.5",
+            "0.10"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m3-probability-basics-q-ca2d68fe",
+          "type": "fill",
+          "stem": "If 3 out of every 100 business loans default, the probability a new applicant defaults is ____.",
+          "options": [],
+          "answer": "0.03",
+          "accept": [
+            "3%",
+            "3/100",
+            ".03"
+          ],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#8"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m3-probability-basics-q-b064eacc",
+          "type": "true_false",
+          "stem": "The three business cases use empirical (relative frequency) probability, based on past observations.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-3#8",
+            "qtm--module-3#4"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-3#8",
+        "qtm--module-3#4"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "qtm-m3-probability-basics-f1",
+      "front": "What is probability?",
+      "back": "It quantifies uncertainty by assigning a number from 0 to 1 for the likelihood that an event occurs.",
+      "kind": "term",
+      "source_refs": [
+        "qtm--module-3#3"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-probability-basics-f2",
+      "front": "Three types of probability",
+      "back": "Classical (theoretical): equally likely outcomes, e.g. dice, coins. Empirical (relative frequency): observations, e.g. late deliveries out of the last 100. Subjective: judgment, e.g. a manager's estimate.",
+      "kind": "list",
+      "source_refs": [
+        "qtm--module-3#4"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-probability-basics-f3",
+      "front": "Experiment vs outcome",
+      "back": "Experiment: any repeatable process with uncertain outcome. Outcome: the result of a single trial.",
+      "kind": "term",
+      "source_refs": [
+        "qtm--module-3#5"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-probability-basics-f4",
+      "front": "Sample space (S) vs event",
+      "back": "Sample space: the set of all possible outcomes. Event: a subset of outcomes.",
+      "kind": "term",
+      "source_refs": [
+        "qtm--module-3#5"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-probability-basics-f5",
+      "front": "P(Ace) and P(Ace of Hearts) from 52 cards",
+      "back": "4/52 = 1/13 and 1/52.",
+      "kind": "example",
+      "source_refs": [
+        "qtm--module-3#6"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-probability-basics-f6",
+      "front": "Late deliveries: 4 out of 100",
+      "back": "P(late) = 4/100 = 0.04 or 4%.",
+      "kind": "example",
+      "source_refs": [
+        "qtm--module-3#8"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-probability-basics-f7",
+      "front": "Stockouts: 10 of the past 200 sales days",
+      "back": "P(stockout) = 10/200 = 0.05 or 5%.",
+      "kind": "example",
+      "source_refs": [
+        "qtm--module-3#8"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [],
+  "explain_back": {
+    "prompt": "Explain what probability is, the three types of probability, and the four basic terms, using the professor's examples.",
+    "rubric": [
+      {
+        "point": "Probability quantifies uncertainty with a number from 0 to 1; it helps gauge risk, optimise resources and improve forecasting",
+        "source_ref": "qtm--module-3#3"
+      },
+      {
+        "point": "Classical (equally likely, dice and coins), empirical (observations, late deliveries out of the last 100), subjective (a manager's estimate)",
+        "source_ref": "qtm--module-3#4"
+      },
+      {
+        "point": "Experiment, outcome, sample space (all possible outcomes) and event (a subset of outcomes)",
+        "source_ref": "qtm--module-3#5"
+      },
+      {
+        "point": "Worked example such as P(Ace) = 4/52 = 1/13",
+        "source_ref": "qtm--module-3#6"
+      },
+      {
+        "point": "Business case such as 4 of 100 deliveries late gives 0.04",
+        "source_ref": "qtm--module-3#8"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}
