@@ -27,6 +27,17 @@ Not ready yet. When it is, double-click `scripts\start-athena.bat`.
 3. **Old past papers in your Downloads folder.** The 2025 MST papers for QTM, FAR, MM, OML, SiP-I and AIB were downloaded but never moved. Put them in `inbox\_pyqs\`.
 4. **Four files I skipped because I wasn't sure your professor shared them:** `FAR\Havells India Ltd Analysis.pdf`, `FAR\CIN details.pdf`, `FAR\Reading 1_Conceptual Framework.pdf` (86-page reading), and the OML Robbins textbook. If any are from your professor and you want lessons from them, tell me.
 
+5. **Optional: let Athena pull slides from Google Classroom.** Free, but it needs a one-time setup in your own Google account (about 10 minutes):
+   1. Go to console.cloud.google.com and sign in with your Thapar account (jsingh_mba26@thapar.edu).
+   2. Top bar: project picker, then **New project**, name it `Athena`, **Create**.
+   3. Menu, **APIs & Services**, **Library**: search **Google Classroom API**, click **Enable**. Do the same for **Google Drive API**.
+   4. **APIs & Services**, **OAuth consent screen**: choose **External** (or Internal if offered), app name `Athena`, your email in both email boxes, **Save and continue** through the screens.
+   5. On **Test users**, click **Add users** and add your own email. (Warning: in Testing mode Google makes you sign in again every 7 days. That is normal.)
+   6. **APIs & Services**, **Credentials**, **Create credentials**, **OAuth client ID**, application type **Desktop app**, **Create**, then **Download JSON**.
+   7. Rename the downloaded file to `credentials.json` and put it in the `secrets` folder inside the Athena folder (create the folder if needed).
+   8. Open PowerShell in the Athena folder and run `.venv\Scripts\python -m athena.sync_classroom`. A browser window asks you to allow read-only access. It downloads slides into `inbox\` and adds assignment due dates to the Plan calendar.
+   Warning: your university may block third-party apps on Thapar accounts. If Google says the app is blocked, skip this and keep using the inbox folder.
+
 After adding files, run `.\run-overnight.ps1 -Spec REFRESH.md` (REFRESH.md is written later in this build).
 
 ## What I decided for you

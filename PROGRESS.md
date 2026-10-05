@@ -92,7 +92,8 @@ No exam dates, so round-robin across subjects. Validate, ground and cover each d
 ## P7 Library and extras
 - [ ] P7.1 Frameworks, examples catalog, cross-subject links, PYQ pages, search.
 - [ ] P7.2 YouTube picks: one yt-dlp search per topic, 3 seconds apart, cached; 3 picks per topic labelled "Extra help, not exam source".
-- [ ] P7.3 Classroom sync, tested with mocks.
+- [x] P7.3 Classroom sync, tested with mocks.
+  - athena/sync_classroom.py: read-only scopes, ACTIVE courses, materials/coursework/announcements Drive files, PPT/PPTX/PDF + Slides exported to PPTX into inbox/<Course>/, skip by file id + modifiedTime (data/classroom_state.json), due dates into p_deadlines (shown on Plan). Fake-client tests in tests/test_sync_classroom.py. Setup steps in MORNING.md.
 - [ ] P7.4 Review queue, REFRESH.md, refresh button, /api/v1/summary.
 
 ## P8 Finish
@@ -130,6 +131,7 @@ No exam dates, so round-robin across subjects. Validate, ground and cover each d
 | sce--list-of-business-ideas | sce | yes | | | |
 | sce--step-startup-pitching-template-very-early-stage | sce | yes | | | |
 | sip1--sip-2026-27-organization-selection-presentation-po | sip1 | yes | | | |
+
 
 
 
