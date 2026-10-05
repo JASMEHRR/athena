@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "athena-test",
+      "runtimeExecutable": ".venv\\Scripts\\python.exe",
+      "runtimeArgs": ["-m", "athena.server", "--port", "8766", "--no-browser", "--db", "data/test.db", "--import-content"],
+      "port": 8766
+    }
+  ]
+}
