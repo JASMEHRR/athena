@@ -72,7 +72,8 @@ No exam dates, so round-robin across subjects. Validate, ground and cover each d
 ## P5 Planning and nudges
 - [x] P5.1 Planner, Plan page, .ics export, Settings.
   - planner.py rules unit-tested in tests/test_planner.py; plan.js day/week/month, re-plan, mark done/skip; /api/v1/plan/export.ics; settings.js (exam dates override content/exams.json, study minutes, days off, reminders, display, backup/export, refresh request).
-- [ ] P5.2 Nudges with dry run and the ntfy option; install and uninstall scripts (do not run them).
+- [x] P5.2 Nudges with dry run and the ntfy option; install and uninstall scripts (do not run them).
+  - athena/nudge.py (morning, reviews, neglected, exam close, streak at risk, wrap-up; max 4/day, quiet hours, no repeats), scripts/run_nudge.pyw + run_server.pyw (windowless, log to data/), install-reminders.ps1 (per-user tasks in \Athena\, Startup shortcut, random ntfy topic, phone push stays off) and uninstall-reminders.ps1. Parse-checked, NOT run. tests/test_nudge.py.
 - [x] P5.3 Insights page.
   - insights.py + insights.js: heatmap, time per subject, accuracy and minutes per day (SVG), 12-week streak calendar, totals.
 
@@ -128,6 +129,7 @@ No exam dates, so round-robin across subjects. Validate, ground and cover each d
 | sce--list-of-business-ideas | sce | yes | | | |
 | sce--step-startup-pitching-template-very-early-stage | sce | yes | | | |
 | sip1--sip-2026-27-organization-selection-presentation-po | sip1 | yes | | | |
+
 
 
 
