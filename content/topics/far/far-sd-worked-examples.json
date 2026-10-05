@@ -1,0 +1,615 @@
+{
+  "id": "far-sd-worked-examples",
+  "subject_id": "far",
+  "deck_id": "far--session-discussion-31-july-2026",
+  "title": "Worked examples: classify, total and verify",
+  "order": 202,
+  "summary": "The three-step method on Sunrise Traders Pvt. Ltd. and Om Enterprises: list the items, classify into the five elements, verify the accounting equation; plus the two teaching notes.",
+  "est_minutes": 25,
+  "difficulty": 2,
+  "source_refs": [
+    "far--session-discussion-31-july-2026#2",
+    "far--session-discussion-31-july-2026#3",
+    "far--session-discussion-31-july-2026#4",
+    "far--session-discussion-31-july-2026#5",
+    "far--session-discussion-31-july-2026#6",
+    "far--session-discussion-31-july-2026#8"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "far-sd-worked-examples-c1",
+      "heading": "The three-step method",
+      "explanation_md": "Both worked examples follow the same three steps:\n\n1. **Step 1, accounting items:** list every account with its amount.\n2. **Step 2, classification into the five elements:** sort each item under assets, liabilities, equity, income or expenses, and total each group.\n3. **Step 3, verify the accounting equation:** check that assets = liabilities + equity.\n\nEquity gets one extra line: **share capital + retained earnings (opening) + net profit for the year**. Net profit comes from the income and expense groups, which is the thread from the definitions: net profit flows into retained earnings, part of equity.\n\n**Teaching note:** *always foot the trial balance (total debits = total credits) before classifying anything into the five elements.* An unbalanced trial balance will **silently corrupt the equity figure** and break the accounting equation downstream.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Foot the trial balance",
+          "meaning": "Check that total debits = total credits before classifying anything.",
+          "source_ref": "far--session-discussion-31-july-2026#4"
+        }
+      ],
+      "exam_line": "Three steps: list the items, classify into the five elements with totals, verify Assets = Liabilities + Equity. Foot the trial balance first.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "far-sd-worked-examples-q-52d3a563",
+          "type": "mcq",
+          "stem": "What should you always do before classifying items into the five elements?",
+          "options": [
+            "Foot the trial balance (total debits = total credits)",
+            "Verify the accounting equation",
+            "Add net profit for the year to equity"
+          ],
+          "answer": "Foot the trial balance (total debits = total credits)",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--session-discussion-31-july-2026#4"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-sd-worked-examples-q-19bac234",
+          "type": "true_false",
+          "stem": "According to the teaching note, an unbalanced trial balance can silently corrupt the equity figure.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--session-discussion-31-july-2026#4"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-sd-worked-examples-q-dc383edb",
+          "type": "fill",
+          "stem": "Step 3 is to verify the accounting ____.",
+          "options": [],
+          "answer": "equation",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--session-discussion-31-july-2026#4",
+            "far--session-discussion-31-july-2026#6"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "far--session-discussion-31-july-2026#2",
+        "far--session-discussion-31-july-2026#3",
+        "far--session-discussion-31-july-2026#4",
+        "far--session-discussion-31-july-2026#5",
+        "far--session-discussion-31-july-2026#6"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-sd-worked-examples-c2",
+      "heading": "Sunrise Traders: assets, liabilities and equity",
+      "explanation_md": "**Sunrise Traders Pvt. Ltd.**, classified:\n\n**Assets:** cash at bank 80,000, accounts receivable 40,000, inventory 60,000, furniture & fixtures 1,00,000. **Total assets = 2,80,000.**\n\n**Liabilities:** accounts payable 30,000, bank loan (long-term) 1,50,000. **Total liabilities = 1,80,000.**\n\n**Equity:** share capital 50,000 + retained earnings (opening) 0 + net profit for the year 50,000. **Total equity = 1,00,000.**\n\n**Step 3:** Assets (2,80,000) = Liabilities (1,80,000) + Equity (1,00,000). **The equation balances.**",
+      "example_ids": [
+        "far-ex-sd-sunrise-traders"
+      ],
+      "key_terms": [],
+      "exam_line": "Sunrise Traders: Assets 2,80,000 = Liabilities 1,80,000 + Equity 1,00,000.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "far-sd-worked-examples-q-bcb1662d",
+          "type": "mcq",
+          "stem": "What are Sunrise Traders' total assets?",
+          "options": [
+            "2,80,000",
+            "1,80,000",
+            "1,00,000"
+          ],
+          "answer": "2,80,000",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--session-discussion-31-july-2026#3"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-sd-worked-examples-q-11f6c937",
+          "type": "mcq",
+          "stem": "In the Sunrise Traders example, the bank loan (long-term) is classified as:",
+          "options": [
+            "Liability",
+            "Asset",
+            "Equity",
+            "Expense"
+          ],
+          "answer": "Liability",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--session-discussion-31-july-2026#3"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-sd-worked-examples-q-a77c6ae3",
+          "type": "fill",
+          "stem": "Sunrise Traders' total equity is share capital 50,000 + opening retained earnings 0 + net profit 50,000 = ____.",
+          "options": [],
+          "answer": "1,00,000",
+          "accept": [
+            "100000",
+            "1,00,000",
+            "100,000"
+          ],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--session-discussion-31-july-2026#3",
+            "far--session-discussion-31-july-2026#4"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "far--session-discussion-31-july-2026#3",
+        "far--session-discussion-31-july-2026#4"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-sd-worked-examples-c3",
+      "heading": "Sunrise Traders: income, expenses and net profit",
+      "explanation_md": "**Income:** sales revenue 3,00,000 and gain on sale of old equipment 6,000.\n\n**Expenses:** cost of goods sold 1,80,000, salaries expense 50,000, rent expense 24,000 and loss on foreign exchange 2,000.\n\n**Net profit = 50,000.** Working: income 3,06,000 minus expenses 2,56,000 = 50,000.\n\nTwo things to notice:\n\n- The **gain** on sale of old equipment goes under **income**, and the **loss** on foreign exchange goes under **expenses** (income includes gains; expenses include losses).\n- **Net profit is added to equity** (\"Add: Net profit for the year\"), which is how the income statement feeds the balance sheet.",
+      "example_ids": [
+        "far-ex-sd-sunrise-traders"
+      ],
+      "key_terms": [],
+      "exam_line": "Sunrise Traders net profit 50,000 is added to equity; gains go under income, losses under expenses.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "far-sd-worked-examples-q-156fbdbe",
+          "type": "mcq",
+          "stem": "In the Sunrise Traders example, where does the gain on sale of old equipment go?",
+          "options": [
+            "Income",
+            "Assets",
+            "Expenses",
+            "Equity"
+          ],
+          "answer": "Income",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--session-discussion-31-july-2026#3",
+            "far--session-discussion-31-july-2026#4"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-sd-worked-examples-q-45f082e4",
+          "type": "mcq",
+          "stem": "What do Sunrise Traders' expenses total?",
+          "options": [
+            "2,56,000",
+            "1,80,000",
+            "3,06,000"
+          ],
+          "answer": "2,56,000",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--session-discussion-31-july-2026#3",
+            "far--session-discussion-31-july-2026#4"
+          ],
+          "derived": [
+            "2,56,000",
+            "3,06,000"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-sd-worked-examples-q-13f3c610",
+          "type": "fill",
+          "stem": "Sunrise Traders' net profit for the year is ____.",
+          "options": [],
+          "answer": "50,000",
+          "accept": [
+            "50000"
+          ],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--session-discussion-31-july-2026#3",
+            "far--session-discussion-31-july-2026#4"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "far--session-discussion-31-july-2026#2",
+        "far--session-discussion-31-july-2026#3",
+        "far--session-discussion-31-july-2026#4"
+      ],
+      "derived": [
+        "3,06,000",
+        "2,56,000"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-sd-worked-examples-c4",
+      "heading": "Om Enterprises: the second worked example",
+      "explanation_md": "**Om Enterprises** follows the same three steps.\n\n**Assets:** cash 50,000, accounts receivable 35,000, inventory 45,000, equipment 1,20,000, prepaid rent 5,000. **Total assets = 2,55,000.**\n\n**Liabilities:** accounts payable 25,000, accrued salaries 10,000, long-term loan 80,000. **Total liabilities = 1,15,000.**\n\n**Income:** sales revenue 2,00,000 and interest income 4,000.\n\n**Expenses:** cost of goods sold 1,20,000, salaries expense 40,000, rent expense 10,000, utilities expense 4,000.\n\n**Net profit = 30,000** (income 2,04,000 minus expenses 1,74,000).\n\n**Equity:** share capital 1,00,000 + retained earnings (opening) 10,000 + net profit for the year 30,000. **Total equity = 1,40,000.** This time there is an opening retained earnings balance, so it is added in.\n\n**Step 3:** Assets (2,55,000) = Liabilities (1,15,000) + Equity (1,40,000). **The equation balances.**",
+      "example_ids": [
+        "far-ex-sd-om-enterprises"
+      ],
+      "key_terms": [],
+      "exam_line": "Om Enterprises: Assets 2,55,000 = Liabilities 1,15,000 + Equity 1,40,000 (net profit 30,000).",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "far-sd-worked-examples-q-9e96981d",
+          "type": "mcq",
+          "stem": "What are Om Enterprises' total liabilities?",
+          "options": [
+            "1,15,000",
+            "1,40,000",
+            "2,55,000"
+          ],
+          "answer": "1,15,000",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--session-discussion-31-july-2026#5",
+            "far--session-discussion-31-july-2026#6"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-sd-worked-examples-q-4b4ca465",
+          "type": "mcq",
+          "stem": "How is Om Enterprises' total equity made up?",
+          "options": [
+            "Share capital + retained earnings (opening) + net profit for the year",
+            "Share capital + accrued salaries + net profit for the year",
+            "Share capital + retained earnings (opening) + sales revenue"
+          ],
+          "answer": "Share capital + retained earnings (opening) + net profit for the year",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--session-discussion-31-july-2026#5",
+            "far--session-discussion-31-july-2026#6"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-sd-worked-examples-q-374ca166",
+          "type": "true_false",
+          "stem": "Om Enterprises' accounting equation balances: 2,55,000 = 1,15,000 + 1,40,000.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--session-discussion-31-july-2026#6"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "far--session-discussion-31-july-2026#5",
+        "far--session-discussion-31-july-2026#6"
+      ],
+      "derived": [
+        "2,04,000",
+        "1,74,000"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-sd-worked-examples-c5",
+      "heading": "Prepaid rent vs accrued salaries",
+      "explanation_md": "The Om Enterprises teaching note compares two items that look alike but land on opposite sides:\n\n- **Prepaid rent is an asset:** cash was **paid in advance** for a benefit **not yet consumed**.\n- **Accrued salaries are a liability:** the **benefit is already received**, but **cash hasn't gone out yet**.\n\nThe question the note tells you to ask: **has the cash moved, or has the benefit moved, and which happened first?**\n\nThe worksheet follows the same pattern: insurance premium paid (prepaid) is an asset, and an outstanding electricity bill (accrued expense) is a liability.",
+      "example_ids": [
+        "far-ex-sd-prepaid-vs-accrued"
+      ],
+      "key_terms": [],
+      "exam_line": "Prepaid: cash paid in advance, benefit not yet consumed, so an asset. Accrued: benefit already received, cash not yet gone out, so a liability.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "far-sd-worked-examples-q-6979dfdb",
+          "type": "mcq",
+          "stem": "Why is prepaid rent an asset?",
+          "options": [
+            "Cash was paid in advance for a benefit not yet consumed",
+            "The benefit is already received but cash hasn't gone out yet",
+            "It is a distribution of profit to owners"
+          ],
+          "answer": "Cash was paid in advance for a benefit not yet consumed",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--session-discussion-31-july-2026#6",
+            "far--session-discussion-31-july-2026#8"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-sd-worked-examples-q-7090734e",
+          "type": "mcq",
+          "stem": "Accrued salaries are classified as:",
+          "options": [
+            "Liability",
+            "Asset",
+            "Expense",
+            "Equity"
+          ],
+          "answer": "Liability",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--session-discussion-31-july-2026#5",
+            "far--session-discussion-31-july-2026#6"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-sd-worked-examples-q-aa1ebf41",
+          "type": "fill",
+          "stem": "The teaching note's test: has the cash moved, or has the ____ moved, and which happened first?",
+          "options": [],
+          "answer": "benefit",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--session-discussion-31-july-2026#6"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "far--session-discussion-31-july-2026#5",
+        "far--session-discussion-31-july-2026#6",
+        "far--session-discussion-31-july-2026#8"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "far-sd-worked-examples-f1",
+      "front": "Three steps of the worked examples",
+      "back": "Step 1: list the accounting items. Step 2: classify them into the five elements and total each. Step 3: verify the accounting equation.",
+      "kind": "list",
+      "source_refs": [
+        "far--session-discussion-31-july-2026#3",
+        "far--session-discussion-31-july-2026#4"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-sd-worked-examples-f2",
+      "front": "Teaching note: before classifying",
+      "back": "Always foot the trial balance (total debits = total credits); an unbalanced trial balance silently corrupts the equity figure and breaks the accounting equation.",
+      "kind": "fact",
+      "source_refs": [
+        "far--session-discussion-31-july-2026#4"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-sd-worked-examples-f3",
+      "front": "Equity in the worked examples",
+      "back": "Share capital + retained earnings (opening) + net profit for the year.",
+      "kind": "formula",
+      "source_refs": [
+        "far--session-discussion-31-july-2026#4",
+        "far--session-discussion-31-july-2026#6"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-sd-worked-examples-f4",
+      "front": "Sunrise Traders: the equation",
+      "back": "Assets 2,80,000 = Liabilities 1,80,000 + Equity 1,00,000 (net profit 50,000).",
+      "kind": "example",
+      "source_refs": [
+        "far--session-discussion-31-july-2026#3",
+        "far--session-discussion-31-july-2026#4"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-sd-worked-examples-f5",
+      "front": "Om Enterprises: the equation",
+      "back": "Assets 2,55,000 = Liabilities 1,15,000 + Equity 1,40,000 (net profit 30,000).",
+      "kind": "example",
+      "source_refs": [
+        "far--session-discussion-31-july-2026#5",
+        "far--session-discussion-31-july-2026#6"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-sd-worked-examples-f6",
+      "front": "Prepaid rent vs accrued salaries",
+      "back": "Prepaid rent: asset (cash paid in advance, benefit not yet consumed). Accrued salaries: liability (benefit received, cash not yet gone out).",
+      "kind": "example",
+      "source_refs": [
+        "far--session-discussion-31-july-2026#6"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-sd-worked-examples-f7",
+      "front": "Where do gains and losses go?",
+      "back": "Gains (gain on sale of old equipment) go under income; losses (loss on foreign exchange) go under expenses.",
+      "kind": "fact",
+      "source_refs": [
+        "far--session-discussion-31-july-2026#2",
+        "far--session-discussion-31-july-2026#3",
+        "far--session-discussion-31-july-2026#4"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [],
+  "explain_back": {
+    "prompt": "Walk through how to classify a list of accounts into the five elements and check the result, using one of the worked examples.",
+    "rubric": [
+      {
+        "point": "Foot the trial balance first (total debits = total credits)",
+        "source_ref": "far--session-discussion-31-july-2026#4"
+      },
+      {
+        "point": "List the accounting items, then sort them into assets, liabilities, equity, income and expenses with totals",
+        "source_ref": "far--session-discussion-31-july-2026#3"
+      },
+      {
+        "point": "Net profit = income minus expenses, added to equity with share capital and opening retained earnings",
+        "source_ref": "far--session-discussion-31-july-2026#4"
+      },
+      {
+        "point": "Verify Assets = Liabilities + Equity (Assets 2,80,000 = Liabilities 1,80,000 + Equity 1,00,000)",
+        "source_ref": "far--session-discussion-31-july-2026#4"
+      },
+      {
+        "point": "Prepaid items are assets and accrued items are liabilities: ask whether the cash or the benefit moved first",
+        "source_ref": "far--session-discussion-31-july-2026#6"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

@@ -57,7 +57,8 @@ No exam dates, so round-robin across subjects. Validate, ground and cover each d
   - 1 topic (template: sections, fields, five selection factors).
 - [ ] P4 pass A: aib--aib-session4-5-types-of-ai (56 slides, 24 visual)
 - [ ] P4 pass A: be--session-3 (20 slides, 14 visual)
-- [ ] P4 pass A: far--session-discussion-31-july-2026 (9 slides, 1 visual)
+- [x] P4 pass A: far--session-discussion-31-july-2026 (9 slides, 1 visual)
+  - 2 topics (far-sd-*), 10 chunks, 30 checks, 19 cards, 6 examples (Sunrise Traders, Om Enterprises, the tricky worksheet items). Income and expense totals are marked derived.
 - [ ] P4 pass A: mm--session-2-mm (22 slides, 10 visual)
 - [ ] P4 pass A: oml--casestudypeople-express (1 slides, 0 visual)
 - [ ] P4 pass A: qtm--module-2-1 (33 slides, 18 visual)

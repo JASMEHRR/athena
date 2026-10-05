@@ -1,6 +1,6 @@
 # Coverage report
 
-Generated 2026-10-05 16:36. A deck's pass A is complete at 100% of content slides (cited by a lesson chunk, or the gap explained) with every example taught.
+Generated 2026-10-05 19:16. A deck's pass A is complete at 100% of content slides (cited by a lesson chunk, or the gap explained) with every example taught.
 
 | Deck | Subject | Topics | Content slides | Cited | Explained | Coverage | Examples taught | Pass A |
 |---|---|---|---|---|---|---|---|---|
@@ -12,7 +12,7 @@ Generated 2026-10-05 16:36. A deck's pass A is complete at 100% of content slide
 | be--session-3 | be | 0 | 19 | 0 | 0 | 0% | 0/0 |  |
 | be--sessions-4-and-5 | be | 0 | 49 | 0 | 0 | 0% | 0/0 |  |
 | far--financial-accounting-concepts-dr-cr-rules | far | 4 | 12 | 12 | 0 | 100% | 9/9 | done |
-| far--session-discussion-31-july-2026 | far | 0 | 9 | 0 | 0 | 0% | 0/0 |  |
+| far--session-discussion-31-july-2026 | far | 2 | 8 | 8 | 0 | 100% | 6/6 | ready |
 | far--five-elements-fs-recognition | far | 0 | 3 | 0 | 0 | 0% | 0/0 |  |
 | far--session-14-case-2-1-case-3-1-maynard-a-b-full | far | 0 | 2 | 0 | 0 | 0% | 0/0 |  |
 | mm--session-1-mm | mm | 3 | 16 | 13 | 3 | 100% | 15/15 | done |
@@ -31,7 +31,7 @@ Generated 2026-10-05 16:36. A deck's pass A is complete at 100% of content slide
 | sce--introduction-to-social-entrepreneurship-2025 | sce | 0 | 22 | 0 | 0 | 0% | 0/0 |  |
 | sce--list-of-business-ideas | sce | 0 | 5 | 0 | 0 | 0% | 0/0 |  |
 | sce--step-startup-pitching-template-very-early-stage | sce | 0 | 13 | 0 | 0 | 0% | 0/0 |  |
-| sip1--sip-2026-27-organization-selection-presentation-po | sip1 | 1 | 20 | 20 | 0 | 100% | 0/0 | ready |
+| sip1--sip-2026-27-organization-selection-presentation-po | sip1 | 1 | 20 | 20 | 0 | 100% | 0/0 | done |
 
 ## Details
 

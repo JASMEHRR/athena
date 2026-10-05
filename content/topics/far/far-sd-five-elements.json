@@ -1,0 +1,666 @@
+{
+  "id": "far-sd-five-elements",
+  "subject_id": "far",
+  "deck_id": "far--session-discussion-31-july-2026",
+  "title": "The five elements and how to classify items",
+  "order": 201,
+  "summary": "The IASB definitions of assets, liabilities, equity, income and expenses, the governing equation, how net profit links the two statements, and the 30-item classification worksheet with its tricky ones.",
+  "est_minutes": 25,
+  "difficulty": 1,
+  "source_refs": [
+    "far--session-discussion-31-july-2026#2",
+    "far--session-discussion-31-july-2026#7",
+    "far--session-discussion-31-july-2026#8",
+    "far--session-discussion-31-july-2026#9"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "far-sd-five-elements-c1",
+      "heading": "Five elements, one equation",
+      "explanation_md": "The **IASB Conceptual Framework for Financial Reporting** says every financial statement item can be traced to one of **five elements**: **assets, liabilities, equity, income and expenses**.\n\nThey hang together through the **governing equation**:\n\n**Assets = Liabilities + Equity**\n\nThe five split into two groups:\n\n- **Assets, liabilities and equity** are **balance sheet (position) elements**, measured **at a point in time**.\n- **Income and expenses** are **income statement (performance) elements**, measured **over a period**.\n\nThe thread that connects the two statements: **net profit or loss (income minus expenses) flows into retained earnings, which is part of equity.**",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Position elements",
+          "meaning": "Assets, liabilities and equity: balance sheet items measured at a point in time.",
+          "source_ref": "far--session-discussion-31-july-2026#2"
+        },
+        {
+          "term": "Performance elements",
+          "meaning": "Income and expenses: income statement items measured over a period.",
+          "source_ref": "far--session-discussion-31-july-2026#2"
+        }
+      ],
+      "exam_line": "Assets = Liabilities + Equity. Assets, liabilities, equity: balance sheet, point in time. Income, expenses: income statement, over a period. Net profit flows into retained earnings, part of equity.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "far-sd-five-elements-q-991276f2",
+          "type": "mcq",
+          "stem": "Which elements are measured over a period?",
+          "options": [
+            "Income and expenses",
+            "Assets and liabilities",
+            "Assets, liabilities and equity",
+            "Equity only"
+          ],
+          "answer": "Income and expenses",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--session-discussion-31-july-2026#2"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-sd-five-elements-q-3ac67637",
+          "type": "fill",
+          "stem": "Net profit or loss flows into ____ earnings, which is part of equity.",
+          "options": [],
+          "answer": "retained",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--session-discussion-31-july-2026#2"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-sd-five-elements-q-8b25acae",
+          "type": "true_false",
+          "stem": "Assets, liabilities and equity are income statement elements.",
+          "options": [],
+          "answer": "False",
+          "accept": [],
+          "explanation": "They are balance sheet (position) elements, measured at a point in time.",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--session-discussion-31-july-2026#2"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "far--session-discussion-31-july-2026#2"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-sd-five-elements-c2",
+      "heading": "The five definitions, word by word",
+      "explanation_md": "Learn these closely: every classification question comes back to them.\n\n- **Assets:** a **present economic resource controlled by the entity** as a result of **past events**, with the **potential to produce economic benefits**.\n- **Liabilities:** a **present obligation** of the entity to **transfer an economic resource** as a result of past events.\n- **Equity:** the **residual interest** in the assets of the entity **after deducting all its liabilities**.\n- **Income:** **increases in assets, or decreases in liabilities**, resulting in **increases in equity** (other than **owner contributions**). Includes **revenues and gains**.\n- **Expenses:** **decreases in assets, or increases in liabilities**, resulting in **decreases in equity** (other than **owner distributions**). Includes **expenses and losses**.\n\nNotice the mirror: income and expenses are defined by what they do to assets, liabilities and equity, and money owners put in or take out is kept out of both.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Assets",
+          "meaning": "A present economic resource controlled by the entity as a result of past events, with the potential to produce economic benefits.",
+          "source_ref": "far--session-discussion-31-july-2026#2"
+        },
+        {
+          "term": "Liabilities",
+          "meaning": "A present obligation of the entity to transfer an economic resource as a result of past events.",
+          "source_ref": "far--session-discussion-31-july-2026#2"
+        },
+        {
+          "term": "Equity",
+          "meaning": "The residual interest in the assets of the entity after deducting all its liabilities.",
+          "source_ref": "far--session-discussion-31-july-2026#2"
+        },
+        {
+          "term": "Income",
+          "meaning": "Increases in assets, or decreases in liabilities, resulting in increases in equity (other than owner contributions). Includes revenues and gains.",
+          "source_ref": "far--session-discussion-31-july-2026#2"
+        },
+        {
+          "term": "Expenses",
+          "meaning": "Decreases in assets, or increases in liabilities, resulting in decreases in equity (other than owner distributions). Includes expenses and losses.",
+          "source_ref": "far--session-discussion-31-july-2026#2"
+        }
+      ],
+      "exam_line": "Income: increases in assets or decreases in liabilities that increase equity, other than owner contributions (revenues and gains). Expenses: the mirror, other than owner distributions (expenses and losses).",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "far-sd-five-elements-q-2e6616f7",
+          "type": "mcq",
+          "stem": "Which definition matches equity?",
+          "options": [
+            "The residual interest in the assets after deducting all liabilities",
+            "A present obligation to transfer an economic resource",
+            "A present economic resource controlled by the entity",
+            "Increases in assets resulting in increases in equity"
+          ],
+          "answer": "The residual interest in the assets after deducting all liabilities",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--session-discussion-31-july-2026#2"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-sd-five-elements-q-2a54d645",
+          "type": "fill",
+          "stem": "A liability is a present ____ of the entity to transfer an economic resource as a result of past events.",
+          "options": [],
+          "answer": "obligation",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--session-discussion-31-july-2026#2"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-sd-five-elements-q-b873542f",
+          "type": "true_false",
+          "stem": "Under the definition, capital contributed by the owners counts as income.",
+          "options": [],
+          "answer": "False",
+          "accept": [],
+          "explanation": "Income is defined as increases in equity other than owner contributions.",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--session-discussion-31-july-2026#2"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "far--session-discussion-31-july-2026#2"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-sd-five-elements-c3",
+      "heading": "Practice worksheet: assets and liabilities",
+      "explanation_md": "The practice worksheet gives **30 items** to classify as **A (Asset), L (Liability), E (Equity), I (Income) or Ex (Expense)**. Try each one before checking the answer key. Here is how the answer key sorts them.\n\n**Assets:**\n- Building owned by the company\n- Goodwill\n- Trade receivables (debtors)\n- Patent rights\n- Insurance premium paid (prepaid)\n- Closing stock / Inventory\n- Cash in hand\n- Investment in shares of another company\n\n**Liabilities:**\n- Salaries payable to employees\n- Bank overdraft\n- Advance received from customer (unearned revenue)\n- Long-term bank loan\n- Bonds payable\n- Outstanding electricity bill (accrued expense)",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "Prepaid insurance, goodwill and patent rights are assets; bank overdraft, an advance from a customer and an outstanding bill are liabilities.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "far-sd-five-elements-q-2838cd66",
+          "type": "mcq",
+          "stem": "On the answer key, 'Insurance premium paid (prepaid)' is:",
+          "options": [
+            "Asset",
+            "Expense",
+            "Liability",
+            "Equity"
+          ],
+          "answer": "Asset",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--session-discussion-31-july-2026#8"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-sd-five-elements-q-6fa1e8df",
+          "type": "mcq",
+          "stem": "Which of these is a liability on the answer key?",
+          "options": [
+            "Bank overdraft",
+            "Goodwill",
+            "Patent rights",
+            "Trade receivables (debtors)"
+          ],
+          "answer": "Bank overdraft",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--session-discussion-31-july-2026#8"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-sd-five-elements-q-9205f136",
+          "type": "true_false",
+          "stem": "Goodwill is classified as an asset.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--session-discussion-31-july-2026#8"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "far--session-discussion-31-july-2026#7",
+        "far--session-discussion-31-july-2026#8"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-sd-five-elements-c4",
+      "heading": "Practice worksheet: equity, income and expenses",
+      "explanation_md": "**Equity:**\n- Share capital issued to shareholders\n- General reserve\n- Dividend paid to shareholders\n- Retained earnings / Accumulated profits\n\n**Income:**\n- Interest earned on fixed deposit\n- Rent received from tenant\n- Revenues from operation/Sales\n- Discount received from supplier\n- Gain on foreign currency translation\n\n**Expenses:**\n- Depreciation on machinery\n- Sales commission expense\n- Loss on sale of investment\n- Bad debts written off\n- Interest expense on loan\n- Repair and maintenance expense\n- Purchase of Goods/Cost of Goods Sold\n\nGains sit with **income** and losses sit with **expenses**, exactly as the definitions say: income includes revenues and gains, expenses include expenses and losses.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "General reserve and dividend paid are equity; discount received and gain on foreign currency translation are income; loss on sale of investment and bad debts written off are expenses.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "far-sd-five-elements-q-5d2eae87",
+          "type": "mcq",
+          "stem": "On the answer key, 'Discount received from supplier' is:",
+          "options": [
+            "Income",
+            "Expense",
+            "Liability",
+            "Equity"
+          ],
+          "answer": "Income",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--session-discussion-31-july-2026#8"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-sd-five-elements-q-c0695547",
+          "type": "mcq",
+          "stem": "Which item is classified as equity?",
+          "options": [
+            "General reserve",
+            "Bonds payable",
+            "Rent received from tenant",
+            "Repair and maintenance expense"
+          ],
+          "answer": "General reserve",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--session-discussion-31-july-2026#8"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-sd-five-elements-q-87ff7b8f",
+          "type": "fill",
+          "stem": "Loss on sale of investment is classified as an ____.",
+          "options": [],
+          "answer": "expense",
+          "accept": [
+            "Expense",
+            "expenses"
+          ],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--session-discussion-31-july-2026#8"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "far--session-discussion-31-july-2026#2",
+        "far--session-discussion-31-july-2026#7",
+        "far--session-discussion-31-july-2026#8"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-sd-five-elements-c5",
+      "heading": "The tricky ones",
+      "explanation_md": "The answer key adds notes on the items that trip people up:\n\n- **#9, advance received from customer (unearned revenue): liability.** It is an **obligation not yet fulfilled**: the goods or service are still owed. Contrast it with **#14, revenues from operation/sales**, which is **income already earned**.\n- **#16, dividend paid to shareholders: equity.** It is a **distribution of profit to owners, not a cost of earning it**. It **reduces equity directly and never hits the income statement**.\n- **#27, outstanding electricity bill (accrued expense): liability.** The **expense has already been recognised on the income statement**; what remains is the **unpaid obligation**.\n\nEach note goes back to the definitions: a liability is a present obligation, and expenses exclude owner distributions.",
+      "example_ids": [
+        "far-ex-sd-unearned-revenue",
+        "far-ex-sd-dividend-paid",
+        "far-ex-sd-electricity-bill"
+      ],
+      "key_terms": [],
+      "exam_line": "Unearned revenue: liability (still owed). Dividend paid: reduces equity directly, never the income statement. Outstanding bill: liability (expense already recognised, obligation unpaid).",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "far-sd-five-elements-q-35f03bf3",
+          "type": "mcq",
+          "stem": "Why is an advance received from a customer a liability?",
+          "options": [
+            "It is an obligation not yet fulfilled: the goods or service are still owed",
+            "It is income already earned",
+            "It is a distribution of profit to owners",
+            "It is an economic resource controlled by the entity"
+          ],
+          "answer": "It is an obligation not yet fulfilled: the goods or service are still owed",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--session-discussion-31-july-2026#2",
+            "far--session-discussion-31-july-2026#8"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-sd-five-elements-q-f917b0a1",
+          "type": "true_false",
+          "stem": "A dividend paid to shareholders is shown as an expense on the income statement.",
+          "options": [],
+          "answer": "False",
+          "accept": [],
+          "explanation": "It is a distribution of profit to owners: it reduces equity directly and never hits the income statement.",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--session-discussion-31-july-2026#8"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-sd-five-elements-q-4e0eedc4",
+          "type": "fill",
+          "stem": "For an outstanding electricity bill, the expense is already recognised; what remains is the unpaid ____.",
+          "options": [],
+          "answer": "obligation",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--session-discussion-31-july-2026#9"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "far--session-discussion-31-july-2026#2",
+        "far--session-discussion-31-july-2026#8",
+        "far--session-discussion-31-july-2026#9"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "far-sd-five-elements-f1",
+      "front": "The five elements of financial statements",
+      "back": "Assets, liabilities, equity, income, expenses.",
+      "kind": "list",
+      "source_refs": [
+        "far--session-discussion-31-july-2026#2"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-sd-five-elements-f2",
+      "front": "Governing equation",
+      "back": "Assets = Liabilities + Equity",
+      "kind": "formula",
+      "source_refs": [
+        "far--session-discussion-31-july-2026#2"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-sd-five-elements-f3",
+      "front": "Position vs performance elements",
+      "back": "Position (balance sheet, point in time): assets, liabilities, equity. Performance (income statement, over a period): income, expenses.",
+      "kind": "fact",
+      "source_refs": [
+        "far--session-discussion-31-july-2026#2"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-sd-five-elements-f4",
+      "front": "Asset (definition)",
+      "back": "A present economic resource controlled by the entity as a result of past events, with the potential to produce economic benefits.",
+      "kind": "term",
+      "source_refs": [
+        "far--session-discussion-31-july-2026#2"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-sd-five-elements-f5",
+      "front": "Liability (definition)",
+      "back": "A present obligation of the entity to transfer an economic resource as a result of past events.",
+      "kind": "term",
+      "source_refs": [
+        "far--session-discussion-31-july-2026#2"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-sd-five-elements-f6",
+      "front": "Equity (definition)",
+      "back": "The residual interest in the assets of the entity after deducting all its liabilities.",
+      "kind": "term",
+      "source_refs": [
+        "far--session-discussion-31-july-2026#2"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-sd-five-elements-f7",
+      "front": "Income (definition)",
+      "back": "Increases in assets, or decreases in liabilities, resulting in increases in equity (other than owner contributions). Includes revenues and gains.",
+      "kind": "term",
+      "source_refs": [
+        "far--session-discussion-31-july-2026#2"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-sd-five-elements-f8",
+      "front": "Expenses (definition)",
+      "back": "Decreases in assets, or increases in liabilities, resulting in decreases in equity (other than owner distributions). Includes expenses and losses.",
+      "kind": "term",
+      "source_refs": [
+        "far--session-discussion-31-july-2026#2"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-sd-five-elements-f9",
+      "front": "How net profit links the two statements",
+      "back": "Net profit/loss (income minus expenses) flows into retained earnings, which is part of equity.",
+      "kind": "fact",
+      "source_refs": [
+        "far--session-discussion-31-july-2026#2"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-sd-five-elements-f10",
+      "front": "Advance received from customer (unearned revenue)",
+      "back": "Liability: an obligation not yet fulfilled, the goods or service are still owed.",
+      "kind": "example",
+      "source_refs": [
+        "far--session-discussion-31-july-2026#8"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-sd-five-elements-f11",
+      "front": "Dividend paid to shareholders",
+      "back": "Equity: a distribution of profit to owners; it reduces equity directly and never hits the income statement.",
+      "kind": "example",
+      "source_refs": [
+        "far--session-discussion-31-july-2026#8"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-sd-five-elements-f12",
+      "front": "Outstanding electricity bill (accrued expense)",
+      "back": "Liability: the expense is already recognised; what remains is the unpaid obligation.",
+      "kind": "example",
+      "source_refs": [
+        "far--session-discussion-31-july-2026#8",
+        "far--session-discussion-31-july-2026#9"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [],
+  "explain_back": {
+    "prompt": "Explain the five elements of financial statements and how they connect the balance sheet and the income statement.",
+    "rubric": [
+      {
+        "point": "Assets: a present economic resource controlled by the entity from past events, able to produce economic benefits",
+        "source_ref": "far--session-discussion-31-july-2026#2"
+      },
+      {
+        "point": "Liabilities: a present obligation to transfer an economic resource; equity: the residual interest after deducting all liabilities",
+        "source_ref": "far--session-discussion-31-july-2026#2"
+      },
+      {
+        "point": "Income and expenses: changes in assets or liabilities that increase or decrease equity, excluding owner contributions and distributions",
+        "source_ref": "far--session-discussion-31-july-2026#2"
+      },
+      {
+        "point": "Assets = Liabilities + Equity; position elements at a point in time, performance elements over a period",
+        "source_ref": "far--session-discussion-31-july-2026#2"
+      },
+      {
+        "point": "Net profit (income minus expenses) flows into retained earnings, part of equity, linking the two statements",
+        "source_ref": "far--session-discussion-31-july-2026#2"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}
