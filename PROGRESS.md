@@ -62,7 +62,8 @@ No exam dates, so round-robin across subjects. Validate, ground and cover each d
   - 3 topics (be-s3-*), 13 chunks, 36 checks, 21 cards, 9 examples. By subagent, reviewed. Slides leave gaps the lessons name plainly: slide 14 graph does not match the slide 13 table; equi-marginal law never stated in words and the 100 rupee samosa/tea question has no answer on the slides.
 - [x] P4 pass A: far--session-discussion-31-july-2026 (9 slides, 1 visual)
   - 2 topics (far-sd-*), 10 chunks, 30 checks, 19 cards, 6 examples (Sunrise Traders, Om Enterprises, the tricky worksheet items). Income and expense totals are marked derived.
-- [ ] P4 pass A: mm--session-2-mm (22 slides, 10 visual)
+- [x] P4 pass A: mm--session-2-mm (22 slides, 10 visual)
+  - 5 topics (mm-s2-*), 21 chunks, 61 checks, 39 cards, 7 examples. By subagent, reviewed: slide 9 names Kodak and NOKIA because the words are printed on the pictured products; no story added. Slide 14 says "social", slide 19 "societal" marketing concept; lesson notes it. Slides 21 and 22 give no explanation or answer, and the lessons say so.
 - [ ] P4 pass A: oml--casestudypeople-express (1 slides, 0 visual)
 - [ ] P4 pass A: qtm--module-2-1 (33 slides, 18 visual)
 - [ ] P4 pass A: sce--introduction-to-social-entrepreneurship-2025 (23 slides, 7 visual)
