@@ -10,4 +10,5 @@ addopts = "-q"
 filterwarnings = [
     "ignore::DeprecationWarning:fitz.*",
     "ignore::DeprecationWarning:pymupdf.*",
+    "ignore:Using `httpx` with `starlette.testclient` is deprecated",
 ]

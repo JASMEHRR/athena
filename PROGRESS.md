@@ -28,7 +28,8 @@ Notes for the next round go under each ticked task.
   - 5 topics, 18 chunks, 46 checks, 30 cards, 19 examples. Grounding 0 failures, coverage 100%. Workflow and draft format: docs/AUTHORING.md (python -m athena.author). Drafts live in the scratchpad, topic JSON is the source of truth.
 
 ## P3 Core app
-- [ ] P3.1 Content import into SQLite with FTS5; API for subjects, topics, lessons, questions, progress.
+- [x] P3.1 Content import into SQLite with FTS5; API for subjects, topics, lessons, questions, progress.
+  - athena/importer.py (c_* only), services.py (page read models), api.py (/api/v1), srs.py (FSRS), grading.py, progress.py (mastery, streak, time), planner.py (built early because Today needs it; P5.1 still owes the Plan page UI and Settings UI). Answers never go to the browser before an attempt.
 - [ ] P3.2 Frontend shell, design system, Today, Subjects.
 - [ ] P3.3 Learn (chunks, checks, slide panel, explain-back, confidence).
 - [ ] P3.4 Review (FSRS) and quick quiz; mastery, streak, time tracking.
@@ -121,5 +122,6 @@ No exam dates, so round-robin across subjects. Validate, ground and cover each d
 | sce--list-of-business-ideas | sce | yes | | | |
 | sce--step-startup-pitching-template-very-early-stage | sce | yes | | | |
 | sip1--sip-2026-27-organization-selection-presentation-po | sip1 | yes | | | |
+
 
 
