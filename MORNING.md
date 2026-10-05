@@ -3,13 +3,21 @@
 Athena is being built. This file is kept up to date as work finishes.
 
 ## What's ready
-- All 28 slide decks I could find (8 subjects) are read in, with a picture of every slide.
-- Past papers typed in: Business Economics MST 2025, SCE MST 2025, EMDM MST 2023 and your AIB tutorial sheet.
-- A session map for 7 subjects showing which classes have slides and which don't.
-- Lessons and the app itself: in progress (see PROGRESS.md).
+- **The app works**: Today, Subjects, Learn, Review (flashcards), Practice (quick quiz, answer writing, case practice, timed mock papers), Plan (calendar and .ics export), Insights, Library (search), Sources and Settings.
+- **Lessons for 7 of 28 decks** (29 topics, 109 lesson parts, 274 check questions, 182 flashcards, 71 professor examples), every one checked against your slides:
+  - AIB: Session 2 (Adoption of AI)
+  - FAR: Financial Accounting Concepts and Dr/Cr rules
+  - MM: Session 1 (Introduction to Marketing)
+  - OML: Introduction to OB
+  - QTM: Module 1 (quantitative techniques, sampling, data types, scales)
+  - SCE: Introduction to Entrepreneurship
+  - SiP-I: Organization selection presentation
+- **Still to write: 21 decks**, then the exam-style question banks (needed for answer writing and mock papers).
+- All 28 decks are read in with a picture of every slide; past papers typed in (BE MST 2025, SCE MST 2025, EMDM MST 2023, your AIB tutorial sheet); a session map for 7 subjects.
+- Reminders, Google Classroom sync and the refresh spec are built but not switched on.
 
 ## How to open Athena
-Not ready yet. When it is, double-click `scripts\start-athena.bat`.
+Double-click `scripts\start-athena.bat`. It opens http://127.0.0.1:8765 in your browser. Keep that window open while you study.
 
 ## Needs you
 1. **Your end-semester exam dates.** I found no EST datesheet anywhere. When you get it, drop a photo or PDF into `inbox\_exams\` (or type the dates in Athena's Settings page once it's ready). Until then the planner spreads subjects evenly.
@@ -38,7 +46,9 @@ Not ready yet. When it is, double-click `scripts\start-athena.bat`.
    8. Open PowerShell in the Athena folder and run `.venv\Scripts\python -m athena.sync_classroom`. A browser window asks you to allow read-only access. It downloads slides into `inbox\` and adds assignment due dates to the Plan calendar.
    Warning: your university may block third-party apps on Thapar accounts. If Google says the app is blocked, skip this and keep using the inbox folder.
 
-After adding files, run `.\run-overnight.ps1 -Spec REFRESH.md` (REFRESH.md is written later in this build).
+6. **Optional: turn on study reminders.** Open PowerShell in the Athena folder and run `powershell -ExecutionPolicy Bypass -File scripts\install-reminders.ps1`. Undo with `scripts\uninstall-reminders.ps1`.
+
+After adding files, run `.\run-overnight.ps1 -Spec REFRESH.md`.
 
 ## What I decided for you
 - Lessons use only your slides. Where an exam topic has no slides, Athena says so instead of teaching it from elsewhere.
@@ -46,7 +56,9 @@ After adding files, run `.\run-overnight.ps1 -Spec REFRESH.md` (REFRESH.md is wr
 - Details in DECISIONS.md.
 
 ## Known issues
-- None yet.
+- Only 7 decks have lessons so far, so Today's plan and quizzes cover those subjects only.
+- No exam-style question bank yet, so Answer writing, Case practice and Mock paper say "no questions yet".
+- "Extra help" YouTube picks are built but not fetched yet.
 
 ## How to continue
 Run `.\run-overnight.ps1` again to resume, or `.\run-overnight.ps1 -Spec REFRESH.md` after adding PPTs.

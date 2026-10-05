@@ -45,14 +45,16 @@ No exam dates, so round-robin across subjects. Validate, ground and cover each d
 - [ ] P4 pass A: be--session-1-and-2 (61 slides, 36 visual)
 - [x] P4 pass A: far--financial-accounting-concepts-dr-cr-rules (14 slides, 11 visual)
   - 4 topics (far-drcr-*), 9 examples; grounding 0, coverage 100%. Written by a subagent, reviewed.
-- [ ] P4 pass A: mm--session-1-mm (17 slides, 14 visual)
+- [x] P4 pass A: mm--session-1-mm (17 slides, 14 visual)
+  - 3 topics (mm-s1-*), by subagent, reviewed: removed brand names (Starbucks, Apple) that were only logos, not printed on the slide. Slides 7, 16, 17 explained as gaps (no text, unnamed people).
 - [x] P4 pass A: oml--1-ob-introduction (23 slides, 16 visual)
   - 5 topics (oml-intro-*), 19 chunks, 43 checks, 31 cards. Frameworks to add in P7.1: POLC, Mintzberg roles, Katz skills, basic OB model, framework for studying OB.
 - [x] P4 pass A: qtm--module-1 (42 slides, 19 visual)
   - 6 topics (qtm-m1-*), 26 chunks, 59 checks, 44 cards, 16 examples. Note: syllabus said Module 1 = intro; this deck also covers sampling and scales.
 - [x] P4 pass A: sce--introduction-to-entrepreneurship-july-2025 (15 slides, 11 visual)
   - 4 topics (sce-ent-*), 11 chunks, 24 checks, 19 cards. One clarification (incremental venture).
-- [ ] P4 pass A: sip1--sip-2026-27-organization-selection-presentation-po (22 slides, 19 visual)
+- [x] P4 pass A: sip1--sip-2026-27-organization-selection-presentation-po (22 slides, 19 visual)
+  - 1 topic (template: sections, fields, five selection factors).
 - [ ] P4 pass A: aib--aib-session4-5-types-of-ai (56 slides, 24 visual)
 - [ ] P4 pass A: be--session-3 (20 slides, 14 visual)
 - [ ] P4 pass A: far--session-discussion-31-july-2026 (9 slides, 1 visual)
@@ -101,4 +103,8 @@ No exam dates, so round-robin across subjects. Validate, ground and cover each d
 
 
 
+
+
+## NOTE FOR NEXT ROUND
+- AIB s34 and BE s12 subagents were stopped part-way. Their partial drafts are in the old session scratchpad (drafts/s34.json, s12.json) but nothing was written to content/. Redo those two decks from scratch (do not trust the partial drafts without re-reading the slides).
 

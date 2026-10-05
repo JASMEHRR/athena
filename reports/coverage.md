@@ -1,6 +1,6 @@
 # Coverage report
 
-Generated 2026-10-05 15:15. A deck's pass A is complete at 100% of content slides (cited by a lesson chunk, or the gap explained) with every example taught.
+Generated 2026-10-05 16:36. A deck's pass A is complete at 100% of content slides (cited by a lesson chunk, or the gap explained) with every example taught.
 
 | Deck | Subject | Topics | Content slides | Cited | Explained | Coverage | Examples taught | Pass A |
 |---|---|---|---|---|---|---|---|---|
@@ -15,7 +15,7 @@ Generated 2026-10-05 15:15. A deck's pass A is complete at 100% of content slide
 | far--session-discussion-31-july-2026 | far | 0 | 9 | 0 | 0 | 0% | 0/0 |  |
 | far--five-elements-fs-recognition | far | 0 | 3 | 0 | 0 | 0% | 0/0 |  |
 | far--session-14-case-2-1-case-3-1-maynard-a-b-full | far | 0 | 2 | 0 | 0 | 0% | 0/0 |  |
-| mm--session-1-mm | mm | 0 | 16 | 0 | 0 | 0% | 0/0 |  |
+| mm--session-1-mm | mm | 3 | 16 | 13 | 3 | 100% | 15/15 | done |
 | mm--session-2-mm | mm | 0 | 21 | 0 | 0 | 0% | 0/0 |  |
 | mm--session3-mm | mm | 0 | 21 | 0 | 0 | 0% | 0/0 |  |
 | oml--1-ob-introduction | oml | 5 | 22 | 22 | 0 | 100% | 6/6 | done |
@@ -27,8 +27,16 @@ Generated 2026-10-05 15:15. A deck's pass A is complete at 100% of content slide
 | qtm--module-4 | qtm | 0 | 33 | 0 | 0 | 0% | 0/0 |  |
 | qtm--module-5 | qtm | 0 | 31 | 0 | 0 | 0% | 0/0 |  |
 | qtm--module-6 | qtm | 0 | 37 | 0 | 0 | 0% | 0/0 |  |
-| sce--introduction-to-entrepreneurship-july-2025 | sce | 4 | 14 | 14 | 0 | 100% | 6/6 | ready |
+| sce--introduction-to-entrepreneurship-july-2025 | sce | 4 | 14 | 14 | 0 | 100% | 6/6 | done |
 | sce--introduction-to-social-entrepreneurship-2025 | sce | 0 | 22 | 0 | 0 | 0% | 0/0 |  |
 | sce--list-of-business-ideas | sce | 0 | 5 | 0 | 0 | 0% | 0/0 |  |
 | sce--step-startup-pitching-template-very-early-stage | sce | 0 | 13 | 0 | 0 | 0% | 0/0 |  |
-| sip1--sip-2026-27-organization-selection-presentation-po | sip1 | 0 | 20 | 0 | 0 | 0% | 0/0 |  |
+| sip1--sip-2026-27-organization-selection-presentation-po | sip1 | 1 | 20 | 20 | 0 | 100% | 0/0 | ready |
+
+## Details
+
+### mm--session-1-mm
+- Slide 7 explained: A still frame from a video (a woman shouting or surprised in an office) with no heading or text. The video itself is not in the file, so there is nothing to teach from it.
+- Slide 16 explained: A portrait photo of a man with no heading, no text and no printed name. Nothing to teach without naming him, which the slide does not do.
+- Slide 17 explained: A photo of a man speaking on a stage (it looks like a video still) with no heading, no text and no printed name. Nothing to teach from it.
+
