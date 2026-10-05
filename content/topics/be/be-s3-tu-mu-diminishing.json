@@ -1,0 +1,479 @@
+{
+  "id": "be-s3-tu-mu-diminishing",
+  "subject_id": "be",
+  "deck_id": "be--session-3",
+  "title": "Total utility, marginal utility and the law of diminishing marginal utility",
+  "order": 202,
+  "summary": "The definitions and formulas for TU and MU, the law of diminishing marginal utility, and the professor's table and graph.",
+  "est_minutes": 25,
+  "difficulty": 2,
+  "source_refs": [
+    "be--session-3#11",
+    "be--session-3#20",
+    "be--session-3#16",
+    "be--session-3#13",
+    "be--session-3#12",
+    "be--session-3#14"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "be-s3-tu-mu-diminishing-c1",
+      "heading": "Total utility (TU)",
+      "explanation_md": "**Total utility (TU)** may be defined as **the sum of the utilities derived by a consumer from the various units of goods & services he consumes**.\n\nThe formula on the slide:\n\n`TU = U1 + U2 + U3 + ... + Un`\n\nwhere 1, 2, 3, ..., n is the good/services consumed.\n\nIn plain words: add up the utilities from the various units and you get total utility.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Total utility (TU)",
+          "meaning": "The sum of the utilities derived by a consumer from the various units of goods & services he consumes.",
+          "source_ref": "be--session-3#11"
+        }
+      ],
+      "exam_line": "TU is the sum of the utilities a consumer derives from the various units of goods and services he consumes: TU = U1 + U2 + U3 + ... + Un.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s3-tu-mu-diminishing-q-d171f9a6",
+          "type": "fill",
+          "stem": "Total utility is the ____ of the utilities derived by a consumer from the various units of goods and services he consumes.",
+          "options": [],
+          "answer": "sum",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-3#11"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s3-tu-mu-diminishing-q-de7e1316",
+          "type": "mcq",
+          "stem": "Which formula matches total utility on the slide?",
+          "options": [
+            "TU = U1 + U2 + U3 + ... + Un",
+            "TU = ΔTU / ΔQuantity of good X",
+            "TU = TU_n - TU_(n-1)"
+          ],
+          "answer": "TU = U1 + U2 + U3 + ... + Un",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-3#11",
+            "be--session-3#16"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-3#11",
+        "be--session-3#20"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s3-tu-mu-diminishing-c2",
+      "heading": "Marginal utility (MU) and its formula",
+      "explanation_md": "**Marginal utility (MU)** refers to **the change in the total utility obtained from the consumption of an additional unit of a commodity**.\n\nThe formula:\n\n`MU = ΔTU / ΔQuantity of good X = (TU_n - TU_(n-1)) / (Commodity_n - Commodity_(n-1))`\n\nOn the first slide that shows this formula, the bottom line is cut off. The full formula is printed on the later slides that repeat these definitions.\n\n**Using it on the professor's table:** going from 2 units to 3 units, total utility goes from 50 to 60. So MU = (60 - 50) / (3 - 2) = 10, which is exactly the marginal utility the table shows for the 3rd unit.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Marginal utility (MU)",
+          "meaning": "The change in the total utility obtained from the consumption of an additional unit of a commodity.",
+          "source_ref": "be--session-3#11"
+        }
+      ],
+      "exam_line": "MU is the change in TU from consuming an additional unit: MU = ΔTU / ΔQuantity of good X = (TU_n - TU_(n-1)) / (Commodity_n - Commodity_(n-1)).",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s3-tu-mu-diminishing-q-e17c1969",
+          "type": "mcq",
+          "stem": "Marginal utility refers to:",
+          "options": [
+            "The change in total utility from consuming an additional unit of a commodity",
+            "The sum of the utilities from the various units consumed",
+            "The want-satisfying property of a commodity"
+          ],
+          "answer": "The change in total utility from consuming an additional unit of a commodity",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-3#11",
+            "be--session-3#4"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s3-tu-mu-diminishing-q-4e04c98e",
+          "type": "fill",
+          "stem": "MU = ΔTU / Δ____ of good X.",
+          "options": [],
+          "answer": "Quantity",
+          "accept": [
+            "quantity"
+          ],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-3#16"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s3-tu-mu-diminishing-q-fae35057",
+          "type": "mcq",
+          "stem": "In the slide's table, total utility is 50 at 2 units and 60 at 3 units. Using MU = (TU_n - TU_(n-1)) / (Commodity_n - Commodity_(n-1)), what is the MU of the 3rd unit?",
+          "options": [
+            "10",
+            "60",
+            "50",
+            "20"
+          ],
+          "answer": "10",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-3#13",
+            "be--session-3#16"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-3#11",
+        "be--session-3#16",
+        "be--session-3#13"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s3-tu-mu-diminishing-c3",
+      "heading": "The law of diminishing marginal utility",
+      "explanation_md": "The law in the professor's words: **the utility gained from successive units of a commodity diminishes**. In other words, **the marginal utility of a commodity diminishes as the consumer acquires larger quantities of it**.\n\nThe slide's table:\n\n| No. of units consumed | Total utility | Marginal utility |\n|---|---|---|\n| 1 | 30 | 30 |\n| 2 | 50 | 20 |\n| 3 | 60 | 10 |\n| 4 | 60 | 0 |\n| 5 | 50 | -10 |\n| 6 | 45 | -5 |\n\nHow to read it:\n\n- Marginal utility falls from **30 to 20 to 10 to 0**, then turns negative: **-10** for the 5th unit and **-5** for the 6th.\n- Total utility rises from **30 to 50 to 60**, stays at **60** for the 4th unit, then falls to **50** and **45**.\n- Each MU is the change in TU: for example, the 2nd unit adds 50 - 30 = 20.\n\n**Look closely at the last row:** marginal utility goes from -10 for the 5th unit to -5 for the 6th, so this last step is not a further fall. The slide does not comment on this. If you are asked to reproduce the table, write it exactly as shown.",
+      "example_ids": [
+        "be-ex-s3-dmu-table"
+      ],
+      "key_terms": [
+        {
+          "term": "Law of diminishing marginal utility",
+          "meaning": "The utility gained from successive units of a commodity diminishes; the marginal utility of a commodity diminishes as the consumer acquires larger quantities of it.",
+          "source_ref": "be--session-3#12"
+        }
+      ],
+      "exam_line": "The marginal utility of a commodity diminishes as the consumer acquires larger quantities of it. Table: MU 30, 20, 10, 0, -10, -5; TU 30, 50, 60, 60, 50, 45.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s3-tu-mu-diminishing-q-4470fb33",
+          "type": "mcq",
+          "stem": "In the slide's table, what is the marginal utility of the 4th unit?",
+          "options": [
+            "0",
+            "60",
+            "10",
+            "-10"
+          ],
+          "answer": "0",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-3#13"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s3-tu-mu-diminishing-q-8376dee0",
+          "type": "fill",
+          "stem": "The marginal utility of a commodity ____ as the consumer acquires larger quantities of it.",
+          "options": [],
+          "answer": "diminishes",
+          "accept": [
+            "diminish"
+          ],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-3#12"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s3-tu-mu-diminishing-q-0a4b520f",
+          "type": "mcq",
+          "stem": "In the slide's table, what is total utility at 6 units?",
+          "options": [
+            "45",
+            "50",
+            "60",
+            "-5"
+          ],
+          "answer": "45",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-3#13"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-3#12",
+        "be--session-3#13",
+        "be--session-3#11"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s3-tu-mu-diminishing-c4",
+      "heading": "The total utility and marginal utility graph",
+      "explanation_md": "The next slide plots **Marginal Utility & Total utility** on one chart: units **1 to 6** along the bottom, utility from **-20 to 70** up the side.\n\n- The **red line is total utility**. It starts at 30, climbs to 50 and 60, peaks at the 4th unit, then falls, ending at 45 at the 6th unit.\n- The **blue line is marginal utility**. It starts at 30 and slopes down through 20 and 10, crosses **zero between the 4th and 5th units**, and keeps falling below zero.\n\n**Careful: the graph and the table do not match exactly.** On the graph, total utility at the 4th unit sits between 60 and 70 and at the 5th unit is 60, while the table says 60 and 50. The graph's marginal utility is above zero at the 4th unit and between -10 and -20 at the 6th, while the table says 0 and -5. The slide does not explain the difference. If you are asked to reproduce the table, use the table's numbers.",
+      "example_ids": [
+        "be-ex-s3-tu-mu-graph"
+      ],
+      "key_terms": [],
+      "exam_line": "On the graph, the total utility line rises, peaks at the 4th unit and then falls; the marginal utility line slopes down all the way and goes below zero between the 4th and 5th units.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s3-tu-mu-diminishing-q-db956d7c",
+          "type": "mcq",
+          "stem": "On the graph, which line slopes down and goes below zero?",
+          "options": [
+            "The marginal utility line",
+            "The total utility line",
+            "Both lines"
+          ],
+          "answer": "The marginal utility line",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-3#14"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s3-tu-mu-diminishing-q-2c5037a3",
+          "type": "true_false",
+          "stem": "On the graph, the total utility line keeps rising across all six units.",
+          "options": [],
+          "answer": "False",
+          "accept": [],
+          "explanation": "It peaks at the 4th unit and then falls.",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-3#14"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s3-tu-mu-diminishing-q-aa490399",
+          "type": "mcq",
+          "stem": "On the graph, between which units does the marginal utility line cross zero?",
+          "options": [
+            "Between the 4th and 5th units",
+            "Between the 1st and 2nd units",
+            "Between the 2nd and 3rd units"
+          ],
+          "answer": "Between the 4th and 5th units",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-3#14"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-3#14",
+        "be--session-3#13"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "be-s3-tu-mu-diminishing-f1",
+      "front": "Total utility (TU)",
+      "back": "The sum of the utilities derived by a consumer from the various units of goods & services he consumes. TU = U1 + U2 + U3 + ... + Un.",
+      "kind": "formula",
+      "source_refs": [
+        "be--session-3#11"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s3-tu-mu-diminishing-f2",
+      "front": "Marginal utility (MU)",
+      "back": "The change in the total utility obtained from the consumption of an additional unit of a commodity.",
+      "kind": "term",
+      "source_refs": [
+        "be--session-3#11"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s3-tu-mu-diminishing-f3",
+      "front": "MU formula",
+      "back": "MU = ΔTU / ΔQuantity of good X = (TU_n - TU_(n-1)) / (Commodity_n - Commodity_(n-1))",
+      "kind": "formula",
+      "source_refs": [
+        "be--session-3#16"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s3-tu-mu-diminishing-f4",
+      "front": "Law of diminishing marginal utility",
+      "back": "The utility gained from successive units of a commodity diminishes; the marginal utility of a commodity diminishes as the consumer acquires larger quantities of it.",
+      "kind": "term",
+      "source_refs": [
+        "be--session-3#12"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s3-tu-mu-diminishing-f5",
+      "front": "The professor's table: total and marginal utility for units 1 to 6",
+      "back": "Total utility: 30, 50, 60, 60, 50, 45. Marginal utility: 30, 20, 10, 0, -10, -5.",
+      "kind": "example",
+      "source_refs": [
+        "be--session-3#13"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s3-tu-mu-diminishing-f6",
+      "front": "Shape of the total and marginal utility graph",
+      "back": "Total utility (red) rises, peaks at the 4th unit, then falls. Marginal utility (blue) slopes down and goes below zero between the 4th and 5th units.",
+      "kind": "fact",
+      "source_refs": [
+        "be--session-3#14"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [],
+  "explain_back": {
+    "prompt": "Define total utility and marginal utility, then state and explain the law of diminishing marginal utility with the professor's table and graph.",
+    "rubric": [
+      {
+        "point": "TU: the sum of the utilities from the various units consumed, TU = U1 + U2 + U3 + ... + Un",
+        "source_ref": "be--session-3#11"
+      },
+      {
+        "point": "MU: the change in TU from an additional unit, MU = ΔTU / ΔQuantity of good X = (TU_n - TU_(n-1)) / (Commodity_n - Commodity_(n-1))",
+        "source_ref": "be--session-3#16"
+      },
+      {
+        "point": "Law: the utility gained from successive units diminishes; marginal utility diminishes as larger quantities are acquired",
+        "source_ref": "be--session-3#12"
+      },
+      {
+        "point": "Table: marginal utility 30, 20, 10, 0, -10, -5 while total utility goes 30, 50, 60, 60, 50, 45",
+        "source_ref": "be--session-3#13"
+      },
+      {
+        "point": "Graph: total utility rises, peaks and falls; marginal utility slopes down and goes below zero",
+        "source_ref": "be--session-3#14"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}
