@@ -50,7 +50,8 @@ No exam dates, so round-robin across subjects. Validate, ground and cover each d
   - 5 topics (oml-intro-*), 19 chunks, 43 checks, 31 cards. Frameworks to add in P7.1: POLC, Mintzberg roles, Katz skills, basic OB model, framework for studying OB.
 - [x] P4 pass A: qtm--module-1 (42 slides, 19 visual)
   - 6 topics (qtm-m1-*), 26 chunks, 59 checks, 44 cards, 16 examples. Note: syllabus said Module 1 = intro; this deck also covers sampling and scales.
-- [ ] P4 pass A: sce--introduction-to-entrepreneurship-july-2025 (15 slides, 11 visual)
+- [x] P4 pass A: sce--introduction-to-entrepreneurship-july-2025 (15 slides, 11 visual)
+  - 4 topics (sce-ent-*), 11 chunks, 24 checks, 19 cards. One clarification (incremental venture).
 - [ ] P4 pass A: sip1--sip-2026-27-organization-selection-presentation-po (22 slides, 19 visual)
 - [ ] P4 pass A: aib--aib-session4-5-types-of-ai (56 slides, 24 visual)
 - [ ] P4 pass A: be--session-3 (20 slides, 14 visual)
@@ -96,6 +97,7 @@ No exam dates, so round-robin across subjects. Validate, ground and cover each d
 - [ ] P7.1 Frameworks, examples catalog, cross-subject links, PYQ pages, search.
 - [ ] P7.2 YouTube picks: one yt-dlp search per topic, 3 seconds apart, cached; 3 picks per topic labelled "Extra help, not exam source".
   - IN PROGRESS: athena/videos.py built and tested (fake searcher; one real yt-dlp search works). Still to do: run `python -m athena.videos` after P4 content exists, then tick.
+
 
 
 

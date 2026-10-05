@@ -1,6 +1,6 @@
 # Coverage report
 
-Generated 2026-10-05 15:12. A deck's pass A is complete at 100% of content slides (cited by a lesson chunk, or the gap explained) with every example taught.
+Generated 2026-10-05 15:15. A deck's pass A is complete at 100% of content slides (cited by a lesson chunk, or the gap explained) with every example taught.
 
 | Deck | Subject | Topics | Content slides | Cited | Explained | Coverage | Examples taught | Pass A |
 |---|---|---|---|---|---|---|---|---|
@@ -21,13 +21,13 @@ Generated 2026-10-05 15:12. A deck's pass A is complete at 100% of content slide
 | oml--1-ob-introduction | oml | 5 | 22 | 22 | 0 | 100% | 6/6 | done |
 | oml--casestudypeople-express | oml | 0 | 1 | 0 | 0 | 0% | 0/0 |  |
 | oml--peoples-expressedpjul30 | oml | 0 | 17 | 0 | 0 | 0% | 0/0 |  |
-| qtm--module-1 | qtm | 7 | 40 | 40 | 0 | 100% | 16/16 | ready |
+| qtm--module-1 | qtm | 7 | 40 | 40 | 0 | 100% | 16/16 | done |
 | qtm--module-2-1 | qtm | 0 | 32 | 0 | 0 | 0% | 0/0 |  |
 | qtm--module-3 | qtm | 0 | 67 | 0 | 0 | 0% | 0/0 |  |
 | qtm--module-4 | qtm | 0 | 33 | 0 | 0 | 0% | 0/0 |  |
 | qtm--module-5 | qtm | 0 | 31 | 0 | 0 | 0% | 0/0 |  |
 | qtm--module-6 | qtm | 0 | 37 | 0 | 0 | 0% | 0/0 |  |
-| sce--introduction-to-entrepreneurship-july-2025 | sce | 0 | 15 | 0 | 0 | 0% | 0/0 |  |
+| sce--introduction-to-entrepreneurship-july-2025 | sce | 4 | 14 | 14 | 0 | 100% | 6/6 | ready |
 | sce--introduction-to-social-entrepreneurship-2025 | sce | 0 | 22 | 0 | 0 | 0% | 0/0 |  |
 | sce--list-of-business-ideas | sce | 0 | 5 | 0 | 0 | 0% | 0/0 |  |
 | sce--step-startup-pitching-template-very-early-stage | sce | 0 | 13 | 0 | 0 | 0% | 0/0 |  |
