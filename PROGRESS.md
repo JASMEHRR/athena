@@ -41,8 +41,10 @@ Notes for the next round go under each ticked task.
 
 ## P4 Pass A for every remaining deck
 No exam dates, so round-robin across subjects. Validate, ground and cover each deck before ticking it.
-- [ ] P4 pass A: aib--aib-session3-4-introduction-to-ai (44 slides, 19 visual)
-- [ ] P4 pass A: be--session-1-and-2 (61 slides, 36 visual)
+- [x] P4 pass A: aib--aib-session3-4-introduction-to-ai (44 slides, 19 visual)
+  - 8 topics (aib-s34-*), 36 chunks, 103 checks, 54 cards, 29 examples. By subagent, reviewed (names on slides are printed labels). Slide 43 (decorative painting) is a gap. Slides disagree on ELIZA's year (1965 vs 1966) and on AI winter dates; lessons give each slide's own wording.
+- [x] P4 pass A: be--session-1-and-2 (61 slides, 36 visual)
+  - 9 topics (be-s12-*), 38 chunks, 93 checks, 55 cards, 24 examples. By subagent, reviewed: removed an outside rule (g must be below i). Practice answers with no slide solution are worked with the deck's formulas and marked derived. Slide 58 prints MR = 50Q - 2Q; lesson uses 50 - 2Q and says so.
 - [x] P4 pass A: far--financial-accounting-concepts-dr-cr-rules (14 slides, 11 visual)
   - 4 topics (far-drcr-*), 9 examples; grounding 0, coverage 100%. Written by a subagent, reviewed.
 - [x] P4 pass A: mm--session-1-mm (17 slides, 14 visual)

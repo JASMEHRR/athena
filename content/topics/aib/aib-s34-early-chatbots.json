@@ -1,0 +1,619 @@
+{
+  "id": "aib-s34-early-chatbots",
+  "subject_id": "aib",
+  "deck_id": "aib--aib-session3-4-introduction-to-ai",
+  "title": "From ELIZA to Cleverbot: the chatbot timeline",
+  "order": 204,
+  "summary": "Five landmark chatbots, what each added and what each still lacked: ELIZA, PARRY, Catherine, Eugene Goostman and Cleverbot.",
+  "est_minutes": 20,
+  "difficulty": 1,
+  "source_refs": [
+    "aib--aib-session3-4-introduction-to-ai#13",
+    "aib--aib-session3-4-introduction-to-ai#15",
+    "aib--aib-session3-4-introduction-to-ai#16",
+    "aib--aib-session3-4-introduction-to-ai#17",
+    "aib--aib-session3-4-introduction-to-ai#18",
+    "aib--aib-session3-4-introduction-to-ai#19"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "aib-s34-early-chatbots-c1",
+      "heading": "ELIZA (1966): the first chatbot",
+      "explanation_md": "The deck traces AI through **conversational machines**. Its picture timeline runs: **Alan Turing Machine (1950)**, **ELIZA (1965)**, **PARRY (1972)**, **Cathrine (1991)**, **Eugene Goostman (2000)** and **Cleverbot (2011)**. (The ELIZA slide itself gives **1966**.)\n\n**ELIZA** was created at **MIT** by **Joseph Weizenbaum**. It **simulated a psychotherapist** by asking **reflective questions**:\n\n> User: I feel stressed.\n> ELIZA: Why do you feel stressed?\n\n**How it worked:** ELIZA looked for **keywords** and used **predefined rules** to generate responses: **simple pattern matching** rather than genuine understanding. It **did not understand meaning**.\n\n**Contribution:** the **first successful chatbot**; showed that **humans easily attribute intelligence to computers** (many users felt ELIZA \"understood\" them); introduced **conversational interfaces**.\n\n**Limitation:** **no memory, no reasoning, no learning**. It simply matched keywords.\n\nBottom line from the slide: ELIZA showed **conversation was possible, even without real understanding**.",
+      "example_ids": [
+        "aib-ex-s34-eliza"
+      ],
+      "key_terms": [
+        {
+          "term": "Pattern matching",
+          "meaning": "How ELIZA worked: looking for keywords and using predefined rules to generate responses, without understanding meaning.",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#15"
+        }
+      ],
+      "exam_line": "ELIZA (1966, MIT, Joseph Weizenbaum): first successful chatbot; simulated a psychotherapist with keyword pattern matching; no memory, reasoning or learning.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "aib-s34-early-chatbots-q-7f197e97",
+          "type": "mcq",
+          "stem": "Who created ELIZA?",
+          "options": [
+            "Joseph Weizenbaum at MIT",
+            "Kenneth Colby",
+            "Alan Turing",
+            "Arthur Samuel"
+          ],
+          "answer": "Joseph Weizenbaum at MIT",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session3-4-introduction-to-ai#15",
+            "aib--aib-session3-4-introduction-to-ai#16",
+            "aib--aib-session3-4-introduction-to-ai#13"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-s34-early-chatbots-q-40c3984e",
+          "type": "mcq",
+          "stem": "ELIZA simulated which role?",
+          "options": [
+            "A psychotherapist",
+            "A patient with paranoid schizophrenia",
+            "A 13-year-old Ukrainian boy"
+          ],
+          "answer": "A psychotherapist",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session3-4-introduction-to-ai#15",
+            "aib--aib-session3-4-introduction-to-ai#16",
+            "aib--aib-session3-4-introduction-to-ai#18"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-s34-early-chatbots-q-215a44cf",
+          "type": "true_false",
+          "stem": "ELIZA could remember earlier parts of a conversation and learn from users.",
+          "options": [],
+          "answer": "False",
+          "accept": [],
+          "explanation": "The slide says ELIZA had no memory, no reasoning and no learning; it simply matched keywords.",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session3-4-introduction-to-ai#15"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "aib--aib-session3-4-introduction-to-ai#13",
+        "aib--aib-session3-4-introduction-to-ai#15"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s34-early-chatbots-c2",
+      "heading": "PARRY (1972): a chatbot with beliefs and emotions",
+      "explanation_md": "**PARRY** was developed by **Kenneth Colby** to **simulate a patient with paranoid schizophrenia**.\n\nThe big difference: **unlike ELIZA, PARRY included internal beliefs and emotional states**. Instead of simply matching words, it **modeled suspicion, fear and emotions**, and **responded based on its internal state**. This made conversations appear **much more realistic**:\n\n> User: Who are they?\n> PARRY: People in the hospital... even my doctor... maybe everyone.\n\n**Contribution:** added **psychological modeling**; introduced **primitive reasoning**; **more believable than ELIZA**.\n\nThe slide's summary: PARRY **went beyond surface patterns**; it simulated a mind with feelings and beliefs.",
+      "example_ids": [
+        "aib-ex-s34-parry"
+      ],
+      "key_terms": [],
+      "exam_line": "PARRY (1972, Kenneth Colby): simulated a patient with paranoid schizophrenia using internal beliefs and emotions; added psychological modeling and primitive reasoning.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "aib-s34-early-chatbots-q-0c706cb8",
+          "type": "mcq",
+          "stem": "What did PARRY have that ELIZA did not?",
+          "options": [
+            "Internal beliefs and emotional states",
+            "A database of millions of conversations",
+            "A 13-year-old boy persona"
+          ],
+          "answer": "Internal beliefs and emotional states",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session3-4-introduction-to-ai#16",
+            "aib--aib-session3-4-introduction-to-ai#19",
+            "aib--aib-session3-4-introduction-to-ai#18"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-s34-early-chatbots-q-7af31b0d",
+          "type": "mcq",
+          "stem": "Which is listed as PARRY's contribution?",
+          "options": [
+            "Psychological modeling and primitive reasoning",
+            "Learning from user interactions",
+            "Larger knowledge bases"
+          ],
+          "answer": "Psychological modeling and primitive reasoning",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session3-4-introduction-to-ai#16",
+            "aib--aib-session3-4-introduction-to-ai#19",
+            "aib--aib-session3-4-introduction-to-ai#17"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-s34-early-chatbots-q-c81cb900",
+          "type": "fill",
+          "stem": "PARRY was developed by Kenneth ____.",
+          "options": [],
+          "answer": "Colby",
+          "accept": [
+            "colby"
+          ],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session3-4-introduction-to-ai#16"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "aib--aib-session3-4-introduction-to-ai#16"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s34-early-chatbots-c3",
+      "heading": "Catherine (1991): richer knowledge, better dialogue",
+      "explanation_md": "**Catherine** represented **the next generation of conversational systems**, a step forward in conversational AI. It incorporated:\n- **Larger knowledge bases**: access to more information enabled richer answers.\n- **Improved dialogue management**: better tracking of conversation context and flow.\n- **More natural conversations**: responses became more coherent and human-like.\n\nIn the slide's example it answers factual questions about the moon and then politely closes the chat.\n\n**During this period AI researchers focused on:**\n- **Knowledge representation**: structuring and organizing information so computers could use it.\n- **Expert systems**: building systems that captured human expert knowledge to solve complex problems.\n- **Natural language processing**: enabling computers to understand, interpret and generate human language.\n\nAlthough not as widely recognized as ELIZA or PARRY, systems like Catherine showed **gradual improvements** in conversational AI.",
+      "example_ids": [
+        "aib-ex-s34-catherine"
+      ],
+      "key_terms": [
+        {
+          "term": "Dialogue management",
+          "meaning": "Tracking of conversation context and flow; Catherine improved it.",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#17"
+        },
+        {
+          "term": "Knowledge representation",
+          "meaning": "Structuring and organizing information so computers could use it.",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#17"
+        }
+      ],
+      "exam_line": "Catherine (1991): larger knowledge bases, improved dialogue management, more natural conversations; the era focused on knowledge representation, expert systems and natural language processing.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "aib-s34-early-chatbots-q-273ddde0",
+          "type": "mcq",
+          "stem": "Which three things did Catherine incorporate?",
+          "options": [
+            "Larger knowledge bases, improved dialogue management, more natural conversations",
+            "Internal beliefs, emotions and suspicion",
+            "A teenage persona that explained away mistakes"
+          ],
+          "answer": "Larger knowledge bases, improved dialogue management, more natural conversations",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session3-4-introduction-to-ai#17",
+            "aib--aib-session3-4-introduction-to-ai#16",
+            "aib--aib-session3-4-introduction-to-ai#18"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-s34-early-chatbots-q-7fc6e7bf",
+          "type": "mcq",
+          "stem": "\"Structuring and organizing information so computers could use it\" describes:",
+          "options": [
+            "Knowledge representation",
+            "Expert systems",
+            "Natural language processing"
+          ],
+          "answer": "Knowledge representation",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session3-4-introduction-to-ai#17"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-s34-early-chatbots-q-040f616c",
+          "type": "true_false",
+          "stem": "The slide says Catherine was more widely recognized than ELIZA and PARRY.",
+          "options": [],
+          "answer": "False",
+          "accept": [],
+          "explanation": "It says Catherine was not as widely recognized as ELIZA or PARRY, but showed gradual improvements in conversational AI.",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session3-4-introduction-to-ai#17"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "aib--aib-session3-4-introduction-to-ai#17"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s34-early-chatbots-c4",
+      "heading": "Eugene Goostman (2000): the persona trick",
+      "explanation_md": "**Eugene Goostman** was designed as a **13-year-old Ukrainian boy**; the slide calls it the world's most famous chatbot.\n\nWhy the persona? The young persona explained away **grammatical mistakes and limited knowledge**. People **overlooked errors and knowledge gaps because of the persona**, so Eugene's limitations **seemed believable** and conversations felt more natural.\n\nIn **2014**, some reports claimed Eugene **passed the Turing Test** in a public competition, although this **remains debated** within the AI community. It raised an important question: what does it really mean for a machine to **\"think\"**?\n\n**Contribution:**\n- **Advanced conversational realism**: a well-designed persona, context-management and clever responses can create engaging, human-like conversations.\n- **Highlighted the strengths and limitations of the Turing Test**: passing it **does not necessarily mean true understanding or intelligence**.",
+      "example_ids": [
+        "aib-ex-s34-eugene-goostman"
+      ],
+      "key_terms": [],
+      "exam_line": "Eugene Goostman (2000): a 13-year-old Ukrainian boy persona; reportedly passed the Turing Test in 2014 (debated); showed that passing the test is not true understanding.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "aib-s34-early-chatbots-q-c6fd6ece",
+          "type": "mcq",
+          "stem": "In which year did some reports claim Eugene Goostman passed the Turing Test?",
+          "options": [
+            "2014",
+            "2000",
+            "2011",
+            "1991"
+          ],
+          "answer": "2014",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session3-4-introduction-to-ai#18",
+            "aib--aib-session3-4-introduction-to-ai#19",
+            "aib--aib-session3-4-introduction-to-ai#17"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-s34-early-chatbots-q-a56a6efe",
+          "type": "mcq",
+          "stem": "Why did Eugene's persona help it seem human?",
+          "options": [
+            "People overlooked grammar errors and knowledge gaps from a 13-year-old boy",
+            "It had larger knowledge bases than any earlier chatbot",
+            "It modeled suspicion and fear"
+          ],
+          "answer": "People overlooked grammar errors and knowledge gaps from a 13-year-old boy",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session3-4-introduction-to-ai#18",
+            "aib--aib-session3-4-introduction-to-ai#17",
+            "aib--aib-session3-4-introduction-to-ai#16"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-s34-early-chatbots-q-6db4b63a",
+          "type": "true_false",
+          "stem": "Eugene's case shows that passing the Turing Test proves true understanding.",
+          "options": [],
+          "answer": "False",
+          "accept": [],
+          "explanation": "The slide says passing the Turing Test does not necessarily mean true understanding or intelligence.",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session3-4-introduction-to-ai#18"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "aib--aib-session3-4-introduction-to-ai#18"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s34-early-chatbots-c5",
+      "heading": "Cleverbot (2011): from rules to data",
+      "explanation_md": "**Cleverbot** marks **a shift toward learning chatbots**.\n\n- **Unlike earlier rule-based chatbots**, Cleverbot **learned from millions of previous conversations**.\n- Instead of relying only on predefined rules, it **generated responses by comparing new inputs with its conversation database**.\n- This produced **more human-like and varied** conversations.\n\nBut it still **does not \"understand\" like humans**: it **predicts the most likely response** based on patterns from past conversations.\n\n**Contribution:** **learning from user interactions** (analyzing millions of real conversations from users worldwide); **dynamic responses** (no fixed rules); **large conversational memory** (a massive database for diverse topics, humor, opinions and questions).\n\nThe big idea: a **shift from rule-based AI toward data-driven AI**, paving the way for modern conversational AI systems.\n\n**The whole chatbot line in one breath:** ELIZA matched keywords; PARRY added beliefs and emotions; Catherine added knowledge and dialogue management; Eugene used a persona; Cleverbot learned from data.",
+      "example_ids": [
+        "aib-ex-s34-cleverbot"
+      ],
+      "key_terms": [],
+      "exam_line": "Cleverbot (2011): learned from millions of past conversations and predicts the most likely response; the shift from rule-based to data-driven AI.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "aib-s34-early-chatbots-q-2374a0e1",
+          "type": "mcq",
+          "stem": "What made Cleverbot different from earlier chatbots?",
+          "options": [
+            "It learned from millions of previous conversations",
+            "It used a teenage persona to hide mistakes",
+            "It simulated a psychotherapist"
+          ],
+          "answer": "It learned from millions of previous conversations",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session3-4-introduction-to-ai#19",
+            "aib--aib-session3-4-introduction-to-ai#18",
+            "aib--aib-session3-4-introduction-to-ai#15"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-s34-early-chatbots-q-8c78f843",
+          "type": "fill",
+          "stem": "Cleverbot represented a shift from rule-based AI toward ____-driven AI.",
+          "options": [],
+          "answer": "data",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session3-4-introduction-to-ai#19"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-s34-early-chatbots-q-18147eb3",
+          "type": "mcq",
+          "stem": "Which chatbot is matched with its correct year on the deck?",
+          "options": [
+            "PARRY, 1972",
+            "ELIZA, 2011",
+            "Cleverbot, 1991"
+          ],
+          "answer": "PARRY, 1972",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session3-4-introduction-to-ai#13",
+            "aib--aib-session3-4-introduction-to-ai#16",
+            "aib--aib-session3-4-introduction-to-ai#17",
+            "aib--aib-session3-4-introduction-to-ai#19"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "aib--aib-session3-4-introduction-to-ai#19",
+        "aib--aib-session3-4-introduction-to-ai#15",
+        "aib--aib-session3-4-introduction-to-ai#16",
+        "aib--aib-session3-4-introduction-to-ai#17",
+        "aib--aib-session3-4-introduction-to-ai#18"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "aib-s34-early-chatbots-f1",
+      "front": "Chatbot timeline (deck picture)",
+      "back": "Alan Turing Machine 1950; ELIZA 1965 (1966 on its own slide); PARRY 1972; Catherine 1991; Eugene Goostman 2000; Cleverbot 2011.",
+      "kind": "list",
+      "source_refs": [
+        "aib--aib-session3-4-introduction-to-ai#13",
+        "aib--aib-session3-4-introduction-to-ai#15",
+        "aib--aib-session3-4-introduction-to-ai#17"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s34-early-chatbots-f2",
+      "front": "ELIZA",
+      "back": "1966, MIT, Joseph Weizenbaum; simulated a psychotherapist using keyword pattern matching; first successful chatbot; no memory, reasoning or learning.",
+      "kind": "example",
+      "source_refs": [
+        "aib--aib-session3-4-introduction-to-ai#15"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s34-early-chatbots-f3",
+      "front": "PARRY",
+      "back": "1972, Kenneth Colby; simulated a patient with paranoid schizophrenia; had internal beliefs and emotions; added psychological modeling.",
+      "kind": "example",
+      "source_refs": [
+        "aib--aib-session3-4-introduction-to-ai#16"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s34-early-chatbots-f4",
+      "front": "Catherine",
+      "back": "1991; larger knowledge bases, improved dialogue management, more natural conversations.",
+      "kind": "example",
+      "source_refs": [
+        "aib--aib-session3-4-introduction-to-ai#17"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s34-early-chatbots-f5",
+      "front": "Eugene Goostman",
+      "back": "2000; persona of a 13-year-old Ukrainian boy; reportedly passed the Turing Test in 2014 (debated).",
+      "kind": "example",
+      "source_refs": [
+        "aib--aib-session3-4-introduction-to-ai#18"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s34-early-chatbots-f6",
+      "front": "Cleverbot",
+      "back": "2011; learned from millions of conversations; predicts the most likely response; shift from rule-based to data-driven AI.",
+      "kind": "example",
+      "source_refs": [
+        "aib--aib-session3-4-introduction-to-ai#19"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s34-early-chatbots-f7",
+      "front": "What ELIZA showed about people",
+      "back": "Humans easily attribute intelligence to computers: many users felt ELIZA \"understood\" them.",
+      "kind": "fact",
+      "source_refs": [
+        "aib--aib-session3-4-introduction-to-ai#15"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [],
+  "explain_back": {
+    "prompt": "Trace the evolution of chatbots from ELIZA to Cleverbot. What did each one add?",
+    "rubric": [
+      {
+        "point": "ELIZA (1966): keyword pattern matching, first successful chatbot, no real understanding",
+        "source_ref": "aib--aib-session3-4-introduction-to-ai#15"
+      },
+      {
+        "point": "PARRY (1972): internal beliefs and emotions, psychological modeling",
+        "source_ref": "aib--aib-session3-4-introduction-to-ai#16"
+      },
+      {
+        "point": "Catherine (1991): larger knowledge bases and better dialogue management",
+        "source_ref": "aib--aib-session3-4-introduction-to-ai#17"
+      },
+      {
+        "point": "Eugene Goostman (2000): a persona; the Turing Test claim shows passing is not understanding",
+        "source_ref": "aib--aib-session3-4-introduction-to-ai#18"
+      },
+      {
+        "point": "Cleverbot (2011): learned from millions of conversations; rule-based to data-driven AI",
+        "source_ref": "aib--aib-session3-4-introduction-to-ai#19"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

@@ -1,0 +1,446 @@
+{
+  "id": "aib-s34-ai-phases",
+  "subject_id": "aib",
+  "deck_id": "aib--aib-session3-4-introduction-to-ai",
+  "title": "AI phases at a glance: events, markets, usage and compute",
+  "order": 208,
+  "summary": "The AI evolution table by decade, the phases table on market size, usage, availability and compute, and the four key highlights.",
+  "est_minutes": 20,
+  "difficulty": 2,
+  "source_refs": [
+    "aib--aib-session3-4-introduction-to-ai#26",
+    "aib--aib-session3-4-introduction-to-ai#39",
+    "aib--aib-session3-4-introduction-to-ai#40"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "aib-s34-ai-phases-c1",
+      "heading": "The AI evolution table",
+      "explanation_md": "The deck summarises the whole history in one table. Learn it row by row:\n\n| Decade | Phase | Key events & milestones |\n|---|---|---|\n| 1950s to 1960s | Birth of AI | Turing Test proposed (1950); Dartmouth Conference (1956); early ML programs |\n| 1970s | Early Hopes & Limitations | Rule-based systems; start of the first AI Winter due to unmet expectations |\n| 1980s | Expert Systems Era | Rise of expert systems; knowledge engineering gains traction |\n| 1990s | AI Rebounds | Deep Blue beats Kasparov (1997); progress in NLP and speech recognition |\n| 2000s | ML Matures | Rise of algorithms like SVMs and decision trees; deep learning coined (2006) |\n| 2010s | Deep Learning Revolution | AlexNet (2012) revolutionizes image recognition; GANs (2014), AlphaGo (2016) |\n| 2020s | Foundation & Generative AI | LLMs like GPT-3, ChatGPT, DALL·E, Codex; AI regulations & IndiaAI Mission (2024) |",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "Seven phases: Birth of AI, Early Hopes & Limitations, Expert Systems Era, AI Rebounds, ML Matures, Deep Learning Revolution, Foundation & Generative AI.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "aib-s34-ai-phases-q-5af1294d",
+          "type": "mcq",
+          "stem": "Which phase name does the table give the 2000s?",
+          "options": [
+            "ML Matures",
+            "AI Rebounds",
+            "Expert Systems Era",
+            "Deep Learning Revolution"
+          ],
+          "answer": "ML Matures",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session3-4-introduction-to-ai#26"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-s34-ai-phases-q-718a89e0",
+          "type": "mcq",
+          "stem": "Which milestone belongs to the 1990s row?",
+          "options": [
+            "Deep Blue beats Kasparov (1997)",
+            "AlexNet (2012)",
+            "Dartmouth Conference (1956)"
+          ],
+          "answer": "Deep Blue beats Kasparov (1997)",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session3-4-introduction-to-ai#26"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-s34-ai-phases-q-fb541441",
+          "type": "fill",
+          "stem": "In the 1980s row, knowledge ____ gains traction.",
+          "options": [],
+          "answer": "engineering",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session3-4-introduction-to-ai#26"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "aib--aib-session3-4-introduction-to-ai#26"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s34-ai-phases-c2",
+      "heading": "Phases by market size and usage",
+      "explanation_md": "A second table looks at each phase through a business lens. First, **market size** and **primary usage**:\n\n| Phase | Period | Market size & growth | Primary usage |\n|---|---|---|---|\n| Birth of AI | 1950s to 1960s | Mostly academic, minimal commercial investment | Symbolic AI, Turing Test, early chatbots (ELIZA) |\n| Rule-based / Expert Systems | 1970s to 1980s | Grew into a **billion-dollar expert systems industry** by late 1980s | Industrial/domestic rule-based systems, diagnostics, ELIZA/PROLOG |\n| AI Winter & ML Emergence | 1990s | Funding dropped; AI pivots to ML; **~$8 billion industry** by mid-2000s | Data mining, logistics, industrial automation, speech/NLP |\n| ML & Deep Learning Rise | 2000s to 2010s | AI market **~$279 b in 2024**, projected **$1.8 t by 2030**; DL market **$125 b in 2025** | Web personalization, search engines, speech, image recognition |\n| Deep Learning & Generative AI | 2010s to 2020s | DL market **~93 b (2024) to ~$1.42 t (2034)**, **CAGR ~31 to 35%** | ImageNet, GANs, AlphaGo (2016), ChatGPT, DALL·E |",
+      "example_ids": [
+        "aib-ex-s34-ai-market-figures"
+      ],
+      "key_terms": [],
+      "exam_line": "Market: about $8 billion by mid-2000s; AI market ~$279 b in 2024, projected $1.8 t by 2030; DL market ~93 b (2024) to ~$1.42 t (2034).",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "aib-s34-ai-phases-q-c7f94c83",
+          "type": "mcq",
+          "stem": "According to the phases table, the AI market in 2024 was about:",
+          "options": [
+            "$279 b",
+            "$125 b",
+            "$93 b",
+            "$8 billion"
+          ],
+          "answer": "$279 b",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session3-4-introduction-to-ai#39"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-s34-ai-phases-q-751a93b8",
+          "type": "mcq",
+          "stem": "Which phase is described as \"mostly academic, minimal commercial investment\"?",
+          "options": [
+            "Birth of AI",
+            "Rule-based / Expert Systems",
+            "ML & Deep Learning Rise"
+          ],
+          "answer": "Birth of AI",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session3-4-introduction-to-ai#39"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-s34-ai-phases-q-7ec9fb8b",
+          "type": "true_false",
+          "stem": "By the late 1980s, expert systems grew into a billion-dollar industry.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session3-4-introduction-to-ai#39"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "aib--aib-session3-4-introduction-to-ai#39"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s34-ai-phases-c3",
+      "heading": "Phases by availability and compute",
+      "explanation_md": "Now the same phases by **who could access AI** and **what powered it**:\n\n| Phase | Availability / access | Compute power & data |\n|---|---|---|\n| Birth of AI | Limited to research labs/universities | Basic mainframes; extremely low compute & data capacity |\n| Rule-based / Expert Systems | Business adoption by large firms; Lisp machines, specialized hardware | Modest compute; knowledge-engineering intensive |\n| AI Winter & ML Emergence | Hidden in software back-ends; no \"AI\" label | Emergence of commodity PCs; larger datasets |\n| ML & Deep Learning Rise | SaaS, cloud, APIs via AWS, Google, Microsoft | GPUs, clusters, big data; 2012 breakthrough (AlexNet) |\n| Deep Learning & Generative AI | LLMs released to public, APIs, consumer apps; **democratized AI** | Massive transformer models; hyperscaler infrastructure investments |\n\nRead down the access column and you see AI moving from research labs, to large firms, to hidden back-ends, to cloud APIs, to the public.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "Access went from research labs, to large firms, to hidden back-ends, to cloud APIs, to public LLMs; compute went from basic mainframes to GPUs and big data to massive transformer models.",
+      "clarification": {
+        "term": "hyperscaler",
+        "text": "A company that runs very large cloud data centres and rents out computing power at huge scale."
+      },
+      "check_questions": [
+        {
+          "id": "aib-s34-ai-phases-q-fc0eb1fe",
+          "type": "mcq",
+          "stem": "In the AI Winter & ML Emergence phase (1990s), how was AI available?",
+          "options": [
+            "Hidden in software back-ends, with no \"AI\" label",
+            "LLMs released to the public",
+            "Limited to research labs and universities"
+          ],
+          "answer": "Hidden in software back-ends, with no \"AI\" label",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session3-4-introduction-to-ai#39"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-s34-ai-phases-q-08cfbc9e",
+          "type": "mcq",
+          "stem": "Which compute and data description matches the ML & Deep Learning Rise phase?",
+          "options": [
+            "GPUs, clusters, big data; 2012 breakthrough (AlexNet)",
+            "Basic mainframes; extremely low compute",
+            "Modest compute; knowledge-engineering intensive"
+          ],
+          "answer": "GPUs, clusters, big data; 2012 breakthrough (AlexNet)",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session3-4-introduction-to-ai#39"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "aib--aib-session3-4-introduction-to-ai#39"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s34-ai-phases-c4",
+      "heading": "Key highlights: four shifts",
+      "explanation_md": "The deck's **key highlights** compress the table into four shifts:\n1. **Markets are skyrocketing**: the total AI market exceeded **$279 b in 2024**, and DL alone is poised for **$1+ trillion by 2034**.\n2. **Usage shifted** from academic/government labs to industrial applications, then to widespread commercial use, ending in **consumer-grade tools and enterprise-level deployments**.\n3. **Availability evolved** from exclusive mainframes and specialized hardware to **accessible cloud services (AWS, Azure, etc.)** and later to **freely available APIs and consumer software**.\n4. **Compute & data advanced** from basic mainframes to **powerful GPU clusters**; today's architectures, like **transformers**, demand immense computational resources from **hyperscalers**.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "Four shifts: markets skyrocketing ($279 b in 2024), usage from labs to consumers, availability from mainframes to cloud and APIs, compute from mainframes to GPU clusters.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "aib-s34-ai-phases-q-88ca1fae",
+          "type": "mcq",
+          "stem": "By when is deep learning alone poised to pass $1 trillion, per the highlights?",
+          "options": [
+            "2034",
+            "2024",
+            "2030"
+          ],
+          "answer": "2034",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session3-4-introduction-to-ai#40",
+            "aib--aib-session3-4-introduction-to-ai#39"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-s34-ai-phases-q-1dd2a135",
+          "type": "fill",
+          "stem": "Availability evolved from exclusive mainframes to accessible ____ services such as AWS and Azure.",
+          "options": [],
+          "answer": "cloud",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session3-4-introduction-to-ai#40"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-s34-ai-phases-q-27fe6cf0",
+          "type": "true_false",
+          "stem": "The highlights say usage moved from consumer tools back to government labs.",
+          "options": [],
+          "answer": "False",
+          "accept": [],
+          "explanation": "Usage moved from academic/government labs to industrial applications, then commercial use, ending in consumer-grade tools and enterprise deployments.",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--aib-session3-4-introduction-to-ai#40"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "aib--aib-session3-4-introduction-to-ai#40"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "aib-s34-ai-phases-f1",
+      "front": "Seven phases of AI (evolution table)",
+      "back": "1950s to 1960s Birth of AI; 1970s Early Hopes & Limitations; 1980s Expert Systems Era; 1990s AI Rebounds; 2000s ML Matures; 2010s Deep Learning Revolution; 2020s Foundation & Generative AI.",
+      "kind": "list",
+      "source_refs": [
+        "aib--aib-session3-4-introduction-to-ai#26"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s34-ai-phases-f2",
+      "front": "AI market figures (phases table)",
+      "back": "About $8 billion industry by mid-2000s; AI market ~$279 b in 2024, projected $1.8 t by 2030; DL market $125 b in 2025.",
+      "kind": "fact",
+      "source_refs": [
+        "aib--aib-session3-4-introduction-to-ai#39"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s34-ai-phases-f3",
+      "front": "Deep learning market forecast",
+      "back": "~93 b (2024) to ~$1.42 t (2034), CAGR ~31 to 35%.",
+      "kind": "fact",
+      "source_refs": [
+        "aib--aib-session3-4-introduction-to-ai#39"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s34-ai-phases-f4",
+      "front": "How was AI available in the 1990s?",
+      "back": "Hidden in software back-ends; no \"AI\" label.",
+      "kind": "fact",
+      "source_refs": [
+        "aib--aib-session3-4-introduction-to-ai#39"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s34-ai-phases-f5",
+      "front": "Four key highlights",
+      "back": "Markets skyrocketing; usage shifted from labs to consumers and enterprises; availability from mainframes to cloud and APIs; compute from mainframes to GPU clusters.",
+      "kind": "list",
+      "source_refs": [
+        "aib--aib-session3-4-introduction-to-ai#40"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s34-ai-phases-f6",
+      "front": "Compute in the Birth of AI phase",
+      "back": "Basic mainframes; extremely low compute and data capacity.",
+      "kind": "fact",
+      "source_refs": [
+        "aib--aib-session3-4-introduction-to-ai#39"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [],
+  "explain_back": {
+    "prompt": "Using the phases table, explain how AI's market, usage, availability and compute changed from the Birth of AI to generative AI.",
+    "rubric": [
+      {
+        "point": "Birth of AI: mostly academic, limited to research labs, basic mainframes",
+        "source_ref": "aib--aib-session3-4-introduction-to-ai#39"
+      },
+      {
+        "point": "Expert systems: billion-dollar industry by late 1980s, large firms, Lisp machines",
+        "source_ref": "aib--aib-session3-4-introduction-to-ai#39"
+      },
+      {
+        "point": "1990s: AI pivots to ML, hidden in software back-ends, commodity PCs",
+        "source_ref": "aib--aib-session3-4-introduction-to-ai#39"
+      },
+      {
+        "point": "ML and DL rise: AI market ~$279 b in 2024; cloud APIs; GPUs and big data",
+        "source_ref": "aib--aib-session3-4-introduction-to-ai#39"
+      },
+      {
+        "point": "Generative AI: LLMs released to the public, democratized AI, massive transformer models and hyperscaler investments",
+        "source_ref": "aib--aib-session3-4-introduction-to-ai#39"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}
