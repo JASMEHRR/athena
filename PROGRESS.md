@@ -92,6 +92,10 @@ No exam dates, so round-robin across subjects. Validate, ground and cover each d
 ## P7 Library and extras
 - [ ] P7.1 Frameworks, examples catalog, cross-subject links, PYQ pages, search.
 - [ ] P7.2 YouTube picks: one yt-dlp search per topic, 3 seconds apart, cached; 3 picks per topic labelled "Extra help, not exam source".
+  - IN PROGRESS: athena/videos.py built and tested (fake searcher; one real yt-dlp search works). Still to do: run `python -m athena.videos` after P4 content exists, then tick.
+
+## NOTE FOR NEXT ROUND
+- Three content subagents (AIB s34, BE s12, FAR drcr) were stopped when the usage limit hit. Their drafts are in the old scratchpad and any topic files they wrote are UNCOMMITTED. Run git status: for each of those decks, run validate/grounding/coverage; keep and commit only decks that are clean with pass_a true, otherwise delete their partial topic files (content/topics/<subject>/<subject>-<short>-*.json) and redo the deck.
 - [x] P7.3 Classroom sync, tested with mocks.
   - athena/sync_classroom.py: read-only scopes, ACTIVE courses, materials/coursework/announcements Drive files, PPT/PPTX/PDF + Slides exported to PPTX into inbox/<Course>/, skip by file id + modifiedTime (data/classroom_state.json), due dates into p_deadlines (shown on Plan). Fake-client tests in tests/test_sync_classroom.py. Setup steps in MORNING.md.
 - [x] P7.4 Review queue, REFRESH.md, refresh button, /api/v1/summary.
@@ -132,6 +136,7 @@ No exam dates, so round-robin across subjects. Validate, ground and cover each d
 | sce--list-of-business-ideas | sce | yes | | | |
 | sce--step-startup-pitching-template-very-early-stage | sce | yes | | | |
 | sip1--sip-2026-27-organization-selection-presentation-po | sip1 | yes | | | |
+
 
 
 
