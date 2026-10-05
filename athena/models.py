@@ -430,6 +430,8 @@ class Pattern(StrictModel):
     marks_structure: list[str] = Field(default_factory=list)
     repeated_topics: list[str] = Field(default_factory=list)
     sources: list[str] = Field(default_factory=list)
+    # Mock paper shape: {"objective": n, "short": n, "long": n, "minutes": n}
+    mock_shape: dict[str, int] = Field(default_factory=dict)
 
 
 class SyllabusSession(StrictModel):

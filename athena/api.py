@@ -16,7 +16,7 @@ from fastapi.responses import FileResponse, JSONResponse, PlainTextResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
 
-from . import __version__, admin, config, db, insights, planner, progress, services, srs
+from . import __version__, admin, config, db, insights, mocks, planner, progress, services, srs
 
 API = "/api/v1"
 
@@ -77,6 +77,15 @@ class ActivityBody(BaseModel):
 
 class TaskStatusBody(BaseModel):
     status: str = Field(pattern="^(todo|done|skipped)$")
+
+
+class MockCreate(BaseModel):
+    subject_id: str
+
+
+class MockSubmit(BaseModel):
+    answers: dict[str, str] = Field(default_factory=dict)
+    ticks: dict[str, list[bool]] | None = None
 
 
 def _not_found(what: str) -> HTTPException:
@@ -263,6 +272,37 @@ def create_app() -> FastAPI:
         names = {sid: s["short_name"] for sid, s in services.subject_map(conn).items()}
         return PlainTextResponse(planner.to_ics(cal, names), media_type="text/calendar",
                                  headers={"Content-Disposition": 'attachment; filename="athena-plan.ics"'})
+
+    # ---------------------------------------------------------------- mock papers
+
+    @app.post(f"{API}/mocks")
+    def mock_create(body: MockCreate, conn: sqlite3.Connection = Depends(get_conn)):
+        try:
+            return mocks.create(conn, body.subject_id)
+        except KeyError:
+            raise _not_found("subject")
+        except ValueError as exc:
+            raise HTTPException(status_code=400, detail=str(exc))
+
+    @app.get(f"{API}/mocks")
+    def mock_history(subject_id: str | None = None, conn: sqlite3.Connection = Depends(get_conn)):
+        return mocks.history(conn, subject_id)
+
+    @app.get(f"{API}/mocks/{{mock_id}}")
+    def mock_view(mock_id: str, conn: sqlite3.Connection = Depends(get_conn)):
+        try:
+            return mocks.view(conn, mock_id)
+        except KeyError:
+            raise _not_found("mock paper")
+
+    @app.post(f"{API}/mocks/{{mock_id}}/submit")
+    def mock_submit(mock_id: str, body: MockSubmit, conn: sqlite3.Connection = Depends(get_conn)):
+        try:
+            return mocks.submit(conn, mock_id, body.answers, body.ticks)
+        except KeyError:
+            raise _not_found("mock paper")
+        except ValueError as exc:
+            raise HTTPException(status_code=400, detail=str(exc))
 
     # ---------------------------------------------------------------- insights and library
 

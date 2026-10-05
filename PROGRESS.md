@@ -79,7 +79,8 @@ No exam dates, so round-robin across subjects. Validate, ground and cover each d
 
 ## P6 Pass B and practice
 - [ ] P6.1 Pass B for the first subject (AIB).
-- [ ] P6.2 Practice pages: answer writing, case practice, mock papers.
+- [x] P6.2 Practice pages: answer writing, case practice, mock papers.
+  - athena/mocks.py + /api/v1/mocks: sections A objective (auto-marked), B short, C long (rubric ticks), shape from patterns/<subject>.json mock_shape. practice_modes.js: answer writing, case practice, timed mock (answers saved in localStorage while taking). Needs pass B questions to be useful.
 - [ ] P6 pass B: be
 - [ ] P6 pass B: far
 - [ ] P6 pass B: mm
@@ -129,6 +130,7 @@ No exam dates, so round-robin across subjects. Validate, ground and cover each d
 | sce--list-of-business-ideas | sce | yes | | | |
 | sce--step-startup-pitching-template-very-early-stage | sce | yes | | | |
 | sip1--sip-2026-27-organization-selection-presentation-po | sip1 | yes | | | |
+
 
 
 

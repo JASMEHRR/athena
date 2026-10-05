@@ -129,5 +129,6 @@ export async function render(root, { query }) {
 }
 
 export function cleanup() {
+  if (state && state.cleanupMock) state.cleanupMock();
   state = null;
 }

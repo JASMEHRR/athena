@@ -4,8 +4,40 @@
   "paper_format": "MST Fall 2025: all questions compulsory, answer in sequence. Q1 (5 x 3 = 15 marks) short theory; Q2 to Q6 numericals (2, 3, 3, 2, 5 marks).",
   "total_marks": 30,
   "duration": "120 minutes",
-  "question_verbs": ["Explain", "Explain with an example and the diagram", "Mention", "Write down", "Determine", "Derive", "Find", "Calculate", "Comment upon", "Should she ... or should she stop?"],
-  "marks_structure": ["3-mark theory: definition, diagram where relevant, one example", "2-mark numerical: one formula and the decision", "3-mark numerical: derive, then solve, then interpret", "5-mark numerical: full table of working (forecasting, RMSE)"],
-  "repeated_topics": ["Utility and the law of diminishing marginal utility", "Consumer equilibrium", "Demand: market demand from individual demand functions, effect of income", "Consumer and producer surplus", "Elasticity with the total expenditure method", "Budget line", "Demand forecasting with exponential smoothing"],
-  "sources": ["pyq/BE_GM5203_MST_2025.pdf (MST, 17 Sep 2025)"]
+  "question_verbs": [
+    "Explain",
+    "Explain with an example and the diagram",
+    "Mention",
+    "Write down",
+    "Determine",
+    "Derive",
+    "Find",
+    "Calculate",
+    "Comment upon",
+    "Should she ... or should she stop?"
+  ],
+  "marks_structure": [
+    "3-mark theory: definition, diagram where relevant, one example",
+    "2-mark numerical: one formula and the decision",
+    "3-mark numerical: derive, then solve, then interpret",
+    "5-mark numerical: full table of working (forecasting, RMSE)"
+  ],
+  "repeated_topics": [
+    "Utility and the law of diminishing marginal utility",
+    "Consumer equilibrium",
+    "Demand: market demand from individual demand functions, effect of income",
+    "Consumer and producer surplus",
+    "Elasticity with the total expenditure method",
+    "Budget line",
+    "Demand forecasting with exponential smoothing"
+  ],
+  "sources": [
+    "pyq/BE_GM5203_MST_2025.pdf (MST, 17 Sep 2025)"
+  ],
+  "mock_shape": {
+    "objective": 0,
+    "short": 6,
+    "long": 3,
+    "minutes": 120
+  }
 }
