@@ -1,0 +1,24 @@
+{
+  "subject_id": "qtm",
+  "course_code": "OP5302",
+  "title": "Quantitative Techniques for Managers",
+  "source_file": "E:\\college\\mba-hub\\QTM\\syllabus\\Syllabus.pdf",
+  "faculty": ["Dr. Manjot Singh Bhatia", "Dr. M. Faisal Noor"],
+  "modules": ["1 Introduction to Quantitative Techniques", "2 Measures of Central Tendency and Dispersion", "3 Probability and Normal Distribution", "4 Data Collection and Analysis", "5 Hypothesis Testing and Statistical Inference", "6 Parametric and Non-Parametric Tests", "7 Introduction to Linear Programming", "8 LP Solution Methods", "9 Assignment and Transportation Models", "10 Decision Theory"],
+  "evaluation": ["MST 35%", "EST 35% (entire syllabus)", "Sessionals 30%: class participation 10, quizzes 10, tutorials 10"],
+  "sessions": [
+    {"n": "1-3", "topic": "Intro to quantitative techniques; descriptive vs inferential statistics; role of data analytics", "module": "1", "deck_ids": ["qtm--module-1"], "has_ppt": true},
+    {"n": "4-5", "topic": "Central tendency: mean, median, mode", "module": "2", "deck_ids": ["qtm--module-2-1"], "has_ppt": true},
+    {"n": "6-8", "topic": "Dispersion: range, variance, standard deviation, coefficient of variation; applications", "module": "2", "deck_ids": [], "has_ppt": false},
+    {"n": "9", "topic": "Probability concepts", "module": "3", "deck_ids": ["qtm--module-3"], "has_ppt": true},
+    {"n": "10-12", "topic": "Normal distribution, z-scores, business applications, central limit theorem", "module": "3", "deck_ids": ["qtm--module-3"], "has_ppt": true},
+    {"n": "13-15", "topic": "Data collection; data sources; data cleaning and preparation", "module": "4", "deck_ids": ["qtm--module-4"], "has_ppt": true},
+    {"n": "16-19", "topic": "Hypothesis testing: steps, type I and II errors, p-values, confidence intervals", "module": "5", "deck_ids": ["qtm--module-5"], "has_ppt": true},
+    {"n": "20-23", "topic": "Parametric tests (t-tests, ANOVA, regression) and non-parametric tests (chi-square)", "module": "6", "deck_ids": ["qtm--module-6"], "has_ppt": true},
+    {"n": "25-27", "topic": "Optimisation in business; LP formulation; business applications of LP", "module": "7", "deck_ids": [], "has_ppt": false},
+    {"n": "28-30", "topic": "Graphical solution method; Excel Solver for LP", "module": "8", "deck_ids": [], "has_ppt": false},
+    {"n": "31-33", "topic": "Assignment model (Hungarian method); transportation model (NW corner, least cost, Vogel's)", "module": "9", "deck_ids": [], "has_ppt": false},
+    {"n": "34-35", "topic": "Decision theory: maximin, maximax, minimax regret; decision trees, EMV, EOL", "module": "10", "deck_ids": [], "has_ppt": false}
+  ],
+  "note": "Module 2.1 covers central tendency; a dispersion deck (likely Module 2.2) is not in the folders. Whether Module 3 reaches the normal distribution is checked during its lesson pass. Modules 7 to 10 have no decks yet; the EST covers the entire syllabus."
+}

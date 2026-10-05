@@ -3,7 +3,8 @@
   "findings": [
     "10 subjects from the official faculty allocation sheet. 8 have slide decks; EMDM and ES-I have none in either folder.",
     "No end-semester (EST) datesheet anywhere. The MST dates (31 Aug to 5 Sep 2026) are past. exams.json stays empty until JasMehr adds dates.",
-    "Past papers on disk: BE MST 2025 and SCE MST 2025 only. The other subjects' 2025 MST papers were downloaded to his Downloads folder and never moved (per mba-hub/README.md).",
+    "Past papers on disk: BE MST 2025, SCE MST 2025 and EMDM MST 2023 (Excel workbook), plus an AIB tutorial sheet. The other subjects' 2025 MST papers were downloaded to his Downloads folder and never moved (per mba-hub/README.md).",
+    "End-semester exams mostly test the sessions after the MST, and almost none of those decks are on disk yet (see content/syllabus).",
     "The 'study material' folder is an older copy of the same files now in mba-hub; every file there is an identical duplicate.",
     "Several decks are scanned or image-heavy PDFs (BE Session 1-2, FAR Five Elements, FAR Maynard cases, MM sessions), so many slides need a visual read."
   ],
@@ -27,7 +28,7 @@
     {"path": "college:mba-hub/AIB/AIB_Session4_5_types of AI.pdf", "role": "deck", "subject_id": "aib", "order": 3, "note": "Sessions 4-5 deck."},
     {"path": "college:mba-hub/AIB/AI_for_Business_Chapters_2_3.pdf", "role": "deck", "subject_id": "aib", "order": 4, "note": "Course notes prepared by Dr. Amit Kumar Bhardwaj (handout, page = slide)."},
     {"path": "college:mba-hub/AIB/syllabus/2. GM52XX_AIB_TPA_26-27 Fall.pdf", "role": "syllabus", "subject_id": "aib", "note": "Course outline with 36-session plan."},
-    {"path": "college:mba-hub/AIB/JASMEHR_5026040201_D_26.pdf", "role": "reference", "subject_id": "aib", "note": "His filled AIB tutorial sheet (17 Sep 2026). Used only as a question-style reference, never as a teaching source."},
+    {"path": "college:mba-hub/AIB/JASMEHR_5026040201_D_26.pdf", "role": "reference", "subject_id": "aib", "note": "His filled AIB tutorial sheet (17 Sep 2026). Questions transcribed into content/pyqs/aib.json as a style reference; his answers are ignored and it is never a teaching source."},
     {"path": "college:mba-hub/AIB/23.5.25_Brest_Cancer_test_score_idents.pdf", "role": "skip", "subject_id": "aib", "note": "Dataset printout for an ML class activity."},
     {"path": "college:mba-hub/AIB/Sample3 - Wine Quality.pdf", "role": "skip", "subject_id": "aib", "note": "Dataset printout for an ML class activity."},
     {"path": "college:mba-hub/AIB/Sample3 - Wine Quality (1).pdf", "role": "skip", "subject_id": "aib", "note": "Dataset printout (second copy)."},
@@ -40,8 +41,8 @@
     {"path": "college:mba-hub/BE/GM5203_BEcon_Course Syllabus_Fall 2026 (1).pdf", "role": "syllabus", "subject_id": "be", "note": "Course syllabus (units, no session plan)."},
     {"path": "college:pyq/BE_GM5203_MST_2025.pdf", "role": "pyq", "subject_id": "be", "note": "MST Fall 2025, 30 marks."},
 
-    {"path": "college:mba-hub/EMDM/mst/MST_EMDM_OP5306_Sep2023_v1_PP.xlsx", "role": "skip", "subject_id": "emdm", "note": "Past EMDM MST as an Excel workbook. Athena reads slides and PDFs only; listed in MORNING.md."},
-    {"path": "college:mba-hub/EMDM/mst/MST.xlsx", "role": "skip", "subject_id": "emdm", "note": "EMDM MST workbook (spreadsheet)."},
+    {"path": "college:mba-hub/EMDM/mst/MST_EMDM_OP5306_Sep2023_v1_PP.xlsx", "role": "pyq", "subject_id": "emdm", "note": "Real EMDM MST, 29 Sep 2023 (Excel workbook). Transcribed by hand into content/pyqs/emdm.json."},
+    {"path": "college:mba-hub/EMDM/mst/MST.xlsx", "role": "skip", "subject_id": "emdm", "note": "A self-made practice workbook (formula reference and mock test), not a professor's paper."},
     {"path": "college:mba-hub/EMDM/mst/EMDM_Late_Joiners_Tutorial_Sheets.xlsx", "role": "skip", "subject_id": "emdm", "note": "EMDM tutorial workbook (spreadsheet)."},
     {"path": "college:mba-hub/EMDM/mst/ChatGPT Installer.exe", "role": "skip", "subject_id": "emdm", "note": "Program installer."},
     {"path": "college:mba-hub/EMDM/mst/Microsoft.Services.Store.winmd", "role": "skip", "subject_id": "emdm", "note": "System file."},

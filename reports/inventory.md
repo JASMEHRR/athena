@@ -1,13 +1,14 @@
 # Course file inventory
 
-Generated 2026-10-05 12:31 by `python -m athena.sources` from content/sources.json.
+Generated 2026-10-05 12:55 by `python -m athena.sources` from content/sources.json.
 Sources: `E:\college` (read-only) and `inbox/` (read-only).
 
 ## Findings
 
 - 10 subjects from the official faculty allocation sheet. 8 have slide decks; EMDM and ES-I have none in either folder.
 - No end-semester (EST) datesheet anywhere. The MST dates (31 Aug to 5 Sep 2026) are past. exams.json stays empty until JasMehr adds dates.
-- Past papers on disk: BE MST 2025 and SCE MST 2025 only. The other subjects' 2025 MST papers were downloaded to his Downloads folder and never moved (per mba-hub/README.md).
+- Past papers on disk: BE MST 2025, SCE MST 2025 and EMDM MST 2023 (Excel workbook), plus an AIB tutorial sheet. The other subjects' 2025 MST papers were downloaded to his Downloads folder and never moved (per mba-hub/README.md).
+- End-semester exams mostly test the sessions after the MST, and almost none of those decks are on disk yet (see content/syllabus).
 - The 'study material' folder is an older copy of the same files now in mba-hub; every file there is an identical duplicate.
 - Several decks are scanned or image-heavy PDFs (BE Session 1-2, FAR Five Elements, FAR Maynard cases, MM sessions), so many slides need a visual read.
 
@@ -17,7 +18,7 @@ Sources: `E:\college` (read-only) and `inbox/` (read-only).
 |---|---|---|---|---|
 | Artificial Intelligence for Business (AIB) | BA5306 | 4 | 1 | 0 |
 | Business Economics (BE) | GM5203 | 3 | 1 | 1 |
-| Excel Modelling for Decision Making (EMDM) | BA5213 | 0 | 0 | 0 |
+| Excel Modelling for Decision Making (EMDM) | BA5213 | 0 | 0 | 1 |
 | Employability Skills-I (ES-I) | GM5102 | 0 | 0 | 0 |
 | Financial Accounting and Reporting (FAR) | FA5201 | 4 | 1 | 0 |
 | Marketing Management (MM) | MK5201 | 3 | 2 | 0 |
@@ -78,6 +79,7 @@ Sources: `E:\college` (read-only) and `inbox/` (read-only).
 | File | Subject | Deck id | Note |
 |---|---|---|---|
 | `college:pyq/BE_GM5203_MST_2025.pdf` | be |  | MST Fall 2025, 30 marks. |
+| `college:mba-hub/EMDM/mst/MST_EMDM_OP5306_Sep2023_v1_PP.xlsx` | emdm |  | Real EMDM MST, 29 Sep 2023 (Excel workbook). Transcribed by hand into content/pyqs/emdm.json. |
 | `college:pyq/SCE_GM5204_MST_2025.pdf` | sce |  | MST Fall 2025, 40 marks. |
 
 ## Timetables
@@ -90,7 +92,7 @@ Sources: `E:\college` (read-only) and `inbox/` (read-only).
 
 | File | Subject | Deck id | Note |
 |---|---|---|---|
-| `college:mba-hub/AIB/JASMEHR_5026040201_D_26.pdf` | aib |  | His filled AIB tutorial sheet (17 Sep 2026). Used only as a question-style reference, never as a teaching source. |
+| `college:mba-hub/AIB/JASMEHR_5026040201_D_26.pdf` | aib |  | His filled AIB tutorial sheet (17 Sep 2026). Questions transcribed into content/pyqs/aib.json as a style reference; his answers are ignored and it is never a teaching source. |
 
 ## Duplicates (identical copies; the canonical copy is used)
 
@@ -144,8 +146,7 @@ Sources: `E:\college` (read-only) and `inbox/` (read-only).
 | `college:mba-hub/AIB/scopus (11).xlsx` | Scopus export spreadsheet. |
 | `college:mba-hub/EMDM/mst/ChatGPT Installer.exe` | Program installer. |
 | `college:mba-hub/EMDM/mst/EMDM_Late_Joiners_Tutorial_Sheets.xlsx` | EMDM tutorial workbook (spreadsheet). |
-| `college:mba-hub/EMDM/mst/MST.xlsx` | EMDM MST workbook (spreadsheet). |
-| `college:mba-hub/EMDM/mst/MST_EMDM_OP5306_Sep2023_v1_PP.xlsx` | Past EMDM MST as an Excel workbook. Athena reads slides and PDFs only; listed in MORNING.md. |
+| `college:mba-hub/EMDM/mst/MST.xlsx` | A self-made practice workbook (formula reference and mock test), not a professor's paper. |
 | `college:mba-hub/EMDM/mst/Microsoft.Services.Store.winmd` | System file. |
 | `college:mba-hub/EMDM/mst/~$EMDM_Late_Joiners_Tutorial_Sheets.xlsx` | Excel lock file left behind while the workbook was open. |
 | `college:mba-hub/EMDM/syllabus/EMDM_Teaching_Plan_SUMMARY.md` | A summary written by an earlier Claude chat, not the professor's file. The original teaching plan PDF is not in the folder. |
