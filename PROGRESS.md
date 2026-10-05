@@ -12,8 +12,10 @@ Notes for the next round go under each ticked task.
   - Classification lives in content/sources.json; `python -m athena.sources` regenerates reports/inventory.md. 28 decks (8 subjects), EMDM and ES-I have none. No EST dates. PYQs: BE and SCE MST 2025 only.
 
 ## P1 Ingestion
-- [ ] P1.1 PPTX extractor with tests.
-- [ ] P1.2 PDF extractor, page images, LibreOffice path when available, .ppt handling; tests.
+- [x] P1.1 PPTX extractor with tests.
+  - athena/extract_pptx.py: bullets with levels (incl. equation text), tables, charts, SmartArt text, notes, big pictures saved under data/slides.
+- [x] P1.2 PDF extractor, page images, LibreOffice path when available, .ppt handling; tests.
+  - athena/extract_pdf.py + athena/render.py. No LibreOffice here; PPTX renders via installed PowerPoint (scripts/render-pptx.ps1, read-only). .ppt converts to data/converted or is reported.
 - [ ] P1.3 Validators (validate, grounding, coverage) with tests. Ingest every course deck from both sources. Add one P4 line per deck.
 
 ## P2 One deck end to end
@@ -53,4 +55,5 @@ Notes for the next round go under each ticked task.
 ## Deck status
 | Deck | Subject | Ingested | Pass A | Pass B | Verified |
 |---|---|---|---|---|---|
+
 
