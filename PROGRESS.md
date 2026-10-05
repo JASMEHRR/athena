@@ -34,7 +34,8 @@ Notes for the next round go under each ticked task.
   - web/css/app.css (tokens, dark default + light), web/js/app.js (hash router, rail + phone tab bar, What next? = W key), ui.js (safe markdown, icons, rings), components.js (slide viewer, question card, activity tracker). Test server: preview 'athena-test' uses data/test.db, never the real DB.
 - [x] P3.3 Learn (chunks, checks, slide panel, explain-back, confidence).
   - web/js/pages/learn.js. Side slide panel at 1280px+, popup below. Enter continues, 1-4 answer, 1-5 confidence, ?part=N deep link. Clicked through end to end in the test browser.
-- [ ] P3.4 Review (FSRS) and quick quiz; mastery, streak, time tracking.
+- [x] P3.4 Review (FSRS) and quick quiz; mastery, streak, time tracking.
+  - review.js (Space flips, 1-4 rate), practice.js quick quiz; practice_modes.js is where P6.2 adds answer writing, cases and mocks. Activity heartbeat every 30 s while visible and active (idle after 2 min).
 - [ ] P3.5 scripts\start-athena.bat and a full smoke test of every page and endpoint.
 
 ## P4 Pass A for every remaining deck
@@ -124,6 +125,7 @@ No exam dates, so round-robin across subjects. Validate, ground and cover each d
 | sce--list-of-business-ideas | sce | yes | | | |
 | sce--step-startup-pitching-template-very-early-stage | sce | yes | | | |
 | sip1--sip-2026-27-organization-selection-presentation-po | sip1 | yes | | | |
+
 
 
 
