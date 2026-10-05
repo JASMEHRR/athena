@@ -336,7 +336,8 @@ a.list-row:hover { background: var(--surface-2); text-decoration: none; border-r
 /* ------------------------------------------------------------- learn layout */
 
 .learn { display: grid; grid-template-columns: minmax(0, 1fr); gap: var(--s5); }
-.learn.with-panel { grid-template-columns: minmax(0, 1fr) minmax(320px, 420px); }
+.learn.with-panel { grid-template-columns: minmax(0, 1fr) minmax(280px, 360px); }
+.learn h1 { font-size: 27px; }
 .learn-head { display: grid; gap: var(--s3); margin-bottom: var(--s5); }
 .steps { display: flex; gap: 6px; }
 .steps span { height: 4px; flex: 1; border-radius: 999px; background: var(--surface-3); }
@@ -387,9 +388,9 @@ a.list-row:hover { background: var(--surface-2); text-decoration: none; border-r
 
 /* ------------------------------------------------------------- phone */
 
-@media (max-width: 980px) {
+@media (max-width: 1279px) {
   .learn.with-panel { grid-template-columns: minmax(0, 1fr); }
-  .panel { position: static; max-height: none; }
+  .learn .panel { display: none; }
 }
 @media (max-width: 760px) {
   .shell { grid-template-columns: 1fr; }

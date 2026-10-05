@@ -18,6 +18,15 @@ export function el(tag, attrs = {}, ...children) {
   return node;
 }
 
+// Like node.append, but skips null/undefined/false (append would print "null").
+export function add(node, ...children) {
+  for (const child of children.flat(Infinity)) {
+    if (child === null || child === undefined || child === false) continue;
+    node.append(child);
+  }
+  return node;
+}
+
 export function clear(node) {
   while (node.firstChild) node.removeChild(node.firstChild);
   return node;

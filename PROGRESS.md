@@ -32,7 +32,8 @@ Notes for the next round go under each ticked task.
   - athena/importer.py (c_* only), services.py (page read models), api.py (/api/v1), srs.py (FSRS), grading.py, progress.py (mastery, streak, time), planner.py (built early because Today needs it; P5.1 still owes the Plan page UI and Settings UI). Answers never go to the browser before an attempt.
 - [x] P3.2 Frontend shell, design system, Today, Subjects.
   - web/css/app.css (tokens, dark default + light), web/js/app.js (hash router, rail + phone tab bar, What next? = W key), ui.js (safe markdown, icons, rings), components.js (slide viewer, question card, activity tracker). Test server: preview 'athena-test' uses data/test.db, never the real DB.
-- [ ] P3.3 Learn (chunks, checks, slide panel, explain-back, confidence).
+- [x] P3.3 Learn (chunks, checks, slide panel, explain-back, confidence).
+  - web/js/pages/learn.js. Side slide panel at 1280px+, popup below. Enter continues, 1-4 answer, 1-5 confidence, ?part=N deep link. Clicked through end to end in the test browser.
 - [ ] P3.4 Review (FSRS) and quick quiz; mastery, streak, time tracking.
 - [ ] P3.5 scripts\start-athena.bat and a full smoke test of every page and endpoint.
 
@@ -123,6 +124,7 @@ No exam dates, so round-robin across subjects. Validate, ground and cover each d
 | sce--list-of-business-ideas | sce | yes | | | |
 | sce--step-startup-pitching-template-very-early-stage | sce | yes | | | |
 | sip1--sip-2026-27-organization-selection-presentation-po | sip1 | yes | | | |
+
 
 
 

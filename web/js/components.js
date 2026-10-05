@@ -1,7 +1,7 @@
 // Shared widgets: slide viewer, question card, activity tracker.
 
 import { api } from "./api.js";
-import { el, clear, icon, md, refLabel, toast } from "./ui.js";
+import { add, el, clear, icon, md, refLabel, toast } from "./ui.js";
 
 // ------------------------------------------------------------- slide viewer
 
@@ -12,7 +12,7 @@ export async function renderSlide(container, ref) {
   try {
     const s = await api.get(`/slides/${encodeURIComponent(deckId)}/${encodeURIComponent(n)}`);
     clear(container);
-    container.append(
+    add(container,
       el("div", { class: "row between" },
         el("div", {}, el("div", { class: "label" }, `${refLabel(ref)} of ${s.total}`),
           el("div", { class: "small muted ellipsis", title: s.file_name }, s.deck_title)),
