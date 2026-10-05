@@ -1,6 +1,6 @@
 # Coverage report
 
-Generated 2026-10-05 15:06. A deck's pass A is complete at 100% of content slides (cited by a lesson chunk, or the gap explained) with every example taught.
+Generated 2026-10-05 15:12. A deck's pass A is complete at 100% of content slides (cited by a lesson chunk, or the gap explained) with every example taught.
 
 | Deck | Subject | Topics | Content slides | Cited | Explained | Coverage | Examples taught | Pass A |
 |---|---|---|---|---|---|---|---|---|
@@ -18,10 +18,10 @@ Generated 2026-10-05 15:06. A deck's pass A is complete at 100% of content slide
 | mm--session-1-mm | mm | 0 | 16 | 0 | 0 | 0% | 0/0 |  |
 | mm--session-2-mm | mm | 0 | 21 | 0 | 0 | 0% | 0/0 |  |
 | mm--session3-mm | mm | 0 | 21 | 0 | 0 | 0% | 0/0 |  |
-| oml--1-ob-introduction | oml | 5 | 22 | 22 | 0 | 100% | 6/6 | ready |
+| oml--1-ob-introduction | oml | 5 | 22 | 22 | 0 | 100% | 6/6 | done |
 | oml--casestudypeople-express | oml | 0 | 1 | 0 | 0 | 0% | 0/0 |  |
 | oml--peoples-expressedpjul30 | oml | 0 | 17 | 0 | 0 | 0% | 0/0 |  |
-| qtm--module-1 | qtm | 0 | 41 | 0 | 0 | 0% | 0/0 |  |
+| qtm--module-1 | qtm | 7 | 40 | 40 | 0 | 100% | 16/16 | ready |
 | qtm--module-2-1 | qtm | 0 | 32 | 0 | 0 | 0% | 0/0 |  |
 | qtm--module-3 | qtm | 0 | 67 | 0 | 0 | 0% | 0/0 |  |
 | qtm--module-4 | qtm | 0 | 33 | 0 | 0 | 0% | 0/0 |  |

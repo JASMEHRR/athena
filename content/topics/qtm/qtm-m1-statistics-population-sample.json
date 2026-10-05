@@ -1,0 +1,420 @@
+{
+  "id": "qtm-m1-statistics-population-sample",
+  "subject_id": "qtm",
+  "deck_id": "qtm--module-1",
+  "title": "Statistics, populations and samples",
+  "order": 103,
+  "summary": "Where the word statistics comes from, descriptive vs inferential statistics, population vs sample, and when to use a sample or a census.",
+  "est_minutes": 20,
+  "difficulty": 1,
+  "source_refs": [
+    "qtm--module-1#14",
+    "qtm--module-1#15",
+    "qtm--module-1#16",
+    "qtm--module-1#17"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "qtm-m1-statistics-population-sample-c1",
+      "heading": "Where 'statistics' comes from",
+      "explanation_md": "**Statistics** is derived from the Italian word **stato**, meaning *state*. A **statista** was a person involved with the affairs of the state, and statistics originally meant the **collection of facts** useful to the statista.\n\nToday the word has moved beyond the state to **every state of human endeavor**: personal, business, social, environmental. It has also moved beyond collecting data towards **summarizing, displaying and analyzing data** into meaningful information that supports current and future decisions.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "Statistics comes from the Italian 'stato' (state); it now means summarizing, displaying and analyzing data into meaningful information for decisions.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m1-statistics-population-sample-q-6b3be3ed",
+          "type": "fill",
+          "stem": "Statistics is derived from the Italian word ____, which means 'state'.",
+          "options": [],
+          "answer": "stato",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-1#14"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m1-statistics-population-sample-q-5bc5c4b6",
+          "type": "mcq",
+          "stem": "What did statistics originally mean?",
+          "options": [
+            "The collection of facts useful to the statista",
+            "Forecasting stock prices",
+            "Drawing samples at random"
+          ],
+          "answer": "The collection of facts useful to the statista",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-1#14"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-1#14"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-statistics-population-sample-c2",
+      "heading": "Descriptive vs inferential statistics",
+      "explanation_md": "Two statistical approaches:\n\n- **Descriptive statistics** analyses and **summarises** data and organises it in some form, usually as **graphs and numerical summaries**. Example: **census**.\n- **Inferential statistics** draws **conclusions about a population from a small sample**: methods of making decisions or predictions about a population based on a sample. Example: **exit poll**.\n\nSo a census describes everyone you counted; an exit poll asks a few voters and infers how everyone voted.",
+      "example_ids": [
+        "qtm-ex-m1-census-exitpoll"
+      ],
+      "key_terms": [
+        {
+          "term": "Descriptive statistics",
+          "meaning": "Methods for summarising data, usually graphs and numerical summaries (e.g. census).",
+          "source_ref": "qtm--module-1#15"
+        },
+        {
+          "term": "Inferential statistics",
+          "meaning": "Methods of making decisions or predictions about a population based on a sample (e.g. exit poll).",
+          "source_ref": "qtm--module-1#15"
+        }
+      ],
+      "exam_line": "Descriptive statistics summarises data (census); inferential statistics draws conclusions about a population from a sample (exit poll).",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m1-statistics-population-sample-q-e60f9c43",
+          "type": "mcq",
+          "stem": "An exit poll is the slide's example of:",
+          "options": [
+            "Inferential statistics",
+            "Descriptive statistics",
+            "Non-probability sampling"
+          ],
+          "answer": "Inferential statistics",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-1#15",
+            "qtm--module-1#21"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m1-statistics-population-sample-q-6cb41a4e",
+          "type": "mcq",
+          "stem": "Which is the slide's example of descriptive statistics?",
+          "options": [
+            "Census",
+            "Exit poll",
+            "Snowball sampling"
+          ],
+          "answer": "Census",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-1#15",
+            "qtm--module-1#22"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-1#15"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-statistics-population-sample-c3",
+      "heading": "Population and sample",
+      "explanation_md": "Statistics is **the science of generalization from a part (the randomly chosen sample) to the whole (the population).**\n\n- **Population:** the **entire group** you want to draw conclusions about.\n- **Sample:** the **specific group** you will collect data from.\n\nThe slide's pairs:\n\n| Population | Sample |\n|---|---|\n| Trend in advertisements for development jobs in India | The top 20 search results for such advertisements today |\n| Songs from Bollywood movies | Songs from Bollywood movies that won the National Award |\n| Participants of PGP in LMTSM | Participants with less than 1 years of experience |",
+      "example_ids": [
+        "qtm-ex-m1-population-sample-pairs"
+      ],
+      "key_terms": [
+        {
+          "term": "Population",
+          "meaning": "The entire group that you want to draw conclusions about.",
+          "source_ref": "qtm--module-1#16"
+        },
+        {
+          "term": "Sample",
+          "meaning": "The specific group that you will collect data from.",
+          "source_ref": "qtm--module-1#16"
+        }
+      ],
+      "exam_line": "Population: the entire group you want to draw conclusions about. Sample: the specific group you collect data from.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m1-statistics-population-sample-q-3f1d488a",
+          "type": "mcq",
+          "stem": "In the slide's table, 'Songs from Bollywood movies that won the National Award' is a:",
+          "options": [
+            "Sample",
+            "Population",
+            "Census"
+          ],
+          "answer": "Sample",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-1#16"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m1-statistics-population-sample-q-daabfc55",
+          "type": "fill",
+          "stem": "A population is the entire group that you want to draw ____ about.",
+          "options": [],
+          "answer": "conclusions",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-1#16"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-1#16"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-statistics-population-sample-c4",
+      "heading": "When to use a sample and when a census",
+      "explanation_md": "The slide lists **conditions favouring a sample or a census**:\n\n| Condition | Sample | Census |\n|---|---|---|\n| Budget | Small | Large |\n| Time available | Short | Long |\n| Population size | Large | Small |\n| Variance in the characteristic | Small | Large |\n| Cost of sampling errors | Low | High |\n| Nature of measurement | Destructive | Non-destructive |\n| Attention to individual cases | Yes | No |\n\nMemory trick: a census needs **big money, long time and a small population**; a sample suits **tight budgets, short deadlines, huge populations and destructive testing** (you cannot test-destroy every unit).",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "A sample is favoured by a small budget, short time, large population, small variance, low cost of sampling errors and destructive measurement; a census by the opposite.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m1-statistics-population-sample-q-bc8353a8",
+          "type": "mcq",
+          "stem": "If the measurement destroys the item being tested, which is favoured?",
+          "options": [
+            "Sample",
+            "Census",
+            "Neither"
+          ],
+          "answer": "Sample",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-1#17"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m1-statistics-population-sample-q-7a377fdd",
+          "type": "mcq",
+          "stem": "A large budget, long time and small population favour:",
+          "options": [
+            "Census",
+            "Sample",
+            "Convenience sampling"
+          ],
+          "answer": "Census",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-1#17",
+            "qtm--module-1#22"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m1-statistics-population-sample-q-cef0dc95",
+          "type": "true_false",
+          "stem": "A high cost of sampling errors favours a census.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-1#17"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-1#17"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "qtm-m1-statistics-population-sample-f1",
+      "front": "Origin of the word statistics",
+      "back": "From the Italian 'stato' (state); originally the collection of facts useful to the statista.",
+      "kind": "fact",
+      "source_refs": [
+        "qtm--module-1#14"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-statistics-population-sample-f2",
+      "front": "Descriptive statistics",
+      "back": "Summarising and organising data with graphs and numerical summaries. Example: census.",
+      "kind": "term",
+      "source_refs": [
+        "qtm--module-1#15"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-statistics-population-sample-f3",
+      "front": "Inferential statistics",
+      "back": "Making decisions or predictions about a population based on a sample. Example: exit poll.",
+      "kind": "term",
+      "source_refs": [
+        "qtm--module-1#15"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-statistics-population-sample-f4",
+      "front": "Population vs sample",
+      "back": "Population: the entire group you want to draw conclusions about. Sample: the specific group you collect data from.",
+      "kind": "term",
+      "source_refs": [
+        "qtm--module-1#16"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-statistics-population-sample-f5",
+      "front": "Conditions favouring a sample",
+      "back": "Small budget, short time, large population, small variance, low cost of sampling errors, destructive measurement, attention to individual cases.",
+      "kind": "list",
+      "source_refs": [
+        "qtm--module-1#17"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-statistics-population-sample-f6",
+      "front": "Conditions favouring a census",
+      "back": "Large budget, long time, small population, large variance, high cost of sampling errors, non-destructive measurement.",
+      "kind": "list",
+      "source_refs": [
+        "qtm--module-1#17"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [],
+  "explain_back": {
+    "prompt": "Explain descriptive vs inferential statistics, population vs sample, and when you would choose a sample over a census.",
+    "rubric": [
+      {
+        "point": "Descriptive statistics summarises data (census); inferential draws conclusions from a sample (exit poll)",
+        "source_ref": "qtm--module-1#15"
+      },
+      {
+        "point": "Population is the whole group; sample is the group you collect data from",
+        "source_ref": "qtm--module-1#16"
+      },
+      {
+        "point": "Sample when budget is small, time short, population large, measurement destructive",
+        "source_ref": "qtm--module-1#17"
+      },
+      {
+        "point": "Census when budget is large, time long, population small, cost of sampling errors high",
+        "source_ref": "qtm--module-1#17"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

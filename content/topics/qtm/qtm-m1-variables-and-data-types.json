@@ -1,0 +1,356 @@
+{
+  "id": "qtm-m1-variables-and-data-types",
+  "subject_id": "qtm",
+  "deck_id": "qtm--module-1",
+  "title": "Variables and types of data",
+  "order": 106,
+  "summary": "Quantitative vs qualitative variables, grouped classifications, the types-of-data tree, and the mapping exercise with its solution.",
+  "est_minutes": 20,
+  "difficulty": 2,
+  "source_refs": [
+    "qtm--module-1#26",
+    "qtm--module-1#27",
+    "qtm--module-1#30",
+    "qtm--module-1#31",
+    "qtm--module-1#32"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "qtm-m1-variables-and-data-types-c1",
+      "heading": "Quantitative and qualitative variables",
+      "explanation_md": "The slide sorts everyday **variables** into two groups:\n\n- **Quantitative:** height, weight, age, temperature, income.\n- **Qualitative:** educational qualification, gender, and your LMTSM experience on a scale of 1-5 (1 = Very bad to 5 = Excellent).\n\nThe LMTSM experience item is circled: even though it uses numbers 1 to 5, the numbers are **labels for categories** (very bad, bad, good...), so it is **qualitative**.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "Height, weight, age, temperature and income are quantitative; educational qualification, gender and a 1-5 experience rating are qualitative.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m1-variables-and-data-types-q-969dc8ee",
+          "type": "mcq",
+          "stem": "On the slide, 'Your LMTSM experience on a scale of 1-5' is classified as:",
+          "options": [
+            "Qualitative",
+            "Quantitative",
+            "Continuous"
+          ],
+          "answer": "Qualitative",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-1#26",
+            "qtm--module-1#30"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m1-variables-and-data-types-q-af0f5e4e",
+          "type": "mcq",
+          "stem": "Which of these is classified as quantitative on the slide?",
+          "options": [
+            "Income",
+            "Gender",
+            "Educational qualification"
+          ],
+          "answer": "Income",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-1#26"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-1#26"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-variables-and-data-types-c2",
+      "heading": "Grouping numbers into classes",
+      "explanation_md": "Numbers are often **grouped into classes**, which turns them into ordered categories:\n\n- **Weight:** 40-45, 45-50, ... 95-100.\n- **Farmers by land:** marginal (up to 1 hectares), small (1 to 2), medium (2 to 4), big (above 4 hectares).\n- **Revised MSME classification** (investment and annual turnover): Micro: investment < Rs. 1 cr and turnover < Rs. 5 cr; Small: investment < Rs. 10 cr and turnover < Rs. 50 cr; Medium: investment < Rs. 20 cr and turnover < Rs. 100 cr.\n- **Education levels:** E0 illiterate (no schooling) up to E5 (more than 11 years of schooling).",
+      "example_ids": [
+        "qtm-ex-m1-grouped-variables"
+      ],
+      "key_terms": [],
+      "exam_line": "Grouped classes (weight bands, farmer sizes, MSME categories, education levels E0 to E5) turn numbers into ordered categories.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m1-variables-and-data-types-q-2d79253e",
+          "type": "mcq",
+          "stem": "Under the revised MSME classification on the slide, a Small enterprise has:",
+          "options": [
+            "Investment < Rs. 10 cr and turnover < Rs. 50 cr",
+            "Investment < Rs. 1 cr and turnover < Rs. 5 cr",
+            "Investment < Rs. 20 cr and turnover < Rs. 100 cr"
+          ],
+          "answer": "Investment < Rs. 10 cr and turnover < Rs. 50 cr",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-1#27"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m1-variables-and-data-types-q-0d3482c2",
+          "type": "mcq",
+          "stem": "A farmer with land of 1 to 2 hectares is classed as a:",
+          "options": [
+            "Small farmer",
+            "Marginal farmer",
+            "Medium farmer"
+          ],
+          "answer": "Small farmer",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-1#27"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-1#27"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-variables-and-data-types-c3",
+      "heading": "The types of data tree",
+      "explanation_md": "**Data** splits into two branches, each with two types:\n\n- **Categorical (qualitative):** **Nominal** (names, no order) and **Ordinal** (ordered categories).\n- **Numerical (quantitative):** **Discrete** (counts) and **Continuous** (measurements).\n\nThe slide's mapping exercise (25 items) and its solution:\n\n| Nominal | Ordinal | Discrete | Continuous |\n|---|---|---|---|\n| Hair colour, gender, roll number, nationality, relationship status, blood type, preferred mode of transport, food preferred, movie genres, class section, pin code | Educational level, socio-economic status, consumer satisfaction | Number of stars in a movie, size of the class, number of children, total number of trees, runs scored, balls faced, total wickets taken | Height of a person, length of your arm, weight of a person, strike rate |\n\nWatch the traps: **roll number and pin code are nominal** (numbers used as labels), and **strike rate is continuous**.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "Categorical data is nominal or ordinal; numerical data is discrete or continuous (roll number and pin code are nominal; runs scored is discrete; strike rate is continuous).",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m1-variables-and-data-types-q-4ec5d2ee",
+          "type": "mcq",
+          "stem": "In the solution, 'Roll Number' is which type of data?",
+          "options": [
+            "Nominal",
+            "Discrete",
+            "Ordinal"
+          ],
+          "answer": "Nominal",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-1#32"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m1-variables-and-data-types-q-1b8770ad",
+          "type": "mcq",
+          "stem": "In the solution, 'Consumer satisfaction' is:",
+          "options": [
+            "Ordinal",
+            "Nominal",
+            "Continuous"
+          ],
+          "answer": "Ordinal",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-1#32"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m1-variables-and-data-types-q-e890da18",
+          "type": "mcq",
+          "stem": "In the solution, 'Strike rate' is:",
+          "options": [
+            "Continuous",
+            "Discrete",
+            "Ordinal"
+          ],
+          "answer": "Continuous",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-1#32"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-1#30",
+        "qtm--module-1#31",
+        "qtm--module-1#32"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "qtm-m1-variables-and-data-types-f1",
+      "front": "Quantitative variables on the slide",
+      "back": "Height, weight, age, temperature, income.",
+      "kind": "list",
+      "source_refs": [
+        "qtm--module-1#26"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-variables-and-data-types-f2",
+      "front": "Qualitative variables on the slide",
+      "back": "Educational qualification, gender, LMTSM experience on a 1-5 scale.",
+      "kind": "list",
+      "source_refs": [
+        "qtm--module-1#26"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-variables-and-data-types-f3",
+      "front": "Types of data tree",
+      "back": "Categorical: nominal, ordinal. Numerical: discrete, continuous.",
+      "kind": "list",
+      "source_refs": [
+        "qtm--module-1#30"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-variables-and-data-types-f4",
+      "front": "Nominal examples (mapping solution)",
+      "back": "Hair colour, gender, roll number, nationality, relationship status, blood type, pin code.",
+      "kind": "example",
+      "source_refs": [
+        "qtm--module-1#32"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-variables-and-data-types-f5",
+      "front": "Ordinal examples (mapping solution)",
+      "back": "Educational level, socio-economic status, consumer satisfaction.",
+      "kind": "example",
+      "source_refs": [
+        "qtm--module-1#32"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-variables-and-data-types-f6",
+      "front": "Discrete vs continuous examples",
+      "back": "Discrete: number of children, runs scored, balls faced. Continuous: height, weight, length of arm, strike rate.",
+      "kind": "example",
+      "source_refs": [
+        "qtm--module-1#32"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-variables-and-data-types-f7",
+      "front": "Revised MSME classification (micro)",
+      "back": "Investment < Rs. 1 cr and turnover < Rs. 5 cr.",
+      "kind": "fact",
+      "source_refs": [
+        "qtm--module-1#27"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [],
+  "explain_back": {
+    "prompt": "Explain the types of data with the slide's examples, including why a 1-5 experience rating is qualitative.",
+    "rubric": [
+      {
+        "point": "Quantitative (height, weight, age, income) vs qualitative (gender, education, rating labels)",
+        "source_ref": "qtm--module-1#26"
+      },
+      {
+        "point": "Categorical splits into nominal and ordinal; numerical into discrete and continuous",
+        "source_ref": "qtm--module-1#30"
+      },
+      {
+        "point": "Examples from the mapping solution, e.g. roll number nominal, runs scored discrete, height continuous",
+        "source_ref": "qtm--module-1#32"
+      },
+      {
+        "point": "Grouped classes such as farmer sizes or MSME categories",
+        "source_ref": "qtm--module-1#27"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

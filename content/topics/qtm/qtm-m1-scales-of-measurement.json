@@ -1,0 +1,551 @@
+{
+  "id": "qtm-m1-scales-of-measurement",
+  "subject_id": "qtm",
+  "deck_id": "qtm--module-1",
+  "title": "Scales of measurement and classifying variables",
+  "order": 107,
+  "summary": "Scaling vs measurement, scale characteristics, nominal, ordinal, interval and ratio scales with their properties, the runners example, classifying variables in a data set, and descriptive statistics.",
+  "est_minutes": 25,
+  "difficulty": 2,
+  "source_refs": [
+    "qtm--module-1#28",
+    "qtm--module-1#29",
+    "qtm--module-1#33",
+    "qtm--module-1#34",
+    "qtm--module-1#35",
+    "qtm--module-1#36",
+    "qtm--module-1#37",
+    "qtm--module-1#38",
+    "qtm--module-1#39",
+    "qtm--module-1#40",
+    "qtm--module-1#41"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "qtm-m1-scales-of-measurement-c1",
+      "heading": "Measurement, scaling and scale characteristics",
+      "explanation_md": "**Scaling** creates a **continuum** on which measured objects are placed; it is an extension of measurement.\n\nExample: a scale from 1 to 100 for 'attitude toward department stores', with 1 = extremely unfavorable and 100 = extremely favorable. **Measurement** is assigning a number from 1 to 100 to each respondent; **scaling** is placing the respondents on the continuum.\n\nEvery scale has up to four **characteristics**:\n\n- **Description:** unique labels used to designate each value.\n- **Order:** the relative sizes or positions of the descriptors.\n- **Distance:** absolute differences between descriptors are known.\n- **Origin:** the scale has a fixed beginning or **true zero point**.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Scaling",
+          "meaning": "Creating a continuum upon which measured objects are located; an extension of measurement.",
+          "source_ref": "qtm--module-1#28"
+        },
+        {
+          "term": "Origin (scale characteristic)",
+          "meaning": "The scale has a unique or fixed beginning or true zero point.",
+          "source_ref": "qtm--module-1#29"
+        }
+      ],
+      "exam_line": "Scale characteristics: description, order, distance, origin (true zero).",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m1-scales-of-measurement-q-888a8661",
+          "type": "mcq",
+          "stem": "Which scale characteristic means 'absolute differences between the scale descriptors are known'?",
+          "options": [
+            "Distance",
+            "Order",
+            "Origin"
+          ],
+          "answer": "Distance",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-1#29"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m1-scales-of-measurement-q-201f971b",
+          "type": "true_false",
+          "stem": "In the department-store example, measurement is the assignment of a number from 1 to 100 to each respondent.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-1#28"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-1#28",
+        "qtm--module-1#29"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-scales-of-measurement-c2",
+      "heading": "Nominal, ordinal, interval and ratio",
+      "explanation_md": "Each scale adds a property to the one before it:\n\n- **Nominal:** identity (category) only. Example: **gender** (male, female). Operation: determination of equality.\n- **Ordinal:** adds **magnitude (rank)**. Example: **doneness of meat** (well, medium well, medium rare, rare). Operation: greater or lesser value.\n- **Interval:** adds **equal intervals**, but no natural origin. Example: **temperature in degrees** (also years, degree Celsius). Operation: equality of intervals or differences.\n- **Ratio:** adds an **absolute (true) zero**. Example: **age in years**. Operation: equality of ratios.\n\n| Property | Nominal | Ordinal | Interval | Ratio |\n|---|---|---|---|---|\n| Order of values known | No | Yes | Yes | Yes |\n| Can quantify the values between each value | No | No | Yes | Yes |\n| Can add and subtract | No | No | Yes | Yes |\n| Can multiply and divide | No | No | No | Yes |\n| Has true zero | No | No | No | Yes |",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Ratio scale",
+          "meaning": "Classification, order, distance and natural origin (true zero); e.g. age in years.",
+          "source_ref": "qtm--module-1#33"
+        }
+      ],
+      "exam_line": "Only the ratio scale has a true zero and allows multiplying and dividing; interval allows adding and subtracting but has no natural origin (temperature in degrees).",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m1-scales-of-measurement-q-d40dc93d",
+          "type": "mcq",
+          "stem": "Which scale has classification, order and distance but no natural origin?",
+          "options": [
+            "Interval",
+            "Ratio",
+            "Ordinal"
+          ],
+          "answer": "Interval",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-1#33"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m1-scales-of-measurement-q-7b397597",
+          "type": "mcq",
+          "stem": "On which scale can you multiply and divide values?",
+          "options": [
+            "Ratio only",
+            "Interval and ratio",
+            "All four scales"
+          ],
+          "answer": "Ratio only",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-1#35"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m1-scales-of-measurement-q-21eb7502",
+          "type": "mcq",
+          "stem": "'Doneness of meat' is the slide's example of which scale?",
+          "options": [
+            "Ordinal",
+            "Nominal",
+            "Interval"
+          ],
+          "answer": "Ordinal",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-1#33"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-1#33",
+        "qtm--module-1#34",
+        "qtm--module-1#35"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-scales-of-measurement-c3",
+      "heading": "The runners example",
+      "explanation_md": "One race, four scales:\n\n- **Nominal:** the **numbers assigned to runners** (7, 11, 3) only identify them.\n- **Ordinal:** the **rank order of winners** (third, second, first place) tells who beat whom, not by how much.\n- **Interval:** a **performance rating on a 0-to-10 scale** (8.2, 9.1, 9.6): differences are meaningful.\n- **Ratio:** **time to finish, in seconds** (15.2, 14.1, 13.4): has a true zero, so ratios are meaningful.",
+      "example_ids": [
+        "qtm-ex-m1-runners"
+      ],
+      "key_terms": [],
+      "exam_line": "Runner numbers are nominal, finishing places ordinal, 0-to-10 ratings interval, finishing times in seconds ratio.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m1-scales-of-measurement-q-e2ef26f2",
+          "type": "mcq",
+          "stem": "In the runners example, 'time to finish, in seconds' is on which scale?",
+          "options": [
+            "Ratio",
+            "Interval",
+            "Ordinal"
+          ],
+          "answer": "Ratio",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-1#36"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m1-scales-of-measurement-q-0a2ad109",
+          "type": "mcq",
+          "stem": "The numbers assigned to runners (7, 11, 3) are on which scale?",
+          "options": [
+            "Nominal",
+            "Ordinal",
+            "Ratio"
+          ],
+          "answer": "Nominal",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-1#36"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-1#36"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-scales-of-measurement-c4",
+      "heading": "Classifying variables in a data set",
+      "explanation_md": "The slides start from a **customer details** table (customers A to G with salary per month, age, gender and family size) and label its parts:\n\n- **Record / element:** one customer's row.\n- **Data set:** the whole table.\n- **Data:** a single value.\n- **Variable:** a column, such as gender.\n- **Discrete variable:** family size. **Continuous variable:** salary per month.\n- **Qualitative:** gender. **Quantitative:** family size.\n\nA survey example classifies questions by their answers:\n\n| Question | Variable type |\n|---|---|\n| Do you have a Facebook profile? (Yes / No) | Categorical, qualitative |\n| How many text messages have you sent in the past three days? | Numerical (discrete), quantitative |\n| How long did the mobile app update take to download? (seconds) | Numerical (continuous), quantitative |",
+      "example_ids": [
+        "qtm-ex-m1-customer-details",
+        "qtm-ex-m1-survey-questions"
+      ],
+      "key_terms": [],
+      "exam_line": "In a data set, a row is a record/element and a column is a variable; family size is discrete, salary continuous, gender qualitative.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m1-scales-of-measurement-q-c47d0058",
+          "type": "mcq",
+          "stem": "In the customer details table, 'Family size' is labelled as a:",
+          "options": [
+            "Discrete variable",
+            "Continuous variable",
+            "Qualitative variable"
+          ],
+          "answer": "Discrete variable",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-1#38"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m1-scales-of-measurement-q-ae20b21a",
+          "type": "mcq",
+          "stem": "'How long did the mobile app update take to download?' produces which variable type?",
+          "options": [
+            "Numerical (continuous)",
+            "Numerical (discrete)",
+            "Categorical"
+          ],
+          "answer": "Numerical (continuous)",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-1#40"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m1-scales-of-measurement-q-b3f4a824",
+          "type": "fill",
+          "stem": "One customer's row in the table is called a record or ____.",
+          "options": [],
+          "answer": "element",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-1#38"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-1#37",
+        "qtm--module-1#38",
+        "qtm--module-1#39",
+        "qtm--module-1#40"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-scales-of-measurement-c5",
+      "heading": "Descriptive statistics: what comes next",
+      "explanation_md": "Descriptive statistics uses three kinds of measures:\n\n- **Measures of central tendency**\n- **Measures of variation / dispersion**\n- **Measures of shape**\n\nIf the measures are computed from a **sample**, they are **sample statistics**; from a **population**, they are **population parameters**. A **sample statistic is the point estimator** of the corresponding population parameter.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Sample statistic",
+          "meaning": "A measure computed from sample data; the point estimator of the population parameter.",
+          "source_ref": "qtm--module-1#41"
+        },
+        {
+          "term": "Population parameter",
+          "meaning": "A measure computed from data for the whole population.",
+          "source_ref": "qtm--module-1#41"
+        }
+      ],
+      "exam_line": "Measures computed from a sample are sample statistics; from a population, population parameters. A sample statistic is the point estimator of the population parameter.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m1-scales-of-measurement-q-71a44736",
+          "type": "mcq",
+          "stem": "A measure computed from population data is called a:",
+          "options": [
+            "Population parameter",
+            "Sample statistic",
+            "Point estimator"
+          ],
+          "answer": "Population parameter",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-1#41"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m1-scales-of-measurement-q-6a9723d7",
+          "type": "fill",
+          "stem": "A sample statistic is referred to as the point ____ of the corresponding population parameter.",
+          "options": [],
+          "answer": "estimator",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-1#41"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-1#41"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "qtm-m1-scales-of-measurement-f1",
+      "front": "Four scale characteristics",
+      "back": "Description, order, distance, origin.",
+      "kind": "list",
+      "source_refs": [
+        "qtm--module-1#29"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-scales-of-measurement-f2",
+      "front": "Nominal scale",
+      "back": "Identity (category) only; e.g. gender. Operation: determination of equality.",
+      "kind": "term",
+      "source_refs": [
+        "qtm--module-1#33"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-scales-of-measurement-f3",
+      "front": "Ordinal scale",
+      "back": "Identity plus magnitude (rank); e.g. doneness of meat.",
+      "kind": "term",
+      "source_refs": [
+        "qtm--module-1#33"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-scales-of-measurement-f4",
+      "front": "Interval scale",
+      "back": "Identity, magnitude, equal intervals, no natural origin; e.g. temperature in degrees.",
+      "kind": "term",
+      "source_refs": [
+        "qtm--module-1#33"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-scales-of-measurement-f5",
+      "front": "Ratio scale",
+      "back": "All of the above plus absolute zero; e.g. age in years. Only scale where you can multiply and divide.",
+      "kind": "term",
+      "source_refs": [
+        "qtm--module-1#33",
+        "qtm--module-1#35"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-scales-of-measurement-f6",
+      "front": "Runners example: four scales",
+      "back": "Runner numbers (nominal), places (ordinal), 0-10 ratings (interval), time in seconds (ratio).",
+      "kind": "example",
+      "source_refs": [
+        "qtm--module-1#36"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-scales-of-measurement-f7",
+      "front": "Three kinds of descriptive measures",
+      "back": "Central tendency, variation/dispersion, shape.",
+      "kind": "list",
+      "source_refs": [
+        "qtm--module-1#41"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-scales-of-measurement-f8",
+      "front": "Sample statistic vs population parameter",
+      "back": "Statistic: computed from a sample (point estimator). Parameter: computed from the population.",
+      "kind": "fact",
+      "source_refs": [
+        "qtm--module-1#41"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [],
+  "explain_back": {
+    "prompt": "Explain the four scales of measurement, what each allows you to do, and give the slides' example for each.",
+    "rubric": [
+      {
+        "point": "Nominal: identity only (gender, runner numbers)",
+        "source_ref": "qtm--module-1#33"
+      },
+      {
+        "point": "Ordinal: adds rank (doneness of meat, finishing places)",
+        "source_ref": "qtm--module-1#33"
+      },
+      {
+        "point": "Interval: adds equal intervals, no true zero, can add and subtract (temperature)",
+        "source_ref": "qtm--module-1#35"
+      },
+      {
+        "point": "Ratio: adds true zero, can multiply and divide (age, finishing time in seconds)",
+        "source_ref": "qtm--module-1#35"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

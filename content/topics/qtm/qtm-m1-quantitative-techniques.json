@@ -1,0 +1,315 @@
+{
+  "id": "qtm-m1-quantitative-techniques",
+  "subject_id": "qtm",
+  "deck_id": "qtm--module-1",
+  "title": "What quantitative techniques are and why managers use them",
+  "order": 101,
+  "summary": "The definition of quantitative techniques, their significance, business examples by function, and how they differ from qualitative approaches.",
+  "est_minutes": 20,
+  "difficulty": 1,
+  "source_refs": [
+    "qtm--module-1#2",
+    "qtm--module-1#6",
+    "qtm--module-1#7",
+    "qtm--module-1#8",
+    "qtm--module-1#9"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "qtm-m1-quantitative-techniques-c1",
+      "heading": "A data-driven approach to business",
+      "explanation_md": "Module 1 opens with questions managers face every day, each of which needs data:\n\n- a **marketing research analyst** needs to assess the effectiveness of a new television advertisement;\n- a **pharmaceutical manufacturer** needs to know whether a new drug is more effective than those in use;\n- an **operations manager** wants to check whether product quality conforms to company standards;\n- a **software company** wants to review satisfaction ratings of its call centres across the globe;\n- **management** wants to assess the standard of 1st year MBA students in LMTSM.\n\nThe tools for answering such questions are **quantitative techniques**: *mathematical and statistical tools that managers use to analyse data, solve problems, and make informed decisions.* Examples on the slide: **statistical analysis, forecasting models, linear programming, decision theory and simulation**.",
+      "example_ids": [
+        "qtm-ex-m1-business-questions"
+      ],
+      "key_terms": [
+        {
+          "term": "Quantitative techniques",
+          "meaning": "Mathematical and statistical tools that managers use to analyse data, solve problems, and make informed decisions.",
+          "source_ref": "qtm--module-1#6"
+        }
+      ],
+      "exam_line": "Quantitative techniques are mathematical and statistical tools that managers use to analyse data, solve problems, and make informed decisions.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m1-quantitative-techniques-q-ceb27bcd",
+          "type": "fill",
+          "stem": "Quantitative techniques are mathematical and ____ tools that managers use to analyse data, solve problems, and make informed decisions.",
+          "options": [],
+          "answer": "statistical",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-1#6"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m1-quantitative-techniques-q-a1cfc2c6",
+          "type": "mcq",
+          "stem": "Which of these is listed on the slide as an example of a quantitative technique?",
+          "options": [
+            "Linear programming",
+            "Focus groups",
+            "Case studies"
+          ],
+          "answer": "Linear programming",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-1#6",
+            "qtm--module-1#9"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-1#2",
+        "qtm--module-1#6"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-quantitative-techniques-c2",
+      "heading": "Why they matter for business decisions",
+      "explanation_md": "The slide lists what quantitative techniques do for decision-making:\n\n- **manage uncertainty and risk**;\n- support **strategic planning and resource allocation**;\n- improve **efficiency and productivity**;\n- **optimise costs and revenues**;\n- **enhance competitiveness** with data analytics.\n\nExamples: a **retailer** uses sales data to decide inventory stocking; **HR managers** use attrition statistics to plan hiring.\n\nBy function:\n\n| Function | Use | Example |\n|---|---|---|\n| **Marketing** | Analysing customer segments to target promotions | Survey data to choose the most effective advertising channel |\n| **Finance** | Portfolio analysis using risk-return calculation | Predicting stock price movements with time series analysis |\n| **Operations** | Optimising delivery routes with linear programming | Minimising fuel costs for a logistics company |\n| **Human Resources** | Analysing employee satisfaction survey data | Improving retention |",
+      "example_ids": [
+        "qtm-ex-m1-retail-hr",
+        "qtm-ex-m1-function-examples"
+      ],
+      "key_terms": [],
+      "exam_line": "Quantitative techniques help manage uncertainty and risk, support planning and resource allocation, improve efficiency, optimise costs and revenues, and enhance competitiveness.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m1-quantitative-techniques-q-eaa2583c",
+          "type": "mcq",
+          "stem": "Optimising delivery routes with linear programming is an example from which function?",
+          "options": [
+            "Operations",
+            "Marketing",
+            "Human Resources"
+          ],
+          "answer": "Operations",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-1#8"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m1-quantitative-techniques-q-02437af8",
+          "type": "mcq",
+          "stem": "According to the slide, how do HR managers use quantitative techniques?",
+          "options": [
+            "They use attrition statistics to plan hiring",
+            "They use sales data to decide inventory stocking",
+            "They use time series to predict stock prices"
+          ],
+          "answer": "They use attrition statistics to plan hiring",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-1#7",
+            "qtm--module-1#8"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-1#7",
+        "qtm--module-1#8"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-quantitative-techniques-c3",
+      "heading": "Quantitative vs qualitative approaches",
+      "explanation_md": "Two ways to study a business problem:\n\n- **Quantitative:** data, numbers, **measurable patterns**. Examples: **regression, forecasting, statistics**.\n- **Qualitative:** **opinions, judgments, interviews, open-ended** responses. Examples: **focus groups, case studies**.\n\nA quick test: if the answer is a number you can measure, it is quantitative; if it is an opinion or a story, it is qualitative.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "Quantitative = data, numbers, measurable patterns (regression, forecasting, statistics); qualitative = opinions, judgments, interviews (focus groups, case studies).",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m1-quantitative-techniques-q-f601ed25",
+          "type": "mcq",
+          "stem": "Focus groups and case studies are examples of:",
+          "options": [
+            "Qualitative approaches",
+            "Quantitative techniques",
+            "Inferential statistics"
+          ],
+          "answer": "Qualitative approaches",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-1#9",
+            "qtm--module-1#15"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m1-quantitative-techniques-q-0801ddaa",
+          "type": "true_false",
+          "stem": "Regression and forecasting are listed as quantitative examples.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-1#9"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-1#9"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "qtm-m1-quantitative-techniques-f1",
+      "front": "Quantitative techniques (definition)",
+      "back": "Mathematical and statistical tools that managers use to analyse data, solve problems, and make informed decisions.",
+      "kind": "term",
+      "source_refs": [
+        "qtm--module-1#6"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-quantitative-techniques-f2",
+      "front": "Examples of quantitative techniques",
+      "back": "Statistical analysis, forecasting models, linear programming, decision theory, simulation.",
+      "kind": "list",
+      "source_refs": [
+        "qtm--module-1#6"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-quantitative-techniques-f3",
+      "front": "Significance of quantitative techniques in decision-making",
+      "back": "Manage uncertainty and risk; support strategic planning and resource allocation; improve efficiency and productivity; optimise costs and revenues; enhance competitiveness with data analytics.",
+      "kind": "list",
+      "source_refs": [
+        "qtm--module-1#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-quantitative-techniques-f4",
+      "front": "Finance example of quantitative techniques",
+      "back": "Investment portfolio analysis using risk-return calculation; predicting stock price movements with time series analysis.",
+      "kind": "example",
+      "source_refs": [
+        "qtm--module-1#8"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-quantitative-techniques-f5",
+      "front": "Quantitative vs qualitative",
+      "back": "Quantitative: data, numbers, measurable patterns (regression, forecasting, statistics). Qualitative: opinions, judgments, interviews, open-ended (focus groups, case studies).",
+      "kind": "fact",
+      "source_refs": [
+        "qtm--module-1#9"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [],
+  "explain_back": {
+    "prompt": "What are quantitative techniques, why do managers need them, and how do they differ from qualitative approaches? Use the slides' examples.",
+    "rubric": [
+      {
+        "point": "Definition: mathematical and statistical tools to analyse data, solve problems and make informed decisions",
+        "source_ref": "qtm--module-1#6"
+      },
+      {
+        "point": "Examples: statistical analysis, forecasting, linear programming, decision theory, simulation",
+        "source_ref": "qtm--module-1#6"
+      },
+      {
+        "point": "Significance: manage risk, support planning, improve efficiency, optimise costs and revenues",
+        "source_ref": "qtm--module-1#7"
+      },
+      {
+        "point": "A business example such as route optimisation in operations or attrition statistics in HR",
+        "source_ref": "qtm--module-1#8"
+      },
+      {
+        "point": "Quantitative is numbers and measurable patterns; qualitative is opinions and interviews",
+        "source_ref": "qtm--module-1#9"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

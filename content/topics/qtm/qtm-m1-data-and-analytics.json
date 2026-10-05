@@ -1,0 +1,378 @@
+{
+  "id": "qtm-m1-data-and-analytics",
+  "subject_id": "qtm",
+  "deck_id": "qtm--module-1",
+  "title": "Data, analytics and reading data carefully",
+  "order": 102,
+  "summary": "Spurious correlation (shark attacks and ice-cream), the attrition story, the role of analytics, course outcomes and reading two class-performance graphs.",
+  "est_minutes": 20,
+  "difficulty": 1,
+  "source_refs": [
+    "qtm--module-1#3",
+    "qtm--module-1#4",
+    "qtm--module-1#5",
+    "qtm--module-1#10",
+    "qtm--module-1#11",
+    "qtm--module-1#12",
+    "qtm--module-1#13",
+    "qtm--module-1#41"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "qtm-m1-data-and-analytics-c1",
+      "heading": "Shark attacks and ice-cream sales",
+      "explanation_md": "The chart on the slide shows **shark attacks** and **ice-cream sales** month by month. Both are low in Jan, climb through May, **peak together in July**, and fall again by Nov.\n\nDoes ice-cream cause shark attacks? No. The next slide shows the real story: **summer** drives both. In summer more people buy ice-cream and more people swim in the sea.\n\nThis is called a **spurious correlation**: two things move together, but neither causes the other. The slide points to tylervigen.com for many such examples.",
+      "example_ids": [
+        "qtm-ex-m1-shark-icecream"
+      ],
+      "key_terms": [
+        {
+          "term": "Spurious correlation",
+          "meaning": "Two things that move together without one causing the other, because something else (here, summer) drives both.",
+          "source_ref": "qtm--module-1#4"
+        }
+      ],
+      "exam_line": "Shark attacks and ice-cream sales rise together because summer drives both: a spurious correlation, not cause and effect.",
+      "clarification": {
+        "term": "spurious correlation",
+        "text": "A relationship in data that looks meaningful but happens only because a third factor affects both things."
+      },
+      "check_questions": [
+        {
+          "id": "qtm-m1-data-and-analytics-q-f1893fbf",
+          "type": "mcq",
+          "stem": "On the slide, what explains why shark attacks and ice-cream sales rise together?",
+          "options": [
+            "Summer drives both",
+            "Ice-cream sales cause shark attacks",
+            "Shark attacks cause ice-cream sales"
+          ],
+          "answer": "Summer drives both",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-1#4"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m1-data-and-analytics-q-a20ba237",
+          "type": "mcq",
+          "stem": "In which month do both lines peak on the chart?",
+          "options": [
+            "July",
+            "March",
+            "Nov"
+          ],
+          "answer": "July",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-1#3"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-1#3",
+        "qtm--module-1#4"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-data-and-analytics-c2",
+      "heading": "The employee attrition story",
+      "explanation_md": "A company with a healthy, thriving culture in a scenic setting had **alarming levels of attrition**. HR and fellow employees noticed it. HR gave a **statistician** the data for all employees; she fed it into a model and came up with numbers and charts.\n\nHer conclusion: **employees below the age of 30 who live 20+ miles from work do not stay for long.**\n\nThe story shows how data turns a vague worry (\"people keep leaving\") into a specific, testable pattern that a manager can act on.",
+      "example_ids": [
+        "qtm-ex-m1-attrition"
+      ],
+      "key_terms": [],
+      "exam_line": "In the attrition example, the model's conclusion was that employees below 30 who live 20+ miles from work do not stay long.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m1-data-and-analytics-q-0d28be57",
+          "type": "fill",
+          "stem": "The statistician concluded that employees below the age of ____ who live 20+ miles from work do not stay for long.",
+          "options": [],
+          "answer": "30",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-1#5"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m1-data-and-analytics-q-a2fd7d3d",
+          "type": "true_false",
+          "stem": "In the attrition story, HR gave the statistician data for all the employees who worked at the company.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-1#5"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-1#5"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-data-and-analytics-c3",
+      "heading": "The role of analytics in modern management",
+      "explanation_md": "**Everyday decisions increasingly rely on data.** Businesses collect massive amounts of it: sales, customer behaviour, operations. **Analytics transforms data into actionable insights**, and **data visualisation and dashboards** matter because they make those insights easy to see.\n\nExample: a **restaurant chain** analyzes customer visit data to identify **peak business hours and plan staffing**.\n\nThe course aims to build skills in statistical analysis and inference, probability and risk assessment, forecasting and optimisation, interpreting business data, and **decision-making based on evidence, not gut feeling**. Quantitative techniques help managers make **informed, objective and defensible decisions** and navigate uncertainty.\n\nThe module also recommends two videos: *Are athletes really getting faster, better, stronger?* and *Hans Rosling's 200 Countries, 200 Years, 4 Minutes*.",
+      "example_ids": [
+        "qtm-ex-m1-restaurant"
+      ],
+      "key_terms": [],
+      "exam_line": "Analytics transforms data into actionable insights; quantitative techniques help managers make informed, objective and defensible decisions based on evidence, not gut feeling.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m1-data-and-analytics-q-443f9b87",
+          "type": "mcq",
+          "stem": "In the slide's example, why does the restaurant chain analyze customer visit data?",
+          "options": [
+            "To identify peak business hours and plan staffing",
+            "To choose an advertising channel",
+            "To predict stock prices"
+          ],
+          "answer": "To identify peak business hours and plan staffing",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-1#10",
+            "qtm--module-1#8"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m1-data-and-analytics-q-4fec981b",
+          "type": "fill",
+          "stem": "The course aims at decision-making based on evidence, not gut ____.",
+          "options": [],
+          "answer": "feeling",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-1#11"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-1#10",
+        "qtm--module-1#11",
+        "qtm--module-1#12"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-data-and-analytics-c4",
+      "heading": "Reading two class-performance graphs",
+      "explanation_md": "The slide asks: **how do you interpret Graph A and Graph B in terms of class performance?**\n\n- **Graph A (AIM):** the curve **peaks towards the right** and has a **long tail stretching to the left**.\n- **Graph B (QTM):** the curve **peaks towards the left** and has a **long tail stretching to the right**.\n\nReading them as distributions of marks: in Graph A most of the class is bunched at the higher end with a few low scores trailing behind; in Graph B most of the class is bunched at the lower end with a few high scores trailing ahead. The position of the peak and the direction of the tail describe the **shape** of the data, one of the measures of descriptive statistics.",
+      "example_ids": [
+        "qtm-ex-m1-graphs-aim-qtm"
+      ],
+      "key_terms": [],
+      "exam_line": "Graph A (AIM) peaks to the right with a long left tail; Graph B (QTM) peaks to the left with a long right tail: the shape of a distribution tells you where most of the class scored.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m1-data-and-analytics-q-b8f9b485",
+          "type": "mcq",
+          "stem": "Which graph on the slide peaks towards the left with a long tail to the right?",
+          "options": [
+            "Graph B (QTM)",
+            "Graph A (AIM)",
+            "Both graphs"
+          ],
+          "answer": "Graph B (QTM)",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-1#13"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m1-data-and-analytics-q-a2d7a0a5",
+          "type": "true_false",
+          "stem": "The direction of the tail and the position of the peak describe the shape of the data.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-1#13",
+            "qtm--module-1#41"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-1#13",
+        "qtm--module-1#41"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "qtm-m1-data-and-analytics-f1",
+      "front": "Shark attacks and ice-cream sales",
+      "back": "They rise and fall together because summer drives both: a spurious correlation.",
+      "kind": "example",
+      "source_refs": [
+        "qtm--module-1#4"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-data-and-analytics-f2",
+      "front": "Attrition example: the model's conclusion",
+      "back": "Employees below the age of 30 who live 20+ miles from work do not stay for long.",
+      "kind": "example",
+      "source_refs": [
+        "qtm--module-1#5"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-data-and-analytics-f3",
+      "front": "What does analytics do?",
+      "back": "Transforms data into actionable insights (with data visualisation and dashboards).",
+      "kind": "fact",
+      "source_refs": [
+        "qtm--module-1#10"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-data-and-analytics-f4",
+      "front": "Restaurant chain example",
+      "back": "Analyzes customer visit data to identify peak business hours and plan staffing.",
+      "kind": "example",
+      "source_refs": [
+        "qtm--module-1#10"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-data-and-analytics-f5",
+      "front": "Graph A (AIM) vs Graph B (QTM)",
+      "back": "A: peak to the right, long tail to the left. B: peak to the left, long tail to the right.",
+      "kind": "fact",
+      "source_refs": [
+        "qtm--module-1#13"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [],
+  "explain_back": {
+    "prompt": "Using the slides' examples, explain why managers must read data carefully and what analytics adds to decisions.",
+    "rubric": [
+      {
+        "point": "Shark attacks and ice-cream sales move together because summer drives both (spurious correlation)",
+        "source_ref": "qtm--module-1#4"
+      },
+      {
+        "point": "The attrition model found a specific pattern: under 30 and living 20+ miles away",
+        "source_ref": "qtm--module-1#5"
+      },
+      {
+        "point": "Analytics turns data into actionable insights, e.g. a restaurant chain planning staffing",
+        "source_ref": "qtm--module-1#10"
+      },
+      {
+        "point": "Decisions should be based on evidence, not gut feeling",
+        "source_ref": "qtm--module-1#11"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

@@ -1,0 +1,363 @@
+{
+  "id": "qtm-m1-sampling-design",
+  "subject_id": "qtm",
+  "deck_id": "qtm--module-1",
+  "title": "Sampling design: key terms and two real surveys",
+  "order": 104,
+  "summary": "Target population, element, sampling unit, extent and time, and the five steps of sampling design in the Florida tourism and CIGNA surveys.",
+  "est_minutes": 20,
+  "difficulty": 2,
+  "source_refs": [
+    "qtm--module-1#18",
+    "qtm--module-1#19",
+    "qtm--module-1#20",
+    "qtm--module-1#23",
+    "qtm--module-1#24"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "qtm-m1-sampling-design-c1",
+      "heading": "Key terms in sampling",
+      "explanation_md": "- **Target population:** the collection of elements or objects that possess the information sought by the researcher and about which inferences are to be made. It is defined in terms of **elements, sampling units, extent and time**.\n- **Element:** an object that possesses the information sought by the researcher.\n- **Sampling unit:** the basic unit containing the elements of the population to be sampled.\n- **Extent:** the geographical boundaries.\n- **Time:** the time period under consideration.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Target population",
+          "meaning": "The collection of elements that possess the information sought and about which inferences are to be made; defined by elements, sampling units, extent and time.",
+          "source_ref": "qtm--module-1#18"
+        },
+        {
+          "term": "Sampling unit",
+          "meaning": "The basic unit containing the elements of the population to be sampled.",
+          "source_ref": "qtm--module-1#18"
+        }
+      ],
+      "exam_line": "A target population is defined in terms of elements, sampling units, extent (geography) and time.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m1-sampling-design-q-0403a742",
+          "type": "mcq",
+          "stem": "In defining a target population, 'extent' refers to:",
+          "options": [
+            "The geographical boundaries",
+            "The time period",
+            "The object that has the information"
+          ],
+          "answer": "The geographical boundaries",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-1#18"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m1-sampling-design-q-67339905",
+          "type": "fill",
+          "stem": "An ____ is an object that possesses the information sought by the researcher.",
+          "options": [],
+          "answer": "element",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-1#18"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-1#18"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-sampling-design-c2",
+      "heading": "The Florida tourism survey",
+      "explanation_md": "The **Florida Department of Tourism** ran a telephone survey to understand the travel behaviour of in-state residents. In 2008 Florida had more than 18 million residents, fourth in the United States after California, Texas and New York.\n\nThe five **steps in the sampling design process**:\n\n1. **Target population:** adults meeting four qualifications (**element**) in a household with a working telephone number (**sampling unit**) in Florida (**extent**) during the survey period (**time**). The four qualifications: age 25 or older; live in Florida at least seven months a year; lived there at least two years; a Florida driver's license.\n2. **Sampling frame:** a computer program for generating random telephone numbers.\n3. **Sampling technique:** **stratified sampling**, by three regions: north, central and south Florida.\n4. **Sample size:** **868**.\n5. **Execution:** allocate the sample among strata, use computerized random digit dialing, list household members who qualify, and pick one using the **next birthday method**.",
+      "example_ids": [
+        "qtm-ex-m1-florida"
+      ],
+      "key_terms": [
+        {
+          "term": "Sampling frame",
+          "meaning": "The list or source from which the sample is drawn (here, a computer program generating random telephone numbers).",
+          "source_ref": "qtm--module-1#20"
+        }
+      ],
+      "exam_line": "Five steps of sampling design: target population, sampling frame, sampling technique, sample size, execution (Florida: stratified by region, sample size 868).",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m1-sampling-design-q-9e424032",
+          "type": "mcq",
+          "stem": "What sampling technique did the Florida tourism survey use?",
+          "options": [
+            "Stratified sampling by north, central and south Florida",
+            "Convenience sampling",
+            "Snowball sampling"
+          ],
+          "answer": "Stratified sampling by north, central and south Florida",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-1#20",
+            "qtm--module-1#22"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m1-sampling-design-q-5497e937",
+          "type": "mcq",
+          "stem": "What was the sample size in the Florida survey?",
+          "options": [
+            "868",
+            "659",
+            "2000"
+          ],
+          "answer": "868",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-1#20",
+            "qtm--module-1#22",
+            "qtm--module-1#24"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m1-sampling-design-q-c4bc08ad",
+          "type": "fill",
+          "stem": "In the Florida survey, one household member was selected using the next ____ method.",
+          "options": [],
+          "answer": "birthday",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-1#20"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-1#19",
+        "qtm--module-1#20"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-sampling-design-c3",
+      "heading": "The CIGNA retirement services survey",
+      "explanation_md": "**CIGNA** provides health care and related benefits through the workplace (revenues of $19.1 billion in 2008). It ran a national stratified survey to learn about online users' demands for **additional Internet retirement services**, using **Gfk NOP World** to survey **659** full-time employees by telephone.\n\nThe sampling design:\n\n1. **Target population:** adults over 18, in full-time employment in the United States, with a working telephone number, **80 percent** currently in a retirement plan, during the survey period.\n2. **Sampling frame:** a commercial phone list provided by GfK NOP.\n3. **Sampling technique:** **stratified sampling by age and income** (because Internet use and retirement concerns differ by age and income).\n4. **Sample size:** **659**.\n5. **Execution:** allocate the sample by strata, select random phone numbers from the list, survey the first qualified household member subject to quota requirements.",
+      "example_ids": [
+        "qtm-ex-m1-cigna"
+      ],
+      "key_terms": [],
+      "exam_line": "CIGNA: target adults over 18 in full-time employment; frame a commercial phone list (GfK NOP); stratified by age and income; sample size 659.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m1-sampling-design-q-0d7f38d9",
+          "type": "mcq",
+          "stem": "CIGNA's survey stratified the sample by:",
+          "options": [
+            "Age and income",
+            "North, central and south regions",
+            "Gender and education"
+          ],
+          "answer": "Age and income",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-1#23",
+            "qtm--module-1#24",
+            "qtm--module-1#20"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m1-sampling-design-q-3403f764",
+          "type": "mcq",
+          "stem": "What was CIGNA's sampling frame?",
+          "options": [
+            "A commercial phone list provided by GfK NOP",
+            "A computer program generating random telephone numbers",
+            "A list of all retirement plans"
+          ],
+          "answer": "A commercial phone list provided by GfK NOP",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-1#23",
+            "qtm--module-1#24",
+            "qtm--module-1#20"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-1#23",
+        "qtm--module-1#24"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "qtm-m1-sampling-design-f1",
+      "front": "Target population is defined in terms of",
+      "back": "Elements, sampling units, extent and time.",
+      "kind": "list",
+      "source_refs": [
+        "qtm--module-1#18"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-sampling-design-f2",
+      "front": "Five steps of the sampling design process",
+      "back": "Target population, sampling frame, sampling technique, sample size, execution.",
+      "kind": "list",
+      "source_refs": [
+        "qtm--module-1#20"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-sampling-design-f3",
+      "front": "Florida survey: sampling technique and sample size",
+      "back": "Stratified sampling by north, central and south Florida; sample size 868.",
+      "kind": "example",
+      "source_refs": [
+        "qtm--module-1#20"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-sampling-design-f4",
+      "front": "Florida survey: sampling frame",
+      "back": "A computer program for generating random telephone numbers.",
+      "kind": "example",
+      "source_refs": [
+        "qtm--module-1#20"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-sampling-design-f5",
+      "front": "CIGNA survey: technique and sample size",
+      "back": "Stratified sampling by age and income; sample size 659.",
+      "kind": "example",
+      "source_refs": [
+        "qtm--module-1#23",
+        "qtm--module-1#24"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-sampling-design-f6",
+      "front": "CIGNA survey: sampling frame",
+      "back": "A commercial phone list provided by GfK NOP.",
+      "kind": "example",
+      "source_refs": [
+        "qtm--module-1#23",
+        "qtm--module-1#24"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [],
+  "explain_back": {
+    "prompt": "Walk through the five steps of sampling design using the Florida tourism survey or the CIGNA survey.",
+    "rubric": [
+      {
+        "point": "Target population defined by element, sampling unit, extent and time",
+        "source_ref": "qtm--module-1#18"
+      },
+      {
+        "point": "Sampling frame: random number generator (Florida) or commercial phone list (CIGNA)",
+        "source_ref": "qtm--module-1#20"
+      },
+      {
+        "point": "Sampling technique: stratified (by region for Florida, by age and income for CIGNA)",
+        "source_ref": "qtm--module-1#23"
+      },
+      {
+        "point": "Sample size (868 or 659) and execution steps such as the next birthday method",
+        "source_ref": "qtm--module-1#20"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}
