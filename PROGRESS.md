@@ -8,7 +8,8 @@ Notes for the next round go under each ticked task.
   - All libs install and import. fsrs 6.3.2 API: Scheduler.review_card, Card.to_dict/from_dict, get_card_retrievability.
 - [x] P0.3 docs/ARCHITECTURE.md, docs/CONTENT_SCHEMA.md, Pydantic models, SQLite schema and migrations, config.
   - models.py is the contract. db.py MIGRATIONS list; c_* rebuilt on import, p_* never dropped.
-- [ ] P0.4 Inventory E:\college and inbox/ into reports/inventory.md.
+- [x] P0.4 Inventory E:\college and inbox/ into reports/inventory.md.
+  - Classification lives in content/sources.json; `python -m athena.sources` regenerates reports/inventory.md. 28 decks (8 subjects), EMDM and ES-I have none. No EST dates. PYQs: BE and SCE MST 2025 only.
 
 ## P1 Ingestion
 - [ ] P1.1 PPTX extractor with tests.
