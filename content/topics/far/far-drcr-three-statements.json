@@ -1,0 +1,641 @@
+{
+  "id": "far-drcr-three-statements",
+  "subject_id": "far",
+  "deck_id": "far--financial-accounting-concepts-dr-cr-rules",
+  "title": "The three financial statements, with Northstar's example",
+  "order": 102,
+  "summary": "What the balance sheet, income statement and cash flow statement each answer, Northstar Bike Co.'s three statements line by line, and how they connect.",
+  "est_minutes": 30,
+  "difficulty": 2,
+  "source_refs": [
+    "far--financial-accounting-concepts-dr-cr-rules#5",
+    "far--financial-accounting-concepts-dr-cr-rules#14",
+    "far--financial-accounting-concepts-dr-cr-rules#13",
+    "far--financial-accounting-concepts-dr-cr-rules#6",
+    "far--financial-accounting-concepts-dr-cr-rules#7",
+    "far--financial-accounting-concepts-dr-cr-rules#8",
+    "far--financial-accounting-concepts-dr-cr-rules#9",
+    "far--financial-accounting-concepts-dr-cr-rules#3"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "far-drcr-three-statements-c1",
+      "heading": "Three statements, three questions",
+      "explanation_md": "The three core statements together answer: **what do we own, how did we perform, and where did the cash go?**\n\n| Statement | What it is | Formula | The question it answers |\n|---|---|---|---|\n| **Balance Sheet** | A **snapshot at one point in time** | Assets = Liabilities + Equity | \"What do we own and owe today?\" |\n| **Income Statement** | **Performance over a period** | Revenue - Expenses = Net Income | \"Did we make a profit this year?\" |\n| **Cash Flow Statement** | **Cash movement over a period** | Operating + Investing + Financing | \"Where did our cash actually go?\" |\n\nThe big difference to remember: the balance sheet is **one date**, the other two cover **a period**. That is why the deck's quick check asks which statement reports **revenue and expenses over a period of time**: the **income statement**.\n\nThe closing slide sums it up: the three statements tell **what you own, earned, and collected**.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "Balance sheet: snapshot at one point in time. Income statement: performance over a period (Revenue - Expenses = Net Income). Cash flow statement: cash movement over a period (Operating + Investing + Financing).",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "far-drcr-three-statements-q-e3c02668",
+          "type": "mcq",
+          "stem": "Which statement reports revenue and expenses over a period of time?",
+          "options": [
+            "Income Statement",
+            "Balance Sheet",
+            "Cash Flow Statement",
+            "Trial Balance"
+          ],
+          "answer": "Income Statement",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--financial-accounting-concepts-dr-cr-rules#13",
+            "far--financial-accounting-concepts-dr-cr-rules#5"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-drcr-three-statements-q-f2c68d41",
+          "type": "mcq",
+          "stem": "Which statement is described as a snapshot at one point in time?",
+          "options": [
+            "Balance Sheet",
+            "Income Statement",
+            "Cash Flow Statement"
+          ],
+          "answer": "Balance Sheet",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--financial-accounting-concepts-dr-cr-rules#5"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-drcr-three-statements-q-43dc7bb3",
+          "type": "fill",
+          "stem": "The cash flow statement shows cash movement as Operating + Investing + ____.",
+          "options": [],
+          "answer": "Financing",
+          "accept": [
+            "financing"
+          ],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--financial-accounting-concepts-dr-cr-rules#5"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "far--financial-accounting-concepts-dr-cr-rules#5",
+        "far--financial-accounting-concepts-dr-cr-rules#14",
+        "far--financial-accounting-concepts-dr-cr-rules#13"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-drcr-three-statements-c2",
+      "heading": "Northstar's balance sheet, line by line",
+      "explanation_md": "**Northstar Bike Co., as of December 31, 2025.** Notice the \"as of\" date: one point in time.\n\n**Assets**\n- Cash $8,500\n- Accounts Receivable $1,200\n- Inventory (bikes & parts) $2,300\n- Repair & Shop Equipment $14,000\n- Less: Accumulated Depreciation ($2,000)\n- **Total Assets $24,000**\n\nThe slide shows the sum: Cash + AR + Inventory + Equipment (net) = 8,500 + 1,200 + 2,300 + 12,000. Equipment is counted **net**: $14,000 less $2,000 of accumulated depreciation leaves $12,000.\n\n**Liabilities & Equity**\n- Accounts Payable $1,800\n- Bank Loan (long-term) $6,200\n- Owner's Capital $14,000\n- Retained Earnings $2,000\n- **Total Liabilities + Equity $24,000**\n\n**Balance check:** Assets $24,000 = Liabilities $8,000 + Equity $16,000. The liabilities are the payable plus the bank loan; the equity is owner's capital plus retained earnings, the same two parts of equity from the accounting equation.",
+      "example_ids": [
+        "far-ex-drcr-balance-sheet"
+      ],
+      "key_terms": [
+        {
+          "term": "Equipment (net)",
+          "meaning": "Equipment less accumulated depreciation: $14,000 less $2,000 = $12,000 on Northstar's balance sheet.",
+          "source_ref": "far--financial-accounting-concepts-dr-cr-rules#6"
+        }
+      ],
+      "exam_line": "Northstar's balance sheet: Total Assets $24,000 = Liabilities $8,000 + Equity $16,000.",
+      "clarification": {
+        "term": "accounts receivable",
+        "text": "The money customers still owe the business for sales it has already made. It is an asset because the business expects to collect it."
+      },
+      "check_questions": [
+        {
+          "id": "far-drcr-three-statements-q-a022bd69",
+          "type": "mcq",
+          "stem": "What are Northstar's total assets on the balance sheet?",
+          "options": [
+            "$24,000",
+            "$16,000",
+            "$14,000"
+          ],
+          "answer": "$24,000",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--financial-accounting-concepts-dr-cr-rules#6"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-drcr-three-statements-q-9f8ee19c",
+          "type": "mcq",
+          "stem": "Why is equipment counted as $12,000 in the asset total, not $14,000?",
+          "options": [
+            "$2,000 of accumulated depreciation is subtracted",
+            "$2,000 of retained earnings is subtracted",
+            "$1,800 of accounts payable is subtracted"
+          ],
+          "answer": "$2,000 of accumulated depreciation is subtracted",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--financial-accounting-concepts-dr-cr-rules#6"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-drcr-three-statements-q-c7ae194f",
+          "type": "fill",
+          "stem": "Northstar's balance check: Assets $24,000 = Liabilities $8,000 + Equity $____.",
+          "options": [],
+          "answer": "16,000",
+          "accept": [
+            "16000",
+            "$16,000"
+          ],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--financial-accounting-concepts-dr-cr-rules#6"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "far--financial-accounting-concepts-dr-cr-rules#6"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-drcr-three-statements-c3",
+      "heading": "Northstar's income statement, top to bottom",
+      "explanation_md": "**Northstar Bike Co., Year Ended December 31, 2025.** \"Year ended\" tells you this covers a **period**.\n\n| Line | Amount |\n|---|---|\n| Sales Revenue | $52,000 |\n| Less: Cost of Goods Sold | ($21,000) |\n| **Gross Profit** | **$31,000** |\n| Operating expenses: Wages | ($14,000) |\n| Rent | ($6,000) |\n| Depreciation | ($2,000) |\n| Utilities & Other | ($1,500) |\n| **Operating Income** | **$7,500** |\n| Less: Interest Expense | ($500) |\n| **Net Income** | **$7,000** |\n\n**Reading it top to bottom** (the slide's own guide):\n- **Gross Profit** shows what's left after making the product: $52,000 - $21,000 = $31,000.\n- **Operating Income** shows profit from core business activity: $31,000 less operating expenses of $23,500 = $7,500.\n- **Net Income** is the **\"bottom line\"**, what the owner actually earns: $7,500 - $500 = $7,000.\n- **Net Income flows into Retained Earnings** on the balance sheet.",
+      "example_ids": [
+        "far-ex-drcr-income-statement"
+      ],
+      "key_terms": [
+        {
+          "term": "Gross Profit",
+          "meaning": "What's left after making the product: sales revenue less cost of goods sold.",
+          "source_ref": "far--financial-accounting-concepts-dr-cr-rules#7"
+        },
+        {
+          "term": "Operating Income",
+          "meaning": "Profit from core business activity: gross profit less operating expenses.",
+          "source_ref": "far--financial-accounting-concepts-dr-cr-rules#7"
+        },
+        {
+          "term": "Net Income",
+          "meaning": "The bottom line, what the owner actually earns; it flows into retained earnings.",
+          "source_ref": "far--financial-accounting-concepts-dr-cr-rules#7"
+        }
+      ],
+      "exam_line": "Sales Revenue $52,000 less Cost of Goods Sold $21,000 = Gross Profit $31,000; less operating expenses = Operating Income $7,500; less interest $500 = Net Income $7,000.",
+      "clarification": {
+        "term": "Cost of Goods Sold",
+        "text": "The direct cost of the products the business sold during the period. It is subtracted from sales revenue to get gross profit."
+      },
+      "check_questions": [
+        {
+          "id": "far-drcr-three-statements-q-8a108775",
+          "type": "mcq",
+          "stem": "Which line shows profit from core business activity?",
+          "options": [
+            "Operating Income",
+            "Gross Profit",
+            "Net Income"
+          ],
+          "answer": "Operating Income",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--financial-accounting-concepts-dr-cr-rules#7"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-drcr-three-statements-q-5c092e8d",
+          "type": "mcq",
+          "stem": "What is Northstar's gross profit for the year?",
+          "options": [
+            "$31,000",
+            "$7,500",
+            "$7,000",
+            "$52,000"
+          ],
+          "answer": "$31,000",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--financial-accounting-concepts-dr-cr-rules#7"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-drcr-three-statements-q-09504d1b",
+          "type": "true_false",
+          "stem": "According to the slide, net income flows into retained earnings on the balance sheet.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--financial-accounting-concepts-dr-cr-rules#7"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "far--financial-accounting-concepts-dr-cr-rules#7"
+      ],
+      "derived": [
+        "23,500"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-drcr-three-statements-c4",
+      "heading": "Northstar's cash flow statement: why net income is not cash",
+      "explanation_md": "The slide's headline: **net income doesn't equal cash, and this statement shows why.** Same company, **Year Ended December 31, 2025**.\n\n**Operating activities**\n- Net Income $7,000\n- Add back: Depreciation (non-cash) $2,000\n- Add: Decrease in Inventory $500\n- Less: Increase in Receivables ($300)\n- **Net Cash from Operations $9,200**\n\n**Investing activities**\n- Purchase of Equipment ($3,000)\n- **Net Cash from Investing ($3,000)**\n\n**Financing activities**\n- Owner Contribution $1,000\n- Loan Repayment ($1,200)\n- **Net Cash from Financing ($200)**\n\n**Net Change in Cash: $9,200 - $3,000 - $200 = +$6,000**\n\n**How to read the operating section:** start from net income, then adjust it. Depreciation is added back because it is **non-cash**. The decrease in inventory adds cash; the increase in receivables takes cash away.\n\n**The deck's discussion question:** Northstar has strong net income but low cash on hand. How is that possible, and which statement would you check first? Using this deck: profit is not the same as cash. Revenue can be earned before the cash arrives (accrual basis), cash can go into equipment (investing) or loan repayments (financing), and depreciation reduces profit without using cash. The statement to check first is the **cash flow statement**, the one that answers \"Where did our cash actually go?\"",
+      "example_ids": [
+        "far-ex-drcr-cash-flow",
+        "far-ex-drcr-strong-income-low-cash"
+      ],
+      "key_terms": [],
+      "exam_line": "Net Cash from Operations $9,200 - investing $3,000 - financing $200 = +$6,000 change in cash. Net income doesn't equal cash: check the cash flow statement.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "far-drcr-three-statements-q-90b998a5",
+          "type": "mcq",
+          "stem": "Why is depreciation added back in Northstar's operating activities?",
+          "options": [
+            "It is a non-cash expense",
+            "It is cash received from customers",
+            "It is a loan repayment"
+          ],
+          "answer": "It is a non-cash expense",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--financial-accounting-concepts-dr-cr-rules#8"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-drcr-three-statements-q-f09db5d3",
+          "type": "mcq",
+          "stem": "What is Northstar's net change in cash for the year?",
+          "options": [
+            "+$6,000",
+            "+$7,000",
+            "+$9,200",
+            "($200)"
+          ],
+          "answer": "+$6,000",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--financial-accounting-concepts-dr-cr-rules#8"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-drcr-three-statements-q-04ffa0d4",
+          "type": "mcq",
+          "stem": "A business has strong net income but low cash on hand. Which statement should you check first to find out why?",
+          "options": [
+            "Cash Flow Statement",
+            "Income Statement",
+            "Balance Sheet"
+          ],
+          "answer": "Cash Flow Statement",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--financial-accounting-concepts-dr-cr-rules#13",
+            "far--financial-accounting-concepts-dr-cr-rules#8",
+            "far--financial-accounting-concepts-dr-cr-rules#5"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "far--financial-accounting-concepts-dr-cr-rules#8",
+        "far--financial-accounting-concepts-dr-cr-rules#13",
+        "far--financial-accounting-concepts-dr-cr-rules#5",
+        "far--financial-accounting-concepts-dr-cr-rules#9"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-drcr-three-statements-c5",
+      "heading": "How the three statements connect",
+      "explanation_md": "The deck's three statements are not separate stories. Three links show up on the slides:\n\n**1. Net income links the income statement to the balance sheet.** The income statement ends with Net Income of $7,000, and the slide says **net income flows into retained earnings** on the balance sheet. Retained earnings is part of equity.\n\n**2. Depreciation of $2,000 appears in all three statements:**\n- **Income statement:** Depreciation ($2,000) as an operating expense.\n- **Balance sheet:** Less: Accumulated Depreciation ($2,000), which brings equipment down to its net amount.\n- **Cash flow statement:** + Depreciation (non-cash) $2,000, added back to net income because it is non-cash.\n\n**3. Net income is the starting line of the cash flow statement.** Operating activities begin with Net Income $7,000 and adjust it to find the cash.\n\nThat is the closing slide's idea: the three statements tell what you **own** (balance sheet), what you **earned** (income statement) and what you **collected** (cash flow).",
+      "example_ids": [
+        "far-ex-drcr-balance-sheet",
+        "far-ex-drcr-income-statement",
+        "far-ex-drcr-cash-flow"
+      ],
+      "key_terms": [],
+      "exam_line": "Net income flows into retained earnings; depreciation ($2,000) shows as an expense, as accumulated depreciation, and as a non-cash add-back.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "far-drcr-three-statements-q-d29c1eca",
+          "type": "mcq",
+          "stem": "Where does Northstar's net income flow on the balance sheet?",
+          "options": [
+            "Retained Earnings",
+            "Owner's Capital",
+            "Accounts Payable"
+          ],
+          "answer": "Retained Earnings",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--financial-accounting-concepts-dr-cr-rules#7",
+            "far--financial-accounting-concepts-dr-cr-rules#6"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-drcr-three-statements-q-77ccc1c7",
+          "type": "true_false",
+          "stem": "Northstar's $2,000 of depreciation appears on the income statement, the balance sheet and the cash flow statement.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--financial-accounting-concepts-dr-cr-rules#6",
+            "far--financial-accounting-concepts-dr-cr-rules#7",
+            "far--financial-accounting-concepts-dr-cr-rules#8"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-drcr-three-statements-q-3ef30ffc",
+          "type": "fill",
+          "stem": "The operating section of the cash flow statement starts from net ____.",
+          "options": [],
+          "answer": "income",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--financial-accounting-concepts-dr-cr-rules#8"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "far--financial-accounting-concepts-dr-cr-rules#6",
+        "far--financial-accounting-concepts-dr-cr-rules#7",
+        "far--financial-accounting-concepts-dr-cr-rules#8",
+        "far--financial-accounting-concepts-dr-cr-rules#14",
+        "far--financial-accounting-concepts-dr-cr-rules#3",
+        "far--financial-accounting-concepts-dr-cr-rules#5"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "far-drcr-three-statements-f1",
+      "front": "Balance sheet (slide definition)",
+      "back": "A snapshot at one point in time. Assets = Liabilities + Equity. \"What do we own and owe today?\"",
+      "kind": "term",
+      "source_refs": [
+        "far--financial-accounting-concepts-dr-cr-rules#5"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-drcr-three-statements-f2",
+      "front": "Income statement (slide definition)",
+      "back": "Performance over a period. Revenue - Expenses = Net Income. \"Did we make a profit this year?\"",
+      "kind": "term",
+      "source_refs": [
+        "far--financial-accounting-concepts-dr-cr-rules#5"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-drcr-three-statements-f3",
+      "front": "Cash flow statement (slide definition)",
+      "back": "Cash movement over a period. Operating + Investing + Financing. \"Where did our cash actually go?\"",
+      "kind": "term",
+      "source_refs": [
+        "far--financial-accounting-concepts-dr-cr-rules#5"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-drcr-three-statements-f4",
+      "front": "Northstar's balance check (December 31, 2025)",
+      "back": "Assets $24,000 = Liabilities $8,000 + Equity $16,000.",
+      "kind": "example",
+      "source_refs": [
+        "far--financial-accounting-concepts-dr-cr-rules#6"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-drcr-three-statements-f5",
+      "front": "Gross profit, operating income, net income: what each shows",
+      "back": "Gross profit: what's left after making the product. Operating income: profit from core business activity. Net income: the bottom line, what the owner actually earns.",
+      "kind": "list",
+      "source_refs": [
+        "far--financial-accounting-concepts-dr-cr-rules#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-drcr-three-statements-f6",
+      "front": "Northstar's income statement in three numbers",
+      "back": "Gross Profit $31,000; Operating Income $7,500; Net Income $7,000.",
+      "kind": "example",
+      "source_refs": [
+        "far--financial-accounting-concepts-dr-cr-rules#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-drcr-three-statements-f7",
+      "front": "Northstar's net change in cash",
+      "back": "$9,200 (operations) - $3,000 (investing) - $200 (financing) = +$6,000.",
+      "kind": "example",
+      "source_refs": [
+        "far--financial-accounting-concepts-dr-cr-rules#8"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-drcr-three-statements-f8",
+      "front": "Why is depreciation added back in the cash flow statement?",
+      "back": "It is non-cash: it reduces net income but is not a cash payment.",
+      "kind": "fact",
+      "source_refs": [
+        "far--financial-accounting-concepts-dr-cr-rules#8"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [],
+  "explain_back": {
+    "prompt": "Explain the three core financial statements and show how Northstar Bike Co.'s statements connect.",
+    "rubric": [
+      {
+        "point": "Balance sheet is a snapshot at one point in time; the income and cash flow statements cover a period",
+        "source_ref": "far--financial-accounting-concepts-dr-cr-rules#5"
+      },
+      {
+        "point": "Northstar's balance sheet balances: Assets $24,000 = Liabilities $8,000 + Equity $16,000",
+        "source_ref": "far--financial-accounting-concepts-dr-cr-rules#6"
+      },
+      {
+        "point": "Income statement: Revenue - Expenses = Net Income (Northstar: net income $7,000), and net income flows into retained earnings",
+        "source_ref": "far--financial-accounting-concepts-dr-cr-rules#7"
+      },
+      {
+        "point": "Cash flow statement: operating + investing + financing (Northstar: $9,200 - $3,000 - $200 = +$6,000)",
+        "source_ref": "far--financial-accounting-concepts-dr-cr-rules#8"
+      },
+      {
+        "point": "Net income doesn't equal cash: depreciation is non-cash and cash also went to equipment and loan repayment",
+        "source_ref": "far--financial-accounting-concepts-dr-cr-rules#8"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

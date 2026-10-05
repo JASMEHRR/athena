@@ -1,0 +1,531 @@
+{
+  "id": "far-drcr-equation-and-double-entry",
+  "subject_id": "far",
+  "deck_id": "far--financial-accounting-concepts-dr-cr-rules",
+  "title": "The accounting equation, debits and credits",
+  "order": 101,
+  "summary": "Assets = Liabilities + Equity, Northstar Bike Co.'s first three transactions, which side increases each account (DEAD), and a full journal entry.",
+  "est_minutes": 20,
+  "difficulty": 1,
+  "source_refs": [
+    "far--financial-accounting-concepts-dr-cr-rules#3",
+    "far--financial-accounting-concepts-dr-cr-rules#14",
+    "far--financial-accounting-concepts-dr-cr-rules#4",
+    "far--financial-accounting-concepts-dr-cr-rules#13"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "far-drcr-equation-and-double-entry-c1",
+      "heading": "The accounting equation: owns, owes, owner's claim",
+      "explanation_md": "Everything in this deck sits on one line:\n\n**Assets = Liabilities + Equity**\n\nThe slide's point: **every transaction, no matter how complex, keeps this equation in balance.**\n\n- **Assets** are **what the business owns**: cash, inventory, equipment, buildings.\n- **Liabilities** are **what the business owes**: loans, accounts payable, unearned revenue.\n- **Equity** is **the owner's residual claim**: capital invested + retained earnings.\n\nOne way to read it: whatever the business owns is claimed either by the people it owes (liabilities) or by the owner (equity). The closing slide lists it as idea number one: *the accounting equation keeps every transaction in balance.*",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Assets",
+          "meaning": "What the business owns: cash, inventory, equipment, buildings.",
+          "source_ref": "far--financial-accounting-concepts-dr-cr-rules#3"
+        },
+        {
+          "term": "Liabilities",
+          "meaning": "What the business owes: loans, accounts payable, unearned revenue.",
+          "source_ref": "far--financial-accounting-concepts-dr-cr-rules#3"
+        },
+        {
+          "term": "Equity",
+          "meaning": "The owner's residual claim: capital invested + retained earnings.",
+          "source_ref": "far--financial-accounting-concepts-dr-cr-rules#3"
+        }
+      ],
+      "exam_line": "Assets = Liabilities + Equity, and every transaction, no matter how complex, keeps it in balance.",
+      "clarification": {
+        "term": "unearned revenue",
+        "text": "This is money a customer has paid in advance for goods or services the business has not yet delivered. The business still owes the customer that delivery, which is why the slide lists it with what the business owes."
+      },
+      "check_questions": [
+        {
+          "id": "far-drcr-equation-and-double-entry-q-82df64d8",
+          "type": "mcq",
+          "stem": "Which list matches what the slide gives as examples of liabilities?",
+          "options": [
+            "Loans, accounts payable, unearned revenue",
+            "Cash, inventory, equipment, buildings",
+            "Capital invested + retained earnings"
+          ],
+          "answer": "Loans, accounts payable, unearned revenue",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--financial-accounting-concepts-dr-cr-rules#3"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-drcr-equation-and-double-entry-q-588bf3b2",
+          "type": "fill",
+          "stem": "Equity is the owner's ____ claim: capital invested + retained earnings.",
+          "options": [],
+          "answer": "residual",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--financial-accounting-concepts-dr-cr-rules#3"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-drcr-equation-and-double-entry-q-0efb73d6",
+          "type": "true_false",
+          "stem": "According to the slide, only simple transactions keep the accounting equation in balance; complex ones can break it.",
+          "options": [],
+          "answer": "False",
+          "accept": [],
+          "explanation": "Every transaction, no matter how complex, keeps the equation in balance.",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--financial-accounting-concepts-dr-cr-rules#3"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "far--financial-accounting-concepts-dr-cr-rules#3",
+        "far--financial-accounting-concepts-dr-cr-rules#14"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-drcr-equation-and-double-entry-c2",
+      "heading": "Northstar Bike Co.: three transactions, one balanced equation",
+      "explanation_md": "The worked example follows **Northstar Bike Co.**, a bike shop. Watch how each transaction changes the equation by the same amount on both sides, so it always balances:\n\n| Transaction | Assets | Liabilities | Equity |\n|---|---|---|---|\n| Alex invests $5,000 cash to start the business | +$5,000 cash | $0 | +$5,000 capital |\n| Buys a $1,200 bike repair stand on credit | +$1,200 equipment | +$1,200 payable | $0 |\n| Earns $300 cash from bike sales | +$300 cash | $0 | +$300 revenue |\n\n**What to notice:**\n- **Owner invests cash:** assets go up and equity (capital) goes up by the same $5,000.\n- **Buying on credit:** a new asset (equipment) arrives and a liability (payable) is created for the same $1,200. Equity does not move.\n- **Earning revenue:** cash goes up by $300 and equity goes up by $300, shown in the table as revenue.\n\nAdd up the three rows and you get assets of $6,500 = liabilities of $1,200 + equity of $5,300. Balanced.",
+      "example_ids": [
+        "far-ex-drcr-northstar-transactions"
+      ],
+      "key_terms": [],
+      "exam_line": "Owner invests cash: assets and equity both rise. Buying on credit: assets and liabilities both rise. Earning cash revenue: assets and equity both rise.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "far-drcr-equation-and-double-entry-q-520dd1d9",
+          "type": "mcq",
+          "stem": "Northstar buys a $1,200 bike repair stand on credit. What happens to the equation?",
+          "options": [
+            "Assets +$1,200 equipment and liabilities +$1,200 payable",
+            "Assets +$1,200 equipment and equity +$1,200 capital",
+            "Assets -$1,200 cash and liabilities +$1,200 payable"
+          ],
+          "answer": "Assets +$1,200 equipment and liabilities +$1,200 payable",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--financial-accounting-concepts-dr-cr-rules#3"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-drcr-equation-and-double-entry-q-8888fd19",
+          "type": "mcq",
+          "stem": "When Alex invests $5,000 cash to start the business, what rises along with assets?",
+          "options": [
+            "Equity (capital)",
+            "Liabilities (payable)",
+            "Nothing; only assets change"
+          ],
+          "answer": "Equity (capital)",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--financial-accounting-concepts-dr-cr-rules#3"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-drcr-equation-and-double-entry-q-0233e0d8",
+          "type": "fill",
+          "stem": "Earning $300 cash from bike sales adds $300 to cash and $300 to ____ (shown as revenue).",
+          "options": [],
+          "answer": "equity",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--financial-accounting-concepts-dr-cr-rules#3"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "far--financial-accounting-concepts-dr-cr-rules#3"
+      ],
+      "derived": [
+        "6,500",
+        "5,300"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-drcr-equation-and-double-entry-c3",
+      "heading": "Double entry: which side increases an account?",
+      "explanation_md": "**Double-entry bookkeeping** is how that balance gets recorded. The rule: **every transaction touches at least two accounts, and total debits always equal total credits.**\n\nEach account type has a side that **increases** it:\n\n| Account type | Debit | Credit |\n|---|---|---|\n| Assets | Increase | Decrease |\n| Expenses | Increase | Decrease |\n| Liabilities | Decrease | Increase |\n| Equity | Decrease | Increase |\n| Revenue | Decrease | Increase |\n\n**Memory tip from the slide: DEAD.** **D**ividends, **E**xpenses, **A**ssets and **D**raws increase with **debits**. Everything else (liabilities, equity, revenue) increases with **credits**.\n\nSo a debit does not always mean an increase: it increases assets and expenses but decreases liabilities, equity and revenue. The closing slide puts it simply: **debits and credits are how that balance is recorded.**",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Double-entry bookkeeping",
+          "meaning": "Every transaction touches at least two accounts; total debits always equal total credits.",
+          "source_ref": "far--financial-accounting-concepts-dr-cr-rules#4"
+        },
+        {
+          "term": "DEAD",
+          "meaning": "Dividends, Expenses, Assets, Draws: the accounts that increase with debits. Everything else increases with credits.",
+          "source_ref": "far--financial-accounting-concepts-dr-cr-rules#4"
+        }
+      ],
+      "exam_line": "Debits increase assets and expenses (and dividends and draws: DEAD); credits increase liabilities, equity and revenue. Total debits always equal total credits.",
+      "clarification": {
+        "term": "dividends and draws",
+        "text": "Both are amounts the business pays out to its owners for their own use. A draw is taken by the owner of a business run by one person, and a dividend is paid by a company to its shareholders."
+      },
+      "check_questions": [
+        {
+          "id": "far-drcr-equation-and-double-entry-q-b4d4e16f",
+          "type": "mcq",
+          "stem": "Which account types increase with a credit?",
+          "options": [
+            "Liabilities, equity and revenue",
+            "Assets and expenses",
+            "Dividends and draws"
+          ],
+          "answer": "Liabilities, equity and revenue",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--financial-accounting-concepts-dr-cr-rules#4"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-drcr-equation-and-double-entry-q-881560b1",
+          "type": "mcq",
+          "stem": "In the DEAD memory tip, what do the letters stand for?",
+          "options": [
+            "Dividends, Expenses, Assets, Draws",
+            "Debits, Equity, Assets, Dividends",
+            "Draws, Expenses, Accounts payable, Debt"
+          ],
+          "answer": "Dividends, Expenses, Assets, Draws",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--financial-accounting-concepts-dr-cr-rules#4"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-drcr-equation-and-double-entry-q-340df4fb",
+          "type": "true_false",
+          "stem": "A debit always increases an account.",
+          "options": [],
+          "answer": "False",
+          "accept": [],
+          "explanation": "Debits increase assets and expenses but decrease liabilities, equity and revenue.",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--financial-accounting-concepts-dr-cr-rules#4"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "far--financial-accounting-concepts-dr-cr-rules#4",
+        "far--financial-accounting-concepts-dr-cr-rules#14"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-drcr-equation-and-double-entry-c4",
+      "heading": "A journal entry: buying the repair stand with cash",
+      "explanation_md": "Now the full worked entry. **Northstar Bike Co. pays $1,200 cash to buy a new repair stand.**\n\n| Account | Debit | Credit |\n|---|---|---|\n| Equipment (Asset) | $1,200 | |\n| Cash (Asset) | | $1,200 |\n\nWhy:\n- **Equipment** is an asset and it **goes up**, so it is **debited**.\n- **Cash** is also an asset and it **goes down**, so it is **credited**.\n- **Balance check:** debits $1,200 = credits $1,200.\n\n**Compare with the credit purchase** in the accounting equation example. There, the stand was bought **on credit**, so assets rose by $1,200 and a $1,200 payable (a liability) appeared. Here it is bought **with cash**, so one asset goes up and another goes down by the same amount.\n\n**Total assets do not change: one asset for another.** That is the answer to the deck's quick check question about this purchase.",
+      "example_ids": [
+        "far-ex-drcr-repair-stand-journal"
+      ],
+      "key_terms": [],
+      "exam_line": "Cash purchase of equipment: debit Equipment, credit Cash, same amount. Total assets do not change (one asset for another).",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "far-drcr-equation-and-double-entry-q-3329a95d",
+          "type": "mcq",
+          "stem": "Northstar Bike Co. buys a repair stand with cash. What happens to total assets?",
+          "options": [
+            "No change: one asset for another",
+            "Increase",
+            "Decrease",
+            "Cannot be determined"
+          ],
+          "answer": "No change: one asset for another",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--financial-accounting-concepts-dr-cr-rules#4",
+            "far--financial-accounting-concepts-dr-cr-rules#13"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-drcr-equation-and-double-entry-q-e461ab2c",
+          "type": "mcq",
+          "stem": "In the journal entry for the $1,200 cash purchase of the repair stand, which account is credited?",
+          "options": [
+            "Cash (Asset)",
+            "Equipment (Asset)",
+            "Accounts payable (Liability)"
+          ],
+          "answer": "Cash (Asset)",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--financial-accounting-concepts-dr-cr-rules#4",
+            "far--financial-accounting-concepts-dr-cr-rules#3"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-drcr-equation-and-double-entry-q-0c6aabb9",
+          "type": "true_false",
+          "stem": "When the repair stand is bought on credit instead of with cash, a liability (payable) rises along with equipment.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--financial-accounting-concepts-dr-cr-rules#3"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "far--financial-accounting-concepts-dr-cr-rules#4",
+        "far--financial-accounting-concepts-dr-cr-rules#3",
+        "far--financial-accounting-concepts-dr-cr-rules#13"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "far-drcr-equation-and-double-entry-f1",
+      "front": "The accounting equation",
+      "back": "Assets = Liabilities + Equity. Every transaction, no matter how complex, keeps it in balance.",
+      "kind": "formula",
+      "source_refs": [
+        "far--financial-accounting-concepts-dr-cr-rules#3"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-drcr-equation-and-double-entry-f2",
+      "front": "Assets, liabilities, equity: the slide's one-line meanings",
+      "back": "Assets: what the business owns. Liabilities: what the business owes. Equity: the owner's residual claim (capital invested + retained earnings).",
+      "kind": "list",
+      "source_refs": [
+        "far--financial-accounting-concepts-dr-cr-rules#3"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-drcr-equation-and-double-entry-f3",
+      "front": "Examples of assets and of liabilities (slide)",
+      "back": "Assets: cash, inventory, equipment, buildings. Liabilities: loans, accounts payable, unearned revenue.",
+      "kind": "list",
+      "source_refs": [
+        "far--financial-accounting-concepts-dr-cr-rules#3"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-drcr-equation-and-double-entry-f4",
+      "front": "Northstar buys a $1,200 repair stand on credit: effect on the equation",
+      "back": "Assets +$1,200 equipment, liabilities +$1,200 payable, equity no change.",
+      "kind": "example",
+      "source_refs": [
+        "far--financial-accounting-concepts-dr-cr-rules#3"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-drcr-equation-and-double-entry-f5",
+      "front": "Double-entry rule",
+      "back": "Every transaction touches at least two accounts; total debits always equal total credits.",
+      "kind": "term",
+      "source_refs": [
+        "far--financial-accounting-concepts-dr-cr-rules#4"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-drcr-equation-and-double-entry-f6",
+      "front": "DEAD memory tip",
+      "back": "Dividends, Expenses, Assets, Draws increase with debits; everything else increases with credits.",
+      "kind": "list",
+      "source_refs": [
+        "far--financial-accounting-concepts-dr-cr-rules#4"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-drcr-equation-and-double-entry-f7",
+      "front": "Which side increases liabilities, equity and revenue?",
+      "back": "Credit. A debit decreases them.",
+      "kind": "fact",
+      "source_refs": [
+        "far--financial-accounting-concepts-dr-cr-rules#4"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-drcr-equation-and-double-entry-f8",
+      "front": "Journal entry: Northstar pays $1,200 cash for a repair stand",
+      "back": "Debit Equipment (Asset) $1,200; credit Cash (Asset) $1,200. Total assets do not change: one asset for another.",
+      "kind": "example",
+      "source_refs": [
+        "far--financial-accounting-concepts-dr-cr-rules#4",
+        "far--financial-accounting-concepts-dr-cr-rules#13"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [],
+  "explain_back": {
+    "prompt": "Explain the accounting equation and the debit and credit rules, using Northstar Bike Co.'s repair stand examples.",
+    "rubric": [
+      {
+        "point": "Assets = Liabilities + Equity, and every transaction keeps it in balance",
+        "source_ref": "far--financial-accounting-concepts-dr-cr-rules#3"
+      },
+      {
+        "point": "Assets are what the business owns, liabilities what it owes, equity the owner's residual claim",
+        "source_ref": "far--financial-accounting-concepts-dr-cr-rules#3"
+      },
+      {
+        "point": "Repair stand bought on credit: equipment +$1,200 and payable +$1,200",
+        "source_ref": "far--financial-accounting-concepts-dr-cr-rules#3"
+      },
+      {
+        "point": "Every transaction touches at least two accounts and total debits equal total credits; DEAD accounts increase with debits",
+        "source_ref": "far--financial-accounting-concepts-dr-cr-rules#4"
+      },
+      {
+        "point": "Repair stand bought for cash: debit Equipment $1,200, credit Cash $1,200; total assets unchanged",
+        "source_ref": "far--financial-accounting-concepts-dr-cr-rules#4"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

@@ -1,0 +1,538 @@
+{
+  "id": "far-drcr-accrual-and-depreciation",
+  "subject_id": "far",
+  "deck_id": "far--financial-accounting-concepts-dr-cr-rules",
+  "title": "Accrual vs cash basis, and depreciation",
+  "order": 103,
+  "summary": "Two ways to time revenue and expenses with the custom bike build example, then straight-line depreciation and the delivery van's five-year schedule.",
+  "est_minutes": 20,
+  "difficulty": 2,
+  "source_refs": [
+    "far--financial-accounting-concepts-dr-cr-rules#9",
+    "far--financial-accounting-concepts-dr-cr-rules#14",
+    "far--financial-accounting-concepts-dr-cr-rules#13",
+    "far--financial-accounting-concepts-dr-cr-rules#12",
+    "far--financial-accounting-concepts-dr-cr-rules#10",
+    "far--financial-accounting-concepts-dr-cr-rules#6",
+    "far--financial-accounting-concepts-dr-cr-rules#7",
+    "far--financial-accounting-concepts-dr-cr-rules#8"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "far-drcr-accrual-and-depreciation-c1",
+      "heading": "Cash basis vs accrual basis",
+      "explanation_md": "**The difference is timing:** when do you record revenue and expenses?\n\n**Cash basis**\n- Record revenue **when cash is received** and expenses **when cash is paid**.\n- **Simple**; used by **small businesses and freelancers**.\n\n**Accrual basis**\n- Record revenue **when earned** and expenses **when incurred**, **regardless of when cash moves**.\n- **Required under GAAP for most companies**; it **matches revenue to the period it was earned**.\n\nThe closing slide's version: **accrual accounting times revenue and expenses to when they occur.**",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Cash basis",
+          "meaning": "Record revenue when cash is received and expenses when cash is paid.",
+          "source_ref": "far--financial-accounting-concepts-dr-cr-rules#9"
+        },
+        {
+          "term": "Accrual basis",
+          "meaning": "Record revenue when earned and expenses when incurred, regardless of when cash moves.",
+          "source_ref": "far--financial-accounting-concepts-dr-cr-rules#9"
+        }
+      ],
+      "exam_line": "Cash basis follows the cash; accrual basis records revenue when earned and expenses when incurred, and is required under GAAP for most companies.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "far-drcr-accrual-and-depreciation-q-76f40ac3",
+          "type": "mcq",
+          "stem": "Which basis is required under GAAP for most companies?",
+          "options": [
+            "Accrual basis",
+            "Cash basis",
+            "Either; the slide says companies may choose"
+          ],
+          "answer": "Accrual basis",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--financial-accounting-concepts-dr-cr-rules#9"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-drcr-accrual-and-depreciation-q-e6010b9a",
+          "type": "mcq",
+          "stem": "According to the slide, who typically uses cash basis accounting?",
+          "options": [
+            "Small businesses and freelancers",
+            "Most companies under GAAP",
+            "Companies that must match revenue to the period it was earned"
+          ],
+          "answer": "Small businesses and freelancers",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--financial-accounting-concepts-dr-cr-rules#9"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-drcr-accrual-and-depreciation-q-3a4e6d56",
+          "type": "fill",
+          "stem": "Under the accrual basis, expenses are recorded when ____, regardless of when cash moves.",
+          "options": [],
+          "answer": "incurred",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--financial-accounting-concepts-dr-cr-rules#9"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "far--financial-accounting-concepts-dr-cr-rules#9",
+        "far--financial-accounting-concepts-dr-cr-rules#14"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-drcr-accrual-and-depreciation-c2",
+      "heading": "Worked example: the custom bike build",
+      "explanation_md": "**Northstar Bike Co. completes a custom bike build on December 28, 2025 and invoices the client $2,000. The client pays on January 15, 2026.**\n\n| | Cash basis | Accrual basis |\n|---|---|---|\n| Revenue recorded in... | **January 2026** (when paid) | **December 2025** (when earned) |\n\nThe work was finished in December, so under accrual the $2,000 belongs to December 2025. Cash basis waits for the money, so it lands in January 2026.\n\nThis is the GAAP principle of **revenue recognition** in action: **recognize revenue when it's earned, not necessarily when cash is received.**\n\n**Exam trap from the quick check:** under accrual accounting, revenue is recorded when it is **earned, regardless of cash timing**. Not when it is invoiced, not when it is received in cash, and not when it is approved at year-end.",
+      "example_ids": [
+        "far-ex-drcr-custom-bike-build"
+      ],
+      "key_terms": [],
+      "exam_line": "Custom bike build: cash basis records the $2,000 in January 2026 (when paid); accrual basis records it in December 2025 (when earned).",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "far-drcr-accrual-and-depreciation-q-b97c12d4",
+          "type": "mcq",
+          "stem": "Under accrual accounting, revenue is recorded when it is...",
+          "options": [
+            "Earned, regardless of cash timing",
+            "Invoiced to the customer",
+            "Received in cash",
+            "Approved at year-end"
+          ],
+          "answer": "Earned, regardless of cash timing",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--financial-accounting-concepts-dr-cr-rules#13",
+            "far--financial-accounting-concepts-dr-cr-rules#9"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-drcr-accrual-and-depreciation-q-b3b03dac",
+          "type": "mcq",
+          "stem": "Northstar finishes the custom bike build in December 2025 and is paid in January 2026. Under the cash basis, when is the $2,000 revenue recorded?",
+          "options": [
+            "January 2026 (when paid)",
+            "December 2025 (when earned)",
+            "Split across both months"
+          ],
+          "answer": "January 2026 (when paid)",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--financial-accounting-concepts-dr-cr-rules#9"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-drcr-accrual-and-depreciation-q-bc265001",
+          "type": "true_false",
+          "stem": "The revenue recognition principle says to recognize revenue only when cash is received.",
+          "options": [],
+          "answer": "False",
+          "accept": [],
+          "explanation": "Recognize revenue when it's earned, not necessarily when cash is received.",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--financial-accounting-concepts-dr-cr-rules#12"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "far--financial-accounting-concepts-dr-cr-rules#9",
+        "far--financial-accounting-concepts-dr-cr-rules#13",
+        "far--financial-accounting-concepts-dr-cr-rules#12"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-drcr-accrual-and-depreciation-c3",
+      "heading": "Depreciation and the straight-line formula",
+      "explanation_md": "**Depreciation** means **spreading the cost of a long-term asset over the years it's used, instead of expensing it all at once.**\n\n**Straight-line formula:**\n\n**Annual Depreciation = (Cost - Salvage Value) ÷ Useful Life**\n\n**Example: Northstar Bike Co.'s delivery van**\n- Cost: **$32,000**\n- Salvage value: **$2,000**\n- Useful life: **5 years**\n\n($32,000 - $2,000) ÷ 5 = **$6,000 per year**\n\nSo instead of one $32,000 expense in year 1, the van is expensed at $6,000 a year for 5 years. Notice the formula subtracts the salvage value first, then divides by the useful life.\n\nThe quick check asks how depreciation expense is best described: **allocating an asset's cost over its useful life**. It is not cash paid for a new asset, not a liability owed to the bank, and not a reduction in liabilities.",
+      "example_ids": [
+        "far-ex-drcr-delivery-van"
+      ],
+      "key_terms": [
+        {
+          "term": "Depreciation",
+          "meaning": "Spreading the cost of a long-term asset over the years it's used, instead of expensing it all at once.",
+          "source_ref": "far--financial-accounting-concepts-dr-cr-rules#10"
+        },
+        {
+          "term": "Straight-line formula",
+          "meaning": "Annual Depreciation = (Cost - Salvage Value) ÷ Useful Life.",
+          "source_ref": "far--financial-accounting-concepts-dr-cr-rules#10"
+        }
+      ],
+      "exam_line": "Annual Depreciation = (Cost - Salvage Value) ÷ Useful Life. Van: ($32,000 - $2,000) ÷ 5 = $6,000 per year.",
+      "clarification": {
+        "term": "salvage value",
+        "text": "The amount the business expects to get for the asset at the end of its useful life. That part of the cost is not used up, so it is not spread over the years."
+      },
+      "check_questions": [
+        {
+          "id": "far-drcr-accrual-and-depreciation-q-284f8161",
+          "type": "mcq",
+          "stem": "Depreciation expense is best described as...",
+          "options": [
+            "Allocating an asset's cost over its useful life",
+            "Cash paid for a new asset",
+            "A liability owed to the bank",
+            "A reduction in liabilities"
+          ],
+          "answer": "Allocating an asset's cost over its useful life",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--financial-accounting-concepts-dr-cr-rules#13",
+            "far--financial-accounting-concepts-dr-cr-rules#10"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-drcr-accrual-and-depreciation-q-031d8c00",
+          "type": "fill",
+          "stem": "Annual Depreciation = (Cost - ____) ÷ Useful Life.",
+          "options": [],
+          "answer": "Salvage Value",
+          "accept": [
+            "salvage value",
+            "salvage"
+          ],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--financial-accounting-concepts-dr-cr-rules#10"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-drcr-accrual-and-depreciation-q-688118a5",
+          "type": "mcq",
+          "stem": "The van costs $32,000, has a salvage value of $2,000 and a useful life of 5 years. What is the annual straight-line depreciation?",
+          "options": [
+            "$6,000",
+            "$6,400",
+            "$30,000"
+          ],
+          "answer": "$6,000",
+          "accept": [],
+          "explanation": "($32,000 - $2,000) ÷ 5 = $6,000. Dividing $32,000 by 5 without first subtracting the salvage value gives the wrong answer of $6,400.",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--financial-accounting-concepts-dr-cr-rules#10"
+          ],
+          "derived": [
+            "6,400"
+          ],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "far--financial-accounting-concepts-dr-cr-rules#10",
+        "far--financial-accounting-concepts-dr-cr-rules#13",
+        "far--financial-accounting-concepts-dr-cr-rules#14"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-drcr-accrual-and-depreciation-c4",
+      "heading": "The five-year depreciation schedule",
+      "explanation_md": "The slide lays out the van's **5-year depreciation schedule**:\n\n| Year | Depreciation expense | Accumulated depreciation | Book value (end of year) |\n|---|---|---|---|\n| 1 | $6,000 | $6,000 | $26,000 |\n| 2 | $6,000 | $12,000 | $20,000 |\n| 3 | $6,000 | $18,000 | $14,000 |\n| 4 | $6,000 | $24,000 | $8,000 |\n| 5 | $6,000 | $30,000 | $2,000 |\n\n**How to read it:**\n- **Depreciation expense** is the same $6,000 every year. That is what makes it straight-line.\n- **Accumulated depreciation** is the running total: it grows by $6,000 a year, reaching $30,000.\n- **Book value** is the cost less accumulated depreciation. Year 1: $32,000 - $6,000 = $26,000.\n- At the end of year 5 the book value is **$2,000**, exactly the **salvage value**.\n\n**Where depreciation shows up in the statements** (the statement examples use $2,000 of depreciation, not the van): as an expense on the income statement, as accumulated depreciation subtracted from equipment on the balance sheet, and as a non-cash add-back on the cash flow statement.",
+      "example_ids": [
+        "far-ex-drcr-delivery-van"
+      ],
+      "key_terms": [
+        {
+          "term": "Accumulated depreciation",
+          "meaning": "The running total of depreciation charged so far; $30,000 for the van after 5 years.",
+          "source_ref": "far--financial-accounting-concepts-dr-cr-rules#10"
+        },
+        {
+          "term": "Book value",
+          "meaning": "Cost less accumulated depreciation; the van's is $2,000 at the end of year 5.",
+          "source_ref": "far--financial-accounting-concepts-dr-cr-rules#10"
+        }
+      ],
+      "exam_line": "Van book value falls by $6,000 a year: $26,000, $20,000, $14,000, $8,000, and $2,000 (the salvage value) after year 5.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "far-drcr-accrual-and-depreciation-q-9217ed1e",
+          "type": "mcq",
+          "stem": "What is the van's book value at the end of year 3?",
+          "options": [
+            "$14,000",
+            "$18,000",
+            "$20,000"
+          ],
+          "answer": "$14,000",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--financial-accounting-concepts-dr-cr-rules#10"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-drcr-accrual-and-depreciation-q-71a84401",
+          "type": "mcq",
+          "stem": "What is the van's accumulated depreciation at the end of year 4?",
+          "options": [
+            "$24,000",
+            "$8,000",
+            "$6,000"
+          ],
+          "answer": "$24,000",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--financial-accounting-concepts-dr-cr-rules#10"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-drcr-accrual-and-depreciation-q-b3227d7f",
+          "type": "true_false",
+          "stem": "At the end of its 5-year useful life, the van's book value equals its salvage value of $2,000.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--financial-accounting-concepts-dr-cr-rules#10"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "far--financial-accounting-concepts-dr-cr-rules#10",
+        "far--financial-accounting-concepts-dr-cr-rules#6",
+        "far--financial-accounting-concepts-dr-cr-rules#7",
+        "far--financial-accounting-concepts-dr-cr-rules#8"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "far-drcr-accrual-and-depreciation-f1",
+      "front": "Cash basis",
+      "back": "Record revenue when cash is received and expenses when cash is paid. Simple; used by small businesses and freelancers.",
+      "kind": "term",
+      "source_refs": [
+        "far--financial-accounting-concepts-dr-cr-rules#9"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-drcr-accrual-and-depreciation-f2",
+      "front": "Accrual basis",
+      "back": "Record revenue when earned and expenses when incurred, regardless of when cash moves. Required under GAAP for most companies.",
+      "kind": "term",
+      "source_refs": [
+        "far--financial-accounting-concepts-dr-cr-rules#9"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-drcr-accrual-and-depreciation-f3",
+      "front": "Custom bike build ($2,000, done December 28, 2025, paid January 15, 2026): when is revenue recorded?",
+      "back": "Cash basis: January 2026 (when paid). Accrual basis: December 2025 (when earned).",
+      "kind": "example",
+      "source_refs": [
+        "far--financial-accounting-concepts-dr-cr-rules#9"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-drcr-accrual-and-depreciation-f4",
+      "front": "Depreciation (slide definition)",
+      "back": "Spreading the cost of a long-term asset over the years it's used, instead of expensing it all at once.",
+      "kind": "term",
+      "source_refs": [
+        "far--financial-accounting-concepts-dr-cr-rules#10"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-drcr-accrual-and-depreciation-f5",
+      "front": "Straight-line depreciation formula",
+      "back": "Annual Depreciation = (Cost - Salvage Value) ÷ Useful Life.",
+      "kind": "formula",
+      "source_refs": [
+        "far--financial-accounting-concepts-dr-cr-rules#10"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-drcr-accrual-and-depreciation-f6",
+      "front": "Northstar's delivery van depreciation",
+      "back": "($32,000 - $2,000) ÷ 5 = $6,000 per year.",
+      "kind": "example",
+      "source_refs": [
+        "far--financial-accounting-concepts-dr-cr-rules#10"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-drcr-accrual-and-depreciation-f7",
+      "front": "Van book value at the end of each year",
+      "back": "$26,000, $20,000, $14,000, $8,000, $2,000.",
+      "kind": "fact",
+      "source_refs": [
+        "far--financial-accounting-concepts-dr-cr-rules#10"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [],
+  "explain_back": {
+    "prompt": "Explain the difference between cash and accrual accounting using the custom bike build, then show how straight-line depreciation works using the delivery van.",
+    "rubric": [
+      {
+        "point": "Cash basis records revenue when cash is received and expenses when paid; accrual records them when earned or incurred",
+        "source_ref": "far--financial-accounting-concepts-dr-cr-rules#9"
+      },
+      {
+        "point": "Accrual is required under GAAP for most companies and matches revenue to the period it was earned",
+        "source_ref": "far--financial-accounting-concepts-dr-cr-rules#9"
+      },
+      {
+        "point": "Custom bike build: the $2,000 is recorded in December 2025 under accrual, January 2026 under cash basis",
+        "source_ref": "far--financial-accounting-concepts-dr-cr-rules#9"
+      },
+      {
+        "point": "Annual Depreciation = (Cost - Salvage Value) ÷ Useful Life; van: ($32,000 - $2,000) ÷ 5 = $6,000 per year",
+        "source_ref": "far--financial-accounting-concepts-dr-cr-rules#10"
+      },
+      {
+        "point": "Book value falls by $6,000 a year to the $2,000 salvage value after 5 years",
+        "source_ref": "far--financial-accounting-concepts-dr-cr-rules#10"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

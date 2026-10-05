@@ -1,0 +1,124 @@
+[
+  {
+    "id": "far-ex-drcr-northstar-transactions",
+    "deck_id": "far--financial-accounting-concepts-dr-cr-rules",
+    "slide": 3,
+    "label": "Northstar Bike Co.: three transactions",
+    "text": "Alex invests $5,000 cash to start the business (assets +$5,000 cash, equity +$5,000 capital); buys a $1,200 bike repair stand on credit (assets +$1,200 equipment, liabilities +$1,200 payable); earns $300 cash from bike sales (assets +$300 cash, equity +$300 revenue).",
+    "kind": "scenario",
+    "taught_in": [
+      "far-drcr-equation-and-double-entry-c2"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "far-ex-drcr-repair-stand-journal",
+    "deck_id": "far--financial-accounting-concepts-dr-cr-rules",
+    "slide": 4,
+    "label": "Journal entry: repair stand bought for cash",
+    "text": "Northstar Bike Co. pays $1,200 cash to buy a new repair stand: debit Equipment (Asset) $1,200, credit Cash (Asset) $1,200. Total debits ($1,200) = total credits ($1,200).",
+    "kind": "scenario",
+    "taught_in": [
+      "far-drcr-equation-and-double-entry-c4"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "far-ex-drcr-balance-sheet",
+    "deck_id": "far--financial-accounting-concepts-dr-cr-rules",
+    "slide": 6,
+    "label": "Northstar's balance sheet",
+    "text": "As of December 31, 2025: Cash $8,500, Accounts Receivable $1,200, Inventory $2,300, Repair & Shop Equipment $14,000 less Accumulated Depreciation ($2,000); Total Assets $24,000. Accounts Payable $1,800, Bank Loan (long-term) $6,200, Owner's Capital $14,000, Retained Earnings $2,000; Total Liabilities + Equity $24,000. Balance check: Assets $24,000 = Liabilities $8,000 + Equity $16,000.",
+    "kind": "numeric",
+    "taught_in": [
+      "far-drcr-three-statements-c2",
+      "far-drcr-three-statements-c5"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "far-ex-drcr-income-statement",
+    "deck_id": "far--financial-accounting-concepts-dr-cr-rules",
+    "slide": 7,
+    "label": "Northstar's income statement",
+    "text": "Year Ended December 31, 2025: Sales Revenue $52,000 less Cost of Goods Sold ($21,000) = Gross Profit $31,000; operating expenses Wages ($14,000), Rent ($6,000), Depreciation ($2,000), Utilities & Other ($1,500); Operating Income $7,500; less Interest Expense ($500); Net Income $7,000.",
+    "kind": "numeric",
+    "taught_in": [
+      "far-drcr-three-statements-c3",
+      "far-drcr-three-statements-c5"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "far-ex-drcr-cash-flow",
+    "deck_id": "far--financial-accounting-concepts-dr-cr-rules",
+    "slide": 8,
+    "label": "Northstar's cash flow statement",
+    "text": "Year Ended December 31, 2025. Operating: Net Income $7,000 + Depreciation (non-cash) $2,000 + Decrease in Inventory $500 less Increase in Receivables ($300) = Net Cash from Operations $9,200. Investing: Purchase of Equipment ($3,000). Financing: Owner Contribution $1,000, Loan Repayment ($1,200), net ($200). Net Change in Cash: $9,200 - $3,000 - $200 = +$6,000.",
+    "kind": "numeric",
+    "taught_in": [
+      "far-drcr-three-statements-c4",
+      "far-drcr-three-statements-c5"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "far-ex-drcr-custom-bike-build",
+    "deck_id": "far--financial-accounting-concepts-dr-cr-rules",
+    "slide": 9,
+    "label": "The custom bike build",
+    "text": "Northstar Bike Co. completes a custom bike build on December 28, 2025 and invoices the client $2,000; the client pays on January 15, 2026. Cash basis records the revenue in January 2026 (when paid); accrual basis records it in December 2025 (when earned).",
+    "kind": "scenario",
+    "taught_in": [
+      "far-drcr-accrual-and-depreciation-c2",
+      "far-drcr-ratios-and-gaap-c3"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "far-ex-drcr-delivery-van",
+    "deck_id": "far--financial-accounting-concepts-dr-cr-rules",
+    "slide": 10,
+    "label": "Northstar's delivery van",
+    "text": "Delivery van: cost $32,000, salvage value $2,000, useful life 5 years. ($32,000 - $2,000) ÷ 5 = $6,000 per year. Book value falls from $26,000 at the end of year 1 to $2,000 at the end of year 5.",
+    "kind": "numeric",
+    "taught_in": [
+      "far-drcr-accrual-and-depreciation-c3",
+      "far-drcr-accrual-and-depreciation-c4"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "far-ex-drcr-ratios",
+    "deck_id": "far--financial-accounting-concepts-dr-cr-rules",
+    "slide": 11,
+    "label": "Northstar's ratios in action",
+    "text": "Current Ratio: $12,000 ÷ $8,000 = 1.5. Debt-to-Equity: $8,000 ÷ $16,000 = 0.5. A current ratio above 1.0 and modest debt-to-equity both signal a financially healthy bike shop. A chart beside them shows two bars, 59.6 and 13.5.",
+    "kind": "numeric",
+    "taught_in": [
+      "far-drcr-ratios-and-gaap-c2"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "far-ex-drcr-strong-income-low-cash",
+    "deck_id": "far--financial-accounting-concepts-dr-cr-rules",
+    "slide": 13,
+    "label": "Strong net income, low cash",
+    "text": "Discussion question: Northstar Bike Co. has strong net income but low cash on hand. How is that possible, and which statement would you check first to find out?",
+    "kind": "case",
+    "taught_in": [
+      "far-drcr-three-statements-c4"
+    ],
+    "needs_check": false,
+    "retired": false
+  }
+]

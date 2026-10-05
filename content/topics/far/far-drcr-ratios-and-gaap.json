@@ -1,0 +1,611 @@
+{
+  "id": "far-drcr-ratios-and-gaap",
+  "subject_id": "far",
+  "deck_id": "far--financial-accounting-concepts-dr-cr-rules",
+  "title": "Key financial ratios and core GAAP principles",
+  "order": 104,
+  "summary": "Four ratios and what each signals, Northstar Bike Co.'s ratios in action, the six core GAAP principles, and the deck's six-idea wrap-up.",
+  "est_minutes": 25,
+  "difficulty": 2,
+  "source_refs": [
+    "far--financial-accounting-concepts-dr-cr-rules#11",
+    "far--financial-accounting-concepts-dr-cr-rules#13",
+    "far--financial-accounting-concepts-dr-cr-rules#6",
+    "far--financial-accounting-concepts-dr-cr-rules#7",
+    "far--financial-accounting-concepts-dr-cr-rules#12",
+    "far--financial-accounting-concepts-dr-cr-rules#9",
+    "far--financial-accounting-concepts-dr-cr-rules#14",
+    "far--financial-accounting-concepts-dr-cr-rules#2"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "far-drcr-ratios-and-gaap-c1",
+      "heading": "Four key ratios and what they signal",
+      "explanation_md": "**Ratios turn raw statement numbers into signals about liquidity, profitability, and leverage.**\n\n| Ratio | Formula | Signal |\n|---|---|---|\n| **Current Ratio** | Current Assets ÷ Current Liabilities | **Liquidity**: can we cover short-term bills? |\n| **Gross Margin** | Gross Profit ÷ Revenue | **Profitability**: how efficient is production? |\n| **Net Margin** | Net Income ÷ Revenue | **Profitability**: what share of sales is profit? |\n| **Debt-to-Equity** | Total Liabilities ÷ Total Equity | **Leverage**: how much financing is debt? |\n\nGroup them by the question they answer: one liquidity ratio, two profitability ratios, one leverage ratio. Both margins divide by revenue.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Liquidity",
+          "meaning": "Can we cover short-term bills? Measured by the current ratio.",
+          "source_ref": "far--financial-accounting-concepts-dr-cr-rules#11"
+        },
+        {
+          "term": "Leverage",
+          "meaning": "How much financing is debt? Measured by debt-to-equity.",
+          "source_ref": "far--financial-accounting-concepts-dr-cr-rules#11"
+        }
+      ],
+      "exam_line": "Current ratio = current assets ÷ current liabilities (liquidity); gross margin and net margin divide by revenue (profitability); debt-to-equity = total liabilities ÷ total equity (leverage).",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "far-drcr-ratios-and-gaap-q-da47bd24",
+          "type": "mcq",
+          "stem": "Which ratio answers 'can we cover short-term bills?'",
+          "options": [
+            "Current Ratio",
+            "Gross Margin",
+            "Debt-to-Equity",
+            "Net Margin"
+          ],
+          "answer": "Current Ratio",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--financial-accounting-concepts-dr-cr-rules#11"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-drcr-ratios-and-gaap-q-dbd316a1",
+          "type": "mcq",
+          "stem": "Debt-to-equity is a signal of which of these?",
+          "options": [
+            "Leverage",
+            "Liquidity",
+            "Profitability"
+          ],
+          "answer": "Leverage",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--financial-accounting-concepts-dr-cr-rules#11"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-drcr-ratios-and-gaap-q-2463fca7",
+          "type": "fill",
+          "stem": "Net Margin = Net Income ÷ ____.",
+          "options": [],
+          "answer": "Revenue",
+          "accept": [
+            "revenue"
+          ],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--financial-accounting-concepts-dr-cr-rules#11"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "far--financial-accounting-concepts-dr-cr-rules#11"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-drcr-ratios-and-gaap-c2",
+      "heading": "Northstar's ratios in action",
+      "explanation_md": "The slide works two ratios for Northstar Bike Co.:\n\n- **Current Ratio: $12,000 ÷ $8,000 = 1.5**\n- **Debt-to-Equity: $8,000 ÷ $16,000 = 0.5**\n\nThe slide's verdict: **a current ratio above 1.0 and modest debt-to-equity both signal a financially healthy bike shop.**\n\nWhere the numbers come from: $12,000 is cash + receivables + inventory on the balance sheet (8,500 + 1,200 + 2,300), and $8,000 and $16,000 are the liabilities and equity in its balance check. In the exam, use the figures the question gives you, as the slide does.\n\nThe chart on the slide shows two unlabelled bars, **59.6** and **13.5**. They match the two margins worked out from the income statement:\n- Gross margin = $31,000 ÷ $52,000 = 59.6%\n- Net margin = $7,000 ÷ $52,000 = 13.5% (rounded)\n\n**The quick check question:** current assets $12,000 ÷ current liabilities $8,000. The result is **1.5: the business can cover short-term obligations comfortably**. Not 0.67 (that is the division done upside down), and 1.5 is a liquidity signal, not a sign of being over-leveraged.",
+      "example_ids": [
+        "far-ex-drcr-ratios"
+      ],
+      "key_terms": [],
+      "exam_line": "Northstar: current ratio $12,000 ÷ $8,000 = 1.5 (can cover short-term obligations); debt-to-equity $8,000 ÷ $16,000 = 0.5 (modest). Both signal a healthy bike shop.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "far-drcr-ratios-and-gaap-q-f7432176",
+          "type": "mcq",
+          "stem": "Current Assets $12,000 ÷ Current Liabilities $8,000. What does the result tell us?",
+          "options": [
+            "1.5: can cover short-term obligations comfortably",
+            "0.67: weak liquidity",
+            "1.5: dangerously over-leveraged",
+            "8.0: holding too much cash"
+          ],
+          "answer": "1.5: can cover short-term obligations comfortably",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--financial-accounting-concepts-dr-cr-rules#13",
+            "far--financial-accounting-concepts-dr-cr-rules#11"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-drcr-ratios-and-gaap-q-1fd1f96f",
+          "type": "mcq",
+          "stem": "What is Northstar's debt-to-equity ratio on the slide?",
+          "options": [
+            "0.5",
+            "1.5",
+            "0.67"
+          ],
+          "answer": "0.5",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--financial-accounting-concepts-dr-cr-rules#11",
+            "far--financial-accounting-concepts-dr-cr-rules#13"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-drcr-ratios-and-gaap-q-1e251791",
+          "type": "true_false",
+          "stem": "On the slide, a current ratio above 1.0 together with modest debt-to-equity signals a financially healthy bike shop.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--financial-accounting-concepts-dr-cr-rules#11"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "far--financial-accounting-concepts-dr-cr-rules#11",
+        "far--financial-accounting-concepts-dr-cr-rules#13",
+        "far--financial-accounting-concepts-dr-cr-rules#6",
+        "far--financial-accounting-concepts-dr-cr-rules#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-drcr-ratios-and-gaap-c3",
+      "heading": "GAAP principles 1 to 3: revenue recognition, matching, consistency",
+      "explanation_md": "**Generally Accepted Accounting Principles (GAAP)** keep financial statements **consistent and comparable**. The deck gives six core principles. The first three are about **timing and sameness**:\n\n1. **Revenue Recognition:** recognize revenue **when it's earned**, not necessarily when cash is received. The custom bike build is this principle in action: earned in December 2025, so recorded in December 2025 under accrual.\n2. **Matching Principle:** **match expenses to the revenue they helped generate, in the same period.** It fits with the accrual basis, which matches revenue to the period it was earned.\n3. **Consistency:** use the **same accounting methods period to period** so results are comparable.",
+      "example_ids": [
+        "far-ex-drcr-custom-bike-build"
+      ],
+      "key_terms": [
+        {
+          "term": "GAAP",
+          "meaning": "Generally Accepted Accounting Principles: they keep financial statements consistent and comparable.",
+          "source_ref": "far--financial-accounting-concepts-dr-cr-rules#12"
+        }
+      ],
+      "exam_line": "Revenue recognition: when earned. Matching: expenses in the same period as the revenue they helped generate. Consistency: same methods period to period.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "far-drcr-ratios-and-gaap-q-50cc646e",
+          "type": "mcq",
+          "stem": "Which principle says to match expenses to the revenue they helped generate, in the same period?",
+          "options": [
+            "Matching Principle",
+            "Consistency",
+            "Materiality",
+            "Going Concern"
+          ],
+          "answer": "Matching Principle",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--financial-accounting-concepts-dr-cr-rules#12"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-drcr-ratios-and-gaap-q-72403fa2",
+          "type": "mcq",
+          "stem": "Using the same accounting methods period to period so results are comparable is the principle of:",
+          "options": [
+            "Consistency",
+            "Conservatism",
+            "Revenue Recognition"
+          ],
+          "answer": "Consistency",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--financial-accounting-concepts-dr-cr-rules#12"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-drcr-ratios-and-gaap-q-c4245130",
+          "type": "fill",
+          "stem": "GAAP stands for Generally Accepted Accounting ____.",
+          "options": [],
+          "answer": "Principles",
+          "accept": [
+            "principles"
+          ],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--financial-accounting-concepts-dr-cr-rules#12"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "far--financial-accounting-concepts-dr-cr-rules#12",
+        "far--financial-accounting-concepts-dr-cr-rules#9"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-drcr-ratios-and-gaap-c4",
+      "heading": "GAAP principles 4 to 6: conservatism, going concern, materiality",
+      "explanation_md": "The other three are about **caution, continuity and size**:\n\n4. **Conservatism:** **when in doubt, record losses early and gains only when they're realized.**\n5. **Going Concern:** **assume the business will continue operating for the foreseeable future.**\n6. **Materiality:** **only items large enough to influence a decision need precise, separate treatment.**\n\nA quick way to hold all six: two about **when** (revenue recognition, matching), one about **sameness** (consistency), one about **caution** (conservatism), one about **continuing** (going concern) and one about **size** (materiality).",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "Conservatism: losses early, gains only when realized. Going concern: the business will continue operating. Materiality: only items large enough to influence a decision need precise, separate treatment.",
+      "clarification": {
+        "term": "realized gains",
+        "text": "A gain is realized when it has actually been achieved through a completed transaction, not just expected."
+      },
+      "check_questions": [
+        {
+          "id": "far-drcr-ratios-and-gaap-q-8a28ac1e",
+          "type": "mcq",
+          "stem": "'When in doubt, record losses early and gains only when they're realized' describes which principle?",
+          "options": [
+            "Conservatism",
+            "Materiality",
+            "Going Concern",
+            "Revenue Recognition"
+          ],
+          "answer": "Conservatism",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--financial-accounting-concepts-dr-cr-rules#12"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-drcr-ratios-and-gaap-q-de6e72ad",
+          "type": "true_false",
+          "stem": "The going concern principle assumes the business will continue operating for the foreseeable future.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--financial-accounting-concepts-dr-cr-rules#12"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-drcr-ratios-and-gaap-q-c80c685c",
+          "type": "mcq",
+          "stem": "Which principle says only items large enough to influence a decision need precise, separate treatment?",
+          "options": [
+            "Materiality",
+            "Consistency",
+            "Matching Principle"
+          ],
+          "answer": "Materiality",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--financial-accounting-concepts-dr-cr-rules#12"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "far--financial-accounting-concepts-dr-cr-rules#12"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-drcr-ratios-and-gaap-c5",
+      "heading": "Bringing it together: six ideas, one system",
+      "explanation_md": "The deck closes with **six ideas, one connected system**:\n\n1. The **accounting equation** keeps every transaction in balance.\n2. **Debits and credits** are how that balance is recorded.\n3. The **three statements** tell what you own, earned, and collected.\n4. **Accrual accounting** times revenue and expenses to when they occur.\n5. **Depreciation** spreads asset cost over its useful life.\n6. **Ratios and GAAP** turn the numbers into reliable, comparable insight.\n\nThese match the six building blocks the deck opened with: the accounting equation, double-entry and debits/credits, the three financial statements, accrual vs. cash basis, depreciation, and financial ratios and GAAP. If you can explain each one with its worked example, you have the whole deck.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "The equation balances, debits and credits record it, the statements report it, accrual times it, depreciation spreads cost, and ratios and GAAP make the numbers reliable and comparable.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "far-drcr-ratios-and-gaap-q-413e6bca",
+          "type": "mcq",
+          "stem": "According to the closing slide, what are debits and credits?",
+          "options": [
+            "How the balance in the accounting equation is recorded",
+            "Signals about liquidity and leverage",
+            "A way to spread asset cost over its useful life"
+          ],
+          "answer": "How the balance in the accounting equation is recorded",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--financial-accounting-concepts-dr-cr-rules#14"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-drcr-ratios-and-gaap-q-fc56558c",
+          "type": "true_false",
+          "stem": "The closing slide says ratios and GAAP turn the numbers into reliable, comparable insight.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--financial-accounting-concepts-dr-cr-rules#14"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-drcr-ratios-and-gaap-q-98dd1453",
+          "type": "fill",
+          "stem": "Accrual accounting times revenue and expenses to when they ____.",
+          "options": [],
+          "answer": "occur",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--financial-accounting-concepts-dr-cr-rules#14"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "far--financial-accounting-concepts-dr-cr-rules#14",
+        "far--financial-accounting-concepts-dr-cr-rules#2"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "far-drcr-ratios-and-gaap-f1",
+      "front": "Current ratio",
+      "back": "Current Assets ÷ Current Liabilities. Liquidity: can we cover short-term bills?",
+      "kind": "formula",
+      "source_refs": [
+        "far--financial-accounting-concepts-dr-cr-rules#11"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-drcr-ratios-and-gaap-f2",
+      "front": "Gross margin",
+      "back": "Gross Profit ÷ Revenue. Profitability: how efficient is production?",
+      "kind": "formula",
+      "source_refs": [
+        "far--financial-accounting-concepts-dr-cr-rules#11"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-drcr-ratios-and-gaap-f3",
+      "front": "Net margin",
+      "back": "Net Income ÷ Revenue. Profitability: what share of sales is profit?",
+      "kind": "formula",
+      "source_refs": [
+        "far--financial-accounting-concepts-dr-cr-rules#11"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-drcr-ratios-and-gaap-f4",
+      "front": "Debt-to-equity",
+      "back": "Total Liabilities ÷ Total Equity. Leverage: how much financing is debt?",
+      "kind": "formula",
+      "source_refs": [
+        "far--financial-accounting-concepts-dr-cr-rules#11"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-drcr-ratios-and-gaap-f5",
+      "front": "Northstar's ratios in action",
+      "back": "Current ratio $12,000 ÷ $8,000 = 1.5; debt-to-equity $8,000 ÷ $16,000 = 0.5. Both signal a financially healthy bike shop.",
+      "kind": "example",
+      "source_refs": [
+        "far--financial-accounting-concepts-dr-cr-rules#11"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-drcr-ratios-and-gaap-f6",
+      "front": "Six core GAAP principles",
+      "back": "Revenue recognition, matching principle, consistency, conservatism, going concern, materiality.",
+      "kind": "list",
+      "source_refs": [
+        "far--financial-accounting-concepts-dr-cr-rules#12"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-drcr-ratios-and-gaap-f7",
+      "front": "Conservatism (GAAP)",
+      "back": "When in doubt, record losses early and gains only when they're realized.",
+      "kind": "term",
+      "source_refs": [
+        "far--financial-accounting-concepts-dr-cr-rules#12"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-drcr-ratios-and-gaap-f8",
+      "front": "Matching principle (GAAP)",
+      "back": "Match expenses to the revenue they helped generate, in the same period.",
+      "kind": "term",
+      "source_refs": [
+        "far--financial-accounting-concepts-dr-cr-rules#12"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [],
+  "explain_back": {
+    "prompt": "Explain the four key ratios with Northstar Bike Co.'s results, and describe the six core GAAP principles.",
+    "rubric": [
+      {
+        "point": "Current ratio = current assets ÷ current liabilities (liquidity); debt-to-equity = total liabilities ÷ total equity (leverage)",
+        "source_ref": "far--financial-accounting-concepts-dr-cr-rules#11"
+      },
+      {
+        "point": "Gross margin and net margin measure profitability, both divided by revenue",
+        "source_ref": "far--financial-accounting-concepts-dr-cr-rules#11"
+      },
+      {
+        "point": "Northstar: current ratio 1.5 and debt-to-equity 0.5 signal a financially healthy bike shop",
+        "source_ref": "far--financial-accounting-concepts-dr-cr-rules#11"
+      },
+      {
+        "point": "Revenue recognition (when earned), matching (expenses with their revenue, same period) and consistency (same methods period to period)",
+        "source_ref": "far--financial-accounting-concepts-dr-cr-rules#12"
+      },
+      {
+        "point": "Conservatism (losses early, gains when realized), going concern (business continues) and materiality (only items large enough to influence a decision)",
+        "source_ref": "far--financial-accounting-concepts-dr-cr-rules#12"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

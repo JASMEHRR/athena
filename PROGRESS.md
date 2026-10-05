@@ -43,7 +43,8 @@ Notes for the next round go under each ticked task.
 No exam dates, so round-robin across subjects. Validate, ground and cover each deck before ticking it.
 - [ ] P4 pass A: aib--aib-session3-4-introduction-to-ai (44 slides, 19 visual)
 - [ ] P4 pass A: be--session-1-and-2 (61 slides, 36 visual)
-- [ ] P4 pass A: far--financial-accounting-concepts-dr-cr-rules (14 slides, 11 visual)
+- [x] P4 pass A: far--financial-accounting-concepts-dr-cr-rules (14 slides, 11 visual)
+  - 4 topics (far-drcr-*), 9 examples; grounding 0, coverage 100%. Written by a subagent, reviewed.
 - [ ] P4 pass A: mm--session-1-mm (17 slides, 14 visual)
 - [ ] P4 pass A: oml--1-ob-introduction (23 slides, 16 visual)
 - [ ] P4 pass A: qtm--module-1 (42 slides, 19 visual)
@@ -93,58 +94,5 @@ No exam dates, so round-robin across subjects. Validate, ground and cover each d
 - [ ] P7.1 Frameworks, examples catalog, cross-subject links, PYQ pages, search.
 - [ ] P7.2 YouTube picks: one yt-dlp search per topic, 3 seconds apart, cached; 3 picks per topic labelled "Extra help, not exam source".
   - IN PROGRESS: athena/videos.py built and tested (fake searcher; one real yt-dlp search works). Still to do: run `python -m athena.videos` after P4 content exists, then tick.
-
-## NOTE FOR NEXT ROUND
-- Three content subagents (AIB s34, BE s12, FAR drcr) were stopped when the usage limit hit. Their drafts are in the old scratchpad and any topic files they wrote are UNCOMMITTED. Run git status: for each of those decks, run validate/grounding/coverage; keep and commit only decks that are clean with pass_a true, otherwise delete their partial topic files (content/topics/<subject>/<subject>-<short>-*.json) and redo the deck.
-- [x] P7.3 Classroom sync, tested with mocks.
-  - athena/sync_classroom.py: read-only scopes, ACTIVE courses, materials/coursework/announcements Drive files, PPT/PPTX/PDF + Slides exported to PPTX into inbox/<Course>/, skip by file id + modifiedTime (data/classroom_state.json), due dates into p_deadlines (shown on Plan). Fake-client tests in tests/test_sync_classroom.py. Setup steps in MORNING.md.
-- [x] P7.4 Review queue, REFRESH.md, refresh button, /api/v1/summary.
-  - 'Send for deep review' writes data/review_queue/<id>.json; refresh writes content/feedback/<id>.json, shown in Practice > My answers. Settings 'Prepare a Claude Code refresh' writes data/refresh_request.json and shows the command. REFRESH.md (tasks R1-R8, state in REFRESH_PROGRESS.md). /api/v1/summary for Ascend/Jarvis.
-
-## P8 Finish
-- [ ] P8.1 All tests green; grounding and coverage clean or explained; Playwright screenshots of every page at desktop and phone width, looked at and fixed.
-- [ ] P8.2 Final README.md and MORNING.md.
-
-## Deck status
-| Deck | Subject | Ingested | Pass A | Pass B | Verified |
-|---|---|---|---|---|---|
-| aib--sesssion-2-survival-for-the-fittest-adoption-of-ai | aib | yes | done | | |
-| aib--aib-session3-4-introduction-to-ai | aib | yes | | | |
-| aib--aib-session4-5-types-of-ai | aib | yes | | | |
-| aib--ai-for-business-chapters-2-3 | aib | yes | | | |
-| be--session-1-and-2 | be | yes | | | |
-| be--session-3 | be | yes | | | |
-| be--sessions-4-and-5 | be | yes | | | |
-| far--financial-accounting-concepts-dr-cr-rules | far | yes | | | |
-| far--session-discussion-31-july-2026 | far | yes | | | |
-| far--five-elements-fs-recognition | far | yes | | | |
-| far--session-14-case-2-1-case-3-1-maynard-a-b-full | far | yes | | | |
-| mm--session-1-mm | mm | yes | | | |
-| mm--session-2-mm | mm | yes | | | |
-| mm--session3-mm | mm | yes | | | |
-| oml--1-ob-introduction | oml | yes | | | |
-| oml--casestudypeople-express | oml | yes | | | |
-| oml--peoples-expressedpjul30 | oml | yes | | | |
-| qtm--module-1 | qtm | yes | | | |
-| qtm--module-2-1 | qtm | yes | | | |
-| qtm--module-3 | qtm | yes | | | |
-| qtm--module-4 | qtm | yes | | | |
-| qtm--module-5 | qtm | yes | | | |
-| qtm--module-6 | qtm | yes | | | |
-| sce--introduction-to-entrepreneurship-july-2025 | sce | yes | | | |
-| sce--introduction-to-social-entrepreneurship-2025 | sce | yes | | | |
-| sce--list-of-business-ideas | sce | yes | | | |
-| sce--step-startup-pitching-template-very-early-stage | sce | yes | | | |
-| sip1--sip-2026-27-organization-selection-presentation-po | sip1 | yes | | | |
-
-
-
-
-
-
-
-
-
-
 
 
