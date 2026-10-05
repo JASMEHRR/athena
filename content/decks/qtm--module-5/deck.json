@@ -1,0 +1,921 @@
+{
+  "id": "qtm--module-5",
+  "subject_id": "qtm",
+  "file": "E:\\college\\mba-hub\\QTM\\Module 5.pptx",
+  "source": "college",
+  "file_type": "pptx",
+  "sha256": "2ab600f5f718673026348607ad84b206a6308106a8d06c4a5ab7d37917ed55e6",
+  "title": "OP5302 Quantitative Techniques for Managers",
+  "order": 5,
+  "duplicates": [],
+  "ingested_at": "2026-10-05T12:40:46+05:30",
+  "slides": [
+    {
+      "n": 1,
+      "kind": "content",
+      "title": "OP5302 Quantitative Techniques for Managers",
+      "text": "OP5302 Quantitative Techniques for Managers\nDr. Mohammad Faisal Noor / Dr. Manjot Singh Bhatia\nModule 5",
+      "bullets": [
+        {
+          "level": 0,
+          "text": "Dr. Mohammad Faisal Noor / Dr. Manjot Singh Bhatia"
+        },
+        {
+          "level": 0,
+          "text": "Module 5"
+        }
+      ],
+      "tables": [],
+      "notes": "",
+      "charts": [],
+      "visual_text": "",
+      "images": [
+        "slides/qtm--module-5/img-e98aa8e95a21038e.png",
+        "slides/qtm--module-5/img-25e32c1bcbac9814.png"
+      ],
+      "render": "slides/qtm--module-5/slide-001.jpg",
+      "needs_visual": true,
+      "word_count": 15
+    },
+    {
+      "n": 2,
+      "kind": "content",
+      "title": "What is Hypothesis Testing?",
+      "text": "What is Hypothesis Testing?\nA formal method to decide if there is enough evidence to support a claim about a population parameter.\nInvolves two competing statements: the null hypothesis (H0) and the alternative hypothesis (H1 or Ha).\nBased on sample data, we decide whether to reject H0 or fail to reject H0.",
+      "bullets": [
+        {
+          "level": 0,
+          "text": "A formal method to decide if there is enough evidence to support a claim about a population parameter."
+        },
+        {
+          "level": 0,
+          "text": "Involves two competing statements: the null hypothesis (H0) and the alternative hypothesis (H1 or Ha)."
+        },
+        {
+          "level": 0,
+          "text": "Based on sample data, we decide whether to reject H0 or fail to reject H0."
+        }
+      ],
+      "tables": [],
+      "notes": "",
+      "charts": [],
+      "visual_text": "",
+      "images": [],
+      "render": "slides/qtm--module-5/slide-002.jpg",
+      "needs_visual": false,
+      "word_count": 52
+    },
+    {
+      "n": 3,
+      "kind": "content",
+      "title": "The Null and Alternative Hypotheses",
+      "text": "The Null and Alternative Hypotheses\nNull Hypothesis (H0): The default assumption; no effect or no difference. Often a statement of equality.\nAlternative Hypothesis (H1 or Ha): The outcome you seek to support; i.e. there is an effect or a difference. Can be two-sided or one-sided.",
+      "bullets": [
+        {
+          "level": 0,
+          "text": "Null Hypothesis (H0): The default assumption; no effect or no difference. Often a statement of equality."
+        },
+        {
+          "level": 0,
+          "text": "Alternative Hypothesis (H1 or Ha): The outcome you seek to support; i.e. there is an effect or a difference. Can be two-sided or one-sided."
+        }
+      ],
+      "tables": [],
+      "notes": "",
+      "charts": [],
+      "visual_text": "",
+      "images": [],
+      "render": "slides/qtm--module-5/slide-003.jpg",
+      "needs_visual": false,
+      "word_count": 45
+    },
+    {
+      "n": 4,
+      "kind": "content",
+      "title": "Example",
+      "text": "Example",
+      "bullets": [],
+      "tables": [],
+      "notes": "",
+      "charts": [],
+      "visual_text": "",
+      "images": [],
+      "render": "slides/qtm--module-5/slide-004.jpg",
+      "needs_visual": true,
+      "word_count": 1
+    },
+    {
+      "n": 5,
+      "kind": "content",
+      "title": "Example",
+      "text": "Example",
+      "bullets": [],
+      "tables": [],
+      "notes": "",
+      "charts": [],
+      "visual_text": "",
+      "images": [],
+      "render": "slides/qtm--module-5/slide-005.jpg",
+      "needs_visual": true,
+      "word_count": 1
+    },
+    {
+      "n": 6,
+      "kind": "content",
+      "title": "Problem",
+      "text": "Problem\nA leading manufacturer of trash bags produces the strongest trash bags on the market. The company has developed a new 30-gallon bag using a specially formulated plastic that is stronger and more biodegradable than other plastics. This plastic’s increased strength allows the bag’s thickness to be reduced, and the resulting cost savings will enable the company to lower its bag price by 25 percent. The company also believes the new bag is stronger than its current 30-gallon bag.\nThe manufacturer wants to advertise the new bag on a major television network. In addition to promoting its price reduction, the company also wants to claim the new bag is better for the environment and stronger than its current bag. The network is convinced of the bag’s environ mental advantages on scientific grounds. However, the network questions the company’s claim of increased strength and requires statistical evidence to justify this claim. Although there are various measures of bag strength, the manufacturer and the network agree to employ “breaking strength.” A bag’s breaking strength is the amount of a representative trash mix (in pounds) that, when loaded into a bag suspended in the air, will cause the bag to rip or tear. Tests show that the current bag has a mean breaking strength that is very close to (but does not exceed) 50 pounds. The new bag’s mean breaking strength m is unknown and in question",
+      "bullets": [
+        {
+          "level": 0,
+          "text": "A leading manufacturer of trash bags produces the strongest trash bags on the market. The company has developed a new 30-gallon bag using a specially formulated plastic that is stronger and more biodegradable than other plastics. This plastic’s increased strength allows the bag’s thickness to be reduced, and the resulting cost savings will enable the company to lower its bag price by 25 percent. The company also believes the new bag is stronger than its current 30-gallon bag."
+        },
+        {
+          "level": 0,
+          "text": "The manufacturer wants to advertise the new bag on a major television network. In addition to promoting its price reduction, the company also wants to claim the new bag is better for the environment and stronger than its current bag. The network is convinced of the bag’s environ mental advantages on scientific grounds. However, the network questions the company’s claim of increased strength and requires statistical evidence to justify this claim. Although there are various measures of bag strength, the manufacturer and the network agree to employ “breaking strength.” A bag’s breaking strength is the amount of a representative trash mix (in pounds) that, when loaded into a bag suspended in the air, will cause the bag to rip or tear. Tests show that the current bag has a mean breaking strength that is very close to (but does not exceed) 50 pounds. The new bag’s mean breaking strength m is unknown and in question"
+        }
+      ],
+      "tables": [],
+      "notes": "",
+      "charts": [],
+      "visual_text": "",
+      "images": [],
+      "render": "slides/qtm--module-5/slide-006.jpg",
+      "needs_visual": false,
+      "word_count": 240
+    },
+    {
+      "n": 7,
+      "kind": "content",
+      "title": "Solution",
+      "text": "Solution\nBecause the trash bag manufacturer wishes to show that µ is greater than 50 pounds, we make the statement that µ is greater than 50 pounds the alternative hypothesis, Ha, and we make the statement that µ is less than or equal to 50 pounds the null hypothesis, H0.\nTherefore, H0: µ ≤ 50 versus Ha: µ > 50",
+      "bullets": [
+        {
+          "level": 0,
+          "text": "Because the trash bag manufacturer wishes to show that µ is greater than 50 pounds, we make the statement that µ is greater than 50 pounds the alternative hypothesis, Ha, and we make the statement that µ is less than or equal to 50 pounds the null hypothesis, H0."
+        },
+        {
+          "level": 0,
+          "text": "Therefore, H0: µ ≤ 50 versus Ha: µ > 50"
+        }
+      ],
+      "tables": [],
+      "notes": "",
+      "charts": [],
+      "visual_text": "",
+      "images": [],
+      "render": "slides/qtm--module-5/slide-007.jpg",
+      "needs_visual": false,
+      "word_count": 53
+    },
+    {
+      "n": 8,
+      "kind": "content",
+      "title": "Problem",
+      "text": "Problem\nA management consulting firm has installed a new computer-based electronic billing system for a trucking company. Because of the system’s advantages, and because the trucking company’s clients are receptive to using this system, the management consulting firm believes that the new system will reduce the mean bill payment time by more than 50 percent. The mean payment time using the old billing system was approximately equal to, but no less than, 39 days.\nTherefore, H0: µ ≥ 19.5 versus Ha: µ < 19.5",
+      "bullets": [
+        {
+          "level": 0,
+          "text": "A management consulting firm has installed a new computer-based electronic billing system for a trucking company. Because of the system’s advantages, and because the trucking company’s clients are receptive to using this system, the management consulting firm believes that the new system will reduce the mean bill payment time by more than 50 percent. The mean payment time using the old billing system was approximately equal to, but no less than, 39 days."
+        },
+        {
+          "level": 0,
+          "text": "Therefore, H0: µ ≥ 19.5 versus Ha: µ < 19.5"
+        }
+      ],
+      "tables": [],
+      "notes": "",
+      "charts": [],
+      "visual_text": "",
+      "images": [],
+      "render": "slides/qtm--module-5/slide-008.jpg",
+      "needs_visual": false,
+      "word_count": 82
+    },
+    {
+      "n": 9,
+      "kind": "content",
+      "title": "Level of Significance, Confidence Interval and p-value",
+      "text": "Level of Significance, Confidence Interval and p-value\nSignificance Level (α) is the threshold probability for rejecting the null hypothesis, commonly set at 0.05. It represents the maximum risk of rejecting a true null hypothesis.\nConfidence interval (CI) gives a range of plausible values for a population parameter (like a mean or proportion). For a 95% confidence interval, it means that if we repeated the study many times, about 95% of the calculated intervals would contain the true parameter.\nThe confidence level is expressed as 1−α (e.g., 0.95 corresponds to α=0.05).\nThe p-value measures how likely it is to observe the data (or something more extreme) if the null hypothesis is true.\nA p-value less than or equal to α indicates that the observed data are unlikely under the null, so we reject the null hypothesis.",
+      "bullets": [
+        {
+          "level": 0,
+          "text": "Significance Level (α) is the threshold probability for rejecting the null hypothesis, commonly set at 0.05. It represents the maximum risk of rejecting a true null hypothesis."
+        },
+        {
+          "level": 0,
+          "text": "Confidence interval (CI) gives a range of plausible values for a population parameter (like a mean or proportion). For a 95% confidence interval, it means that if we repeated the study many times, about 95% of the calculated intervals would contain the true parameter."
+        },
+        {
+          "level": 1,
+          "text": "The confidence level is expressed as 1−α (e.g., 0.95 corresponds to α=0.05)."
+        },
+        {
+          "level": 0,
+          "text": "The p-value measures how likely it is to observe the data (or something more extreme) if the null hypothesis is true."
+        },
+        {
+          "level": 1,
+          "text": "A p-value less than or equal to α indicates that the observed data are unlikely under the null, so we reject the null hypothesis."
+        }
+      ],
+      "tables": [],
+      "notes": "",
+      "charts": [],
+      "visual_text": "",
+      "images": [],
+      "render": "slides/qtm--module-5/slide-009.jpg",
+      "needs_visual": false,
+      "word_count": 133
+    },
+    {
+      "n": 10,
+      "kind": "content",
+      "title": "Two-tailed and One-tailed Tests",
+      "text": "Two-tailed and One-tailed Tests\nA two-tailed test, or non-directional test, considers two possibilities: the average could be more than 60 mpg, or it could be less than 60. To test this hypothesis, the regions of rejection are divided into two tails of the distribution.\nH0: parameter = value; Ha: parameter ≠ value. Used when we care about any deviation from the value.\nA one-tailed test, or directional test, places the entire probability of an unlikely outcome into the tail specified by the alternative hypothesis.\nOne-Sided Test: Ha: parameter > value or Ha: parameter < value. Used when the direction of the effect matters.",
+      "bullets": [
+        {
+          "level": 0,
+          "text": "A two-tailed test, or non-directional test, considers two possibilities: the average could be more than 60 mpg, or it could be less than 60. To test this hypothesis, the regions of rejection are divided into two tails of the distribution."
+        },
+        {
+          "level": 1,
+          "text": "H0: parameter = value; Ha: parameter ≠ value. Used when we care about any deviation from the value."
+        },
+        {
+          "level": 0,
+          "text": "A one-tailed test, or directional test, places the entire probability of an unlikely outcome into the tail specified by the alternative hypothesis."
+        },
+        {
+          "level": 1,
+          "text": "One-Sided Test: Ha: parameter > value or Ha: parameter < value. Used when the direction of the effect matters."
+        }
+      ],
+      "tables": [],
+      "notes": "",
+      "charts": [],
+      "visual_text": "",
+      "images": [
+        "slides/qtm--module-5/img-5e4a7b8fb2e4df29.wmf"
+      ],
+      "render": "slides/qtm--module-5/slide-010.jpg",
+      "needs_visual": true,
+      "word_count": 99
+    },
+    {
+      "n": 11,
+      "kind": "content",
+      "title": "Rejection and Nonrejection Regions",
+      "text": "Rejection and Nonrejection Regions\nThe possible statistical outcomes of a study can be divided into two groups:\nThose that cause the rejection of the null hypothesis\nThose that do not cause the rejection of the null hypothesis\nQuestion: When is the sample mean so far away from the population mean that the null hypothesis is rejected?",
+      "bullets": [
+        {
+          "level": 0,
+          "text": "The possible statistical outcomes of a study can be divided into two groups:"
+        },
+        {
+          "level": 0,
+          "text": "Those that cause the rejection of the null hypothesis"
+        },
+        {
+          "level": 0,
+          "text": "Those that do not cause the rejection of the null hypothesis"
+        },
+        {
+          "level": 0,
+          "text": "Question: When is the sample mean so far away from the population mean that the null hypothesis is rejected?"
+        }
+      ],
+      "tables": [],
+      "notes": "",
+      "charts": [],
+      "visual_text": "",
+      "images": [
+        "slides/qtm--module-5/img-3ebd79dd4713ec22.png"
+      ],
+      "render": "slides/qtm--module-5/slide-011.jpg",
+      "needs_visual": true,
+      "word_count": 56
+    },
+    {
+      "n": 12,
+      "kind": "content",
+      "title": "Hypothesis testing",
+      "text": "Hypothesis testing\nSimilar to the legal system - which rejects the innocence of the accused only if evidence of guilt is beyond a reasonable doubt.\nIf the value of the test statistic is not large enough to convince us to reject H0, we do not say that we accept H0 - we say that we do not reject H0 because the evidence against H0 is not strong enough",
+      "bullets": [
+        {
+          "level": 0,
+          "text": "Similar to the legal system - which rejects the innocence of the accused only if evidence of guilt is beyond a reasonable doubt."
+        },
+        {
+          "level": 0,
+          "text": "If the value of the test statistic is not large enough to convince us to reject H0, we do not say that we accept H0 - we say that we do not reject H0 because the evidence against H0 is not strong enough"
+        }
+      ],
+      "tables": [],
+      "notes": "",
+      "charts": [],
+      "visual_text": "",
+      "images": [],
+      "render": "slides/qtm--module-5/slide-012.jpg",
+      "needs_visual": false,
+      "word_count": 66
+    },
+    {
+      "n": 13,
+      "kind": "content",
+      "title": "Type I and Type II errors",
+      "text": "Type I and Type II errors\nA Type I error is committed by rejecting a true null hypothesis. With a Type I error, the null hypothesis is true, but the business researcher decides that it is not\nThe probability of committing a Type I error is called alpha (α) or level of significance. Alpha equals the area under the curve that is in the rejection region beyond the critical value(s)\nThe value of alpha is always set before the experiment or study is undertaken",
+      "bullets": [
+        {
+          "level": 0,
+          "text": "A Type I error is committed by rejecting a true null hypothesis. With a Type I error, the null hypothesis is true, but the business researcher decides that it is not"
+        },
+        {
+          "level": 0,
+          "text": "The probability of committing a Type I error is called alpha (α) or level of significance. Alpha equals the area under the curve that is in the rejection region beyond the critical value(s)"
+        },
+        {
+          "level": 0,
+          "text": "The value of alpha is always set before the experiment or study is undertaken"
+        }
+      ],
+      "tables": [],
+      "notes": "",
+      "charts": [],
+      "visual_text": "",
+      "images": [],
+      "render": "slides/qtm--module-5/slide-013.jpg",
+      "needs_visual": false,
+      "word_count": 84
+    },
+    {
+      "n": 14,
+      "kind": "content",
+      "title": "Type I and Type II errors",
+      "text": "Type I and Type II errors\nA Type II error is committed when a business researcher fails to reject a false null hypothesis",
+      "bullets": [
+        {
+          "level": 0,
+          "text": "A Type II error is committed when a business researcher fails to reject a false null hypothesis"
+        }
+      ],
+      "tables": [],
+      "notes": "",
+      "charts": [],
+      "visual_text": "",
+      "images": [
+        "slides/qtm--module-5/img-3333af9e5a77082b.png"
+      ],
+      "render": "slides/qtm--module-5/slide-014.jpg",
+      "needs_visual": true,
+      "word_count": 23
+    },
+    {
+      "n": 15,
+      "kind": "content",
+      "title": "Hypothesis Testing - Steps",
+      "text": "Hypothesis Testing - Steps\nStep 1. Establish a null and alternative hypothesis.\nStep 2. Determine the appropriate statistical test.\nStep 3. Set the value of alpha, the Type I error rate.\nStep 4. Establish the decision rule.\nStep 5. Gather sample data.\nStep 6. Analyze the data.\nStep 7. Reach a statistical conclusion.\nStep 8. Make a business decision.",
+      "bullets": [
+        {
+          "level": 0,
+          "text": "Step 1. Establish a null and alternative hypothesis."
+        },
+        {
+          "level": 0,
+          "text": "Step 2. Determine the appropriate statistical test."
+        },
+        {
+          "level": 0,
+          "text": "Step 3. Set the value of alpha, the Type I error rate."
+        },
+        {
+          "level": 0,
+          "text": "Step 4. Establish the decision rule."
+        },
+        {
+          "level": 0,
+          "text": "Step 5. Gather sample data."
+        },
+        {
+          "level": 0,
+          "text": "Step 6. Analyze the data."
+        },
+        {
+          "level": 0,
+          "text": "Step 7. Reach a statistical conclusion."
+        },
+        {
+          "level": 0,
+          "text": "Step 8. Make a business decision."
+        }
+      ],
+      "tables": [],
+      "notes": "",
+      "charts": [],
+      "visual_text": "",
+      "images": [],
+      "render": "slides/qtm--module-5/slide-015.jpg",
+      "needs_visual": false,
+      "word_count": 58
+    },
+    {
+      "n": 16,
+      "kind": "content",
+      "title": "Problem",
+      "text": "Problem\nA survey of CPAs across the United States found that the average net income for sole proprietor CPAs is $74,914. Because this survey is now more than ten years old, an accounting researcher wants to test this figure by taking a random sample of 112 sole proprietor accountants in the United States to determine whether the net income figure changed.\nThe researcher could use the eight steps of hypothesis testing to do so. Assume the population standard deviation of net incomes for sole proprietor CPAs is $14,530",
+      "bullets": [
+        {
+          "level": 0,
+          "text": "A survey of CPAs across the United States found that the average net income for sole proprietor CPAs is $74,914. Because this survey is now more than ten years old, an accounting researcher wants to test this figure by taking a random sample of 112 sole proprietor accountants in the United States to determine whether the net income figure changed."
+        },
+        {
+          "level": 0,
+          "text": "The researcher could use the eight steps of hypothesis testing to do so. Assume the population standard deviation of net incomes for sole proprietor CPAs is $14,530"
+        }
+      ],
+      "tables": [],
+      "notes": "",
+      "charts": [],
+      "visual_text": "",
+      "images": [],
+      "render": "slides/qtm--module-5/slide-016.jpg",
+      "needs_visual": false,
+      "word_count": 88
+    },
+    {
+      "n": 17,
+      "kind": "content",
+      "title": "Hypothesis Testing - Steps",
+      "text": "Hypothesis Testing - Steps\nStep 1. Establish a null and alternative hypothesis.\nStep 2. Determine the appropriate statistical test.\nStep 3. Set the value of alpha, the Type I error rate.\nStep 4. Establish the decision rule.\nStep 5. Gather sample data.\nStep 6. Analyze the data.\nStep 7. Reach a statistical conclusion.\nStep 8. Make a business decision.",
+      "bullets": [
+        {
+          "level": 0,
+          "text": "Step 1. Establish a null and alternative hypothesis."
+        },
+        {
+          "level": 0,
+          "text": "Step 2. Determine the appropriate statistical test."
+        },
+        {
+          "level": 0,
+          "text": "Step 3. Set the value of alpha, the Type I error rate."
+        },
+        {
+          "level": 0,
+          "text": "Step 4. Establish the decision rule."
+        },
+        {
+          "level": 0,
+          "text": "Step 5. Gather sample data."
+        },
+        {
+          "level": 0,
+          "text": "Step 6. Analyze the data."
+        },
+        {
+          "level": 0,
+          "text": "Step 7. Reach a statistical conclusion."
+        },
+        {
+          "level": 0,
+          "text": "Step 8. Make a business decision."
+        }
+      ],
+      "tables": [],
+      "notes": "",
+      "charts": [],
+      "visual_text": "",
+      "images": [],
+      "render": "slides/qtm--module-5/slide-017.jpg",
+      "needs_visual": false,
+      "word_count": 58
+    },
+    {
+      "n": 18,
+      "kind": "content",
+      "title": "Hypothesize",
+      "text": "Hypothesize",
+      "bullets": [],
+      "tables": [],
+      "notes": "",
+      "charts": [],
+      "visual_text": "",
+      "images": [],
+      "render": "slides/qtm--module-5/slide-018.jpg",
+      "needs_visual": true,
+      "word_count": 1
+    },
+    {
+      "n": 19,
+      "kind": "content",
+      "title": "Test",
+      "text": "Test\nStep 2: Determine the appropriate statistical test and sampling distribution\nBecause the population standard deviation is known ($14,530) and the researcher is using the sample mean as the statistic, the z test the appropriate test statistic\nStep 3: specify the Type I error rate, or alpha, which is .05\nStep 4: To state the decision rule\nBecause the test is two tailed and alpha is .05, there is α/2 or .025 area in each of the tails of the distribution\nThus, the rejection region is in the two ends of the distribution with 2.5% of the area in each",
+      "bullets": [
+        {
+          "level": 0,
+          "text": "Step 2: Determine the appropriate statistical test and sampling distribution"
+        },
+        {
+          "level": 1,
+          "text": "Because the population standard deviation is known ($14,530) and the researcher is using the sample mean as the statistic, the z test the appropriate test statistic"
+        },
+        {
+          "level": 0,
+          "text": "Step 3: specify the Type I error rate, or alpha, which is .05"
+        },
+        {
+          "level": 0,
+          "text": "Step 4: To state the decision rule"
+        },
+        {
+          "level": 1,
+          "text": "Because the test is two tailed and alpha is .05, there is α/2 or .025 area in each of the tails of the distribution"
+        },
+        {
+          "level": 1,
+          "text": "Thus, the rejection region is in the two ends of the distribution with 2.5% of the area in each"
+        }
+      ],
+      "tables": [],
+      "notes": "",
+      "charts": [],
+      "visual_text": "",
+      "images": [],
+      "render": "slides/qtm--module-5/slide-019.jpg",
+      "needs_visual": false,
+      "word_count": 100
+    },
+    {
+      "n": 20,
+      "kind": "content",
+      "title": "Test",
+      "text": "Test",
+      "bullets": [],
+      "tables": [],
+      "notes": "",
+      "charts": [],
+      "visual_text": "",
+      "images": [
+        "slides/qtm--module-5/img-45edfed5f881e37d.png"
+      ],
+      "render": "slides/qtm--module-5/slide-020.jpg",
+      "needs_visual": true,
+      "word_count": 1
+    },
+    {
+      "n": 21,
+      "kind": "content",
+      "title": "Collect and test data",
+      "text": "Collect and test data",
+      "bullets": [],
+      "tables": [],
+      "notes": "",
+      "charts": [],
+      "visual_text": "",
+      "images": [],
+      "render": "slides/qtm--module-5/slide-021.jpg",
+      "needs_visual": true,
+      "word_count": 4
+    },
+    {
+      "n": 22,
+      "kind": "content",
+      "title": "ACTION",
+      "text": "ACTION\nStep 7: Reach a statistical conclusion.\nThe test statistic, z = 2.75, is greater than the critical value of z in the upper tail of the distribution, z = +1.96\nThe statistical conclusion of the hypothesis-testing process is to reject the null hypothesis\nThe calculated test statistic is often referred to as the observed value.\nStep 8: Make a business implication\nNational average may have increased.\nManagerially, this statistical finding may mean that CPAs will be more expensive to hire either as full-time employees or as consultants",
+      "bullets": [
+        {
+          "level": 0,
+          "text": "Step 7: Reach a statistical conclusion."
+        },
+        {
+          "level": 0,
+          "text": "The test statistic, z = 2.75, is greater than the critical value of z in the upper tail of the distribution, z = +1.96"
+        },
+        {
+          "level": 0,
+          "text": "The statistical conclusion of the hypothesis-testing process is to reject the null hypothesis"
+        },
+        {
+          "level": 0,
+          "text": "The calculated test statistic is often referred to as the observed value."
+        },
+        {
+          "level": 0,
+          "text": "Step 8: Make a business implication"
+        },
+        {
+          "level": 0,
+          "text": "National average may have increased."
+        },
+        {
+          "level": 0,
+          "text": "Managerially, this statistical finding may mean that CPAs will be more expensive to hire either as full-time employees or as consultants"
+        }
+      ],
+      "tables": [],
+      "notes": "",
+      "charts": [],
+      "visual_text": "",
+      "images": [],
+      "render": "slides/qtm--module-5/slide-022.jpg",
+      "needs_visual": false,
+      "word_count": 86
+    },
+    {
+      "n": 23,
+      "kind": "content",
+      "title": "Using the p-Value to Test Hypotheses",
+      "text": "Using the p-Value to Test Hypotheses\nAnother way to reach a statistical conclusion in hypothesis testing problems is by using the p-value, sometimes referred to as observed significance level\nNo preset value of is given in the p-value method.\nThe p-value defines the smallest value of alpha for which the null hypothesis can be rejected\nFor example, if the p-value of a test is .038,the null hypothesis cannot be rejected at α = .01 because .038 is the smallest value of alpha for which the null hypothesis can be rejected. However, the null hypothesis can be rejected for α = .05",
+      "bullets": [
+        {
+          "level": 0,
+          "text": "Another way to reach a statistical conclusion in hypothesis testing problems is by using the p-value, sometimes referred to as observed significance level"
+        },
+        {
+          "level": 0,
+          "text": "No preset value of is given in the p-value method."
+        },
+        {
+          "level": 0,
+          "text": "The p-value defines the smallest value of alpha for which the null hypothesis can be rejected"
+        },
+        {
+          "level": 0,
+          "text": "For example, if the p-value of a test is .038,the null hypothesis cannot be rejected at α = .01 because .038 is the smallest value of alpha for which the null hypothesis can be rejected. However, the null hypothesis can be rejected for α = .05"
+        }
+      ],
+      "tables": [],
+      "notes": "",
+      "charts": [],
+      "visual_text": "",
+      "images": [],
+      "render": "slides/qtm--module-5/slide-023.jpg",
+      "needs_visual": false,
+      "word_count": 97
+    },
+    {
+      "n": 24,
+      "kind": "content",
+      "title": "",
+      "text": "",
+      "bullets": [],
+      "tables": [],
+      "notes": "",
+      "charts": [],
+      "visual_text": "",
+      "images": [
+        "slides/qtm--module-5/img-2992cb0a352dd3bc.png"
+      ],
+      "render": "slides/qtm--module-5/slide-024.jpg",
+      "needs_visual": true,
+      "word_count": 0
+    },
+    {
+      "n": 25,
+      "kind": "content",
+      "title": "Using the Critical Value Method",
+      "text": "Using the Critical Value Method",
+      "bullets": [],
+      "tables": [],
+      "notes": "",
+      "charts": [],
+      "visual_text": "",
+      "images": [
+        "slides/qtm--module-5/img-78bdd2420b4ce818.png"
+      ],
+      "render": "slides/qtm--module-5/slide-025.jpg",
+      "needs_visual": true,
+      "word_count": 5
+    },
+    {
+      "n": 26,
+      "kind": "content",
+      "title": "ACTION",
+      "text": "ACTION\nStep 7: Reach a statistical conclusion.\nThe test statistic, z = 2.75, is greater than the critical value of z in the upper tail of the distribution, z = +1.96\nThe statistical conclusion of the hypothesis-testing process is to reject the null hypothesis\nThe calculated test statistic is often referred to as the observed value.\nStep 8: Make a business implication\nNational average may have increased.\nManagerially, this statistical finding may mean that CPAs will be more expensive to hire either as full-time employees or as consultants",
+      "bullets": [
+        {
+          "level": 0,
+          "text": "Step 7: Reach a statistical conclusion."
+        },
+        {
+          "level": 0,
+          "text": "The test statistic, z = 2.75, is greater than the critical value of z in the upper tail of the distribution, z = +1.96"
+        },
+        {
+          "level": 0,
+          "text": "The statistical conclusion of the hypothesis-testing process is to reject the null hypothesis"
+        },
+        {
+          "level": 0,
+          "text": "The calculated test statistic is often referred to as the observed value."
+        },
+        {
+          "level": 0,
+          "text": "Step 8: Make a business implication"
+        },
+        {
+          "level": 0,
+          "text": "National average may have increased."
+        },
+        {
+          "level": 0,
+          "text": "Managerially, this statistical finding may mean that CPAs will be more expensive to hire either as full-time employees or as consultants"
+        }
+      ],
+      "tables": [],
+      "notes": "",
+      "charts": [],
+      "visual_text": "",
+      "images": [],
+      "render": "slides/qtm--module-5/slide-026.jpg",
+      "needs_visual": false,
+      "word_count": 86
+    },
+    {
+      "n": 27,
+      "kind": "content",
+      "title": "Example",
+      "text": "Example\nA company claims new batteries last 500 hours (mean).\nSample (n=25) has mean 480 hours, known population SD = 50 hours.\nTest at α=0.05. Is there evidence that batteries last less than 500 hours?",
+      "bullets": [
+        {
+          "level": 0,
+          "text": "A company claims new batteries last 500 hours (mean)."
+        },
+        {
+          "level": 0,
+          "text": "Sample (n=25) has mean 480 hours, known population SD = 50 hours."
+        },
+        {
+          "level": 0,
+          "text": "Test at α=0.05. Is there evidence that batteries last less than 500 hours?"
+        }
+      ],
+      "tables": [],
+      "notes": "",
+      "charts": [],
+      "visual_text": "",
+      "images": [],
+      "render": "slides/qtm--module-5/slide-027.jpg",
+      "needs_visual": false,
+      "word_count": 35
+    },
+    {
+      "n": 28,
+      "kind": "content",
+      "title": "Solution",
+      "text": "Solution\nStep 1: Hypotheses\nH0: μ=500 hours\nH1:μ<500 hours\nStep 2: Calculate Test Statistic\nStep 3: p-value (left-tailed, z = -2.0): p ≈ 0.0228\nStep 4: Decision\np = 0.0228 < α=0.05; reject H0\nEvidence battery life is less than claimed.",
+      "bullets": [
+        {
+          "level": 0,
+          "text": "Step 1: Hypotheses"
+        },
+        {
+          "level": 1,
+          "text": "H0: μ=500 hours"
+        },
+        {
+          "level": 1,
+          "text": "H1:μ<500 hours"
+        },
+        {
+          "level": 0,
+          "text": "Step 2: Calculate Test Statistic"
+        },
+        {
+          "level": 0,
+          "text": "Step 3: p-value (left-tailed, z = -2.0): p ≈ 0.0228"
+        },
+        {
+          "level": 0,
+          "text": "Step 4: Decision"
+        },
+        {
+          "level": 1,
+          "text": "p = 0.0228 < α=0.05; reject H0"
+        },
+        {
+          "level": 2,
+          "text": "Evidence battery life is less than claimed."
+        }
+      ],
+      "tables": [],
+      "notes": "",
+      "charts": [],
+      "visual_text": "",
+      "images": [],
+      "render": "slides/qtm--module-5/slide-028.jpg",
+      "needs_visual": false,
+      "word_count": 38
+    },
+    {
+      "n": 29,
+      "kind": "content",
+      "title": "Example",
+      "text": "Example\nA machine fills bags with coffee, each supposed to weigh 1 kg. A random sample of 30 bags has a mean weight of 0.98 kg and a population standard deviation of 0.05 kg. We want to test at a 5% significance level whether the average bag weight differs from 1 kg.",
+      "bullets": [
+        {
+          "level": 0,
+          "text": "A machine fills bags with coffee, each supposed to weigh 1 kg. A random sample of 30 bags has a mean weight of 0.98 kg and a population standard deviation of 0.05 kg. We want to test at a 5% significance level whether the average bag weight differs from 1 kg."
+        }
+      ],
+      "tables": [],
+      "notes": "",
+      "charts": [],
+      "visual_text": "",
+      "images": [],
+      "render": "slides/qtm--module-5/slide-029.jpg",
+      "needs_visual": false,
+      "word_count": 52
+    },
+    {
+      "n": 30,
+      "kind": "content",
+      "title": "Solution",
+      "text": "Solution\nStep 1: Hypotheses\nNull hypothesis, H0: Mean weight = 1 kg\nAlternative hypothesis, H1: Mean weight ≠ 1 kg (two-tailed test)\nStep 2: Significance Level\nα=0.05, split into 0.025 in each tail.\nStep 3: Calculate Test Statistic\nDegrees of freedom: df=n−1=29\nStep 4: Critical Values: Using the t-distribution table or software for df = 29 at α/2=0.025: Critical t-values: ±2.364\nStep 5: Decision: Since t=−2.19>−2.364, the test statistic falls in the fail to rejection region. Fail to Reject H0. Reject H1. There is sufficient evidence to suggest that the mean bag weight DOES NOT differ from 1 kg.\nStep 6: Interpretation: The sample suggests the machine fill bags at exactly 1 kg on average, at 5% significance.",
+      "bullets": [
+        {
+          "level": 0,
+          "text": "Step 1: Hypotheses"
+        },
+        {
+          "level": 1,
+          "text": "Null hypothesis, H0: Mean weight = 1 kg"
+        },
+        {
+          "level": 1,
+          "text": "Alternative hypothesis, H1: Mean weight ≠ 1 kg (two-tailed test)"
+        },
+        {
+          "level": 0,
+          "text": "Step 2: Significance Level"
+        },
+        {
+          "level": 1,
+          "text": "α=0.05, split into 0.025 in each tail."
+        },
+        {
+          "level": 0,
+          "text": "Step 3: Calculate Test Statistic"
+        },
+        {
+          "level": 1,
+          "text": "Degrees of freedom: df=n−1=29"
+        },
+        {
+          "level": 0,
+          "text": "Step 4: Critical Values: Using the t-distribution table or software for df = 29 at α/2=0.025: Critical t-values: ±2.364"
+        },
+        {
+          "level": 0,
+          "text": "Step 5: Decision: Since t=−2.19>−2.364, the test statistic falls in the fail to rejection region. Fail to Reject H0. Reject H1. There is sufficient evidence to suggest that the mean bag weight DOES NOT differ from 1 kg."
+        },
+        {
+          "level": 0,
+          "text": "Step 6: Interpretation: The sample suggests the machine fill bags at exactly 1 kg on average, at 5% significance."
+        }
+      ],
+      "tables": [],
+      "notes": "",
+      "charts": [],
+      "visual_text": "",
+      "images": [],
+      "render": "slides/qtm--module-5/slide-030.jpg",
+      "needs_visual": false,
+      "word_count": 121
+    },
+    {
+      "n": 31,
+      "kind": "content",
+      "title": "Example",
+      "text": "Example",
+      "bullets": [],
+      "tables": [],
+      "notes": "",
+      "charts": [],
+      "visual_text": "",
+      "images": [
+        "slides/qtm--module-5/img-0c60e52006ab586b.wmf"
+      ],
+      "render": "slides/qtm--module-5/slide-031.jpg",
+      "needs_visual": true,
+      "word_count": 1
+    },
+    {
+      "n": 32,
+      "kind": "end",
+      "title": "THANK YOU!",
+      "text": "THANK YOU!",
+      "bullets": [],
+      "tables": [],
+      "notes": "",
+      "charts": [],
+      "visual_text": "",
+      "images": [
+        "slides/qtm--module-5/img-e98aa8e95a21038e.png",
+        "slides/qtm--module-5/img-43e553af76c8031c.png"
+      ],
+      "render": "slides/qtm--module-5/slide-032.jpg",
+      "needs_visual": false,
+      "word_count": 2
+    }
+  ]
+}

@@ -214,6 +214,9 @@ class Question(StrictModel):
     difficulty: int = Field(default=1, ge=1, le=3)
     style_tag: str = ""
     source_refs: list[str] = Field(min_length=1)
+    # Numbers this item computes from slide numbers (a worked answer). Grounding
+    # accepts them and lists them in reports/grounding.md for review.
+    derived: list[str] = Field(default_factory=list)
     needs_check: bool = False
     retired: bool = False
 
@@ -255,6 +258,7 @@ class Chunk(StrictModel):
     clarification: Clarification | None = None
     check_questions: list[Question] = Field(default_factory=list)
     source_refs: list[str] = Field(min_length=1)
+    derived: list[str] = Field(default_factory=list)
     needs_check: bool = False
     retired: bool = False
 
@@ -275,6 +279,7 @@ class Flashcard(StrictModel):
     back: str
     kind: Literal["term", "list", "example", "fact", "formula"] = "term"
     source_refs: list[str] = Field(min_length=1)
+    derived: list[str] = Field(default_factory=list)
     needs_check: bool = False
     retired: bool = False
 

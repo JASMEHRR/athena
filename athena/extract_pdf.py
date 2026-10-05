@@ -22,7 +22,11 @@ log = logging.getLogger(__name__)
 
 BIG_PICTURE_SHARE = 0.12
 DIAGRAM_DRAWINGS = 12
+DIAGRAM_MAX_WORDS = 80  # a page with more words than this is text, its lines are formatting
 INDENT_STEP = 14.0  # points between bullet levels
+# Pictures or drawings on at least this share of pages are template decoration.
+TEMPLATE_SHARE = 0.4
+TEMPLATE_MIN_PAGES = 4
 
 
 def _lines(page: "pymupdf.Page", exclude: list["pymupdf.Rect"]) -> list[dict]:
@@ -116,22 +120,53 @@ def _tables(page: "pymupdf.Page") -> tuple[list[list[list[str]]], list["pymupdf.
     return rows_out, rects
 
 
-def _pictures(doc: "pymupdf.Document", page: "pymupdf.Page", deck_dir: Path, seen: dict[str, str]) -> tuple[list[str], bool]:
+def _image_infos(page: "pymupdf.Page") -> list[dict]:
+    try:
+        return page.get_image_info(xrefs=True)
+    except Exception as exc:
+        log.debug("image info failed: %s", exc)
+        return []
+
+
+def _drawing_sig(d: dict) -> tuple:
+    r = d["rect"]
+    return (round(r.x0), round(r.y0), round(r.x1), round(r.y1))
+
+
+def _template_marks(doc: "pymupdf.Document") -> tuple[set[int], set[tuple]]:
+    """Image xrefs and drawing shapes repeated on most pages (backgrounds, logos, borders)."""
+    if doc.page_count < TEMPLATE_MIN_PAGES:
+        return set(), set()
+    xref_pages: dict[int, int] = {}
+    sig_pages: dict[tuple, int] = {}
+    for page in doc:
+        for xref in {i.get("xref") for i in _image_infos(page) if i.get("xref")}:
+            xref_pages[xref] = xref_pages.get(xref, 0) + 1
+        try:
+            sigs = {_drawing_sig(d) for d in page.get_drawings()}
+        except Exception:
+            sigs = set()
+        for sig in sigs:
+            sig_pages[sig] = sig_pages.get(sig, 0) + 1
+    cutoff = max(2, doc.page_count * TEMPLATE_SHARE)
+    return ({x for x, c in xref_pages.items() if c >= cutoff}, {s for s, c in sig_pages.items() if c >= cutoff})
+
+
+def _pictures(
+    doc: "pymupdf.Document", page: "pymupdf.Page", deck_dir: Path, seen: dict[str, str], template_xrefs: set[int]
+) -> tuple[list[str], bool]:
     page_area = max(page.rect.width * page.rect.height, 1)
     saved: list[str] = []
     heavy = False
-    try:
-        infos = page.get_image_info(xrefs=True)
-    except Exception as exc:
-        log.debug("image info failed: %s", exc)
-        return saved, heavy
-    for info in infos:
+    for info in _image_infos(page):
+        xref = info.get("xref") or 0
+        if xref in template_xrefs:
+            continue
         rect = pymupdf.Rect(info["bbox"]) & page.rect
         share = (rect.width * rect.height) / page_area if not rect.is_empty else 0
         if share < BIG_PICTURE_SHARE:
             continue
         heavy = True
-        xref = info.get("xref") or 0
         if not xref:
             continue
         try:
@@ -154,13 +189,19 @@ def _pictures(doc: "pymupdf.Document", page: "pymupdf.Page", deck_dir: Path, see
     return saved, heavy
 
 
-def _has_diagram(page: "pymupdf.Page") -> bool:
+def _has_diagram(page: "pymupdf.Page", template_sigs: set[tuple], words: int) -> bool:
+    """Many drawn shapes on a page with little text: a diagram, flowchart or chart."""
+    if words > DIAGRAM_MAX_WORDS:
+        return False
     try:
         drawings = page.get_drawings()
     except Exception:
         return False
     page_area = page.rect.width * page.rect.height
-    meaningful = [d for d in drawings if d["rect"].width * d["rect"].height < page_area * 0.5]
+    meaningful = [
+        d for d in drawings
+        if d["rect"].width * d["rect"].height < page_area * 0.5 and _drawing_sig(d) not in template_sigs
+    ]
     return len(meaningful) >= DIAGRAM_DRAWINGS
 
 
@@ -171,6 +212,7 @@ def extract_pdf(path: Path, deck_id: str, render: bool = True) -> tuple[list[Sli
     seen: dict[str, str] = {}
     with pymupdf.open(str(path)) as doc:
         total = doc.page_count
+        template_xrefs, template_sigs = _template_marks(doc)
         for index, page in enumerate(doc, start=1):
             tables, table_rects = _tables(page)
             paras = _paragraphs(_lines(page, table_rects))
@@ -179,7 +221,8 @@ def extract_pdf(path: Path, deck_id: str, render: bool = True) -> tuple[list[Sli
             body = [p for p in paras if p is not title_para]
             levels = _levels(body)
             bullets = [Bullet(level=levels[round(p["bbox"].x0 / INDENT_STEP)], text=p["text"]) for p in body]
-            images, heavy = _pictures(doc, page, deck_dir, seen)
+            images, heavy = _pictures(doc, page, deck_dir, seen, template_xrefs)
+            page_words = len(page.get_text().split())
             render_rel = None
             if render:
                 dest = deck_dir / f"slide-{index:03d}.jpg"
@@ -198,7 +241,7 @@ def extract_pdf(path: Path, deck_id: str, render: bool = True) -> tuple[list[Sli
                     images=images,
                     render=render_rel,
                     picture_heavy=heavy,
-                    diagram=_has_diagram(page),
+                    diagram=_has_diagram(page, template_sigs, page_words),
                 )
             )
         meta_title = (doc.metadata or {}).get("title", "") or ""

@@ -34,7 +34,11 @@ def _slide_key(slide: Slide) -> str:
 
 
 def _carry_over(old: Deck | None, new_slides: list[Slide]) -> int:
-    """Copy hand-written visual_text and kind from old slides with identical text."""
+    """Copy hand-written visual_text from old slides with identical text.
+
+    Only visual_text is carried: kind and needs_visual are re-derived, so
+    improvements to the extractor apply on a forced re-ingest.
+    """
     if old is None:
         return 0
     by_key: dict[str, Slide] = {}
@@ -43,13 +47,10 @@ def _carry_over(old: Deck | None, new_slides: list[Slide]) -> int:
     carried = 0
     for slide in new_slides:
         previous = by_key.get(_slide_key(slide))
-        if previous is None:
-            continue
-        if previous.visual_text and not slide.visual_text:
+        if previous is not None and previous.visual_text and not slide.visual_text:
             slide.visual_text = previous.visual_text
+            slide.needs_visual = True
             carried += 1
-        slide.kind = previous.kind
-        slide.needs_visual = previous.needs_visual
     return carried
 
 

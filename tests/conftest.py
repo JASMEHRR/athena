@@ -28,7 +28,10 @@ def env(tmp_path, monkeypatch):
     inbox = tmp_path / "inbox"
     for d in (content, data, reports, college, inbox):
         d.mkdir()
-    shutil.copy(REAL_CONTENT / "subjects.json", content / "subjects.json")
+    subjects = json.loads((REAL_CONTENT / "subjects.json").read_text(encoding="utf-8"))
+    for subject in subjects:
+        subject["deck_ids"] = []  # the test environment starts with no decks
+    (content / "subjects.json").write_text(json.dumps(subjects), encoding="utf-8")
     (content / "sources.json").write_text(json.dumps({"skip_dirs": [], "files": []}), encoding="utf-8")
     paths = {
         "CONTENT_DIR": content,
