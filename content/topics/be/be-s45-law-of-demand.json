@@ -1,0 +1,481 @@
+{
+  "id": "be-s45-law-of-demand",
+  "subject_id": "be",
+  "deck_id": "be--sessions-4-and-5",
+  "title": "The law of demand and the demand curve",
+  "order": 301,
+  "summary": "The Ola surge-fare puzzle, the law of demand, the downward sloping market demand curve, a change in quantity demanded, and the inverse demand function.",
+  "est_minutes": 20,
+  "difficulty": 1,
+  "source_refs": [
+    "be--sessions-4-and-5#3",
+    "be--sessions-4-and-5#4",
+    "be--sessions-4-and-5#5",
+    "be--sessions-4-and-5#6",
+    "be--sessions-4-and-5#7",
+    "be--sessions-4-and-5#8"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "be-s45-law-of-demand-c1",
+      "heading": "Why your Ola costs 3x when it rains",
+      "explanation_md": "The session opens with a puzzle you have probably lived through:\n\n- **9 PM, normal: ₹180**\n- **9 PM, raining: ₹540**\n\nSame trip, same time, but **3x** the price on a rainy Friday night. Why?\n\nThe next slide gives the mechanism: **Ola recalculates price in real time based on the ratio of ride requests to available drivers nearby.** Then it asks you: **what changed, demand or supply?** The slide leaves this as a question for class and gives no answer, so keep it in mind as you learn the tools below.\n\n**What these sessions cover (the overview):**\n1. **Market demand curve**: the demand function, determinants of demand, consumer surplus\n2. **Market supply curve**: the supply function, supply shifters, producer surplus\n3. **Market equilibrium**\n4. **Price restrictions**\n5. **Comparative statics**",
+      "example_ids": [
+        "be-ex-s45-ola-rain"
+      ],
+      "key_terms": [],
+      "exam_line": "Ola recalculates price in real time based on the ratio of ride requests to available drivers nearby: ₹180 at 9 PM normally, ₹540 when raining.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s45-law-of-demand-q-630565a7",
+          "type": "fill",
+          "stem": "Ola recalculates price in real time based on the ratio of ride ____ to available drivers nearby.",
+          "options": [],
+          "answer": "requests",
+          "accept": [
+            "request"
+          ],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--sessions-4-and-5#4"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s45-law-of-demand-q-70b4ae6b",
+          "type": "mcq",
+          "stem": "On the slide, a 9 PM Ola ride costs ₹180 normally. What does it cost at 9 PM when it is raining?",
+          "options": [
+            "₹540",
+            "₹360",
+            "₹180"
+          ],
+          "answer": "₹540",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--sessions-4-and-5#3"
+          ],
+          "derived": [
+            "360"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s45-law-of-demand-q-ce008cce",
+          "type": "mcq",
+          "stem": "Which of these is NOT one of the headings in the session overview?",
+          "options": [
+            "Demand elasticity",
+            "Price restrictions",
+            "Comparative statics",
+            "Market equilibrium"
+          ],
+          "answer": "Demand elasticity",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--sessions-4-and-5#5",
+            "be--sessions-4-and-5#44"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--sessions-4-and-5#3",
+        "be--sessions-4-and-5#4",
+        "be--sessions-4-and-5#5"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s45-law-of-demand-c2",
+      "heading": "The law of demand and the market demand curve",
+      "explanation_md": "**Law of Demand:** *other things being the same, the quantity demanded of a good falls when its price increases.*\n\nThe **market demand curve** puts this on a graph. It **shows the amount of a good that will be purchased at alternative prices, holding other factors constant.** Price goes on the vertical axis and quantity on the horizontal axis.\n\nBecause a higher price means a smaller quantity demanded, **the demand curve is downward sloping**: it falls from left to right.\n\nNotice the phrase that appears in both definitions: **other things being the same** (or **holding other factors constant**). The curve only shows what price does. Everything else that affects buying is held fixed.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Law of demand",
+          "meaning": "Other things being the same, the quantity demanded of a good falls when its price increases.",
+          "source_ref": "be--sessions-4-and-5#6"
+        },
+        {
+          "term": "Market demand curve",
+          "meaning": "Shows the amount of a good that will be purchased at alternative prices, holding other factors constant.",
+          "source_ref": "be--sessions-4-and-5#6"
+        }
+      ],
+      "exam_line": "Law of Demand: other things being the same, quantity demanded falls when price increases, so the market demand curve is downward sloping.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s45-law-of-demand-q-22a2721f",
+          "type": "fill",
+          "stem": "Law of Demand: other things being the same, the quantity demanded of a good ____ when its price increases.",
+          "options": [],
+          "answer": "falls",
+          "accept": [
+            "decreases",
+            "fall"
+          ],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--sessions-4-and-5#6"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s45-law-of-demand-q-3b3ead01",
+          "type": "mcq",
+          "stem": "How does the slide describe the slope of the demand curve?",
+          "options": [
+            "Downward sloping",
+            "Upward sloping",
+            "Horizontal"
+          ],
+          "answer": "Downward sloping",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--sessions-4-and-5#6",
+            "be--sessions-4-and-5#18"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s45-law-of-demand-q-6305e360",
+          "type": "true_false",
+          "stem": "The market demand curve shows the amount purchased at alternative prices while holding other factors constant.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--sessions-4-and-5#6"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--sessions-4-and-5#6"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s45-law-of-demand-c3",
+      "heading": "Change in quantity demanded: moving along one curve",
+      "explanation_md": "The slide draws one demand curve, **D0**, and two points on it:\n\n- **Point A:** price **10**, quantity **4**\n- **Point B:** price **6**, quantity **7**\n\nThe arrow runs down the curve from A to B. The label reads: **A to B: increase in quantity demanded.**\n\nSo when the **price of the good itself** falls, buyers slide **along the same demand curve** to a bigger quantity. The curve does not move; only the point on it changes. That is what the deck calls a **change in quantity demanded**.\n\nKeep this separate from a **change in demand**, where the whole curve moves. That comes in the next topic.",
+      "example_ids": [
+        "be-ex-s45-demand-a-to-b"
+      ],
+      "key_terms": [
+        {
+          "term": "Change in quantity demanded",
+          "meaning": "A move along the same demand curve when the good's own price changes; on the slide, A to B on D0 is an increase in quantity demanded.",
+          "source_ref": "be--sessions-4-and-5#7"
+        }
+      ],
+      "exam_line": "A change in the good's own price moves you along the demand curve: A (10, 4) to B (6, 7) on D0 is an increase in quantity demanded.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s45-law-of-demand-q-523a13f3",
+          "type": "mcq",
+          "stem": "On the slide's curve D0, price falls from 10 to 6. Quantity demanded rises from 4 to:",
+          "options": [
+            "7",
+            "13",
+            "10"
+          ],
+          "answer": "7",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--sessions-4-and-5#7",
+            "be--sessions-4-and-5#10"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s45-law-of-demand-q-f9c8ca30",
+          "type": "mcq",
+          "stem": "What does the slide call the move from A to B on D0?",
+          "options": [
+            "An increase in quantity demanded",
+            "An increase in demand",
+            "An increase in supply"
+          ],
+          "answer": "An increase in quantity demanded",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--sessions-4-and-5#7",
+            "be--sessions-4-and-5#10",
+            "be--sessions-4-and-5#22"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s45-law-of-demand-q-8016b696",
+          "type": "true_false",
+          "stem": "In the A to B example, the demand curve D0 shifts to the right.",
+          "options": [],
+          "answer": "False",
+          "accept": [],
+          "explanation": "A and B are both on the same curve D0; only the point on the curve changes.",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--sessions-4-and-5#7"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--sessions-4-and-5#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s45-law-of-demand-c4",
+      "heading": "The inverse demand function",
+      "explanation_md": "A demand function gives **quantity as a function of price**. The **inverse demand function** turns it around: it gives **price as a function of quantity demanded.**\n\nThe slide's example:\n\n- Demand function: **Qxd = 10 - 2Px**\n- Inverse demand function: **Px = 5 - 0.5Qxd**\n\nHow you get from one to the other is just rearranging to put Px on the left:\n\n1. Qxd = 10 - 2Px\n2. 2Px = 10 - Qxd\n3. Px = 5 - 0.5Qxd (divide everything by 2)\n\nWhy bother? Graphs put **price on the vertical axis**, so the inverse form is the line you actually draw.",
+      "example_ids": [
+        "be-ex-s45-inverse-demand"
+      ],
+      "key_terms": [
+        {
+          "term": "Inverse demand function",
+          "meaning": "Price as a function of quantity demanded, e.g. Px = 5 - 0.5Qxd.",
+          "source_ref": "be--sessions-4-and-5#8"
+        }
+      ],
+      "exam_line": "Inverse demand function: price as a function of quantity demanded. Qxd = 10 - 2Px gives Px = 5 - 0.5Qxd.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s45-law-of-demand-q-13da7924",
+          "type": "fill",
+          "stem": "The inverse demand function gives ____ as a function of quantity demanded.",
+          "options": [],
+          "answer": "price",
+          "accept": [
+            "Price",
+            "Px"
+          ],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--sessions-4-and-5#8"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s45-law-of-demand-q-b5c5e766",
+          "type": "mcq",
+          "stem": "What is the inverse of the demand function Qxd = 10 - 2Px?",
+          "options": [
+            "Px = 5 - 0.5Qxd",
+            "Px = 10 - 2Qxd",
+            "Px = 10 - 0.5Qxd"
+          ],
+          "answer": "Px = 5 - 0.5Qxd",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--sessions-4-and-5#8"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--sessions-4-and-5#8"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "be-s45-law-of-demand-f1",
+      "front": "Ola surge fare on the slide",
+      "back": "9 PM, normal: ₹180; 9 PM, raining: ₹540 (3x). Ola recalculates price in real time based on the ratio of ride requests to available drivers nearby.",
+      "kind": "example",
+      "source_refs": [
+        "be--sessions-4-and-5#3",
+        "be--sessions-4-and-5#4"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s45-law-of-demand-f2",
+      "front": "What the session covers",
+      "back": "Market demand curve (demand function, determinants, consumer surplus); market supply curve (supply function, supply shifters, producer surplus); market equilibrium; price restrictions; comparative statics.",
+      "kind": "list",
+      "source_refs": [
+        "be--sessions-4-and-5#5"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s45-law-of-demand-f3",
+      "front": "Law of demand",
+      "back": "Other things being the same, the quantity demanded of a good falls when its price increases.",
+      "kind": "term",
+      "source_refs": [
+        "be--sessions-4-and-5#6"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s45-law-of-demand-f4",
+      "front": "Market demand curve",
+      "back": "Shows the amount of a good that will be purchased at alternative prices, holding other factors constant. It is downward sloping.",
+      "kind": "term",
+      "source_refs": [
+        "be--sessions-4-and-5#6"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s45-law-of-demand-f5",
+      "front": "Change in quantity demanded (slide example)",
+      "back": "On D0, A (price 10, quantity 4) to B (price 6, quantity 7): an increase in quantity demanded, a move along the same curve.",
+      "kind": "example",
+      "source_refs": [
+        "be--sessions-4-and-5#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s45-law-of-demand-f6",
+      "front": "Inverse demand function",
+      "back": "Price as a function of quantity demanded. Qxd = 10 - 2Px becomes Px = 5 - 0.5Qxd.",
+      "kind": "formula",
+      "source_refs": [
+        "be--sessions-4-and-5#8"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [],
+  "explain_back": {
+    "prompt": "State the law of demand, describe the market demand curve, and explain what an increase in quantity demanded looks like, using the slide's A to B example. Then write the inverse of Qxd = 10 - 2Px.",
+    "rubric": [
+      {
+        "point": "Law of demand: other things being the same, quantity demanded falls when price increases",
+        "source_ref": "be--sessions-4-and-5#6"
+      },
+      {
+        "point": "Demand curve shows quantity purchased at alternative prices, holding other factors constant; it is downward sloping",
+        "source_ref": "be--sessions-4-and-5#6"
+      },
+      {
+        "point": "A (price 10, quantity 4) to B (price 6, quantity 7) on D0 is an increase in quantity demanded, a move along the curve",
+        "source_ref": "be--sessions-4-and-5#7"
+      },
+      {
+        "point": "Inverse demand is price as a function of quantity: Px = 5 - 0.5Qxd",
+        "source_ref": "be--sessions-4-and-5#8"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

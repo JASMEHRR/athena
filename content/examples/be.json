@@ -427,5 +427,356 @@
     ],
     "needs_check": false,
     "retired": false
+  },
+  {
+    "id": "be-ex-s45-ola-rain",
+    "deck_id": "be--sessions-4-and-5",
+    "slide": 3,
+    "label": "Ola fare on a rainy Friday night",
+    "text": "9 PM, normal: ₹180. 9 PM, raining: ₹540. Why does your Ola cost 3x on a rainy Friday night? Ola recalculates price in real time based on the ratio of ride requests to available drivers nearby. The deck asks: what changed, demand or supply?",
+    "kind": "case",
+    "taught_in": [
+      "be-s45-law-of-demand-c1"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "be-ex-s45-demand-a-to-b",
+    "deck_id": "be--sessions-4-and-5",
+    "slide": 7,
+    "label": "Change in quantity demanded: A to B",
+    "text": "On demand curve D0, point A is at a price of 10 and quantity 4; point B is at a price of 6 and quantity 7. A to B: increase in quantity demanded.",
+    "kind": "numeric",
+    "taught_in": [
+      "be-s45-law-of-demand-c3"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "be-ex-s45-inverse-demand",
+    "deck_id": "be--sessions-4-and-5",
+    "slide": 8,
+    "label": "Inverse demand example",
+    "text": "Demand function Qxd = 10 - 2Px; inverse demand function Px = 5 - 0.5Qxd.",
+    "kind": "numeric",
+    "taught_in": [
+      "be-s45-law-of-demand-c4"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "be-ex-s45-change-in-demand",
+    "deck_id": "be--sessions-4-and-5",
+    "slide": 10,
+    "label": "Change in demand: D0 to D1",
+    "text": "At a price of 6, quantity demanded is 7 on D0 and 13 on D1. D0 to D1: increase in demand.",
+    "kind": "numeric",
+    "taught_in": [
+      "be-s45-demand-function-c1"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "be-ex-s45-demand-question",
+    "deck_id": "be--sessions-4-and-5",
+    "slide": 12,
+    "label": "Demand for good X question",
+    "text": "Qxd = 140 - 5Px + 4Py - 6Pz + 0.01M with Py = ₹50, Pz = ₹40 and average income M = ₹30,000. Is Y a substitute or complement? Is Z? Is X normal or inferior? Find the inverse demand function, graph it, and find units purchased when Px = ₹40.",
+    "kind": "numeric",
+    "taught_in": [
+      "be-s45-demand-function-c4"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "be-ex-s45-great-lousy-deal",
+    "deck_id": "be--sessions-4-and-5",
+    "slide": 14,
+    "label": "A great deal and a lousy deal",
+    "text": "Great deal: That company offers a lot of bang for the buck! Dell provides good value. Total value greatly exceeds total amount paid, so consumer surplus is large. Lousy deal: That car dealer drives a hard bargain! I almost decided not to buy it! They tried to squeeze the very last cent from me! Total amount paid is close to total value, so consumer surplus is low.",
+    "kind": "illustration",
+    "taught_in": [
+      "be-s45-consumer-surplus-c1"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "be-ex-s45-cs-discrete",
+    "deck_id": "be--sessions-4-and-5",
+    "slide": 16,
+    "label": "Consumer surplus: the discrete case",
+    "text": "Demand line D from a price of 10 to a quantity of 5; price 2, four units bought. Consumer surplus = (8-2) + (6-2) + (4-2) = $12.",
+    "kind": "numeric",
+    "taught_in": [
+      "be-s45-consumer-surplus-c3"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "be-ex-s45-cs-continuous",
+    "deck_id": "be--sessions-4-and-5",
+    "slide": 17,
+    "label": "Consumer surplus: the continuous case",
+    "text": "Value of 4 units = $24. Expenditure on 4 units = $2 x 4 = $8. Consumer surplus = $24 - $8 = $16.",
+    "kind": "numeric",
+    "taught_in": [
+      "be-s45-consumer-surplus-c4"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "be-ex-s45-cs-question",
+    "deck_id": "be--sessions-4-and-5",
+    "slide": 49,
+    "label": "Consumer surplus practice question",
+    "text": "Inverse demand Px = 80 - 0.2Qd; inverse supply Px = 10 + 0.2Qs. Find consumer surplus at the market equilibrium (P = ₹45), at Px = ₹35 and at Px = ₹60, and say what happens to consumer surplus as the price falls.",
+    "kind": "numeric",
+    "taught_in": [
+      "be-s45-consumer-surplus-c5"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "be-ex-s45-supply-a-to-b",
+    "deck_id": "be--sessions-4-and-5",
+    "slide": 19,
+    "label": "Change in quantity supplied: A to B",
+    "text": "On supply curve S0, point A is at a price of 10 and quantity 5; point B is at a price of 20 and quantity 10. A to B: increase in quantity supplied.",
+    "kind": "numeric",
+    "taught_in": [
+      "be-s45-supply-function-c1"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "be-ex-s45-inverse-supply",
+    "deck_id": "be--sessions-4-and-5",
+    "slide": 20,
+    "label": "Inverse supply example",
+    "text": "Supply function Qxs = 10 + 2Px; the slide prints the inverse supply function as Px = 5 + 0.5Qxs.",
+    "kind": "numeric",
+    "taught_in": [
+      "be-s45-supply-function-c2"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "be-ex-s45-change-in-supply",
+    "deck_id": "be--sessions-4-and-5",
+    "slide": 22,
+    "label": "Change in supply: S0 to S1",
+    "text": "At a price of 8, quantity supplied is 5 on S0 and 7 on S1. At a quantity of 5, the price is 8 on S0 and 6 on S1. S0 to S1: increase in supply.",
+    "kind": "numeric",
+    "taught_in": [
+      "be-s45-supply-function-c3"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "be-ex-s45-supply-question",
+    "deck_id": "be--sessions-4-and-5",
+    "slide": 24,
+    "label": "Supply of product X question",
+    "text": "Qxs = 40 + 5Px - 3Pz, where Pz is the price of a key input. Find output when Px = ₹100 and Pz = ₹30, and when Px = ₹20 and Pz = ₹30. With Pz = ₹30, find the reduced supply function and the inverse supply function, and graph it.",
+    "kind": "numeric",
+    "taught_in": [
+      "be-s45-supply-function-c5"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "be-ex-s45-price-too-low",
+    "deck_id": "be--sessions-4-and-5",
+    "slide": 28,
+    "label": "If price is too low: shortage",
+    "text": "Demand D and supply S cross at a price of 7. At a price of 5, quantity supplied is 6 and quantity demanded is 12: Shortage 12 - 6 = 6. Arrows point up both curves toward the crossing point.",
+    "kind": "numeric",
+    "taught_in": [
+      "be-s45-equilibrium-c3"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "be-ex-s45-price-too-high",
+    "deck_id": "be--sessions-4-and-5",
+    "slide": 30,
+    "label": "If price is too high: surplus",
+    "text": "Demand D and supply S cross at a price of 7 and a quantity of 8. At a price of 9, quantity demanded is 6 and quantity supplied is 14: Surplus 14 - 6 = 8. Arrows point down both curves toward the crossing point.",
+    "kind": "numeric",
+    "taught_in": [
+      "be-s45-equilibrium-c4"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "be-ex-s45-equilibrium-question",
+    "deck_id": "be--sessions-4-and-5",
+    "slide": 31,
+    "label": "Equilibrium question for good X",
+    "text": "Qxd = 400 - 5Px and Qxs = -50 + 5Px. Find the equilibrium price and quantity and show the equilibrium graphically.",
+    "kind": "numeric",
+    "taught_in": [
+      "be-s45-equilibrium-c5"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "be-ex-s45-ps-question",
+    "deck_id": "be--sessions-4-and-5",
+    "slide": 50,
+    "label": "Producer surplus practice question",
+    "text": "Inverse demand Px = 80 - 0.2Qd; inverse supply Px = 10 + 0.2Qs. Find producer surplus at the market equilibrium (P = ₹45) and at Px = ₹50 (a price floor scenario), and say what happens to producer surplus as the price rises.",
+    "kind": "numeric",
+    "taught_in": [
+      "be-s45-equilibrium-c6"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "be-ex-s45-ceiling-examples",
+    "deck_id": "be--sessions-4-and-5",
+    "slide": 32,
+    "label": "Price ceiling examples",
+    "text": "National Pharmaceutical Pricing Authority (NPPA) fixing prices of stents and other price saving drugs; price caps on surge pricing for Uber / Ola.",
+    "kind": "illustration",
+    "taught_in": [
+      "be-s45-price-restrictions-c1"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "be-ex-s45-floor-examples",
+    "deck_id": "be--sessions-4-and-5",
+    "slide": 32,
+    "label": "Price floor examples",
+    "text": "Minimum wage; agricultural price supports.",
+    "kind": "illustration",
+    "taught_in": [
+      "be-s45-price-restrictions-c1"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "be-ex-s45-ceiling-question",
+    "deck_id": "be--sessions-4-and-5",
+    "slide": 36,
+    "label": "Price ceiling of ₹40 question",
+    "text": "Qxd = 400 - 5Px; Qxs = -50 + 5Px. With a price ceiling of ₹40, find Qxd, Qxs, the magnitude of the shortage, and the full economic price paid by consumers.",
+    "kind": "numeric",
+    "taught_in": [
+      "be-s45-price-restrictions-c5"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "be-ex-s45-floor-question",
+    "deck_id": "be--sessions-4-and-5",
+    "slide": 37,
+    "label": "Price floor of ₹50 question",
+    "text": "Qxd = 400 - 5Px; Qxs = -50 + 5Px. With a price floor of ₹50, find Qxd, Qxs, the magnitude of the surplus, and the cost to the government if it buys the surplus.",
+    "kind": "numeric",
+    "taught_in": [
+      "be-s45-price-restrictions-c6"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "be-ex-s45-rice-headlines",
+    "deck_id": "be--sessions-4-and-5",
+    "slide": 39,
+    "label": "Rice price and export headlines",
+    "text": "Two news headlines: India export rice prices edge up on demand; global rates rise amid Middle East tensions (Last Updated: Apr 09, 2026). India's rice exports to rise over 10% in FY26 on robust global demand; in the 2024-25 fiscal, India exported 20.1 million tonnes of rice valued at $12.95 billion, reaching more than 172 countries.",
+    "kind": "case",
+    "taught_in": [
+      "be-s45-comparative-statics-pc-c1"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "be-ex-s45-pc-components",
+    "deck_id": "be--sessions-4-and-5",
+    "slide": 40,
+    "label": "Fall in PC component prices",
+    "text": "The WSJ reports that the prices of PC components are expected to fall by 5-8 percent over the next six months. Scenario 1: you manage a small firm that manufactures PCs. Scenario 2: you manage a small software company.",
+    "kind": "case",
+    "taught_in": [
+      "be-s45-comparative-statics-pc-c2"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "be-ex-s45-pc-market-graph",
+    "deck_id": "be--sessions-4-and-5",
+    "slide": 43,
+    "label": "PC market after component prices fall",
+    "text": "Supply shifts right from S to S*; the equilibrium price of PCs falls from P0 to P* and the quantity rises from Q0 to Q*.",
+    "kind": "illustration",
+    "taught_in": [
+      "be-s45-comparative-statics-pc-c3"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "be-ex-s45-pc-action-plan",
+    "deck_id": "be--sessions-4-and-5",
+    "slide": 44,
+    "label": "Action plan for a small PC maker",
+    "text": "Inventories: sell down stock built with expensive components faster; time new production to align with cheaper components. Human resources: staff up production to capture higher volume? Marketing: lead with price cuts, or protect margin by bundling features/software? Quantitative estimates: how much to cut price (3%? 8%?) and how much more to order need demand elasticity, size of cost shift and competitor pass-through.",
+    "kind": "case",
+    "taught_in": [
+      "be-s45-comparative-statics-pc-c4"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "be-ex-s45-software-market-graph",
+    "deck_id": "be--sessions-4-and-5",
+    "slide": 46,
+    "label": "Software market after PC prices fall",
+    "text": "Demand for software shifts right from D to D*; supply S stays put. The price of software rises from P0 to P1 and the quantity rises from Q0 to Q1.",
+    "kind": "illustration",
+    "taught_in": [
+      "be-s45-software-market-c1"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "be-ex-s45-software-action-plan",
+    "deck_id": "be--sessions-4-and-5",
+    "slide": 47,
+    "label": "Action plan for a software maker",
+    "text": "Inventories: ramp up cloud infrastructure ahead of the expected demand surge. Human resources: staff up customer support and sales before the PC price drop fully plays out. Marketing: value-based messaging rather than discounting; time a launch to the PC upgrade cycle, since new PC buyers are a captive audience. Estimates: cross-price elasticity between PCs and software, and how much of the PC price drop reaches consumers versus PC makers' margins.",
+    "kind": "case",
+    "taught_in": [
+      "be-s45-software-market-c2"
+    ],
+    "needs_check": false,
+    "retired": false
   }
 ]

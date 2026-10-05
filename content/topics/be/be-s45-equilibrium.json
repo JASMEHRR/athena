@@ -1,0 +1,665 @@
+{
+  "id": "be-s45-equilibrium",
+  "subject_id": "be",
+  "deck_id": "be--sessions-4-and-5",
+  "title": "Producer surplus and market equilibrium",
+  "order": 305,
+  "summary": "Producer surplus, the market equilibrium where Qxs = Qxd, the shortage when price is too low and the surplus when price is too high, and the professor's equilibrium and producer surplus questions.",
+  "est_minutes": 30,
+  "difficulty": 2,
+  "source_refs": [
+    "be--sessions-4-and-5#25",
+    "be--sessions-4-and-5#13",
+    "be--sessions-4-and-5#17",
+    "be--sessions-4-and-5#26",
+    "be--sessions-4-and-5#27",
+    "be--sessions-4-and-5#28",
+    "be--sessions-4-and-5#29",
+    "be--sessions-4-and-5#30",
+    "be--sessions-4-and-5#31",
+    "be--sessions-4-and-5#49",
+    "be--sessions-4-and-5#50",
+    "be--sessions-4-and-5#37"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "be-s45-equilibrium-c1",
+      "heading": "Producer surplus",
+      "explanation_md": "Consumers get a surplus; so do sellers.\n\n**Producer surplus** is **the amount producers receive in excess of the amount necessary to induce them to produce the good.**\n\nOn the slide's graph, the price is **P*** and the quantity is **Q***. The supply curve is **S0**. The **green triangle between the price line P* and the supply curve, from zero out to Q*,** is the producer surplus.\n\nCompare with consumer surplus: consumer surplus sits **above** the price and **below** demand; producer surplus sits **below** the price and **above** supply.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Producer surplus",
+          "meaning": "The amount producers receive in excess of the amount necessary to induce them to produce the good.",
+          "source_ref": "be--sessions-4-and-5#25"
+        }
+      ],
+      "exam_line": "Producer surplus: the amount producers receive in excess of the amount necessary to induce them to produce; the area between the price P* and the supply curve, out to Q*.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s45-equilibrium-q-d1ab5b6b",
+          "type": "fill",
+          "stem": "Producer surplus is the amount producers receive in excess of the amount necessary to ____ them to produce the good.",
+          "options": [],
+          "answer": "induce",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--sessions-4-and-5#25"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s45-equilibrium-q-6c277b2f",
+          "type": "mcq",
+          "stem": "On the producer surplus graph, the shaded area lies:",
+          "options": [
+            "Between the price line P* and the supply curve, out to Q*",
+            "Between the demand curve and the price line",
+            "Under the price line from zero to Q*"
+          ],
+          "answer": "Between the price line P* and the supply curve, out to Q*",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--sessions-4-and-5#25",
+            "be--sessions-4-and-5#17"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s45-equilibrium-q-e7dde10e",
+          "type": "true_false",
+          "stem": "Producer surplus is the value consumers get from a good but do not have to pay for.",
+          "options": [],
+          "answer": "False",
+          "accept": [],
+          "explanation": "That is consumer surplus. Producer surplus is what producers receive above the amount needed to induce them to produce.",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--sessions-4-and-5#25",
+            "be--sessions-4-and-5#13"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--sessions-4-and-5#25",
+        "be--sessions-4-and-5#13",
+        "be--sessions-4-and-5#17"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s45-equilibrium-c2",
+      "heading": "Market equilibrium: the balancing price",
+      "explanation_md": "**Market equilibrium** is **the price (P) that balances supply and demand.** At that price:\n\n- **Qxs = Qxd** (quantity supplied equals quantity demanded)\n- **No shortage or surplus**\n\nThe slide also calls it a **steady-state**, and shows a balance scale with both pans level.\n\nOn a graph it is simply where the demand curve and the supply curve cross.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Market equilibrium",
+          "meaning": "The price that balances supply and demand: Qxs = Qxd, no shortage or surplus; a steady-state.",
+          "source_ref": "be--sessions-4-and-5#26"
+        }
+      ],
+      "exam_line": "Market equilibrium: the price that balances supply and demand, Qxs = Qxd, no shortage or surplus, steady-state.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s45-equilibrium-q-66d15336",
+          "type": "fill",
+          "stem": "At market equilibrium, Qxs = ____.",
+          "options": [],
+          "answer": "Qxd",
+          "accept": [
+            "quantity demanded"
+          ],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--sessions-4-and-5#26"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s45-equilibrium-q-41afa155",
+          "type": "mcq",
+          "stem": "Which is NOT part of the slide's description of market equilibrium?",
+          "options": [
+            "A shortage that keeps the price rising",
+            "No shortage or surplus",
+            "Steady-state",
+            "Qxs = Qxd"
+          ],
+          "answer": "A shortage that keeps the price rising",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--sessions-4-and-5#26",
+            "be--sessions-4-and-5#28"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--sessions-4-and-5#26"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s45-equilibrium-c3",
+      "heading": "If the price is too low: a shortage",
+      "explanation_md": "The deck asks: **what if price is below the equilibrium level?**\n\nThe graph: demand **D** and supply **S** cross at a price of **7**. Now set the price at **5**:\n\n- quantity **supplied** = **6**\n- quantity **demanded** = **12**\n\n**Shortage = 12 - 6 = 6.**\n\nAt a price of **6** the red gap is shorter, so the shortage is smaller. The arrows point **up** both curves toward the crossing point at 7.\n\nSo a price below equilibrium means buyers want more than sellers offer: a **shortage**, measured as quantity demanded minus quantity supplied.",
+      "example_ids": [
+        "be-ex-s45-price-too-low"
+      ],
+      "key_terms": [
+        {
+          "term": "Shortage",
+          "meaning": "When price is below equilibrium, quantity demanded exceeds quantity supplied; on the slide, 12 - 6 = 6 at a price of 5.",
+          "source_ref": "be--sessions-4-and-5#28"
+        }
+      ],
+      "exam_line": "Price below equilibrium gives a shortage = quantity demanded - quantity supplied: at price 5, 12 - 6 = 6.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s45-equilibrium-q-09b6ed60",
+          "type": "mcq",
+          "stem": "On the 'price too low' graph, at a price of 5, how big is the shortage?",
+          "options": [
+            "6",
+            "12",
+            "8"
+          ],
+          "answer": "6",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--sessions-4-and-5#28",
+            "be--sessions-4-and-5#30"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s45-equilibrium-q-04415fff",
+          "type": "true_false",
+          "stem": "When the price is below the equilibrium level, quantity demanded is greater than quantity supplied.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--sessions-4-and-5#27",
+            "be--sessions-4-and-5#28"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--sessions-4-and-5#27",
+        "be--sessions-4-and-5#28"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s45-equilibrium-c4",
+      "heading": "If the price is too high: a surplus",
+      "explanation_md": "Now the opposite: **what if price is above the equilibrium level?**\n\nThe graph: demand **D** and supply **S** cross at a price of **7** and a quantity of **8**. Set the price at **9**:\n\n- quantity **demanded** = **6**\n- quantity **supplied** = **14**\n\n**Surplus = 14 - 6 = 8.**\n\nAt a price of **8** the gap is smaller. The arrows point **down** both curves toward the crossing point.\n\nSo a price above equilibrium means sellers offer more than buyers want: a **surplus**, measured as quantity supplied minus quantity demanded.",
+      "example_ids": [
+        "be-ex-s45-price-too-high"
+      ],
+      "key_terms": [
+        {
+          "term": "Surplus (of goods)",
+          "meaning": "When price is above equilibrium, quantity supplied exceeds quantity demanded; on the slide, 14 - 6 = 8 at a price of 9.",
+          "source_ref": "be--sessions-4-and-5#30"
+        }
+      ],
+      "exam_line": "Price above equilibrium gives a surplus = quantity supplied - quantity demanded: at price 9, 14 - 6 = 8 (equilibrium at price 7, quantity 8).",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s45-equilibrium-q-855fb7b2",
+          "type": "mcq",
+          "stem": "On the 'price too high' graph, at a price of 9, how big is the surplus?",
+          "options": [
+            "8",
+            "6",
+            "14"
+          ],
+          "answer": "8",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--sessions-4-and-5#30"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s45-equilibrium-q-813b6fcb",
+          "type": "mcq",
+          "stem": "On the 'price too high' graph, what is the equilibrium quantity?",
+          "options": [
+            "8",
+            "6",
+            "14"
+          ],
+          "answer": "8",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--sessions-4-and-5#30"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s45-equilibrium-q-8cd222cb",
+          "type": "fill",
+          "stem": "When price is above equilibrium, quantity supplied exceeds quantity demanded and there is a ____.",
+          "options": [],
+          "answer": "surplus",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--sessions-4-and-5#29",
+            "be--sessions-4-and-5#30"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--sessions-4-and-5#29",
+        "be--sessions-4-and-5#30"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s45-equilibrium-c5",
+      "heading": "Practice: find the equilibrium for good X",
+      "explanation_md": "**The question:** demand **Qxd = 400 - 5Px**, supply **Qxs = -50 + 5Px**. Find the equilibrium price and quantity and show it on a graph.\n\nThe slide gives no answer, so here is the working with the equilibrium condition **Qxs = Qxd**.\n\n**Step 1: set them equal.**\n400 - 5Px = -50 + 5Px\n\n**Step 2: solve for Px.**\n450 = 10Px, so **Px = ₹45**\n\n**Step 3: find the quantity** (use either function).\nQxd = 400 - 5(45) = 400 - 225 = **175**\nQxs = -50 + 5(45) = -50 + 225 = **175**. Both match, so there is no shortage or surplus.\n\nThe later surplus questions confirm the market equilibrium price as **P = ₹45**.\n\n**Graph:** the demand line meets the price axis at 80; the supply line starts at a price of 10. They cross at a price of 45 and a quantity of 175.\n\nNotice this is the same market as the earlier demand and supply practice questions: Qxd = 400 - 5Px came out of the demand question and Qxs = -50 + 5Px out of the supply question.",
+      "example_ids": [
+        "be-ex-s45-equilibrium-question"
+      ],
+      "key_terms": [],
+      "exam_line": "Equilibrium: set Qxs = Qxd. 400 - 5Px = -50 + 5Px gives Px = ₹45 and Q = 175.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s45-equilibrium-q-f502f639",
+          "type": "fill",
+          "stem": "For Qxd = 400 - 5Px and Qxs = -50 + 5Px, the equilibrium price is ₹____.",
+          "options": [],
+          "answer": "45",
+          "accept": [
+            "₹45"
+          ],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--sessions-4-and-5#31",
+            "be--sessions-4-and-5#49"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s45-equilibrium-q-e757ca86",
+          "type": "mcq",
+          "stem": "For Qxd = 400 - 5Px and Qxs = -50 + 5Px, what is the equilibrium quantity?",
+          "options": [
+            "175",
+            "225",
+            "200"
+          ],
+          "answer": "175",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--sessions-4-and-5#31"
+          ],
+          "derived": [
+            "175",
+            "225",
+            "200"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s45-equilibrium-q-cc4dad5d",
+          "type": "true_false",
+          "stem": "To find the equilibrium, you set quantity supplied equal to quantity demanded.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--sessions-4-and-5#26",
+            "be--sessions-4-and-5#31"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--sessions-4-and-5#31",
+        "be--sessions-4-and-5#26",
+        "be--sessions-4-and-5#49"
+      ],
+      "derived": [
+        "450",
+        "225",
+        "175",
+        "80"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s45-equilibrium-c6",
+      "heading": "Practice: producer surplus when Px = 10 + 0.2Qs",
+      "explanation_md": "**The question:** inverse demand **Px = 80 - 0.2Qd**, inverse supply **Px = 10 + 0.2Qs**. Find producer surplus at the market equilibrium (**P = ₹45**) and at **Px = ₹50** (the price floor scenario). Then say what happens to producer surplus as the price rises.\n\nThe slide gives no answers, so here is the working. Producer surplus is the triangle between the price line and the supply curve (as on the producer surplus graph). The supply line starts at a price of 10.\n\n**At P = ₹45.** Quantity supplied: 45 = 10 + 0.2Qs, so Qs = 35 / 0.2 = **175**.\nTriangle: 175 units wide, 45 - 10 = 35 high.\n**Producer surplus = 0.5 x 175 x 35 = ₹3,062.5**\n\n**At Px = ₹50.** Qs = (50 - 10) / 0.2 = **200**.\nTriangle: 200 wide, 50 - 10 = 40 high.\n**Producer surplus = 0.5 x 200 x 40 = ₹4,000**\n\n**As the price rises** from ₹45 to ₹50, producer surplus grows from ₹3,062.5 to ₹4,000. **Producer surplus gets bigger as the price rises.**\n\n**One thing the slide does not settle:** at ₹50 consumers demand only (80 - 50) / 0.2 = 150 units. The working above assumes all 200 units are sold (as when the government buys the surplus in the price floor question). If producers could sell only 150 units, the area would be 150 x 50 = 7,500 minus the area under supply out to 150, (10 + 40)/2 x 150 = 3,750, giving ₹3,750. The slide does not say which to use, so check with your professor.",
+      "example_ids": [
+        "be-ex-s45-ps-question"
+      ],
+      "key_terms": [],
+      "exam_line": "Producer surplus = area between price and supply. With Px = 10 + 0.2Qs: at ₹45, Qs = 175 and producer surplus = 0.5 x 175 x 35 = ₹3,062.5; it rises as price rises.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s45-equilibrium-q-480f7f23",
+          "type": "mcq",
+          "stem": "With inverse supply Px = 10 + 0.2Qs, what is producer surplus at the equilibrium price of ₹45?",
+          "options": [
+            "₹3,062.5",
+            "₹4,000",
+            "₹7,875"
+          ],
+          "answer": "₹3,062.5",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--sessions-4-and-5#50"
+          ],
+          "derived": [
+            "3062.5",
+            "4000",
+            "7875"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s45-equilibrium-q-6ddec2c4",
+          "type": "fill",
+          "stem": "With Px = 10 + 0.2Qs, quantity supplied at Px = ₹50 is ____ units.",
+          "options": [],
+          "answer": "200",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--sessions-4-and-5#50"
+          ],
+          "derived": [
+            "200"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s45-equilibrium-q-42226e4b",
+          "type": "true_false",
+          "stem": "In the worked answers, producer surplus is larger at ₹50 than at ₹45.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "₹4,000 at ₹50 against ₹3,062.5 at ₹45: producer surplus rises as price rises.",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--sessions-4-and-5#50"
+          ],
+          "derived": [
+            "4000",
+            "3062.5"
+          ],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--sessions-4-and-5#50",
+        "be--sessions-4-and-5#25",
+        "be--sessions-4-and-5#37"
+      ],
+      "derived": [
+        "175",
+        "35",
+        "3062.5",
+        "200",
+        "40",
+        "4000",
+        "150",
+        "0.5",
+        "7500",
+        "3750"
+      ],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "be-s45-equilibrium-f1",
+      "front": "Producer surplus",
+      "back": "The amount producers receive in excess of the amount necessary to induce them to produce the good.",
+      "kind": "term",
+      "source_refs": [
+        "be--sessions-4-and-5#25"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s45-equilibrium-f2",
+      "front": "Producer surplus on a graph",
+      "back": "The area between the price line P* and the supply curve, from zero out to Q*.",
+      "kind": "fact",
+      "source_refs": [
+        "be--sessions-4-and-5#25"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s45-equilibrium-f3",
+      "front": "Market equilibrium",
+      "back": "The price that balances supply and demand: Qxs = Qxd, no shortage or surplus. Steady-state.",
+      "kind": "term",
+      "source_refs": [
+        "be--sessions-4-and-5#26"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s45-equilibrium-f4",
+      "front": "Price too low (slide example)",
+      "back": "Equilibrium at 7. At a price of 5: quantity supplied 6, quantity demanded 12, shortage 12 - 6 = 6.",
+      "kind": "example",
+      "source_refs": [
+        "be--sessions-4-and-5#28"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s45-equilibrium-f5",
+      "front": "Price too high (slide example)",
+      "back": "Equilibrium at price 7, quantity 8. At a price of 9: quantity demanded 6, quantity supplied 14, surplus 14 - 6 = 8.",
+      "kind": "example",
+      "source_refs": [
+        "be--sessions-4-and-5#30"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s45-equilibrium-f6",
+      "front": "How to find equilibrium from Qxd = 400 - 5Px and Qxs = -50 + 5Px",
+      "back": "Set Qxs = Qxd and solve for Px; the surplus questions give the equilibrium price as P = ₹45.",
+      "kind": "formula",
+      "source_refs": [
+        "be--sessions-4-and-5#31",
+        "be--sessions-4-and-5#26",
+        "be--sessions-4-and-5#49"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [],
+  "explain_back": {
+    "prompt": "Explain producer surplus and market equilibrium, and what happens when the price is below or above equilibrium, using the slide graphs and numbers.",
+    "rubric": [
+      {
+        "point": "Producer surplus: amount received above what is needed to induce production; area between P* and supply",
+        "source_ref": "be--sessions-4-and-5#25"
+      },
+      {
+        "point": "Equilibrium: the price that balances supply and demand, Qxs = Qxd, no shortage or surplus",
+        "source_ref": "be--sessions-4-and-5#26"
+      },
+      {
+        "point": "Price too low: shortage, e.g. at 5, 12 - 6 = 6",
+        "source_ref": "be--sessions-4-and-5#28"
+      },
+      {
+        "point": "Price too high: surplus, e.g. at 9, 14 - 6 = 8",
+        "source_ref": "be--sessions-4-and-5#30"
+      },
+      {
+        "point": "Solve Qxd = 400 - 5Px and Qxs = -50 + 5Px by setting them equal",
+        "source_ref": "be--sessions-4-and-5#31"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

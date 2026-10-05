@@ -1,0 +1,519 @@
+{
+  "id": "be-s45-demand-function",
+  "subject_id": "be",
+  "deck_id": "be--sessions-4-and-5",
+  "title": "Determinants of demand and the demand function",
+  "order": 302,
+  "summary": "A change in demand versus a change in quantity demanded, the determinants of demand, the demand function Qxd = f(Px, Py, M, H), and the professor's practice question.",
+  "est_minutes": 25,
+  "difficulty": 2,
+  "source_refs": [
+    "be--sessions-4-and-5#10",
+    "be--sessions-4-and-5#7",
+    "be--sessions-4-and-5#9",
+    "be--sessions-4-and-5#6",
+    "be--sessions-4-and-5#11",
+    "be--sessions-4-and-5#12",
+    "be--sessions-4-and-5#8",
+    "be--sessions-4-and-5#49"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "be-s45-demand-function-c1",
+      "heading": "Change in demand: the whole curve moves",
+      "explanation_md": "Compare two graphs from the deck:\n\n- **Change in quantity demanded:** one curve, D0. The price falls from 10 to 6 and buyers move **along** D0 from A (quantity 4) to B (quantity 7).\n- **Change in demand:** two curves. The whole curve moves from **D0 to D1**. At the **same price of 6**, quantity demanded is **7 on D0** but **13 on D1**. The label reads: **D0 to D1: Increase in Demand.**\n\nSo the test is simple: did the good's own price change and you slid along the curve? That is a change in **quantity demanded**. Did buyers want more **at the same price**, so the whole curve moved? That is a change in **demand**.",
+      "example_ids": [
+        "be-ex-s45-change-in-demand"
+      ],
+      "key_terms": [
+        {
+          "term": "Change in demand",
+          "meaning": "The whole demand curve moves; on the slide, D0 to D1 is an increase in demand (at a price of 6, quantity goes from 7 to 13).",
+          "source_ref": "be--sessions-4-and-5#10"
+        }
+      ],
+      "exam_line": "Increase in quantity demanded: a move along D0 (A to B). Increase in demand: the curve shifts from D0 to D1 (at price 6, quantity 7 becomes 13).",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s45-demand-function-q-2d62c713",
+          "type": "mcq",
+          "stem": "On the Change in Demand graph, quantity demanded at a price of 6 is 7 on D0. What is it on D1?",
+          "options": [
+            "13",
+            "7",
+            "4"
+          ],
+          "answer": "13",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--sessions-4-and-5#10",
+            "be--sessions-4-and-5#7"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s45-demand-function-q-05ab7cff",
+          "type": "mcq",
+          "stem": "Which move does the deck call an increase in demand?",
+          "options": [
+            "D0 to D1 (the whole curve moves)",
+            "A to B along D0",
+            "S0 to S1"
+          ],
+          "answer": "D0 to D1 (the whole curve moves)",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--sessions-4-and-5#10",
+            "be--sessions-4-and-5#7",
+            "be--sessions-4-and-5#22"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s45-demand-function-q-47161c5c",
+          "type": "true_false",
+          "stem": "The deck calls the move from A to B along D0, when price falls from 10 to 6, an increase in demand.",
+          "options": [],
+          "answer": "False",
+          "accept": [],
+          "explanation": "A to B along D0 is an increase in quantity demanded. An increase in demand is the shift from D0 to D1.",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--sessions-4-and-5#7",
+            "be--sessions-4-and-5#10"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--sessions-4-and-5#10",
+        "be--sessions-4-and-5#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s45-demand-function-c2",
+      "heading": "Determinants of demand",
+      "explanation_md": "The law of demand holds **other things the same**. The slide on **Determinants of Demand** names those other things:\n\n1. **Income**: normal good, inferior good\n2. **Prices of related goods**: prices of substitutes, prices of complements\n3. **Advertising and consumer tastes**\n4. **Population**\n5. **Consumer expectations**\n\nThe deck lists these right before the **Change in Demand** graph. Later, comparative statics asks what happens to the market when one of these determinants changes.\n\nThe slide names **normal** and **inferior** goods but does not define them; see the note below.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "Determinants of demand: income (normal, inferior goods), prices of related goods (substitutes, complements), advertising and consumer tastes, population, consumer expectations.",
+      "clarification": {
+        "term": "Normal good and inferior good",
+        "text": "A normal good is one people buy more of when their income rises. An inferior good is one people buy less of when their income rises."
+      },
+      "check_questions": [
+        {
+          "id": "be-s45-demand-function-q-23693de9",
+          "type": "mcq",
+          "stem": "Which of these is NOT on the slide's list of determinants of demand?",
+          "options": [
+            "Input prices",
+            "Population",
+            "Consumer expectations",
+            "Advertising and consumer tastes"
+          ],
+          "answer": "Input prices",
+          "accept": [],
+          "explanation": "Input prices are a determinant of supply.",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--sessions-4-and-5#9",
+            "be--sessions-4-and-5#21"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s45-demand-function-q-9764a83e",
+          "type": "fill",
+          "stem": "Under income, the slide lists the normal good and the ____ good.",
+          "options": [],
+          "answer": "inferior",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--sessions-4-and-5#9"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s45-demand-function-q-72f75ce3",
+          "type": "mcq",
+          "stem": "Under 'Prices of Related Goods', the slide lists:",
+          "options": [
+            "Prices of substitutes and prices of complements",
+            "Normal good and inferior good",
+            "Excise tax and ad valorem tax"
+          ],
+          "answer": "Prices of substitutes and prices of complements",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--sessions-4-and-5#9",
+            "be--sessions-4-and-5#21"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--sessions-4-and-5#9",
+        "be--sessions-4-and-5#6"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s45-demand-function-c3",
+      "heading": "The demand function: Qxd = f(Px, Py, M, H)",
+      "explanation_md": "The **demand function** is **a general equation representing the demand curve**:\n\n**Qxd = f(Px, Py, M, H)**\n\nRead each symbol:\n\n- **Qxd** = quantity demand of good X\n- **Px** = price of good X\n- **Py** = price of a **related good Y**, which can be a **substitute good** or a **complement good**\n- **M** = **income**, where X can be a **normal good** or an **inferior good**\n- **H** = **any other variable affecting demand**\n\nNotice how it packs the determinants list into one line: own price (Px), related goods (Py), income (M), and everything else (H).",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Demand function",
+          "meaning": "A general equation representing the demand curve: Qxd = f(Px, Py, M, H).",
+          "source_ref": "be--sessions-4-and-5#11"
+        }
+      ],
+      "exam_line": "Qxd = f(Px, Py, M, H): Px = own price, Py = price of related good (substitute or complement), M = income (normal or inferior good), H = any other variable.",
+      "clarification": {
+        "term": "Substitute and complement goods",
+        "text": "A substitute is a good used in place of another, so a higher price of one tends to push buyers toward the other. A complement is a good used together with another, so a higher price of one tends to cut demand for the other."
+      },
+      "check_questions": [
+        {
+          "id": "be-s45-demand-function-q-2d874711",
+          "type": "mcq",
+          "stem": "In Qxd = f(Px, Py, M, H), what does M stand for?",
+          "options": [
+            "Income",
+            "Price of a related good Y",
+            "Any other variable affecting demand"
+          ],
+          "answer": "Income",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--sessions-4-and-5#11"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s45-demand-function-q-78cb2ce6",
+          "type": "mcq",
+          "stem": "In the demand function, H stands for:",
+          "options": [
+            "Any other variable affecting demand",
+            "Price of good X",
+            "Price of a related good Y"
+          ],
+          "answer": "Any other variable affecting demand",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--sessions-4-and-5#11"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s45-demand-function-q-eefce872",
+          "type": "fill",
+          "stem": "Py is the price of a ____ good Y, which can be a substitute or a complement.",
+          "options": [],
+          "answer": "related",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--sessions-4-and-5#11"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--sessions-4-and-5#11"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s45-demand-function-c4",
+      "heading": "Practice question: the demand for good X",
+      "explanation_md": "**The question:** the demand for good X is **Qxd = 140 - 5Px + 4Py - 6Pz + 0.01M**. Research shows **Py = ₹50**, **Pz = ₹40** and average income **M = ₹30,000**.\n\nThe slide gives no answers, so here is the working with the deck's own tools.\n\n**Step 1: plug in Py, Pz and M.**\n\nQxd = 140 - 5Px + 4(50) - 6(40) + 0.01(30,000)\n= 140 - 5Px + 200 - 240 + 300\n= **400 - 5Px**\n\n**Step 2: the inverse demand function** (price as a function of quantity, as on the inverse demand slide).\n\n5Px = 400 - Qxd, so **Px = 80 - 0.2Qxd**. This is the same inverse demand that appears in the later consumer surplus question. To graph it, the line meets the price axis at 80 and the quantity axis at 400 (the slide says do it at home).\n\n**Step 3: units bought when Px = ₹40.**\n\nQxd = 400 - 5(40) = 400 - 200 = **200 units**.\n\n**Substitute or complement? Normal or inferior?** Read the signs in the equation: **+4Py** means a higher Py raises the quantity of X demanded; **-6Pz** means a higher Pz lowers it; **+0.01M** means higher income raises it. The deck does not state a rule that turns these signs into substitute, complement, normal or inferior, and the slide gives no answer. Use the notes on those terms in this topic and confirm the answers with your professor.",
+      "example_ids": [
+        "be-ex-s45-demand-question"
+      ],
+      "key_terms": [],
+      "exam_line": "Plug in the given values first: Qxd = 140 - 5Px + 4(50) - 6(40) + 0.01(30,000) = 400 - 5Px, so Px = 80 - 0.2Qxd, and at Px = ₹40, Qxd = 200.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s45-demand-function-q-b406f065",
+          "type": "mcq",
+          "stem": "After plugging Py = ₹50, Pz = ₹40 and M = ₹30,000 into Qxd = 140 - 5Px + 4Py - 6Pz + 0.01M, the demand function becomes:",
+          "options": [
+            "Qxd = 400 - 5Px",
+            "Qxd = 140 - 5Px",
+            "Qxd = 300 - 5Px"
+          ],
+          "answer": "Qxd = 400 - 5Px",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--sessions-4-and-5#12"
+          ],
+          "derived": [
+            "400",
+            "300"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s45-demand-function-q-e3a29cb7",
+          "type": "fill",
+          "stem": "With Qxd = 400 - 5Px, how many units of X are purchased when Px = ₹40? ____",
+          "options": [],
+          "answer": "200",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--sessions-4-and-5#12"
+          ],
+          "derived": [
+            "400",
+            "200"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s45-demand-function-q-5359a463",
+          "type": "mcq",
+          "stem": "What is the inverse demand function for Qxd = 400 - 5Px?",
+          "options": [
+            "Px = 80 - 0.2Qxd",
+            "Px = 400 - 5Qxd",
+            "Px = 80 - 5Qxd"
+          ],
+          "answer": "Px = 80 - 0.2Qxd",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--sessions-4-and-5#12",
+            "be--sessions-4-and-5#8",
+            "be--sessions-4-and-5#49"
+          ],
+          "derived": [
+            "400",
+            "80",
+            "0.2"
+          ],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--sessions-4-and-5#12",
+        "be--sessions-4-and-5#11",
+        "be--sessions-4-and-5#8",
+        "be--sessions-4-and-5#49"
+      ],
+      "derived": [
+        "200",
+        "240",
+        "300",
+        "400",
+        "80",
+        "0.2"
+      ],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "be-s45-demand-function-f1",
+      "front": "Change in quantity demanded vs change in demand",
+      "back": "Quantity demanded: a move along one curve when the good's own price changes (A to B on D0). Demand: the whole curve moves (D0 to D1).",
+      "kind": "fact",
+      "source_refs": [
+        "be--sessions-4-and-5#7",
+        "be--sessions-4-and-5#10"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s45-demand-function-f2",
+      "front": "Change in demand (slide example)",
+      "back": "D0 to D1: at the same price of 6, quantity demanded rises from 7 to 13. An increase in demand.",
+      "kind": "example",
+      "source_refs": [
+        "be--sessions-4-and-5#10"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s45-demand-function-f3",
+      "front": "Determinants of demand",
+      "back": "Income (normal, inferior good); prices of related goods (substitutes, complements); advertising and consumer tastes; population; consumer expectations.",
+      "kind": "list",
+      "source_refs": [
+        "be--sessions-4-and-5#9"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s45-demand-function-f4",
+      "front": "The demand function",
+      "back": "Qxd = f(Px, Py, M, H): Px = price of X; Py = price of a related good Y; M = income; H = any other variable affecting demand.",
+      "kind": "formula",
+      "source_refs": [
+        "be--sessions-4-and-5#11"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s45-demand-function-f5",
+      "front": "Py and M in the demand function: which kinds of goods does the slide list?",
+      "back": "Py: substitute good, complement good. M: normal good, inferior good.",
+      "kind": "list",
+      "source_refs": [
+        "be--sessions-4-and-5#11"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s45-demand-function-f6",
+      "front": "Slide question: what does Qxd = 140 - 5Px + 4Py - 6Pz + 0.01M become with Py = ₹50, Pz = ₹40, M = ₹30,000?",
+      "back": "Qxd = 400 - 5Px, the same demand function used in the equilibrium question. Inverse: Px = 80 - 0.2Qd.",
+      "kind": "example",
+      "source_refs": [
+        "be--sessions-4-and-5#12",
+        "be--sessions-4-and-5#31",
+        "be--sessions-4-and-5#49"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [],
+  "explain_back": {
+    "prompt": "Explain the difference between a change in quantity demanded and a change in demand using the slide graphs, list the determinants of demand, and write the demand function with what each symbol means.",
+    "rubric": [
+      {
+        "point": "Change in quantity demanded: move along D0 from A to B when price falls",
+        "source_ref": "be--sessions-4-and-5#7"
+      },
+      {
+        "point": "Change in demand: the whole curve shifts D0 to D1; at price 6, quantity goes from 7 to 13",
+        "source_ref": "be--sessions-4-and-5#10"
+      },
+      {
+        "point": "Determinants: income, prices of related goods, advertising and tastes, population, consumer expectations",
+        "source_ref": "be--sessions-4-and-5#9"
+      },
+      {
+        "point": "Qxd = f(Px, Py, M, H) with Py a related good (substitute or complement), M income (normal or inferior), H any other variable",
+        "source_ref": "be--sessions-4-and-5#11"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

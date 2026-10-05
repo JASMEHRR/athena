@@ -1,0 +1,560 @@
+{
+  "id": "be-s45-consumer-surplus",
+  "subject_id": "be",
+  "deck_id": "be--sessions-4-and-5",
+  "title": "Consumer surplus",
+  "order": 303,
+  "summary": "What consumer surplus is, why marketers try to capture it, how to measure it in the discrete and continuous cases, and the professor's practice question.",
+  "est_minutes": 25,
+  "difficulty": 2,
+  "source_refs": [
+    "be--sessions-4-and-5#13",
+    "be--sessions-4-and-5#14",
+    "be--sessions-4-and-5#15",
+    "be--sessions-4-and-5#16",
+    "be--sessions-4-and-5#17",
+    "be--sessions-4-and-5#49",
+    "be--sessions-4-and-5#28"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "be-s45-consumer-surplus-c1",
+      "heading": "Consumer surplus: value you get but do not pay for",
+      "explanation_md": "**Consumer surplus** is **the value consumers get from a good but do not have to pay for.**\n\nThe deck makes it feel real with two cartoon buyers:\n\n**\"I got a great deal!\"**\n- That company offers a lot of bang for the buck!\n- Dell provides good value.\n- **Total value greatly exceeds total amount paid.**\n- So **consumer surplus is large.**\n\n**\"I got a lousy deal!\"**\n- That car dealer drives a hard bargain!\n- I almost decided not to buy it!\n- They tried to squeeze the very last cent from me!\n- **Total amount paid is close to total value.**\n- So **consumer surplus is low.**\n\nThe gap between what the good is worth to you and what you paid: that gap is your surplus.",
+      "example_ids": [
+        "be-ex-s45-great-lousy-deal"
+      ],
+      "key_terms": [
+        {
+          "term": "Consumer surplus",
+          "meaning": "The value consumers get from a good but do not have to pay for.",
+          "source_ref": "be--sessions-4-and-5#13"
+        }
+      ],
+      "exam_line": "Consumer surplus = value received but not paid for. Large when total value greatly exceeds amount paid; low when amount paid is close to total value.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s45-consumer-surplus-q-b53672fd",
+          "type": "fill",
+          "stem": "Consumer surplus is the value consumers get from a good but do not have to ____ for.",
+          "options": [],
+          "answer": "pay",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--sessions-4-and-5#13"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s45-consumer-surplus-q-0b213cb6",
+          "type": "mcq",
+          "stem": "When the total amount paid is close to the total value, the slide says:",
+          "options": [
+            "Consumer surplus is low",
+            "Consumer surplus is large",
+            "Producer surplus is low"
+          ],
+          "answer": "Consumer surplus is low",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--sessions-4-and-5#15",
+            "be--sessions-4-and-5#14",
+            "be--sessions-4-and-5#25"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s45-consumer-surplus-q-93b69ab1",
+          "type": "true_false",
+          "stem": "On the 'great deal' slide, total value greatly exceeds the total amount paid.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--sessions-4-and-5#14"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--sessions-4-and-5#13",
+        "be--sessions-4-and-5#14",
+        "be--sessions-4-and-5#15"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s45-consumer-surplus-c2",
+      "heading": "Why marketers care: value pricing and price discrimination",
+      "explanation_md": "The deck stresses: **consumer surplus isn't just a triangle on a graph; it's what marketers try to capture.** Two ways:\n\n- **Value pricing:** charging **closer to what each customer is willing to pay**.\n- **Price discrimination:** **segmenting customers to capture surplus from different groups at different prices.**\n\nBoth shrink the gap between what the buyer would pay and what the buyer actually pays, so more of the surplus goes to the seller.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Value pricing",
+          "meaning": "Charging closer to what each customer is willing to pay.",
+          "source_ref": "be--sessions-4-and-5#13"
+        },
+        {
+          "term": "Price discrimination",
+          "meaning": "Segmenting customers to capture surplus from different groups at different prices.",
+          "source_ref": "be--sessions-4-and-5#13"
+        }
+      ],
+      "exam_line": "Marketers try to capture consumer surplus through value pricing (charge closer to willingness to pay) and price discrimination (segment customers, different prices).",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s45-consumer-surplus-q-7b086cf8",
+          "type": "mcq",
+          "stem": "Segmenting customers to capture surplus from different groups at different prices is called:",
+          "options": [
+            "Price discrimination",
+            "Value pricing",
+            "A price ceiling"
+          ],
+          "answer": "Price discrimination",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--sessions-4-and-5#13",
+            "be--sessions-4-and-5#32"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s45-consumer-surplus-q-7fd60052",
+          "type": "mcq",
+          "stem": "Value pricing means:",
+          "options": [
+            "Charging closer to what each customer is willing to pay",
+            "Charging the maximum legal price",
+            "Charging the same low price to every group"
+          ],
+          "answer": "Charging closer to what each customer is willing to pay",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--sessions-4-and-5#13",
+            "be--sessions-4-and-5#32"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--sessions-4-and-5#13"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s45-consumer-surplus-c3",
+      "heading": "Measuring it: the discrete case",
+      "explanation_md": "The slide draws a demand line **D** that starts at a price of **10** and hits the quantity axis at **5**. The price is **2**, so the buyer takes **4 units**.\n\nThink of each unit separately:\n\n- the **1st unit** is worth **8** to the buyer, who pays 2\n- the **2nd unit** is worth **6**, pays 2\n- the **3rd unit** is worth **4**, pays 2\n\nThe green bars are the value of each unit; the red rectangle at a price of 2 is what the buyer pays.\n\n**Consumer surplus = (8-2) + (6-2) + (4-2) = $12.**\n\nIn the slide's words, consumer surplus is **the value received but not paid for**.",
+      "example_ids": [
+        "be-ex-s45-cs-discrete"
+      ],
+      "key_terms": [],
+      "exam_line": "Discrete case: add up (value of each unit - price) for the units bought: (8-2) + (6-2) + (4-2) = $12.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s45-consumer-surplus-q-220a4131",
+          "type": "fill",
+          "stem": "Discrete case: consumer surplus = (8-2) + (6-2) + (4-2) = $____.",
+          "options": [],
+          "answer": "12",
+          "accept": [
+            "$12"
+          ],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--sessions-4-and-5#16"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s45-consumer-surplus-q-5dff6243",
+          "type": "mcq",
+          "stem": "In the discrete case graph, what price does the buyer pay per unit?",
+          "options": [
+            "2",
+            "8",
+            "10"
+          ],
+          "answer": "2",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--sessions-4-and-5#16"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--sessions-4-and-5#16"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s45-consumer-surplus-c4",
+      "heading": "Measuring it: the continuous case",
+      "explanation_md": "Same demand line, same price of **$2**, same **4 units**, but now treat quantity as smooth instead of in whole steps.\n\nThe slide splits it into three callouts:\n\n1. **Value of 4 units = $24**: the whole area under D out to 4 units.\n2. **Expenditure on 4 units = $2 x 4 = $8**: the red rectangle.\n3. **Consumer Surplus = $24 - $8 = $16**: the green triangle that is left.\n\nSo the recipe is: **consumer surplus = value of the units bought - expenditure on them.**\n\nQuick check with the triangle itself: it is 4 units wide and runs from a price of 10 down to 2, so its height is 8. Half of 4 x 8 is 16, the same answer (0.5 x 4 x 8 = 16).",
+      "example_ids": [
+        "be-ex-s45-cs-continuous"
+      ],
+      "key_terms": [],
+      "exam_line": "Continuous case: consumer surplus = value - expenditure = $24 - $8 = $16 (value of 4 units $24; expenditure $2 x 4 = $8).",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s45-consumer-surplus-q-80966402",
+          "type": "mcq",
+          "stem": "In the continuous case, what is the expenditure on 4 units?",
+          "options": [
+            "$8",
+            "$24",
+            "$16"
+          ],
+          "answer": "$8",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--sessions-4-and-5#17"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s45-consumer-surplus-q-d7ce8f1f",
+          "type": "fill",
+          "stem": "Continuous case: consumer surplus = $24 - $8 = $____.",
+          "options": [],
+          "answer": "16",
+          "accept": [
+            "$16"
+          ],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--sessions-4-and-5#17"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s45-consumer-surplus-q-c67aeda6",
+          "type": "true_false",
+          "stem": "In the continuous case, consumer surplus is the value of the units bought minus the expenditure on them.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--sessions-4-and-5#17"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--sessions-4-and-5#17"
+      ],
+      "derived": [
+        "0.5"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s45-consumer-surplus-c5",
+      "heading": "Practice: consumer surplus when Px = 80 - 0.2Qd",
+      "explanation_md": "**The question:** inverse demand **Px = 80 - 0.2Qd**, inverse supply **Px = 10 + 0.2Qs**. Find consumer surplus at the market equilibrium (**P = ₹45**), at **Px = ₹35** and at **Px = ₹60**. Then say what happens to consumer surplus as the price falls.\n\nThe slide gives no answers, so here is the working with the continuous-case recipe: **consumer surplus = value - expenditure**.\n\n**At P = ₹45.** Quantity demanded: 45 = 80 - 0.2Qd, so Qd = 35 / 0.2 = **175**.\n- Value of 175 units = area under the demand line out to 175 = (80 + 45)/2 x 175 = 62.5 x 175 = 10,937.5\n- Expenditure = 45 x 175 = 7,875\n- **Consumer surplus = 10,937.5 - 7,875 = ₹3,062.5**\n\n**At Px = ₹35.** Qd = (80 - 35) / 0.2 = **225**.\n- Value = (80 + 35)/2 x 225 = 57.5 x 225 = 12,937.5\n- Expenditure = 35 x 225 = 7,875\n- **Consumer surplus = ₹5,062.5**\n\n**At Px = ₹60.** Qd = (80 - 60) / 0.2 = **100**.\n- Value = (80 + 60)/2 x 100 = 7,000\n- Expenditure = 60 x 100 = 6,000\n- **Consumer surplus = ₹1,000**\n\n**As the price falls** (₹60, then ₹45, then ₹35), these answers grow: ₹1,000, then ₹3,062.5, then ₹5,062.5. **Consumer surplus gets bigger as the price falls.**\n\n**One thing the slide does not settle:** at ₹35 the inverse supply line gives only (35 - 10) / 0.2 = 125 units supplied, fewer than the 225 demanded, which is a shortage like the 'price too low' graph. The working above reads the quantity off the demand line; the slide does not say whether to use 225 or 125 here, so check with your professor.",
+      "example_ids": [
+        "be-ex-s45-cs-question"
+      ],
+      "key_terms": [],
+      "exam_line": "Consumer surplus = value - expenditure. With Px = 80 - 0.2Qd: at ₹45, Qd = 175 and consumer surplus = ₹3,062.5; consumer surplus rises as the price falls.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s45-consumer-surplus-q-b7205fdd",
+          "type": "mcq",
+          "stem": "With inverse demand Px = 80 - 0.2Qd, what is consumer surplus at the market equilibrium price of ₹45?",
+          "options": [
+            "₹3,062.5",
+            "₹7,875",
+            "₹10,937.5"
+          ],
+          "answer": "₹3,062.5",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--sessions-4-and-5#49"
+          ],
+          "derived": [
+            "3062.5",
+            "7875",
+            "10937.5"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s45-consumer-surplus-q-b0373cdf",
+          "type": "fill",
+          "stem": "With Px = 80 - 0.2Qd, quantity demanded at Px = ₹60 is ____ units.",
+          "options": [],
+          "answer": "100",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--sessions-4-and-5#49"
+          ],
+          "derived": [
+            "100"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s45-consumer-surplus-q-71d84117",
+          "type": "true_false",
+          "stem": "In the worked answers, consumer surplus at Px = ₹35 is larger than at P = ₹45.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "₹5,062.5 at ₹35 against ₹3,062.5 at ₹45: consumer surplus rises as the price falls.",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--sessions-4-and-5#49"
+          ],
+          "derived": [
+            "5062.5",
+            "3062.5"
+          ],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--sessions-4-and-5#49",
+        "be--sessions-4-and-5#17",
+        "be--sessions-4-and-5#28"
+      ],
+      "derived": [
+        "175",
+        "62.5",
+        "10937.5",
+        "7875",
+        "3062.5",
+        "225",
+        "57.5",
+        "12937.5",
+        "5062.5",
+        "100",
+        "7000",
+        "6000",
+        "1000",
+        "125",
+        "0.5"
+      ],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "be-s45-consumer-surplus-f1",
+      "front": "Consumer surplus",
+      "back": "The value consumers get from a good but do not have to pay for.",
+      "kind": "term",
+      "source_refs": [
+        "be--sessions-4-and-5#13"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s45-consumer-surplus-f2",
+      "front": "Great deal vs lousy deal",
+      "back": "Great deal: total value greatly exceeds total amount paid, so consumer surplus is large. Lousy deal: total amount paid is close to total value, so consumer surplus is low.",
+      "kind": "example",
+      "source_refs": [
+        "be--sessions-4-and-5#14",
+        "be--sessions-4-and-5#15"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s45-consumer-surplus-f3",
+      "front": "Value pricing",
+      "back": "Charging closer to what each customer is willing to pay (a way marketers capture consumer surplus).",
+      "kind": "term",
+      "source_refs": [
+        "be--sessions-4-and-5#13"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s45-consumer-surplus-f4",
+      "front": "Price discrimination",
+      "back": "Segmenting customers to capture surplus from different groups at different prices.",
+      "kind": "term",
+      "source_refs": [
+        "be--sessions-4-and-5#13"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s45-consumer-surplus-f5",
+      "front": "Consumer surplus: discrete case (slide numbers)",
+      "back": "(8-2) + (6-2) + (4-2) = $12 at a price of 2.",
+      "kind": "formula",
+      "source_refs": [
+        "be--sessions-4-and-5#16"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s45-consumer-surplus-f6",
+      "front": "Consumer surplus: continuous case (slide numbers)",
+      "back": "Value of 4 units $24 - expenditure $2 x 4 = $8 gives consumer surplus $16.",
+      "kind": "formula",
+      "source_refs": [
+        "be--sessions-4-and-5#17"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [],
+  "explain_back": {
+    "prompt": "Explain what consumer surplus is, why marketers care about it, and how to measure it in the discrete and continuous cases using the slide numbers.",
+    "rubric": [
+      {
+        "point": "Consumer surplus is the value consumers get from a good but do not have to pay for",
+        "source_ref": "be--sessions-4-and-5#13"
+      },
+      {
+        "point": "Marketers try to capture it through value pricing and price discrimination",
+        "source_ref": "be--sessions-4-and-5#13"
+      },
+      {
+        "point": "Large when total value greatly exceeds amount paid; low when amount paid is close to value",
+        "source_ref": "be--sessions-4-and-5#14"
+      },
+      {
+        "point": "Discrete: (8-2) + (6-2) + (4-2) = $12",
+        "source_ref": "be--sessions-4-and-5#16"
+      },
+      {
+        "point": "Continuous: value $24 - expenditure $8 = $16",
+        "source_ref": "be--sessions-4-and-5#17"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

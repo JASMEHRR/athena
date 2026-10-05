@@ -1,0 +1,592 @@
+{
+  "id": "be-s45-supply-function",
+  "subject_id": "be",
+  "deck_id": "be--sessions-4-and-5",
+  "title": "The law of supply, determinants of supply and the supply function",
+  "order": 304,
+  "summary": "The upward sloping supply curve, a change in quantity supplied versus a change in supply, the inverse supply function, the determinants of supply, the supply function Qxs = f(Px, Pr, W, H), and the practice question.",
+  "est_minutes": 25,
+  "difficulty": 2,
+  "source_refs": [
+    "be--sessions-4-and-5#18",
+    "be--sessions-4-and-5#19",
+    "be--sessions-4-and-5#20",
+    "be--sessions-4-and-5#21",
+    "be--sessions-4-and-5#22",
+    "be--sessions-4-and-5#5",
+    "be--sessions-4-and-5#23",
+    "be--sessions-4-and-5#11",
+    "be--sessions-4-and-5#24",
+    "be--sessions-4-and-5#31",
+    "be--sessions-4-and-5#49"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "be-s45-supply-function-c1",
+      "heading": "The law of supply and moving along the supply curve",
+      "explanation_md": "Now the seller's side.\n\nThe **supply curve shows the amount of a good that will be produced at alternative prices.**\n\n**Law of Supply:** the supply curve is **upward sloping**, showing that **quantity supplied increases as prices increase, other things remaining the same.**\n\nThe deck's graph on one curve, **S0**:\n\n- **Point A:** price **10**, quantity **5**\n- **Point B:** price **20**, quantity **10**\n\n**A to B: increase in quantity supplied.** Just like demand, a change in the good's own price moves you **along** the same curve.",
+      "example_ids": [
+        "be-ex-s45-supply-a-to-b"
+      ],
+      "key_terms": [
+        {
+          "term": "Supply curve",
+          "meaning": "Shows the amount of a good that will be produced at alternative prices.",
+          "source_ref": "be--sessions-4-and-5#18"
+        },
+        {
+          "term": "Law of supply",
+          "meaning": "The supply curve is upward sloping: quantity supplied increases as prices increase, other things remaining the same.",
+          "source_ref": "be--sessions-4-and-5#18"
+        }
+      ],
+      "exam_line": "Law of supply: quantity supplied increases as price increases, other things the same, so the supply curve slopes upward. A (10, 5) to B (20, 10) on S0 is an increase in quantity supplied.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s45-supply-function-q-86624f9f",
+          "type": "fill",
+          "stem": "The supply curve is ____ sloping: quantity supplied increases as prices increase.",
+          "options": [],
+          "answer": "upward",
+          "accept": [
+            "upwards"
+          ],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--sessions-4-and-5#18"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s45-supply-function-q-0692553f",
+          "type": "mcq",
+          "stem": "On S0, price rises from 10 to 20. Quantity supplied rises from 5 to:",
+          "options": [
+            "10",
+            "7",
+            "20"
+          ],
+          "answer": "10",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--sessions-4-and-5#19",
+            "be--sessions-4-and-5#22"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s45-supply-function-q-84d66b58",
+          "type": "mcq",
+          "stem": "What does the deck call the move from A to B along S0?",
+          "options": [
+            "An increase in quantity supplied",
+            "An increase in supply",
+            "An increase in demand"
+          ],
+          "answer": "An increase in quantity supplied",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--sessions-4-and-5#19",
+            "be--sessions-4-and-5#22",
+            "be--sessions-4-and-5#10"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--sessions-4-and-5#18",
+        "be--sessions-4-and-5#19"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s45-supply-function-c2",
+      "heading": "The inverse supply function",
+      "explanation_md": "The **inverse supply function** gives **price as a function of quantity supplied**, the same idea as inverse demand.\n\nThe slide's example:\n\n- Supply function: **Qxs = 10 + 2Px**\n- Inverse supply function, as printed on the slide: **Px = 5 + 0.5Qxs**\n\n**Careful here.** If you rearrange Qxs = 10 + 2Px yourself, you get 2Px = Qxs - 10, so Px = 0.5Qxs - 5. The 5 comes out with a **minus** sign, but the slide prints a **plus**. The slide does not explain the difference, so check with your professor which version is intended. The method itself (put Px alone on the left) is the same one used for inverse demand.",
+      "example_ids": [
+        "be-ex-s45-inverse-supply"
+      ],
+      "key_terms": [
+        {
+          "term": "Inverse supply function",
+          "meaning": "Price as a function of quantity supplied.",
+          "source_ref": "be--sessions-4-and-5#20"
+        }
+      ],
+      "exam_line": "Inverse supply function: price as a function of quantity supplied (rearrange the supply function so Px is on the left).",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s45-supply-function-q-50d76837",
+          "type": "fill",
+          "stem": "The inverse supply function gives ____ as a function of quantity supplied.",
+          "options": [],
+          "answer": "price",
+          "accept": [
+            "Price",
+            "Px"
+          ],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--sessions-4-and-5#20"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s45-supply-function-q-a212492e",
+          "type": "true_false",
+          "stem": "An inverse supply function gives quantity supplied as a function of price.",
+          "options": [],
+          "answer": "False",
+          "accept": [],
+          "explanation": "It is the other way round: price as a function of quantity supplied.",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--sessions-4-and-5#20"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--sessions-4-and-5#20"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s45-supply-function-c3",
+      "heading": "Determinants of supply and a change in supply",
+      "explanation_md": "The overview calls these the **supply shifters**. The slide on **Determinants of Supply** lists:\n\n1. **Input prices**\n2. **Technology or government regulations**\n3. **Number of firms**: entry, exit\n4. **Substitutes in production**\n5. **Taxes**: excise tax, ad valorem tax\n6. **Producer expectations**\n\nThen the **Change in Supply** graph: the whole curve moves from **S0 to S1** (to the right). Read it two ways:\n\n- At a **price of 8**, quantity supplied is **5 on S0** but **7 on S1**.\n- At a **quantity of 5**, the price is **8 on S0** but **6 on S1**.\n\n**S0 to S1: increase in supply.** Same rule as demand: a move along the curve is a change in **quantity supplied**; a move of the whole curve is a change in **supply**.",
+      "example_ids": [
+        "be-ex-s45-change-in-supply"
+      ],
+      "key_terms": [],
+      "exam_line": "Determinants of supply: input prices, technology or government regulations, number of firms (entry, exit), substitutes in production, taxes (excise, ad valorem), producer expectations. S0 to S1 is an increase in supply.",
+      "clarification": {
+        "term": "Excise tax and ad valorem tax",
+        "text": "An excise tax is a fixed amount of tax charged on each unit sold. An ad valorem tax is charged as a percentage of the price."
+      },
+      "check_questions": [
+        {
+          "id": "be-s45-supply-function-q-486fd31a",
+          "type": "mcq",
+          "stem": "Which of these is NOT on the slide's list of determinants of supply?",
+          "options": [
+            "Consumer expectations",
+            "Input prices",
+            "Number of firms",
+            "Taxes"
+          ],
+          "answer": "Consumer expectations",
+          "accept": [],
+          "explanation": "Consumer expectations are a determinant of demand.",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--sessions-4-and-5#21",
+            "be--sessions-4-and-5#9"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s45-supply-function-q-b96e076f",
+          "type": "mcq",
+          "stem": "On the Change in Supply graph, at a price of 8, quantity supplied is 5 on S0. What is it on S1?",
+          "options": [
+            "7",
+            "6",
+            "5"
+          ],
+          "answer": "7",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--sessions-4-and-5#22"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s45-supply-function-q-38d0b4f8",
+          "type": "fill",
+          "stem": "Under taxes, the slide lists the excise tax and the ____ tax.",
+          "options": [],
+          "answer": "ad valorem",
+          "accept": [
+            "ad-valorem",
+            "Ad valorem"
+          ],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--sessions-4-and-5#21"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--sessions-4-and-5#21",
+        "be--sessions-4-and-5#22",
+        "be--sessions-4-and-5#5"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s45-supply-function-c4",
+      "heading": "The supply function: Qxs = f(Px, Pr, W, H)",
+      "explanation_md": "The **supply function** is **an equation representing the supply curve**:\n\n**Qxs = f(Px, Pr, W, H)**\n\n- **Qxs** = quantity supplied of good X\n- **Px** = price of good X\n- **Pr** = price of a **production substitute**\n- **W** = **price of inputs** (e.g., wages)\n- **H** = other variable affecting supply\n\nPut it next to the demand function, Qxd = f(Px, Py, M, H). Both start with the good's own price and end with H for everything else. Demand has the related good (Py) and income (M); supply has the production substitute (Pr) and input prices (W).",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Supply function",
+          "meaning": "An equation representing the supply curve: Qxs = f(Px, Pr, W, H).",
+          "source_ref": "be--sessions-4-and-5#23"
+        }
+      ],
+      "exam_line": "Qxs = f(Px, Pr, W, H): Px = own price, Pr = price of a production substitute, W = price of inputs (e.g. wages), H = other variable affecting supply.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s45-supply-function-q-acab4a06",
+          "type": "mcq",
+          "stem": "In the supply function Qxs = f(Px, Pr, W, H), W stands for:",
+          "options": [
+            "Price of inputs (e.g., wages)",
+            "Price of a production substitute",
+            "Income"
+          ],
+          "answer": "Price of inputs (e.g., wages)",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--sessions-4-and-5#23",
+            "be--sessions-4-and-5#11"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s45-supply-function-q-69778f8f",
+          "type": "mcq",
+          "stem": "In the supply function, Pr is the:",
+          "options": [
+            "Price of a production substitute",
+            "Price of a related good Y",
+            "Price of good X"
+          ],
+          "answer": "Price of a production substitute",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--sessions-4-and-5#23",
+            "be--sessions-4-and-5#11"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--sessions-4-and-5#23",
+        "be--sessions-4-and-5#11"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s45-supply-function-c5",
+      "heading": "Practice question: the supply of product X",
+      "explanation_md": "**The question:** the supply function for product X is **Qxs = 40 + 5Px - 3Pz**, where **Pz is the price of a key input**.\n\nThe slide gives no answers, so here is the working.\n\n**(a) Px = ₹100 and Pz = ₹30:**\nQxs = 40 + 5(100) - 3(30) = 40 + 500 - 90 = **450 units**\n\n**(b) Px = ₹20 and Pz = ₹30:**\nQxs = 40 + 5(20) - 3(30) = 40 + 100 - 90 = **50 units**\n\nA lower price of X means less is produced, as the law of supply says.\n\n**(c) Reduced supply function with Pz = ₹30:**\nQxs = 40 + 5Px - 90 = **-50 + 5Px**. This is exactly the supply function used in the equilibrium question.\n\n**Inverse supply function:** 5Px = Qxs + 50, so **Px = 10 + 0.2Qxs**. This matches the inverse supply in the later surplus questions.\n\n**(d) Graph** (the slide says do it at home): an upward sloping line that starts at a price of 10 when quantity is zero and rises by 0.2 for every extra unit.",
+      "example_ids": [
+        "be-ex-s45-supply-question"
+      ],
+      "key_terms": [],
+      "exam_line": "Plug in the input price first: with Pz = ₹30, Qxs = 40 + 5Px - 3(30) = -50 + 5Px, so the inverse supply is Px = 10 + 0.2Qxs.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s45-supply-function-q-eb463f8c",
+          "type": "fill",
+          "stem": "With Qxs = 40 + 5Px - 3Pz, how much X is produced when Px = ₹100 and Pz = ₹30? ____",
+          "options": [],
+          "answer": "450",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--sessions-4-and-5#24"
+          ],
+          "derived": [
+            "450"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s45-supply-function-q-d39af4b1",
+          "type": "mcq",
+          "stem": "With Pz = ₹30, the reduced supply function Qxs = 40 + 5Px - 3Pz becomes:",
+          "options": [
+            "Qxs = -50 + 5Px",
+            "Qxs = 40 + 5Px",
+            "Qxs = 130 + 5Px"
+          ],
+          "answer": "Qxs = -50 + 5Px",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--sessions-4-and-5#24",
+            "be--sessions-4-and-5#31"
+          ],
+          "derived": [
+            "130"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s45-supply-function-q-bb6b9340",
+          "type": "mcq",
+          "stem": "What is the inverse of Qxs = -50 + 5Px?",
+          "options": [
+            "Px = 10 + 0.2Qxs",
+            "Px = 50 + 5Qxs",
+            "Px = 10 - 0.2Qxs"
+          ],
+          "answer": "Px = 10 + 0.2Qxs",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--sessions-4-and-5#31",
+            "be--sessions-4-and-5#49"
+          ],
+          "derived": [
+            "0.2"
+          ],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--sessions-4-and-5#24",
+        "be--sessions-4-and-5#20",
+        "be--sessions-4-and-5#31",
+        "be--sessions-4-and-5#49"
+      ],
+      "derived": [
+        "500",
+        "90",
+        "450",
+        "50",
+        "0.2",
+        "130"
+      ],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "be-s45-supply-function-f1",
+      "front": "Law of supply",
+      "back": "The supply curve is upward sloping: quantity supplied increases as prices increase, other things remaining the same.",
+      "kind": "term",
+      "source_refs": [
+        "be--sessions-4-and-5#18"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s45-supply-function-f2",
+      "front": "Change in quantity supplied (slide example)",
+      "back": "On S0, A (price 10, quantity 5) to B (price 20, quantity 10): an increase in quantity supplied.",
+      "kind": "example",
+      "source_refs": [
+        "be--sessions-4-and-5#19"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s45-supply-function-f3",
+      "front": "Inverse supply function",
+      "back": "Price as a function of quantity supplied.",
+      "kind": "term",
+      "source_refs": [
+        "be--sessions-4-and-5#20"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s45-supply-function-f4",
+      "front": "Determinants of supply",
+      "back": "Input prices; technology or government regulations; number of firms (entry, exit); substitutes in production; taxes (excise, ad valorem); producer expectations.",
+      "kind": "list",
+      "source_refs": [
+        "be--sessions-4-and-5#21"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s45-supply-function-f5",
+      "front": "Change in supply (slide example)",
+      "back": "S0 to S1: at a price of 8, quantity supplied rises from 5 to 7. An increase in supply.",
+      "kind": "example",
+      "source_refs": [
+        "be--sessions-4-and-5#22"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s45-supply-function-f6",
+      "front": "The supply function",
+      "back": "Qxs = f(Px, Pr, W, H): Px = price of X; Pr = price of a production substitute; W = price of inputs (e.g., wages); H = other variable affecting supply.",
+      "kind": "formula",
+      "source_refs": [
+        "be--sessions-4-and-5#23"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s45-supply-function-f7",
+      "front": "Slide question: what does Qxs = 40 + 5Px - 3Pz become with Pz = ₹30?",
+      "back": "Qxs = -50 + 5Px, the supply function used in the equilibrium question. Inverse: Px = 10 + 0.2Qs.",
+      "kind": "example",
+      "source_refs": [
+        "be--sessions-4-and-5#24",
+        "be--sessions-4-and-5#31",
+        "be--sessions-4-and-5#49"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [],
+  "explain_back": {
+    "prompt": "Explain the law of supply, the difference between a change in quantity supplied and a change in supply using the slide graphs, the determinants of supply, and the supply function.",
+    "rubric": [
+      {
+        "point": "Law of supply: quantity supplied increases as price increases, other things the same; upward sloping curve",
+        "source_ref": "be--sessions-4-and-5#18"
+      },
+      {
+        "point": "A (10, 5) to B (20, 10) on S0 is an increase in quantity supplied",
+        "source_ref": "be--sessions-4-and-5#19"
+      },
+      {
+        "point": "S0 to S1 is an increase in supply: at price 8, quantity goes from 5 to 7",
+        "source_ref": "be--sessions-4-and-5#22"
+      },
+      {
+        "point": "Determinants: input prices, technology or regulations, number of firms, substitutes in production, taxes, producer expectations",
+        "source_ref": "be--sessions-4-and-5#21"
+      },
+      {
+        "point": "Qxs = f(Px, Pr, W, H)",
+        "source_ref": "be--sessions-4-and-5#23"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

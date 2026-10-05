@@ -1,0 +1,404 @@
+{
+  "id": "be-s45-software-market",
+  "subject_id": "be",
+  "deck_id": "be--sessions-4-and-5",
+  "title": "The software market and the conclusion",
+  "order": 308,
+  "summary": "Scenario 2: how cheaper PCs change the software market, the software maker's action plan, a comparison of the two scenarios, and the deck's conclusion on using supply and demand analysis.",
+  "est_minutes": 20,
+  "difficulty": 2,
+  "source_refs": [
+    "be--sessions-4-and-5#45",
+    "be--sessions-4-and-5#46",
+    "be--sessions-4-and-5#47",
+    "be--sessions-4-and-5#44",
+    "be--sessions-4-and-5#48",
+    "be--sessions-4-and-5#43"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "be-s45-software-market-c1",
+      "heading": "Scenario 2: the big picture for a software maker",
+      "explanation_md": "Now you run a **small software company**. Same two steps.\n\n**Step 1:** use analysis like that in Scenario 1 to deduce that lower component prices will lead to:\n- a **lower equilibrium price for computers**\n- a **greater number of computers sold**\n\n**Step 2:** how will these changes affect the big picture in the **software market**?\n\nThe graph **Impact of lower PC prices on the software market**:\n- Supply **S** stays put.\n- Demand moves **right, from D to D***.\n- Price **rises** from **P0 to P1**; quantity **rises** from **Q0 to Q1**.\n\n**The big picture, in the slide's words:** **software prices are likely to rise, and more software will be sold.**\n\nNotice the chain: an event in one market (PC components) moves supply in the PC market, and the result there moves **demand** in the software market.",
+      "example_ids": [
+        "be-ex-s45-software-market-graph"
+      ],
+      "key_terms": [],
+      "exam_line": "Cheaper PCs shift software demand right (D to D*): software prices are likely to rise and more software will be sold.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s45-software-market-q-e39cdb93",
+          "type": "mcq",
+          "stem": "On the software market graph, which curve moves?",
+          "options": [
+            "Demand, from D to D*",
+            "Supply, from S to S*",
+            "Neither curve moves"
+          ],
+          "answer": "Demand, from D to D*",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--sessions-4-and-5#46",
+            "be--sessions-4-and-5#43"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s45-software-market-q-444be071",
+          "type": "mcq",
+          "stem": "What is the big picture for the software market?",
+          "options": [
+            "Software prices are likely to rise, and more software will be sold",
+            "Software prices will fall, and more software will be sold",
+            "Software prices will rise, and less software will be sold"
+          ],
+          "answer": "Software prices are likely to rise, and more software will be sold",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--sessions-4-and-5#47",
+            "be--sessions-4-and-5#44"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s45-software-market-q-ce368059",
+          "type": "true_false",
+          "stem": "In Scenario 2, Step 1 deduces that lower component prices lead to a lower equilibrium price for computers and more computers sold.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--sessions-4-and-5#45"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--sessions-4-and-5#45",
+        "be--sessions-4-and-5#46",
+        "be--sessions-4-and-5#47"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s45-software-market-c2",
+      "heading": "Action plan for a software maker",
+      "explanation_md": "The slide uses the same four questions as for the PC maker:\n\n**Inventories?**\n- **Ramp up cloud infrastructure ahead of the expected demand surge**, rather than scrambling reactively.\n\n**Human resources?**\n- Rising quantity sold means **more customers needing onboarding, support and updates**.\n- **Staff up customer support and sales before the PC price drop fully plays out**, not after demand has already spiked.\n\n**Marketing?**\n- Since the software price is expected to rise, this is a moment to **lean into value-based messaging rather than discounting**.\n- **Time a product launch or feature release to coincide with the PC upgrade cycle** this event will trigger: **new PC buyers are a captive audience for new software**.\n\n**Do I need quantitative estimates?**\n- You need the **cross-price elasticity between PCs and software** (how strongly linked are the two demands?).\n- And **how much of the PC price drop actually reaches consumers** versus gets absorbed by PC makers' margins.",
+      "example_ids": [
+        "be-ex-s45-software-action-plan"
+      ],
+      "key_terms": [
+        {
+          "term": "Cross-price elasticity (as used on the slide)",
+          "meaning": "How strongly linked the demands for two goods are, here PCs and software.",
+          "source_ref": "be--sessions-4-and-5#47"
+        }
+      ],
+      "exam_line": "Software maker's plan: build cloud capacity ahead, staff up support and sales early, use value-based messaging, time launches to the PC upgrade cycle; estimate cross-price elasticity and how much of the PC price drop reaches consumers.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s45-software-market-q-4514891e",
+          "type": "mcq",
+          "stem": "Under 'inventories', what does the slide advise the software maker?",
+          "options": [
+            "Ramp up cloud infrastructure ahead of the expected demand surge",
+            "Sell down inventory faster rather than hold",
+            "Time new production to align with cheaper components"
+          ],
+          "answer": "Ramp up cloud infrastructure ahead of the expected demand surge",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--sessions-4-and-5#47",
+            "be--sessions-4-and-5#44"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s45-software-market-q-9da3cc67",
+          "type": "mcq",
+          "stem": "Which marketing approach does the slide suggest for the software maker?",
+          "options": [
+            "Value-based messaging rather than discounting",
+            "Lead with price cuts to match the falling market price",
+            "Price discrimination across customer groups"
+          ],
+          "answer": "Value-based messaging rather than discounting",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--sessions-4-and-5#47",
+            "be--sessions-4-and-5#44",
+            "be--sessions-4-and-5#13"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s45-software-market-q-afbb3c31",
+          "type": "fill",
+          "stem": "The software maker needs the ____ elasticity between PCs and software: how strongly linked are the two demands?",
+          "options": [],
+          "answer": "cross-price",
+          "accept": [
+            "cross price",
+            "crossprice"
+          ],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--sessions-4-and-5#47"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--sessions-4-and-5#47"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s45-software-market-c3",
+      "heading": "Two scenarios side by side, and the conclusion",
+      "explanation_md": "Same news, opposite moves:\n\n| | Small PC maker | Small software maker |\n|---|---|---|\n| Curve that moves | Supply (S to S*) | Demand (D to D*) |\n| Price | Falls | Likely to rise |\n| Quantity | Rises | Rises |\n| Inventories | Sell down faster | Build cloud capacity ahead |\n| Marketing | Price cuts, or bundle to protect margin | Value-based messaging, time launches |\n| Estimates needed | Demand elasticity, size of cost shift, competitor pass-through | Cross-price elasticity, how much of the PC price drop reaches consumers |\n\n**Conclusion.** Use supply and demand analysis to:\n1. **clarify the \"big picture\"**: the general impact of a current event on equilibrium prices and quantities;\n2. **organize an action plan**: needed changes in production, inventories, raw materials, human resources, marketing plans, etc.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "Conclusion: use supply and demand analysis to clarify the big picture (impact of an event on equilibrium prices and quantities) and organize an action plan (production, inventories, raw materials, human resources, marketing).",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s45-software-market-q-33d99a4c",
+          "type": "mcq",
+          "stem": "According to the conclusion, supply and demand analysis is used to:",
+          "options": [
+            "Clarify the big picture and organize an action plan",
+            "Set price ceilings and price floors",
+            "Measure consumer surplus only"
+          ],
+          "answer": "Clarify the big picture and organize an action plan",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--sessions-4-and-5#48",
+            "be--sessions-4-and-5#32",
+            "be--sessions-4-and-5#13"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s45-software-market-q-a945a2df",
+          "type": "mcq",
+          "stem": "When PC component prices fall, what happens to prices in the two markets?",
+          "options": [
+            "PC prices fall; software prices are likely to rise",
+            "Both PC and software prices fall",
+            "Both PC and software prices rise"
+          ],
+          "answer": "PC prices fall; software prices are likely to rise",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--sessions-4-and-5#44",
+            "be--sessions-4-and-5#47"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s45-software-market-q-3d030c5f",
+          "type": "true_false",
+          "stem": "In both the PC market and the software market, the quantity sold rises.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--sessions-4-and-5#44",
+            "be--sessions-4-and-5#47"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--sessions-4-and-5#44",
+        "be--sessions-4-and-5#47",
+        "be--sessions-4-and-5#48",
+        "be--sessions-4-and-5#43",
+        "be--sessions-4-and-5#46"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "be-s45-software-market-f1",
+      "front": "Scenario 2, Step 1",
+      "back": "Use the Scenario 1 analysis: lower component prices lead to a lower equilibrium price for computers and a greater number of computers sold.",
+      "kind": "fact",
+      "source_refs": [
+        "be--sessions-4-and-5#45"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s45-software-market-f2",
+      "front": "Software market graph",
+      "back": "Demand shifts right (D to D*), supply S unchanged: price rises P0 to P1, quantity rises Q0 to Q1.",
+      "kind": "fact",
+      "source_refs": [
+        "be--sessions-4-and-5#46"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s45-software-market-f3",
+      "front": "Big picture: software market",
+      "back": "Software prices are likely to rise, and more software will be sold.",
+      "kind": "fact",
+      "source_refs": [
+        "be--sessions-4-and-5#47"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s45-software-market-f4",
+      "front": "Software maker's action plan",
+      "back": "Ramp up cloud infrastructure ahead; staff up support and sales early; value-based messaging, not discounting; time launches to the PC upgrade cycle.",
+      "kind": "list",
+      "source_refs": [
+        "be--sessions-4-and-5#47"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s45-software-market-f5",
+      "front": "What a software maker needs for quantitative estimates",
+      "back": "Cross-price elasticity between PCs and software; how much of the PC price drop reaches consumers versus PC makers' margins.",
+      "kind": "list",
+      "source_refs": [
+        "be--sessions-4-and-5#47"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s45-software-market-f6",
+      "front": "Conclusion: two uses of supply and demand analysis",
+      "back": "Clarify the big picture (impact of a current event on equilibrium prices and quantities); organize an action plan (production, inventories, raw materials, human resources, marketing plans, etc.).",
+      "kind": "list",
+      "source_refs": [
+        "be--sessions-4-and-5#48"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [],
+  "explain_back": {
+    "prompt": "Explain how a fall in PC component prices affects the software market and how a software maker should respond. Then state the two uses of supply and demand analysis from the conclusion.",
+    "rubric": [
+      {
+        "point": "Step 1: lower component prices mean a lower price for computers and more computers sold",
+        "source_ref": "be--sessions-4-and-5#45"
+      },
+      {
+        "point": "Software demand shifts right (D to D*): price rises P0 to P1, quantity rises Q0 to Q1",
+        "source_ref": "be--sessions-4-and-5#46"
+      },
+      {
+        "point": "Plan: cloud capacity ahead, staff up early, value-based messaging, time launches; estimate cross-price elasticity",
+        "source_ref": "be--sessions-4-and-5#47"
+      },
+      {
+        "point": "Conclusion: clarify the big picture and organize an action plan",
+        "source_ref": "be--sessions-4-and-5#48"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}
