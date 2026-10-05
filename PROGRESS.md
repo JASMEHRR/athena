@@ -68,12 +68,14 @@ No exam dates, so round-robin across subjects. Validate, ground and cover each d
 - [ ] P4 pass A: oml--casestudypeople-express (1 slides, 0 visual)
 - [x] P4 pass A: qtm--module-2-1 (33 slides, 18 visual)
   - 6 topics (qtm-m21-*), 29 chunks, 78 checks, 41 cards, 15 examples. By subagent (resumed), reviewed; derived answers re-computed (2 players: same mean 32.75, medians 10 and 30.5, modes 4 and 45; net worth P50 22, P80 32.5; retail stores mean 508/15, Q1 30, Q2 34, Q3 38, top 10% stores 4 and 12). Slide 24 says "alphabetical order" for an ascending list; lesson notes it.
-- [ ] P4 pass A: sce--introduction-to-social-entrepreneurship-2025 (23 slides, 7 visual)
+- [x] P4 pass A: sce--introduction-to-social-entrepreneurship-2025 (23 slides, 7 visual)
+  - 5 topics (sce-soc-*), 21 chunks, 60 checks, 36 cards, 6 examples. By subagent, reviewed.
 - [ ] P4 pass A: aib--ai-for-business-chapters-2-3 (17 slides, 0 visual)
 - [x] P4 pass A: be--sessions-4-and-5 (50 slides, 38 visual)
   - 8 topics (be-s45-*), 37 chunks, 102 checks, 51 cards, 27 examples. By subagent (resumed), reviewed. Unanswered practice slides (12, 24, 31, 36, 37, 49, 50) worked with the deck's formulas, numbers derived; they form one market, Qxd = 400 - 5Px and Qxs = -50 + 5Px, equilibrium at 45 rupees and 175 units. Flagged in lessons: slide 20's inverse supply has a sign slip (prints Px = 5 + 0.5Qxs); slide 12 never says how to read substitute/complement or normal/inferior from signs; slide 50's answer depends on whether unsold units count.
 - [ ] P4 pass A: far--five-elements-fs-recognition (3 slides, 3 visual)
-- [ ] P4 pass A: mm--session3-mm (22 slides, 17 visual)
+- [x] P4 pass A: mm--session3-mm (22 slides, 17 visual)
+  - 5 topics (mm-s3-*), 20 chunks, 58 checks, 36 cards, 13 examples. By subagent, reviewed. Brand names only where printed (Burger King, Pepsi, Coca-Cola, P&G, IKEA, Tata Nano, Amazon, Cadbury, Lever Ayush).
 - [ ] P4 pass A: oml--peoples-expressedpjul30 (18 slides, 16 visual)
 - [x] P4 pass A: qtm--module-3 (68 slides, 41 visual)
   - 13 topics (qtm-m3-*), 60 chunks, 161 checks, 78 cards, 37 examples. By subagent, reviewed. Unanswered practice slides (35, 39, 46, 55, 59, 60) solved with the deck's formulas, numbers marked derived. Slide errors named in lessons: slide 14 uses 0.2905 for 29.5%, slide 32 asks P(X >= 9) but computes P(X > 9). Binomial is listed but has no slide of its own.
