@@ -447,7 +447,387 @@
       "retired": false
     }
   ],
-  "questions": [],
+  "questions": [
+    {
+      "id": "be-s3-tu-mu-diminishing-q-15d2a1e4",
+      "type": "mcq",
+      "stem": "Total utility (TU) is defined in the slides as:",
+      "options": [
+        "the sum of the utilities derived by a consumer from the various units of goods and services he consumes",
+        "the change in total utility obtained from the consumption of an additional unit",
+        "the want-satisfying property of a commodity",
+        "marginal utility divided by the price of the good"
+      ],
+      "answer": "the sum of the utilities derived by a consumer from the various units of goods and services he consumes",
+      "accept": [],
+      "explanation": "TU = U1 + U2 + U3 + ... + Un: add up the utilities from the various units.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "define",
+      "source_refs": [
+        "be--session-3#11",
+        "be--session-3#4",
+        "be--session-3#19"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s3-tu-mu-diminishing-q-27016f83",
+      "type": "mcq",
+      "stem": "In the professor's table, total utility is 30 for 1 unit and 50 for 2 units. The marginal utility of the 2nd unit is:",
+      "options": [
+        "20",
+        "50",
+        "30",
+        "80"
+      ],
+      "answer": "20",
+      "accept": [],
+      "explanation": "MU = TU_n - TU_(n-1) = 50 - 30 = 20, as the table shows.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "numerical",
+      "source_refs": [
+        "be--session-3#13",
+        "be--session-3#11"
+      ],
+      "derived": [
+        "80"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s3-tu-mu-diminishing-q-6e35058b",
+      "type": "mcq",
+      "stem": "In the professor's table, total utility reaches its highest value (60) and stays there when marginal utility is:",
+      "options": [
+        "0",
+        "10",
+        "30",
+        "-10"
+      ],
+      "answer": "0",
+      "accept": [],
+      "explanation": "TU is 60 for both the 3rd and 4th units, because the 4th unit adds MU = 0.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "apply",
+      "source_refs": [
+        "be--session-3#13",
+        "be--session-3#11"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s3-tu-mu-diminishing-q-365214ed",
+      "type": "mcq",
+      "stem": "In the table, once marginal utility becomes negative (the 5th unit), total utility:",
+      "options": [
+        "falls",
+        "rises",
+        "stays at 60",
+        "becomes zero"
+      ],
+      "answer": "falls",
+      "accept": [],
+      "explanation": "With MU of -10 for the 5th unit, TU falls from 60 to 50.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "apply",
+      "source_refs": [
+        "be--session-3#13",
+        "be--session-3#14",
+        "be--session-3#11"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s3-tu-mu-diminishing-q-62f758d0",
+      "type": "mcq",
+      "stem": "On the professor's graph, the marginal utility line crosses zero:",
+      "options": [
+        "between the 4th and 5th units",
+        "between the 1st and 2nd units",
+        "at the 6th unit only",
+        "it never crosses zero"
+      ],
+      "answer": "between the 4th and 5th units",
+      "accept": [],
+      "explanation": "The blue MU line slopes down and goes below zero between the 4th and 5th units.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "diagram",
+      "source_refs": [
+        "be--session-3#14",
+        "be--session-3#11"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s3-tu-mu-diminishing-q-fd031ad0",
+      "type": "short",
+      "stem": "Explain the law of diminishing marginal utility using the professor's table.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The law says **the utility gained from successive units of a commodity diminishes**: **marginal utility diminishes as the consumer acquires larger quantities**.\n\n**Professor's table:**\n\n| Units | TU | MU |\n|---|---|---|\n| 1 | 30 | 30 |\n| 2 | 50 | 20 |\n| 3 | 60 | 10 |\n| 4 | 60 | 0 |\n| 5 | 50 | -10 |\n| 6 | 45 | -5 |\n\n- **MU falls** from 30 to 20 to 10 to **0**, then turns **negative**.\n- **TU rises** while MU is positive, is **highest (60)** when MU is 0, and **falls** once MU is negative.\n\nSo each extra unit adds less satisfaction than the one before it.",
+      "rubric": [
+        {
+          "point": "Utility from successive units diminishes",
+          "source_ref": "be--session-3#12"
+        },
+        {
+          "point": "MU diminishes as the consumer acquires larger quantities",
+          "source_ref": "be--session-3#12"
+        },
+        {
+          "point": "Table: MU 30, 20, 10, 0, then negative",
+          "source_ref": "be--session-3#13"
+        },
+        {
+          "point": "TU rises, peaks at 60 when MU is 0, then falls",
+          "source_ref": "be--session-3#13"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 1,
+      "style_tag": "explain",
+      "source_refs": [
+        "be--session-3#12",
+        "be--session-3#13",
+        "be--session-3#11"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s3-tu-mu-diminishing-q-0c347ac6",
+      "type": "short",
+      "stem": "Total utility from 1 to 6 units of a commodity is 30, 50, 60, 60, 50 and 45. Calculate the marginal utility of each unit using the formula, and comment on the result.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Formula:** MU = (TU_n - TU_(n-1)) / (Commodity_n - Commodity_(n-1)). Here each step is one unit, so MU = TU_n - TU_(n-1).\n\n**Working:**\n- 1st unit: 30 - 0 = **30**\n- 2nd unit: 50 - 30 = **20**\n- 3rd unit: 60 - 50 = **10**\n- 4th unit: 60 - 60 = **0**\n- 5th unit: 50 - 60 = **-10**\n- 6th unit: 45 - 50 = **-5**\n\n**Comment:** MU falls as more units are consumed, which is the **law of diminishing marginal utility**. TU is highest when MU is 0 and falls once MU turns negative. These are exactly the figures in the professor's table.",
+      "rubric": [
+        {
+          "point": "MU = (TU_n - TU_(n-1)) / (Commodity_n - Commodity_(n-1))",
+          "source_ref": "be--session-3#16"
+        },
+        {
+          "point": "MU values 30, 20, 10, 0, -10, -5",
+          "source_ref": "be--session-3#13"
+        },
+        {
+          "point": "MU falls as more units are consumed: diminishing marginal utility",
+          "source_ref": "be--session-3#12"
+        },
+        {
+          "point": "TU highest when MU is 0, falls when MU is negative",
+          "source_ref": "be--session-3#13"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "be--session-3#13",
+        "be--session-3#11",
+        "be--session-3#16",
+        "be--session-3#12"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s3-tu-mu-diminishing-q-4f8dc271",
+      "type": "short",
+      "stem": "A consumer gets marginal utility of 30, 20 and 10 from the 1st, 2nd and 3rd units of a commodity. Find the total utility of 3 units using the slide's formula.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Formula:** TU = U1 + U2 + U3 + ... + Un.\n\n**Working:** TU = 30 + 20 + 10 = **60**.\n\n**Comment:** this matches the professor's table, where total utility of 3 units is 60. Total utility is simply the running sum of the marginal utilities.",
+      "rubric": [
+        {
+          "point": "TU = U1 + U2 + U3 + ... + Un",
+          "source_ref": "be--session-3#11"
+        },
+        {
+          "point": "TU = 30 + 20 + 10 = 60",
+          "source_ref": "be--session-3#13"
+        },
+        {
+          "point": "Matches the table: TU of 3 units is 60",
+          "source_ref": "be--session-3#13"
+        }
+      ],
+      "marks": 2.0,
+      "difficulty": 1,
+      "style_tag": "numerical",
+      "source_refs": [
+        "be--session-3#11",
+        "be--session-3#13"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s3-tu-mu-diminishing-q-c35cef92",
+      "type": "differentiate",
+      "stem": "Differentiate between total utility and marginal utility.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Both measure satisfaction from consuming units of a good, but one is a **sum** and the other a **change**.\n\n| Basis | Total utility (TU) | Marginal utility (MU) |\n|---|---|---|\n| Meaning | **Sum** of the utilities from the various units consumed | **Change** in TU from consuming an **additional unit** |\n| Formula | TU = U1 + U2 + U3 + ... + Un | MU = ΔTU / ΔQuantity of good X |\n| Table, 2 units | 50 | 20 (50 - 30) |\n| Behaviour | Rises, peaks at 60, then falls | Falls steadily: 30, 20, 10, 0, then negative |\n\nSo TU tells you how much satisfaction in all, and MU tells you what the last unit added.",
+      "rubric": [
+        {
+          "point": "TU: sum of utilities from the various units consumed",
+          "source_ref": "be--session-3#11"
+        },
+        {
+          "point": "MU: change in TU from an additional unit",
+          "source_ref": "be--session-3#11"
+        },
+        {
+          "point": "Formulas: TU = U1 + ... + Un; MU = ΔTU / ΔQuantity of good X",
+          "source_ref": "be--session-3#16"
+        },
+        {
+          "point": "Table example: TU 50 vs MU 20 at 2 units; TU peaks while MU falls",
+          "source_ref": "be--session-3#13"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 1,
+      "style_tag": "differentiate",
+      "source_refs": [
+        "be--session-3#11",
+        "be--session-3#16",
+        "be--session-3#13"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s3-tu-mu-diminishing-q-7c32cae5",
+      "type": "long",
+      "stem": "Explain the relationship between total utility and marginal utility with the help of the professor's table and diagram.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Total utility** and **marginal utility** move together in a fixed pattern, and the **law of diminishing marginal utility** explains it.\n\n**Definitions**\n- **Total utility (TU):** the **sum of the utilities** a consumer derives from the various units consumed. TU = U1 + U2 + ... + Un.\n- **Marginal utility (MU):** the **change in TU** from consuming an **additional unit**. MU = ΔTU / ΔQuantity of good X = (TU_n - TU_(n-1)) / (Commodity_n - Commodity_(n-1)).\n\n**The professor's table**\n\n| Units | TU | MU |\n|---|---|---|\n| 1 | 30 | 30 |\n| 2 | 50 | 20 |\n| 3 | 60 | 10 |\n| 4 | 60 | 0 |\n| 5 | 50 | -10 |\n| 6 | 45 | -5 |\n\n**The relationship, read from the table**\n1. **While MU is positive, TU rises** (30 to 50 to 60).\n2. **When MU is zero, TU is at its maximum** (60 at the 4th unit).\n3. **When MU is negative, TU falls** (to 50, then 45).\n\n**The diagram:** units 1 to 6 on the horizontal axis, utility from -20 to 70 on the vertical axis. The **red TU line** climbs, **peaks at the 4th unit** and then falls. The **blue MU line slopes down** all the way and **crosses zero between the 4th and 5th units**.\n\nNote: the graph's plotted points differ slightly from the table (TU at the 5th unit is 60 on the graph and 50 in the table), so quote the table's figures in the exam.\n\n**Conclusion:** MU diminishes with each extra unit, and TU keeps rising only as long as MU stays above zero.",
+      "rubric": [
+        {
+          "point": "TU: sum of utilities; MU: change in TU from an additional unit",
+          "source_ref": "be--session-3#11"
+        },
+        {
+          "point": "MU positive: TU rises",
+          "source_ref": "be--session-3#13"
+        },
+        {
+          "point": "MU zero: TU maximum (60 at the 4th unit)",
+          "source_ref": "be--session-3#13"
+        },
+        {
+          "point": "MU negative: TU falls",
+          "source_ref": "be--session-3#13"
+        },
+        {
+          "point": "Graph: TU peaks at the 4th unit; MU slopes down and crosses zero between 4th and 5th units",
+          "source_ref": "be--session-3#14"
+        },
+        {
+          "point": "Law: marginal utility diminishes as quantity increases",
+          "source_ref": "be--session-3#12"
+        }
+      ],
+      "marks": 5.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "be--session-3#11",
+        "be--session-3#12",
+        "be--session-3#13",
+        "be--session-3#14",
+        "be--session-3#16"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s3-tu-mu-diminishing-q-f3936fe6",
+      "type": "long",
+      "stem": "The marginal utility of six successive units of a commodity is 30, 20, 10, 0, -10 and -5. (i) Calculate total utility at each unit. (ii) State where total utility is highest. (iii) Comment on the result using the law of diminishing marginal utility.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Formula:** TU = U1 + U2 + U3 + ... + Un, so each TU is the previous TU plus the new MU.\n\n**(i) Working:**\n\n| Units | MU | TU |\n|---|---|---|\n| 1 | 30 | 30 |\n| 2 | 20 | 30 + 20 = 50 |\n| 3 | 10 | 50 + 10 = 60 |\n| 4 | 0 | 60 + 0 = 60 |\n| 5 | -10 | 60 - 10 = 50 |\n| 6 | -5 | 50 - 5 = 45 |\n\n**(ii) Highest TU:** **60**, reached at the 3rd unit and held at the 4th unit, where **MU = 0**.\n\n**(iii) Comment:**\n- The law says **the marginal utility of a commodity diminishes as the consumer acquires larger quantities of it**. Here MU falls from 30 to 20 to 10 to 0.\n- While MU is positive, TU rises; when MU is 0, TU is at its maximum; when MU turns negative, TU falls.\n- This is the professor's table, and the same shape appears on the graph: TU peaks around the 4th unit while MU crosses zero between the 4th and 5th units.\n- Note that the 6th unit's MU (-5) is less negative than the 5th unit's (-10), so the last step is not a further fall. Reproduce it exactly as the slide shows.\n\n**Conclusion:** a consumer gains nothing from going past the point where MU reaches zero, because TU only falls after that.",
+      "rubric": [
+        {
+          "point": "TU = U1 + U2 + ... + Un (running sum of MU)",
+          "source_ref": "be--session-3#11"
+        },
+        {
+          "point": "TU: 30, 50, 60, 60, 50, 45",
+          "source_ref": "be--session-3#13"
+        },
+        {
+          "point": "TU highest at 60 where MU = 0",
+          "source_ref": "be--session-3#13"
+        },
+        {
+          "point": "MU diminishes as quantity increases",
+          "source_ref": "be--session-3#12"
+        },
+        {
+          "point": "TU falls once MU is negative; graph shows the same shape",
+          "source_ref": "be--session-3#14"
+        }
+      ],
+      "marks": 5.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "be--session-3#11",
+        "be--session-3#12",
+        "be--session-3#13",
+        "be--session-3#14"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
   "explain_back": {
     "prompt": "Define total utility and marginal utility, then state and explain the law of diminishing marginal utility with the professor's table and graph.",
     "rubric": [

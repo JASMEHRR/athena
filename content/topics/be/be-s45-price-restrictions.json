@@ -633,7 +633,439 @@
       "retired": false
     }
   ],
-  "questions": [],
+  "questions": [
+    {
+      "id": "be-s45-price-restrictions-q-c588009b",
+      "type": "mcq",
+      "stem": "A price ceiling is defined in the slides as:",
+      "options": [
+        "The maximum legal price that can be charged",
+        "The minimum legal price that can be charged",
+        "The price that balances supply and demand",
+        "The dollar amount paid under a ceiling plus the nonpecuniary price"
+      ],
+      "answer": "The maximum legal price that can be charged",
+      "accept": [],
+      "explanation": "A ceiling caps price from above; the minimum legal price is a price floor.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "define",
+      "source_refs": [
+        "be--sessions-4-and-5#32",
+        "be--sessions-4-and-5#26",
+        "be--sessions-4-and-5#34"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s45-price-restrictions-q-6ea4957e",
+      "type": "mcq",
+      "stem": "Which of these is the slides' example of a price floor?",
+      "options": [
+        "Minimum wage",
+        "NPPA fixing prices of stents",
+        "Price caps on surge pricing for Uber / Ola",
+        "Ola recalculating fares in real time"
+      ],
+      "answer": "Minimum wage",
+      "accept": [],
+      "explanation": "Price floor examples: minimum wage and agricultural price supports. NPPA stents and surge caps are price ceilings.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "example",
+      "source_refs": [
+        "be--sessions-4-and-5#32",
+        "be--sessions-4-and-5#4"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s45-price-restrictions-q-b5960016",
+      "type": "mcq",
+      "stem": "On the 'Impact of a Price Ceiling' graph, the ceiling is set below P*. The result is:",
+      "options": [
+        "Qs falls to the left of Q* and Qd rises to the right of Q*: a shortage",
+        "Qd falls to the left of Q* and QS rises to the right of Q*: a surplus",
+        "Quantity stays at Q*: no shortage or surplus",
+        "Both Qs and Qd rise above Q*"
+      ],
+      "answer": "Qs falls to the left of Q* and Qd rises to the right of Q*: a shortage",
+      "accept": [],
+      "explanation": "Below P*, sellers offer less and buyers want more, so the gap between Qs and Qd is a shortage.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "diagram",
+      "source_refs": [
+        "be--sessions-4-and-5#33",
+        "be--sessions-4-and-5#35",
+        "be--sessions-4-and-5#26"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s45-price-restrictions-q-029f3357",
+      "type": "mcq",
+      "stem": "In Pf = Pc + (Pf - Pc), the nonpecuniary price is:",
+      "options": [
+        "Pf - Pc",
+        "Pf + Pc",
+        "Pc",
+        "Pf"
+      ],
+      "answer": "Pf - Pc",
+      "accept": [],
+      "explanation": "Pf is the full economic price, Pc the price ceiling, and Pf - Pc the nonpecuniary price.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "formula",
+      "source_refs": [
+        "be--sessions-4-and-5#34"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s45-price-restrictions-q-6188a754",
+      "type": "mcq",
+      "stem": "With Qxd = 400 - 5Px and Qxs = -50 + 5Px, a price ceiling of ₹40 creates a shortage of:",
+      "options": [
+        "50 units",
+        "200 units",
+        "150 units",
+        "10 units"
+      ],
+      "answer": "50 units",
+      "accept": [],
+      "explanation": "Qxd = 400 - 200 = 200 and Qxs = -50 + 200 = 150, so shortage = 200 - 150 = 50.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "be--sessions-4-and-5#36"
+      ],
+      "derived": [
+        "200",
+        "150",
+        "50"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s45-price-restrictions-q-9db52b0c",
+      "type": "short",
+      "stem": "Explain the full economic price under a price ceiling.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The **full economic price** is **the dollar amount paid to a firm under a price ceiling, plus the nonpecuniary price**.\n\n**Pf = Pc + (Pf - Pc)**\n- **Pf** = full economic price\n- **Pc** = price ceiling (the money paid to the firm)\n- **Pf - Pc** = **nonpecuniary price**\n\n**On the ceiling graph:** go up from **Qs** (the quantity sellers offer at the ceiling) to the demand curve and across to the price axis. That price, **PF**, is **above P***.\n\nSo a ceiling lowers the cash price, but the full price buyers bear can end up above the equilibrium price.",
+      "rubric": [
+        {
+          "point": "Full economic price: amount paid under a ceiling plus the nonpecuniary price",
+          "source_ref": "be--sessions-4-and-5#34"
+        },
+        {
+          "point": "Pf = Pc + (Pf - Pc)",
+          "source_ref": "be--sessions-4-and-5#34"
+        },
+        {
+          "point": "Pf - Pc is the nonpecuniary price",
+          "source_ref": "be--sessions-4-and-5#34"
+        },
+        {
+          "point": "Graph: up from Qs to demand gives PF above P*",
+          "source_ref": "be--sessions-4-and-5#33"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "be--sessions-4-and-5#34",
+        "be--sessions-4-and-5#33"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s45-price-restrictions-q-c11a0293",
+      "type": "short",
+      "stem": "Explain the impact of a price ceiling with the slide's diagram.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "A **price ceiling** is **the maximum legal price that can be charged**.\n\n- **Diagram:** D and S cross at **P*** and **Q***. The red line **P Ceiling** is drawn **below P***.\n- At the ceiling, the supply curve gives **Qs**, **to the left of Q***, and the demand curve gives **Qd**, **to the right of Q***.\n- The gap between Qs and Qd is a **shortage**.\n- Going up from Qs to the demand curve gives **PF**, a price **above P***: the full economic price.\n- **Slide examples:** NPPA fixing prices of stents; price caps on surge pricing for Uber / Ola.\n\nSo a ceiling below equilibrium leaves buyers wanting more than sellers offer.",
+      "rubric": [
+        {
+          "point": "Ceiling: maximum legal price, drawn below P*",
+          "source_ref": "be--sessions-4-and-5#32"
+        },
+        {
+          "point": "Qs left of Q*, Qd right of Q*",
+          "source_ref": "be--sessions-4-and-5#33"
+        },
+        {
+          "point": "Gap is a shortage",
+          "source_ref": "be--sessions-4-and-5#33"
+        },
+        {
+          "point": "PF above P* from Qs up to demand",
+          "source_ref": "be--sessions-4-and-5#33"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 1,
+      "style_tag": "explain",
+      "source_refs": [
+        "be--sessions-4-and-5#33",
+        "be--sessions-4-and-5#32"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s45-price-restrictions-q-5934c64d",
+      "type": "differentiate",
+      "stem": "Differentiate between a price ceiling and a price floor.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Both are **price restrictions** set by law, but they push in opposite directions.\n\n| Basis | Price ceiling | Price floor |\n|---|---|---|\n| Meaning | **Maximum** legal price | **Minimum** legal price |\n| Position on graph | **Below P*** | **Above P*** |\n| Result | Qs < Q* < Qd: a **shortage** | Qd < Q* < QS: a **surplus** |\n| Slide examples | NPPA fixing prices of stents; price caps on surge pricing for Uber / Ola | Minimum wage; agricultural price supports |\n\nSo a ceiling caps the price from above and causes a shortage, while a floor props it up from below and causes a surplus.",
+      "rubric": [
+        {
+          "point": "Ceiling: maximum legal price; floor: minimum legal price",
+          "source_ref": "be--sessions-4-and-5#32"
+        },
+        {
+          "point": "Ceiling below P* gives a shortage",
+          "source_ref": "be--sessions-4-and-5#33"
+        },
+        {
+          "point": "Floor above P* gives a surplus",
+          "source_ref": "be--sessions-4-and-5#35"
+        },
+        {
+          "point": "Examples: NPPA stents, Uber / Ola caps vs minimum wage, agricultural price supports",
+          "source_ref": "be--sessions-4-and-5#32"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 1,
+      "style_tag": "differentiate",
+      "source_refs": [
+        "be--sessions-4-and-5#32",
+        "be--sessions-4-and-5#33",
+        "be--sessions-4-and-5#35"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s45-price-restrictions-q-93bd0a52",
+      "type": "short",
+      "stem": "With Qxd = 400 - 5Px and Qxs = -50 + 5Px, a price floor of ₹50 is imposed. Determine Qxd, Qxs, the surplus, and the cost to the government if it buys the surplus.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**At the floor price of ₹50:**\n- Qxd = 400 - 5(50) = 400 - 250 = **150**\n- Qxs = -50 + 5(50) = -50 + 250 = **200**\n\n**Surplus** = Qxs - Qxd = 200 - 150 = **50 units**\n\n**Cost to the government** = surplus x floor price = 50 x 50 = **₹2,500**\n\n**Comment:** the floor sits above the market price, so sellers offer more than buyers want; the government must pay ₹2,500 to absorb the unsold units.",
+      "rubric": [
+        {
+          "point": "Qxd = 150 at ₹50",
+          "source_ref": "be--sessions-4-and-5#37"
+        },
+        {
+          "point": "Qxs = 200 at ₹50",
+          "source_ref": "be--sessions-4-and-5#37"
+        },
+        {
+          "point": "Surplus = 200 - 150 = 50",
+          "source_ref": "be--sessions-4-and-5#35"
+        },
+        {
+          "point": "Government cost = 50 x 50 = ₹2,500",
+          "source_ref": "be--sessions-4-and-5#37"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "be--sessions-4-and-5#37",
+        "be--sessions-4-and-5#35"
+      ],
+      "derived": [
+        "250",
+        "150",
+        "200",
+        "2500"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s45-price-restrictions-q-5f165faf",
+      "type": "long",
+      "stem": "With Qxd = 400 - 5Px and Qxs = -50 + 5Px, a price ceiling of ₹40 is imposed. (i) Determine Qxd and Qxs. (ii) Find the magnitude of the shortage. (iii) Determine the full economic price paid by consumers. (iv) Split it into the ceiling price and the nonpecuniary price, and comment.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**(i) Quantities at the ceiling of ₹40**\n- Qxd = 400 - 5(40) = 400 - 200 = **200**\n- Qxs = -50 + 5(40) = -50 + 200 = **150**\n\n**(ii) Shortage**\nShortage = Qxd - Qxs = 200 - 150 = **50 units**\n\n**(iii) Full economic price**\nFollow the ceiling graph: go up from Qs = 150 to the demand curve and read the price.\n- 150 = 400 - 5Pf\n- 5Pf = 400 - 150 = 250\n- **Pf = ₹50**\n\n**(iv) Split with Pf = Pc + (Pf - Pc)**\n- 50 = 40 + (50 - 40)\n- Price ceiling Pc = **₹40** (cash paid to the firm)\n- **Nonpecuniary price = ₹10**\n\n**Comment:** without the ceiling, the market would settle where 400 - 5Px = -50 + 5Px, at ₹45. The ceiling cuts the cash price to ₹40, but only 150 units are offered, and the full economic price buyers bear, ₹50, ends up **above** the equilibrium price of ₹45.\n\n**Conclusion:** a ceiling below equilibrium creates a shortage, and buyers pay the gap in a nonpecuniary form.",
+      "rubric": [
+        {
+          "point": "Qxd = 200 and Qxs = 150 at ₹40",
+          "source_ref": "be--sessions-4-and-5#36"
+        },
+        {
+          "point": "Shortage = 50 units",
+          "source_ref": "be--sessions-4-and-5#36"
+        },
+        {
+          "point": "Full economic price from 150 = 400 - 5Pf: Pf = ₹50",
+          "source_ref": "be--sessions-4-and-5#33"
+        },
+        {
+          "point": "Pf = Pc + (Pf - Pc): nonpecuniary price ₹10",
+          "source_ref": "be--sessions-4-and-5#34"
+        },
+        {
+          "point": "Pf (₹50) is above the equilibrium price (₹45)",
+          "source_ref": "be--sessions-4-and-5#31"
+        }
+      ],
+      "marks": 5.0,
+      "difficulty": 3,
+      "style_tag": "numerical",
+      "source_refs": [
+        "be--sessions-4-and-5#36",
+        "be--sessions-4-and-5#33",
+        "be--sessions-4-and-5#34",
+        "be--sessions-4-and-5#31"
+      ],
+      "derived": [
+        "200",
+        "150",
+        "250",
+        "45",
+        "50"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s45-price-restrictions-q-6073a92e",
+      "type": "case",
+      "stem": "On a rainy night an Ola ride that normally costs ₹180 is priced at ₹540. Suppose the government puts a cap on surge pricing below the price that balances supply and demand. Using the slides, name this restriction and explain what the price ceiling diagram predicts.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The opening puzzle of the session and the price restrictions slide meet here.\n\n**The situation:** Ola **recalculates price in real time based on the ratio of ride requests to available drivers nearby**, so the 9 PM fare goes from **₹180** to **₹540** in the rain.\n\n**The restriction:** a cap on surge fares is a **price ceiling**, **the maximum legal price that can be charged**. The slide lists **price caps on surge pricing for Uber / Ola** as an example, alongside NPPA fixing prices of stents.\n\n**What the ceiling diagram predicts** (cap set below P*):\n1. At the capped fare, sellers offer less: **Qs falls to the left of Q***.\n2. Buyers want more: **Qd is to the right of Q***.\n3. The gap is a **shortage**: more ride requests than rides offered.\n4. Going up from Qs to the demand curve gives **PF**, the **full economic price**, which is **above P***.\n5. **Pf = Pc + (Pf - Pc)**: riders pay the capped fare **Pc** in money, and the rest, **Pf - Pc**, is a **nonpecuniary price**.\n\n**Conclusion:** the cap lowers the cash fare, but the slides' model predicts a shortage of rides and a full economic price that can end up higher than the uncapped equilibrium price.",
+      "rubric": [
+        {
+          "point": "Ola prices from the ratio of ride requests to available drivers: ₹180 to ₹540",
+          "source_ref": "be--sessions-4-and-5#4"
+        },
+        {
+          "point": "Surge cap is a price ceiling (maximum legal price); slide example Uber / Ola",
+          "source_ref": "be--sessions-4-and-5#32"
+        },
+        {
+          "point": "Below P*: Qs left of Q*, Qd right of Q*, a shortage",
+          "source_ref": "be--sessions-4-and-5#33"
+        },
+        {
+          "point": "Full economic price PF above P*",
+          "source_ref": "be--sessions-4-and-5#33"
+        },
+        {
+          "point": "Pf = Pc + (Pf - Pc): nonpecuniary price",
+          "source_ref": "be--sessions-4-and-5#34"
+        }
+      ],
+      "marks": 5.0,
+      "difficulty": 3,
+      "style_tag": "case",
+      "source_refs": [
+        "be--sessions-4-and-5#3",
+        "be--sessions-4-and-5#4",
+        "be--sessions-4-and-5#32",
+        "be--sessions-4-and-5#33",
+        "be--sessions-4-and-5#34"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s45-price-restrictions-q-45fa7ac6",
+      "type": "long",
+      "stem": "Explain price restrictions: price ceilings and price floors, with diagrams and the slides' examples.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Sometimes the law, not the market, limits the price. The deck calls these **price restrictions**.\n\n**1. Price ceiling**\n- **The maximum legal price that can be charged.**\n- Examples: **National Pharmaceutical Pricing Authority (NPPA)** fixing prices of **stents** and other price saving drugs; **price caps on surge pricing for Uber / Ola**.\n- **Diagram:** D and S cross at P* and Q*. The **P Ceiling** line sits **below P***. Supply gives **Qs** (left of Q*) and demand gives **Qd** (right of Q*). The gap is a **shortage**.\n- **Full economic price:** going up from Qs to the demand curve gives **PF**, above P*. **Pf = Pc + (Pf - Pc)**, where Pf - Pc is the **nonpecuniary price**.\n\n**2. Price floor**\n- **The minimum legal price that can be charged.**\n- Examples: **minimum wage**; **agricultural price supports**.\n- **Diagram:** the floor line (labelled **PF** on this graph) sits **above P***. Demand gives **Qd** (left of Q*) and supply gives **QS** (right of Q*). The gap is a **surplus**.\n\n**3. Watch the label**\nOn the ceiling graph PF is the full economic price; on the floor graph PF is the floor itself.\n\n**Conclusion:** a ceiling below equilibrium creates a shortage and a full economic price above P*, while a floor above equilibrium creates a surplus.",
+      "rubric": [
+        {
+          "point": "Ceiling: maximum legal price; NPPA stents, Uber / Ola surge caps",
+          "source_ref": "be--sessions-4-and-5#32"
+        },
+        {
+          "point": "Ceiling below P*: Qs < Q* < Qd, shortage",
+          "source_ref": "be--sessions-4-and-5#33"
+        },
+        {
+          "point": "Full economic price Pf = Pc + (Pf - Pc); nonpecuniary price",
+          "source_ref": "be--sessions-4-and-5#34"
+        },
+        {
+          "point": "Floor: minimum legal price; minimum wage, agricultural price supports",
+          "source_ref": "be--sessions-4-and-5#32"
+        },
+        {
+          "point": "Floor above P*: Qd < Q* < QS, surplus",
+          "source_ref": "be--sessions-4-and-5#35"
+        }
+      ],
+      "marks": 5.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "be--sessions-4-and-5#32",
+        "be--sessions-4-and-5#33",
+        "be--sessions-4-and-5#34",
+        "be--sessions-4-and-5#35"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
   "explain_back": {
     "prompt": "Explain price ceilings and price floors with the slide examples, show what each does to the market on a graph, and explain the full economic price.",
     "rubric": [

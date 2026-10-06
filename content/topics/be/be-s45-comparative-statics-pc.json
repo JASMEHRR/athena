@@ -476,7 +476,349 @@
       "retired": false
     }
   ],
-  "questions": [],
+  "questions": [
+    {
+      "id": "be-s45-comparative-statics-pc-q-6e674766",
+      "type": "mcq",
+      "stem": "Comparative static analysis shows:",
+      "options": [
+        "how the equilibrium price and quantity will change when a determinant of supply or demand changes",
+        "the price that balances supply and demand",
+        "the maximum legal price that can be charged",
+        "the value consumers get from a good but do not have to pay for"
+      ],
+      "answer": "how the equilibrium price and quantity will change when a determinant of supply or demand changes",
+      "accept": [],
+      "explanation": "That is the slide's definition; the others are equilibrium, a price ceiling and consumer surplus.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "define",
+      "source_refs": [
+        "be--sessions-4-and-5#41",
+        "be--sessions-4-and-5#26",
+        "be--sessions-4-and-5#32",
+        "be--sessions-4-and-5#13"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s45-comparative-statics-pc-q-6a72bea6",
+      "type": "mcq",
+      "stem": "A fall in the prices of PC components shows up on the PC market graph as:",
+      "options": [
+        "Supply shifting right from S to S*",
+        "Demand shifting right from D to D*",
+        "Supply shifting left",
+        "A movement along the demand curve only, with no shift"
+      ],
+      "answer": "Supply shifting right from S to S*",
+      "accept": [],
+      "explanation": "Components are inputs, and input prices are a determinant of supply; the graph shows S moving right to S* while D stays put.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "diagram",
+      "source_refs": [
+        "be--sessions-4-and-5#43",
+        "be--sessions-4-and-5#21",
+        "be--sessions-4-and-5#46"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s45-comparative-statics-pc-q-58c6619b",
+      "type": "mcq",
+      "stem": "The big picture for the PC market after component prices fall is:",
+      "options": [
+        "Equilibrium price of PCs falls and equilibrium quantity sold increases",
+        "Price of PCs rises and quantity sold increases",
+        "Price of PCs falls and quantity sold falls",
+        "Price of PCs rises and quantity sold falls"
+      ],
+      "answer": "Equilibrium price of PCs falls and equilibrium quantity sold increases",
+      "accept": [],
+      "explanation": "Supply shifts right along an unchanged demand curve: P0 falls to P*, Q0 rises to Q*.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "recall",
+      "source_refs": [
+        "be--sessions-4-and-5#44",
+        "be--sessions-4-and-5#43",
+        "be--sessions-4-and-5#47"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s45-comparative-statics-pc-q-cec8d29f",
+      "type": "mcq",
+      "stem": "In the applications example, the WSJ reports that prices of PC components are expected to:",
+      "options": [
+        "fall by 5-8 percent over the next six months",
+        "rise over 10% in FY26",
+        "rise 3x on a rainy Friday night",
+        "fall by 3% next month"
+      ],
+      "answer": "fall by 5-8 percent over the next six months",
+      "accept": [],
+      "explanation": "That is the event on the applications slide; the other figures come from the rice headline and the Ola puzzle.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "recall",
+      "source_refs": [
+        "be--sessions-4-and-5#40",
+        "be--sessions-4-and-5#39",
+        "be--sessions-4-and-5#3",
+        "be--sessions-4-and-5#44"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s45-comparative-statics-pc-q-537fe4ba",
+      "type": "mcq",
+      "stem": "For inventories, the slides' action plan for a small PC maker is to:",
+      "options": [
+        "Sell down inventory faster rather than hold",
+        "Ramp up cloud infrastructure ahead of the demand surge",
+        "Hold existing stock until prices recover",
+        "Stop new production until component prices rise"
+      ],
+      "answer": "Sell down inventory faster rather than hold",
+      "accept": [],
+      "explanation": "Existing stock built with expensive components is losing value as the market price falls. Cloud infrastructure is the software maker's plan.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "apply",
+      "source_refs": [
+        "be--sessions-4-and-5#44",
+        "be--sessions-4-and-5#47"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s45-comparative-statics-pc-q-369e68a0",
+      "type": "short",
+      "stem": "Explain comparative static analysis and the two steps the slides use to apply it.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The deck asks: **how do the equilibrium price and quantity change when a determinant of supply and/or demand changes?**\n\n- **Comparative static analysis** **shows how the equilibrium price and quantity will change when a determinant of supply or demand changes**. Slogan: **use it to see the big picture!**\n- **Step 1: look for the \"Big Picture\"**: the general impact of an event on equilibrium prices and quantities.\n- **Step 2: organize an action plan** (worry about details): needed changes in production, inventories, raw materials, human resources, marketing plans.\n\nExample: the WSJ event on PC component prices, worked for a small PC maker and a small software company.",
+      "rubric": [
+        {
+          "point": "Shows how equilibrium price and quantity change when a determinant changes",
+          "source_ref": "be--sessions-4-and-5#41"
+        },
+        {
+          "point": "Step 1: look for the big picture",
+          "source_ref": "be--sessions-4-and-5#42"
+        },
+        {
+          "point": "Step 2: organize an action plan, worry about details",
+          "source_ref": "be--sessions-4-and-5#42"
+        },
+        {
+          "point": "Action plan covers production, inventories, raw materials, human resources, marketing",
+          "source_ref": "be--sessions-4-and-5#48"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 1,
+      "style_tag": "explain",
+      "source_refs": [
+        "be--sessions-4-and-5#38",
+        "be--sessions-4-and-5#41",
+        "be--sessions-4-and-5#42",
+        "be--sessions-4-and-5#48",
+        "be--sessions-4-and-5#40"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s45-comparative-statics-pc-q-11a71290",
+      "type": "short",
+      "stem": "Why does the slide say that direction alone (price down, quantity up) isn't enough for a PC maker to act on?",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The big picture tells the PC maker only the **direction**: **price down, quantity up**. Real decisions need **sizes**.\n\n- **How much to cut price: 3%? 8%?**\n- **How much more to order?**\n- To answer, the slide says you need **quantitative estimates** of: **demand elasticity**, the **size of the cost shift**, and **competitor pass-through**.\n\nSo comparative statics sets the direction, but the action plan needs numbers before the manager can set prices and order quantities.",
+      "rubric": [
+        {
+          "point": "Direction alone (price down, quantity up) isn't enough to act on",
+          "source_ref": "be--sessions-4-and-5#44"
+        },
+        {
+          "point": "Need to know how much to cut price: 3%? 8%?",
+          "source_ref": "be--sessions-4-and-5#44"
+        },
+        {
+          "point": "Need to know how much more to order",
+          "source_ref": "be--sessions-4-and-5#44"
+        },
+        {
+          "point": "Estimates needed: demand elasticity, size of cost shift, competitor pass-through",
+          "source_ref": "be--sessions-4-and-5#44"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "be--sessions-4-and-5#44"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s45-comparative-statics-pc-q-a4bcdb61",
+      "type": "short",
+      "stem": "The slides show two news headlines on India's rice exports right after asking how equilibrium changes. State what the headlines report and which side of the market they point to.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Right after the question **how do the equilibrium price and quantity change when a determinant of supply and/or demand changes?**, the deck shows two headlines:\n\n- **India export rice prices edge up on demand**; global rates rise amid Middle East tensions.\n- **India's rice exports to rise over 10% in FY26 on robust global demand.** In the 2024-25 fiscal India exported **20.1 million tonnes** of rice valued at **$12.95 billion**, reaching more than **172 countries**.\n\n**Which side:** both headlines tie a rise in price or quantity to **demand**. The slide gives no further explanation, so treat it as a real-world prompt for comparative static analysis.",
+      "rubric": [
+        {
+          "point": "Headline: India export rice prices edge up on demand",
+          "source_ref": "be--sessions-4-and-5#39"
+        },
+        {
+          "point": "Headline: exports to rise over 10% in FY26 on robust global demand",
+          "source_ref": "be--sessions-4-and-5#39"
+        },
+        {
+          "point": "20.1 million tonnes worth $12.95 billion, more than 172 countries",
+          "source_ref": "be--sessions-4-and-5#39"
+        },
+        {
+          "point": "Both point to demand; prompt for comparative static analysis",
+          "source_ref": "be--sessions-4-and-5#38"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 2,
+      "style_tag": "case",
+      "source_refs": [
+        "be--sessions-4-and-5#39",
+        "be--sessions-4-and-5#38"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s45-comparative-statics-pc-q-271c39d7",
+      "type": "long",
+      "stem": "With the help of a diagram, explain the impact of a decline in component prices on the PC market.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "This is the deck's worked example of **comparative static analysis**: how equilibrium price and quantity change when a determinant of supply or demand changes.\n\n**The event:** the **WSJ** reports that **prices of PC components are expected to fall by 5-8 percent over the next six months**.\n\n**Which curve moves?** Components are inputs, and **input prices** are the first item on the deck's list of **determinants of supply**. So the change hits the **supply** of PCs.\n\n**The diagram** (Impact of decline in component prices on PC market):\n- **Price of PCs** on the vertical axis, **Quantity of PC's** on the horizontal axis.\n- Demand **D** slopes down and **does not move**.\n- Supply shifts **right, from S to S***.\n- Equilibrium moves from **P0, Q0** to **P*, Q***: price **falls** from P0 to P*, quantity **rises** from Q0 to Q*.\n\n**The big picture, in the slide's words:** **equilibrium price of PCs will fall, and equilibrium quantity of computers sold will increase.**\n\n**What it means for a small PC maker:**\n- Stock built with expensive components loses value, so **sell down inventory faster** and **time new production** for cheaper components.\n- Higher volume may mean **staffing up production**.\n- Marketing: **lead with price cuts**, or **protect margin** by bundling features or software.\n\n**Conclusion:** cheaper components shift PC supply right, so PC prices fall and more PCs are sold.",
+      "rubric": [
+        {
+          "point": "Event: WSJ, component prices to fall 5-8 percent over six months",
+          "source_ref": "be--sessions-4-and-5#40"
+        },
+        {
+          "point": "Input prices are a determinant of supply, so supply shifts",
+          "source_ref": "be--sessions-4-and-5#21"
+        },
+        {
+          "point": "Diagram: S shifts right to S*, D unchanged",
+          "source_ref": "be--sessions-4-and-5#43"
+        },
+        {
+          "point": "P0 falls to P*, Q0 rises to Q*",
+          "source_ref": "be--sessions-4-and-5#43"
+        },
+        {
+          "point": "Big picture: PC price falls, quantity sold increases",
+          "source_ref": "be--sessions-4-and-5#44"
+        }
+      ],
+      "marks": 5.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "be--sessions-4-and-5#40",
+        "be--sessions-4-and-5#41",
+        "be--sessions-4-and-5#43",
+        "be--sessions-4-and-5#44",
+        "be--sessions-4-and-5#21"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s45-comparative-statics-pc-q-d99f4d21",
+      "type": "case",
+      "stem": "You manage a small firm that manufactures PCs. The WSJ reports that prices of PC components are expected to fall by 5-8 percent over the next six months. Using the slides' two-step method, set out the big picture and your action plan.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The deck's method has two steps: **look for the big picture**, then **organize an action plan**.\n\n**Step 1: Big picture**\n- Cheaper components lower the cost of making PCs, so PC **supply shifts right (S to S*)**.\n- **Equilibrium price of PCs will fall** (P0 to P*) and **equilibrium quantity sold will increase** (Q0 to Q*).\n\n**Step 2: Action plan**\n- **Inventories:** existing stock built with expensive components is **losing value as the market price falls**. **Sell down inventory faster** rather than hold, and **time new production** to align with cheaper components.\n- **Human resources:** equilibrium quantity is up, so industry-wide demand for PCs is growing. **Staff up production** to capture higher volume?\n- **Marketing:** **lead with price cuts** to match the falling market price? Or **protect margin** by bundling features/software instead of cutting price?\n- **Quantitative estimates:** **direction alone isn't enough to act on**. How much to cut price, **3% or 8%**? How much more to order? You need **demand elasticity**, the **size of the cost shift** and **competitor pass-through**.\n\n**Conclusion:** the big picture says lower prices and higher volume; the action plan turns that into faster inventory sales, production timing, staffing and a pricing choice backed by numbers.",
+      "rubric": [
+        {
+          "point": "Step 1 big picture: supply shifts right, price falls, quantity rises",
+          "source_ref": "be--sessions-4-and-5#43"
+        },
+        {
+          "point": "Inventories: sell down faster, time new production for cheaper components",
+          "source_ref": "be--sessions-4-and-5#44"
+        },
+        {
+          "point": "Human resources: staff up production for higher volume",
+          "source_ref": "be--sessions-4-and-5#44"
+        },
+        {
+          "point": "Marketing: price cuts or protect margin by bundling",
+          "source_ref": "be--sessions-4-and-5#44"
+        },
+        {
+          "point": "Estimates: demand elasticity, size of cost shift, competitor pass-through",
+          "source_ref": "be--sessions-4-and-5#44"
+        }
+      ],
+      "marks": 5.0,
+      "difficulty": 3,
+      "style_tag": "case",
+      "source_refs": [
+        "be--sessions-4-and-5#40",
+        "be--sessions-4-and-5#42",
+        "be--sessions-4-and-5#43",
+        "be--sessions-4-and-5#44"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
   "explain_back": {
     "prompt": "Use comparative static analysis to explain what happens in the PC market when component prices fall, and set out the action plan for a small PC maker.",
     "rubric": [
