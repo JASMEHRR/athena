@@ -97,7 +97,7 @@
     {
       "id": "qtm-m21-two-players-problem-c2",
       "heading": "Mean and median: the first question",
-      "explanation_md": "The next slide repeats the tables and asks: **\"What is observation made by you from Mean and Median?\"** The slide prints no answer; it is for you to work out.\n\n**Median** (n = 20 is even, so average the (n/2)th and (n/2 + 1)th terms, the 10th and 11th):\n\n- Player-1 in ascending order: 0, 2, 3, 3, 4, 4, 4, 4, 5, **8**, **12**, 12, 45, 56, 67, 78, 78, 90, 90, 90. Median = (8 + 12)/2 = **10**\n- Player-2 in ascending order: 25, 26, 26, 26, 27, 27, 27, 28, 28, **30**, **31**, 32, 32, 35, 37, 38, 45, 45, 45, 45. Median = (30 + 31)/2 = **30.5**\n\n**What the numbers show:**\n\n- Player-1: mean 32.75 but median only 10. In half of the matches Player-1 scored 8 runs or fewer; a handful of big scores (90, 90, 90, 78, 78, 67, 56) lift the mean.\n- Player-2: mean 32.75 and median 30.5, close together. All scores sit between 25 and 45.\n\nThis is the median slide's point in action: **a few extremely large values can inflate the mean**, and **whenever a data set has extreme values, the median is the preferred measure of central location**.",
+      "explanation_md": "The next slide repeats the tables and asks: **\"What is observation made by you from Mean and Median?\"**\n\n**Median** (n = 20 is even, so average the (n/2)th and (n/2 + 1)th terms, the 10th and 11th):\n\n- Player-1 in ascending order: 0, 2, 3, 3, 4, 4, 4, 4, 5, **8**, **12**, 12, 45, 56, 67, 78, 78, 90, 90, 90. Median = (8 + 12)/2 = **10**\n- Player-2 in ascending order: 25, 26, 26, 26, 27, 27, 27, 28, 28, **30**, **31**, 32, 32, 35, 37, 38, 45, 45, 45, 45. Median = (30 + 31)/2 = **30.5**\n\n**What the numbers show:**\n\n- Player-1: mean 32.75 but median only 10. In half of the matches Player-1 scored 8 runs or fewer; a handful of big scores (90, 90, 90, 78, 78, 67, 56) lift the mean.\n- Player-2: mean 32.75 and median 30.5, close together. All scores sit between 25 and 45.\n\nThis is the median slide's point in action: **a few extremely large values can inflate the mean**, and **whenever a data set has extreme values, the median is the preferred measure of central location**.",
       "example_ids": [],
       "key_terms": [],
       "exam_line": "Same mean, very different medians: Player-1's few big scores inflate the mean, so the median shows the typical score better.",
@@ -200,7 +200,7 @@
     {
       "id": "qtm-m21-two-players-problem-c3",
       "heading": "Adding the mode: the second question",
-      "explanation_md": "The third version of the slide asks: **\"What is observation made by you from Mean, Median and Mode?\"** Again, no answer is printed.\n\n**Mode** (the value with the greatest frequency):\n\n- Player-1: **4** appears four times (90 appears three times). Mode = **4**.\n- Player-2: **45** appears four times (26 and 27 appear three times each). Mode = **45**.\n\nPut the three measures together:\n\n| | Mean | Median | Mode |\n|---|---|---|---|\n| Player-1 | 32.75 | 10 | 4 |\n| Player-2 | 32.75 | 30.5 | 45 |\n\nThe means match, but the median and mode tell very different stories about the two players. The deck asks you to look at all three, not just the average.",
+      "explanation_md": "The third version of the slide asks: **\"What is observation made by you from Mean, Median and Mode?\"**\n\n**Mode** (the value with the greatest frequency):\n\n- Player-1: **4** appears four times (90 appears three times). Mode = **4**.\n- Player-2: **45** appears four times (26 and 27 appear three times each). Mode = **45**.\n\nPut the three measures together:\n\n| | Mean | Median | Mode |\n|---|---|---|---|\n| Player-1 | 32.75 | 10 | 4 |\n| Player-2 | 32.75 | 30.5 | 45 |\n\nThe means match, but the median and mode tell very different stories about the two players. The deck asks you to look at all three, not just the average.",
       "example_ids": [],
       "key_terms": [],
       "exam_line": "Both players have the same mean but very different medians and modes, so the three measures can tell different stories.",
@@ -373,7 +373,7 @@
     {
       "id": "qtm-m21-two-players-problem-f1",
       "front": "2 Players' Problem: what do the slides ask?",
-      "back": "What observation do you make from the mean and median, and then from the mean, median and mode, of the runs scored by Player-1 and Player-2? The slides print no answer.",
+      "back": "What observation do you make from the mean and median, and then from the mean, median and mode, of the runs scored by Player-1 and Player-2?",
       "kind": "example",
       "source_refs": [
         "qtm--module-2-1#11",

@@ -309,7 +309,7 @@
     {
       "id": "qtm-m3-normal-distribution-c4",
       "heading": "Reading the standard normal table",
-      "explanation_md": "The deck's table gives the **area between 0 and a given point z**. Find the row for z to one decimal, then the column for the **second decimal place**.\n\nFor \"less than z\" with a positive z, add the left half of the curve, which is **0.5**:\n\n**P(Z < 1.56):** row 1.5, column 0.06 gives **0.4406**. So P(Z < 1.56) = 0.5 + 0.4406 = **0.9406**.\n\n**P(Z < 2.47):** row 2.4, column 0.07 gives **0.4932**. So P(Z < 2.47) = 0.5 + 0.4932 = **0.9932**.\n\n**Working backwards:** find z so that the area between 0 and z is **0.40**. Look inside the table for the value closest to 0.40: **0.3997**, in row 1.2, column 0.08. So **z ≈ 1.28**.\n\n(The slide gives the three questions without printed answers; these are read from its table.)",
+      "explanation_md": "The deck's table gives the **area between 0 and a given point z**. Find the row for z to one decimal, then the column for the **second decimal place**.\n\nFor \"less than z\" with a positive z, add the left half of the curve, which is **0.5**:\n\n**P(Z < 1.56):** row 1.5, column 0.06 gives **0.4406**. So P(Z < 1.56) = 0.5 + 0.4406 = **0.9406**.\n\n**P(Z < 2.47):** row 2.4, column 0.07 gives **0.4932**. So P(Z < 2.47) = 0.5 + 0.4932 = **0.9932**.\n\n**Working backwards:** find z so that the area between 0 and z is **0.40**. Look inside the table for the value closest to 0.40: **0.3997**, in row 1.2, column 0.08. So **z ≈ 1.28**.",
       "example_ids": [],
       "key_terms": [],
       "exam_line": "The table gives the area from 0 to z; for P(Z < z) with z positive add 0.5, e.g. P(Z < 1.56) = 0.5 + 0.4406.",

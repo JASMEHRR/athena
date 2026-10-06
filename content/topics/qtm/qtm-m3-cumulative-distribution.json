@@ -257,7 +257,7 @@
     {
       "id": "qtm-m3-cumulative-distribution-c4",
       "heading": "Exercise: telephone calls at an exchange",
-      "explanation_md": "The number of calls arriving in any minute between noon and 1:00 P.M. has this distribution (no answers are printed on the slide, so here is the working):\n\n| x | 0 | 1 | 2 | 3 | 4 | 5 |\n|---|---|---|---|---|---|---|\n| P(x) | 0.3 | 0.2 | 0.2 | 0.1 | 0.1 | 0.1 |\n| F(x) | 0.3 | 0.5 | 0.7 | 0.8 | 0.9 | 1.0 |\n\n**a) Verify it is a probability distribution:** every P(x) ≥ 0, and 0.3 + 0.2 + 0.2 + 0.1 + 0.1 + 0.1 = 1. Both conditions hold.\n\n**b) The CDF** is the F(x) row: keep a running total.\n\n**c) More than two calls between 12:34 and 12:35 P.M.:** \"more than two\" is the complement of \"at most two\":\n\nP(X > 2) = 1 - F(2) = 1 - 0.7 = **0.3**",
+      "explanation_md": "The number of calls arriving in any minute between noon and 1:00 P.M. has this distribution:\n\n| x | 0 | 1 | 2 | 3 | 4 | 5 |\n|---|---|---|---|---|---|---|\n| P(x) | 0.3 | 0.2 | 0.2 | 0.1 | 0.1 | 0.1 |\n| F(x) | 0.3 | 0.5 | 0.7 | 0.8 | 0.9 | 1.0 |\n\n**a) Verify it is a probability distribution:** every P(x) ≥ 0, and 0.3 + 0.2 + 0.2 + 0.1 + 0.1 + 0.1 = 1. Both conditions hold.\n\n**b) The CDF** is the F(x) row: keep a running total.\n\n**c) More than two calls between 12:34 and 12:35 P.M.:** \"more than two\" is the complement of \"at most two\":\n\nP(X > 2) = 1 - F(2) = 1 - 0.7 = **0.3**",
       "example_ids": [
         "qtm-ex-m3-telephone-calls"
       ],
