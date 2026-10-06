@@ -1,0 +1,631 @@
+{
+  "id": "qtm-m4-collection-plan",
+  "subject_id": "qtm",
+  "deck_id": "qtm--module-4",
+  "title": "Planning data collection and judging sources",
+  "order": 402,
+  "summary": "Survey and research design essentials, the three data collection methods, the four-step data collection plan, other secondary sources and the five factors for evaluating an information source.",
+  "est_minutes": 25,
+  "difficulty": 1,
+  "source_refs": [
+    "qtm--module-4#8",
+    "qtm--module-4#9",
+    "qtm--module-4#10",
+    "qtm--module-4#11",
+    "qtm--module-4#12",
+    "qtm--module-4#13"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "qtm-m4-collection-plan-c1",
+      "heading": "Survey design and research design essentials",
+      "explanation_md": "The deck gives two short checklists.\n\n**Survey design essentials:**\n1. **Define research objectives and target population.**\n2. **Choose appropriate question types: open vs. closed.**\n3. **Ensure clarity, neutrality, and logical flow.**\n\n**Research design essentials:**\n1. **Develop research hypothesis and define variables.**\n2. **Plan controls, randomization, and replication.**\n3. **Record procedures and outcomes meticulously.**\n\nThe survey list is about *who you ask and how you ask*; the research design list is about *the hypothesis, the variables, controls and careful records*.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Survey design essentials",
+          "meaning": "Define research objectives and target population; choose question types (open vs. closed); ensure clarity, neutrality and logical flow.",
+          "source_ref": "qtm--module-4#8"
+        },
+        {
+          "term": "Research design essentials",
+          "meaning": "Develop research hypothesis and define variables; plan controls, randomization and replication; record procedures and outcomes meticulously.",
+          "source_ref": "qtm--module-4#9"
+        }
+      ],
+      "exam_line": "Survey design: objectives and target population; open vs. closed questions; clarity, neutrality, logical flow. Research design: hypothesis and variables; controls, randomization, replication; record procedures and outcomes meticulously.",
+      "clarification": {
+        "term": "open vs. closed questions",
+        "text": "An open question lets the respondent answer in their own words, while a closed question gives fixed answer choices to pick from."
+      },
+      "check_questions": [
+        {
+          "id": "qtm-m4-collection-plan-q-84d4c5c8",
+          "type": "mcq",
+          "stem": "Which item belongs to the survey design essentials?",
+          "options": [
+            "Choose appropriate question types: open vs. closed",
+            "Plan controls, randomization and replication",
+            "Develop research hypothesis and define variables"
+          ],
+          "answer": "Choose appropriate question types: open vs. closed",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-4#8",
+            "qtm--module-4#9"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m4-collection-plan-q-b49eec73",
+          "type": "fill",
+          "stem": "Research design essentials include planning controls, randomization and ____.",
+          "options": [],
+          "answer": "replication",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-4#9"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m4-collection-plan-q-a907cbea",
+          "type": "true_false",
+          "stem": "A well-designed survey should ensure clarity, neutrality and logical flow.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-4#8"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-4#8",
+        "qtm--module-4#9"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m4-collection-plan-c2",
+      "heading": "Three data collection methods in practice",
+      "explanation_md": "The slide names three ways of actually collecting data:\n\n- **Observational**: **directly recording behaviors or phenomena**. You watch and note what happens.\n- **Survey-based**: **questionnaires and online forms for self-reported data**. People tell you about themselves.\n- **Experimental**: **manipulating variables to observe effects**. You change something on purpose and see what follows.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Observational method",
+          "meaning": "Directly recording behaviors or phenomena.",
+          "source_ref": "qtm--module-4#10"
+        },
+        {
+          "term": "Survey-based method",
+          "meaning": "Questionnaires and online forms for self-reported data.",
+          "source_ref": "qtm--module-4#10"
+        },
+        {
+          "term": "Experimental method",
+          "meaning": "Manipulating variables to observe effects.",
+          "source_ref": "qtm--module-4#10"
+        }
+      ],
+      "exam_line": "Observational: directly recording behaviors or phenomena. Survey-based: questionnaires, online forms for self-reported data. Experimental: manipulating variables to observe effects.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m4-collection-plan-q-ccd80402",
+          "type": "mcq",
+          "stem": "Manipulating variables to observe effects describes which method?",
+          "options": [
+            "Experimental",
+            "Observational",
+            "Survey-based"
+          ],
+          "answer": "Experimental",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-4#10"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m4-collection-plan-q-b1c0be02",
+          "type": "mcq",
+          "stem": "Which method collects self-reported data through questionnaires and online forms?",
+          "options": [
+            "Survey-based",
+            "Observational",
+            "Experimental"
+          ],
+          "answer": "Survey-based",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-4#10"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m4-collection-plan-q-a9ae067d",
+          "type": "fill",
+          "stem": "The observational method means directly ____ behaviors or phenomena.",
+          "options": [],
+          "answer": "recording",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-4#10"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-4#10"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m4-collection-plan-c3",
+      "heading": "Designing a data collection plan in four steps",
+      "explanation_md": "The slide turns all this into a four-step plan:\n\n1. **Step 1: Choose a research question** (the slide's examples: **study habits**, **food choices**).\n2. **Step 2: Decide on a primary, secondary, or mixed approach.**\n3. **Step 3: Draft the data collection procedure** (a survey or experiment outline).\n4. **Step 4: Identify sources and plan data recording and storage.**\n\nNotice the order: the question comes first, then the type of data, then the procedure, and only then the sources and how you will store what you collect.",
+      "example_ids": [
+        "qtm-ex-m4-plan-research-questions"
+      ],
+      "key_terms": [],
+      "exam_line": "Data collection plan: (1) choose a research question, (2) decide primary, secondary or mixed, (3) draft the procedure (survey or experiment outline), (4) identify sources and plan recording and storage.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m4-collection-plan-q-dba19c59",
+          "type": "mcq",
+          "stem": "What is Step 2 of the data collection plan?",
+          "options": [
+            "Decide on primary, secondary, or mixed approach",
+            "Choose a research question",
+            "Identify sources and plan data recording and storage",
+            "Draft the data collection procedure"
+          ],
+          "answer": "Decide on primary, secondary, or mixed approach",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-4#11"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m4-collection-plan-q-4274d362",
+          "type": "mcq",
+          "stem": "Which examples of a research question does the slide give for Step 1?",
+          "options": [
+            "Study habits, food choices",
+            "Potato chip market share, cash dividend",
+            "Four-day working week, productivity"
+          ],
+          "answer": "Study habits, food choices",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-4#11",
+            "qtm--module-4#17",
+            "qtm--module-4#28"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m4-collection-plan-q-399015cc",
+          "type": "true_false",
+          "stem": "Planning data recording and storage is part of the final step of the plan.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-4#11"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-4#11"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m4-collection-plan-c4",
+      "heading": "Other secondary sources and levels of information",
+      "explanation_md": "This slide is about **clarifying the research question through secondary data and exploration**. Exploration can happen through:\n\n- **Expert interview**\n- **Exploratory research**\n- **Literature search**\n- **Internal sources**: management and organisational documents; financial, operations, marketing and HR documents and databases.\n- **External documents**:\n  - **Public sources**: government agencies, not-for-profit agencies and businesses.\n  - **Proprietary sources**: not-for-profit agencies and businesses.\n\nThe slide also ranks sources by **level of information**:\n- **Primary sources**: **raw data free from any processing**.\n- **Secondary sources**: **interpretations of primary data**.\n- **Tertiary sources**: **indexes, bibliographies and search engines**.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Internal sources",
+          "meaning": "Management and organisational documents; financial, operations, marketing and HR documents and databases.",
+          "source_ref": "qtm--module-4#12"
+        },
+        {
+          "term": "Primary sources (level of information)",
+          "meaning": "Raw data free from any processing.",
+          "source_ref": "qtm--module-4#12"
+        },
+        {
+          "term": "Secondary sources (level of information)",
+          "meaning": "Interpretations of primary data.",
+          "source_ref": "qtm--module-4#12"
+        },
+        {
+          "term": "Tertiary sources",
+          "meaning": "Indexes, bibliographies and search engines.",
+          "source_ref": "qtm--module-4#12"
+        }
+      ],
+      "exam_line": "Exploration: expert interview, exploratory research, literature search, internal sources, external documents (public, proprietary). Levels: primary (raw data), secondary (interpretations), tertiary (indexes, bibliographies, search engines).",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m4-collection-plan-q-a5c27819",
+          "type": "mcq",
+          "stem": "Indexes, bibliographies and search engines are which level of information source?",
+          "options": [
+            "Tertiary",
+            "Secondary",
+            "Primary"
+          ],
+          "answer": "Tertiary",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-4#12"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m4-collection-plan-q-f8bdc5f2",
+          "type": "mcq",
+          "stem": "Financial, operations, marketing and HR documents and databases are examples of:",
+          "options": [
+            "Internal sources",
+            "Public sources",
+            "Proprietary sources"
+          ],
+          "answer": "Internal sources",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-4#12"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m4-collection-plan-q-9853b3a7",
+          "type": "fill",
+          "stem": "At the level of information, primary sources are raw data free from any ____.",
+          "options": [],
+          "answer": "processing",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-4#12"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-4#12"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m4-collection-plan-c5",
+      "heading": "Evaluating an information source: five factors",
+      "explanation_md": "The slide gives **five factors on which an information source is evaluated**, each as a question:\n\n1. **Purpose**: Why does the source exist? This helps identify the **type and bias** of information presented.\n2. **Authority**: What are the **credentials** of the authors or the organisation sponsoring the source?\n3. **Scope**: How much information is available? **Selective or comprehensive?** **How old is the data?**\n4. **Audience**: Whom does the source cater to? What **level of knowledge** is assumed from the audience?\n5. **Format**: How quickly can you find the information? How **easy is it to access** the source?",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Five factors for evaluating an information source",
+          "meaning": "Purpose, Authority, Scope, Audience, Format.",
+          "source_ref": "qtm--module-4#13"
+        }
+      ],
+      "exam_line": "Information sources are evaluated on purpose (why it exists, bias), authority (credentials), scope (how much, how old), audience (whom it caters to) and format (how easy to find and access).",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m4-collection-plan-q-c8354721",
+          "type": "mcq",
+          "stem": "\"What are the credentials of the authors or the sponsoring organisation?\" checks which factor?",
+          "options": [
+            "Authority",
+            "Purpose",
+            "Audience",
+            "Scope"
+          ],
+          "answer": "Authority",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-4#13"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m4-collection-plan-q-6a6545fc",
+          "type": "mcq",
+          "stem": "\"How old is the data?\" is part of which factor?",
+          "options": [
+            "Scope",
+            "Format",
+            "Purpose"
+          ],
+          "answer": "Scope",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-4#13"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m4-collection-plan-q-4eb8b3ba",
+          "type": "true_false",
+          "stem": "The Format factor asks how quickly you can find the information and how easy it is to access the source.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-4#13"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-4#13"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "qtm-m4-collection-plan-f1",
+      "front": "Survey design essentials (3)",
+      "back": "Define research objectives and target population; choose question types: open vs. closed; ensure clarity, neutrality and logical flow.",
+      "kind": "list",
+      "source_refs": [
+        "qtm--module-4#8"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m4-collection-plan-f2",
+      "front": "Research design essentials (3)",
+      "back": "Develop research hypothesis and define variables; plan controls, randomization and replication; record procedures and outcomes meticulously.",
+      "kind": "list",
+      "source_refs": [
+        "qtm--module-4#9"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m4-collection-plan-f3",
+      "front": "Three data collection methods",
+      "back": "Observational (directly recording behaviors or phenomena); survey-based (questionnaires, online forms, self-reported data); experimental (manipulating variables to observe effects).",
+      "kind": "list",
+      "source_refs": [
+        "qtm--module-4#10"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m4-collection-plan-f4",
+      "front": "Four steps of a data collection plan",
+      "back": "1 Choose a research question; 2 decide primary, secondary or mixed; 3 draft the procedure (survey or experiment outline); 4 identify sources and plan recording and storage.",
+      "kind": "list",
+      "source_refs": [
+        "qtm--module-4#11"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m4-collection-plan-f5",
+      "front": "Three levels of information",
+      "back": "Primary sources: raw data free from any processing; secondary sources: interpretations of primary data; tertiary: indexes, bibliographies, search engines.",
+      "kind": "list",
+      "source_refs": [
+        "qtm--module-4#12"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m4-collection-plan-f6",
+      "front": "Public vs proprietary sources (external documents)",
+      "back": "Public: government agencies, not-for-profit agencies and businesses. Proprietary: not-for-profit agencies and businesses.",
+      "kind": "fact",
+      "source_refs": [
+        "qtm--module-4#12"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m4-collection-plan-f7",
+      "front": "Five factors for evaluating an information source",
+      "back": "Purpose, Authority, Scope, Audience, Format.",
+      "kind": "list",
+      "source_refs": [
+        "qtm--module-4#13"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m4-collection-plan-f8",
+      "front": "Purpose factor",
+      "back": "Why does the source exist? Identifies the type and bias of information presented.",
+      "kind": "term",
+      "source_refs": [
+        "qtm--module-4#13"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [],
+  "explain_back": {
+    "prompt": "You must plan data collection for a study on students' study habits. Walk through the four steps of the plan, name the three collection methods, and explain how you would evaluate a secondary source you find.",
+    "rubric": [
+      {
+        "point": "Step 1 choose a research question; Step 2 primary, secondary or mixed; Step 3 draft the procedure; Step 4 identify sources and plan recording and storage",
+        "source_ref": "qtm--module-4#11"
+      },
+      {
+        "point": "Methods: observational, survey-based, experimental, each described",
+        "source_ref": "qtm--module-4#10"
+      },
+      {
+        "point": "Survey design: objectives and target population, open vs. closed questions, clarity, neutrality and logical flow",
+        "source_ref": "qtm--module-4#8"
+      },
+      {
+        "point": "Evaluate the source on purpose, authority, scope, audience and format",
+        "source_ref": "qtm--module-4#13"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

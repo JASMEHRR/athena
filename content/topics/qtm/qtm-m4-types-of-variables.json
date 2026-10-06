@@ -1,0 +1,571 @@
+{
+  "id": "qtm-m4-types-of-variables",
+  "subject_id": "qtm",
+  "deck_id": "qtm--module-4",
+  "title": "Types of variables and the conceptual model",
+  "order": 406,
+  "summary": "Dependent, independent, extraneous, control, moderator and mediator variables, the conceptual framework that links them, and the four-day working week examples.",
+  "est_minutes": 25,
+  "difficulty": 2,
+  "source_refs": [
+    "qtm--module-4#26",
+    "qtm--module-4#14",
+    "qtm--module-4#27",
+    "qtm--module-4#28",
+    "qtm--module-4#29"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "qtm-m4-types-of-variables-c1",
+      "heading": "Independent and dependent variables",
+      "explanation_md": "Start with the main pair.\n\n- If one variable **depends upon or is a consequence of** another variable, it is the **dependent variable**.\n- The variable that is **antecedent to** (comes before) the dependent variable is the **independent variable**.\n\nSo the independent variable is the one you think of as the starting point, and the dependent variable is the result you are studying.\n\nThe research terms slide also lists the full set of **types of variables**: **Independent, Dependent, Extraneous, Control, Moderating, Compounding and Intervening**. This topic covers the ones the deck defines on its own slide.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Dependent variable",
+          "meaning": "A variable that depends upon or is a consequence of another variable.",
+          "source_ref": "qtm--module-4#26"
+        },
+        {
+          "term": "Independent variable",
+          "meaning": "The variable that is antecedent to the dependent variable.",
+          "source_ref": "qtm--module-4#26"
+        }
+      ],
+      "exam_line": "Dependent variable: depends upon or is a consequence of the other variable. Independent variable: antecedent to the dependent variable.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m4-types-of-variables-q-f795ee84",
+          "type": "mcq",
+          "stem": "The variable that is antecedent to the dependent variable is called the:",
+          "options": [
+            "Independent variable",
+            "Extraneous variable",
+            "Moderator variable",
+            "Control variable"
+          ],
+          "answer": "Independent variable",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-4#26"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m4-types-of-variables-q-cb65e4b8",
+          "type": "fill",
+          "stem": "A variable that depends upon or is a ____ of another variable is the dependent variable.",
+          "options": [],
+          "answer": "consequence",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-4#26"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-4#26",
+        "qtm--module-4#14"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m4-types-of-variables-c2",
+      "heading": "Extraneous and control variables",
+      "explanation_md": "- **Extraneous variables** are **independent variables that are not considered for the study's purpose but may affect the dependent variable**.\n- **Control variables** are **used to minimise the effects of extraneous variables**. They are **measured, but their effect is not hypothesised**.\n\nThe slide adds a simple way to see control variables: they are variables **you are not particularly interested in**, but they **can have a material effect on your dependent variable**, and you **wish to eliminate their effects** from the effect of your independent variable of interest on your dependent variable.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Extraneous variable",
+          "meaning": "An independent variable not considered for the study's purpose that may affect the dependent variable.",
+          "source_ref": "qtm--module-4#26"
+        },
+        {
+          "term": "Control variable",
+          "meaning": "Used to minimise the effects of extraneous variables; measured, but its effect is not hypothesised.",
+          "source_ref": "qtm--module-4#26"
+        }
+      ],
+      "exam_line": "Extraneous: independent variables not considered for the study but may affect the dependent variable. Control: minimises extraneous effects; measured, effect not hypothesised.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m4-types-of-variables-q-349b3d4b",
+          "type": "mcq",
+          "stem": "Independent variables that are not considered for the study's purpose but may affect the dependent variable are:",
+          "options": [
+            "Extraneous variables",
+            "Control variables",
+            "Mediator variables"
+          ],
+          "answer": "Extraneous variables",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-4#26"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m4-types-of-variables-q-f0a827a7",
+          "type": "true_false",
+          "stem": "Control variables are measured, and their effect is hypothesised.",
+          "options": [],
+          "answer": "False",
+          "accept": [],
+          "explanation": "Control variables are measured, but their effect is not hypothesised.",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-4#26"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m4-types-of-variables-q-7f3351e5",
+          "type": "fill",
+          "stem": "The control variable is used to minimise the effects of ____ variables.",
+          "options": [],
+          "answer": "extraneous",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-4#26"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-4#26"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m4-types-of-variables-c3",
+      "heading": "Moderator vs mediator",
+      "explanation_md": "Read these two carefully.\n\n**Moderator variables** are like control variables, but **instead of having an effect on other variables, they impact the relationship between variables**. They are **measured, and their effect is hypothesised**.\n\nThe slide's simple picture: **consider moderating variables as catalysts that make a relationship between independent and dependent variables stronger or weaker**.\n\n**Mediator variables**: **a mediating variable (or mediator) explains how two variables are related**.\n\n**Control vs moderator:** both are measured, but a control variable's effect is **not hypothesised**, while a moderator's effect **is hypothesised**.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Moderator variable",
+          "meaning": "Impacts the relationship between variables (a catalyst making the relationship between independent and dependent variables stronger or weaker); measured, and its effect is hypothesised.",
+          "source_ref": "qtm--module-4#26"
+        },
+        {
+          "term": "Mediator variable",
+          "meaning": "Explains how two variables are related.",
+          "source_ref": "qtm--module-4#26"
+        }
+      ],
+      "exam_line": "Moderator: impacts the relationship between variables, like a catalyst making it stronger or weaker; measured and hypothesised. Mediator: explains how two variables are related.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m4-types-of-variables-q-33c6ccae",
+          "type": "mcq",
+          "stem": "Which variable does the slide describe as a catalyst that makes the relationship between independent and dependent variables stronger or weaker?",
+          "options": [
+            "Moderator",
+            "Mediator",
+            "Control",
+            "Extraneous"
+          ],
+          "answer": "Moderator",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-4#26"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m4-types-of-variables-q-54aef00f",
+          "type": "mcq",
+          "stem": "A variable that explains how two variables are related is a:",
+          "options": [
+            "Mediator",
+            "Moderator",
+            "Control variable"
+          ],
+          "answer": "Mediator",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-4#26"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m4-types-of-variables-q-f99775ad",
+          "type": "true_false",
+          "stem": "Moderator variables are measured and their effect is hypothesised.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-4#26"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-4#26"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m4-types-of-variables-c4",
+      "heading": "The conceptual model: how the variables fit together",
+      "explanation_md": "The **Conceptual Model** slide shows a **conceptual framework example** that puts the variables on one map:\n\n- An arrow runs from the **independent variable** to the **dependent variable**.\n- The **moderating variable** sits above and points onto **that arrow**: it acts on the relationship.\n- The **mediating variable** sits in between: the independent variable points to it, and it points on to the dependent variable.\n- The **control variable** points straight to the **dependent variable**.",
+      "example_ids": [
+        "qtm-ex-m4-conceptual-framework"
+      ],
+      "key_terms": [],
+      "exam_line": "Conceptual framework: independent to dependent variable; moderator acts on that arrow; mediator sits between them; control variable points to the dependent variable.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m4-types-of-variables-q-35dd67ba",
+          "type": "mcq",
+          "stem": "In the conceptual framework diagram, where does the moderating variable point?",
+          "options": [
+            "Onto the arrow between the independent and dependent variables",
+            "Directly to the independent variable",
+            "Only to the mediating variable"
+          ],
+          "answer": "Onto the arrow between the independent and dependent variables",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-4#27"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m4-types-of-variables-q-6d80e1f2",
+          "type": "mcq",
+          "stem": "In the conceptual framework diagram, which variable sits between the independent and dependent variables?",
+          "options": [
+            "Mediating variable",
+            "Moderating variable",
+            "Control variable"
+          ],
+          "answer": "Mediating variable",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-4#27"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-4#27",
+        "qtm--module-4#26"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m4-types-of-variables-c5",
+      "heading": "Four-day working week: moderator and mediator examples",
+      "explanation_md": "The deck uses one study idea to show both.\n\n**Moderating variable example:** *The introduction of a four-day working week (IV) will lead to higher productivity (DV), especially among younger workers (MV).*\n- **IV**: four-day working week.\n- **DV**: productivity.\n- **MV**: **workers' age**. It points onto the IV to DV arrow: the effect shows especially among younger workers.\n\n**Mediating variable example:** *The introduction of a four-day working week (IV) will lead to higher productivity (DV) by increasing job satisfaction (IVV) (Mediating variable).*\n- The chain is **four-day working week** to **job satisfaction** to **productivity**. Job satisfaction explains **how** the four-day week leads to higher productivity.\n- The fuller diagram also shows **MV: workers' age** on the job satisfaction to productivity arrow, **CV: weather** pointing to productivity (dashed), **IVV: routine work** pointing onto the job satisfaction to productivity arrow (dashed), and **CFV: meeting attendance** pointing to routine work (dashed).",
+      "example_ids": [
+        "qtm-ex-m4-four-day-week-moderator",
+        "qtm-ex-m4-four-day-week-mediator"
+      ],
+      "key_terms": [],
+      "exam_line": "Moderator: four-day week (IV) raises productivity (DV) especially among younger workers (MV: workers' age). Mediator: four-day week raises productivity by increasing job satisfaction (IVV).",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m4-types-of-variables-q-95fa7c10",
+          "type": "mcq",
+          "stem": "In the moderating variable example, what is the MV?",
+          "options": [
+            "Workers' age",
+            "Job satisfaction",
+            "Productivity",
+            "Four-day working week"
+          ],
+          "answer": "Workers' age",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-4#28",
+            "qtm--module-4#29"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m4-types-of-variables-q-459a2f38",
+          "type": "mcq",
+          "stem": "In the mediating variable example, which variable is the mediator?",
+          "options": [
+            "Job satisfaction",
+            "Workers' age",
+            "Weather"
+          ],
+          "answer": "Job satisfaction",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-4#29"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m4-types-of-variables-q-85968520",
+          "type": "fill",
+          "stem": "In both examples, the dependent variable (DV) is ____.",
+          "options": [],
+          "answer": "productivity",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-4#28",
+            "qtm--module-4#29"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-4#28",
+        "qtm--module-4#29"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "qtm-m4-types-of-variables-f1",
+      "front": "Dependent vs independent variable",
+      "back": "Dependent: depends upon or is a consequence of the other variable. Independent: antecedent to the dependent variable.",
+      "kind": "term",
+      "source_refs": [
+        "qtm--module-4#26"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m4-types-of-variables-f2",
+      "front": "Extraneous variable",
+      "back": "Independent variables not considered for the study's purpose but that may affect the dependent variable.",
+      "kind": "term",
+      "source_refs": [
+        "qtm--module-4#26"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m4-types-of-variables-f3",
+      "front": "Control variable",
+      "back": "Used to minimise the effects of extraneous variables; measured, but effect not hypothesised.",
+      "kind": "term",
+      "source_refs": [
+        "qtm--module-4#26"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m4-types-of-variables-f4",
+      "front": "Moderator variable",
+      "back": "Impacts the relationship between variables; a catalyst making the relationship between independent and dependent variables stronger or weaker; measured and effect hypothesised.",
+      "kind": "term",
+      "source_refs": [
+        "qtm--module-4#26"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m4-types-of-variables-f5",
+      "front": "Mediator variable",
+      "back": "Explains how two variables are related.",
+      "kind": "term",
+      "source_refs": [
+        "qtm--module-4#26"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m4-types-of-variables-f6",
+      "front": "Moderator example (four-day working week)",
+      "back": "Four-day working week (IV) leads to higher productivity (DV), especially among younger workers (MV: workers' age).",
+      "kind": "example",
+      "source_refs": [
+        "qtm--module-4#28"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m4-types-of-variables-f7",
+      "front": "Mediator example (four-day working week)",
+      "back": "Four-day working week (IV) leads to higher productivity (DV) by increasing job satisfaction (IVV, mediating variable).",
+      "kind": "example",
+      "source_refs": [
+        "qtm--module-4#29"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m4-types-of-variables-f8",
+      "front": "Conceptual framework layout",
+      "back": "Independent to dependent variable; moderator acts on that arrow; mediator between them; control variable points to the dependent variable.",
+      "kind": "fact",
+      "source_refs": [
+        "qtm--module-4#27"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [],
+  "explain_back": {
+    "prompt": "Explain the difference between control, moderator and mediator variables, using the conceptual framework and the four-day working week examples.",
+    "rubric": [
+      {
+        "point": "Independent variable is antecedent; dependent variable depends on or is a consequence of it",
+        "source_ref": "qtm--module-4#26"
+      },
+      {
+        "point": "Control variable minimises extraneous effects; measured but effect not hypothesised",
+        "source_ref": "qtm--module-4#26"
+      },
+      {
+        "point": "Moderator impacts the relationship (stronger or weaker), measured and hypothesised: workers' age in the four-day week example",
+        "source_ref": "qtm--module-4#28"
+      },
+      {
+        "point": "Mediator explains how two variables are related: job satisfaction between the four-day week and productivity",
+        "source_ref": "qtm--module-4#29"
+      },
+      {
+        "point": "Conceptual framework: moderator on the independent to dependent arrow, mediator between them, control pointing to the dependent variable",
+        "source_ref": "qtm--module-4#27"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

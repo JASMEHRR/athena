@@ -1,0 +1,612 @@
+{
+  "id": "qtm-m4-hypotheses",
+  "subject_id": "qtm",
+  "deck_id": "qtm--module-4",
+  "title": "Hypotheses: types and functions",
+  "order": 404,
+  "summary": "The four types of hypotheses (descriptive, relational, correlational, causal) with the professor's examples, and the four functions a hypothesis serves.",
+  "est_minutes": 25,
+  "difficulty": 2,
+  "source_refs": [
+    "qtm--module-4#16",
+    "qtm--module-4#17",
+    "qtm--module-4#18",
+    "qtm--module-4#19",
+    "qtm--module-4#20"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "qtm-m4-hypotheses-c1",
+      "heading": "Four types of hypotheses",
+      "explanation_md": "A **hypothesis** is **a proposition formulated for empirical testing**. The slide names **four types of hypotheses**:\n\n1. **Descriptive**: **state the existence of some variable**.\n2. **Relational**: **state a relationship between two variables for a case**.\n3. **Correlational**: **state that variables occur together in some specified manner without implying causal direction**.\n4. **Causal**: **also implies the existence of a cause-and-effect relationship between variables**.\n\nThe word to watch is **cause**. Correlational says the variables move together but does *not* say which causes which. Causal says one leads to the other.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Descriptive hypothesis",
+          "meaning": "States the existence of some variable.",
+          "source_ref": "qtm--module-4#16"
+        },
+        {
+          "term": "Relational hypothesis",
+          "meaning": "States a relationship between two variables for a case.",
+          "source_ref": "qtm--module-4#16"
+        },
+        {
+          "term": "Correlational hypothesis",
+          "meaning": "States that variables occur together in some specified manner without implying causal direction.",
+          "source_ref": "qtm--module-4#16"
+        },
+        {
+          "term": "Causal hypothesis",
+          "meaning": "Also implies the existence of a cause-and-effect relationship between variables.",
+          "source_ref": "qtm--module-4#16"
+        }
+      ],
+      "exam_line": "Four types of hypotheses: descriptive, relational, correlational (occur together, no causal direction) and causal (cause-and-effect).",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m4-hypotheses-q-769f55a6",
+          "type": "mcq",
+          "stem": "Which type of hypothesis states that variables occur together in some specified manner without implying causal direction?",
+          "options": [
+            "Correlational",
+            "Causal",
+            "Descriptive",
+            "Relational"
+          ],
+          "answer": "Correlational",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-4#16"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m4-hypotheses-q-02f10fad",
+          "type": "mcq",
+          "stem": "Which type of hypothesis implies a cause-and-effect relationship between variables?",
+          "options": [
+            "Causal",
+            "Correlational",
+            "Descriptive"
+          ],
+          "answer": "Causal",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-4#16"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m4-hypotheses-q-da73ba3b",
+          "type": "fill",
+          "stem": "A relational hypothesis states a relationship between ____ variables for a case.",
+          "options": [],
+          "answer": "two",
+          "accept": [
+            "2"
+          ],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-4#16"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-4#16"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m4-hypotheses-c2",
+      "heading": "Descriptive hypotheses and their research questions",
+      "explanation_md": "On its own slide, a **descriptive hypothesis** is said to **state the existence, size, form, or distribution of some variable**.\n\nThe professor pairs each descriptive hypothesis with the **research question** it answers:\n\n| Descriptive hypothesis | Research question |\n|---|---|\n| In Detroit, our potato chip market share stands at 13.7%. | What is the market share for our potato chips in Detroit? |\n| American cities are experiencing budget difficulties. | Are American cities experiencing budget difficulties? |\n| Eighty percent of Company Z stockholders (cases) favor increasing the company's cash dividend (variable). | Do stockholders of Company Z favor an increased cash dividend? |\n\nNotice the third example labels its parts: the **stockholders are the cases** and **favouring a bigger cash dividend is the variable**. The hypothesis is a statement; the research question asks the same thing as a question.",
+      "example_ids": [
+        "qtm-ex-m4-descriptive-hypotheses"
+      ],
+      "key_terms": [],
+      "exam_line": "Descriptive hypotheses state the existence, size, form or distribution of some variable, e.g. In Detroit, our potato chip market share stands at 13.7%.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m4-hypotheses-q-a3684643",
+          "type": "mcq",
+          "stem": "\"In Detroit, our potato chip market share stands at 13.7%\" is which type of hypothesis?",
+          "options": [
+            "Descriptive",
+            "Correlational",
+            "Causal",
+            "Relational"
+          ],
+          "answer": "Descriptive",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-4#17",
+            "qtm--module-4#16"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m4-hypotheses-q-41122b0f",
+          "type": "mcq",
+          "stem": "In the Company Z example, what are the stockholders labelled as?",
+          "options": [
+            "Cases",
+            "Variables",
+            "Constructs"
+          ],
+          "answer": "Cases",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-4#17",
+            "qtm--module-4#14"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m4-hypotheses-q-108ce1ad",
+          "type": "fill",
+          "stem": "Descriptive hypotheses state the existence, size, form, or ____ of some variable.",
+          "options": [],
+          "answer": "distribution",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-4#17"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-4#17"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m4-hypotheses-c3",
+      "heading": "Relational hypotheses: two variables and a case",
+      "explanation_md": "**Relational hypotheses** are **statements that describe a relationship between two variables with respect to some case**.\n\n**The slide's example:** *Foreign (variable) cars are perceived by American consumers (case) to be of better quality (variable) than domestic cars.*\n\nBreak it down:\n- Variable 1: **country of origin** (foreign or domestic).\n- Variable 2: **perceived quality**.\n- Case: **American consumers**.\n\nThe slide points out that **the nature of the relationship between the two variables is not specified**. It then asks the key question: **is there only an implication that the variables occur in some predictable relationship, or is one variable somehow responsible for the other?** The next slide shows the two forms a relational hypothesis can take: correlational and causal.",
+      "example_ids": [
+        "qtm-ex-m4-foreign-cars"
+      ],
+      "key_terms": [],
+      "exam_line": "Relational hypothesis: a relationship between two variables for some case, e.g. foreign cars (country of origin) perceived by American consumers (case) as better quality (perceived quality).",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m4-hypotheses-q-485e0d26",
+          "type": "mcq",
+          "stem": "In the foreign cars hypothesis, who is the case?",
+          "options": [
+            "American consumers",
+            "Foreign cars",
+            "Perceived quality"
+          ],
+          "answer": "American consumers",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-4#18"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m4-hypotheses-q-1adad21a",
+          "type": "mcq",
+          "stem": "Which two variables does the foreign cars example relate?",
+          "options": [
+            "Country of origin and perceived quality",
+            "Price and sales volume",
+            "Family income and savings"
+          ],
+          "answer": "Country of origin and perceived quality",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-4#18",
+            "qtm--module-4#19"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m4-hypotheses-q-c16f14fe",
+          "type": "true_false",
+          "stem": "In the foreign cars example, the nature of the relationship between the two variables is not specified.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-4#18"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-4#18"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m4-hypotheses-c4",
+      "heading": "Correlational vs causal: the professor's examples",
+      "explanation_md": "Under the heading **Relational Hypotheses**, the next slide gives two examples of each form.\n\n**Correlational** (variables occur together, no direction of cause):\n- **Young women (under 35) purchase fewer units of our product than women who are older than 35.**\n- **The number of suits sold varies directly with the level of the business cycle.**\n\n**Causal** (one variable leads to the other):\n- **An increase in family income leads to an increase in the percentage of income saved.**\n- **Loyalty to a grocery store increases the probability of purchasing that store's private brand products.**\n\nSpot the wording: the correlational examples say *fewer than* and *varies directly with*; the causal ones say *leads to* and *increases*.",
+      "example_ids": [
+        "qtm-ex-m4-correlational-examples",
+        "qtm-ex-m4-causal-examples"
+      ],
+      "key_terms": [],
+      "exam_line": "Correlational: young women under 35 buy fewer units; suits sold vary directly with the business cycle. Causal: higher family income leads to a higher percentage saved; store loyalty increases private brand purchases.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m4-hypotheses-q-dd6de5be",
+          "type": "mcq",
+          "stem": "\"The number of suits sold varies directly with the level of the business cycle\" is given as which type?",
+          "options": [
+            "Correlational",
+            "Causal",
+            "Descriptive"
+          ],
+          "answer": "Correlational",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-4#19",
+            "qtm--module-4#16"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m4-hypotheses-q-105abf28",
+          "type": "mcq",
+          "stem": "\"An increase in family income leads to an increase in the percentage of income saved\" is given as which type?",
+          "options": [
+            "Causal",
+            "Correlational",
+            "Descriptive"
+          ],
+          "answer": "Causal",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-4#19",
+            "qtm--module-4#16"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m4-hypotheses-q-4b71d5e9",
+          "type": "true_false",
+          "stem": "\"Loyalty to a grocery store increases the probability of purchasing that store's private brand products\" is listed as a correlational hypothesis.",
+          "options": [],
+          "answer": "False",
+          "accept": [],
+          "explanation": "It is listed under Causal.",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-4#19"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-4#19"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m4-hypotheses-c5",
+      "heading": "What a hypothesis does for a study",
+      "explanation_md": "**A hypothesis serves several important functions.** The slide lists four:\n\n1. **It guides the direction of the study.**\n2. **It identifies facts that are relevant and those that are not.**\n3. **It suggests which form of research design is likely to be most appropriate.**\n4. **It provides a framework for organizing the conclusions that result.**\n\n**The slide's example:** *Husbands and wives agree in their perceptions of their respective roles in purchase decisions.*\n\nThis one hypothesis specifies:\n- **who** shall be studied: **married couples**;\n- **in what context**: **their consumer decision making**;\n- **what** shall be studied: **their individual perceptions of their roles**.",
+      "example_ids": [
+        "qtm-ex-m4-husbands-wives"
+      ],
+      "key_terms": [],
+      "exam_line": "A hypothesis guides the direction of the study, identifies relevant facts, suggests the research design, and provides a framework for organizing conclusions. Example: husbands and wives (who), purchase decisions (context), perceptions of roles (what).",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m4-hypotheses-q-a3e06109",
+          "type": "mcq",
+          "stem": "Which is one of the functions of a hypothesis listed on the slide?",
+          "options": [
+            "It suggests which form of research design is likely to be most appropriate",
+            "It guarantees the conclusion will be true",
+            "It removes the need to collect data"
+          ],
+          "answer": "It suggests which form of research design is likely to be most appropriate",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-4#20"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m4-hypotheses-q-a80cdf2c",
+          "type": "mcq",
+          "stem": "In the husbands and wives hypothesis, what is the context of the study?",
+          "options": [
+            "Their consumer decision making",
+            "Married couples",
+            "Their individual perceptions of their roles"
+          ],
+          "answer": "Their consumer decision making",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-4#20"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m4-hypotheses-q-70b9cf16",
+          "type": "fill",
+          "stem": "A hypothesis identifies facts that are ____ and those that are not.",
+          "options": [],
+          "answer": "relevant",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-4#20"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-4#20"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "qtm-m4-hypotheses-f1",
+      "front": "Four types of hypotheses",
+      "back": "Descriptive, Relational, Correlational and Causal.",
+      "kind": "list",
+      "source_refs": [
+        "qtm--module-4#16"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m4-hypotheses-f2",
+      "front": "Correlational vs causal hypothesis",
+      "back": "Correlational: variables occur together in some specified manner without implying causal direction. Causal: implies a cause-and-effect relationship.",
+      "kind": "term",
+      "source_refs": [
+        "qtm--module-4#16"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m4-hypotheses-f3",
+      "front": "Descriptive hypothesis (full definition)",
+      "back": "States the existence, size, form, or distribution of some variable.",
+      "kind": "term",
+      "source_refs": [
+        "qtm--module-4#17"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m4-hypotheses-f4",
+      "front": "Example: In Detroit, our potato chip market share stands at 13.7%",
+      "back": "A descriptive hypothesis. Research question: What is the market share for our potato chips in Detroit?",
+      "kind": "example",
+      "source_refs": [
+        "qtm--module-4#17"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m4-hypotheses-f5",
+      "front": "Example: Foreign cars are perceived by American consumers to be of better quality than domestic cars",
+      "back": "A relational hypothesis: variables country of origin and perceived quality; case American consumers.",
+      "kind": "example",
+      "source_refs": [
+        "qtm--module-4#18"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m4-hypotheses-f6",
+      "front": "Example: Young women (under 35) purchase fewer units of our product than women older than 35",
+      "back": "A correlational hypothesis.",
+      "kind": "example",
+      "source_refs": [
+        "qtm--module-4#19"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m4-hypotheses-f7",
+      "front": "Example: Loyalty to a grocery store increases the probability of buying its private brand products",
+      "back": "A causal hypothesis.",
+      "kind": "example",
+      "source_refs": [
+        "qtm--module-4#19"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m4-hypotheses-f8",
+      "front": "Four functions of a hypothesis",
+      "back": "Guides the direction of the study; identifies relevant and irrelevant facts; suggests the most appropriate research design; provides a framework for organizing conclusions.",
+      "kind": "list",
+      "source_refs": [
+        "qtm--module-4#20"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [],
+  "explain_back": {
+    "prompt": "Explain the types of hypotheses with one slide example of each, and the functions a hypothesis serves.",
+    "rubric": [
+      {
+        "point": "Descriptive: states the existence, size, form or distribution of a variable (e.g. potato chip market share in Detroit at 13.7%)",
+        "source_ref": "qtm--module-4#17"
+      },
+      {
+        "point": "Relational: relationship between two variables for a case (e.g. foreign cars and American consumers)",
+        "source_ref": "qtm--module-4#18"
+      },
+      {
+        "point": "Correlational: variables occur together without causal direction (e.g. suits sold and the business cycle)",
+        "source_ref": "qtm--module-4#19"
+      },
+      {
+        "point": "Causal: cause-and-effect (e.g. family income and percentage saved)",
+        "source_ref": "qtm--module-4#19"
+      },
+      {
+        "point": "Functions: guides direction, identifies relevant facts, suggests research design, framework for conclusions (husbands and wives example)",
+        "source_ref": "qtm--module-4#20"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

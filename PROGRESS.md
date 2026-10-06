@@ -81,7 +81,8 @@ No exam dates, so round-robin across subjects. Validate, ground and cover each d
   - 13 topics (qtm-m3-*), 60 chunks, 161 checks, 78 cards, 37 examples. By subagent, reviewed. Unanswered practice slides (35, 39, 46, 55, 59, 60) solved with the deck's formulas, numbers marked derived. Slide errors named in lessons: slide 14 uses 0.2905 for 29.5%, slide 32 asks P(X >= 9) but computes P(X > 9). Binomial is listed but has no slide of its own.
 - [ ] P4 pass A: sce--list-of-business-ideas (5 slides, 1 visual)
 - [ ] P4 pass A: far--session-14-case-2-1-case-3-1-maynard-a-b-full (2 slides, 2 visual)
-- [ ] P4 pass A: qtm--module-4 (34 slides, 13 visual)
+- [x] P4 pass A: qtm--module-4 (34 slides, 13 visual)
+  - 7 topics (qtm-m4-*), 34 chunks, 98 checks, 55 cards, 17 examples. By subagent, reviewed. Research methods deck, no formulas.
 - [ ] P4 pass A: sce--step-startup-pitching-template-very-early-stage (15 slides, 12 visual)
 - [ ] P4 pass A: qtm--module-5 (32 slides, 12 visual)
 - [ ] P4 pass A: qtm--module-6 (38 slides, 16 visual)

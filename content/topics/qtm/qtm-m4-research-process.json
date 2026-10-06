@@ -1,0 +1,591 @@
+{
+  "id": "qtm-m4-research-process",
+  "subject_id": "qtm",
+  "deck_id": "qtm--module-4",
+  "title": "The research process and data cleaning",
+  "order": 407,
+  "summary": "The six stages of the research process from clarifying the research question to reporting results, then data quality, why clean data matters, and the common data issues to fix.",
+  "est_minutes": 25,
+  "difficulty": 1,
+  "source_refs": [
+    "qtm--module-4#30",
+    "qtm--module-4#31",
+    "qtm--module-4#32",
+    "qtm--module-4#33"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "qtm-m4-research-process-c1",
+      "heading": "Stage I: clarifying the research question",
+      "explanation_md": "The research process has **six stages**. **Stage I is Clarifying the Research Question**, and it has five steps in order:\n\n1. **Discover the management dilemma** (problem discovery).\n2. **Exploration through reports and previous studies.**\n3. **Define the management question.**\n4. **Exploration through interviews.**\n5. **Define the research question.**\n\nNotice the order: discover, explore, define, explore again, define again. You move from the **management dilemma** to the **management question** and then to the **research question**.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "Stage I, clarifying the research question: discover management dilemma, explore reports and previous studies, define management question, explore through interviews, define research question.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m4-research-process-q-9ba1d443",
+          "type": "mcq",
+          "stem": "What is the first step of Stage I of the research process?",
+          "options": [
+            "Discover management dilemma (problem discovery)",
+            "Define research question",
+            "Resource and budget allocation",
+            "Research design"
+          ],
+          "answer": "Discover management dilemma (problem discovery)",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-4#30",
+            "qtm--module-4#31"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m4-research-process-q-0b69e4cc",
+          "type": "mcq",
+          "stem": "In Stage I, which comes right before 'Define research question'?",
+          "options": [
+            "Exploration through interviews",
+            "Exploration through reports and previous studies",
+            "Define management question"
+          ],
+          "answer": "Exploration through interviews",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-4#30"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m4-research-process-q-c03c6ebd",
+          "type": "fill",
+          "stem": "Stage I of the research process is clarifying the research ____.",
+          "options": [],
+          "answer": "question",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-4#30"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-4#30"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m4-research-process-c2",
+      "heading": "Stage II: proposing research",
+      "explanation_md": "**Stage II is Proposing Research.** It covers:\n\n- **Resource and budget allocation.**\n- **Valuing research information.**\n- **Evaluation methods**: **Ex-Post Facto Evaluation**, **Prior or Interim Evaluation**, **Option Evaluation** and **Decision Theory**.\n- **Research proposal.**",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "Stage II, proposing research: resource and budget allocation, valuing research information, evaluation methods (ex-post facto, prior or interim, option evaluation, decision theory), research proposal.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m4-research-process-q-ff098cd3",
+          "type": "mcq",
+          "stem": "Which of these is one of the evaluation methods listed under Stage II?",
+          "options": [
+            "Option Evaluation",
+            "Pilot Test",
+            "Sampling Design",
+            "Literature Search"
+          ],
+          "answer": "Option Evaluation",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-4#30",
+            "qtm--module-4#31",
+            "qtm--module-4#12"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m4-research-process-q-3603ad1f",
+          "type": "true_false",
+          "stem": "Resource and budget allocation is part of Stage II, proposing research.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-4#30"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m4-research-process-q-29264cd0",
+          "type": "fill",
+          "stem": "Stage II ends with the research ____.",
+          "options": [],
+          "answer": "proposal",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-4#30"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-4#30"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m4-research-process-c3",
+      "heading": "Stages III to VI: from methodology to the report",
+      "explanation_md": "The remaining four stages:\n\n- **Stage III: Research Methodology**: **research design**, **sampling design** and **pilot test**.\n- **Stage IV: Data Collection and Preparation**: **primary and secondary data**.\n- **Stage V: Data Analysis and Interpretation.**\n- **Stage VI: Reporting the Results.**\n\nPut together, the six stages are: clarify the question, propose the research, plan the methodology, collect and prepare data, analyse and interpret, report.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "Six stages: I clarifying the research question; II proposing research; III research methodology (research design, sampling design, pilot test); IV data collection and preparation; V data analysis and interpretation; VI reporting the results.",
+      "clarification": {
+        "term": "pilot test",
+        "text": "A small trial run of the research plan before the full study, to catch problems early."
+      },
+      "check_questions": [
+        {
+          "id": "qtm-m4-research-process-q-cc87bd14",
+          "type": "mcq",
+          "stem": "Research design, sampling design and pilot test belong to which stage?",
+          "options": [
+            "Stage III: Research Methodology",
+            "Stage II: Proposing Research",
+            "Stage IV: Data Collection and Preparation"
+          ],
+          "answer": "Stage III: Research Methodology",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-4#31",
+            "qtm--module-4#30"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m4-research-process-q-c76bbe75",
+          "type": "mcq",
+          "stem": "What is the final stage of the research process?",
+          "options": [
+            "Reporting the results",
+            "Data analysis and interpretation",
+            "Research proposal"
+          ],
+          "answer": "Reporting the results",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-4#31",
+            "qtm--module-4#30"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m4-research-process-q-889caab9",
+          "type": "true_false",
+          "stem": "Stage IV, data collection and preparation, covers primary and secondary data.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-4#31"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-4#31"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m4-research-process-c4",
+      "heading": "Data quality and why clean data matters",
+      "explanation_md": "Once data is collected it must be cleaned and prepared.\n\n**Data quality dimensions** (five): **accuracy, completeness, consistency, timeliness, validity**.\n\n**Impact on analysis** if quality is poor: **biased results, reduced power, faulty decisions**.\n\n**What clean data does:**\n- **Eliminates inaccuracies, missing values and duplicates** that could bias results.\n- **Ensures consistency across data sources**, making comparison and integration easier.\n- **Reduces computational effort and speeds up analysis.**\n- **Increases the reliability and validity** of models, predictions and insights.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Data quality dimensions",
+          "meaning": "Accuracy, completeness, consistency, timeliness, validity.",
+          "source_ref": "qtm--module-4#32"
+        }
+      ],
+      "exam_line": "Data quality dimensions: accuracy, completeness, consistency, timeliness, validity. Poor data causes biased results, reduced power and faulty decisions.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m4-research-process-q-b27ab6b8",
+          "type": "mcq",
+          "stem": "Which of these is NOT one of the five data quality dimensions on the slide?",
+          "options": [
+            "Neutrality",
+            "Timeliness",
+            "Completeness",
+            "Validity"
+          ],
+          "answer": "Neutrality",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-4#32",
+            "qtm--module-4#8"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m4-research-process-q-13c7ba9c",
+          "type": "mcq",
+          "stem": "Which three impacts on analysis does the slide list?",
+          "options": [
+            "Biased results, reduced power, faulty decisions",
+            "Missing values, duplicates, outliers",
+            "Accuracy, consistency, validity"
+          ],
+          "answer": "Biased results, reduced power, faulty decisions",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-4#32",
+            "qtm--module-4#33"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m4-research-process-q-3782af4a",
+          "type": "true_false",
+          "stem": "According to the slide, clean data reduces computational effort and speeds up analysis.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-4#32"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-4#32"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m4-research-process-c5",
+      "heading": "Common data issues to look for",
+      "explanation_md": "The slide lists six **common data issues**:\n\n1. **Missing values**\n2. **Duplicates**\n3. **Outliers**\n4. **Inconsistent categories**, e.g. **Yes/No/Y/N** or **Male/Female/Unknown**\n5. **Typographical errors**\n6. **Incorrect data types**, e.g. **text stored as numbers**, **dates as strings**\n\nThe examples make the idea clear: if the same answer is recorded as both \"Yes\" and \"Y\", the data is inconsistent; if a date is stored as a string, it has the wrong data type.",
+      "example_ids": [
+        "qtm-ex-m4-inconsistent-categories"
+      ],
+      "key_terms": [],
+      "exam_line": "Common data issues: missing values, duplicates, outliers, inconsistent categories (Yes/No/Y/N), typographical errors, incorrect data types (text stored as numbers, dates as strings).",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m4-research-process-q-454f2965",
+          "type": "mcq",
+          "stem": "Recording answers as Yes/No/Y/N is an example of which data issue?",
+          "options": [
+            "Inconsistent categories",
+            "Incorrect data types",
+            "Duplicates",
+            "Outliers"
+          ],
+          "answer": "Inconsistent categories",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-4#33"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m4-research-process-q-8ec03b23",
+          "type": "mcq",
+          "stem": "Dates stored as strings are an example of:",
+          "options": [
+            "Incorrect data types",
+            "Typographical errors",
+            "Missing values"
+          ],
+          "answer": "Incorrect data types",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-4#33"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m4-research-process-q-2b13bb30",
+          "type": "fill",
+          "stem": "Missing values, duplicates and ____ are the first three common data issues on the slide.",
+          "options": [],
+          "answer": "outliers",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-4#33"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-4#33"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "qtm-m4-research-process-f1",
+      "front": "Six stages of the research process",
+      "back": "I Clarifying the research question; II Proposing research; III Research methodology; IV Data collection and preparation; V Data analysis and interpretation; VI Reporting the results.",
+      "kind": "list",
+      "source_refs": [
+        "qtm--module-4#30",
+        "qtm--module-4#31"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m4-research-process-f2",
+      "front": "Stage I steps",
+      "back": "Discover management dilemma; exploration through reports and previous studies; define management question; exploration through interviews; define research question.",
+      "kind": "list",
+      "source_refs": [
+        "qtm--module-4#30"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m4-research-process-f3",
+      "front": "Evaluation methods in Stage II",
+      "back": "Ex-Post Facto Evaluation, Prior or Interim Evaluation, Option Evaluation, Decision Theory.",
+      "kind": "list",
+      "source_refs": [
+        "qtm--module-4#30"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m4-research-process-f4",
+      "front": "Stage III: Research Methodology",
+      "back": "Research design, sampling design, pilot test.",
+      "kind": "list",
+      "source_refs": [
+        "qtm--module-4#31"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m4-research-process-f5",
+      "front": "Data quality dimensions",
+      "back": "Accuracy, completeness, consistency, timeliness, validity.",
+      "kind": "list",
+      "source_refs": [
+        "qtm--module-4#32"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m4-research-process-f6",
+      "front": "Impact of poor data on analysis",
+      "back": "Biased results, reduced power, faulty decisions.",
+      "kind": "list",
+      "source_refs": [
+        "qtm--module-4#32"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m4-research-process-f7",
+      "front": "Common data issues",
+      "back": "Missing values, duplicates, outliers, inconsistent categories, typographical errors, incorrect data types.",
+      "kind": "list",
+      "source_refs": [
+        "qtm--module-4#33"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m4-research-process-f8",
+      "front": "Example of inconsistent categories",
+      "back": "Yes/No/Y/N; Male/Female/Unknown.",
+      "kind": "example",
+      "source_refs": [
+        "qtm--module-4#33"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [],
+  "explain_back": {
+    "prompt": "Walk through the six stages of the research process, then explain why data must be cleaned and what problems you would look for.",
+    "rubric": [
+      {
+        "point": "Stage I clarifying the research question (management dilemma to management question to research question) and Stage II proposing research (budget, valuing information, evaluation methods, proposal)",
+        "source_ref": "qtm--module-4#30"
+      },
+      {
+        "point": "Stages III research methodology, IV data collection and preparation, V analysis and interpretation, VI reporting",
+        "source_ref": "qtm--module-4#31"
+      },
+      {
+        "point": "Data quality dimensions: accuracy, completeness, consistency, timeliness, validity; poor data gives biased results, reduced power, faulty decisions",
+        "source_ref": "qtm--module-4#32"
+      },
+      {
+        "point": "Clean data removes inaccuracies, missing values and duplicates, ensures consistency, speeds analysis, raises reliability and validity",
+        "source_ref": "qtm--module-4#32"
+      },
+      {
+        "point": "Common issues: missing values, duplicates, outliers, inconsistent categories, typos, incorrect data types",
+        "source_ref": "qtm--module-4#33"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}
