@@ -85,6 +85,26 @@ def test_author_refuses_to_overwrite(env):
     author.apply(_draft(), force=True)  # explicit force is allowed
 
 
+def test_add_questions_sets_bank_and_keeps_lesson(env):
+    contentio.save_deck(cf.make_deck())
+    author.apply(_draft())
+    bank = {"subject_id": "mm", "topics": {"mm-s9-pricing": [
+        {"type": "mcq", "q": "Jio entered with?", "options": ["Free data", "High price", "Neither"], "a": "Free data", "refs": [2], "marks": 1},
+        {"type": "short", "q": "Explain penetration pricing.", "model": "A low price to win share fast.",
+         "rubric": [["Low price", 2], ["Win share fast", 2]], "marks": 5, "difficulty": 2, "style": "explain"},
+    ]}}
+    assert author.add_questions(bank) == {"topics": 1, "questions": 2}
+    assert author.add_questions(bank)["questions"] == 2  # re-running replaces, never duplicates
+    topic = next(contentio.iter_topics())
+    assert [q.type for q in topic.questions] == ["mcq", "short"]
+    assert topic.questions[1].source_refs == topic.source_refs  # inherits topic refs
+    assert len(topic.chunks) == 2
+    errors, _ = validate.check(catalog.load())
+    assert errors == []
+    with pytest.raises(author.DraftError):
+        author.add_questions({"subject_id": "mm", "topics": {"mm-s9-missing": []}})
+
+
 def test_author_rejects_unknown_example(env):
     contentio.save_deck(cf.make_deck())
     draft = _draft()

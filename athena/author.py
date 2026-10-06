@@ -209,14 +209,38 @@ def apply(draft: dict, force: bool = False) -> dict:
             "questions": sum(len(t.questions) for t in topics)}
 
 
+def add_questions(draft: dict) -> dict:
+    """Pass B: set the question bank of existing topics, leaving everything else as is.
+
+    Draft: {"subject_id": "be", "topics": {"<topic_id>": [question, ...]}}, questions in
+    the same compact form as checks plus model/rubric/marks/difficulty/style. Slide refs
+    are numbers in the topic's own deck. A topic's bank is replaced, so re-running is safe.
+    """
+    subject_id = draft["subject_id"]
+    counts = {}
+    for topic_id, items in draft["topics"].items():
+        path = contentio.topic_path(subject_id, topic_id)
+        if not path.is_file():
+            raise DraftError(f"no topic {topic_id} in subject {subject_id}")
+        topic = contentio.load_topic_file(path)
+        questions = [_question(topic_id, topic.deck_id, q, topic.source_refs) for q in items]
+        if len({q.id for q in questions}) != len(questions):
+            raise DraftError(f"{topic_id}: two questions have the same stem")
+        topic.questions = questions
+        contentio.save_topic(topic)
+        counts[topic_id] = len(questions)
+    return {"topics": len(counts), "questions": sum(counts.values())}
+
+
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(prog="python -m athena.author", description=__doc__)
     parser.add_argument("draft", type=Path)
     parser.add_argument("--force", action="store_true")
+    parser.add_argument("--questions", action="store_true", help="draft is a pass B question bank")
     args = parser.parse_args(argv)
     try:
         draft = json.loads(args.draft.read_text(encoding="utf-8"))
-        result = apply(draft, force=args.force)
+        result = add_questions(draft) if args.questions else apply(draft, force=args.force)
     except (OSError, json.JSONDecodeError, DraftError, KeyError, ValueError) as exc:
         print(f"ERROR: {exc}")
         return 1
