@@ -157,7 +157,7 @@
     {
       "id": "be-s12-perpetuity-c3",
       "heading": "Practice: a deferred perpetuity",
-      "explanation_md": "**Practice question:** an endowment pays **$800 per year forever**, but the **first payment arrives at the end of Year 5** (a \"deferred perpetuity\"). At **6%**, what is it worth today?\n\nThe slide gives no solution, so here is the working using two formulas from this deck.\n\n**Step 1: value the perpetuity one period before its first payment.** In the formula CF/(1 + i)^1 + CF/(1 + i)^2 + ..., the first payment is discounted by one period. So CF / i gives the value one year before the first payment. Here the first payment is at the end of Year 5, so CF / i is the value at the end of Year 4:\n\n800 / 0.06 ≈ **$13,333.33** (at the end of Year 4)\n\n**Step 2: bring that single amount back to today** with PV = FV / (1 + i)^n, where n = 4:\n\n13,333.33 / (1.06)^4 ≈ **$10,561.25**",
+      "explanation_md": "**Practice question:** an endowment pays **$800 per year forever**, but the **first payment arrives at the end of Year 5** (a \"deferred perpetuity\"). At **6%**, what is it worth today?\n\nHere is the working using two formulas from this deck.\n\n**Step 1: value the perpetuity one period before its first payment.** In the formula CF/(1 + i)^1 + CF/(1 + i)^2 + ..., the first payment is discounted by one period. So CF / i gives the value one year before the first payment. Here the first payment is at the end of Year 5, so CF / i is the value at the end of Year 4:\n\n800 / 0.06 ≈ **$13,333.33** (at the end of Year 4)\n\n**Step 2: bring that single amount back to today** with PV = FV / (1 + i)^n, where n = 4:\n\n13,333.33 / (1.06)^4 ≈ **$10,561.25**",
       "example_ids": [
         "be-ex-deferred-endowment"
       ],

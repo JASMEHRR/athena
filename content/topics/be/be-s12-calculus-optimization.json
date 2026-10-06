@@ -276,7 +276,7 @@
     {
       "id": "be-s12-calculus-optimization-c4",
       "heading": "Practice: a monopolist's quantity, price and profit",
-      "explanation_md": "**Practice question:** a **monopolist** faces **demand P = 100 - 2Q** and **total cost TC = 50 + 10Q + 3Q²**. Find the profit-maximizing quantity, price and profit.\n\nThe slide gives no solution, so here is the working with the deck's own tools.\n\n**Step 1: total revenue.** TR = P × Q = (100 - 2Q) × Q = **100Q - 2Q²**\n\n**Step 2: marginal values.** MR = dTR/dQ = **100 - 4Q**; MC = dTC/dQ = **10 + 6Q**\n\n**Step 3: MR = MC.** 100 - 4Q = 10 + 6Q, so 90 = 10Q, so **Q = 9**\n\n**Step 4: second order condition.** d²π/dQ² = -4 - 6 = -10 < 0, so this is a maximum.\n\n**Step 5: price.** P = 100 - 2 × 9 = 100 - 18 = **82**\n\n**Step 6: profit.** TR = 82 × 9 = 738; TC = 50 + 10 × 9 + 3 × 81 = 50 + 90 + 243 = 383; **profit = 738 - 383 = 355**",
+      "explanation_md": "**Practice question:** a **monopolist** faces **demand P = 100 - 2Q** and **total cost TC = 50 + 10Q + 3Q²**. Find the profit-maximizing quantity, price and profit.\n\nHere is the working with the deck's own tools.\n\n**Step 1: total revenue.** TR = P × Q = (100 - 2Q) × Q = **100Q - 2Q²**\n\n**Step 2: marginal values.** MR = dTR/dQ = **100 - 4Q**; MC = dTC/dQ = **10 + 6Q**\n\n**Step 3: MR = MC.** 100 - 4Q = 10 + 6Q, so 90 = 10Q, so **Q = 9**\n\n**Step 4: second order condition.** d²π/dQ² = -4 - 6 = -10 < 0, so this is a maximum.\n\n**Step 5: price.** P = 100 - 2 × 9 = 100 - 18 = **82**\n\n**Step 6: profit.** TR = 82 × 9 = 738; TC = 50 + 10 × 9 + 3 × 81 = 50 + 90 + 243 = 383; **profit = 738 - 383 = 355**",
       "example_ids": [
         "be-ex-monopolist"
       ],
