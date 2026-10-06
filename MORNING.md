@@ -48,7 +48,7 @@ To keep it one click away, right-click **Open Athena** and choose **Pin to Start
 4. **Four files I skipped because I wasn't sure your professor shared them:** `FAR\Havells India Ltd Analysis.pdf`, `FAR\CIN details.pdf`, `FAR\Reading 1_Conceptual Framework.pdf` (86-page reading), and the OML Robbins textbook. If any are from your professor and you want lessons from them, tell me.
 
 5. **Optional: let Athena pull slides from Google Classroom.** Free, but it needs a one-time setup in your own Google account (about 10 minutes):
-   1. Go to console.cloud.google.com and sign in with your Thapar account (jsingh_mba26@thapar.edu).
+   1. Go to console.cloud.google.com and sign in with your Thapar account.
    2. Top bar: project picker, then **New project**, name it `Athena`, **Create**.
    3. Menu, **APIs & Services**, **Library**: search **Google Classroom API**, click **Enable**. Do the same for **Google Drive API**.
    4. **APIs & Services**, **OAuth consent screen**: choose **External** (or Internal if offered), app name `Athena`, your email in both email boxes, **Save and continue** through the screens.

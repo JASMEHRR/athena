@@ -6,7 +6,7 @@ Athena is JasMehr's MBA study tutor. Full spec: OVERNIGHT.md (build) and REFRESH
 1. **PPT only.** Every lesson chunk, example, flashcard, question, model answer and rubric point comes from the professors' slides and carries `source_refs` (`<deck_id>#<slide_no>`). No outside facts, companies, numbers, examples, analogies, cases or frameworks. Rephrasing is fine. The only exception is a `clarification` of at most 2 sentences giving the plain meaning of a term a slide names without explaining; no names or numbers in it, and it never appears in a model answer.
 2. **No paid APIs, no required keys.** The app makes zero AI calls at runtime. Free APIs (Google Classroom, Drive, YouTube Data API) are optional. Keys live in `.env` or `secrets/` (gitignored), never committed or printed.
 3. **Stay in this folder.** Only create or change files here. `E:\college` and `inbox/` are read-only: never move, rename, edit or delete anything in them. Working copies go to `data/converted/`. Never touch other projects in E:\imp\projects.
-4. **Git:** commit after every finished task (`wip:` for partial work). Never push, add remotes, rewrite history, `git reset --hard` or `git clean`.
+4. **Git:** commit after every finished task (`wip:` for partial work). Push only to `origin` (JasMehr's public GitHub repo, approved 6 Oct 2026); never add other remotes, force-push, rewrite history, `git reset --hard` or `git clean`.
 5. **Python:** 3.11 in `.venv`. Install with `.venv\Scripts\python -m pip install ...`. CPU only. Times are Asia/Kolkata.
 6. **Always runnable:** tests pass at every commit. Port 8766 for tests, 8765 is JasMehr's. Stop any server you start.
 7. **Words JasMehr reads** (UI, lessons, MORNING.md): plain, friendly English, no em dashes, call him JasMehr.
