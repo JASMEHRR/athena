@@ -29,14 +29,6 @@ async def app(scope, receive, send):
     """Vercel may mount the function under root_path "/api", which makes FastAPI strip
     "/api" before routing and 404 every /api/v1 route. Athena owns the whole site, so
     route on the full path."""
-    if scope["type"] == "http" and scope["path"].endswith("__scope"):  # ponytail: temporary deploy debug
-        info = {"path": scope["path"], "root_path": scope.get("root_path"),
-                "raw_path": (scope.get("raw_path") or b"").decode("latin-1"),
-                "headers": {k.decode(): v.decode() for k, v in scope["headers"] if k.startswith(b"x-")}}
-        body = __import__("json").dumps(info).encode()
-        await send({"type": "http.response.start", "status": 200, "headers": [(b"content-type", b"application/json")]})
-        await send({"type": "http.response.body", "body": body})
-        return
     if scope["type"] in ("http", "websocket"):
         scope = dict(scope, root_path="")
         if scope["path"].startswith("/v1/"):
