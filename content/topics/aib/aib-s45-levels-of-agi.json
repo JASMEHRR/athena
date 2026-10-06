@@ -595,7 +595,371 @@
       "retired": false
     }
   ],
-  "questions": [],
+  "questions": [
+    {
+      "id": "aib-s45-levels-of-agi-q-908a24fa",
+      "type": "mcq",
+      "stem": "Which level of the Levels of AGI framework does the slide mark as 'not yet achieved'?",
+      "options": [
+        "Level 2: Competent AGI",
+        "Level 1: Emerging AGI",
+        "Level 0: No AI",
+        "Level 5: ASI"
+      ],
+      "answer": "Level 2: Competent AGI",
+      "accept": [],
+      "explanation": "Level 0 has calculators and Level 1 has ChatGPT; Competent AGI is marked not yet achieved.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "recall",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#32"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-levels-of-agi-q-c8fcae6d",
+      "type": "mcq",
+      "stem": "Which definition of AGI 'requires consciousness, not operationalizable'?",
+      "options": [
+        "Strong AI (Searle)",
+        "Turing Test",
+        "Learning Tasks (Shanahan)",
+        "Brain Analogy"
+      ],
+      "answer": "Strong AI (Searle)",
+      "accept": [],
+      "explanation": "The Turing Test is too reliant on deception, Shanahan stresses metacognition, and the brain analogy is not necessary for performance.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "recall",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#30"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-levels-of-agi-q-76997080",
+      "type": "mcq",
+      "stem": "Calculators are the slide's example of which level of AGI?",
+      "options": [
+        "Level 0: No AI",
+        "Level 1: Emerging AGI",
+        "Level 3: Expert AGI",
+        "Tool (basic automation)"
+      ],
+      "answer": "Level 0: No AI",
+      "accept": [],
+      "explanation": "Calculators are Level 0; Tool is an autonomy level whose example is a grammar checker.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "example",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#32",
+        "aib--aib-session4-5-types-of-ai#34"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-levels-of-agi-q-9d2ef9e2",
+      "type": "mcq",
+      "stem": "Which autonomy level is described as 'AI gives advice when prompted'?",
+      "options": [
+        "Consultant",
+        "Collaborator",
+        "Tool",
+        "Agent"
+      ],
+      "answer": "Consultant",
+      "accept": [],
+      "explanation": "Tool is basic automation, Collaborator has shared goals, Agent is fully autonomous AI.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "recall",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#34"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-levels-of-agi-q-78354140",
+      "type": "mcq",
+      "stem": "What does the article recommend for testing AGI?",
+      "options": [
+        "A living benchmark that evolves and includes real-world tasks",
+        "The Turing Test on its own",
+        "A fixed benchmark of robotics tasks",
+        "Measuring economic value only"
+      ],
+      "answer": "A living benchmark that evolves and includes real-world tasks",
+      "accept": [],
+      "explanation": "The Turing Test and economic value definitions are criticised, and the principles say prioritize cognitive tasks, not robotics.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "recall",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#33",
+        "aib--aib-session4-5-types-of-ai#30",
+        "aib--aib-session4-5-types-of-ai#31"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-levels-of-agi-q-fda6ae44",
+      "type": "mcq",
+      "stem": "The article's leveled ontology for AGI progress is compared to what?",
+      "options": [
+        "Autonomous driving levels",
+        "The COSO framework's five components",
+        "Figure 14's stages of AI learning",
+        "The VRIN model"
+      ],
+      "answer": "Autonomous driving levels",
+      "accept": [],
+      "explanation": "The Introduction slide says the leveled ontology is like autonomous driving levels.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "recall",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#29",
+        "aib--aib-session4-5-types-of-ai#36",
+        "aib--aib-session4-5-types-of-ai#45",
+        "aib--aib-session4-5-types-of-ai#38"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-levels-of-agi-q-957865ec",
+      "type": "short",
+      "stem": "List the six principles the article gives for defining AGI.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "After studying earlier definitions, the article sets **six principles for defining AGI**:\n\n1. **Focus on capabilities, not processes** (ignore consciousness).\n2. **Evaluate generality and performance separately.**\n3. **Prioritize cognitive and metacognitive tasks** (not robotics).\n4. **Emphasize potential, not deployment.**\n5. **Ensure ecological validity** (real-world relevance).\n6. **Define progress as levels, not a binary endpoint.**\n\nThe last principle is what leads to the Levels of AGI framework.",
+      "rubric": [
+        {
+          "point": "Capabilities, not processes; generality and performance separately",
+          "source_ref": "aib--aib-session4-5-types-of-ai#31"
+        },
+        {
+          "point": "Cognitive and metacognitive tasks, not robotics",
+          "source_ref": "aib--aib-session4-5-types-of-ai#31"
+        },
+        {
+          "point": "Potential, not deployment; ecological validity",
+          "source_ref": "aib--aib-session4-5-types-of-ai#31"
+        },
+        {
+          "point": "Progress as levels, not a binary endpoint",
+          "source_ref": "aib--aib-session4-5-types-of-ai#31"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 1,
+      "style_tag": "list",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#31"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-levels-of-agi-q-362b6f38",
+      "type": "short",
+      "stem": "Explain why the article says AGI is not the same as autonomy, with the levels of autonomy it gives.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The article separates **how capable** an AI is from **how freely it acts**: *AGI is not autonomy; deployment context matters*.\n\n**Levels of autonomy (0 to 5) on the slide:**\n- **Tool:** basic automation, e.g. a grammar checker.\n- **Consultant:** AI gives advice when prompted.\n- **Collaborator:** shared goals, interactive learning.\n- **Expert:** AI leads, human gives feedback.\n- **Agent:** fully autonomous AI.\n\n**Risk mapping:** **higher AGI + higher autonomy = higher risk**, such as job displacement, manipulation and misalignment.\n\n**Solution:** carefully design human-AI interaction to **match the AGI level**.",
+      "rubric": [
+        {
+          "point": "AGI is not autonomy; deployment context matters",
+          "source_ref": "aib--aib-session4-5-types-of-ai#34"
+        },
+        {
+          "point": "Levels: tool, consultant, collaborator, expert, agent",
+          "source_ref": "aib--aib-session4-5-types-of-ai#34"
+        },
+        {
+          "point": "Higher AGI + higher autonomy = higher risk",
+          "source_ref": "aib--aib-session4-5-types-of-ai#34"
+        },
+        {
+          "point": "Risks: job displacement, manipulation, misalignment",
+          "source_ref": "aib--aib-session4-5-types-of-ai#34"
+        },
+        {
+          "point": "Design human-AI interaction to match the AGI level",
+          "source_ref": "aib--aib-session4-5-types-of-ai#34"
+        }
+      ],
+      "marks": 5.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#34"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-levels-of-agi-q-6582464f",
+      "type": "short",
+      "stem": "Where does ChatGPT sit in this deck? Compare the Levels of AGI slide with the Popular ANI systems table and the 'Strong AI' slide.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The deck places ChatGPT differently depending on the slide.\n\n- **Levels of AGI framework:** **Level 1: Emerging AGI (e.g., ChatGPT)**.\n- **Popular ANI systems table:** **ChatGPT (OpenAI)** is listed as an **ANI system** for conversation, summarization, Q&A and code generation.\n- **'Strong AI' slide:** ChatGPT is an **early example** of AGI that mimics general understanding but lacks self-awareness or true reasoning.\n\nAll three agree ChatGPT is not full AGI; when answering, name the slide whose label you use.",
+      "rubric": [
+        {
+          "point": "Levels of AGI: Level 1, Emerging AGI",
+          "source_ref": "aib--aib-session4-5-types-of-ai#32"
+        },
+        {
+          "point": "ANI systems table: listed as an ANI system",
+          "source_ref": "aib--aib-session4-5-types-of-ai#12"
+        },
+        {
+          "point": "Strong AI slide: early example lacking self-awareness or true reasoning",
+          "source_ref": "aib--aib-session4-5-types-of-ai#9"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 3,
+      "style_tag": "differentiate",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#32",
+        "aib--aib-session4-5-types-of-ai#12",
+        "aib--aib-session4-5-types-of-ai#9"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-levels-of-agi-q-c168a611",
+      "type": "long",
+      "stem": "Explain the Levels of AGI framework proposed in the research article summarised in the deck.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The deck summarises a research article that proposes a way to **classify progress toward AGI**, instead of arguing whether AGI exists or not.\n\n**Why it was needed:**\n- AGI is moving **from theoretical to practical relevance** because of rapid AI advancements.\n- There is **no standard definition or benchmark** for AGI.\n- The authors' contribution is a **leveled ontology**, like **autonomous driving levels**, that describes progress through **performance and generality**.\n\n**The framework** is a matrix of **performance levels** (Emerging to Superhuman) against **generality** (Narrow vs General):\n\n| Level | Name | Example on slide |\n|---|---|---|\n| 0 | No AI | calculators |\n| 1 | Emerging AGI | ChatGPT |\n| 2 | Competent AGI | not yet achieved |\n| 3 | Expert AGI | |\n| 4 | Virtuoso AGI | |\n| 5 | ASI (Artificial Superintelligence) | |\n\n**Key idea:** AGI is reached **not when one task is done superhumanly**, but when **many tasks are done competently across a range of domains**.\n\n**Testing:** benchmarks need a mix of **cognitive, metacognitive, creative and social** tasks. The challenge is deciding which tasks matter, how many to test and how to measure ecologically, so the article recommends a **living benchmark** that evolves.\n\n**Conclusion of the article:** AGI should be defined by **performance and generality**; the framework gives a **common language to track AI progress and risk**; benchmarks and interaction paradigms are essential; and it **calls for collaboration across disciplines** toward safe AGI.\n\nSo the framework turns AGI from a yes-or-no question into a ladder, with ChatGPT on the first rung and ASI at the top.",
+      "rubric": [
+        {
+          "point": "Purpose: classify progress toward AGI; no standard definition or benchmark exists",
+          "source_ref": "aib--aib-session4-5-types-of-ai#29"
+        },
+        {
+          "point": "Leveled ontology like autonomous driving levels; performance and generality",
+          "source_ref": "aib--aib-session4-5-types-of-ai#29"
+        },
+        {
+          "point": "Levels 0 to 5: No AI (calculators), Emerging (ChatGPT), Competent (not yet achieved), Expert, Virtuoso, ASI",
+          "source_ref": "aib--aib-session4-5-types-of-ai#32"
+        },
+        {
+          "point": "Key idea: many tasks done competently across domains, not one done superhumanly",
+          "source_ref": "aib--aib-session4-5-types-of-ai#32"
+        },
+        {
+          "point": "Testing via a living benchmark of cognitive, metacognitive, creative, social tasks",
+          "source_ref": "aib--aib-session4-5-types-of-ai#33"
+        },
+        {
+          "point": "Conclusion: common language for progress and risk; cross-disciplinary collaboration",
+          "source_ref": "aib--aib-session4-5-types-of-ai#35"
+        }
+      ],
+      "marks": 10.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#29",
+        "aib--aib-session4-5-types-of-ai#32",
+        "aib--aib-session4-5-types-of-ai#33",
+        "aib--aib-session4-5-types-of-ai#35"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-levels-of-agi-q-6a53aa2b",
+      "type": "long",
+      "stem": "Discuss the definitions of AGI that the article examines and the principles it draws from them.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Before proposing its levels, the article tests earlier definitions of AGI as **case studies**. The slide says **9 definitions** are explored and prints eight of them.\n\n**Definitions and their weakness or focus:**\n- **Turing Test:** insufficient, **too reliant on deception**.\n- **Strong AI (Searle):** **requires consciousness**, so it is not operationalizable.\n- **Brain analogy:** copying the brain is **not necessary for performance**.\n- **Cognitive tasks (Legg, Goertzel):** focuses on **capability, not embodiment**.\n- **Learning tasks (Shanahan):** **metacognitive ability** is key.\n- **Economic value (OpenAI):** measures usefulness but **excludes non-economic intelligence**.\n- **Real-world tasks (Marcus, Suleyman):** emphasizes **flexibility and generality**.\n- **LLMs as AGI (Arcas & Norvig):** **generality present, performance still lacking**.\n\n**Six principles drawn from them:**\n1. **Capabilities, not processes:** ignore consciousness (answering the Searle problem).\n2. **Generality and performance separately:** as the LLM case shows, one can exist without the other.\n3. **Cognitive and metacognitive tasks, not robotics:** following the cognitive and learning-task views.\n4. **Potential, not deployment.**\n5. **Ecological validity:** real-world relevance, as the real-world task view stresses.\n6. **Levels, not a binary endpoint.**\n\nSo each principle fixes a weakness found in the older definitions, which is why the article ends with a leveled framework.",
+      "rubric": [
+        {
+          "point": "Turing Test: too reliant on deception; Strong AI (Searle): needs consciousness",
+          "source_ref": "aib--aib-session4-5-types-of-ai#30"
+        },
+        {
+          "point": "Cognitive tasks: capability not embodiment; learning tasks: metacognition",
+          "source_ref": "aib--aib-session4-5-types-of-ai#30"
+        },
+        {
+          "point": "Economic value excludes non-economic intelligence; LLMs: generality but weak performance",
+          "source_ref": "aib--aib-session4-5-types-of-ai#30"
+        },
+        {
+          "point": "Principles: capabilities not processes; generality and performance separately",
+          "source_ref": "aib--aib-session4-5-types-of-ai#31"
+        },
+        {
+          "point": "Cognitive and metacognitive tasks; potential not deployment; ecological validity",
+          "source_ref": "aib--aib-session4-5-types-of-ai#31"
+        },
+        {
+          "point": "Progress as levels, not a binary endpoint",
+          "source_ref": "aib--aib-session4-5-types-of-ai#31"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 3,
+      "style_tag": "explain",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#30",
+        "aib--aib-session4-5-types-of-ai#31"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
   "explain_back": {
     "prompt": "Explain the Levels of AGI framework from the research article: why it is needed, its principles, the levels, and how autonomy affects risk.",
     "rubric": [

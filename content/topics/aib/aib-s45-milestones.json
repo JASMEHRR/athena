@@ -470,7 +470,344 @@
       "retired": false
     }
   ],
-  "questions": [],
+  "questions": [
+    {
+      "id": "aib-s45-milestones-q-92e76780",
+      "type": "mcq",
+      "stem": "Which three AI milestones does the deck's Comparison Summary table cover?",
+      "options": [
+        "Watson, AlphaGo and GPTs",
+        "Watson, AlphaFold and Whisper",
+        "AlphaGo, AlphaZero and DALL·E",
+        "GPT-1, GPT-2 and GPT-3"
+      ],
+      "answer": "Watson, AlphaGo and GPTs",
+      "accept": [],
+      "explanation": "The table compares Watson (2011), AlphaGo (2016) and GPTs (2018 to now); the others are tools or versions named inside those slides.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "recall",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#6",
+        "aib--aib-session4-5-types-of-ai#2",
+        "aib--aib-session4-5-types-of-ai#3",
+        "aib--aib-session4-5-types-of-ai#4"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-milestones-q-b9af3900",
+      "type": "mcq",
+      "stem": "Which key technologies does the Comparison Summary table give for AlphaGo?",
+      "options": [
+        "Deep RL, CNNs, MCTS",
+        "NLP, info retrieval",
+        "Transformers, LLMs",
+        "DeepQA, statistical reasoning"
+      ],
+      "answer": "Deep RL, CNNs, MCTS",
+      "accept": [],
+      "explanation": "NLP and info retrieval are Watson's row, Transformers and LLMs are the GPTs' row.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "recall",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#6",
+        "aib--aib-session4-5-types-of-ai#2"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-milestones-q-54d7f20f",
+      "type": "mcq",
+      "stem": "Which statement about GPT-4 (2023) matches the slide on GPTs?",
+      "options": [
+        "It is multimodal, handling images, vision, logic and nuanced reasoning",
+        "It was a small-scale proof of concept",
+        "It was initially withheld over safety concerns",
+        "It had 175B parameters and was the most powerful LLM at the time"
+      ],
+      "answer": "It is multimodal, handling images, vision, logic and nuanced reasoning",
+      "accept": [],
+      "explanation": "The other three describe GPT-1, GPT-2 and GPT-3 in turn.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "recall",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#4"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-milestones-q-f951c7eb",
+      "type": "mcq",
+      "stem": "What does the Comparison Summary table list as the domain of GPTs?",
+      "options": [
+        "Language, Creativity",
+        "Q&A, Healthcare",
+        "Strategy, Self-play",
+        "Robotics, Game theory"
+      ],
+      "answer": "Language, Creativity",
+      "accept": [],
+      "explanation": "Q&A and Healthcare is Watson, Strategy and Self-play is AlphaGo; robotics and game theory are areas AlphaGo's legacy impacted.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "recall",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#6",
+        "aib--aib-session4-5-types-of-ai#3"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-milestones-q-bd070202",
+      "type": "mcq",
+      "stem": "AlphaGo was created by which organisation, according to the slide?",
+      "options": [
+        "DeepMind (a Google subsidiary)",
+        "OpenAI",
+        "IBM",
+        "Salesforce"
+      ],
+      "answer": "DeepMind (a Google subsidiary)",
+      "accept": [],
+      "explanation": "OpenAI developed the GPTs and IBM built Watson; Salesforce appears only as Salesforce Einstein in the ANI use cases.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "recall",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#3",
+        "aib--aib-session4-5-types-of-ai#4",
+        "aib--aib-session4-5-types-of-ai#2",
+        "aib--aib-session4-5-types-of-ai#23"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-milestones-q-e9bf6ea1",
+      "type": "short",
+      "stem": "Explain the technology behind IBM Watson and the fields it was later applied in.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "IBM Watson (2011) is the deck's milestone for **AI for question answering**.\n\n- **What it did:** built to compete on the quiz show **Jeopardy!**, it beat top champions **Ken Jennings and Brad Rutter** in 2011.\n- **DeepQA architecture:** combined **natural language processing (NLP)**, **information retrieval**, **machine learning** and **statistical reasoning**.\n- **Ability:** it could parse complex language, understand puns and infer answers from vast **unstructured data**.\n- **Applied in:** **healthcare** (cancer diagnosis), **finance** (risk management) and **legal services**.\n\nSo Watson marked AI's move from lab experiments to real-world problem solving.",
+      "rubric": [
+        {
+          "point": "DeepQA architecture",
+          "source_ref": "aib--aib-session4-5-types-of-ai#2"
+        },
+        {
+          "point": "Combines NLP, information retrieval, machine learning and statistical reasoning",
+          "source_ref": "aib--aib-session4-5-types-of-ai#2"
+        },
+        {
+          "point": "Parses complex language and infers answers from unstructured data",
+          "source_ref": "aib--aib-session4-5-types-of-ai#2"
+        },
+        {
+          "point": "Applied in healthcare (cancer diagnosis), finance (risk management) and legal services",
+          "source_ref": "aib--aib-session4-5-types-of-ai#2"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 1,
+      "style_tag": "explain",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#2",
+        "aib--aib-session4-5-types-of-ai#6"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-milestones-q-6ae0ab33",
+      "type": "short",
+      "stem": "Describe the evolution of GPTs from GPT-1 to GPT-4 as given on the slide.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**GPTs (Generative Pretrained Transformers)**, developed by **OpenAI**, are large language models that understand and generate human-like text.\n\n- **GPT-1 (2018):** proof of concept, **small-scale**.\n- **GPT-2 (2019):** first widely capable language model; **initially withheld over safety concerns**.\n- **GPT-3 (2020):** **175B parameters**, the world's most powerful LLM at the time.\n- **GPT-4 (2023):** **multimodal**, handling images, vision, logic and nuanced reasoning.\n\nEach version grew in scale and ability, which led into the generative AI era.",
+      "rubric": [
+        {
+          "point": "GPT-1 (2018): small-scale proof of concept",
+          "source_ref": "aib--aib-session4-5-types-of-ai#4"
+        },
+        {
+          "point": "GPT-2 (2019): widely capable, initially withheld over safety concerns",
+          "source_ref": "aib--aib-session4-5-types-of-ai#4"
+        },
+        {
+          "point": "GPT-3 (2020): 175B parameters, most powerful LLM at the time",
+          "source_ref": "aib--aib-session4-5-types-of-ai#4"
+        },
+        {
+          "point": "GPT-4 (2023): multimodal",
+          "source_ref": "aib--aib-session4-5-types-of-ai#4"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "list",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#4"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-milestones-q-aae55dcc",
+      "type": "short",
+      "stem": "What societal impact of GPTs does the deck describe?",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The deck says GPTs had impact at a **societal scale**.\n\n- **Reach:** millions of users worldwide.\n- **Access:** enabled **SMEs and non-tech sectors** to leverage AI tools.\n- **Debate:** sparked global conversations around **AI ethics, hallucination, job disruption and regulation**.\n- **Change:** they power tools like **ChatGPT**, **Copilot**, **DALL·E** and **Whisper**, and changed education, customer support, research, coding and journalism.\n\nIn short, GPTs ushered in the generative AI era for ordinary users and businesses.",
+      "rubric": [
+        {
+          "point": "Millions of users worldwide",
+          "source_ref": "aib--aib-session4-5-types-of-ai#5"
+        },
+        {
+          "point": "Enabled SMEs and non-tech sectors to use AI tools",
+          "source_ref": "aib--aib-session4-5-types-of-ai#5"
+        },
+        {
+          "point": "Sparked debate on AI ethics, hallucination, job disruption and regulation",
+          "source_ref": "aib--aib-session4-5-types-of-ai#5"
+        },
+        {
+          "point": "Ushered in the generative AI era, powering ChatGPT, Copilot, DALL·E, Whisper",
+          "source_ref": "aib--aib-session4-5-types-of-ai#4"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 1,
+      "style_tag": "explain",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#5",
+        "aib--aib-session4-5-types-of-ai#4"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-milestones-q-5794ba20",
+      "type": "long",
+      "stem": "Differentiate between IBM Watson, AlphaGo and GPTs as modern AI milestones.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The deck presents three modern AI milestones, each showing AI mastering a different kind of thinking. Its Comparison Summary table sets them side by side.\n\n| Basis | IBM Watson | AlphaGo | GPTs |\n|---|---|---|---|\n| **Year** | 2011 | 2016 | 2018 to now |\n| **Built by** | IBM | DeepMind (a Google subsidiary) | OpenAI |\n| **Purpose** | AI for question answering | AI for strategic thinking | AI for language understanding and generation |\n| **Key tech** | NLP, info retrieval (DeepQA) | Deep RL, CNNs, MCTS | Transformers, LLMs |\n| **Domain** | Q&A, Healthcare | Strategy, Self-play | Language, Creativity |\n| **Impact** | Symbol of applied AI; commercial limitations | Mastered intuition; inspired scientific tools | Mass adoption; led to GenAI wave |\n\n**IBM Watson** beat top champions Ken Jennings and Brad Rutter on **Jeopardy!** in 2011. Its **DeepQA** architecture combined NLP, information retrieval, machine learning and statistical reasoning, and it was later applied in healthcare (cancer diagnosis), finance (risk management) and legal services.\n\n**AlphaGo** beat world champion **Lee Sedol** at Go in 2016. It combined **deep neural networks and reinforcement learning**, learned from millions of expert games and from **playing against itself**, and used **Monte Carlo Tree Search**. It proved AI could master **intuition, not just logic**, and led to AlphaZero and AlphaFold.\n\n**GPTs** are large language models that answer questions, write essays, summarize, code and even reason. They grew from GPT-1 (2018) to the multimodal GPT-4 (2023), power ChatGPT, Copilot, DALL·E and Whisper, and reached millions of users.\n\nIn short, Watson showed applied question answering, AlphaGo showed strategic intuition, and GPTs brought AI to the mass market.",
+      "rubric": [
+        {
+          "point": "Watson 2011: question answering, NLP and info retrieval via DeepQA, Q&A and healthcare",
+          "source_ref": "aib--aib-session4-5-types-of-ai#6"
+        },
+        {
+          "point": "AlphaGo 2016: strategic thinking, deep RL, CNNs, MCTS, self-play",
+          "source_ref": "aib--aib-session4-5-types-of-ai#6"
+        },
+        {
+          "point": "GPTs 2018 to now: language and creativity, Transformers and LLMs",
+          "source_ref": "aib--aib-session4-5-types-of-ai#6"
+        },
+        {
+          "point": "Impacts: applied AI with commercial limitations; mastered intuition; mass adoption and GenAI wave",
+          "source_ref": "aib--aib-session4-5-types-of-ai#6"
+        },
+        {
+          "point": "Examples: Jeopardy! win, Lee Sedol defeat, ChatGPT and other tools",
+          "source_ref": "aib--aib-session4-5-types-of-ai#3"
+        }
+      ],
+      "marks": 10.0,
+      "difficulty": 2,
+      "style_tag": "differentiate",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#2",
+        "aib--aib-session4-5-types-of-ai#3",
+        "aib--aib-session4-5-types-of-ai#4",
+        "aib--aib-session4-5-types-of-ai#6"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-milestones-q-c59ffbf1",
+      "type": "long",
+      "stem": "Explain how AlphaGo learned and why the deck treats it as a milestone in AI for strategic thinking.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "AlphaGo is the deck's milestone for **AI for strategic thinking**, created by **DeepMind (a Google subsidiary)**.\n\n**What it did:** in **2016** it defeated world champion **Lee Sedol** in the complex board game **Go**.\n\n**How it learned:**\n- It **combined deep neural networks and reinforcement learning**.\n- It **studied millions of expert games**, learning from how strong humans play.\n- It **played against itself millions of times** (self-play), improving without a human opponent.\n- It used **Monte Carlo Tree Search (MCTS)** for efficient decision-making.\n\nThe Comparison Summary table sums up its key tech as **Deep RL, CNNs, MCTS** and its domain as **Strategy, Self-play**.\n\n**Why it is a milestone:**\n- It **proved AI could master intuition, not just logic**, since Go needs judgement, not only calculation.\n- It highlighted the power of **self-play and generalizable strategy**.\n- It set the foundation for **AlphaZero**, trained to master chess, shogi and Go **without human input**.\n- **Legacy:** its innovations impacted **robotics, game theory, autonomous systems and scientific discovery**, for example **AlphaFold** for protein folding. The table records this as \"mastered intuition; inspired scientific tools\".\n\nSo AlphaGo moved AI from following logic to learning strategy by itself, and its methods spread well beyond games.",
+      "rubric": [
+        {
+          "point": "Created by DeepMind; beat Lee Sedol at Go in 2016",
+          "source_ref": "aib--aib-session4-5-types-of-ai#3"
+        },
+        {
+          "point": "Combined deep neural networks and reinforcement learning",
+          "source_ref": "aib--aib-session4-5-types-of-ai#3"
+        },
+        {
+          "point": "Learned from millions of expert games and self-play",
+          "source_ref": "aib--aib-session4-5-types-of-ai#3"
+        },
+        {
+          "point": "Used Monte Carlo Tree Search for decision-making",
+          "source_ref": "aib--aib-session4-5-types-of-ai#3"
+        },
+        {
+          "point": "Proved AI could master intuition, not just logic",
+          "source_ref": "aib--aib-session4-5-types-of-ai#3"
+        },
+        {
+          "point": "Led to AlphaZero and impacted robotics, game theory, science (AlphaFold)",
+          "source_ref": "aib--aib-session4-5-types-of-ai#3"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#3",
+        "aib--aib-session4-5-types-of-ai#6"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
   "explain_back": {
     "prompt": "Compare the three modern AI milestones (Watson, AlphaGo, GPTs): year, key technology and impact.",
     "rubric": [

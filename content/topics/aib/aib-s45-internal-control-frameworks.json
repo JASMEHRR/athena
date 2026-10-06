@@ -579,7 +579,333 @@
       "retired": false
     }
   ],
-  "questions": [],
+  "questions": [
+    {
+      "id": "aib-s45-internal-control-frameworks-q-8fb30cdc",
+      "type": "mcq",
+      "stem": "Control Environment, Risk Assessment, Control Activities, Information & Communication, and Monitoring are the five components of which framework?",
+      "options": [
+        "COSO",
+        "VRIN",
+        "Task-Technology Fit (TTF)",
+        "Resource-Based View (RBV)"
+      ],
+      "answer": "COSO",
+      "accept": [],
+      "explanation": "The slide names these as the COSO framework's five components; VRIN belongs to RBV.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "define",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#36",
+        "aib--aib-session4-5-types-of-ai#38"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-internal-control-frameworks-q-7acf6d0c",
+      "type": "mcq",
+      "stem": "According to the Task-Technology Fit (TTF) framework, AI effectiveness depends on:",
+      "options": [
+        "Matching task needs",
+        "Enhancing Value, Rarity, Inimitability and Non-substitutability",
+        "Automating controls such as reconciliations",
+        "Real-time activity-based costing"
+      ],
+      "answer": "Matching task needs",
+      "accept": [],
+      "explanation": "VRIN is the RBV view, automating reconciliations is COSO enhancement, and activity-based costing is a decision-support application.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "define",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#38",
+        "aib--aib-session4-5-types-of-ai#39"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-internal-control-frameworks-q-972bdcf6",
+      "type": "mcq",
+      "stem": "In Figure 4, which two business functions each hold 15% of AI applications?",
+      "options": [
+        "Supply Chain Management and Research and Development",
+        "Finance and Accounting and Human Resources",
+        "Marketing and Customer Service",
+        "Customer Service and Supply Chain Management"
+      ],
+      "answer": "Supply Chain Management and Research and Development",
+      "accept": [],
+      "explanation": "Marketing is 30%, Customer Service 20%, and Finance and Accounting and Human Resources are 10% each.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "recall",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#42"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-internal-control-frameworks-q-b3f551a7",
+      "type": "mcq",
+      "stem": "Where does the Figure 3 timeline place Narrow AI?",
+      "options": [
+        "2010s",
+        "1950s",
+        "Mid-21st century",
+        "Hypothetical future"
+      ],
+      "answer": "2010s",
+      "accept": [],
+      "explanation": "Early AI is 1950s, AGI is predicted for the mid-21st century and ASI is a hypothetical future.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "recall",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#40"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-internal-control-frameworks-q-217e56c6",
+      "type": "mcq",
+      "stem": "How does the TTF matrix (Figure 6) rate NLP for auditing and for compliance checking?",
+      "options": [
+        "High for both",
+        "Low for both",
+        "Medium for both",
+        "High for auditing, Low for compliance checking"
+      ],
+      "answer": "High for both",
+      "accept": [],
+      "explanation": "NLP is High for auditing and compliance checking; its only Low is transaction monitoring.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "recall",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#43",
+        "aib--aib-session4-5-types-of-ai#38"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-internal-control-frameworks-q-a014dde1",
+      "type": "short",
+      "stem": "Explain the importance of internal control in business management under the four headings given in the deck.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The deck opens the internal control paper by explaining why **internal control (IC)** matters.\n\n- **Definition and objectives:** IC is the **policies and procedures ensuring organizational goals are met**. The **COSO framework** has five components: Control Environment, Risk Assessment, Control Activities, Information & Communication, and Monitoring.\n- **Operational efficiency:** IC makes tasks run **consistently**, reducing waste and rework and improving customer satisfaction.\n- **Risk management:** IC helps **identify, assess and mitigate** risks like **fraud or credit risks**, protecting financial integrity and reputation.\n- **Compliance and governance:** IC ensures **legal and regulatory compliance** and supports ethics and accountability through **transparent reporting**.\n\nSo IC keeps a business efficient, safe and lawful.",
+      "rubric": [
+        {
+          "point": "IC: policies and procedures ensuring organizational goals are met",
+          "source_ref": "aib--aib-session4-5-types-of-ai#36"
+        },
+        {
+          "point": "COSO's five components",
+          "source_ref": "aib--aib-session4-5-types-of-ai#36"
+        },
+        {
+          "point": "Operational efficiency: consistency, less waste and rework, customer satisfaction",
+          "source_ref": "aib--aib-session4-5-types-of-ai#36"
+        },
+        {
+          "point": "Risk management: identify, assess, mitigate fraud or credit risks",
+          "source_ref": "aib--aib-session4-5-types-of-ai#36"
+        },
+        {
+          "point": "Compliance and governance: legal compliance, transparent reporting",
+          "source_ref": "aib--aib-session4-5-types-of-ai#36"
+        }
+      ],
+      "marks": 5.0,
+      "difficulty": 1,
+      "style_tag": "explain",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#36"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-internal-control-frameworks-q-cdb37938",
+      "type": "short",
+      "stem": "Explain the Resource-Based View (RBV) of AI in internal control.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The **Resource-Based View (RBV)** is the first of the paper's three frameworks for AI in internal control.\n\n- AI is treated as a **strategic resource**.\n- It enhances **VRIN**: **Value, Rarity, Inimitability, Non-substitutability**.\n- This offers a **competitive edge**, for example through **fraud detection** and **cost reduction**.\n\nSo under RBV, a firm's AI is valuable because rivals cannot easily copy or replace it.",
+      "rubric": [
+        {
+          "point": "AI is a strategic resource",
+          "source_ref": "aib--aib-session4-5-types-of-ai#38"
+        },
+        {
+          "point": "Enhances VRIN: Value, Rarity, Inimitability, Non-substitutability",
+          "source_ref": "aib--aib-session4-5-types-of-ai#38"
+        },
+        {
+          "point": "Competitive edge, e.g. fraud detection, cost reduction",
+          "source_ref": "aib--aib-session4-5-types-of-ai#38"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 1,
+      "style_tag": "explain",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#38"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-internal-control-frameworks-q-d88a5f8d",
+      "type": "short",
+      "stem": "What does UBI mean in this deck? Point out how the text slide and the Figure 3 timeline differ.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "UBI appears twice in the internal control paper, with two different meanings.\n\n- **'Evolution of AI' text slide:** the paper covers the rise of AGI (human-level intelligence), ASI (beyond human) and **UBI, a social policy for income stability**. Together they will **reshape business strategy, workforce and operations**.\n- **Figure 3 timeline:** after Early AI (1950s), Narrow AI (2010s), AGI (mid-21st century) and ASI (hypothetical future), UBI is labelled **Universal Basic Intelligence, a future concept**.\n\nBoth slides treat UBI as something still to come; in an answer, say which slide's meaning you are using.",
+      "rubric": [
+        {
+          "point": "Text slide: UBI is a social policy for income stability",
+          "source_ref": "aib--aib-session4-5-types-of-ai#37"
+        },
+        {
+          "point": "Figure 3: UBI labelled Universal Basic Intelligence, a future concept",
+          "source_ref": "aib--aib-session4-5-types-of-ai#40"
+        },
+        {
+          "point": "Both place UBI in the future alongside AGI and ASI",
+          "source_ref": "aib--aib-session4-5-types-of-ai#40"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 3,
+      "style_tag": "differentiate",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#37",
+        "aib--aib-session4-5-types-of-ai#40"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-internal-control-frameworks-q-e7cfad2f",
+      "type": "long",
+      "stem": "Explain the three theoretical frameworks the deck gives for AI in internal control: RBV, TTF and COSO enhancement.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Internal control (IC) is the set of **policies and procedures ensuring organizational goals are met**. The paper uses three frameworks to explain how AI strengthens it.\n\n**1. Resource-Based View (RBV)**\n- AI is a **strategic resource**.\n- It enhances **VRIN**: **Value, Rarity, Inimitability, Non-substitutability**.\n- It offers a **competitive edge**, e.g. **fraud detection** and **cost reduction**.\n\n**2. Task-Technology Fit (TTF)**\n- AI effectiveness **depends on matching task needs**.\n- A matrix (Figure 6) shows how **ML, NLP, RPA, data analytics and anomaly detection** fit IC tasks like **risk assessment, auditing, transaction monitoring, compliance checking and fraud detection**.\n- For example, ML is **High** for fraud detection, while NLP is **Low** for transaction monitoring, the matrix's only Low.\n\n**3. COSO framework enhancement with AI**\n- COSO has five components: **Control Environment, Risk Assessment, Control Activities, Information & Communication, and Monitoring**.\n- AI improves **all five** through:\n  - **better risk prediction**\n  - **real-time monitoring**\n  - **data-driven decision-making**\n  - **automating controls**, e.g. **reconciliations**.\n\n**How they fit together:** RBV explains **why** AI is worth having (a hard-to-copy advantage), TTF explains **which** AI to use for **which** task, and COSO enhancement explains **where** in the control system AI adds value.\n\nIn short, the three frameworks move from strategy to tool choice to day-to-day control.",
+      "rubric": [
+        {
+          "point": "RBV: AI as a strategic resource enhancing VRIN",
+          "source_ref": "aib--aib-session4-5-types-of-ai#38"
+        },
+        {
+          "point": "RBV gives competitive edge (fraud detection, cost reduction)",
+          "source_ref": "aib--aib-session4-5-types-of-ai#38"
+        },
+        {
+          "point": "TTF: effectiveness depends on matching task needs; matrix of ML, NLP, RPA etc. against IC tasks",
+          "source_ref": "aib--aib-session4-5-types-of-ai#38"
+        },
+        {
+          "point": "Matrix example: e.g. NLP Low for transaction monitoring",
+          "source_ref": "aib--aib-session4-5-types-of-ai#43"
+        },
+        {
+          "point": "COSO: AI improves all five components",
+          "source_ref": "aib--aib-session4-5-types-of-ai#36"
+        },
+        {
+          "point": "Via risk prediction, real-time monitoring, data-driven decisions, automating controls",
+          "source_ref": "aib--aib-session4-5-types-of-ai#38"
+        }
+      ],
+      "marks": 10.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#38",
+        "aib--aib-session4-5-types-of-ai#36",
+        "aib--aib-session4-5-types-of-ai#43"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-internal-control-frameworks-q-41248ffb",
+      "type": "long",
+      "stem": "A company's internal control team must choose AI technologies for transaction monitoring and for compliance checking. Using the TTF matrix, advise which technologies fit best and which to avoid.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The **Task-Technology Fit (TTF)** framework says AI effectiveness **depends on matching task needs**. Figure 6 rates each AI technology High, Medium or Low for each internal control task, so the team should read the two rows it needs.\n\n**Transaction monitoring**\n\n| ML | NLP | RPA | Data analytics | Anomaly detection |\n|---|---|---|---|---|\n| High | **Low** | High | High | High |\n\n- Best fits: **ML, RPA, data analytics and anomaly detection** (all High).\n- Avoid: **NLP**, rated **Low**, the only Low cell in the whole matrix.\n\n**Compliance checking**\n\n| ML | NLP | RPA | Data analytics | Anomaly detection |\n|---|---|---|---|---|\n| Medium | **High** | **High** | Medium | Medium |\n\n- Best fits: **NLP and RPA** (High).\n- The rest are Medium, so usable but weaker.\n\n**Advice:**\n- **RPA** is rated **High for both tasks**, so one RPA investment could serve both needs.\n- Add **NLP for compliance checking only**, since it is High there but Low for transaction monitoring.\n- For transaction monitoring, pair RPA with **ML, data analytics or anomaly detection**.\n\n**Why it matters:** the matrix shows that no single technology is best everywhere. A team that picked NLP for everything because it is strong at compliance would get the worst fit for transaction monitoring.\n\nSo the team should choose by task: RPA as the common base, NLP for compliance and anomaly detection or ML for monitoring transactions.",
+      "rubric": [
+        {
+          "point": "TTF: AI effectiveness depends on matching task needs",
+          "source_ref": "aib--aib-session4-5-types-of-ai#38"
+        },
+        {
+          "point": "Transaction monitoring: ML, RPA, data analytics, anomaly detection High; NLP Low",
+          "source_ref": "aib--aib-session4-5-types-of-ai#43"
+        },
+        {
+          "point": "Compliance checking: NLP and RPA High; others Medium",
+          "source_ref": "aib--aib-session4-5-types-of-ai#43"
+        },
+        {
+          "point": "RPA is High for both tasks",
+          "source_ref": "aib--aib-session4-5-types-of-ai#43"
+        },
+        {
+          "point": "Recommend task-by-task choice: avoid NLP for transaction monitoring",
+          "source_ref": "aib--aib-session4-5-types-of-ai#43"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 3,
+      "style_tag": "case",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#43",
+        "aib--aib-session4-5-types-of-ai#38"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
   "explain_back": {
     "prompt": "Explain why internal control matters and how the three frameworks in the paper (RBV, TTF, COSO) describe AI's role in it.",
     "rubric": [

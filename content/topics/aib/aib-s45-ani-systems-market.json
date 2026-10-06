@@ -454,7 +454,341 @@
       "retired": false
     }
   ],
-  "questions": [],
+  "questions": [
+    {
+      "id": "aib-s45-ani-systems-market-q-f0035481",
+      "type": "mcq",
+      "stem": "Which function does the Popular ANI systems table give for IBM Watson?",
+      "options": [
+        "Medical diagnosis, legal reasoning and enterprise decision support",
+        "Fully autonomous self-driving vehicle technology",
+        "AI-based pathology diagnosis",
+        "Voice-based commands and smart home control"
+      ],
+      "answer": "Medical diagnosis, legal reasoning and enterprise decision support",
+      "accept": [],
+      "explanation": "Self-driving is Waymo, pathology diagnosis is PathAI and voice commands are Siri / Alexa / Google Assistant.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "recall",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#12"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-ani-systems-market-q-6fbc6b7c",
+      "type": "mcq",
+      "stem": "What 2024 market value does the ANI Domains & Market Growth table give for enterprise / predictive analytics?",
+      "options": [
+        "USD 24 billion",
+        "USD 5.25 billion",
+        "USD 20 to 31 billion",
+        "USD 420 billion"
+      ],
+      "answer": "USD 24 billion",
+      "accept": [],
+      "explanation": "USD 5.25 billion is AI agents, USD 20 to 31 billion is marketing and text AI, USD 420 billion is big data + AI (2025 est.).",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "recall",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#13"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-ani-systems-market-q-5f61084f",
+      "type": "mcq",
+      "stem": "Which ANI domain has the lowest approximate CAGR in the market growth table?",
+      "options": [
+        "Big Data + AI combined (about 15.6%)",
+        "AI agents / conversational bots (about 32%)",
+        "Marketing & language/text AI (about 25 to 28%)",
+        "Enterprise / predictive analytics (about 37.6%)"
+      ],
+      "answer": "Big Data + AI combined (about 15.6%)",
+      "accept": [],
+      "explanation": "The chart's CAGR line is lowest for big data + AI and highest for enterprise analytics AI.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "recall",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#13",
+        "aib--aib-session4-5-types-of-ai#14"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-ani-systems-market-q-37fe08ba",
+      "type": "mcq",
+      "stem": "Around how big was India's AI market in 2025, according to the slide?",
+      "options": [
+        "USD 8 billion",
+        "USD 17 billion",
+        "USD 24 billion",
+        "USD 5.25 billion"
+      ],
+      "answer": "USD 8 billion",
+      "accept": [],
+      "explanation": "USD 17 billion is India's projection for 2027; the other two are global ANI domain figures.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "recall",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#14",
+        "aib--aib-session4-5-types-of-ai#13"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-ani-systems-market-q-f6e2cc84",
+      "type": "mcq",
+      "stem": "Per the adoption chart, how long did U.S. households take to go from 10% to 99% adoption of electricity?",
+      "options": [
+        "Five decades",
+        "15 years",
+        "About ten years",
+        "Two decades"
+      ],
+      "answer": "Five decades",
+      "accept": [],
+      "explanation": "Five decades is electricity; 15 years is social media going from 5% to 79%.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "recall",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#15"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-ani-systems-market-q-04efa548",
+      "type": "short",
+      "stem": "Using the ANI Domains & Market Growth table, work out the absolute growth and the growth multiple from 2024 to 2030 for (a) enterprise / predictive analytics and (b) AI agents / conversational bots.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The table gives each domain's 2024 value and its 2030 forecast.\n\n**(a) Enterprise / predictive analytics:** USD 24 billion (2024) to USD 155 billion (2030).\n- Absolute growth = 155 minus 24 = **USD 131 billion**\n- Multiple = 155 / 24 = **about 6.46 times**\n\n**(b) AI agents / conversational bots:** USD 5.25 billion (2024) to USD 52.6 billion (2030).\n- Absolute growth = 52.6 minus 5.25 = **USD 47.35 billion**\n- Multiple = 52.6 / 5.25 = **about 10.02 times**\n\nSo AI agents grow more times over (roughly tenfold), while enterprise analytics adds more money in absolute terms.",
+      "rubric": [
+        {
+          "point": "Enterprise: 24 to 155 billion, growth 131 billion",
+          "source_ref": "aib--aib-session4-5-types-of-ai#13"
+        },
+        {
+          "point": "Enterprise multiple about 6.46 times",
+          "source_ref": "aib--aib-session4-5-types-of-ai#13"
+        },
+        {
+          "point": "Agents: 5.25 to 52.6 billion, growth 47.35 billion",
+          "source_ref": "aib--aib-session4-5-types-of-ai#13"
+        },
+        {
+          "point": "Agents multiple about 10.02 times; agents grow more times over, enterprise more in value",
+          "source_ref": "aib--aib-session4-5-types-of-ai#13"
+        }
+      ],
+      "marks": 5.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#13"
+      ],
+      "derived": [
+        "131",
+        "6.46",
+        "47.35",
+        "10.02"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-ani-systems-market-q-73d87deb",
+      "type": "short",
+      "stem": "India's AI market is around USD 8 billion in 2025 and is projected to reach USD 17 billion by 2027. Work out the increase and the multiple, and state the drivers the slide gives.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The slide gives India's AI market figures under the market growth chart.\n\n- **Increase** = 17 minus 8 = **USD 9 billion** over two years.\n- **Multiple** = 17 / 8 = **2.125 times**, so the market more than doubles.\n- **Growth rate on the slide:** an annual growth rate of **25 to 40%**.\n- **Drivers:** **enterprise deployments**, **government initiatives** and **AI talent growth**.\n\nSo India's AI market is set to more than double between 2025 and 2027.",
+      "rubric": [
+        {
+          "point": "Increase of USD 9 billion (17 minus 8)",
+          "source_ref": "aib--aib-session4-5-types-of-ai#14"
+        },
+        {
+          "point": "Multiple of 2.125 times",
+          "source_ref": "aib--aib-session4-5-types-of-ai#14"
+        },
+        {
+          "point": "Annual growth rate of 25 to 40%",
+          "source_ref": "aib--aib-session4-5-types-of-ai#14"
+        },
+        {
+          "point": "Drivers: enterprise deployments, government initiatives, AI talent growth",
+          "source_ref": "aib--aib-session4-5-types-of-ai#14"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 1,
+      "style_tag": "numerical",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#14"
+      ],
+      "derived": [
+        "2.125"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-ani-systems-market-q-2ec162f0",
+      "type": "short",
+      "stem": "Explain, with the figures on the slides, why modern technologies such as AI are said to be adopted faster than older ones.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The chart's headline is **'Modern technologies are quicker to be adopted'**.\n\n- **Electricity:** U.S. households took **five decades** to go from **10% to 99%** adoption.\n- **Social media:** took **just 15 years** to go from **5% to 79%**.\n- **AI survey points:** the chart adds **Heard of ChatGPT**, **Use AI at least once a month** and **Have ever used ChatGPT**.\n- **ChatGPT weekly active users:** **100 million (Nov 2023)** rising to **800 million (Mar 2025)**.\n- The penetration chart shows the Internet, mobile phone and PC climbing far faster than the telephone and automobile.\n\nSo each new wave spreads faster, and ChatGPT's user growth shows AI following that pattern.",
+      "rubric": [
+        {
+          "point": "Electricity took five decades from 10% to 99%",
+          "source_ref": "aib--aib-session4-5-types-of-ai#15"
+        },
+        {
+          "point": "Social media took 15 years from 5% to 79%",
+          "source_ref": "aib--aib-session4-5-types-of-ai#15"
+        },
+        {
+          "point": "Survey points on hearing of and using ChatGPT / AI",
+          "source_ref": "aib--aib-session4-5-types-of-ai#15"
+        },
+        {
+          "point": "ChatGPT weekly users grew from 100 million (Nov 2023) to 800 million (Mar 2025)",
+          "source_ref": "aib--aib-session4-5-types-of-ai#16"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#15",
+        "aib--aib-session4-5-types-of-ai#16"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-ani-systems-market-q-703949dd",
+      "type": "long",
+      "stem": "Describe the market growth of ANI domains using the table and chart in the deck, and comment on India's AI market.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The deck shows that ANI is not just everywhere but also a fast-growing market. Its **ANI Domains & Market Growth** table gives five domains:\n\n| ANI domain | 2024 to 2025 value | 2030 to 2034 forecast | Approx. CAGR |\n|---|---|---|---|\n| General AI / combined ANI market | USD 230 to 280 billion (2024) | USD 1.8 trillion by 2030 | about 29 to 36% |\n| Marketing & language/text AI | USD 20 to 31 billion (2024) | USD 82 to 227 billion by 2030 to 32 | about 25 to 28% |\n| Enterprise / predictive analytics | USD 24 billion (2024) | USD 155 billion by 2030 | about 37.6% |\n| AI agents / conversational bots | USD 5.25 billion (2024) | USD 52.6 billion by 2030 | about 32% |\n| Big data + AI combined | USD 420 billion (2025 est.) | USD 1.54 trillion by 2034 | about 15.6% |\n\n**Reading the chart (Market Growth of ANI Domains):**\n- The **biggest bars** are the general AI market and big data + AI.\n- The **CAGR line peaks at enterprise analytics AI** (about 37.6%), so it is the fastest-growing domain.\n- The CAGR line is **lowest for big data + AI** (about 15.6%), a large but slower-growing base.\n- AI agents and chatbots start small (USD 5.25 billion) but grow at about 32%.\n\n**India's AI market:** around **USD 8 billion in 2025**, projected to reach **USD 17 billion by 2027**, at an annual growth rate of **25 to 40%**. The drivers are **enterprise deployments, government initiatives and AI talent growth**.\n\n**What it means for business:** the fastest growth is in enterprise analytics and AI agents, the areas that help firms predict and serve customers, while India's market is growing in step with the global trend.\n\nIn short, ANI is a large market today and the slides forecast it to grow several times over by 2030.",
+      "rubric": [
+        {
+          "point": "Combined ANI market USD 230 to 280 billion (2024) to USD 1.8 trillion by 2030",
+          "source_ref": "aib--aib-session4-5-types-of-ai#13"
+        },
+        {
+          "point": "Enterprise / predictive analytics has the highest CAGR, about 37.6%",
+          "source_ref": "aib--aib-session4-5-types-of-ai#13"
+        },
+        {
+          "point": "Big data + AI has the lowest CAGR, about 15.6%, but a large base",
+          "source_ref": "aib--aib-session4-5-types-of-ai#13"
+        },
+        {
+          "point": "AI agents grow from USD 5.25 billion to USD 52.6 billion, about 32%",
+          "source_ref": "aib--aib-session4-5-types-of-ai#13"
+        },
+        {
+          "point": "India: USD 8 billion (2025) to USD 17 billion (2027), 25 to 40% a year",
+          "source_ref": "aib--aib-session4-5-types-of-ai#14"
+        },
+        {
+          "point": "India's drivers: enterprise deployments, government initiatives, AI talent growth",
+          "source_ref": "aib--aib-session4-5-types-of-ai#14"
+        }
+      ],
+      "marks": 10.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#13",
+        "aib--aib-session4-5-types-of-ai#14"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-ani-systems-market-q-e3e29ed1",
+      "type": "long",
+      "stem": "A company wants ANI tools for four jobs: natural language conversation and Q&A with customers, voice commands with smart home control, personalized music playlists, and pathology diagnosis. Using the Popular ANI systems table, name a fitting system for each and its listed function.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The **Popular ANI systems** table pairs each ANI system with its function. Because the picture's domain column does not line up with the systems in several rows, the safe method is to match each job to a **system and its listed function**.\n\n**1. Conversation and Q&A with customers:** **ChatGPT (OpenAI)**. Function: natural language conversation, summarization, Q&A and code generation. **Google Bard / Gemini** is a second option, listed for conversational AI and search-powered dialogue.\n\n**2. Voice commands and smart home control:** **Siri / Alexa / Google Assistant** (with Descript / Otter.ai in the same row). Function: voice-based commands, question answering and smart home control.\n\n**3. Personalized music playlists:** **Netflix, Spotify, Amazon** row. Function: music suggestions and personalized playlists, plus product recommendations based on browsing and purchase patterns.\n\n**4. Pathology diagnosis:** **PathAI**. Function: AI-based pathology diagnosis.\n\n**Other systems in the table** that do not fit these jobs: **IBM Watson** (medical diagnosis, legal reasoning, enterprise decision support) and **Waymo (by Alphabet)** (fully autonomous self-driving vehicle technology).\n\n**Why all of these are ANI:** each is built for one function or a limited range of functions, which is exactly the slide's idea of popular narrow AI systems. The company would therefore need a different tool for each job.\n\nSo the fit is: ChatGPT for conversation, Siri / Alexa / Google Assistant for voice, the Netflix, Spotify, Amazon row for playlists, and PathAI for pathology.",
+      "rubric": [
+        {
+          "point": "ChatGPT (or Google Bard / Gemini) for conversation and Q&A",
+          "source_ref": "aib--aib-session4-5-types-of-ai#12"
+        },
+        {
+          "point": "Siri / Alexa / Google Assistant for voice commands and smart home control",
+          "source_ref": "aib--aib-session4-5-types-of-ai#12"
+        },
+        {
+          "point": "Netflix, Spotify, Amazon row for music suggestions and playlists",
+          "source_ref": "aib--aib-session4-5-types-of-ai#12"
+        },
+        {
+          "point": "PathAI for AI-based pathology diagnosis",
+          "source_ref": "aib--aib-session4-5-types-of-ai#12"
+        },
+        {
+          "point": "Each is an ANI system with one function, so separate tools are needed",
+          "source_ref": "aib--aib-session4-5-types-of-ai#12"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 2,
+      "style_tag": "case",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#12"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
   "explain_back": {
     "prompt": "Using the slides, show how fast narrow AI is growing: name some popular ANI systems, give market numbers and describe how quickly AI is being adopted.",
     "rubric": [

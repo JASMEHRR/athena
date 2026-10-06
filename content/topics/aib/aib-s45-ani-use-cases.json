@@ -371,7 +371,335 @@
       "retired": false
     }
   ],
-  "questions": [],
+  "questions": [
+    {
+      "id": "aib-s45-ani-use-cases-q-5085b987",
+      "type": "mcq",
+      "stem": "Churn prediction and predictive maintenance are uses listed under which box of the Use Cases of ANI infographic?",
+      "options": [
+        "Enterprise & Predictive Analytics AI",
+        "Marketing & Text AI",
+        "AI Agents / Chatbots",
+        "Big Data + AI Platforms"
+      ],
+      "answer": "Enterprise & Predictive Analytics AI",
+      "accept": [],
+      "explanation": "That box lists fraud detection, demand forecasting, churn prediction, predictive maintenance and financial risk scoring.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "recall",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#23"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-ani-use-cases-q-d322e828",
+      "type": "mcq",
+      "stem": "Which tools does the Use Cases of ANI infographic list under Marketing & Text AI?",
+      "options": [
+        "Grammarly, ChatGPT, Jasper AI, Google Translate",
+        "Azure ML, AWS SageMaker, Google Vertex AI",
+        "Alexa, Siri, Google Assistant, Intercom, Drift",
+        "IBM Watson, Salesforce Einstein, Zest AI"
+      ],
+      "answer": "Grammarly, ChatGPT, Jasper AI, Google Translate",
+      "accept": [],
+      "explanation": "The other lists belong to big data + AI platforms, AI agents / chatbots and enterprise & predictive analytics.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "recall",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#23"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-ani-use-cases-q-8f1449bf",
+      "type": "mcq",
+      "stem": "In the ANI in Business table, which sector lists credit scoring and AI chatbots as types of ANI?",
+      "options": [
+        "BFSI",
+        "Retail",
+        "Healthcare",
+        "Marketing"
+      ],
+      "answer": "BFSI",
+      "accept": [],
+      "explanation": "BFSI lists fraud detection, credit scoring and AI chatbots; retail lists recommendation engines, dynamic pricing and inventory management.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "recall",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#25",
+        "aib--aib-session4-5-types-of-ai#23"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-ani-use-cases-q-ece8d2d4",
+      "type": "mcq",
+      "stem": "What market figure does the ANI in Business table give for BFSI in 2024?",
+      "options": [
+        "$26.2 billion",
+        "$29 billion",
+        "USD 24 billion",
+        "USD 5.25 billion"
+      ],
+      "answer": "$26.2 billion",
+      "accept": [],
+      "explanation": "$29 billion is healthcare; the USD figures are from the ANI market table (enterprise analytics and AI agents).",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "recall",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#25",
+        "aib--aib-session4-5-types-of-ai#13"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-ani-use-cases-q-a4394849",
+      "type": "mcq",
+      "stem": "Which of these is one of the four uses in the ANI in Healthcare picture?",
+      "options": [
+        "Patient monitoring",
+        "Credit scoring",
+        "Dynamic pricing",
+        "Churn prediction"
+      ],
+      "answer": "Patient monitoring",
+      "accept": [],
+      "explanation": "The picture shows medical imaging, drug discovery, diagnosis and patient monitoring.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "recall",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#25",
+        "aib--aib-session4-5-types-of-ai#23"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-ani-use-cases-q-ffb65aee",
+      "type": "short",
+      "stem": "List the nine domains covered by ANI on the 'Domains Covered' slide.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The deck's **Domains Covered** slide shows how widely narrow AI is used. Its nine domains are:\n\n1. **Language/Text**\n2. **Speech & Audio**\n3. **Vision/Image**\n4. **Enterprise Analytics**\n5. **Chatbots & Agents**\n6. **Recommendations**\n7. **Autonomous Systems**\n8. **Game AI**\n9. **Multimodal & Foundational ANI**\n\nSo ANI reaches from text and speech to cars and games, each system still built for its own task.",
+      "rubric": [
+        {
+          "point": "Language/Text, Speech & Audio, Vision/Image",
+          "source_ref": "aib--aib-session4-5-types-of-ai#24"
+        },
+        {
+          "point": "Enterprise Analytics, Chatbots & Agents, Recommendations",
+          "source_ref": "aib--aib-session4-5-types-of-ai#24"
+        },
+        {
+          "point": "Autonomous Systems, Game AI, Multimodal & Foundational ANI",
+          "source_ref": "aib--aib-session4-5-types-of-ai#24"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 1,
+      "style_tag": "list",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#24"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-ani-use-cases-q-61efecbd",
+      "type": "short",
+      "stem": "Explain the uses of AI agents / chatbots and of big data + AI platforms, naming the tools the infographic gives for each.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The Use Cases of ANI infographic gives each domain its tools and jobs.\n\n**AI agents / chatbots**\n- **Tools:** Alexa, Siri, Google Assistant, Intercom, Drift.\n- **Uses:** virtual customer support, voice-controlled devices, appointment scheduling, internal IT bots, retail shopping assistants.\n\n**Big data + AI platforms**\n- **Tools:** Azure ML, AWS SageMaker, Google Vertex AI.\n- **Uses:** data lake AI pipelines, real-time analytics, customer segmentation, sentiment analysis.\n\nSo chatbots talk to people, while big data platforms work behind the scenes on a firm's data.",
+      "rubric": [
+        {
+          "point": "Agents / chatbots tools: Alexa, Siri, Google Assistant, Intercom, Drift",
+          "source_ref": "aib--aib-session4-5-types-of-ai#23"
+        },
+        {
+          "point": "Agents uses: customer support, voice devices, scheduling, IT bots, shopping assistants",
+          "source_ref": "aib--aib-session4-5-types-of-ai#23"
+        },
+        {
+          "point": "Big data + AI tools: Azure ML, AWS SageMaker, Google Vertex AI",
+          "source_ref": "aib--aib-session4-5-types-of-ai#23"
+        },
+        {
+          "point": "Big data uses: data lake pipelines, real-time analytics, segmentation, sentiment analysis",
+          "source_ref": "aib--aib-session4-5-types-of-ai#23"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#23"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-ani-use-cases-q-5fd58f2b",
+      "type": "short",
+      "stem": "The deck places GPT-4, Gemini and IBM Watson under two different types of AI. Explain, quoting each slide's own wording.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The same tools appear in two places in the deck with different labels.\n\n- **Use Cases of ANI infographic:** GPT-4, Gemini, Claude and IBM Watson sit in the box **'General AI Market (cross-domain ANI's)'**, used for conversational AI, email campaigns, SEO optimization, language and coding assistants. Here they count as **ANI**.\n- **'Strong AI' (AGI) slide:** **OpenAI GPT-4 / GPT-3 / Gemini** (research, tutoring, coding) and **IBM Watson** (medical records, logistics) are given as **real-world examples of AGI**, with the line *'We are halfway to AGI'*.\n\nIn an answer, name the slide: on the use-cases slide they are cross-domain ANI, on the AGI slide they are early AGI examples.",
+      "rubric": [
+        {
+          "point": "Use-cases slide: 'cross-domain ANI's' box with GPT-4, Gemini, Claude, IBM Watson",
+          "source_ref": "aib--aib-session4-5-types-of-ai#23"
+        },
+        {
+          "point": "Their listed uses: conversational AI, email campaigns, SEO, language and coding assistants",
+          "source_ref": "aib--aib-session4-5-types-of-ai#23"
+        },
+        {
+          "point": "AGI slide: GPT-4 / GPT-3 / Gemini and IBM Watson as AGI examples",
+          "source_ref": "aib--aib-session4-5-types-of-ai#9"
+        },
+        {
+          "point": "'We are halfway to AGI': name the slide when answering",
+          "source_ref": "aib--aib-session4-5-types-of-ai#9"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 3,
+      "style_tag": "differentiate",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#23",
+        "aib--aib-session4-5-types-of-ai#9"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-ani-use-cases-q-bc8e7ab7",
+      "type": "long",
+      "stem": "A retailer, a hospital and a bank each want to adopt ANI. Using the ANI in Business table, explain the types of ANI, the benefit and the market figure for each sector.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The **ANI in Business** table shows that each sector uses different narrow AI tools for its own goal. Applying it to the three firms:\n\n| | Retail | Healthcare | BFSI |\n|---|---|---|---|\n| **Types of ANI** | recommendation engines, dynamic pricing, inventory management | diagnostic image analysis, predictive risk modeling, fraud detection | fraud detection, credit scoring, AI chatbots |\n| **Benefit** | personalized experiences | improved accuracy | faster service response |\n| **Market** | rapid market growth | $29 billion in 2024 | $26.2 billion in 2024 |\n\n**The retailer** should look at **recommendation engines** to suggest products, **dynamic pricing** to set prices and **inventory management** to keep stock right. The payoff is **personalized experiences** for customers, in a sector the table marks for **rapid market growth**.\n\n**The hospital** can use **diagnostic image analysis**, **predictive risk modeling** and **fraud detection**. The benefit is **improved accuracy**. The **ANI in Healthcare** picture adds four uses: **medical imaging, drug discovery, diagnosis and patient monitoring**. Healthcare ANI was worth **$29 billion in 2024**.\n\n**The bank (BFSI)** can use **fraud detection**, **credit scoring** and **AI chatbots**. The benefit is **faster service response**, and the market was **$26.2 billion in 2024**.\n\n**A point to notice:** **fraud detection** appears in both healthcare and BFSI, so one kind of ANI can serve more than one sector.\n\nIn short, each firm should pick the narrow tools that match its own goal: personalization for retail, accuracy for healthcare and speed of service for banking.",
+      "rubric": [
+        {
+          "point": "Retail: recommendation engines, dynamic pricing, inventory management; personalized experiences",
+          "source_ref": "aib--aib-session4-5-types-of-ai#25"
+        },
+        {
+          "point": "Healthcare: diagnostic image analysis, predictive risk modeling, fraud detection; improved accuracy",
+          "source_ref": "aib--aib-session4-5-types-of-ai#25"
+        },
+        {
+          "point": "BFSI: fraud detection, credit scoring, AI chatbots; faster service response",
+          "source_ref": "aib--aib-session4-5-types-of-ai#25"
+        },
+        {
+          "point": "Markets: retail rapid growth, healthcare $29 billion, BFSI $26.2 billion (2024)",
+          "source_ref": "aib--aib-session4-5-types-of-ai#25"
+        },
+        {
+          "point": "ANI in Healthcare: medical imaging, drug discovery, diagnosis, patient monitoring",
+          "source_ref": "aib--aib-session4-5-types-of-ai#25"
+        },
+        {
+          "point": "Fraud detection appears in both healthcare and BFSI",
+          "source_ref": "aib--aib-session4-5-types-of-ai#25"
+        }
+      ],
+      "marks": 10.0,
+      "difficulty": 2,
+      "style_tag": "case",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#25"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-ani-use-cases-q-16a97a4a",
+      "type": "long",
+      "stem": "Describe the five boxes of the Use Cases of ANI infographic, giving the tools and uses in each.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The **Use Cases of ANI** infographic shows where narrow AI is put to work. Its five boxes carry the same names as the domains in the ANI market table.\n\n**1. General AI market (cross-domain ANI's)**\n- Tools: GPT-4, Gemini, Claude, IBM Watson.\n- Uses: conversational AI, email campaigns, SEO optimization, language assistants, coding assistants.\n\n**2. Marketing & text AI**\n- Tools: Grammarly, ChatGPT, Jasper AI, Google Translate.\n- Uses: content creation, email campaigns, SEO optimization, language translation, text summarization.\n\n**3. Enterprise & predictive analytics AI**\n- Tools: IBM Watson, Salesforce Einstein, Zest AI.\n- Uses: **fraud detection, demand forecasting, churn prediction, predictive maintenance, financial risk scoring**.\n\n**4. AI agents / chatbots**\n- Tools: Alexa, Siri, Google Assistant, Intercom, Drift.\n- Uses: virtual customer support, voice-controlled devices, appointment scheduling, internal IT bots, retail shopping assistants.\n\n**5. Big data + AI platforms**\n- Tools: Azure ML, AWS SageMaker, Google Vertex AI.\n- Uses: data lake AI pipelines, real-time analytics, customer segmentation, sentiment analysis.\n\n**Link to the market table:** enterprise / predictive analytics has the highest approximate CAGR (about 37.6%), so the prediction box is the fastest-growing area.\n\nSo every box is a family of narrow tools, each doing defined business jobs, which is why the deck treats them all as ANI.",
+      "rubric": [
+        {
+          "point": "General AI market box: GPT-4, Gemini, Claude, IBM Watson; conversational and coding assistants",
+          "source_ref": "aib--aib-session4-5-types-of-ai#23"
+        },
+        {
+          "point": "Marketing & text AI: Grammarly, ChatGPT, Jasper AI, Google Translate; content, translation, summarization",
+          "source_ref": "aib--aib-session4-5-types-of-ai#23"
+        },
+        {
+          "point": "Enterprise & predictive analytics: IBM Watson, Salesforce Einstein, Zest AI; fraud, forecasting, churn",
+          "source_ref": "aib--aib-session4-5-types-of-ai#23"
+        },
+        {
+          "point": "AI agents / chatbots: Alexa, Siri, Intercom, Drift; support, scheduling, IT bots",
+          "source_ref": "aib--aib-session4-5-types-of-ai#23"
+        },
+        {
+          "point": "Big data + AI: Azure ML, AWS SageMaker, Google Vertex AI; pipelines, analytics, segmentation",
+          "source_ref": "aib--aib-session4-5-types-of-ai#23"
+        },
+        {
+          "point": "Same five domains as the market table; enterprise analytics grows fastest",
+          "source_ref": "aib--aib-session4-5-types-of-ai#13"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#23",
+        "aib--aib-session4-5-types-of-ai#13"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
   "explain_back": {
     "prompt": "Explain where narrow AI is used today: name its domains and give the tools and business uses from the slides.",
     "rubric": [

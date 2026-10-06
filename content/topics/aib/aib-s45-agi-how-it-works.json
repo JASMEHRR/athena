@@ -355,7 +355,338 @@
       "retired": false
     }
   ],
-  "questions": [],
+  "questions": [
+    {
+      "id": "aib-s45-agi-how-it-works-q-16faf899",
+      "type": "mcq",
+      "stem": "On the 'What is AGI' slide, which trait means AGI can solve novel problems, think abstractly and adapt?",
+      "options": [
+        "Reasoning-capable",
+        "Flexible",
+        "Self-improving",
+        "Goal-driven"
+      ],
+      "answer": "Reasoning-capable",
+      "accept": [],
+      "explanation": "Flexible is about knowledge across domains, self-improving is learning without reprogramming; goal-driven is an ASI characteristic.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "define",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#26",
+        "aib--aib-session4-5-types-of-ai#49"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-agi-how-it-works-q-58cbdd70",
+      "type": "mcq",
+      "stem": "Which of these is one of the six abilities in the 'How AGI works' picture?",
+      "options": [
+        "Memory integration",
+        "Cognitive superiority",
+        "Wake word detection",
+        "Dynamic pricing"
+      ],
+      "answer": "Memory integration",
+      "accept": [],
+      "explanation": "Cognitive superiority is an ASI characteristic, wake word detection is a Siri step and dynamic pricing is a retail ANI use.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "recall",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#27",
+        "aib--aib-session4-5-types-of-ai#49",
+        "aib--aib-session4-5-types-of-ai#20",
+        "aib--aib-session4-5-types-of-ai#25"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-agi-how-it-works-q-67644b7d",
+      "type": "mcq",
+      "stem": "In the 'How AGI works' picture, which ability 'deeply comprehends and uses human language'?",
+      "options": [
+        "Natural language understanding",
+        "General learning",
+        "Common sense",
+        "Self-improvement"
+      ],
+      "answer": "Natural language understanding",
+      "accept": [],
+      "explanation": "General learning adapts to new tasks, common sense reasons about everyday knowledge, self-improvement enhances its own abilities.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "recall",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#27"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-agi-how-it-works-q-4aac57e8",
+      "type": "mcq",
+      "stem": "Which three kinds of learning appear on the right side of the AGI block diagram?",
+      "options": [
+        "Algorithmic, reinforcement and supervised learning",
+        "Initial, continuous and mature learning",
+        "General learning, self-improvement and common sense",
+        "Self-play, deep neural networks and tree search"
+      ],
+      "answer": "Algorithmic, reinforcement and supervised learning",
+      "accept": [],
+      "explanation": "Initial to mature learning is Figure 14, the middle option is the How AGI works picture, and self-play is AlphaGo.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "recall",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#28",
+        "aib--aib-session4-5-types-of-ai#45",
+        "aib--aib-session4-5-types-of-ai#27",
+        "aib--aib-session4-5-types-of-ai#3"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-agi-how-it-works-q-b409fc41",
+      "type": "mcq",
+      "stem": "In the AGI block diagram, working memory is drawn holding which type of memory?",
+      "options": [
+        "Episodic memory",
+        "Semantic memory",
+        "Reasoning",
+        "Knowledge base"
+      ],
+      "answer": "Episodic memory",
+      "accept": [],
+      "explanation": "The knowledge base holds reasoning and semantic memory; working memory and long-term memory each hold episodic memory.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "recall",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#28"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-agi-how-it-works-q-0ddecba5",
+      "type": "short",
+      "stem": "Define AGI and explain its three traits as given on the 'What is AGI' slide.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**AGI, or General AI,** is an AI system with **human-level intelligence** that can perform **any intellectual task that a human can**.\n\n- **Flexible:** can learn and apply knowledge **across multiple domains**.\n- **Reasoning-capable:** can solve **novel problems**, think abstractly and adapt.\n- **Self-improving:** can **learn from experience without being reprogrammed**.\n\nThe slide adds that **AGI doesn't exist yet**; it is a theoretical or future concept that would mark a **major shift** in how machines interact with the world.",
+      "rubric": [
+        {
+          "point": "Human-level intelligence; any intellectual task a human can do",
+          "source_ref": "aib--aib-session4-5-types-of-ai#26"
+        },
+        {
+          "point": "Flexible: knowledge across multiple domains",
+          "source_ref": "aib--aib-session4-5-types-of-ai#26"
+        },
+        {
+          "point": "Reasoning-capable: novel problems, abstract thinking, adapting",
+          "source_ref": "aib--aib-session4-5-types-of-ai#26"
+        },
+        {
+          "point": "Self-improving: learns from experience without reprogramming; doesn't exist yet",
+          "source_ref": "aib--aib-session4-5-types-of-ai#26"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 1,
+      "style_tag": "define",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#26"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-agi-how-it-works-q-b2d69888",
+      "type": "short",
+      "stem": "Explain any four of the six abilities shown in the 'How AGI works' picture.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The **How AGI works** picture puts a robot head in the centre with six abilities around it. Four of them:\n\n- **General learning:** learns from experience and **adapts to new tasks**.\n- **Natural language understanding:** **deeply comprehends and uses human language**.\n- **Autonomous goal setting:** **establishes goals and makes independent decisions**.\n- **Common sense:** understands and reasons about **everyday knowledge**.\n\nThe other two are **self-improvement** (enhances its own abilities over time) and **memory integration** (stores and recalls information effectively). Together they describe a machine that can handle any task, not just one.",
+      "rubric": [
+        {
+          "point": "General learning: learns from experience, adapts to new tasks",
+          "source_ref": "aib--aib-session4-5-types-of-ai#27"
+        },
+        {
+          "point": "Natural language understanding: comprehends and uses human language",
+          "source_ref": "aib--aib-session4-5-types-of-ai#27"
+        },
+        {
+          "point": "Autonomous goal setting: sets goals, independent decisions",
+          "source_ref": "aib--aib-session4-5-types-of-ai#27"
+        },
+        {
+          "point": "Common sense / self-improvement / memory integration explained",
+          "source_ref": "aib--aib-session4-5-types-of-ai#27"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 1,
+      "style_tag": "explain",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#27"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-agi-how-it-works-q-c8ffed5a",
+      "type": "short",
+      "stem": "Describe the parts of the AGI block diagram shown in the deck.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The slide titled **Artificial General Intelligence (AGI)** is a block diagram with no explaining text, so it is learnt as drawn.\n\n- **Inputs and processing (left):** perceptual input, input representation, module selection, language comprehension, decision making, feature extraction, autonomous control (optional), vision processing, long-term memory.\n- **Memory (centre):** a **knowledge base** (reasoning and semantic memory), **working memory** (episodic memory) and **long-term memory** (episodic memory).\n- **Learning and action (right):** planning & goal setting, **algorithmic, reinforcement and supervised learning**, perceptual motor processing and **action output**.\n- **Flow:** inputs feed memory, memory feeds learning, and **action output loops back to planning & goal setting**.\n\nSo the diagram pictures AGI as a cycle of sensing, remembering, learning and acting.",
+      "rubric": [
+        {
+          "point": "Inputs: perceptual input, language comprehension, vision processing, decision making",
+          "source_ref": "aib--aib-session4-5-types-of-ai#28"
+        },
+        {
+          "point": "Memory: knowledge base (reasoning, semantic), working and long-term memory (episodic)",
+          "source_ref": "aib--aib-session4-5-types-of-ai#28"
+        },
+        {
+          "point": "Learning: algorithmic, reinforcement, supervised learning; planning & goal setting",
+          "source_ref": "aib--aib-session4-5-types-of-ai#28"
+        },
+        {
+          "point": "Action output loops back to planning & goal setting",
+          "source_ref": "aib--aib-session4-5-types-of-ai#28"
+        }
+      ],
+      "marks": 5.0,
+      "difficulty": 3,
+      "style_tag": "explain",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#28"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-agi-how-it-works-q-8a7f27a9",
+      "type": "long",
+      "stem": "Explain what AGI is and how it works, using the 'What is AGI' slide and the 'How AGI works' picture.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**AGI (Artificial General Intelligence), or General AI,** is AI with **human-level intelligence** that can perform **any intellectual task that a human can**. The deck explains both what it is and how it would work.\n\n**What AGI is: three traits**\n- **Flexible:** learns and applies knowledge **across multiple domains**.\n- **Reasoning-capable:** solves **novel problems**, thinks abstractly and adapts.\n- **Self-improving:** **learns from experience without being reprogrammed**.\n\n**Status:** the slide says **AGI doesn't exist yet**; it is a **theoretical or future concept**. If achieved, it would mark a **major shift** in how machines interact with the world.\n\n**How AGI works: six abilities**\n1. **General learning:** learns from experience and adapts to new tasks.\n2. **Natural language understanding:** deeply comprehends and uses human language.\n3. **Self-improvement:** enhances its own abilities over time.\n4. **Memory integration:** stores and recalls information effectively.\n5. **Autonomous goal setting:** establishes goals and makes independent decisions.\n6. **Common sense:** understands and reasons about everyday knowledge.\n\n**The block diagram** shows the same idea as a system: inputs such as **perceptual input, language comprehension and vision processing** feed a **knowledge base, working memory and long-term memory**, which feed **algorithmic, reinforcement and supervised learning**. **Action output** loops back to **planning & goal setting**.\n\n**Linking the two slides:** flexibility comes from general learning and memory integration, reasoning from common sense and language understanding, and self-improvement appears on both slides.\n\nSo AGI would be one system that learns, remembers, reasons and sets its own goals across any domain, unlike today's task-specific AI.",
+      "rubric": [
+        {
+          "point": "Definition: human-level intelligence, any intellectual task",
+          "source_ref": "aib--aib-session4-5-types-of-ai#26"
+        },
+        {
+          "point": "Traits: flexible, reasoning-capable, self-improving",
+          "source_ref": "aib--aib-session4-5-types-of-ai#26"
+        },
+        {
+          "point": "Status: doesn't exist yet, theoretical or future concept",
+          "source_ref": "aib--aib-session4-5-types-of-ai#26"
+        },
+        {
+          "point": "Six abilities: general learning, natural language understanding, self-improvement, memory integration, autonomous goal setting, common sense",
+          "source_ref": "aib--aib-session4-5-types-of-ai#27"
+        },
+        {
+          "point": "Block diagram: inputs to memory to learning, action output loops to planning",
+          "source_ref": "aib--aib-session4-5-types-of-ai#28"
+        }
+      ],
+      "marks": 10.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#26",
+        "aib--aib-session4-5-types-of-ai#27",
+        "aib--aib-session4-5-types-of-ai#28"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s45-agi-how-it-works-q-5f806abc",
+      "type": "long",
+      "stem": "Differentiate between ANI and AGI as the deck presents them.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "ANI and AGI differ mainly in **how widely** the AI can think and **whether it exists today**.\n\n| Basis | ANI (Weak AI) | AGI (General AI) |\n|---|---|---|\n| **Meaning** | AI designed for a **specific task**; cannot generalize beyond it | AI with **human-level intelligence** that can perform **any intellectual task a human can** |\n| **Scope** | Works only in the domain it was trained for | **Flexible:** learns and applies knowledge across multiple domains |\n| **Learning** | Can't learn beyond what it's programmed for | **Self-improving:** learns from experience without being reprogrammed |\n| **Reasoning** | Not truly intelligent beyond its coding | **Reasoning-capable:** solves novel problems, thinks abstractly, adapts |\n| **Transfer** | Cannot transfer its skills to unrelated areas | Applies knowledge across domains |\n| **Status** | What we have today; most common type | Doesn't exist yet; theoretical or future concept |\n| **Examples** | Siri and Alexa, Netflix or Amazon recommendations, facial recognition, spam filters | None yet; the How AGI works picture describes its abilities |\n\n**How AGI would work** adds abilities ANI lacks: **general learning**, **natural language understanding**, **self-improvement**, **memory integration**, **autonomous goal setting** and **common sense**.\n\nSo ANI is narrow and real today, while AGI is broad, human-level and still a future concept.",
+      "rubric": [
+        {
+          "point": "ANI: designed for a specific task, cannot generalize",
+          "source_ref": "aib--aib-session4-5-types-of-ai#11"
+        },
+        {
+          "point": "AGI: human-level, any intellectual task a human can do",
+          "source_ref": "aib--aib-session4-5-types-of-ai#26"
+        },
+        {
+          "point": "AGI is flexible, reasoning-capable and self-improving; ANI cannot learn beyond programming",
+          "source_ref": "aib--aib-session4-5-types-of-ai#26"
+        },
+        {
+          "point": "ANI exists today and is most common; AGI doesn't exist yet",
+          "source_ref": "aib--aib-session4-5-types-of-ai#8"
+        },
+        {
+          "point": "ANI examples vs AGI abilities (general learning, goal setting, common sense)",
+          "source_ref": "aib--aib-session4-5-types-of-ai#27"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 2,
+      "style_tag": "differentiate",
+      "source_refs": [
+        "aib--aib-session4-5-types-of-ai#26",
+        "aib--aib-session4-5-types-of-ai#11",
+        "aib--aib-session4-5-types-of-ai#8",
+        "aib--aib-session4-5-types-of-ai#27"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
   "explain_back": {
     "prompt": "Explain what AGI is, its three traits, and the abilities the slides say it needs to work.",
     "rubric": [
