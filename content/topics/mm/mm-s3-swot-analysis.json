@@ -381,7 +381,342 @@
       "retired": false
     }
   ],
-  "questions": [],
+  "questions": [
+    {
+      "id": "mm-s3-swot-analysis-q-9122c92d",
+      "type": "mcq",
+      "stem": "Which part of SWOT is both internal and positive?",
+      "options": [
+        "Strengths",
+        "Weaknesses",
+        "Opportunities",
+        "Threats"
+      ],
+      "answer": "Strengths",
+      "accept": [],
+      "explanation": "Strengths are internal and positive; weaknesses internal and negative; opportunities external and positive; threats external and negative.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "recall",
+      "source_refs": [
+        "mm--session3-mm#22"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "mm-s3-swot-analysis-q-75dee13a",
+      "type": "mcq",
+      "stem": "How does the SWOT grid define opportunities?",
+      "options": [
+        "External factors that the company may be able to exploit to its advantage",
+        "Internal capabilities that may help the company reach its objectives",
+        "Internal limitations that may interfere with the company's ability to achieve its objectives",
+        "Current and emerging external factors that may challenge the company's performance"
+      ],
+      "answer": "External factors that the company may be able to exploit to its advantage",
+      "accept": [],
+      "explanation": "The other three define strengths, weaknesses and threats.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "define",
+      "source_refs": [
+        "mm--session3-mm#22"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "mm-s3-swot-analysis-q-1f008d90",
+      "type": "mcq",
+      "stem": "Which pair of labels describes Weaknesses in the SWOT grid?",
+      "options": [
+        "Internal and Negative",
+        "Internal and Positive",
+        "External and Negative",
+        "External and Positive"
+      ],
+      "answer": "Internal and Negative",
+      "accept": [],
+      "explanation": "Weaknesses sit in the Internal row and the Negative column.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "recall",
+      "source_refs": [
+        "mm--session3-mm#22"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "mm-s3-swot-analysis-q-e03ad5c8",
+      "type": "mcq",
+      "stem": "Under which section heading does the deck present SWOT Analysis?",
+      "options": [
+        "Analyzing Marketing Environment",
+        "Marketing Mix",
+        "Macro environment",
+        "Micro environment"
+      ],
+      "answer": "Analyzing Marketing Environment",
+      "accept": [],
+      "explanation": "SWOT comes in the last section, headed Analyzing Marketing Environment.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "recall",
+      "source_refs": [
+        "mm--session3-mm#20",
+        "mm--session3-mm#21",
+        "mm--session3-mm#2",
+        "mm--session3-mm#11",
+        "mm--session3-mm#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "mm-s3-swot-analysis-q-4893ef28",
+      "type": "mcq",
+      "stem": "The suppliers slide lists supply shortages or delays and labor strikes. For the company, such events would fit which SWOT box?",
+      "options": [
+        "Threats",
+        "Strengths",
+        "Weaknesses",
+        "Opportunities"
+      ],
+      "answer": "Threats",
+      "accept": [],
+      "explanation": "They come from outside the company and may challenge its performance, so they are external and negative: threats.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 3,
+      "style_tag": "apply",
+      "source_refs": [
+        "mm--session3-mm#22",
+        "mm--session3-mm#8"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "mm-s3-swot-analysis-q-a8008811",
+      "type": "short",
+      "stem": "Explain the SWOT grid with the definition of each part.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Under **Analyzing Marketing Environment**, the deck shows **SWOT Analysis**: **Strengths, Weaknesses, Opportunities and Threats**, set out in a two by two grid.\n\n| | **Positive** | **Negative** |\n|---|---|---|\n| **Internal** | **Strengths**: internal capabilities that may help the company reach its objectives | **Weaknesses**: internal limitations that may interfere with the company's ability to achieve its objectives |\n| **External** | **Opportunities**: external factors the company may be able to exploit to its advantage | **Threats**: current and emerging external factors that may challenge the company's performance |\n\nEvery box carries two tags: internal or external, positive or negative.\n\nSo SWOT sorts what the firm finds into four boxes to guide its decisions.",
+      "rubric": [
+        {
+          "point": "Strengths: internal capabilities that may help reach objectives",
+          "source_ref": "mm--session3-mm#22"
+        },
+        {
+          "point": "Weaknesses: internal limitations that may interfere",
+          "source_ref": "mm--session3-mm#22"
+        },
+        {
+          "point": "Opportunities: external factors the company may exploit",
+          "source_ref": "mm--session3-mm#22"
+        },
+        {
+          "point": "Threats: current and emerging external factors that may challenge performance",
+          "source_ref": "mm--session3-mm#22"
+        },
+        {
+          "point": "Internal/External rows and Positive/Negative columns",
+          "source_ref": "mm--session3-mm#22"
+        }
+      ],
+      "marks": 5.0,
+      "difficulty": 1,
+      "style_tag": "explain",
+      "source_refs": [
+        "mm--session3-mm#21",
+        "mm--session3-mm#22",
+        "mm--session3-mm#20"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "mm-s3-swot-analysis-q-0b791ae2",
+      "type": "short",
+      "stem": "Differentiate between strengths and weaknesses in SWOT analysis.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Strengths and weaknesses form the **Internal** row of the SWOT grid. Both are about the company's own **objectives**.\n\n| Basis | Strengths | Weaknesses |\n|---|---|---|\n| Definition | **Internal capabilities that may help the company reach its objectives** | **Internal limitations that may interfere with the company's ability to achieve its objectives** |\n| Column | **Positive** | **Negative** |\n| Key word | **Capabilities** that **help** | **Limitations** that **interfere** |\n\nThe two definitions mirror each other: capabilities versus limitations, help versus interfere.",
+      "rubric": [
+        {
+          "point": "Strengths: internal capabilities that may help reach objectives",
+          "source_ref": "mm--session3-mm#22"
+        },
+        {
+          "point": "Weaknesses: internal limitations that may interfere",
+          "source_ref": "mm--session3-mm#22"
+        },
+        {
+          "point": "Both internal; strengths positive, weaknesses negative",
+          "source_ref": "mm--session3-mm#22"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 1,
+      "style_tag": "differentiate",
+      "source_refs": [
+        "mm--session3-mm#22"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "mm-s3-swot-analysis-q-9ca8d216",
+      "type": "short",
+      "stem": "Differentiate between opportunities and threats in SWOT analysis.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Opportunities and threats form the **External** row of the SWOT grid.\n\n| Basis | Opportunities | Threats |\n|---|---|---|\n| Definition | **External factors that the company may be able to exploit to its advantage** | **Current and emerging external factors that may challenge the company's performance** |\n| Column | **Positive** | **Negative** |\n| Key idea | Something the company **may exploit** | Something that **may challenge** it, now or soon |\n\nTwo details are easy to drop: opportunities are things the company **may be able to exploit**, and threats are **current and emerging**.",
+      "rubric": [
+        {
+          "point": "Opportunities: external factors the company may exploit to its advantage",
+          "source_ref": "mm--session3-mm#22"
+        },
+        {
+          "point": "Threats: current and emerging external factors that may challenge performance",
+          "source_ref": "mm--session3-mm#22"
+        },
+        {
+          "point": "Both external; opportunities positive, threats negative",
+          "source_ref": "mm--session3-mm#22"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 1,
+      "style_tag": "differentiate",
+      "source_refs": [
+        "mm--session3-mm#22"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "mm-s3-swot-analysis-q-d02e672b",
+      "type": "long",
+      "stem": "What is SWOT analysis? Explain its four parts and the internal/external and positive/negative grid, and say why it appears under analyzing the marketing environment.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The last section of the deck is headed **Analyzing Marketing Environment**, and the tool it shows is **SWOT Analysis**.\n\n**The four parts**\n- **S: Strengths**\n- **W: Weaknesses**\n- **O: Opportunities**\n- **T: Threats**\n\n**The grid**\n\n| | **Positive** | **Negative** |\n|---|---|---|\n| **Internal** | Strengths | Weaknesses |\n| **External** | Opportunities | Threats |\n\n**Definitions from the grid**\n1. **Strengths:** **internal capabilities that may help the company reach its objectives** (internal, positive).\n2. **Weaknesses:** **internal limitations that may interfere with the company's ability to achieve its objectives** (internal, negative).\n3. **Opportunities:** **external factors that the company may be able to exploit to its advantage** (external, positive).\n4. **Threats:** **current and emerging external factors that may challenge the company's performance** (external, negative).\n\n**How the parts pair up**\n- Strengths and weaknesses mirror each other: **capabilities** that **help** versus **limitations** that **interfere**.\n- Opportunities and threats both come from outside: one the company **may exploit**, the other may **challenge** its performance.\n\n**Why it sits under analyzing the marketing environment**\n- The **marketing environment** is **the actors and forces outside of marketing that affect marketing management ability to build and maintain successful relationships with target customers**.\n- The **External** row of SWOT is where the firm records what that environment offers or threatens; the **Internal** row sets this against the company's own capabilities and limitations.\n\n**Conclusion:** SWOT turns a study of the environment into four clear boxes, so the firm can see what helps and what hurts, inside and outside.",
+      "rubric": [
+        {
+          "point": "SWOT shown under Analyzing Marketing Environment",
+          "source_ref": "mm--session3-mm#20"
+        },
+        {
+          "point": "Four parts named",
+          "source_ref": "mm--session3-mm#21"
+        },
+        {
+          "point": "Grid: internal/external rows, positive/negative columns",
+          "source_ref": "mm--session3-mm#22"
+        },
+        {
+          "point": "Strengths and weaknesses defined",
+          "source_ref": "mm--session3-mm#22"
+        },
+        {
+          "point": "Opportunities and threats defined",
+          "source_ref": "mm--session3-mm#22"
+        },
+        {
+          "point": "Link to the marketing environment definition",
+          "source_ref": "mm--session3-mm#5"
+        }
+      ],
+      "marks": 10.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "mm--session3-mm#20",
+        "mm--session3-mm#21",
+        "mm--session3-mm#22",
+        "mm--session3-mm#5"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "mm-s3-swot-analysis-q-01d391f3",
+      "type": "long",
+      "stem": "A company lists these factors drawn from the session's environment slides: (a) a capability in its own research and development (R&D) department that helps it reach its objectives, (b) a limitation in its purchasing department that holds it back, (c) new technologies creating new product and market opportunities, (d) supply shortages and labor strikes at its suppliers. Place each factor in the SWOT grid and justify it.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "SWOT sorts each factor by two questions: is it **internal or external**, and is it **positive or negative**?\n\n**(a) A capability in its R&D department: Strength**\n- **The company** includes groups such as **top management, finance, research and development (R&D), purchasing, operations and accounting**, so this is **internal**.\n- It helps the company reach its objectives, so it is **positive**.\n- Strengths are **internal capabilities that may help the company reach its objectives**.\n\n**(b) A limitation in its purchasing department: Weakness**\n- Purchasing is also an internal department, so this is **internal**.\n- It holds the company back, so it is **negative**.\n- Weaknesses are **internal limitations that may interfere with the company's ability to achieve its objectives**.\n\n**(c) New technologies creating new product and market opportunities: Opportunity**\n- The **technological environment** is **forces that create new technologies, creating new product and market opportunities**. It is a macro force **outside the organization**, so **external**.\n- The company may use it, so it is **positive**.\n- Opportunities are **external factors that the company may be able to exploit to its advantage**.\n\n**(d) Supply shortages and labor strikes: Threat**\n- The suppliers slide lists **supply shortages or delays, labor strikes, and other events**. Suppliers sit outside the company, so this is **external**.\n- It may stop production, so it is **negative**.\n- Threats are **current and emerging external factors that may challenge the company's performance**.\n\n**Summary**\n\n| | Positive | Negative |\n|---|---|---|\n| Internal | (a) R&D capability | (b) purchasing limitation |\n| External | (c) new technologies | (d) shortages and strikes |\n\n**Conclusion:** asking internal or external, then positive or negative, places each factor in exactly one box.",
+      "rubric": [
+        {
+          "point": "(a) R&D capability is a strength: internal and positive",
+          "source_ref": "mm--session3-mm#22"
+        },
+        {
+          "point": "Internal departments named on the company slide",
+          "source_ref": "mm--session3-mm#8"
+        },
+        {
+          "point": "(b) Purchasing limitation is a weakness: internal and negative",
+          "source_ref": "mm--session3-mm#22"
+        },
+        {
+          "point": "(c) New technologies are an opportunity: external and positive",
+          "source_ref": "mm--session3-mm#15"
+        },
+        {
+          "point": "(d) Shortages and labor strikes are a threat: external and negative",
+          "source_ref": "mm--session3-mm#8"
+        },
+        {
+          "point": "Uses the grid's two questions to classify",
+          "source_ref": "mm--session3-mm#22"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 3,
+      "style_tag": "case",
+      "source_refs": [
+        "mm--session3-mm#22",
+        "mm--session3-mm#8",
+        "mm--session3-mm#15"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
   "explain_back": {
     "prompt": "Explain SWOT analysis: what each letter stands for, what each part means, and how the grid sorts them.",
     "rubric": [

@@ -479,7 +479,338 @@
       "retired": false
     }
   ],
-  "questions": [],
+  "questions": [
+    {
+      "id": "mm-s2-marketing-process-q-2a49c497",
+      "type": "mcq",
+      "stem": "Which is the third step of the marketing process as defined in the session?",
+      "options": [
+        "Developing the marketing mix",
+        "Analyzing marketing opportunities",
+        "Selecting target markets",
+        "Managing the marketing effort"
+      ],
+      "answer": "Developing the marketing mix",
+      "accept": [],
+      "explanation": "The order is: analyze opportunities, select target markets, develop the marketing mix, manage the marketing effort.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "recall",
+      "source_refs": [
+        "mm--session-2-mm#2"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "mm-s2-marketing-process-q-4d5f6229",
+      "type": "mcq",
+      "stem": "In the five-step model, which step is on the 'capture value from customers in return' side?",
+      "options": [
+        "Capture value from customers to create profits and customer equity",
+        "Build profitable relationships and create customer delight",
+        "Construct an integrated marketing program that delivers superior value",
+        "Design a customer-driven marketing strategy"
+      ],
+      "answer": "Capture value from customers to create profits and customer equity",
+      "accept": [],
+      "explanation": "The first four steps create value for customers; only the fifth captures value back.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "recall",
+      "source_refs": [
+        "mm--session-2-mm#3"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "mm-s2-marketing-process-q-f349fd2b",
+      "type": "mcq",
+      "stem": "How does the session define a market?",
+      "options": [
+        "The set of actual and potential buyers of a product",
+        "A collection of sellers",
+        "Individuals and households that buy for personal consumption",
+        "Organizations that use products in the production of other products"
+      ],
+      "answer": "The set of actual and potential buyers of a product",
+      "accept": [],
+      "explanation": "A market is buyers, both actual and potential; a collection of sellers is the industry.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "define",
+      "source_refs": [
+        "mm--session-2-mm#4",
+        "mm--session-2-mm#6",
+        "mm--session-2-mm#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "mm-s2-marketing-process-q-9e74b18e",
+      "type": "mcq",
+      "stem": "In the industry and market diagram, what flows from the market back to the industry?",
+      "options": [
+        "Money and information",
+        "Goods/services and communication",
+        "Money and communication",
+        "Goods/services and information"
+      ],
+      "answer": "Money and information",
+      "accept": [],
+      "explanation": "Sellers send goods/services and communication; buyers send back money and information.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "recall",
+      "source_refs": [
+        "mm--session-2-mm#4"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "mm-s2-marketing-process-q-2229104b",
+      "type": "mcq",
+      "stem": "Which key customer market is labelled B2G?",
+      "options": [
+        "Nonprofit/Government markets",
+        "Business markets",
+        "Consumer markets",
+        "Global markets"
+      ],
+      "answer": "Nonprofit/Government markets",
+      "accept": [],
+      "explanation": "The slide lists Consumer markets (B2C), Business markets (B2B), Global markets and Nonprofit/Government markets (B2G).",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "recall",
+      "source_refs": [
+        "mm--session-2-mm#5"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "mm-s2-marketing-process-q-e9227fbc",
+      "type": "short",
+      "stem": "Define the marketing process and explain its four steps.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The professor defines the **marketing process** as the process of four steps, done in order:\n\n1. **Analyzing marketing opportunities**: spot the opportunity first.\n2. **Selecting target markets**: choose which market to serve.\n3. **Developing the marketing mix**: put together the mix for that market.\n4. **Managing the marketing effort**: run and manage the whole effort.\n\nRead it as a sequence: opportunity, target, mix, management.\n\nSo the process moves from finding an opportunity to managing the marketing that serves it.",
+      "rubric": [
+        {
+          "point": "Analyzing marketing opportunities",
+          "source_ref": "mm--session-2-mm#2"
+        },
+        {
+          "point": "Selecting target markets",
+          "source_ref": "mm--session-2-mm#2"
+        },
+        {
+          "point": "Developing the marketing mix",
+          "source_ref": "mm--session-2-mm#2"
+        },
+        {
+          "point": "Managing the marketing effort",
+          "source_ref": "mm--session-2-mm#2"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 1,
+      "style_tag": "define",
+      "source_refs": [
+        "mm--session-2-mm#2"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "mm-s2-marketing-process-q-2f20db4e",
+      "type": "short",
+      "stem": "Differentiate between an industry and a market, using the diagram in the session.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The session defines a **market** as **the set of actual and potential buyers of a product**, and shows it beside the industry in a diagram.\n\n| Basis | Industry | Market |\n|---|---|---|\n| Made up of | A **collection of sellers** | A **collection of buyers** (actual and potential) |\n| Sends | **Goods/services** and **communication** | **Money** and **information** |\n| Receives | Money and information | Goods/services and communication |\n\nThe two are linked by four arrows: products and communication go to buyers, and money and information come back to sellers.\n\nSo the industry sells and the market buys, and each feeds the other.",
+      "rubric": [
+        {
+          "point": "Market: set of actual and potential buyers",
+          "source_ref": "mm--session-2-mm#4"
+        },
+        {
+          "point": "Industry: collection of sellers; market: collection of buyers",
+          "source_ref": "mm--session-2-mm#4"
+        },
+        {
+          "point": "Industry sends goods/services and communication",
+          "source_ref": "mm--session-2-mm#4"
+        },
+        {
+          "point": "Market sends back money and information",
+          "source_ref": "mm--session-2-mm#4"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "differentiate",
+      "source_refs": [
+        "mm--session-2-mm#4"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "mm-s2-marketing-process-q-22376ebb",
+      "type": "short",
+      "stem": "Name the four key customer markets given in the session.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The slide **Key Customer Markets** names four markets:\n\n1. **Consumer markets (B2C)**\n2. **Business markets (B2B)**\n3. **Global markets**\n4. **Nonprofit/Government markets (B2G)**\n\nThe slides that follow compare **consumer marketing**, selling to individuals and households for personal consumption, with **industrial marketing**, selling to organizations.\n\nSo customers can be individuals, businesses, buyers across the globe, or nonprofit and government bodies.",
+      "rubric": [
+        {
+          "point": "Consumer markets (B2C)",
+          "source_ref": "mm--session-2-mm#5"
+        },
+        {
+          "point": "Business markets (B2B)",
+          "source_ref": "mm--session-2-mm#5"
+        },
+        {
+          "point": "Global markets",
+          "source_ref": "mm--session-2-mm#5"
+        },
+        {
+          "point": "Nonprofit/Government markets (B2G)",
+          "source_ref": "mm--session-2-mm#5"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 1,
+      "style_tag": "list",
+      "source_refs": [
+        "mm--session-2-mm#5",
+        "mm--session-2-mm#6",
+        "mm--session-2-mm#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "mm-s2-marketing-process-q-5c365df6",
+      "type": "long",
+      "stem": "Explain the five-step model of the marketing process. Why is it described as creating value for customers and capturing value from them in return?",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The session shows marketing as a **five-step model** built on a two-way exchange of value: the firm first gives value, then gets value back.\n\n**Part 1: Create value for customers and build customer relationships** (steps 1 to 4)\n\n1. **Understand the marketplace and customer needs and wants.** Everything starts from what customers need and want.\n2. **Design a customer-driven marketing strategy.** The strategy is built around the customer, not the factory.\n3. **Construct an integrated marketing program that delivers superior value.** The plan pulls the marketing tools together so the customer gets better value.\n4. **Build profitable relationships and create customer delight.** The aim is a lasting relationship, not a single sale.\n\n**Part 2: Capture value from customers in return** (step 5)\n\n5. **Capture value from customers to create profits and customer equity.**\n\n**Why 'create' and then 'capture'?**\n- The first four steps all **give value to the customer**.\n- Only in **step five** does the firm **get value back**, as profits and customer equity.\n- The diagram even draws a **line before step five** to split the two halves.\n\n**Link to the four-step marketing process**\n- The session also defines the marketing process as **analyzing marketing opportunities, selecting target markets, developing the marketing mix and managing the marketing effort**. Both views move from understanding the market to acting on it.\n\n**Conclusion:** the model says value must flow to the customer first; profits and customer equity are the return the firm earns for doing that well.",
+      "rubric": [
+        {
+          "point": "Step 1: understand the marketplace and customer needs and wants",
+          "source_ref": "mm--session-2-mm#3"
+        },
+        {
+          "point": "Step 2: customer-driven marketing strategy",
+          "source_ref": "mm--session-2-mm#3"
+        },
+        {
+          "point": "Step 3: integrated marketing program delivering superior value",
+          "source_ref": "mm--session-2-mm#3"
+        },
+        {
+          "point": "Step 4: profitable relationships and customer delight",
+          "source_ref": "mm--session-2-mm#3"
+        },
+        {
+          "point": "Step 5: capture value to create profits and customer equity",
+          "source_ref": "mm--session-2-mm#3"
+        },
+        {
+          "point": "First four steps create value, the last captures it; line splits the halves",
+          "source_ref": "mm--session-2-mm#3"
+        }
+      ],
+      "marks": 10.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "mm--session-2-mm#3",
+        "mm--session-2-mm#2"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "mm-s2-marketing-process-q-26213734",
+      "type": "long",
+      "stem": "What is a market? Explain the flows between an industry and a market, and name the key customer markets.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Marketing needs buyers, so the session defines what a market is and how it connects to the sellers who serve it.\n\n**Definition**\n- **A market is the set of actual and potential buyers of a product.**\n- **Actual** buyers buy today; **potential** buyers might buy. Both count.\n\n**Industry and market**\n- **Industry:** a collection of **sellers**.\n- **Market:** a collection of **buyers**.\n\n**The four flows in the diagram**\n\n| Flow | Direction |\n|---|---|\n| **Goods/services** | Industry to market |\n| **Communication** | Industry to market |\n| **Money** | Market to industry |\n| **Information** | Market to industry |\n\nSellers send products and communication; buyers send back money and information. The exchange works both ways.\n\n**Four key customer markets**\n1. **Consumer markets (B2C)**\n2. **Business markets (B2B)**\n3. **Global markets**\n4. **Nonprofit/Government markets (B2G)**\n\nThe next slides compare **consumer marketing** (to individuals and households, for personal consumption) with **industrial marketing** (to organizations that use products in production and to run their enterprises).\n\n**Conclusion:** a market is its buyers, actual and potential. It trades money and information with the industry in return for goods, services and communication, and it comes in four main kinds.",
+      "rubric": [
+        {
+          "point": "Market: actual and potential buyers of a product",
+          "source_ref": "mm--session-2-mm#4"
+        },
+        {
+          "point": "Industry is sellers, market is buyers",
+          "source_ref": "mm--session-2-mm#4"
+        },
+        {
+          "point": "Goods/services and communication go from industry to market",
+          "source_ref": "mm--session-2-mm#4"
+        },
+        {
+          "point": "Money and information come back from market to industry",
+          "source_ref": "mm--session-2-mm#4"
+        },
+        {
+          "point": "Four key customer markets: B2C, B2B, global, B2G",
+          "source_ref": "mm--session-2-mm#5"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "mm--session-2-mm#4",
+        "mm--session-2-mm#5",
+        "mm--session-2-mm#6",
+        "mm--session-2-mm#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
   "explain_back": {
     "prompt": "Explain the marketing process and the five-step model of creating and capturing value. Then define a market and name the four key customer markets.",
     "rubric": [
