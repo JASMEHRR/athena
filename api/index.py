@@ -22,4 +22,15 @@ config.ensure_data_dirs()
 if not config.DB_PATH.is_file():
     importer.run(config.DB_PATH)
 
-app = create_app()
+_athena = create_app()
+
+
+async def app(scope, receive, send):
+    """Vercel may mount the function under root_path "/api", which makes FastAPI strip
+    "/api" before routing and 404 every /api/v1 route. Athena owns the whole site, so
+    route on the full path."""
+    if scope["type"] in ("http", "websocket"):
+        scope = dict(scope, root_path="")
+        if scope["path"].startswith("/v1/"):
+            scope["path"] = "/api" + scope["path"]
+    await _athena(scope, receive, send)
