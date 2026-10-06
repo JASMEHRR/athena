@@ -1,0 +1,475 @@
+{
+  "id": "aib-ch23-chatbot-lineage",
+  "subject_id": "aib",
+  "deck_id": "aib--ai-for-business-chapters-2-3",
+  "title": "Era 2: Rule-based conversation and the chatbot lineage",
+  "order": 406,
+  "summary": "How the Turing Test inspired a line of chatbots from ELIZA to Cleverbot, what each did, its key limitation and its business lesson today.",
+  "est_minutes": 20,
+  "difficulty": 2,
+  "source_refs": [
+    "aib--ai-for-business-chapters-2-3#10",
+    "aib--ai-for-business-chapters-2-3#11",
+    "aib--ai-for-business-chapters-2-3#17"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "aib-ch23-chatbot-lineage-c1",
+      "heading": "Why the chatbot lineage matters",
+      "explanation_md": "The Turing Test's **imitation standard** directly inspired a **lineage of chatbots** from the 1960s into the 2010s. Each pushed conversational realism a step further while staying, under the surface, a system of **hand-written rules rather than a learning agent**.\n\nThe five-era framework labels Era 2 **1960s to 1970s** because that is when **ELIZA and PARRY** pioneered the approach. But the **same rule-based paradigm persisted** for decades, running **in parallel** with Era 3's expert systems and machine learning.\n\nThe chapter's lesson: **history rarely divides as cleanly as a summary table**. A paradigm does not disappear when a better one is invented; it becomes the **\"legacy\" layer** newer approaches must be justified against.\n\nWhy a business audience should care: this lineage is the **direct conceptual ancestor of every customer-facing chatbot** today, and each system's limitation previews a **failure mode** still relevant when evaluating conversational AI vendors.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Legacy layer",
+          "meaning": "What an older paradigm becomes once a newer one is invented: the layer newer approaches must be justified against.",
+          "source_ref": "aib--ai-for-business-chapters-2-3#10"
+        }
+      ],
+      "exam_line": "Rule-based chatbots ran from the 1960s into the 2010s in parallel with Era 3; an old paradigm becomes the legacy layer, and each chatbot's limitation previews a failure mode for vendors today.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "aib-ch23-chatbot-lineage-q-bee32a3e",
+          "type": "true_false",
+          "stem": "The chapter says the rule-based chatbot paradigm disappeared at the end of the 1970s.",
+          "options": [],
+          "answer": "False",
+          "accept": [],
+          "explanation": "It persisted for decades, running in parallel with the expert-systems and machine-learning work of Era 3.",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--ai-for-business-chapters-2-3#10"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-ch23-chatbot-lineage-q-c8fc5356",
+          "type": "fill",
+          "stem": "A paradigm does not disappear when a more advanced one is invented; it becomes the \"____\" layer newer approaches must be justified against.",
+          "options": [],
+          "answer": "legacy",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--ai-for-business-chapters-2-3#10"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#10",
+        "aib--ai-for-business-chapters-2-3#11"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-chatbot-lineage-c2",
+      "heading": "ELIZA and PARRY",
+      "explanation_md": "**ELIZA (1966)**\n- **What it did:** built at **MIT** by **Joseph Weizenbaum**; simulated a **psychotherapist** by asking reflective questions, using simple **pattern-matching on keywords**.\n- **Key limitation:** **no memory, no real understanding, no learning**, yet many users still felt \"understood\".\n- **Business example:** the direct ancestor of today's **rule-based FAQ bots** on e-commerce sites, which still match a customer's keywords to a scripted response tree.\n\nThe chapter adds a footnote: sources vary between **1965 and 1966** for ELIZA's debut; it follows Weizenbaum's own account, which places the first published description in **January 1966**.\n\n**PARRY (1972)**\n- **What it did:** developed by **Kenneth Colby** to simulate a person with **paranoid delusions**, adding **internal beliefs and emotional states** beyond ELIZA's pattern-matching.\n- **Key limitation:** its reasoning was still **sophisticated pattern-matching**, not genuine understanding.\n- **Business example:** an early precedent for **persona-based support bots** that keep a consistent \"character\" and emotional tone, such as a **brand mascot chatbot**.",
+      "example_ids": [
+        "aib-ex-ch23-eliza",
+        "aib-ex-ch23-parry"
+      ],
+      "key_terms": [],
+      "exam_line": "ELIZA (1966, Weizenbaum, MIT): psychotherapist via keyword pattern-matching, no memory or understanding; ancestor of FAQ bots. PARRY (1972, Colby): paranoid persona with beliefs and emotions; precedent for persona bots.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "aib-ch23-chatbot-lineage-q-09fb51a3",
+          "type": "mcq",
+          "stem": "Which chatbot simulated a psychotherapist using simple pattern-matching on keywords?",
+          "options": [
+            "ELIZA",
+            "PARRY",
+            "Cleverbot",
+            "Catherine"
+          ],
+          "answer": "ELIZA",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--ai-for-business-chapters-2-3#10",
+            "aib--ai-for-business-chapters-2-3#11"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-ch23-chatbot-lineage-q-3d224cca",
+          "type": "mcq",
+          "stem": "What did PARRY add beyond ELIZA's pattern-matching?",
+          "options": [
+            "Internal beliefs and emotional states",
+            "Learning from millions of real conversations",
+            "A 13-year-old boy persona"
+          ],
+          "answer": "Internal beliefs and emotional states",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--ai-for-business-chapters-2-3#10",
+            "aib--ai-for-business-chapters-2-3#11"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-ch23-chatbot-lineage-q-666d62d0",
+          "type": "mcq",
+          "stem": "Today's rule-based FAQ bots on e-commerce sites are direct descendants of which system?",
+          "options": [
+            "ELIZA",
+            "PARRY",
+            "Eugene Goostman"
+          ],
+          "answer": "ELIZA",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--ai-for-business-chapters-2-3#10",
+            "aib--ai-for-business-chapters-2-3#11"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#10",
+        "aib--ai-for-business-chapters-2-3#11"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-chatbot-lineage-c3",
+      "heading": "Catherine and Eugene Goostman",
+      "explanation_md": "**Catherine (1991)**\n- **What it did:** represented a generation of conversational systems with **larger knowledge bases**, improved dialogue management and more coherent, context-aware responses.\n- **Key limitation:** still fundamentally **rule- and knowledge-base driven**, not adaptive from live user data.\n- **Business example:** like a modern **enterprise knowledge-base assistant** answering HR or IT helpdesk questions from a structured internal knowledge repository.\n\n**Eugene Goostman (created 2001; \"passed\" a 2014 Turing Test event)**\n- **What it did:** developed by **Vladimir Veselov, Eugene Demchenko and Sergey Ulasen**, designed as a **13-year-old Ukrainian boy**. The persona let grammatical slips and knowledge gaps pass as teenage quirks rather than machine limitations.\n- **Key limitation:** in a 2014 competition it convinced **33% of judges** in five-minute conversations. That \"pass\" is **widely disputed**: Turing's own **30%** figure was an informal prediction, not a rigorous benchmark, and the non-native, adolescent persona **lowered evaluators' expectations** instead of showing genuine understanding.\n- **Business example:** a **cautionary tale for branded AI personas**: a likeable, expectation-lowering character can **mask real accuracy gaps** from customers and even from internal reviewers grading the system too leniently.",
+      "example_ids": [
+        "aib-ex-ch23-catherine",
+        "aib-ex-ch23-eugene-goostman"
+      ],
+      "key_terms": [],
+      "exam_line": "Catherine (1991): bigger knowledge bases, still rule-driven. Eugene Goostman: 13-year-old persona, convinced 33% of judges in 2014, a disputed pass; a likeable persona can hide accuracy gaps.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "aib-ch23-chatbot-lineage-q-ceec9e93",
+          "type": "mcq",
+          "stem": "In the 2014 competition, what share of judges did Eugene Goostman convince?",
+          "options": [
+            "33%",
+            "30%",
+            "36%"
+          ],
+          "answer": "33%",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--ai-for-business-chapters-2-3#11",
+            "aib--ai-for-business-chapters-2-3#4"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-ch23-chatbot-lineage-q-80602de8",
+          "type": "mcq",
+          "stem": "Why is Eugene Goostman's \"pass\" widely disputed?",
+          "options": [
+            "Turing's 30% was an informal prediction and the teenage persona lowered evaluators' expectations",
+            "It learned from millions of real conversations",
+            "It used a structured internal knowledge repository"
+          ],
+          "answer": "Turing's 30% was an informal prediction and the teenage persona lowered evaluators' expectations",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--ai-for-business-chapters-2-3#11"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-ch23-chatbot-lineage-q-c50a6fcc",
+          "type": "true_false",
+          "stem": "Catherine (1991) adapted itself from live user data.",
+          "options": [],
+          "answer": "False",
+          "accept": [],
+          "explanation": "It was still rule- and knowledge-base driven, not adaptive from live user data.",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--ai-for-business-chapters-2-3#10",
+            "aib--ai-for-business-chapters-2-3#11"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#10",
+        "aib--ai-for-business-chapters-2-3#11"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-chatbot-lineage-c4",
+      "heading": "Cleverbot and the throughline",
+      "explanation_md": "**Cleverbot (2011)**\n- **What it did:** shifted **from fixed rules to learning from millions of real conversations**, generating responses by matching new input against a vast conversation database.\n- **Key limitation:** predicted **plausible-sounding responses from patterns** rather than truly understanding meaning; an early, informal preview of today's **large-language-model** behaviour.\n- **Business example:** the **conceptual bridge** to modern generative chatbots. The shift from **\"rules I wrote\"** to **\"patterns learned from data\"** is the same shift that separates a **legacy IVR system** from a **modern LLM-based customer service assistant**.\n\n**The throughline across all five systems:** increasingly convincing **surface behaviour**, built on richer but still rule-based foundations, right up to Cleverbot's 2011 shift to learning from real conversation data. That shift is the hinge connecting the lineage to large language models.\n\nThe executive takeaway: the lineage from **ELIZA (1966) to Cleverbot (2011)** previews nearly every failure mode in evaluating a conversational AI vendor today, especially the gap between **convincing surface behaviour and genuine understanding**.",
+      "example_ids": [
+        "aib-ex-ch23-cleverbot"
+      ],
+      "key_terms": [],
+      "exam_line": "Cleverbot (2011) moved from rules to patterns learned from real conversations, the bridge to large language models. Throughline: convincing surface behaviour is not genuine understanding.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "aib-ch23-chatbot-lineage-q-82ac9209",
+          "type": "mcq",
+          "stem": "Which system marked the shift from fixed rules to learning from millions of real conversations?",
+          "options": [
+            "Cleverbot",
+            "Catherine",
+            "ELIZA",
+            "PARRY"
+          ],
+          "answer": "Cleverbot",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--ai-for-business-chapters-2-3#11",
+            "aib--ai-for-business-chapters-2-3#17",
+            "aib--ai-for-business-chapters-2-3#10"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-ch23-chatbot-lineage-q-ad584dfe",
+          "type": "fill",
+          "stem": "The shift from \"rules I wrote\" to \"patterns learned from ____\" separates a legacy IVR system from a modern LLM-based assistant.",
+          "options": [],
+          "answer": "data",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--ai-for-business-chapters-2-3#11"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-ch23-chatbot-lineage-q-f04232ad",
+          "type": "true_false",
+          "stem": "The chapter's takeaway is that the chatbot lineage shows the gap between convincing surface behaviour and genuine understanding.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--ai-for-business-chapters-2-3#17"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#11",
+        "aib--ai-for-business-chapters-2-3#17"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "aib-ch23-chatbot-lineage-f1",
+      "front": "The five systems in the chatbot lineage",
+      "back": "ELIZA (1966), PARRY (1972), Catherine (1991), Eugene Goostman (2001; 2014 event), Cleverbot (2011).",
+      "kind": "list",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#10",
+        "aib--ai-for-business-chapters-2-3#11"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-chatbot-lineage-f2",
+      "front": "ELIZA",
+      "back": "1966, Joseph Weizenbaum at MIT; psychotherapist via keyword pattern-matching; no memory, understanding or learning; ancestor of rule-based FAQ bots.",
+      "kind": "example",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#10"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-chatbot-lineage-f3",
+      "front": "PARRY",
+      "back": "1972, Kenneth Colby; simulated paranoid delusions with internal beliefs and emotional states; precedent for persona bots like a brand mascot chatbot.",
+      "kind": "example",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#10"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-chatbot-lineage-f4",
+      "front": "Catherine",
+      "back": "1991; larger knowledge bases and context-aware responses but still rule-driven; like an HR or IT helpdesk knowledge-base assistant.",
+      "kind": "example",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#10",
+        "aib--ai-for-business-chapters-2-3#11"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-chatbot-lineage-f5",
+      "front": "Eugene Goostman",
+      "back": "13-year-old Ukrainian boy persona; convinced 33% of judges in 2014; disputed pass; branded personas can mask accuracy gaps.",
+      "kind": "example",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#11"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-chatbot-lineage-f6",
+      "front": "Cleverbot",
+      "back": "2011; learned from millions of real conversations; plausible responses from patterns, not meaning; bridge from legacy IVR to LLM-based assistants.",
+      "kind": "example",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#11"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-chatbot-lineage-f7",
+      "front": "Throughline of the chatbot lineage",
+      "back": "Increasingly convincing surface behaviour on rule-based foundations, until Cleverbot's shift to learning from conversation data.",
+      "kind": "fact",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#11"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [],
+  "explain_back": {
+    "prompt": "Trace the chatbot lineage from ELIZA to Cleverbot and explain what each system's limitation teaches a business evaluating a chatbot vendor today.",
+    "rubric": [
+      {
+        "point": "ELIZA: keyword pattern-matching, no understanding, yet users felt understood; ancestor of FAQ bots",
+        "source_ref": "aib--ai-for-business-chapters-2-3#10"
+      },
+      {
+        "point": "PARRY: persona with beliefs and emotions, still pattern-matching; brand mascot bots",
+        "source_ref": "aib--ai-for-business-chapters-2-3#10"
+      },
+      {
+        "point": "Catherine: bigger knowledge bases, still rule-driven; knowledge-base assistants",
+        "source_ref": "aib--ai-for-business-chapters-2-3#10"
+      },
+      {
+        "point": "Eugene Goostman: disputed 33% pass, persona lowered expectations; branded personas can mask accuracy gaps",
+        "source_ref": "aib--ai-for-business-chapters-2-3#11"
+      },
+      {
+        "point": "Cleverbot: patterns learned from data, the bridge to large language models; surface behaviour is not understanding",
+        "source_ref": "aib--ai-for-business-chapters-2-3#11"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

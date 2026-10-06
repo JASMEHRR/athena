@@ -1,0 +1,381 @@
+{
+  "id": "aib-ch23-five-eras",
+  "subject_id": "aib",
+  "deck_id": "aib--ai-for-business-chapters-2-3",
+  "title": "Why AI history matters and the five eras of AI",
+  "order": 404,
+  "summary": "Why the chapter treats AI history as a managerial tool, the boom-and-bust pattern, the five eras each defined by one question, and the accelerating cadence between eras.",
+  "est_minutes": 15,
+  "difficulty": 1,
+  "source_refs": [
+    "aib--ai-for-business-chapters-2-3#8",
+    "aib--ai-for-business-chapters-2-3#9",
+    "aib--ai-for-business-chapters-2-3#17"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "aib-ch23-five-eras-c1",
+      "heading": "History as a managerial tool, not trivia",
+      "explanation_md": "Chapter 3 opens with a reflection: **AI did not arrive suddenly in 2022.** It arrived in **cycles of hype and disappointment** stretching back seventy years, and a manager who understands that rhythm is far better at judging today's claims than one who assumes the current wave is the first.\n\nIt is tempting to treat AI history as background colour. The chapter argues the opposite. AI has already lived through **two full boom-and-bust cycles**, each driven by the same pattern:\n\n1. **capability improves**;\n2. **expectations outrun capability**;\n3. **funding collapses** when the gap becomes visible;\n4. the field **re-emerges only once a genuine technical unlock** closes that gap.\n\nRecognising this pattern is one of the most **transferable skills** the course offers a general manager evaluating any new wave of AI hype, including the current one.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "AI has had two full boom-and-bust cycles: capability improves, expectations outrun it, funding collapses when the gap shows, and the field returns only after a genuine technical unlock.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "aib-ch23-five-eras-q-63ddc9a9",
+          "type": "mcq",
+          "stem": "According to the chapter, what brings AI back after a funding collapse?",
+          "options": [
+            "A genuine technical unlock that closes the gap",
+            "A simple change in sentiment",
+            "Expectations rising even further"
+          ],
+          "answer": "A genuine technical unlock that closes the gap",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--ai-for-business-chapters-2-3#8",
+            "aib--ai-for-business-chapters-2-3#12"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-ch23-five-eras-q-a6ef5a04",
+          "type": "true_false",
+          "stem": "The chapter's opening reflection says AI arrived suddenly in 2022.",
+          "options": [],
+          "answer": "False",
+          "accept": [],
+          "explanation": "It says AI did not arrive suddenly in 2022; it came in cycles of hype and disappointment over seventy years.",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--ai-for-business-chapters-2-3#8"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-ch23-five-eras-q-5aabee00",
+          "type": "fill",
+          "stem": "AI has already lived through two full boom-and-____ cycles.",
+          "options": [],
+          "answer": "bust",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--ai-for-business-chapters-2-3#8"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#8"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-five-eras-c2",
+      "heading": "The five eras of AI",
+      "explanation_md": "Instead of memorising a long list of dates, the chapter organises AI's seventy-year history into **five eras**, each defined by **a single question the field was trying to answer**. The framework recurs through the rest of the chapter, so fix it early.\n\n| Era | Period | Defining question | Key shift |\n|---|---|---|---|\n| 1. **Thinking About Intelligence** | 1950s to 1960s | *Can machines think?* | Alan Turing lays the theoretical foundation of machine intelligence and proposes a practical test for it, but the ideas stay almost entirely academic |\n| 2. **Rule-Based Conversation** | 1960s to 1970s | *Can a machine hold a conversation?* | Chatbots such as ELIZA and PARRY follow predefined rules to imitate conversation, with no real understanding or learning underneath |\n| 3. **Knowledge and Learning** | 1980s to 2000s | *Can machines reason and learn from data?* | Expert systems and early machine learning let AI start learning from data rather than only following hand-written rules, enabling early decision-support applications |\n| 4. **Deep Learning** | 2012 onwards | *Can machines perceive the world the way humans do?* | Neural networks achieve breakthroughs in vision, speech and language, starting with the AlexNet result of 2012 |\n| 5. **Generative AI** | 2022 onwards | *Can machines create and reason like a knowledgeable collaborator?* | Large language models learn from vast data to write, converse and support business decision-making with human-like fluency |",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "Five eras, five questions: Thinking About Intelligence (can machines think?), Rule-Based Conversation (hold a conversation?), Knowledge and Learning (reason and learn from data?), Deep Learning (perceive like humans?), Generative AI (create and reason like a knowledgeable collaborator?).",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "aib-ch23-five-eras-q-88aff37c",
+          "type": "mcq",
+          "stem": "Which defining question belongs to Era 4 (Deep Learning)?",
+          "options": [
+            "Can machines perceive the world the way humans do?",
+            "Can machines reason and learn from data?",
+            "Can a machine hold a conversation?",
+            "Can machines create and reason like a knowledgeable collaborator?"
+          ],
+          "answer": "Can machines perceive the world the way humans do?",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--ai-for-business-chapters-2-3#8",
+            "aib--ai-for-business-chapters-2-3#9"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-ch23-five-eras-q-14b45431",
+          "type": "mcq",
+          "stem": "Which era is defined by the question \"Can a machine hold a conversation?\"",
+          "options": [
+            "Rule-Based Conversation",
+            "Thinking About Intelligence",
+            "Knowledge and Learning"
+          ],
+          "answer": "Rule-Based Conversation",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--ai-for-business-chapters-2-3#8"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-ch23-five-eras-q-9baaffb5",
+          "type": "fill",
+          "stem": "Era 3 of AI is called Knowledge and ____.",
+          "options": [],
+          "answer": "Learning",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--ai-for-business-chapters-2-3#8"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#8",
+        "aib--ai-for-business-chapters-2-3#9",
+        "aib--ai-for-business-chapters-2-3#17"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-five-eras-c3",
+      "heading": "The accelerating cadence",
+      "explanation_md": "Look at the gaps between eras:\n\n- between **Era 1 and Era 2**: roughly **a decade**;\n- between **Era 4 and Era 5**: roughly **ten years** too, but the **capability jump** in between is **far larger**.\n\nThe practical lesson for a manager: the interval between *\"AI can do X\"* and *\"AI can do X well enough to deploy\"* has been **shrinking steadily**. That **raises, rather than lowers, the cost of waiting** to build organisational AI literacy.\n\nThe chapter's executive takeaway: AI's seventy-year history organises cleanly into **five eras**, Thinking About Intelligence, Rule-Based Conversation, Knowledge and Learning, Deep Learning and Generative AI, each defined by a single question.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "The gap between \"AI can do X\" and \"AI can do X well enough to deploy\" keeps shrinking, which raises the cost of waiting to build AI literacy.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "aib-ch23-five-eras-q-408e72e3",
+          "type": "mcq",
+          "stem": "What does the shrinking gap between \"AI can do X\" and \"AI can do X well enough to deploy\" mean for a firm, according to the chapter?",
+          "options": [
+            "It raises the cost of waiting to build organisational AI literacy",
+            "It lowers the cost of waiting, so firms can wait and see",
+            "It makes AI literacy less important for managers"
+          ],
+          "answer": "It raises the cost of waiting to build organisational AI literacy",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--ai-for-business-chapters-2-3#9"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-ch23-five-eras-q-e67b6e03",
+          "type": "true_false",
+          "stem": "The chapter says the gap between Era 4 and Era 5 is roughly ten years, but the capability jump in between is far larger.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--ai-for-business-chapters-2-3#9"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#9",
+        "aib--ai-for-business-chapters-2-3#17"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "aib-ch23-five-eras-f1",
+      "front": "The boom-and-bust pattern in AI history",
+      "back": "Capability improves; expectations outrun capability; funding collapses when the gap becomes visible; the field re-emerges only after a genuine technical unlock.",
+      "kind": "list",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#8"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-five-eras-f2",
+      "front": "The five eras of AI",
+      "back": "1. Thinking About Intelligence; 2. Rule-Based Conversation; 3. Knowledge and Learning; 4. Deep Learning; 5. Generative AI.",
+      "kind": "list",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#8",
+        "aib--ai-for-business-chapters-2-3#9",
+        "aib--ai-for-business-chapters-2-3#17"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-five-eras-f3",
+      "front": "Era 1: period and question",
+      "back": "1950s to 1960s. Can machines think?",
+      "kind": "fact",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#8"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-five-eras-f4",
+      "front": "Era 2: period and question",
+      "back": "1960s to 1970s. Can a machine hold a conversation?",
+      "kind": "fact",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#8"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-five-eras-f5",
+      "front": "Era 3: period and question",
+      "back": "1980s to 2000s. Can machines reason and learn from data?",
+      "kind": "fact",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#8"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-five-eras-f6",
+      "front": "Era 4: period and question",
+      "back": "2012 onwards. Can machines perceive the world the way humans do?",
+      "kind": "fact",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#8"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-five-eras-f7",
+      "front": "Era 5: period and question",
+      "back": "2022 onwards. Can machines create and reason like a knowledgeable collaborator?",
+      "kind": "fact",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#9"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-five-eras-f8",
+      "front": "Why the accelerating cadence matters",
+      "back": "The gap between \"AI can do X\" and \"AI can do X well enough to deploy\" keeps shrinking, which raises the cost of waiting to build AI literacy.",
+      "kind": "fact",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#9"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [],
+  "explain_back": {
+    "prompt": "Explain why the chapter calls AI history a managerial tool, and walk through the five eras with the question that defines each.",
+    "rubric": [
+      {
+        "point": "Boom-and-bust pattern: capability improves, expectations outrun it, funding collapses, recovery needs a genuine technical unlock",
+        "source_ref": "aib--ai-for-business-chapters-2-3#8"
+      },
+      {
+        "point": "Era 1 Thinking About Intelligence (can machines think?) and Era 2 Rule-Based Conversation (hold a conversation?)",
+        "source_ref": "aib--ai-for-business-chapters-2-3#8"
+      },
+      {
+        "point": "Era 3 Knowledge and Learning (reason and learn from data?) and Era 4 Deep Learning (perceive like humans?)",
+        "source_ref": "aib--ai-for-business-chapters-2-3#8"
+      },
+      {
+        "point": "Era 5 Generative AI: create and reason like a knowledgeable collaborator",
+        "source_ref": "aib--ai-for-business-chapters-2-3#9"
+      },
+      {
+        "point": "Shrinking gap from \"can do\" to \"deployable\" raises the cost of waiting",
+        "source_ref": "aib--ai-for-business-chapters-2-3#9"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

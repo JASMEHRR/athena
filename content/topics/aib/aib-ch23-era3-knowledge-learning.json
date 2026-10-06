@@ -1,0 +1,438 @@
+{
+  "id": "aib-ch23-era3-knowledge-learning",
+  "subject_id": "aib",
+  "deck_id": "aib--ai-for-business-chapters-2-3",
+  "title": "Era 3: Knowledge and learning, from expert systems to machine learning",
+  "order": 408,
+  "summary": "The 1980s expert-system recovery (XCON), the 1990s rebound with Deep Blue and what really powered it, the 2000s maturing of machine learning, and the decade table with its business impact.",
+  "est_minutes": 20,
+  "difficulty": 2,
+  "source_refs": [
+    "aib--ai-for-business-chapters-2-3#12",
+    "aib--ai-for-business-chapters-2-3#13",
+    "aib--ai-for-business-chapters-2-3#14"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "aib-ch23-era3-knowledge-learning-c1",
+      "heading": "The 1980s: expert systems show business value",
+      "explanation_md": "The **1980s** brought a **genuine, if temporary, recovery** from the first AI Winter.\n\n- **Commercial expert systems** such as **XCON at Digital Equipment Corporation** demonstrated **real business value**.\n- **Knowledge engineering** became a major focus of industry investment and academic research.\n\nThis was the start of Era 3's shift **from purely rule-based systems toward systems that could learn from data**. Progress then resumed more durably through the **1990s and 2000s**, in two connected phases.",
+      "example_ids": [
+        "aib-ex-ch23-xcon"
+      ],
+      "key_terms": [
+        {
+          "term": "Expert system",
+          "meaning": "A commercial AI system built on encoded knowledge; XCON at Digital Equipment Corporation showed real business value in the 1980s.",
+          "source_ref": "aib--ai-for-business-chapters-2-3#12"
+        }
+      ],
+      "exam_line": "1980s: a temporary recovery led by commercial expert systems like XCON at Digital Equipment Corporation; knowledge engineering became a major focus.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "aib-ch23-era3-knowledge-learning-q-2b3581a2",
+          "type": "mcq",
+          "stem": "Which commercial expert system is named as showing real business value in the 1980s?",
+          "options": [
+            "XCON at Digital Equipment Corporation",
+            "Deep Blue at IBM",
+            "Cleverbot"
+          ],
+          "answer": "XCON at Digital Equipment Corporation",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--ai-for-business-chapters-2-3#12",
+            "aib--ai-for-business-chapters-2-3#11"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-ch23-era3-knowledge-learning-q-2187bd8a",
+          "type": "fill",
+          "stem": "In the 1980s, knowledge ____ became a major focus of industry investment and academic research.",
+          "options": [],
+          "answer": "engineering",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--ai-for-business-chapters-2-3#12"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#12"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-era3-knowledge-learning-c2",
+      "heading": "The 1990s: Deep Blue, and what really powered it",
+      "explanation_md": "**IBM's Deep Blue** defeated world chess champion **Garry Kasparov in 1997**, a milestone showing AI's power in **complex strategic reasoning**.\n\nBut be precise about **what powered the win**. Deep Blue **did not learn from data**. It relied on **brute-force minimax search**, evaluating roughly **200 million chess positions per second**, guided by an **evaluation function hand-tuned by grandmasters and engineers**. That makes it a triumph of **computational power and encoded human expertise**, closer to the **knowledge-engineering tradition of expert systems** than to machine learning.\n\n**The lesson generalises:** a system can reach **superhuman performance through sheer computational search** over a well-defined problem, with **no learning from data at all**. Confusing the two is a common source of **overstated AI claims**.\n\nIn parallel, **natural language processing and speech recognition** made steady, less publicised progress. The 1990s mattered because AI began moving **out of the research lab into practical, measurable, real-world applications** for the first time since the field's founding.",
+      "example_ids": [
+        "aib-ex-ch23-deep-blue"
+      ],
+      "key_terms": [],
+      "exam_line": "Deep Blue beat Kasparov in 1997 by brute-force minimax search (about 200 million positions per second) and a hand-tuned evaluation function, not by learning from data; search is not learning.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "aib-ch23-era3-knowledge-learning-q-6b89f1f5",
+          "type": "mcq",
+          "stem": "What actually powered Deep Blue's 1997 win?",
+          "options": [
+            "Brute-force minimax search with a hand-tuned evaluation function",
+            "Learning from millions of expert games",
+            "Deep reinforcement learning with self-play"
+          ],
+          "answer": "Brute-force minimax search with a hand-tuned evaluation function",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--ai-for-business-chapters-2-3#12",
+            "aib--ai-for-business-chapters-2-3#13",
+            "aib--ai-for-business-chapters-2-3#15"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-ch23-era3-knowledge-learning-q-2104a16a",
+          "type": "true_false",
+          "stem": "Deep Blue is presented as an example of genuine machine learning from data.",
+          "options": [],
+          "answer": "False",
+          "accept": [],
+          "explanation": "It did not learn from data; it is closer to the knowledge-engineering tradition of expert systems.",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--ai-for-business-chapters-2-3#12",
+            "aib--ai-for-business-chapters-2-3#13"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-ch23-era3-knowledge-learning-q-dd8db13c",
+          "type": "fill",
+          "stem": "Deep Blue evaluated roughly ____ million chess positions per second.",
+          "options": [],
+          "answer": "200",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--ai-for-business-chapters-2-3#13"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#12",
+        "aib--ai-for-business-chapters-2-3#13"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-era3-knowledge-learning-c3",
+      "heading": "The 2000s: machine learning matures",
+      "explanation_md": "Through the **2000s**:\n\n- **Support Vector Machines, decision trees and ensemble methods** became mainstream, improving predictions across many real-world tasks.\n- In **2006**, **Geoffrey Hinton** coined the term **\"deep learning\"** to highlight the potential of **multi-layer neural networks** to learn complex data representations, a term that would define the next decade.\n- The **growth of the internet** and **more powerful hardware** allowed training on far larger datasets, setting the stage for the deep learning revolution.\n\nIn short, the 2000s **transformed AI research into practical, scalable solutions**.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "2000s: Support Vector Machines, decision trees and ensemble methods go mainstream; Geoffrey Hinton coins \"deep learning\" in 2006; internet-scale data and hardware enable larger training sets.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "aib-ch23-era3-knowledge-learning-q-42f5556f",
+          "type": "mcq",
+          "stem": "Who coined the term \"deep learning\" in 2006?",
+          "options": [
+            "Geoffrey Hinton",
+            "Garry Kasparov",
+            "Arthur Samuel"
+          ],
+          "answer": "Geoffrey Hinton",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--ai-for-business-chapters-2-3#13",
+            "aib--ai-for-business-chapters-2-3#12",
+            "aib--ai-for-business-chapters-2-3#9"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-ch23-era3-knowledge-learning-q-42548964",
+          "type": "mcq",
+          "stem": "Which methods became mainstream in the 2000s, according to the chapter?",
+          "options": [
+            "Support Vector Machines, decision trees and ensemble methods",
+            "Keyword pattern-matching and scripted response trees",
+            "Transformers and foundation models"
+          ],
+          "answer": "Support Vector Machines, decision trees and ensemble methods",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--ai-for-business-chapters-2-3#13",
+            "aib--ai-for-business-chapters-2-3#10",
+            "aib--ai-for-business-chapters-2-3#5"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#13"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-era3-knowledge-learning-c4",
+      "heading": "Three decades at a glance, and Era 3 in business terms",
+      "explanation_md": "| Decade | Key technical developments | Business-relevant impact |\n|---|---|---|\n| **1990s: AI Rebounds** | Deep Blue defeats Kasparov (1997); steady progress in natural language processing and speech recognition | Early **decision-support and voice-interaction systems** enter call centres and back-office operations: measurable, if narrow, results |\n| **2000s: Machine Learning Matures** | Support Vector Machines, decision trees, ensemble methods; Hinton coins \"deep learning\" (2006); internet-scale data and compute | **Recommendation and fraud-detection engines** at firms like Amazon and major card networks go from experimental to production-grade, the pattern later followed by **personalisation in the style of Netflix and Flipkart** |\n| **2010s: Deep Learning Revolution** | AlexNet wins ImageNet using CNNs (2012); GANs (2014); AlphaGo defeats Lee Sedol (2016); deep learning dominates vision, speech and language, helped by mobile compute and cloud GPUs | Computer vision in everyday products (**facial recognition unlocking a phone, visual search in retail apps**); **voice assistants (Alexa, Siri, Google Assistant)** go mainstream; language models power translation and early chat support |\n\n**Business example: Era 3 in business terms.** Amazon's early recommendation engine and the card networks' fraud-detection systems both matured during exactly this window. The chapter calls this proof that the shift **from hand-written rules to data-driven learning** was already reshaping core business processes **a full decade before \"AI\" became a boardroom buzzword**.",
+      "example_ids": [
+        "aib-ex-ch23-amazon-card-fraud"
+      ],
+      "key_terms": [],
+      "exam_line": "1990s: decision-support and voice systems in call centres; 2000s: Amazon recommendations and card-network fraud detection go production-grade; 2010s: facial recognition, visual search, voice assistants.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "aib-ch23-era3-knowledge-learning-q-c8e4c7a8",
+          "type": "mcq",
+          "stem": "In which decade did recommendation and fraud-detection engines mature from experimental to production-grade?",
+          "options": [
+            "2000s",
+            "1990s",
+            "2010s"
+          ],
+          "answer": "2000s",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--ai-for-business-chapters-2-3#13"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-ch23-era3-knowledge-learning-q-63660a9c",
+          "type": "mcq",
+          "stem": "Which business impact belongs to the 1990s row?",
+          "options": [
+            "Decision-support and voice-interaction systems entering call centres and back-office operations",
+            "Voice assistants like Alexa, Siri and Google Assistant going mainstream",
+            "personalisation in the style of Netflix and Flipkart"
+          ],
+          "answer": "Decision-support and voice-interaction systems entering call centres and back-office operations",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--ai-for-business-chapters-2-3#13"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-ch23-era3-knowledge-learning-q-31a77a77",
+          "type": "true_false",
+          "stem": "The chapter says data-driven learning was reshaping core business processes a full decade before AI became a boardroom buzzword.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--ai-for-business-chapters-2-3#13",
+            "aib--ai-for-business-chapters-2-3#14"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#13",
+        "aib--ai-for-business-chapters-2-3#14"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "aib-ch23-era3-knowledge-learning-f1",
+      "front": "XCON",
+      "back": "A commercial expert system at Digital Equipment Corporation that showed real business value in the 1980s recovery.",
+      "kind": "example",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#12"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-era3-knowledge-learning-f2",
+      "front": "Deep Blue (1997)",
+      "back": "Beat Garry Kasparov using brute-force minimax search (about 200 million positions per second) and a hand-tuned evaluation function; no learning from data.",
+      "kind": "example",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#12",
+        "aib--ai-for-business-chapters-2-3#13"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-era3-knowledge-learning-f3",
+      "front": "Lesson from Deep Blue",
+      "back": "Superhuman performance can come from computational search alone; confusing search with learning is a common source of overstated AI claims.",
+      "kind": "fact",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#13"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-era3-knowledge-learning-f4",
+      "front": "2000s: machine learning matures",
+      "back": "Support Vector Machines, decision trees, ensemble methods; Hinton coins \"deep learning\" (2006); internet-scale data and compute.",
+      "kind": "list",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#13"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-era3-knowledge-learning-f5",
+      "front": "2000s business impact",
+      "back": "Recommendation and fraud-detection engines (Amazon, major card networks) become production-grade.",
+      "kind": "example",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#13"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-era3-knowledge-learning-f6",
+      "front": "2010s business impact",
+      "back": "Facial recognition unlocking phones, visual search in retail apps, voice assistants (Alexa, Siri, Google Assistant), translation and early chat support.",
+      "kind": "list",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#13"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [],
+  "explain_back": {
+    "prompt": "Explain how AI developed from the 1980s to the 2000s and why Deep Blue is not an example of machine learning.",
+    "rubric": [
+      {
+        "point": "1980s: expert systems like XCON showed business value; knowledge engineering",
+        "source_ref": "aib--ai-for-business-chapters-2-3#12"
+      },
+      {
+        "point": "Deep Blue (1997) won by brute-force search and hand-tuned evaluation, not learning from data",
+        "source_ref": "aib--ai-for-business-chapters-2-3#13"
+      },
+      {
+        "point": "Search reaching superhuman results is not learning; conflating them overstates AI claims",
+        "source_ref": "aib--ai-for-business-chapters-2-3#13"
+      },
+      {
+        "point": "2000s: Support Vector Machines, decision trees, ensembles; Hinton coins deep learning (2006); bigger data and hardware",
+        "source_ref": "aib--ai-for-business-chapters-2-3#13"
+      },
+      {
+        "point": "Amazon recommendations and card-network fraud detection went production-grade in the 2000s",
+        "source_ref": "aib--ai-for-business-chapters-2-3#13"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

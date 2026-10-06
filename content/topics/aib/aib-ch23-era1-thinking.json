@@ -1,0 +1,438 @@
+{
+  "id": "aib-ch23-era1-thinking",
+  "subject_id": "aib",
+  "deck_id": "aib--ai-for-business-chapters-2-3",
+  "title": "Era 1: Thinking about intelligence (1950s to 1960s)",
+  "order": 405,
+  "summary": "The datable founding events of AI (1950, 1956, 1959), how the Turing Test works with its significance and limitation, the Logic Theorist, and what Era 1 means for judging chatbots in business.",
+  "est_minutes": 15,
+  "difficulty": 1,
+  "source_refs": [
+    "aib--ai-for-business-chapters-2-3#9",
+    "aib--ai-for-business-chapters-2-3#10"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "aib-ch23-era1-thinking-c1",
+      "heading": "AI's founding in three dates",
+      "explanation_md": "The formal discipline of AI traces to a **specific, datable set of events**, not a gradual drift:\n\n- **1950**: **Alan Turing** proposes what became the **Turing Test** in his paper **\"Computing Machinery and Intelligence\"**, asking the deceptively simple question *\"Can machines think?\"*\n- **1956**: the term **\"Artificial Intelligence\"** is coined at the **Dartmouth Conference**, widely regarded as the field's **official founding moment**.\n- **1959**: **Arthur Samuel** has built one of the **first machine-learning programs**, a **checkers-playing system** that could improve its own performance through experience.",
+      "example_ids": [
+        "aib-ex-ch23-samuel-checkers"
+      ],
+      "key_terms": [],
+      "exam_line": "1950: Turing proposes the Turing Test (\"Can machines think?\"); 1956: the term Artificial Intelligence is coined at the Dartmouth Conference; 1959: Arthur Samuel's self-improving checkers program.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "aib-ch23-era1-thinking-q-55205ed2",
+          "type": "mcq",
+          "stem": "In which year was the term \"Artificial Intelligence\" coined at the Dartmouth Conference?",
+          "options": [
+            "1956",
+            "1950",
+            "1959"
+          ],
+          "answer": "1956",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--ai-for-business-chapters-2-3#9"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-ch23-era1-thinking-q-adf56c3f",
+          "type": "mcq",
+          "stem": "Arthur Samuel's 1959 program was:",
+          "options": [
+            "A checkers-playing system that improved through experience",
+            "A chess system that defeated a world champion",
+            "A chatbot that simulated a psychotherapist"
+          ],
+          "answer": "A checkers-playing system that improved through experience",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--ai-for-business-chapters-2-3#9",
+            "aib--ai-for-business-chapters-2-3#10",
+            "aib--ai-for-business-chapters-2-3#12"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-ch23-era1-thinking-q-590c836e",
+          "type": "fill",
+          "stem": "Turing's 1950 paper was titled \"Computing Machinery and ____\".",
+          "options": [],
+          "answer": "Intelligence",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--ai-for-business-chapters-2-3#9"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#9"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-era1-thinking-c2",
+      "heading": "The Turing Test (1950)",
+      "explanation_md": "Proposed by **Alan Turing**, the test asks whether a machine can show behaviour **indistinguishable from a human's**.\n\n**How it works:** a **human evaluator** holds a **text conversation** with both a machine and another human. If the evaluator **cannot reliably tell which is which**, the machine is said to exhibit **intelligent behaviour**.\n\n**Significance:** it introduced the very concept of machine intelligence as **something testable**, and laid the theoretical groundwork that inspired decades of AI research.\n\n**Limitation** (visible from the very first chatbots built to chase it): a machine only needs to **imitate human conversation convincingly**. It **does not need to understand** what it is saying.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Turing Test",
+          "meaning": "A human evaluator holds a text conversation with a machine and a human; if the evaluator cannot reliably tell which is which, the machine is said to exhibit intelligent behaviour.",
+          "source_ref": "aib--ai-for-business-chapters-2-3#9"
+        }
+      ],
+      "exam_line": "Turing Test: if an evaluator in a text conversation cannot reliably tell machine from human, the machine shows intelligent behaviour. Significance: made machine intelligence testable. Limitation: imitation without understanding.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "aib-ch23-era1-thinking-q-dea569b9",
+          "type": "mcq",
+          "stem": "In the Turing Test, when is a machine said to exhibit intelligent behaviour?",
+          "options": [
+            "When a human evaluator cannot reliably tell it apart from a human in a text conversation",
+            "When it proves mathematical theorems",
+            "When it learns from millions of real conversations"
+          ],
+          "answer": "When a human evaluator cannot reliably tell it apart from a human in a text conversation",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--ai-for-business-chapters-2-3#9",
+            "aib--ai-for-business-chapters-2-3#11"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-ch23-era1-thinking-q-7bae2ec5",
+          "type": "true_false",
+          "stem": "The Turing Test's acknowledged limitation is that a machine only needs to imitate conversation convincingly, not understand it.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--ai-for-business-chapters-2-3#9"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#9"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-era1-thinking-c3",
+      "heading": "The Logic Theorist (1956)",
+      "explanation_md": "Developed by **Allen Newell and Herbert A. Simon** at the **RAND Corporation**, the Logic Theorist proved **38 mathematical theorems** from Whitehead and Russell's **Principia Mathematica**, in some cases finding **more elegant proofs** than the human mathematicians who first wrote them.\n\nIt is widely considered the **first true AI program**. Its presentation at the **Dartmouth Summer Research Project** is treated as the moment the field of AI was formally born.\n\n**How the two fit together:**\n- the **Turing Test defined** what it would mean for a machine to be considered intelligent;\n- the **Logic Theorist demonstrated** that **symbolic machine reasoning** was achievable in practice.",
+      "example_ids": [
+        "aib-ex-ch23-logic-theorist"
+      ],
+      "key_terms": [
+        {
+          "term": "Logic Theorist",
+          "meaning": "Widely considered the first true AI program (1956); proved 38 theorems from Principia Mathematica and showed symbolic machine reasoning was achievable.",
+          "source_ref": "aib--ai-for-business-chapters-2-3#9"
+        }
+      ],
+      "exam_line": "Logic Theorist (1956, Newell and Simon, RAND Corporation): proved 38 theorems from Principia Mathematica; first true AI program; showed symbolic machine reasoning was achievable.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "aib-ch23-era1-thinking-q-d3445e1f",
+          "type": "mcq",
+          "stem": "Who developed the Logic Theorist?",
+          "options": [
+            "Allen Newell and Herbert A. Simon",
+            "Alan Turing",
+            "Arthur Samuel",
+            "Joseph Weizenbaum"
+          ],
+          "answer": "Allen Newell and Herbert A. Simon",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--ai-for-business-chapters-2-3#9",
+            "aib--ai-for-business-chapters-2-3#10"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-ch23-era1-thinking-q-db54be68",
+          "type": "fill",
+          "stem": "The Logic Theorist proved ____ mathematical theorems from Principia Mathematica.",
+          "options": [],
+          "answer": "38",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--ai-for-business-chapters-2-3#9"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-ch23-era1-thinking-q-e4c577ef",
+          "type": "mcq",
+          "stem": "What did the Logic Theorist demonstrate, according to the chapter?",
+          "options": [
+            "That symbolic machine reasoning was achievable in practice",
+            "What it would mean for a machine to be considered intelligent",
+            "That a program could improve at checkers through experience"
+          ],
+          "answer": "That symbolic machine reasoning was achievable in practice",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--ai-for-business-chapters-2-3#9"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#9"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-era1-thinking-c4",
+      "heading": "Era 1 in business terms",
+      "explanation_md": "**Nothing in Era 1 was commercially deployable.** But the Turing Test's **imitation standard** still shapes a live business question.\n\nWhen a company deploys a **customer-service chatbot**, should success be measured by:\n- whether customers **cannot tell it is a machine**, or\n- whether it **actually resolves their problem correctly**?\n\nThe two are **not the same test**, and the chapter calls conflating them a **governance risk**, which the course explores further later on.",
+      "example_ids": [
+        "aib-ex-ch23-chatbot-success"
+      ],
+      "key_terms": [],
+      "exam_line": "A chatbot that fools customers is not the same as one that solves their problem; conflating the two is a governance risk.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "aib-ch23-era1-thinking-q-f9bfa4ac",
+          "type": "true_false",
+          "stem": "The chapter says Era 1 produced several commercially deployable AI products.",
+          "options": [],
+          "answer": "False",
+          "accept": [],
+          "explanation": "Nothing in Era 1 was commercially deployable.",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--ai-for-business-chapters-2-3#10"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-ch23-era1-thinking-q-2734dd53",
+          "type": "mcq",
+          "stem": "What does the chapter call confusing \"customers cannot tell it is a machine\" with \"it resolves their problem correctly\"?",
+          "options": [
+            "A governance risk",
+            "A proof of intelligence",
+            "A genuine technical unlock"
+          ],
+          "answer": "A governance risk",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--ai-for-business-chapters-2-3#10",
+            "aib--ai-for-business-chapters-2-3#8"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#9",
+        "aib--ai-for-business-chapters-2-3#10"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "aib-ch23-era1-thinking-f1",
+      "front": "Three founding dates of AI",
+      "back": "1950: Turing Test proposed (\"Can machines think?\"); 1956: the term Artificial Intelligence coined at the Dartmouth Conference; 1959: Arthur Samuel's self-improving checkers program.",
+      "kind": "list",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#9"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-era1-thinking-f2",
+      "front": "Turing Test: how it works",
+      "back": "An evaluator holds a text conversation with a machine and a human; if they cannot reliably tell which is which, the machine exhibits intelligent behaviour.",
+      "kind": "term",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#9"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-era1-thinking-f3",
+      "front": "Turing Test: significance and limitation",
+      "back": "Significance: made machine intelligence testable. Limitation: a machine only needs to imitate conversation convincingly, not understand it.",
+      "kind": "fact",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#9"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-era1-thinking-f4",
+      "front": "Logic Theorist",
+      "back": "1956, Newell and Simon at the RAND Corporation; proved 38 theorems from Principia Mathematica; widely considered the first true AI program.",
+      "kind": "example",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#9"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-era1-thinking-f5",
+      "front": "Turing Test vs Logic Theorist",
+      "back": "The Turing Test defined what it would mean for a machine to be intelligent; the Logic Theorist showed symbolic machine reasoning was achievable.",
+      "kind": "fact",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#9"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-era1-thinking-f6",
+      "front": "Era 1 business question about chatbots",
+      "back": "Judge a customer-service chatbot by whether customers cannot tell it is a machine, or by whether it solves their problem correctly? Not the same test.",
+      "kind": "example",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#10"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [],
+  "explain_back": {
+    "prompt": "Describe the key events of Era 1 and explain why the Turing Test still matters to a business deploying a chatbot.",
+    "rubric": [
+      {
+        "point": "1950: Turing proposes the Turing Test in \"Computing Machinery and Intelligence\", asking \"Can machines think?\"",
+        "source_ref": "aib--ai-for-business-chapters-2-3#9"
+      },
+      {
+        "point": "1956: the term Artificial Intelligence is coined at Dartmouth; the Logic Theorist is the first true AI program",
+        "source_ref": "aib--ai-for-business-chapters-2-3#9"
+      },
+      {
+        "point": "1959: Arthur Samuel's checkers program improves through experience",
+        "source_ref": "aib--ai-for-business-chapters-2-3#9"
+      },
+      {
+        "point": "Turing Test limitation: imitation without understanding",
+        "source_ref": "aib--ai-for-business-chapters-2-3#9"
+      },
+      {
+        "point": "Business: fooling customers is not the same as solving their problem; conflating them is a governance risk",
+        "source_ref": "aib--ai-for-business-chapters-2-3#10"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

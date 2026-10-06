@@ -71,7 +71,8 @@ No exam dates, so round-robin across subjects. Validate, ground and cover each d
   - 6 topics (qtm-m21-*), 29 chunks, 78 checks, 41 cards, 15 examples. By subagent (resumed), reviewed; derived answers re-computed (2 players: same mean 32.75, medians 10 and 30.5, modes 4 and 45; net worth P50 22, P80 32.5; retail stores mean 508/15, Q1 30, Q2 34, Q3 38, top 10% stores 4 and 12). Slide 24 says "alphabetical order" for an ascending list; lesson notes it.
 - [x] P4 pass A: sce--introduction-to-social-entrepreneurship-2025 (23 slides, 7 visual)
   - 5 topics (sce-soc-*), 21 chunks, 60 checks, 36 cards, 6 examples. By subagent, reviewed.
-- [ ] P4 pass A: aib--ai-for-business-chapters-2-3 (17 slides, 0 visual)
+- [x] P4 pass A: aib--ai-for-business-chapters-2-3 (17 slides, 0 visual)
+  - 12 topics (aib-ch23-*), 46 chunks, 121 checks, 79 cards, 31 examples. By subagent, reviewed. One-line notes: slide 14 says 10.8 points for 26.2 minus 15.3 (10.9); Era 5 starts 2022 (slides 8 to 9) vs 2018 (slide 15).
 - [x] P4 pass A: be--sessions-4-and-5 (50 slides, 38 visual)
   - 8 topics (be-s45-*), 37 chunks, 102 checks, 51 cards, 27 examples. By subagent (resumed), reviewed. Unanswered practice slides (12, 24, 31, 36, 37, 49, 50) worked with the deck's formulas, numbers derived; they form one market, Qxd = 400 - 5Px and Qxs = -50 + 5Px, equilibrium at 45 rupees and 175 units. Flagged in lessons: slide 20's inverse supply has a sign slip (prints Px = 5 + 0.5Qxs); slide 12 never says how to read substitute/complement or normal/inferior from signs; slide 50's answer depends on whether unsold units count.
 - [ ] P4 pass A: far--five-elements-fs-recognition (3 slides, 3 visual)

@@ -1,0 +1,549 @@
+{
+  "id": "aib-ch23-generative-ai-milestones",
+  "subject_id": "aib",
+  "deck_id": "aib--ai-for-business-chapters-2-3",
+  "title": "Era 5: Generative AI and three modern milestones",
+  "order": 411,
+  "summary": "The foundation-model era, and the three milestone systems the chapter studies: IBM Watson, AlphaGo and OpenAI's GPTs, with the milestone table and a business example.",
+  "est_minutes": 20,
+  "difficulty": 2,
+  "source_refs": [
+    "aib--ai-for-business-chapters-2-3#15",
+    "aib--ai-for-business-chapters-2-3#16",
+    "aib--ai-for-business-chapters-2-3#9",
+    "aib--ai-for-business-chapters-2-3#17"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "aib-ch23-generative-ai-milestones-c1",
+      "heading": "The foundation-model era",
+      "explanation_md": "Section 3.9 covers **Era 5: Generative AI and Modern Milestones (2018 to present)**.\n\n**Transformer-based architectures** (including **BERT and GPT**) gave rise to today's **foundation-model era**. **GPT-3, DALL·E and ChatGPT** emerged between **2020 and 2023**, followed by an explosion of **multimodal models**, **enterprise-scale LLM deployment** and **accelerating AI regulation**.\n\nThree **milestone systems** trace AI's expansion from **narrow, single-domain problem-solving** to **general-purpose language capability**: **Watson, AlphaGo and GPTs**.\n\nNote: the five-era table dates Era 5 from 2022 onwards, while this section's heading says 2018 to present.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "Transformers (BERT, GPT) led to the foundation-model era; GPT-3, DALL·E and ChatGPT emerged between 2020 and 2023; milestones: Watson, AlphaGo, GPTs.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "aib-ch23-generative-ai-milestones-q-4d3ae5aa",
+          "type": "mcq",
+          "stem": "Which architectures gave rise to the foundation-model era, according to the chapter?",
+          "options": [
+            "Transformer-based architectures such as BERT and GPT",
+            "Expert systems such as XCON",
+            "Recurrent architectures (RNNs) only"
+          ],
+          "answer": "Transformer-based architectures such as BERT and GPT",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--ai-for-business-chapters-2-3#15",
+            "aib--ai-for-business-chapters-2-3#12"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-ch23-generative-ai-milestones-q-0c402683",
+          "type": "mcq",
+          "stem": "Which three milestone systems does the chapter study individually?",
+          "options": [
+            "Watson, AlphaGo and GPTs",
+            "ELIZA, PARRY and Cleverbot",
+            "Deep Blue, XCON and AlexNet"
+          ],
+          "answer": "Watson, AlphaGo and GPTs",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--ai-for-business-chapters-2-3#15",
+            "aib--ai-for-business-chapters-2-3#11",
+            "aib--ai-for-business-chapters-2-3#12",
+            "aib--ai-for-business-chapters-2-3#14",
+            "aib--ai-for-business-chapters-2-3#10"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#15",
+        "aib--ai-for-business-chapters-2-3#16",
+        "aib--ai-for-business-chapters-2-3#9"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-generative-ai-milestones-c2",
+      "heading": "IBM Watson: question answering at scale (2011)",
+      "explanation_md": "Built to compete on the American quiz show **Jeopardy!**, **Watson** defeated the show's **two most celebrated human champions in 2011**.\n\nIts **DeepQA architecture** combined **natural language processing, information retrieval, machine learning and statistical reasoning** to parse complex language, **including puns**, and infer answers from vast unstructured data.\n\nFor business, the game-show win mattered less than **what followed**: Watson was applied to **healthcare (cancer diagnosis support)**, **finance (risk management)** and **legal services**. This showed, for the first time at this scale, that AI could move **from a lab demonstration to real-world enterprise problem-solving**.\n\nThe milestone table adds that Watson became a **symbol of applied AI reaching a mass audience**, but also **exposed the commercial limits of narrow, task-specific systems**.",
+      "example_ids": [
+        "aib-ex-ch23-watson"
+      ],
+      "key_terms": [],
+      "exam_line": "Watson (2011) won Jeopardy! with DeepQA (natural language processing, information retrieval, machine learning, statistical reasoning); applied to healthcare, finance and legal services; also exposed limits of narrow systems.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "aib-ch23-generative-ai-milestones-q-7edf0ea3",
+          "type": "mcq",
+          "stem": "What was Watson's architecture called?",
+          "options": [
+            "DeepQA",
+            "CUDA",
+            "Monte Carlo Tree Search"
+          ],
+          "answer": "DeepQA",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--ai-for-business-chapters-2-3#15",
+            "aib--ai-for-business-chapters-2-3#14"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-ch23-generative-ai-milestones-q-10f51240",
+          "type": "mcq",
+          "stem": "Which enterprise uses of Watson does the chapter list?",
+          "options": [
+            "Healthcare (cancer diagnosis support), finance (risk management) and legal services",
+            "Chess, shogi and protein folding",
+            "Image generation, creativity and simulation"
+          ],
+          "answer": "Healthcare (cancer diagnosis support), finance (risk management) and legal services",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--ai-for-business-chapters-2-3#15"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-ch23-generative-ai-milestones-q-737ca787",
+          "type": "true_false",
+          "stem": "The milestone table says Watson also exposed the commercial limits of narrow, task-specific systems.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--ai-for-business-chapters-2-3#16"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#15",
+        "aib--ai-for-business-chapters-2-3#16"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-generative-ai-milestones-c3",
+      "heading": "AlphaGo: strategic intuition (2016)",
+      "explanation_md": "Created by **DeepMind**, **AlphaGo** defeated world Go champion **Lee Sedol in 2016** by combining **deep neural networks with reinforcement learning**:\n\n1. it **studied millions of expert games**,\n2. then **played against itself millions more times**,\n3. guided by **Monte Carlo Tree Search** for efficient decision-making.\n\nIts descendant **AlphaZero** mastered **chess and shogi with no human game data at all**, and its **self-play** approach directly influenced later scientific-discovery tools such as **AlphaFold**.\n\nMilestone table: key technology **deep reinforcement learning, CNNs, Monte Carlo Tree Search**; domain **strategic games, self-play**; impact: proved AI could master **intuition-driven tasks**, not just brute-force calculation, and laid groundwork for AlphaFold.",
+      "example_ids": [
+        "aib-ex-ch23-alphago"
+      ],
+      "key_terms": [],
+      "exam_line": "AlphaGo (DeepMind, 2016): deep neural networks plus reinforcement learning, expert games then self-play, Monte Carlo Tree Search; AlphaZero needed no human game data; influenced AlphaFold.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "aib-ch23-generative-ai-milestones-q-792bbf6f",
+          "type": "mcq",
+          "stem": "Which descendant of AlphaGo mastered chess and shogi with no human game data?",
+          "options": [
+            "AlphaZero",
+            "AlphaFold",
+            "Deep Blue"
+          ],
+          "answer": "AlphaZero",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--ai-for-business-chapters-2-3#15",
+            "aib--ai-for-business-chapters-2-3#13"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-ch23-generative-ai-milestones-q-16a041e1",
+          "type": "fill",
+          "stem": "AlphaGo was guided by Monte Carlo ____ Search for efficient decision-making.",
+          "options": [],
+          "answer": "Tree",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--ai-for-business-chapters-2-3#15"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-ch23-generative-ai-milestones-q-1cb0a1ae",
+          "type": "true_false",
+          "stem": "AlphaGo was created by IBM.",
+          "options": [],
+          "answer": "False",
+          "accept": [],
+          "explanation": "It was created by DeepMind; IBM built Watson and Deep Blue.",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--ai-for-business-chapters-2-3#15"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#15",
+        "aib--ai-for-business-chapters-2-3#16"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-generative-ai-milestones-c4",
+      "heading": "GPTs: language understanding and generation (2018 to present)",
+      "explanation_md": "**OpenAI's Generative Pretrained Transformers** evolved fast:\n\n- **GPT-1 (2018)**: a small-scale **proof of concept**.\n- **GPT-2 (2019)**: the **first widely capable** language model, **initially withheld over safety concerns**.\n- **GPT-3 (2020)**: **175 billion parameters**; the most powerful large language model of its time.\n- **GPT-4 (2023)**: added **multimodal** capability (images alongside text) with markedly improved reasoning.\n\nGPTs ushered in the **generative AI era proper**, powering **ChatGPT, GitHub Copilot, DALL·E and Whisper**. Adoption reached **millions of users**, including **SMEs and non-technical sectors** previously locked out of AI, and sparked global conversations about **AI ethics, hallucination risk, workforce disruption and regulation**.\n\nTakeaway: **Watson, AlphaGo and GPTs** mark AI's progression from **narrow question-answering**, to **intuition-driven strategic mastery**, to **general-purpose language generation**: three increasingly general capability leaps.",
+      "example_ids": [
+        "aib-ex-ch23-gpts"
+      ],
+      "key_terms": [],
+      "exam_line": "GPT-1 2018 proof of concept; GPT-2 2019 withheld over safety; GPT-3 2020 with 175 billion parameters; GPT-4 2023 multimodal. Watson to AlphaGo to GPTs: narrow question answering, strategic intuition, general language generation.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "aib-ch23-generative-ai-milestones-q-0b286e5a",
+          "type": "mcq",
+          "stem": "Which GPT was initially withheld over safety concerns?",
+          "options": [
+            "GPT-2",
+            "GPT-1",
+            "GPT-3",
+            "GPT-4"
+          ],
+          "answer": "GPT-2",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--ai-for-business-chapters-2-3#16"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-ch23-generative-ai-milestones-q-10b7cae5",
+          "type": "fill",
+          "stem": "GPT-3 (2020) had ____ billion parameters.",
+          "options": [],
+          "answer": "175",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--ai-for-business-chapters-2-3#16"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-ch23-generative-ai-milestones-q-34efd570",
+          "type": "mcq",
+          "stem": "What did GPT-4 add, according to the chapter?",
+          "options": [
+            "Multimodal capability, handling images alongside text",
+            "Learning from millions of real conversations for the first time",
+            "Self-play with no human game data"
+          ],
+          "answer": "Multimodal capability, handling images alongside text",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--ai-for-business-chapters-2-3#16",
+            "aib--ai-for-business-chapters-2-3#15",
+            "aib--ai-for-business-chapters-2-3#11"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#16",
+        "aib--ai-for-business-chapters-2-3#17"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-generative-ai-milestones-c5",
+      "heading": "The milestone table and Era 5 in business terms",
+      "explanation_md": "| Milestone | Year | Key technology | Domain | Impact |\n|---|---|---|---|---|\n| **Watson** | 2011 | NLP, information retrieval | Question answering, healthcare | Applied AI reaching a mass audience; exposed limits of narrow systems |\n| **AlphaGo** | 2016 | Deep reinforcement learning, CNNs, Monte Carlo Tree Search | Strategic games, self-play | Mastered intuition-driven tasks; groundwork for AlphaFold |\n| **GPTs** | 2018 to present | Transformers, large language models | Language understanding and generation | Mass consumer and enterprise adoption of generative AI, from ChatGPT to Copilot to DALL·E |\n\n**Business example: Era 5 in business terms.** A **mid-sized law firm** can now use a **GPT-based assistant** to draft a **first-pass contract review** that, a decade ago, would have taken a **junior associate's full afternoon**. That turns Watson's 2011 promise of \"AI applied to real problems\" into a tool for a firm with **no in-house data-science team**.\n\nReflection question: Watson, AlphaGo and GPTs each represent a different kind of capability leap. Which is most relevant to your own functional area, and why?",
+      "example_ids": [
+        "aib-ex-ch23-law-firm"
+      ],
+      "key_terms": [],
+      "exam_line": "Watson 2011 (NLP, retrieval; question answering), AlphaGo 2016 (deep reinforcement learning, CNNs, Monte Carlo Tree Search; games), GPTs 2018 to present (Transformers, large language models; language). A law firm's GPT assistant drafts first-pass contract reviews.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "aib-ch23-generative-ai-milestones-q-79201fd3",
+          "type": "mcq",
+          "stem": "In the milestone table, which key technology is listed for GPTs?",
+          "options": [
+            "Transformers, large language models",
+            "NLP, information retrieval",
+            "Deep reinforcement learning, CNNs, Monte Carlo Tree Search"
+          ],
+          "answer": "Transformers, large language models",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--ai-for-business-chapters-2-3#16"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-ch23-generative-ai-milestones-q-55fa9fd8",
+          "type": "true_false",
+          "stem": "In the Era 5 business example, the law firm needs an in-house data-science team to use the GPT-based assistant.",
+          "options": [],
+          "answer": "False",
+          "accept": [],
+          "explanation": "The point is that a firm with no in-house data-science team can now use it.",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--ai-for-business-chapters-2-3#16"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#16",
+        "aib--ai-for-business-chapters-2-3#17"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "aib-ch23-generative-ai-milestones-f1",
+      "front": "Three milestone systems of Era 5",
+      "back": "Watson (2011), AlphaGo (2016), GPTs (2018 to present).",
+      "kind": "list",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#16",
+        "aib--ai-for-business-chapters-2-3#17"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-generative-ai-milestones-f2",
+      "front": "Watson (2011)",
+      "back": "Won Jeopardy! against its two most celebrated champions; DeepQA architecture; later used in healthcare, finance and legal services.",
+      "kind": "example",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#15"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-generative-ai-milestones-f3",
+      "front": "AlphaGo (2016)",
+      "back": "DeepMind; beat Lee Sedol using deep neural networks, reinforcement learning, self-play and Monte Carlo Tree Search.",
+      "kind": "example",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#15"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-generative-ai-milestones-f4",
+      "front": "AlphaZero and AlphaFold",
+      "back": "AlphaZero mastered chess and shogi with no human game data; AlphaGo's self-play approach influenced AlphaFold.",
+      "kind": "fact",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#15"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-generative-ai-milestones-f5",
+      "front": "GPT versions",
+      "back": "GPT-1 (2018) proof of concept; GPT-2 (2019) withheld over safety; GPT-3 (2020) 175 billion parameters; GPT-4 (2023) multimodal.",
+      "kind": "list",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#16"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-generative-ai-milestones-f6",
+      "front": "Tools powered by GPTs",
+      "back": "ChatGPT, GitHub Copilot, DALL·E and Whisper.",
+      "kind": "list",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#16"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-generative-ai-milestones-f7",
+      "front": "Progression across the three milestones",
+      "back": "Narrow question-answering (Watson), intuition-driven strategic mastery (AlphaGo), general-purpose language generation (GPTs).",
+      "kind": "fact",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#17"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-generative-ai-milestones-f8",
+      "front": "Law firm example (Era 5)",
+      "back": "A GPT-based assistant drafts a first-pass contract review that once took a junior associate's full afternoon.",
+      "kind": "example",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#16"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [],
+  "explain_back": {
+    "prompt": "Explain the three milestone systems of Era 5 and how they show AI becoming more general.",
+    "rubric": [
+      {
+        "point": "Watson (2011): DeepQA won Jeopardy!; applied to healthcare, finance, legal; exposed limits of narrow systems",
+        "source_ref": "aib--ai-for-business-chapters-2-3#15"
+      },
+      {
+        "point": "AlphaGo (2016): DeepMind; reinforcement learning, self-play, Monte Carlo Tree Search; intuition-driven tasks",
+        "source_ref": "aib--ai-for-business-chapters-2-3#15"
+      },
+      {
+        "point": "GPTs: GPT-1 2018 to GPT-4 2023 (multimodal); GPT-3 had 175 billion parameters",
+        "source_ref": "aib--ai-for-business-chapters-2-3#16"
+      },
+      {
+        "point": "Progression: narrow question-answering, strategic mastery, general-purpose language generation",
+        "source_ref": "aib--ai-for-business-chapters-2-3#17"
+      },
+      {
+        "point": "Business: a law firm's GPT assistant drafts first-pass contract reviews",
+        "source_ref": "aib--ai-for-business-chapters-2-3#16"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

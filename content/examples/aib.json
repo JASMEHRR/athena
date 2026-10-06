@@ -974,5 +974,408 @@
     ],
     "needs_check": false,
     "retired": false
+  },
+  {
+    "id": "aib-ex-ch23-interview-question",
+    "deck_id": "aib--ai-for-business-chapters-2-3",
+    "slide": 2,
+    "label": "The interview question nobody used to ask",
+    "text": "A strategy-consulting interview that once asked for a market-sizing exercise or a pricing case now increasingly asks: \"Which AI tools have you used to support an analysis, and how did you validate the output?\"",
+    "kind": "scenario",
+    "taught_in": [
+      "aib-ch23-why-ai-literacy-c1"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "aib-ex-ch23-datathons",
+    "deck_id": "aib--ai-for-business-chapters-2-3",
+    "slide": 2,
+    "label": "Datathons with Bloomberg and Amazon",
+    "text": "Business schools run AI-enabled projects, workshops and competitions, including datathons with organisations such as Bloomberg and Amazon, to turn informal tool use into disciplined skill.",
+    "kind": "illustration",
+    "taught_in": [
+      "aib-ch23-why-ai-literacy-c2"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "aib-ex-ch23-curriculum-response",
+    "deck_id": "aib--ai-for-business-chapters-2-3",
+    "slide": 3,
+    "label": "Curriculum response",
+    "text": "Several leading business schools run an AI-and-analytics module alongside, not after, foundational courses like Marketing and Finance, because a graduate who cannot use AI-assisted analysis in the first case discussion is already behind on day one of the job.",
+    "kind": "scenario",
+    "taught_in": [
+      "aib-ch23-why-ai-literacy-c4"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "aib-ex-ch23-fmcg-recruiting",
+    "deck_id": "aib--ai-for-business-chapters-2-3",
+    "slide": 3,
+    "label": "Recruiting in practice (FMCG major)",
+    "text": "A global FMCG major asks summer-internship finalists to build a one-page forecast with an AI-assisted spreadsheet tool, to see whether they can direct the tool, sanity-check its output and explain the forecast's assumptions to a hiring panel.",
+    "kind": "scenario",
+    "taught_in": [
+      "aib-ch23-why-ai-literacy-c4"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "aib-ex-ch23-retail-analyst",
+    "deck_id": "aib--ai-for-business-chapters-2-3",
+    "slide": 4,
+    "label": "The readiness gap in practice",
+    "text": "A retail analyst who uses a chatbot daily for market research may still, without training, accept a fabricated competitor revenue figure at face value because it was delivered fluently and confidently.",
+    "kind": "scenario",
+    "taught_in": [
+      "aib-ch23-why-ai-literacy-c5"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "aib-ex-ch23-brand-manager",
+    "deck_id": "aib--ai-for-business-chapters-2-3",
+    "slide": 5,
+    "label": "The ladder in a single career",
+    "text": "A brand manager works at the Basic tier, briefing an agency on AI-generated creative and judging its fit, while the data scientist supporting her works at the Advanced tier, fine-tuning the recommendation model behind a loyalty programme. Both roles are essential.",
+    "kind": "scenario",
+    "taught_in": [
+      "aib-ch23-proficiency-ladder-c4"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "aib-ex-ch23-churn-model",
+    "deck_id": "aib--ai-for-business-chapters-2-3",
+    "slide": 6,
+    "label": "Telecom churn model (learning)",
+    "text": "A telecom operator's churn model improves its predictions every billing cycle as fresh subscriber behaviour data flows in, getting sharper without anyone rewriting its rules.",
+    "kind": "scenario",
+    "taught_in": [
+      "aib-ch23-defining-ai-c4"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "aib-ex-ch23-credit-decision",
+    "deck_id": "aib--ai-for-business-chapters-2-3",
+    "slide": 6,
+    "label": "Commercial-lending credit decision (reasoning)",
+    "text": "A commercial-lending platform combines a small-business applicant's cash-flow history, sector risk and repayment record to reach a credit decision no single data point could justify alone.",
+    "kind": "scenario",
+    "taught_in": [
+      "aib-ch23-defining-ai-c4"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "aib-ex-ch23-defect-camera",
+    "deck_id": "aib--ai-for-business-chapters-2-3",
+    "slide": 6,
+    "label": "Quality-control camera (perception)",
+    "text": "A quality-control camera on a manufacturing line flags a hairline defect in a component photograph that a fatigued human inspector would likely miss on the 3 a.m. shift.",
+    "kind": "scenario",
+    "taught_in": [
+      "aib-ch23-defining-ai-c4"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "aib-ex-ch23-claims-email",
+    "deck_id": "aib--ai-for-business-chapters-2-3",
+    "slide": 6,
+    "label": "Insurance claims email routing (language understanding)",
+    "text": "An insurance claims system reads a free-text customer complaint email and routes it to the motor-claims team without a human categorising it first.",
+    "kind": "scenario",
+    "taught_in": [
+      "aib-ch23-defining-ai-c5"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "aib-ex-ch23-airline-pricing",
+    "deck_id": "aib--ai-for-business-chapters-2-3",
+    "slide": 6,
+    "label": "Airline dynamic pricing (decision-making)",
+    "text": "A dynamic-pricing engine at an airline adjusts fares in real time as seats fill, balancing revenue against the risk of flying with empty seats.",
+    "kind": "scenario",
+    "taught_in": [
+      "aib-ch23-defining-ai-c5"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "aib-ex-ch23-samuel-checkers",
+    "deck_id": "aib--ai-for-business-chapters-2-3",
+    "slide": 9,
+    "label": "Arthur Samuel's checkers program (1959)",
+    "text": "By 1959 Arthur Samuel had built one of the first machine-learning programs, a checkers-playing system that improved its own performance through experience.",
+    "kind": "product",
+    "taught_in": [
+      "aib-ch23-era1-thinking-c1"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "aib-ex-ch23-logic-theorist",
+    "deck_id": "aib--ai-for-business-chapters-2-3",
+    "slide": 9,
+    "label": "The Logic Theorist (1956)",
+    "text": "Developed by Allen Newell and Herbert A. Simon at the RAND Corporation, it proved 38 theorems from Whitehead and Russell's Principia Mathematica, sometimes more elegantly than the original mathematicians; widely considered the first true AI program.",
+    "kind": "product",
+    "taught_in": [
+      "aib-ch23-era1-thinking-c3"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "aib-ex-ch23-chatbot-success",
+    "deck_id": "aib--ai-for-business-chapters-2-3",
+    "slide": 10,
+    "label": "Era 1 in business terms: measuring a chatbot",
+    "text": "Should a customer-service chatbot be judged by whether customers cannot tell it is a machine, or by whether it actually resolves their problem correctly? The two are not the same test, and conflating them is a governance risk.",
+    "kind": "scenario",
+    "taught_in": [
+      "aib-ch23-era1-thinking-c4"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "aib-ex-ch23-eliza",
+    "deck_id": "aib--ai-for-business-chapters-2-3",
+    "slide": 10,
+    "label": "ELIZA (1966)",
+    "text": "Built at MIT by Joseph Weizenbaum; simulated a psychotherapist with reflective questions using simple keyword pattern-matching. No memory, understanding or learning, yet many users felt understood. Ancestor of rule-based FAQ bots on e-commerce sites.",
+    "kind": "product",
+    "taught_in": [
+      "aib-ch23-chatbot-lineage-c2"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "aib-ex-ch23-parry",
+    "deck_id": "aib--ai-for-business-chapters-2-3",
+    "slide": 10,
+    "label": "PARRY (1972)",
+    "text": "Developed by Kenneth Colby to simulate a person with paranoid delusions, adding internal beliefs and emotional states. Reasoning was still sophisticated pattern-matching. Early precedent for persona-based support bots such as a brand mascot chatbot.",
+    "kind": "product",
+    "taught_in": [
+      "aib-ch23-chatbot-lineage-c2"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "aib-ex-ch23-catherine",
+    "deck_id": "aib--ai-for-business-chapters-2-3",
+    "slide": 10,
+    "label": "Catherine (1991)",
+    "text": "A generation of conversational systems with larger knowledge bases, improved dialogue management and more coherent, context-aware responses; still rule- and knowledge-base driven. Analogous to an enterprise knowledge-base assistant that answers helpdesk questions.",
+    "kind": "product",
+    "taught_in": [
+      "aib-ch23-chatbot-lineage-c3"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "aib-ex-ch23-eugene-goostman",
+    "deck_id": "aib--ai-for-business-chapters-2-3",
+    "slide": 11,
+    "label": "Eugene Goostman (2001, 2014 event)",
+    "text": "Developed by Vladimir Veselov, Eugene Demchenko and Sergey Ulasen as a 13-year-old Ukrainian boy persona; convinced 33% of judges in five-minute conversations in a 2014 competition, a widely disputed pass. A cautionary tale for branded AI personas.",
+    "kind": "product",
+    "taught_in": [
+      "aib-ch23-chatbot-lineage-c3"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "aib-ex-ch23-cleverbot",
+    "deck_id": "aib--ai-for-business-chapters-2-3",
+    "slide": 11,
+    "label": "Cleverbot (2011)",
+    "text": "Shifted from fixed rules to learning from millions of real conversations, matching new input against a vast conversation database. The conceptual bridge to modern generative chatbots, like the shift from a legacy IVR system to an LLM-based assistant.",
+    "kind": "product",
+    "taught_in": [
+      "aib-ch23-chatbot-lineage-c4"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "aib-ex-ch23-winter-diagnostic",
+    "deck_id": "aib--ai-for-business-chapters-2-3",
+    "slide": 12,
+    "label": "Reading today's market through the winter cycle",
+    "text": "A manager evaluating a vendor's generative-AI roadmap asks: is the promised capability backed by a genuine, demonstrated technical unlock (as GPUs and big data were in 2012), or is it running ahead of what the models can currently deliver reliably?",
+    "kind": "scenario",
+    "taught_in": [
+      "aib-ch23-ai-winters-c3"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "aib-ex-ch23-xcon",
+    "deck_id": "aib--ai-for-business-chapters-2-3",
+    "slide": 12,
+    "label": "XCON at Digital Equipment Corporation",
+    "text": "A commercial expert system of the 1980s that demonstrated real business value during the recovery from the first AI Winter.",
+    "kind": "product",
+    "taught_in": [
+      "aib-ch23-era3-knowledge-learning-c1"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "aib-ex-ch23-deep-blue",
+    "deck_id": "aib--ai-for-business-chapters-2-3",
+    "slide": 13,
+    "label": "IBM's Deep Blue (1997)",
+    "text": "Defeated world chess champion Garry Kasparov in 1997 using brute-force minimax search over roughly 200 million positions per second and a hand-tuned evaluation function, with no learning from data.",
+    "kind": "product",
+    "taught_in": [
+      "aib-ch23-era3-knowledge-learning-c2"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "aib-ex-ch23-amazon-card-fraud",
+    "deck_id": "aib--ai-for-business-chapters-2-3",
+    "slide": 13,
+    "label": "Era 3 in business terms: Amazon and card networks",
+    "text": "Amazon's early recommendation engine and the major card networks' fraud-detection systems matured from experimental to production-grade during the 2000s, setting the pattern later followed by personalisation in the style of Netflix and Flipkart.",
+    "kind": "company",
+    "taught_in": [
+      "aib-ch23-era3-knowledge-learning-c4"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "aib-ex-ch23-alexnet",
+    "deck_id": "aib--ai-for-business-chapters-2-3",
+    "slide": 14,
+    "label": "AlexNet (2012)",
+    "text": "Won the ImageNet competition in 2012 with a top-5 error rate of 15.3%, against the runner-up's 26.2%. It depended at once on deep convolutional networks, large labelled datasets and GPU acceleration. Built by Alex Krizhevsky, Ilya Sutskever and Geoffrey Hinton.",
+    "kind": "product",
+    "taught_in": [
+      "aib-ch23-ai-comeback-c2"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "aib-ex-ch23-visual-search-face-login",
+    "deck_id": "aib--ai-for-business-chapters-2-3",
+    "slide": 15,
+    "label": "Era 4 in business terms: visual search and face login",
+    "text": "A retailer's visual-search feature (photograph a product, see similar in-stock items) and a bank's face-based mobile login both descend from the computer-vision breakthroughs of Era 4: CNNs, better GPUs and mobile deployment.",
+    "kind": "scenario",
+    "taught_in": [
+      "aib-ch23-deep-learning-revolution-c3"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "aib-ex-ch23-watson",
+    "deck_id": "aib--ai-for-business-chapters-2-3",
+    "slide": 15,
+    "label": "IBM Watson (2011)",
+    "text": "Built for the quiz show Jeopardy!, Watson beat the show's two most celebrated human champions in 2011. Its DeepQA architecture combined natural language processing, information retrieval, machine learning and statistical reasoning; it was later applied to healthcare, finance and legal services.",
+    "kind": "product",
+    "taught_in": [
+      "aib-ch23-generative-ai-milestones-c2"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "aib-ex-ch23-alphago",
+    "deck_id": "aib--ai-for-business-chapters-2-3",
+    "slide": 15,
+    "label": "AlphaGo (2016)",
+    "text": "Created by DeepMind; beat Lee Sedol in 2016 using deep neural networks, reinforcement learning and Monte Carlo Tree Search. Its descendant AlphaZero mastered chess and shogi with no human game data, and its self-play approach influenced AlphaFold.",
+    "kind": "product",
+    "taught_in": [
+      "aib-ch23-generative-ai-milestones-c3"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "aib-ex-ch23-gpts",
+    "deck_id": "aib--ai-for-business-chapters-2-3",
+    "slide": 16,
+    "label": "OpenAI's GPTs (2018 to present)",
+    "text": "GPT-1 (2018) proof of concept; GPT-2 (2019) first widely capable, initially withheld over safety concerns; GPT-3 (2020) 175 billion parameters; GPT-4 (2023) multimodal. They power ChatGPT, GitHub Copilot, DALL·E and Whisper.",
+    "kind": "product",
+    "taught_in": [
+      "aib-ch23-generative-ai-milestones-c4"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "aib-ex-ch23-law-firm",
+    "deck_id": "aib--ai-for-business-chapters-2-3",
+    "slide": 16,
+    "label": "Era 5 in business terms: a mid-sized law firm",
+    "text": "A mid-sized law firm can use a GPT-based assistant to draft a first-pass contract review that a decade ago took a junior associate's full afternoon, with no in-house data-science team.",
+    "kind": "scenario",
+    "taught_in": [
+      "aib-ch23-generative-ai-milestones-c5"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "aib-ex-ch23-indiaai-mission",
+    "deck_id": "aib--ai-for-business-chapters-2-3",
+    "slide": 16,
+    "label": "IndiaAI Mission",
+    "text": "A flagship initiative with an approved outlay of ₹10,371.92 crore, approved by the Union Cabinet in March 2024 to build national AI compute infrastructure and frameworks for responsible and inclusive AI. Its compute pillar first targeted 10,000 subsidised GPUs and passed 38,000 GPUs by 2026.",
+    "kind": "case",
+    "taught_in": [
+      "aib-ch23-india-ai-ecosystem-c2"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "aib-ex-ch23-india-initiatives",
+    "deck_id": "aib--ai-for-business-chapters-2-3",
+    "slide": 17,
+    "label": "India's complementary AI initiatives",
+    "text": "Free AI-skilling programmes for lakhs of Common Service Centre operators, the Bhashini multilingual AI platform, AI-enabled healthcare screening such as Rajasthan's diabetic-retinopathy programme, AI Centres of Excellence in healthcare, agriculture and smart cities, and the IndiaAI Safety Institute announced in January 2025.",
+    "kind": "case",
+    "taught_in": [
+      "aib-ch23-india-ai-ecosystem-c3"
+    ],
+    "needs_check": false,
+    "retired": false
   }
 ]

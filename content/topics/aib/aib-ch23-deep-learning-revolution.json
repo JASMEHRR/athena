@@ -1,0 +1,331 @@
+{
+  "id": "aib-ch23-deep-learning-revolution",
+  "subject_id": "aib",
+  "deck_id": "aib--ai-for-business-chapters-2-3",
+  "title": "Era 4: The deep learning revolution (2010s)",
+  "order": 410,
+  "summary": "How AlexNet's 2012 win set off the 2010s: GANs in 2014, AlphaGo in 2016, the parallel trends in voice, vision and language models, and the business products that came from them.",
+  "est_minutes": 15,
+  "difficulty": 2,
+  "source_refs": [
+    "aib--ai-for-business-chapters-2-3#14",
+    "aib--ai-for-business-chapters-2-3#15",
+    "aib--ai-for-business-chapters-2-3#13"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "aib-ch23-deep-learning-revolution-c1",
+      "heading": "2012 to 2016: AlexNet, GANs and AlphaGo",
+      "explanation_md": "**AlexNet's success in 2012** triggered an explosion of activity across the decade, each advance opening a **new category of commercial application**:\n\n- **2014: Generative Adversarial Networks (GANs)** let machines **generate highly realistic synthetic data**, opening new possibilities in image generation, creativity and simulation.\n- **2016: AlphaGo** defeated world Go champion **Lee Sedol** by combining **deep reinforcement learning with tree search**. It proved AI could master **intuition-driven strategic tasks**, not only brute-force calculation.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Generative Adversarial Networks (GANs)",
+          "meaning": "Introduced in 2014; let machines generate highly realistic synthetic data for image generation, creativity and simulation.",
+          "source_ref": "aib--ai-for-business-chapters-2-3#15"
+        }
+      ],
+      "exam_line": "2012 AlexNet started the boom; 2014 GANs generate realistic synthetic data; 2016 AlphaGo beat Lee Sedol with deep reinforcement learning plus tree search.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "aib-ch23-deep-learning-revolution-q-e350cf44",
+          "type": "mcq",
+          "stem": "What did Generative Adversarial Networks (2014) enable?",
+          "options": [
+            "Generating highly realistic synthetic data",
+            "Beating a world Go champion",
+            "Brute-force search over chess positions"
+          ],
+          "answer": "Generating highly realistic synthetic data",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--ai-for-business-chapters-2-3#15",
+            "aib--ai-for-business-chapters-2-3#13"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-ch23-deep-learning-revolution-q-ce53c1e5",
+          "type": "mcq",
+          "stem": "What did AlphaGo's 2016 win prove, according to the chapter?",
+          "options": [
+            "AI could master intuition-driven strategic tasks, not only brute-force calculation",
+            "AI could pass the Turing Test",
+            "Rule-based systems still beat learning systems"
+          ],
+          "answer": "AI could master intuition-driven strategic tasks, not only brute-force calculation",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--ai-for-business-chapters-2-3#15",
+            "aib--ai-for-business-chapters-2-3#9"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-ch23-deep-learning-revolution-q-96f8d23b",
+          "type": "fill",
+          "stem": "In 2016 AlphaGo defeated world Go champion Lee ____.",
+          "options": [],
+          "answer": "Sedol",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--ai-for-business-chapters-2-3#15"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#14",
+        "aib--ai-for-business-chapters-2-3#15"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-deep-learning-revolution-c2",
+      "heading": "Parallel trends across the decade",
+      "explanation_md": "Alongside those headline wins:\n\n- **Voice assistants, facial recognition and early language models** brought deep learning into **billions of pockets** through mobile devices.\n- **Computer vision** made huge advances in **image classification and object detection**.\n- **Language models** evolved from older recurrent architectures (**RNNs**) toward **Transformers**, which understood and generated language far more fluently.\n\nBy the **end of the 2010s**, deep learning had become **the engine of modern AI**, reaching **human-level performance on many narrow tasks** and reshaping industries, products and daily life faster than any earlier era.\n\nThe decade table adds the business side: computer vision in everyday products (facial recognition unlocking a phone, visual search in retail apps), **voice assistants (Alexa, Siri, Google Assistant)** going mainstream, and language models powering translation and early chat support, helped by **mobile compute and cloud GPUs**.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "2010s: voice assistants, facial recognition and language models reach billions via mobile; vision advances; RNNs give way to Transformers; deep learning becomes the engine of modern AI.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "aib-ch23-deep-learning-revolution-q-6eb8e8ff",
+          "type": "mcq",
+          "stem": "Language models in the 2010s evolved from RNNs toward which architecture?",
+          "options": [
+            "Transformers",
+            "Support Vector Machines",
+            "Expert systems"
+          ],
+          "answer": "Transformers",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--ai-for-business-chapters-2-3#15",
+            "aib--ai-for-business-chapters-2-3#13",
+            "aib--ai-for-business-chapters-2-3#12"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-ch23-deep-learning-revolution-q-41c67b7a",
+          "type": "true_false",
+          "stem": "By the end of the 2010s, deep learning had reached human-level performance on many narrow tasks, according to the chapter.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--ai-for-business-chapters-2-3#15"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#13",
+        "aib--ai-for-business-chapters-2-3#15"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-deep-learning-revolution-c3",
+      "heading": "Era 4 in business terms",
+      "explanation_md": "**Business example.** Two everyday features are **direct commercial descendants** of Era 4's computer-vision breakthroughs (**CNNs, better GPUs, mobile deployment**):\n\n- a **retailer's visual-search feature**: a shopper photographs a product they like and instantly sees similar in-stock items;\n- a **bank's face-based mobile login**.",
+      "example_ids": [
+        "aib-ex-ch23-visual-search-face-login"
+      ],
+      "key_terms": [],
+      "exam_line": "Retail visual search and a bank's face-based login descend from Era 4's CNNs, better GPUs and mobile deployment.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "aib-ch23-deep-learning-revolution-q-ac7cf8fb",
+          "type": "mcq",
+          "stem": "A bank's face-based mobile login is a commercial descendant of which era's breakthroughs?",
+          "options": [
+            "Era 4 (Deep Learning)",
+            "Era 2 (Rule-Based Conversation)",
+            "Era 1 (Thinking About Intelligence)"
+          ],
+          "answer": "Era 4 (Deep Learning)",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--ai-for-business-chapters-2-3#15",
+            "aib--ai-for-business-chapters-2-3#8"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-ch23-deep-learning-revolution-q-229878fb",
+          "type": "fill",
+          "stem": "A retailer's visual-search feature lets a shopper ____ a product and see similar in-stock items.",
+          "options": [],
+          "answer": "photograph",
+          "accept": [
+            "photo",
+            "take a photo of"
+          ],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--ai-for-business-chapters-2-3#15"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#15"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "aib-ch23-deep-learning-revolution-f1",
+      "front": "GANs (2014)",
+      "back": "Generative Adversarial Networks: generate highly realistic synthetic data for image generation, creativity and simulation.",
+      "kind": "term",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#15"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-deep-learning-revolution-f2",
+      "front": "AlphaGo (2016) in Era 4",
+      "back": "Beat Lee Sedol by combining deep reinforcement learning with tree search; mastered intuition-driven tasks, not only brute force.",
+      "kind": "fact",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#15"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-deep-learning-revolution-f3",
+      "front": "Parallel trends of the 2010s",
+      "back": "Voice assistants, facial recognition and early language models on mobile; vision advances in classification and detection; RNNs giving way to Transformers.",
+      "kind": "list",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#15"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-deep-learning-revolution-f4",
+      "front": "Deep learning by the end of the 2010s",
+      "back": "The engine of modern AI, with human-level performance on many narrow tasks.",
+      "kind": "fact",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#15"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-deep-learning-revolution-f5",
+      "front": "Era 4 business descendants",
+      "back": "Retail visual search and a bank's face-based mobile login (from CNNs, better GPUs, mobile deployment).",
+      "kind": "example",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#15"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [],
+  "explain_back": {
+    "prompt": "Describe the main milestones and trends of the deep learning revolution and give two business examples that came from it.",
+    "rubric": [
+      {
+        "point": "AlexNet's 2012 win triggered the decade's explosion of activity",
+        "source_ref": "aib--ai-for-business-chapters-2-3#14"
+      },
+      {
+        "point": "2014 GANs generate realistic synthetic data; 2016 AlphaGo beat Lee Sedol with deep reinforcement learning and tree search",
+        "source_ref": "aib--ai-for-business-chapters-2-3#15"
+      },
+      {
+        "point": "Voice assistants, facial recognition and language models on mobile; RNNs to Transformers",
+        "source_ref": "aib--ai-for-business-chapters-2-3#15"
+      },
+      {
+        "point": "Business: retail visual search and face-based bank login",
+        "source_ref": "aib--ai-for-business-chapters-2-3#15"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

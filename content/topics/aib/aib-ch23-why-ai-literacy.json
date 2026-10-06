@@ -1,0 +1,602 @@
+{
+  "id": "aib-ch23-why-ai-literacy",
+  "subject_id": "aib",
+  "deck_id": "aib--ai-for-business-chapters-2-3",
+  "title": "Why AI matters for business leaders: the MBA imperative",
+  "order": 401,
+  "summary": "Why AI literacy is now a baseline hiring expectation: the opening vignette, the curriculum and employer numbers, how students and schools use AI, and the readiness gap this course closes.",
+  "est_minutes": 25,
+  "difficulty": 1,
+  "source_refs": [
+    "aib--ai-for-business-chapters-2-3#2",
+    "aib--ai-for-business-chapters-2-3#3",
+    "aib--ai-for-business-chapters-2-3#7",
+    "aib--ai-for-business-chapters-2-3#4"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "aib-ch23-why-ai-literacy-c1",
+      "heading": "The interview question nobody used to ask",
+      "explanation_md": "Chapter 2 opens with a reflection: **AI literacy is no longer a differentiator on a résumé**. It is fast becoming the **baseline assumption** behind every strategy, operations and general-management role a business school prepares you for.\n\nThen comes the opening vignette. Five years ago, a campus recruiter hiring for a **strategy-consulting** role might ask you to walk through a **market-sizing exercise** or a **case on pricing**. Today the same interview increasingly adds a different question:\n\n*\"Which AI tools have you used to support an analysis, and how did you validate the output?\"*\n\nThe chapter says this shift is **not cosmetic**. It reflects a **structural change** in what employers believe a business graduate must be able to do **on day one**, and it is the reason this course is **required, not elective**.\n\nSo the chapter's job is to make the **business case for AI literacy** first, answering *why does this matter, and why now?*, before later chapters move to the technical vocabulary and history.",
+      "example_ids": [
+        "aib-ex-ch23-interview-question"
+      ],
+      "key_terms": [
+        {
+          "term": "AI literacy",
+          "meaning": "Being able to use AI tools and judge their output; the chapter calls it a baseline assumption behind strategy, operations and general-management roles.",
+          "source_ref": "aib--ai-for-business-chapters-2-3#2"
+        }
+      ],
+      "exam_line": "AI literacy has moved from a résumé differentiator to a baseline assumption; interviews now ask which AI tools you used and how you validated the output.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "aib-ch23-why-ai-literacy-q-254022dd",
+          "type": "mcq",
+          "stem": "Which new question does the opening vignette say strategy-consulting interviews increasingly include?",
+          "options": [
+            "Which AI tools have you used to support an analysis, and how did you validate the output?",
+            "Walk me through a market-sizing exercise.",
+            "Solve this case on pricing."
+          ],
+          "answer": "Which AI tools have you used to support an analysis, and how did you validate the output?",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--ai-for-business-chapters-2-3#2"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-ch23-why-ai-literacy-q-1a18da0b",
+          "type": "true_false",
+          "stem": "The chapter describes the change in interview questions as a cosmetic shift.",
+          "options": [],
+          "answer": "False",
+          "accept": [],
+          "explanation": "It says the shift is not cosmetic: it reflects a structural change in what employers expect a graduate to do on day one.",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--ai-for-business-chapters-2-3#2"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-ch23-why-ai-literacy-q-68d74957",
+          "type": "fill",
+          "stem": "AI literacy is fast becoming the ____ assumption behind every strategy, operations and general-management role.",
+          "options": [],
+          "answer": "baseline",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--ai-for-business-chapters-2-3#2"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#2"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-why-ai-literacy-c2",
+      "heading": "AI in the business school curriculum: the five metrics",
+      "explanation_md": "AI in management education has moved **from experimental to structural** in a short window. Schools now weave AI into tutoring, skills-building, core strategy courses and career guidance, instead of keeping it in one specialised elective.\n\nThe chapter's table:\n\n| Metric | Insight |\n|---|---|\n| Curriculum integration | Widespread: embedded in roughly **75%** of business school programmes worldwide, including Wharton, Kogod, Columbia, Duke, Stanford and Harvard |\n| Employer demand | **74%** of employers look for AI/ML proficiency in MBA graduates; **66%** of organisational leaders will not hire candidates who lack AI literacy |\n| Student usage | **82%** of students use AI weekly and **39%** daily, from essay writing to data analysis and simulation |\n| Formal training availability | Only around **36%** of students report structured institutional support for AI learning |\n| Practical engagement | AI-enabled projects, workshops and competitions, including **datathons** with organisations such as Bloomberg and Amazon |\n\n**How to read it.** About 75% integration and the 74% and 66% employer figures suggest schools are responding to a **real market signal, not chasing a trend**. But with only about 36% getting structured support, **adoption has outpaced pedagogy**: students use AI heavily whether or not they have been taught to use it well. BA5306 exists to close that gap.\n\n**A methodological note from the chapter.** Several of these statistics come from industry blogs, test-prep marketing content and single-country surveys, not peer-reviewed research. None should be treated as precise or universally generalisable. The chapter uses them because they are **directionally consistent** with each other and with employer behaviour seen in recruiting.",
+      "example_ids": [
+        "aib-ex-ch23-datathons"
+      ],
+      "key_terms": [
+        {
+          "term": "Adoption has outpaced pedagogy",
+          "meaning": "Students use AI extensively whether or not their programme has taught them to use it well.",
+          "source_ref": "aib--ai-for-business-chapters-2-3#3"
+        }
+      ],
+      "exam_line": "Curriculum integration about 75%; employer demand 74% and 66%; students 82% weekly and 39% daily; only about 36% get structured support, so adoption has outpaced pedagogy.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "aib-ch23-why-ai-literacy-q-3551c455",
+          "type": "mcq",
+          "stem": "According to the table, what share of students use AI daily?",
+          "options": [
+            "39%",
+            "82%",
+            "36%",
+            "75%"
+          ],
+          "answer": "39%",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--ai-for-business-chapters-2-3#2"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-ch23-why-ai-literacy-q-7057facf",
+          "type": "mcq",
+          "stem": "What does the chapter conclude from high student usage but only about 36% structured support?",
+          "options": [
+            "Adoption has outpaced pedagogy",
+            "Schools are chasing a trend, not a real market signal",
+            "Employers have stopped looking for AI skills"
+          ],
+          "answer": "Adoption has outpaced pedagogy",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--ai-for-business-chapters-2-3#3"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-ch23-why-ai-literacy-q-1c46c6f8",
+          "type": "true_false",
+          "stem": "The chapter says its statistics come from peer-reviewed research and should be treated as precise measurements.",
+          "options": [],
+          "answer": "False",
+          "accept": [],
+          "explanation": "Several come from industry blogs, test-prep marketing and single-country surveys; they are directionally consistent, not precise.",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--ai-for-business-chapters-2-3#3"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#2",
+        "aib--ai-for-business-chapters-2-3#3"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-why-ai-literacy-c3",
+      "heading": "The employer demand signal",
+      "explanation_md": "The clearest evidence that AI literacy is now a **baseline hiring criterion, not a bonus skill** comes from **employer-side data**, not from business schools.\n\n- **74% of employers** specifically screen for AI/ML proficiency in MBA graduates. This moved AI literacy from roughly the **21st** most sought-after competency to the **4th** (e-GMAT).\n- **66% of organisational leaders** will not hire a candidate who lacks demonstrable AI literacy (Microsoft CDN).\n- Recruiters increasingly expect **AI fluency by default**, especially in **strategy and operations** roles, where AI-assisted analysis is now a normal part of the workflow (AI Literacy Institute).\n\n**The practical implication.** For a general-management graduate, AI literacy now works less like a specialised technical skill and more like **spreadsheet literacy did a generation ago**: a baseline competency assumed by default, whose **absence is noticed far more than its presence**.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "74% of employers screen for AI/ML proficiency (AI literacy rose from about 21st to 4th most sought-after competency); 66% of leaders will not hire without AI literacy.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "aib-ch23-why-ai-literacy-q-1e1b6144",
+          "type": "mcq",
+          "stem": "AI literacy has moved from roughly the 21st most sought-after competency to which position?",
+          "options": [
+            "4th",
+            "1st",
+            "10th"
+          ],
+          "answer": "4th",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--ai-for-business-chapters-2-3#3"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-ch23-why-ai-literacy-q-7899ba74",
+          "type": "mcq",
+          "stem": "The chapter says AI literacy now works most like which earlier skill?",
+          "options": [
+            "Spreadsheet literacy a generation ago",
+            "A specialised technical skill",
+            "A bonus skill that only some roles need"
+          ],
+          "answer": "Spreadsheet literacy a generation ago",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--ai-for-business-chapters-2-3#3"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-ch23-why-ai-literacy-q-52ae76de",
+          "type": "fill",
+          "stem": "____% of organisational leaders say they will not hire a candidate who lacks demonstrable AI literacy.",
+          "options": [],
+          "answer": "66",
+          "accept": [
+            "66%"
+          ],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--ai-for-business-chapters-2-3#3"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#3",
+        "aib--ai-for-business-chapters-2-3#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-why-ai-literacy-c4",
+      "heading": "How students use AI, and how schools and recruiters respond",
+      "explanation_md": "**Student behaviour has moved ahead of formal curricula.** Surveys show students using AI tools weekly, and often daily, for essay writing, brainstorming, data analysis and simulation.\n\nSchools respond by **layering structured, hands-on experiences** on top of this organic use: AI-enabled class projects, dedicated workshops, and **datathons** run with organisations including **Bloomberg and Amazon**. The aim is to turn informal tool familiarity into **disciplined, evaluable skill**.\n\nTwo business examples from the chapter:\n\n- **Curriculum response:** several leading business schools now run an **AI-and-analytics module alongside**, not after, foundational courses like Marketing and Finance. Their reasoning: a graduate who cannot use AI-assisted analysis in the very first case discussion is already behind on day one of the job.\n- **Recruiting in practice:** a **global FMCG major** asks summer-internship finalists to build a **one-page forecast** with an AI-assisted spreadsheet tool. It is **not a test of coding skill**. It checks whether the candidate can **direct the tool, sanity-check its output and explain the forecast's assumptions** to a hiring panel.",
+      "example_ids": [
+        "aib-ex-ch23-curriculum-response",
+        "aib-ex-ch23-fmcg-recruiting"
+      ],
+      "key_terms": [],
+      "exam_line": "Schools turn organic AI use into disciplined skill (projects, workshops, datathons with Bloomberg and Amazon); recruiters test whether you can direct an AI tool, sanity-check its output and explain its assumptions.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "aib-ch23-why-ai-literacy-q-45c7f8e5",
+          "type": "mcq",
+          "stem": "In the FMCG recruiting example, what is the AI take-home exercise designed to test?",
+          "options": [
+            "Whether the candidate can direct the tool, sanity-check its output and explain the forecast's assumptions",
+            "Whether the candidate can write code",
+            "Whether the candidate can do a market-sizing exercise without any tools"
+          ],
+          "answer": "Whether the candidate can direct the tool, sanity-check its output and explain the forecast's assumptions",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--ai-for-business-chapters-2-3#3",
+            "aib--ai-for-business-chapters-2-3#2"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-ch23-why-ai-literacy-q-06b888f2",
+          "type": "mcq",
+          "stem": "Datathons mentioned in the chapter were run in partnership with which organisations?",
+          "options": [
+            "Bloomberg and Amazon",
+            "Wharton and Harvard",
+            "e-GMAT and Microsoft CDN"
+          ],
+          "answer": "Bloomberg and Amazon",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--ai-for-business-chapters-2-3#2",
+            "aib--ai-for-business-chapters-2-3#3",
+            "aib--ai-for-business-chapters-2-3#4"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-ch23-why-ai-literacy-q-1ce7d2c2",
+          "type": "true_false",
+          "stem": "In the curriculum-response example, the AI-and-analytics module runs after foundational courses like Marketing and Finance.",
+          "options": [],
+          "answer": "False",
+          "accept": [],
+          "explanation": "It runs alongside them, not after.",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--ai-for-business-chapters-2-3#3"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#2",
+        "aib--ai-for-business-chapters-2-3#3",
+        "aib--ai-for-business-chapters-2-3#4"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-why-ai-literacy-c5",
+      "heading": "The readiness gap",
+      "explanation_md": "**High usage does not equal high competence.** Even where adoption is widespread, formal training is inconsistent: one recent **UK study** found only around **36%** of students received institutional support for AI skill-building.\n\nThe gap is **not primarily technical**. It concerns:\n- **strategy**,\n- **ethics integration**, and\n- the **equipping needed for deep, responsible use** rather than superficial tool familiarity.\n\nUsing a chatbot to draft an essay does not teach you to evaluate an AI-generated business recommendation for **bias, groundedness, or fitness for a board-level decision**.\n\n**Business example: the readiness gap in practice.** A retail analyst who uses a chatbot daily for market research may still, without training, accept a **fabricated competitor revenue figure** at face value, simply because it was delivered **fluently and confidently**. The course comes back to this failure mode when it discusses generative AI governance.\n\nClosing the gap **between casual usage and disciplined managerial judgement** is the throughline of the whole textbook.",
+      "example_ids": [
+        "aib-ex-ch23-retail-analyst"
+      ],
+      "key_terms": [
+        {
+          "term": "Readiness gap",
+          "meaning": "The gap between casual AI usage and disciplined managerial judgement; high usage does not equal high competence.",
+          "source_ref": "aib--ai-for-business-chapters-2-3#4"
+        }
+      ],
+      "exam_line": "Readiness gap: high usage is not high competence; only about 36% of students get structured support; the gap is about strategy, ethics integration and responsible use, not mainly technical skill.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "aib-ch23-why-ai-literacy-q-648e9867",
+          "type": "mcq",
+          "stem": "According to the chapter, the readiness gap is mainly about:",
+          "options": [
+            "Strategy, ethics integration and the equipping needed for deep, responsible use",
+            "Students lacking access to AI tools",
+            "Students lacking coding skills"
+          ],
+          "answer": "Strategy, ethics integration and the equipping needed for deep, responsible use",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--ai-for-business-chapters-2-3#4"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-ch23-why-ai-literacy-q-b447632b",
+          "type": "true_false",
+          "stem": "In the readiness-gap example, the retail analyst accepts a fabricated competitor revenue figure because it was delivered fluently and confidently.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--ai-for-business-chapters-2-3#4"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "aib-ch23-why-ai-literacy-q-47ad5435",
+          "type": "fill",
+          "stem": "High ____ does not equal high competence.",
+          "options": [],
+          "answer": "usage",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "aib--ai-for-business-chapters-2-3#4"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#4",
+        "aib--ai-for-business-chapters-2-3#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "aib-ch23-why-ai-literacy-f1",
+      "front": "Opening reflection of Chapter 2",
+      "back": "AI literacy is no longer a differentiator on a résumé; it is fast becoming the baseline assumption behind every strategy, operations and general-management role.",
+      "kind": "fact",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#2"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-why-ai-literacy-f2",
+      "front": "The interview question nobody used to ask",
+      "back": "Which AI tools have you used to support an analysis, and how did you validate the output?",
+      "kind": "example",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#2"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-why-ai-literacy-f3",
+      "front": "Five metrics in the curriculum table",
+      "back": "Curriculum integration (about 75%), employer demand (74% and 66%), student usage (82% weekly, 39% daily), formal training availability (about 36%), practical engagement (projects, workshops, datathons).",
+      "kind": "list",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#2"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-why-ai-literacy-f4",
+      "front": "Employer demand figures",
+      "back": "74% of employers screen for AI/ML proficiency in MBA graduates (AI literacy rose from about 21st to 4th most sought-after competency); 66% of leaders will not hire without AI literacy.",
+      "kind": "fact",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#3"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-why-ai-literacy-f5",
+      "front": "Adoption has outpaced pedagogy",
+      "back": "Students use AI extensively whether or not their programme has taught them to use it well; only about 36% get structured institutional support.",
+      "kind": "term",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#3"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-why-ai-literacy-f6",
+      "front": "AI literacy today is like ...",
+      "back": "Spreadsheet literacy a generation ago: a baseline competency assumed by default, whose absence is noticed far more than its presence.",
+      "kind": "fact",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#3"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-why-ai-literacy-f7",
+      "front": "What the readiness gap concerns",
+      "back": "Strategy, ethics integration, and the equipping needed for deep, responsible use (not mainly technical skill).",
+      "kind": "list",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#4"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-why-ai-literacy-f8",
+      "front": "Retail analyst example",
+      "back": "A daily chatbot user may still accept a fabricated competitor revenue figure because it was delivered fluently and confidently: the readiness gap in practice.",
+      "kind": "example",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#4"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [],
+  "explain_back": {
+    "prompt": "Why does AI literacy matter for an MBA graduate now? Use the employer data, the student data and the readiness gap.",
+    "rubric": [
+      {
+        "point": "AI literacy has moved from a résumé differentiator to a baseline expectation; interviews now ask which AI tools you used and how you validated the output",
+        "source_ref": "aib--ai-for-business-chapters-2-3#2"
+      },
+      {
+        "point": "74% of employers screen for AI/ML proficiency; 66% of leaders will not hire without AI literacy",
+        "source_ref": "aib--ai-for-business-chapters-2-3#3"
+      },
+      {
+        "point": "Students use AI heavily (82% weekly, 39% daily) but only about 36% get structured support: adoption has outpaced pedagogy",
+        "source_ref": "aib--ai-for-business-chapters-2-3#2"
+      },
+      {
+        "point": "The readiness gap is about strategy, ethics and responsible use, e.g. a retail analyst accepting a fabricated figure",
+        "source_ref": "aib--ai-for-business-chapters-2-3#4"
+      },
+      {
+        "point": "The figures are directional, from secondary sources, not precise peer-reviewed measurements",
+        "source_ref": "aib--ai-for-business-chapters-2-3#3"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}
