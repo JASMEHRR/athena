@@ -3,6 +3,8 @@ name = "athena"
 version = "0.1.0"
 description = "JasMehr's MBA study tutor, grounded only in his professors' slides."
 requires-python = ">=3.11"
+# Online (Vercel) app only; the PC install uses requirements-local.txt.
+dependencies = ["fastapi==0.142.2", "pydantic==2.13.5", "fsrs==6.3.2", "tzdata==2026.5"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
