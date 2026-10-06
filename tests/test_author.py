@@ -103,6 +103,9 @@ def test_add_questions_sets_bank_and_keeps_lesson(env):
     assert errors == []
     with pytest.raises(author.DraftError):
         author.add_questions({"subject_id": "mm", "topics": {"mm-s9-missing": []}})
+    repeat = {"type": "tf", "q": "Penetration pricing starts with a high price.", "a": "False"}
+    with pytest.raises(author.DraftError, match="repeat a lesson check"):
+        author.add_questions({"subject_id": "mm", "topics": {"mm-s9-pricing": [repeat]}})
 
 
 def test_author_rejects_unknown_example(env):

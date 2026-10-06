@@ -226,6 +226,10 @@ def add_questions(draft: dict) -> dict:
         questions = [_question(topic_id, topic.deck_id, q, topic.source_refs) for q in items]
         if len({q.id for q in questions}) != len(questions):
             raise DraftError(f"{topic_id}: two questions have the same stem")
+        checks = {c.stem for ch in topic.chunks for c in ch.check_questions}
+        same = [q.stem for q in questions if q.stem in checks]
+        if same:
+            raise DraftError(f"{topic_id}: reword these, they repeat a lesson check question: {same}")
         topic.questions = questions
         contentio.save_topic(topic)
         counts[topic_id] = len(questions)
