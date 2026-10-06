@@ -65,7 +65,8 @@ No exam dates, so round-robin across subjects. Validate, ground and cover each d
   - 2 topics (far-sd-*), 10 chunks, 30 checks, 19 cards, 6 examples (Sunrise Traders, Om Enterprises, the tricky worksheet items). Income and expense totals are marked derived.
 - [x] P4 pass A: mm--session-2-mm (22 slides, 10 visual)
   - 5 topics (mm-s2-*), 21 chunks, 61 checks, 39 cards, 7 examples. By subagent, reviewed: slide 9 names Kodak and NOKIA because the words are printed on the pictured products; no story added. Slide 14 says "social", slide 19 "societal" marketing concept; lesson notes it. Slides 21 and 22 give no explanation or answer, and the lessons say so.
-- [ ] P4 pass A: oml--casestudypeople-express (1 slides, 0 visual)
+- [x] P4 pass A: oml--casestudypeople-express (1 slides, 0 visual)
+  - 1 topic (oml-pecase-case), 5 chunks, 15 checks, 8 cards, 4 examples. The case page and the pe deck date the decline differently; each lesson follows its own deck.
 - [x] P4 pass A: qtm--module-2-1 (33 slides, 18 visual)
   - 6 topics (qtm-m21-*), 29 chunks, 78 checks, 41 cards, 15 examples. By subagent (resumed), reviewed; derived answers re-computed (2 players: same mean 32.75, medians 10 and 30.5, modes 4 and 45; net worth P50 22, P80 32.5; retail stores mean 508/15, Q1 30, Q2 34, Q3 38, top 10% stores 4 and 12). Slide 24 says "alphabetical order" for an ascending list; lesson notes it.
 - [x] P4 pass A: sce--introduction-to-social-entrepreneurship-2025 (23 slides, 7 visual)
@@ -76,7 +77,8 @@ No exam dates, so round-robin across subjects. Validate, ground and cover each d
 - [ ] P4 pass A: far--five-elements-fs-recognition (3 slides, 3 visual)
 - [x] P4 pass A: mm--session3-mm (22 slides, 17 visual)
   - 5 topics (mm-s3-*), 20 chunks, 58 checks, 36 cards, 13 examples. By subagent, reviewed. Brand names only where printed (Burger King, Pepsi, Coca-Cola, P&G, IKEA, Tata Nano, Amazon, Cadbury, Lever Ayush).
-- [ ] P4 pass A: oml--peoples-expressedpjul30 (18 slides, 16 visual)
+- [x] P4 pass A: oml--peoples-expressedpjul30 (18 slides, 16 visual)
+  - 4 topics (oml-pe-*), 14 chunks, 40 checks, 26 cards, 6 examples. By subagent, reviewed.
 - [x] P4 pass A: qtm--module-3 (68 slides, 41 visual)
   - 13 topics (qtm-m3-*), 60 chunks, 161 checks, 78 cards, 37 examples. By subagent, reviewed. Unanswered practice slides (35, 39, 46, 55, 59, 60) solved with the deck's formulas, numbers marked derived. Slide errors named in lessons: slide 14 uses 0.2905 for 29.5%, slide 32 asks P(X >= 9) but computes P(X > 9). Binomial is listed but has no slide of its own.
 - [ ] P4 pass A: sce--list-of-business-ideas (5 slides, 1 visual)
