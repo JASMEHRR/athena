@@ -445,7 +445,339 @@
       "retired": false
     }
   ],
-  "questions": [],
+  "questions": [
+    {
+      "id": "aib-s34-what-is-ai-q-f4969832",
+      "type": "mcq",
+      "stem": "Who coined the term AI in 1956 and defined it as the science and engineering of making intelligent machines?",
+      "options": [
+        "John McCarthy",
+        "Alan Turing",
+        "Russell and Norvig",
+        "Arthur Samuel"
+      ],
+      "answer": "John McCarthy",
+      "accept": [],
+      "explanation": "Russell and Norvig give the modern agent view; Turing proposed the test; Samuel built a checkers program.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "recall",
+      "source_refs": [
+        "aib--aib-session3-4-introduction-to-ai#9",
+        "aib--aib-session3-4-introduction-to-ai#10",
+        "aib--aib-session3-4-introduction-to-ai#13"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s34-what-is-ai-q-285a5223",
+      "type": "mcq",
+      "stem": "Which statement is the modern view of AI given by Russell and Norvig?",
+      "options": [
+        "AI is the study of agents that perceive their environment and take actions that maximize their chances of achieving their goals",
+        "AI is the science and engineering of making intelligent machines",
+        "AI is the field of computer science focused on creating systems that perform tasks typically requiring human intelligence",
+        "AI is adapting behavior based on data and experience"
+      ],
+      "answer": "AI is the study of agents that perceive their environment and take actions that maximize their chances of achieving their goals",
+      "accept": [],
+      "explanation": "The second option is McCarthy's, the third is the plain definition, the fourth is the learning capability.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "define",
+      "source_refs": [
+        "aib--aib-session3-4-introduction-to-ai#10",
+        "aib--aib-session3-4-introduction-to-ai#9",
+        "aib--aib-session3-4-introduction-to-ai#8"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s34-what-is-ai-q-b9502918",
+      "type": "mcq",
+      "stem": "Interpreting sensory input like images, sounds or text is which core capability of AI?",
+      "options": [
+        "Perception",
+        "Reasoning",
+        "Learning",
+        "Language understanding"
+      ],
+      "answer": "Perception",
+      "accept": [],
+      "explanation": "Reasoning draws conclusions, learning adapts from data, language understanding communicates in human languages.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "identify",
+      "source_refs": [
+        "aib--aib-session3-4-introduction-to-ai#11"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s34-what-is-ai-q-eb9a891c",
+      "type": "mcq",
+      "stem": "Which task appears in the modern definition of AI but not on McCarthy's definition slide?",
+      "options": [
+        "Generating content",
+        "Reasoning",
+        "Perception",
+        "Problem-solving"
+      ],
+      "answer": "Generating content",
+      "accept": [],
+      "explanation": "McCarthy's slide lists reasoning, learning, problem-solving, understanding language and perception; generating content is new in the modern definition.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 3,
+      "style_tag": "compare",
+      "source_refs": [
+        "aib--aib-session3-4-introduction-to-ai#9",
+        "aib--aib-session3-4-introduction-to-ai#10"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s34-what-is-ai-q-67f02fb5",
+      "type": "mcq",
+      "stem": "Which of these is NOT named on the slides as a subfield of AI in today's context?",
+      "options": [
+        "Robotics",
+        "Computer vision",
+        "Generative AI",
+        "Natural language processing"
+      ],
+      "answer": "Robotics",
+      "accept": [],
+      "explanation": "The subfields listed are machine learning, deep learning, natural language processing, computer vision and generative AI.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "identify",
+      "source_refs": [
+        "aib--aib-session3-4-introduction-to-ai#10"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s34-what-is-ai-q-c76593fb",
+      "type": "short",
+      "stem": "Define artificial intelligence as a field of computer science.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The deck starts with a plain definition of AI as a field.\n\n- **Definition:** AI is the **field of computer science** focused on **creating systems that can perform tasks typically requiring human intelligence**.\n- **Those tasks:** **learning, reasoning, problem-solving, perception and decision-making**.\n- **Key word:** *field*. AI is an area of study whose goal is systems that do what normally needs a human mind.\n\nSo AI is the part of computer science that builds human-like task performance into systems.",
+      "rubric": [
+        {
+          "point": "AI is the field of computer science focused on creating systems",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#8"
+        },
+        {
+          "point": "Systems perform tasks typically requiring human intelligence",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#8"
+        },
+        {
+          "point": "Tasks: learning, reasoning, problem-solving, perception, decision-making",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#8"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 1,
+      "style_tag": "define",
+      "source_refs": [
+        "aib--aib-session3-4-introduction-to-ai#8"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s34-what-is-ai-q-2d78d15c",
+      "type": "short",
+      "stem": "Explain John McCarthy's definition of artificial intelligence.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The second definition comes from the person who named the field.\n\n- **Who:** **John McCarthy**, who **coined the term AI in 1956**.\n- **His words:** AI is *the science and engineering of making intelligent machines*.\n- **The slide's expansion:** especially **intelligent computer programs**; it aims to create systems that **mimic human intelligence**.\n- **Tasks:** **reasoning, learning, problem-solving, understanding language and perception**.\n\nSo McCarthy sees AI as both a science and an engineering job: building machines that act intelligently.",
+      "rubric": [
+        {
+          "point": "John McCarthy coined the term AI in 1956",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#9"
+        },
+        {
+          "point": "AI is the science and engineering of making intelligent machines",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#9"
+        },
+        {
+          "point": "Especially intelligent computer programs that mimic human intelligence",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#9"
+        },
+        {
+          "point": "Tasks: reasoning, learning, problem-solving, understanding language, perception",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#9"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 1,
+      "style_tag": "explain",
+      "source_refs": [
+        "aib--aib-session3-4-introduction-to-ai#9"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s34-what-is-ai-q-89ce0698",
+      "type": "short",
+      "stem": "Explain the five core capabilities of AI.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The deck reduces AI to **five core capabilities**.\n\n1. **Learning:** adapting behavior based on data and experience (e.g. machine learning, deep learning).\n2. **Reasoning:** drawing conclusions from available information.\n3. **Perception:** interpreting sensory input like images, sounds or text.\n4. **Language understanding:** communicating in human languages (natural language processing).\n5. **Decision-making:** choosing actions based on goals and context.\n\nTogether they describe what a system must do to act intelligently.",
+      "rubric": [
+        {
+          "point": "Learning: adapting behavior based on data and experience",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#11"
+        },
+        {
+          "point": "Reasoning: drawing conclusions from available information",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#11"
+        },
+        {
+          "point": "Perception: interpreting images, sounds or text",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#11"
+        },
+        {
+          "point": "Language understanding: communicating in human languages (natural language processing)",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#11"
+        },
+        {
+          "point": "Decision-making: choosing actions based on goals and context",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#11"
+        }
+      ],
+      "marks": 5.0,
+      "difficulty": 1,
+      "style_tag": "list",
+      "source_refs": [
+        "aib--aib-session3-4-introduction-to-ai#11"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s34-what-is-ai-q-6e42fcca",
+      "type": "long",
+      "stem": "Differentiate between John McCarthy's definition of AI and the modern definition of AI.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The deck gives two definitions of AI from different times. Comparing them shows how the idea of AI has widened.\n\n**1. McCarthy's definition**\n- **Source:** **John McCarthy**, who **coined the term AI in 1956**.\n- **Wording:** *the science and engineering of making intelligent machines*, especially **intelligent computer programs**.\n- **Aim:** systems that **mimic human intelligence**.\n- **Tasks named:** **reasoning, learning, problem-solving, understanding language and perception**.\n\n**2. The modern definition**\n- **Wording:** the development of computer systems or machines that can perform tasks **typically requiring human intelligence**.\n- **Tasks named:** **understanding natural language, recognizing patterns, making decisions, generating content, adapting through learning** (machine learning) and **interacting with humans in real time**.\n- **Subfields today:** **machine learning, deep learning, natural language processing, computer vision and generative AI**.\n- **Expert view (Russell and Norvig):** AI is *the study of **agents** that **perceive their environment** and **take actions** that maximize their chances of achieving their **goals***.\n\n| Basis | McCarthy | Modern |\n|---|---|---|\n| Focus | Making intelligent machines and programs | Systems doing human-intelligence tasks; agents pursuing goals |\n| New tasks | Not mentioned | Generating content, real-time interaction, recognizing patterns |\n| Structure | One science and engineering field | Many subfields, incl. generative AI |\n\n**What stays the same:** both definitions aim at machines that do what normally needs human intelligence, such as learning and understanding language.\n\n**Conclusion:** McCarthy defined AI as building intelligent machines; the modern definition adds content generation, real-time interaction and the view of AI as goal-seeking agents.",
+      "rubric": [
+        {
+          "point": "McCarthy coined AI in 1956: science and engineering of making intelligent machines",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#9"
+        },
+        {
+          "point": "McCarthy's tasks: reasoning, learning, problem-solving, understanding language, perception",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#9"
+        },
+        {
+          "point": "Modern definition adds generating content, recognizing patterns and real-time interaction",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#10"
+        },
+        {
+          "point": "Modern subfields: machine learning, deep learning, natural language processing, computer vision, generative AI",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#10"
+        },
+        {
+          "point": "Russell and Norvig: agents that perceive their environment and act to achieve goals",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#10"
+        },
+        {
+          "point": "States what both share: machines doing tasks needing human intelligence",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#9"
+        }
+      ],
+      "marks": 10.0,
+      "difficulty": 2,
+      "style_tag": "differentiate",
+      "source_refs": [
+        "aib--aib-session3-4-introduction-to-ai#9",
+        "aib--aib-session3-4-introduction-to-ai#10"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s34-what-is-ai-q-28a709d8",
+      "type": "long",
+      "stem": "Explain what artificial intelligence is, using the definitions and the five core capabilities in the slides.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The deck builds an answer to *what is AI* in layers: a plain definition, a founder's definition, a modern definition and a list of capabilities.\n\n**1. AI as a field**\n- AI is the **field of computer science** focused on creating systems that can perform **tasks typically requiring human intelligence**: learning, reasoning, problem-solving, perception and decision-making.\n\n**2. McCarthy's definition**\n- **John McCarthy**, who coined the term in **1956**: *the science and engineering of making intelligent machines*, especially intelligent computer programs that **mimic human intelligence**.\n\n**3. The modern definition**\n- Systems that understand natural language, recognize patterns, make decisions, **generate content**, adapt through learning and **interact with humans in real time**.\n- Subfields: **machine learning, deep learning, natural language processing, computer vision, generative AI**.\n- **Russell and Norvig:** AI is the study of **agents** that **perceive their environment** and **take actions** to achieve their **goals**.\n\n**4. Five core capabilities**\n1. **Learning:** adapting behavior from data and experience.\n2. **Reasoning:** drawing conclusions from available information.\n3. **Perception:** interpreting images, sounds or text.\n4. **Language understanding:** communicating in human languages (natural language processing).\n5. **Decision-making:** choosing actions based on goals and context.\n\n**Linking them:** the agent view uses the capabilities in order: the agent **perceives**, **reasons** and **learns**, then makes a **decision** and acts towards its goal.\n\n**Conclusion:** AI is the science and engineering of systems that learn, reason, perceive, understand language and decide, so that they can do tasks that normally need human intelligence.",
+      "rubric": [
+        {
+          "point": "AI as the field of computer science creating systems for tasks requiring human intelligence",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#8"
+        },
+        {
+          "point": "McCarthy (1956): science and engineering of making intelligent machines",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#9"
+        },
+        {
+          "point": "Modern definition: generating content, real-time interaction; subfields like machine learning, deep learning, natural language processing, computer vision, generative AI",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#10"
+        },
+        {
+          "point": "Russell and Norvig agent view: perceive environment, act to achieve goals",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#10"
+        },
+        {
+          "point": "Five capabilities: learning, reasoning, perception, language understanding, decision-making",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#11"
+        }
+      ],
+      "marks": 10.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "aib--aib-session3-4-introduction-to-ai#8",
+        "aib--aib-session3-4-introduction-to-ai#9",
+        "aib--aib-session3-4-introduction-to-ai#10",
+        "aib--aib-session3-4-introduction-to-ai#11"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
   "explain_back": {
     "prompt": "Define AI using the classic and the modern definitions, then list its five core capabilities.",
     "rubric": [

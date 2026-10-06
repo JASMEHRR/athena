@@ -449,7 +449,341 @@
       "retired": false
     }
   ],
-  "questions": [],
+  "questions": [
+    {
+      "id": "aib-s34-birth-of-ai-q-4d2cfc0f",
+      "type": "mcq",
+      "stem": "In which year was the term Artificial Intelligence coined at the Dartmouth Conference?",
+      "options": [
+        "1956",
+        "1950",
+        "1959",
+        "1965"
+      ],
+      "answer": "1956",
+      "accept": [],
+      "explanation": "1950 is the Turing Test and 1959 is Arthur Samuel's checkers program.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "recall",
+      "source_refs": [
+        "aib--aib-session3-4-introduction-to-ai#13"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s34-birth-of-ai-q-61afd202",
+      "type": "mcq",
+      "stem": "Who created one of the first machine learning programs, which played checkers, in 1959?",
+      "options": [
+        "Arthur Samuel",
+        "Alan Turing",
+        "Allen Newell",
+        "Herbert A. Simon"
+      ],
+      "answer": "Arthur Samuel",
+      "accept": [],
+      "explanation": "Newell and Simon built the Logic Theorist; Turing proposed the Turing Test.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "recall",
+      "source_refs": [
+        "aib--aib-session3-4-introduction-to-ai#13",
+        "aib--aib-session3-4-introduction-to-ai#28"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s34-birth-of-ai-q-e07f3cb0",
+      "type": "mcq",
+      "stem": "What did the Logic Theorist (1956) do?",
+      "options": [
+        "Proved 38 mathematical theorems from Principia Mathematica",
+        "Played checkers as an early machine learning program",
+        "Held text conversations with a judge to pass as human",
+        "Simulated a psychotherapist with reflective questions"
+      ],
+      "answer": "Proved 38 mathematical theorems from Principia Mathematica",
+      "accept": [],
+      "explanation": "It also found more elegant proofs than humans for some theorems.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "recall",
+      "source_refs": [
+        "aib--aib-session3-4-introduction-to-ai#28",
+        "aib--aib-session3-4-introduction-to-ai#13",
+        "aib--aib-session3-4-introduction-to-ai#27",
+        "aib--aib-session3-4-introduction-to-ai#15"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s34-birth-of-ai-q-05150b3f",
+      "type": "mcq",
+      "stem": "A human judge chats by text with a machine and a human. Under the Turing Test, what result means the machine passes?",
+      "options": [
+        "When the human judge cannot reliably tell which is the machine",
+        "When the machine proves mathematical theorems",
+        "When the machine shows it truly understands what it says",
+        "When the machine answers every question correctly"
+      ],
+      "answer": "When the human judge cannot reliably tell which is the machine",
+      "accept": [],
+      "explanation": "The judge chats by text with a machine and a human; failing to tell them apart means a pass.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "define",
+      "source_refs": [
+        "aib--aib-session3-4-introduction-to-ai#27",
+        "aib--aib-session3-4-introduction-to-ai#14"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s34-birth-of-ai-q-a230a182",
+      "type": "mcq",
+      "stem": "According to the slides, what was the Logic Theorist's role compared with the Turing Test?",
+      "options": [
+        "It proved that machine intelligence was possible",
+        "It defined what it means for a machine to be intelligent",
+        "It coined the term Artificial Intelligence",
+        "It was the first chatbot"
+      ],
+      "answer": "It proved that machine intelligence was possible",
+      "accept": [],
+      "explanation": "The Turing Test defined what intelligence means; the Logic Theorist proved it was possible.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "compare",
+      "source_refs": [
+        "aib--aib-session3-4-introduction-to-ai#29",
+        "aib--aib-session3-4-introduction-to-ai#13"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s34-birth-of-ai-q-0b72c756",
+      "type": "short",
+      "stem": "Explain the Turing Test: its purpose and how it works.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The Turing Test is the starting point of AI history in the deck.\n\n- **Origin:** proposed by **Alan Turing** in **1950** in his paper **Computing Machinery and Intelligence**. Instead of asking *Can machines think?*, he offered a practical test.\n- **Purpose:** to decide whether a machine can think or show **human-like intelligence**.\n- **How it works:** a **human judge** talks by **text** with both a **machine** and **another human**. If the judge **cannot reliably tell which is the machine**, the machine **passes**.\n- **Limitation:** the machine only has to **imitate human conversation**; it need not understand what it says.\n\nIt turned a philosophical question into something that could be tested.",
+      "rubric": [
+        {
+          "point": "Proposed by Alan Turing in 1950 in Computing Machinery and Intelligence",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#27"
+        },
+        {
+          "point": "Purpose: decide whether a machine can think or show human-like intelligence",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#27"
+        },
+        {
+          "point": "A human judge converses by text with a machine and another human",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#27"
+        },
+        {
+          "point": "Machine passes if the judge cannot reliably tell which is the machine",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#27"
+        },
+        {
+          "point": "Limitation: imitation, not real understanding",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#14"
+        }
+      ],
+      "marks": 5.0,
+      "difficulty": 1,
+      "style_tag": "explain",
+      "source_refs": [
+        "aib--aib-session3-4-introduction-to-ai#14",
+        "aib--aib-session3-4-introduction-to-ai#27"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s34-birth-of-ai-q-d87c0762",
+      "type": "short",
+      "stem": "Why is the Logic Theorist considered significant in AI history?",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The Logic Theorist (1956) is the second founding piece of AI in the deck.\n\n- **Developers:** **Allen Newell and Herbert A. Simon** at **RAND Corporation**.\n- **What it did:** proved **38 mathematical theorems** from **Principia Mathematica**, and found **more elegant proofs than humans** for some.\n- **Significance:** considered **the first AI program**; showed machines can do **symbolic reasoning**; presented at the **Dartmouth Summer Research Project**, the **official birth of AI as a field**.\n\nIt was proof that a machine could reason, not just calculate.",
+      "rubric": [
+        {
+          "point": "Developed by Allen Newell and Herbert A. Simon at RAND Corporation",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#28"
+        },
+        {
+          "point": "Proved 38 theorems from Principia Mathematica, some more elegantly than humans",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#28"
+        },
+        {
+          "point": "Considered the first AI program; showed machines can do symbolic reasoning",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#28"
+        },
+        {
+          "point": "Presented at the Dartmouth Summer Research Project, the official birth of AI",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#28"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 1,
+      "style_tag": "explain",
+      "source_refs": [
+        "aib--aib-session3-4-introduction-to-ai#28"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s34-birth-of-ai-q-8867207b",
+      "type": "short",
+      "stem": "State the three founding dates of AI given for the 1950s to 1960s.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The deck's timeline titled **The Birth of AI (1950s to 1960s)** gives three dates.\n\n- **1950:** **Alan Turing** proposes the **Turing Test**.\n- **1956:** the term **Artificial Intelligence** is coined at the **Dartmouth Conference**.\n- **1959:** **Arthur Samuel** creates one of the **first machine learning programs**, which played **checkers**.\n\nIn under ten years AI got a test, a name and its first learning program.",
+      "rubric": [
+        {
+          "point": "1950: Alan Turing proposes the Turing Test",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#13"
+        },
+        {
+          "point": "1956: Artificial Intelligence coined at the Dartmouth Conference",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#13"
+        },
+        {
+          "point": "1959: Arthur Samuel's checkers program, one of the first machine learning programs",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#13"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 1,
+      "style_tag": "list",
+      "source_refs": [
+        "aib--aib-session3-4-introduction-to-ai#13"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s34-birth-of-ai-q-47312eea",
+      "type": "long",
+      "stem": "Differentiate between the Turing Test and the Logic Theorist, and explain why together they mark the beginning of AI.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The deck calls the Turing Test and the Logic Theorist **the beginning of AI**. One asked a question; the other gave an answer.\n\n**1. Turing Test (1950)**\n- **Proposed by:** **Alan Turing** in **Computing Machinery and Intelligence**.\n- **What it is:** a **test**. A **human judge** converses by text with a machine and a human; if the judge **cannot reliably tell which is the machine**, it passes.\n- **Significance:** introduced the idea of **machine intelligence**; set the foundation for **human-AI interaction studies**; remains a **philosophical and technical benchmark** in AI ethics and design.\n- **Limitation:** the machine only needs to **imitate** conversation, not understand it.\n\n**2. Logic Theorist (1956)**\n- **Developed by:** **Allen Newell and Herbert A. Simon** at **RAND Corporation**.\n- **What it is:** a **working program**. It proved **38 theorems** from **Principia Mathematica**, some more elegantly than humans.\n- **Significance:** considered **the first AI program**; showed machines can do **symbolic reasoning**; presented at the **Dartmouth Summer Research Project**, the **official birth of AI as a field**.\n\n| Basis | Turing Test | Logic Theorist |\n|---|---|---|\n| Year | 1950 | 1956 |\n| Creator | Alan Turing | Newell and Simon |\n| Nature | A test (an idea) | A program (a working system) |\n| Contribution | Defined what machine intelligence means | Proved it was possible |\n\n**Why together they matter:** the slide says the **Turing Test defined what it means for a machine to be intelligent, while the Logic Theorist proved it was possible**. Together they started the **70+ year journey** from **symbolic logic to today's generative AI**.\n\n**Conclusion:** the Turing Test gave AI its goal and the Logic Theorist gave the first proof, which is why the deck puts them side by side as the beginning of AI.",
+      "rubric": [
+        {
+          "point": "Turing Test (1950) by Alan Turing: judge cannot reliably tell machine from human",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#27"
+        },
+        {
+          "point": "Turing Test significance: machine intelligence idea, benchmark; limitation: imitation only",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#14"
+        },
+        {
+          "point": "Logic Theorist (1956) by Newell and Simon at RAND: proved 38 theorems",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#28"
+        },
+        {
+          "point": "Logic Theorist: first AI program, symbolic reasoning, presented at Dartmouth",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#28"
+        },
+        {
+          "point": "Turing Test defined intelligence; Logic Theorist proved it was possible",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#29"
+        },
+        {
+          "point": "Together started the 70+ year journey from symbolic logic to generative AI",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#29"
+        }
+      ],
+      "marks": 10.0,
+      "difficulty": 2,
+      "style_tag": "differentiate",
+      "source_refs": [
+        "aib--aib-session3-4-introduction-to-ai#27",
+        "aib--aib-session3-4-introduction-to-ai#28",
+        "aib--aib-session3-4-introduction-to-ai#29",
+        "aib--aib-session3-4-introduction-to-ai#14"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s34-birth-of-ai-q-696ab88f",
+      "type": "long",
+      "stem": "Critically evaluate the Turing Test: its significance and its limitation, as presented in the slides.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The Turing Test is the deck's first milestone. It was hugely influential, but the slides also flag a weakness.\n\n**What it is**\n- Proposed by **Alan Turing** in **1950** in **Computing Machinery and Intelligence**. Instead of asking *Can machines think?* he proposed a **practical test**.\n- A **human judge** talks by **text** with a machine and another human. If the judge cannot reliably tell which is the machine, the machine passes.\n\n**Significance**\n- Introduced the **idea of machine intelligence**.\n- Laid the **theoretical foundation** for AI and inspired decades of AI research.\n- Set the foundation for **human-AI interaction studies**.\n- Remains a **philosophical and technical benchmark** in AI ethics and design.\n- The deck calls it **the spark that ignited the journey of AI**, turning science fiction into scientific pursuit.\n\n**Limitation**\n- The machine only needs to **imitate human conversation**.\n- It **does not necessarily understand** what it is saying.\n- So passing the test shows convincing behaviour, not proof of real thinking.\n\n**Evaluation:** the test was valuable because it made a vague question measurable, which gave AI a clear goal. Its weakness is that it judges the surface (the conversation) rather than understanding inside the machine.\n\n**Conclusion:** the Turing Test is the foundation and still a benchmark, but a pass measures imitation, not true understanding.",
+      "rubric": [
+        {
+          "point": "Alan Turing, 1950, Computing Machinery and Intelligence: a practical test instead of asking can machines think",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#14"
+        },
+        {
+          "point": "Judge converses by text with a machine and a human; pass if judge cannot tell",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#27"
+        },
+        {
+          "point": "Significance: machine intelligence idea, theoretical foundation, human-AI interaction studies, benchmark",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#27"
+        },
+        {
+          "point": "Limitation: only imitates conversation, does not necessarily understand",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#14"
+        },
+        {
+          "point": "Balanced evaluation: measurable goal versus imitation without understanding",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#14"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 3,
+      "style_tag": "evaluate",
+      "source_refs": [
+        "aib--aib-session3-4-introduction-to-ai#14",
+        "aib--aib-session3-4-introduction-to-ai#27"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
   "explain_back": {
     "prompt": "Explain how the Turing Test and the Logic Theorist started AI: what each was and why it mattered.",
     "rubric": [

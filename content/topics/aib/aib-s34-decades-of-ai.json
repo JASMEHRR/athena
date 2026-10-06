@@ -665,7 +665,414 @@
       "retired": false
     }
   ],
-  "questions": [],
+  "questions": [
+    {
+      "id": "aib-s34-decades-of-ai-q-3e82a57f",
+      "type": "mcq",
+      "stem": "Which example of an expert system does the slide give for the 1980s?",
+      "options": [
+        "XCON at Digital Equipment Corp",
+        "IBM's Deep Blue",
+        "AlexNet",
+        "AlphaGo"
+      ],
+      "answer": "XCON at Digital Equipment Corp",
+      "accept": [],
+      "explanation": "Deep Blue is the 1990s chess milestone; AlexNet and AlphaGo belong to the 2010s.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "example",
+      "source_refs": [
+        "aib--aib-session3-4-introduction-to-ai#21",
+        "aib--aib-session3-4-introduction-to-ai#22",
+        "aib--aib-session3-4-introduction-to-ai#24"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s34-decades-of-ai-q-ea5930dd",
+      "type": "mcq",
+      "stem": "Which 1990s milestone demonstrated the power of AI in complex strategic reasoning?",
+      "options": [
+        "IBM's Deep Blue defeating Garry Kasparov (1997)",
+        "AlphaGo defeating the Go champion (2016)",
+        "AlexNet winning ImageNet (2012)",
+        "XCON at Digital Equipment Corp"
+      ],
+      "answer": "IBM's Deep Blue defeating Garry Kasparov (1997)",
+      "accept": [],
+      "explanation": "Deep Blue beat the world chess champion in 1997, the 1990s rebound milestone.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "identify",
+      "source_refs": [
+        "aib--aib-session3-4-introduction-to-ai#22",
+        "aib--aib-session3-4-introduction-to-ai#24",
+        "aib--aib-session3-4-introduction-to-ai#21"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s34-decades-of-ai-q-c6bdfc5c",
+      "type": "mcq",
+      "stem": "What happened in 2006 according to the 2000s slide?",
+      "options": [
+        "Geoffrey Hinton coined the term deep learning",
+        "AlexNet won ImageNet using CNNs",
+        "GANs were introduced",
+        "AlphaGo defeated the Go champion"
+      ],
+      "answer": "Geoffrey Hinton coined the term deep learning",
+      "accept": [],
+      "explanation": "AlexNet is 2012, GANs 2014 and AlphaGo 2016.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "recall",
+      "source_refs": [
+        "aib--aib-session3-4-introduction-to-ai#23",
+        "aib--aib-session3-4-introduction-to-ai#24"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s34-decades-of-ai-q-54d4445b",
+      "type": "mcq",
+      "stem": "Which picture on the slides illustrates GANs (Generative Adversarial Networks)?",
+      "options": [
+        "A generator and a discriminator linked in a loop",
+        "Several trees feeding into voting or averaging",
+        "A scatter plot split by a dashed line",
+        "A branching decision tree"
+      ],
+      "answer": "A generator and a discriminator linked in a loop",
+      "accept": [],
+      "explanation": "The trees, scatter plot and branching tree show ensemble methods, SVM and decision trees on the 2000s slide.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "identify",
+      "source_refs": [
+        "aib--aib-session3-4-introduction-to-ai#24",
+        "aib--aib-session3-4-introduction-to-ai#23"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s34-decades-of-ai-q-47e3a9f2",
+      "type": "mcq",
+      "stem": "In the five-stage journey of AI, which stage is linked to the democratization of AI?",
+      "options": [
+        "Generative AI (2022 onwards)",
+        "Deep learning (2012 onwards)",
+        "Knowledge and learning (1980s to 2000s)",
+        "Rule-based conversation (1960s to 1970s)"
+      ],
+      "answer": "Generative AI (2022 onwards)",
+      "accept": [],
+      "explanation": "Large Language Models such as ChatGPT made AI accessible to millions of users.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "identify",
+      "source_refs": [
+        "aib--aib-session3-4-introduction-to-ai#12"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s34-decades-of-ai-q-b851ac49",
+      "type": "mcq",
+      "stem": "Which 2020s development does the slide date to 2024?",
+      "options": [
+        "India launches the IndiaAI Mission with a ₹10,300 Cr investment",
+        "GPT-3, DALL·E and ChatGPT emerge",
+        "AlexNet wins ImageNet using CNNs",
+        "Explosion in multimodal models"
+      ],
+      "answer": "India launches the IndiaAI Mission with a ₹10,300 Cr investment",
+      "accept": [],
+      "explanation": "GPT-3, DALL·E and ChatGPT are dated 2020 to 2023; multimodal models 2023 onwards; AlexNet is 2012.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "recall",
+      "source_refs": [
+        "aib--aib-session3-4-introduction-to-ai#25",
+        "aib--aib-session3-4-introduction-to-ai#24"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s34-decades-of-ai-q-9c5e432b",
+      "type": "short",
+      "stem": "List the five stages in the evolution of AI, with the key idea of each.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The deck's infographic shows AI's journey as **five stages**, each asking a bigger question.\n\n1. **Thinking about intelligence (1950):** *Can machines think?* **Alan Turing** proposed the Turing Test; theoretical foundation of AI.\n2. **Rule-based conversation (1960s to 1970s):** **ELIZA and PARRY** followed predefined rules; conversation with no real understanding.\n3. **Knowledge and learning (1980s to 2000s):** **expert systems and machine learning**; from hard-coded rules to learning patterns.\n4. **Deep learning (2012 onwards):** **neural networks** broke through in vision, speech and language.\n5. **Generative AI (2022 onwards):** **Large Language Models** like **ChatGPT**; the **democratization of AI**.\n\nThink, talk, learn, understand, then create and empower.",
+      "rubric": [
+        {
+          "point": "Thinking about intelligence (1950): Turing Test, theoretical foundation",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#12"
+        },
+        {
+          "point": "Rule-based conversation: ELIZA and PARRY with predefined rules",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#12"
+        },
+        {
+          "point": "Knowledge and learning: expert systems and machine learning, rules to learning patterns",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#12"
+        },
+        {
+          "point": "Deep learning (2012 onwards): neural networks in vision, speech, language",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#12"
+        },
+        {
+          "point": "Generative AI (2022 onwards): Large Language Models like ChatGPT, democratization of AI",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#12"
+        }
+      ],
+      "marks": 5.0,
+      "difficulty": 1,
+      "style_tag": "list",
+      "source_refs": [
+        "aib--aib-session3-4-introduction-to-ai#12"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s34-decades-of-ai-q-7b915ab9",
+      "type": "short",
+      "stem": "Describe AI in the 1970s and the 1980s as shown on the slides.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The two decades show AI's early hopes and its first commercial era.\n\n**1970s: Early hopes and limitations**\n- **Rule-based systems and expert systems** emerge.\n- **Funding begins to drop** as performance doesn't meet expectations, and the **AI Winter** begins.\n\n**1980s: Expert systems era**\n- **Rise of expert systems**, e.g. **XCON at Digital Equipment Corp**.\n- **Knowledge engineering** becomes a major focus, with **heavy industry and academic interest**.\n- Expert systems **captured human expert knowledge** to solve complex problems.\n\nThe 1970s ended in disappointment; the 1980s bet on expert knowledge.",
+      "rubric": [
+        {
+          "point": "1970s: rule-based and expert systems emerge",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#20"
+        },
+        {
+          "point": "1970s: funding drops as performance falls short; AI Winter begins",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#20"
+        },
+        {
+          "point": "1980s: rise of expert systems, e.g. XCON at Digital Equipment Corp",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#21"
+        },
+        {
+          "point": "1980s: knowledge engineering a major focus; heavy industry and academic interest",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#21"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 1,
+      "style_tag": "describe",
+      "source_refs": [
+        "aib--aib-session3-4-introduction-to-ai#20",
+        "aib--aib-session3-4-introduction-to-ai#21",
+        "aib--aib-session3-4-introduction-to-ai#17"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s34-decades-of-ai-q-b14c869e",
+      "type": "short",
+      "stem": "Explain how machine learning matured in the 2000s.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The 2000s slide is titled **Machine Learning Matures** and gives three developments.\n\n- **Advanced algorithms go mainstream:** **Support Vector Machines (SVM), decision trees and ensemble methods** became popular and improved predictions. The picture shows ensemble methods as several trees combined by **voting or averaging** into one prediction.\n- **2006: Geoffrey Hinton coins deep learning:** highlighting **multi-layer neural networks** that learn complex representations.\n- **Massive data and compute:** internet growth and powerful hardware allowed **larger models on bigger datasets**.\n\n**Impact:** AI research became **practical, scalable solutions**, setting the stage for the deep learning revolution.",
+      "rubric": [
+        {
+          "point": "SVMs, decision trees and ensemble methods became popular",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#23"
+        },
+        {
+          "point": "2006: Geoffrey Hinton coined deep learning for multi-layer neural networks",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#23"
+        },
+        {
+          "point": "Massive data and compute enabled larger models on bigger datasets",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#23"
+        },
+        {
+          "point": "Impact: practical, scalable solutions; set stage for deep learning revolution",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#23"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 1,
+      "style_tag": "explain",
+      "source_refs": [
+        "aib--aib-session3-4-introduction-to-ai#23"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s34-decades-of-ai-q-90c48fa0",
+      "type": "short",
+      "stem": "Differentiate the rule-based conversation stage from the knowledge and learning stage in the evolution of AI.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Stages 2 and 3 of the five-stage journey mark the move from rules to learning.\n\n| Basis | Rule-based conversation | Knowledge and learning |\n|---|---|---|\n| Period | 1960s to 1970s | 1980s to 2000s |\n| Systems | Chatbots like **ELIZA and PARRY** | **Expert systems and machine learning** |\n| How they worked | Followed **predefined rules** | **Learned patterns from data** and made predictions |\n| Limit or gain | Simulated conversation with **no real understanding or learning** | **Learning from data**, decision support |\n| Key question | Can machines talk? | Can machines learn? |\n\nThe big change is from **hard-coded rules** to **learning patterns**.",
+      "rubric": [
+        {
+          "point": "Rule-based stage: 1960s to 1970s, ELIZA and PARRY following predefined rules",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#12"
+        },
+        {
+          "point": "No real understanding or learning in the rule-based stage",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#12"
+        },
+        {
+          "point": "Knowledge and learning stage: 1980s to 2000s, expert systems and machine learning",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#12"
+        },
+        {
+          "point": "Shift from hard-coded rules to learning patterns and making predictions",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#12"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "differentiate",
+      "source_refs": [
+        "aib--aib-session3-4-introduction-to-ai#12"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s34-decades-of-ai-q-1f25c57a",
+      "type": "long",
+      "stem": "Explain the deep learning revolution of the 2010s: its landmarks, trends and impact.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The deck calls the 2010s the **Deep Learning Revolution**: the decade when deep learning became the engine of modern AI.\n\n**A. Four landmarks**\n1. **2012: AlexNet wins ImageNet using CNNs.** A **convolutional neural network** dramatically outperformed previous methods, **starting the deep learning boom**.\n2. **2014: GANs (Generative Adversarial Networks).** Machines could generate **highly realistic data**, opening up image generation, creativity and simulation. The picture shows a **generator** and a **discriminator** in a loop.\n3. **2016: AlphaGo defeats the Go champion** using **deep reinforcement learning combined with tree search**.\n4. **Voice assistants, facial recognition and language models** became part of everyday life.\n\n**B. Five trends**\n- **Deep learning goes mainstream:** more layers, more data and powerful **GPUs** made it the dominant approach.\n- **Big data and compute power:** explosion of data, cloud computing and GPUs enabled large, complex models.\n- **AI on mobile devices:** models optimized for phones, bringing AI to **billions of users**.\n- **Computer vision breakthroughs:** image classification, object detection, facial recognition.\n- **Language models evolve:** **from RNNs to Transformers**.\n\n**C. Impact**\n- Deep learning became **the engine of modern AI**, reaching **human-level performance** in many tasks and transforming industries, products and daily life.\n\n**Conclusion:** AlexNet started it, GANs and AlphaGo extended it, and GPUs, data and mobile devices spread it to everyday use.",
+      "rubric": [
+        {
+          "point": "2012: AlexNet wins ImageNet using CNNs, starting the deep learning boom",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#24"
+        },
+        {
+          "point": "2014: GANs introduced, generating realistic data (generator and discriminator)",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#24"
+        },
+        {
+          "point": "2016: AlphaGo defeats the Go champion with deep reinforcement learning and tree search",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#24"
+        },
+        {
+          "point": "Trends: deep learning mainstream, big data and GPUs, AI on mobile, computer vision",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#24"
+        },
+        {
+          "point": "Language models evolve from RNNs to Transformers",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#24"
+        },
+        {
+          "point": "Impact: deep learning became the engine of modern AI with human-level performance",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#24"
+        }
+      ],
+      "marks": 10.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "aib--aib-session3-4-introduction-to-ai#24"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s34-decades-of-ai-q-5e0ddb5f",
+      "type": "long",
+      "stem": "Trace the evolution of AI decade by decade from the 1970s to the 2020s.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The deck walks through AI one decade at a time. Each decade has a theme and a milestone.\n\n**1970s: Early hopes and limitations**\n- **Rule-based and expert systems** emerge.\n- **Funding drops** as performance misses expectations; the **AI Winter** begins.\n\n**1980s: Expert systems era**\n- **Rise of expert systems** such as **XCON at Digital Equipment Corp**.\n- **Knowledge engineering** becomes a major focus; heavy industry and academic interest.\n\n**1990s: AI rebounds with real applications**\n- **1997: IBM's Deep Blue defeats Garry Kasparov**, showing AI in complex strategic reasoning.\n- Progress in **natural language processing** and **speech recognition**, enabling hands-free, voice-based services.\n- AI moves **from labs to real-world solutions**.\n\n**2000s: Machine learning matures**\n- **SVMs, decision trees and ensemble methods** go mainstream.\n- **2006: Geoffrey Hinton coins deep learning**.\n- Massive data and compute allow larger models on bigger datasets.\n\n**2010s: Deep learning revolution**\n- **2012: AlexNet wins ImageNet using CNNs**; **2014: GANs**; **2016: AlphaGo** beats the Go champion.\n- Deep learning becomes **the engine of modern AI**.\n\n**2020s: Foundation models and generative AI**\n- **Transformers (BERT, GPT) dominate**.\n- **2020 to 2023:** **GPT-3, DALL·E, ChatGPT** emerge.\n- **2023 onwards:** multimodal models, **Large Language Models in industry** and **AI regulations**.\n- **India launches the IndiaAI Mission (2024)** with a **₹10,300 Cr** investment.\n\n**Conclusion:** AI moved from rules (1970s) to expert knowledge (1980s), real applications (1990s), machine learning (2000s), deep learning (2010s) and generative AI (2020s).",
+      "rubric": [
+        {
+          "point": "1970s: rule-based systems; funding drops and AI Winter begins",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#20"
+        },
+        {
+          "point": "1980s: expert systems like XCON; knowledge engineering",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#21"
+        },
+        {
+          "point": "1990s: Deep Blue beats Kasparov (1997); natural language processing and speech recognition progress",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#22"
+        },
+        {
+          "point": "2000s: SVMs, decision trees, ensembles; Hinton coins deep learning (2006)",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#23"
+        },
+        {
+          "point": "2010s: AlexNet (2012), GANs (2014), AlphaGo (2016)",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#24"
+        },
+        {
+          "point": "2020s: Transformers, GPT-3, ChatGPT, regulations, IndiaAI Mission (2024) with ₹10,300 Cr",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#25"
+        }
+      ],
+      "marks": 10.0,
+      "difficulty": 2,
+      "style_tag": "describe",
+      "source_refs": [
+        "aib--aib-session3-4-introduction-to-ai#20",
+        "aib--aib-session3-4-introduction-to-ai#21",
+        "aib--aib-session3-4-introduction-to-ai#22",
+        "aib--aib-session3-4-introduction-to-ai#23",
+        "aib--aib-session3-4-introduction-to-ai#24",
+        "aib--aib-session3-4-introduction-to-ai#25"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
   "explain_back": {
     "prompt": "Walk through AI's history decade by decade from the 1970s to the 2020s, naming at least one milestone for each.",
     "rubric": [

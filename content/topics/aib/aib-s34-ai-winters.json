@@ -349,7 +349,346 @@
       "retired": false
     }
   ],
-  "questions": [],
+  "questions": [
+    {
+      "id": "aib-s34-ai-winters-q-a3fc5028",
+      "type": "mcq",
+      "stem": "What does the term AI Winter refer to?",
+      "options": [
+        "Periods when enthusiasm, funding and progress in AI drastically declined",
+        "The rise of expert systems and knowledge engineering",
+        "The shift toward classical programming after expert systems succeeded",
+        "Periods when AI moved from labs to real-world solutions"
+      ],
+      "answer": "Periods when enthusiasm, funding and progress in AI drastically declined",
+      "accept": [],
+      "explanation": "AI winters usually came from unmet expectations; there were two major ones.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "define",
+      "source_refs": [
+        "aib--aib-session3-4-introduction-to-ai#30",
+        "aib--aib-session3-4-introduction-to-ai#32",
+        "aib--aib-session3-4-introduction-to-ai#21"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s34-ai-winters-q-337f2687",
+      "type": "mcq",
+      "stem": "Which 1973 report criticised AI's limited results and helped halt major funding?",
+      "options": [
+        "The UK's Lighthill Report",
+        "Japan's 5th Generation Project",
+        "Alan Turing's paper, Computing Machinery and Intelligence",
+        "The Dartmouth Summer Research Project"
+      ],
+      "answer": "The UK's Lighthill Report",
+      "accept": [],
+      "explanation": "DARPA and the Lighthill Report (1973) pulled back funding, causing the 1st AI winter.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "recall",
+      "source_refs": [
+        "aib--aib-session3-4-introduction-to-ai#31",
+        "aib--aib-session3-4-introduction-to-ai#32",
+        "aib--aib-session3-4-introduction-to-ai#27",
+        "aib--aib-session3-4-introduction-to-ai#28"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s34-ai-winters-q-d69dca94",
+      "type": "mcq",
+      "stem": "Japan's 5th Generation Project falling short is given as a cause of which period?",
+      "options": [
+        "The 2nd AI winter",
+        "The 1st AI winter",
+        "The AI comeback",
+        "The 1990s AI rebound"
+      ],
+      "answer": "The 2nd AI winter",
+      "accept": [],
+      "explanation": "It damaged global AI momentum in the late 1980s to early 1990s.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "identify",
+      "source_refs": [
+        "aib--aib-session3-4-introduction-to-ai#32",
+        "aib--aib-session3-4-introduction-to-ai#31"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s34-ai-winters-q-4574908a",
+      "type": "mcq",
+      "stem": "Which of these was an impact of the 2nd AI winter?",
+      "options": [
+        "Venture capital disappeared",
+        "AI research labs shut down",
+        "Hardware could not meet AI's compute needs",
+        "DARPA halted major funding"
+      ],
+      "answer": "Venture capital disappeared",
+      "accept": [],
+      "explanation": "Labs shutting down was an impact of the 1st winter; hardware limits and DARPA's pullback were 1st winter causes.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "identify",
+      "source_refs": [
+        "aib--aib-session3-4-introduction-to-ai#32",
+        "aib--aib-session3-4-introduction-to-ai#31"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s34-ai-winters-q-00dc945a",
+      "type": "mcq",
+      "stem": "Brittle expert systems that couldn't adapt or scale beyond narrow use-cases were a cause of which AI winter?",
+      "options": [
+        "The 1st AI winter (mid-1970s to mid-1980s)",
+        "The 2nd AI winter (late 1980s to early 1990s)",
+        "Both winters equally, as stated on the summary slide",
+        "Neither; it caused the AI comeback"
+      ],
+      "answer": "The 1st AI winter (mid-1970s to mid-1980s)",
+      "accept": [],
+      "explanation": "The 2nd winter is linked to failed commercial expert systems with soaring maintenance costs, a different cause.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "identify",
+      "source_refs": [
+        "aib--aib-session3-4-introduction-to-ai#31",
+        "aib--aib-session3-4-introduction-to-ai#32"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s34-ai-winters-q-63e08730",
+      "type": "short",
+      "stem": "What is an AI Winter? Explain with the slide's diagram.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The deck uses the idea of winter for the cold periods in AI's history.\n\n- **Meaning:** periods when **enthusiasm, funding and progress in AI drastically declined**, usually because of **unmet expectations**.\n- **How many:** **two major AI winters**.\n- **Diagram (AI Winters & Recoveries):** a line **drops into a valley** (the winter) and **climbs back to recovery**, with labels like **lack of computing power, reduced funding and disappointing results**.\n\nA winter is a slump caused by hype outrunning results.",
+      "rubric": [
+        {
+          "point": "Periods when enthusiasm, funding and progress in AI drastically declined",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#30"
+        },
+        {
+          "point": "Usually caused by unmet expectations; two major winters",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#30"
+        },
+        {
+          "point": "Diagram: decline into a valley then recovery; lack of computing power, reduced funding, disappointing results",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#33"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 1,
+      "style_tag": "define",
+      "source_refs": [
+        "aib--aib-session3-4-introduction-to-ai#30",
+        "aib--aib-session3-4-introduction-to-ai#33"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s34-ai-winters-q-3f8b976f",
+      "type": "short",
+      "stem": "Explain the causes of the 1st AI winter.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The 1st AI winter ran from the **mid-1970s to the mid-1980s**.\n\n- **Overpromising, underdelivering:** early AI systems, especially **rule-based programs**, failed to solve real-world problems.\n- **Hardware limitations:** compute power was **insufficient for complex tasks**.\n- **Brittle expert systems:** couldn't adapt or scale beyond narrow use-cases.\n- **Government pullback:** **DARPA** and the UK's **Lighthill Report (1973)** criticized AI's limited results and **halted major funding** (funding cuts, especially in the US and UK).\n\n**Impact:** labs shut down, funding dropped and AI **lost credibility** in academia and industry.",
+      "rubric": [
+        {
+          "point": "Overpromising and underdelivering by early rule-based programs",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#31"
+        },
+        {
+          "point": "Hardware limitations: insufficient compute power",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#31"
+        },
+        {
+          "point": "Brittle expert systems that couldn't adapt or scale",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#31"
+        },
+        {
+          "point": "Government pullback: DARPA and the Lighthill Report (1973) halted funding",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#31"
+        },
+        {
+          "point": "Impact: labs shut, funding dropped, AI lost credibility",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#31"
+        }
+      ],
+      "marks": 5.0,
+      "difficulty": 1,
+      "style_tag": "explain",
+      "source_refs": [
+        "aib--aib-session3-4-introduction-to-ai#31",
+        "aib--aib-session3-4-introduction-to-ai#33"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s34-ai-winters-q-5480e291",
+      "type": "short",
+      "stem": "What was the impact of the 2nd AI winter?",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The 2nd AI winter ran from the **late 1980s to the early 1990s**, after commercial expert systems disappointed.\n\n- **Venture capital disappeared.**\n- A **shift toward classical programming and simpler machine learning methods**.\n- AI became **absorbed into other domains** like **statistics, data mining and robotics**.\n- The summary picture adds **business and public disillusionment** and **lost momentum after Japan's project**.\n\nAI did not vanish; it went quiet and hid inside other fields.",
+      "rubric": [
+        {
+          "point": "Venture capital disappeared",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#32"
+        },
+        {
+          "point": "Shift toward classical programming and simpler machine learning methods",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#32"
+        },
+        {
+          "point": "AI absorbed into statistics, data mining and robotics",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#32"
+        },
+        {
+          "point": "Business and public disillusionment; lost momentum after Japan's project",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#33"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 1,
+      "style_tag": "explain",
+      "source_refs": [
+        "aib--aib-session3-4-introduction-to-ai#32",
+        "aib--aib-session3-4-introduction-to-ai#33"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s34-ai-winters-q-06da1395",
+      "type": "long",
+      "stem": "Differentiate between the 1st and the 2nd AI winters on period, causes and impact.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "An **AI winter** is a period when **enthusiasm, funding and progress in AI drastically declined**, usually because of **unmet expectations**. The deck describes **two major winters** with different causes.\n\n**1st AI winter (mid-1970s to mid-1980s)**\n- **Causes:**\n  - **Overpromising, underdelivering:** early **rule-based programs** failed on real-world problems.\n  - **Hardware limitations:** compute power was insufficient for complex tasks.\n  - **Brittle expert systems:** couldn't adapt or scale beyond narrow use-cases.\n  - **Government pullback:** **DARPA** and the UK's **Lighthill Report (1973)** halted major funding.\n- **Impact:** AI research labs **shut down**, funding **dropped dramatically**, AI **lost credibility** in academia and industry.\n\n**2nd AI winter (late 1980s to early 1990s)**\n- **Causes:**\n  - **Commercial expert systems failed:** businesses invested heavily, but **maintenance costs soared** and performance lagged.\n  - **Market saturation:** too many companies entered the AI race without real value.\n  - **AI became a buzzword:** **hype exceeded actual capability**.\n  - **Japan's 5th Generation Project** fell short, damaging global AI momentum.\n- **Impact:** **venture capital disappeared**; a shift to **classical programming and simpler machine learning**; AI was **absorbed into statistics, data mining and robotics**.\n\n| Basis | 1st AI winter | 2nd AI winter |\n|---|---|---|\n| Period | Mid-1970s to mid-1980s | Late 1980s to early 1990s |\n| Main trigger | Failed early promises, weak hardware | Failed commercial expert systems, hype |\n| Who pulled back | Governments (DARPA, UK) | Businesses and venture capital |\n| Impact | Labs shut, credibility lost | venture capital gone, AI absorbed into other fields |\n\n**Conclusion:** the 1st winter was a research and government funding crisis; the 2nd was a commercial crisis driven by costly expert systems and hype.",
+      "rubric": [
+        {
+          "point": "Definition: decline in enthusiasm, funding and progress due to unmet expectations",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#30"
+        },
+        {
+          "point": "1st winter causes: overpromising, hardware limits, brittle expert systems",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#31"
+        },
+        {
+          "point": "1st winter: DARPA and Lighthill Report (1973) halted funding; labs shut, credibility lost",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#31"
+        },
+        {
+          "point": "2nd winter causes: failed commercial expert systems, soaring maintenance costs, market saturation, hype",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#32"
+        },
+        {
+          "point": "2nd winter: Japan's 5th Generation Project; venture capital disappeared; AI absorbed into other domains",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#32"
+        },
+        {
+          "point": "Clear comparison on period, cause and impact",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#33"
+        }
+      ],
+      "marks": 10.0,
+      "difficulty": 2,
+      "style_tag": "differentiate",
+      "source_refs": [
+        "aib--aib-session3-4-introduction-to-ai#30",
+        "aib--aib-session3-4-introduction-to-ai#31",
+        "aib--aib-session3-4-introduction-to-ai#32",
+        "aib--aib-session3-4-introduction-to-ai#33"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s34-ai-winters-q-96886c7a",
+      "type": "long",
+      "stem": "Case: In the late 1980s many businesses invested heavily in commercial expert systems. Using the slides, (a) explain what went wrong, (b) describe the result for the AI field, and (c) state two lessons a manager can take from both AI winters.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "This is the story of the **2nd AI winter (late 1980s to early 1990s)**.\n\n**(a) What went wrong**\n- **Commercial expert systems failed:** businesses invested heavily, but **maintenance costs soared** and **performance lagged**.\n- **Market saturation:** **too many companies entered the AI race** without delivering real value.\n- **Hype:** AI became a **buzzword**; **hype exceeded actual capability**, causing disillusionment.\n- **Global setback:** **Japan's 5th Generation Project** fell short of revolutionizing computing.\n\n**(b) Result for the AI field**\n- **Venture capital disappeared.**\n- Firms shifted to **classical programming and simpler machine learning methods**.\n- AI was **absorbed into other domains** like statistics, data mining and robotics.\n- The summary picture adds **business and public disillusionment**.\n\n**(c) Lessons for a manager, from both winters**\n1. **Do not overpromise.** The 1st winter came from **overpromising and underdelivering**; the 2nd from hype exceeding capability. Expectations must match what the system can really do.\n2. **Count the full cost.** Expert systems that were **costly to maintain** and **brittle**, unable to scale beyond narrow use-cases, lost their backing. A manager should check running costs and scalability, not just the launch.\n\n**Conclusion:** the expert systems bet failed because of soaring costs, saturation and hype; the lesson is to match claims to real capability and real costs.",
+      "rubric": [
+        {
+          "point": "Commercial expert systems failed: heavy investment, soaring maintenance costs, lagging performance",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#32"
+        },
+        {
+          "point": "Market saturation and hype exceeding capability; Japan's 5th Generation Project fell short",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#32"
+        },
+        {
+          "point": "Result: venture capital disappeared; shift to classical programming; AI absorbed into other domains",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#32"
+        },
+        {
+          "point": "Lesson: avoid overpromising, as in both winters",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#31"
+        },
+        {
+          "point": "Lesson: weigh maintenance costs and scalability (brittle systems)",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#33"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 3,
+      "style_tag": "case",
+      "source_refs": [
+        "aib--aib-session3-4-introduction-to-ai#31",
+        "aib--aib-session3-4-introduction-to-ai#32",
+        "aib--aib-session3-4-introduction-to-ai#33"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
   "explain_back": {
     "prompt": "Why did AI go through two winters? Explain the causes and impact of each.",
     "rubric": [

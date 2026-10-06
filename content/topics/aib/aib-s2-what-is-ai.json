@@ -356,7 +356,360 @@
       "retired": false
     }
   ],
-  "questions": [],
+  "questions": [
+    {
+      "id": "aib-s2-what-is-ai-q-0a276f26",
+      "type": "mcq",
+      "stem": "According to the session 2 slides, which statement best describes artificial intelligence?",
+      "options": [
+        "A computer program which enables a machine to simulate human behavior like learning, planning and reasoning",
+        "A subset of machine learning that uses neural networks to mimic the human brain",
+        "A subset of AI that enables systems to learn from data",
+        "The overlap of robotics and artificial intelligence"
+      ],
+      "answer": "A computer program which enables a machine to simulate human behavior like learning, planning and reasoning",
+      "accept": [],
+      "explanation": "Slide 4 defines AI this way; the other options describe DL, ML and the intelligent robot.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "define",
+      "source_refs": [
+        "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#4",
+        "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#8"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s2-what-is-ai-q-4f0c0c31",
+      "type": "mcq",
+      "stem": "In the nested circles on the AI, ML and DL slide, which arrangement is correct?",
+      "options": [
+        "ML sits inside AI, and DL sits inside ML",
+        "DL sits inside AI, and ML sits inside DL",
+        "AI sits inside ML, and ML sits inside DL",
+        "AI, ML and DL are three separate circles that do not overlap"
+      ],
+      "answer": "ML sits inside AI, and DL sits inside ML",
+      "accept": [],
+      "explanation": "AI is the broadest field, ML is a subset of AI and DL is a subset of ML.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "identify",
+      "source_refs": [
+        "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#8"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s2-what-is-ai-q-ea7b0eec",
+      "type": "mcq",
+      "stem": "Spam email filtering is given on the slides as an example of which level?",
+      "options": [
+        "Machine Learning",
+        "Deep Learning",
+        "Robotics",
+        "Intelligent robot"
+      ],
+      "answer": "Machine Learning",
+      "accept": [],
+      "explanation": "Slide 8 lists spam email filtering, stock prediction and language translation under ML.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "example",
+      "source_refs": [
+        "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#8",
+        "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#4"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s2-what-is-ai-q-d666d4cb",
+      "type": "mcq",
+      "stem": "Where the robotics circle and the artificial intelligence circle overlap, what does the slide show?",
+      "options": [
+        "An intelligent robot",
+        "Deep learning",
+        "Machine learning",
+        "A recommendation engine"
+      ],
+      "answer": "An intelligent robot",
+      "accept": [],
+      "explanation": "Slide 4's Venn diagram points from the overlap of Robotics and AI to an Intelligent Robot.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "identify",
+      "source_refs": [
+        "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#4",
+        "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#8"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s2-what-is-ai-q-c465ffc7",
+      "type": "mcq",
+      "stem": "Autonomous driving appears on the slides as an example of which level?",
+      "options": [
+        "Deep Learning",
+        "Machine Learning, but not deep learning",
+        "Rule-based systems",
+        "Robotics without AI"
+      ],
+      "answer": "Deep Learning",
+      "accept": [],
+      "explanation": "Slide 8 lists voice assistants, image classification and autonomous driving under DL.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "example",
+      "source_refs": [
+        "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#8"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s2-what-is-ai-q-9ea8e45a",
+      "type": "mcq",
+      "stem": "Which three tools appear on the opening slide of session 2?",
+      "options": [
+        "ChatGPT, Copilot and Gemini",
+        "Siri, Alexa and Face ID",
+        "Haptik, Yellow.ai and Sarvam AI",
+        "Jasper AI, Mailchimp and Drift"
+      ],
+      "answer": "ChatGPT, Copilot and Gemini",
+      "accept": [],
+      "explanation": "Slide 2 shows three portraits above the ChatGPT, Copilot and Gemini logos.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "recall",
+      "source_refs": [
+        "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#2",
+        "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#3",
+        "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#7",
+        "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#9"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s2-what-is-ai-q-cdb1b43b",
+      "type": "short",
+      "stem": "Define artificial intelligence as given in the session 2 slides, with one example.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The session 2 slides give a simple, behaviour-based definition of AI.\n\n- **Definition:** AI is a **computer program which enables a machine to simulate human behavior**.\n- **Behaviours it simulates:** **learning, planning, reasoning, knowledge sharing and problem solving**.\n- **Key word:** *simulate*. The machine copies human behaviour; it is not human.\n- **Example from the slides:** saying **Hey Siri** to a phone, which understands and answers. The deck also opens with **ChatGPT, Copilot and Gemini** as the face of AI today.\n\nSo AI is software that lets a machine act in human-like ways.",
+      "rubric": [
+        {
+          "point": "AI is a computer program that enables a machine to simulate human behavior",
+          "source_ref": "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#4"
+        },
+        {
+          "point": "Lists behaviours: learning, planning, reasoning, knowledge sharing, problem solving",
+          "source_ref": "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#4"
+        },
+        {
+          "point": "Gives an example such as Hey Siri",
+          "source_ref": "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#4"
+        },
+        {
+          "point": "Mentions ChatGPT, Copilot or Gemini as tools of today",
+          "source_ref": "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#2"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 1,
+      "style_tag": "define",
+      "source_refs": [
+        "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#2",
+        "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#4"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s2-what-is-ai-q-f3b4f811",
+      "type": "short",
+      "stem": "What is an intelligent robot according to the slides?",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The slide explains the intelligent robot with a Venn diagram.\n\n- **Two circles:** one is **Robotics**, the other is **Artificial Intelligence**.\n- **The overlap:** where the two circles meet, the arrow points to an **Intelligent Robot**.\n- **Meaning:** robotics gives the machine a body that can move; AI adds the ability to **learn, plan and reason**, so the robot acts smartly instead of only repeating movements.\n\nIn short, robotics plus AI gives an intelligent robot.",
+      "rubric": [
+        {
+          "point": "Robotics and artificial intelligence are shown as two overlapping circles",
+          "source_ref": "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#4"
+        },
+        {
+          "point": "Their overlap produces an intelligent robot",
+          "source_ref": "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#4"
+        },
+        {
+          "point": "AI adds learning, planning and reasoning to the robot's movement",
+          "source_ref": "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#4"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 1,
+      "style_tag": "explain",
+      "source_refs": [
+        "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#4"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s2-what-is-ai-q-52bea618",
+      "type": "short",
+      "stem": "List one example each of AI, ML and DL as given on the slides.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Slide 8 gives examples at each of the three levels.\n\n- **Artificial Intelligence (AI):** chatbots, facial recognition, recommendation engines.\n- **Machine Learning (ML):** spam email filtering, stock prediction, language translation.\n- **Deep Learning (DL):** voice assistants, image classification, autonomous driving.\n\nAny one from each row earns the mark; remember each inner level is also part of the outer one.",
+      "rubric": [
+        {
+          "point": "AI example: chatbots, facial recognition or recommendation engines",
+          "source_ref": "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#8"
+        },
+        {
+          "point": "ML example: spam email filtering, stock prediction or language translation",
+          "source_ref": "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#8"
+        },
+        {
+          "point": "DL example: voice assistants, image classification or autonomous driving",
+          "source_ref": "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#8"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 1,
+      "style_tag": "list",
+      "source_refs": [
+        "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#8"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s2-what-is-ai-q-02759e94",
+      "type": "long",
+      "stem": "Differentiate between Artificial Intelligence, Machine Learning and Deep Learning with examples.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The slides show AI, ML and DL as **three circles, one inside the other**. Each inner circle is a narrower, more specialised part of the outer one.\n\n**1. Artificial Intelligence (AI): the broadest field**\n- It **simulates human intelligence**.\n- It covers everything from **rule-based systems to learning algorithms**.\n- Examples: **chatbots, facial recognition, recommendation engines**.\n\n**2. Machine Learning (ML): a subset of AI**\n- It **enables systems to learn from data**, instead of only following rules.\n- Examples: **spam email filtering, stock prediction, language translation**.\n\n**3. Deep Learning (DL): a subset of ML**\n- It **uses neural networks to mimic the human brain**.\n- Examples: **voice assistants, image classification, autonomous driving**.\n\n| Basis | AI | ML | DL |\n|---|---|---|---|\n| Scope | Broadest field | Subset of AI | Subset of ML |\n| Core idea | Simulates human intelligence | Learns from data | Neural networks like the human brain |\n| Example | Chatbots | Spam filtering | Autonomous driving |\n\n**How they connect:** every DL system is also ML, and every ML system is also AI, but not the other way round. A rule-based chatbot is AI without being ML.\n\nThe slide's wider definition ties it together: AI is a **computer program which enables a machine to simulate human behavior** like learning, planning and reasoning; ML and DL are two ways of doing the learning part.\n\n**Conclusion:** AI is the umbrella, ML is the data-learning part of it, and DL is the neural-network part of ML.",
+      "rubric": [
+        {
+          "point": "AI is the broadest field that simulates human intelligence, from rule-based systems to learning algorithms",
+          "source_ref": "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#8"
+        },
+        {
+          "point": "ML is a subset of AI that enables systems to learn from data",
+          "source_ref": "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#8"
+        },
+        {
+          "point": "DL is a subset of ML that uses neural networks to mimic the human brain",
+          "source_ref": "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#8"
+        },
+        {
+          "point": "Gives slide examples for each level (chatbots; spam filtering; autonomous driving)",
+          "source_ref": "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#8"
+        },
+        {
+          "point": "States the nesting: every DL system is ML and every ML system is AI",
+          "source_ref": "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#8"
+        },
+        {
+          "point": "Links to the definition of AI as a program simulating human behavior",
+          "source_ref": "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#4"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 2,
+      "style_tag": "differentiate",
+      "source_refs": [
+        "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#8",
+        "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#4"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s2-what-is-ai-q-ca3fc15c",
+      "type": "long",
+      "stem": "Case: A firm is reviewing three tools: a customer chatbot, a spam email filter and a voice assistant. (a) Place each tool at the most specific level (AI, ML or DL) the slides give. (b) Explain why all three still count as AI. (c) Explain what the firm gains by moving from a rule-based tool to a learning one.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The slide on the difference between AI, ML and DL lets us classify each tool by the examples it lists.\n\n**(a) Placing each tool**\n- **Customer chatbot: AI.** Slide 8 lists **chatbots** as an example of AI, the broadest field, which includes **rule-based systems**.\n- **Spam email filter: ML.** **Spam email filtering** is the slide's example of machine learning, which **learns from data**.\n- **Voice assistant: DL.** **Voice assistants** are listed under deep learning, which **uses neural networks to mimic the human brain**.\n\n**(b) Why all three are AI**\n- The circles are **nested**: ML is a **subset of AI** and DL is a **subset of ML**.\n- So the spam filter (ML) and the voice assistant (DL) sit inside the AI circle too.\n- All three fit the definition of AI as a **computer program which enables a machine to simulate human behavior** like learning, planning, reasoning and problem solving.\n\n**(c) From rule-based to learning**\n- AI on the slide runs from **rule-based systems to learning algorithms**.\n- A rule-based tool only does what its rules say. An ML tool **learns from data**, so it can improve as more data arrives, which is why spam filtering is an ML task.\n- A DL tool goes further, using **neural networks** for harder tasks like understanding a voice (the slides' **Hey Siri** example).\n\n**Conclusion:** the chatbot is AI, the filter is ML and the voice assistant is DL; all are AI, and moving towards learning lets the tool learn from data instead of fixed rules.",
+      "rubric": [
+        {
+          "point": "Chatbot placed at AI level (slide example of AI)",
+          "source_ref": "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#8"
+        },
+        {
+          "point": "Spam filter placed at ML level because ML learns from data",
+          "source_ref": "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#8"
+        },
+        {
+          "point": "Voice assistant placed at DL level because DL uses neural networks",
+          "source_ref": "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#8"
+        },
+        {
+          "point": "Explains nesting: ML is a subset of AI and DL a subset of ML, so all are AI",
+          "source_ref": "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#8"
+        },
+        {
+          "point": "AI ranges from rule-based systems to learning algorithms; learning tools learn from data",
+          "source_ref": "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#8"
+        },
+        {
+          "point": "Uses the definition of AI as simulating human behavior or the Hey Siri example",
+          "source_ref": "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#4"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 2,
+      "style_tag": "case",
+      "source_refs": [
+        "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#8",
+        "aib--sesssion-2-survival-for-the-fittest-adoption-of-ai#4"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
   "explain_back": {
     "prompt": "Explain what AI is and how AI, ML and DL relate to each other, with one example for each.",
     "rubric": [

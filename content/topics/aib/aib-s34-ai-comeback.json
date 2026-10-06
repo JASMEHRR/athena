@@ -543,7 +543,379 @@
       "retired": false
     }
   ],
-  "questions": [],
+  "questions": [
+    {
+      "id": "aib-s34-ai-comeback-q-a86d33ff",
+      "type": "mcq",
+      "stem": "What is the formula for the AI comeback shown on the slides?",
+      "options": [
+        "Big Data + GPUs + Deep Learning",
+        "Expert systems + Lisp machines + knowledge engineering",
+        "Rule-based systems + mainframes + ELIZA",
+        "Transformers + hyperscalers + cloud services"
+      ],
+      "answer": "Big Data + GPUs + Deep Learning",
+      "accept": [],
+      "explanation": "The picture is titled The AI Comeback: Big Data + GPUs + Deep Learning, on a 2000 to 2012 timeline.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "recall",
+      "source_refs": [
+        "aib--aib-session3-4-introduction-to-ai#41",
+        "aib--aib-session3-4-introduction-to-ai#39",
+        "aib--aib-session3-4-introduction-to-ai#40"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s34-ai-comeback-q-2a53bebb",
+      "type": "mcq",
+      "stem": "Who developed CUDA at NVIDIA in 2006?",
+      "options": [
+        "Ian Buck",
+        "Jeff Dean",
+        "Alex Krizhevsky",
+        "Yann LeCun"
+      ],
+      "answer": "Ian Buck",
+      "accept": [],
+      "explanation": "Jeff Dean built MapReduce, Krizhevsky co-built AlexNet, LeCun created CNNs.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "recall",
+      "source_refs": [
+        "aib--aib-session3-4-introduction-to-ai#36",
+        "aib--aib-session3-4-introduction-to-ai#35",
+        "aib--aib-session3-4-introduction-to-ai#37"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s34-ai-comeback-q-84918cbd",
+      "type": "mcq",
+      "stem": "Which combination did AlexNet (2012) use?",
+      "options": [
+        "Deep CNNs + ReLU activation + dropout + two GPUs",
+        "SVMs + decision trees + ensemble methods",
+        "Deep reinforcement learning + tree search",
+        "MapReduce + Google File System"
+      ],
+      "answer": "Deep CNNs + ReLU activation + dropout + two GPUs",
+      "accept": [],
+      "explanation": "Reinforcement learning with tree search is AlphaGo; MapReduce is Google's big data tool.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "recall",
+      "source_refs": [
+        "aib--aib-session3-4-introduction-to-ai#37",
+        "aib--aib-session3-4-introduction-to-ai#23",
+        "aib--aib-session3-4-introduction-to-ai#24",
+        "aib--aib-session3-4-introduction-to-ai#35"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s34-ai-comeback-q-7f209fd8",
+      "type": "mcq",
+      "stem": "Who are the Godfathers of Deep Learning who won the Turing Award in 2018?",
+      "options": [
+        "Geoffrey Hinton, Yann LeCun and Yoshua Bengio",
+        "Jeff Dean, Sanjay Ghemawat and Ian Buck",
+        "Alex Krizhevsky, Ilya Sutskever and Geoffrey Hinton",
+        "Ian Buck, Alex Krizhevsky and Yann LeCun"
+      ],
+      "answer": "Geoffrey Hinton, Yann LeCun and Yoshua Bengio",
+      "accept": [],
+      "explanation": "Krizhevsky, Sutskever and Hinton built AlexNet; Dean and Ghemawat are the big data pioneers.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "recall",
+      "source_refs": [
+        "aib--aib-session3-4-introduction-to-ai#37",
+        "aib--aib-session3-4-introduction-to-ai#38",
+        "aib--aib-session3-4-introduction-to-ai#36"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s34-ai-comeback-q-8b9c92ac",
+      "type": "mcq",
+      "stem": "In the synergy table, which component gave AI the raw material to learn?",
+      "options": [
+        "Big Data",
+        "GPUs",
+        "Deep Learning",
+        "Expert systems"
+      ],
+      "answer": "Big Data",
+      "accept": [],
+      "explanation": "GPUs made training fast and scalable; deep learning created models that learn deeply from data.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "identify",
+      "source_refs": [
+        "aib--aib-session3-4-introduction-to-ai#38"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s34-ai-comeback-q-6d1d42cc",
+      "type": "mcq",
+      "stem": "How much faster than CPUs did GPUs turn out to be for training deep neural networks?",
+      "options": [
+        "100x",
+        "10x",
+        "85x",
+        "2x"
+      ],
+      "answer": "100x",
+      "accept": [],
+      "explanation": "Training that took weeks on CPUs could be done in days or hours.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "recall",
+      "source_refs": [
+        "aib--aib-session3-4-introduction-to-ai#36",
+        "aib--aib-session3-4-introduction-to-ai#37"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s34-ai-comeback-q-f7d977fd",
+      "type": "short",
+      "stem": "Explain the role of big data as the fuel of the AI comeback.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Big data is the first of the three comeback ingredients.\n\n- **Key enablers:** **Google, Facebook, Amazon, Baidu, Microsoft** began collecting massive **user behavior, image, text and speech data** in the 2000s.\n- **Notable figures:** Google's **Jeff Dean and Sanjay Ghemawat** built **MapReduce** and the **Google File System** to process massive datasets.\n- **Cheap infrastructure:** **Amazon Web Services (AWS)** made storage and distributed computing affordable for startups and researchers.\n- **Impact:** AI models could train on **millions or billions of examples**, so deep learning could **generalize well**.\n\nWithout this data, deep learning would have had nothing to learn from.",
+      "rubric": [
+        {
+          "point": "Google, Facebook, Amazon, Baidu, Microsoft collected massive data in the 2000s",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#35"
+        },
+        {
+          "point": "Jeff Dean and Sanjay Ghemawat built MapReduce and the Google File System",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#35"
+        },
+        {
+          "point": "AWS made storage and distributed computing affordable",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#35"
+        },
+        {
+          "point": "Impact: training on millions or billions of examples so deep learning generalizes",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#35"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 1,
+      "style_tag": "explain",
+      "source_refs": [
+        "aib--aib-session3-4-introduction-to-ai#35"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s34-ai-comeback-q-62b2aaea",
+      "type": "short",
+      "stem": "Explain why GPUs are called the powerhouse of the AI comeback.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "GPUs are the second comeback ingredient.\n\n- **Key innovators:** **NVIDIA**, particularly **Ian Buck**, developer of **CUDA (2006)**; and **Alex Krizhevsky, Ilya Sutskever and Geoffrey Hinton**, who used GPUs for deep learning in **AlexNet (2012)**.\n- **Game-changer:** **CUDA (Compute Unified Device Architecture)** let researchers write **general-purpose programs on GPUs**.\n- **Speed:** GPUs turned out to be **100x faster than CPUs** for training deep neural networks.\n- **Impact:** training that took **weeks with CPUs** took **days or hours**, enabling rapid experimentation and breakthroughs in **vision, NLP and speech**.\n\nGPUs made deep learning fast enough to be practical.",
+      "rubric": [
+        {
+          "point": "NVIDIA's Ian Buck developed CUDA in 2006",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#36"
+        },
+        {
+          "point": "CUDA let researchers write general-purpose programs on GPUs",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#36"
+        },
+        {
+          "point": "GPUs were 100x faster than CPUs for training deep neural networks",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#36"
+        },
+        {
+          "point": "Training time cut from weeks to days or hours",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#36"
+        },
+        {
+          "point": "Krizhevsky, Sutskever and Hinton used GPUs in AlexNet (2012)",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#36"
+        }
+      ],
+      "marks": 5.0,
+      "difficulty": 1,
+      "style_tag": "explain",
+      "source_refs": [
+        "aib--aib-session3-4-introduction-to-ai#36",
+        "aib--aib-session3-4-introduction-to-ai#41"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s34-ai-comeback-q-b96aad80",
+      "type": "short",
+      "stem": "Why was AlexNet (2012) a breakthrough moment for deep learning?",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "AlexNet is the deck's breakthrough moment for the third ingredient, deep learning.\n\n- **Result:** won the **ImageNet competition** with **85% accuracy, 10% better than anyone before**.\n- **How:** **deep CNNs + ReLU activation + dropout + two GPUs**.\n- **Impact:** sparked massive interest in neural networks and an explosion of **AI startups**, **AI labs (Google Brain, DeepMind, OpenAI)** and real-world products.\n- The deck says **2012+ deep learning breakthroughs** such as AlexNet marked **AI's full comeback**.\n\nAlexNet proved that big data plus GPUs plus deep networks could beat every earlier method.",
+      "rubric": [
+        {
+          "point": "Won ImageNet with 85% accuracy, 10% better than anyone before",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#37"
+        },
+        {
+          "point": "Used deep CNNs, ReLU activation, dropout and two GPUs",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#37"
+        },
+        {
+          "point": "Sparked AI startups and labs such as Google Brain, DeepMind, OpenAI",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#37"
+        },
+        {
+          "point": "Marked AI's full comeback (2012+)",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#34"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 1,
+      "style_tag": "explain",
+      "source_refs": [
+        "aib--aib-session3-4-introduction-to-ai#37",
+        "aib--aib-session3-4-introduction-to-ai#34"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s34-ai-comeback-q-c2098f2f",
+      "type": "long",
+      "stem": "Explain the AI comeback as the synergy of Big Data, GPUs and Deep Learning, naming the pioneers of each.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "After the AI winters, AI returned through three forces working together. The deck sums it up as **The AI Comeback = Big Data + GPUs + Deep Learning**, on a timeline from **2000 to 2012**.\n\n**1. Big Data: the fuel**\n- **Google, Facebook, Amazon, Baidu, Microsoft** collected massive user behavior, image, text and speech data in the 2000s.\n- **Jeff Dean and Sanjay Ghemawat** (Google) built **MapReduce** and the **Google File System**; **AWS** made storage and distributed computing affordable.\n- **Impact:** models could train on **millions or billions of examples**.\n\n**2. GPUs: the powerhouse**\n- **Ian Buck** at **NVIDIA** developed **CUDA (2006)**, letting researchers write general-purpose programs on GPUs.\n- GPUs were **100x faster than CPUs** for training deep networks; **weeks became days or hours**.\n\n**3. Deep Learning: the brain**\n- **Geoffrey Hinton** (Father of Deep Learning), **Yann LeCun** (creator of **CNNs**) and **Yoshua Bengio** (sequence models and optimization), the **Godfathers of Deep Learning**, won the **Turing Award in 2018**.\n- **AlexNet (2012)** won **ImageNet** with **85% accuracy, 10% better than anyone before**, using deep CNNs, ReLU, dropout and two GPUs.\n\n**The synergy table**\n\n| Component | Pioneer(s) | Role |\n|---|---|---|\n| Big Data | Jeff Dean, Sanjay Ghemawat (Google) | Gave AI the **raw material to learn** |\n| GPUs | Ian Buck (NVIDIA), Krizhevsky | Made AI training **fast and scalable** |\n| Deep Learning | Hinton, LeCun, Bengio | Models that **learn deeply from data** |\n\nAlexNet shows the synergy best: the deck's diagram links both big data and GPUs to AlexNet (2012), which used deep CNNs.\n\n**Conclusion:** no single piece did it alone; data, compute and algorithms together brought AI back.",
+      "rubric": [
+        {
+          "point": "Formula: Big Data + GPUs + Deep Learning on a 2000 to 2012 timeline",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#41"
+        },
+        {
+          "point": "Big Data: tech giants' data; Dean and Ghemawat's MapReduce; AWS; raw material to learn",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#35"
+        },
+        {
+          "point": "GPUs: Ian Buck's CUDA (2006); 100x faster than CPUs; fast and scalable training",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#36"
+        },
+        {
+          "point": "Deep Learning: Hinton, LeCun, Bengio, Turing Award 2018",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#37"
+        },
+        {
+          "point": "AlexNet (2012): 85% accuracy on ImageNet using deep CNNs and two GPUs",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#37"
+        },
+        {
+          "point": "Synergy: each component's role in the table",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#38"
+        }
+      ],
+      "marks": 10.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "aib--aib-session3-4-introduction-to-ai#35",
+        "aib--aib-session3-4-introduction-to-ai#36",
+        "aib--aib-session3-4-introduction-to-ai#37",
+        "aib--aib-session3-4-introduction-to-ai#38",
+        "aib--aib-session3-4-introduction-to-ai#41",
+        "aib--aib-session3-4-introduction-to-ai#42"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-s34-ai-comeback-q-44c79393",
+      "type": "long",
+      "stem": "AI didn't come back by accident. Explain what changed after the AI winters and why around 2012 is called the start of an AI Renaissance.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The deck's conclusion says **AI didn't come back by accident**. Specific changes ended the winters.\n\n**What changed after the winters**\n- **Late 1990s to 2000s:** the rise of **faster processors, larger datasets and neural networks** rebooted AI research.\n- **2012+:** **deep learning breakthroughs** such as **AlexNet** marked **AI's full comeback**.\n\n**The three reasons AI returned**\n1. **Massive data availability**, thanks to the web.\n2. **Affordable compute power**, via **GPUs** (NVIDIA launched **CUDA in 2006**).\n3. **Powerful algorithms**: **deep neural networks**.\n\n**Why 2012 is the turning point**\n- In **2012**, **AlexNet** achieved breakthrough results in image classification, winning **ImageNet** with **85% accuracy, 10% better than anyone before**.\n- It **sparked massive interest** in neural networks and an explosion of **AI startups** and **AI labs (Google Brain, DeepMind, OpenAI)**.\n- The deck calls this the **AI Renaissance, launched around 2012**.\n\n**What it led to**\n- It laid the foundation for **GPT, DALL·E, AlphaFold, ChatGPT** and many more.\n\n**Conclusion:** data from the web, cheap GPU compute and deep neural networks came together around 2012, which is why the comeback was planned progress, not luck.",
+      "rubric": [
+        {
+          "point": "Late 1990s to 2000s: faster processors, larger datasets, neural networks rebooted research",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#34"
+        },
+        {
+          "point": "Three reasons: massive data (web), affordable compute (GPUs), powerful algorithms (deep neural networks)",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#42"
+        },
+        {
+          "point": "2012: AlexNet breakthrough in image classification marked the full comeback",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#41"
+        },
+        {
+          "point": "AlexNet sparked AI startups and labs (Google Brain, DeepMind, OpenAI)",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#37"
+        },
+        {
+          "point": "AI Renaissance around 2012 laid the foundation for GPT, DALL·E, AlphaFold, ChatGPT",
+          "source_ref": "aib--aib-session3-4-introduction-to-ai#42"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 2,
+      "style_tag": "discuss",
+      "source_refs": [
+        "aib--aib-session3-4-introduction-to-ai#34",
+        "aib--aib-session3-4-introduction-to-ai#37",
+        "aib--aib-session3-4-introduction-to-ai#41",
+        "aib--aib-session3-4-introduction-to-ai#42"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
   "explain_back": {
     "prompt": "Explain how and why AI made its comeback, naming the pioneers of each component.",
     "rubric": [
