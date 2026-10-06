@@ -568,7 +568,352 @@
       "retired": false
     }
   ],
-  "questions": [],
+  "questions": [
+    {
+      "id": "be-s12-manager-role-q-d2daa4b8",
+      "type": "long",
+      "stem": "Explain the factors that affect profitability, using the session's diagram of sustainable industry profits.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Profit maximization is the primary objective of most firms, and profits ensure survival, growth and returns to owners. But how much profit an industry can keep depends on the forces around it. The session's diagram puts **Sustainable Industry Profits** at the centre with **five sets of factors** pushing on it.\n\n**1. Entry.** How easily new firms can come in: **entry costs, speed of adjustment, sunk costs, economies of scale, network effects, reputation, switching costs** and **government restraints**.\n\n**2. Power of input suppliers.** How much suppliers can squeeze the firm: **supplier concentration**, the **price/productivity of alternative inputs**, **relationship-specific investments**, **supplier switching costs** and government restraints.\n\n**3. Power of buyers.** How much customers can push back: **buyer concentration**, the **price/value of substitute products or services**, relationship-specific investments, **customer switching costs** and government restraints.\n\n**4. Industry rivalry.** How hard existing firms compete: **concentration**; **price, quantity, quality or service competition**; **degree of differentiation**; switching costs; **timing of decisions**; **information**; and government restraints.\n\n**5. Substitutes and complements.** The **price/value of surrogate products or services**, the **price/value of complementary products or services**, network effects and government restraints.\n\n**Pattern to remember:** **government restraints** appear in every box, and switching costs and network effects show up in more than one.\n\n**Conclusion:** a manager who understands the nature of profits looks beyond the firm's own costs to these five forces, because together they decide whether industry profits can be sustained.",
+      "rubric": [
+        {
+          "point": "Sustainable industry profits at the centre, shaped by five sets of factors",
+          "source_ref": "be--session-1-and-2#16"
+        },
+        {
+          "point": "Entry: entry costs, sunk costs, economies of scale, network effects, reputation, switching costs",
+          "source_ref": "be--session-1-and-2#16"
+        },
+        {
+          "point": "Power of input suppliers and power of buyers: concentration, switching costs, relationship-specific investments, substitutes",
+          "source_ref": "be--session-1-and-2#16"
+        },
+        {
+          "point": "Industry rivalry: concentration, price/quantity/quality/service competition, differentiation, timing, information",
+          "source_ref": "be--session-1-and-2#16"
+        },
+        {
+          "point": "Substitutes and complements: price/value of surrogate and complementary products",
+          "source_ref": "be--session-1-and-2#16"
+        },
+        {
+          "point": "Government restraints appear in every box",
+          "source_ref": "be--session-1-and-2#16"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "be--session-1-and-2#16",
+        "be--session-1-and-2#14"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-manager-role-q-83becac9",
+      "type": "long",
+      "stem": "A manager must identify goals and constraints, understand profits and understand market dynamics. Explain each of these parts of the manager's role.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The session lists six parts of a manager's role. Three of them set the stage for every decision: goals and constraints, profits and the market.\n\n**1. Identify goals and constraints.**\n- **Sound decision making involves having well-defined goals**; clear goals lead to making the **\"right\" decisions**.\n- While chasing a goal, we **often face constraints**, and **constraints are an artifact of scarcity**: resources are limited.\n\n**2. Understand the nature of profits.**\n- **Profit maximization is the primary objective of most firms**; profits ensure **survival, growth and returns to owners**.\n- **Accounting profit = total revenue - explicit costs**; it is used in financial statements and ignores opportunity costs.\n- **Economic profit = total revenue - (explicit + implicit costs)**; it is used for managerial decisions and includes opportunity costs such as **owner's time, foregone salary, own building used for business**. It **provides a complete measure of profitability**.\n\n**3. Understand market dynamics.**\n- Markets involve **interactions among different participants**: **consumers vs producers**.\n- **Competition among consumers** for scarce goods and services, especially **when demand exceeds supply**.\n- **Competition among producers** for customers.\n- **Governments** influence markets through **laws, taxes, subsidies and regulations**.\n- **Market structure matters**: firm behaviour and profitability depend on the type of market.\n\n**Conclusion:** a manager sets clear goals within the limits of scarcity, judges success by economic profit, and reads how **consumers, competitors and government policies** shape the market environment.",
+      "rubric": [
+        {
+          "point": "Well-defined goals lead to the right decisions",
+          "source_ref": "be--session-1-and-2#13"
+        },
+        {
+          "point": "Constraints are an artifact of scarcity",
+          "source_ref": "be--session-1-and-2#13"
+        },
+        {
+          "point": "Profit maximization is the primary objective; profits ensure survival, growth, returns to owners",
+          "source_ref": "be--session-1-and-2#14"
+        },
+        {
+          "point": "Accounting vs economic profit; economic profit includes opportunity costs",
+          "source_ref": "be--session-1-and-2#15"
+        },
+        {
+          "point": "Market dynamics: consumers vs producers, competition among consumers and among producers",
+          "source_ref": "be--session-1-and-2#18"
+        },
+        {
+          "point": "Governments act through laws, taxes, subsidies, regulations; market structure matters",
+          "source_ref": "be--session-1-and-2#18"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "be--session-1-and-2#12",
+        "be--session-1-and-2#13",
+        "be--session-1-and-2#14",
+        "be--session-1-and-2#15",
+        "be--session-1-and-2#18"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-manager-role-q-d7f62826",
+      "type": "mcq",
+      "stem": "An owner uses her own building for the business instead of earning from it elsewhere. In which profit measure is this cost counted?",
+      "options": [
+        "Economic profit only",
+        "Accounting profit only",
+        "Both accounting and economic profit",
+        "Neither profit measure"
+      ],
+      "answer": "Economic profit only",
+      "accept": [],
+      "explanation": "Own building used for business is an implicit opportunity cost: economic profit includes it, accounting profit ignores it.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "apply",
+      "source_refs": [
+        "be--session-1-and-2#14",
+        "be--session-1-and-2#15"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-manager-role-q-78cc5a02",
+      "type": "mcq",
+      "stem": "Which of these is an example of an opportunity cost rather than an accounting cost?",
+      "options": [
+        "Owner's time",
+        "Wages",
+        "Rent",
+        "Electricity"
+      ],
+      "answer": "Owner's time",
+      "accept": [],
+      "explanation": "Wages, rent and electricity are explicit accounting costs on the income statement; the owner's time is a foregone implicit resource.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "apply",
+      "source_refs": [
+        "be--session-1-and-2#15"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-manager-role-q-67ab6741",
+      "type": "mcq",
+      "stem": "According to the session, profits ensure which three things?",
+      "options": [
+        "Survival, growth and returns to owners",
+        "Survival, wages and rent",
+        "Growth, subsidies and regulations",
+        "Entry, rivalry and switching costs"
+      ],
+      "answer": "Survival, growth and returns to owners",
+      "accept": [],
+      "explanation": "The nature of profits slide says profits ensure survival, growth and returns to owners.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "recall",
+      "source_refs": [
+        "be--session-1-and-2#14",
+        "be--session-1-and-2#15",
+        "be--session-1-and-2#16",
+        "be--session-1-and-2#18"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-manager-role-q-ed260745",
+      "type": "mcq",
+      "stem": "According to the session, effective managers design incentives that:",
+      "options": [
+        "align employees' interests with organizational goals",
+        "reduce explicit costs on the income statement",
+        "limit competition among producers",
+        "replace the need for well-defined goals"
+      ],
+      "answer": "align employees' interests with organizational goals",
+      "accept": [],
+      "explanation": "The incentives slide ends with this line, shown through the sales commission example.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "explain",
+      "source_refs": [
+        "be--session-1-and-2#17",
+        "be--session-1-and-2#15",
+        "be--session-1-and-2#18",
+        "be--session-1-and-2#13"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-manager-role-q-697975f7",
+      "type": "mcq",
+      "stem": "Supplier concentration and supplier switching costs belong to which box of the profitability diagram?",
+      "options": [
+        "Power of Input Suppliers",
+        "Power of Buyers",
+        "Industry Rivalry",
+        "Entry"
+      ],
+      "answer": "Power of Input Suppliers",
+      "accept": [],
+      "explanation": "Buyer concentration and customer switching costs sit under buyers; supplier factors sit under input suppliers.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "recall",
+      "source_refs": [
+        "be--session-1-and-2#16"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-manager-role-q-8ccfca42",
+      "type": "short",
+      "stem": "Explain who a manager is and the six parts of the role of a manager.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "A manager is the person who turns resources into results.\n\n- **Manager:** **someone who directs resources to achieve a stated business goal**, for instance by **purchasing inputs** or **deciding on the primary goal of the unit**.\n- **Role of a manager:**\n  1. **Identify goals and constraints** for the firm\n  2. Understand the **nature of profits**\n  3. Understand the **role of incentives**\n  4. Understand the **nature of the market** in which the firm operates\n  5. Understand the **time value of money**\n  6. Have the **ability to think at a margin**\n\nThese six parts are the map for the rest of the session.",
+      "rubric": [
+        {
+          "point": "Manager directs resources to achieve a stated business goal",
+          "source_ref": "be--session-1-and-2#11"
+        },
+        {
+          "point": "Examples: purchase inputs, decide on the primary goal of the unit",
+          "source_ref": "be--session-1-and-2#11"
+        },
+        {
+          "point": "Goals and constraints; nature of profits; role of incentives",
+          "source_ref": "be--session-1-and-2#12"
+        },
+        {
+          "point": "Nature of the market; time value of money; thinking at a margin",
+          "source_ref": "be--session-1-and-2#12"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 1,
+      "style_tag": "explain",
+      "source_refs": [
+        "be--session-1-and-2#11",
+        "be--session-1-and-2#12"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-manager-role-q-0bdca12d",
+      "type": "short",
+      "stem": "Differentiate between accounting profit and economic profit.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Both measure profit, but they treat costs differently.\n\n| Basis | Accounting profit | Economic profit |\n|---|---|---|\n| Formula | **Total Revenue - Explicit Costs** | **Total Revenue - (Explicit Costs + Implicit Costs)** |\n| Used for | **Financial statements** | **Managerial decision-making** |\n| Opportunity costs | **Ignores** them | **Includes** them |\n| Cost examples | Wages, rent, electricity, raw materials | Also owner's time, foregone salary, own building used for business |\n\nBecause economic profit is total revenue minus **total opportunity cost**, it **provides a complete measure of profitability**, which is why managers use it.",
+      "rubric": [
+        {
+          "point": "Accounting profit = total revenue - explicit costs",
+          "source_ref": "be--session-1-and-2#14"
+        },
+        {
+          "point": "Economic profit = total revenue - (explicit + implicit costs)",
+          "source_ref": "be--session-1-and-2#14"
+        },
+        {
+          "point": "Accounting profit for financial statements, economic profit for managerial decisions",
+          "source_ref": "be--session-1-and-2#14"
+        },
+        {
+          "point": "Economic profit includes opportunity costs such as owner's time or foregone salary",
+          "source_ref": "be--session-1-and-2#15"
+        },
+        {
+          "point": "Economic profit is a complete measure of profitability",
+          "source_ref": "be--session-1-and-2#15"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 2,
+      "style_tag": "differentiate",
+      "source_refs": [
+        "be--session-1-and-2#14",
+        "be--session-1-and-2#15"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-manager-role-q-9d1b46cd",
+      "type": "short",
+      "stem": "Explain the role of incentives in a firm, using the sales representative example.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Incentives are how a manager gets employees to want what the firm wants.\n\n- **Meaning:** managers use incentives to **encourage employees to work toward organizational goals**.\n- **Example: sales representative.**\n  - **Firm's goal:** increase sales.\n  - **Employee's incentive:** earn a **sales commission**.\n  - **Result:** higher effort leads to higher sales, which leads to **higher earnings for the employee and higher profits for the firm**.\n\nThe lesson: **effective managers design incentives that align employees' interests with organizational goals**, so both sides win.",
+      "rubric": [
+        {
+          "point": "Incentives encourage employees to work toward organizational goals",
+          "source_ref": "be--session-1-and-2#17"
+        },
+        {
+          "point": "Firm's goal: increase sales; employee's incentive: sales commission",
+          "source_ref": "be--session-1-and-2#17"
+        },
+        {
+          "point": "Higher effort, higher sales, higher earnings and higher profits",
+          "source_ref": "be--session-1-and-2#17"
+        },
+        {
+          "point": "Effective incentives align employees' interests with organizational goals",
+          "source_ref": "be--session-1-and-2#17"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 1,
+      "style_tag": "explain",
+      "source_refs": [
+        "be--session-1-and-2#17"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
   "explain_back": {
     "prompt": "Explain the difference between accounting profit and economic profit, and describe how incentives and market dynamics shape a manager's decisions, with the slides' examples.",
     "rubric": [

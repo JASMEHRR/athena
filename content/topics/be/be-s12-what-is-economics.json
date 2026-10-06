@@ -443,7 +443,340 @@
       "retired": false
     }
   ],
-  "questions": [],
+  "questions": [
+    {
+      "id": "be-s12-what-is-economics-q-b96b1e03",
+      "type": "long",
+      "stem": "Explain the four classic definitions of economics given in the session. How does the idea of scarcity develop across them?",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The session opens with four famous definitions of economics, in date order. Read together, they move from wealth, to welfare, to scarcity and choice.\n\n**1. Adam Smith (1776): wealth.** Economics is the study of the **nature and causes of the wealth of nations**. The focus is on what makes a nation rich.\n\n**2. Alfred Marshall (1890): welfare.** Economics is a study of **man in the ordinary business of life**. It looks at the part of individual and social action most closely connected with getting and using the **material requisites of well-being**. The focus shifts from wealth itself to people and their well-being.\n\n**3. Lionel Robbins (1932): scarcity and choice.** Economics is the science that studies **human behaviour as a relationship between ends and scarce means which have alternative uses**. Here scarcity enters directly: means are limited and each can be used in more than one way, so people must choose.\n\n**4. Paul Samuelson (1948): scarce resources, production and distribution.** Economics is the study of how societies use **scarce resources** to **produce valuable commodities** and **distribute them among different people**, examined across time and often using insights from history. Scarcity stays, and the questions of what to produce and who gets it are added.\n\n**How scarcity develops:** Smith and Marshall do not use the word scarce; Robbins and Samuelson put it at the centre. The next slide sums this up: **resources are scarce, have multiple uses, and the question is what is the best use**. In one line, **economics is the study of how society manages its scarce resources**.\n\n**Conclusion:** the definitions grow from wealth to well-being to scarce means and their best use, which is why scarcity runs through the rest of the course.",
+      "rubric": [
+        {
+          "point": "Adam Smith (1776): nature and causes of the wealth of nations",
+          "source_ref": "be--session-1-and-2#7"
+        },
+        {
+          "point": "Alfred Marshall (1890): man in the ordinary business of life, material requisites of well-being",
+          "source_ref": "be--session-1-and-2#7"
+        },
+        {
+          "point": "Lionel Robbins (1932): ends and scarce means which have alternative uses",
+          "source_ref": "be--session-1-and-2#7"
+        },
+        {
+          "point": "Paul Samuelson (1948): scarce resources used to produce valuable commodities and distribute them",
+          "source_ref": "be--session-1-and-2#7"
+        },
+        {
+          "point": "Scarcity appears in Robbins and Samuelson; resources are scarce with multiple uses, so look for the best use",
+          "source_ref": "be--session-1-and-2#8"
+        },
+        {
+          "point": "One line: economics is the study of how society manages its scarce resources",
+          "source_ref": "be--session-1-and-2#8"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "be--session-1-and-2#7",
+        "be--session-1-and-2#8"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-what-is-economics-q-52b16eb1",
+      "type": "long",
+      "stem": "Differentiate between economics and managerial economics. Use the session's definitions and examples, and show where the basic principles of economics fit in.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Economics and managerial economics share the same root, scarcity, but they differ in whose decisions they study and why.\n\n| Basis | Economics | Managerial economics |\n|---|---|---|\n| Definition | **The study of how society manages its scarce resources** | **The study of how to direct scarce resources in the way that most efficiently achieves a managerial goal** |\n| Focus | **Human behaviour: how people make decisions** | A manager's decisions for a firm or unit |\n| Key question | Resources are scarce and have multiple uses: **what is the best use?** | What best meets the **managerial goal**? |\n| Examples | How society uses its scarce resources | **What price** to charge, **how much output** to produce, **how many workers** to hire |\n| Leaning | The slide sets microeconomics vs macroeconomics side by side | **Leans heavily towards microeconomics** |\n\n**Where the basic principles fit in.** The six principles belong to economics, and managerial economics uses them as tools:\n\n- **People face trade-offs** and **opportunity costs**: every price, output or hiring choice gives up something else.\n- **Rational people think at the margin**: a manager asks whether one more unit or one more worker adds more than it costs.\n- **Incentives induce people to act**: managers use them to move employees towards goals.\n- **Markets organize economic activity efficiently (usually!)** and **governments can improve market outcomes**: the market and government shape the firm's environment.\n\n**Conclusion:** economics asks how society should use scarce resources; managerial economics narrows that to how a manager should direct them to reach a goal, using the same principles.",
+      "rubric": [
+        {
+          "point": "Economics: how society manages its scarce resources; study of how people make decisions",
+          "source_ref": "be--session-1-and-2#8"
+        },
+        {
+          "point": "Managerial economics: directing scarce resources to most efficiently achieve a managerial goal",
+          "source_ref": "be--session-1-and-2#10"
+        },
+        {
+          "point": "Examples: price to charge, output to produce, workers to hire",
+          "source_ref": "be--session-1-and-2#10"
+        },
+        {
+          "point": "Managerial economics leans heavily towards microeconomics",
+          "source_ref": "be--session-1-and-2#10"
+        },
+        {
+          "point": "Basic principles used as tools: trade-offs, opportunity costs, thinking at the margin, incentives, markets and governments",
+          "source_ref": "be--session-1-and-2#9"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 2,
+      "style_tag": "differentiate",
+      "source_refs": [
+        "be--session-1-and-2#8",
+        "be--session-1-and-2#9",
+        "be--session-1-and-2#10"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-what-is-economics-q-a0864ae2",
+      "type": "mcq",
+      "stem": "Which classic definition describes economics as a study of man in the ordinary business of life?",
+      "options": [
+        "Alfred Marshall (1890)",
+        "Adam Smith (1776)",
+        "Lionel Robbins (1932)",
+        "Paul Samuelson (1948)"
+      ],
+      "answer": "Alfred Marshall (1890)",
+      "accept": [],
+      "explanation": "Marshall linked economics to the ordinary business of life and the material requisites of well-being.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "recall",
+      "source_refs": [
+        "be--session-1-and-2#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-what-is-economics-q-cc444b27",
+      "type": "mcq",
+      "stem": "Adam Smith (1776) described economics as the study of:",
+      "options": [
+        "the nature and causes of the wealth of nations",
+        "man in the ordinary business of life",
+        "how societies use scarce resources to produce valuable commodities and distribute them",
+        "human behaviour as a relationship between ends and scarce means"
+      ],
+      "answer": "the nature and causes of the wealth of nations",
+      "accept": [],
+      "explanation": "The other three options are the Marshall, Samuelson and Robbins definitions.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "recall",
+      "source_refs": [
+        "be--session-1-and-2#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-what-is-economics-q-d20d1622",
+      "type": "mcq",
+      "stem": "Which of these is NOT one of the six basic principles of economics listed in the session?",
+      "options": [
+        "Profit maximization is the primary objective of most firms",
+        "People face trade-offs",
+        "Incentives induce people to act",
+        "Governments can improve market outcomes"
+      ],
+      "answer": "Profit maximization is the primary objective of most firms",
+      "accept": [],
+      "explanation": "Profit maximization comes from the slide on the nature of profits, not from the list of six principles.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "list",
+      "source_refs": [
+        "be--session-1-and-2#9",
+        "be--session-1-and-2#14"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-what-is-economics-q-3b0fc1db",
+      "type": "mcq",
+      "stem": "Which two of the four classic definitions explicitly use the word scarce?",
+      "options": [
+        "Robbins and Samuelson",
+        "Smith and Marshall",
+        "Smith and Robbins",
+        "Marshall and Samuelson"
+      ],
+      "answer": "Robbins and Samuelson",
+      "accept": [],
+      "explanation": "Robbins speaks of scarce means and Samuelson of scarce resources; Smith and Marshall do not use the word.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "be--session-1-and-2#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-what-is-economics-q-4ee66aa9",
+      "type": "mcq",
+      "stem": "A manager deciding how much output to produce is working in the field of:",
+      "options": [
+        "managerial economics",
+        "macroeconomics",
+        "the wealth of nations",
+        "insights from history"
+      ],
+      "answer": "managerial economics",
+      "accept": [],
+      "explanation": "How much output to produce is one of the slide's examples of a managerial economics question.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "apply",
+      "source_refs": [
+        "be--session-1-and-2#10",
+        "be--session-1-and-2#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-what-is-economics-q-28ccfb90",
+      "type": "short",
+      "stem": "Explain the meaning of economics in one line and why scarcity sits at its centre.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Economics is about choices, because we never have enough of everything.\n\n- **Economics** is the **study of human behaviour**, that is, **how people make decisions**.\n- **Resources are scarce** and **have multiple uses**, so the real question is always: **what is the best use?**\n- One-line definition: **economics is the study of how society manages its scarce resources.**\n\nThe professor's classic definitions show the same idea: Robbins speaks of **scarce means which have alternative uses**, and Samuelson of using **scarce resources** to produce and distribute commodities.\n\nSo scarcity is the reason economics exists: without it there would be no choice to study.",
+      "rubric": [
+        {
+          "point": "Economics studies human behaviour: how people make decisions",
+          "source_ref": "be--session-1-and-2#8"
+        },
+        {
+          "point": "Resources are scarce and have multiple uses, so we look for the best use",
+          "source_ref": "be--session-1-and-2#8"
+        },
+        {
+          "point": "One line: how society manages its scarce resources",
+          "source_ref": "be--session-1-and-2#8"
+        },
+        {
+          "point": "Link to Robbins or Samuelson, who both use the word scarce",
+          "source_ref": "be--session-1-and-2#7"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 1,
+      "style_tag": "explain",
+      "source_refs": [
+        "be--session-1-and-2#8",
+        "be--session-1-and-2#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-what-is-economics-q-6655f4d7",
+      "type": "short",
+      "stem": "Mention the six basic principles of economics discussed in the session.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The session lists six basic principles that guide how people and markets behave.\n\n1. **People face trade-offs.**\n2. **Opportunity costs.**\n3. **People are rational, and rational people think at the margin.**\n4. **Incentives induce people to act.**\n5. **Markets organize economic activity efficiently** (the slide adds: usually!).\n6. **Governments can improve market outcomes.**\n\nThese ideas return later in the session: opportunity cost in economic profit, incentives in the manager's role, and the margin in marginal analysis.\n\nTogether they are the economic way of thinking a manager uses every day.",
+      "rubric": [
+        {
+          "point": "People face trade-offs; opportunity costs",
+          "source_ref": "be--session-1-and-2#9"
+        },
+        {
+          "point": "Rational people think at the margin",
+          "source_ref": "be--session-1-and-2#9"
+        },
+        {
+          "point": "Incentives induce people to act",
+          "source_ref": "be--session-1-and-2#9"
+        },
+        {
+          "point": "Markets organize economic activity efficiently (usually)",
+          "source_ref": "be--session-1-and-2#9"
+        },
+        {
+          "point": "Governments can improve market outcomes",
+          "source_ref": "be--session-1-and-2#9"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 1,
+      "style_tag": "list",
+      "source_refs": [
+        "be--session-1-and-2#9"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-what-is-economics-q-a401788a",
+      "type": "short",
+      "stem": "What is managerial economics? Give the examples of questions it helps a manager answer.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Managerial economics applies economic thinking to the decisions of a firm.\n\n- **Definition:** the **study of how to direct scarce resources in the way that most efficiently achieves a managerial goal**.\n- **Typical questions** from the slide:\n  - **What price** should a firm charge for its product?\n  - **How much output** should be produced?\n  - **How many workers** should be hired?\n- **Leaning:** of microeconomics and macroeconomics, managerial economics **leans heavily towards microeconomics**, because these are one firm's own choices.\n\nIn short, it turns the study of scarce resources into practical price, output and hiring decisions.",
+      "rubric": [
+        {
+          "point": "Directing scarce resources to most efficiently achieve a managerial goal",
+          "source_ref": "be--session-1-and-2#10"
+        },
+        {
+          "point": "Example: what price to charge",
+          "source_ref": "be--session-1-and-2#10"
+        },
+        {
+          "point": "Examples: how much output, how many workers",
+          "source_ref": "be--session-1-and-2#10"
+        },
+        {
+          "point": "Leans heavily towards microeconomics",
+          "source_ref": "be--session-1-and-2#10"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 1,
+      "style_tag": "define",
+      "source_refs": [
+        "be--session-1-and-2#10"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
   "explain_back": {
     "prompt": "Explain what economics is and what managerial economics studies, using the definitions, principles and examples from the slides.",
     "rubric": [

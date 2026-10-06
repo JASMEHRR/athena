@@ -369,7 +369,377 @@
       "retired": false
     }
   ],
-  "questions": [],
+  "questions": [
+    {
+      "id": "be-s12-npv-q-9b865726",
+      "type": "long",
+      "stem": "You are buying a refrigerator for your company's break room. The energy-efficient model costs $550 and saves $28 in electricity at the end of each of the next 5 years. The standard model costs $420 with no savings. Your opportunity cost of funds is 5 percent. Using NPV, which model should you buy? Show full working and comment.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The question is whether paying more today is worth the savings later. NPV answers it by putting both in today's money.\n\n**Step 1: the extra cost today (C₀).** The efficient model costs 550 - 420 = **$130** more than the standard model.\n\n**Step 2: PV of the savings.** The savings are a series of $28 at the end of each of 5 years, discounted at 5%:\n\n| Year | Saving | Divide by | PV |\n|---|---|---|---|\n| 1 | 28 | (1.05)^1 | 26.67 |\n| 2 | 28 | (1.05)^2 | 25.40 |\n| 3 | 28 | (1.05)^3 | 24.19 |\n| 4 | 28 | (1.05)^4 | 23.04 |\n| 5 | 28 | (1.05)^5 | 21.94 |\n\nPV of savings ≈ **$121.23** (adding unrounded values).\n\n**Step 3: NPV of choosing the efficient model.** NPV = PV of savings - extra cost = 121.23 - 130 ≈ **-$8.77**.\n\n**Decision:** NPV < 0, so by the rule (**NPV < 0: reject**) the extra spend is not worth it. **Buy the standard model.**\n\n**Another way to see it:** in today's money the efficient model really costs 550 - 121.23 ≈ $428.77, which is more than the $420 standard model.\n\n**Comment:**\n- The savings add up to $140 in plain cash, which looks bigger than the $130 extra price.\n- Once discounted at the 5 percent opportunity cost of funds, they are worth only about $121.23.\n- This is why the session insists on comparing amounts at the same point in time.\n\n**Conclusion:** treat the extra price as the initial cost and the savings as future cash flows; here the NPV is negative, so the standard refrigerator is the better buy.",
+      "rubric": [
+        {
+          "point": "Extra price of the efficient model, 550 - 420, is the initial cost C₀",
+          "source_ref": "be--session-1-and-2#36"
+        },
+        {
+          "point": "Savings of $28 for 5 years are a series discounted at 5%",
+          "source_ref": "be--session-1-and-2#24"
+        },
+        {
+          "point": "PV of savings ≈ $121.23",
+          "source_ref": "be--session-1-and-2#36"
+        },
+        {
+          "point": "NPV = 121.23 - 130 ≈ -$8.77",
+          "source_ref": "be--session-1-and-2#31"
+        },
+        {
+          "point": "NPV < 0, so reject the extra spend and buy the standard model",
+          "source_ref": "be--session-1-and-2#31"
+        },
+        {
+          "point": "Comment: the undiscounted savings mislead; compare in today's money",
+          "source_ref": "be--session-1-and-2#36"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 3,
+      "style_tag": "case",
+      "source_refs": [
+        "be--session-1-and-2#36",
+        "be--session-1-and-2#31",
+        "be--session-1-and-2#24"
+      ],
+      "derived": [
+        "130",
+        "1.05",
+        "26.67",
+        "25.40",
+        "24.19",
+        "23.04",
+        "21.94",
+        "121.23",
+        "8.77",
+        "428.77",
+        "140"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-npv-q-d04bb876",
+      "type": "long",
+      "stem": "Explain Net Present Value and its decision rule. Apply it to the session's two worked examples, the $5,000 machine and the $20,000 project, and comment on the results.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Many investments cost money today and pay back over several years. NPV lets a manager judge them in today's money.\n\n**1. Meaning.** **Net Present Value** is the **sum of the present values of all future cash flows from a project, minus the initial cost**.\n\n**2. Formula.** If a manager can buy a stream of future receipts FV_t by **spending C₀ dollars today**:\n\nNPV = FV_1/(1 + i)^1 + FV_2/(1 + i)^2 + ... + FV_n/(1 + i)^n - C₀\n\n**3. Decision rule.**\n- **NPV > 0: accept** the project.\n- **NPV < 0: reject** the project.\n\n**4. Example 1: the machine.** Cost $5,000; $2,000 at the end of each of 3 years; 7%.\n- PV = 2000/(1.07)^1 + 2000/(1.07)^2 + 2000/(1.07)^3 = **$5,248.63**\n- NPV = 5,248.63 - 5000 = **$248.63**\n- NPV > 0, so **buy the machine**.\n\n**5. Example 2: the project.** Cost $20,000; $6,000, $8,000, $9,000 and $7,000 in Years 1 to 4; opportunity cost of funds 9%.\n- PV = 6000/(1.09)^1 + 8000/(1.09)^2 + 9000/(1.09)^3 + 7000/(1.09)^4 = **$24,146.65**\n- NPV = 24,146.65 - 20,000 = **$4,146.65**\n- NPV > 0, so **proceed with the project**.\n\n**6. Comment.**\n- Both pass the test, so both add value to the firm.\n- The machine only just passes: its receipts beat the cost by $248.63 once discounted.\n- The interest rate used is the **opportunity cost of funds**: what the money could earn elsewhere.\n\n**Conclusion:** NPV turns every cash flow into today's money and subtracts the cost; a positive NPV means accept, a negative NPV means reject.",
+      "rubric": [
+        {
+          "point": "Sum of PVs of future cash flows minus initial cost",
+          "source_ref": "be--session-1-and-2#31"
+        },
+        {
+          "point": "Formula with C₀ spent today; accept if NPV > 0, reject if NPV < 0",
+          "source_ref": "be--session-1-and-2#31"
+        },
+        {
+          "point": "Machine: PV $5,248.63, NPV $248.63, buy",
+          "source_ref": "be--session-1-and-2#33"
+        },
+        {
+          "point": "Project: PV $24,146.65, NPV $4,146.65, proceed",
+          "source_ref": "be--session-1-and-2#35"
+        },
+        {
+          "point": "Discount rate is the opportunity cost of funds",
+          "source_ref": "be--session-1-and-2#34"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "be--session-1-and-2#31",
+        "be--session-1-and-2#32",
+        "be--session-1-and-2#33",
+        "be--session-1-and-2#34",
+        "be--session-1-and-2#35"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-npv-q-a5e70e21",
+      "type": "mcq",
+      "stem": "A manager can buy a stream of future receipts FV_t by spending C₀ dollars today. Which expression gives the NPV?",
+      "options": [
+        "FV_1/(1 + i)^1 + ... + FV_n/(1 + i)^n - C₀",
+        "FV_1/(1 + i)^1 + ... + FV_n/(1 + i)^n + C₀",
+        "FV_1 + FV_2 + ... + FV_n - C₀",
+        "CF/i - C₀"
+      ],
+      "answer": "FV_1/(1 + i)^1 + ... + FV_n/(1 + i)^n - C₀",
+      "accept": [],
+      "explanation": "NPV is the sum of the present values of the future cash flows minus the initial cost.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "formula",
+      "source_refs": [
+        "be--session-1-and-2#31",
+        "be--session-1-and-2#37"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-npv-q-8a427149",
+      "type": "mcq",
+      "stem": "The $20,000 project's four cash flows have a PV of $24,146.65 at 9%. What are its NPV and the decision?",
+      "options": [
+        "$4,146.65, proceed with the project",
+        "$4,146.65, reject the project",
+        "$24,146.65, proceed with the project",
+        "-$4,146.65, reject the project"
+      ],
+      "answer": "$4,146.65, proceed with the project",
+      "accept": [],
+      "explanation": "NPV = 24,146.65 - 20,000 = $4,146.65, which is above zero, so proceed.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "numerical",
+      "source_refs": [
+        "be--session-1-and-2#34",
+        "be--session-1-and-2#35"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-npv-q-79c85642",
+      "type": "mcq",
+      "stem": "A machine costing $5,000 generates $2,000 at the end of each of the next 3 years. At 7%, the present value of its receipts is:",
+      "options": [
+        "$5,248.63",
+        "$6,000",
+        "$248.63",
+        "$5,000"
+      ],
+      "answer": "$5,248.63",
+      "accept": [],
+      "explanation": "Discounting each $2,000 at 7% gives $5,248.63; $6,000 ignores discounting and $248.63 is the NPV.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "be--session-1-and-2#32",
+        "be--session-1-and-2#33"
+      ],
+      "derived": [
+        "6,000"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-npv-q-545c3c6e",
+      "type": "mcq",
+      "stem": "When you compare the energy-efficient refrigerator with the standard one using NPV, what plays the role of the initial cost C₀?",
+      "options": [
+        "$130, the extra price of the efficient model",
+        "$550, the full price of the efficient model",
+        "$420, the price of the standard model",
+        "$28, the yearly saving"
+      ],
+      "answer": "$130, the extra price of the efficient model",
+      "accept": [],
+      "explanation": "The decision is whether paying 550 - 420 = $130 more today is worth $28 a year of savings.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "case",
+      "source_refs": [
+        "be--session-1-and-2#36",
+        "be--session-1-and-2#31"
+      ],
+      "derived": [
+        "130"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-npv-q-ae10eaa1",
+      "type": "mcq",
+      "stem": "In the $20,000 project question, the 9% rate used for discounting is described as the firm's:",
+      "options": [
+        "opportunity cost of funds",
+        "constant growth rate of profits",
+        "accounting profit margin",
+        "marginal cost"
+      ],
+      "answer": "opportunity cost of funds",
+      "accept": [],
+      "explanation": "The slide states the firm's opportunity cost of funds is 9%, and that is the rate used to discount.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "recall",
+      "source_refs": [
+        "be--session-1-and-2#34",
+        "be--session-1-and-2#44",
+        "be--session-1-and-2#14",
+        "be--session-1-and-2#48"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-npv-q-290e5883",
+      "type": "short",
+      "stem": "A machine costs $5,000 today and will generate $2,000 at the end of each of the next 3 years. At 7%, calculate the NPV. Should the firm buy it?",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "We compare what the machine gives back, in today's money, with what it costs today.\n\n**Formula:** NPV = FV_1/(1 + i)^1 + FV_2/(1 + i)^2 + FV_3/(1 + i)^3 - C₀\n\n**Given:** FV = $2000 a year; i = 7%; Cost = $5000.\n\n**Working:**\n- PV = 2000/(1.07)^1 + 2000/(1.07)^2 + 2000/(1.07)^3 ≈ 1,869.16 + 1,746.88 + 1,632.60 = **$5,248.63** (to the cent, using unrounded values)\n- NPV = PV - Cost = 5,248.63 - 5000 = **$248.63**\n\n**Decision:** NPV > 0, so **the firm should buy the machine**.",
+      "rubric": [
+        {
+          "point": "NPV = PV of receipts - cost",
+          "source_ref": "be--session-1-and-2#31"
+        },
+        {
+          "point": "PV of three $2,000 receipts at 7% = $5,248.63",
+          "source_ref": "be--session-1-and-2#33"
+        },
+        {
+          "point": "NPV = $248.63",
+          "source_ref": "be--session-1-and-2#33"
+        },
+        {
+          "point": "Decision: NPV > 0, buy the machine",
+          "source_ref": "be--session-1-and-2#33"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 1,
+      "style_tag": "numerical",
+      "source_refs": [
+        "be--session-1-and-2#32",
+        "be--session-1-and-2#33",
+        "be--session-1-and-2#31"
+      ],
+      "derived": [
+        "1,869.16",
+        "1,746.88",
+        "1,632.60"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-npv-q-bee947c2",
+      "type": "short",
+      "stem": "A project needs $20,000 today and returns $6,000, $8,000, $9,000 and $7,000 at the end of Years 1 to 4. The opportunity cost of funds is 9%. Compute the NPV and decide whether to proceed.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "NPV tells us whether the project's future cash flows, in today's money, beat its cost.\n\n**Formula:** NPV = FV_1/(1 + i)^1 + ... + FV_4/(1 + i)^4 - C₀\n\n**Given:** FV = 6000, 8000, 9000, 7000; i = 9%; Cost = $20000.\n\n**Working:**\n\n| Year | Cash flow | Divide by | PV |\n|---|---|---|---|\n| 1 | 6000 | (1.09)^1 | 5,504.59 |\n| 2 | 8000 | (1.09)^2 | 6,733.44 |\n| 3 | 9000 | (1.09)^3 | 6,949.65 |\n| 4 | 7000 | (1.09)^4 | 4,958.98 |\n\n- PV = **$24,146.65** (adding unrounded values)\n- NPV = 24,146.65 - 20,000 = **$4,146.65**\n\n**Decision:** NPV > 0, so **the firm should proceed with the project**.",
+      "rubric": [
+        {
+          "point": "Writes the NPV formula with C₀ = $20,000",
+          "source_ref": "be--session-1-and-2#31"
+        },
+        {
+          "point": "Discounts each year's flow at 9% to its own year",
+          "source_ref": "be--session-1-and-2#35"
+        },
+        {
+          "point": "PV = $24,146.65",
+          "source_ref": "be--session-1-and-2#35"
+        },
+        {
+          "point": "NPV = $4,146.65",
+          "source_ref": "be--session-1-and-2#35"
+        },
+        {
+          "point": "Decision: NPV > 0, proceed",
+          "source_ref": "be--session-1-and-2#35"
+        }
+      ],
+      "marks": 5.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "be--session-1-and-2#34",
+        "be--session-1-and-2#35",
+        "be--session-1-and-2#31"
+      ],
+      "derived": [
+        "5,504.59",
+        "6,733.44",
+        "6,949.65",
+        "4,958.98"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-npv-q-f9a5d23f",
+      "type": "short",
+      "stem": "Explain Net Present Value and its decision rule.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "NPV is the manager's test for whether an investment is worth its price.\n\n- **Meaning:** NPV is the **sum of the present values of all future cash flows from a project, minus the initial cost**.\n- **Formula:** if a manager spends **C₀ dollars today** to buy future receipts FV_t, NPV = FV_1/(1 + i)^1 + FV_2/(1 + i)^2 + ... + FV_n/(1 + i)^n - C₀.\n- **Decision rule:** **NPV > 0: accept** the project; **NPV < 0: reject** it.\n\n**Example:** a $5,000 machine returning $2,000 a year for 3 years at 7% has NPV = 5,248.63 - 5000 = **$248.63**, so the firm should buy it.\n\nIn short, accept only when what you get back, in today's money, beats what you pay today.",
+      "rubric": [
+        {
+          "point": "Sum of PVs of all future cash flows minus initial cost",
+          "source_ref": "be--session-1-and-2#31"
+        },
+        {
+          "point": "Formula with C₀ spent today",
+          "source_ref": "be--session-1-and-2#31"
+        },
+        {
+          "point": "Accept if NPV > 0, reject if NPV < 0",
+          "source_ref": "be--session-1-and-2#31"
+        },
+        {
+          "point": "Example: machine NPV = $248.63, buy",
+          "source_ref": "be--session-1-and-2#33"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 1,
+      "style_tag": "explain",
+      "source_refs": [
+        "be--session-1-and-2#31",
+        "be--session-1-and-2#33"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
   "explain_back": {
     "prompt": "Explain net present value and its decision rule, and work through the $5,000 machine example from the slides.",
     "rubric": [

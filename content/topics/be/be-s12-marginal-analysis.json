@@ -583,7 +583,344 @@
       "retired": false
     }
   ],
-  "questions": [],
+  "questions": [
+    {
+      "id": "be-s12-marginal-analysis-q-bb48ec0c",
+      "type": "long",
+      "stem": "Explain the marginal principle and the geometry of optimization. Why does net benefit peak where MB = MC?",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Optimal decisions are made at the margin. The marginal principle tells a manager how far to push any decision.\n\n**1. Marginal benefit and marginal cost.**\n- **MB:** the additional benefit from taking **one more unit** of an action.\n- **MC:** the additional cost from taking **one more unit** of an action.\n- Rule: **take an action only if MB > MC**. Examples: produce one more unit, hire one more worker, spend ₹10,000 more on advertising.\n\n**2. The marginal principle.** To **maximize net benefits**, the managerial control variable should be **increased up to the point where MB = MC**.\n- **MB > MC:** the last unit **increased benefits more than it increased costs**, so going further still adds net benefit.\n- **MB < MC:** the last unit **increased costs more than it increased benefits**, so you have gone too far.\n\n**3. The geometry of optimization (two graphs).**\n- **Total benefits and total costs (left graph):** benefits are a straight line whose **slope = MB**; costs are a curve that rises slowly, then steeply. At **Q\\*** the tangent to the costs curve (**slope = MC**) is **parallel** to the benefits line, so **MB = MC**. That is where the **vertical gap between benefits (B) and costs (C) is largest**.\n- **Net benefits (right graph):** net benefits rise, **peak at Q\\*** and then fall. At the peak the tangent is flat (**slope = MNB**), marked **maximum net benefits**.\n\n**4. Why the peak is at MB = MC.** Before Q\\*, each unit adds more benefit than cost, so net benefits climb. After Q\\*, each unit adds more cost than benefit, so net benefits fall. The turning point is exactly where the two slopes are equal.\n\n**Conclusion:** keep increasing the control variable while MB > MC and stop where MB = MC; that is where net benefits are maximized.",
+      "rubric": [
+        {
+          "point": "MB and MC defined; take an action only if MB > MC",
+          "source_ref": "be--session-1-and-2#48"
+        },
+        {
+          "point": "Marginal principle: increase the control variable up to MB = MC",
+          "source_ref": "be--session-1-and-2#50"
+        },
+        {
+          "point": "MB > MC: keep going; MB < MC: gone too far",
+          "source_ref": "be--session-1-and-2#50"
+        },
+        {
+          "point": "Left graph: at Q* slope of costs (MC) equals slope of benefits (MB); gap B - C largest",
+          "source_ref": "be--session-1-and-2#51"
+        },
+        {
+          "point": "Right graph: net benefits peak at Q*, where the slope (MNB) is flat",
+          "source_ref": "be--session-1-and-2#51"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "be--session-1-and-2#48",
+        "be--session-1-and-2#49",
+        "be--session-1-and-2#50",
+        "be--session-1-and-2#51"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-marginal-analysis-q-df35d1dc",
+      "type": "long",
+      "stem": "A firm can only produce in whole units. TR and TC are: Q = 0 to 6; TR = 0, 90, 170, 240, 300, 350, 390; TC = 0, 50, 90, 140, 200, 270, 350. Using marginal analysis, find the profit-maximizing quantity. Show the full table and comment.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Output comes only in whole units, so this is a **discrete decision**: we use a table, not calculus.\n\n**Formulas:** MR_q = TR_q - TR_(q-1); MC_q = TC_q - TC_(q-1); Profit = TR - TC.\n\n| Q | TR | TC | MR | MC | MR - MC | Profit |\n|---|---|---|---|---|---|---|\n| 0 | 0 | 0 | - | - | - | 0 |\n| 1 | 90 | 50 | 90 | 50 | 40 | 40 |\n| 2 | 170 | 90 | 80 | 40 | 40 | 80 |\n| 3 | 240 | 140 | 70 | 50 | 20 | 100 |\n| 4 | 300 | 200 | 60 | 60 | 0 | 100 |\n| 5 | 350 | 270 | 50 | 70 | -20 | 80 |\n| 6 | 390 | 350 | 40 | 80 | -40 | 40 |\n\n**Decision rule:** produce another unit if **MR > MC**; **stop when MR = MC**.\n\n**Answer:**\n- MR > MC for units 1 to 3, so each adds to profit.\n- At **Q = 4, MR = MC = 60**: stop here. Profit = 300 - 200 = **100**.\n- From Q = 5 on, MC is above MR and profit falls (80, then 40).\n\n**Comment:**\n- Q = 3 gives the same profit of 100; the 4th unit adds nothing (marginal profit 0). By the slide's rule the firm stops at Q = 4, where MR = MC.\n- The profit column confirms the marginal answer: profit peaks exactly where MR stops being bigger than MC.\n\n**Conclusion:** for whole-unit decisions, build MR and MC from the changes in TR and TC, produce while MR > MC, and stop at MR = MC.",
+      "rubric": [
+        {
+          "point": "Whole units means a discrete decision solved with a table",
+          "source_ref": "be--session-1-and-2#52"
+        },
+        {
+          "point": "MR and MC computed from changes in TR and TC",
+          "source_ref": "be--session-1-and-2#54"
+        },
+        {
+          "point": "Correct MR (90, 80, 70, 60, 50, 40) and MC (50, 40, 50, 60, 70, 80)",
+          "source_ref": "be--session-1-and-2#60"
+        },
+        {
+          "point": "MR = MC = 60 at Q = 4; stop there",
+          "source_ref": "be--session-1-and-2#54"
+        },
+        {
+          "point": "Maximum profit = 100 (same at Q = 3; 4th unit adds zero)",
+          "source_ref": "be--session-1-and-2#60"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "be--session-1-and-2#60",
+        "be--session-1-and-2#54",
+        "be--session-1-and-2#52"
+      ],
+      "derived": [
+        "80",
+        "100",
+        "40",
+        "60",
+        "70",
+        "20"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-marginal-analysis-q-76757144",
+      "type": "mcq",
+      "stem": "At the current level of a managerial control variable, MB > MC. According to the marginal principle, the manager should:",
+      "options": [
+        "increase the control variable",
+        "decrease the control variable",
+        "stop, because net benefits are already at their maximum",
+        "ignore costs and focus only on benefits"
+      ],
+      "answer": "increase the control variable",
+      "accept": [],
+      "explanation": "MB > MC means the last unit added more to benefits than to costs, so keep increasing up to MB = MC.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "apply",
+      "source_refs": [
+        "be--session-1-and-2#50"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-marginal-analysis-q-8ff3db8a",
+      "type": "mcq",
+      "stem": "Which of these is an example of a discrete decision?",
+      "options": [
+        "Open another store",
+        "Set the selling price",
+        "Decide advertising expenditure",
+        "Any choice that can take any value"
+      ],
+      "answer": "Open another store",
+      "accept": [],
+      "explanation": "Discrete decisions come in whole units (hire one more worker, open another store); price and advertising spend are continuous.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "apply",
+      "source_refs": [
+        "be--session-1-and-2#52"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-marginal-analysis-q-bccd0d08",
+      "type": "mcq",
+      "stem": "In the slide's table, TC is 70 at output 2 and 110 at output 3. What is the marginal cost of the 3rd unit?",
+      "options": [
+        "40",
+        "110",
+        "50",
+        "30"
+      ],
+      "answer": "40",
+      "accept": [],
+      "explanation": "MC_q = TC_q - TC_(q-1) = 110 - 70 = 40.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "numerical",
+      "source_refs": [
+        "be--session-1-and-2#53",
+        "be--session-1-and-2#54"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-marginal-analysis-q-81d38af4",
+      "type": "mcq",
+      "stem": "On the total benefits and total costs graph, the optimal quantity Q* is where:",
+      "options": [
+        "the slope of the costs curve equals the slope of the benefits line (MB = MC)",
+        "the costs curve crosses the benefits line",
+        "total benefits are at their highest",
+        "total costs are zero"
+      ],
+      "answer": "the slope of the costs curve equals the slope of the benefits line (MB = MC)",
+      "accept": [],
+      "explanation": "At Q* the tangent to the costs curve is parallel to the benefits line, so the gap between benefits and costs is largest.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "be--session-1-and-2#51"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-marginal-analysis-q-5705cb50",
+      "type": "mcq",
+      "stem": "In the whole-units practice table, TR is 90 at Q = 1 and 170 at Q = 2. What is the marginal revenue of the 2nd unit?",
+      "options": [
+        "80",
+        "170",
+        "90",
+        "40"
+      ],
+      "answer": "80",
+      "accept": [],
+      "explanation": "MR_q = TR_q - TR_(q-1) = 170 - 90 = 80.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "numerical",
+      "source_refs": [
+        "be--session-1-and-2#60",
+        "be--session-1-and-2#54"
+      ],
+      "derived": [
+        "80"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-marginal-analysis-q-d638608c",
+      "type": "short",
+      "stem": "Explain thinking at the margin. When should a manager take an action? Give the session's examples.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Managers decide by looking at the next step, not the total.\n\n- **Incremental behaviour:** managers compare the **additional (incremental) benefits** and **additional (incremental) costs** of an action.\n- **Marginal Benefit (MB):** the additional benefit from taking **one more unit** of an action.\n- **Marginal Cost (MC):** the additional cost from taking **one more unit** of an action.\n- **Rule:** **take an action only if MB > MC.**\n\n**Examples:** should the firm produce one more unit, hire one more worker, or spend ₹10,000 more on advertising? **Only if the additional benefit exceeds the additional cost.**\n\nSo every extra step must pay for itself.",
+      "rubric": [
+        {
+          "point": "Compare additional benefits with additional costs (incremental behaviour)",
+          "source_ref": "be--session-1-and-2#48"
+        },
+        {
+          "point": "MB and MC defined as from one more unit",
+          "source_ref": "be--session-1-and-2#48"
+        },
+        {
+          "point": "Take an action only if MB > MC",
+          "source_ref": "be--session-1-and-2#48"
+        },
+        {
+          "point": "Examples: one more unit, one more worker, ₹10,000 more on advertising",
+          "source_ref": "be--session-1-and-2#49"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 1,
+      "style_tag": "explain",
+      "source_refs": [
+        "be--session-1-and-2#48",
+        "be--session-1-and-2#49"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-marginal-analysis-q-347c88d5",
+      "type": "short",
+      "stem": "Differentiate between discrete and continuous decisions.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Managers make two types of decisions, and each needs a different tool.\n\n| Basis | Discrete decisions | Continuous decisions |\n|---|---|---|\n| Choices | Made in **whole units** | Can take **any value** |\n| Tool | **No calculus**; tables | **Calculus** is used |\n| Marginal values | Computed **from changes** | Computed **using derivatives** |\n| Examples | **Hire one more worker, open another store** | **Set the selling price, decide advertising expenditure** |\n\nIn one line: **we use tables for discrete decisions and calculus for continuous decisions.**",
+      "rubric": [
+        {
+          "point": "Discrete: whole units; continuous: any value",
+          "source_ref": "be--session-1-and-2#52"
+        },
+        {
+          "point": "Discrete needs no calculus; continuous uses calculus",
+          "source_ref": "be--session-1-and-2#52"
+        },
+        {
+          "point": "Marginal values from changes vs from derivatives",
+          "source_ref": "be--session-1-and-2#52"
+        },
+        {
+          "point": "Examples for each type",
+          "source_ref": "be--session-1-and-2#52"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 1,
+      "style_tag": "differentiate",
+      "source_refs": [
+        "be--session-1-and-2#52"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-marginal-analysis-q-8f9523ca",
+      "type": "short",
+      "stem": "A firm's output, total revenue and total cost are: Q = 0, 1, 2, 3, 4, 5, 6; TR = 0, 50, 100, 150, 200, 250, 300; TC = 20, 40, 70, 110, 160, 220, 290. Calculate MR, MC and marginal profit, and find the profit-maximizing output.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Output comes in whole units, so we use a table.\n\n**Formulas:** MR_q = TR_q - TR_(q-1); MC_q = TC_q - TC_(q-1); Marginal Profit_q = MR_q - MC_q.\n\n| Q | TR | TC | MR | MC | Marginal profit |\n|---|---|---|---|---|---|\n| 0 | 0 | 20 | - | - | - |\n| 1 | 50 | 40 | 50 | 20 | 30 |\n| 2 | 100 | 70 | 50 | 30 | 20 |\n| 3 | 150 | 110 | 50 | 40 | 10 |\n| 4 | 200 | 160 | 50 | 50 | 0 |\n| 5 | 250 | 220 | 50 | 60 | -10 |\n| 6 | 300 | 290 | 50 | 70 | -20 |\n\n**Decision rule:** produce another unit if **MR > MC**; **stop when MR = MC**.\n\n**Answer:** MR = MC = 50 at **output 4**. Beyond that, each unit loses money.\n\n**Comment:** profit at output 4 is 200 - 160 = 40, the highest in the table.",
+      "rubric": [
+        {
+          "point": "MR_q = TR_q - TR_(q-1) and MC_q = TC_q - TC_(q-1)",
+          "source_ref": "be--session-1-and-2#54"
+        },
+        {
+          "point": "Correct MR (50 each) and MC (20, 30, 40, 50, 60, 70)",
+          "source_ref": "be--session-1-and-2#54"
+        },
+        {
+          "point": "Marginal profit = MR - MC",
+          "source_ref": "be--session-1-and-2#54"
+        },
+        {
+          "point": "Produce while MR > MC; stop at MR = MC, output 4",
+          "source_ref": "be--session-1-and-2#54"
+        }
+      ],
+      "marks": 5.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "be--session-1-and-2#53",
+        "be--session-1-and-2#54"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
   "explain_back": {
     "prompt": "Explain thinking at the margin and the marginal principle, then show how a manager uses a table of TR and TC to choose output.",
     "rubric": [

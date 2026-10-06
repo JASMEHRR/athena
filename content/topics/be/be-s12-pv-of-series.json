@@ -384,7 +384,385 @@
       "retired": false
     }
   ],
-  "questions": [],
+  "questions": [
+    {
+      "id": "be-s12-pv-of-series-q-84d7f77c",
+      "type": "long",
+      "stem": "As marketing manager for a major automaker, you must choose an advertising intensity for a new SUV. Expected year-end profits ($ millions) are: High 20, 95, 275; Moderate 35, 80, 155; Low 75, 110, 130 for Years 1 to 3. The opportunity cost of funds is 10 percent. Which intensity maximizes the value of the firm? Show full working and comment.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Profits arrive in different years, so we must compare their present values, not the raw figures.\n\n**Formula:** PV = FV_1/(1 + i)^1 + FV_2/(1 + i)^2 + FV_3/(1 + i)^3, with i = 10%. The divisors are 1.10, (1.10)^2 = 1.21 and (1.10)^3 = 1.331.\n\n**Working ($ millions):**\n\n| Intensity | Year 1 | Year 2 | Year 3 | PV |\n|---|---|---|---|---|\n| High | 20/1.10 ≈ 18.18 | 95/1.21 ≈ 78.51 | 275/1.331 ≈ 206.61 | **303.31** |\n| Moderate | 35/1.10 ≈ 31.82 | 80/1.21 ≈ 66.12 | 155/1.331 ≈ 116.45 | **214.39** |\n| Low | 75/1.10 ≈ 68.18 | 110/1.21 ≈ 90.91 | 130/1.331 ≈ 97.67 | **256.76** |\n\n**Ranking:** High ($303.31M) > Low ($256.76M) > Moderate ($214.39M).\n\n**Decision:** choose **high advertising intensity**; it **maximizes the present value of the firm**.\n\n**Comment:**\n- High has the **lowest profits in Years 1 and 2**, and Low looks best in those years.\n- But High's **much larger Year 3 payoff more than compensates once discounted**.\n- A manager who looked only at the early years would pick the wrong option.\n\n**Conclusion:** **always compare full discounted streams, not single-year snapshots**. Because the firm's value is the present value of its profits, the option with the highest PV is the one that maximizes firm value.",
+      "rubric": [
+        {
+          "point": "Discount each year's profit at 10% using the PV of a series formula",
+          "source_ref": "be--session-1-and-2#30"
+        },
+        {
+          "point": "High: PV = $303.31M",
+          "source_ref": "be--session-1-and-2#30"
+        },
+        {
+          "point": "Moderate: PV = $214.39M; Low: PV = $256.76M",
+          "source_ref": "be--session-1-and-2#30"
+        },
+        {
+          "point": "Ranking High > Low > Moderate; choose high intensity",
+          "source_ref": "be--session-1-and-2#30"
+        },
+        {
+          "point": "High has the lowest Year 1 to 2 profits, but the Year 3 payoff compensates",
+          "source_ref": "be--session-1-and-2#30"
+        },
+        {
+          "point": "Compare full discounted streams, not single-year snapshots",
+          "source_ref": "be--session-1-and-2#30"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 3,
+      "style_tag": "case",
+      "source_refs": [
+        "be--session-1-and-2#29",
+        "be--session-1-and-2#30",
+        "be--session-1-and-2#24"
+      ],
+      "derived": [
+        "18.18",
+        "78.51",
+        "206.61",
+        "31.82",
+        "66.12",
+        "116.45",
+        "68.18",
+        "90.91",
+        "97.67",
+        "1.21",
+        "1.331"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-pv-of-series-q-afbea054",
+      "type": "long",
+      "stem": "Differentiate between the present value of a single amount and the present value of a series of cash flows. Illustrate each with the session's examples.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Both bring future money back to today, but one handles a single payment and the other a stream of payments.\n\n| Basis | PV of a single amount | PV of a series |\n|---|---|---|\n| What is received | One amount, FV, after n periods | An amount FV_t **at the end of each period for n periods** |\n| Formula | **PV = FV / (1 + i)^n** | **PV = FV_1/(1 + i)^1 + FV_2/(1 + i)^2 + ... + FV_n/(1 + i)^n** |\n| Steps | One division | Discount each amount by its own year, then add |\n| Amounts | Just one | Can be **equal** or **uneven** |\n\n**Example of a single amount.** You receive **₹1,100 after a year** at **10%**: PV = 1,100 / (1 + 0.10) = **₹1,000**.\n\n**Examples of a series.**\n- **Equal amounts:** $1,000 at the end of each of the next 3 years at 6%: PV = 1000/(1.06)^1 + 1000/(1.06)^2 + 1000/(1.06)^3 = **$2,673**.\n- **Uneven amounts:** $1,500, $2,200, $1,800 and $2,600 in Years 1 to 4 at 8%: PV = 1500/(1.08)^1 + 2200/(1.08)^2 + 1800/(1.08)^3 + 2600/(1.08)^4 = **$6,615.01**.\n\n**The link.** A series is just several single amounts added together: each term in the series formula is the single-amount formula with its own n. In every case, money further away is divided by a bigger number and counts for less.\n\n**Conclusion:** use the single-amount formula for one payment and the series formula for a stream; the logic of discounting is the same in both.",
+      "rubric": [
+        {
+          "point": "Single amount: PV = FV / (1 + i)^n",
+          "source_ref": "be--session-1-and-2#20"
+        },
+        {
+          "point": "Series: sum of FV_t/(1 + i)^t for amounts at the end of each period",
+          "source_ref": "be--session-1-and-2#24"
+        },
+        {
+          "point": "Single example: ₹1,100 after a year at 10% = ₹1,000",
+          "source_ref": "be--session-1-and-2#23"
+        },
+        {
+          "point": "Equal series example: $1,000 for 3 years at 6% = $2,673",
+          "source_ref": "be--session-1-and-2#26"
+        },
+        {
+          "point": "Uneven series example at 8% = $6,615.01",
+          "source_ref": "be--session-1-and-2#28"
+        },
+        {
+          "point": "A series is a sum of single amounts, each with its own n",
+          "source_ref": "be--session-1-and-2#24"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 2,
+      "style_tag": "differentiate",
+      "source_refs": [
+        "be--session-1-and-2#20",
+        "be--session-1-and-2#23",
+        "be--session-1-and-2#24",
+        "be--session-1-and-2#26",
+        "be--session-1-and-2#28"
+      ],
+      "derived": [
+        "1.06",
+        "1.08"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-pv-of-series-q-f64f26a6",
+      "type": "mcq",
+      "stem": "Which expression gives the present value of a stream of amounts FV_t received at the end of each period for n periods?",
+      "options": [
+        "FV_1/(1 + i)^1 + FV_2/(1 + i)^2 + ... + FV_n/(1 + i)^n",
+        "FV_1 x (1 + i)^1 + FV_2 x (1 + i)^2 + ... + FV_n x (1 + i)^n",
+        "(FV_1 + FV_2 + ... + FV_n)/(1 + i)",
+        "CF/i"
+      ],
+      "answer": "FV_1/(1 + i)^1 + FV_2/(1 + i)^2 + ... + FV_n/(1 + i)^n",
+      "accept": [],
+      "explanation": "Each amount is discounted by its own number of years and the results are added; CF/i is the perpetuity shortcut.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "formula",
+      "source_refs": [
+        "be--session-1-and-2#24",
+        "be--session-1-and-2#37"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-pv-of-series-q-8bccc168",
+      "type": "mcq",
+      "stem": "$1,000 received at the end of each of 3 years totals $3,000, but its PV at 6% is $2,673. Why is the PV lower?",
+      "options": [
+        "Later payments are divided by larger powers of (1 + i)",
+        "The payments shrink each year",
+        "Interest is subtracted only once",
+        "PV counts only the first two years"
+      ],
+      "answer": "Later payments are divided by larger powers of (1 + i)",
+      "accept": [],
+      "explanation": "Each payment is discounted by its own number of years, so later ones count for less today.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "be--session-1-and-2#25",
+        "be--session-1-and-2#26",
+        "be--session-1-and-2#24"
+      ],
+      "derived": [
+        "3,000"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-pv-of-series-q-9e0b0af8",
+      "type": "mcq",
+      "stem": "In the SUV case at 10 percent, what is the present value of the High advertising intensity?",
+      "options": [
+        "$303.31M",
+        "$390M",
+        "$256.76M",
+        "$214.39M"
+      ],
+      "answer": "$303.31M",
+      "accept": [],
+      "explanation": "$390M is the undiscounted total; $256.76M and $214.39M are Low and Moderate.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "be--session-1-and-2#29",
+        "be--session-1-and-2#30"
+      ],
+      "derived": [
+        "390"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-pv-of-series-q-ca09fbf4",
+      "type": "mcq",
+      "stem": "What lesson does the professor draw from the SUV advertising case?",
+      "options": [
+        "Always compare full discounted streams, not single-year snapshots",
+        "Pick the option with the highest Year 1 profit",
+        "Ignore Year 3 because it is far away",
+        "Use the undiscounted total of profits"
+      ],
+      "answer": "Always compare full discounted streams, not single-year snapshots",
+      "accept": [],
+      "explanation": "High wins on present value even though it has the lowest profits in Years 1 to 2.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "case",
+      "source_refs": [
+        "be--session-1-and-2#29",
+        "be--session-1-and-2#30"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-pv-of-series-q-67a4fde7",
+      "type": "mcq",
+      "stem": "Why does an amount received further in the future add less to the present value of a series?",
+      "options": [
+        "It is divided by (1 + i) raised to a higher power",
+        "It is multiplied by a larger interest rate",
+        "The interest rate falls over time",
+        "Later amounts are not discounted at all"
+      ],
+      "answer": "It is divided by (1 + i) raised to a higher power",
+      "accept": [],
+      "explanation": "FV_t is divided by (1 + i)^t, and t grows with each year, so the divisor gets bigger.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "be--session-1-and-2#24"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-pv-of-series-q-29569ac3",
+      "type": "short",
+      "stem": "You will receive $1,000 at the end of each of the next 3 years. If the interest rate is 6%, calculate the present value of this series and comment.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Each payment is discounted by its own number of years and the results are added.\n\n**Formula:** PV = FV_1/(1 + i)^1 + FV_2/(1 + i)^2 + ... + FV_n/(1 + i)^n\n\n**Given:** FV = 1000; i = 6%; n = 3.\n\n**Working:**\n- Year 1: 1000/(1.06)^1 ≈ 943.40\n- Year 2: 1000/(1.06)^2 ≈ 890.00\n- Year 3: 1000/(1.06)^3 ≈ 839.62\n- **PV ≈ $2,673**\n\n**Comment:** you receive $3,000 in total, but it is worth only about $2,673 today; the later payments are discounted more, so about $327 is lost to waiting.",
+      "rubric": [
+        {
+          "point": "PV of a series formula written",
+          "source_ref": "be--session-1-and-2#24"
+        },
+        {
+          "point": "FV = 1000, i = 6%, n = 3",
+          "source_ref": "be--session-1-and-2#26"
+        },
+        {
+          "point": "Each year discounted by its own power of 1.06",
+          "source_ref": "be--session-1-and-2#26"
+        },
+        {
+          "point": "PV = $2,673",
+          "source_ref": "be--session-1-and-2#26"
+        },
+        {
+          "point": "Comment: worth less than the $3,000 total because of discounting",
+          "source_ref": "be--session-1-and-2#24"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 1,
+      "style_tag": "numerical",
+      "source_refs": [
+        "be--session-1-and-2#25",
+        "be--session-1-and-2#26"
+      ],
+      "derived": [
+        "943.40",
+        "890.00",
+        "839.62",
+        "3,000",
+        "327",
+        "1.06"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-pv-of-series-q-9c0f2c22",
+      "type": "short",
+      "stem": "A project gives year-end cash flows of $1,500, $2,200, $1,800 and $2,600 in Years 1 to 4. At 8%, find the present value of this uneven stream.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The method for uneven flows is the same as for equal ones; only the numerators change.\n\n**Formula:** PV = FV_1/(1 + i)^1 + FV_2/(1 + i)^2 + FV_3/(1 + i)^3 + FV_4/(1 + i)^4\n\n**Given:** FV = 1500, 2200, 1800, 2600; i = 8%; n = 4.\n\n**Working:**\n- 1500/(1.08)^1 ≈ 1,388.89\n- 2200/(1.08)^2 ≈ 1,886.15\n- 1800/(1.08)^3 ≈ 1,428.90\n- 2600/(1.08)^4 ≈ 1,911.08\n- **PV = $6,615.01** (adding the unrounded values)\n\n**Comment:** the stream is worth $6,615.01 today; uneven flows just need each year discounted separately.",
+      "rubric": [
+        {
+          "point": "Uses the PV of a series formula",
+          "source_ref": "be--session-1-and-2#24"
+        },
+        {
+          "point": "Discounts each flow by (1.08) to its own year",
+          "source_ref": "be--session-1-and-2#28"
+        },
+        {
+          "point": "Correct yearly present values",
+          "source_ref": "be--session-1-and-2#28"
+        },
+        {
+          "point": "PV = $6,615.01",
+          "source_ref": "be--session-1-and-2#28"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "be--session-1-and-2#27",
+        "be--session-1-and-2#28"
+      ],
+      "derived": [
+        "1,388.89",
+        "1,886.15",
+        "1,428.90",
+        "1,911.08"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-pv-of-series-q-178b539f",
+      "type": "short",
+      "stem": "Explain the present value of a series and why each amount is discounted by its own number of years.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Many decisions pay out not once but **at the end of each period for n periods**.\n\n- **Present value of a series:** discount each future amount back to today and add them up.\n- **Formula:** **PV = FV_1/(1 + i)^1 + FV_2/(1 + i)^2 + ... + FV_n/(1 + i)^n**, also written as a sum from t = 1 to n.\n- **Own number of years:** money received in year t waits t years, so it is divided by (1 + i)^t. The further away, the **bigger the divisor**, and the less it counts today.\n\n**Example:** $1,000 a year for 3 years at 6% is worth **$2,673** today, not $3,000.\n\nSo a series is valued by discounting each amount separately, never by adding raw amounts.",
+      "rubric": [
+        {
+          "point": "Stream of amounts received at the end of each period for n periods",
+          "source_ref": "be--session-1-and-2#24"
+        },
+        {
+          "point": "Formula: sum of FV_t/(1 + i)^t",
+          "source_ref": "be--session-1-and-2#24"
+        },
+        {
+          "point": "Later amounts are divided by a bigger number, so count for less",
+          "source_ref": "be--session-1-and-2#24"
+        },
+        {
+          "point": "Example: $1,000 for 3 years at 6% = $2,673",
+          "source_ref": "be--session-1-and-2#26"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 1,
+      "style_tag": "explain",
+      "source_refs": [
+        "be--session-1-and-2#24",
+        "be--session-1-and-2#26"
+      ],
+      "derived": [
+        "3,000"
+      ],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
   "explain_back": {
     "prompt": "Explain how to find the present value of a stream of cash flows, and use the SUV advertising case to show why discounting the full stream matters.",
     "rubric": [

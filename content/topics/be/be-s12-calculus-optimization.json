@@ -530,7 +530,369 @@
       "retired": false
     }
   ],
-  "questions": [],
+  "questions": [
+    {
+      "id": "be-s12-calculus-optimization-q-4b34c927",
+      "type": "long",
+      "stem": "A monopolist faces demand P = 100 - 2Q and has a total cost function TC = 50 + 10Q + 3Q². Find the profit-maximizing quantity, price and profit. Show all steps, including the second order condition, and comment.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Quantity can take any value, so this is a continuous decision solved with calculus. Because we are given a demand curve, we first build total revenue.\n\n**Step 1: total revenue.** TR = P x Q = (100 - 2Q) x Q = **100Q - 2Q²**\n\n**Step 2: profit function.** π(Q) = TR(Q) - TC(Q) = 100Q - 2Q² - (50 + 10Q + 3Q²)\n\n**Step 3: marginal values.**\n- MR = dTR/dQ = **100 - 4Q**\n- MC = dTC/dQ = **10 + 6Q**\n\n**Step 4: first order condition (MR = MC).**\n100 - 4Q = 10 + 6Q, so 90 = 10Q, so **Q = 9**\n\n**Step 5: second order condition.** d²π/dQ² = -4 - 6 = -10 < 0, so profit is **maximized** at Q = 9.\n\n**Step 6: price.** Put Q = 9 into the demand curve: P = 100 - 2 x 9 = 100 - 18 = **82**\n\n**Step 7: profit.**\n- TR = 82 x 9 = 738\n- TC = 50 + 10 x 9 + 3 x 81 = 50 + 90 + 243 = 383\n- **Profit = 738 - 383 = 355**\n\n**Comment:**\n- The monopolist should produce **9 units**, charge a price of **82** and earn a maximum profit of **355**.\n- The price comes from the demand curve, not from MR or MC: MR = MC only tells us the quantity.\n- The negative second derivative confirms this is a peak, not a low point.\n\n**Conclusion:** for continuous decisions, build TR = P x Q, set MR = MC, check d²π/dQ² < 0, then plug Q back in for price and profit.",
+      "rubric": [
+        {
+          "point": "TR = P x Q = 100Q - 2Q²",
+          "source_ref": "be--session-1-and-2#53"
+        },
+        {
+          "point": "MR = 100 - 4Q and MC = 10 + 6Q",
+          "source_ref": "be--session-1-and-2#56"
+        },
+        {
+          "point": "MR = MC gives Q = 9",
+          "source_ref": "be--session-1-and-2#56"
+        },
+        {
+          "point": "Second order condition: d²π/dQ² = -10 < 0",
+          "source_ref": "be--session-1-and-2#56"
+        },
+        {
+          "point": "Price from demand: P = 82",
+          "source_ref": "be--session-1-and-2#59"
+        },
+        {
+          "point": "Profit = 738 - 383 = 355",
+          "source_ref": "be--session-1-and-2#59"
+        }
+      ],
+      "marks": 10.0,
+      "difficulty": 3,
+      "style_tag": "numerical",
+      "source_refs": [
+        "be--session-1-and-2#59",
+        "be--session-1-and-2#53",
+        "be--session-1-and-2#56",
+        "be--session-1-and-2#55"
+      ],
+      "derived": [
+        "90",
+        "82",
+        "738",
+        "81",
+        "243",
+        "383",
+        "355",
+        "18"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-calculus-optimization-q-b7af7842",
+      "type": "long",
+      "stem": "Differentiate between how marginal analysis is done for discrete decisions and for continuous decisions. Illustrate each with the session's examples.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Both kinds of decision use the same idea, deciding at the margin, but the tool changes with the type of choice.\n\n| Basis | Discrete decisions | Continuous decisions |\n|---|---|---|\n| Choices | **Whole units** | **Any value** |\n| Tool | **Tables**, no calculus | **Mathematical functions and calculus** |\n| Marginal values | **From changes:** MR_q = TR_q - TR_(q-1); MC_q = TC_q - TC_(q-1) | **Using derivatives:** MR = dTR/dQ; MC = dTC/dQ |\n| Rule | Produce another unit if MR > MC; **stop when MR = MC** | **First order condition:** dπ/dQ = 0, i.e. MR = MC; **second order condition:** d²π/dQ² < 0 |\n| Slide examples of decisions | Hire one more worker, open another store | Set the selling price, decide advertising expenditure |\n\n**Discrete example (table).** A firm's TR rises by 50 per unit, while its TC goes 20, 40, 70, 110, 160, 220, 290 for outputs 0 to 6. MC is then 20, 30, 40, 50, 60, 70. MR = MC = 50 at **output 4**, so the firm stops there.\n\n**Continuous example (calculus).** TR = 50Q - Q² and TC = 10Q, so π(Q) = 50Q - Q² - 10Q. MR = 50 - 2Q and MC = 10; MR = MC gives **Q = 20**. The second derivative is -2 < 0, so this is a maximum, and profit is **$400**.\n\n**What is common.** In both cases the answer sits where **MR = MC**: the marginal principle applies whichever tool is used.\n\n**Conclusion:** we use tables for discrete decisions and calculus for continuous decisions, but both end at MR = MC.",
+      "rubric": [
+        {
+          "point": "Discrete: whole units, tables, marginal values from changes",
+          "source_ref": "be--session-1-and-2#52"
+        },
+        {
+          "point": "Continuous: any value, calculus, marginal values from derivatives",
+          "source_ref": "be--session-1-and-2#52"
+        },
+        {
+          "point": "Discrete rule: produce while MR > MC, stop at MR = MC (output 4)",
+          "source_ref": "be--session-1-and-2#54"
+        },
+        {
+          "point": "Continuous: π(Q) = TR - TC, dπ/dQ = 0 and d²π/dQ² < 0",
+          "source_ref": "be--session-1-and-2#56"
+        },
+        {
+          "point": "Continuous example: Q = 20, profit $400",
+          "source_ref": "be--session-1-and-2#58"
+        },
+        {
+          "point": "Both reach the optimum where MR = MC",
+          "source_ref": "be--session-1-and-2#56"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 2,
+      "style_tag": "differentiate",
+      "source_refs": [
+        "be--session-1-and-2#52",
+        "be--session-1-and-2#54",
+        "be--session-1-and-2#55",
+        "be--session-1-and-2#56",
+        "be--session-1-and-2#58"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-calculus-optimization-q-0b35788d",
+      "type": "mcq",
+      "stem": "In calculus terms, marginal cost is:",
+      "options": [
+        "dTC/dQ",
+        "dTR/dQ",
+        "dπ/dQ",
+        "d²π/dQ²"
+      ],
+      "answer": "dTC/dQ",
+      "accept": [],
+      "explanation": "The slide defines MR = dTR/dQ and MC = dTC/dQ; dπ/dQ = 0 is the first order condition.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "formula",
+      "source_refs": [
+        "be--session-1-and-2#56"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-calculus-optimization-q-80790371",
+      "type": "mcq",
+      "stem": "If TR = 50Q - Q², marginal revenue is:",
+      "options": [
+        "50 - 2Q",
+        "50Q - Q",
+        "50 - Q",
+        "2Q - 50"
+      ],
+      "answer": "50 - 2Q",
+      "accept": [],
+      "explanation": "Differentiating 50Q - Q² gives 50 - 2Q; setting it equal to MC = 10 gives Q = 20.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "be--session-1-and-2#57",
+        "be--session-1-and-2#58"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-calculus-optimization-q-ec5ba5a3",
+      "type": "mcq",
+      "stem": "A monopolist faces demand P = 100 - 2Q. Its total revenue function is:",
+      "options": [
+        "100Q - 2Q²",
+        "100 - 4Q",
+        "100 - 2Q",
+        "50 + 10Q + 3Q²"
+      ],
+      "answer": "100Q - 2Q²",
+      "accept": [],
+      "explanation": "TR = P x Q = (100 - 2Q) x Q; 100 - 4Q is MR and the last option is the cost function.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "be--session-1-and-2#59",
+        "be--session-1-and-2#53",
+        "be--session-1-and-2#54"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-calculus-optimization-q-0183cd33",
+      "type": "mcq",
+      "stem": "For the same monopolist, with TC = 50 + 10Q + 3Q², marginal cost is:",
+      "options": [
+        "10 + 6Q",
+        "50 + 10Q",
+        "10 + 3Q",
+        "60 + 6Q"
+      ],
+      "answer": "10 + 6Q",
+      "accept": [],
+      "explanation": "MC = dTC/dQ: the constant 50 drops out, 10Q gives 10 and 3Q² gives 6Q.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "be--session-1-and-2#59",
+        "be--session-1-and-2#56"
+      ],
+      "derived": [
+        "60"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-calculus-optimization-q-de990eab",
+      "type": "mcq",
+      "stem": "Which of the session's three concluding rules is linked to opportunity cost?",
+      "options": [
+        "Include all costs and benefits when making decisions",
+        "When decisions span time, compare apples to apples",
+        "Optimal economic decisions are made at the margin",
+        "Use tables for discrete decisions and calculus for continuous ones"
+      ],
+      "answer": "Include all costs and benefits when making decisions",
+      "accept": [],
+      "explanation": "The conclusion slide tags this rule with opportunity cost; the other two are PV analysis and marginal analysis.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "recall",
+      "source_refs": [
+        "be--session-1-and-2#61",
+        "be--session-1-and-2#52"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-calculus-optimization-q-c72aedc2",
+      "type": "short",
+      "stem": "Explain the first order and second order conditions for profit maximization in a continuous decision.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "For continuous decisions we use functions and calculus instead of tables.\n\n- **Profit function:** π(Q) = TR(Q) - TC(Q).\n- **Differentiate:** dπ/dQ = dTR/dQ - dTC/dQ, where **MR = dTR/dQ** and **MC = dTC/dQ**.\n- **First order condition:** profit is maximized where **dπ/dQ = 0**, which means **MR = MC**. This finds the flat point.\n- **Second order condition:** **d²π/dQ² < 0**, which confirms the flat point is a **maximum**.\n\n**Example:** with TR = 50Q - Q² and TC = 10Q, MR = MC gives Q = 20 and d²π/dQ² = -2 < 0.\n\nBoth conditions are needed.",
+      "rubric": [
+        {
+          "point": "π(Q) = TR(Q) - TC(Q), then differentiate",
+          "source_ref": "be--session-1-and-2#55"
+        },
+        {
+          "point": "MR = dTR/dQ and MC = dTC/dQ",
+          "source_ref": "be--session-1-and-2#56"
+        },
+        {
+          "point": "First order condition: dπ/dQ = 0, i.e. MR = MC",
+          "source_ref": "be--session-1-and-2#56"
+        },
+        {
+          "point": "Second order condition: d²π/dQ² < 0 for a maximum",
+          "source_ref": "be--session-1-and-2#56"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 1,
+      "style_tag": "explain",
+      "source_refs": [
+        "be--session-1-and-2#55",
+        "be--session-1-and-2#56",
+        "be--session-1-and-2#57",
+        "be--session-1-and-2#58"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-calculus-optimization-q-4edd15ca",
+      "type": "short",
+      "stem": "The total revenue of a firm is TR = 50Q - Q² and its total cost is TC = 10Q. Find the profit-maximizing quantity and the maximum profit.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Quantity can take any value here, so we use calculus.\n\n**Step 1: profit function.** π(Q) = TR(Q) - TC(Q) = 50Q - Q² - 10Q\n\n**Step 2: first order condition (MR = MC).**\n- MR = dTR/dQ = 50 - 2Q\n- MC = dTC/dQ = 10\n- 50 - 2Q = 10, so 2Q = 40, so **Q = 20**\n\n**Step 3: second order condition.** d²π/dQ² = -2 < 0, so profit is **maximized** at Q = 20.\n\n**Step 4: maximum profit.** TR = 50 x 20 - 20 x 20 = 1,000 - 400 = 600; TC = 10 x 20 = 200; **profit = 600 - 200 = $400**.\n\n**Comment:** the firm should produce 20 units, earning a maximum profit of $400.",
+      "rubric": [
+        {
+          "point": "π(Q) = 50Q - Q² - 10Q",
+          "source_ref": "be--session-1-and-2#58"
+        },
+        {
+          "point": "MR = 50 - 2Q, MC = 10; MR = MC gives Q = 20",
+          "source_ref": "be--session-1-and-2#58"
+        },
+        {
+          "point": "d²π/dQ² = -2 < 0 confirms a maximum",
+          "source_ref": "be--session-1-and-2#58"
+        },
+        {
+          "point": "Maximum profit = $400",
+          "source_ref": "be--session-1-and-2#58"
+        }
+      ],
+      "marks": 5.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "be--session-1-and-2#57",
+        "be--session-1-and-2#58",
+        "be--session-1-and-2#56"
+      ],
+      "derived": [
+        "40",
+        "1,000",
+        "600",
+        "200"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-calculus-optimization-q-3ba42a93",
+      "type": "short",
+      "stem": "Mention the three rules the professor gives in the conclusion of the session, and the tool each one points to.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The session closes with three rules that tie everything together.\n\n1. **Include all costs and benefits when making decisions:** this means **opportunity cost**, as in economic profit.\n2. **When decisions span time, compare apples to apples:** this means **PV analysis**, bringing every amount to today's value.\n3. **Optimal economic decisions are made at the margin:** this means **marginal analysis**, comparing MB with MC (or MR with MC).\n\nTogether they sum up the economic way of thinking a manager needs.",
+      "rubric": [
+        {
+          "point": "Include all costs and benefits (opportunity cost)",
+          "source_ref": "be--session-1-and-2#61"
+        },
+        {
+          "point": "Compare apples to apples over time (PV analysis)",
+          "source_ref": "be--session-1-and-2#61"
+        },
+        {
+          "point": "Decide at the margin (marginal analysis)",
+          "source_ref": "be--session-1-and-2#61"
+        },
+        {
+          "point": "Marginal analysis compares MB with MC",
+          "source_ref": "be--session-1-and-2#48"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 1,
+      "style_tag": "list",
+      "source_refs": [
+        "be--session-1-and-2#61",
+        "be--session-1-and-2#48",
+        "be--session-1-and-2#54"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
   "explain_back": {
     "prompt": "Explain how calculus is used to find the profit-maximizing output, using the TR = 50Q - Q², TC = 10Q example from the slides.",
     "rubric": [

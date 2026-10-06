@@ -343,7 +343,350 @@
       "retired": false
     }
   ],
-  "questions": [],
+  "questions": [
+    {
+      "id": "be-s12-time-value-q-ec3ea71e",
+      "type": "long",
+      "stem": "Explain the time value of money, the present value formula and the idea that PV = FV - OCW. Illustrate with the session's ₹1,100 example.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "A manager's decisions often stretch over years, so money received at different times cannot be compared directly. The time value of money fixes this.\n\n**1. Why time matters.**\n- **Business decisions are long horizon**, and **the value of money today will differ from tomorrow**.\n- Would you prefer ₹10,000 today or ₹10,000 one year from now? Today, because the **opportunity cost of receiving ₹10,000 one year from now is the interest foregone that could be earned from investing ₹10,000 today**.\n\n**2. Two key terms.**\n- **Future Value (FV):** the value of money at a future date **after earning interest**.\n- **Present Value (PV):** the **current value** of money to be received in the future.\n\n**3. The formula.** **PV = FV / (1 + i)^n**, where i is the interest rate and n the number of periods.\n\n**4. PV = FV - OCW.** PV reflects the difference between the future value and the **opportunity cost of waiting (OCW)**.\n- **If i = 0, PV = FV**: no interest, no cost of waiting.\n- **As i increases, the OCW gets higher and the PV gets lower.**\n\n**5. The professor's example.** You receive **₹1,100 after a year** at **10%**.\n- FV = ₹1,100; n = 1; i = 10%\n- PV = 1,100 / (1 + 0.10) = **₹1,000**\n- OCW = 1,100 - 1,000 = **₹100**, the interest you could have earned on ₹1,000 in a year.\n\n**Conclusion:** before comparing any amounts spread over time, convert them to present value; the higher the interest rate, the less future money is worth today.",
+      "rubric": [
+        {
+          "point": "Business decisions are long horizon; money today is worth more",
+          "source_ref": "be--session-1-and-2#19"
+        },
+        {
+          "point": "Opportunity cost of waiting is the interest foregone",
+          "source_ref": "be--session-1-and-2#19"
+        },
+        {
+          "point": "Definitions of FV and PV, and PV = FV / (1 + i)^n",
+          "source_ref": "be--session-1-and-2#20"
+        },
+        {
+          "point": "PV = FV - OCW; i = 0 gives PV = FV; higher i gives higher OCW and lower PV",
+          "source_ref": "be--session-1-and-2#21"
+        },
+        {
+          "point": "₹1,100 after a year at 10%: PV = ₹1,000",
+          "source_ref": "be--session-1-and-2#23"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "be--session-1-and-2#19",
+        "be--session-1-and-2#20",
+        "be--session-1-and-2#21",
+        "be--session-1-and-2#22",
+        "be--session-1-and-2#23"
+      ],
+      "derived": [
+        "100",
+        "1.10"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-time-value-q-b82452be",
+      "type": "long",
+      "stem": "Using the ₹1,100 example, show how the interest rate affects present value. Find the PV and the opportunity cost of waiting when (i) i = 0 and (ii) i = 10%, and explain the relationship.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The interest rate is the price of waiting, so it decides how much a future amount is worth today.\n\n**Formulas:** PV = FV / (1 + i)^n and PV = FV - OCW, so OCW = FV - PV.\n\n**Given:** FV = ₹1,100; n = 1 year.\n\n**(i) i = 0**\n- PV = 1,100 / (1 + 0) = **₹1,100**\n- OCW = 1,100 - 1,100 = **0**\n- This matches the slide: **if i = 0, PV = FV**. With no interest there is nothing to lose by waiting.\n\n**(ii) i = 10%**\n- PV = 1,100 / (1 + 0.10) = **₹1,000** (the professor's solution)\n- OCW = 1,100 - 1,000 = **₹100**\n\n**The relationship.**\n- Moving from i = 0 to i = 10% raises the OCW from 0 to ₹100 and cuts the PV from ₹1,100 to ₹1,000.\n- This is exactly the slide's rule: **as i increases, the higher is the OCW and the lower the PV**.\n- The reason: a higher interest rate means money today could earn more, so waiting costs more.\n\n**Comment:** the same ₹1,100 is worth less today when interest rates are higher; a manager must always discount future receipts at the right rate before deciding.",
+      "rubric": [
+        {
+          "point": "PV = FV / (1 + i)^n and OCW = FV - PV",
+          "source_ref": "be--session-1-and-2#21"
+        },
+        {
+          "point": "i = 0: PV = ₹1,100, OCW = 0, so PV = FV",
+          "source_ref": "be--session-1-and-2#21"
+        },
+        {
+          "point": "i = 10%: PV = 1,100 / 1.10 = ₹1,000",
+          "source_ref": "be--session-1-and-2#23"
+        },
+        {
+          "point": "OCW at 10% is the ₹1,100 - ₹1,000 gap",
+          "source_ref": "be--session-1-and-2#21"
+        },
+        {
+          "point": "As i increases, OCW rises and PV falls",
+          "source_ref": "be--session-1-and-2#21"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "be--session-1-and-2#20",
+        "be--session-1-and-2#21",
+        "be--session-1-and-2#22",
+        "be--session-1-and-2#23"
+      ],
+      "derived": [
+        "100",
+        "1.10"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-time-value-q-c91341a7",
+      "type": "mcq",
+      "stem": "Which formula gives the present value of an amount received after n periods?",
+      "options": [
+        "PV = FV / (1 + i)^n",
+        "PV = FV x (1 + i)^n",
+        "PV = FV - (1 + i)^n",
+        "PV = FV / (1 + n)^i"
+      ],
+      "answer": "PV = FV / (1 + i)^n",
+      "accept": [],
+      "explanation": "To bring a future amount back to today, divide it by (1 + i) raised to the number of periods.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "formula",
+      "source_refs": [
+        "be--session-1-and-2#20"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-time-value-q-1b5a2352",
+      "type": "mcq",
+      "stem": "In PV = FV / (1 + i)^n, the letter i stands for:",
+      "options": [
+        "the interest rate",
+        "the number of periods",
+        "the future value",
+        "the opportunity cost of waiting"
+      ],
+      "answer": "the interest rate",
+      "accept": [],
+      "explanation": "On the slide, i = interest rate and n = number of periods.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "recall",
+      "source_refs": [
+        "be--session-1-and-2#20",
+        "be--session-1-and-2#21"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-time-value-q-0b98f1ec",
+      "type": "mcq",
+      "stem": "As the interest rate i increases, what happens to the opportunity cost of waiting (OCW) and the present value (PV)?",
+      "options": [
+        "OCW rises and PV falls",
+        "OCW falls and PV rises",
+        "Both OCW and PV rise",
+        "OCW rises and PV stays the same"
+      ],
+      "answer": "OCW rises and PV falls",
+      "accept": [],
+      "explanation": "PV = FV - OCW, so a higher i means a higher OCW and a lower PV.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "apply",
+      "source_refs": [
+        "be--session-1-and-2#21"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-time-value-q-d7cf551f",
+      "type": "mcq",
+      "stem": "Future value (FV) is best described as:",
+      "options": [
+        "the value of money at a future date after earning interest",
+        "the current value of money to be received in the future",
+        "the interest foregone by waiting",
+        "total revenue minus total opportunity cost"
+      ],
+      "answer": "the value of money at a future date after earning interest",
+      "accept": [],
+      "explanation": "The second option is present value; the last is economic profit.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "recall",
+      "source_refs": [
+        "be--session-1-and-2#20",
+        "be--session-1-and-2#21",
+        "be--session-1-and-2#15"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-time-value-q-92f7cd70",
+      "type": "mcq",
+      "stem": "Which working correctly finds the present value of ₹1,100 received after one year at 10%?",
+      "options": [
+        "1,100 / (1 + 0.10)",
+        "1,100 x (1 + 0.10)",
+        "1,100 - 0.10",
+        "1,100 / 0.10"
+      ],
+      "answer": "1,100 / (1 + 0.10)",
+      "accept": [],
+      "explanation": "PV = FV / (1 + i)^n with n = 1, which gives ₹1,000.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "numerical",
+      "source_refs": [
+        "be--session-1-and-2#22",
+        "be--session-1-and-2#23"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-time-value-q-ce6c67b7",
+      "type": "short",
+      "stem": "Explain the time value of money. Would you prefer ₹10,000 today or ₹10,000 one year from now? Why?",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Money has a time dimension: the same amount is worth more today than later.\n\n- **Business decisions are long horizon**, and **the value of money today will differ from tomorrow**.\n- **Prefer ₹10,000 today.** Money in hand now can be invested and earn interest.\n- **Opportunity cost:** the opportunity cost of receiving ₹10,000 one year from now is **the amount of interest foregone that could be earned from investing ₹10,000 today**.\n- This is why we convert future money into **present value (PV)**, the current value of money to be received in the future.\n\nSo a rupee today is worth more than a rupee tomorrow, and managers must compare amounts at the same point in time.",
+      "rubric": [
+        {
+          "point": "Business decisions are long horizon; money today differs in value from tomorrow",
+          "source_ref": "be--session-1-and-2#19"
+        },
+        {
+          "point": "Prefer the money today",
+          "source_ref": "be--session-1-and-2#19"
+        },
+        {
+          "point": "Opportunity cost of waiting is the interest foregone on ₹10,000 invested today",
+          "source_ref": "be--session-1-and-2#19"
+        },
+        {
+          "point": "Present value is the current value of money to be received in the future",
+          "source_ref": "be--session-1-and-2#20"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 1,
+      "style_tag": "explain",
+      "source_refs": [
+        "be--session-1-and-2#19",
+        "be--session-1-and-2#20"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-time-value-q-ac76247b",
+      "type": "short",
+      "stem": "Suppose you will get ₹1,100 after one year and the interest rate is 10%. Calculate its present value and the opportunity cost of waiting, and comment on the result.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "We bring the future amount back to today with the PV formula.\n\n**Given:** FV = ₹1,100; n = 1 year; i = 10% = 0.10.\n\n**Formula:** PV = FV / (1 + i)^n\n\n**Working:** PV = 1,100 / (1 + 0.10) = **₹1,000**\n\n**Opportunity cost of waiting:** PV = FV - OCW, so OCW = 1,100 - 1,000 = **₹100**.\n\n**Comment:** ₹1,100 next year is worth only ₹1,000 today; the ₹100 gap is the interest you give up by waiting a year.",
+      "rubric": [
+        {
+          "point": "Writes PV = FV / (1 + i)^n with FV = ₹1,100, n = 1, i = 10%",
+          "source_ref": "be--session-1-and-2#23"
+        },
+        {
+          "point": "PV = 1,100 / 1.10 = ₹1,000",
+          "source_ref": "be--session-1-and-2#23"
+        },
+        {
+          "point": "OCW from PV = FV - OCW",
+          "source_ref": "be--session-1-and-2#21"
+        },
+        {
+          "point": "Comment: the gap is the cost of waiting",
+          "source_ref": "be--session-1-and-2#21"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 1,
+      "style_tag": "numerical",
+      "source_refs": [
+        "be--session-1-and-2#22",
+        "be--session-1-and-2#23",
+        "be--session-1-and-2#21"
+      ],
+      "derived": [
+        "100",
+        "1.10"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12-time-value-q-73ddd226",
+      "type": "short",
+      "stem": "Differentiate between future value and present value. Write the present value formula and define each term.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Future value and present value look at the same money from two points in time.\n\n| Basis | Future Value (FV) | Present Value (PV) |\n|---|---|---|\n| Meaning | **Value of money at a future date after earning interest** | **Current value of money to be received in the future** |\n| Point in time | Later | Today |\n\n**Formula:** **PV = FV / (1 + i)^n**, where **PV** = present value, **FV** = future value, **i** = interest rate and **n** = number of periods.\n\nAnother view: **PV = FV - OCW**; if i = 0, PV = FV, and as i rises, PV falls.\n\nSo PV is simply FV with the cost of waiting taken out.",
+      "rubric": [
+        {
+          "point": "FV: value at a future date after earning interest",
+          "source_ref": "be--session-1-and-2#20"
+        },
+        {
+          "point": "PV: current value of money to be received in the future",
+          "source_ref": "be--session-1-and-2#20"
+        },
+        {
+          "point": "PV = FV / (1 + i)^n with terms defined",
+          "source_ref": "be--session-1-and-2#20"
+        },
+        {
+          "point": "PV = FV - OCW; if i = 0, PV = FV",
+          "source_ref": "be--session-1-and-2#21"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 1,
+      "style_tag": "differentiate",
+      "source_refs": [
+        "be--session-1-and-2#20",
+        "be--session-1-and-2#21"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
   "explain_back": {
     "prompt": "Explain the time value of money and show how to find the present value of ₹1,100 received after one year at 10%.",
     "rubric": [
