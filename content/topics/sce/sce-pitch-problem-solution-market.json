@@ -409,7 +409,347 @@
       "retired": false
     }
   ],
-  "questions": [],
+  "questions": [
+    {
+      "id": "sce-pitch-problem-solution-market-q-64a316d6",
+      "type": "mcq",
+      "stem": "The first content slide of the very early stage pitch template is:",
+      "options": [
+        "Problem Statement",
+        "Solution",
+        "Market Size",
+        "Team Competency"
+      ],
+      "answer": "Problem Statement",
+      "accept": [],
+      "explanation": "After the cover, the pitch opens with the Problem Statement: the problem you intend to solve.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "sequence",
+      "source_refs": [
+        "sce--step-startup-pitching-template-very-early-stage#2",
+        "sce--step-startup-pitching-template-very-early-stage#3",
+        "sce--step-startup-pitching-template-very-early-stage#4",
+        "sce--step-startup-pitching-template-very-early-stage#11"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "sce-pitch-problem-solution-market-q-9c955cd5",
+      "type": "mcq",
+      "stem": "Which of these does the Solution slide NOT ask you to fill in?",
+      "options": [
+        "Total Available Market",
+        "Unique feature",
+        "Value proposition",
+        "Major benefit"
+      ],
+      "answer": "Total Available Market",
+      "accept": [],
+      "explanation": "Total Available Market belongs to the Market Size slide; the other three are Solution prompts.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "recall",
+      "source_refs": [
+        "sce--step-startup-pitching-template-very-early-stage#3",
+        "sce--step-startup-pitching-template-very-early-stage#4"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "sce-pitch-problem-solution-market-q-39bfedbf",
+      "type": "mcq",
+      "stem": "The Market Size slide asks for:",
+      "options": [
+        "Total Available Market and Target Market at Stage I",
+        "Cost per transaction and revenue per transaction",
+        "When, where and how",
+        "How much and for what purpose"
+      ],
+      "answer": "Total Available Market and Target Market at Stage I",
+      "accept": [],
+      "explanation": "Market Size has two figures: Total Available Market and Target Market at Stage I.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "recall",
+      "source_refs": [
+        "sce--step-startup-pitching-template-very-early-stage#4",
+        "sce--step-startup-pitching-template-very-early-stage#9",
+        "sce--step-startup-pitching-template-very-early-stage#12",
+        "sce--step-startup-pitching-template-very-early-stage#13"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "sce-pitch-problem-solution-market-q-a68e64c6",
+      "type": "mcq",
+      "stem": "The Customer Segment(s) slide asks you to describe:",
+      "options": [
+        "Key characteristics, pain points and goals",
+        "Qualification and professional experience",
+        "Unique feature and major benefit",
+        "When to exit and how much X"
+      ],
+      "answer": "Key characteristics, pain points and goals",
+      "accept": [],
+      "explanation": "The subheading of the customer segment slide is key characteristics, pain points and goals.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "recall",
+      "source_refs": [
+        "sce--step-startup-pitching-template-very-early-stage#6",
+        "sce--step-startup-pitching-template-very-early-stage#11",
+        "sce--step-startup-pitching-template-very-early-stage#3",
+        "sce--step-startup-pitching-template-very-early-stage#14"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "sce-pitch-problem-solution-market-q-c47f25cc",
+      "type": "mcq",
+      "stem": "What does the cover slide of the pitch template ask for?",
+      "options": [
+        "Startup name and what you aspire to do, in the most interesting manner",
+        "The problem that you intend to solve",
+        "Why you are best suited to solve this problem",
+        "How you intend to make money"
+      ],
+      "answer": "Startup name and what you aspire to do, in the most interesting manner",
+      "accept": [],
+      "explanation": "The cover has Startup NAME and what you aspire to do in the most interesting manner.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "recall",
+      "source_refs": [
+        "sce--step-startup-pitching-template-very-early-stage#1",
+        "sce--step-startup-pitching-template-very-early-stage#2",
+        "sce--step-startup-pitching-template-very-early-stage#11",
+        "sce--step-startup-pitching-template-very-early-stage#10"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "sce-pitch-problem-solution-market-q-733601d6",
+      "type": "short",
+      "stem": "Explain the five prompts on the Solution slide of the pitch template.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The Solution slide follows the problem and asks the team to fill in five things about what they offer.\n\n1. **Unique feature:** what your solution has that others don't.\n2. **Significant advantage:** the clear edge it gives.\n3. **Major benefit:** the main gain for the user.\n4. **Value proposition:** the value you promise.\n5. **What's new about what you are doing? What are people forced to do now?** what is new, and what people have to put up with today without it.\n\nSo the solution is pitched as new, better and clearly valuable compared with what people are forced to do now.",
+      "rubric": [
+        {
+          "point": "Unique feature",
+          "source_ref": "sce--step-startup-pitching-template-very-early-stage#3"
+        },
+        {
+          "point": "Significant advantage",
+          "source_ref": "sce--step-startup-pitching-template-very-early-stage#3"
+        },
+        {
+          "point": "Major benefit",
+          "source_ref": "sce--step-startup-pitching-template-very-early-stage#3"
+        },
+        {
+          "point": "Value proposition",
+          "source_ref": "sce--step-startup-pitching-template-very-early-stage#3"
+        },
+        {
+          "point": "What's new and what people are forced to do now",
+          "source_ref": "sce--step-startup-pitching-template-very-early-stage#3"
+        }
+      ],
+      "marks": 5.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "sce--step-startup-pitching-template-very-early-stage#3"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "sce-pitch-problem-solution-market-q-16cd8c9d",
+      "type": "short",
+      "stem": "What does the Problem Statement slide ask for, and why does the pitch begin with it?",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The Problem Statement is the first content slide of the template.\n\n- **What it asks:** the **problem that you intend to solve**.\n- **The picture:** a magnifying glass surrounded by question marks, showing that the team must look closely at the problem.\n- **Why first:** the pitch opens with the problem before anything about the product; the **Solution** slide that follows only makes sense once the problem is clear.\n\nSo every pitch starts by making the problem clear.",
+      "rubric": [
+        {
+          "point": "Problem that you intend to solve",
+          "source_ref": "sce--step-startup-pitching-template-very-early-stage#2"
+        },
+        {
+          "point": "Magnifying glass and question marks picture",
+          "source_ref": "sce--step-startup-pitching-template-very-early-stage#2"
+        },
+        {
+          "point": "Comes before the Solution slide",
+          "source_ref": "sce--step-startup-pitching-template-very-early-stage#3"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 1,
+      "style_tag": "explain",
+      "source_refs": [
+        "sce--step-startup-pitching-template-very-early-stage#2",
+        "sce--step-startup-pitching-template-very-early-stage#3"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "sce-pitch-problem-solution-market-q-2eb34556",
+      "type": "differentiate",
+      "stem": "Differentiate between the Market Size slide and the Customer Segment(s) slide of the pitch template.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Both slides describe the market, but at different levels.\n\n| Basis | Market Size | Customer Segment(s) |\n|---|---|---|\n| What it asks | Total Available Market and Target Market at Stage I | Key characteristics, pain points and goals |\n| Nature | How big the market is | Who the customers are |\n| Focus | Figures | People and their needs |\n\nThe **Competitive Landscape** slide sits between them.\n\nSo Market Size tells how much is there; Customer Segments tell whom you serve and why they need you.",
+      "rubric": [
+        {
+          "point": "Market Size: Total Available Market, Target Market at Stage I",
+          "source_ref": "sce--step-startup-pitching-template-very-early-stage#4"
+        },
+        {
+          "point": "Customer Segments: key characteristics, pain points, goals",
+          "source_ref": "sce--step-startup-pitching-template-very-early-stage#6"
+        },
+        {
+          "point": "Size versus who the customers are",
+          "source_ref": "sce--step-startup-pitching-template-very-early-stage#6"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "differentiate",
+      "source_refs": [
+        "sce--step-startup-pitching-template-very-early-stage#4",
+        "sce--step-startup-pitching-template-very-early-stage#5",
+        "sce--step-startup-pitching-template-very-early-stage#6"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "sce-pitch-problem-solution-market-q-c1e5f630",
+      "type": "long",
+      "stem": "Explain the first part of the very early stage pitch template: problem, solution, market size, competitive landscape and customer segments.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The template is a **startup pitching template for a very early stage** venture. Each slide is a heading with a prompt and space to fill in. The first part sets out the problem, the answer and the market.\n\n**Cover.** **Startup NAME** and **what you aspire to do, in the most interesting manner**.\n\n**1. Problem Statement.** The **problem that you intend to solve**. A picture of a magnifying glass among question marks stresses studying the problem closely.\n\n**2. Solution.** Five prompts:\n- **Unique feature**\n- **Significant advantage**\n- **Major benefit**\n- **Value proposition**\n- **What's new about what you are doing? What are people forced to do now?**\n\n**3. Market Size.** Two figures: **Total Available Market** and **Target Market at Stage I**.\n\n**4. Competitive Landscape.** A slide with just the heading, for the team to map the competition.\n\n**5. Customer Segment(s) that we serve.** **Key characteristics, pain points and goals** of the customers.\n\n**How the part flows**\n| Slide | Question it answers |\n|---|---|\n| Problem Statement | What is wrong? |\n| Solution | What do we offer, and what is new? |\n| Market Size | How big is the market, and where do we start? |\n| Competitive Landscape | Who else is there? |\n| Customer Segments | Who exactly do we serve? |\n\nIn short, the opening slides move from the problem to the solution and then to the market and customers, before the pitch turns to insight and money.",
+      "rubric": [
+        {
+          "point": "Cover: startup name, what you aspire to do",
+          "source_ref": "sce--step-startup-pitching-template-very-early-stage#1"
+        },
+        {
+          "point": "Problem Statement: problem you intend to solve",
+          "source_ref": "sce--step-startup-pitching-template-very-early-stage#2"
+        },
+        {
+          "point": "Solution: five prompts",
+          "source_ref": "sce--step-startup-pitching-template-very-early-stage#3"
+        },
+        {
+          "point": "Market Size: Total Available Market, Target Market at Stage I",
+          "source_ref": "sce--step-startup-pitching-template-very-early-stage#4"
+        },
+        {
+          "point": "Competitive Landscape and Customer Segments: characteristics, pain points, goals",
+          "source_ref": "sce--step-startup-pitching-template-very-early-stage#6"
+        }
+      ],
+      "marks": 10.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "sce--step-startup-pitching-template-very-early-stage#1",
+        "sce--step-startup-pitching-template-very-early-stage#2",
+        "sce--step-startup-pitching-template-very-early-stage#3",
+        "sce--step-startup-pitching-template-very-early-stage#4",
+        "sce--step-startup-pitching-template-very-early-stage#5",
+        "sce--step-startup-pitching-template-very-early-stage#6"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "sce-pitch-problem-solution-market-q-af51d166",
+      "type": "case",
+      "stem": "Your team chooses the Local B2B Micro-Consulting Agency from the list of business ideas. Fill in the Problem Statement, Solution and Customer Segment(s) slides of the pitch template using only what the handout says.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The pitch template gives the structure; the business ideas handout gives the content for the micro-consulting agency.\n\n**Problem Statement (problem that you intend to solve)**\nMany local small businesses, such as **cafes, boutique retail and family-owned manufacturers**, are brilliant at what they do but **struggle with digital transformation, inventory management or basic financial forecasting**.\n\n**Solution**\n- **Unique feature:** consulting from a team specialising in **Marketing, HR, Finance and Operations**.\n- **Significant advantage and major benefit:** practical set-ups such as **automated inventory tracking**, a **local SEO, Google Maps strategy** and **cash-flow forecasting dashboards**.\n- **Value proposition:** fixing the exact gaps owners struggle with, priced on the **ROI you deliver** rather than hourly rates.\n- **What people are forced to do now:** run without these systems, struggling with inventory and forecasting.\n\n**Market Size**\nThe template asks for **Total Available Market** and **Target Market at Stage I**. The handout gives no figures, so the team would fill these in from its own research; Stage I would start with the local businesses the handout names.\n\n**Customer Segment(s) that we serve**\n- **Who:** local businesses, NGOs and small manufacturers.\n- **Key characteristics:** good at their core work, small and local.\n- **Pain points:** digital transformation, inventory management, basic financial forecasting.\n- **Goals:** running the business better with simple digital tools.\n\nIn short, the template turns the handout's idea into a clear problem, a specific solution and a defined customer group.",
+      "rubric": [
+        {
+          "point": "Problem: local small businesses struggle with digital transformation, inventory, forecasting",
+          "source_ref": "sce--list-of-business-ideas#1"
+        },
+        {
+          "point": "Solution prompts filled with the agency's services",
+          "source_ref": "sce--step-startup-pitching-template-very-early-stage#3"
+        },
+        {
+          "point": "Value-based pricing on ROI as value proposition",
+          "source_ref": "sce--list-of-business-ideas#1"
+        },
+        {
+          "point": "Market Size asks for Total Available Market and Target Market at Stage I",
+          "source_ref": "sce--step-startup-pitching-template-very-early-stage#4"
+        },
+        {
+          "point": "Customer segments: local businesses, NGOs, small manufacturers with pain points and goals",
+          "source_ref": "sce--step-startup-pitching-template-very-early-stage#6"
+        }
+      ],
+      "marks": 10.0,
+      "difficulty": 3,
+      "style_tag": "case",
+      "source_refs": [
+        "sce--step-startup-pitching-template-very-early-stage#2",
+        "sce--step-startup-pitching-template-very-early-stage#3",
+        "sce--step-startup-pitching-template-very-early-stage#4",
+        "sce--step-startup-pitching-template-very-early-stage#6",
+        "sce--list-of-business-ideas#1"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
   "explain_back": {
     "prompt": "Walk through the first part of the very early stage pitch template: what goes on the problem, solution, market and customer slides?",
     "rubric": [

@@ -349,7 +349,340 @@
       "retired": false
     }
   ],
-  "questions": [],
+  "questions": [
+    {
+      "id": "sce-pitch-insight-advantage-money-q-118e1430",
+      "type": "mcq",
+      "stem": "The Insight slide of the pitch template asks:",
+      "options": [
+        "What do you understand that others just don't know?",
+        "Why would it be hard for others to duplicate what you are going to do?",
+        "Why are you best suited to solve this problem?",
+        "What are people forced to do now?"
+      ],
+      "answer": "What do you understand that others just don't know?",
+      "accept": [],
+      "explanation": "Insight is about what you understand that others don't; duplication belongs to Unfair Advantage.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "recall",
+      "source_refs": [
+        "sce--step-startup-pitching-template-very-early-stage#7",
+        "sce--step-startup-pitching-template-very-early-stage#8",
+        "sce--step-startup-pitching-template-very-early-stage#11",
+        "sce--step-startup-pitching-template-very-early-stage#3"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "sce-pitch-insight-advantage-money-q-7da2ce3d",
+      "type": "mcq",
+      "stem": "The Uniqueness / Unfair Advantage slide asks:",
+      "options": [
+        "Why it would be hard for others to duplicate what you are going to do",
+        "What you understand that others just don't know",
+        "What your value proposition is",
+        "How much you need and for what purpose"
+      ],
+      "answer": "Why it would be hard for others to duplicate what you are going to do",
+      "accept": [],
+      "explanation": "Unfair advantage is about being hard to duplicate.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "recall",
+      "source_refs": [
+        "sce--step-startup-pitching-template-very-early-stage#8",
+        "sce--step-startup-pitching-template-very-early-stage#7",
+        "sce--step-startup-pitching-template-very-early-stage#3",
+        "sce--step-startup-pitching-template-very-early-stage#13"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "sce-pitch-insight-advantage-money-q-9bbb9419",
+      "type": "mcq",
+      "stem": "The Business Unit Economics slide asks for:",
+      "options": [
+        "Average cost per transaction and average revenue per transaction",
+        "Total Available Market and Target Market at Stage I",
+        "Total five year revenue estimate and the cost",
+        "How much and for what purpose"
+      ],
+      "answer": "Average cost per transaction and average revenue per transaction",
+      "accept": [],
+      "explanation": "Unit economics compares cost per transaction and revenue per transaction, both averages.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "recall",
+      "source_refs": [
+        "sce--step-startup-pitching-template-very-early-stage#9",
+        "sce--step-startup-pitching-template-very-early-stage#4",
+        "sce--step-startup-pitching-template-very-early-stage#10",
+        "sce--step-startup-pitching-template-very-early-stage#13"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "sce-pitch-insight-advantage-money-q-5b18d218",
+      "type": "mcq",
+      "stem": "What instruction does the Revenue Streams slide give in brackets?",
+      "options": [
+        "Add strategies, not revenue projections",
+        "Add revenue projections, not strategies",
+        "Add only the total five year revenue estimate",
+        "Add the promotion plan"
+      ],
+      "answer": "Add strategies, not revenue projections",
+      "accept": [],
+      "explanation": "The slide says to add 'strategies', not revenue projections, such as pay-per-use, subscription, licensing.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "recall",
+      "source_refs": [
+        "sce--step-startup-pitching-template-very-early-stage#10",
+        "sce--step-startup-pitching-template-very-early-stage#12"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "sce-pitch-insight-advantage-money-q-f25ed0c8",
+      "type": "mcq",
+      "stem": "Which of these is given on the Revenue Streams slide as an example of a strategy?",
+      "options": [
+        "Subscription",
+        "Promotion plan",
+        "Value proposition",
+        "Target Market at Stage I"
+      ],
+      "answer": "Subscription",
+      "accept": [],
+      "explanation": "Pay-per-use, subscription and licensing are the example strategies.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "recall",
+      "source_refs": [
+        "sce--step-startup-pitching-template-very-early-stage#10",
+        "sce--step-startup-pitching-template-very-early-stage#12",
+        "sce--step-startup-pitching-template-very-early-stage#3",
+        "sce--step-startup-pitching-template-very-early-stage#4"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "sce-pitch-insight-advantage-money-q-16b630a9",
+      "type": "differentiate",
+      "stem": "Differentiate between the Insight slide and the Uniqueness / Unfair Advantage slide of the pitch template.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Both slides show what sets the startup apart, but they ask different questions.\n\n| Basis | Insight | Uniqueness / Unfair Advantage |\n|---|---|---|\n| Question | What do you understand that others just don't know? | Why would it be hard for others to duplicate what you are going to do? |\n| About | Your understanding | Your protection from copying |\n| Looks at | What you know | What others cannot easily do |\n\nAn insight can be known by you alone today; an unfair advantage keeps others from copying you even once they know.\n\nSo insight is about knowing, and unfair advantage is about being hard to duplicate.",
+      "rubric": [
+        {
+          "point": "Insight: what you understand that others don't know",
+          "source_ref": "sce--step-startup-pitching-template-very-early-stage#7"
+        },
+        {
+          "point": "Unfair advantage: hard for others to duplicate",
+          "source_ref": "sce--step-startup-pitching-template-very-early-stage#8"
+        },
+        {
+          "point": "Knowing versus protection from copying",
+          "source_ref": "sce--step-startup-pitching-template-very-early-stage#8"
+        }
+      ],
+      "marks": 5.0,
+      "difficulty": 2,
+      "style_tag": "differentiate",
+      "source_refs": [
+        "sce--step-startup-pitching-template-very-early-stage#7",
+        "sce--step-startup-pitching-template-very-early-stage#8"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "sce-pitch-insight-advantage-money-q-640d7796",
+      "type": "short",
+      "stem": "Explain the Business Unit Economics slide of the pitch template.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The Business Unit Economics slide asks the team to show the money in one typical transaction.\n\n- **Cost per transaction (Average):** what one transaction costs you on average.\n- **Revenue per transaction (Average):** what one transaction brings in on average.\n- Putting the two side by side shows whether each transaction makes or loses money.\n\nSo unit economics is judged one transaction at a time, using averages.",
+      "rubric": [
+        {
+          "point": "Cost per transaction (average)",
+          "source_ref": "sce--step-startup-pitching-template-very-early-stage#9"
+        },
+        {
+          "point": "Revenue per transaction (average)",
+          "source_ref": "sce--step-startup-pitching-template-very-early-stage#9"
+        },
+        {
+          "point": "Side by side for one transaction",
+          "source_ref": "sce--step-startup-pitching-template-very-early-stage#9"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 1,
+      "style_tag": "explain",
+      "source_refs": [
+        "sce--step-startup-pitching-template-very-early-stage#9"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "sce-pitch-insight-advantage-money-q-91ec2a52",
+      "type": "short",
+      "stem": "What must a startup fill in on the Revenue Streams slide?",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The Revenue Streams slide asks **how you intend to make money**.\n\n- **Strategies, not projections:** the bracket says to add 'strategies', not revenue projections.\n- **Example strategies:** **pay-per-use, subscription, licensing**, etc.\n- **Three lines to complete:**\n  - We will begin commercial sales ...\n  - Total five year revenue estimate ...\n  - At a cost of ...\n\nSo the slide wants the way you will earn first, then when sales begin, a five year estimate and its cost.",
+      "rubric": [
+        {
+          "point": "How you intend to make money",
+          "source_ref": "sce--step-startup-pitching-template-very-early-stage#10"
+        },
+        {
+          "point": "Strategies, not revenue projections",
+          "source_ref": "sce--step-startup-pitching-template-very-early-stage#10"
+        },
+        {
+          "point": "Pay-per-use, subscription, licensing",
+          "source_ref": "sce--step-startup-pitching-template-very-early-stage#10"
+        },
+        {
+          "point": "Commercial sales start, five year estimate, at a cost of",
+          "source_ref": "sce--step-startup-pitching-template-very-early-stage#10"
+        }
+      ],
+      "marks": 5.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "sce--step-startup-pitching-template-very-early-stage#10"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "sce-pitch-insight-advantage-money-q-b530ad8c",
+      "type": "long",
+      "stem": "How does the pitch template ask a startup to show why it will win and how it will make money? Explain the Insight, Unfair Advantage, Business Unit Economics and Revenue Streams slides.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "After problem, solution and market, the template turns to two questions: why this startup will win, and how it will make money.\n\n**Why it will win**\n\n**1. Insight:** *What do you understand that others just don't know?* The team shows an understanding that others lack.\n\n**2. Uniqueness / Unfair Advantage:** *Why it would be hard for others to duplicate what you are going to do?* The team shows what protects it from copying.\n\nThe two differ: insight is what you **understand**; unfair advantage is why others find it **hard to duplicate**.\n\n**How it will make money**\n\n**3. Business Unit Economics:** two averages side by side.\n- **Cost per transaction (Average)**\n- **Revenue per transaction (Average)**\n\n**4. Revenue Streams:** *how you intend to make money*.\n- Add **strategies, not revenue projections**, such as **pay-per-use, subscription, licensing**.\n- Then complete: **we will begin commercial sales** ..., **total five year revenue estimate** ..., **at a cost of** ....\n\n**Summary table**\n| Slide | Question |\n|---|---|\n| Insight | What do we know that others don't? |\n| Unfair Advantage | Why can't others copy us? |\n| Unit Economics | Does one transaction pay? |\n| Revenue Streams | How will we earn, from when, and at what cost? |\n\nIn short, these four slides prove the startup is different and that it can earn money transaction by transaction.",
+      "rubric": [
+        {
+          "point": "Insight: what you understand that others don't know",
+          "source_ref": "sce--step-startup-pitching-template-very-early-stage#7"
+        },
+        {
+          "point": "Unfair advantage: hard to duplicate",
+          "source_ref": "sce--step-startup-pitching-template-very-early-stage#8"
+        },
+        {
+          "point": "Unit economics: average cost and revenue per transaction",
+          "source_ref": "sce--step-startup-pitching-template-very-early-stage#9"
+        },
+        {
+          "point": "Revenue streams: strategies not projections; pay-per-use, subscription, licensing",
+          "source_ref": "sce--step-startup-pitching-template-very-early-stage#10"
+        },
+        {
+          "point": "Commercial sales start, five year estimate, cost",
+          "source_ref": "sce--step-startup-pitching-template-very-early-stage#10"
+        }
+      ],
+      "marks": 10.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "sce--step-startup-pitching-template-very-early-stage#7",
+        "sce--step-startup-pitching-template-very-early-stage#8",
+        "sce--step-startup-pitching-template-very-early-stage#9",
+        "sce--step-startup-pitching-template-very-early-stage#10"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "sce-pitch-insight-advantage-money-q-5c3004fb",
+      "type": "case",
+      "stem": "Your team runs the \"Zero-to-One\" Skill Academy from the list of business ideas. Fill in the Insight, Business Unit Economics and Revenue Streams slides of the pitch template using only what the handout says.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The pitch template gives the slides; the business ideas handout gives the Skill Academy's content.\n\n**Insight (what do you understand that others just don't know?)**\nStudents are often **deficit in the practical skills that secure internships and placements**, skills they should possess or actively perfect.\n\n**Uniqueness / Unfair Advantage**\nThe handout does not name one directly. The closest point is reach: the academy fills seats through **campus networks, social media and scarcity tactics**.\n\n**Business Unit Economics**\n- **Cost per transaction (Average):** the cost of one student in a bootcamp. The handout's lesson is to calculate your **exact cost per student vs venue/software costs**.\n- **Revenue per transaction (Average):** what one student pays for a bootcamp.\n- Comparing the two helps **optimize margins**.\n\n**Revenue Streams (strategies, not projections)**\n- The academy earns from **high-intensity weekend bootcamps** on high-demand skills.\n- Of the slide's example strategies, charging per bootcamp is closest to **pay-per-use**.\n- **Product-Market Fit** guides which topics to sell: test which ones get students to **pull out their wallets**.\n- The five year estimate and cost lines would be filled from the team's own numbers.\n\nIn short, the handout's problem becomes the insight, cost per student becomes the unit economics, and paid bootcamps become the revenue strategy.",
+      "rubric": [
+        {
+          "point": "Insight: students lack practical skills for internships and placements",
+          "source_ref": "sce--list-of-business-ideas#2"
+        },
+        {
+          "point": "Unit economics: cost per student vs venue/software costs",
+          "source_ref": "sce--list-of-business-ideas#2"
+        },
+        {
+          "point": "Template: average cost and revenue per transaction",
+          "source_ref": "sce--step-startup-pitching-template-very-early-stage#9"
+        },
+        {
+          "point": "Revenue strategy from bootcamps, linked to pay-per-use",
+          "source_ref": "sce--step-startup-pitching-template-very-early-stage#10"
+        },
+        {
+          "point": "Product-market fit guides topics",
+          "source_ref": "sce--list-of-business-ideas#2"
+        }
+      ],
+      "marks": 10.0,
+      "difficulty": 3,
+      "style_tag": "case",
+      "source_refs": [
+        "sce--step-startup-pitching-template-very-early-stage#7",
+        "sce--step-startup-pitching-template-very-early-stage#8",
+        "sce--step-startup-pitching-template-very-early-stage#9",
+        "sce--step-startup-pitching-template-very-early-stage#10",
+        "sce--list-of-business-ideas#1",
+        "sce--list-of-business-ideas#2"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
   "explain_back": {
     "prompt": "Explain what the insight, unfair advantage, unit economics and revenue streams slides of the pitch template ask for.",
     "rubric": [

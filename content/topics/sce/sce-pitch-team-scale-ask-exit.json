@@ -460,7 +460,383 @@
       "retired": false
     }
   ],
-  "questions": [],
+  "questions": [
+    {
+      "id": "sce-pitch-team-scale-ask-exit-q-6f777ea1",
+      "type": "mcq",
+      "stem": "The Team Competency slide asks the team to show:",
+      "options": [
+        "Why you are best suited to solve this problem",
+        "What you understand that others just don't know",
+        "Why it would be hard for others to duplicate what you do",
+        "What you aspire to do in the most interesting manner"
+      ],
+      "answer": "Why you are best suited to solve this problem",
+      "accept": [],
+      "explanation": "Team Competency: why you are best suited to solve this problem, with qualification and experience.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "recall",
+      "source_refs": [
+        "sce--step-startup-pitching-template-very-early-stage#11",
+        "sce--step-startup-pitching-template-very-early-stage#7",
+        "sce--step-startup-pitching-template-very-early-stage#8",
+        "sce--step-startup-pitching-template-very-early-stage#1"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "sce-pitch-team-scale-ask-exit-q-0e5858bd",
+      "type": "mcq",
+      "stem": "On the Scalability slide, the 'How' is:",
+      "options": [
+        "Promotion Plan",
+        "Pay-per-use",
+        "Value proposition",
+        "Target Market at Stage I"
+      ],
+      "answer": "Promotion Plan",
+      "accept": [],
+      "explanation": "Scalability has When, Where and How: Promotion Plan.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "recall",
+      "source_refs": [
+        "sce--step-startup-pitching-template-very-early-stage#12",
+        "sce--step-startup-pitching-template-very-early-stage#10",
+        "sce--step-startup-pitching-template-very-early-stage#3",
+        "sce--step-startup-pitching-template-very-early-stage#4"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "sce-pitch-team-scale-ask-exit-q-c26b0298",
+      "type": "mcq",
+      "stem": "The Requirement slide asks for:",
+      "options": [
+        "How much and for what purpose",
+        "When and how much X",
+        "When, where and how",
+        "Cost and revenue per transaction"
+      ],
+      "answer": "How much and for what purpose",
+      "accept": [],
+      "explanation": "Requirement is how much and for what purpose; when and how much X is the EXIT slide.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "recall",
+      "source_refs": [
+        "sce--step-startup-pitching-template-very-early-stage#13",
+        "sce--step-startup-pitching-template-very-early-stage#14",
+        "sce--step-startup-pitching-template-very-early-stage#12",
+        "sce--step-startup-pitching-template-very-early-stage#9"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "sce-pitch-team-scale-ask-exit-q-c561ae58",
+      "type": "mcq",
+      "stem": "The EXIT slide asks for:",
+      "options": [
+        "When and how much X",
+        "How much and for what purpose",
+        "Qualification and professional experience",
+        "Total five year revenue estimate"
+      ],
+      "answer": "When and how much X",
+      "accept": [],
+      "explanation": "EXIT has two prompts: when, and how much X.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "recall",
+      "source_refs": [
+        "sce--step-startup-pitching-template-very-early-stage#14",
+        "sce--step-startup-pitching-template-very-early-stage#13",
+        "sce--step-startup-pitching-template-very-early-stage#11",
+        "sce--step-startup-pitching-template-very-early-stage#10"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "sce-pitch-team-scale-ask-exit-q-1328e97b",
+      "type": "mcq",
+      "stem": "Which sequence follows the order of the pitch template?",
+      "options": [
+        "Problem Statement, Solution, Market Size, Competitive Landscape",
+        "Solution, Problem Statement, Market Size, Customer Segment(s)",
+        "Insight, Problem Statement, Solution, Revenue Streams",
+        "Team Competency, Problem Statement, Market Size, Solution"
+      ],
+      "answer": "Problem Statement, Solution, Market Size, Competitive Landscape",
+      "accept": [],
+      "explanation": "The template opens with problem, solution, market size and competitive landscape in that order.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "sequence",
+      "source_refs": [
+        "sce--step-startup-pitching-template-very-early-stage#2",
+        "sce--step-startup-pitching-template-very-early-stage#3",
+        "sce--step-startup-pitching-template-very-early-stage#4",
+        "sce--step-startup-pitching-template-very-early-stage#5",
+        "sce--step-startup-pitching-template-very-early-stage#6",
+        "sce--step-startup-pitching-template-very-early-stage#7",
+        "sce--step-startup-pitching-template-very-early-stage#10",
+        "sce--step-startup-pitching-template-very-early-stage#11"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "sce-pitch-team-scale-ask-exit-q-082a2cfd",
+      "type": "mcq",
+      "stem": "Which slide comes immediately before Requirement in the pitch template?",
+      "options": [
+        "Scalability",
+        "Team Competency",
+        "EXIT",
+        "Revenue Streams"
+      ],
+      "answer": "Scalability",
+      "accept": [],
+      "explanation": "The closing order is Team Competency, Scalability, Requirement, EXIT.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "sequence",
+      "source_refs": [
+        "sce--step-startup-pitching-template-very-early-stage#11",
+        "sce--step-startup-pitching-template-very-early-stage#12",
+        "sce--step-startup-pitching-template-very-early-stage#13",
+        "sce--step-startup-pitching-template-very-early-stage#14",
+        "sce--step-startup-pitching-template-very-early-stage#10"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "sce-pitch-team-scale-ask-exit-q-ba351f2c",
+      "type": "short",
+      "stem": "Explain what the Team Competency slide of the pitch template asks for.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The Team Competency slide shows **why you are best suited to solve this problem**.\n\n- **Qualification and Professional Experience** of the team.\n- **Something interesting about you or your team.**\n- It links back to the **Problem Statement**: the team must show why it, and not others, should solve that problem.\n\nSo the slide connects the people to the problem.",
+      "rubric": [
+        {
+          "point": "Why you are best suited to solve this problem",
+          "source_ref": "sce--step-startup-pitching-template-very-early-stage#11"
+        },
+        {
+          "point": "Qualification and professional experience",
+          "source_ref": "sce--step-startup-pitching-template-very-early-stage#11"
+        },
+        {
+          "point": "Something interesting about you or your team",
+          "source_ref": "sce--step-startup-pitching-template-very-early-stage#11"
+        },
+        {
+          "point": "Link back to the problem",
+          "source_ref": "sce--step-startup-pitching-template-very-early-stage#2"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 1,
+      "style_tag": "explain",
+      "source_refs": [
+        "sce--step-startup-pitching-template-very-early-stage#11",
+        "sce--step-startup-pitching-template-very-early-stage#2"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "sce-pitch-team-scale-ask-exit-q-171ecfff",
+      "type": "differentiate",
+      "stem": "Differentiate between the Requirement slide and the EXIT slide of the pitch template.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Both are short closing slides, but one is about what you need now and the other about how it ends.\n\n| Basis | Requirement | EXIT |\n|---|---|---|\n| Prompts | How much; for what purpose | When; how much X |\n| Looks at | What the startup needs | When and at what X the exit happens |\n| Position | Second last content slide | Last content slide |\n\nSo Requirement states the ask, and EXIT states the way out.",
+      "rubric": [
+        {
+          "point": "Requirement: how much, for what purpose",
+          "source_ref": "sce--step-startup-pitching-template-very-early-stage#13"
+        },
+        {
+          "point": "EXIT: when, how much X",
+          "source_ref": "sce--step-startup-pitching-template-very-early-stage#14"
+        },
+        {
+          "point": "Ask now versus way out later",
+          "source_ref": "sce--step-startup-pitching-template-very-early-stage#14"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 1,
+      "style_tag": "differentiate",
+      "source_refs": [
+        "sce--step-startup-pitching-template-very-early-stage#13",
+        "sce--step-startup-pitching-template-very-early-stage#14"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "sce-pitch-team-scale-ask-exit-q-4be1c9c7",
+      "type": "short",
+      "stem": "What does the Scalability slide of the pitch template ask for?",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The Scalability slide has three prompts about growing the startup.\n\n- **When:** the timing of scaling.\n- **Where:** the places it will scale to.\n- **How: Promotion Plan:** how it will be done, through a promotion plan.\n\nSo scaling is pitched as a timed, located and promoted plan.",
+      "rubric": [
+        {
+          "point": "When",
+          "source_ref": "sce--step-startup-pitching-template-very-early-stage#12"
+        },
+        {
+          "point": "Where",
+          "source_ref": "sce--step-startup-pitching-template-very-early-stage#12"
+        },
+        {
+          "point": "How: promotion plan",
+          "source_ref": "sce--step-startup-pitching-template-very-early-stage#12"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 1,
+      "style_tag": "list",
+      "source_refs": [
+        "sce--step-startup-pitching-template-very-early-stage#12"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "sce-pitch-team-scale-ask-exit-q-8071bd08",
+      "type": "long",
+      "stem": "List and explain the slides of the very early stage pitch template in order.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The template is a **startup pitching template for a very early stage** venture. After a cover with the **Startup NAME** and **what you aspire to do**, it has thirteen content slides, in this order.\n\n**Problem and solution**\n- **Problem Statement:** the problem that you intend to solve.\n- **Solution:** unique feature, significant advantage, major benefit, value proposition, and what's new and what people are forced to do now.\n\n**Market and customers**\n- **Market Size:** Total Available Market and Target Market at Stage I.\n- **Competitive Landscape:** a heading to fill in.\n- **Customer Segment(s) that we serve:** key characteristics, pain points and goals.\n\n**Why you win**\n- **Insight:** what you understand that others just don't know.\n- **Uniqueness / Unfair Advantage:** why it would be hard for others to duplicate what you do.\n\n**How you make money**\n- **Business Unit Economics:** average cost and average revenue per transaction.\n- **Revenue Streams:** strategies, not projections (pay-per-use, subscription, licensing); when commercial sales begin, total five year revenue estimate, at a cost of.\n\n**Who you are**\n- **Team Competency:** why you are best suited; qualification and professional experience; something interesting about the team.\n\n**Growth, ask and exit**\n- **Scalability:** when, where, how (promotion plan).\n- **Requirement:** how much, for what purpose.\n- **EXIT:** when, how much X.\n\nIn short: problem and solution, market and customers, why you win, how you make money, who you are, then growth, the ask and the exit.",
+      "rubric": [
+        {
+          "point": "Problem Statement and Solution prompts",
+          "source_ref": "sce--step-startup-pitching-template-very-early-stage#3"
+        },
+        {
+          "point": "Market Size, Competitive Landscape, Customer Segments",
+          "source_ref": "sce--step-startup-pitching-template-very-early-stage#4"
+        },
+        {
+          "point": "Insight and Unfair Advantage",
+          "source_ref": "sce--step-startup-pitching-template-very-early-stage#8"
+        },
+        {
+          "point": "Unit Economics and Revenue Streams",
+          "source_ref": "sce--step-startup-pitching-template-very-early-stage#10"
+        },
+        {
+          "point": "Team Competency, Scalability, Requirement, EXIT",
+          "source_ref": "sce--step-startup-pitching-template-very-early-stage#14"
+        },
+        {
+          "point": "Correct order",
+          "source_ref": "sce--step-startup-pitching-template-very-early-stage#2"
+        }
+      ],
+      "marks": 10.0,
+      "difficulty": 2,
+      "style_tag": "list",
+      "source_refs": [
+        "sce--step-startup-pitching-template-very-early-stage#1",
+        "sce--step-startup-pitching-template-very-early-stage#2",
+        "sce--step-startup-pitching-template-very-early-stage#3",
+        "sce--step-startup-pitching-template-very-early-stage#4",
+        "sce--step-startup-pitching-template-very-early-stage#5",
+        "sce--step-startup-pitching-template-very-early-stage#6",
+        "sce--step-startup-pitching-template-very-early-stage#7",
+        "sce--step-startup-pitching-template-very-early-stage#8",
+        "sce--step-startup-pitching-template-very-early-stage#9",
+        "sce--step-startup-pitching-template-very-early-stage#10",
+        "sce--step-startup-pitching-template-very-early-stage#11",
+        "sce--step-startup-pitching-template-very-early-stage#12",
+        "sce--step-startup-pitching-template-very-early-stage#13",
+        "sce--step-startup-pitching-template-very-early-stage#14"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "sce-pitch-team-scale-ask-exit-q-e772a45b",
+      "type": "case",
+      "stem": "Your team has members from BCom, Computer Engg, BBA with design and content writing skills, and HR. Using the Departmentation table from the list of business ideas, fill in the Team Competency slide of the pitch template.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The Team Competency slide asks **why you are best suited to solve this problem**, with **qualification and professional experience** and **something interesting about the team**. The Departmentation table shows which competence fits which department.\n\n**Qualification mapped to departments**\n\n| Member's competence | Department they lead |\n|---|---|\n| BCom | Finance |\n| Computer Engg | Website |\n| BBA, Design Skills, Content writing | Digital Marketing and Business Development |\n| HR | Scheduling, Record Keeping and Journalling |\n\n**Why best suited**\n- Every department the handout names has a member with the matching competence.\n- **Operations** is left blank in the table, so the team should state who covers it.\n\n**Something interesting about the team**\nA mix of commerce, engineering, management and HR backgrounds in one student team.\n\n**Link to the model**\nThis also completes Stage 1, **form team and delegate operations**, of The MBA Entrepreneurship Model.\n\nSo the slide shows a team whose qualifications match each job the business needs.",
+      "rubric": [
+        {
+          "point": "Team Competency: why best suited; qualification and experience; something interesting",
+          "source_ref": "sce--step-startup-pitching-template-very-early-stage#11"
+        },
+        {
+          "point": "Finance BCom; Website Computer Engg",
+          "source_ref": "sce--list-of-business-ideas#4"
+        },
+        {
+          "point": "Digital Marketing and Business Development: BBA, design, content writing",
+          "source_ref": "sce--list-of-business-ideas#4"
+        },
+        {
+          "point": "Scheduling, record keeping, journalling: HR; Operations blank",
+          "source_ref": "sce--list-of-business-ideas#4"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 3,
+      "style_tag": "case",
+      "source_refs": [
+        "sce--step-startup-pitching-template-very-early-stage#11",
+        "sce--list-of-business-ideas#4",
+        "sce--list-of-business-ideas#1"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
   "explain_back": {
     "prompt": "Explain what the closing slides of the very early stage pitch template ask for, from Team Competency to EXIT.",
     "rubric": [
