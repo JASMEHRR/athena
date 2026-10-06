@@ -23,7 +23,7 @@ if errorlevel 1 (
 :install
 echo Installing libraries (this takes a few minutes the first time)...
 ".venv\Scripts\python.exe" -m pip install --upgrade pip
-".venv\Scripts\python.exe" -m pip install -r requirements.txt
+".venv\Scripts\python.exe" -m pip install -r requirements-local.txt
 if errorlevel 1 (
   echo Installing failed. Check your internet connection and run this again.
   pause

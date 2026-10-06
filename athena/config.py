@@ -23,7 +23,7 @@ INBOX_DIR = Path(os.environ.get("ATHENA_INBOX_DIR", ROOT / "inbox"))
 COLLEGE_DIR = Path(os.environ.get("ATHENA_COLLEGE_DIR", r"E:\college"))
 
 DB_PATH = Path(os.environ.get("ATHENA_DB", DATA_DIR / "athena.db"))
-SLIDES_DIR = DATA_DIR / "slides"
+SLIDES_DIR = Path(os.environ.get("ATHENA_SLIDES_DIR", DATA_DIR / "slides"))
 CONVERTED_DIR = DATA_DIR / "converted"
 REVIEW_QUEUE_DIR = DATA_DIR / "review_queue"
 BACKUP_DIR = DATA_DIR / "backups"
