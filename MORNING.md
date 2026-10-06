@@ -4,15 +4,25 @@ Athena is being built. This file is kept up to date as work finishes.
 
 ## What's ready
 - **The app works**: Today, Subjects, Learn, Review (flashcards), Practice (quick quiz, answer writing, case practice, timed mock papers), Plan (calendar and .ics export), Insights, Library (search), Sources and Settings.
-- **Lessons for 7 of 28 decks** (29 topics, 109 lesson parts, 274 check questions, 182 flashcards, 71 professor examples), every one checked against your slides:
-  - AIB: Session 2 (Adoption of AI)
-  - FAR: Financial Accounting Concepts and Dr/Cr rules
-  - MM: Session 1 (Introduction to Marketing)
-  - OML: Introduction to OB
-  - QTM: Module 1 (quantitative techniques, sampling, data types, scales)
-  - SCE: Introduction to Entrepreneurship
+- **Lessons for all 28 decks** (152 topics, 642 lesson parts, 1,729 check questions, 1,022 flashcards, 374 professor examples), every one checked against your slides:
+  - AIB: Sessions 2, 3 to 4, 4 to 5, and Chapters 2 to 3
+  - BE: Sessions 1 to 2, 3, and 4 to 5
+  - FAR: Concepts and Dr/Cr rules, the five elements (session discussion and the framework pages), Maynard cases A and B
+  - MM: Sessions 1, 2 and 3
+  - OML: Introduction to OB, People Express (case page and slides)
+  - QTM: Modules 1, 2.1, 3, 4, 5 and 6
+  - SCE: Introduction to Entrepreneurship, Social Entrepreneurship, business ideas list, pitching template
   - SiP-I: Organization selection presentation
-- **Still to write: 21 decks**, then the exam-style question banks (needed for answer writing and mock papers).
+- Where a practice question on a slide has no printed answer, the lesson works it out with the deck's own method.
+- **Still to write:** the exam-style question banks (needed for answer writing and mock papers).
+- **Ask your professor** (slide mistakes the lessons point out in one line):
+  - BE s1-2 slide 58 prints MR = 50Q - 2Q (should read 50 - 2Q).
+  - BE s3: the slide 14 graph and the slide 13 table give different numbers.
+  - BE s4-5 slide 20: rearranging Qxs = 10 + 2Px gives Px = 0.5Qxs - 5, not the printed 5 + 0.5Qxs.
+  - QTM Module 3: slide 14 writes 29.5% as 0.2905; slide 32 asks P(X >= 9) but works out P(X > 9).
+  - QTM Module 6 slides 8, 9, 11: the critical t values were typed over, and the decision lines use the old values (the decision does not change).
+  - QTM Module 5 slide 30: the coffee example uses a t test with a known population SD and says "Reject H1".
+  - AIB: ChatGPT, Gemini and Watson are early AGI on one slide and ANI on others; UBI means two different things on slides 37 and 40; Era 5 starts 2022 on one slide and 2018 on another.
 - All 28 decks are read in with a picture of every slide; past papers typed in (BE MST 2025, SCE MST 2025, EMDM MST 2023, your AIB tutorial sheet); a session map for 7 subjects.
 - Reminders, Google Classroom sync and the refresh spec are built but not switched on.
 
@@ -58,7 +68,6 @@ After adding files, run `.\run-overnight.ps1 -Spec REFRESH.md`.
 - Details in DECISIONS.md.
 
 ## Known issues
-- Only 7 decks have lessons so far, so Today's plan and quizzes cover those subjects only.
 - No exam-style question bank yet, so Answer writing, Case practice and Mock paper say "no questions yet".
 - "Extra help" YouTube picks are built but not fetched yet.
 
