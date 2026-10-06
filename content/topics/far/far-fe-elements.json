@@ -1,0 +1,503 @@
+{
+  "id": "far-fe-elements",
+  "subject_id": "far",
+  "deck_id": "far--five-elements-fs-recognition",
+  "title": "The five elements of financial statements",
+  "order": 301,
+  "summary": "How the Conceptual Framework groups the elements into position and performance, and what each of the five means in Table 4.1.",
+  "est_minutes": 15,
+  "difficulty": 1,
+  "source_refs": [
+    "far--five-elements-fs-recognition#1"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "far-fe-elements-c1",
+      "heading": "Two groups: position and performance",
+      "explanation_md": "The **Conceptual Framework** defines **five elements of financial statements**, and splits them into two groups:\n\n- **Assets, liabilities and equity** relate to the entity's **financial position**.\n- **Income and expenses** relate to the entity's **financial performance**.\n\nEach element is tied to an idea from the framework's **Chapter 1**: economic resources, claims, and changes in those resources and claims. **Table 4.1** lays this out in three columns: the Chapter 1 item, the element, and its definition.",
+      "example_ids": [
+        "far-ex-fe-table-4-1"
+      ],
+      "key_terms": [
+        {
+          "term": "Elements of financial statements",
+          "meaning": "Assets, liabilities, equity, income and expenses.",
+          "source_ref": "far--five-elements-fs-recognition#1"
+        }
+      ],
+      "exam_line": "Assets, liabilities and equity relate to financial position; income and expenses relate to financial performance.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "far-fe-elements-q-2bdbd658",
+          "type": "mcq",
+          "stem": "Which elements relate to a reporting entity's financial performance?",
+          "options": [
+            "Income and expenses",
+            "Assets, liabilities and equity",
+            "Assets and income"
+          ],
+          "answer": "Income and expenses",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--five-elements-fs-recognition#1"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-fe-elements-q-39f84d34",
+          "type": "true_false",
+          "stem": "Equity relates to the entity's financial position.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--five-elements-fs-recognition#1"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-fe-elements-q-1e0f3509",
+          "type": "fill",
+          "stem": "Assets, liabilities and equity relate to a reporting entity's financial ____.",
+          "options": [],
+          "answer": "position",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--five-elements-fs-recognition#1"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "far--five-elements-fs-recognition#1"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-fe-elements-c2",
+      "heading": "Asset, liability and equity",
+      "explanation_md": "These three come from two Chapter 1 ideas: an **economic resource** and a **claim**.\n\n- **Asset** (from economic resource): a **present economic resource** that the entity **controls** because of **past events**. An **economic resource** is a **right** that has the **potential to produce economic benefits**.\n- **Liability** (a claim): a **present obligation** of the entity to **transfer an economic resource**, again because of **past events**.\n- **Equity** (also a claim): the **residual interest**, meaning what is left of the entity's **assets after deducting all its liabilities**.\n\nNotice the pattern: asset and liability both need something *present* that arose from *past events*.",
+      "example_ids": [
+        "far-ex-fe-table-4-1"
+      ],
+      "key_terms": [
+        {
+          "term": "Asset",
+          "meaning": "A present economic resource controlled by the entity as a result of past events.",
+          "source_ref": "far--five-elements-fs-recognition#1"
+        },
+        {
+          "term": "Economic resource",
+          "meaning": "A right that has the potential to produce economic benefits.",
+          "source_ref": "far--five-elements-fs-recognition#1"
+        },
+        {
+          "term": "Liability",
+          "meaning": "A present obligation of the entity to transfer an economic resource as a result of past events.",
+          "source_ref": "far--five-elements-fs-recognition#1"
+        },
+        {
+          "term": "Equity",
+          "meaning": "The residual interest in the assets after deducting all liabilities.",
+          "source_ref": "far--five-elements-fs-recognition#1"
+        }
+      ],
+      "exam_line": "Asset: present economic resource controlled due to past events. Liability: present obligation to transfer an economic resource due to past events. Equity: residual interest in assets after deducting all liabilities.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "far-fe-elements-q-b3e858d9",
+          "type": "mcq",
+          "stem": "Which element is defined as the residual interest in the assets after deducting all liabilities?",
+          "options": [
+            "Equity",
+            "Income",
+            "Liability",
+            "Asset"
+          ],
+          "answer": "Equity",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--five-elements-fs-recognition#1"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-fe-elements-q-dd705616",
+          "type": "mcq",
+          "stem": "In Table 4.1, a liability and equity both come from which Chapter 1 item?",
+          "options": [
+            "Claim",
+            "Economic resource",
+            "Changes in economic resources and claims"
+          ],
+          "answer": "Claim",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--five-elements-fs-recognition#1"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-fe-elements-q-dfa522b8",
+          "type": "fill",
+          "stem": "An economic resource is a ____ that has the potential to produce economic benefits.",
+          "options": [],
+          "answer": "right",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--five-elements-fs-recognition#1"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "far--five-elements-fs-recognition#1"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-fe-elements-c3",
+      "heading": "Income and expenses",
+      "explanation_md": "Income and expenses come from **changes in economic resources and claims** that reflect **financial performance**. Both are defined through what happens to **equity**:\n\n- **Income**: **increases in assets or decreases in liabilities** that **increase equity**, **except** contributions from holders of equity claims.\n- **Expenses**: **decreases in assets or increases in liabilities** that **decrease equity**, **except** distributions to holders of equity claims.\n\nThey are mirror images. Money the owners put in is not income, and money paid out to the owners is not an expense.",
+      "example_ids": [
+        "far-ex-fe-table-4-1"
+      ],
+      "key_terms": [
+        {
+          "term": "Income",
+          "meaning": "Increases in assets or decreases in liabilities that increase equity, other than contributions from equity holders.",
+          "source_ref": "far--five-elements-fs-recognition#1"
+        },
+        {
+          "term": "Expenses",
+          "meaning": "Decreases in assets or increases in liabilities that decrease equity, other than distributions to equity holders.",
+          "source_ref": "far--five-elements-fs-recognition#1"
+        }
+      ],
+      "exam_line": "Income raises equity (assets up or liabilities down), excluding owner contributions; expenses lower equity (assets down or liabilities up), excluding distributions to owners.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "far-fe-elements-q-bbc398e6",
+          "type": "mcq",
+          "stem": "A decrease in liabilities that increases equity, not from equity holders' contributions, is:",
+          "options": [
+            "Income",
+            "Expenses",
+            "Equity",
+            "A liability"
+          ],
+          "answer": "Income",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--five-elements-fs-recognition#1"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-fe-elements-q-30e5ff21",
+          "type": "true_false",
+          "stem": "Contributions from holders of equity claims count as income.",
+          "options": [],
+          "answer": "False",
+          "accept": [],
+          "explanation": "Income excludes contributions from holders of equity claims.",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--five-elements-fs-recognition#1"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-fe-elements-q-92ac879e",
+          "type": "fill",
+          "stem": "Expenses are decreases in assets, or increases in liabilities, that result in ____ in equity.",
+          "options": [],
+          "answer": "decreases",
+          "accept": [
+            "decrease"
+          ],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--five-elements-fs-recognition#1"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "far--five-elements-fs-recognition#1"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-fe-elements-c4",
+      "heading": "Changes that are not elements",
+      "explanation_md": "The last row of **Table 4.1** covers **other changes in economic resources and claims**. These have **no element** (the element column is blank):\n\n- **Contributions from holders of equity claims, and distributions to them.**\n- **Exchanges of assets or liabilities that do not increase or decrease equity.**\n\nThis is why owner contributions are not income, and distributions are not expenses: they sit in their own row.",
+      "example_ids": [
+        "far-ex-fe-table-4-1"
+      ],
+      "key_terms": [],
+      "exam_line": "Contributions from and distributions to equity holders, and exchanges that leave equity unchanged, are other changes with no element.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "far-fe-elements-q-3e50ecaf",
+          "type": "mcq",
+          "stem": "In Table 4.1, which element is given for exchanges of assets or liabilities that do not change equity?",
+          "options": [
+            "None",
+            "Income",
+            "Expenses",
+            "Equity"
+          ],
+          "answer": "None",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--five-elements-fs-recognition#1"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-fe-elements-q-c2c76e99",
+          "type": "true_false",
+          "stem": "Distributions to holders of equity claims are listed as other changes with no element.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--five-elements-fs-recognition#1"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "far--five-elements-fs-recognition#1"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "far-fe-elements-f1",
+      "front": "The five elements",
+      "back": "Assets, liabilities, equity, income and expenses.",
+      "kind": "list",
+      "source_refs": [
+        "far--five-elements-fs-recognition#1"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-fe-elements-f2",
+      "front": "Position vs performance elements",
+      "back": "Assets, liabilities, equity: financial position. Income, expenses: financial performance.",
+      "kind": "fact",
+      "source_refs": [
+        "far--five-elements-fs-recognition#1"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-fe-elements-f3",
+      "front": "Asset",
+      "back": "A present economic resource controlled by the entity as a result of past events.",
+      "kind": "term",
+      "source_refs": [
+        "far--five-elements-fs-recognition#1"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-fe-elements-f4",
+      "front": "Economic resource",
+      "back": "A right that has the potential to produce economic benefits.",
+      "kind": "term",
+      "source_refs": [
+        "far--five-elements-fs-recognition#1"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-fe-elements-f5",
+      "front": "Liability",
+      "back": "A present obligation of the entity to transfer an economic resource as a result of past events.",
+      "kind": "term",
+      "source_refs": [
+        "far--five-elements-fs-recognition#1"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-fe-elements-f6",
+      "front": "Equity",
+      "back": "The residual interest in the assets after deducting all liabilities.",
+      "kind": "term",
+      "source_refs": [
+        "far--five-elements-fs-recognition#1"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-fe-elements-f7",
+      "front": "Income vs expenses",
+      "back": "Income: assets up or liabilities down, equity up (not owner contributions). Expenses: assets down or liabilities up, equity down (not distributions to owners).",
+      "kind": "term",
+      "source_refs": [
+        "far--five-elements-fs-recognition#1"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-fe-elements-f8",
+      "front": "Other changes with no element",
+      "back": "Contributions from and distributions to equity holders; exchanges of assets or liabilities that leave equity unchanged.",
+      "kind": "list",
+      "source_refs": [
+        "far--five-elements-fs-recognition#1"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [],
+  "explain_back": {
+    "prompt": "Explain the five elements of financial statements and how each links to economic resources and claims.",
+    "rubric": [
+      {
+        "point": "Assets, liabilities and equity relate to financial position; income and expenses to financial performance",
+        "source_ref": "far--five-elements-fs-recognition#1"
+      },
+      {
+        "point": "Asset: present economic resource controlled due to past events; a resource is a right that can produce economic benefits",
+        "source_ref": "far--five-elements-fs-recognition#1"
+      },
+      {
+        "point": "Liability: present obligation to transfer an economic resource; equity: residual interest after deducting liabilities",
+        "source_ref": "far--five-elements-fs-recognition#1"
+      },
+      {
+        "point": "Income and expenses: changes in assets or liabilities that raise or lower equity",
+        "source_ref": "far--five-elements-fs-recognition#1"
+      },
+      {
+        "point": "Owner contributions, distributions and equity-neutral exchanges are not elements",
+        "source_ref": "far--five-elements-fs-recognition#1"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

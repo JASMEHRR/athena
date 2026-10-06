@@ -1,0 +1,729 @@
+{
+  "id": "far-may-income-and-cash",
+  "subject_id": "far",
+  "deck_id": "far--session-14-case-2-1-case-3-1-maynard-a-b-full",
+  "title": "Maynard Company (B): June income statement and why cash grew faster than profit",
+  "order": 402,
+  "summary": "Case 3-1: use the cash record plus the (A) balances to build June's income statement, explain cost of sales, and reconcile the $31,677 rise in cash with $19,635 of net income.",
+  "est_minutes": 35,
+  "difficulty": 3,
+  "source_refs": [
+    "far--session-14-case-2-1-case-3-1-maynard-a-b-full#2",
+    "far--session-14-case-2-1-case-3-1-maynard-a-b-full#1"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "far-may-income-and-cash-c1",
+      "heading": "The puzzle and the cash record",
+      "explanation_md": "**Case 3-1, Maynard Company (B)** picks up after the balance sheets. Diane Maynard asks: **why did cash increase by $31,677 when net income was only $19,635?** Her friend says an **income statement for June** is a partial answer.\n\nThe friend finds a record of **cash receipts and disbursements** for June (Exhibit 1), and learns two more facts: **all accounts payable were owed to vendors for merchandise inventory**, and **cost of sales in June was $39,345**.\n\n**Cash receipts:** cash sales $44,420; credit customers $21,798; Diane Maynard $11,700; bank loan $20,865. **Total $98,783.**\n\n**Cash disbursements:** equipment $23,400; other assets $408; payments on accounts payable $8,517; cash purchases of merchandise $14,715; supplies $1,671; dividends $11,700; wages $5,660; utilities $900; miscellaneous $135. **Total $67,106.**\n\n**Reconciliation:** opening cash $34,983 + receipts $98,783 = $133,766; minus disbursements $67,106 = closing cash **$66,660**.",
+      "example_ids": [
+        "far-ex-may-case-b",
+        "far-ex-may-cash-record"
+      ],
+      "key_terms": [],
+      "exam_line": "Cash June 1 $34,983 + receipts $98,783 minus disbursements $67,106 = cash June 30 $66,660. Cost of sales for June is given as $39,345.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "far-may-income-and-cash-q-624ec575",
+          "type": "mcq",
+          "stem": "What were total cash receipts in June?",
+          "options": [
+            "$98,783",
+            "$67,106",
+            "$133,766",
+            "$44,420"
+          ],
+          "answer": "$98,783",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--session-14-case-2-1-case-3-1-maynard-a-b-full#2"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-may-income-and-cash-q-f6a92f9b",
+          "type": "fill",
+          "stem": "Cash balance June 1 $34,983 + receipts $98,783 = subtotal $____.",
+          "options": [],
+          "answer": "133,766",
+          "accept": [
+            "133766",
+            "$133,766"
+          ],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--session-14-case-2-1-case-3-1-maynard-a-b-full#2"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-may-income-and-cash-q-49908fd2",
+          "type": "true_false",
+          "stem": "In the (B) case, all accounts payable were owed to vendors for merchandise inventory.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--session-14-case-2-1-case-3-1-maynard-a-b-full#2"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "far--session-14-case-2-1-case-3-1-maynard-a-b-full#2"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-may-income-and-cash-c2",
+      "heading": "Sales revenue: cash sales plus credit sales",
+      "explanation_md": "The cash record shows **cash sales of $44,420**, but that is not all of June's sales. Customers also bought **on credit**.\n\nTo find **credit sales**, use accounts receivable from the (A) case:\n\n- Accounts receivable at June 1: **$21,798**\n- Collected from credit customers in June: **$21,798**\n- Accounts receivable at June 30: **$26,505**\n\nOpening 21,798 + credit sales minus collections 21,798 = closing 26,505, so **credit sales = $26,505**.\n\n**Total sales = 44,420 + 26,505 = $70,925.**\n\nNotice: the $21,798 collected is **not** June revenue. It is cash from earlier sales already counted in the June 1 receivable.",
+      "example_ids": [
+        "far-ex-may-cash-record"
+      ],
+      "key_terms": [],
+      "exam_line": "Sales = cash sales $44,420 + credit sales $26,505 (from the change in accounts receivable) = $70,925.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "far-may-income-and-cash-q-4be6d2d8",
+          "type": "mcq",
+          "stem": "What were Maynard's total sales for June?",
+          "options": [
+            "$70,925",
+            "$44,420",
+            "$66,218",
+            "$98,783"
+          ],
+          "answer": "$70,925",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--session-14-case-2-1-case-3-1-maynard-a-b-full#1",
+            "far--session-14-case-2-1-case-3-1-maynard-a-b-full#2"
+          ],
+          "derived": [
+            "70,925",
+            "66,218"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-may-income-and-cash-q-dc2ae56c",
+          "type": "true_false",
+          "stem": "The $21,798 received from credit customers in June is counted as June sales revenue.",
+          "options": [],
+          "answer": "False",
+          "accept": [],
+          "explanation": "It collects the receivable that existed on June 1; June's credit sales are found from the closing receivable.",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--session-14-case-2-1-case-3-1-maynard-a-b-full#1",
+            "far--session-14-case-2-1-case-3-1-maynard-a-b-full#2"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-may-income-and-cash-q-bd554ebc",
+          "type": "fill",
+          "stem": "Credit sales in June were $____.",
+          "options": [],
+          "answer": "26,505",
+          "accept": [
+            "26505",
+            "$26,505"
+          ],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--session-14-case-2-1-case-3-1-maynard-a-b-full#1",
+            "far--session-14-case-2-1-case-3-1-maynard-a-b-full#2"
+          ],
+          "derived": [
+            "26,505"
+          ],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "far--session-14-case-2-1-case-3-1-maynard-a-b-full#1",
+        "far--session-14-case-2-1-case-3-1-maynard-a-b-full#2"
+      ],
+      "derived": [
+        "26,505",
+        "70,925"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-may-income-and-cash-c3",
+      "heading": "Cost of sales, and the two wrong answers",
+      "explanation_md": "Cost of sales for June is given as **$39,345**. Here is how it ties to the numbers.\n\n**Purchases of merchandise in June:**\n- Cash purchases: **$14,715**\n- Purchases on credit: accounts payable went from $8,517 to $21,315 after paying $8,517, so credit purchases were **$21,315** (all payables are for merchandise).\n- **Total purchases = 14,715 + 21,315 = $36,030**\n\n**Inventory check:** opening inventory 29,835 + purchases 36,030 minus cost of sales 39,345 = closing inventory **26,520**, which matches the June 30 balance.\n\n**Why $14,715 is wrong:** it is only the **cash** purchases. It ignores merchandise bought on credit and the fall in inventory. It would be right only if there were no credit purchases and inventory did not change.\n\n**Why $36,030 is wrong:** it is **total purchases**, not the cost of goods sold. Inventory fell during June, so more was sold than was bought. It would be right only if opening and closing inventory were equal.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Cost of sales",
+          "meaning": "The cost of the merchandise sold in the period: $39,345 for Maynard in June.",
+          "source_ref": "far--session-14-case-2-1-case-3-1-maynard-a-b-full#2"
+        }
+      ],
+      "exam_line": "Purchases = cash 14,715 + credit 21,315 = 36,030. Opening inventory 29,835 + 36,030 minus cost of sales 39,345 = closing inventory 26,520.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "far-may-income-and-cash-q-2a540b21",
+          "type": "mcq",
+          "stem": "What does the $36,030 figure represent?",
+          "options": [
+            "Total purchases of merchandise in June",
+            "Cash purchases of merchandise only",
+            "Cost of sales for June",
+            "Closing inventory"
+          ],
+          "answer": "Total purchases of merchandise in June",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--session-14-case-2-1-case-3-1-maynard-a-b-full#1",
+            "far--session-14-case-2-1-case-3-1-maynard-a-b-full#2"
+          ],
+          "derived": [
+            "36,030"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-may-income-and-cash-q-31591b07",
+          "type": "mcq",
+          "stem": "Why is $14,715 an incorrect cost of sales for June?",
+          "options": [
+            "It counts only cash purchases and ignores credit purchases and the change in inventory",
+            "It includes the dividend",
+            "It includes depreciation"
+          ],
+          "answer": "It counts only cash purchases and ignores credit purchases and the change in inventory",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--session-14-case-2-1-case-3-1-maynard-a-b-full#2"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-may-income-and-cash-q-d021a696",
+          "type": "true_false",
+          "stem": "$36,030 would be the correct cost of sales if opening and closing inventory were equal.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--session-14-case-2-1-case-3-1-maynard-a-b-full#2"
+          ],
+          "derived": [
+            "36,030"
+          ],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "far--session-14-case-2-1-case-3-1-maynard-a-b-full#1",
+        "far--session-14-case-2-1-case-3-1-maynard-a-b-full#2"
+      ],
+      "derived": [
+        "21,315",
+        "36,030",
+        "26,520"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-may-income-and-cash-c4",
+      "heading": "Expenses for June, item by item",
+      "explanation_md": "Each expense is what was **used up in June**, not just what was paid:\n\n- **Wages:** paid 5,660 + increase in accrued wages (2,202 minus 1,974 = 228) = **5,888**\n- **Depreciation on building:** 157,950 minus 156,000 = **1,950**\n- **Depreciation on equipment:** 5,928 minus 5,304 = **624**\n- **Insurance:** prepaid insurance fell from 3,150 to 2,826 = **324**\n- **Supplies used:** opening 5,559 + bought 1,671 minus closing 6,630 = **600**\n- **Utilities:** **900** (paid)\n- **Miscellaneous:** **135** (paid)\n- **Taxes:** taxes payable rose from 5,700 to 7,224 = **1,524** (no taxes were paid in June)\n\n**Not expenses:** equipment purchased (23,400) is added to Equipment; other assets purchased (408) is added to Other noncurrent assets (4,857 to 5,265); the dividend (11,700) reduces retained earnings.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "Expenses are amounts used up in June: wages 5,888, depreciation 1,950 + 624, insurance 324, supplies 600, utilities 900, miscellaneous 135, taxes 1,524. Equipment, other assets and dividends are not expenses.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "far-may-income-and-cash-q-95231a90",
+          "type": "mcq",
+          "stem": "What is June's wages expense?",
+          "options": [
+            "$5,888",
+            "$5,660",
+            "$2,202",
+            "$7,862"
+          ],
+          "answer": "$5,888",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--session-14-case-2-1-case-3-1-maynard-a-b-full#1",
+            "far--session-14-case-2-1-case-3-1-maynard-a-b-full#2"
+          ],
+          "derived": [
+            "5,888",
+            "7,862"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-may-income-and-cash-q-4ac77843",
+          "type": "mcq",
+          "stem": "Supplies expense for June is:",
+          "options": [
+            "$600",
+            "$1,671",
+            "$1,071",
+            "$6,630"
+          ],
+          "answer": "$600",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--session-14-case-2-1-case-3-1-maynard-a-b-full#1",
+            "far--session-14-case-2-1-case-3-1-maynard-a-b-full#2"
+          ],
+          "derived": [
+            "600",
+            "1,071"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-may-income-and-cash-q-e188ea77",
+          "type": "true_false",
+          "stem": "The $23,400 paid for equipment is an expense in June's income statement.",
+          "options": [],
+          "answer": "False",
+          "accept": [],
+          "explanation": "It adds to the Equipment asset; only depreciation is an expense.",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--session-14-case-2-1-case-3-1-maynard-a-b-full#2"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "far--session-14-case-2-1-case-3-1-maynard-a-b-full#1",
+        "far--session-14-case-2-1-case-3-1-maynard-a-b-full#2"
+      ],
+      "derived": [
+        "5,888",
+        "228",
+        "1,950",
+        "624",
+        "324",
+        "600",
+        "1,524"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-may-income-and-cash-c5",
+      "heading": "The income statement for June",
+      "explanation_md": "| Item | $ |\n|---|---|\n| Sales (44,420 cash + 26,505 credit) | 70,925 |\n| Less cost of sales | 39,345 |\n| **Gross margin** | **31,580** |\n| Wages | 5,888 |\n| Depreciation on building | 1,950 |\n| Depreciation on equipment | 624 |\n| Insurance | 324 |\n| Supplies | 600 |\n| Utilities | 900 |\n| Miscellaneous | 135 |\n| **Total expenses** | **10,421** |\n| **Income before taxes** | **21,159** |\n| Taxes | 1,524 |\n| **Net income** | **19,635** |\n\nThe result matches the **$19,635** the bookkeeper reported, which confirms every line.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "Sales 70,925 minus cost of sales 39,345 = gross margin 31,580; minus expenses 10,421 = 21,159; minus taxes 1,524 = net income 19,635.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "far-may-income-and-cash-q-1700d5ca",
+          "type": "mcq",
+          "stem": "What is Maynard's gross margin for June?",
+          "options": [
+            "$31,580",
+            "$19,635",
+            "$21,159",
+            "$70,925"
+          ],
+          "answer": "$31,580",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--session-14-case-2-1-case-3-1-maynard-a-b-full#1",
+            "far--session-14-case-2-1-case-3-1-maynard-a-b-full#2"
+          ],
+          "derived": [
+            "31,580",
+            "21,159",
+            "70,925"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-may-income-and-cash-q-8371133b",
+          "type": "fill",
+          "stem": "Income before taxes $21,159 minus taxes $1,524 = net income $____.",
+          "options": [],
+          "answer": "19,635",
+          "accept": [
+            "19635",
+            "$19,635"
+          ],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--session-14-case-2-1-case-3-1-maynard-a-b-full#1",
+            "far--session-14-case-2-1-case-3-1-maynard-a-b-full#2"
+          ],
+          "derived": [
+            "21,159",
+            "1,524"
+          ],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "far--session-14-case-2-1-case-3-1-maynard-a-b-full#1",
+        "far--session-14-case-2-1-case-3-1-maynard-a-b-full#2"
+      ],
+      "derived": [
+        "70,925",
+        "31,580",
+        "5,888",
+        "1,950",
+        "624",
+        "324",
+        "600",
+        "10,421",
+        "21,159",
+        "1,524"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-may-income-and-cash-c6",
+      "heading": "Why cash rose by more than net income",
+      "explanation_md": "Cash rose **$31,677** but net income was **$19,635**: a gap of **$12,042**. The reason is that some cash flows are not income or expense, and some income and expenses did not move cash in June.\n\n**Cash came in that was not income:**\n- Bank loan: **+20,865**\n- Diane Maynard repaying her loan: **+11,700**\n\n**Cash went out that was not an expense:**\n- Equipment: **minus 23,400**\n- Other assets: **minus 408**\n- Dividend: **minus 11,700**\n\n**Income items that were not cash in June:**\n- Depreciation (1,950 + 624 = 2,574) is an expense with no cash paid: **+2,574**\n- Accounts receivable rose (sales not yet collected): **minus 4,707**\n- Inventory fell (sold goods bought earlier): **+3,315**\n- Supplies on hand rose: **minus 1,071**\n- Prepaid insurance fell: **+324**\n- Accounts payable rose (purchases not yet paid): **+12,798**\n- Accrued wages rose: **+228**\n- Taxes payable rose: **+1,524**\n\nAdd them all to 19,635 and you get **31,677**, the change in cash.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "Cash change (31,677) differs from net income (19,635) because of the bank loan, the owner's loan repayment, equipment and dividend payments, depreciation, and changes in receivables, inventory, supplies, prepaid insurance and payables.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "far-may-income-and-cash-q-b54b9408",
+          "type": "mcq",
+          "stem": "Which of these increased Maynard's cash in June without being income?",
+          "options": [
+            "The bank loan of $20,865",
+            "Cash sales of $44,420",
+            "The rise in accounts receivable",
+            "Depreciation"
+          ],
+          "answer": "The bank loan of $20,865",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--session-14-case-2-1-case-3-1-maynard-a-b-full#2"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-may-income-and-cash-q-b50529ff",
+          "type": "true_false",
+          "stem": "Depreciation reduced net income but did not use cash in June.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--session-14-case-2-1-case-3-1-maynard-a-b-full#1",
+            "far--session-14-case-2-1-case-3-1-maynard-a-b-full#2"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-may-income-and-cash-q-4e5c2421",
+          "type": "mcq",
+          "stem": "What is the gap between the rise in cash and June net income?",
+          "options": [
+            "$12,042",
+            "$11,700",
+            "$31,677",
+            "$20,865"
+          ],
+          "answer": "$12,042",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--session-14-case-2-1-case-3-1-maynard-a-b-full#2"
+          ],
+          "derived": [
+            "12,042"
+          ],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "far--session-14-case-2-1-case-3-1-maynard-a-b-full#1",
+        "far--session-14-case-2-1-case-3-1-maynard-a-b-full#2"
+      ],
+      "derived": [
+        "12,042",
+        "1,950",
+        "624",
+        "2,574",
+        "4,707",
+        "3,315",
+        "1,071",
+        "12,798",
+        "1,524",
+        "228",
+        "324"
+      ],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "far-may-income-and-cash-f1",
+      "front": "Maynard (B): Diane Maynard's question",
+      "back": "Why did cash increase by $31,677 when net income was only $19,635?",
+      "kind": "example",
+      "source_refs": [
+        "far--session-14-case-2-1-case-3-1-maynard-a-b-full#2"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-may-income-and-cash-f2",
+      "front": "Maynard (B): the three questions",
+      "back": "Prepare June's income statement and explain each item including cost of sales; explain why the change in cash exceeded net income; explain why $14,715 and $36,030 are incorrect cost of sales amounts and when they would be correct.",
+      "kind": "list",
+      "source_refs": [
+        "far--session-14-case-2-1-case-3-1-maynard-a-b-full#2"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-may-income-and-cash-f3",
+      "front": "Cash reconciliation (Maynard, June)",
+      "back": "Cash June 1 $34,983 + receipts $98,783 = $133,766; minus disbursements $67,106 = cash June 30 $66,660.",
+      "kind": "formula",
+      "source_refs": [
+        "far--session-14-case-2-1-case-3-1-maynard-a-b-full#2"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-may-income-and-cash-f4",
+      "front": "Credit sales: how to find them",
+      "back": "Opening accounts receivable + credit sales minus collections = closing accounts receivable.",
+      "kind": "formula",
+      "source_refs": [
+        "far--session-14-case-2-1-case-3-1-maynard-a-b-full#1",
+        "far--session-14-case-2-1-case-3-1-maynard-a-b-full#2"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-may-income-and-cash-f5",
+      "front": "Why $14,715 is not cost of sales",
+      "back": "It is only the cash purchases of merchandise; it ignores credit purchases and the change in inventory.",
+      "kind": "fact",
+      "source_refs": [
+        "far--session-14-case-2-1-case-3-1-maynard-a-b-full#2"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-may-income-and-cash-f6",
+      "front": "Why $36,030 is not cost of sales",
+      "back": "It is total purchases; it would equal cost of sales only if opening and closing inventory were the same.",
+      "kind": "fact",
+      "source_refs": [
+        "far--session-14-case-2-1-case-3-1-maynard-a-b-full#2"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-may-income-and-cash-f7",
+      "front": "Cost of sales link to inventory",
+      "back": "Opening inventory + purchases minus cost of sales = closing inventory.",
+      "kind": "formula",
+      "source_refs": [
+        "far--session-14-case-2-1-case-3-1-maynard-a-b-full#1",
+        "far--session-14-case-2-1-case-3-1-maynard-a-b-full#2"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-may-income-and-cash-f8",
+      "front": "Cash flows in June that were not income or expense",
+      "back": "Bank loan received, owner's loan repaid, equipment and other assets bought, dividend paid.",
+      "kind": "list",
+      "source_refs": [
+        "far--session-14-case-2-1-case-3-1-maynard-a-b-full#2"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [],
+  "explain_back": {
+    "prompt": "Explain how June's income statement for Maynard Company is built from the cash record and the balance sheets, and why cash rose by more than net income.",
+    "rubric": [
+      {
+        "point": "Sales include cash sales $44,420 plus credit sales found from the change in accounts receivable",
+        "source_ref": "far--session-14-case-2-1-case-3-1-maynard-a-b-full#2"
+      },
+      {
+        "point": "Cost of sales $39,345 ties purchases (cash plus credit) to the change in merchandise inventory",
+        "source_ref": "far--session-14-case-2-1-case-3-1-maynard-a-b-full#2"
+      },
+      {
+        "point": "Expenses are amounts used up: wages incl. accrued, depreciation, insurance, supplies, utilities, miscellaneous, taxes",
+        "source_ref": "far--session-14-case-2-1-case-3-1-maynard-a-b-full#1"
+      },
+      {
+        "point": "Net income $19,635; equipment, other assets and the dividend are not expenses",
+        "source_ref": "far--session-14-case-2-1-case-3-1-maynard-a-b-full#2"
+      },
+      {
+        "point": "Cash rose $31,677 because of the bank loan and owner's repayment, offset by equipment and dividend, plus non-cash items such as depreciation and changes in receivables, inventory and payables",
+        "source_ref": "far--session-14-case-2-1-case-3-1-maynard-a-b-full#2"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

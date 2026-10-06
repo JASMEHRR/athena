@@ -75,7 +75,8 @@ No exam dates, so round-robin across subjects. Validate, ground and cover each d
   - 12 topics (aib-ch23-*), 46 chunks, 121 checks, 79 cards, 31 examples. By subagent, reviewed. One-line notes: slide 14 says 10.8 points for 26.2 minus 15.3 (10.9); Era 5 starts 2022 (slides 8 to 9) vs 2018 (slide 15).
 - [x] P4 pass A: be--sessions-4-and-5 (50 slides, 38 visual)
   - 8 topics (be-s45-*), 37 chunks, 102 checks, 51 cards, 27 examples. By subagent (resumed), reviewed. Unanswered practice slides (12, 24, 31, 36, 37, 49, 50) worked with the deck's formulas, numbers derived; they form one market, Qxd = 400 - 5Px and Qxs = -50 + 5Px, equilibrium at 45 rupees and 175 units. Flagged in lessons: slide 20's inverse supply has a sign slip (prints Px = 5 + 0.5Qxs); slide 12 never says how to read substitute/complement or normal/inferior from signs; slide 50's answer depends on whether unsold units count.
-- [ ] P4 pass A: far--five-elements-fs-recognition (3 slides, 3 visual)
+- [x] P4 pass A: far--five-elements-fs-recognition (3 slides, 3 visual)
+  - 2 topics (far-fe-*), 8 chunks, 23 checks, 16 cards, 3 examples. Pages from a published standard: visual_text and lessons paraphrase (verbatim copying trips the output filter).
 - [x] P4 pass A: mm--session3-mm (22 slides, 17 visual)
   - 5 topics (mm-s3-*), 20 chunks, 58 checks, 36 cards, 13 examples. By subagent, reviewed. Brand names only where printed (Burger King, Pepsi, Coca-Cola, P&G, IKEA, Tata Nano, Amazon, Cadbury, Lever Ayush).
 - [x] P4 pass A: oml--peoples-expressedpjul30 (18 slides, 16 visual)
@@ -84,7 +85,8 @@ No exam dates, so round-robin across subjects. Validate, ground and cover each d
   - 13 topics (qtm-m3-*), 60 chunks, 161 checks, 78 cards, 37 examples. By subagent, reviewed. Unanswered practice slides (35, 39, 46, 55, 59, 60) solved with the deck's formulas, numbers marked derived. Slide errors named in lessons: slide 14 uses 0.2905 for 29.5%, slide 32 asks P(X >= 9) but computes P(X > 9). Binomial is listed but has no slide of its own.
 - [x] P4 pass A: sce--list-of-business-ideas (5 slides, 1 visual)
   - 3 topics (sce-ideas-*), 15 chunks, 38 checks, 23 cards, 14 examples. By subagent, reviewed. Taught by idea name (handout numbering restarts).
-- [ ] P4 pass A: far--session-14-case-2-1-case-3-1-maynard-a-b-full (2 slides, 2 visual)
+- [x] P4 pass A: far--session-14-case-2-1-case-3-1-maynard-a-b-full (2 slides, 2 visual)
+  - 2 topics (far-may-*), 11 chunks, 31 checks, 14 cards, 4 examples. Worked balance sheets, income statement (net income 19,635) and cash reconciliation (31,677) all tie to printed figures; re-checked.
 - [x] P4 pass A: qtm--module-4 (34 slides, 13 visual)
   - 7 topics (qtm-m4-*), 34 chunks, 98 checks, 55 cards, 17 examples. By subagent, reviewed. Research methods deck, no formulas.
 - [x] P4 pass A: sce--step-startup-pitching-template-very-early-stage (15 slides, 12 visual)
