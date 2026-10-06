@@ -445,7 +445,346 @@
       "retired": false
     }
   ],
-  "questions": [],
+  "questions": [
+    {
+      "id": "aib-ch23-proficiency-ladder-q-7781efe9",
+      "type": "mcq",
+      "stem": "A piece of course content asks, 'How would I optimise, scale or deploy this in production?' Where does it sit on the ladder?",
+      "options": [
+        "Advanced (Developer / Researcher)",
+        "Intermediate (Builder / Practitioner)",
+        "Basic (AI Literacy)",
+        "Early Intermediate, where BA5306 stops"
+      ],
+      "answer": "Advanced (Developer / Researcher)",
+      "accept": [],
+      "explanation": "Basic asks what and where, Intermediate asks how to build or evaluate a simple version, Advanced asks how to optimise, scale or deploy.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "identify",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#5",
+        "aib--ai-for-business-chapters-2-3#4"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-proficiency-ladder-q-3eb163c4",
+      "type": "mcq",
+      "stem": "Which of these is listed as Basic-tier content on the proficiency ladder?",
+      "options": [
+        "Narrow AI, bias and ethics, and a first look at NLP, computer vision and speech recognition",
+        "Model training for regression and classification",
+        "Transfer learning, embeddings and foundation models",
+        "Validation, testing and overfitting"
+      ],
+      "answer": "Narrow AI, bias and ethics, and a first look at NLP, computer vision and speech recognition",
+      "accept": [],
+      "explanation": "Model training and overfitting are Intermediate; transfer learning and foundation models are Advanced.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "identify",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#4",
+        "aib--ai-for-business-chapters-2-3#5"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-proficiency-ladder-q-07cdb969",
+      "type": "mcq",
+      "stem": "Which tools does the ladder name for introductory use at the Intermediate tier?",
+      "options": [
+        "Scikit-learn, TensorFlow and PyTorch",
+        "Google Colab, ChatGPT and Gemini",
+        "HuggingFace with ONNX and APIs for deployment",
+        "MLOps, versioning and reproducibility tools"
+      ],
+      "answer": "Scikit-learn, TensorFlow and PyTorch",
+      "accept": [],
+      "explanation": "Colab, ChatGPT and Gemini are Basic everyday tools; HuggingFace, ONNX and MLOps are Advanced.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "recall",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#4",
+        "aib--ai-for-business-chapters-2-3#5"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-proficiency-ladder-q-7b31be4a",
+      "type": "mcq",
+      "stem": "Applied projects such as crop-disease detection, traffic prediction or sentiment analysis belong to which tier?",
+      "options": [
+        "Intermediate (Builder / Practitioner)",
+        "Basic (AI Literacy)",
+        "Advanced (Developer / Researcher)",
+        "None; they are Module 6 specialisations"
+      ],
+      "answer": "Intermediate (Builder / Practitioner)",
+      "accept": [],
+      "explanation": "They are listed as applied projects for people who build or deploy simple models themselves.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "identify",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#4",
+        "aib--ai-for-business-chapters-2-3#5"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-proficiency-ladder-q-44059a5a",
+      "type": "mcq",
+      "stem": "Which part of the syllabus exists for students who want to go beyond BA5306's level toward specialisation?",
+      "options": [
+        "Module 6: Responsible AI and AI Specialisations",
+        "Modules 1 to 3",
+        "Modules 4 to 5",
+        "Chapter 23 on generative AI governance"
+      ],
+      "answer": "Module 6: Responsible AI and AI Specialisations",
+      "accept": [],
+      "explanation": "Modules 1 to 3 are Basic and Modules 4 to 5 reach early Intermediate; Module 6 serves those who want to go further.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "recall",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#4",
+        "aib--ai-for-business-chapters-2-3#5"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-proficiency-ladder-q-df6875af",
+      "type": "short",
+      "stem": "Describe the three tiers of the AI proficiency ladder.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "AI education is often organised into **three proficiency tiers**, from general literacy to engineering and research.\n\n- **Basic (AI Literacy):** for **non-technical** professionals, students or officials who need working fluency. Covers what AI is, narrow AI, data, algorithms, models, **bias and ethics**, a first look at NLP and computer vision, and tools like **Google Colab, ChatGPT and Gemini**.\n- **Intermediate (Builder / Practitioner):** for those who will **build or deploy simple models**. Covers data cleaning, **supervised vs. unsupervised learning**, regression and classification, **Scikit-learn, TensorFlow and PyTorch**, and overfitting.\n- **Advanced (Developer / Researcher):** for aspiring **AI engineers and researchers**. Covers CNNs, RNNs and Transformers, **gradient descent**, foundation models, deployment via **ONNX and APIs**, and **MLOps**.\n\nThe ladder helps set the right expectations for what this course will and will not teach.",
+      "rubric": [
+        {
+          "point": "Basic (AI Literacy): non-technical users needing working fluency",
+          "source_ref": "aib--ai-for-business-chapters-2-3#4"
+        },
+        {
+          "point": "Basic content: core concepts, ethics, everyday tools",
+          "source_ref": "aib--ai-for-business-chapters-2-3#4"
+        },
+        {
+          "point": "Intermediate (Builder / Practitioner): build or deploy simple models",
+          "source_ref": "aib--ai-for-business-chapters-2-3#4"
+        },
+        {
+          "point": "Intermediate content: supervised vs. unsupervised, Scikit-learn, overfitting",
+          "source_ref": "aib--ai-for-business-chapters-2-3#4"
+        },
+        {
+          "point": "Advanced (Developer / Researcher): architectures, optimisation, deployment, MLOps",
+          "source_ref": "aib--ai-for-business-chapters-2-3#5"
+        }
+      ],
+      "marks": 5.0,
+      "difficulty": 1,
+      "style_tag": "list",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#4",
+        "aib--ai-for-business-chapters-2-3#5"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-proficiency-ladder-q-35fcfa6e",
+      "type": "short",
+      "stem": "Explain the three test questions the chapter gives for placing course content on the proficiency ladder.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The chapter offers a **useful test** for where any content belongs.\n\n- **Basic:** asks **'what is this and where is it used?'**\n- **Intermediate:** asks **'how would I build or evaluate a simple version of this myself?'**\n- **Advanced:** asks **'how would I optimise, scale or deploy this in production?'**\n\n**Example:** nearly everything in **Modules 1 to 3** sits at Basic by design, while **Modules 4 to 5** move into early Intermediate through hands-on tool use.\n\nThe question a topic asks tells you its level.",
+      "rubric": [
+        {
+          "point": "Basic: what is this and where is it used",
+          "source_ref": "aib--ai-for-business-chapters-2-3#5"
+        },
+        {
+          "point": "Intermediate: how would I build or evaluate a simple version",
+          "source_ref": "aib--ai-for-business-chapters-2-3#5"
+        },
+        {
+          "point": "Advanced: how would I optimise, scale or deploy in production",
+          "source_ref": "aib--ai-for-business-chapters-2-3#5"
+        },
+        {
+          "point": "Modules 1 to 3 Basic; Modules 4 to 5 early Intermediate",
+          "source_ref": "aib--ai-for-business-chapters-2-3#5"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 1,
+      "style_tag": "explain",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#5"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-proficiency-ladder-q-996329f7",
+      "type": "short",
+      "stem": "Where does BA5306 sit on the proficiency ladder, and why is it designed that way?",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "BA5306 is deliberately **calibrated**, not trying to cover every tier.\n\n- It takes students **confidently through the Basic tier** and **into the early stages of Intermediate**.\n- The aim is **working fluency and applied judgement**, **not developer-level engineering skill**.\n- **Modules 1 to 3** are Basic by design; **Modules 4 to 5** add hands-on tool use, stopping well short of Advanced depth.\n- Students who want to go further are served by **Module 6** (Responsible AI and AI Specialisations).\n\nThe course trains managers who can use and judge AI, not engineers who build it.",
+      "rubric": [
+        {
+          "point": "Through Basic and into early Intermediate",
+          "source_ref": "aib--ai-for-business-chapters-2-3#4"
+        },
+        {
+          "point": "Working fluency and applied judgement, not developer-level skill",
+          "source_ref": "aib--ai-for-business-chapters-2-3#4"
+        },
+        {
+          "point": "Modules 1 to 3 Basic; Modules 4 to 5 early Intermediate",
+          "source_ref": "aib--ai-for-business-chapters-2-3#5"
+        },
+        {
+          "point": "Module 6 for those who want to go further",
+          "source_ref": "aib--ai-for-business-chapters-2-3#4"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#4",
+        "aib--ai-for-business-chapters-2-3#5",
+        "aib--ai-for-business-chapters-2-3#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-proficiency-ladder-q-22797166",
+      "type": "long",
+      "stem": "Differentiate between the Basic, Intermediate and Advanced tiers of AI proficiency in terms of who they are for and what they cover.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Chapter 2 places AI education on a **three-level ladder**, from general literacy through hands-on model-building to advanced engineering and research.\n\n| Basis | Basic (AI Literacy) | Intermediate (Builder / Practitioner) | Advanced (Developer / Researcher) |\n|---|---|---|---|\n| Who it is for | Professionals, students or officials with a **non-technical background** | Students or practitioners who will **build or deploy simple models** | Aspiring **AI engineers and researchers** building production-grade systems |\n| Core content | What AI is, narrow AI, data, algorithms, models, **bias and ethics**, responsible AI and data privacy | Data cleaning and preprocessing, **supervised vs. unsupervised learning**, regression and classification, validation and **overfitting** | CNNs, RNNs, **Transformers**, loss functions, **gradient descent**, transfer learning, foundation models |\n| Tools | Google Colab, ChatGPT, Gemini | Scikit-learn, TensorFlow, PyTorch; CSV, image and text datasets | PyTorch, TensorFlow, HuggingFace; **ONNX and APIs**, **MLOps** |\n| Typical work | First look at NLP, computer vision, speech recognition | Crop-disease detection, traffic prediction, sentiment analysis | Chatbots, recommendation engines, autonomous systems |\n| Test question | What is this and where is it used? | How would I build or evaluate a simple version? | How would I optimise, scale or deploy it? |\n\n**Where the course sits:** BA5306 builds **strong Basic fluency** and **early Intermediate** application, not developer-level skill.\n\n**Example:** a **brand manager** works at Basic, briefing an agency on AI-generated creative, while the **data scientist** beside her works at Advanced, fine-tuning a recommendation model. Both roles are essential.\n\n**Conclusion:** the tiers differ in audience, depth and tools, and knowing them sets realistic expectations for this course.",
+      "rubric": [
+        {
+          "point": "Basic: non-technical audience; concepts, ethics, everyday tools",
+          "source_ref": "aib--ai-for-business-chapters-2-3#4"
+        },
+        {
+          "point": "Intermediate: builders of simple models; supervised vs. unsupervised, Scikit-learn, overfitting",
+          "source_ref": "aib--ai-for-business-chapters-2-3#4"
+        },
+        {
+          "point": "Advanced: engineers and researchers; architectures, optimisation, deployment, MLOps",
+          "source_ref": "aib--ai-for-business-chapters-2-3#5"
+        },
+        {
+          "point": "Test questions: what/where, build/evaluate, optimise/scale/deploy",
+          "source_ref": "aib--ai-for-business-chapters-2-3#5"
+        },
+        {
+          "point": "BA5306: Basic fluency plus early Intermediate",
+          "source_ref": "aib--ai-for-business-chapters-2-3#7"
+        },
+        {
+          "point": "Brand manager (Basic) and data scientist (Advanced) example",
+          "source_ref": "aib--ai-for-business-chapters-2-3#5"
+        }
+      ],
+      "marks": 10.0,
+      "difficulty": 2,
+      "style_tag": "differentiate",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#4",
+        "aib--ai-for-business-chapters-2-3#5",
+        "aib--ai-for-business-chapters-2-3#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-proficiency-ladder-q-a0e7273a",
+      "type": "long",
+      "stem": "Case: A brand manager briefs an agency on AI-generated creative and judges its fit, while the data scientist supporting her fine-tunes the recommendation model behind a loyalty programme. (a) Place each role on the ladder. (b) Why are both essential? (c) What does this mean for how BA5306 is designed?",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "This is the chapter's **Ladder in a Single Career** example.\n\n**(a) Placing the roles**\n- **Brand manager: Basic (AI Literacy).** She does not build models; she **briefs** an agency and **judges the fit** of AI-generated creative. Her question is 'what is this and where is it used?'\n- **Data scientist: Advanced (Developer / Researcher).** **Fine-tuning** a production recommendation model is optimisation and deployment work, the Advanced tier's question.\n\n**(b) Why both are essential**\n- The brand manager decides **whether the AI output serves the business**; the data scientist makes the **model itself work**.\n- Neither can replace the other. The chapter says plainly that **both roles are essential**.\n\n**(c) What it means for BA5306**\n- The course **trains the first role**: strong **Basic** fluency and applied judgement.\n- It adds **enough Intermediate exposure** that the manager and the data scientist can **speak the same language**.\n- It stops short of developer-level engineering, which **Module 6** serves for those who want more.\n\n**Conclusion:** one team can span the whole ladder; the manager's job is fluent judgement, not engineering.",
+      "rubric": [
+        {
+          "point": "Brand manager at Basic: briefs and judges AI-generated creative",
+          "source_ref": "aib--ai-for-business-chapters-2-3#5"
+        },
+        {
+          "point": "Data scientist at Advanced: fine-tunes the recommendation model",
+          "source_ref": "aib--ai-for-business-chapters-2-3#5"
+        },
+        {
+          "point": "Both roles are essential",
+          "source_ref": "aib--ai-for-business-chapters-2-3#5"
+        },
+        {
+          "point": "Course trains the first role, with enough Intermediate exposure to share a language",
+          "source_ref": "aib--ai-for-business-chapters-2-3#5"
+        },
+        {
+          "point": "Not developer-level; Module 6 for those who go further",
+          "source_ref": "aib--ai-for-business-chapters-2-3#4"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 2,
+      "style_tag": "case",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#5",
+        "aib--ai-for-business-chapters-2-3#4",
+        "aib--ai-for-business-chapters-2-3#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
   "explain_back": {
     "prompt": "Describe the three-level AI proficiency ladder and explain where this course and a brand manager sit on it.",
     "rubric": [

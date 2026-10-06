@@ -406,7 +406,327 @@
       "retired": false
     }
   ],
-  "questions": [],
+  "questions": [
+    {
+      "id": "aib-ch23-era1-thinking-q-22c80168",
+      "type": "mcq",
+      "stem": "Which of these happened in 1959, among AI's founding events?",
+      "options": [
+        "Arthur Samuel built a checkers program that improved through experience",
+        "Alan Turing proposed the Turing Test",
+        "The term Artificial Intelligence was coined at the Dartmouth Conference",
+        "The Logic Theorist was presented at the Dartmouth Summer Research Project"
+      ],
+      "answer": "Arthur Samuel built a checkers program that improved through experience",
+      "accept": [],
+      "explanation": "The Turing Test was 1950; Dartmouth and the Logic Theorist were 1956.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "recall",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#9"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-era1-thinking-q-b22e24ff",
+      "type": "mcq",
+      "stem": "Where was the Logic Theorist developed?",
+      "options": [
+        "At the RAND Corporation",
+        "At MIT",
+        "At Digital Equipment Corporation",
+        "At the Dartmouth Conference"
+      ],
+      "answer": "At the RAND Corporation",
+      "accept": [],
+      "explanation": "Newell and Simon built it at RAND; it was presented at Dartmouth, which is a different thing.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "recall",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#9",
+        "aib--ai-for-business-chapters-2-3#10",
+        "aib--ai-for-business-chapters-2-3#12"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-era1-thinking-q-dce89bcc",
+      "type": "mcq",
+      "stem": "From which work did the Logic Theorist prove its mathematical theorems?",
+      "options": [
+        "Whitehead and Russell's Principia Mathematica",
+        "Turing's paper Computing Machinery and Intelligence",
+        "Russell and Norvig's modern view of AI",
+        "The Dartmouth Conference's founding definition"
+      ],
+      "answer": "Whitehead and Russell's Principia Mathematica",
+      "accept": [],
+      "explanation": "It proved 38 theorems from Principia Mathematica, some more elegantly than the original authors.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "recall",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#9",
+        "aib--ai-for-business-chapters-2-3#6"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-era1-thinking-q-98073b1d",
+      "type": "mcq",
+      "stem": "Together, what did the Turing Test and the Logic Theorist establish in Era 1?",
+      "options": [
+        "The Turing Test defined what machine intelligence would mean; the Logic Theorist showed symbolic machine reasoning was achievable",
+        "The Logic Theorist defined machine intelligence; the Turing Test showed symbolic reasoning was achievable",
+        "Both proved that machines truly understand language",
+        "Both were the first commercially deployable AI products"
+      ],
+      "answer": "The Turing Test defined what machine intelligence would mean; the Logic Theorist showed symbolic machine reasoning was achievable",
+      "accept": [],
+      "explanation": "One set the standard; the other proved reasoning by machine was possible in practice.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "concept",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#9"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-era1-thinking-q-7343d33b",
+      "type": "mcq",
+      "stem": "What does the chapter give as the significance of the Turing Test?",
+      "options": [
+        "It made machine intelligence something testable and inspired decades of research",
+        "It proved that a machine understands what it is saying",
+        "It defined AI as agents that act to achieve goals",
+        "It produced the first self-improving checkers program"
+      ],
+      "answer": "It made machine intelligence something testable and inspired decades of research",
+      "accept": [],
+      "explanation": "Its limitation is the opposite of option two: imitation does not need understanding.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "concept",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#9",
+        "aib--ai-for-business-chapters-2-3#6"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-era1-thinking-q-fb03b701",
+      "type": "short",
+      "stem": "Describe how the Turing Test works, with its significance and its limitation.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Alan Turing proposed the test in **1950** in his paper **'Computing Machinery and Intelligence'**, asking **'Can machines think?'**\n\n- **How it works:** a **human evaluator** holds a **text conversation** with both a machine and another human. If the evaluator **cannot reliably tell which is which**, the machine is said to show **intelligent behaviour**.\n- **Significance:** it introduced machine intelligence as something **testable**, and laid the **theoretical groundwork** for decades of AI research.\n- **Limitation:** a machine only needs to **imitate** human conversation convincingly; it **does not need to understand** what it says. This showed up in the very first chatbots built to chase it.\n\nThe test measures imitation, not understanding.",
+      "rubric": [
+        {
+          "point": "Turing, 1950, 'Computing Machinery and Intelligence': can machines think",
+          "source_ref": "aib--ai-for-business-chapters-2-3#9"
+        },
+        {
+          "point": "Evaluator converses by text with a machine and a human; cannot tell them apart",
+          "source_ref": "aib--ai-for-business-chapters-2-3#9"
+        },
+        {
+          "point": "Significance: made machine intelligence testable; inspired research",
+          "source_ref": "aib--ai-for-business-chapters-2-3#9"
+        },
+        {
+          "point": "Limitation: imitation without understanding",
+          "source_ref": "aib--ai-for-business-chapters-2-3#9"
+        }
+      ],
+      "marks": 5.0,
+      "difficulty": 1,
+      "style_tag": "explain",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#9"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-era1-thinking-q-a53e1c00",
+      "type": "short",
+      "stem": "Write a short note on the Logic Theorist (1956).",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The Logic Theorist is **widely considered the first true AI program**.\n\n- **Who and where:** developed by **Allen Newell and Herbert A. Simon** at the **RAND Corporation**.\n- **What it did:** proved **38 mathematical theorems** from Whitehead and Russell's **Principia Mathematica**, sometimes with **more elegant proofs** than the original mathematicians.\n- **Birth of the field:** its presentation at the **Dartmouth Summer Research Project** is treated as the moment AI was **formally born**.\n- **Meaning:** it showed that **symbolic machine reasoning** was achievable in practice.\n\nIf the Turing Test set the goal, the Logic Theorist showed machines could actually reason.",
+      "rubric": [
+        {
+          "point": "Newell and Simon at the RAND Corporation",
+          "source_ref": "aib--ai-for-business-chapters-2-3#9"
+        },
+        {
+          "point": "Proved 38 theorems from Principia Mathematica, some more elegantly",
+          "source_ref": "aib--ai-for-business-chapters-2-3#9"
+        },
+        {
+          "point": "First true AI program; Dartmouth presentation as formal birth",
+          "source_ref": "aib--ai-for-business-chapters-2-3#9"
+        },
+        {
+          "point": "Showed symbolic machine reasoning was achievable",
+          "source_ref": "aib--ai-for-business-chapters-2-3#9"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 1,
+      "style_tag": "explain",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#9"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-era1-thinking-q-f429d92f",
+      "type": "short",
+      "stem": "Identify the three founding dates of AI given in the chapter and what happened on each.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The chapter says AI traces to **specific, datable events**, not a gradual drift.\n\n- **1950:** **Alan Turing** proposes the **Turing Test** in 'Computing Machinery and Intelligence', asking 'Can machines think?'\n- **1956:** the term **'Artificial Intelligence'** is **coined at the Dartmouth Conference**, the field's official founding moment.\n- **1959:** **Arthur Samuel** builds one of the **first machine-learning programs**, a checkers player that improves through experience.\n\nThese three dates frame Era 1, Thinking About Intelligence.",
+      "rubric": [
+        {
+          "point": "1950: Turing proposes the Turing Test",
+          "source_ref": "aib--ai-for-business-chapters-2-3#9"
+        },
+        {
+          "point": "1956: term Artificial Intelligence coined at Dartmouth",
+          "source_ref": "aib--ai-for-business-chapters-2-3#9"
+        },
+        {
+          "point": "1959: Arthur Samuel's self-improving checkers program",
+          "source_ref": "aib--ai-for-business-chapters-2-3#9"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 1,
+      "style_tag": "list",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#9"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-era1-thinking-q-458f1d81",
+      "type": "long",
+      "stem": "Differentiate between the Turing Test and the Logic Theorist as the two milestones of Era 1.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Era 1 (1950s to 1960s) asked **'Can machines think?'** Its two milestones answer that question in different ways.\n\n| Basis | Turing Test | Logic Theorist |\n|---|---|---|\n| Year | **1950** | **1956** |\n| Creator | **Alan Turing**, in 'Computing Machinery and Intelligence' | **Allen Newell and Herbert A. Simon**, RAND Corporation |\n| Nature | A **test** or standard for machine intelligence | A working **program** |\n| What it does | An evaluator chats by text with a machine and a human; if they cannot tell which is which, the machine shows intelligent behaviour | Proved **38 theorems** from Principia Mathematica, some more elegantly than the originals |\n| Contribution | **Defined what it would mean** for a machine to be intelligent; made intelligence **testable** | **Demonstrated** that **symbolic machine reasoning** was achievable; called the **first true AI program** |\n| Limitation or legacy | Only needs **imitation**, not understanding | Its Dartmouth presentation is treated as the **formal birth** of AI |\n\n**Link between them:** one set the bar, the other proved a machine could reason in practice.\n\n**Business relevance:** nothing in Era 1 was commercially deployable, but the Turing Test's **imitation standard** still shapes how firms judge chatbots today.\n\n**Conclusion:** the Turing Test defined machine intelligence; the Logic Theorist showed it could be built.",
+      "rubric": [
+        {
+          "point": "Turing Test 1950, Alan Turing; Logic Theorist 1956, Newell and Simon at RAND",
+          "source_ref": "aib--ai-for-business-chapters-2-3#9"
+        },
+        {
+          "point": "Turing Test is a standard; Logic Theorist is a working program",
+          "source_ref": "aib--ai-for-business-chapters-2-3#9"
+        },
+        {
+          "point": "Turing Test defined machine intelligence and made it testable",
+          "source_ref": "aib--ai-for-business-chapters-2-3#9"
+        },
+        {
+          "point": "Logic Theorist proved 38 theorems; showed symbolic reasoning achievable",
+          "source_ref": "aib--ai-for-business-chapters-2-3#9"
+        },
+        {
+          "point": "Turing Test limitation: imitation, not understanding",
+          "source_ref": "aib--ai-for-business-chapters-2-3#9"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 2,
+      "style_tag": "differentiate",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#9"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-era1-thinking-q-b38a6c9a",
+      "type": "long",
+      "stem": "Case: A company deploys a customer-service chatbot. Should success be measured by whether customers cannot tell it is a machine, or by whether it actually resolves their problem correctly? Discuss using Era 1 of AI.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "This is the chapter's **Era 1 in Business Terms** example. Nothing in Era 1 was commercially deployable, but its central idea still shapes a **live business question**.\n\n**1. Where the first measure comes from**\n- The **Turing Test (1950)** judges a machine by whether a human evaluator **cannot tell it apart** from a human in a text conversation.\n- Measuring a chatbot by 'customers cannot tell it is a machine' applies this **imitation standard**.\n\n**2. Why imitation is not enough**\n- The test's acknowledged **limitation**: a machine only needs to **imitate** conversation convincingly; it **does not need to understand** what it says.\n- This showed up in the **very first chatbots** built to chase the test.\n- So a chatbot can sound human and still give the **wrong answer**.\n\n**3. The second measure**\n- 'Does it **actually resolve the problem correctly**?' tests the outcome the business and customer care about.\n\n**4. Why mixing them up matters**\n- The chapter says **the two are not the same test**, and **conflating them is a governance risk**, explored further in **Chapter 23**.\n\n**Recommendation:** measure success by **correct resolution**; treat human-like conversation as a nice feature, not the goal.\n\n**Conclusion:** passing for human is imitation; solving the problem is the real test of a business chatbot.",
+      "rubric": [
+        {
+          "point": "Turing Test measures whether an evaluator cannot tell machine from human",
+          "source_ref": "aib--ai-for-business-chapters-2-3#9"
+        },
+        {
+          "point": "Limitation: imitation without understanding, seen in early chatbots",
+          "source_ref": "aib--ai-for-business-chapters-2-3#9"
+        },
+        {
+          "point": "Resolving the problem correctly is a different test",
+          "source_ref": "aib--ai-for-business-chapters-2-3#10"
+        },
+        {
+          "point": "Conflating the two is a governance risk (Chapter 23)",
+          "source_ref": "aib--ai-for-business-chapters-2-3#10"
+        },
+        {
+          "point": "Recommendation: judge by correct resolution",
+          "source_ref": "aib--ai-for-business-chapters-2-3#10"
+        }
+      ],
+      "marks": 10.0,
+      "difficulty": 3,
+      "style_tag": "case",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#9",
+        "aib--ai-for-business-chapters-2-3#10"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
   "explain_back": {
     "prompt": "Describe the key events of Era 1 and explain why the Turing Test still matters to a business deploying a chatbot.",
     "rubric": [

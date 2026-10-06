@@ -550,7 +550,336 @@
       "retired": false
     }
   ],
-  "questions": [],
+  "questions": [
+    {
+      "id": "aib-ch23-defining-ai-q-0497362f",
+      "type": "mcq",
+      "stem": "Which definition of AI does the chapter say best fits today's autonomous and generative systems?",
+      "options": [
+        "Russell and Norvig: the study of agents that perceive their environment and act to maximise their chances of achieving their goals",
+        "McCarthy: the science and engineering of making intelligent machines",
+        "The classical textbook definition: machines that mimic human intelligence by reasoning, learning and perceiving",
+        "The course's working definition: systems that perform tasks typically requiring human intelligence"
+      ],
+      "answer": "Russell and Norvig: the study of agents that perceive their environment and act to maximise their chances of achieving their goals",
+      "accept": [],
+      "explanation": "The modern agent-and-goals view is described as the definition that best fits today's autonomous and generative systems.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "identify",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#5",
+        "aib--ai-for-business-chapters-2-3#6"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-defining-ai-q-4ec8e318",
+      "type": "mcq",
+      "stem": "Where and when was John McCarthy's founding definition of AI given?",
+      "options": [
+        "At the Dartmouth Conference in 1956",
+        "At the RAND Corporation in 1956",
+        "In the paper Computing Machinery and Intelligence in 1950",
+        "At MIT in 1966"
+      ],
+      "answer": "At the Dartmouth Conference in 1956",
+      "accept": [],
+      "explanation": "The definitions table lists John McCarthy (1956, Dartmouth Conference).",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "recall",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#5",
+        "aib--ai-for-business-chapters-2-3#9",
+        "aib--ai-for-business-chapters-2-3#10"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-defining-ai-q-9ea85d3f",
+      "type": "mcq",
+      "stem": "A commercial-lending platform combines an applicant's cash-flow history, sector risk and repayment record to reach a credit decision. Which core capability is this?",
+      "options": [
+        "Reasoning",
+        "Learning",
+        "Perception",
+        "Decision-making"
+      ],
+      "answer": "Reasoning",
+      "accept": [],
+      "explanation": "Reasoning is drawing conclusions from available information, here several data points together.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "identify",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#6"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-defining-ai-q-21161c11",
+      "type": "mcq",
+      "stem": "Which core capability is defined as choosing actions based on goals and context?",
+      "options": [
+        "Decision-making",
+        "Reasoning",
+        "Learning",
+        "Language understanding"
+      ],
+      "answer": "Decision-making",
+      "accept": [],
+      "explanation": "The airline dynamic-pricing engine is the chapter's example of decision-making.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "define",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#6"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-defining-ai-q-480e3005",
+      "type": "mcq",
+      "stem": "Which subfields does the chapter say modern business AI spans, built on the agent-centred foundation?",
+      "options": [
+        "Machine learning, deep learning, natural language processing, computer vision and generative AI",
+        "Rule-based conversation, expert systems and knowledge engineering",
+        "Big Data, GPUs and deep learning",
+        "Learning, reasoning, perception, language understanding and decision-making"
+      ],
+      "answer": "Machine learning, deep learning, natural language processing, computer vision and generative AI",
+      "accept": [],
+      "explanation": "The last option is the five capabilities, and Big Data, GPUs and deep learning are the comeback enablers.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "recall",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#6",
+        "aib--ai-for-business-chapters-2-3#8",
+        "aib--ai-for-business-chapters-2-3#14"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-defining-ai-q-410c13e8",
+      "type": "short",
+      "stem": "State the course's working definition of AI and name the capabilities it includes.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Every field's founding definitions show what its founders thought mattered most.\n\n- **Working definition:** Artificial Intelligence is the **field of computer science** focused on **building systems that perform tasks typically requiring human intelligence**.\n- **Capabilities named:** **learning, reasoning, problem-solving, perception and decision-making**.\n- The chapter adds that the definition has **shifted as the technology matured**, and tracing that shift is instructive.\n\nThis is the definition to reproduce word for word in the exam.",
+      "rubric": [
+        {
+          "point": "Field of computer science building systems for tasks typically requiring human intelligence",
+          "source_ref": "aib--ai-for-business-chapters-2-3#5"
+        },
+        {
+          "point": "Learning, reasoning, problem-solving, perception, decision-making",
+          "source_ref": "aib--ai-for-business-chapters-2-3#5"
+        },
+        {
+          "point": "Definitions have shifted as the technology matured",
+          "source_ref": "aib--ai-for-business-chapters-2-3#5"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 1,
+      "style_tag": "define",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#5"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-defining-ai-q-59546960",
+      "type": "short",
+      "stem": "Why does the shift from McCarthy's definition of AI to Russell and Norvig's matter to a manager?",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The chapter says the move between the two definitions is **not merely academic**.\n\n- **McCarthy (1956):** engineering-centred; asks **'can we build a machine that mimics intelligent behaviour?'**\n- **Russell and Norvig:** agent-and-goals framing; asks **'can we build an agent that reliably achieves goals in a real environment?'**\n- The second question is **far closer to what a manager deploying AI in production needs answered**.\n- Modern business AI (machine learning, deep learning, natural language processing, computer vision, generative AI) is built on this **agent-centred foundation**.\n\nSo managers should judge deployed systems by whether they reliably achieve goals, not by whether they look intelligent.",
+      "rubric": [
+        {
+          "point": "McCarthy: can a machine mimic intelligent behaviour",
+          "source_ref": "aib--ai-for-business-chapters-2-3#6"
+        },
+        {
+          "point": "Russell and Norvig: can an agent reliably achieve goals in a real environment",
+          "source_ref": "aib--ai-for-business-chapters-2-3#6"
+        },
+        {
+          "point": "The second is closer to what a manager deploying AI needs answered",
+          "source_ref": "aib--ai-for-business-chapters-2-3#6"
+        },
+        {
+          "point": "Shift matters for how managers evaluate deployed systems",
+          "source_ref": "aib--ai-for-business-chapters-2-3#7"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#6",
+        "aib--ai-for-business-chapters-2-3#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-defining-ai-q-2e488544",
+      "type": "short",
+      "stem": "Case: A colleague says the quality-control camera on your manufacturing line is 'AI-powered'. Using the five core capabilities, identify what it is demonstrating and explain what you, as a manager, should check.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The chapter gives a simple **diagnostic question** for any 'AI-powered' claim.\n\n- **Identify the capability:** the camera flags a **hairline defect** in a component photograph, which is **perception**: interpreting sensory input such as images.\n- **Ask the diagnostic question:** which of the five capabilities is it **actually demonstrating**, and **how would you know if it failed at one of them silently**?\n- **Watch the mismatch:** many disappointing deployments come from asking a system to **reason or decide** when it was only ever built to **perceive or classify**.\n- **Value shown:** it catches a defect that a **fatigued human inspector** would likely miss on the 3 a.m. shift.\n\nThe manager should use it for perception and not assume it can also reason or decide.",
+      "rubric": [
+        {
+          "point": "Capability: perception (interpreting images)",
+          "source_ref": "aib--ai-for-business-chapters-2-3#6"
+        },
+        {
+          "point": "Diagnostic: which capability is it showing, and how would you know if it failed silently",
+          "source_ref": "aib--ai-for-business-chapters-2-3#7"
+        },
+        {
+          "point": "Risk: asked to reason or decide when built only to perceive or classify",
+          "source_ref": "aib--ai-for-business-chapters-2-3#7"
+        },
+        {
+          "point": "Example: catches defects a fatigued inspector would miss",
+          "source_ref": "aib--ai-for-business-chapters-2-3#6"
+        }
+      ],
+      "marks": 5.0,
+      "difficulty": 2,
+      "style_tag": "case",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#6",
+        "aib--ai-for-business-chapters-2-3#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-defining-ai-q-f3fe0446",
+      "type": "long",
+      "stem": "Explain the five core capabilities of AI, giving the chapter's business example for each.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Whatever definition is used, AI systems are **generally evaluated against five core capabilities**. A manager who can name and probe each one is ahead of most non-technical stakeholders.\n\n1. **Learning:** adapting behaviour based on **data and experience**. *Example:* a **telecom operator's churn model** improves its predictions every billing cycle as fresh subscriber data flows in, without anyone rewriting its rules.\n2. **Reasoning:** drawing **conclusions from available information**. *Example:* a **commercial-lending platform** combines a small-business applicant's cash-flow history, sector risk and repayment record into a credit decision no single data point could justify.\n3. **Perception:** interpreting **sensory input** such as images, sounds or text. *Example:* a **quality-control camera** flags a hairline defect that a fatigued human inspector would likely miss.\n4. **Language understanding:** communicating in **human languages** (natural language processing). *Example:* an **insurance claims system** reads a free-text complaint email and routes it to the motor-claims team with no human sorting it first.\n5. **Decision-making:** choosing **actions based on goals and context**. *Example:* an **airline's dynamic-pricing engine** adjusts fares in real time as seats fill, balancing revenue against the risk of empty seats.\n\n**Managerial use:** when someone calls a system 'AI-powered', ask **which of the five it actually demonstrates** and **how you would know if it failed silently**. Many disappointing deployments asked a system to reason or decide when it was built only to perceive or classify.\n\n**Conclusion:** the five capabilities give managers a concrete checklist for questioning any AI claim.",
+      "rubric": [
+        {
+          "point": "Learning: adapting from data; telecom churn model",
+          "source_ref": "aib--ai-for-business-chapters-2-3#6"
+        },
+        {
+          "point": "Reasoning: conclusions from information; commercial-lending credit decision",
+          "source_ref": "aib--ai-for-business-chapters-2-3#6"
+        },
+        {
+          "point": "Perception: interpreting images, sounds, text; quality-control camera",
+          "source_ref": "aib--ai-for-business-chapters-2-3#6"
+        },
+        {
+          "point": "Language understanding: human language (natural language processing); insurance claims email routing",
+          "source_ref": "aib--ai-for-business-chapters-2-3#6"
+        },
+        {
+          "point": "Decision-making: actions from goals and context; airline dynamic pricing",
+          "source_ref": "aib--ai-for-business-chapters-2-3#6"
+        },
+        {
+          "point": "Use as a checklist: which capability, and would you know if it failed silently",
+          "source_ref": "aib--ai-for-business-chapters-2-3#7"
+        }
+      ],
+      "marks": 10.0,
+      "difficulty": 1,
+      "style_tag": "explain",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#6",
+        "aib--ai-for-business-chapters-2-3#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-defining-ai-q-707b8a2c",
+      "type": "long",
+      "stem": "Differentiate between the three definitions of AI across eras: McCarthy (1956), the classical textbook definition, and Russell and Norvig's modern view.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The chapter says AI's founding definitions show what its founders thought mattered most, and **the shift itself is instructive**.\n\n| Basis | McCarthy (1956, Dartmouth Conference) | Classical / textbook | Modern view (Russell & Norvig) |\n|---|---|---|---|\n| Definition | 'The science and engineering of making intelligent machines' | Making intelligent machines, especially programs, that **mimic human intelligence** by reasoning, learning, solving problems, understanding language and perceiving | 'The study of **agents** that perceive their environment and take actions that **maximize their chances of achieving their goals**' |\n| Emphasis | AI as an **engineering discipline** replicating intelligent behaviour; deliberately broad | A **functional list of capabilities** a system must show, not how it achieves them | Agents **pursuing goals under uncertainty** |\n| Best fit | The founding moment | Describing what counts as intelligent | Today's **autonomous and generative** systems |\n\n**Why it matters:** the movement is from 'can we build a machine that **mimics** intelligent behaviour?' to 'can we build an agent that **reliably achieves goals** in a real environment?' The second question is much closer to what a **manager deploying AI in production** needs answered.\n\n**Conclusion:** definitions moved from imitation to goal achievement, and managers should evaluate deployed systems the same way.",
+      "rubric": [
+        {
+          "point": "McCarthy 1956: science and engineering of making intelligent machines; engineering discipline",
+          "source_ref": "aib--ai-for-business-chapters-2-3#5"
+        },
+        {
+          "point": "Classical: mimic human intelligence; functional list of capabilities",
+          "source_ref": "aib--ai-for-business-chapters-2-3#5"
+        },
+        {
+          "point": "Russell and Norvig: agents perceiving and acting to achieve goals; goals under uncertainty",
+          "source_ref": "aib--ai-for-business-chapters-2-3#6"
+        },
+        {
+          "point": "Shift from mimicking behaviour to reliably achieving goals",
+          "source_ref": "aib--ai-for-business-chapters-2-3#6"
+        },
+        {
+          "point": "Matters for how managers evaluate deployed systems",
+          "source_ref": "aib--ai-for-business-chapters-2-3#7"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 2,
+      "style_tag": "differentiate",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#5",
+        "aib--ai-for-business-chapters-2-3#6",
+        "aib--ai-for-business-chapters-2-3#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
   "explain_back": {
     "prompt": "Explain how the definition of AI has shifted across eras, then list the five core capabilities with a business example for each.",
     "rubric": [

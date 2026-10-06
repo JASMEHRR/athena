@@ -298,7 +298,333 @@
       "retired": false
     }
   ],
-  "questions": [],
+  "questions": [
+    {
+      "id": "aib-ch23-ai-winters-q-bdfe4130",
+      "type": "mcq",
+      "stem": "Which period does the chapter give for the first AI Winter?",
+      "options": [
+        "Mid-1970s to mid-1980s",
+        "Late 1980s to early 1990s",
+        "1960s to 1970s",
+        "1980s to 2000s"
+      ],
+      "answer": "Mid-1970s to mid-1980s",
+      "accept": [],
+      "explanation": "The second winter was late 1980s to early 1990s; the other two are era periods, not winters.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "recall",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#12",
+        "aib--ai-for-business-chapters-2-3#8"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-ai-winters-q-2fc293c6",
+      "type": "mcq",
+      "stem": "Commercial expert systems proving costly to maintain, and vendors overselling limited capability, set off which period?",
+      "options": [
+        "The second AI Winter",
+        "The first AI Winter",
+        "The 1980s recovery led by XCON",
+        "The AI comeback after 2012"
+      ],
+      "answer": "The second AI Winter",
+      "accept": [],
+      "explanation": "The first winter's trigger was rule-based systems failing early promises and weak hardware.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "identify",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#12",
+        "aib--ai-for-business-chapters-2-3#14"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-ai-winters-q-ed003fd0",
+      "type": "mcq",
+      "stem": "Which institutional response belongs to the second AI Winter?",
+      "options": [
+        "Japan's Fifth Generation Computer Project fell short of its goals, damaging global momentum",
+        "The UK's Lighthill Report",
+        "Funding cuts, especially in the US and UK",
+        "XCON at Digital Equipment Corporation showed real business value"
+      ],
+      "answer": "Japan's Fifth Generation Computer Project fell short of its goals, damaging global momentum",
+      "accept": [],
+      "explanation": "The Lighthill Report and US and UK funding cuts were the first winter's response; XCON was the 1980s recovery.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "identify",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#12"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-ai-winters-q-2cc4593e",
+      "type": "mcq",
+      "stem": "In the chapter's general model of an AI Winter, what produces the disappointing results that start the downturn?",
+      "options": [
+        "Limited expectations and inadequate computing power",
+        "Student adoption outpacing formal pedagogy",
+        "Brute-force search replacing learning from data",
+        "A shift from rules to patterns learned from data"
+      ],
+      "answer": "Limited expectations and inadequate computing power",
+      "accept": [],
+      "explanation": "Disappointing results relative to what was promised then trigger reduced funding.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "concept",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#12",
+        "aib--ai-for-business-chapters-2-3#3",
+        "aib--ai-for-business-chapters-2-3#13",
+        "aib--ai-for-business-chapters-2-3#11"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-ai-winters-q-3026ee90",
+      "type": "mcq",
+      "stem": "The chapter calls the AI Winter cycle the most transferable lesson for a manager evaluating what?",
+      "options": [
+        "Today's generative-AI investment climate",
+        "Whether to hire MBA graduates with AI literacy",
+        "India's subsidised GPU programme",
+        "Which chatbot persona to use for a brand"
+      ],
+      "answer": "Today's generative-AI investment climate",
+      "accept": [],
+      "explanation": "The same cycle is the best diagnostic for stress-testing current generative-AI hype.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "concept",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#12",
+        "aib--ai-for-business-chapters-2-3#2",
+        "aib--ai-for-business-chapters-2-3#16"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-ai-winters-q-b37f9038",
+      "type": "short",
+      "stem": "What is the general model of an AI Winter described in the chapter?",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Both winters share **one common structure** that the chapter abstracts into a model.\n\n- **Start:** a period of **limited expectations** and **inadequate computing power**.\n- **Result:** **disappointing results** relative to what had been promised.\n- **Response:** this triggers **reduced funding**, the defining shape of an AI Winter.\n- **Recovery:** in both cases it needed a **genuine technical unlock**, not just a change in sentiment.\n\nThe chapter calls this cycle the most transferable lesson AI's history offers a manager.",
+      "rubric": [
+        {
+          "point": "Limited expectations and inadequate computing power",
+          "source_ref": "aib--ai-for-business-chapters-2-3#12"
+        },
+        {
+          "point": "Disappointing results relative to promises",
+          "source_ref": "aib--ai-for-business-chapters-2-3#12"
+        },
+        {
+          "point": "Reduced funding: the defining shape",
+          "source_ref": "aib--ai-for-business-chapters-2-3#12"
+        },
+        {
+          "point": "Recovery needs a genuine technical unlock, not sentiment",
+          "source_ref": "aib--ai-for-business-chapters-2-3#12"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 1,
+      "style_tag": "explain",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#12",
+        "aib--ai-for-business-chapters-2-3#17"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-ai-winters-q-a96745ed",
+      "type": "short",
+      "stem": "Explain the period, trigger and institutional response of the first AI Winter.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The first AI Winter interrupted progress after the rule-based enthusiasm of the 1970s.\n\n- **Period:** **mid-1970s to mid-1980s**.\n- **Trigger:** **rule-based systems failed to deliver** on early promises, and **hardware could not meet AI's computational needs**.\n- **Institutional response:** **funding cuts**, especially in the **US and UK**, most notably the UK's **Lighthill Report**.\n\nPromises ran ahead of what the systems and hardware could do, and funding fell.",
+      "rubric": [
+        {
+          "point": "Mid-1970s to mid-1980s",
+          "source_ref": "aib--ai-for-business-chapters-2-3#12"
+        },
+        {
+          "point": "Rule-based systems failed early promises; hardware could not cope",
+          "source_ref": "aib--ai-for-business-chapters-2-3#12"
+        },
+        {
+          "point": "Funding cuts in US and UK; Lighthill Report",
+          "source_ref": "aib--ai-for-business-chapters-2-3#12"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 1,
+      "style_tag": "explain",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#12"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-ai-winters-q-d5e9d07c",
+      "type": "short",
+      "stem": "Explain the period, trigger and institutional response of the second AI Winter.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The second AI Winter followed the 1980s expert-system boom.\n\n- **Period:** **late 1980s to early 1990s**.\n- **Trigger:** **commercial expert systems proved costly to maintain**, and the market grew **saturated with vendors overselling** limited capability.\n- **Institutional response:** **business and public disillusionment**; **Japan's Fifth Generation Computer Project** fell short of its goals, damaging global momentum.\n\nThis time the problem was costly products and overselling, not only weak hardware.",
+      "rubric": [
+        {
+          "point": "Late 1980s to early 1990s",
+          "source_ref": "aib--ai-for-business-chapters-2-3#12"
+        },
+        {
+          "point": "Expert systems costly to maintain; vendors overselling",
+          "source_ref": "aib--ai-for-business-chapters-2-3#12"
+        },
+        {
+          "point": "Disillusionment; Japan's Fifth Generation project fell short",
+          "source_ref": "aib--ai-for-business-chapters-2-3#12"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 1,
+      "style_tag": "explain",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#12"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-ai-winters-q-0c4fed06",
+      "type": "long",
+      "stem": "Differentiate between the first and second AI Winters.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "An **AI Winter** is a collapse in funding and confidence that interrupted AI's progress. Era 3 (Knowledge and Learning) was interrupted by **two** of them.\n\n| Basis | 1st AI Winter | 2nd AI Winter |\n|---|---|---|\n| Period | **Mid-1970s to mid-1980s** | **Late 1980s to early 1990s** |\n| What came before | Rule-based and early expert systems dominated the 1970s with high enthusiasm | A 1980s recovery led by commercial expert systems such as **XCON** |\n| Trigger | **Rule-based systems failed** to deliver on early promises; **hardware** could not meet AI's computing needs | **Commercial expert systems** proved **costly to maintain**; market **saturated with vendors overselling** |\n| Institutional response | **Funding cuts**, especially in the **US and UK**; most notably the **Lighthill Report** | **Business and public disillusionment**; **Japan's Fifth Generation Computer Project** fell short, damaging global momentum |\n| Main problem | Technology and hardware not ready | Products costly and oversold |\n\n**What they share:** the same **structure**. Limited expectations and inadequate computing power led to **disappointing results**, which triggered **reduced funding**. In both cases, recovery needed a **genuine technical unlock**, not a change in mood.\n\n**Managerial use:** the chapter calls this pattern the **single best diagnostic** for stress-testing today's generative-AI hype.\n\n**Conclusion:** the triggers differed, but both winters followed one cycle that managers can use to judge new AI waves.",
+      "rubric": [
+        {
+          "point": "Periods: mid-1970s to mid-1980s vs late 1980s to early 1990s",
+          "source_ref": "aib--ai-for-business-chapters-2-3#12"
+        },
+        {
+          "point": "1st trigger: rule-based systems under-delivered; weak hardware",
+          "source_ref": "aib--ai-for-business-chapters-2-3#12"
+        },
+        {
+          "point": "2nd trigger: costly expert systems; vendors overselling",
+          "source_ref": "aib--ai-for-business-chapters-2-3#12"
+        },
+        {
+          "point": "1st response: US and UK funding cuts, Lighthill Report",
+          "source_ref": "aib--ai-for-business-chapters-2-3#12"
+        },
+        {
+          "point": "2nd response: disillusionment; Japan's Fifth Generation project fell short",
+          "source_ref": "aib--ai-for-business-chapters-2-3#12"
+        },
+        {
+          "point": "Common structure and need for a technical unlock",
+          "source_ref": "aib--ai-for-business-chapters-2-3#17"
+        }
+      ],
+      "marks": 10.0,
+      "difficulty": 2,
+      "style_tag": "differentiate",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#12",
+        "aib--ai-for-business-chapters-2-3#17"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-ai-winters-q-4e27afa4",
+      "type": "long",
+      "stem": "Case: A manager is evaluating a vendor's generative-AI roadmap. Using the AI Winter cycle, explain what question the manager should ask and why it works.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "This is the chapter's **Reading Today's Market Through the Winter Cycle** example.\n\n**1. The cycle behind both winters**\n- **Limited expectations and inadequate compute** produced **disappointing results** against what was promised, which **triggered reduced funding**.\n- Recovery each time came only from a **genuine technical unlock**, not a change in sentiment.\n\n**2. The question to ask the vendor**\n- Is the promised capability **backed by a genuine, demonstrated technical unlock**, as **GPUs and big data** were in **2012**?\n- Or is it **running ahead** of what the underlying models can **currently deliver reliably**?\n\n**3. Why it works**\n- The gap between promise and delivery is exactly what caused both past collapses: rule-based systems failing early promises, and **expert systems oversold** by vendors.\n- The chapter says the question **costs nothing to ask** and has historically been the **single best predictor** of which AI investments survived a downturn.\n\n**4. How to act on the answer**\n- Backed by a demonstrated unlock: the roadmap is more likely to hold.\n- Running ahead: treat the promises with caution, since this gap is what triggered both winters.\n\n**Conclusion:** the AI Winter cycle turns history into a free, practical test for any vendor's claims.",
+      "rubric": [
+        {
+          "point": "Cycle: limited expectations and compute, disappointing results, reduced funding",
+          "source_ref": "aib--ai-for-business-chapters-2-3#12"
+        },
+        {
+          "point": "Ask: is the promise backed by a demonstrated technical unlock",
+          "source_ref": "aib--ai-for-business-chapters-2-3#12"
+        },
+        {
+          "point": "Example of an unlock: GPUs and big data in 2012",
+          "source_ref": "aib--ai-for-business-chapters-2-3#14"
+        },
+        {
+          "point": "Overselling vendors caused the 2nd winter",
+          "source_ref": "aib--ai-for-business-chapters-2-3#12"
+        },
+        {
+          "point": "Costs nothing; best predictor of surviving investments",
+          "source_ref": "aib--ai-for-business-chapters-2-3#12"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 3,
+      "style_tag": "case",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#12",
+        "aib--ai-for-business-chapters-2-3#17",
+        "aib--ai-for-business-chapters-2-3#14"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
   "explain_back": {
     "prompt": "Compare the two AI Winters and explain how a manager can use their common pattern today.",
     "rubric": [

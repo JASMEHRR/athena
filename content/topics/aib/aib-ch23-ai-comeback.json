@@ -347,7 +347,337 @@
       "retired": false
     }
   ],
-  "questions": [],
+  "questions": [
+    {
+      "id": "aib-ch23-ai-comeback-q-0d37c635",
+      "type": "mcq",
+      "stem": "Who are named as the pioneers of the Big Data enabler of the AI comeback?",
+      "options": [
+        "Jeff Dean and Sanjay Ghemawat (Google)",
+        "Ian Buck (NVIDIA)",
+        "Geoffrey Hinton, Yann LeCun and Yoshua Bengio",
+        "Alex Krizhevsky and Ilya Sutskever"
+      ],
+      "answer": "Jeff Dean and Sanjay Ghemawat (Google)",
+      "accept": [],
+      "explanation": "Ian Buck pioneered GPUs; Hinton, LeCun and Bengio pioneered deep learning; Krizhevsky and Sutskever co-built AlexNet.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "recall",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#14"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-ai-comeback-q-edae1eda",
+      "type": "mcq",
+      "stem": "What did CUDA, launched by NVIDIA in 2006, allow researchers to do?",
+      "options": [
+        "Write general-purpose programs on graphics hardware",
+        "Store and process massive datasets on cloud platforms",
+        "Train networks on large labelled datasets without GPUs",
+        "Generate enormous volumes of user data on internet platforms"
+      ],
+      "answer": "Write general-purpose programs on graphics hardware",
+      "accept": [],
+      "explanation": "This turned GPUs into a general-purpose computing engine for neural-network training.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "concept",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#14"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-ai-comeback-q-a135b93b",
+      "type": "mcq",
+      "stem": "In AlexNet's ImageNet result, what does the 'top-5' qualifier mean?",
+      "options": [
+        "The correct label appeared among the model's five most likely predictions",
+        "AlexNet was correct 85% of the time on its single best guess",
+        "AlexNet finished among the top five entrants",
+        "The task used only five image categories"
+      ],
+      "answer": "The correct label appeared among the model's five most likely predictions",
+      "accept": [],
+      "explanation": "It is a generous standard measure for a 1,000-category task, not single-guess accuracy.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "concept",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#14"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-ai-comeback-q-a1036fd9",
+      "type": "mcq",
+      "stem": "In the chapter's description of AlexNet's win, which pairing of enabler and role is correct?",
+      "options": [
+        "Deep convolutional networks are the algorithm, large labelled datasets the fuel, GPUs the engine",
+        "GPUs are the fuel, deep convolutional networks the engine, datasets the algorithm",
+        "Large labelled datasets are the engine, GPUs the algorithm, deep networks the fuel",
+        "Deep convolutional networks are the fuel, GPUs the algorithm, datasets the engine"
+      ],
+      "answer": "Deep convolutional networks are the algorithm, large labelled datasets the fuel, GPUs the engine",
+      "accept": [],
+      "explanation": "Remove any one of the three and the breakthrough does not happen on the same timeline.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "identify",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#14"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-ai-comeback-q-41b67a79",
+      "type": "mcq",
+      "stem": "Which statement captures the chapter's main managerial lesson from the AI comeback?",
+      "options": [
+        "The synergy of data, compute and algorithms matters, not any one component on its own",
+        "A single breakthrough insight drove AI's acceleration after 2012",
+        "GPUs alone explain the comeback, so compute is all a firm needs",
+        "Data, compute and algorithms should be ticked off as independent checkboxes"
+      ],
+      "answer": "The synergy of data, compute and algorithms matters, not any one component on its own",
+      "accept": [],
+      "explanation": "Each enabler was necessary but not sufficient on its own.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "concept",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#14",
+        "aib--ai-for-business-chapters-2-3#17"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-ai-comeback-q-4d733928",
+      "type": "short",
+      "stem": "Explain the three enablers of the AI comeback and their pioneers.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "AI's acceleration after **2012** came from **three trends converging**, each **necessary but not sufficient** alone.\n\n- **Big Data:** **Jeff Dean and Sanjay Ghemawat (Google)** and platforms like Google, Facebook and Amazon built infrastructure for **massive datasets** from roughly 2000; cloud made storage and computing affordable. AI finally had **enough raw material**.\n- **GPUs:** **Ian Buck (NVIDIA)** launched **CUDA in 2006**, turning GPUs into general-purpose engines roughly **100x faster than CPUs** for neural-network training, cutting runs from **weeks to days or hours**.\n- **Deep Learning:** **Geoffrey Hinton, Yann LeCun and Yoshua Bengio**, the 'Godfathers of Deep Learning' (**2018 Turing Award**), advanced CNNs and training methods so networks could learn from the new data and hardware.\n\nThe three together, not one alone, made the comeback.",
+      "rubric": [
+        {
+          "point": "Three converging enablers, each necessary but not sufficient",
+          "source_ref": "aib--ai-for-business-chapters-2-3#14"
+        },
+        {
+          "point": "Big Data: Dean and Ghemawat at Google; enough raw material",
+          "source_ref": "aib--ai-for-business-chapters-2-3#14"
+        },
+        {
+          "point": "GPUs: Ian Buck, CUDA 2006, about 100x faster than CPUs",
+          "source_ref": "aib--ai-for-business-chapters-2-3#14"
+        },
+        {
+          "point": "Deep learning: Hinton, LeCun, Bengio; 2018 Turing Award",
+          "source_ref": "aib--ai-for-business-chapters-2-3#14"
+        }
+      ],
+      "marks": 5.0,
+      "difficulty": 1,
+      "style_tag": "explain",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#14",
+        "aib--ai-for-business-chapters-2-3#17"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-ai-comeback-q-83f815e9",
+      "type": "short",
+      "stem": "AlexNet's top-5 error in the 2012 ImageNet competition was 15.3% and the runner-up's was 26.2%. Calculate the gap in percentage points and explain what made this result possible.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "AlexNet's **2012 ImageNet** win is the chapter's landmark example of the comeback.\n\n**Working:**\n- Runner-up top-5 error = **26.2%**\n- AlexNet top-5 error = **15.3%**\n- Gap = 26.2 - 15.3 = **10.9 percentage points**. (The chapter rounds this to 'roughly 10.8'.)\n\n**What made it possible:** it depended **at the same time** on\n- **deep convolutional networks** (the **algorithm**),\n- **large labelled datasets** (the **fuel**), and\n- **GPU acceleration** (the **engine**).\n\n**Note:** 'top-5' means the correct label was among the model's **five most likely predictions** in a **1,000-category** task, not that AlexNet was right 85% of the time on one guess.\n\nRemove any one enabler and the breakthrough does not happen on the same timeline.",
+      "rubric": [
+        {
+          "point": "Gap = 26.2 - 15.3 = 10.9 percentage points",
+          "source_ref": "aib--ai-for-business-chapters-2-3#14"
+        },
+        {
+          "point": "Algorithm: deep convolutional networks",
+          "source_ref": "aib--ai-for-business-chapters-2-3#14"
+        },
+        {
+          "point": "Fuel: large labelled datasets; engine: GPUs",
+          "source_ref": "aib--ai-for-business-chapters-2-3#14"
+        },
+        {
+          "point": "Top-5 meaning; not 85% single-guess accuracy",
+          "source_ref": "aib--ai-for-business-chapters-2-3#14"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#14"
+      ],
+      "derived": [
+        "10.9"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-ai-comeback-q-c345034f",
+      "type": "short",
+      "stem": "Using the AI-comeback enablers, explain how a manager should assess a firm's AI readiness.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The chapter applies the comeback's logic directly to **a firm's AI readiness today**.\n\n- **Three dimensions:** **data**, **compute** and **algorithmic capability**, the firm-level versions of Big Data, GPUs and deep learning.\n- **Assess them together:** they must be judged **together, not as independent checkboxes**, because each was necessary but not sufficient in 2012.\n- **Find the binding constraint:** the reflection question asks which enabler the organisation is **strongest in** and which is the **binding constraint** on its AI ambitions.\n- **Example:** AlexNet needed the algorithm, the fuel and the engine at once; remove one and the result does not happen on time.\n\nReadiness is only as strong as the weakest of the three.",
+      "rubric": [
+        {
+          "point": "Assess data, compute and algorithmic capability",
+          "source_ref": "aib--ai-for-business-chapters-2-3#14"
+        },
+        {
+          "point": "Together, not as independent checkboxes",
+          "source_ref": "aib--ai-for-business-chapters-2-3#14"
+        },
+        {
+          "point": "Identify strongest enabler and the binding constraint",
+          "source_ref": "aib--ai-for-business-chapters-2-3#17"
+        },
+        {
+          "point": "AlexNet needed all three at once",
+          "source_ref": "aib--ai-for-business-chapters-2-3#14"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "apply",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#14",
+        "aib--ai-for-business-chapters-2-3#17"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-ai-comeback-q-e4561734",
+      "type": "long",
+      "stem": "Discuss the three converging enablers behind AI's comeback after 2012, using the AlexNet example.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The chapter says AI's dramatic acceleration after **2012** was **not one breakthrough insight** but **three technological trends converging** at the same moment, each pioneered by identifiable people and each **necessary but not sufficient** alone.\n\n**1. Big Data (the fuel)**\n- Pioneers: **Jeff Dean and Sanjay Ghemawat (Google)** and large platforms such as **Google, Facebook and Amazon**.\n- Built infrastructure for **massive datasets** and generated huge volumes of user data from roughly **2000** onward; **cloud platforms** made storage and distributed computing affordable.\n- Gave AI, for the first time, **enough raw material to learn from**.\n\n**2. GPUs (the engine)**\n- Pioneer: **Ian Buck (NVIDIA)**, who launched **CUDA in 2006**.\n- Let researchers program graphics hardware for general use, about **100x faster than CPUs** for neural-network training, cutting training from **weeks to days or hours**.\n\n**3. Deep Learning (the algorithm)**\n- Pioneers: **Geoffrey Hinton, Yann LeCun and Yoshua Bengio**, joint winners of the **2018 Turing Award**.\n- Advanced **CNNs**, sequence models and optimisation methods so deep networks could learn from the new data and hardware.\n\n**AlexNet (2012):** by **Krizhevsky, Sutskever and Hinton**, it won **ImageNet** with a top-5 error of **15.3%** against the runner-up's **26.2%**. It needed **all three** enablers at once.\n\n**Managerial lesson:** the **synergy** matters. A firm's **data, compute and algorithmic capability** must be assessed **together**, not as independent checkboxes.\n\n**Conclusion:** the comeback shows that AI breakthroughs come from enablers converging, and readiness must be judged the same way.",
+      "rubric": [
+        {
+          "point": "Not one breakthrough: three enablers converging, each necessary not sufficient",
+          "source_ref": "aib--ai-for-business-chapters-2-3#14"
+        },
+        {
+          "point": "Big Data: Dean and Ghemawat (Google); cloud; raw material",
+          "source_ref": "aib--ai-for-business-chapters-2-3#14"
+        },
+        {
+          "point": "GPUs: Ian Buck, CUDA 2006, about 100x faster than CPUs",
+          "source_ref": "aib--ai-for-business-chapters-2-3#14"
+        },
+        {
+          "point": "Deep learning: Hinton, LeCun, Bengio; 2018 Turing Award",
+          "source_ref": "aib--ai-for-business-chapters-2-3#14"
+        },
+        {
+          "point": "AlexNet 2012: 15.3% vs 26.2%; needed all three",
+          "source_ref": "aib--ai-for-business-chapters-2-3#14"
+        },
+        {
+          "point": "Assess data, compute and algorithms together",
+          "source_ref": "aib--ai-for-business-chapters-2-3#17"
+        }
+      ],
+      "marks": 10.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#14",
+        "aib--ai-for-business-chapters-2-3#17"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-ai-comeback-q-2892c725",
+      "type": "long",
+      "stem": "Case: A manager says, 'We have bought GPUs, so we are ready for AI.' Using the chapter's account of the AI comeback, evaluate this claim.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The claim treats **one enabler** as the whole answer. The chapter's lesson is the opposite.\n\n**1. What GPUs give**\n- GPUs are the **engine**. Since **CUDA (2006)**, they run neural-network training roughly **100x faster than CPUs**, cutting runs from weeks to days or hours.\n- So compute is a real and necessary part of readiness.\n\n**2. What is missing**\n- **Data (the fuel):** AI needs **enough raw material to learn from**. Without large, usable data, fast hardware has nothing to learn from.\n- **Algorithmic capability:** the comeback also needed **deep learning methods** (CNNs, sequence models, optimisation) that could actually use the data and hardware.\n\n**3. The AlexNet test**\n- AlexNet's **2012** ImageNet win depended **simultaneously** on deep convolutional networks, large labelled datasets and GPU acceleration.\n- **Remove any one** and the breakthrough **does not happen on the same timeline**.\n\n**4. Verdict**\n- The claim is **incomplete**. Each enabler is **necessary but not sufficient**.\n- The manager should assess **data, compute and algorithms together**, not as **independent checkboxes**, and find which one is the **binding constraint**.\n\n**Conclusion:** buying GPUs is one step; AI readiness needs the fuel, the engine and the algorithm together.",
+      "rubric": [
+        {
+          "point": "GPUs are the engine: necessary, about 100x faster than CPUs",
+          "source_ref": "aib--ai-for-business-chapters-2-3#14"
+        },
+        {
+          "point": "Missing fuel: enough data to learn from",
+          "source_ref": "aib--ai-for-business-chapters-2-3#14"
+        },
+        {
+          "point": "Missing algorithmic capability",
+          "source_ref": "aib--ai-for-business-chapters-2-3#14"
+        },
+        {
+          "point": "AlexNet needed all three; remove one and it fails",
+          "source_ref": "aib--ai-for-business-chapters-2-3#14"
+        },
+        {
+          "point": "Verdict: assess together, find the binding constraint",
+          "source_ref": "aib--ai-for-business-chapters-2-3#17"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 3,
+      "style_tag": "case",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#14",
+        "aib--ai-for-business-chapters-2-3#17"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
   "explain_back": {
     "prompt": "Explain the three enablers behind AI's comeback after 2012 and what AlexNet shows about how they work together.",
     "rubric": [

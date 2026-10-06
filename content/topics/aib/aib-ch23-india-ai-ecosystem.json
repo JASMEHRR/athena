@@ -318,7 +318,344 @@
       "retired": false
     }
   ],
-  "questions": [],
+  "questions": [
+    {
+      "id": "aib-ch23-india-ai-ecosystem-q-6415b246",
+      "type": "mcq",
+      "stem": "Which body approved the IndiaAI Mission?",
+      "options": [
+        "The Union Cabinet",
+        "The IndiaAI Safety Institute",
+        "The AI Centres of Excellence",
+        "The Bhashini platform team"
+      ],
+      "answer": "The Union Cabinet",
+      "accept": [],
+      "explanation": "The Union Cabinet approved it in March 2024 with an outlay of ₹10,371.92 crore.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "recall",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#16",
+        "aib--ai-for-business-chapters-2-3#17"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-india-ai-ecosystem-q-2b9e8961",
+      "type": "mcq",
+      "stem": "What are the two aims of the IndiaAI Mission, according to the chapter?",
+      "options": [
+        "Build national AI compute infrastructure and frameworks promoting responsible and inclusive AI",
+        "Run AI-enabled healthcare screening and build smart cities",
+        "Bridge India's language diversity and skill rural service operators",
+        "Set AI standards and handle ethics and risk mitigation"
+      ],
+      "answer": "Build national AI compute infrastructure and frameworks promoting responsible and inclusive AI",
+      "accept": [],
+      "explanation": "The other options describe complementary initiatives and the IndiaAI Safety Institute.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "recall",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#16",
+        "aib--ai-for-business-chapters-2-3#17"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-india-ai-ecosystem-q-f1da4fd8",
+      "type": "mcq",
+      "stem": "What does the chapter advise about the IndiaAI Mission's GPU figures?",
+      "options": [
+        "They date quickly and should be refreshed each time the chapter is taught",
+        "They are fixed targets that will not change after 2024",
+        "The compute pillar was capped at 10,000 GPUs",
+        "They should be ignored because they come from industry blogs"
+      ],
+      "answer": "They date quickly and should be refreshed each time the chapter is taught",
+      "accept": [],
+      "explanation": "Capacity grew from 10,000 to past 38,000 GPUs by 2026, with more announced.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "concept",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#16",
+        "aib--ai-for-business-chapters-2-3#17"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-india-ai-ecosystem-q-c2946cb6",
+      "type": "mcq",
+      "stem": "Which example of AI-enabled healthcare screening in India does the chapter give?",
+      "options": [
+        "Rajasthan's diabetic-retinopathy programme",
+        "Watson's cancer diagnosis support",
+        "AlphaFold's scientific discovery work",
+        "A telecom operator's churn model"
+      ],
+      "answer": "Rajasthan's diabetic-retinopathy programme",
+      "accept": [],
+      "explanation": "Watson and AlphaFold are global milestones from other sections; the churn model illustrates learning.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "recall",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#17",
+        "aib--ai-for-business-chapters-2-3#15",
+        "aib--ai-for-business-chapters-2-3#6"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-india-ai-ecosystem-q-d034d258",
+      "type": "mcq",
+      "stem": "When was the IndiaAI Safety Institute announced?",
+      "options": [
+        "January 2025",
+        "March 2024",
+        "2026",
+        "2018"
+      ],
+      "answer": "January 2025",
+      "accept": [],
+      "explanation": "March 2024 is the IndiaAI Mission's approval; 2026 is when GPUs passed 38,000.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "recall",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#17",
+        "aib--ai-for-business-chapters-2-3#16"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-india-ai-ecosystem-q-e676a096",
+      "type": "short",
+      "stem": "Write a short note on the IndiaAI Mission.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The **IndiaAI Mission** is India's **flagship AI initiative**.\n\n- **Outlay:** an approved outlay of **₹10,371.92 crore**.\n- **Approval:** by the **Union Cabinet in March 2024**.\n- **Aims:** build **national AI compute infrastructure** and **frameworks promoting responsible and inclusive AI**.\n- **Compute pillar:** initially targeted **10,000 subsidised GPUs**; by **2026** capacity had **passed 38,000 GPUs**, with more expansion announced.\n- **Caution:** such figures **date quickly** and should be **refreshed** each time the chapter is taught.\n\nThe mission is the core of India's domestic AI push.",
+      "rubric": [
+        {
+          "point": "Outlay ₹10,371.92 crore",
+          "source_ref": "aib--ai-for-business-chapters-2-3#16"
+        },
+        {
+          "point": "Approved by the Union Cabinet in March 2024",
+          "source_ref": "aib--ai-for-business-chapters-2-3#16"
+        },
+        {
+          "point": "Aims: compute infrastructure; responsible and inclusive AI",
+          "source_ref": "aib--ai-for-business-chapters-2-3#16"
+        },
+        {
+          "point": "10,000 subsidised GPUs initially; past 38,000 by 2026",
+          "source_ref": "aib--ai-for-business-chapters-2-3#16"
+        },
+        {
+          "point": "Figures date quickly; refresh them",
+          "source_ref": "aib--ai-for-business-chapters-2-3#17"
+        }
+      ],
+      "marks": 5.0,
+      "difficulty": 1,
+      "style_tag": "explain",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#16",
+        "aib--ai-for-business-chapters-2-3#17"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-india-ai-ecosystem-q-472a417c",
+      "type": "short",
+      "stem": "List the complementary initiatives in India's AI ecosystem described in the chapter.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Alongside the IndiaAI Mission, the chapter lists several **complementary initiatives**.\n\n- **AI skilling:** free AI-skilling programmes for **lakhs of Common Service Centre operators** who support **rural digital service delivery**.\n- **Bhashini:** a **multilingual AI platform** bridging **India's language diversity**.\n- **Healthcare screening:** AI-enabled tools such as **Rajasthan's diabetic-retinopathy programme**.\n- **AI Centres of Excellence:** in **healthcare, agriculture and smart cities**.\n- **IndiaAI Safety Institute** (announced **January 2025**): standards, ethics and risk mitigation.\n\nTogether they spread AI into skills, language, health and governance.",
+      "rubric": [
+        {
+          "point": "Skilling for lakhs of Common Service Centre operators",
+          "source_ref": "aib--ai-for-business-chapters-2-3#17"
+        },
+        {
+          "point": "Bhashini multilingual platform",
+          "source_ref": "aib--ai-for-business-chapters-2-3#17"
+        },
+        {
+          "point": "Rajasthan's diabetic-retinopathy screening",
+          "source_ref": "aib--ai-for-business-chapters-2-3#17"
+        },
+        {
+          "point": "AI Centres of Excellence in healthcare, agriculture, smart cities",
+          "source_ref": "aib--ai-for-business-chapters-2-3#17"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 1,
+      "style_tag": "list",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#17"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-india-ai-ecosystem-q-08060b90",
+      "type": "short",
+      "stem": "Why does the chapter include India's AI ecosystem in this course?",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The chapter gives a clear reason for the **domestic** focus.\n\n- The course is **delivered in India** and assessed in part against **BSIS regional-impact criteria**, so the domestic **policy and infrastructure** context is directly relevant.\n- India's policy landscape (the **IndiaAI Mission, Bhashini** and related initiatives) gives students a **domestic case** for AI's **economic and governance stakes**.\n- The **IndiaAI Safety Institute** links to the **human-in-the-loop** principles from Chapter 1.\n\nIt grounds global AI history in India's own context.",
+      "rubric": [
+        {
+          "point": "Course delivered in India; BSIS regional-impact criteria",
+          "source_ref": "aib--ai-for-business-chapters-2-3#16"
+        },
+        {
+          "point": "Domestic case for AI's economic and governance stakes",
+          "source_ref": "aib--ai-for-business-chapters-2-3#17"
+        },
+        {
+          "point": "Safety Institute links to human-in-the-loop principles",
+          "source_ref": "aib--ai-for-business-chapters-2-3#17"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 1,
+      "style_tag": "explain",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#16",
+        "aib--ai-for-business-chapters-2-3#17"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-india-ai-ecosystem-q-666b2775",
+      "type": "long",
+      "stem": "Describe India's emerging AI ecosystem: the IndiaAI Mission, its complementary initiatives and the IndiaAI Safety Institute.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The chapter covers India's AI ecosystem because the course is delivered in India and assessed partly against **BSIS regional-impact** criteria.\n\n**1. The IndiaAI Mission**\n- A **flagship initiative** with an approved outlay of **₹10,371.92 crore**.\n- Approved by the **Union Cabinet in March 2024**.\n- Aims to build **national AI compute infrastructure** and **frameworks for responsible and inclusive AI**.\n- **Compute pillar:** first targeted **10,000 subsidised GPUs**; by **2026** it had passed **38,000 GPUs**, with more announced. The chapter warns these figures **date quickly** and should be refreshed each time.\n\n**2. Complementary initiatives**\n- **Free AI skilling** for **lakhs of Common Service Centre operators**, who support **rural digital service delivery**.\n- **Bhashini**, a **multilingual AI platform** bridging India's language diversity.\n- **AI-enabled healthcare screening**, such as **Rajasthan's diabetic-retinopathy programme**.\n- **AI Centres of Excellence** in **healthcare, agriculture and smart cities**.\n\n**3. The IndiaAI Safety Institute**\n- Announced in **January 2025**.\n- Tasked with **standards, ethics and risk mitigation**.\n- A governance layer linked to the **human-in-the-loop** principles of Chapter 1.\n\n**Why it matters:** India's AI policy gives students a **domestic case** for AI's **economic and governance stakes**.\n\n**Conclusion:** India is building compute, skills, language access, sector applications and safety oversight together.",
+      "rubric": [
+        {
+          "point": "IndiaAI Mission: ₹10,371.92 crore, Union Cabinet, March 2024",
+          "source_ref": "aib--ai-for-business-chapters-2-3#16"
+        },
+        {
+          "point": "Compute pillar: 10,000 to past 38,000 GPUs by 2026; figures date quickly",
+          "source_ref": "aib--ai-for-business-chapters-2-3#16"
+        },
+        {
+          "point": "Skilling for Common Service Centre operators; Bhashini",
+          "source_ref": "aib--ai-for-business-chapters-2-3#17"
+        },
+        {
+          "point": "Rajasthan's diabetic-retinopathy screening; Centres of Excellence",
+          "source_ref": "aib--ai-for-business-chapters-2-3#17"
+        },
+        {
+          "point": "IndiaAI Safety Institute, January 2025: standards, ethics, risk",
+          "source_ref": "aib--ai-for-business-chapters-2-3#17"
+        },
+        {
+          "point": "BSIS regional-impact relevance; domestic case",
+          "source_ref": "aib--ai-for-business-chapters-2-3#16"
+        }
+      ],
+      "marks": 10.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#16",
+        "aib--ai-for-business-chapters-2-3#17"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "aib-ch23-india-ai-ecosystem-q-985aef7d",
+      "type": "long",
+      "stem": "Case: The IndiaAI Mission's compute pillar first targeted 10,000 subsidised GPUs and had passed 38,000 GPUs by 2026. (a) Calculate the increase and how many times the original target this is. (b) What does the chapter advise about using these figures? (c) Why does a governance body sit alongside this compute push?",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "This applies the chapter's **IndiaAI Mission** figures.\n\n**(a) Working**\n- Increase = 38,000 - 10,000 = **28,000 GPUs**\n- As a percentage of the original target = 28,000 / 10,000 x 100 = **280%**\n- Times the original target = 38,000 / 10,000 = **3.8 times**\n- Since capacity had **passed** 38,000, the true growth is **a little more** than this.\n\n**(b) Using the figures**\n- The chapter says infrastructure figures in a fast-moving national programme **date quickly**.\n- They should be **refreshed each time the chapter is taught**, rather than treated as fixed.\n- Further expansion had already been **announced**.\n\n**(c) Why governance sits alongside**\n- The mission itself aims at **frameworks promoting responsible and inclusive AI**, not only compute.\n- The **IndiaAI Safety Institute** (announced **January 2025**) handles **standards, ethics and risk mitigation**.\n- This is a governance layer tied to the **human-in-the-loop** principles of Chapter 1.\n\n**Conclusion:** India's compute grew about 3.8 times its first target, and the chapter pairs that growth with oversight and a warning to keep figures current.",
+      "rubric": [
+        {
+          "point": "Increase 38,000 - 10,000 = 28,000 GPUs",
+          "source_ref": "aib--ai-for-business-chapters-2-3#16"
+        },
+        {
+          "point": "3.8 times (280%), slightly more since capacity passed 38,000",
+          "source_ref": "aib--ai-for-business-chapters-2-3#16"
+        },
+        {
+          "point": "Figures date quickly; refresh each time",
+          "source_ref": "aib--ai-for-business-chapters-2-3#16"
+        },
+        {
+          "point": "Mission aims at responsible and inclusive AI frameworks",
+          "source_ref": "aib--ai-for-business-chapters-2-3#16"
+        },
+        {
+          "point": "Safety Institute: standards, ethics, risk mitigation; human-in-the-loop",
+          "source_ref": "aib--ai-for-business-chapters-2-3#17"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 2,
+      "style_tag": "case",
+      "source_refs": [
+        "aib--ai-for-business-chapters-2-3#16",
+        "aib--ai-for-business-chapters-2-3#17"
+      ],
+      "derived": [
+        "28,000",
+        "280",
+        "3.8"
+      ],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
   "explain_back": {
     "prompt": "Describe India's emerging AI ecosystem as presented in the chapter.",
     "rubric": [
