@@ -1,0 +1,575 @@
+{
+  "id": "qtm-m6-anova-calculation",
+  "subject_id": "qtm",
+  "deck_id": "qtm--module-6",
+  "title": "ANOVA formulas, the F-table, one-way ANOVA worked example and two-way ANOVA",
+  "order": 605,
+  "summary": "MS between and MS within, their degrees of freedom, the variance formulas, reading the F-table, one-way ANOVA with the training programs example (F = 20.95 > 4.26) and the two-way ANOVA hypotheses.",
+  "est_minutes": 30,
+  "difficulty": 3,
+  "source_refs": [
+    "qtm--module-6#17",
+    "qtm--module-6#18",
+    "qtm--module-6#19",
+    "qtm--module-6#20",
+    "qtm--module-6#21",
+    "qtm--module-6#22",
+    "qtm--module-6#16",
+    "qtm--module-6#23",
+    "qtm--module-6#24"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "qtm-m6-anova-calculation-c1",
+      "heading": "The ANOVA formulae",
+      "explanation_md": "**F = variance between groups / variance within groups**\n\nIn symbols: **F = MSbetween / MSwithin**, where **MS** means **Mean Sum of Squares**.\n\n**MSbetween = SSbetween / dfbetween**, with **dfbetween = k − 1**\n\n**MSwithin = SSwithin / dfwithin**, with **dfwithin = nT − k**\n\nKey: **k** = the number of groups (or levels); **nT** = the total number of participants across all groups; **df** = degrees of freedom.\n\nThe second formula slide writes the two variances out in full:\n\n**Within Groups Variance = Σ(Xij − μj)² / (n − k)**: each observation's squared distance from **its own group mean**.\n\n**Between Groups Variance = Σ nj(μj − μt)² / (k − 1)**: each **group mean's** squared distance from the **overall mean**, weighted by group size nj.\n\n**ANOVA F statistic = Between Groups Variance / Within Groups Variance.**",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "MSbetween",
+          "meaning": "Mean Sum of Squares between groups (variance between groups) = SSbetween / (k − 1).",
+          "source_ref": "qtm--module-6#17"
+        },
+        {
+          "term": "MSwithin",
+          "meaning": "Mean Sum of Squares within groups (variance within groups) = SSwithin / (nT − k).",
+          "source_ref": "qtm--module-6#17"
+        }
+      ],
+      "exam_line": "F = MSbetween/MSwithin; MSbetween = SSbetween/(k − 1); MSwithin = SSwithin/(nT − k); k = number of groups, nT = total participants.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m6-anova-calculation-q-fd4ae080",
+          "type": "mcq",
+          "stem": "What are the degrees of freedom between groups?",
+          "options": [
+            "k − 1",
+            "nT − k",
+            "nT − 1"
+          ],
+          "answer": "k − 1",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-6#17"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m6-anova-calculation-q-dfb991e0",
+          "type": "mcq",
+          "stem": "What are the degrees of freedom within groups?",
+          "options": [
+            "nT − k",
+            "k − 1",
+            "n − 1"
+          ],
+          "answer": "nT − k",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-6#17"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m6-anova-calculation-q-227779c7",
+          "type": "fill",
+          "stem": "F = MSbetween / MS____.",
+          "options": [],
+          "answer": "within",
+          "accept": [
+            "MSwithin"
+          ],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-6#17"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-6#17",
+        "qtm--module-6#18"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-anova-calculation-c2",
+      "heading": "Reading the F-table",
+      "explanation_md": "The deck's **F-table** gives **critical values of F at α = 0.05** for **F(df1, df2)**.\n\n- **Columns: DF1** (the between-groups df, k − 1), from 1 to 10 and then 12, 15, 20, 24, 30, 40, 60, 120 and ∞.\n- **Rows: DF2** (the within-groups df, nT − k), from 1 to 30 and then 40, 60, 120 and ∞.\n\nRead across to your DF1 column and down to your DF2 row. For example, **F(2, 9) = 4.26**: this is the critical value used in the training programs example.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "F-table at α = 0.05: column DF1 (between df), row DF2 (within df); F(2, 9) = 4.26.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m6-anova-calculation-q-d9422a04",
+          "type": "mcq",
+          "stem": "In the deck's F-table, what is the critical F for df1 = 2 and df2 = 9?",
+          "options": [
+            "4.26",
+            "5.12",
+            "19.00"
+          ],
+          "answer": "4.26",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-6#19"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m6-anova-calculation-q-a7fc19b9",
+          "type": "true_false",
+          "stem": "The deck's F-table gives critical values at α = 0.05.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-6#19"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-6#19"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-anova-calculation-c3",
+      "heading": "One-way ANOVA",
+      "explanation_md": "**One-way ANOVA** has:\n- **one independent variable (factor)** with **multiple levels**;\n- **one dependent variable** (continuous).\n\nIt is used to check **whether means differ across the levels of the factor**.\n\n**Example question:** does **customer satisfaction** differ across **three branches of a retail store**? The factor is the branch (three levels); the dependent variable is customer satisfaction.",
+      "example_ids": [
+        "qtm-ex-m6-retail-branches"
+      ],
+      "key_terms": [],
+      "exam_line": "One-way ANOVA: one factor with multiple levels and one continuous dependent variable; e.g. does customer satisfaction differ across three branches of a retail store?",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m6-anova-calculation-q-1cd339ca",
+          "type": "mcq",
+          "stem": "In the retail example, what is the factor?",
+          "options": [
+            "The branch of the store",
+            "Customer satisfaction",
+            "The sample size"
+          ],
+          "answer": "The branch of the store",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-6#20"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m6-anova-calculation-q-25cea4f7",
+          "type": "true_false",
+          "stem": "One-way ANOVA has one independent variable and one continuous dependent variable.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-6#20"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-6#20"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-anova-calculation-c4",
+      "heading": "Worked example: three training programs",
+      "explanation_md": "**Problem:** a Human Resources Manager wants to know whether **three training programs** lead to different **productivity** levels.\n\n| Program | Scores |\n|---|---|\n| A | 70, 65, 72, 68 |\n| B | 80, 85, 82, 88 |\n| C | 75, 78, 72, 70 |\n\nSo **k = 3** groups and **nT = 12** scores.\n\n**1. Means.** A = 275/4 = **68.75**, B = 335/4 = **83.75**, C = 295/4 = **73.75**. Overall = 905/12 = **75.42**.\n\n**2. SSB** = Σ nj(group mean − overall mean)² = 4 × (44.44 + 69.44 + 2.78) = 4 × 116.67 = **466.67**\n\n**3. MSB** = SSB/(k − 1) = 466.67/2 = **233.3**\n\n**4. SSW** = sum of squared distances of each score from its own group mean = 26.75 (A) + 36.75 (B) + 36.75 (C) = **100.25**\n\n**5. MSW** = SSW/(nT − k) = 100.25/9 = **11.14**\n\n**6. F calc** = MSB/MSW = **20.95**\n\n**7. F crit** from the table (df1 = 2, df2 = 9) = **4.26**\n\n**Decision:** F = 20.95 > 4.26, so **reject the null hypothesis**. There is a **significant difference in average productivity among the three training programs**.",
+      "example_ids": [
+        "qtm-ex-m6-training-programs"
+      ],
+      "key_terms": [],
+      "exam_line": "Training programs: means 68.75, 83.75, 73.75 (overall 75.42); SSB = 466.67, MSB = 233.3; SSW = 100.25, MSW = 11.14; F = 20.95 > F crit 4.26 (df 2, 9), so reject H0.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m6-anova-calculation-q-38f1893d",
+          "type": "fill",
+          "stem": "In the training programs example, F calc = MSB/MSW = ____.",
+          "options": [],
+          "answer": "20.95",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-6#22"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m6-anova-calculation-q-8b4d1dfc",
+          "type": "mcq",
+          "stem": "What critical F does the slide use for the training programs example?",
+          "options": [
+            "4.26 (df1 = 2, df2 = 9)",
+            "5.12 (df1 = 1, df2 = 9)",
+            "19.00 (df1 = 2, df2 = 2)"
+          ],
+          "answer": "4.26 (df1 = 2, df2 = 9)",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-6#22",
+            "qtm--module-6#19"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m6-anova-calculation-q-becb9426",
+          "type": "mcq",
+          "stem": "What is the conclusion of the training programs ANOVA?",
+          "options": [
+            "Reject H0: average productivity differs among the programs",
+            "Fail to reject H0: the programs give the same productivity",
+            "Reject H1: program B is best"
+          ],
+          "answer": "Reject H0: average productivity differs among the programs",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-6#22",
+            "qtm--module-6#16"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-6#21",
+        "qtm--module-6#22",
+        "qtm--module-6#18",
+        "qtm--module-6#16"
+      ],
+      "derived": [
+        "275",
+        "335",
+        "295",
+        "905",
+        "12",
+        "44.44",
+        "69.44",
+        "2.78",
+        "116.67",
+        "26.75",
+        "36.75"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-anova-calculation-c5",
+      "heading": "Two-way ANOVA",
+      "explanation_md": "**Two-way ANOVA** involves **two independent variables (factors)** and **one dependent variable**. It allows you to test:\n- the **main effect of each factor**, and\n- the **interaction effect between the factors**.\n\n**Example:** do **product quality** (standard vs premium) and **price level** (low, medium, high) **jointly affect purchase intention**?\n\n**Three hypotheses:**\n- **H01:** no main effect of price\n- **H02:** no main effect of quality\n- **H03:** no interaction between price and quality\n\nThe worked two-way example is in the Excel sheet titled **Two-Way ANOVA.xlsx**.",
+      "example_ids": [
+        "qtm-ex-m6-quality-price"
+      ],
+      "key_terms": [
+        {
+          "term": "Two-way ANOVA",
+          "meaning": "Two independent variables (factors) and one dependent variable; allows for the main effects of each factor and the interaction effect between factors.",
+          "source_ref": "qtm--module-6#23"
+        }
+      ],
+      "exam_line": "Two-way ANOVA: two factors, one dependent variable; tests main effects and interaction; e.g. quality and price on purchase intention with H01 (price), H02 (quality), H03 (interaction).",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m6-anova-calculation-q-6a8213c6",
+          "type": "mcq",
+          "stem": "In the two-way example, what does H03 state?",
+          "options": [
+            "No interaction between price and quality",
+            "No main effect of price",
+            "No main effect of quality"
+          ],
+          "answer": "No interaction between price and quality",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-6#23"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m6-anova-calculation-q-5ea5a91a",
+          "type": "mcq",
+          "stem": "In the two-way example, what is the dependent variable?",
+          "options": [
+            "Purchase intention",
+            "Price level",
+            "Product quality"
+          ],
+          "answer": "Purchase intention",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-6#23"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m6-anova-calculation-q-a3263544",
+          "type": "true_false",
+          "stem": "Two-way ANOVA can test the interaction effect between factors.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-6#23"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-6#23",
+        "qtm--module-6#24"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "qtm-m6-anova-calculation-f1",
+      "front": "F (ANOVA) in MS form",
+      "back": "F = MSbetween / MSwithin",
+      "kind": "formula",
+      "source_refs": [
+        "qtm--module-6#17",
+        "qtm--module-6#18"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-anova-calculation-f2",
+      "front": "MSbetween and its df",
+      "back": "MSbetween = SSbetween / dfbetween, dfbetween = k − 1 (k = number of groups)",
+      "kind": "formula",
+      "source_refs": [
+        "qtm--module-6#17"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-anova-calculation-f3",
+      "front": "MSwithin and its df",
+      "back": "MSwithin = SSwithin / dfwithin, dfwithin = nT − k (nT = total participants)",
+      "kind": "formula",
+      "source_refs": [
+        "qtm--module-6#17"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-anova-calculation-f4",
+      "front": "Within and between groups variance (full formulas)",
+      "back": "Within = Σ(Xij − μj)²/(n − k); Between = Σ nj(μj − μt)²/(k − 1)",
+      "kind": "formula",
+      "source_refs": [
+        "qtm--module-6#18"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-anova-calculation-f5",
+      "front": "F-table: F(2, 9) at α = 0.05",
+      "back": "4.26",
+      "kind": "fact",
+      "source_refs": [
+        "qtm--module-6#19"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-anova-calculation-f6",
+      "front": "Training programs ANOVA: answer",
+      "back": "SSB = 466.67, MSB = 233.3, SSW = 100.25, MSW = 11.14, F = 20.95 > 4.26: reject H0; productivity differs.",
+      "kind": "example",
+      "source_refs": [
+        "qtm--module-6#22",
+        "qtm--module-6#16"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-anova-calculation-f7",
+      "front": "One-way ANOVA example question",
+      "back": "Does customer satisfaction differ across three branches of a retail store?",
+      "kind": "example",
+      "source_refs": [
+        "qtm--module-6#20"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-anova-calculation-f8",
+      "front": "Two-way ANOVA hypotheses (quality and price example)",
+      "back": "H01: no main effect of price; H02: no main effect of quality; H03: no interaction between price and quality.",
+      "kind": "list",
+      "source_refs": [
+        "qtm--module-6#23"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [],
+  "explain_back": {
+    "prompt": "Work through the training programs one-way ANOVA, naming each formula, and say what a two-way ANOVA adds.",
+    "rubric": [
+      {
+        "point": "Group means 68.75, 83.75, 73.75; overall 75.42",
+        "source_ref": "qtm--module-6#22"
+      },
+      {
+        "point": "SSB = 466.67, MSB = SSB/(k − 1) = 233.3",
+        "source_ref": "qtm--module-6#22"
+      },
+      {
+        "point": "SSW = 100.25, MSW = SSW/(nT − k) = 11.14",
+        "source_ref": "qtm--module-6#22"
+      },
+      {
+        "point": "F = MSB/MSW = 20.95 > F crit 4.26 (df 2, 9), so reject H0",
+        "source_ref": "qtm--module-6#22"
+      },
+      {
+        "point": "Two-way ANOVA has two factors and tests main effects and their interaction",
+        "source_ref": "qtm--module-6#23"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

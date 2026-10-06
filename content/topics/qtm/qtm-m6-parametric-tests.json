@@ -1,0 +1,420 @@
+{
+  "id": "qtm-m6-parametric-tests",
+  "subject_id": "qtm",
+  "deck_id": "qtm--module-6",
+  "title": "Parametric tests: assumptions, the common tests and when to use them",
+  "order": 601,
+  "summary": "What parametric tests are, their four key assumptions, the common parametric tests (t-tests, Z-test, ANOVA, Pearson's r), when to use them, three examples and the main limitation.",
+  "est_minutes": 20,
+  "difficulty": 1,
+  "source_refs": [
+    "qtm--module-6#2",
+    "qtm--module-6#3",
+    "qtm--module-6#4"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "qtm-m6-parametric-tests-c1",
+      "heading": "What parametric tests are",
+      "explanation_md": "**Parametric tests** are statistical tests that **make specific assumptions about the parameters** (for example the **mean** and **variance**) **and the distribution** (typically **normal**) of the population the sample comes from.\n\nThe pay-off: they are **powerful and efficient when their assumptions are met**, giving **precise estimates**.\n\n**Four key assumptions:**\n1. **Data is quantitative** (interval or ratio scale).\n2. **The population follows a specific distribution**, usually normal.\n3. **Homogeneity of variance**: variability is similar across groups.\n4. **Independence of observations**: each data point is unrelated to the others.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Parametric tests",
+          "meaning": "Statistical tests that make specific assumptions about the parameters (e.g. mean, variance) and distribution (typically normal) of the population.",
+          "source_ref": "qtm--module-6#2"
+        },
+        {
+          "term": "Homogeneity of variance",
+          "meaning": "Variability is similar across groups.",
+          "source_ref": "qtm--module-6#2"
+        },
+        {
+          "term": "Independence of observations",
+          "meaning": "Each data point is unrelated to the others.",
+          "source_ref": "qtm--module-6#2"
+        }
+      ],
+      "exam_line": "Parametric tests assume quantitative (interval or ratio) data, a normal population, homogeneity of variance and independent observations; they are powerful and efficient when these hold.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m6-parametric-tests-q-a7a9b22d",
+          "type": "mcq",
+          "stem": "Which is NOT one of the key assumptions of parametric tests on the slide?",
+          "options": [
+            "Data is ordinal or nominal",
+            "Homogeneity of variance",
+            "Independence of observations",
+            "Population follows a specific distribution"
+          ],
+          "answer": "Data is ordinal or nominal",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-6#2"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m6-parametric-tests-q-805b95f6",
+          "type": "fill",
+          "stem": "Homogeneity of ____ means variability is similar across groups.",
+          "options": [],
+          "answer": "variance",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-6#2"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m6-parametric-tests-q-920629fd",
+          "type": "true_false",
+          "stem": "Parametric tests are powerful and efficient when their assumptions are met.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-6#2"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-6#2"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-parametric-tests-c2",
+      "heading": "The common parametric tests",
+      "explanation_md": "The slide lists the main family:\n\n**t-Tests**\n- **One-sample t-test**: compares a **sample mean to a known population mean**.\n- **Independent two-sample t-test**: compares the **means of two independent groups**.\n- **Paired t-test**: compares means from the **same group at different times** or **matched samples**.\n\n**Z-Test**: often for **large samples** with a **known population standard deviation**.\n\n**ANOVA (Analysis of Variance)**: compares means across **three or more groups** (one-way, two-way ANOVA).\n\n**Pearson's Correlation (r)**: measures the **strength and direction of the linear relationship** between **two continuous variables**.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Z-Test",
+          "meaning": "Often used for large samples with a known population standard deviation.",
+          "source_ref": "qtm--module-6#3"
+        },
+        {
+          "term": "Pearson's Correlation (r)",
+          "meaning": "Measures the strength and direction of the linear relationship between two continuous variables.",
+          "source_ref": "qtm--module-6#3"
+        }
+      ],
+      "exam_line": "Common parametric tests: one-sample, independent two-sample and paired t-tests; Z-test (large samples, known σ); ANOVA (three or more groups); Pearson's r (linear relationship).",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m6-parametric-tests-q-e2d63e1c",
+          "type": "mcq",
+          "stem": "Which test compares means from the same group at different times?",
+          "options": [
+            "Paired t-test",
+            "Independent two-sample t-test",
+            "One-sample t-test",
+            "Z-Test"
+          ],
+          "answer": "Paired t-test",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-6#3"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m6-parametric-tests-q-902f4009",
+          "type": "mcq",
+          "stem": "ANOVA, as described on this slide, compares means across:",
+          "options": [
+            "Three or more groups",
+            "Exactly one group and a known value",
+            "Two matched samples only"
+          ],
+          "answer": "Three or more groups",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-6#3"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m6-parametric-tests-q-8bc4eb64",
+          "type": "mcq",
+          "stem": "When is the Z-Test often used?",
+          "options": [
+            "For large samples with a known population standard deviation",
+            "For ranked data",
+            "For small samples with unknown spread"
+          ],
+          "answer": "For large samples with a known population standard deviation",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-6#3"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-6#3"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-parametric-tests-c3",
+      "heading": "When to use parametric tests, and the catch",
+      "explanation_md": "**Use parametric tests when:**\n- your data is **continuous and approximately normally distributed**;\n- the **sample size is moderate or large**;\n- **population parameters** (like mean and variance) **can be meaningfully estimated**.\n\n**The professor's three examples:**\n- Comparing the **mean test scores of two classes**: **independent t-test**.\n- Testing whether **body temperatures** of a group deviate from the standard **98.6°F**: **one-sample t-test**.\n- Checking if **multiple factories** produce products with the **same average weight**: **ANOVA**.\n\n**Limitation:** **violating the assumptions** (like normality or equal variances) **can lead to misleading results**. In such cases, **non-parametric tests are recommended**.",
+      "example_ids": [
+        "qtm-ex-m6-parametric-uses"
+      ],
+      "key_terms": [],
+      "exam_line": "Use parametric tests for continuous, roughly normal data with moderate or large samples; if assumptions are violated, results can mislead and non-parametric tests are recommended.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m6-parametric-tests-q-7427d3cd",
+          "type": "mcq",
+          "stem": "Testing whether body temperatures deviate from the standard 98.6°F uses which test?",
+          "options": [
+            "One-sample t-test",
+            "Independent t-test",
+            "ANOVA"
+          ],
+          "answer": "One-sample t-test",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-6#4"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m6-parametric-tests-q-1d6e798a",
+          "type": "mcq",
+          "stem": "Checking if multiple factories produce products with the same average weight uses:",
+          "options": [
+            "ANOVA",
+            "Paired t-test",
+            "One-sample t-test"
+          ],
+          "answer": "ANOVA",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-6#4"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m6-parametric-tests-q-6e061fa1",
+          "type": "true_false",
+          "stem": "If parametric assumptions are violated, the slide recommends non-parametric tests.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-6#4"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-6#4"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "qtm-m6-parametric-tests-f1",
+      "front": "Parametric tests",
+      "back": "Tests that make specific assumptions about population parameters (mean, variance) and distribution (typically normal).",
+      "kind": "term",
+      "source_refs": [
+        "qtm--module-6#2"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-parametric-tests-f2",
+      "front": "Four key assumptions of parametric tests",
+      "back": "Quantitative data (interval or ratio); population follows a specific distribution (usually normal); homogeneity of variance; independence of observations.",
+      "kind": "list",
+      "source_refs": [
+        "qtm--module-6#2"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-parametric-tests-f3",
+      "front": "Three types of t-test",
+      "back": "One-sample (sample mean vs known mean); independent two-sample (two independent groups); paired (same group at different times or matched samples).",
+      "kind": "list",
+      "source_refs": [
+        "qtm--module-6#3"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-parametric-tests-f4",
+      "front": "Pearson's Correlation (r)",
+      "back": "Measures the strength and direction of the linear relationship between two continuous variables.",
+      "kind": "term",
+      "source_refs": [
+        "qtm--module-6#3"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-parametric-tests-f5",
+      "front": "When to use parametric tests",
+      "back": "Continuous and approximately normal data; moderate or large sample; parameters can be meaningfully estimated.",
+      "kind": "list",
+      "source_refs": [
+        "qtm--module-6#4"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-parametric-tests-f6",
+      "front": "Comparing mean test scores of two classes",
+      "back": "Independent t-test.",
+      "kind": "example",
+      "source_refs": [
+        "qtm--module-6#4"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-parametric-tests-f7",
+      "front": "Limitation of parametric tests",
+      "back": "Violating assumptions (normality, equal variances) can give misleading results; then use non-parametric tests.",
+      "kind": "fact",
+      "source_refs": [
+        "qtm--module-6#4"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [],
+  "explain_back": {
+    "prompt": "What are parametric tests? Give their assumptions, the common tests and when to use them, with the professor's examples.",
+    "rubric": [
+      {
+        "point": "Tests that assume things about population parameters (mean, variance) and distribution (usually normal)",
+        "source_ref": "qtm--module-6#2"
+      },
+      {
+        "point": "Assumptions: quantitative data, normal population, homogeneity of variance, independent observations",
+        "source_ref": "qtm--module-6#2"
+      },
+      {
+        "point": "Common tests: one-sample, independent and paired t-tests; Z-test; ANOVA; Pearson's r",
+        "source_ref": "qtm--module-6#3"
+      },
+      {
+        "point": "Use for continuous, roughly normal data with moderate or large samples (e.g. two classes' scores: independent t-test)",
+        "source_ref": "qtm--module-6#4"
+      },
+      {
+        "point": "If assumptions are violated, results can mislead and non-parametric tests are recommended",
+        "source_ref": "qtm--module-6#4"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

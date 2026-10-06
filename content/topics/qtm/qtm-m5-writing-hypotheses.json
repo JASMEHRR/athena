@@ -1,0 +1,326 @@
+{
+  "id": "qtm-m5-writing-hypotheses",
+  "subject_id": "qtm",
+  "deck_id": "qtm--module-5",
+  "title": "Writing hypotheses from a business problem",
+  "order": 502,
+  "summary": "Two word problems from the slides (stronger trash bags and a faster billing system) and how the claim to be shown becomes Ha while the rest becomes H0.",
+  "est_minutes": 15,
+  "difficulty": 2,
+  "source_refs": [
+    "qtm--module-5#6",
+    "qtm--module-5#7",
+    "qtm--module-5#8"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "qtm-m5-writing-hypotheses-c1",
+      "heading": "The trash bag problem",
+      "explanation_md": "A manufacturer makes the strongest trash bags on the market. Its **new 30-gallon bag** uses a specially formulated plastic that is **stronger and more biodegradable**. The extra strength lets it make the bag thinner, and the cost savings let it **lower the price by 25 percent**.\n\nIt wants to advertise on a major television network and claim three things: the lower price, that the bag is **better for the environment**, and that it is **stronger than its current bag**.\n\n- The network accepts the environmental claim on scientific grounds.\n- But it **questions the strength claim** and wants **statistical evidence**.\n\nStrength is measured as **breaking strength**: the amount of a representative trash mix (in **pounds**) that makes a bag, hung in the air, rip or tear.\n\nTests show the **current bag's mean breaking strength is very close to (but does not exceed) 50 pounds**. The new bag's mean breaking strength **μ is unknown**.",
+      "example_ids": [
+        "qtm-ex-m5-trash-bags"
+      ],
+      "key_terms": [
+        {
+          "term": "Breaking strength",
+          "meaning": "The amount of a representative trash mix (in pounds) that, loaded into a bag suspended in the air, makes the bag rip or tear.",
+          "source_ref": "qtm--module-5#6"
+        }
+      ],
+      "exam_line": "Trash bags: the current bag's mean breaking strength is close to but not above 50 pounds; the new bag's mean μ is unknown and the strength claim needs statistical evidence.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m5-writing-hypotheses-q-1fc93e36",
+          "type": "mcq",
+          "stem": "Which claim does the network question and ask statistical evidence for?",
+          "options": [
+            "That the new bag is stronger than the current bag",
+            "That the new bag is better for the environment",
+            "That the price will fall by 25 percent"
+          ],
+          "answer": "That the new bag is stronger than the current bag",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-5#6"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m5-writing-hypotheses-q-03686b31",
+          "type": "fill",
+          "stem": "The measure of bag strength agreed on is ____ strength.",
+          "options": [],
+          "answer": "breaking",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-5#6"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m5-writing-hypotheses-q-1d21e6b0",
+          "type": "mcq",
+          "stem": "What is the current bag's mean breaking strength, according to tests?",
+          "options": [
+            "Very close to, but not more than, 50 pounds",
+            "Exactly 30 pounds",
+            "More than 50 pounds"
+          ],
+          "answer": "Very close to, but not more than, 50 pounds",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-5#6"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-5#6"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m5-writing-hypotheses-c2",
+      "heading": "Solution: put the claim in Ha",
+      "explanation_md": "The manufacturer **wishes to show that μ is greater than 50 pounds**. So:\n\n- the statement **μ is greater than 50 pounds** becomes the **alternative hypothesis, Ha**;\n- the statement **μ is less than or equal to 50 pounds** becomes the **null hypothesis, H0**.\n\n**H0: µ ≤ 50 versus Ha: µ > 50**\n\nThe pattern to copy in any word problem: find what the company **wants to show**. That goes in Ha. Its opposite, including the equals sign, goes in H0.",
+      "example_ids": [
+        "qtm-ex-m5-trash-bags"
+      ],
+      "key_terms": [],
+      "exam_line": "Trash bags: H0: µ ≤ 50 versus Ha: µ > 50, because the manufacturer wishes to show µ is greater than 50 pounds.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m5-writing-hypotheses-q-2bd29974",
+          "type": "mcq",
+          "stem": "Which hypotheses does the slide give for the trash bag problem?",
+          "options": [
+            "H0: µ ≤ 50 versus Ha: µ > 50",
+            "H0: µ > 50 versus Ha: µ ≤ 50",
+            "H0: µ = 50 versus Ha: µ ≠ 50"
+          ],
+          "answer": "H0: µ ≤ 50 versus Ha: µ > 50",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-5#7"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m5-writing-hypotheses-q-e655ee73",
+          "type": "true_false",
+          "stem": "In the trash bag solution, the statement the manufacturer wishes to show is made the null hypothesis.",
+          "options": [],
+          "answer": "False",
+          "accept": [],
+          "explanation": "What the manufacturer wishes to show (µ greater than 50 pounds) is the alternative hypothesis.",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-5#7"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-5#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m5-writing-hypotheses-c3",
+      "heading": "The billing system problem",
+      "explanation_md": "A management consulting firm installs a **new computer-based electronic billing system** for a **trucking company**. Because of the system's advantages, and because clients are receptive, the firm **believes the new system will reduce the mean bill payment time by more than 50 percent**.\n\nThe **mean payment time with the old system was approximately equal to, but no less than, 39 days**.\n\nCutting 39 days by half gives **19.5 days**. The firm wants to show the new mean is **below** that, so:\n\n**H0: µ ≥ 19.5 versus Ha: µ < 19.5**\n\nSame pattern as the trash bags, just pointing the other way: the claim (a mean below 19.5) is Ha.",
+      "example_ids": [
+        "qtm-ex-m5-billing-system"
+      ],
+      "key_terms": [],
+      "exam_line": "Billing system: old mean about 39 days; claim of more than a 50 percent cut gives H0: µ ≥ 19.5 versus Ha: µ < 19.5.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m5-writing-hypotheses-q-986dad0e",
+          "type": "mcq",
+          "stem": "Which hypotheses does the slide give for the billing system problem?",
+          "options": [
+            "H0: µ ≥ 19.5 versus Ha: µ < 19.5",
+            "H0: µ ≤ 39 versus Ha: µ > 39",
+            "H0: µ = 19.5 versus Ha: µ ≠ 19.5"
+          ],
+          "answer": "H0: µ ≥ 19.5 versus Ha: µ < 19.5",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-5#8"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m5-writing-hypotheses-q-b9d062e7",
+          "type": "fill",
+          "stem": "The mean payment time with the old billing system was approximately equal to, but no less than, ____ days.",
+          "options": [],
+          "answer": "39",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-5#8"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-5#8"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "qtm-m5-writing-hypotheses-f1",
+      "front": "Trash bag problem: hypotheses",
+      "back": "H0: µ ≤ 50 versus Ha: µ > 50 (the manufacturer wishes to show mean breaking strength is greater than 50 pounds).",
+      "kind": "example",
+      "source_refs": [
+        "qtm--module-5#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m5-writing-hypotheses-f2",
+      "front": "Breaking strength",
+      "back": "The amount of a representative trash mix (in pounds) that, loaded into a bag suspended in the air, makes the bag rip or tear.",
+      "kind": "term",
+      "source_refs": [
+        "qtm--module-5#6"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m5-writing-hypotheses-f3",
+      "front": "Billing system problem: hypotheses",
+      "back": "H0: µ ≥ 19.5 versus Ha: µ < 19.5 (old mean about 39 days; claim of more than a 50 percent reduction).",
+      "kind": "example",
+      "source_refs": [
+        "qtm--module-5#8"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m5-writing-hypotheses-f4",
+      "front": "Rule used in both word problems",
+      "back": "What the company wishes to show becomes Ha; the opposite statement (with the equality) becomes H0.",
+      "kind": "fact",
+      "source_refs": [
+        "qtm--module-5#7",
+        "qtm--module-5#8"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m5-writing-hypotheses-f5",
+      "front": "Why did the network want statistical evidence in the trash bag case?",
+      "back": "It accepted the environmental claim but questioned the claim of increased strength.",
+      "kind": "fact",
+      "source_refs": [
+        "qtm--module-5#6"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [],
+  "explain_back": {
+    "prompt": "Using the trash bag and billing system problems, explain how to turn a business claim into H0 and Ha.",
+    "rubric": [
+      {
+        "point": "Trash bags: the current bag's mean breaking strength is close to but not above 50 pounds; the strength claim needs evidence",
+        "source_ref": "qtm--module-5#6"
+      },
+      {
+        "point": "The claim to be shown (µ greater than 50 pounds) is Ha; µ less than or equal to 50 is H0",
+        "source_ref": "qtm--module-5#7"
+      },
+      {
+        "point": "Billing: old mean about 39 days; more than a 50 percent cut means a mean below 19.5",
+        "source_ref": "qtm--module-5#8"
+      },
+      {
+        "point": "H0: µ ≥ 19.5 versus Ha: µ < 19.5",
+        "source_ref": "qtm--module-5#8"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

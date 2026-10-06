@@ -1109,5 +1109,301 @@
     ],
     "needs_check": false,
     "retired": false
+  },
+  {
+    "id": "qtm-ex-m5-flour-packages",
+    "deck_id": "qtm--module-5",
+    "slide": 4,
+    "label": "Flour packages (40 ounces)",
+    "text": "Flour packages are supposed to average 40 ounces. H0: the average is 40 ounces (no problem); H1: the average is not 40 ounces (process is out of control). So H0: μ = 40 oz and H1: μ ≠ 40 oz.",
+    "kind": "numeric",
+    "taught_in": [
+      "qtm-m5-null-and-alternative-c3",
+      "qtm-m5-significance-and-tails-c3"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "qtm-ex-m5-market-share",
+    "deck_id": "qtm--module-5",
+    "slide": 5,
+    "label": "Market share above 18%",
+    "text": "A company has held an 18% market share. After an increased marketing effort, officials believe the share is now greater than 18% and want to prove it: H0: p ≤ 0.18, H1: p > 0.18.",
+    "kind": "numeric",
+    "taught_in": [
+      "qtm-m5-null-and-alternative-c4"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "qtm-ex-m5-trash-bags",
+    "deck_id": "qtm--module-5",
+    "slide": 6,
+    "label": "Stronger trash bags",
+    "text": "A manufacturer's new 30-gallon bag uses a stronger, more biodegradable plastic, letting it cut the price by 25 percent. It wants to claim on television that the bag is stronger than its current bag. The network asks for statistical evidence, measured by breaking strength. The current bag's mean breaking strength is very close to (but does not exceed) 50 pounds; the new bag's mean μ is unknown.",
+    "kind": "case",
+    "taught_in": [
+      "qtm-m5-writing-hypotheses-c1",
+      "qtm-m5-writing-hypotheses-c2"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "qtm-ex-m5-billing-system",
+    "deck_id": "qtm--module-5",
+    "slide": 8,
+    "label": "Electronic billing system",
+    "text": "A consulting firm believes a new electronic billing system for a trucking company will cut mean bill payment time by more than 50 percent. The old mean was about, but no less than, 39 days. So H0: µ ≥ 19.5 versus Ha: µ < 19.5.",
+    "kind": "case",
+    "taught_in": [
+      "qtm-m5-writing-hypotheses-c3"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "qtm-ex-m5-mpg-test",
+    "deck_id": "qtm--module-5",
+    "slide": 10,
+    "label": "Average of 60 mpg",
+    "text": "A two-tailed test considers that the average could be more than 60 mpg or less than 60, so the rejection region is split into two tails (Z = -1.96 and Z = 1.96, .025 in each). The one-tailed picture puts all of α = .05 in one tail beyond Z = 1.645.",
+    "kind": "numeric",
+    "taught_in": [
+      "qtm-m5-significance-and-tails-c2"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "qtm-ex-m5-legal-system",
+    "deck_id": "qtm--module-5",
+    "slide": 12,
+    "label": "Hypothesis testing and the legal system",
+    "text": "Hypothesis testing is like the legal system, which rejects the innocence of the accused only if evidence of guilt is beyond a reasonable doubt. If the evidence is not strong enough, we say we do not reject H0, never that we accept H0.",
+    "kind": "illustration",
+    "taught_in": [
+      "qtm-m5-errors-c1"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "qtm-ex-m5-cpa-income",
+    "deck_id": "qtm--module-5",
+    "slide": 16,
+    "label": "Net income of sole proprietor CPAs",
+    "text": "A survey more than ten years old found the average net income of sole proprietor CPAs in the United States was $74,914. An accounting researcher takes a random sample of 112 of them to test whether the figure has changed, using the eight steps of hypothesis testing. The population standard deviation is assumed to be $14,530.",
+    "kind": "numeric",
+    "taught_in": [
+      "qtm-m5-eight-steps-cpa-c2",
+      "qtm-m5-eight-steps-cpa-c3",
+      "qtm-m5-eight-steps-cpa-c4",
+      "qtm-m5-eight-steps-cpa-c5",
+      "qtm-m5-p-value-and-critical-value-c3"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "qtm-ex-m5-p-value-038",
+    "deck_id": "qtm--module-5",
+    "slide": 23,
+    "label": "p-value of .038",
+    "text": "If the p-value of a test is .038, the null hypothesis cannot be rejected at α = .01, but it can be rejected at α = .05.",
+    "kind": "numeric",
+    "taught_in": [
+      "qtm-m5-p-value-and-critical-value-c1"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "qtm-ex-m5-battery-life",
+    "deck_id": "qtm--module-5",
+    "slide": 27,
+    "label": "Battery life (500 hours)",
+    "text": "A company claims new batteries last 500 hours (mean). A sample of n = 25 has mean 480 hours, with known population SD = 50 hours. Test at α = 0.05 whether there is evidence that batteries last less than 500 hours.",
+    "kind": "numeric",
+    "taught_in": [
+      "qtm-m5-worked-examples-c1",
+      "qtm-m5-worked-examples-c2"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "qtm-ex-m5-coffee-bags",
+    "deck_id": "qtm--module-5",
+    "slide": 29,
+    "label": "Coffee bags (1 kg)",
+    "text": "A machine fills coffee bags that should each weigh 1 kg. A random sample of 30 bags has mean weight 0.98 kg, with population standard deviation 0.05 kg. Test at a 5% significance level whether the average bag weight differs from 1 kg.",
+    "kind": "numeric",
+    "taught_in": [
+      "qtm-m5-worked-examples-c3",
+      "qtm-m5-worked-examples-c4"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "qtm-ex-m6-parametric-uses",
+    "deck_id": "qtm--module-6",
+    "slide": 4,
+    "label": "When to use parametric tests: three examples",
+    "text": "Comparing the mean test scores of two classes (independent t-test); testing whether the body temperatures of a group deviate from the standard 98.6°F (one-sample t-test); checking if multiple factories produce products with the same average weight (ANOVA).",
+    "kind": "illustration",
+    "taught_in": [
+      "qtm-m6-parametric-tests-c3"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "qtm-ex-m6-sugar-bars",
+    "deck_id": "qtm--module-6",
+    "slide": 8,
+    "label": "Sugar in energy bars (one-sample t-test)",
+    "text": "A dietician says average sugar in an energy bar should be 15g. A sample of 10 bars has mean 14g and standard deviation 2g. Test at α = 0.05 whether the mean differs from 15g: t = (14 - 15)/(2/√10) = -1/0.632 ≈ -1.58, df = 9, so fail to reject the null hypothesis.",
+    "kind": "numeric",
+    "taught_in": [
+      "qtm-m6-t-test-examples-c1"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "qtm-ex-m6-class-scores",
+    "deck_id": "qtm--module-6",
+    "slide": 9,
+    "label": "Test scores of two classes (independent two-sample t-test)",
+    "text": "Class A: n = 15, mean 78, SD 10. Class B: n = 14, mean 85, SD 8. Pooled SD sp ≈ 9.1; t = (78 - 85)/(9.1 × 0.38) = -7/3.46 ≈ -2.02; degrees of freedom 15 + 14 - 2 = 27; fail to reject the null hypothesis.",
+    "kind": "numeric",
+    "taught_in": [
+      "qtm-m6-t-test-examples-c2"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "qtm-ex-m6-mba-sections",
+    "deck_id": "qtm--module-6",
+    "slide": 10,
+    "label": "Three MBA-I sections in the QTM MST",
+    "text": "Compare the performance of the three sections of MBA-I year in their QTM MST using an independent two-sample t-test, with data from Tutorial 2.",
+    "kind": "case",
+    "taught_in": [
+      "qtm-m6-t-test-examples-c3"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "qtm-ex-m6-pulse-rate",
+    "deck_id": "qtm--module-6",
+    "slide": 11,
+    "label": "Pulse rate before and after training (paired t-test)",
+    "text": "A fitness trainer tests whether a training program reduces pulse rate for 6 clients: before 72, 75, 70, 80, 78, 77; after 70, 76, 69, 78, 76, 75. Differences 2, -1, 1, 2, 2, 2; d̄ = 1.33; sd = 1.211; t = 1.33/0.494 ≈ 2.69 with df = 5; one-tailed p ≈ 0.021; reject the null hypothesis: the program reduces pulse rate.",
+    "kind": "numeric",
+    "taught_in": [
+      "qtm-m6-t-test-examples-c4"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "qtm-ex-m6-retail-branches",
+    "deck_id": "qtm--module-6",
+    "slide": 20,
+    "label": "Customer satisfaction across three branches",
+    "text": "Example question for one-way ANOVA: does customer satisfaction differ across three branches of a retail store?",
+    "kind": "illustration",
+    "taught_in": [
+      "qtm-m6-anova-calculation-c3"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "qtm-ex-m6-training-programs",
+    "deck_id": "qtm--module-6",
+    "slide": 21,
+    "label": "Productivity under three training programs (one-way ANOVA)",
+    "text": "A Human Resources Manager asks whether three employee training programs lead to different productivity. Scores: A 70, 65, 72, 68; B 80, 85, 82, 88; C 75, 78, 72, 70.",
+    "kind": "numeric",
+    "taught_in": [
+      "qtm-m6-anova-calculation-c4"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "qtm-ex-m6-quality-price",
+    "deck_id": "qtm--module-6",
+    "slide": 23,
+    "label": "Product quality and price level (two-way ANOVA)",
+    "text": "Does product quality (standard vs premium) and price level (low, medium, high) jointly affect purchase intention? H01: no main effect of price; H02: no main effect of quality; H03: no interaction between price and quality.",
+    "kind": "illustration",
+    "taught_in": [
+      "qtm-m6-anova-calculation-c5"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "qtm-ex-m6-regression-uses",
+    "deck_id": "qtm--module-6",
+    "slide": 25,
+    "label": "Regression applications",
+    "text": "Predicting sales from ad spending; forecasting demand from price data; estimating employee performance from training hours.",
+    "kind": "illustration",
+    "taught_in": [
+      "qtm-m6-regression-c1"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "qtm-ex-m6-ad-spend-sales",
+    "deck_id": "qtm--module-6",
+    "slide": 28,
+    "label": "Advertising spend and weekly sales",
+    "text": "A marketing manager records advertising spend (X, ₹ '000s) and weekly sales (Y, ₹ '000s): X 10, 20, 30, 40, 50 with Y 25, 40, 50, 55, 65. Find the relationship between X and Y, r and R-squared, and interpret them.",
+    "kind": "numeric",
+    "taught_in": [
+      "qtm-m6-regression-c4",
+      "qtm-m6-regression-c5"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "qtm-ex-m6-nonparametric-uses",
+    "deck_id": "qtm--module-6",
+    "slide": 31,
+    "label": "Business uses of non-parametric tests",
+    "text": "Chi-square: market share, preference counts. Wilcoxon Signed-Rank: pre/post customer feedback. Mann-Whitney U: compare supplier ratings. Kruskal-Wallis: customer satisfaction across regions.",
+    "kind": "illustration",
+    "taught_in": [
+      "qtm-m6-non-parametric-tests-c3"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "qtm-ex-m6-watch-preference",
+    "deck_id": "qtm--module-6",
+    "slide": 35,
+    "label": "Watch preference and age (chi-square)",
+    "text": "Watch preference (digital, analog, undecided) by age. Under 30: 90, 40, 10. Over 30: 10, 40, 10. H0: watch preference and age are independent; H1: they are dependent.",
+    "kind": "numeric",
+    "taught_in": [
+      "qtm-m6-chi-square-c3",
+      "qtm-m6-chi-square-c4"
+    ],
+    "needs_check": false,
+    "retired": false
   }
 ]

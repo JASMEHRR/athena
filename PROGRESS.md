@@ -91,8 +91,10 @@ No exam dates, so round-robin across subjects. Validate, ground and cover each d
   - 7 topics (qtm-m4-*), 34 chunks, 98 checks, 55 cards, 17 examples. By subagent, reviewed. Research methods deck, no formulas.
 - [x] P4 pass A: sce--step-startup-pitching-template-very-early-stage (15 slides, 12 visual)
   - 3 topics (sce-pitch-*), 11 chunks, 27 checks, 15 cards, 2 examples. Template deck: lessons teach what each pitch slide asks for.
-- [ ] P4 pass A: qtm--module-5 (32 slides, 12 visual)
-- [ ] P4 pass A: qtm--module-6 (38 slides, 16 visual)
+- [x] P4 pass A: qtm--module-5 (32 slides, 12 visual)
+  - 7 topics (qtm-m5-*), 25 chunks, 67 checks, 43 cards, 10 examples. By subagent, reviewed. Slide 30 coffee example uses t with a known SD and says 'Reject H1'; one neutral note.
+- [x] P4 pass A: qtm--module-6 (38 slides, 16 visual)
+  - 8 topics (qtm-m6-*), 32 chunks, 86 checks, 60 cards, 12 examples. By subagent, reviewed. Slides 8, 9, 11: critical t values typed over, decision lines use the old ones (same decision); one neutral note. Slide 28 advertising regression worked with the deck's formulas (derived).
 
 ## P5 Planning and nudges
 - [x] P5.1 Planner, Plan page, .ics export, Settings.

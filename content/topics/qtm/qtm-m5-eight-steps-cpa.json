@@ -1,0 +1,587 @@
+{
+  "id": "qtm-m5-eight-steps-cpa",
+  "subject_id": "qtm",
+  "deck_id": "qtm--module-5",
+  "title": "The eight steps of hypothesis testing: the CPA income problem",
+  "order": 505,
+  "summary": "The eight-step procedure, worked end to end on the professor's CPA net income example: hypotheses, z test, alpha .05, critical values ±1.96, z = 2.75, reject H0 and the business decision.",
+  "est_minutes": 25,
+  "difficulty": 2,
+  "source_refs": [
+    "qtm--module-5#15",
+    "qtm--module-5#17",
+    "qtm--module-5#16",
+    "qtm--module-5#18",
+    "qtm--module-5#19",
+    "qtm--module-5#20",
+    "qtm--module-5#21",
+    "qtm--module-5#22",
+    "qtm--module-5#26"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "qtm-m5-eight-steps-cpa-c1",
+      "heading": "The eight steps",
+      "explanation_md": "Learn this list in order. Every worked problem in the module follows it.\n\n1. **Establish a null and alternative hypothesis.**\n2. **Determine the appropriate statistical test.**\n3. **Set the value of alpha**, the Type I error rate.\n4. **Establish the decision rule.**\n5. **Gather sample data.**\n6. **Analyze the data.**\n7. **Reach a statistical conclusion.**\n8. **Make a business decision.**\n\nNotice the order: the hypotheses, the test, alpha and the decision rule all come before the sample data are gathered in step 5.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "Eight steps: hypotheses, statistical test, alpha, decision rule, gather data, analyze data, statistical conclusion, business decision.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m5-eight-steps-cpa-q-053755f3",
+          "type": "mcq",
+          "stem": "Which is Step 4 of hypothesis testing?",
+          "options": [
+            "Establish the decision rule",
+            "Gather sample data",
+            "Set the value of alpha"
+          ],
+          "answer": "Establish the decision rule",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-5#15"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m5-eight-steps-cpa-q-15a33b70",
+          "type": "mcq",
+          "stem": "What is the last of the eight steps?",
+          "options": [
+            "Make a business decision",
+            "Reach a statistical conclusion",
+            "Analyze the data"
+          ],
+          "answer": "Make a business decision",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-5#15"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m5-eight-steps-cpa-q-6b328f34",
+          "type": "fill",
+          "stem": "Step 3 is to set the value of ____, the Type I error rate.",
+          "options": [],
+          "answer": "alpha",
+          "accept": [
+            "α"
+          ],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-5#15"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-5#15",
+        "qtm--module-5#17"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m5-eight-steps-cpa-c2",
+      "heading": "The CPA problem and Step 1",
+      "explanation_md": "**The problem:** a survey of CPAs across the United States found that the **average net income for sole proprietor CPAs is $74,914**. The survey is now **more than ten years old**, so an accounting researcher takes a **random sample of 112** sole proprietor accountants to see **whether the figure has changed**. Assume the **population standard deviation is $14,530**.\n\n**Step 1: Hypotheses.** The researcher is testing whether the figure has **changed** (up or down), so the alternative is that the mean net income **is not $74,914**:\n\n**H0: μ = $74,914**\n\n**H1: μ ≠ $74,914**\n\nThe word *changed* is your clue for a two-tailed test.",
+      "example_ids": [
+        "qtm-ex-m5-cpa-income"
+      ],
+      "key_terms": [],
+      "exam_line": "CPA problem: H0: μ = $74,914 versus H1: μ ≠ $74,914, because the researcher wants to know if the figure has changed.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m5-eight-steps-cpa-q-4032047a",
+          "type": "mcq",
+          "stem": "Which hypotheses does the slide set for the CPA problem?",
+          "options": [
+            "H0: μ = $74,914, H1: μ ≠ $74,914",
+            "H0: μ ≤ $74,914, H1: μ > $74,914",
+            "H0: μ = $78,695, H1: μ ≠ $78,695"
+          ],
+          "answer": "H0: μ = $74,914, H1: μ ≠ $74,914",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-5#18",
+            "qtm--module-5#21"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m5-eight-steps-cpa-q-bfeffdfb",
+          "type": "fill",
+          "stem": "In the CPA problem, the researcher takes a random sample of ____ sole proprietor accountants.",
+          "options": [],
+          "answer": "112",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-5#16"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-5#16",
+        "qtm--module-5#18"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m5-eight-steps-cpa-c3",
+      "heading": "Steps 2 to 4: z test, alpha and the decision rule",
+      "explanation_md": "**Step 2: the test.** The **population standard deviation is known ($14,530)** and the researcher uses the **sample mean** as the statistic, so the **z test** is the appropriate test statistic.\n\n**Step 3: alpha.** The Type I error rate is set at **.05**.\n\n**Step 4: the decision rule.** The test is **two-tailed** and alpha is .05, so there is **α/2 = .025** in **each tail**. The rejection region sits in **both ends** of the distribution, **2.5% of the area in each**.\n\nThe picture: a curve centred on **μ = $74,914** (z = 0.0), with cut-offs at **z = -1.96 and z = +1.96**. Between them is the nonrejection region; beyond them are the two rejection regions.\n\nSo the rule is: **reject H0 if the observed z is below -1.96 or above +1.96.**",
+      "example_ids": [
+        "qtm-ex-m5-cpa-income"
+      ],
+      "key_terms": [],
+      "exam_line": "CPA: σ known so use the z test; alpha .05, two-tailed, so .025 in each tail and critical values z = ±1.96.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m5-eight-steps-cpa-q-379b16d6",
+          "type": "mcq",
+          "stem": "Why is the z test appropriate in the CPA problem?",
+          "options": [
+            "The population standard deviation is known and the sample mean is the statistic",
+            "The sample is smaller than 30",
+            "The test is one-tailed"
+          ],
+          "answer": "The population standard deviation is known and the sample mean is the statistic",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-5#19",
+            "qtm--module-5#16"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m5-eight-steps-cpa-q-9f7e3ca3",
+          "type": "mcq",
+          "stem": "With a two-tailed test and alpha .05, how much area is in each tail?",
+          "options": [
+            ".025",
+            ".05",
+            ".10"
+          ],
+          "answer": ".025",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-5#19",
+            "qtm--module-5#16"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m5-eight-steps-cpa-q-65a34d8e",
+          "type": "fill",
+          "stem": "The critical z values in the CPA picture are ±____.",
+          "options": [],
+          "answer": "1.96",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-5#20",
+            "qtm--module-5#16"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-5#19",
+        "qtm--module-5#20",
+        "qtm--module-5#16",
+        "qtm--module-5#18"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m5-eight-steps-cpa-c4",
+      "heading": "Steps 5 and 6: collect data and compute z",
+      "explanation_md": "**Step 5: collect data.** Suppose the **112 CPAs** who respond produce a **sample mean of $78,695**.\n\n**Step 6: calculate the test statistic.**\n\nz = (x̄ − μ) / (σ / √n)\n\nz = (78695 − 74914) / (14530 / √112) = **2.75**\n\nIf you want to check it on a calculator, go step by step:\n- top: 78,695 − 74,914 = 3,781\n- bottom: √112 ≈ 10.583, and 14,530 ÷ 10.583 ≈ 1,372.96\n- z = 3,781 ÷ 1,372.96 ≈ 2.75",
+      "example_ids": [
+        "qtm-ex-m5-cpa-income"
+      ],
+      "key_terms": [
+        {
+          "term": "z test statistic (for a mean)",
+          "meaning": "z = (x̄ − μ) / (σ / √n)",
+          "source_ref": "qtm--module-5#21"
+        }
+      ],
+      "exam_line": "CPA: z = (x̄ − μ)/(σ/√n) = (78695 − 74914)/(14530/√112) = 2.75.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m5-eight-steps-cpa-q-9100c797",
+          "type": "mcq",
+          "stem": "What sample mean did the 112 CPAs produce?",
+          "options": [
+            "$78,695",
+            "$74,914",
+            "$14,530"
+          ],
+          "answer": "$78,695",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-5#21"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m5-eight-steps-cpa-q-2a9deeb9",
+          "type": "fill",
+          "stem": "The observed test statistic in the CPA problem is z = ____.",
+          "options": [],
+          "answer": "2.75",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-5#21"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m5-eight-steps-cpa-q-27f240f7",
+          "type": "mcq",
+          "stem": "Which formula is used to compute z in the CPA problem?",
+          "options": [
+            "z = (x̄ − μ) / (σ / √n)",
+            "z = (x̄ − μ) / σ",
+            "z = (μ − x̄) × √n"
+          ],
+          "answer": "z = (x̄ − μ) / (σ / √n)",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-5#21"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-5#21"
+      ],
+      "derived": [
+        "3781",
+        "10.583",
+        "1372.96"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m5-eight-steps-cpa-c5",
+      "heading": "Steps 7 and 8: the conclusion and the business decision",
+      "explanation_md": "**Step 7: statistical conclusion.** The test statistic **z = 2.75 is greater than the critical value in the upper tail, z = +1.96**. So the conclusion is to **reject the null hypothesis**.\n\nThe calculated test statistic is often called the **observed value**.\n\n**Step 8: business implication.** The **national average may have increased**. Managerially, this may mean that **CPAs will be more expensive to hire**, either as full-time employees or as consultants.\n\nNotice how step 8 turns the statistics into a plain business message.",
+      "example_ids": [
+        "qtm-ex-m5-cpa-income"
+      ],
+      "key_terms": [
+        {
+          "term": "Observed value",
+          "meaning": "The calculated test statistic.",
+          "source_ref": "qtm--module-5#22"
+        }
+      ],
+      "exam_line": "CPA: z = 2.75 > +1.96, so reject H0; the national average may have increased, so CPAs may be more expensive to hire.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m5-eight-steps-cpa-q-00a31c8f",
+          "type": "mcq",
+          "stem": "What is the statistical conclusion in the CPA problem?",
+          "options": [
+            "Reject H0, because z = 2.75 is greater than +1.96",
+            "Fail to reject H0, because z = 2.75 is less than +1.96",
+            "Reject H1, because the test is two-tailed"
+          ],
+          "answer": "Reject H0, because z = 2.75 is greater than +1.96",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-5#22",
+            "qtm--module-5#18"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m5-eight-steps-cpa-q-130874fd",
+          "type": "true_false",
+          "stem": "The calculated test statistic is often referred to as the observed value.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-5#22"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m5-eight-steps-cpa-q-ba785b71",
+          "type": "mcq",
+          "stem": "What business implication does the slide draw?",
+          "options": [
+            "CPAs may be more expensive to hire, as employees or consultants",
+            "CPAs will be cheaper to hire",
+            "The survey figure has not changed"
+          ],
+          "answer": "CPAs may be more expensive to hire, as employees or consultants",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-5#22"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-5#22",
+        "qtm--module-5#26",
+        "qtm--module-5#18"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "qtm-m5-eight-steps-cpa-f1",
+      "front": "Eight steps of hypothesis testing",
+      "back": "1 hypotheses; 2 statistical test; 3 set alpha; 4 decision rule; 5 gather data; 6 analyze data; 7 statistical conclusion; 8 business decision.",
+      "kind": "list",
+      "source_refs": [
+        "qtm--module-5#15"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m5-eight-steps-cpa-f2",
+      "front": "CPA problem: hypotheses",
+      "back": "H0: μ = $74,914; H1: μ ≠ $74,914 (has the figure changed?).",
+      "kind": "example",
+      "source_refs": [
+        "qtm--module-5#18",
+        "qtm--module-5#16"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m5-eight-steps-cpa-f3",
+      "front": "CPA problem: why a z test?",
+      "back": "The population standard deviation ($14,530) is known and the sample mean is the statistic.",
+      "kind": "fact",
+      "source_refs": [
+        "qtm--module-5#19",
+        "qtm--module-5#16"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m5-eight-steps-cpa-f4",
+      "front": "CPA problem: decision rule",
+      "back": "Two-tailed, alpha .05, so .025 in each tail; reject H0 if z is beyond ±1.96.",
+      "kind": "fact",
+      "source_refs": [
+        "qtm--module-5#19",
+        "qtm--module-5#20",
+        "qtm--module-5#16",
+        "qtm--module-5#18"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m5-eight-steps-cpa-f5",
+      "front": "z formula for a mean (σ known)",
+      "back": "z = (x̄ − μ) / (σ / √n)",
+      "kind": "formula",
+      "source_refs": [
+        "qtm--module-5#21"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m5-eight-steps-cpa-f6",
+      "front": "CPA problem: z value",
+      "back": "z = (78695 − 74914)/(14530/√112) = 2.75",
+      "kind": "formula",
+      "source_refs": [
+        "qtm--module-5#21",
+        "qtm--module-5#16"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m5-eight-steps-cpa-f7",
+      "front": "CPA problem: conclusion and business implication",
+      "back": "z = 2.75 > +1.96, reject H0; the national average may have increased, so CPAs may be more expensive to hire.",
+      "kind": "example",
+      "source_refs": [
+        "qtm--module-5#22",
+        "qtm--module-5#16",
+        "qtm--module-5#18"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [],
+  "explain_back": {
+    "prompt": "Walk through the eight steps of hypothesis testing using the CPA net income problem.",
+    "rubric": [
+      {
+        "point": "H0: μ = $74,914 versus H1: μ ≠ $74,914 (two-tailed, has it changed?)",
+        "source_ref": "qtm--module-5#18"
+      },
+      {
+        "point": "z test because σ = $14,530 is known; alpha .05 with .025 in each tail",
+        "source_ref": "qtm--module-5#19"
+      },
+      {
+        "point": "Critical values z = ±1.96",
+        "source_ref": "qtm--module-5#20"
+      },
+      {
+        "point": "Sample mean $78,695 with n = 112 gives z = 2.75",
+        "source_ref": "qtm--module-5#21"
+      },
+      {
+        "point": "2.75 > 1.96 so reject H0; CPAs may be more expensive to hire",
+        "source_ref": "qtm--module-5#22"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

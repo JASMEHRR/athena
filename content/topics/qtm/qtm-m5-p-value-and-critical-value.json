@@ -1,0 +1,389 @@
+{
+  "id": "qtm-m5-p-value-and-critical-value",
+  "subject_id": "qtm",
+  "deck_id": "qtm--module-5",
+  "title": "Other ways to decide: the p-value method, the z table and the critical value method",
+  "order": 506,
+  "summary": "The p-value as the smallest alpha at which H0 can be rejected (the .038 example), reading the standard normal table, and the critical value method with critical sample means $72,223 and $77,605.",
+  "est_minutes": 20,
+  "difficulty": 3,
+  "source_refs": [
+    "qtm--module-5#23",
+    "qtm--module-5#24",
+    "qtm--module-5#25",
+    "qtm--module-5#21",
+    "qtm--module-5#18"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "qtm-m5-p-value-and-critical-value-c1",
+      "heading": "The p-value method",
+      "explanation_md": "Another way to reach a statistical conclusion is the **p-value**, sometimes called the **observed significance level**.\n\n- In the p-value method **no preset value of alpha is given**.\n- The **p-value is the smallest value of alpha for which the null hypothesis can be rejected**.\n\n**The slide's example:** a test has a **p-value of .038**.\n- At **α = .01**: the null hypothesis **cannot be rejected**, because .038 is the smallest alpha at which you could reject, and .01 is smaller than that.\n- At **α = .05**: the null hypothesis **can be rejected**.\n\nThis matches the rule from earlier in the module: reject the null hypothesis when the p-value is less than or equal to α.",
+      "example_ids": [
+        "qtm-ex-m5-p-value-038"
+      ],
+      "key_terms": [
+        {
+          "term": "Observed significance level",
+          "meaning": "Another name for the p-value.",
+          "source_ref": "qtm--module-5#23"
+        },
+        {
+          "term": "p-value (as a threshold)",
+          "meaning": "The smallest value of alpha for which the null hypothesis can be rejected.",
+          "source_ref": "qtm--module-5#23"
+        }
+      ],
+      "exam_line": "p-value = the smallest alpha at which the null hypothesis can be rejected; with p = .038, the null hypothesis is not rejected at α = .01 but is rejected at α = .05.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m5-p-value-and-critical-value-q-0eb22651",
+          "type": "mcq",
+          "stem": "A test has a p-value of .038. What happens at α = .01?",
+          "options": [
+            "The null hypothesis cannot be rejected",
+            "The null hypothesis is rejected",
+            "The alternative hypothesis is rejected"
+          ],
+          "answer": "The null hypothesis cannot be rejected",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-5#23"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m5-p-value-and-critical-value-q-da339924",
+          "type": "mcq",
+          "stem": "A test has a p-value of .038. What happens at α = .05?",
+          "options": [
+            "The null hypothesis can be rejected",
+            "The null hypothesis cannot be rejected",
+            "The test must be repeated"
+          ],
+          "answer": "The null hypothesis can be rejected",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-5#23"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m5-p-value-and-critical-value-q-81f8ccc2",
+          "type": "fill",
+          "stem": "The p-value is sometimes referred to as the observed ____ level.",
+          "options": [],
+          "answer": "significance",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-5#23"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-5#23"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m5-p-value-and-critical-value-c2",
+      "heading": "Reading the standard normal (z) table",
+      "explanation_md": "The deck prints a full **standard normal table**. The small picture on top shades the area **to the left of z**, so each entry is the **area under the curve to the left of z**.\n\n**How to read it:** the row gives z to one decimal (0.0 to 3.9); the column adds the second decimal (0.00 to 0.09).\n\n**Entries worth knowing:**\n- z = 1.96 gives **0.9750**. The area left over beyond 1.96 is 1 − 0.9750 = 0.0250, the same .025 tail you saw in the two-tailed pictures.\n- z = 2.00 gives **0.9772**.\n- z = 2.75 gives **0.9970**.\n- z = 1.64 gives 0.9495 and z = 1.65 gives 0.9505.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "Each z table entry is the area to the left of z; for example z = 1.96 gives 0.9750 and z = 2.00 gives 0.9772.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m5-p-value-and-critical-value-q-988c510f",
+          "type": "mcq",
+          "stem": "What does each entry in the deck's z table give?",
+          "options": [
+            "The area under the curve to the left of z",
+            "The area to the right of z",
+            "The critical value for each alpha"
+          ],
+          "answer": "The area under the curve to the left of z",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-5#24"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m5-p-value-and-critical-value-q-d51ecb1f",
+          "type": "fill",
+          "stem": "In the z table, z = 1.96 gives an area of ____.",
+          "options": [],
+          "answer": "0.9750",
+          "accept": [
+            ".9750",
+            "0.975"
+          ],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-5#24"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-5#24"
+      ],
+      "derived": [
+        "0.0250"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m5-p-value-and-critical-value-c3",
+      "heading": "The critical value method",
+      "explanation_md": "The slide asks: **what mean income would it take to push the observed z into the rejection zone?**\n\nThe **critical value method** finds the **critical mean value** needed for z to land in the rejection region, and uses that to test the hypotheses. Instead of comparing z with ±1.96, you compare the **sample mean** with a **critical x̄**.\n\nFor the CPA problem, the picture shows:\n- **x̄c = $72,223** at zc = -1.96\n- **$74,914** at the centre (0.0)\n- **x̄c = $77,605** at zc = +1.96\n\n**Where the two numbers come from:** put z = ±1.96 into the z formula and solve for x̄. The bottom of the z formula is 14,530 ÷ √112 ≈ 1,372.96, and 1.96 × 1,372.96 ≈ 2,691. So 74,914 − 2,691 = 72,223 and 74,914 + 2,691 = 77,605.\n\n**Decision:** the sample mean of **$78,695** is above **$77,605**, so it lies in the upper rejection region. Same answer as before: **reject H0**.",
+      "example_ids": [
+        "qtm-ex-m5-cpa-income"
+      ],
+      "key_terms": [
+        {
+          "term": "Critical value method",
+          "meaning": "Finds the critical mean value needed for z to be in the rejection region and uses it to test the hypotheses.",
+          "source_ref": "qtm--module-5#25"
+        }
+      ],
+      "exam_line": "Critical value method (CPA): critical means $72,223 and $77,605 (zc = ±1.96); the sample mean $78,695 is beyond $77,605, so reject H0.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m5-p-value-and-critical-value-q-9e757596",
+          "type": "mcq",
+          "stem": "What are the critical sample means for the CPA problem?",
+          "options": [
+            "$72,223 and $77,605",
+            "$74,914 and $78,695",
+            "$72,223 and $78,695"
+          ],
+          "answer": "$72,223 and $77,605",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-5#25",
+            "qtm--module-5#21"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m5-p-value-and-critical-value-q-5bbcdfb9",
+          "type": "mcq",
+          "stem": "What does the critical value method compare?",
+          "options": [
+            "The sample mean with a critical mean value",
+            "The p-value with alpha",
+            "The sample size with the degrees of freedom"
+          ],
+          "answer": "The sample mean with a critical mean value",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-5#25"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m5-p-value-and-critical-value-q-fd69f434",
+          "type": "true_false",
+          "stem": "In the CPA problem, the sample mean of $78,695 falls in the nonrejection region between $72,223 and $77,605.",
+          "options": [],
+          "answer": "False",
+          "accept": [],
+          "explanation": "$78,695 is above $77,605, so it is in the upper rejection region.",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-5#25",
+            "qtm--module-5#21"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-5#25",
+        "qtm--module-5#21",
+        "qtm--module-5#18"
+      ],
+      "derived": [
+        "2691",
+        "1372.96"
+      ],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "qtm-m5-p-value-and-critical-value-f1",
+      "front": "p-value (threshold meaning)",
+      "back": "The smallest value of alpha for which the null hypothesis can be rejected; also called the observed significance level.",
+      "kind": "term",
+      "source_refs": [
+        "qtm--module-5#23"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m5-p-value-and-critical-value-f2",
+      "front": "p-value of .038: decision at α = .01 and α = .05",
+      "back": "Cannot reject the null hypothesis at α = .01; can reject the null hypothesis at α = .05.",
+      "kind": "example",
+      "source_refs": [
+        "qtm--module-5#23"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m5-p-value-and-critical-value-f3",
+      "front": "What a z table entry means (this deck)",
+      "back": "The area under the standard normal curve to the left of z.",
+      "kind": "fact",
+      "source_refs": [
+        "qtm--module-5#24"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m5-p-value-and-critical-value-f4",
+      "front": "z table: z = 1.96",
+      "back": "0.9750",
+      "kind": "fact",
+      "source_refs": [
+        "qtm--module-5#24"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m5-p-value-and-critical-value-f5",
+      "front": "Critical value method",
+      "back": "Find the critical mean value needed for z to be in the rejection region, then compare the sample mean with it.",
+      "kind": "term",
+      "source_refs": [
+        "qtm--module-5#25"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m5-p-value-and-critical-value-f6",
+      "front": "CPA critical sample means",
+      "back": "x̄c = $72,223 (zc = -1.96) and x̄c = $77,605 (zc = +1.96).",
+      "kind": "example",
+      "source_refs": [
+        "qtm--module-5#25",
+        "qtm--module-5#21"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [],
+  "explain_back": {
+    "prompt": "Explain the p-value method and the critical value method, using the .038 example and the CPA problem.",
+    "rubric": [
+      {
+        "point": "The p-value (observed significance level) is the smallest alpha for which the null hypothesis can be rejected; no preset alpha",
+        "source_ref": "qtm--module-5#23"
+      },
+      {
+        "point": "p = .038: not rejected at α = .01, rejected at α = .05",
+        "source_ref": "qtm--module-5#23"
+      },
+      {
+        "point": "Critical value method finds the critical mean needed for z to be in the rejection region",
+        "source_ref": "qtm--module-5#25"
+      },
+      {
+        "point": "CPA: critical means $72,223 and $77,605 (zc = ±1.96)",
+        "source_ref": "qtm--module-5#25"
+      },
+      {
+        "point": "The CPA sample mean of $78,695 lies beyond $77,605, so reject the null hypothesis",
+        "source_ref": "qtm--module-5#21"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

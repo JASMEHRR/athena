@@ -1,0 +1,536 @@
+{
+  "id": "qtm-m6-anova-basics",
+  "subject_id": "qtm",
+  "deck_id": "qtm--module-6",
+  "title": "ANOVA (the F-test): idea, key concepts and hypotheses",
+  "order": 604,
+  "summary": "What ANOVA is and who developed it, the scales its variables need, factors and one-way vs two-way, why it beats multiple t-tests, between- and within-group variance, the F-statistic, univariate vs multivariate ANOVA and the hypothesis framework.",
+  "est_minutes": 25,
+  "difficulty": 2,
+  "source_refs": [
+    "qtm--module-6#12",
+    "qtm--module-6#13",
+    "qtm--module-5#13",
+    "qtm--module-6#14",
+    "qtm--module-6#15",
+    "qtm--module-6#16"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "qtm-m6-anova-basics-c1",
+      "heading": "What ANOVA is",
+      "explanation_md": "**ANOVA** stands for **Analysis of Variance**, also called the **F-Test**. It was **developed by Sir Ronald Fisher**.\n\n- It is a **test of means for two or more samples**.\n- The **null hypothesis**, as usual, says that **the means are equal**.\n\n**Scales:**\n- The **dependent variable** must be on a **metric scale** (continuous: **interval and ratio**).\n- The **independent variables** must be on a **non-metric scale** (categorical: **nominal or ordinal**).\n\nThe categorical independent variables are called **factors**. **One factor is one-way ANOVA**, **two factors is two-way ANOVA**, and so on.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "ANOVA",
+          "meaning": "Analysis of Variance (F-test): a test of means for two or more samples; the null hypothesis says the means are equal.",
+          "source_ref": "qtm--module-6#12"
+        },
+        {
+          "term": "Factors",
+          "meaning": "The categorical independent variables in ANOVA; one factor gives one-way ANOVA, two factors give two-way ANOVA.",
+          "source_ref": "qtm--module-6#12"
+        }
+      ],
+      "exam_line": "ANOVA (Fisher's F-test) tests means of two or more samples; dependent variable is metric (interval or ratio), independent variables are non-metric (nominal or ordinal) factors; one factor = one-way, two = two-way.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m6-anova-basics-q-4b2445d1",
+          "type": "mcq",
+          "stem": "In ANOVA, on what scale must the dependent variable be?",
+          "options": [
+            "Metric (interval or ratio)",
+            "Nominal only",
+            "Ordinal only"
+          ],
+          "answer": "Metric (interval or ratio)",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-6#12"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m6-anova-basics-q-a0272259",
+          "type": "fill",
+          "stem": "The categorical independent variables in ANOVA are called ____.",
+          "options": [],
+          "answer": "factors",
+          "accept": [
+            "Factors"
+          ],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-6#12"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m6-anova-basics-q-9813a1e6",
+          "type": "fill",
+          "stem": "ANOVA was developed by Sir Ronald ____.",
+          "options": [],
+          "answer": "Fisher",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-6#12"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-6#12"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-anova-basics-c2",
+      "heading": "Why ANOVA instead of many t-tests",
+      "explanation_md": "Why not just run a t-test for every pair of groups? Three reasons on the slide:\n\n1. **Performing multiple t-tests increases Type I error risk.**\n2. **ANOVA keeps the overall error rate at the set significance level** (e.g. **0.05**).\n3. It **efficiently compares multiple means with a single test**.\n\nRemember: a Type I error is rejecting a true null hypothesis.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "Use ANOVA instead of multiple t-tests because multiple t-tests raise Type I error risk; ANOVA keeps the overall error rate at the set level (e.g. 0.05) with a single test.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m6-anova-basics-q-ead174fc",
+          "type": "mcq",
+          "stem": "What is the main problem with performing multiple t-tests?",
+          "options": [
+            "It increases Type I error risk",
+            "It reduces the sample size",
+            "It cannot compare means"
+          ],
+          "answer": "It increases Type I error risk",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-6#13"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m6-anova-basics-q-170a72a4",
+          "type": "true_false",
+          "stem": "ANOVA keeps the overall error rate at the set significance level.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-6#13"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-6#13",
+        "qtm--module-5#13"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-anova-basics-c3",
+      "heading": "Between, within and the F-statistic",
+      "explanation_md": "Two kinds of variation:\n\n- **Between-group variance**: variation **due to differences in group means**.\n- **Within-group variance**: variation **within each group due to random error**.\n\n**F-statistic = between-group variance ÷ within-group variance.**\n\n**A large F-value means a high likelihood of a significant difference among the means.** In plain words: if the groups differ from each other much more than people inside each group differ, F is big.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Between-group variance",
+          "meaning": "Variation due to differences in group means.",
+          "source_ref": "qtm--module-6#14"
+        },
+        {
+          "term": "Within-group variance",
+          "meaning": "Variation within each group due to random error.",
+          "source_ref": "qtm--module-6#14"
+        },
+        {
+          "term": "F-statistic",
+          "meaning": "Ratio of between-group to within-group variance.",
+          "source_ref": "qtm--module-6#14"
+        }
+      ],
+      "exam_line": "F = between-group variance / within-group variance; a large F means a high likelihood of a significant difference among means.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m6-anova-basics-q-c1feb09e",
+          "type": "mcq",
+          "stem": "Within-group variance is variation:",
+          "options": [
+            "Within each group due to random error",
+            "Due to differences in group means",
+            "Between the dependent and independent variable"
+          ],
+          "answer": "Within each group due to random error",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-6#14"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m6-anova-basics-q-ca9b8318",
+          "type": "mcq",
+          "stem": "A large F-value suggests:",
+          "options": [
+            "A high likelihood of a significant difference among means",
+            "The means are all equal",
+            "The sample is too small"
+          ],
+          "answer": "A high likelihood of a significant difference among means",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-6#14"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m6-anova-basics-q-95f2b318",
+          "type": "fill",
+          "stem": "The F-statistic is the ratio of between-group to ____-group variance.",
+          "options": [],
+          "answer": "within",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-6#14"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-6#14"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-anova-basics-c4",
+      "heading": "Univariate and multivariate ANOVA",
+      "explanation_md": "The slide's table names the type of ANOVA from the number of **independent variables** and **dependent variables**:\n\n| Independent variables | Dependent variables | Univariate/Multivariate | One-way/Two-way/etc. |\n|---|---|---|---|\n| 1 | 1 | Univariate | One-way/Single factor |\n| 2 | 1 | Univariate | Two-way/Two-factor |\n| more than 1 | 1 | Univariate | Multi-way/Multi-factor |\n| 1 | more than 1 | Multivariate | One-way/Single factor |\n| 2 | more than 1 | Multivariate | Two-way/Two-factor |\n| more than 1 | more than 1 | Multivariate | Multi-way/Multi-factor |\n\nRead it in two parts: the number of **dependent variables** decides **univariate (one) vs multivariate (more than one)**; the number of **independent variables** decides **one-way, two-way or multi-way**.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "One dependent variable = univariate, more than one = multivariate; one independent variable = one-way, two = two-way, more = multi-way.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m6-anova-basics-q-1c56fc51",
+          "type": "mcq",
+          "stem": "Two independent variables and one dependent variable gives which ANOVA?",
+          "options": [
+            "Univariate, two-way",
+            "Multivariate, two-way",
+            "Univariate, one-way"
+          ],
+          "answer": "Univariate, two-way",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-6#15"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m6-anova-basics-q-b4e90193",
+          "type": "mcq",
+          "stem": "What makes an ANOVA multivariate in the slide's table?",
+          "options": [
+            "More than one dependent variable",
+            "More than one independent variable",
+            "More than two groups"
+          ],
+          "answer": "More than one dependent variable",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-6#15"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-6#15"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-anova-basics-c5",
+      "heading": "The hypothesis framework and decision rule",
+      "explanation_md": "For **both one-way and two-way ANOVA**:\n\n- **Null hypothesis (H0):** **all group means are equal** (μ1 = μ2 = ... = μk).\n- **Alternative hypothesis (H1):** **at least one group mean differs**.\n\n**Decision rule:** if **F calculated > F critical**, **or p < α**, **reject H0**.\n\nCareful with H1: it does not say all means differ, only that **at least one** does.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "ANOVA: H0: μ1 = μ2 = ... = μk; H1: at least one mean differs; reject H0 if F calculated > F critical or p < α.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m6-anova-basics-q-965e20af",
+          "type": "mcq",
+          "stem": "What is the alternative hypothesis in ANOVA?",
+          "options": [
+            "At least one group mean differs",
+            "All group means differ",
+            "All group means are equal"
+          ],
+          "answer": "At least one group mean differs",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-6#16"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m6-anova-basics-q-08589892",
+          "type": "mcq",
+          "stem": "When do we reject H0 in ANOVA?",
+          "options": [
+            "If F calculated > F critical or p < α",
+            "If F calculated < F critical",
+            "If p > α"
+          ],
+          "answer": "If F calculated > F critical or p < α",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-6#16"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-6#16"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "qtm-m6-anova-basics-f1",
+      "front": "ANOVA",
+      "back": "Analysis of Variance (F-test), developed by Sir Ronald Fisher: a test of means for two or more samples.",
+      "kind": "term",
+      "source_refs": [
+        "qtm--module-6#12"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-anova-basics-f2",
+      "front": "Scales needed for ANOVA",
+      "back": "Dependent variable: metric (interval or ratio). Independent variables: non-metric (nominal or ordinal), called factors.",
+      "kind": "fact",
+      "source_refs": [
+        "qtm--module-6#12"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-anova-basics-f3",
+      "front": "Why ANOVA instead of multiple t-tests?",
+      "back": "Multiple t-tests increase Type I error risk; ANOVA keeps the overall error rate at the set level and compares many means in one test.",
+      "kind": "list",
+      "source_refs": [
+        "qtm--module-6#13"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-anova-basics-f4",
+      "front": "Between-group vs within-group variance",
+      "back": "Between: due to differences in group means. Within: within each group due to random error.",
+      "kind": "fact",
+      "source_refs": [
+        "qtm--module-6#14"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-anova-basics-f5",
+      "front": "F-statistic",
+      "back": "Between-group variance / within-group variance; large F means a high likelihood of a significant difference.",
+      "kind": "formula",
+      "source_refs": [
+        "qtm--module-6#14"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-anova-basics-f6",
+      "front": "Univariate vs multivariate ANOVA",
+      "back": "One dependent variable: univariate. More than one: multivariate.",
+      "kind": "fact",
+      "source_refs": [
+        "qtm--module-6#15"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-anova-basics-f7",
+      "front": "ANOVA hypotheses",
+      "back": "H0: all group means equal (μ1 = μ2 = ... = μk). H1: at least one group mean differs.",
+      "kind": "fact",
+      "source_refs": [
+        "qtm--module-6#16"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-anova-basics-f8",
+      "front": "ANOVA decision rule",
+      "back": "Reject H0 if F calculated > F critical, or p < α.",
+      "kind": "fact",
+      "source_refs": [
+        "qtm--module-6#16"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [],
+  "explain_back": {
+    "prompt": "Explain what ANOVA is, why it is used instead of multiple t-tests, and how the F-statistic leads to a decision.",
+    "rubric": [
+      {
+        "point": "ANOVA (Fisher's F-test) is a test of means for two or more samples; dependent variable metric, independent variables categorical factors",
+        "source_ref": "qtm--module-6#12"
+      },
+      {
+        "point": "Multiple t-tests increase Type I error risk; ANOVA keeps the overall error rate at the set level",
+        "source_ref": "qtm--module-6#13"
+      },
+      {
+        "point": "F = between-group variance / within-group variance; large F suggests a significant difference",
+        "source_ref": "qtm--module-6#14"
+      },
+      {
+        "point": "H0: all means equal; H1: at least one differs",
+        "source_ref": "qtm--module-6#16"
+      },
+      {
+        "point": "Reject H0 if F calculated > F critical or p < α",
+        "source_ref": "qtm--module-6#16"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

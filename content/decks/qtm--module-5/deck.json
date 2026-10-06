@@ -5,14 +5,14 @@
   "source": "college",
   "file_type": "pptx",
   "sha256": "2ab600f5f718673026348607ad84b206a6308106a8d06c4a5ab7d37917ed55e6",
-  "title": "OP5302 Quantitative Techniques for Managers",
+  "title": "Module 5: Hypothesis Testing",
   "order": 5,
   "duplicates": [],
   "ingested_at": "2026-10-05T12:40:46+05:30",
   "slides": [
     {
       "n": 1,
-      "kind": "content",
+      "kind": "title",
       "title": "OP5302 Quantitative Techniques for Managers",
       "text": "OP5302 Quantitative Techniques for Managers\nDr. Mohammad Faisal Noor / Dr. Manjot Singh Bhatia\nModule 5",
       "bullets": [
@@ -28,13 +28,13 @@
       "tables": [],
       "notes": "",
       "charts": [],
-      "visual_text": "",
+      "visual_text": "Title slide: OP5302 Quantitative Techniques for Managers, Dr. Mohammad Faisal Noor / Dr. Manjot Singh Bhatia, Module 5, with the school and institute logos and the line Seeking Excellence Together.",
       "images": [
         "slides/qtm--module-5/img-e98aa8e95a21038e.png",
         "slides/qtm--module-5/img-25e32c1bcbac9814.png"
       ],
       "render": "slides/qtm--module-5/slide-001.jpg",
-      "needs_visual": true,
+      "needs_visual": false,
       "word_count": 15
     },
     {
@@ -98,7 +98,7 @@
       "tables": [],
       "notes": "",
       "charts": [],
-      "visual_text": "",
+      "visual_text": "Heading: Example. Flour packaged by a manufacturer is sold by weight, and a particular size of package is supposed to average 40 ounces. The null hypothesis for this experiment is that the average weight of the flour packages is 40 ounces (no problem). The alternative hypothesis is that the average is not 40 ounces (process is out of control). The null and alternative hypotheses can be restated: H0: μ = 40 oz; H1: μ ≠ 40 oz.",
       "images": [],
       "render": "slides/qtm--module-5/slide-004.jpg",
       "needs_visual": true,
@@ -113,7 +113,7 @@
       "tables": [],
       "notes": "",
       "charts": [],
-      "visual_text": "",
+      "visual_text": "Heading: Example. Suppose a company has held an 18% share of the market. However, because of an increased marketing effort, company officials believe the company's market share is now greater than 18%, and the officials would like to prove it. The null and alternative hypotheses can be restated: H0: p ≤ 0.18; H1: p > 0.18.",
       "images": [],
       "render": "slides/qtm--module-5/slide-005.jpg",
       "needs_visual": true,
@@ -253,7 +253,7 @@
       "tables": [],
       "notes": "",
       "charts": [],
-      "visual_text": "",
+      "visual_text": "Below the bullets are two normal curves centred on 60. Left (two-tailed): dashed lines at Z = -1.96 and Z = 1.96; the middle is labelled Do not reject H0 and both outer ends are labelled Reject H0, each shaded tail marked .025. Right (one-tailed): a dashed line at Z = 1.645; everything to the left is labelled Do not reject H0 and only the right tail is labelled Reject H0, shaded and marked α = .05.",
       "images": [
         "slides/qtm--module-5/img-5e4a7b8fb2e4df29.wmf"
       ],
@@ -287,7 +287,7 @@
       "tables": [],
       "notes": "",
       "charts": [],
-      "visual_text": "",
+      "visual_text": "Below the bullets is a normal curve centred on μ = 40 ounces. The large middle area is labelled Nonrejection region. On each side a vertical line marks a Critical value, and the small area beyond each critical value, in both tails, is labelled Rejection region.",
       "images": [
         "slides/qtm--module-5/img-3ebd79dd4713ec22.png"
       ],
@@ -361,7 +361,7 @@
       "tables": [],
       "notes": "",
       "charts": [],
-      "visual_text": "",
+      "visual_text": "A two-by-two decision table. Columns, headed State of nature: Null true and Null false. Rows, headed Action: Fail to reject null and Reject null. Fail to reject null with Null true: Correct decision. Fail to reject null with Null false: Type II error (β). Reject null with Null true: Type I error (α). Reject null with Null false: Correct decision (power).",
       "images": [
         "slides/qtm--module-5/img-3333af9e5a77082b.png"
       ],
@@ -498,7 +498,7 @@
       "tables": [],
       "notes": "",
       "charts": [],
-      "visual_text": "",
+      "visual_text": "Heading: Hypothesize. Step 1: Establish a null and alternative hypothesis. Because the researcher is testing to determine whether the figure has changed, the alternative hypothesis is that the mean net income is not $74,914. Thus, null and alternative hypothesis are as follows: H0: μ = $74,914; H1: μ ≠ $74,914.",
       "images": [],
       "render": "slides/qtm--module-5/slide-018.jpg",
       "needs_visual": true,
@@ -553,7 +553,7 @@
       "tables": [],
       "notes": "",
       "charts": [],
-      "visual_text": "",
+      "visual_text": "Heading: Test. A normal curve with two axes underneath: a z axis marked -1.96, 0.0 and +1.96, and an x-bar axis with μ = $74,914 at the centre. The middle is labelled Nonrejection region. Beyond -1.96 and beyond +1.96 the small tails are labelled Rejection region, each marked α/2 = .025.",
       "images": [
         "slides/qtm--module-5/img-45edfed5f881e37d.png"
       ],
@@ -570,7 +570,7 @@
       "tables": [],
       "notes": "",
       "charts": [],
-      "visual_text": "",
+      "visual_text": "Heading: Collect and test data. Step 5: Collect data. Suppose the 112 CPAs who respond produce a sample mean of $78,695. Step 6: Calculate the value of test statistic: z = (x̄ - μ) / (σ/√n) = (78695 - 74914) / (14530/√112) = 2.75.",
       "images": [],
       "render": "slides/qtm--module-5/slide-021.jpg",
       "needs_visual": true,
@@ -661,7 +661,7 @@
       "tables": [],
       "notes": "",
       "charts": [],
-      "visual_text": "",
+      "visual_text": "No heading. A full standard normal table. A small picture at the top shows a bell curve with the area to the left of z shaded, so each entry is the area under the curve to the left of z. Rows give z from 0.0 to 3.9 and columns give the second decimal from 0.00 to 0.09. Sample entries: z = 0.00 gives 0.5000; z = 1.64 gives 0.9495; z = 1.65 gives 0.9505; z = 1.96 gives 0.9750; z = 2.00 gives 0.9772; z = 2.75 gives 0.9970; z = 3.00 gives 0.99865; z = 3.99 gives 0.99997.",
       "images": [
         "slides/qtm--module-5/img-2992cb0a352dd3bc.png"
       ],
@@ -678,7 +678,7 @@
       "tables": [],
       "notes": "",
       "charts": [],
-      "visual_text": "",
+      "visual_text": "Heading: Using the Critical Value Method. What mean income would it take to cause the observed z value to be in the rejection zone? The critical value method determines the critical mean value required for z to be in the rejection region and uses it to test the hypotheses. In this case, a critical value x̄ is determined. Below is a normal curve with the Nonrejection region in the middle and a Rejection region in each tail. The x̄ axis shows x̄c = $72,223, $74,914 at the centre and x̄c = $77,605; the z axis underneath shows zc = -1.96, 0.0 and zc = +1.96.",
       "images": [
         "slides/qtm--module-5/img-78bdd2420b4ce818.png"
       ],
@@ -800,7 +800,7 @@
       "tables": [],
       "notes": "",
       "charts": [],
-      "visual_text": "",
+      "visual_text": "The Step 2 formula is printed as a picture: z = (x̄ - μ0) / (σ/√n) = (480 - 500) / (50/√25) = -20/10 = -2.0. The rest matches the slide text.",
       "images": [],
       "render": "slides/qtm--module-5/slide-028.jpg",
       "needs_visual": false,
@@ -876,7 +876,7 @@
       "tables": [],
       "notes": "",
       "charts": [],
-      "visual_text": "",
+      "visual_text": "The Step 3 formula is printed as a picture: t = (x̄ - μ0) / (s/√n) = (0.98 - 1) / (0.05/√30) = -0.02/0.00913 ≈ -2.19. The rest matches the slide text.",
       "images": [],
       "render": "slides/qtm--module-5/slide-030.jpg",
       "needs_visual": false,
@@ -891,7 +891,7 @@
       "tables": [],
       "notes": "",
       "charts": [],
-      "visual_text": "",
+      "visual_text": "Heading: Example. A t table. Rows are Degrees of freedom (df) from 1 to 30, then 40, 50, 60, 70, 80, 100, 1000 and Infinite. Columns are headed 0.2, 0.15, 0.1, 0.05, 0.025, 0.01, 0.005, 0.001 and 0.0005, with the 0.05 column shaded green. Sample entries: df 1 reads 3.078, 4.165, 6.314, 12.706, 25.452, 63.657, 127.321, 636.619, 1273.239. df 29 reads 1.311, 1.479, 1.699, 2.045, 2.364, 2.756, 3.038, 3.659, 3.918. df 30 reads 1.310, 1.477, 1.697, 2.042, 2.360, 2.750, 3.030, 3.646, 3.902. Infinite reads 1.282, 1.440, 1.645, 1.960, 2.241, 2.576, 2.807, 3.291, 3.481.",
       "images": [
         "slides/qtm--module-5/img-0c60e52006ab586b.wmf"
       ],

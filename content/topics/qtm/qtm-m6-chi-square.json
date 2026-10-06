@@ -1,0 +1,471 @@
+{
+  "id": "qtm-m6-chi-square",
+  "subject_id": "qtm",
+  "deck_id": "qtm--module-6",
+  "title": "The chi-square test of independence: watch preference and age",
+  "order": 608,
+  "summary": "What the chi-square test does, its formula and degrees of freedom, the expected-frequency formula, the chi-square table, and the full watch preference by age example (X² = 38.095 > 5.991, reject H0).",
+  "est_minutes": 25,
+  "difficulty": 3,
+  "source_refs": [
+    "qtm--module-6#32",
+    "qtm--module-6#33",
+    "qtm--module-6#34",
+    "qtm--module-6#35",
+    "qtm--module-6#36",
+    "qtm--module-6#37"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "qtm-m6-chi-square-c1",
+      "heading": "What the chi-square test does",
+      "explanation_md": "The **chi-square test** tests the **statistical significance of the observed association in a cross-tabulation**.\n\nIt works by **comparing the observed cell values with the expected ones if there is no relationship between the variables**.\n\n**Formula:**\n\nX² = Σ (Observed value − Expected value)² / Expected value\n\n**Degrees of freedom:**\n\ndf = (r − 1) × (c − 1)",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Chi-square test",
+          "meaning": "Tests the statistical significance of the observed association in a cross-tabulation by comparing observed cell values with those expected if there is no relationship.",
+          "source_ref": "qtm--module-6#32"
+        }
+      ],
+      "exam_line": "Chi-square: X² = Σ(O − E)²/E, comparing observed with expected values under no relationship; df = (r − 1)(c − 1).",
+      "clarification": {
+        "term": "df = (r − 1) × (c − 1)",
+        "text": "Here r stands for the number of rows and c for the number of columns in the cross-tabulation."
+      },
+      "check_questions": [
+        {
+          "id": "qtm-m6-chi-square-q-928a7324",
+          "type": "mcq",
+          "stem": "What does the chi-square test compare?",
+          "options": [
+            "Observed cell values with expected values if there is no relationship",
+            "Two sample means",
+            "Group variances"
+          ],
+          "answer": "Observed cell values with expected values if there is no relationship",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-6#32"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m6-chi-square-q-993f6fbd",
+          "type": "mcq",
+          "stem": "What are the degrees of freedom for a chi-square test on a cross-tabulation?",
+          "options": [
+            "(r − 1) × (c − 1)",
+            "n − 1",
+            "k − 1"
+          ],
+          "answer": "(r − 1) × (c − 1)",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-6#32"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m6-chi-square-q-8601fce6",
+          "type": "fill",
+          "stem": "X² = Σ (Observed − Expected)² / ____.",
+          "options": [],
+          "answer": "Expected",
+          "accept": [
+            "expected",
+            "expected value",
+            "E"
+          ],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-6#32"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-6#32"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-chi-square-c2",
+      "heading": "Expected frequencies and the chi-square table",
+      "explanation_md": "**Expected value for each cell:**\n\nfe = (nr × nc) / n\n\n- **nr** = total number in the **row**\n- **nc** = total number in the **column**\n- **n** = total **sample size**\n\n**The chi-square table** lists **degrees of freedom** down the side and the **significance level (α)** across the top: .99, .975, .95, .9, .1, .05, .025, .01. The **.05** column is shaded.\n\nSome .05 values: df 1 = **3.841**, df 2 = **5.991**, df 3 = **7.815**.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Expected frequency (fe)",
+          "meaning": "fe = (row total × column total) / total sample size.",
+          "source_ref": "qtm--module-6#33"
+        }
+      ],
+      "exam_line": "Expected value fe = (nr × nc)/n; critical chi-square at α = .05: df 1 = 3.841, df 2 = 5.991.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m6-chi-square-q-7f2abb2a",
+          "type": "mcq",
+          "stem": "How is the expected value for a cell calculated?",
+          "options": [
+            "(Row total × column total) / total sample size",
+            "(Observed − expected)² / expected",
+            "Row total / column total"
+          ],
+          "answer": "(Row total × column total) / total sample size",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-6#33",
+            "qtm--module-6#32"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m6-chi-square-q-7c8dc39d",
+          "type": "mcq",
+          "stem": "What is the chi-square table value at α = .05 for df = 2?",
+          "options": [
+            "5.991",
+            "3.841",
+            "7.815"
+          ],
+          "answer": "5.991",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-6#34"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-6#33",
+        "qtm--module-6#34"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-chi-square-c3",
+      "heading": "Watch preference and age: the hypotheses",
+      "explanation_md": "**The data (cross-tabulation):**\n\n| Age | Digital | Analog | Undecided |\n|---|---|---|---|\n| Under 30 | 90 | 40 | 10 |\n| Over 30 | 10 | 40 | 10 |\n\n**The chi-square test is a test of independence**: is there a relationship between the variables or not? **By independence, we mean no relationship.**\n\n- **Null hypothesis:** the two variables are **statistically independent**. **H0: watch preference and age are independent**; there is no relationship between them.\n- **Alternate hypothesis:** the variables are **related**, not independent. **H1: watch preference and age are dependent.**",
+      "example_ids": [
+        "qtm-ex-m6-watch-preference"
+      ],
+      "key_terms": [
+        {
+          "term": "Independence (chi-square)",
+          "meaning": "No relationship between the two variables.",
+          "source_ref": "qtm--module-6#35"
+        }
+      ],
+      "exam_line": "Watch example: H0: watch preference and age are independent (no relationship); H1: they are dependent.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m6-chi-square-q-a45c30dd",
+          "type": "mcq",
+          "stem": "What is H0 in the watch preference example?",
+          "options": [
+            "Watch preference and age are independent",
+            "Watch preference and age are dependent",
+            "Younger people prefer digital watches"
+          ],
+          "answer": "Watch preference and age are independent",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-6#35"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m6-chi-square-q-651d4bc6",
+          "type": "fill",
+          "stem": "In the chi-square test, by independence we mean no ____.",
+          "options": [],
+          "answer": "relationship",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-6#35"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-6#35"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-chi-square-c4",
+      "heading": "Watch preference and age: the solution",
+      "explanation_md": "**Totals:** under 30 = 140, over 30 = 60; digital = 100, analog = 80, undecided = 20; n = 200.\n\n| Cell | O | Expected | E | (O − E)²/E |\n|---|---|---|---|---|\n| Under 30, digital | 90 | 140 × 100/200 | 70 | 5.71 |\n| Under 30, analog | 40 | 80 × 140/200 | 56 | 4.57 |\n| Under 30, undecided | 10 | 20 × 140/200 | 14 | 1.14 |\n| Over 30, digital | 10 | 100 × 60/200 | 30 | 13.33 |\n| Over 30, analog | 40 | 80 × 60/200 | 24 | 10.67 |\n| Over 30, undecided | 10 | 20 × 60/200 | 6 | 2.67 |\n\n**X² = 38.095**\n\n**df** = (2 − 1) × (3 − 1) = 2, so **X critical = 5.991**.\n\n**Decision:** since **X calculated > X critical** (38.095 > 5.991), **we reject the null hypothesis** that watch preference and age are independent.\n\nThe deck's last content slide simply says: Visit https://numiqo.com/.",
+      "example_ids": [
+        "qtm-ex-m6-watch-preference"
+      ],
+      "key_terms": [],
+      "exam_line": "Watch example: E = row total × column total / 200; X² = 38.095 > X critical 5.991 (df 2), so reject H0 that watch preference and age are independent.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m6-chi-square-q-99b55ffc",
+          "type": "mcq",
+          "stem": "What is the expected frequency for under 30 and digital?",
+          "options": [
+            "70",
+            "90",
+            "56"
+          ],
+          "answer": "70",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-6#36"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m6-chi-square-q-5f4065a0",
+          "type": "fill",
+          "stem": "The calculated chi-square in the watch example is X² = ____.",
+          "options": [],
+          "answer": "38.095",
+          "accept": [
+            "38.09"
+          ],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-6#36"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m6-chi-square-q-60194659",
+          "type": "mcq",
+          "stem": "What is the decision in the watch preference example?",
+          "options": [
+            "Reject H0, because 38.095 > 5.991",
+            "Fail to reject H0, because 38.095 > 5.991",
+            "Reject H0, because 5.991 > 38.095"
+          ],
+          "answer": "Reject H0, because 38.095 > 5.991",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-6#36",
+            "qtm--module-6#35"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-6#36",
+        "qtm--module-6#35",
+        "qtm--module-6#34",
+        "qtm--module-6#32",
+        "qtm--module-6#37"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "qtm-m6-chi-square-f1",
+      "front": "Chi-square formula",
+      "back": "X² = Σ (Observed − Expected)² / Expected",
+      "kind": "formula",
+      "source_refs": [
+        "qtm--module-6#32"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-chi-square-f2",
+      "front": "Chi-square degrees of freedom",
+      "back": "df = (r − 1) × (c − 1)",
+      "kind": "formula",
+      "source_refs": [
+        "qtm--module-6#32"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-chi-square-f3",
+      "front": "Expected frequency",
+      "back": "fe = (nr × nc)/n: row total × column total / total sample size",
+      "kind": "formula",
+      "source_refs": [
+        "qtm--module-6#33"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-chi-square-f4",
+      "front": "Chi-square test of independence: hypotheses",
+      "back": "H0: the two variables are independent (no relationship). H1: they are related (dependent).",
+      "kind": "fact",
+      "source_refs": [
+        "qtm--module-6#35"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-chi-square-f5",
+      "front": "Watch example: expected value for under 30, digital",
+      "back": "140 × 100 / 200 = 70",
+      "kind": "example",
+      "source_refs": [
+        "qtm--module-6#36"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-chi-square-f6",
+      "front": "Watch example: result",
+      "back": "X² = 38.095 > X critical 5.991, so reject the null hypothesis.",
+      "kind": "example",
+      "source_refs": [
+        "qtm--module-6#36"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-chi-square-f7",
+      "front": "Chi-square table at α = .05",
+      "back": "df 1: 3.841; df 2: 5.991; df 3: 7.815",
+      "kind": "fact",
+      "source_refs": [
+        "qtm--module-6#34"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [],
+  "explain_back": {
+    "prompt": "Explain the chi-square test of independence and solve the watch preference and age example.",
+    "rubric": [
+      {
+        "point": "Chi-square tests the significance of an association in a cross-tabulation by comparing observed and expected values; X² = Σ(O − E)²/E",
+        "source_ref": "qtm--module-6#32"
+      },
+      {
+        "point": "Expected value = row total × column total / total sample size",
+        "source_ref": "qtm--module-6#33"
+      },
+      {
+        "point": "H0: watch preference and age are independent; H1: they are dependent",
+        "source_ref": "qtm--module-6#35"
+      },
+      {
+        "point": "Expected values 70, 56, 14, 30, 24, 6; X² = 38.095",
+        "source_ref": "qtm--module-6#36"
+      },
+      {
+        "point": "38.095 > X critical 5.991, so reject the null hypothesis",
+        "source_ref": "qtm--module-6#36"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

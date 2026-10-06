@@ -1,0 +1,664 @@
+{
+  "id": "qtm-m6-regression",
+  "subject_id": "qtm",
+  "deck_id": "qtm--module-6",
+  "title": "Regression analysis, r and R-square",
+  "order": 606,
+  "summary": "What regression is, the line Y = a + bX, the formulas for the slope and intercept, the SS shortcut formulas for b and r, R-square as the coefficient of determination, and the advertising spend and sales example worked in full.",
+  "est_minutes": 30,
+  "difficulty": 3,
+  "source_refs": [
+    "qtm--module-6#25",
+    "qtm--module-6#26",
+    "qtm--module-6#27",
+    "qtm--module-6#28",
+    "qtm--module-6#3"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "qtm-m6-regression-c1",
+      "heading": "What regression analysis is",
+      "explanation_md": "**Regression analysis** is a statistical method to **examine the relationship between a dependent variable (Y) and an independent variable (X)**. It **helps predict the value of Y based on X**.\n\n**Example applications from the slide:**\n- predicting **sales from ad spending**;\n- forecasting **demand from price data**;\n- estimating **employee performance from training hours**.\n\n**The equation: Y = a + bX**\n- **Y**: dependent variable (outcome)\n- **X**: independent variable (predictor)\n- **a**: **intercept**, the value of Y when X = 0\n- **b**: **slope**, the change in Y for a unit change in X",
+      "example_ids": [
+        "qtm-ex-m6-regression-uses"
+      ],
+      "key_terms": [
+        {
+          "term": "Regression analysis",
+          "meaning": "A statistical method to examine the relationship between a dependent (Y) and an independent variable (X); helps predict Y from X.",
+          "source_ref": "qtm--module-6#25"
+        },
+        {
+          "term": "Intercept (a)",
+          "meaning": "The value of Y when X = 0.",
+          "source_ref": "qtm--module-6#25"
+        },
+        {
+          "term": "Slope (b)",
+          "meaning": "The change in Y for a unit change in X.",
+          "source_ref": "qtm--module-6#25"
+        }
+      ],
+      "exam_line": "Regression examines the relationship between Y (dependent) and X (independent) to predict Y: Y = a + bX, a = intercept (Y when X = 0), b = slope (change in Y per unit change in X).",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m6-regression-q-edc54ed4",
+          "type": "mcq",
+          "stem": "In Y = a + bX, what is a?",
+          "options": [
+            "The intercept: the value of Y when X = 0",
+            "The slope: the change in Y for a unit change in X",
+            "The dependent variable"
+          ],
+          "answer": "The intercept: the value of Y when X = 0",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-6#25"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m6-regression-q-886440a3",
+          "type": "mcq",
+          "stem": "Which is given as an example application of regression?",
+          "options": [
+            "Estimating employee performance from training hours",
+            "Testing whether two variables are independent",
+            "Comparing medians of matched data"
+          ],
+          "answer": "Estimating employee performance from training hours",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-6#25",
+            "qtm--module-6#31"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m6-regression-q-8bcef9a6",
+          "type": "fill",
+          "stem": "In regression, X is the independent variable, also called the ____.",
+          "options": [],
+          "answer": "predictor",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-6#25"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-6#25"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-regression-c2",
+      "heading": "The regression line and its formulas",
+      "explanation_md": "The **line of best fit** represents the **expected relationship between X and Y**.\n\n**Y = a + bX**\n\n**Slope:**\n\nb = [NΣXY − (ΣX)(ΣY)] / [NΣX² − (ΣX)²]\n\nor, equivalently on the same slide,\n\nb = Σ(X − X̄)(Y − Ȳ) / Σ(X − X̄)²\n\n**Intercept:**\n\na = (ΣY − bΣX) / N\n\nwhere **N** is the number of observations.\n\n**What b tells you:** the slope shows the **direction and strength** of the relationship.\n- **Positive b**: Y **increases** with X.\n- **Negative b**: Y **decreases** with X.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Line of best fit",
+          "meaning": "The regression line; represents the expected relationship between X and Y.",
+          "source_ref": "qtm--module-6#26"
+        }
+      ],
+      "exam_line": "b = [NΣXY − (ΣX)(ΣY)]/[NΣX² − (ΣX)²] = Σ(X − X̄)(Y − Ȳ)/Σ(X − X̄)²; a = (ΣY − bΣX)/N; positive b: Y rises with X; negative b: Y falls with X.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m6-regression-q-4497ae00",
+          "type": "mcq",
+          "stem": "If the slope b is negative, what happens?",
+          "options": [
+            "Y decreases as X increases",
+            "Y increases as X increases",
+            "Y does not change"
+          ],
+          "answer": "Y decreases as X increases",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-6#26"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m6-regression-q-70df3a95",
+          "type": "mcq",
+          "stem": "Which is the slide's formula for the intercept a?",
+          "options": [
+            "a = (ΣY − bΣX)/N",
+            "a = ΣXY/ΣX²",
+            "a = (ΣX − bΣY)/N"
+          ],
+          "answer": "a = (ΣY − bΣX)/N",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-6#26"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-6#26"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-regression-c3",
+      "heading": "Alternate formulae: SS, b, r and R-square",
+      "explanation_md": "A neater route uses three **sums of squares**:\n\n- **SSxy = Σxy − (Σx)(Σy)/n**\n- **SSxx = Σx² − (Σx)²/n**\n- **SSyy = Σy² − (Σy)²/n**\n\nThen:\n\n**b = SSxy / SSxx**\n\n**r = SSxy / √(SSxx × SSyy)**\n\n**R-square** is the **Coefficient of Determination**. It is the **square of the correlation coefficient (r)**.\n\n**The higher the R-square, the higher the explanatory power of the independent variable for the dependent variable.**",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "R-square (coefficient of determination)",
+          "meaning": "The square of the correlation coefficient r; the higher it is, the higher the explanatory power of the independent variable for the dependent variable.",
+          "source_ref": "qtm--module-6#27"
+        },
+        {
+          "term": "Correlation coefficient (r)",
+          "meaning": "r = SSxy / √(SSxx × SSyy).",
+          "source_ref": "qtm--module-6#27"
+        }
+      ],
+      "exam_line": "SSxy = Σxy − (Σx)(Σy)/n, SSxx = Σx² − (Σx)²/n, SSyy = Σy² − (Σy)²/n; b = SSxy/SSxx; r = SSxy/√(SSxx·SSyy); R-square = r², the coefficient of determination.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m6-regression-q-0eb50580",
+          "type": "mcq",
+          "stem": "What is R-square?",
+          "options": [
+            "The coefficient of determination, the square of r",
+            "The slope of the regression line",
+            "The intercept of the regression line"
+          ],
+          "answer": "The coefficient of determination, the square of r",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-6#27"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m6-regression-q-a8b0f904",
+          "type": "mcq",
+          "stem": "Using the alternate formulae, b equals:",
+          "options": [
+            "SSxy / SSxx",
+            "SSxy / SSyy",
+            "SSxx / SSxy"
+          ],
+          "answer": "SSxy / SSxx",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-6#27"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m6-regression-q-f6219240",
+          "type": "true_false",
+          "stem": "A higher R-square means a higher explanatory power of the independent variable for the dependent variable.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-6#27"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-6#27"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-regression-c4",
+      "heading": "Worked example: advertising spend and sales (the line)",
+      "explanation_md": "**Problem:** a marketing manager records **advertising spend (X, ₹ '000s)** and **weekly sales (Y, ₹ '000s)**:\n\n| X | 10 | 20 | 30 | 40 | 50 |\n|---|---|---|---|---|---|\n| Y | 25 | 40 | 50 | 55 | 65 |\n\nCalculate the relationship between X and Y, then r and R-squared.\n\n**Step 1: the sums** (n = 5)\n- Σx = 150, Σy = 235\n- Σxy = 250 + 800 + 1500 + 2200 + 3250 = 8000\n- Σx² = 5500, Σy² = 11975\n\n**Step 2: sums of squares**\n- SSxy = 8000 − (150)(235)/5 = 8000 − 7050 = **950**\n- SSxx = 5500 − 150²/5 = 5500 − 4500 = **1000**\n- SSyy = 11975 − 235²/5 = 11975 − 11045 = **930**\n\n**Step 3: slope and intercept**\n- b = SSxy/SSxx = 950/1000 = **0.95**\n- a = (ΣY − bΣX)/N = (235 − 0.95 × 150)/5 = (235 − 142.5)/5 = 92.5/5 = **18.5**\n\n**Regression line: Sales = 18.5 + 0.95 × Advertising spend**",
+      "example_ids": [
+        "qtm-ex-m6-ad-spend-sales"
+      ],
+      "key_terms": [],
+      "exam_line": "Ad spend example: SSxy = 950, SSxx = 1000, SSyy = 930; b = 0.95, a = 18.5, so Y = 18.5 + 0.95X.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m6-regression-q-478e0130",
+          "type": "fill",
+          "stem": "In the advertising example, b = SSxy/SSxx = 950/1000 = ____.",
+          "options": [],
+          "answer": "0.95",
+          "accept": [
+            ".95"
+          ],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-6#28",
+            "qtm--module-6#27"
+          ],
+          "derived": [
+            "950",
+            "1000",
+            "0.95"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m6-regression-q-dd41a496",
+          "type": "mcq",
+          "stem": "What is the regression line for the advertising example?",
+          "options": [
+            "Y = 18.5 + 0.95X",
+            "Y = 0.95 + 18.5X",
+            "Y = 25 + 10X"
+          ],
+          "answer": "Y = 18.5 + 0.95X",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-6#28",
+            "qtm--module-6#26"
+          ],
+          "derived": [
+            "18.5",
+            "0.95"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m6-regression-q-22f7b08f",
+          "type": "mcq",
+          "stem": "What is SSxx for the advertising data?",
+          "options": [
+            "1000",
+            "930",
+            "950"
+          ],
+          "answer": "1000",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-6#28",
+            "qtm--module-6#27"
+          ],
+          "derived": [
+            "1000",
+            "930",
+            "950"
+          ],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-6#28",
+        "qtm--module-6#27",
+        "qtm--module-6#26"
+      ],
+      "derived": [
+        "150",
+        "235",
+        "8000",
+        "5500",
+        "11975",
+        "7050",
+        "4500",
+        "11045",
+        "950",
+        "1000",
+        "930",
+        "0.95",
+        "142.5",
+        "92.5",
+        "18.5",
+        "250",
+        "800",
+        "1500",
+        "2200",
+        "3250"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-regression-c5",
+      "heading": "Worked example: r, R-square and what they mean",
+      "explanation_md": "**Step 4: correlation coefficient**\n\nr = SSxy / √(SSxx × SSyy) = 950 / √(1000 × 930) = 950 / 964.37 ≈ **0.985**\n\n**Step 5: R-square**\n\nR² = r² ≈ 0.985² ≈ **0.97**\n\n**Interpretation, using the deck's own definitions:**\n- **r ≈ 0.985** is positive and very close to 1: a **strong, positive linear relationship** between advertising spend and sales (r measures the strength and direction of a linear relationship).\n- **b = 0.95 is positive**, so **sales increase with advertising spend**: for each 1 unit (₹ '000) more spend, weekly sales rise by about 0.95 units (₹ '000).\n- **R² ≈ 0.97 is high**, so advertising spend has **high explanatory power** for weekly sales.",
+      "example_ids": [
+        "qtm-ex-m6-ad-spend-sales"
+      ],
+      "key_terms": [],
+      "exam_line": "Ad spend example: r = 950/√(1000 × 930) ≈ 0.985 (strong positive); R² ≈ 0.97 (high explanatory power); b = 0.95 > 0 so sales rise with ad spend.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m6-regression-q-5a4af9f9",
+          "type": "fill",
+          "stem": "For the advertising data, r = 950/√(1000 × 930) ≈ ____.",
+          "options": [],
+          "answer": "0.985",
+          "accept": [
+            "0.98",
+            "0.99",
+            ".985"
+          ],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-6#28",
+            "qtm--module-6#27"
+          ],
+          "derived": [
+            "950",
+            "1000",
+            "930",
+            "0.985",
+            "0.98",
+            "0.99"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m6-regression-q-41975702",
+          "type": "mcq",
+          "stem": "What does R² ≈ 0.97 tell the marketing manager, according to the deck's definition?",
+          "options": [
+            "Advertising spend has high explanatory power for sales",
+            "Sales cause advertising spend",
+            "There is no relationship"
+          ],
+          "answer": "Advertising spend has high explanatory power for sales",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-6#28",
+            "qtm--module-6#27"
+          ],
+          "derived": [
+            "0.97"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m6-regression-q-6cb2bf4b",
+          "type": "true_false",
+          "stem": "Because b is positive in the advertising example, sales increase as advertising spend increases.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-6#28",
+            "qtm--module-6#26"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-6#28",
+        "qtm--module-6#27",
+        "qtm--module-6#26",
+        "qtm--module-6#25",
+        "qtm--module-6#3"
+      ],
+      "derived": [
+        "950",
+        "1000",
+        "930",
+        "964.37",
+        "0.985",
+        "0.97",
+        "0.95"
+      ],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "qtm-m6-regression-f1",
+      "front": "Regression analysis",
+      "back": "A statistical method to examine the relationship between a dependent (Y) and independent variable (X); helps predict Y from X.",
+      "kind": "term",
+      "source_refs": [
+        "qtm--module-6#25"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-regression-f2",
+      "front": "Regression equation",
+      "back": "Y = a + bX (a = intercept, Y when X = 0; b = slope, change in Y per unit change in X)",
+      "kind": "formula",
+      "source_refs": [
+        "qtm--module-6#25"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-regression-f3",
+      "front": "Slope b (raw-sum formula)",
+      "back": "b = [NΣXY − (ΣX)(ΣY)] / [NΣX² − (ΣX)²]",
+      "kind": "formula",
+      "source_refs": [
+        "qtm--module-6#26"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-regression-f4",
+      "front": "Intercept a",
+      "back": "a = (ΣY − bΣX) / N",
+      "kind": "formula",
+      "source_refs": [
+        "qtm--module-6#26"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-regression-f5",
+      "front": "Sign of b",
+      "back": "Positive b: Y increases with X. Negative b: Y decreases with X.",
+      "kind": "fact",
+      "source_refs": [
+        "qtm--module-6#26"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-regression-f6",
+      "front": "SS formulas",
+      "back": "SSxy = Σxy − (Σx)(Σy)/n; SSxx = Σx² − (Σx)²/n; SSyy = Σy² − (Σy)²/n",
+      "kind": "formula",
+      "source_refs": [
+        "qtm--module-6#27"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-regression-f7",
+      "front": "b and r from SS",
+      "back": "b = SSxy/SSxx; r = SSxy/√(SSxx·SSyy)",
+      "kind": "formula",
+      "source_refs": [
+        "qtm--module-6#27"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-regression-f8",
+      "front": "R-square",
+      "back": "Coefficient of determination; the square of r; higher R-square means higher explanatory power of X for Y.",
+      "kind": "term",
+      "source_refs": [
+        "qtm--module-6#27"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-regression-f9",
+      "front": "Regression applications (slide)",
+      "back": "Predicting sales from ad spending; forecasting demand from price data; estimating employee performance from training hours.",
+      "kind": "list",
+      "source_refs": [
+        "qtm--module-6#25"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [],
+  "explain_back": {
+    "prompt": "Explain regression and work through the advertising spend and sales example to find the line, r and R-square.",
+    "rubric": [
+      {
+        "point": "Regression examines the relationship between Y and X to predict Y; Y = a + bX",
+        "source_ref": "qtm--module-6#25"
+      },
+      {
+        "point": "b = SSxy/SSxx and r = SSxy/√(SSxx·SSyy); R-square = r², the coefficient of determination",
+        "source_ref": "qtm--module-6#27"
+      },
+      {
+        "point": "a = (ΣY − bΣX)/N; positive b means Y increases with X",
+        "source_ref": "qtm--module-6#26"
+      },
+      {
+        "point": "Advertising spend (X) and weekly sales (Y) data: X 10 to 50, Y 25 to 65",
+        "source_ref": "qtm--module-6#28"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

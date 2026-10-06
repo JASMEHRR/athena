@@ -5,14 +5,14 @@
   "source": "college",
   "file_type": "pptx",
   "sha256": "8c77d7331ea7ae6a648f4f26dac5f5c9fa1a2201a79e8456c09af406234d2454",
-  "title": "OP5302 Quantitative Techniques for Managers",
+  "title": "Module 6: Parametric and Non-Parametric Tests",
   "order": 6,
   "duplicates": [],
   "ingested_at": "2026-10-05T12:40:54+05:30",
   "slides": [
     {
       "n": 1,
-      "kind": "content",
+      "kind": "title",
       "title": "OP5302 Quantitative Techniques for Managers",
       "text": "OP5302 Quantitative Techniques for Managers\nDr. Mohammad Faisal Noor\nAssistant Professor\nModule 6",
       "bullets": [
@@ -32,13 +32,13 @@
       "tables": [],
       "notes": "",
       "charts": [],
-      "visual_text": "",
+      "visual_text": "Title slide: OP5302 Quantitative Techniques for Managers, Dr. Mohammad Faisal Noor, Assistant Professor, Module 6, with the school and institute logos and the line Seeking Excellence Together.",
       "images": [
         "slides/qtm--module-6/img-e98aa8e95a21038e.png",
         "slides/qtm--module-6/img-25e32c1bcbac9814.png"
       ],
       "render": "slides/qtm--module-6/slide-001.jpg",
-      "needs_visual": true,
+      "needs_visual": false,
       "word_count": 13
     },
     {
@@ -291,7 +291,7 @@
       "tables": [],
       "notes": "",
       "charts": [],
-      "visual_text": "",
+      "visual_text": "The formulas are printed as pictures. One-Sample t-Test: t = (x̄ - μ0) / (s/√n). Independent Two-Sample t-Test (assume equal variances): t = (x̄1 - x̄2) / (sp √(1/n1 + 1/n2)), where sp = √[((n1 - 1)s1² + (n2 - 1)s2²) / (n1 + n2 - 2)]. Paired t-Test: compute the difference for each pair, di = x1,i - x2,i, then t = d̄ / (sd/√n), where d̄ is the mean of differences, sd the standard deviation of differences and n the number of pairs.",
       "images": [],
       "render": "slides/qtm--module-6/slide-006.jpg",
       "needs_visual": false,
@@ -306,7 +306,7 @@
       "tables": [],
       "notes": "",
       "charts": [],
-      "visual_text": "",
+      "visual_text": "Heading: t-distribution table. Rows are Degrees of freedom (df) from 1 to 30, then 40, 50, 60, 70, 80, 100, 1000 and Infinite. Columns are headed 0.2, 0.15, 0.1, 0.05, 0.025, 0.01, 0.005, 0.001 and 0.0005, with the 0.05 column shaded green. Sample rows: df 1 reads 3.078, 4.165, 6.314, 12.706, 25.452, 63.657, 127.321, 636.619, 1273.239. df 5 reads 1.476, 1.699, 2.015, 2.571, 3.163, 4.032, 4.773, 6.869, 7.976. df 9 reads 1.383, 1.574, 1.833, 2.262, 2.685, 3.250, 3.690, 4.781, 5.291. df 27 reads 1.314, 1.482, 1.703, 2.052, 2.373, 2.771, 3.057, 3.690, 3.954. df 29 reads 1.311, 1.479, 1.699, 2.045, 2.364, 2.756, 3.038, 3.659, 3.918. Infinite reads 1.282, 1.440, 1.645, 1.960, 2.241, 2.576, 2.807, 3.291, 3.481.",
       "images": [
         "slides/qtm--module-6/img-0c60e52006ab586b.wmf"
       ],
@@ -336,7 +336,7 @@
       "tables": [],
       "notes": "",
       "charts": [],
-      "visual_text": "",
+      "visual_text": "Below the problem is a calculation box. Calculation: t = (14 - 15) / (2/√10) = -1/0.632 ≈ -1.58. Find degrees of freedom: df = 9. Compare to critical t (two-tailed, α = 0.05): ±2.685 (the 685 is typed over in a different font). Decision: |t| < 2.262 → Fail to reject the null hypothesis.",
       "images": [
         "slides/qtm--module-6/img-438ed52d34e84069.png"
       ],
@@ -366,7 +366,7 @@
       "tables": [],
       "notes": "",
       "charts": [],
-      "visual_text": "",
+      "visual_text": "Below the data is a worked solution. Step 1: Calculate pooled SD: sp = √[((14)(10²) + (13)(8²)) / 27] = √[(1400 + 832) / 27] = √82.96 ≈ 9.1. Step 2: Compute t: t = (78 - 85) / (9.1 √(1/15 + 1/14)) = -7 / (9.1 × 0.38) = -7/3.46 ≈ -2.02. Degrees of freedom = 15+14-2 = 27. Critical t (two-tailed, α = 0.05) ≈ ±2.373 (the 373 is typed over in a different font). Decision: |t| < 2.052 → Fail to reject the null hypothesis.",
       "images": [
         "slides/qtm--module-6/img-ba3dc1cb6d294604.png"
       ],
@@ -420,7 +420,7 @@
       "tables": [],
       "notes": "",
       "charts": [],
-      "visual_text": "",
+      "visual_text": "Below the data is a worked solution. Sample size, n = 6 clients. Differences (Before - After): 2, -1, 1, 2, 2, 2. Mean difference, d̄ = 1.33. Standard deviation of differences, sd = 1.211. Step 1: State Hypotheses. Null hypothesis H0: the training program has no effect or does not reduce pulse rate, H0: μd = 0. Alternative hypothesis H1: the training program reduces pulse rate, H1: μd > 0. Step 2: Calculate the t-Statistic: t = (d̄ - μ0) / (sd/√n) = (1.33 - 0) / (1.211/√6) = 1.33/0.494 ≈ 2.69. Step 3: Degrees of Freedom: df = n - 1 = 6 - 1 = 5. Step 4: Determine Critical Value and P-value. For a one-tailed test with α = 0.05 and df = 5, the critical t-value t0.05,5 ≈ 2.571 (typed in a separate box). Calculated t = 2.69 > 2.015, so we reject the null hypothesis. P-value (one-tailed) corresponding to t = 2.69 and df = 5 is approximately 0.021 (less than 0.05). Step 5: Conclusion: There is statistically significant evidence at the 5% level that the training program reduces pulse rate.",
       "images": [
         "slides/qtm--module-6/img-fbb7ecb259fb0041.png",
         "slides/qtm--module-6/img-c606b5f76ade7b5c.png"
@@ -534,7 +534,7 @@
       "tables": [],
       "notes": "",
       "charts": [],
-      "visual_text": "",
+      "visual_text": "A table with four columns: Independent Variables, Dependent Variables, Univariate/Multivariate, One-way/Two-way/etc. Rows: 1 IV, 1 DV: Univariate, One-way/Single Factor. 2 IVs, 1 DV: Univariate, Two-way/Two-factor. More than 1 IV, 1 DV: Univariate, Multi-way/Multi-factor. 1 IV, more than 1 DV: Multivariate, One-way/Single Factor. 2 IVs, more than 1 DV: Multivariate, Two-way/Two-factor. More than 1 IV, more than 1 DV: Multivariate, Multi-way/Multi-factor.",
       "images": [
         "slides/qtm--module-6/img-3b13c10deb451497.png"
       ],
@@ -587,7 +587,7 @@
       "tables": [],
       "notes": "",
       "charts": [],
-      "visual_text": "",
+      "visual_text": "Heading: Formulae. A set of formula boxes. F = Variance between groups / Variance within groups. F = MSbetween / MSwithin, with labels: MSbetween is the Mean Sum of Squares between groups (variance between groups) and MSwithin is the Mean Sum of Squares within groups (variance within groups). MSbetween = SSbetween / dfbetween, with dfbetween = k - 1. MSwithin = SSwithin / dfwithin, with dfwithin = nT - k. Key: k = the number of groups (or levels); nT = the total number of participants across all groups (or levels); df = degrees of freedom, an estimation of sample size.",
       "images": [
         "slides/qtm--module-6/img-a29d1afc19fed3aa.wmf",
         "slides/qtm--module-6/img-7f868f05949fc554.wmf"
@@ -605,7 +605,7 @@
       "tables": [],
       "notes": "",
       "charts": [],
-      "visual_text": "",
+      "visual_text": "Heading: Formulae. Within Groups Variance = Σ(Xij - μj)² / (n - k). Between Groups Variance = Σ nj(μj - μt)² / (k - 1). ANOVA F statistic = Between Groups Variance / Within Groups Variance.",
       "images": [
         "slides/qtm--module-6/img-346006572ed6e1e4.wmf"
       ],
@@ -622,7 +622,7 @@
       "tables": [],
       "notes": "",
       "charts": [],
-      "visual_text": "",
+      "visual_text": "Heading: F-table. A table titled F-table of Critical Values of α = 0.05 for F(df1, df2). Columns are DF1 = 1 to 10, then 12, 15, 20, 24, 30, 40, 60, 120 and ∞; rows are DF2 = 1 to 30, then 40, 60, 120 and ∞. Sample entries: DF2 = 1 row starts 161.45, 199.50, 215.71. DF2 = 9 row reads 5.12, 4.26, 3.86, 3.63, 3.48 for DF1 = 1 to 5. DF2 = 2 row starts 18.51, 19.00. The ∞ row starts 3.84, 3.00, 2.60 and ends 1.00. So F(2, 9) at α = 0.05 is 4.26.",
       "images": [
         "slides/qtm--module-6/img-85c292707658fdab.png"
       ],
@@ -827,7 +827,7 @@
       "tables": [],
       "notes": "",
       "charts": [],
-      "visual_text": "",
+      "visual_text": "Text only: one bullet pointing to an Excel sheet titled Two-Way ANOVA.xlsx. No picture content.",
       "images": [],
       "render": "slides/qtm--module-6/slide-024.jpg",
       "needs_visual": true,
@@ -867,7 +867,7 @@
       "tables": [],
       "notes": "",
       "charts": [],
-      "visual_text": "",
+      "visual_text": "Below the bullets is the equation Y = a + bX. Where: Y: Dependent variable (outcome); X: Independent variable (predictor); a: Intercept (value of Y when X = 0); b: Slope (change in Y for a unit change in X).",
       "images": [
         "slides/qtm--module-6/img-91d5c4340a437b9f.png"
       ],
@@ -901,7 +901,7 @@
       "tables": [],
       "notes": "",
       "charts": [],
-      "visual_text": "",
+      "visual_text": "Formula pictures between the bullets. Y = a + bX. b = [NΣXY - (ΣX)(ΣY)] / [NΣX² - (ΣX)²]. a = (ΣY - bΣX) / N. Where N = number of observations, or years; X = a year index (decade); Y = population size for given census years. A second formula for the slope: b = Σ(X - X̄)(Y - Ȳ) / Σ(X - X̄)².",
       "images": [
         "slides/qtm--module-6/img-d4c3680300de106d.wmf"
       ],
@@ -927,7 +927,7 @@
       "tables": [],
       "notes": "",
       "charts": [],
-      "visual_text": "",
+      "visual_text": "Formula pictures on the left: SSxy = Σxy - (Σx)(Σy)/n; SSxx = Σx² - (Σx)²/n; SSyy = Σy² - (Σy)²/n. On the right: b = SSxy / SSxx and r = SSxy / √(SSxx SSyy). The two bullets about R-square sit below them.",
       "images": [],
       "render": "slides/qtm--module-6/slide-027.jpg",
       "needs_visual": false,
@@ -982,7 +982,7 @@
       ],
       "notes": "",
       "charts": [],
-      "visual_text": "",
+      "visual_text": "Text and table only, no picture content beyond the data table (Advertising Spend X: 10, 20, 30, 40, 50; Sales Y: 25, 40, 50, 55, 65).",
       "images": [],
       "render": "slides/qtm--module-6/slide-028.jpg",
       "needs_visual": false,
@@ -1143,7 +1143,7 @@
       "tables": [],
       "notes": "",
       "charts": [],
-      "visual_text": "",
+      "visual_text": "The formula is printed as a picture: X² = Σ (Observed value - Expected value)² / Expected value, and df = (r - 1) x (c - 1).",
       "images": [],
       "render": "slides/qtm--module-6/slide-032.jpg",
       "needs_visual": false,
@@ -1163,7 +1163,7 @@
       "tables": [],
       "notes": "",
       "charts": [],
-      "visual_text": "",
+      "visual_text": "The formula is printed as a picture: fe = (nr × nc) / n, where nr = total number in the row, nc = total number in the column, and n = total sample size.",
       "images": [
         "slides/qtm--module-6/img-556bdd8eee9bbfbf.png"
       ],
@@ -1180,7 +1180,7 @@
       "tables": [],
       "notes": "",
       "charts": [],
-      "visual_text": "",
+      "visual_text": "Heading: Chi-Square Table. Columns are headed Significance level (α): .99, .975, .95, .9, .1, .05, .025, .01, with the .05 column shaded green. Rows are Degrees of freedom (df) 1 to 30, then 40, 50, 60, 70, 80, 100 and 1000. Sample rows: df 1 reads -------, 0.001, 0.004, 0.016, 2.706, 3.841, 5.024, 6.635. df 2 reads 0.020, 0.051, 0.103, 0.211, 4.605, 5.991, 7.378, 9.210. df 3 reads 0.115, 0.216, 0.352, 0.584, 6.251, 7.815, 9.348, 11.345. df 1000 reads 70.065, 74.222, 77.929, 82.358, 118.498, 124.342, 129.561, 135.807.",
       "images": [
         "slides/qtm--module-6/img-9d256cdb72e81c57.wmf"
       ],
@@ -1230,7 +1230,7 @@
       "tables": [],
       "notes": "",
       "charts": [],
-      "visual_text": "",
+      "visual_text": "At the top is a cross-tabulation. Columns, headed Watch preference: digital, analog, undecided. Rows, headed Age: under 30 and over 30. Under 30: digital 90, analog 40, undecided 10. Over 30: digital 10, analog 40, undecided 10. The bullets below match the slide text.",
       "images": [
         "slides/qtm--module-6/img-5686f3b9341d7b11.png"
       ],

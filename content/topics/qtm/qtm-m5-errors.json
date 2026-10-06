@@ -1,0 +1,395 @@
+{
+  "id": "qtm-m5-errors",
+  "subject_id": "qtm",
+  "deck_id": "qtm--module-5",
+  "title": "Not rejecting versus accepting, and Type I and Type II errors",
+  "order": 504,
+  "summary": "The legal system comparison, why we never say we accept H0, and the two kinds of error with the decision table (α, β and power).",
+  "est_minutes": 15,
+  "difficulty": 2,
+  "source_refs": [
+    "qtm--module-5#12",
+    "qtm--module-5#13",
+    "qtm--module-5#14"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "qtm-m5-errors-c1",
+      "heading": "Like a court: do not reject, never accept",
+      "explanation_md": "Hypothesis testing is **similar to the legal system**, which **rejects the innocence of the accused only if evidence of guilt is beyond a reasonable doubt**.\n\nIn this comparison, H0 plays the part of the accused's innocence: it stands unless the evidence against it is strong.\n\nSo, **if the test statistic is not large enough** to convince us to reject H0, **we do not say that we accept H0**. We say **we do not reject H0**, because **the evidence against H0 is not strong enough**.",
+      "example_ids": [
+        "qtm-ex-m5-legal-system"
+      ],
+      "key_terms": [],
+      "exam_line": "Like the legal system (reject innocence only beyond reasonable doubt): if the evidence is not strong enough we say we do not reject H0, never that we accept H0.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m5-errors-q-61ee86af",
+          "type": "true_false",
+          "stem": "If the test statistic is not large enough, we say we accept H0.",
+          "options": [],
+          "answer": "False",
+          "accept": [],
+          "explanation": "We say we do not reject H0, because the evidence against it is not strong enough.",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-5#12"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m5-errors-q-04e00dcb",
+          "type": "mcq",
+          "stem": "Hypothesis testing is compared on the slide to:",
+          "options": [
+            "The legal system",
+            "A medical check-up",
+            "A sports match"
+          ],
+          "answer": "The legal system",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-5#12"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m5-errors-q-167bc830",
+          "type": "fill",
+          "stem": "The legal system rejects the innocence of the accused only if evidence of guilt is beyond a reasonable ____.",
+          "options": [],
+          "answer": "doubt",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-5#12"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-5#12"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m5-errors-c2",
+      "heading": "Type I error and alpha",
+      "explanation_md": "A **Type I error** is **rejecting a true null hypothesis**. The null hypothesis is actually true, but the business researcher decides it is not.\n\n- The **probability of a Type I error** is called **alpha (α)**, the **level of significance**.\n- **Alpha equals the area under the curve in the rejection region beyond the critical value(s)**.\n- **The value of alpha is always set before the experiment or study is undertaken.**\n\nSo the shaded tails you saw in the rejection region pictures are exactly α: the chance of rejecting the null hypothesis when it was true all along.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Type I error",
+          "meaning": "Rejecting a true null hypothesis.",
+          "source_ref": "qtm--module-5#13"
+        },
+        {
+          "term": "Alpha (α)",
+          "meaning": "The probability of a Type I error, also called the level of significance; the area in the rejection region beyond the critical value(s).",
+          "source_ref": "qtm--module-5#13"
+        }
+      ],
+      "exam_line": "Type I error = rejecting a true null hypothesis; its probability is α (level of significance), the area beyond the critical value(s), always set before the study.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m5-errors-q-c3b67689",
+          "type": "mcq",
+          "stem": "A Type I error is committed when:",
+          "options": [
+            "A true null hypothesis is rejected",
+            "A false null hypothesis is not rejected",
+            "A true null hypothesis is not rejected"
+          ],
+          "answer": "A true null hypothesis is rejected",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-5#13"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m5-errors-q-49e3152a",
+          "type": "true_false",
+          "stem": "The value of alpha is set after the data are collected.",
+          "options": [],
+          "answer": "False",
+          "accept": [],
+          "explanation": "Alpha is always set before the experiment or study is undertaken.",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-5#13"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m5-errors-q-19afbe25",
+          "type": "mcq",
+          "stem": "Alpha equals which area under the curve?",
+          "options": [
+            "The area in the rejection region beyond the critical value(s)",
+            "The area in the nonrejection region",
+            "The area to the left of the mean"
+          ],
+          "answer": "The area in the rejection region beyond the critical value(s)",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-5#13"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-5#13"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m5-errors-c3",
+      "heading": "Type II error and the decision table",
+      "explanation_md": "A **Type II error** is committed when a business researcher **fails to reject a false null hypothesis**.\n\nThe slide puts every possibility in one table. Columns are the **state of nature** (what is really true); rows are the **action** you take.\n\n| Action | Null true | Null false |\n|---|---|---|\n| Fail to reject null | Correct decision | **Type II error (β)** |\n| Reject null | **Type I error (α)** | Correct decision (**power**) |\n\nRead it like this: α lives where you reject a true null; β lives where you keep a false null; **power** is the good outcome of rejecting a null that really is false.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Type II error (β)",
+          "meaning": "Failing to reject a false null hypothesis.",
+          "source_ref": "qtm--module-5#14"
+        },
+        {
+          "term": "Power",
+          "meaning": "The correct decision of rejecting a null hypothesis that is false.",
+          "source_ref": "qtm--module-5#14"
+        }
+      ],
+      "exam_line": "Type II error (β) = failing to reject a false null hypothesis; rejecting a false null hypothesis is the correct decision called power.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m5-errors-q-0866aba7",
+          "type": "mcq",
+          "stem": "In the decision table, what is 'fail to reject null' when the null is false?",
+          "options": [
+            "Type II error (β)",
+            "Type I error (α)",
+            "Correct decision (power)"
+          ],
+          "answer": "Type II error (β)",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-5#14"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m5-errors-q-4095474b",
+          "type": "mcq",
+          "stem": "Which cell of the table is labelled power?",
+          "options": [
+            "Reject null when the null is false",
+            "Reject null when the null is true",
+            "Fail to reject null when the null is true"
+          ],
+          "answer": "Reject null when the null is false",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-5#14"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m5-errors-q-6f2b4325",
+          "type": "fill",
+          "stem": "The probability of a Type II error is shown by the symbol ____.",
+          "options": [],
+          "answer": "β",
+          "accept": [
+            "beta"
+          ],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-5#14"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-5#14"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "qtm-m5-errors-f1",
+      "front": "Why do we say 'do not reject H0' rather than 'accept H0'?",
+      "back": "Like the legal system, we reject only on strong evidence; if the test statistic is not large enough, the evidence against H0 is simply not strong enough.",
+      "kind": "fact",
+      "source_refs": [
+        "qtm--module-5#12"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m5-errors-f2",
+      "front": "Type I error",
+      "back": "Rejecting a true null hypothesis; probability α (level of significance).",
+      "kind": "term",
+      "source_refs": [
+        "qtm--module-5#13"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m5-errors-f3",
+      "front": "When is alpha set?",
+      "back": "Always before the experiment or study is undertaken.",
+      "kind": "fact",
+      "source_refs": [
+        "qtm--module-5#13"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m5-errors-f4",
+      "front": "Type II error",
+      "back": "Failing to reject a false null hypothesis; shown as β.",
+      "kind": "term",
+      "source_refs": [
+        "qtm--module-5#14"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m5-errors-f5",
+      "front": "Power",
+      "back": "Correct decision: rejecting a null hypothesis that is false.",
+      "kind": "term",
+      "source_refs": [
+        "qtm--module-5#14"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m5-errors-f6",
+      "front": "Decision table: four cells",
+      "back": "Null true + fail to reject: correct; null true + reject: Type I (α); null false + fail to reject: Type II (β); null false + reject: correct (power).",
+      "kind": "list",
+      "source_refs": [
+        "qtm--module-5#14"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [],
+  "explain_back": {
+    "prompt": "Explain Type I and Type II errors with the decision table, and say why we never 'accept' H0.",
+    "rubric": [
+      {
+        "point": "Like the legal system: if evidence is not strong enough we do not reject H0, we never say we accept it",
+        "source_ref": "qtm--module-5#12"
+      },
+      {
+        "point": "Type I error: rejecting a true H0; probability α, the level of significance, set before the study",
+        "source_ref": "qtm--module-5#13"
+      },
+      {
+        "point": "Type II error (β): failing to reject a false H0",
+        "source_ref": "qtm--module-5#14"
+      },
+      {
+        "point": "Rejecting a false H0 is the correct decision called power",
+        "source_ref": "qtm--module-5#14"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

@@ -1,0 +1,413 @@
+{
+  "id": "qtm-m5-significance-and-tails",
+  "subject_id": "qtm",
+  "deck_id": "qtm--module-5",
+  "title": "Significance level, p-value, tails and rejection regions",
+  "order": 503,
+  "summary": "Alpha, confidence intervals and confidence level, the p-value rule, two-tailed versus one-tailed tests, and the rejection and nonrejection regions set by critical values.",
+  "est_minutes": 20,
+  "difficulty": 2,
+  "source_refs": [
+    "qtm--module-5#9",
+    "qtm--module-5#10",
+    "qtm--module-5#11"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "qtm-m5-significance-and-tails-c1",
+      "heading": "Significance level (α), confidence interval and p-value",
+      "explanation_md": "Three ideas that work together:\n\n**Significance level (α):** the **threshold probability for rejecting the null hypothesis**, **commonly set at 0.05**. It is the **maximum risk of rejecting a true null hypothesis**.\n\n**Confidence interval (CI):** a **range of plausible values for a population parameter** (like a mean or a proportion). A **95% confidence interval** means that if we repeated the study many times, **about 95% of the calculated intervals would contain the true parameter**.\n\n**Confidence level = 1 − α.** So 0.95 goes with α = 0.05.\n\n**p-value:** **how likely it is to observe the data (or something more extreme) if the null hypothesis is true**.\n\n**The decision rule:** if the **p-value is less than or equal to α**, the data are unlikely under the null, so we **reject the null hypothesis**.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Significance level (α)",
+          "meaning": "The threshold probability for rejecting the null hypothesis, commonly 0.05; the maximum risk of rejecting a true null hypothesis.",
+          "source_ref": "qtm--module-5#9"
+        },
+        {
+          "term": "Confidence interval (CI)",
+          "meaning": "A range of plausible values for a population parameter, such as a mean or proportion.",
+          "source_ref": "qtm--module-5#9"
+        },
+        {
+          "term": "p-value",
+          "meaning": "How likely it is to observe the data (or something more extreme) if the null hypothesis is true.",
+          "source_ref": "qtm--module-5#9"
+        }
+      ],
+      "exam_line": "α is the threshold for rejecting the null hypothesis (commonly 0.05); confidence level = 1 − α; reject the null hypothesis when p-value ≤ α.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m5-significance-and-tails-q-6a65b9aa",
+          "type": "mcq",
+          "stem": "If the p-value is less than or equal to α, what do we do?",
+          "options": [
+            "Reject the null hypothesis",
+            "Fail to reject the null hypothesis",
+            "Increase the sample size"
+          ],
+          "answer": "Reject the null hypothesis",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-5#9"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m5-significance-and-tails-q-15df963a",
+          "type": "fill",
+          "stem": "The confidence level is expressed as 1 − ____.",
+          "options": [],
+          "answer": "α",
+          "accept": [
+            "alpha",
+            "a"
+          ],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-5#9"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m5-significance-and-tails-q-295b82fa",
+          "type": "mcq",
+          "stem": "What does a 95% confidence interval mean, according to the slide?",
+          "options": [
+            "If the study were repeated many times, about 95% of the intervals would contain the true parameter",
+            "There is a 95% chance the sample mean is correct",
+            "95% of the data lie inside the interval"
+          ],
+          "answer": "If the study were repeated many times, about 95% of the intervals would contain the true parameter",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-5#9"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-5#9"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m5-significance-and-tails-c2",
+      "heading": "Two-tailed and one-tailed tests",
+      "explanation_md": "**Two-tailed test (non-directional):** considers **two possibilities**. In the slide's example, the average could be **more than 60 mpg or less than 60**. The **rejection region is divided into two tails**.\n- H0: parameter = value; Ha: parameter ≠ value.\n- Used when we **care about any deviation** from the value.\n- Picture: cut-offs at **Z = -1.96 and Z = 1.96**, with **.025** in each tail.\n\n**One-tailed test (directional):** places the **entire probability of an unlikely outcome into the tail specified by the alternative hypothesis**.\n- Ha: parameter > value, or Ha: parameter < value.\n- Used when **the direction of the effect matters**.\n- Picture: one cut-off at **Z = 1.645**, with all of **α = .05** in the right tail.",
+      "example_ids": [
+        "qtm-ex-m5-mpg-test"
+      ],
+      "key_terms": [
+        {
+          "term": "Two-tailed test",
+          "meaning": "Non-directional test; Ha: parameter ≠ value; the rejection region is split between both tails.",
+          "source_ref": "qtm--module-5#10"
+        },
+        {
+          "term": "One-tailed test",
+          "meaning": "Directional test; Ha: parameter > value or < value; all of the unlikely-outcome probability sits in one tail.",
+          "source_ref": "qtm--module-5#10"
+        }
+      ],
+      "exam_line": "Two-tailed (≠): rejection region split, Z = ±1.96 with .025 each side; one-tailed (> or <): all α = .05 in one tail, Z = 1.645.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m5-significance-and-tails-q-6696ee9f",
+          "type": "mcq",
+          "stem": "In the slide's two-tailed picture, what are the cut-off Z values?",
+          "options": [
+            "-1.96 and 1.96",
+            "1.645 only",
+            "-1.645 and 1.645"
+          ],
+          "answer": "-1.96 and 1.96",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-5#10"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m5-significance-and-tails-q-e36ae10d",
+          "type": "mcq",
+          "stem": "When is a one-tailed test used, according to the slide?",
+          "options": [
+            "When the direction of the effect matters",
+            "When we care about any deviation from the value",
+            "When H0 contains ≠"
+          ],
+          "answer": "When the direction of the effect matters",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-5#10"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m5-significance-and-tails-q-d3718947",
+          "type": "true_false",
+          "stem": "A two-tailed test is also called a directional test.",
+          "options": [],
+          "answer": "False",
+          "accept": [],
+          "explanation": "A two-tailed test is non-directional; a one-tailed test is directional.",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-5#10"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-5#10"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m5-significance-and-tails-c3",
+      "heading": "Rejection and nonrejection regions",
+      "explanation_md": "Every possible outcome of a study falls into one of **two groups**:\n1. outcomes that **cause the rejection** of the null hypothesis;\n2. outcomes that **do not cause the rejection** of the null hypothesis.\n\nThe slide asks the key question: **when is the sample mean so far away from the population mean that the null hypothesis is rejected?**\n\nThe answer is drawn on a curve centred on **μ = 40 ounces** (the flour packages again). The big middle area is the **nonrejection region**. A **critical value** on each side marks where it ends. Beyond each critical value, out in the tails, is a **rejection region**. A sample mean that lands there is far enough from 40 ounces to reject the null hypothesis.",
+      "example_ids": [
+        "qtm-ex-m5-flour-packages"
+      ],
+      "key_terms": [
+        {
+          "term": "Critical value",
+          "meaning": "The cut-off point that separates the nonrejection region from a rejection region.",
+          "source_ref": "qtm--module-5#11"
+        },
+        {
+          "term": "Rejection region",
+          "meaning": "The tail area beyond a critical value; outcomes here cause the null hypothesis to be rejected.",
+          "source_ref": "qtm--module-5#11"
+        }
+      ],
+      "exam_line": "Outcomes split into those that reject the null hypothesis (rejection region, beyond the critical values) and those that do not (nonrejection region in the middle).",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m5-significance-and-tails-q-75befdd4",
+          "type": "mcq",
+          "stem": "In the flour picture, where does a sample mean have to fall for the null hypothesis to be rejected?",
+          "options": [
+            "Beyond a critical value, in a rejection region",
+            "In the middle, near μ = 40 ounces",
+            "Exactly on μ = 40 ounces"
+          ],
+          "answer": "Beyond a critical value, in a rejection region",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-5#11"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m5-significance-and-tails-q-26fd29f7",
+          "type": "fill",
+          "stem": "The large middle area of the curve is called the ____ region.",
+          "options": [],
+          "answer": "nonrejection",
+          "accept": [
+            "non-rejection",
+            "non rejection"
+          ],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-5#11"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-5#11"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "qtm-m5-significance-and-tails-f1",
+      "front": "Significance level (α)",
+      "back": "Threshold probability for rejecting the null hypothesis, commonly 0.05; the maximum risk of rejecting a true null hypothesis.",
+      "kind": "term",
+      "source_refs": [
+        "qtm--module-5#9"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m5-significance-and-tails-f2",
+      "front": "Confidence level formula",
+      "back": "Confidence level = 1 − α (e.g. 0.95 corresponds to α = 0.05).",
+      "kind": "formula",
+      "source_refs": [
+        "qtm--module-5#9"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m5-significance-and-tails-f3",
+      "front": "p-value",
+      "back": "How likely it is to observe the data (or something more extreme) if the null hypothesis is true.",
+      "kind": "term",
+      "source_refs": [
+        "qtm--module-5#9"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m5-significance-and-tails-f4",
+      "front": "p-value decision rule",
+      "back": "If p-value ≤ α, reject the null hypothesis.",
+      "kind": "fact",
+      "source_refs": [
+        "qtm--module-5#9"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m5-significance-and-tails-f5",
+      "front": "Two-tailed test",
+      "back": "Non-directional; H0: parameter = value, Ha: parameter ≠ value; rejection region split into two tails (Z = ±1.96, .025 each).",
+      "kind": "term",
+      "source_refs": [
+        "qtm--module-5#10"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m5-significance-and-tails-f6",
+      "front": "One-tailed test",
+      "back": "Directional; Ha: parameter > value or < value; all of α in one tail (Z = 1.645 for α = .05).",
+      "kind": "term",
+      "source_refs": [
+        "qtm--module-5#10"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m5-significance-and-tails-f7",
+      "front": "Two groups of statistical outcomes",
+      "back": "Those that cause rejection of the null hypothesis and those that do not.",
+      "kind": "list",
+      "source_refs": [
+        "qtm--module-5#11"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [],
+  "explain_back": {
+    "prompt": "Explain α, the p-value rule, and the difference between two-tailed and one-tailed tests, using the rejection region picture.",
+    "rubric": [
+      {
+        "point": "α is the threshold probability for rejecting H0, commonly 0.05, the maximum risk of rejecting a true H0",
+        "source_ref": "qtm--module-5#9"
+      },
+      {
+        "point": "Reject H0 when the p-value is less than or equal to α",
+        "source_ref": "qtm--module-5#9"
+      },
+      {
+        "point": "Two-tailed: Ha ≠, rejection region split into two tails (Z = ±1.96)",
+        "source_ref": "qtm--module-5#10"
+      },
+      {
+        "point": "One-tailed: Ha > or <, all of α in one tail (Z = 1.645)",
+        "source_ref": "qtm--module-5#10"
+      },
+      {
+        "point": "Critical values separate the nonrejection region from the rejection regions",
+        "source_ref": "qtm--module-5#11"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

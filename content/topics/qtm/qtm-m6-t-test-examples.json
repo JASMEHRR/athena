@@ -1,0 +1,452 @@
+{
+  "id": "qtm-m6-t-test-examples",
+  "subject_id": "qtm",
+  "deck_id": "qtm--module-6",
+  "title": "Worked t-tests: sugar bars, two classes, MBA sections and pulse rates",
+  "order": 603,
+  "summary": "The deck's worked one-sample (sugar in energy bars), independent two-sample (Class A vs Class B) and paired (pulse before and after training) t-tests, plus the MBA sections practice task.",
+  "est_minutes": 30,
+  "difficulty": 3,
+  "source_refs": [
+    "qtm--module-6#8",
+    "qtm--module-6#9",
+    "qtm--module-6#10",
+    "qtm--module-6#11"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "qtm-m6-t-test-examples-c1",
+      "heading": "One-sample t-test: sugar in energy bars",
+      "explanation_md": "**Problem:** a dietician says the average sugar in an energy bar should be **15g**. You sample **10 bars**: **mean = 14g**, **standard deviation = 2g**. Is there evidence that the mean sugar is **different from 15g** at **α = 0.05**?\n\n*Different from* means a **two-tailed** test: the null hypothesis is that the mean is 15g, the alternative that it is not.\n\n**Calculation:**\n\nt = (14 − 15) / (2/√10) = −1/0.632 ≈ **−1.58**\n\n**Degrees of freedom:** df = **9**.\n\n**Critical t** (two-tailed, α = 0.05): **±2.685**.\n\n**Decision:** |t| = 1.58 is smaller than the critical value, so **fail to reject the null hypothesis**. The sample does not give enough evidence that the mean sugar differs from 15g.",
+      "example_ids": [
+        "qtm-ex-m6-sugar-bars"
+      ],
+      "key_terms": [],
+      "exam_line": "Sugar bars: t = (14 − 15)/(2/√10) = −1/0.632 ≈ −1.58, df = 9, critical ±2.685; |t| is smaller, so fail to reject the null hypothesis.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m6-t-test-examples-q-c6811419",
+          "type": "fill",
+          "stem": "In the sugar example, t = −1/0.632 ≈ ____.",
+          "options": [],
+          "answer": "-1.58",
+          "accept": [
+            "−1.58"
+          ],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-6#8"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m6-t-test-examples-q-c67f965b",
+          "type": "mcq",
+          "stem": "What is the decision in the sugar example?",
+          "options": [
+            "Fail to reject the null hypothesis",
+            "Reject the null hypothesis",
+            "Accept the alternative hypothesis"
+          ],
+          "answer": "Fail to reject the null hypothesis",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-6#8"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m6-t-test-examples-q-0cb3cee7",
+          "type": "mcq",
+          "stem": "How many degrees of freedom does the sugar example use?",
+          "options": [
+            "9",
+            "10",
+            "8"
+          ],
+          "answer": "9",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-6#8"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-6#8"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-t-test-examples-c2",
+      "heading": "Independent two-sample t-test: Class A vs Class B",
+      "explanation_md": "**Problem:** compare test scores between two classes.\n- **Class A:** n = 15, mean = 78, SD = 10\n- **Class B:** n = 14, mean = 85, SD = 8\n\n**Step 1: Pooled SD.**\n\nsp = √[((14)(10²) + (13)(8²)) / 27] = √[(1400 + 832) / 27] = √82.96 ≈ **9.1**\n\n(14 is n1 − 1, 13 is n2 − 1 and 27 is n1 + n2 − 2.)\n\n**Step 2: Compute t.**\n\nt = (78 − 85) / (9.1 √(1/15 + 1/14)) = −7 / (9.1 × 0.38) = −7/3.46 ≈ **−2.02**\n\n**Degrees of freedom** = 15 + 14 − 2 = **27**.\n\n**Critical t** (two-tailed, α = 0.05) ≈ **±2.373**.\n\n**Decision:** |t| = 2.02 is smaller than the critical value, so **fail to reject the null hypothesis**.",
+      "example_ids": [
+        "qtm-ex-m6-class-scores"
+      ],
+      "key_terms": [],
+      "exam_line": "Two classes: sp = √[(1400 + 832)/27] ≈ 9.1; t = −7/3.46 ≈ −2.02; df = 27; critical ±2.373; fail to reject the null hypothesis.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m6-t-test-examples-q-210954e2",
+          "type": "mcq",
+          "stem": "What are the degrees of freedom in the two-class example?",
+          "options": [
+            "27",
+            "14",
+            "13"
+          ],
+          "answer": "27",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-6#9"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m6-t-test-examples-q-e13ce53c",
+          "type": "fill",
+          "stem": "In the two-class example the pooled standard deviation sp is about ____.",
+          "options": [],
+          "answer": "9.1",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-6#9"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m6-t-test-examples-q-efd5d5fb",
+          "type": "mcq",
+          "stem": "What t value does the slide compute for Class A vs Class B?",
+          "options": [
+            "About −2.02",
+            "About −1.58",
+            "About 2.69"
+          ],
+          "answer": "About −2.02",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-6#9",
+            "qtm--module-6#8",
+            "qtm--module-6#11"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-6#9"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-t-test-examples-c3",
+      "heading": "Practice: three MBA-I sections",
+      "explanation_md": "The deck sets a practice task: **compare the performance of the three sections of MBA-I year in their QTM MST** using an **independent two-sample t-test**. The data are in **Tutorial 2**.\n\nThe steps are the ones you just saw for Class A and Class B: pooled standard deviation, then t, then df = n1 + n2 − 2, then compare |t| with the critical t from the table.",
+      "example_ids": [
+        "qtm-ex-m6-mba-sections"
+      ],
+      "key_terms": [],
+      "exam_line": "Practice: compare three MBA-I sections' QTM MST performance with independent two-sample t-tests (data in Tutorial 2).",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m6-t-test-examples-q-6b5242be",
+          "type": "mcq",
+          "stem": "Which test does the deck ask you to use to compare the three MBA-I sections?",
+          "options": [
+            "Independent two-sample t-test",
+            "Paired t-test",
+            "Chi-square test"
+          ],
+          "answer": "Independent two-sample t-test",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-6#10",
+            "qtm--module-6#31"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m6-t-test-examples-q-f3e1640e",
+          "type": "true_false",
+          "stem": "The data for the MBA-I sections task are in Tutorial 2.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-6#10"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-6#10"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-t-test-examples-c4",
+      "heading": "Paired t-test: pulse rate before and after training",
+      "explanation_md": "**Problem:** a fitness trainer wants to see if a training program **reduces pulse rate**. **6 clients:** before (72, 75, 70, 80, 78, 77), after (70, 76, 69, 78, 76, 75).\n\n**Set-up:** n = 6 clients. Differences (Before − After): **2, −1, 1, 2, 2, 2**. Mean difference **d̄ = 1.33**. Standard deviation of differences **sd = 1.211**.\n\n**Step 1: Hypotheses.**\n- H0: the program has **no effect** or does not reduce pulse rate: **H0: μd = 0**\n- H1: the program **reduces** pulse rate: **H1: μd > 0**\n\n**Step 2: t-statistic.**\n\nt = (d̄ − μ0) / (sd/√n) = (1.33 − 0) / (1.211/√6) = 1.33/0.494 ≈ **2.69**\n\n**Step 3: Degrees of freedom.** df = n − 1 = 6 − 1 = **5**.\n\n**Step 4: Critical value and p-value.** One-tailed, α = 0.05, df = 5: critical t ≈ **2.571**. Calculated t = 2.69 is larger, so **reject the null hypothesis**. The one-tailed **p-value is about 0.021**, less than 0.05.\n\n**Step 5: Conclusion.** There is **statistically significant evidence at the 5% level** that the training program **reduces pulse rate**.",
+      "example_ids": [
+        "qtm-ex-m6-pulse-rate"
+      ],
+      "key_terms": [],
+      "exam_line": "Pulse: differences 2, −1, 1, 2, 2, 2; d̄ = 1.33, sd = 1.211; t = 1.33/0.494 ≈ 2.69, df = 5; one-tailed critical 2.571, p ≈ 0.021; reject H0: the program reduces pulse rate.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m6-t-test-examples-q-12a1d159",
+          "type": "mcq",
+          "stem": "What is the alternative hypothesis in the pulse rate example?",
+          "options": [
+            "H1: μd > 0",
+            "H1: μd = 0",
+            "H1: μd ≠ 0"
+          ],
+          "answer": "H1: μd > 0",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-6#11"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m6-t-test-examples-q-4fa02537",
+          "type": "fill",
+          "stem": "In the pulse example, t = 1.33/0.494 ≈ ____.",
+          "options": [],
+          "answer": "2.69",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-6#11"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m6-t-test-examples-q-fbcd8154",
+          "type": "mcq",
+          "stem": "What p-value does the slide give for the pulse rate test?",
+          "options": [
+            "About 0.021",
+            "About 0.05",
+            "About 0.494"
+          ],
+          "answer": "About 0.021",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-6#11"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-6#11"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "qtm-m6-t-test-examples-f1",
+      "front": "Sugar bars: t and decision",
+      "back": "t = (14 − 15)/(2/√10) ≈ −1.58; df = 9; critical ±2.685; fail to reject the null hypothesis.",
+      "kind": "example",
+      "source_refs": [
+        "qtm--module-6#8"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-t-test-examples-f2",
+      "front": "Two classes: pooled SD",
+      "back": "sp = √[((14)(10²) + (13)(8²))/27] = √[(1400 + 832)/27] ≈ 9.1",
+      "kind": "formula",
+      "source_refs": [
+        "qtm--module-6#9"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-t-test-examples-f3",
+      "front": "Two classes: t and decision",
+      "back": "t = −7/(9.1 × 0.38) = −7/3.46 ≈ −2.02; df = 27; critical ±2.373; fail to reject the null hypothesis.",
+      "kind": "example",
+      "source_refs": [
+        "qtm--module-6#9"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-t-test-examples-f4",
+      "front": "Pulse rate: differences and summary",
+      "back": "Differences 2, −1, 1, 2, 2, 2; d̄ = 1.33; sd = 1.211; n = 6.",
+      "kind": "example",
+      "source_refs": [
+        "qtm--module-6#11"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-t-test-examples-f5",
+      "front": "Pulse rate: hypotheses",
+      "back": "H0: μd = 0 (no effect); H1: μd > 0 (program reduces pulse rate).",
+      "kind": "example",
+      "source_refs": [
+        "qtm--module-6#11"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-t-test-examples-f6",
+      "front": "Pulse rate: t, df and decision",
+      "back": "t = 1.33/0.494 ≈ 2.69; df = 5; one-tailed critical 2.571; p ≈ 0.021; reject the null hypothesis.",
+      "kind": "example",
+      "source_refs": [
+        "qtm--module-6#11"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [],
+  "explain_back": {
+    "prompt": "Solve the paired t-test for the pulse rate example step by step, and say how the sugar example differs.",
+    "rubric": [
+      {
+        "point": "Differences (before − after) 2, −1, 1, 2, 2, 2; d̄ = 1.33; sd = 1.211",
+        "source_ref": "qtm--module-6#11"
+      },
+      {
+        "point": "H0: μd = 0 versus H1: μd > 0 (one-tailed)",
+        "source_ref": "qtm--module-6#11"
+      },
+      {
+        "point": "t = 1.33/(1.211/√6) = 1.33/0.494 ≈ 2.69 with df = 5",
+        "source_ref": "qtm--module-6#11"
+      },
+      {
+        "point": "2.69 > critical 2.571 and p ≈ 0.021 < 0.05, so reject the null hypothesis: the program reduces pulse rate",
+        "source_ref": "qtm--module-6#11"
+      },
+      {
+        "point": "Sugar example is a one-sample, two-tailed test: t ≈ −1.58, df = 9, fail to reject",
+        "source_ref": "qtm--module-6#8"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}
