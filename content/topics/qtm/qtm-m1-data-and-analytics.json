@@ -350,7 +350,408 @@
       "retired": false
     }
   ],
-  "questions": [],
+  "questions": [
+    {
+      "id": "qtm-m1-data-and-analytics-q-31f7776c",
+      "type": "mcq",
+      "stem": "Shark attacks and ice-cream sales rise and fall together across the year. Which reading of this chart is correct?",
+      "options": [
+        "Summer drives both, so the link between them is a spurious correlation",
+        "Ice-cream sales cause shark attacks to rise",
+        "Shark attacks cause ice-cream sales to rise",
+        "The two lines peak in different months, so they are unrelated"
+      ],
+      "answer": "Summer drives both, so the link between them is a spurious correlation",
+      "accept": [],
+      "explanation": "The follow-up slide shows summer pushing up both lines; neither one causes the other.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "interpret",
+      "source_refs": [
+        "qtm--module-1#3",
+        "qtm--module-1#4"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-data-and-analytics-q-085e4ebb",
+      "type": "mcq",
+      "stem": "In the employee attrition story, which group did the statistician's model flag as leaving quickly?",
+      "options": [
+        "Employees below the age of 30 who live 20+ miles from work",
+        "Employees above the age of 30 who live 20+ miles from work",
+        "Employees below the age of 30 who live close to work",
+        "Every employee who joined the company in the scenic setting"
+      ],
+      "answer": "Employees below the age of 30 who live 20+ miles from work",
+      "accept": [],
+      "explanation": "Her conclusion was that employees below 30 living 20+ miles away do not stay for long.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "recall",
+      "source_refs": [
+        "qtm--module-1#5"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-data-and-analytics-q-8c841984",
+      "type": "mcq",
+      "stem": "According to the slide on the role of analytics in modern management, analytics transforms data into:",
+      "options": [
+        "actionable insights",
+        "population parameters",
+        "random samples",
+        "qualitative opinions"
+      ],
+      "answer": "actionable insights",
+      "accept": [],
+      "explanation": "The slide says analytics transforms data into actionable insights, helped by visualisation and dashboards.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "recall",
+      "source_refs": [
+        "qtm--module-1#10",
+        "qtm--module-1#41",
+        "qtm--module-1#21",
+        "qtm--module-1#9"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-data-and-analytics-q-d2c232b5",
+      "type": "mcq",
+      "stem": "Graph A (AIM) peaks towards the right with a long tail stretching to the left. What does that say about class performance in AIM?",
+      "options": [
+        "Most of the class scored high, with a few low scores trailing behind",
+        "Most of the class scored low, with a few high scores trailing ahead",
+        "Marks are spread evenly from the lowest to the highest",
+        "Every student scored the same mark"
+      ],
+      "answer": "Most of the class scored high, with a few low scores trailing behind",
+      "accept": [],
+      "explanation": "A peak on the right means most marks are high; the left tail is the few low scorers.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "interpret",
+      "source_refs": [
+        "qtm--module-1#13"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-data-and-analytics-q-92407c89",
+      "type": "mcq",
+      "stem": "The position of a curve's peak and the direction of its tail belong to which group of descriptive measures?",
+      "options": [
+        "Measures of shape",
+        "Measures of central tendency",
+        "Measures of variation/dispersion",
+        "Population parameters"
+      ],
+      "answer": "Measures of shape",
+      "accept": [],
+      "explanation": "Peak and tail describe the shape of the data, one of the three kinds of descriptive measures.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "concept",
+      "source_refs": [
+        "qtm--module-1#13",
+        "qtm--module-1#41"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-data-and-analytics-q-69b6ebef",
+      "type": "mcq",
+      "stem": "Which of these is one of the skills the course learning outcomes slide promises to develop?",
+      "options": [
+        "Probability and risk assessment",
+        "Running focus groups",
+        "Snowball sampling of rare groups",
+        "Collecting facts for the state"
+      ],
+      "answer": "Probability and risk assessment",
+      "accept": [],
+      "explanation": "The outcomes list statistical analysis and inference, probability and risk assessment, forecasting and optimisation, and interpreting business data.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "recall",
+      "source_refs": [
+        "qtm--module-1#11",
+        "qtm--module-1#9",
+        "qtm--module-1#22",
+        "qtm--module-1#14"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-data-and-analytics-q-5a9a9873",
+      "type": "short",
+      "stem": "What is a spurious correlation? Explain it using the shark attack and ice-cream sales chart.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Two things can move together without one causing the other.\n\n- **The chart:** shark attacks and ice-cream sales are both low in Jan, climb through May, **peak together in July** and fall again by Nov.\n- **The trap:** it is tempting to say ice-cream causes shark attacks, or the other way round.\n- **The real driver:** the next slide puts **summer** in the middle. In summer more people buy ice-cream and more people swim, so both lines rise.\n- **Spurious correlation:** two variables move together, but **neither causes the other**; a third factor drives both.\n\nSo a manager must ask what really drives a pattern before acting on it.",
+      "rubric": [
+        {
+          "point": "Both lines are low in Jan, rise and peak together in July",
+          "source_ref": "qtm--module-1#3"
+        },
+        {
+          "point": "Neither variable causes the other",
+          "source_ref": "qtm--module-1#4"
+        },
+        {
+          "point": "Summer is the common driver of both",
+          "source_ref": "qtm--module-1#4"
+        },
+        {
+          "point": "Spurious correlation: variables move together without a causal link",
+          "source_ref": "qtm--module-1#4"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 1,
+      "style_tag": "explain",
+      "source_refs": [
+        "qtm--module-1#3",
+        "qtm--module-1#4"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-data-and-analytics-q-02d63d9b",
+      "type": "short",
+      "stem": "Discuss the employee attrition story from Module 1. How did data turn a worry into something a manager can act on?",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The story shows data turning a vague problem into a specific pattern.\n\n- **The problem:** a company with a healthy, thriving culture in a scenic country setting had **alarming levels of attrition**, noticed by HR and by fellow employees.\n- **The data:** HR gave a **statistician** the data for **all employees** who had worked there; she fed it into a model and produced numbers and charts.\n- **The finding:** **employees below the age of 30 who live 20+ miles from work do not stay for long.**\n- **The use:** a worry like \"people keep leaving\" becomes a clear, testable pattern. The deck adds that **HR managers use attrition statistics to plan hiring**.\n\nIn short, data tells the manager who leaves, not just that people leave.",
+      "rubric": [
+        {
+          "point": "Alarming attrition in a company with a healthy culture",
+          "source_ref": "qtm--module-1#5"
+        },
+        {
+          "point": "HR gave a statistician data for all employees",
+          "source_ref": "qtm--module-1#5"
+        },
+        {
+          "point": "Finding: under 30 and living 20+ miles away do not stay long",
+          "source_ref": "qtm--module-1#5"
+        },
+        {
+          "point": "HR managers use attrition statistics to plan hiring",
+          "source_ref": "qtm--module-1#7"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "case",
+      "source_refs": [
+        "qtm--module-1#5",
+        "qtm--module-1#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-data-and-analytics-q-5c4ed884",
+      "type": "short",
+      "stem": "Explain the role of analytics in modern management, using the restaurant chain example from the slides.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Analytics is now part of everyday management.\n\n- **Everyday decisions increasingly rely on data.**\n- Businesses collect **massive amounts of data**: sales, customer behaviour and operations.\n- **Analytics transforms data into actionable insights**, and **data visualisation and dashboards** make those insights easy to see.\n- **Example:** a **restaurant chain** analyzes customer visit data to find **peak business hours and plan staffing**.\n\nThe aim, as the course outcomes put it, is **decision-making based on evidence, not gut feeling**.",
+      "rubric": [
+        {
+          "point": "Everyday decisions increasingly rely on data",
+          "source_ref": "qtm--module-1#10"
+        },
+        {
+          "point": "Analytics turns data into actionable insights",
+          "source_ref": "qtm--module-1#10"
+        },
+        {
+          "point": "Visualisation and dashboards matter",
+          "source_ref": "qtm--module-1#10"
+        },
+        {
+          "point": "Restaurant chain uses visit data to find peak hours and plan staffing",
+          "source_ref": "qtm--module-1#10"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 1,
+      "style_tag": "explain",
+      "source_refs": [
+        "qtm--module-1#10",
+        "qtm--module-1#11"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-data-and-analytics-q-928a557b",
+      "type": "short",
+      "stem": "Differentiate between sample statistics and population parameters, as defined in Module 1.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The same measures get different names depending on whose data they come from.\n\n| Basis | Sample statistic | Population parameter |\n|---|---|---|\n| **Computed from** | Data from a **sample** | Data from the whole **population** |\n| **Role** | The **point estimator** of the matching parameter | The value being estimated |\n\nThe measures themselves are the same kinds: **central tendency, variation/dispersion and shape**.\n\nSo a sample statistic is our best single estimate of the population parameter.",
+      "rubric": [
+        {
+          "point": "Measures from sample data are sample statistics",
+          "source_ref": "qtm--module-1#41"
+        },
+        {
+          "point": "Measures from population data are population parameters",
+          "source_ref": "qtm--module-1#41"
+        },
+        {
+          "point": "A sample statistic is the point estimator of the population parameter",
+          "source_ref": "qtm--module-1#41"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 2,
+      "style_tag": "differentiate",
+      "source_refs": [
+        "qtm--module-1#41"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-data-and-analytics-q-a52414f2",
+      "type": "long",
+      "stem": "Differentiate between Graph A (AIM) and Graph B (QTM) on the class performance slide. What does each tell you about the class, and which descriptive measure describes the difference?",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The slide asks how to interpret two graphs of marks in terms of class performance. Both are distributions, but they lean opposite ways.\n\n| Basis | Graph A (AIM) | Graph B (QTM) |\n|---|---|---|\n| **Peak** | Towards the **right** | Towards the **left** |\n| **Long tail** | Stretches to the **left** | Stretches to the **right** |\n| **Most students** | Bunched at the **higher end** of marks | Bunched at the **lower end** of marks |\n| **The few** | A few **low scores** trail behind | A few **high scores** trail ahead |\n\n**Reading Graph A (AIM):** most of the class did well; only a handful of students scored low. Class performance is strong overall.\n\n**Reading Graph B (QTM):** most of the class scored low; only a handful of students reached high marks. Most students found this subject harder.\n\n**Which measure:** descriptive statistics uses three kinds of measures: **central tendency**, **variation/dispersion** and **shape**. The position of the peak and the direction of the tail describe the **shape** of the data. Two classes could even share an average and still have these opposite shapes, so looking at the whole picture matters.\n\n**Conclusion:** Graph A shows a mostly high-scoring class with a few weak scores; Graph B shows a mostly low-scoring class with a few strong scores, and the difference is one of shape.",
+      "rubric": [
+        {
+          "point": "Graph A peaks right with a long left tail",
+          "source_ref": "qtm--module-1#13"
+        },
+        {
+          "point": "Graph B peaks left with a long right tail",
+          "source_ref": "qtm--module-1#13"
+        },
+        {
+          "point": "AIM: most students scored high, few low",
+          "source_ref": "qtm--module-1#13"
+        },
+        {
+          "point": "QTM: most students scored low, few high",
+          "source_ref": "qtm--module-1#13"
+        },
+        {
+          "point": "Peak and tail describe the shape of the data",
+          "source_ref": "qtm--module-1#41"
+        },
+        {
+          "point": "Three kinds of measures: central tendency, dispersion, shape",
+          "source_ref": "qtm--module-1#41"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 2,
+      "style_tag": "differentiate",
+      "source_refs": [
+        "qtm--module-1#13",
+        "qtm--module-1#41"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-data-and-analytics-q-c124a1f8",
+      "type": "long",
+      "stem": "\"Data must be read carefully before managers act on it.\" Discuss this statement using the shark attack chart, the employee attrition story and the role of analytics described in Module 1.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Module 1 shows that data is powerful, but only when it is read with care.\n\n**1. Patterns can mislead (shark attacks and ice-cream).**\n- The chart shows **shark attacks** and **ice-cream sales** low in Jan, rising through May, **peaking together in July** and falling by Nov.\n- It looks as if one causes the other, but the next slide shows **summer** drives both: more people buy ice-cream and more people swim.\n- This is a **spurious correlation**. Acting on it (say, cutting ice-cream sales to stop shark attacks) would be a mistake.\n\n**2. Data can reveal a real, usable pattern (employee attrition).**\n- A company with a healthy culture had **alarming attrition**. HR gave a **statistician** data for **all employees**.\n- Her model found that **employees below the age of 30 who live 20+ miles from work do not stay for long**.\n- A vague worry became a **specific, testable pattern** HR can act on.\n\n**3. Analytics as a management tool.**\n- **Everyday decisions increasingly rely on data**; firms collect massive data on sales, customer behaviour and operations.\n- **Analytics transforms data into actionable insights**, and **visualisation and dashboards** help people see them.\n- Example: a **restaurant chain** uses customer visit data to find **peak hours and plan staffing**.\n\n**4. Why care matters.** The course aims at **decision-making based on evidence, not gut feeling**, so decisions are **informed, objective and defensible**. Evidence read carelessly is no better than a guess.\n\n**Conclusion:** the shark chart warns that moving together is not cause; the attrition story and the restaurant example show what careful analysis can deliver.",
+      "rubric": [
+        {
+          "point": "Shark attacks and ice-cream peak together in July",
+          "source_ref": "qtm--module-1#3"
+        },
+        {
+          "point": "Summer drives both: spurious correlation",
+          "source_ref": "qtm--module-1#4"
+        },
+        {
+          "point": "Attrition finding: under 30 and 20+ miles from work",
+          "source_ref": "qtm--module-1#5"
+        },
+        {
+          "point": "Analytics turns data into actionable insights; dashboards",
+          "source_ref": "qtm--module-1#10"
+        },
+        {
+          "point": "Restaurant chain plans staffing from visit data",
+          "source_ref": "qtm--module-1#10"
+        },
+        {
+          "point": "Evidence, not gut feeling: informed, objective, defensible decisions",
+          "source_ref": "qtm--module-1#11"
+        }
+      ],
+      "marks": 10.0,
+      "difficulty": 3,
+      "style_tag": "discuss",
+      "source_refs": [
+        "qtm--module-1#3",
+        "qtm--module-1#4",
+        "qtm--module-1#5",
+        "qtm--module-1#10",
+        "qtm--module-1#11"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
   "explain_back": {
     "prompt": "Using the slides' examples, explain why managers must read data carefully and what analytics adds to decisions.",
     "rubric": [

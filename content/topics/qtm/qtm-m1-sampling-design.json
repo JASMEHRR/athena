@@ -335,7 +335,393 @@
       "retired": false
     }
   ],
-  "questions": [],
+  "questions": [
+    {
+      "id": "qtm-m1-sampling-design-q-763b2365",
+      "type": "mcq",
+      "stem": "In the Florida survey's target population, what does 'a household with a working telephone number' stand for?",
+      "options": [
+        "The sampling unit",
+        "The element",
+        "The extent",
+        "The time"
+      ],
+      "answer": "The sampling unit",
+      "accept": [],
+      "explanation": "The adults meeting the qualifications are the element; the household with a working phone is the sampling unit that contains them.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "apply",
+      "source_refs": [
+        "qtm--module-1#20",
+        "qtm--module-1#18"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-sampling-design-q-09386c99",
+      "type": "mcq",
+      "stem": "Which of these was one of the four qualifications a Florida household member had to meet?",
+      "options": [
+        "Age 25 or older",
+        "Over 18 years old",
+        "Full-time employment in the United States",
+        "Currently in a retirement plan"
+      ],
+      "answer": "Age 25 or older",
+      "accept": [],
+      "explanation": "Florida needed age 25 or older, seven months a year in Florida, two years there and a Florida driver's license; the others belong to the CIGNA survey.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "recall",
+      "source_refs": [
+        "qtm--module-1#19",
+        "qtm--module-1#23",
+        "qtm--module-1#24"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-sampling-design-q-1d4142e0",
+      "type": "mcq",
+      "stem": "What was the sampling frame in the Florida tourism survey?",
+      "options": [
+        "A computer program for generating random telephone numbers",
+        "A commercial phone list provided by GfK NOP",
+        "The list of household members who meet the four qualifications",
+        "The north, central and south Florida regions"
+      ],
+      "answer": "A computer program for generating random telephone numbers",
+      "accept": [],
+      "explanation": "Florida used random digit generation; the commercial phone list was CIGNA's frame, and the regions were the strata.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "recall",
+      "source_refs": [
+        "qtm--module-1#20",
+        "qtm--module-1#23",
+        "qtm--module-1#24"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-sampling-design-q-f0d1c2d5",
+      "type": "mcq",
+      "stem": "Which order of steps matches the sampling design process shown in both survey scenarios?",
+      "options": [
+        "Target population, sampling frame, sampling technique, sample size, execution",
+        "Sampling frame, target population, sample size, sampling technique, execution",
+        "Target population, sampling technique, sampling frame, execution, sample size",
+        "Sample size, sampling technique, target population, sampling frame, execution"
+      ],
+      "answer": "Target population, sampling frame, sampling technique, sample size, execution",
+      "accept": [],
+      "explanation": "Both the Florida and CIGNA slides list the steps in this order, from 1 to 5.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "sequence",
+      "source_refs": [
+        "qtm--module-1#20",
+        "qtm--module-1#23",
+        "qtm--module-1#24"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-sampling-design-q-ff363892",
+      "type": "mcq",
+      "stem": "CIGNA surveyed 659 employees with a quota of 80 percent being retirement plan participants. About how many respondents had to be plan participants?",
+      "options": [
+        "About 527",
+        "About 132",
+        "About 659",
+        "About 80"
+      ],
+      "answer": "About 527",
+      "accept": [],
+      "explanation": "80 percent of 659 = 0.8 x 659 = 527.2, so about 527; 132 is the remaining 20 percent.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-1#23",
+        "qtm--module-1#24"
+      ],
+      "derived": [
+        "0.8",
+        "527.2",
+        "527",
+        "132"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-sampling-design-q-5a858ab7",
+      "type": "mcq",
+      "stem": "Why did CIGNA stratify its sample by income and age?",
+      "options": [
+        "Internet use and retirement concerns differ across income and age groups",
+        "Florida is divided into north, central and south regions",
+        "A stratified sample needs no sampling frame",
+        "The quota of 80 percent required two strata"
+      ],
+      "answer": "Internet use and retirement concerns differ across income and age groups",
+      "accept": [],
+      "explanation": "The slide says the sample was stratified by income and age because of differences in Internet use and retirement concerns.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "reason",
+      "source_refs": [
+        "qtm--module-1#23",
+        "qtm--module-1#20",
+        "qtm--module-1#25"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-sampling-design-q-63f05aa2",
+      "type": "short",
+      "stem": "Define target population. Explain the four terms in which it should be defined.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Every sampling design starts by pinning down who you are studying.\n\n**Target population:** the collection of **elements or objects that possess the information sought** by the researcher and about which **inferences are to be made**. It is defined in terms of:\n\n- **Element:** an object that possesses the information sought.\n- **Sampling unit:** the basic unit containing the elements to be sampled.\n- **Extent:** the geographical boundaries.\n- **Time:** the time period under consideration.\n\n**Example (Florida survey):** adults meeting four qualifications (element) in a household with a working telephone (sampling unit) in Florida (extent) during the survey period (time).",
+      "rubric": [
+        {
+          "point": "Target population: elements with the information sought, about which inferences are made",
+          "source_ref": "qtm--module-1#18"
+        },
+        {
+          "point": "Element: object possessing the information",
+          "source_ref": "qtm--module-1#18"
+        },
+        {
+          "point": "Sampling unit: basic unit containing the elements",
+          "source_ref": "qtm--module-1#18"
+        },
+        {
+          "point": "Extent: geographical boundaries; time: period under consideration",
+          "source_ref": "qtm--module-1#18"
+        },
+        {
+          "point": "Florida example mapping all four",
+          "source_ref": "qtm--module-1#20"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 1,
+      "style_tag": "define",
+      "source_refs": [
+        "qtm--module-1#18",
+        "qtm--module-1#20"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-sampling-design-q-1195346b",
+      "type": "short",
+      "stem": "CIGNA surveyed 659 full-time employees with a quota of 80 percent being retirement plan participants. Calculate how many respondents fall inside and outside the quota, and state the stratification variables.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The quota fixes how the 659 interviews are split.\n\n**Given:** sample size = 659; quota = 80 percent in a retirement plan.\n\n**Working:**\n- Plan participants = 0.8 x 659 = 527.2, so **about 527** respondents.\n- Others = 0.2 x 659 = 131.8, so **about 132** respondents.\n- Check: 527 + 132 = 659.\n\n**Stratification:** the sample was **stratified by age and income**, because Internet use and retirement concerns differ across these groups.\n\nSo roughly four in five respondents had to be in a retirement plan.",
+      "rubric": [
+        {
+          "point": "0.8 x 659 = 527.2, about 527 plan participants",
+          "source_ref": "qtm--module-1#23"
+        },
+        {
+          "point": "Remaining about 132 respondents",
+          "source_ref": "qtm--module-1#23"
+        },
+        {
+          "point": "Stratified by age and income",
+          "source_ref": "qtm--module-1#24"
+        },
+        {
+          "point": "Reason: differences in Internet use and retirement concerns",
+          "source_ref": "qtm--module-1#23"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-1#23",
+        "qtm--module-1#24"
+      ],
+      "derived": [
+        "0.8",
+        "527.2",
+        "527",
+        "0.2",
+        "131.8",
+        "132"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-sampling-design-q-aa91b64c",
+      "type": "short",
+      "stem": "Explain how the Florida survey selected one respondent within a household, and why it did so.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The Florida survey used a random method even inside each household.\n\n- **Screening:** household members were checked against the **four qualifications**.\n- **Listing:** all members meeting the qualifications were **listed**.\n- **Next birthday method:** the person with the **next birthday** was selected.\n- **Callbacks:** **repeated callbacks** were made to reach that person.\n\n**Why:** to obtain a **representative sample** of qualified individuals, rather than whoever happened to answer the phone.",
+      "rubric": [
+        {
+          "point": "List all qualifying household members",
+          "source_ref": "qtm--module-1#19"
+        },
+        {
+          "point": "Select the person with the next birthday",
+          "source_ref": "qtm--module-1#19"
+        },
+        {
+          "point": "Repeated callbacks to reach that person",
+          "source_ref": "qtm--module-1#19"
+        },
+        {
+          "point": "Purpose: a representative sample of qualified individuals",
+          "source_ref": "qtm--module-1#19"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 1,
+      "style_tag": "explain",
+      "source_refs": [
+        "qtm--module-1#19",
+        "qtm--module-1#20"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-sampling-design-q-2819cac7",
+      "type": "long",
+      "stem": "Describe the five steps of the sampling design process, using the Florida Department of Tourism telephone survey as your example.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The Florida Department of Tourism ran a telephone survey to understand the **travel behaviour of in-state residents**. In 2008 Florida had more than 18 million residents, fourth in the United States. Its design follows five steps.\n\n**Step 1: Target population.** Adults meeting four qualifications (**element**) in a household with a working telephone number (**sampling unit**) in Florida (**extent**) during the survey period (**time**). The qualifications: age 25 or older; living in Florida at least seven months a year; living there at least two years; a Florida driver's license.\n\n**Step 2: Sampling frame.** A **computer program for generating random telephone numbers**.\n\n**Step 3: Sampling technique.** **Stratified sampling**: the target population was geographically stratified into three regions, **north, central and south Florida**.\n\n**Step 4: Sample size.** **868**.\n\n**Step 5: Execution.**\n- Allocate the sample among the strata.\n- Use **computerized random digit dialing**.\n- List all household members who meet the four qualifications.\n- Select one member using the **next birthday method**, with repeated callbacks to reach that person.\n\n**Why this design works:** the strata make sure all three regions are covered, random digit dialing gives every household a chance, and the next birthday method keeps the choice inside a household random, which helps give a **representative sample**.\n\n**Conclusion:** target population, frame, technique, size and execution together turn a broad goal (understanding residents' travel) into a concrete plan of whom to call and how.",
+      "rubric": [
+        {
+          "point": "Target population with element, sampling unit, extent and time",
+          "source_ref": "qtm--module-1#20"
+        },
+        {
+          "point": "The four qualifications",
+          "source_ref": "qtm--module-1#19"
+        },
+        {
+          "point": "Frame: computer program for random telephone numbers",
+          "source_ref": "qtm--module-1#20"
+        },
+        {
+          "point": "Technique: stratified by north, central and south Florida",
+          "source_ref": "qtm--module-1#20"
+        },
+        {
+          "point": "Sample size 868",
+          "source_ref": "qtm--module-1#20"
+        },
+        {
+          "point": "Execution: allocate to strata, random digit dialing, next birthday method",
+          "source_ref": "qtm--module-1#20"
+        }
+      ],
+      "marks": 10.0,
+      "difficulty": 2,
+      "style_tag": "case",
+      "source_refs": [
+        "qtm--module-1#19",
+        "qtm--module-1#20",
+        "qtm--module-1#18"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-sampling-design-q-1fc216f6",
+      "type": "long",
+      "stem": "Compare the sampling designs of the Florida tourism survey and the CIGNA retirement services survey across the five steps of the sampling design process.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Both scenarios follow the same five-step sampling design process and both use **stratified sampling** by telephone, but the details differ at every step.\n\n| Step | Florida tourism survey | CIGNA survey |\n|---|---|---|\n| **Purpose** | Travel behaviour of in-state residents | Online users' demands for additional Internet retirement services |\n| **1. Target population** | Adults meeting four qualifications (25 or older, seven months a year in Florida, two years there, Florida driver's license) in a household with a working telephone, in Florida, during the survey period | Adults over 18, full-time employment in the United States, working telephone number, 80 percent currently in a retirement plan, during the survey period |\n| **2. Sampling frame** | Computer program generating random telephone numbers | Commercial phone list provided by GfK NOP |\n| **3. Sampling technique** | Stratified by region: north, central, south Florida | Stratified by **age and income** |\n| **4. Sample size** | 868 | 659 |\n| **5. Execution** | Allocate among strata; random digit dialing; list qualifying members; pick one by the **next birthday method** | Allocate by strata; random number from the list; survey the **first qualified household member, subject to quota requirements** |\n\n**Key differences explained:**\n- **Strata:** Florida stratifies by **geography**; CIGNA stratifies by **age and income** because Internet use and retirement concerns differ across these groups.\n- **Frame:** Florida generates numbers itself; CIGNA relies on a **commercial list**.\n- **Selection in the household:** Florida uses a random rule (next birthday); CIGNA takes the first qualified member and adds a **quota** (80 percent plan participants).\n\n**Conclusion:** the process is the same, but each survey shapes its population, frame and strata around what it needs to learn.",
+      "rubric": [
+        {
+          "point": "Same five steps, both stratified telephone surveys",
+          "source_ref": "qtm--module-1#20"
+        },
+        {
+          "point": "Target populations compared (four qualifications vs over 18, full-time, 80 percent in plan)",
+          "source_ref": "qtm--module-1#24"
+        },
+        {
+          "point": "Frames: random number program vs GfK NOP commercial list",
+          "source_ref": "qtm--module-1#24"
+        },
+        {
+          "point": "Strata: regions vs age and income, with CIGNA's reason",
+          "source_ref": "qtm--module-1#23"
+        },
+        {
+          "point": "Sample sizes 868 vs 659",
+          "source_ref": "qtm--module-1#24"
+        },
+        {
+          "point": "Execution: next birthday method vs first qualified member with quota",
+          "source_ref": "qtm--module-1#20"
+        }
+      ],
+      "marks": 10.0,
+      "difficulty": 3,
+      "style_tag": "differentiate",
+      "source_refs": [
+        "qtm--module-1#19",
+        "qtm--module-1#20",
+        "qtm--module-1#23",
+        "qtm--module-1#24"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
   "explain_back": {
     "prompt": "Walk through the five steps of sampling design using the Florida tourism survey or the CIGNA survey.",
     "rubric": [

@@ -445,7 +445,404 @@
       "retired": false
     }
   ],
-  "questions": [],
+  "questions": [
+    {
+      "id": "qtm-m21-mean-q-1c3add28",
+      "type": "mcq",
+      "stem": "On the opening list of five measures, which three does the brace label as the 'central tendency score'?",
+      "options": [
+        "Mean, median and mode",
+        "Mean, percentiles and quartiles",
+        "Median, quartiles and percentiles",
+        "Mode, median and quartiles"
+      ],
+      "answer": "Mean, median and mode",
+      "accept": [],
+      "explanation": "The brace groups only mean, median and mode; percentiles and quartiles follow as separate tools.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "recall",
+      "source_refs": [
+        "qtm--module-2-1#2"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m21-mean-q-f5ccf3e8",
+      "type": "mcq",
+      "stem": "Find the mean of the median slide's 7 observations: 26, 18, 27, 12, 14, 27, 19.",
+      "options": [
+        "20.43",
+        "19",
+        "27",
+        "143"
+      ],
+      "answer": "20.43",
+      "accept": [],
+      "explanation": "Σxᵢ = 143 and n = 7, so X̄ = 143 / 7 = 20.43; 19 is the median and 27 the mode.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-2-1#9",
+        "qtm--module-2-1#5"
+      ],
+      "derived": [
+        "143",
+        "20.43"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m21-mean-q-7faaedfb",
+      "type": "mcq",
+      "stem": "Find the mean of the 8 observations 26, 18, 27, 12, 14, 27, 30, 19.",
+      "options": [
+        "21.625",
+        "22.5",
+        "173",
+        "27"
+      ],
+      "answer": "21.625",
+      "accept": [],
+      "explanation": "Σxᵢ = 173 and n = 8, so X̄ = 173 / 8 = 21.625; 22.5 is the median.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-2-1#10",
+        "qtm--module-2-1#5"
+      ],
+      "derived": [
+        "173",
+        "21.625"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m21-mean-q-9d307f83",
+      "type": "mcq",
+      "stem": "Which pair of symbols belongs to the population rather than the sample?",
+      "options": [
+        "μ and N",
+        "X̄ and n",
+        "μ and n",
+        "X̄ and N"
+      ],
+      "answer": "μ and N",
+      "accept": [],
+      "explanation": "Population mean μ = Σxᵢ / N; sample mean X̄ = Σxᵢ / n.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "formula",
+      "source_refs": [
+        "qtm--module-2-1#5"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m21-mean-q-6527ab21",
+      "type": "mcq",
+      "stem": "Treat the 15 retail stores as the whole population. Their monthly sales add to ₹508 lakhs. What is μ?",
+      "options": [
+        "₹33.87 lakhs",
+        "₹34 lakhs",
+        "₹30 lakhs",
+        "₹508 lakhs"
+      ],
+      "answer": "₹33.87 lakhs",
+      "accept": [],
+      "explanation": "μ = Σxᵢ / N = 508 / 15 = 33.87; 34 is the median and 30 one of the modes.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-2-1#28",
+        "qtm--module-2-1#5"
+      ],
+      "derived": [
+        "508",
+        "33.87"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m21-mean-q-0454ee3d",
+      "type": "mcq",
+      "stem": "How does the deck describe the relationship between X̄ and μ?",
+      "options": [
+        "X̄ is the point estimator of μ",
+        "X̄ always equals μ",
+        "μ is the point estimator of X̄",
+        "X̄ is the middle value of μ"
+      ],
+      "answer": "X̄ is the point estimator of μ",
+      "accept": [],
+      "explanation": "The slide says the sample mean X̄ is the point estimator of the population mean μ.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "concept",
+      "source_refs": [
+        "qtm--module-2-1#4"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m21-mean-q-7b2234b5",
+      "type": "short",
+      "stem": "Differentiate between the sample mean and the population mean, giving both formulas and explaining each symbol.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The **mean** is the average of all the data values: the sum of the values divided by the number of values.\n\n| Basis | Sample mean | Population mean |\n|---|---|---|\n| **Formula** | **X̄ = Σxᵢ / n** | **μ = Σxᵢ / N** |\n| **Σxᵢ** | Sum of the values of the **n** observations | Sum of the values of the **N** observations |\n| **Count** | n = number of observations in the **sample** | N = number of observations in the **population** |\n| **Role** | **Point estimator** of μ | The value being estimated |\n\nThe arithmetic is the same; the deck's **Class Height Exercise** asks for both.",
+      "rubric": [
+        {
+          "point": "Mean: sum of values divided by number of values",
+          "source_ref": "qtm--module-2-1#3"
+        },
+        {
+          "point": "X̄ = Σxᵢ / n with n observations in the sample",
+          "source_ref": "qtm--module-2-1#5"
+        },
+        {
+          "point": "μ = Σxᵢ / N with N observations in the population",
+          "source_ref": "qtm--module-2-1#5"
+        },
+        {
+          "point": "X̄ is the point estimator of μ",
+          "source_ref": "qtm--module-2-1#4"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 1,
+      "style_tag": "differentiate",
+      "source_refs": [
+        "qtm--module-2-1#4",
+        "qtm--module-2-1#5",
+        "qtm--module-2-1#6"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m21-mean-q-c7eb3b70",
+      "type": "short",
+      "stem": "Using TABLE 1-2 (value and frequency: 18 (4), 19 (1), 20 (3), 21 (1), 22 (2), 23 (1), 24 (1), 26 (1), 27 (1), 32 (1), 33 (1), 49 (1), 52 (1), 56 (1)), calculate the mean and check it against the dot plot.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "With a frequency table, each value is added as many times as it occurs.\n\n**Formula:** X̄ = Σxᵢ / n\n\n**Step 1: n.** Frequencies: 4 + 1 + 3 + 1 + 2 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 = **20** values.\n\n**Step 2: Σxᵢ.** Repeated values: 18 x 4 = 72, 20 x 3 = 60, 22 x 2 = 44. Then:\n72 + 19 + 60 + 21 + 44 + 23 + 24 + 26 + 27 + 32 + 33 + 49 + 52 + 56 = **538**\n\n**Step 3: divide.** X̄ = 538 / 20 = **26.9**\n\nThis matches the slide's label **Mean (26.9)**, which sits to the right of the median and mode because of the large values 49, 52 and 56.",
+      "rubric": [
+        {
+          "point": "n = 20 from the frequencies",
+          "source_ref": "qtm--module-2-1#16"
+        },
+        {
+          "point": "Repeated values multiplied: 72, 60, 44",
+          "source_ref": "qtm--module-2-1#16"
+        },
+        {
+          "point": "Σxᵢ = 538",
+          "source_ref": "qtm--module-2-1#16"
+        },
+        {
+          "point": "X̄ = 538 / 20 = 26.9, matching the dot plot",
+          "source_ref": "qtm--module-2-1#16"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-2-1#16",
+        "qtm--module-2-1#5"
+      ],
+      "derived": [
+        "72",
+        "60",
+        "44",
+        "538",
+        "20"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m21-mean-q-63d1e0dc",
+      "type": "short",
+      "stem": "The median slides use 26, 18, 27, 12, 14, 27, 19 and then add the value 30. Calculate the mean before and after adding 30, and state the change.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The mean uses every value, so one new value moves it.\n\n**Formula:** X̄ = Σxᵢ / n\n\n- **Before (n = 7):** Σxᵢ = 26 + 18 + 27 + 12 + 14 + 27 + 19 = 143; X̄ = 143 / 7 = **20.43**\n- **After (n = 8):** Σxᵢ = 143 + 30 = 173; X̄ = 173 / 8 = **21.625**\n- **Change:** 21.625 - 20.43 = about **1.2**\n\nAdding one value above the mean pulls the mean up, because the mean takes all the values into account.",
+      "rubric": [
+        {
+          "point": "Σxᵢ = 143, n = 7, X̄ = 20.43",
+          "source_ref": "qtm--module-2-1#9"
+        },
+        {
+          "point": "Σxᵢ = 173, n = 8, X̄ = 21.625",
+          "source_ref": "qtm--module-2-1#10"
+        },
+        {
+          "point": "Mean rises by about 1.2; mean uses every value",
+          "source_ref": "qtm--module-2-1#5"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-2-1#9",
+        "qtm--module-2-1#10",
+        "qtm--module-2-1#5"
+      ],
+      "derived": [
+        "143",
+        "20.43",
+        "173",
+        "21.625",
+        "1.2"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m21-mean-q-da187eb9",
+      "type": "long",
+      "stem": "Calculate the mean of Supplier-1 (1, 2, 3, 4, 5, 6, 6, 7, 8, 9, 10, 11) and Supplier-2 (4, 5, 5, 5, 6, 6, 6, 6, 7, 7, 7, 8). What do the results show, and what does the mean fail to tell a manager comparing the two suppliers?",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The **mean** is the sum of the values divided by the number of values: **X̄ = Σxᵢ / n**.\n\n**Supplier-1**\n- Σxᵢ = 1 + 2 + 3 + 4 + 5 + 6 + 6 + 7 + 8 + 9 + 10 + 11 = **72**\n- n = 12\n- X̄ = 72 / 12 = **6**\n\n**Supplier-2**\n- Σxᵢ = 4 + 5 + 5 + 5 + 6 + 6 + 6 + 6 + 7 + 7 + 7 + 8 = **72**\n- n = 12\n- X̄ = 72 / 12 = **6**\n\n**What the results show:** both suppliers have the **same mean of 6**. The slide goes further: for both sets **Mean = Median = Mode = 6**. On the centre measures alone, the two suppliers look identical.\n\n**What the mean misses:** the dot plots tell a different story.\n- **Set I (Supplier-1):** values run from 1 to 11. Label: **data are spread out**.\n- **Set II (Supplier-2):** values bunch between 4 and 8. Label: **data are clustered together**.\n\nA manager wants a supplier whose values are consistent, and that is about **spread**, which the mean cannot show. The mean is **sensitive and reliable** because it uses all the values, but one number cannot describe variability. Tools such as the **interquartile range**, which measures the **spread of the middle 50%** of the data, are needed alongside it.\n\n**Conclusion:** both means are 6, yet Supplier-2 is far more consistent; the slide's question 'Are mean, median and mode sufficient?' is answered no.",
+      "rubric": [
+        {
+          "point": "X̄ = Σxᵢ / n",
+          "source_ref": "qtm--module-2-1#5"
+        },
+        {
+          "point": "Supplier-1: 72 / 12 = 6",
+          "source_ref": "qtm--module-2-1#19"
+        },
+        {
+          "point": "Supplier-2: 72 / 12 = 6",
+          "source_ref": "qtm--module-2-1#19"
+        },
+        {
+          "point": "Mean = median = mode = 6 for both",
+          "source_ref": "qtm--module-2-1#19"
+        },
+        {
+          "point": "Set I spread out, Set II clustered together",
+          "source_ref": "qtm--module-2-1#19"
+        },
+        {
+          "point": "Mean cannot show spread; IQR measures the middle 50%",
+          "source_ref": "qtm--module-2-1#21"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-2-1#5",
+        "qtm--module-2-1#19",
+        "qtm--module-2-1#18",
+        "qtm--module-2-1#21"
+      ],
+      "derived": [
+        "72"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m21-mean-q-1b992c9c",
+      "type": "long",
+      "stem": "Treat the 15 retail stores' monthly sales (₹ lakhs: 28, 34, 31, 41, 38, 27, 32, 36, 34, 30, 29, 44, 35, 39, 30) as the population. Calculate μ. Then take three samples, stores 1 to 5, stores 6 to 10 and stores 11 to 15, and calculate each sample mean X̄. Comment on X̄ as the point estimator of μ.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The deck gives two formulas: **μ = Σxᵢ / N** for a population and **X̄ = Σxᵢ / n** for a sample, and says **X̄ is the point estimator of μ**.\n\n**Population mean (N = 15)**\n- Σxᵢ = 28 + 34 + 31 + 41 + 38 + 27 + 32 + 36 + 34 + 30 + 29 + 44 + 35 + 39 + 30 = **508**\n- μ = 508 / 15 = **₹33.87 lakhs**\n\n**Sample means (n = 5 each)**\n\n| Sample | Values | Σxᵢ | X̄ | X̄ - μ |\n|---|---|---|---|---|\n| Stores 1 to 5 | 28, 34, 31, 41, 38 | 172 | **34.4** | +0.53 |\n| Stores 6 to 10 | 27, 32, 36, 34, 30 | 159 | **31.8** | -2.07 |\n| Stores 11 to 15 | 29, 44, 35, 39, 30 | 177 | **35.4** | +1.53 |\n\n**Comment:**\n- Each **X̄ is an estimate of μ**: it is close to 33.87 but not equal to it, and it changes from sample to sample.\n- The first sample is the closest (off by 0.53); the second is furthest (off by 2.07), because it happens to include low-selling stores such as store 6 (27) and store 10 (30).\n- These three samples together make up the whole population, so the average of the three sample means is (34.4 + 31.8 + 35.4) / 3 = 101.6 / 3 = **33.87**, exactly μ.\n- This is why the deck calls X̄ the **point estimator** of μ: a single sample gives one best guess of the population mean, and that guess can miss.\n\n**Conclusion:** μ = ₹33.87 lakhs; the samples give 34.4, 31.8 and 35.4, each a reasonable but imperfect estimate of μ.",
+      "rubric": [
+        {
+          "point": "μ = Σxᵢ / N = 508 / 15 = 33.87",
+          "source_ref": "qtm--module-2-1#5"
+        },
+        {
+          "point": "Stores 1 to 5: 172 / 5 = 34.4",
+          "source_ref": "qtm--module-2-1#28"
+        },
+        {
+          "point": "Stores 6 to 10: 159 / 5 = 31.8",
+          "source_ref": "qtm--module-2-1#28"
+        },
+        {
+          "point": "Stores 11 to 15: 177 / 5 = 35.4",
+          "source_ref": "qtm--module-2-1#28"
+        },
+        {
+          "point": "Sample means differ from μ and from each other",
+          "source_ref": "qtm--module-2-1#4"
+        },
+        {
+          "point": "X̄ is the point estimator of μ",
+          "source_ref": "qtm--module-2-1#4"
+        }
+      ],
+      "marks": 10.0,
+      "difficulty": 3,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-2-1#28",
+        "qtm--module-2-1#4",
+        "qtm--module-2-1#5"
+      ],
+      "derived": [
+        "508",
+        "33.87",
+        "172",
+        "34.4",
+        "159",
+        "31.8",
+        "177",
+        "35.4",
+        "101.6",
+        "0.53",
+        "2.07",
+        "1.53"
+      ],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
   "explain_back": {
     "prompt": "Explain what the mean is and how the sample mean differs from the population mean, with both formulas.",
     "rubric": [

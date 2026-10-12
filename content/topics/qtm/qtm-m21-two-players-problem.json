@@ -434,7 +434,403 @@
       "retired": false
     }
   ],
-  "questions": [],
+  "questions": [
+    {
+      "id": "qtm-m21-two-players-problem-q-8f7def2a",
+      "type": "mcq",
+      "stem": "Which pair gives Player-1's median and mode, in that order?",
+      "options": [
+        "10 and 4",
+        "32.75 and 4",
+        "10 and 90",
+        "8 and 4"
+      ],
+      "answer": "10 and 4",
+      "accept": [],
+      "explanation": "Sorted, the 10th and 11th scores are 8 and 12, so the median is 10; 4 appears four times, so the mode is 4.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-2-1#14",
+        "qtm--module-2-1#7",
+        "qtm--module-2-1#10",
+        "qtm--module-2-1#13"
+      ],
+      "derived": [
+        "32.75",
+        "11"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m21-two-players-problem-q-38e80346",
+      "type": "mcq",
+      "stem": "Using the percentile index rule, what is Player-1's first quartile (25th percentile)?",
+      "options": [
+        "4",
+        "3",
+        "4.5",
+        "8"
+      ],
+      "answer": "4",
+      "accept": [],
+      "explanation": "i = (25/100) x 20 = 5, an integer; the 5th and 6th sorted scores are 4 and 4, so Q1 = 4.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-2-1#7",
+        "qtm--module-2-1#23",
+        "qtm--module-2-1#27",
+        "qtm--module-2-1#21"
+      ],
+      "derived": [
+        "4.5"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m21-two-players-problem-q-64c43829",
+      "type": "mcq",
+      "stem": "Using the percentile index rule, what is Player-2's third quartile (75th percentile)?",
+      "options": [
+        "37.5",
+        "38",
+        "35",
+        "45"
+      ],
+      "answer": "37.5",
+      "accept": [],
+      "explanation": "i = (75/100) x 20 = 15, an integer; the 15th and 16th sorted scores are 37 and 38, so Q3 = 37.5.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-2-1#7",
+        "qtm--module-2-1#23",
+        "qtm--module-2-1#27",
+        "qtm--module-2-1#21"
+      ],
+      "derived": [
+        "15",
+        "16",
+        "37.5"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m21-two-players-problem-q-c04792a6",
+      "type": "mcq",
+      "stem": "With quartiles from the index rule, what are the interquartile ranges of Player-1 and Player-2?",
+      "options": [
+        "68.5 and 10.5",
+        "10.5 and 68.5",
+        "32.75 and 32.75",
+        "72.5 and 37.5"
+      ],
+      "answer": "68.5 and 10.5",
+      "accept": [],
+      "explanation": "Player-1: 72.5 - 4 = 68.5; Player-2: 37.5 - 27 = 10.5. Same mean, very different spread of the middle 50%.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 3,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-2-1#7",
+        "qtm--module-2-1#21",
+        "qtm--module-2-1#23"
+      ],
+      "derived": [
+        "68.5",
+        "10.5",
+        "72.5",
+        "37.5",
+        "32.75"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m21-two-players-problem-q-ae6d068d",
+      "type": "mcq",
+      "stem": "A selector wants the more consistent of the two players. Which choice and reason fit the three measures?",
+      "options": [
+        "Player-2, because its median is close to its mean and its scores stay between 25 and 45",
+        "Player-1, because it scored 90 in three matches",
+        "Either player, because both means are 32.75",
+        "Player-1, because its median is higher than Player-2's"
+      ],
+      "answer": "Player-2, because its median is close to its mean and its scores stay between 25 and 45",
+      "accept": [],
+      "explanation": "Player-2's mean (32.75) and median (30.5) are close; Player-1's median of 10 shows most of its scores are low.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "apply",
+      "source_refs": [
+        "qtm--module-2-1#14",
+        "qtm--module-2-1#11",
+        "qtm--module-2-1#7"
+      ],
+      "derived": [
+        "32.75",
+        "30.5"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m21-two-players-problem-q-9fc26356",
+      "type": "short",
+      "stem": "Calculate the mean runs of Player-1 and Player-2 from the 2 Players' Problem, showing the sums.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Formula:** X̄ = Σxᵢ / n, with n = 20 matches for each player.\n\n**Player-1:** adding five matches at a time: 200 + 175 + 87 + 193 = **655**. X̄ = 655 / 20 = **32.75**\n\n**Player-2:** 177 + 178 + 166 + 134 = **655**. X̄ = 655 / 20 = **32.75**\n\nBoth players have the same total and the same mean, so the mean alone cannot tell them apart.",
+      "rubric": [
+        {
+          "point": "X̄ = Σxᵢ / n with n = 20",
+          "source_ref": "qtm--module-2-1#5"
+        },
+        {
+          "point": "Player-1: Σxᵢ = 655, X̄ = 32.75",
+          "source_ref": "qtm--module-2-1#7"
+        },
+        {
+          "point": "Player-2: Σxᵢ = 655, X̄ = 32.75",
+          "source_ref": "qtm--module-2-1#7"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 1,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-2-1#7",
+        "qtm--module-2-1#5"
+      ],
+      "derived": [
+        "200",
+        "175",
+        "87",
+        "193",
+        "655",
+        "32.75",
+        "177",
+        "178",
+        "166",
+        "134"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m21-two-players-problem-q-a8f8820a",
+      "type": "short",
+      "stem": "From TABLE 1-2 and its dot plot, state the mode, median and mean, and explain why they fall in that order.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Mode:** 18, which has the greatest frequency (4) and the tallest stack of dots.\n\n**Median:** n = 20, so average the 10th and 11th values; both are 22, so the median is **22**.\n\n**Mean:** Σxᵢ = 538, so 538 / 20 = **26.9**, as labelled on the plot.\n\n**Order:** Mode (18) < Median (22) < Mean (26.9). Most dots sit between 18 and 33, but **three values far to the right (49, 52, 56)** pull the mean up. As the median slide says, **a few extremely large values can inflate the mean**; the median and mode are not pulled the same way.",
+      "rubric": [
+        {
+          "point": "Mode 18 (frequency 4)",
+          "source_ref": "qtm--module-2-1#16"
+        },
+        {
+          "point": "Median 22 (10th and 11th values)",
+          "source_ref": "qtm--module-2-1#16"
+        },
+        {
+          "point": "Mean 538 / 20 = 26.9",
+          "source_ref": "qtm--module-2-1#16"
+        },
+        {
+          "point": "Large values 49, 52, 56 inflate the mean",
+          "source_ref": "qtm--module-2-1#8"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-2-1#16",
+        "qtm--module-2-1#8",
+        "qtm--module-2-1#13"
+      ],
+      "derived": [
+        "538",
+        "26.9",
+        "11"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m21-two-players-problem-q-419a013f",
+      "type": "short",
+      "stem": "Differentiate between Player-1 and Player-2 using their mean, median and mode.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Both players score the same total, but their measures tell different stories.\n\n| Measure | Player-1 | Player-2 |\n|---|---|---|\n| **Mean** | 32.75 | 32.75 |\n| **Median** | 10 | 30.5 |\n| **Mode** | 4 | 45 |\n| **Pattern** | Many very low scores and a few big ones (90, 90, 90, 78, 78, 67, 56) | Steady scores, all between 25 and 45 |\n\nPlayer-1's big scores inflate its mean; its median and mode show a typical score is low. Player-2's three measures sit close together, so it is the more consistent player.",
+      "rubric": [
+        {
+          "point": "Same mean 32.75 for both",
+          "source_ref": "qtm--module-2-1#7"
+        },
+        {
+          "point": "Medians 10 vs 30.5",
+          "source_ref": "qtm--module-2-1#11"
+        },
+        {
+          "point": "Modes 4 vs 45",
+          "source_ref": "qtm--module-2-1#14"
+        },
+        {
+          "point": "Player-1 erratic with a few big scores; Player-2 consistent",
+          "source_ref": "qtm--module-2-1#7"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "differentiate",
+      "source_refs": [
+        "qtm--module-2-1#14",
+        "qtm--module-2-1#7",
+        "qtm--module-2-1#11"
+      ],
+      "derived": [
+        "32.75",
+        "30.5"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m21-two-players-problem-q-a665e291",
+      "type": "long",
+      "stem": "'What is observation made by you from Mean, Median and Mode?' Answer the slide's question for the 2 Players' Problem with full working for all three measures.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The slide gives 20 match scores for each player and asks what the three measures reveal.\n\n**1. Mean (X̄ = Σxᵢ / n)**\n- Player-1: Σxᵢ = 655, X̄ = 655 / 20 = **32.75**\n- Player-2: Σxᵢ = 655, X̄ = 655 / 20 = **32.75**\n\n**2. Median (n = 20 is even: average the 10th and 11th terms)**\n- Player-1 sorted: 0, 2, 3, 3, 4, 4, 4, 4, 5, **8, 12**, 12, 45, 56, 67, 78, 78, 90, 90, 90. Median = (8 + 12)/2 = **10**\n- Player-2 sorted: 25, 26, 26, 26, 27, 27, 27, 28, 28, **30, 31**, 32, 32, 35, 37, 38, 45, 45, 45, 45. Median = (30 + 31)/2 = **30.5**\n\n**3. Mode (greatest frequency)**\n- Player-1: 4 appears four times (90 three times). Mode = **4**\n- Player-2: 45 appears four times (26 and 27 three times each). Mode = **45**\n\n| | Mean | Median | Mode |\n|---|---|---|---|\n| Player-1 | 32.75 | 10 | 4 |\n| Player-2 | 32.75 | 30.5 | 45 |\n\n**Observations:**\n- **Same mean, different players.** On the average alone they look identical.\n- **Player-1 is erratic.** In half the matches Player-1 scored 8 or fewer, and the most common score is 4. A handful of big scores (90, 90, 90, 78, 78, 67, 56) lift the mean far above the typical score. This is the slide's warning: **a few extremely large values can inflate the mean**, so with extreme values **the median is the preferred measure**.\n- **Player-2 is consistent.** Mean 32.75 and median 30.5 are close, and every score lies between 25 and 45.\n\n**Conclusion:** looking at all three measures, not just the mean, shows Player-2 is the steadier performer and Player-1 depends on occasional big innings.",
+      "rubric": [
+        {
+          "point": "Both means 655 / 20 = 32.75",
+          "source_ref": "qtm--module-2-1#7"
+        },
+        {
+          "point": "Player-1 median (8 + 12)/2 = 10",
+          "source_ref": "qtm--module-2-1#11"
+        },
+        {
+          "point": "Player-2 median (30 + 31)/2 = 30.5",
+          "source_ref": "qtm--module-2-1#11"
+        },
+        {
+          "point": "Modes: Player-1 = 4, Player-2 = 45",
+          "source_ref": "qtm--module-2-1#14"
+        },
+        {
+          "point": "Player-1's big scores inflate the mean; median preferred with extreme values",
+          "source_ref": "qtm--module-2-1#8"
+        },
+        {
+          "point": "Player-2 consistent; look at all three measures",
+          "source_ref": "qtm--module-2-1#14"
+        }
+      ],
+      "marks": 10.0,
+      "difficulty": 3,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-2-1#7",
+        "qtm--module-2-1#11",
+        "qtm--module-2-1#14",
+        "qtm--module-2-1#5",
+        "qtm--module-2-1#10",
+        "qtm--module-2-1#13",
+        "qtm--module-2-1#8"
+      ],
+      "derived": [
+        "655",
+        "32.75",
+        "30.5",
+        "11"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m21-two-players-problem-q-9bf25a55",
+      "type": "long",
+      "stem": "Using the percentile index rule, find Q1, Q3 and the interquartile range of each player's runs in the 2 Players' Problem. What do the IQRs add to the mean, median and mode?",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Quartiles are specific percentiles: **Q1 = 25th**, **Q3 = 75th**. Index rule: **i = (p/100) x n**; if i is an integer, average the ith and (i + 1)th values.\n\n- Q1: i = (25/100) x 20 = 5, so average the 5th and 6th values.\n- Q3: i = (75/100) x 20 = 15, so average the 15th and 16th values.\n\n**Sorted scores:**\n- Player-1: 0, 2, 3, 3, **4, 4**, 4, 4, 5, 8, 12, 12, 45, 56, **67, 78**, 78, 90, 90, 90\n- Player-2: 25, 26, 26, 26, **27, 27**, 27, 28, 28, 30, 31, 32, 32, 35, **37, 38**, 45, 45, 45, 45\n\n| | Q1 | Q3 | IQR = Q3 - Q1 |\n|---|---|---|---|\n| Player-1 | (4 + 4)/2 = **4** | (67 + 78)/2 = **72.5** | **68.5** |\n| Player-2 | (27 + 27)/2 = **27** | (37 + 38)/2 = **37.5** | **10.5** |\n\n**What the IQRs add:**\n- The **IQR measures the spread of the middle 50%** of the data and is useful for **understanding data variability**.\n- Player-1's middle half of scores runs from 4 to 72.5, a spread of 68.5 runs: very unpredictable.\n- Player-2's middle half runs from 27 to 37.5, a spread of only 10.5 runs: very steady.\n- The mean (32.75 for both) could not show this at all; the median and mode hinted at it, and the IQR measures it directly.\n\n**Conclusion:** same mean, but Player-1's IQR is more than six times Player-2's, so Player-2 is clearly the more consistent player.",
+      "rubric": [
+        {
+          "point": "Q1 = 25th, Q3 = 75th percentile; i = 5 and i = 15",
+          "source_ref": "qtm--module-2-1#23"
+        },
+        {
+          "point": "Player-1: Q1 = 4, Q3 = 72.5, IQR = 68.5",
+          "source_ref": "qtm--module-2-1#7"
+        },
+        {
+          "point": "Player-2: Q1 = 27, Q3 = 37.5, IQR = 10.5",
+          "source_ref": "qtm--module-2-1#7"
+        },
+        {
+          "point": "IQR measures spread of the middle 50%",
+          "source_ref": "qtm--module-2-1#21"
+        },
+        {
+          "point": "Same mean hides very different variability; Player-2 more consistent",
+          "source_ref": "qtm--module-2-1#14"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 3,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-2-1#7",
+        "qtm--module-2-1#21",
+        "qtm--module-2-1#23",
+        "qtm--module-2-1#27",
+        "qtm--module-2-1#14"
+      ],
+      "derived": [
+        "15",
+        "16",
+        "72.5",
+        "68.5",
+        "37.5",
+        "10.5",
+        "32.75"
+      ],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
   "explain_back": {
     "prompt": "Using the 2 Players' Problem, explain what you learn by looking at the mean, the median and the mode of each player's runs.",
     "rubric": [

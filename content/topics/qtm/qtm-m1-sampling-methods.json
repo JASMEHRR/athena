@@ -431,7 +431,420 @@
       "retired": false
     }
   ],
-  "questions": [],
+  "questions": [
+    {
+      "id": "qtm-m1-sampling-methods-q-d3211226",
+      "type": "mcq",
+      "stem": "A school of 500 students, sorted alphabetically, wants a systematic sample of 25. Every Nth student is picked after a random start. What is N?",
+      "options": [
+        "20",
+        "25",
+        "475",
+        "12,500"
+      ],
+      "answer": "20",
+      "accept": [],
+      "explanation": "N = total number / required number = 500 / 25 = 20.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-1#22"
+      ],
+      "derived": [
+        "20",
+        "475",
+        "12,500"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-sampling-methods-q-16802e3d",
+      "type": "mcq",
+      "stem": "In the slide's simple random sampling example (200 students out of 2000), what is each student's chance of being selected?",
+      "options": [
+        "10%",
+        "20%",
+        "1%",
+        "200%"
+      ],
+      "answer": "10%",
+      "accept": [],
+      "explanation": "200 / 2000 = 0.1, so every student has the same 10% chance, which is the idea of probability sampling.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-1#22",
+        "qtm--module-1#21"
+      ],
+      "derived": [
+        "0.1",
+        "20%",
+        "1%",
+        "200%"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-sampling-methods-q-345cbccf",
+      "type": "mcq",
+      "stem": "TIET has 10 departments and 3 are chosen at random, with the chosen departments forming the sample. Which method is this?",
+      "options": [
+        "Clustered sampling",
+        "Stratified sampling",
+        "Systematic sampling",
+        "Quota sampling"
+      ],
+      "answer": "Clustered sampling",
+      "accept": [],
+      "explanation": "Whole groups (clusters) are selected at random; stratified sampling would take some people from every group.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "apply",
+      "source_refs": [
+        "qtm--module-1#22"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-sampling-methods-q-2d431238",
+      "type": "mcq",
+      "stem": "Consecutive sampling differs from convenience sampling because the researcher:",
+      "options": [
+        "analyzes one sample and then selects further samples as needed",
+        "asks sample members to recommend further sample elements",
+        "picks individuals based on specific traits or qualities",
+        "randomly selects whole clusters from a list"
+      ],
+      "answer": "analyzes one sample and then selects further samples as needed",
+      "accept": [],
+      "explanation": "Consecutive sampling picks a person or group, analyzes that sample, then selects more as needed.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "concept",
+      "source_refs": [
+        "qtm--module-1#22"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-sampling-methods-q-b5407d37",
+      "type": "mcq",
+      "stem": "Which sampling method has the weakness 'imprecise; difficult to compute and interpret results'?",
+      "options": [
+        "Cluster sampling",
+        "Stratified sampling",
+        "Systematic sampling",
+        "Simple random sampling"
+      ],
+      "answer": "Cluster sampling",
+      "accept": [],
+      "explanation": "Cluster sampling is easy and cost-effective, but imprecise and hard to compute and interpret.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "recall",
+      "source_refs": [
+        "qtm--module-1#25"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-sampling-methods-q-231ab6f8",
+      "type": "mcq",
+      "stem": "Which pair lists a probability method first and a non-probability method second?",
+      "options": [
+        "Systematic sampling, quota sampling",
+        "Quota sampling, systematic sampling",
+        "Snowball sampling, cluster sampling",
+        "Judgment sampling, stratified sampling"
+      ],
+      "answer": "Systematic sampling, quota sampling",
+      "accept": [],
+      "explanation": "Systematic is a probability method; quota, snowball and judgment are non-probability methods.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "classify",
+      "source_refs": [
+        "qtm--module-1#22",
+        "qtm--module-1#25"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-sampling-methods-q-50e4fe7d",
+      "type": "short",
+      "stem": "Using the slide's systematic sampling example (25 students from a school of 500, sorted by first name), find the sampling interval N. If the random starting number is 7, list the first five students selected.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Systematic sampling picks a random start and then every Nth student.\n\n**Formula:** N = total number of students / required number\n\n**Working:**\n- N = 500 / 25 = **20**\n- Start at student 7, then add 20 each time: **7, 27, 47, 67, 87**.\n\nSo the sample is every 20th student on the alphabetical list, starting from student 7, until 25 students are picked.",
+      "rubric": [
+        {
+          "point": "N = total / required number",
+          "source_ref": "qtm--module-1#22"
+        },
+        {
+          "point": "N = 500 / 25 = 20",
+          "source_ref": "qtm--module-1#22"
+        },
+        {
+          "point": "Random start, then every 20th: 7, 27, 47, 67, 87",
+          "source_ref": "qtm--module-1#22"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 1,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-1#22"
+      ],
+      "derived": [
+        "20",
+        "27",
+        "47",
+        "67",
+        "87"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-sampling-methods-q-ad319cdb",
+      "type": "short",
+      "stem": "India's N, S, W and E regions have 100, 200, 300 and 400 million people. Show how the slide gets a stratified sample of 100 people, and say why this is called proportionate selection.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Stratified sampling divides the population into groups and picks **proportionate numbers randomly from each group**.\n\n**Total population:** 100 + 200 + 300 + 400 = 1,000 million.\n\n| Region | People (million) | Share | Sample of 100 |\n|---|---|---|---|\n| N | 100 | 100/1,000 = 0.1 | **10** |\n| S | 200 | 0.2 | **20** |\n| W | 300 | 0.3 | **30** |\n| E | 400 | 0.4 | **40** |\n\nThe sample adds to 10 + 20 + 30 + 40 = 100.\n\n**Why proportionate:** each region's share of the sample equals its share of the population, and people within each region are picked **randomly**.",
+      "rubric": [
+        {
+          "point": "Total population 1,000 million",
+          "source_ref": "qtm--module-1#22"
+        },
+        {
+          "point": "Shares 0.1, 0.2, 0.3, 0.4",
+          "source_ref": "qtm--module-1#22"
+        },
+        {
+          "point": "Sample 10, 20, 30, 40 from N, S, W, E",
+          "source_ref": "qtm--module-1#22"
+        },
+        {
+          "point": "Random selection within each group, proportionate to group size",
+          "source_ref": "qtm--module-1#22"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-1#22"
+      ],
+      "derived": [
+        "1,000",
+        "0.1",
+        "0.2",
+        "0.3",
+        "0.4"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-sampling-methods-q-6a027e60",
+      "type": "short",
+      "stem": "Differentiate between probability and non-probability sampling.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The two families differ in how a person gets into the sample.\n\n| Basis | Probability sampling | Non-probability sampling |\n|---|---|---|\n| **Selection** | Every eligible individual has an **equal chance** | Researcher's **subjective judgment**, not random selection |\n| **Cost and time** | **More time-consuming and expensive** | Usually cheaper and quicker |\n| **Representativeness** | **Guarantees** a representative sample | No such guarantee |\n| **Methods** | Simple random, systematic, stratified, clustered | Convenience, consecutive, quota, judgment, snowball |\n\nProbability sampling buys representativeness at the cost of time and money.",
+      "rubric": [
+        {
+          "point": "Probability: equal chance for every eligible individual",
+          "source_ref": "qtm--module-1#21"
+        },
+        {
+          "point": "Non-probability: subjective judgment, not random",
+          "source_ref": "qtm--module-1#21"
+        },
+        {
+          "point": "Probability is more time-consuming and expensive but guarantees representativeness",
+          "source_ref": "qtm--module-1#21"
+        },
+        {
+          "point": "Correct methods listed under each",
+          "source_ref": "qtm--module-1#22"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 1,
+      "style_tag": "differentiate",
+      "source_refs": [
+        "qtm--module-1#21",
+        "qtm--module-1#22"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-sampling-methods-q-018d1959",
+      "type": "short",
+      "stem": "Differentiate between stratified sampling and clustered sampling, with the slide's examples.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Both split the population into groups, but use the groups in opposite ways.\n\n| Basis | Stratified | Clustered |\n|---|---|---|\n| **Method** | Pick **proportionate numbers randomly from each group** | **Randomly select whole clusters** from the list |\n| **Example** | India's N, S, W, E regions: 10, 20, 30, 40 people for a sample of 100 | A school with 15 branches picks 5; TIET picks 3 of 10 departments |\n| **Strength** | Includes all important subpopulations; precision | Easy to implement; cost-effective |\n| **Weakness** | Hard to choose stratification variables; expensive | Imprecise; difficult to compute and interpret |\n\nStratified covers every group; clustered covers only the groups drawn.",
+      "rubric": [
+        {
+          "point": "Stratified: proportionate random picks from every group",
+          "source_ref": "qtm--module-1#22"
+        },
+        {
+          "point": "Clustered: random selection of whole clusters",
+          "source_ref": "qtm--module-1#22"
+        },
+        {
+          "point": "Examples: India regions vs school branches or TIET departments",
+          "source_ref": "qtm--module-1#22"
+        },
+        {
+          "point": "Strengths and weaknesses of each",
+          "source_ref": "qtm--module-1#25"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "differentiate",
+      "source_refs": [
+        "qtm--module-1#22",
+        "qtm--module-1#25"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-sampling-methods-q-6e0ebc40",
+      "type": "long",
+      "stem": "Explain the four probability sampling methods with the slide's examples, and evaluate the strengths and weaknesses of each.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "In **probability sampling** every eligible individual has an **equal chance** of selection. It is more time-consuming and expensive, but guarantees a representative sample.\n\n**1. Simple random sampling (SRS)**\n- Example: choose **200 students from 2000**. Number them 1 to 2000, generate 200 random numbers, select those students (a 200/2000 = 0.1 chance each).\n- Strengths: **easily understood; results projectable**.\n- Weaknesses: **difficult to construct the sampling frame, expensive, lower precision, no assurance of representativeness**.\n\n**2. Systematic sampling**\n- Example: **25 students from 500**, sorted by first name; random start, then **every Nth student**, N = 500/25 = 20.\n- Strengths: **can increase representativeness, easier than SRS, sampling frame not necessary**.\n- Weakness: **can decrease representativeness if there are cyclical patterns**.\n\n**3. Stratified sampling**\n- Example: India's **N, S, W, E** regions (100, 200, 300, 400 million) give **10, 20, 30, 40** people in a sample of 100.\n- Strengths: **includes all important subpopulations; precision**.\n- Weaknesses: **difficult to select stratification variables, not feasible on many variables, expensive**.\n\n**4. Clustered sampling**\n- Example: a school with **15 branches** randomly picks **5**; **TIET** picks **3 of 10** departments.\n- Strengths: **easy to implement, cost-effective**.\n- Weaknesses: **imprecise, difficult to compute and interpret results**.\n\n**Conclusion:** the choice is a trade-off: stratified gives precision at a cost, cluster saves money but loses precision, and systematic is simpler than SRS unless the list has cyclical patterns.",
+      "rubric": [
+        {
+          "point": "Probability sampling: equal chance; representative but costly",
+          "source_ref": "qtm--module-1#21"
+        },
+        {
+          "point": "SRS: 200 of 2000 with random numbers; strengths and weaknesses",
+          "source_ref": "qtm--module-1#25"
+        },
+        {
+          "point": "Systematic: every Nth, N = 500/25 = 20; cyclical-pattern weakness",
+          "source_ref": "qtm--module-1#22"
+        },
+        {
+          "point": "Stratified: India regions 10, 20, 30, 40; precision vs expense",
+          "source_ref": "qtm--module-1#22"
+        },
+        {
+          "point": "Clustered: 5 of 15 branches, 3 of 10 departments; cheap but imprecise",
+          "source_ref": "qtm--module-1#25"
+        }
+      ],
+      "marks": 10.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "qtm--module-1#21",
+        "qtm--module-1#22",
+        "qtm--module-1#25"
+      ],
+      "derived": [
+        "0.1",
+        "20"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-sampling-methods-q-eb310fa7",
+      "type": "long",
+      "stem": "Describe the five non-probability sampling methods on the slides. For each, state its strengths and weaknesses where the summary table gives them.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "In **non-probability sampling** the researcher selects the sample by **subjective judgment rather than random selection**.\n\n**1. Convenience sampling**\n- Samples are taken because they are **conveniently available** to the researcher; easy to select, but not chosen to outline the whole population.\n- Strengths: **least expensive, least time-consuming, most convenient**.\n- Weaknesses: **selection bias, sample not representative, not recommended for descriptive or causal research**.\n\n**2. Consecutive sampling**\n- Like convenience sampling, but the researcher picks a person or group, **analyzes that sample, then selects further samples** as needed.\n\n**3. Quota sampling**\n- Picks individuals **based on specific traits or qualities** so the sample covers the population's scope.\n- Strength: **sample can be controlled for certain characteristics**.\n- Weaknesses: **selection bias, no assurance of representativeness**.\n\n**4. Judgment (purposive) sampling**\n- Selected on the basis of the **researcher's knowledge or judgement**.\n- Strengths: **low cost, convenient, not time-consuming**.\n- Weaknesses: **does not allow generalization; subjective**.\n\n**5. Snowball sampling**\n- Also called **chain-referral sampling**: members **recommend further sample elements**.\n- Strength: **can estimate rare characteristics**.\n- Weakness: **time-consuming**.\n\n**Conclusion:** these methods are cheap and practical, but because selection is not random they cannot guarantee a representative sample.",
+      "rubric": [
+        {
+          "point": "Non-probability: subjective judgment, not random",
+          "source_ref": "qtm--module-1#21"
+        },
+        {
+          "point": "Convenience: cheapest and quickest, but selection bias",
+          "source_ref": "qtm--module-1#25"
+        },
+        {
+          "point": "Consecutive: analyze one sample, then pick more",
+          "source_ref": "qtm--module-1#22"
+        },
+        {
+          "point": "Quota: by traits; controlled characteristics but bias",
+          "source_ref": "qtm--module-1#25"
+        },
+        {
+          "point": "Judgment: researcher's knowledge; subjective, no generalization",
+          "source_ref": "qtm--module-1#25"
+        },
+        {
+          "point": "Snowball: chain referral; rare characteristics but time-consuming",
+          "source_ref": "qtm--module-1#25"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "qtm--module-1#21",
+        "qtm--module-1#22",
+        "qtm--module-1#25"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
   "explain_back": {
     "prompt": "Compare probability and non-probability sampling, describing two methods of each with the slides' examples and one strength or weakness of each.",
     "rubric": [

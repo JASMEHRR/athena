@@ -572,7 +572,350 @@
       "retired": false
     }
   ],
-  "questions": [],
+  "questions": [
+    {
+      "id": "qtm-m21-percentiles-and-quartiles-q-45105c14",
+      "type": "mcq",
+      "stem": "For the 8 sorted values 12, 14, 18, 19, 26, 27, 27, 30, what is the 30th percentile by the slide's index rule?",
+      "options": [
+        "18",
+        "14",
+        "16",
+        "19"
+      ],
+      "answer": "18",
+      "accept": [],
+      "explanation": "i = (30/100) x 8 = 2.4, not an integer, so round up to the 3rd value, 18.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-2-1#23",
+        "qtm--module-2-1#10"
+      ],
+      "derived": [
+        "2.4",
+        "16"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m21-percentiles-and-quartiles-q-fbb47737",
+      "type": "mcq",
+      "stem": "For the same 8 sorted values (12, 14, 18, 19, 26, 27, 27, 30), what is the 75th percentile?",
+      "options": [
+        "27",
+        "26",
+        "26.5",
+        "30"
+      ],
+      "answer": "27",
+      "accept": [],
+      "explanation": "i = (75/100) x 8 = 6, an integer, so average the 6th and 7th values: (27 + 27)/2 = 27.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-2-1#23",
+        "qtm--module-2-1#10",
+        "qtm--module-2-1#27"
+      ],
+      "derived": [
+        "26.5"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m21-percentiles-and-quartiles-q-685f191a",
+      "type": "mcq",
+      "stem": "In the grouped-data formula Qk = L + ((k · n/4 - F)/f) · h, what does h stand for?",
+      "options": [
+        "The width of the class interval",
+        "The lower boundary of the quartile class",
+        "The frequency of the quartile class",
+        "The total frequency"
+      ],
+      "answer": "The width of the class interval",
+      "accept": [],
+      "explanation": "L is the lower boundary, n the total frequency, F the cumulative frequency before the class, f its frequency and h the class width.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "formula",
+      "source_refs": [
+        "qtm--module-2-1#21"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m21-percentiles-and-quartiles-q-b27a1cd3",
+      "type": "mcq",
+      "stem": "Which statement about the interquartile range appears on the quartiles slide?",
+      "options": [
+        "It is less affected by extreme values than the range",
+        "It measures the spread of the middle 75% of the data",
+        "It equals Q3 + Q1",
+        "It is another name for the median"
+      ],
+      "answer": "It is less affected by extreme values than the range",
+      "accept": [],
+      "explanation": "IQR = Q3 - Q1 measures the spread of the middle 50%, helps spot outliers and is less affected by extreme values than the range.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "recall",
+      "source_refs": [
+        "qtm--module-2-1#21",
+        "qtm--module-2-1#20"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m21-percentiles-and-quartiles-q-fae1fefc",
+      "type": "mcq",
+      "stem": "On the quartile picture, what share of the data lies between Q1 and Q3?",
+      "options": [
+        "50%",
+        "25%",
+        "75%",
+        "100%"
+      ],
+      "answer": "50%",
+      "accept": [],
+      "explanation": "Min to Q1 covers 25% and Min to Q3 covers 75%, so Q1 to Q3 holds 75% - 25% = 50%: the middle half.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "concept",
+      "source_refs": [
+        "qtm--module-2-1#20",
+        "qtm--module-2-1#21"
+      ],
+      "derived": [
+        "100%"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m21-percentiles-and-quartiles-q-568d4476",
+      "type": "mcq",
+      "stem": "For raw data with n = 15 observations in ascending order, Q3 is which term?",
+      "options": [
+        "The 12th term",
+        "The 11th term",
+        "The 8th term",
+        "The 4th term"
+      ],
+      "answer": "The 12th term",
+      "accept": [],
+      "explanation": "Q3 = (3(n + 1)/4)th term = (3 x 16/4)th = 12th; the 4th term is Q1 and the 8th is the median.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-2-1#21",
+        "qtm--module-2-1#28"
+      ],
+      "derived": [
+        "16",
+        "12",
+        "11"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m21-percentiles-and-quartiles-q-7b8aae15",
+      "type": "short",
+      "stem": "Using the 20 net worths sorted on the practice slide, find Q1 and Q3 with the percentile index rule, and calculate the interquartile range.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Quartiles are specific percentiles: **Q1 = 25th percentile**, **Q3 = 75th percentile**.\n\n**Sorted data (n = 20):** 18, 18, 18, 18, **19, 20**, 20, 20, 21, 22, 22, 23, 24, 26, **27, 32**, 33, 49, 52, 56\n\n**Index rule:** i = (p/100) x n; if i is an integer, average the ith and (i + 1)th values.\n\n- **Q1:** i = (25/100) x 20 = 5, an integer. Average the 5th and 6th values: (19 + 20)/2 = **19.5**\n- **Q3:** i = (75/100) x 20 = 15, an integer. Average the 15th and 16th values: (27 + 32)/2 = **29.5**\n- **IQR = Q3 - Q1** = 29.5 - 19.5 = **10**\n\nThe middle 50% of these net worths lie within a band of $10 billion, even though the full data run up to 56: the IQR is less affected by extreme values.",
+      "rubric": [
+        {
+          "point": "Q1 = 25th and Q3 = 75th percentile",
+          "source_ref": "qtm--module-2-1#27"
+        },
+        {
+          "point": "i = 5: Q1 = (19 + 20)/2 = 19.5",
+          "source_ref": "qtm--module-2-1#23"
+        },
+        {
+          "point": "i = 15: Q3 = (27 + 32)/2 = 29.5",
+          "source_ref": "qtm--module-2-1#23"
+        },
+        {
+          "point": "IQR = 29.5 - 19.5 = 10; less affected by extreme values",
+          "source_ref": "qtm--module-2-1#21"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-2-1#24",
+        "qtm--module-2-1#23",
+        "qtm--module-2-1#27",
+        "qtm--module-2-1#21"
+      ],
+      "derived": [
+        "19.5",
+        "29.5",
+        "15",
+        "16"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m21-percentiles-and-quartiles-q-7ada684a",
+      "type": "short",
+      "stem": "Using the raw-data quartile formulas, find Q1, Q2 and Q3 of the 15 retail stores' monthly sales and calculate the IQR.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "For ungrouped data, the slide gives the **position** of each quartile.\n\n**Sorted sales (₹ lakhs, n = 15):** 27, 28, 29, **30**, 30, 31, 32, **34**, 34, 35, 36, **38**, 39, 41, 44. So n + 1 = 16.\n\n- **Q1 = ((n + 1)/4)th term** = (16/4) = 4th term = **30**\n- **Q2 = ((n + 1)/2)th term** = (16/2) = 8th term = **34** (the median)\n- **Q3 = (3(n + 1)/4)th term** = (3 x 16/4) = 12th term = **38**\n- **IQR = Q3 - Q1** = 38 - 30 = **8**\n\nThe middle half of the stores sell between ₹30 and ₹38 lakhs a month.",
+      "rubric": [
+        {
+          "point": "Sort and use n + 1 = 16",
+          "source_ref": "qtm--module-2-1#21"
+        },
+        {
+          "point": "Q1 = 4th term = 30",
+          "source_ref": "qtm--module-2-1#21"
+        },
+        {
+          "point": "Q2 = 8th term = 34 (median)",
+          "source_ref": "qtm--module-2-1#21"
+        },
+        {
+          "point": "Q3 = 12th term = 38; IQR = 8",
+          "source_ref": "qtm--module-2-1#21"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-2-1#28",
+        "qtm--module-2-1#21"
+      ],
+      "derived": [
+        "16",
+        "12"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m21-percentiles-and-quartiles-q-f28237f1",
+      "type": "short",
+      "stem": "Differentiate between a percentile and a quartile.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Both describe how data are spread from the smallest to the largest value.\n\n| Basis | Percentile | Quartile |\n|---|---|---|\n| **Meaning** | The **pth percentile** has at least p% of items at or below it and at least (100 - p)% at or above it | **Specific percentiles** that split the data into **four groups** |\n| **How many** | Any p from the range | Three: Q1, Q2, Q3 |\n| **Link** | 25th, 50th, 75th | Q1 = 25th, **Q2 = 50th = median**, Q3 = 75th |\n\nEvery quartile is a percentile, but not every percentile is a quartile.",
+      "rubric": [
+        {
+          "point": "Percentile definition: at least p% at or below, at least (100 - p)% at or above",
+          "source_ref": "qtm--module-2-1#22"
+        },
+        {
+          "point": "Quartiles are specific percentiles dividing data into four groups",
+          "source_ref": "qtm--module-2-1#27"
+        },
+        {
+          "point": "Q1 = 25th, Q2 = 50th = median, Q3 = 75th",
+          "source_ref": "qtm--module-2-1#27"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 1,
+      "style_tag": "differentiate",
+      "source_refs": [
+        "qtm--module-2-1#22",
+        "qtm--module-2-1#27",
+        "qtm--module-2-1#20"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m21-percentiles-and-quartiles-q-503d38c8",
+      "type": "long",
+      "stem": "Define the pth percentile and explain the slide's three-step method for computing it. Illustrate both cases of the rule: the 80th percentile of the 70 values (i = 56) and the 90th percentile of the 15 retail stores' sales.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "A **percentile** tells how the data are **spread over the interval from the smallest to the largest value**.\n\n**Definition:** the **pth percentile** is a value such that **at least p per cent** of the items take on this value **or less**, and **at least (100 - p) per cent** take on this value **or more**.\n\n**Three-step method:**\n1. **Arrange the data in ascending order.**\n2. **Compute the index** i = (p/100) x n, the position of the pth percentile.\n3. **Read off the value:**\n   - if **i is not an integer, round up**: the percentile is the value in the ith position;\n   - if **i is an integer**, the percentile is the **average of the values in the ith and (i + 1)th positions**.\n\n**Case 1: i is an integer (70 values).**\n- i = (80/100) x 70 = **56**.\n- Average the 56th and 57th values: (535 + 549)/2 = **542**.\n- Check with the definition: 56/70 = .8, so at least **80%** are 542 or less; 14/70 = .2, so at least **20%** are 542 or more.\n\n**Case 2: i is not an integer (15 stores).**\n- Sorted sales: 27, 28, 29, 30, 30, 31, 32, 34, 34, 35, 36, 38, 39, **41**, 44.\n- i = (90/100) x 15 = 13.5, not an integer, so **round up to 14**.\n- The 14th value is **41**: the 90th percentile is ₹41 lakhs, and stores 4 (41) and 12 (44) form the top 10%.\n\n**Conclusion:** sort, compute i, then either average two neighbouring values (integer i) or round up and take one value (non-integer i).",
+      "rubric": [
+        {
+          "point": "Percentile: spread from smallest to largest; pth percentile definition",
+          "source_ref": "qtm--module-2-1#22"
+        },
+        {
+          "point": "Step 1 sort; step 2 i = (p/100)n",
+          "source_ref": "qtm--module-2-1#23"
+        },
+        {
+          "point": "Integer i: average ith and (i + 1)th; non-integer: round up",
+          "source_ref": "qtm--module-2-1#23"
+        },
+        {
+          "point": "70 values: i = 56, (535 + 549)/2 = 542",
+          "source_ref": "qtm--module-2-1#25"
+        },
+        {
+          "point": "Check 56/70 = 80% and 14/70 = 20%",
+          "source_ref": "qtm--module-2-1#26"
+        },
+        {
+          "point": "15 stores: i = 13.5, round up to 14th value = 41",
+          "source_ref": "qtm--module-2-1#28"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "qtm--module-2-1#22",
+        "qtm--module-2-1#23",
+        "qtm--module-2-1#25",
+        "qtm--module-2-1#26",
+        "qtm--module-2-1#28"
+      ],
+      "derived": [
+        "13.5",
+        "14",
+        "41",
+        "15"
+      ],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
   "explain_back": {
     "prompt": "Explain what a percentile is, how to compute one, and how quartiles and the IQR follow from it.",
     "rubric": [

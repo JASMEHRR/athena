@@ -328,7 +328,403 @@
       "retired": false
     }
   ],
-  "questions": [],
+  "questions": [
+    {
+      "id": "qtm-m1-variables-and-data-types-q-55ea1b22",
+      "type": "mcq",
+      "stem": "In the mapping solution, which type of data is 'Pin code'?",
+      "options": [
+        "Nominal",
+        "Ordinal",
+        "Discrete",
+        "Continuous"
+      ],
+      "answer": "Nominal",
+      "accept": [],
+      "explanation": "A pin code is a number used as a label, so it is nominal, like roll number.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "classify",
+      "source_refs": [
+        "qtm--module-1#32",
+        "qtm--module-1#31"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-variables-and-data-types-q-e2419daf",
+      "type": "mcq",
+      "stem": "Which of these items is classified as discrete in the mapping solution?",
+      "options": [
+        "Balls faced",
+        "Strike rate",
+        "Height of a person",
+        "Socio economic status"
+      ],
+      "answer": "Balls faced",
+      "accept": [],
+      "explanation": "Balls faced is a count (discrete); strike rate and height are continuous; socio-economic status is ordinal.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "classify",
+      "source_refs": [
+        "qtm--module-1#32"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-variables-and-data-types-q-1f1f1d5f",
+      "type": "mcq",
+      "stem": "Under the revised MSME classification on the slide, a Medium enterprise has:",
+      "options": [
+        "investment < Rs. 20 cr. and turnover < Rs. 100 cr.",
+        "investment < Rs. 10 cr. and turnover < Rs. 50 cr.",
+        "investment < Rs. 1 cr. and turnover < Rs. 5 cr.",
+        "investment < Rs. 100 cr. and turnover < Rs. 20 cr."
+      ],
+      "answer": "investment < Rs. 20 cr. and turnover < Rs. 100 cr.",
+      "accept": [],
+      "explanation": "Micro: 1 and 5 cr; Small: 10 and 50 cr; Medium: 20 and 100 cr (investment and turnover).",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "recall",
+      "source_refs": [
+        "qtm--module-1#27"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-variables-and-data-types-q-599997fd",
+      "type": "mcq",
+      "stem": "Using the slide's farmer classes, a farmer with 3 hectares of land is a:",
+      "options": [
+        "Medium Farmer",
+        "Small Farmer",
+        "Marginal Farmer",
+        "Big Farmer"
+      ],
+      "answer": "Medium Farmer",
+      "accept": [],
+      "explanation": "Medium farmers hold 2 to 4 hectares; small hold 1 to 2, marginal up to 1, big above 4.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "apply",
+      "source_refs": [
+        "qtm--module-1#27"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-variables-and-data-types-q-35d19f13",
+      "type": "mcq",
+      "stem": "A person with 8 to 9 years of schooling is at which education level on the slide?",
+      "options": [
+        "E3 Middle",
+        "E2 Primary",
+        "E4 Secondary",
+        "E5 Hr. Sec. and above"
+      ],
+      "answer": "E3 Middle",
+      "accept": [],
+      "explanation": "E2 Primary is 5 to 7 years, E3 Middle 8 to 9, E4 Secondary 10 to 11, E5 more than 11.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "apply",
+      "source_refs": [
+        "qtm--module-1#27"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-variables-and-data-types-q-f773c731",
+      "type": "mcq",
+      "stem": "On the types-of-data tree, data first splits into which two branches?",
+      "options": [
+        "Categorical and numerical",
+        "Discrete and continuous",
+        "Nominal and ordinal",
+        "Interval and ratio"
+      ],
+      "answer": "Categorical and numerical",
+      "accept": [],
+      "explanation": "Data splits into categorical (nominal, ordinal) and numerical (discrete, continuous).",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "recall",
+      "source_refs": [
+        "qtm--module-1#30",
+        "qtm--module-1#33"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-variables-and-data-types-q-6f9d68c1",
+      "type": "short",
+      "stem": "Differentiate between discrete and continuous data, using items from the slide's mapping exercise.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Both are numerical (quantitative) data, but they come from different kinds of numbers.\n\n| Basis | Discrete | Continuous |\n|---|---|---|\n| **Nature** | **Counts**: whole numbers you count | **Measurements**: values you measure |\n| **Examples from the solution** | Number of children, size of the class, total number of trees, runs scored, balls faced, total wickets taken | Height of a person, length of your arm, weight of a person, strike rate |\n\nWatch the cricket items: runs and balls are counted (discrete), but **strike rate** is **continuous**.",
+      "rubric": [
+        {
+          "point": "Both are numerical branches of data",
+          "source_ref": "qtm--module-1#30"
+        },
+        {
+          "point": "Discrete: counts",
+          "source_ref": "qtm--module-1#32"
+        },
+        {
+          "point": "Continuous: measurements",
+          "source_ref": "qtm--module-1#32"
+        },
+        {
+          "point": "Correct examples, with strike rate as continuous",
+          "source_ref": "qtm--module-1#32"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 1,
+      "style_tag": "differentiate",
+      "source_refs": [
+        "qtm--module-1#30",
+        "qtm--module-1#32"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-variables-and-data-types-q-01120900",
+      "type": "short",
+      "stem": "'Your LMTSM experience on a scale of 1-5' uses numbers. Explain why the slide still classifies it as qualitative.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Numbers do not automatically make a variable quantitative.\n\n- The item is scored **1 = Very bad, 2 = Bad, 3 = Good, 4 = Very Good, 5 = Excellent**.\n- The numbers are **labels for categories**, not measured amounts, so the slide circles it with the **qualitative** group (with educational qualification and gender).\n- The categories have an order, so it is the same kind of item as **consumer satisfaction**, which the mapping solution puts under **ordinal**.\n\nSo it is qualitative (categorical) data with an order.",
+      "rubric": [
+        {
+          "point": "Scale 1 to 5 maps to very bad to excellent",
+          "source_ref": "qtm--module-1#26"
+        },
+        {
+          "point": "Numbers are labels for categories, so qualitative",
+          "source_ref": "qtm--module-1#26"
+        },
+        {
+          "point": "Ordered categories, like consumer satisfaction (ordinal)",
+          "source_ref": "qtm--module-1#32"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "qtm--module-1#26",
+        "qtm--module-1#32"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-variables-and-data-types-q-0885536b",
+      "type": "short",
+      "stem": "Differentiate between nominal and ordinal data, with examples from the mapping solution.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Both are categorical (qualitative) data.\n\n| Basis | Nominal | Ordinal |\n|---|---|---|\n| **Meaning** | Names or labels, **no order** | Categories with an **order (rank)** |\n| **Examples** | Hair colour, gender, roll number, nationality, blood type, pin code | Educational level, socio-economic status, consumer satisfaction |\n\nThe trap: roll number and pin code are numbers, but they only identify, so they are **nominal**.",
+      "rubric": [
+        {
+          "point": "Both categorical",
+          "source_ref": "qtm--module-1#30"
+        },
+        {
+          "point": "Nominal: identity only, no order",
+          "source_ref": "qtm--module-1#33"
+        },
+        {
+          "point": "Ordinal: ordered categories",
+          "source_ref": "qtm--module-1#33"
+        },
+        {
+          "point": "Correct examples for each",
+          "source_ref": "qtm--module-1#32"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 1,
+      "style_tag": "differentiate",
+      "source_refs": [
+        "qtm--module-1#30",
+        "qtm--module-1#32",
+        "qtm--module-1#33"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-variables-and-data-types-q-a8bdb949",
+      "type": "short",
+      "stem": "Explain how numbers are grouped into classes, using the slide's weight, farmer and MSME examples.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Numbers are often **grouped into classes**, which turns them into ordered categories.\n\n- **Weight:** classes of 40-45, 45-50, up to 95-100.\n- **Farmers by land:** marginal (up to 1 hectares), small (1 to 2), medium (2 to 4), big (above 4).\n- **Revised MSME classification** on two criteria, investment and annual turnover: Micro (< Rs. 1 cr and < Rs. 5 cr), Small (< Rs. 10 cr and < Rs. 50 cr), Medium (< Rs. 20 cr and < Rs. 100 cr).\n- **Education levels:** E0 illiterate up to E5 (more than 11 years of schooling).\n\nGrouping makes large numerical data easier to summarise and compare.",
+      "rubric": [
+        {
+          "point": "Numbers grouped into classes become ordered categories",
+          "source_ref": "qtm--module-1#27"
+        },
+        {
+          "point": "Weight classes 40-45 to 95-100",
+          "source_ref": "qtm--module-1#27"
+        },
+        {
+          "point": "Farmer classes by hectares",
+          "source_ref": "qtm--module-1#27"
+        },
+        {
+          "point": "MSME classes on investment and turnover",
+          "source_ref": "qtm--module-1#27"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 1,
+      "style_tag": "explain",
+      "source_refs": [
+        "qtm--module-1#27"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-variables-and-data-types-q-ef81c6d0",
+      "type": "long",
+      "stem": "Draw the types-of-data tree and classify these items from the slide's exercise, giving a reason for each: hair colour, roll number, educational level, consumer satisfaction, number of children, runs scored, height of a person, strike rate.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Every data item first goes into one of two branches, then one of two types.\n\n**The tree:**\n- **Data**\n  - **Categorical (qualitative)**: **Nominal** (labels, no order) and **Ordinal** (ordered categories)\n  - **Numerical (quantitative)**: **Discrete** (counts) and **Continuous** (measurements)\n\n**Classification:**\n\n| Item | Type | Reason |\n|---|---|---|\n| Hair colour | **Nominal** | A name with no order |\n| Roll number | **Nominal** | A number used only as a label |\n| Educational level | **Ordinal** | Levels have a clear order |\n| Consumer satisfaction | **Ordinal** | Ordered ratings of satisfaction |\n| Number of children | **Discrete** | Counted in whole numbers |\n| Runs scored | **Discrete** | Counted |\n| Height of a person | **Continuous** | Measured |\n| Strike rate | **Continuous** | Calculated, not counted, and can take any value |\n\n**The two traps the solution teaches:**\n- **Numbers can be nominal:** roll number and pin code look numerical, but you cannot add or rank them meaningfully; they only identify.\n- **Cricket items split:** runs scored, balls faced and wickets are discrete counts, but **strike rate** is continuous.\n\n**Conclusion:** ask first whether the value is a label or an amount, then whether the label has an order or the amount is counted or measured.",
+      "rubric": [
+        {
+          "point": "Tree: categorical (nominal, ordinal) and numerical (discrete, continuous)",
+          "source_ref": "qtm--module-1#30"
+        },
+        {
+          "point": "Hair colour and roll number nominal",
+          "source_ref": "qtm--module-1#32"
+        },
+        {
+          "point": "Educational level and consumer satisfaction ordinal",
+          "source_ref": "qtm--module-1#32"
+        },
+        {
+          "point": "Number of children and runs scored discrete",
+          "source_ref": "qtm--module-1#32"
+        },
+        {
+          "point": "Height and strike rate continuous",
+          "source_ref": "qtm--module-1#32"
+        },
+        {
+          "point": "Reasons: label vs amount; counted vs measured",
+          "source_ref": "qtm--module-1#31"
+        }
+      ],
+      "marks": 10.0,
+      "difficulty": 2,
+      "style_tag": "classify",
+      "source_refs": [
+        "qtm--module-1#30",
+        "qtm--module-1#31",
+        "qtm--module-1#32"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-variables-and-data-types-q-d49c9903",
+      "type": "long",
+      "stem": "Differentiate between quantitative and qualitative variables. Use the slide's list of everyday variables and explain the traps where numbers appear in qualitative data or where counts and measurements differ.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Variables are first split by whether they record an **amount** or a **category**.\n\n| Basis | Quantitative (numerical) | Qualitative (categorical) |\n|---|---|---|\n| **Records** | Amounts that are counted or measured | Categories or labels |\n| **Types** | **Discrete** and **continuous** | **Nominal** and **ordinal** |\n| **Slide's variables** | Height, weight, age (# of years), temperature, income | Educational qualification, gender, LMTSM experience on a 1-5 scale |\n\n**Trap 1: numbers used as labels.** The **LMTSM experience scale** (1 = Very bad up to 5 = Excellent) is **qualitative**, because the numbers name categories. **Roll number** and **pin code** are **nominal** for the same reason.\n\n**Trap 2: counted vs measured.** Within quantitative data, counts such as **number of children, runs scored, balls faced** are **discrete**; measurements such as **height, weight, length of arm** and **strike rate** are **continuous**.\n\n**Trap 3: grouping.** A quantitative variable can be **grouped into classes**: weight into 40-45, 45-50 and so on, or farmers into marginal, small, medium and big by hectares. The classes are ordered categories.\n\n**Conclusion:** classify by what the value means, not by whether it is written as a number.",
+      "rubric": [
+        {
+          "point": "Quantitative: amounts; discrete and continuous",
+          "source_ref": "qtm--module-1#30"
+        },
+        {
+          "point": "Qualitative: categories; nominal and ordinal",
+          "source_ref": "qtm--module-1#30"
+        },
+        {
+          "point": "Slide's lists of quantitative and qualitative variables",
+          "source_ref": "qtm--module-1#26"
+        },
+        {
+          "point": "LMTSM 1-5 scale is qualitative; roll number and pin code nominal",
+          "source_ref": "qtm--module-1#32"
+        },
+        {
+          "point": "Counts discrete vs measurements continuous (strike rate)",
+          "source_ref": "qtm--module-1#32"
+        },
+        {
+          "point": "Grouping into classes, e.g. weight or farmer classes",
+          "source_ref": "qtm--module-1#27"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 2,
+      "style_tag": "differentiate",
+      "source_refs": [
+        "qtm--module-1#26",
+        "qtm--module-1#30",
+        "qtm--module-1#32",
+        "qtm--module-1#27"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
   "explain_back": {
     "prompt": "Explain the types of data with the slide's examples, including why a 1-5 experience rating is qualitative.",
     "rubric": [

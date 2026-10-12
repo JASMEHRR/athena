@@ -523,7 +523,385 @@
       "retired": false
     }
   ],
-  "questions": [],
+  "questions": [
+    {
+      "id": "qtm-m1-scales-of-measurement-q-f22927e5",
+      "type": "mcq",
+      "stem": "Which scale characteristic means the scale has a unique or fixed beginning, a true zero point?",
+      "options": [
+        "Origin",
+        "Distance",
+        "Order",
+        "Description"
+      ],
+      "answer": "Origin",
+      "accept": [],
+      "explanation": "Origin is the true zero; distance is known differences, order is relative position, description is unique labels.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "define",
+      "source_refs": [
+        "qtm--module-1#29"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-scales-of-measurement-q-90b81126",
+      "type": "mcq",
+      "stem": "Temperature in degrees is the slide's example of which scale of measurement?",
+      "options": [
+        "Interval",
+        "Ratio",
+        "Ordinal",
+        "Nominal"
+      ],
+      "answer": "Interval",
+      "accept": [],
+      "explanation": "Temperature has classification, order and distance but no natural origin, so it is interval.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "recall",
+      "source_refs": [
+        "qtm--module-1#33",
+        "qtm--module-1#35"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-scales-of-measurement-q-b2ed2227",
+      "type": "mcq",
+      "stem": "Which basic empirical operation goes with the ordinal scale?",
+      "options": [
+        "Determination of greater or lesser value",
+        "Determination of equality",
+        "Determination of equality of intervals or differences",
+        "Determination of equality of ratios"
+      ],
+      "answer": "Determination of greater or lesser value",
+      "accept": [],
+      "explanation": "Nominal: equality; ordinal: greater or lesser; interval: equal differences; ratio: equal ratios.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "recall",
+      "source_refs": [
+        "qtm--module-1#33"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-scales-of-measurement-q-dc4a7685",
+      "type": "mcq",
+      "stem": "In the race example, finish times are 15.2, 14.1 and 13.4 seconds and performance ratings are 8.2, 9.1 and 9.6. Which statement is valid?",
+      "options": [
+        "The slowest runner took about 1.13 times as long as the fastest",
+        "A rating of 9.6 is about 1.17 times as good as a rating of 8.2",
+        "Runner number 11 is better than runner number 7 because 11 is bigger",
+        "Third place is three times worse than first place"
+      ],
+      "answer": "The slowest runner took about 1.13 times as long as the fastest",
+      "accept": [],
+      "explanation": "Time is on a ratio scale (true zero), so 15.2 / 13.4 = 1.13 is meaningful; ratios of interval ratings, runner numbers or ranks are not.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 3,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-1#36",
+        "qtm--module-1#35"
+      ],
+      "derived": [
+        "1.13",
+        "1.17"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-scales-of-measurement-q-95dc566c",
+      "type": "mcq",
+      "stem": "In the customer details table, 'Salary per month' is labelled as a:",
+      "options": [
+        "Continuous variable",
+        "Discrete variable",
+        "Qualitative variable",
+        "Data set"
+      ],
+      "answer": "Continuous variable",
+      "accept": [],
+      "explanation": "The slide points Continuous Variable at salary per month and Discrete Variable at family size.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "recall",
+      "source_refs": [
+        "qtm--module-1#38"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-scales-of-measurement-q-bf2cf734",
+      "type": "mcq",
+      "stem": "Moving up from nominal, which is the first scale on which you can add and subtract values?",
+      "options": [
+        "Interval",
+        "Ordinal",
+        "Ratio",
+        "Nominal"
+      ],
+      "answer": "Interval",
+      "accept": [],
+      "explanation": "Add and subtract: No, No, Yes, Yes for nominal, ordinal, interval, ratio; multiplying and dividing needs ratio.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "concept",
+      "source_refs": [
+        "qtm--module-1#35"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-scales-of-measurement-q-bf9d44e5",
+      "type": "short",
+      "stem": "Distinguish between measurement and scaling using the 'attitude toward department stores' example.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Scaling is described as an extension of measurement.\n\n- **Scaling** creates a **continuum** on which measured objects are located.\n- **Example:** a scale from 1 to 100 for 'attitude toward department stores', with 1 = extremely unfavorable and 100 = extremely favorable.\n- **Measurement** is the **actual assignment of a number** from 1 to 100 to each respondent.\n- **Scaling** is the **process of placing the respondents on the continuum** with respect to their attitude.\n\nSo measurement gives each person a number; scaling lines everyone up along the scale.",
+      "rubric": [
+        {
+          "point": "Scaling creates a continuum; an extension of measurement",
+          "source_ref": "qtm--module-1#28"
+        },
+        {
+          "point": "Example: 1 to 100 attitude scale",
+          "source_ref": "qtm--module-1#28"
+        },
+        {
+          "point": "Measurement: assigning a number to each respondent",
+          "source_ref": "qtm--module-1#28"
+        },
+        {
+          "point": "Scaling: placing respondents on the continuum",
+          "source_ref": "qtm--module-1#28"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 1,
+      "style_tag": "differentiate",
+      "source_refs": [
+        "qtm--module-1#28"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-scales-of-measurement-q-3cb85e05",
+      "type": "short",
+      "stem": "Explain the four characteristics of a scale and show which scales of measurement have each.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Every scale can be judged on four characteristics.\n\n- **Description:** unique labels or descriptors designate each value. All four scales have it.\n- **Order:** the relative sizes or positions of the descriptors. Ordinal, interval and ratio.\n- **Distance:** absolute differences between descriptors are known. Interval and ratio.\n- **Origin:** a unique or fixed beginning, a **true zero point**. Only ratio.\n\nEach scale adds one characteristic: nominal (description), ordinal (+ order), interval (+ distance), ratio (+ origin).",
+      "rubric": [
+        {
+          "point": "Description: unique labels",
+          "source_ref": "qtm--module-1#29"
+        },
+        {
+          "point": "Order: relative sizes or positions",
+          "source_ref": "qtm--module-1#29"
+        },
+        {
+          "point": "Distance: absolute differences known",
+          "source_ref": "qtm--module-1#29"
+        },
+        {
+          "point": "Origin: true zero point",
+          "source_ref": "qtm--module-1#29"
+        },
+        {
+          "point": "Scales add characteristics in turn; only ratio has origin",
+          "source_ref": "qtm--module-1#33"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "qtm--module-1#29",
+        "qtm--module-1#33"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-scales-of-measurement-q-0834ddf5",
+      "type": "short",
+      "stem": "From the customer details table, customer D is 44 and customer G is 21, and customer E earns 105 while customer C earns 75.1 ('000 USD a month). Calculate both ratios. Why are these ratio comparisons valid, while saying a 9.6 performance rating is 1.17 times an 8.2 rating is not?",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Ratios only make sense on a scale with a true zero.\n\n**Working:**\n- Age: 44 / 21 = 2.095, so customer D is **about 2.1 times** as old as customer G.\n- Salary: 105 / 75.1 = 1.398, so customer E earns **about 1.4 times** what customer C earns.\n\n**Why valid:** **age in years** is the slide's example of a **ratio scale**, which has classification, order, distance and a **natural origin (true zero)**, so you **can multiply and divide** values. Salary also starts from a true zero, so it behaves the same way.\n\n**Why the rating ratio is not valid:** the **0-to-10 performance rating** in the runners example is an **interval** scale: differences are meaningful, but there is **no true zero**, so values **cannot be multiplied or divided**. 9.6 / 8.2 = 1.17 means nothing.",
+      "rubric": [
+        {
+          "point": "44 / 21 = 2.095, about 2.1 times",
+          "source_ref": "qtm--module-1#37"
+        },
+        {
+          "point": "105 / 75.1 = 1.398, about 1.4 times",
+          "source_ref": "qtm--module-1#38"
+        },
+        {
+          "point": "Age is the ratio-scale example; true zero allows multiply and divide",
+          "source_ref": "qtm--module-1#33"
+        },
+        {
+          "point": "Performance rating is interval: no true zero, so ratios are meaningless",
+          "source_ref": "qtm--module-1#36"
+        }
+      ],
+      "marks": 5.0,
+      "difficulty": 3,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-1#37",
+        "qtm--module-1#38",
+        "qtm--module-1#33",
+        "qtm--module-1#35",
+        "qtm--module-1#36"
+      ],
+      "derived": [
+        "2.095",
+        "2.1",
+        "1.398",
+        "1.4",
+        "1.17"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-scales-of-measurement-q-494cbdd5",
+      "type": "long",
+      "stem": "Explain the four scales of measurement: nominal, ordinal, interval and ratio. For each give its characteristics, basic empirical operation and an example, and illustrate all four with the race example.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Scales of measurement tell us what we may do with the numbers. Each scale **adds one property** to the one before.\n\n**1. Nominal**\n- Characteristics: **identity or category** only; mutually exclusive and collectively exhaustive categories, but **no order, distance or natural origin**.\n- Operation: **determination of equality**.\n- Example: **gender** (male, female).\n\n**2. Ordinal**\n- Characteristics: **classification and order (magnitude or rank)**, but no distance or natural origin.\n- Operation: **greater or lesser value**.\n- Example: **doneness of meat** (well, medium well, medium rare, rare).\n\n**3. Interval**\n- Characteristics: classification, order and **equal intervals (distance)**, but **no natural origin**.\n- Operation: **equality of intervals or differences**.\n- Example: **temperature in degrees** (also years, degree Celsius).\n\n**4. Ratio**\n- Characteristics: classification, order, distance and an **absolute (true) zero**.\n- Operation: **equality of ratios**.\n- Example: **age in years**.\n\n| Property | Nominal | Ordinal | Interval | Ratio |\n|---|---|---|---|---|\n| Order known | No | Yes | Yes | Yes |\n| Add and subtract | No | No | Yes | Yes |\n| Multiply and divide | No | No | No | Yes |\n| True zero | No | No | No | Yes |\n\n**The race example:**\n- **Nominal:** numbers assigned to runners (7, 11, 3) only identify them.\n- **Ordinal:** rank order (third, second, first place) shows who beat whom, not by how much.\n- **Interval:** performance rating on a 0-to-10 scale (8.2, 9.1, 9.6): differences are meaningful.\n- **Ratio:** time to finish (15.2, 14.1, 13.4 seconds): true zero, so ratios are meaningful.\n\n**Conclusion:** the higher the scale, the more arithmetic you can do, and only the ratio scale supports statements like 'twice as much'.",
+      "rubric": [
+        {
+          "point": "Nominal: identity only; equality; gender",
+          "source_ref": "qtm--module-1#33"
+        },
+        {
+          "point": "Ordinal: adds rank; greater or lesser; doneness of meat",
+          "source_ref": "qtm--module-1#33"
+        },
+        {
+          "point": "Interval: adds equal intervals, no natural origin; temperature",
+          "source_ref": "qtm--module-1#33"
+        },
+        {
+          "point": "Ratio: adds true zero; equality of ratios; age",
+          "source_ref": "qtm--module-1#33"
+        },
+        {
+          "point": "Table of order, add/subtract, multiply/divide, true zero",
+          "source_ref": "qtm--module-1#35"
+        },
+        {
+          "point": "Race example on all four scales",
+          "source_ref": "qtm--module-1#36"
+        }
+      ],
+      "marks": 10.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "qtm--module-1#33",
+        "qtm--module-1#35",
+        "qtm--module-1#36"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m1-scales-of-measurement-q-4593eca3",
+      "type": "long",
+      "stem": "Using the customer details table (customers A to G with salary per month, age, gender and family size), identify a record, the data set, a datum and a variable. Then classify each of the four variables as qualitative or quantitative, discrete or continuous, and give its scale of measurement.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The slides' rule is that the **starting point is data**: a table can be read at several levels.\n\n**Parts of the table:**\n- **Record / element:** one customer's row, for example customer A: 100.5, 25, M, 5.\n- **Data set:** the whole table of customers A to G.\n- **Data:** a single value, for example customer B's family size, 2.\n- **Variable:** a column, for example **gender**.\n\n**Classifying the variables:**\n\n| Variable | Qualitative or quantitative | Type | Scale |\n|---|---|---|---|\n| **Salary per month** ('000 USD) | Quantitative | **Continuous** (labelled on the slide) | Ratio: has a true zero, so salaries can be divided |\n| **Age** (years) | Quantitative | Measured in whole years here | **Ratio**: age in years is the slide's own ratio example |\n| **Gender** | **Qualitative** (labelled on the slide) | Categorical | **Nominal**: gender is the slide's nominal example |\n| **Family size** | **Quantitative** (labelled on the slide) | **Discrete** (labelled on the slide) | Ratio: a count with a true zero |\n\n**Why it matters:** the scale decides the arithmetic. You can say customer F's family (6) is three times customer B's (2), but you cannot average 'M' and 'F'; for gender you can only count categories.\n\n**Conclusion:** one table holds records, data and variables, and each variable must be classified before choosing how to summarise it.",
+      "rubric": [
+        {
+          "point": "Record: a customer row; data set: whole table",
+          "source_ref": "qtm--module-1#38"
+        },
+        {
+          "point": "Data: one value; variable: a column such as gender",
+          "source_ref": "qtm--module-1#38"
+        },
+        {
+          "point": "Salary continuous; family size discrete",
+          "source_ref": "qtm--module-1#38"
+        },
+        {
+          "point": "Gender qualitative, nominal",
+          "source_ref": "qtm--module-1#33"
+        },
+        {
+          "point": "Age on a ratio scale (slide's example)",
+          "source_ref": "qtm--module-1#33"
+        },
+        {
+          "point": "Scale decides allowed arithmetic (multiply/divide only on ratio)",
+          "source_ref": "qtm--module-1#35"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 3,
+      "style_tag": "case",
+      "source_refs": [
+        "qtm--module-1#37",
+        "qtm--module-1#38",
+        "qtm--module-1#33",
+        "qtm--module-1#35",
+        "qtm--module-1#30"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
   "explain_back": {
     "prompt": "Explain the four scales of measurement, what each allows you to do, and give the slides' example for each.",
     "rubric": [
