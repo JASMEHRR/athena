@@ -3,7 +3,8 @@
 Rules (from the spec):
 - Every unlearned topic lands before its subject's exam. The last 2 days before
   an exam are that subject's revision day and mock-paper day.
-- Priority = urgency (days to exam) x remaining work x weakness.
+- Priority = urgency (days to exam) x remaining work x weakness; subjects with an
+  exam date come before subjects without one.
 - Due reviews come first each day, up to 30 minutes; the rest rolls over.
 - When most of a learned topic's cards are due, plan a 15-minute topic revision.
 - No subject with lessons goes more than 3 days untouched.
@@ -198,7 +199,8 @@ def build_plan(inp: PlanInputs) -> Plan:
             candidates = [s for s in queues if queues[s] and s not in reserved_today
                           and not (s in future_exams and future_exams[s] <= day)]
             if has_exams:
-                order = sorted(candidates, key=lambda s: (not neglected(s), -priority(s), s))
+                # A subject with a real exam date beats one without, however big the undated backlog.
+                order = sorted(candidates, key=lambda s: (not neglected(s), s not in future_exams, -priority(s), s))
             else:
                 # Balanced rotation: least recently touched first, then a stable rotation.
                 order = sorted(candidates, key=lambda s: (last_touched.get(s, date.min), (subjects_with_lessons.index(s) - rotation_index) % max(1, len(subjects_with_lessons))))

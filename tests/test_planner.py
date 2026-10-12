@@ -34,6 +34,15 @@ def test_every_topic_lands_before_its_exam_and_eve_days_reserved():
     assert plan.has_exams and not plan.warnings
 
 
+def test_dated_exam_subject_beats_big_undated_backlog():
+    exam = TODAY + timedelta(days=15)
+    inp = PlanInputs(today=TODAY, topics=topics("far", 10, minutes=20) + topics("qtm", 48, minutes=20),
+                     exams={"far": exam}, study_minutes=MINUTES)
+    plan = build_plan(inp)
+    first_learn = next(t for t in plan.days[TODAY] if t.kind == "learn")
+    assert first_learn.subject_id == "far"
+
+
 def test_reviews_first_and_capped_with_rollover():
     inp = PlanInputs(today=TODAY, topics=topics("mm", 2), exams={}, study_minutes=MINUTES, overdue_cards=200)
     plan = build_plan(inp)
