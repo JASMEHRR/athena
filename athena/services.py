@@ -223,6 +223,14 @@ def lesson(conn: sqlite3.Connection, topic_id: str) -> dict | None:
                          "refs": [p["source_ref"] for p in eb["rubric"]]} if eb else None,
         "flashcards": sum(1 for f in topic.get("flashcards", []) if not f.get("retired") and not f.get("needs_check")),
         "links": topic_links(conn, topic_id),
+        "pyqs": [{k: q[k] for k in ("exam", "year", "q_no", "marks", "text")} for q in (
+            json.loads(r["json"]) for r in conn.execute(
+                "SELECT json FROM c_pyqs WHERE subject_id = ? ORDER BY id", (topic["subject_id"],)))
+            if topic_id in q.get("topic_ids", [])],
+        "frameworks": [{"id": f["id"], "name": f["name"]} for f in (
+            json.loads(r["json"]) for r in conn.execute(
+                "SELECT json FROM c_frameworks WHERE subject_id = ? ORDER BY name", (topic["subject_id"],)))
+            if topic_id in f.get("topic_ids", [])],
         "videos": [v for v in _kv(conn, "videos", []) if v["topic_id"] == topic_id],
         "progress": {"status": progress.topic_status(conn, topic_id), "mastery": progress.mastery(conn, topic_id),
                      "confidence": tp["confidence"] if tp else None},

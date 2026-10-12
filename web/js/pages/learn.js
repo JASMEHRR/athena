@@ -212,6 +212,13 @@ function renderConfidenceStage() {
         links.length ? el("div", {}, el("span", { class: "label" }, "You've seen this in"),
           ...links.map((l) => el("div", { class: "small", style: { marginTop: "6px" } },
             el("a", { href: `#/learn/${encodeURIComponent(l.topic_id)}` }, `${l.subject_name}: ${l.topic_title}`), ` (${l.concept})`))) : null,
+        state.lesson.pyqs.length ? el("div", {}, el("span", { class: "label" }, "Asked in past papers"),
+          ...state.lesson.pyqs.map((q) => el("div", { class: "small", style: { marginTop: "6px" } },
+            el("b", {}, `${q.exam} ${q.year}${q.q_no ? ` Q${q.q_no}` : ""}${q.marks ? ` (${q.marks} marks)` : ""}: `), q.text))) : null,
+        state.lesson.frameworks.length ? el("div", {}, el("span", { class: "label" }, "Frameworks in this topic"),
+          el("div", { class: "small", style: { marginTop: "6px" } }, ...state.lesson.frameworks.map((f, i) =>
+            el("span", {}, i ? ", " : "", el("a", { href: "#/library?tab=frameworks" }, f.name))))) : null,
+        el("a", { class: "btn", href: `#/practice?mode=write&subject=${state.lesson.topic.subject_id}` }, "Practise exam answers"),
         state.lesson.videos.length ? el("div", {}, el("span", { class: "label" }, "Extra help, not exam source"),
           ...state.lesson.videos.map((v) => el("div", { class: "small", style: { marginTop: "6px" } },
             el("a", { href: v.url, target: "_blank", rel: "noopener" }, v.title), el("span", { class: "faint" }, ` · ${v.channel}`)))) : null,

@@ -35,6 +35,24 @@ def test_health_subjects_and_lesson(client):
     assert client.get("/api/v1/topics/nope").status_code == 404
 
 
+def test_lesson_shows_past_papers_and_frameworks(env):
+    contentio.save_deck(cf.make_deck())
+    author.apply(_draft())
+    ref = f"{cf.DECK_ID}#2"
+    contentio.write_json(contentio.content_dir() / "pyqs" / "mm.json", [
+        {"id": "mm-mst-2025-q1", "subject_id": "mm", "year": 2025, "exam": "MST", "q_no": "1", "marks": 5,
+         "text": "Explain penetration pricing.", "topic_ids": ["mm-s9-pricing"]},
+        {"id": "mm-mst-2025-q2", "subject_id": "mm", "year": 2025, "exam": "MST", "text": "Unrelated.", "topic_ids": []}])
+    contentio.write_json(contentio.content_dir() / "frameworks.json", [
+        {"id": "mm-fw-pricing", "subject_id": "mm", "name": "Pricing strategies", "topic_ids": ["mm-s9-pricing"],
+         "source_refs": [ref]}])
+    importer.run()
+    with TestClient(api.create_app()) as c:
+        lesson = c.get("/api/v1/topics/mm-s9-pricing").json()
+    assert [q["text"] for q in lesson["pyqs"]] == ["Explain penetration pricing."]
+    assert lesson["frameworks"] == [{"id": "mm-fw-pricing", "name": "Pricing strategies"}]
+
+
 def test_slide_and_media(client):
     s = client.get(f"/api/v1/slides/{cf.DECK_ID}/2").json()
     assert s["title"] == "Penetration Pricing" and s["total"] == 5
