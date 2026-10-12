@@ -357,7 +357,337 @@
       "retired": false
     }
   ],
-  "questions": [],
+  "questions": [
+    {
+      "id": "qtm-m6-non-parametric-tests-q-ee7cd31f",
+      "type": "mcq",
+      "stem": "According to the comparison table, which data type suits non-parametric tests?",
+      "options": [
+        "Ordinal or nominal",
+        "Interval or ratio (continuous)",
+        "Only ratio data",
+        "Only normally distributed data"
+      ],
+      "answer": "Ordinal or nominal",
+      "accept": [],
+      "explanation": "Non-parametric tests work with ordinal or nominal data; parametric tests need interval or ratio data.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "recall",
+      "source_refs": [
+        "qtm--module-6#29"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-non-parametric-tests-q-2d015594",
+      "type": "mcq",
+      "stem": "A firm wants to compare customer satisfaction ratings across three or more regions without assuming normality. Which test fits?",
+      "options": [
+        "Kruskal-Wallis",
+        "Wilcoxon Signed-Rank",
+        "Mann-Whitney U",
+        "Paired t-test"
+      ],
+      "answer": "Kruskal-Wallis",
+      "accept": [],
+      "explanation": "Kruskal-Wallis compares 3+ independent groups, with customer satisfaction across regions as the slide's application.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "apply",
+      "source_refs": [
+        "qtm--module-6#31",
+        "qtm--module-6#3"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-non-parametric-tests-q-99788901",
+      "type": "mcq",
+      "stem": "Which non-parametric test compares observed vs expected frequencies, for example in market share or preference counts?",
+      "options": [
+        "Chi-square",
+        "Mann-Whitney U",
+        "Wilcoxon Signed-Rank",
+        "Kruskal-Wallis"
+      ],
+      "answer": "Chi-square",
+      "accept": [],
+      "explanation": "Chi-square is the categorical test comparing observed with expected frequencies.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "recall",
+      "source_refs": [
+        "qtm--module-6#31"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-non-parametric-tests-q-3646a4ea",
+      "type": "mcq",
+      "stem": "In which environments does the slide say non-parametric tests are useful?",
+      "options": [
+        "Six Sigma, quality control, customer satisfaction or survey data",
+        "Only large laboratory experiments",
+        "Only when data is symmetric and continuous",
+        "Only when population variances are known"
+      ],
+      "answer": "Six Sigma, quality control, customer satisfaction or survey data",
+      "accept": [],
+      "explanation": "The slide lists Six Sigma, quality control, customer satisfaction and survey data environments.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "recall",
+      "source_refs": [
+        "qtm--module-6#30",
+        "qtm--module-6#29"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-non-parametric-tests-q-9098c75d",
+      "type": "mcq",
+      "stem": "Which pair correctly matches a parametric test with its non-parametric counterpart by type of comparison?",
+      "options": [
+        "Paired t-test and Wilcoxon Signed-Rank",
+        "ANOVA and Wilcoxon Signed-Rank",
+        "Independent t-test and Kruskal-Wallis",
+        "Regression and Mann-Whitney U"
+      ],
+      "answer": "Paired t-test and Wilcoxon Signed-Rank",
+      "accept": [],
+      "explanation": "Both handle dependent (paired, matched) data; Mann-Whitney U pairs with two independent groups and Kruskal-Wallis with 3+ groups.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 3,
+      "style_tag": "differentiate",
+      "source_refs": [
+        "qtm--module-6#31",
+        "qtm--module-6#3",
+        "qtm--module-6#5"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-non-parametric-tests-q-22129040",
+      "type": "short",
+      "stem": "Why are non-parametric tests used? Give the reasons listed in the module.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Non-parametric tests are the fallback when parametric conditions do not hold.\n\n- The **data does not meet parametric assumptions** (normality, homogeneity).\n- The **data is ordinal or categorical**, such as ranked preferences or satisfaction ratings.\n- **Small samples or outliers distort means.**\n- They are **useful in Six Sigma, quality control, customer satisfaction or survey data** environments.\n\nThe slide on parametric tests makes the same point: when assumptions are violated, non-parametric tests are recommended.",
+      "rubric": [
+        {
+          "point": "Parametric assumptions not met",
+          "source_ref": "qtm--module-6#30"
+        },
+        {
+          "point": "Ordinal or categorical data",
+          "source_ref": "qtm--module-6#30"
+        },
+        {
+          "point": "Small samples or outliers distort means",
+          "source_ref": "qtm--module-6#30"
+        },
+        {
+          "point": "Useful in Six Sigma, quality control, satisfaction, survey data",
+          "source_ref": "qtm--module-6#30"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 1,
+      "style_tag": "explain",
+      "source_refs": [
+        "qtm--module-6#30",
+        "qtm--module-6#4"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-non-parametric-tests-q-2204565f",
+      "type": "short",
+      "stem": "Explain the four key non-parametric tests with their business applications.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The module gives four key non-parametric tests.\n\n| Test | Type | Used when | Business application |\n|---|---|---|---|\n| **Chi-square** | Categorical | Compare **observed vs expected frequencies** | Market share, preference counts |\n| **Wilcoxon Signed-Rank** | Dependent (paired) | Compare **medians of matched data** | Pre/post customer feedback |\n| **Mann-Whitney U** | Independent | Test differences between **two independent groups** | Compare supplier ratings |\n| **Kruskal-Wallis** | Multiple groups | Compare **3+ independent groups** | Customer satisfaction across regions |\n\nThe right test depends on whether the data are frequencies, paired, two groups or three or more groups.",
+      "rubric": [
+        {
+          "point": "Chi-square: observed vs expected frequencies; market share",
+          "source_ref": "qtm--module-6#31"
+        },
+        {
+          "point": "Wilcoxon: medians of matched data; pre/post feedback",
+          "source_ref": "qtm--module-6#31"
+        },
+        {
+          "point": "Mann-Whitney U: two independent groups; supplier ratings",
+          "source_ref": "qtm--module-6#31"
+        },
+        {
+          "point": "Kruskal-Wallis: 3+ groups; satisfaction across regions",
+          "source_ref": "qtm--module-6#31"
+        }
+      ],
+      "marks": 5.0,
+      "difficulty": 2,
+      "style_tag": "list",
+      "source_refs": [
+        "qtm--module-6#31"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-non-parametric-tests-q-2e0d09c5",
+      "type": "short",
+      "stem": "A company collects pre and post customer feedback ratings from the same customers after a service change. The ratings are ordinal. Which test should it use and why?",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The data and design point to one test.\n\n- **Design:** the same customers are rated **before and after**, so the data are **dependent (paired), matched data**.\n- **Data type:** the ratings are **ordinal**, which is a reason to use a **non-parametric** test.\n- **Test:** the **Wilcoxon Signed-Rank** test, which **compares medians of matched data**; the slide's application is exactly **pre/post customer feedback**.\n\nSo Wilcoxon Signed-Rank is the right choice.",
+      "rubric": [
+        {
+          "point": "Paired or matched design",
+          "source_ref": "qtm--module-6#31"
+        },
+        {
+          "point": "Ordinal data calls for non-parametric",
+          "source_ref": "qtm--module-6#30"
+        },
+        {
+          "point": "Wilcoxon Signed-Rank, compares medians of matched data",
+          "source_ref": "qtm--module-6#31"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 2,
+      "style_tag": "case",
+      "source_refs": [
+        "qtm--module-6#31",
+        "qtm--module-6#30"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-non-parametric-tests-q-50ca6e71",
+      "type": "long",
+      "stem": "Differentiate between parametric and non-parametric tests, and explain when a researcher should switch to a non-parametric test.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Statistical tests fall into two families, and the data decide which to use.\n\n| Basis | Parametric tests | Non-parametric tests |\n|---|---|---|\n| **Data type** | Interval or ratio (continuous) | Ordinal or nominal |\n| **Distribution** | Assumes normality | No assumption of distribution |\n| **Measure** | Mean and SD | Medians and ranks |\n| **Example tests** | t-test, ANOVA, regression | Chi-square, Mann-Whitney, Wilcoxon, Kruskal-Wallis |\n| **Sample size** | Usually large | Works with small samples |\n| **Use when** | Data is symmetric, continuous | Data is skewed or categorical |\n\n**Strength of parametric tests:** they are **powerful and efficient** when their assumptions are met, giving **precise estimates**. Their assumptions are quantitative data, a normal population, homogeneity of variance and independence of observations.\n\n**When to switch to a non-parametric test:**\n- the **data does not meet parametric assumptions** (normality, homogeneity);\n- the **data is ordinal or categorical**, such as ranked preferences or satisfaction ratings;\n- **small samples or outliers distort the means**.\n\nThe parametric slide gives the same warning: **violating assumptions can lead to misleading results**, and **non-parametric tests are then recommended**. They are especially useful in **Six Sigma, quality control, customer satisfaction and survey data**.\n\n**Conclusion:** parametric tests are more precise when their assumptions hold; non-parametric tests are safer when the data are ranked, categorical, skewed or few.",
+      "rubric": [
+        {
+          "point": "Data type and distribution differences",
+          "source_ref": "qtm--module-6#29"
+        },
+        {
+          "point": "Measure: mean and SD vs medians and ranks",
+          "source_ref": "qtm--module-6#29"
+        },
+        {
+          "point": "Example tests and sample size",
+          "source_ref": "qtm--module-6#29"
+        },
+        {
+          "point": "Use when: symmetric continuous vs skewed categorical",
+          "source_ref": "qtm--module-6#29"
+        },
+        {
+          "point": "Reasons to switch: assumptions, ordinal data, small samples or outliers",
+          "source_ref": "qtm--module-6#30"
+        },
+        {
+          "point": "Violated assumptions mislead; non-parametric recommended",
+          "source_ref": "qtm--module-6#4"
+        }
+      ],
+      "marks": 10.0,
+      "difficulty": 2,
+      "style_tag": "differentiate",
+      "source_refs": [
+        "qtm--module-6#29",
+        "qtm--module-6#30",
+        "qtm--module-6#2",
+        "qtm--module-6#4"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-non-parametric-tests-q-88e5f5c1",
+      "type": "long",
+      "stem": "For each business situation, choose the right non-parametric test and justify it: (a) checking whether preference counts for brands match expected frequencies; (b) comparing supplier ratings between two independent groups; (c) comparing customer satisfaction across four regions; (d) comparing pre and post customer feedback from the same customers.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Each non-parametric test fits a different design, so we match the design to the test.\n\n**(a) Preference counts vs expected frequencies: Chi-square.** The data are **categorical counts**, and chi-square **compares observed vs expected frequencies**. Its listed applications are **market share and preference counts**.\n\n**(b) Supplier ratings, two independent groups: Mann-Whitney U.** The two groups are **independent**, and Mann-Whitney U **tests differences between two independent groups**; comparing supplier ratings is its listed application.\n\n**(c) Satisfaction across four regions: Kruskal-Wallis.** Four regions means **3+ independent groups**, which Kruskal-Wallis compares; **customer satisfaction across regions** is its listed application.\n\n**(d) Pre and post feedback from the same customers: Wilcoxon Signed-Rank.** The data are **dependent (paired)**, and Wilcoxon **compares medians of matched data**, with **pre/post customer feedback** as its application.\n\n**Why non-parametric at all:** ratings and preferences are **ordinal or categorical**, and these tests work with **medians and ranks** and make **no distribution assumption**, which suits customer satisfaction and survey data.\n\n**Conclusion:** frequencies go to chi-square, two groups to Mann-Whitney U, three or more groups to Kruskal-Wallis, and matched pairs to Wilcoxon.",
+      "rubric": [
+        {
+          "point": "(a) Chi-square: observed vs expected frequencies",
+          "source_ref": "qtm--module-6#31"
+        },
+        {
+          "point": "(b) Mann-Whitney U: two independent groups",
+          "source_ref": "qtm--module-6#31"
+        },
+        {
+          "point": "(c) Kruskal-Wallis: 3+ independent groups",
+          "source_ref": "qtm--module-6#31"
+        },
+        {
+          "point": "(d) Wilcoxon Signed-Rank: matched data",
+          "source_ref": "qtm--module-6#31"
+        },
+        {
+          "point": "Ordinal or categorical data, medians and ranks, no distribution assumption",
+          "source_ref": "qtm--module-6#29"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 2,
+      "style_tag": "case",
+      "source_refs": [
+        "qtm--module-6#31",
+        "qtm--module-6#29",
+        "qtm--module-6#30"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
   "explain_back": {
     "prompt": "Compare parametric and non-parametric tests, say when to use non-parametric tests, and match the four key non-parametric tests to their uses.",
     "rubric": [

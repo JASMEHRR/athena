@@ -504,7 +504,338 @@
       "retired": false
     }
   ],
-  "questions": [],
+  "questions": [
+    {
+      "id": "qtm-m6-anova-basics-q-dfba104e",
+      "type": "mcq",
+      "stem": "In ANOVA, the independent variables must be on which kind of scale?",
+      "options": [
+        "Non-metric (categorical): nominal or ordinal",
+        "Metric (continuous): interval or ratio",
+        "Ratio scale only",
+        "Any scale, as long as the sample is large"
+      ],
+      "answer": "Non-metric (categorical): nominal or ordinal",
+      "accept": [],
+      "explanation": "The dependent variable is metric, while the independent variables (the factors) are non-metric, nominal or ordinal.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "recall",
+      "source_refs": [
+        "qtm--module-6#12"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-anova-basics-q-2746bb6c",
+      "type": "mcq",
+      "stem": "Between-group variance in ANOVA is variation due to:",
+      "options": [
+        "Differences in group means",
+        "Random error within each group",
+        "The number of groups only",
+        "The interaction of two dependent variables"
+      ],
+      "answer": "Differences in group means",
+      "accept": [],
+      "explanation": "Between-group variance comes from differences in group means; within-group variance is random error inside each group.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "define",
+      "source_refs": [
+        "qtm--module-6#14",
+        "qtm--module-6#12"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-anova-basics-q-6cd9aa24",
+      "type": "mcq",
+      "stem": "According to the slide's table, an ANOVA with one independent variable and more than one dependent variable is:",
+      "options": [
+        "Multivariate, one-way (single factor)",
+        "Univariate, one-way (single factor)",
+        "Univariate, two-way (two-factor)",
+        "Multivariate, multi-way (multi-factor)"
+      ],
+      "answer": "Multivariate, one-way (single factor)",
+      "accept": [],
+      "explanation": "More than one DV makes it multivariate; one IV makes it one-way.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "identify",
+      "source_refs": [
+        "qtm--module-6#15"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-anova-basics-q-fbd49570",
+      "type": "mcq",
+      "stem": "An ANOVA with two categorical factors is called:",
+      "options": [
+        "Two-way ANOVA",
+        "One-way ANOVA",
+        "Multivariate ANOVA",
+        "Paired ANOVA"
+      ],
+      "answer": "Two-way ANOVA",
+      "accept": [],
+      "explanation": "The categorical IVs are factors: one factor gives one-way ANOVA, two factors give two-way ANOVA.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "recall",
+      "source_refs": [
+        "qtm--module-6#12",
+        "qtm--module-6#15"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-anova-basics-q-0122b2cb",
+      "type": "mcq",
+      "stem": "Which statement about the ANOVA hypotheses is correct?",
+      "options": [
+        "H1 says at least one group mean differs",
+        "H1 says all group means differ from each other",
+        "H0 says at least one group mean differs",
+        "H0 says the group variances are unequal"
+      ],
+      "answer": "H1 says at least one group mean differs",
+      "accept": [],
+      "explanation": "H0: all group means are equal; H1: at least one group mean differs, not necessarily all.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "recall",
+      "source_refs": [
+        "qtm--module-6#16",
+        "qtm--module-6#12"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-anova-basics-q-1523077e",
+      "type": "short",
+      "stem": "Why is ANOVA used instead of multiple t-tests?",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "When there are several groups, running a t-test for every pair causes problems that ANOVA avoids.\n\n- **Multiple t-tests increase Type I error risk**, the risk of rejecting a true null hypothesis.\n- **ANOVA keeps the overall error rate at the set significance level** (for example **0.05**).\n- ANOVA **efficiently compares multiple means with a single test**.\n\nSo ANOVA tests all the means together at one controlled error rate.",
+      "rubric": [
+        {
+          "point": "Multiple t-tests increase Type I error risk",
+          "source_ref": "qtm--module-6#13"
+        },
+        {
+          "point": "ANOVA keeps overall error at the set level, e.g. 0.05",
+          "source_ref": "qtm--module-6#13"
+        },
+        {
+          "point": "Compares multiple means with a single test",
+          "source_ref": "qtm--module-6#13"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 1,
+      "style_tag": "explain",
+      "source_refs": [
+        "qtm--module-6#13",
+        "qtm--module-6#12"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-anova-basics-q-86880e8d",
+      "type": "short",
+      "stem": "Differentiate between between-group variance and within-group variance, and explain how they form the F-statistic.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "ANOVA splits the variation in the data into two parts.\n\n- **Between-group variance:** variation **due to differences in group means**.\n- **Within-group variance:** variation **within each group due to random error**.\n- **F-statistic:** the **ratio of between-group to within-group variance**.\n- **Reading F:** a **large F-value** means a **high likelihood of a significant difference among the means**, because the groups differ from each other much more than members differ inside a group.\n\nSo F compares the signal (group differences) with the noise (random error).",
+      "rubric": [
+        {
+          "point": "Between: differences in group means",
+          "source_ref": "qtm--module-6#14"
+        },
+        {
+          "point": "Within: random error within each group",
+          "source_ref": "qtm--module-6#14"
+        },
+        {
+          "point": "F = between ÷ within",
+          "source_ref": "qtm--module-6#14"
+        },
+        {
+          "point": "Large F suggests a significant difference among means",
+          "source_ref": "qtm--module-6#14"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "differentiate",
+      "source_refs": [
+        "qtm--module-6#14",
+        "qtm--module-6#12"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-anova-basics-q-a96ae17d",
+      "type": "short",
+      "stem": "What is ANOVA? State its scale requirements and how the number of factors names the test.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "ANOVA is the main test for comparing several means.\n\n- **Meaning:** ANOVA stands for **Analysis of Variance**, also called the **F-Test**, **developed by Sir Ronald Fisher**. It is a **test of means for two or more samples**, and the **null hypothesis says the means are equal**.\n- **Dependent variable:** must be on a **metric scale** (continuous: **interval and ratio**).\n- **Independent variables:** must be on a **non-metric scale** (categorical: **nominal or ordinal**).\n- **Factors:** the categorical independent variables are called **factors**; **one factor is one-way ANOVA**, **two factors are two-way ANOVA**, and so on.\n\nThe number of factors tells you which ANOVA you are running.",
+      "rubric": [
+        {
+          "point": "Analysis of Variance, F-Test, Sir Ronald Fisher",
+          "source_ref": "qtm--module-6#12"
+        },
+        {
+          "point": "Test of means for two or more samples; H0 means equal",
+          "source_ref": "qtm--module-6#12"
+        },
+        {
+          "point": "DV metric; IVs non-metric",
+          "source_ref": "qtm--module-6#12"
+        },
+        {
+          "point": "Factors: one-way, two-way",
+          "source_ref": "qtm--module-6#12"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 1,
+      "style_tag": "define",
+      "source_refs": [
+        "qtm--module-6#12",
+        "qtm--module-6#15",
+        "qtm--module-6#16"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-anova-basics-q-4228bc0e",
+      "type": "long",
+      "stem": "Explain ANOVA (the F-test): its meaning, scale requirements, key concepts, hypotheses and decision rule, and why it is preferred over multiple t-tests.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "ANOVA is the standard way to test whether several group means are equal.\n\n**Meaning:** **Analysis of Variance**, or the **F-Test**, developed by **Sir Ronald Fisher**. It is a **test of means for two or more samples**.\n\n**Scales:**\n- **Dependent variable:** metric (continuous: interval and ratio).\n- **Independent variables:** non-metric (categorical: nominal or ordinal), called **factors**. One factor is one-way ANOVA; two factors are two-way ANOVA.\n\n**Why not multiple t-tests:**\n- Multiple t-tests **increase Type I error risk**.\n- ANOVA **keeps the overall error rate at the set significance level** (e.g. 0.05).\n- It **compares multiple means with a single test**.\n\n**Key concepts:**\n- **Between-group variance:** variation due to differences in group means.\n- **Within-group variance:** variation within each group due to random error.\n- **F-statistic = between-group ÷ within-group variance**; a **large F** means a high likelihood of a significant difference among means.\n\n**Hypotheses (one-way and two-way):**\n- **H0:** all group means are equal (μ1 = μ2 = ... = μk).\n- **H1:** at least one group mean differs.\n\n**Decision rule:** if **F calculated > F critical**, or **p < α**, **reject H0**.\n\n**Conclusion:** ANOVA compares the spread between groups with the spread inside groups, and a large enough ratio shows the means are not all equal.",
+      "rubric": [
+        {
+          "point": "Analysis of Variance, F-Test, Fisher; test of means",
+          "source_ref": "qtm--module-6#12"
+        },
+        {
+          "point": "DV metric, IVs non-metric factors; one-way vs two-way",
+          "source_ref": "qtm--module-6#12"
+        },
+        {
+          "point": "Why not multiple t-tests: Type I error",
+          "source_ref": "qtm--module-6#13"
+        },
+        {
+          "point": "Between, within and F ratio; large F",
+          "source_ref": "qtm--module-6#14"
+        },
+        {
+          "point": "H0 all means equal; H1 at least one differs",
+          "source_ref": "qtm--module-6#16"
+        },
+        {
+          "point": "Reject H0 if F calc > F crit or p < α",
+          "source_ref": "qtm--module-6#16"
+        }
+      ],
+      "marks": 10.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "qtm--module-6#12",
+        "qtm--module-6#13",
+        "qtm--module-6#14",
+        "qtm--module-6#16",
+        "qtm--module-6#15"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-anova-basics-q-8126626d",
+      "type": "long",
+      "stem": "Using the slide's table, explain how ANOVA designs are classified as univariate or multivariate and as one-way, two-way or multi-way. Classify: (a) one IV and one DV; (b) two IVs and one DV; (c) more than one IV and more than one DV; (d) two IVs and more than one DV.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The slide names an ANOVA design from two counts: the number of dependent variables and the number of independent variables (factors).\n\n**Rule 1, dependent variables:** **one DV = univariate**; **more than one DV = multivariate**.\n\n**Rule 2, independent variables:** **one IV = one-way (single factor)**; **two IVs = two-way (two-factor)**; **more than one IV = multi-way (multi-factor)**.\n\n**Classifications:**\n- **(a) 1 IV, 1 DV:** **univariate, one-way (single factor)**.\n- **(b) 2 IVs, 1 DV:** **univariate, two-way (two-factor)**.\n- **(c) More than 1 IV, more than 1 DV:** **multivariate, multi-way (multi-factor)**.\n- **(d) 2 IVs, more than 1 DV:** **multivariate, two-way (two-factor)**.\n\n**Why it matters:** the independent variables are categorical factors and the dependent variable is metric, so counting each tells you exactly which design you are running.\n\n**Conclusion:** count the DVs to get univariate or multivariate, and count the IVs to get one-way, two-way or multi-way.",
+      "rubric": [
+        {
+          "point": "One DV univariate, more than one DV multivariate",
+          "source_ref": "qtm--module-6#15"
+        },
+        {
+          "point": "IV count gives one-way, two-way, multi-way",
+          "source_ref": "qtm--module-6#15"
+        },
+        {
+          "point": "(a) univariate one-way; (b) univariate two-way",
+          "source_ref": "qtm--module-6#15"
+        },
+        {
+          "point": "(c) multivariate multi-way; (d) multivariate two-way",
+          "source_ref": "qtm--module-6#15"
+        },
+        {
+          "point": "IVs are categorical factors, DV metric",
+          "source_ref": "qtm--module-6#12"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 2,
+      "style_tag": "case",
+      "source_refs": [
+        "qtm--module-6#15",
+        "qtm--module-6#12"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
   "explain_back": {
     "prompt": "Explain what ANOVA is, why it is used instead of multiple t-tests, and how the F-statistic leads to a decision.",
     "rubric": [

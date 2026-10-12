@@ -636,7 +636,421 @@
       "retired": false
     }
   ],
-  "questions": [],
+  "questions": [
+    {
+      "id": "qtm-m6-regression-q-3dee9a31",
+      "type": "mcq",
+      "stem": "In the regression equation Y = a + bX, what does b represent?",
+      "options": [
+        "The slope: the change in Y for a unit change in X",
+        "The value of Y when X = 0",
+        "The coefficient of determination",
+        "The number of observations"
+      ],
+      "answer": "The slope: the change in Y for a unit change in X",
+      "accept": [],
+      "explanation": "b is the slope; a is the intercept, the value of Y when X = 0.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "define",
+      "source_refs": [
+        "qtm--module-6#25",
+        "qtm--module-6#27"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-regression-q-714f9cb3",
+      "type": "mcq",
+      "stem": "R-square is described on the slide as:",
+      "options": [
+        "The coefficient of determination, the square of the correlation coefficient r",
+        "The slope of the regression line",
+        "The intercept divided by the slope",
+        "The sum of squared differences between X and Y"
+      ],
+      "answer": "The coefficient of determination, the square of the correlation coefficient r",
+      "accept": [],
+      "explanation": "R-square is the coefficient of determination and equals r squared; higher R-square means higher explanatory power.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "define",
+      "source_refs": [
+        "qtm--module-6#27",
+        "qtm--module-6#26"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-regression-q-82e4f359",
+      "type": "mcq",
+      "stem": "For the advertising data (Y: 25, 40, 50, 55, 65), what is SSyy = Σy² − (Σy)²/n?",
+      "options": [
+        "930",
+        "1000",
+        "950",
+        "11975"
+      ],
+      "answer": "930",
+      "accept": [],
+      "explanation": "Σy² = 11975 and (Σy)²/n = 235²/5 = 11045, so SSyy = 11975 − 11045 = 930.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-6#27",
+        "qtm--module-6#28"
+      ],
+      "derived": [
+        "1000",
+        "11045",
+        "11975",
+        "235",
+        "930",
+        "950"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-regression-q-2ce56b86",
+      "type": "mcq",
+      "stem": "Using the advertising regression line Sales = 18.5 + 0.95 × Advertising spend, what are the predicted weekly sales when advertising spend is 30 (₹ '000)?",
+      "options": [
+        "47 (₹ '000)",
+        "50 (₹ '000)",
+        "28.5 (₹ '000)",
+        "48.5 (₹ '000)"
+      ],
+      "answer": "47 (₹ '000)",
+      "accept": [],
+      "explanation": "18.5 + 0.95 × 30 = 18.5 + 28.5 = 47.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-6#28",
+        "qtm--module-6#25"
+      ],
+      "derived": [
+        "18.5",
+        "0.95",
+        "47",
+        "28.5",
+        "48.5"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-regression-q-0d63215e",
+      "type": "mcq",
+      "stem": "Which of these is given on the slide as an example application of regression analysis?",
+      "options": [
+        "Forecasting demand from price data",
+        "Comparing supplier ratings between two groups",
+        "Testing whether watch preference depends on age",
+        "Comparing medians of matched pre/post feedback"
+      ],
+      "answer": "Forecasting demand from price data",
+      "accept": [],
+      "explanation": "The slide lists predicting sales from ad spending, forecasting demand from price data and estimating employee performance from training hours.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "recall",
+      "source_refs": [
+        "qtm--module-6#25",
+        "qtm--module-6#31",
+        "qtm--module-6#35"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-regression-q-65571757",
+      "type": "short",
+      "stem": "For the advertising data (X: 10, 20, 30, 40, 50; Y: 25, 40, 50, 55, 65), calculate the slope b using the formula b = [NΣXY − (ΣX)(ΣY)] / [NΣX² − (ΣX)²] and the intercept a.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "We use the slide's first slope formula with N = 5.\n\n**Sums:** ΣX = 150; ΣY = 235; ΣXY = 250 + 800 + 1500 + 2200 + 3250 = 8000; ΣX² = 100 + 400 + 900 + 1600 + 2500 = 5500.\n\n**Slope:**\n- Numerator: NΣXY − (ΣX)(ΣY) = 5 × 8000 − 150 × 235 = 40,000 − 35,250 = **4,750**\n- Denominator: NΣX² − (ΣX)² = 5 × 5500 − 150² = 27,500 − 22,500 = **5,000**\n- b = 4,750/5,000 = **0.95**\n\n**Intercept:** a = (ΣY − bΣX)/N = (235 − 0.95 × 150)/5 = (235 − 142.5)/5 = 92.5/5 = **18.5**\n\n**Line:** Sales = **18.5 + 0.95 × Advertising spend**.",
+      "rubric": [
+        {
+          "point": "Correct sums ΣX, ΣY, ΣXY, ΣX²",
+          "source_ref": "qtm--module-6#28"
+        },
+        {
+          "point": "Slope formula applied: 4,750/5,000",
+          "source_ref": "qtm--module-6#26"
+        },
+        {
+          "point": "b = 0.95",
+          "source_ref": "qtm--module-6#26"
+        },
+        {
+          "point": "a = (235 − 142.5)/5 = 18.5",
+          "source_ref": "qtm--module-6#26"
+        }
+      ],
+      "marks": 5.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-6#26",
+        "qtm--module-6#28"
+      ],
+      "derived": [
+        "0.95",
+        "100",
+        "142.5",
+        "150",
+        "1500",
+        "1600",
+        "18.5",
+        "22,500",
+        "2200",
+        "22500",
+        "235",
+        "250",
+        "2500",
+        "27,500",
+        "27500",
+        "3250",
+        "35,250",
+        "35250",
+        "4,750",
+        "40,000",
+        "400",
+        "40000",
+        "4750",
+        "5,000",
+        "5500",
+        "800",
+        "8000",
+        "900",
+        "92.5"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-regression-q-dcc62cd1",
+      "type": "short",
+      "stem": "Differentiate between r and R-square, and interpret both for the advertising example (r ≈ 0.985, R² ≈ 0.97).",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Both describe how closely advertising and sales move together, but they answer different questions.\n\n- **r (correlation coefficient):** measures the **strength and direction of the linear relationship** between two continuous variables. Formula: r = SSxy/√(SSxx × SSyy).\n- **R-square (coefficient of determination):** the **square of r**; the **higher the R-square, the higher the explanatory power** of the independent variable for the dependent variable.\n- **Advertising example:** r ≈ **0.985** is positive and close to 1, showing a **strong positive linear relationship**. R² ≈ **0.97** is high, so advertising spend has **high explanatory power** for weekly sales.\n\nSo r tells direction and strength, while R-square tells how much the predictor explains.",
+      "rubric": [
+        {
+          "point": "r: strength and direction of linear relationship",
+          "source_ref": "qtm--module-6#3"
+        },
+        {
+          "point": "R-square: coefficient of determination, square of r",
+          "source_ref": "qtm--module-6#27"
+        },
+        {
+          "point": "Higher R-square, higher explanatory power",
+          "source_ref": "qtm--module-6#27"
+        },
+        {
+          "point": "Interpretation: strong positive r; high R² for advertising",
+          "source_ref": "qtm--module-6#28"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "differentiate",
+      "source_refs": [
+        "qtm--module-6#3",
+        "qtm--module-6#27",
+        "qtm--module-6#28"
+      ],
+      "derived": [
+        "0.985",
+        "0.97"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-regression-q-c3393934",
+      "type": "long",
+      "stem": "A marketing manager records advertising spend (X, ₹ '000s) and weekly sales (Y, ₹ '000s): X = 10, 20, 30, 40, 50 and Y = 25, 40, 50, 55, 65. Using the alternate formulae, find the regression line, r and R-square, and interpret the results.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Regression examines how weekly sales (Y, the dependent variable) depend on advertising spend (X, the independent variable).\n\n**Step 1: Sums (n = 5).** Σx = 150; Σy = 235; Σxy = 8000; Σx² = 5500; Σy² = 11975.\n\n**Step 2: Sums of squares.**\n- SSxy = Σxy − (Σx)(Σy)/n = 8000 − (150 × 235)/5 = 8000 − 7050 = **950**\n- SSxx = Σx² − (Σx)²/n = 5500 − 150²/5 = 5500 − 4500 = **1000**\n- SSyy = Σy² − (Σy)²/n = 11975 − 235²/5 = 11975 − 11045 = **930**\n\n**Step 3: Slope and intercept.**\n- b = SSxy/SSxx = 950/1000 = **0.95**\n- a = (ΣY − bΣX)/N = (235 − 0.95 × 150)/5 = 92.5/5 = **18.5**\n- **Regression line: Sales = 18.5 + 0.95 × Advertising spend**\n\n**Step 4: Correlation.** r = SSxy/√(SSxx × SSyy) = 950/√(1000 × 930) = 950/964.37 ≈ **0.985**\n\n**Step 5: R-square.** R² = r² ≈ 0.985² ≈ **0.97**\n\n**Interpretation:**\n- **b = 0.95 is positive**, so sales **increase** with advertising: each extra ₹ 1,000 of spend goes with about 0.95 (₹ '000) more weekly sales.\n- **a = 18.5** is the expected sales when advertising spend is 0.\n- **r ≈ 0.985** shows a **very strong positive linear relationship**.\n- **R² ≈ 0.97** is high, so advertising spend has **high explanatory power** for weekly sales.\n\n**Conclusion:** advertising and sales are closely and positively related, and the line can be used to predict sales from planned advertising spend.",
+      "rubric": [
+        {
+          "point": "Sums and SSxy = 950, SSxx = 1000, SSyy = 930",
+          "source_ref": "qtm--module-6#27"
+        },
+        {
+          "point": "b = 0.95 and a = 18.5",
+          "source_ref": "qtm--module-6#26"
+        },
+        {
+          "point": "Regression line Sales = 18.5 + 0.95 X",
+          "source_ref": "qtm--module-6#28"
+        },
+        {
+          "point": "r ≈ 0.985",
+          "source_ref": "qtm--module-6#27"
+        },
+        {
+          "point": "R² ≈ 0.97",
+          "source_ref": "qtm--module-6#27"
+        },
+        {
+          "point": "Interpretation: positive slope, strong relationship, high explanatory power",
+          "source_ref": "qtm--module-6#26"
+        }
+      ],
+      "marks": 10.0,
+      "difficulty": 3,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-6#25",
+        "qtm--module-6#26",
+        "qtm--module-6#27",
+        "qtm--module-6#28"
+      ],
+      "derived": [
+        "150",
+        "235",
+        "8000",
+        "5500",
+        "11975",
+        "7050",
+        "4500",
+        "11045",
+        "950",
+        "1000",
+        "930",
+        "0.95",
+        "142.5",
+        "92.5",
+        "18.5",
+        "964.37",
+        "0.985",
+        "0.97"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-regression-q-9c3e043c",
+      "type": "long",
+      "stem": "What is regression analysis? Explain the regression equation, the line of best fit, the meaning of the slope and intercept, and the formulas used to compute them, with the slide's applications.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Regression analysis turns a relationship between two variables into a prediction tool.\n\n**Meaning:** a statistical method to **examine the relationship between a dependent variable (Y) and an independent variable (X)**; it **helps predict the value of Y based on X**.\n\n**Applications from the slide:** predicting **sales from ad spending**, forecasting **demand from price data**, and estimating **employee performance from training hours**.\n\n**The equation: Y = a + bX**\n- **Y:** dependent variable (outcome); **X:** independent variable (predictor).\n- **a: intercept**, the value of Y when X = 0.\n- **b: slope**, the change in Y for a unit change in X.\n\n**Line of best fit:** represents the **expected relationship between X and Y**. The slope shows the **direction and strength** of the relationship: **positive b**, Y increases with X; **negative b**, Y decreases with X.\n\n**Formulas:**\n- b = [NΣXY − (ΣX)(ΣY)] / [NΣX² − (ΣX)²], or b = Σ(X − X̄)(Y − Ȳ) / Σ(X − X̄)²\n- a = (ΣY − bΣX) / N\n- **Alternate:** SSxy = Σxy − (Σx)(Σy)/n, SSxx = Σx² − (Σx)²/n, SSyy = Σy² − (Σy)²/n; then **b = SSxy/SSxx** and **r = SSxy/√(SSxx SSyy)**.\n- **R-square**, the coefficient of determination, is r squared; a higher R-square means higher explanatory power.\n\n**Conclusion:** regression finds the line that best links X and Y, and its slope, r and R-square tell the manager how strong and useful that link is.",
+      "rubric": [
+        {
+          "point": "Meaning: relationship between Y and X; predicts Y",
+          "source_ref": "qtm--module-6#25"
+        },
+        {
+          "point": "Applications: sales from ads, demand from price, performance from training",
+          "source_ref": "qtm--module-6#25"
+        },
+        {
+          "point": "Y = a + bX with intercept and slope defined",
+          "source_ref": "qtm--module-6#25"
+        },
+        {
+          "point": "Line of best fit; sign of b",
+          "source_ref": "qtm--module-6#26"
+        },
+        {
+          "point": "Formulas for b and a",
+          "source_ref": "qtm--module-6#26"
+        },
+        {
+          "point": "Alternate formulae, r and R-square",
+          "source_ref": "qtm--module-6#27"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "qtm--module-6#25",
+        "qtm--module-6#26",
+        "qtm--module-6#27"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-regression-q-e72a933d",
+      "type": "short",
+      "stem": "For the advertising example, the regression line is Sales = 18.5 + 0.95 × Advertising spend (both in ₹ '000s). Interpret the slope and intercept, and predict weekly sales when advertising spend is 40.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Regression helps **predict the value of Y based on X**, so the line can be read and used directly.\n\n- **Slope b = 0.95:** the **change in Y for a unit change in X**. Since b is **positive**, sales **increase** with advertising: each extra 1 (₹ '000) of spend goes with about 0.95 (₹ '000) more weekly sales.\n- **Intercept a = 18.5:** the **value of Y when X = 0**, that is, expected weekly sales of 18.5 (₹ '000) with no advertising.\n- **Prediction at X = 40:** Sales = 18.5 + 0.95 × 40 = 18.5 + 38 = **56.5** (₹ '000).\n- **Check:** the recorded sales at a spend of 40 were 55, so the line is close (off by 1.5).\n\nThe line gives the manager a quick way to estimate sales for a planned advertising budget.",
+      "rubric": [
+        {
+          "point": "Slope: change in Y per unit change in X; positive so sales rise",
+          "source_ref": "qtm--module-6#25"
+        },
+        {
+          "point": "Intercept: value of Y when X = 0",
+          "source_ref": "qtm--module-6#25"
+        },
+        {
+          "point": "Prediction 18.5 + 0.95 × 40 = 56.5",
+          "source_ref": "qtm--module-6#26"
+        },
+        {
+          "point": "Compared with recorded 55",
+          "source_ref": "qtm--module-6#28"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-6#25",
+        "qtm--module-6#26",
+        "qtm--module-6#28"
+      ],
+      "derived": [
+        "18.5",
+        "0.95",
+        "38",
+        "56.5",
+        "1.5"
+      ],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
   "explain_back": {
     "prompt": "Explain regression and work through the advertising spend and sales example to find the line, r and R-square.",
     "rubric": [

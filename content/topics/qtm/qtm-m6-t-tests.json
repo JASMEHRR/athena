@@ -388,7 +388,361 @@
       "retired": false
     }
   ],
-  "questions": [],
+  "questions": [
+    {
+      "id": "qtm-m6-t-tests-q-47ed090b",
+      "type": "mcq",
+      "stem": "A study compares a Treatment group with a Control group drawn from different populations. Which t-test fits?",
+      "options": [
+        "Independent two-sample t-test",
+        "Paired t-test",
+        "One-sample t-test",
+        "Z-Test"
+      ],
+      "answer": "Independent two-sample t-test",
+      "accept": [],
+      "explanation": "Treatment vs Control from different populations are unrelated groups, which calls for the independent (unpaired) t-test.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "apply",
+      "source_refs": [
+        "qtm--module-6#5",
+        "qtm--module-6#3"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-t-tests-q-6b50744b",
+      "type": "mcq",
+      "stem": "In the independent two-sample t-test formula, what does sp stand for?",
+      "options": [
+        "The pooled standard deviation",
+        "The standard deviation of the differences",
+        "The sample proportion",
+        "The standard error of the paired means"
+      ],
+      "answer": "The pooled standard deviation",
+      "accept": [],
+      "explanation": "sp = √[((n1 − 1)s1² + (n2 − 1)s2²)/(n1 + n2 − 2)] pools the two groups' standard deviations, assuming equal variances.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "define",
+      "source_refs": [
+        "qtm--module-6#6",
+        "qtm--module-6#9"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-t-tests-q-ad03c015",
+      "type": "mcq",
+      "stem": "Using the deck's t table, what is the critical t for a two-tailed test at α = 0.05 with df = 27, as used in the two-class example?",
+      "options": [
+        "2.373",
+        "2.052",
+        "2.571",
+        "1.703"
+      ],
+      "answer": "2.373",
+      "accept": [],
+      "explanation": "The worked examples read two-tailed α = 0.05 from the 0.025 column; on the df 27 row that is 2.373.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-6#7",
+        "qtm--module-6#9"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-t-tests-q-64273ef2",
+      "type": "mcq",
+      "stem": "In the paired t-test, what is the first computation?",
+      "options": [
+        "The difference for each pair, di = x1,i − x2,i",
+        "The pooled standard deviation of the two groups",
+        "The mean of the first group only",
+        "The degrees of freedom n1 + n2 − 2"
+      ],
+      "answer": "The difference for each pair, di = x1,i − x2,i",
+      "accept": [],
+      "explanation": "The paired test first computes each pair's difference, then uses their mean d̄ and standard deviation sd.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "recall",
+      "source_refs": [
+        "qtm--module-6#6",
+        "qtm--module-6#11"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-t-tests-q-248ec068",
+      "type": "mcq",
+      "stem": "Which statement about the independent two-sample t-test formula on the slide is correct?",
+      "options": [
+        "It assumes equal variances in the two groups",
+        "It is used for measurements repeated on the same group",
+        "It needs the number of pairs n",
+        "It compares one mean with a hypothesised value"
+      ],
+      "answer": "It assumes equal variances in the two groups",
+      "accept": [],
+      "explanation": "The slide labels the formula 'assume equal variances', which is why the two SDs are pooled.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "recall",
+      "source_refs": [
+        "qtm--module-6#6",
+        "qtm--module-6#5"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-t-tests-q-ed91fe7c",
+      "type": "short",
+      "stem": "Differentiate between the one-sample, independent two-sample and paired t-tests.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The three t-tests answer different questions about means.\n\n| Test | Compares | Use when | Formula |\n|---|---|---|---|\n| **One-sample** | Mean of a single group with a **known or hypothesised population mean** | You want to know if your sample differs from a specific value | t = (x̄ − μ0)/(s/√n) |\n| **Independent two-sample (unpaired)** | Means of **two independent groups** | Samples come from different populations, e.g. Treatment vs Control; groups must be unrelated | t = (x̄1 − x̄2)/(sp √(1/n1 + 1/n2)) |\n| **Paired (dependent)** | Means from the **same group at different times** (pre/post) or **matched pairs** | Measurements are repeated or pairs are naturally linked | t = d̄/(sd/√n) |\n\nThe key question is whether there is one group, two unrelated groups, or linked pairs.",
+      "rubric": [
+        {
+          "point": "One-sample: single mean vs known value",
+          "source_ref": "qtm--module-6#5"
+        },
+        {
+          "point": "Independent: two unrelated groups, e.g. Treatment vs Control",
+          "source_ref": "qtm--module-6#5"
+        },
+        {
+          "point": "Paired: same group pre/post or matched pairs",
+          "source_ref": "qtm--module-6#5"
+        },
+        {
+          "point": "Correct formula for each",
+          "source_ref": "qtm--module-6#6"
+        }
+      ],
+      "marks": 5.0,
+      "difficulty": 1,
+      "style_tag": "differentiate",
+      "source_refs": [
+        "qtm--module-6#5",
+        "qtm--module-6#6"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-t-tests-q-536f6798",
+      "type": "short",
+      "stem": "Using the pulse data (before: 72, 75, 70, 80, 78, 77; after: 70, 76, 69, 78, 76, 75), compute the differences, their mean d̄ and their standard deviation sd.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The paired t-test starts from the difference for each client.\n\n**Differences (before − after):** 72 − 70 = 2; 75 − 76 = −1; 70 − 69 = 1; 80 − 78 = 2; 78 − 76 = 2; 77 − 75 = 2.\n\n**Mean difference:** d̄ = (2 − 1 + 1 + 2 + 2 + 2)/6 = 8/6 ≈ **1.33**\n\n**Standard deviation of differences:**\n- Deviations from 1.33: 0.67, −2.33, −0.33, 0.67, 0.67, 0.67\n- Squares: 0.44, 5.44, 0.11, 0.44, 0.44, 0.44; sum ≈ **7.33**\n- Divide by n − 1 = 5: 7.33/5 ≈ **1.467**\n- sd = √1.467 ≈ **1.211**\n\n**Answer:** differences 2, −1, 1, 2, 2, 2; **d̄ ≈ 1.33**; **sd ≈ 1.211**, matching the slide.",
+      "rubric": [
+        {
+          "point": "Differences 2, −1, 1, 2, 2, 2",
+          "source_ref": "qtm--module-6#11"
+        },
+        {
+          "point": "d̄ = 8/6 ≈ 1.33",
+          "source_ref": "qtm--module-6#11"
+        },
+        {
+          "point": "Sum of squared deviations ≈ 7.33, divided by n − 1",
+          "source_ref": "qtm--module-6#11"
+        },
+        {
+          "point": "sd ≈ 1.211",
+          "source_ref": "qtm--module-6#11"
+        }
+      ],
+      "marks": 5.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-6#11",
+        "qtm--module-6#6"
+      ],
+      "derived": [
+        "0.67",
+        "2.33",
+        "0.33",
+        "0.44",
+        "5.44",
+        "0.11",
+        "7.33",
+        "1.467"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-t-tests-q-5bb342ba",
+      "type": "short",
+      "stem": "For Class A (n = 15, SD = 10) and Class B (n = 14, SD = 8), calculate the pooled standard deviation using the slide's formula.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The pooled SD combines the two groups' variability, assuming equal variances.\n\n**Formula:** sp = √[((n1 − 1)s1² + (n2 − 1)s2²) / (n1 + n2 − 2)]\n\n**Working:**\n- (n1 − 1)s1² = 14 × 10² = 14 × 100 = **1400**\n- (n2 − 1)s2² = 13 × 8² = 13 × 64 = **832**\n- Numerator = 1400 + 832 = **2,232**\n- Denominator = 15 + 14 − 2 = **27**\n- sp² = 2,232/27 ≈ **82.67**, so sp = √82.67 ≈ **9.09 ≈ 9.1**\n\n**Answer:** sp ≈ **9.1**. (The slide prints √82.96, but 2,232/27 is about 82.67; either way sp rounds to 9.1.)",
+      "rubric": [
+        {
+          "point": "Pooled SD formula",
+          "source_ref": "qtm--module-6#6"
+        },
+        {
+          "point": "14 × 100 = 1400 and 13 × 64 = 832",
+          "source_ref": "qtm--module-6#9"
+        },
+        {
+          "point": "Denominator 27",
+          "source_ref": "qtm--module-6#9"
+        },
+        {
+          "point": "sp ≈ 9.1",
+          "source_ref": "qtm--module-6#9"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-6#6",
+        "qtm--module-6#9"
+      ],
+      "derived": [
+        "100",
+        "2,232",
+        "2232",
+        "64",
+        "82.67",
+        "9.09"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-t-tests-q-7e694a59",
+      "type": "long",
+      "stem": "Explain the three types of t-tests, give the formula for each, and state when each should be used.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "t-tests compare means, and the module covers three versions.\n\n**1. One-sample t-test**\n- Compares the **mean of a single group** to a **known or hypothesised population mean**.\n- Used when we want to know if **our sample is significantly different from a specific value**.\n- **Formula:** t = (x̄ − μ0) / (s/√n), where x̄ is the sample mean, μ0 the hypothesized population mean, s the standard deviation and n the sample size.\n- **Example:** sugar in energy bars against the dietician's 15g.\n\n**2. Independent two-sample (unpaired) t-test**\n- Compares the **means of two independent groups**.\n- Used when samples come from **different populations** (e.g. **Treatment vs Control**); the **groups must be unrelated**.\n- **Formula (equal variances):** t = (x̄1 − x̄2) / (sp √(1/n1 + 1/n2)), with pooled SD sp = √[((n1 − 1)s1² + (n2 − 1)s2²) / (n1 + n2 − 2)].\n- **Example:** test scores of Class A vs Class B.\n\n**3. Paired (dependent) t-test**\n- Compares the means from the **same group at different times (pre/post)** or **matched pairs**.\n- Used when **measurements are repeated** or **pairs are naturally linked**.\n- **Formula:** compute di = x1,i − x2,i for each pair, then t = d̄ / (sd/√n), where d̄ is the mean of differences, sd their standard deviation and n the number of pairs.\n- **Example:** clients' pulse rate before and after a training program.\n\n**Conclusion:** one group vs a value calls for the one-sample test, two unrelated groups for the independent test, and the same subjects measured twice for the paired test.",
+      "rubric": [
+        {
+          "point": "One-sample: purpose and formula",
+          "source_ref": "qtm--module-6#6"
+        },
+        {
+          "point": "Independent: two unrelated groups, Treatment vs Control",
+          "source_ref": "qtm--module-6#5"
+        },
+        {
+          "point": "Independent formula with pooled SD",
+          "source_ref": "qtm--module-6#6"
+        },
+        {
+          "point": "Paired: same group pre/post or matched pairs",
+          "source_ref": "qtm--module-6#5"
+        },
+        {
+          "point": "Paired formula using differences",
+          "source_ref": "qtm--module-6#6"
+        },
+        {
+          "point": "Slide example for each test",
+          "source_ref": "qtm--module-6#9"
+        }
+      ],
+      "marks": 10.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "qtm--module-6#5",
+        "qtm--module-6#6",
+        "qtm--module-6#8",
+        "qtm--module-6#9",
+        "qtm--module-6#11"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-t-tests-q-da38f2ce",
+      "type": "long",
+      "stem": "For the deck's three worked t-tests (sugar bars: n = 10, t ≈ −1.58, two-tailed; two classes: n1 = 15, n2 = 14, t ≈ −2.02, two-tailed; pulse rates: 6 pairs, t ≈ 2.69, one-tailed), find the degrees of freedom and the critical t from the t table at α = 0.05, and state each decision.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Each test needs its degrees of freedom and the right column of the t table.\n\n**How the deck reads the table:** for a **two-tailed** test at α = 0.05 the worked examples use the **0.025** column; for a **one-tailed** test at α = 0.05 they use the **0.05** column.\n\n**1. Sugar bars (one-sample, two-tailed)**\n- df = n − 1 = 10 − 1 = **9**\n- Critical t (df 9, 0.025 column) = **±2.685**\n- |t| = 1.58 < 2.685, so **fail to reject H0**: no evidence the mean sugar differs from 15g.\n\n**2. Two classes (independent, two-tailed)**\n- df = n1 + n2 − 2 = 15 + 14 − 2 = **27**\n- Critical t (df 27, 0.025 column) = **±2.373**\n- |t| = 2.02 < 2.373, so **fail to reject H0**: no significant difference in mean scores.\n\n**3. Pulse rates (paired, one-tailed)**\n- df = n − 1 = 6 − 1 = **5**\n- Critical t (df 5, 0.05 column) = **2.571**\n- t = 2.69 > 2.571, so **reject H0**: the program reduces pulse rate (the slide's p-value is about 0.021, below 0.05).\n\n**Note:** the slides' decision lines also print older numbers (2.262, 2.052 and 2.015); each decision is the same with either number.\n\n**Conclusion:** only the paired pulse test clears its critical value, so only there is H0 rejected.",
+      "rubric": [
+        {
+          "point": "Sugar: df 9, critical ±2.685, fail to reject",
+          "source_ref": "qtm--module-6#8"
+        },
+        {
+          "point": "Classes: df 27, critical ±2.373, fail to reject",
+          "source_ref": "qtm--module-6#9"
+        },
+        {
+          "point": "Pulse: df 5, one-tailed critical 2.571, reject",
+          "source_ref": "qtm--module-6#11"
+        },
+        {
+          "point": "Two-tailed uses 0.025 column, one-tailed 0.05 column",
+          "source_ref": "qtm--module-6#7"
+        },
+        {
+          "point": "Pulse p-value about 0.021 < 0.05",
+          "source_ref": "qtm--module-6#11"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 3,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-6#7",
+        "qtm--module-6#8",
+        "qtm--module-6#9",
+        "qtm--module-6#11"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
   "explain_back": {
     "prompt": "Explain the three types of t-test, when to use each, and write the formula for each.",
     "rubric": [

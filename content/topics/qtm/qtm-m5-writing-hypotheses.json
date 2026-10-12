@@ -298,7 +298,339 @@
       "retired": false
     }
   ],
-  "questions": [],
+  "questions": [
+    {
+      "id": "qtm-m5-writing-hypotheses-q-68eb4d10",
+      "type": "mcq",
+      "stem": "In the trash bag problem, which statement becomes the alternative hypothesis?",
+      "options": [
+        "The new bag's mean breaking strength is greater than 50 pounds",
+        "The new bag's mean breaking strength is less than or equal to 50 pounds",
+        "The new bag is better for the environment",
+        "The new bag's price will fall by 25 percent"
+      ],
+      "answer": "The new bag's mean breaking strength is greater than 50 pounds",
+      "accept": [],
+      "explanation": "The manufacturer wishes to show μ > 50, so that claim is Ha; μ ≤ 50 is H0.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "apply",
+      "source_refs": [
+        "qtm--module-5#7",
+        "qtm--module-5#6"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m5-writing-hypotheses-q-fe437546",
+      "type": "mcq",
+      "stem": "In the billing system problem, why is the hypothesised value 19.5 days?",
+      "options": [
+        "The firm claims the new system cuts the old mean of 39 days by more than 50 percent",
+        "The old system's mean payment time was 19.5 days",
+        "The network required a 19.5-day standard",
+        "It is the sample mean of the new system"
+      ],
+      "answer": "The firm claims the new system cuts the old mean of 39 days by more than 50 percent",
+      "accept": [],
+      "explanation": "Half of 39 days is 19.5 days, so the claim is a mean below 19.5.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-5#8"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m5-writing-hypotheses-q-f7254a87",
+      "type": "mcq",
+      "stem": "In the trash bag problem, which claim did the television network accept on scientific grounds without asking for statistical evidence?",
+      "options": [
+        "The bag is better for the environment",
+        "The bag is stronger than the current bag",
+        "The bag's mean breaking strength exceeds 50 pounds",
+        "The bag is the strongest on the market"
+      ],
+      "answer": "The bag is better for the environment",
+      "accept": [],
+      "explanation": "The network was convinced of the environmental advantages but questioned the strength claim.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "recall",
+      "source_refs": [
+        "qtm--module-5#6"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m5-writing-hypotheses-q-e76e0213",
+      "type": "mcq",
+      "stem": "For the billing system, which pair of hypotheses is correct?",
+      "options": [
+        "H0: µ ≥ 19.5 versus Ha: µ < 19.5",
+        "H0: µ < 19.5 versus Ha: µ ≥ 19.5",
+        "H0: µ ≤ 50 versus Ha: µ > 50",
+        "H0: µ = 39 versus Ha: µ ≠ 39"
+      ],
+      "answer": "H0: µ ≥ 19.5 versus Ha: µ < 19.5",
+      "accept": [],
+      "explanation": "The claim of a mean below 19.5 days goes into Ha; its opposite with the equality is H0.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "apply",
+      "source_refs": [
+        "qtm--module-5#8",
+        "qtm--module-5#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m5-writing-hypotheses-q-2a346564",
+      "type": "mcq",
+      "stem": "What is 'breaking strength' in the trash bag problem?",
+      "options": [
+        "The amount of a representative trash mix, in pounds, that makes a suspended bag rip or tear",
+        "The thickness of the bag's plastic",
+        "The percentage cost saving from the thinner bag",
+        "The number of bags that tear in a test batch"
+      ],
+      "answer": "The amount of a representative trash mix, in pounds, that makes a suspended bag rip or tear",
+      "accept": [],
+      "explanation": "That is the slide's definition of breaking strength, agreed by the manufacturer and the network.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "define",
+      "source_refs": [
+        "qtm--module-5#6"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m5-writing-hypotheses-q-b2327ae8",
+      "type": "short",
+      "stem": "State the general rule for deciding which statement goes into the null and which into the alternative hypothesis in a business word problem. Illustrate with the trash bag problem.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Word problems become easy once you find what the company wants to prove.\n\n- **Rule:** the claim the company **wishes to show** is the **alternative hypothesis (Ha)**, the outcome you seek to support. Its opposite, **including the equality**, is the **null hypothesis (H0)**.\n- **Trash bag facts:** the current bag's mean breaking strength is very close to, but does not exceed, **50 pounds**. The manufacturer wants to show the **new bag is stronger**.\n- **Hypotheses:** **H0: µ ≤ 50 versus Ha: µ > 50**.\n\nSo the evidence must support the strength claim before the network lets it be advertised.",
+      "rubric": [
+        {
+          "point": "Claim to be shown goes in Ha",
+          "source_ref": "qtm--module-5#7"
+        },
+        {
+          "point": "Opposite with equality goes in H0",
+          "source_ref": "qtm--module-5#3"
+        },
+        {
+          "point": "Current bag mean breaking strength close to but not above 50 pounds",
+          "source_ref": "qtm--module-5#6"
+        },
+        {
+          "point": "H0: µ ≤ 50 versus Ha: µ > 50",
+          "source_ref": "qtm--module-5#7"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "qtm--module-5#3",
+        "qtm--module-5#6",
+        "qtm--module-5#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m5-writing-hypotheses-q-141c3b3b",
+      "type": "short",
+      "stem": "A consulting firm believes its new electronic billing system will reduce the mean bill payment time by more than 50 percent. The old mean was approximately equal to, but no less than, 39 days. Set up the hypotheses with working.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "We first turn the percentage claim into a number of days.\n\n- **Old mean:** about **39 days**.\n- **Target:** a reduction of **more than 50 percent**, so the new mean must be below 39 × 0.5 = **19.5 days**.\n- **Claim (Ha):** the new mean payment time is **less than 19.5 days**.\n- **Hypotheses:** **H0: µ ≥ 19.5 versus Ha: µ < 19.5**.\n\nThis is the trash bag pattern pointing the other way: the claim is a fall, so Ha uses \"<\".",
+      "rubric": [
+        {
+          "point": "Old mean of 39 days",
+          "source_ref": "qtm--module-5#8"
+        },
+        {
+          "point": "More than 50 percent cut means below 19.5 days",
+          "source_ref": "qtm--module-5#8"
+        },
+        {
+          "point": "Claim goes in Ha: µ < 19.5",
+          "source_ref": "qtm--module-5#8"
+        },
+        {
+          "point": "H0: µ ≥ 19.5",
+          "source_ref": "qtm--module-5#8"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-5#8"
+      ],
+      "derived": [
+        "0.5"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m5-writing-hypotheses-q-52e7de2e",
+      "type": "short",
+      "stem": "Why did the network ask for statistical evidence in the trash bag problem, and what did both sides agree to measure?",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The network wanted proof before letting a strength claim go on air.\n\n- The manufacturer wanted to claim a **lower price**, that the bag is **better for the environment** and that it is **stronger** than its current bag.\n- The network was convinced of the **environmental advantages on scientific grounds**, but it **questioned the claim of increased strength** and required **statistical evidence**.\n- Both agreed to use **breaking strength**: the amount of a representative trash mix (in pounds) that makes a bag suspended in the air rip or tear.\n\nThis turned a marketing claim into a testable hypothesis about mean breaking strength.",
+      "rubric": [
+        {
+          "point": "Three claims: price, environment, strength",
+          "source_ref": "qtm--module-5#6"
+        },
+        {
+          "point": "Network accepted environmental claim but questioned strength",
+          "source_ref": "qtm--module-5#6"
+        },
+        {
+          "point": "Agreed measure: breaking strength defined",
+          "source_ref": "qtm--module-5#6"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 1,
+      "style_tag": "case",
+      "source_refs": [
+        "qtm--module-5#6"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m5-writing-hypotheses-q-1b88de9f",
+      "type": "long",
+      "stem": "A trash bag manufacturer has developed a new 30-gallon bag from a stronger, more biodegradable plastic and wants to advertise that it is stronger than its current bag. Explain the situation, identify the parameter, and set up the null and alternative hypotheses with reasons.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "This problem shows how a marketing claim is turned into a pair of hypotheses.\n\n**The situation:**\n- The new **30-gallon** bag uses a specially formulated plastic that is **stronger and more biodegradable**. Its strength allows a thinner bag, and the cost savings let the company **lower the price by 25 percent**.\n- The company wants to advertise on a major television network that the bag is cheaper, **better for the environment** and **stronger than its current bag**.\n- The network accepts the environmental claim on **scientific grounds**, but **questions the strength claim** and requires **statistical evidence**.\n\n**The measure and parameter:**\n- Both sides agree to use **breaking strength**: the amount of a representative trash mix, in pounds, that makes a bag suspended in the air rip or tear.\n- The current bag's mean breaking strength is **very close to, but does not exceed, 50 pounds**.\n- The parameter is **µ, the new bag's mean breaking strength**, which is unknown.\n\n**Setting up the hypotheses:**\n- The alternative hypothesis is the **outcome the company seeks to support**. The manufacturer **wishes to show µ is greater than 50 pounds**, so **Ha: µ > 50**.\n- The null hypothesis is the **default assumption** and keeps the equality: **H0: µ ≤ 50**.\n- **H0: µ ≤ 50 versus Ha: µ > 50**, a **one-sided** test.\n\n**Conclusion:** only if the sample evidence is strong enough to reject H0 can the company support its claim that the new bag is stronger.",
+      "rubric": [
+        {
+          "point": "New bag facts: stronger, biodegradable, 25 percent price cut",
+          "source_ref": "qtm--module-5#6"
+        },
+        {
+          "point": "Network questions strength and needs statistical evidence",
+          "source_ref": "qtm--module-5#6"
+        },
+        {
+          "point": "Breaking strength measure; current mean close to but not above 50 pounds",
+          "source_ref": "qtm--module-5#6"
+        },
+        {
+          "point": "Claim to be shown (µ > 50) is Ha",
+          "source_ref": "qtm--module-5#7"
+        },
+        {
+          "point": "H0: µ ≤ 50 versus Ha: µ > 50",
+          "source_ref": "qtm--module-5#7"
+        },
+        {
+          "point": "H0 is the default and holds the equality",
+          "source_ref": "qtm--module-5#3"
+        }
+      ],
+      "marks": 10.0,
+      "difficulty": 2,
+      "style_tag": "case",
+      "source_refs": [
+        "qtm--module-5#6",
+        "qtm--module-5#7",
+        "qtm--module-5#3"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m5-writing-hypotheses-q-4ee78fa6",
+      "type": "long",
+      "stem": "Compare the trash bag and billing system problems. For each, state what the company wants to show, write the hypotheses with working, and explain the common pattern for writing hypotheses.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Both problems follow the same logic, but the claims point in opposite directions.\n\n**Trash bag problem:**\n- **Claim:** the new bag's mean breaking strength is **greater than 50 pounds** (the current bag is close to, but does not exceed, 50 pounds).\n- **Hypotheses:** **H0: µ ≤ 50 versus Ha: µ > 50**.\n- **Direction:** upper tail (\"greater than\").\n\n**Billing system problem:**\n- A management consulting firm believes its new electronic billing system for a trucking company will **reduce mean bill payment time by more than 50 percent**.\n- **Working:** the old mean was about **39 days**, so a cut of more than half means a new mean below 39 × 0.5 = **19.5 days**.\n- **Hypotheses:** **H0: µ ≥ 19.5 versus Ha: µ < 19.5**.\n- **Direction:** lower tail (\"less than\").\n\n**The common pattern:**\n1. Find what the company **wants to show**: that statement is **Ha**, the outcome you seek to support.\n2. Write its opposite, **including the equals sign**, as **H0**, the default assumption.\n3. The sign in Ha (> or <) tells you which tail the test uses.\n\n**Conclusion:** whether the claim is \"stronger\" or \"faster\", the claim always goes into Ha and the equality always stays with H0.",
+      "rubric": [
+        {
+          "point": "Trash bag claim: µ > 50 pounds",
+          "source_ref": "qtm--module-5#7"
+        },
+        {
+          "point": "Trash bag: H0 µ ≤ 50, Ha µ > 50",
+          "source_ref": "qtm--module-5#7"
+        },
+        {
+          "point": "Billing: 39 days halved gives 19.5",
+          "source_ref": "qtm--module-5#8"
+        },
+        {
+          "point": "Billing: H0 µ ≥ 19.5, Ha µ < 19.5",
+          "source_ref": "qtm--module-5#8"
+        },
+        {
+          "point": "Pattern: claim in Ha, opposite with equality in H0",
+          "source_ref": "qtm--module-5#3"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 2,
+      "style_tag": "differentiate",
+      "source_refs": [
+        "qtm--module-5#6",
+        "qtm--module-5#7",
+        "qtm--module-5#8",
+        "qtm--module-5#3"
+      ],
+      "derived": [
+        "0.5"
+      ],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
   "explain_back": {
     "prompt": "Using the trash bag and billing system problems, explain how to turn a business claim into H0 and Ha.",
     "rubric": [

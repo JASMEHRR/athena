@@ -420,7 +420,371 @@
       "retired": false
     }
   ],
-  "questions": [],
+  "questions": [
+    {
+      "id": "qtm-m6-t-test-examples-q-132edff8",
+      "type": "mcq",
+      "stem": "In the sugar example (10 bars, SD = 2g), what is the standard error s/√n used in the t formula?",
+      "options": [
+        "About 0.632",
+        "About 0.2",
+        "About 3.16",
+        "About 1.58"
+      ],
+      "answer": "About 0.632",
+      "accept": [],
+      "explanation": "s/√n = 2/√10 ≈ 0.632, the denominator in t = −1/0.632.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-6#8",
+        "qtm--module-6#6"
+      ],
+      "derived": [
+        "0.2",
+        "3.16"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-t-test-examples-q-343f966c",
+      "type": "mcq",
+      "stem": "Why is the pulse rate example a one-tailed test?",
+      "options": [
+        "The trainer wants to show the program reduces pulse rate, so H1: μd > 0",
+        "The trainer only cares whether pulse rate changes in either direction",
+        "There are only 6 clients",
+        "The differences include a negative value"
+      ],
+      "answer": "The trainer wants to show the program reduces pulse rate, so H1: μd > 0",
+      "accept": [],
+      "explanation": "With differences taken as before − after, a reduction means a positive mean difference, a single direction.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "apply",
+      "source_refs": [
+        "qtm--module-6#11",
+        "qtm--module-6#6"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-t-test-examples-q-22b4402c",
+      "type": "mcq",
+      "stem": "In the two-class example, Class A has mean 78 and Class B has mean 85. What is the numerator of the t statistic?",
+      "options": [
+        "−7",
+        "7",
+        "163",
+        "−2.02"
+      ],
+      "answer": "−7",
+      "accept": [],
+      "explanation": "The numerator is x̄1 − x̄2 = 78 − 85 = −7.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-6#9",
+        "qtm--module-6#6"
+      ],
+      "derived": [
+        "163"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-t-test-examples-q-f03e4406",
+      "type": "mcq",
+      "stem": "In the pulse rate example, the calculated t is about 2.69 and the one-tailed critical value is 2.571. What is the decision?",
+      "options": [
+        "Reject H0: the program reduces pulse rate",
+        "Fail to reject H0: the program has no effect",
+        "Reject H0: the program increases pulse rate",
+        "Fail to reject H0 because the sample is small"
+      ],
+      "answer": "Reject H0: the program reduces pulse rate",
+      "accept": [],
+      "explanation": "2.69 > 2.571, so H0 is rejected; the p-value of about 0.021 is also below 0.05.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "apply",
+      "source_refs": [
+        "qtm--module-6#11"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-t-test-examples-q-962bc955",
+      "type": "mcq",
+      "stem": "The deck asks you to compare the three sections of MBA-I year in their QTM MST. Following the two-class method, how many degrees of freedom would a comparison of two sections have?",
+      "options": [
+        "n1 + n2 − 2",
+        "n − 1",
+        "(r − 1) × (c − 1)",
+        "k − 1"
+      ],
+      "answer": "n1 + n2 − 2",
+      "accept": [],
+      "explanation": "The deck sets this as an independent two-sample t-test, whose degrees of freedom are n1 + n2 − 2.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "apply",
+      "source_refs": [
+        "qtm--module-6#10",
+        "qtm--module-6#9"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-t-test-examples-q-05ea508c",
+      "type": "short",
+      "stem": "A dietician says the average sugar content in an energy bar should be 15g. A sample of 10 bars has mean 14g and standard deviation 2g. Test at α = 0.05 whether the mean sugar differs from 15g.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "This is a **one-sample t-test**, two-tailed because the question asks about a difference.\n\n**Hypotheses:** H0: μ = 15g; H1: μ ≠ 15g.\n\n**Test statistic:**\n- t = (x̄ − μ0) / (s/√n) = (14 − 15) / (2/√10)\n- √10 ≈ 3.162, so 2/√10 ≈ **0.632**\n- t = −1/0.632 ≈ **−1.58**\n\n**Degrees of freedom:** df = 10 − 1 = **9**.\n\n**Critical value:** two-tailed at α = 0.05, the t table (df 9, 0.025 column) gives **±2.685**.\n\n**Decision:** |t| = 1.58 < 2.685, so **fail to reject H0**. There is not enough evidence that the mean sugar differs from 15g.",
+      "rubric": [
+        {
+          "point": "H0: μ = 15g; H1: μ ≠ 15g",
+          "source_ref": "qtm--module-6#8"
+        },
+        {
+          "point": "t = (14 − 15)/(2/√10) ≈ −1.58",
+          "source_ref": "qtm--module-6#8"
+        },
+        {
+          "point": "df = 9; critical ±2.685",
+          "source_ref": "qtm--module-6#7"
+        },
+        {
+          "point": "|t| < critical, fail to reject H0",
+          "source_ref": "qtm--module-6#8"
+        }
+      ],
+      "marks": 5.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-6#8",
+        "qtm--module-6#7",
+        "qtm--module-6#6",
+        "qtm--module-6#11"
+      ],
+      "derived": [
+        "3.162"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-t-test-examples-q-a9edd314",
+      "type": "short",
+      "stem": "Describe how you would carry out the deck's practice task of comparing the three sections of MBA-I year in their QTM MST using independent two-sample t-tests.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The deck asks for an independent two-sample t-test, with the data in Tutorial 2. The method copies the Class A vs Class B example.\n\n- **Pair the sections:** an independent t-test compares **two** groups at a time, so compare the sections two by two.\n- **Step 1, pooled SD:** sp = √[((n1 − 1)s1² + (n2 − 1)s2²) / (n1 + n2 − 2)].\n- **Step 2, t:** t = (x̄1 − x̄2) / (sp √(1/n1 + 1/n2)).\n- **Step 3, df:** n1 + n2 − 2.\n- **Step 4, decide:** compare |t| with the critical t from the table; if |t| is larger, reject H0 of equal means.\n\nThe sections are separate groups of students, which is why the independent (unpaired) test fits.",
+      "rubric": [
+        {
+          "point": "Independent two-sample t-test, data in Tutorial 2",
+          "source_ref": "qtm--module-6#10"
+        },
+        {
+          "point": "Compare two sections at a time",
+          "source_ref": "qtm--module-6#9"
+        },
+        {
+          "point": "Pooled SD then t",
+          "source_ref": "qtm--module-6#6"
+        },
+        {
+          "point": "df = n1 + n2 − 2, compare with critical t",
+          "source_ref": "qtm--module-6#9"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "apply",
+      "source_refs": [
+        "qtm--module-6#10",
+        "qtm--module-6#9",
+        "qtm--module-6#6",
+        "qtm--module-6#11"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-t-test-examples-q-ddf89647",
+      "type": "short",
+      "stem": "Explain why the sugar bar example uses a one-sample t-test while the two-class example uses an independent two-sample t-test.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The choice depends on what is being compared.\n\n- **Sugar bars: one-sample t-test.** One sample of bars is compared with a **specific value**, the dietician's **15g**. The one-sample test compares a single group's mean with a known or hypothesised mean.\n- **Two classes: independent two-sample t-test.** Two separate groups, **Class A and Class B**, are compared with each other. The groups are **unrelated**, so the independent (unpaired) test is used.\n\nOne group against a number needs the one-sample test; two unrelated groups need the independent test.",
+      "rubric": [
+        {
+          "point": "Sugar: one sample vs the value 15g",
+          "source_ref": "qtm--module-6#8"
+        },
+        {
+          "point": "Classes: two unrelated groups",
+          "source_ref": "qtm--module-6#9"
+        },
+        {
+          "point": "Correct link to each test's purpose",
+          "source_ref": "qtm--module-6#5"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 1,
+      "style_tag": "differentiate",
+      "source_refs": [
+        "qtm--module-6#5",
+        "qtm--module-6#8",
+        "qtm--module-6#9"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-t-test-examples-q-74a8a81a",
+      "type": "long",
+      "stem": "A researcher wants to compare test scores between two classes. Class A: n = 15, mean = 78, SD = 10. Class B: n = 14, mean = 85, SD = 8. Test at α = 0.05 whether the mean scores differ, showing full working.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Two unrelated classes are compared, so we use the **independent two-sample t-test** (equal variances assumed).\n\n**Hypotheses:** H0: μA = μB; H1: μA ≠ μB (two-tailed).\n\n**Step 1: Pooled SD.**\n- sp = √[((n1 − 1)s1² + (n2 − 1)s2²) / (n1 + n2 − 2)]\n- = √[((14)(10²) + (13)(8²)) / 27] = √[(1400 + 832) / 27] = √(2,232/27)\n- 2,232/27 ≈ 82.67, so **sp ≈ 9.09 ≈ 9.1**\n\n**Step 2: Compute t.**\n- √(1/15 + 1/14) = √(0.0667 + 0.0714) = √0.1381 ≈ **0.372**\n- Denominator = 9.1 × 0.372 ≈ **3.38**\n- t = (78 − 85) / 3.38 = −7/3.38 ≈ **−2.07**\n- (The slide rounds the square root to 0.38 and prints t ≈ −2.02; the decision is the same.)\n\n**Step 3: Degrees of freedom.** df = 15 + 14 − 2 = **27**.\n\n**Step 4: Critical value.** Two-tailed at α = 0.05, the t table (df 27, 0.025 column) gives **±2.373**.\n\n**Step 5: Decision.** |t| ≈ 2.07 (or 2.02 on the slide) is **less than 2.373**, so **fail to reject H0**.\n\n**Conclusion:** although Class B's mean is 7 marks higher, the difference is **not statistically significant** at the 5% level, so we cannot say the two classes perform differently.",
+      "rubric": [
+        {
+          "point": "Independent t-test chosen; H0 equal means, two-tailed",
+          "source_ref": "qtm--module-6#5"
+        },
+        {
+          "point": "Pooled SD ≈ 9.1 from (1400 + 832)/27",
+          "source_ref": "qtm--module-6#9"
+        },
+        {
+          "point": "t = −7/(9.1 × √(1/15 + 1/14)) ≈ −2.02 to −2.07",
+          "source_ref": "qtm--module-6#9"
+        },
+        {
+          "point": "df = 27; critical ±2.373",
+          "source_ref": "qtm--module-6#7"
+        },
+        {
+          "point": "|t| < 2.373, fail to reject H0",
+          "source_ref": "qtm--module-6#9"
+        },
+        {
+          "point": "Business meaning: no significant difference",
+          "source_ref": "qtm--module-6#9"
+        }
+      ],
+      "marks": 10.0,
+      "difficulty": 3,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-6#9",
+        "qtm--module-6#6",
+        "qtm--module-6#7",
+        "qtm--module-6#5",
+        "qtm--module-6#11"
+      ],
+      "derived": [
+        "2,232",
+        "2232",
+        "82.67",
+        "9.09",
+        "0.0667",
+        "0.0714",
+        "0.1381",
+        "0.372",
+        "3.38",
+        "2.07"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m6-t-test-examples-q-16a40d8f",
+      "type": "long",
+      "stem": "A fitness trainer wants to see if a training program reduces pulse rate. Six clients' pulse rates are: before (72, 75, 70, 80, 78, 77) and after (70, 76, 69, 78, 76, 75). Test at α = 0.05 using the appropriate t-test, showing full working.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The same six clients are measured before and after, so the **paired t-test** is used.\n\n**Step 1: Hypotheses.**\n- H0: the program has no effect or does not reduce pulse rate: **μd = 0**\n- H1: the program reduces pulse rate: **μd > 0** (one-tailed, with d = before − after)\n\n**Step 2: Differences.** 2, −1, 1, 2, 2, 2.\n- d̄ = 8/6 ≈ **1.33**\n- Squared deviations from 1.33 sum to about 7.33; 7.33/(6 − 1) ≈ 1.467; **sd = √1.467 ≈ 1.211**\n\n**Step 3: t statistic.**\n- t = (d̄ − μ0) / (sd/√n) = (1.33 − 0) / (1.211/√6)\n- √6 ≈ 2.449, so 1.211/2.449 ≈ **0.494**\n- t = 1.33/0.494 ≈ **2.69**\n\n**Step 4: Degrees of freedom.** df = n − 1 = 6 − 1 = **5**.\n\n**Step 5: Critical value and p-value.** One-tailed at α = 0.05, the t table (df 5, 0.05 column) gives **2.571**. The slide gives a one-tailed **p-value of about 0.021**.\n\n**Step 6: Decision.** t = 2.69 > 2.571, and p ≈ 0.021 < 0.05, so **reject H0**.\n\n**Conclusion:** there is **statistically significant evidence at the 5% level** that the training program **reduces pulse rate**.",
+      "rubric": [
+        {
+          "point": "Paired t-test because same clients pre and post",
+          "source_ref": "qtm--module-6#5"
+        },
+        {
+          "point": "H0: μd = 0; H1: μd > 0",
+          "source_ref": "qtm--module-6#11"
+        },
+        {
+          "point": "Differences, d̄ ≈ 1.33, sd ≈ 1.211",
+          "source_ref": "qtm--module-6#11"
+        },
+        {
+          "point": "t = 1.33/(1.211/√6) ≈ 2.69",
+          "source_ref": "qtm--module-6#11"
+        },
+        {
+          "point": "df = 5; critical 2.571; p ≈ 0.021",
+          "source_ref": "qtm--module-6#7"
+        },
+        {
+          "point": "Reject H0: program reduces pulse rate",
+          "source_ref": "qtm--module-6#11"
+        }
+      ],
+      "marks": 10.0,
+      "difficulty": 3,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-6#11",
+        "qtm--module-6#6",
+        "qtm--module-6#7",
+        "qtm--module-6#5"
+      ],
+      "derived": [
+        "7.33",
+        "1.467",
+        "2.449"
+      ],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
   "explain_back": {
     "prompt": "Solve the paired t-test for the pulse rate example step by step, and say how the sugar example differs.",
     "rubric": [

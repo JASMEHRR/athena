@@ -426,7 +426,368 @@
       "retired": false
     }
   ],
-  "questions": [],
+  "questions": [
+    {
+      "id": "qtm-m5-worked-examples-q-e0377d72",
+      "type": "mcq",
+      "stem": "In the battery example (claim 500 hours, n = 25, σ = 50 hours), what is the standard error σ/√n?",
+      "options": [
+        "10 hours",
+        "2 hours",
+        "20 hours",
+        "50 hours"
+      ],
+      "answer": "10 hours",
+      "accept": [],
+      "explanation": "σ/√n = 50/√25 = 50/5 = 10 hours, the denominator in the slide's z formula.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-5#27",
+        "qtm--module-5#28"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m5-worked-examples-q-92e1b81f",
+      "type": "mcq",
+      "stem": "Why is the battery example a left-tailed test?",
+      "options": [
+        "The question asks whether batteries last less than 500 hours",
+        "The question asks whether battery life differs from 500 hours",
+        "The sample mean is greater than 500 hours",
+        "The population standard deviation is unknown"
+      ],
+      "answer": "The question asks whether batteries last less than 500 hours",
+      "accept": [],
+      "explanation": "H1: μ < 500 hours points to the lower tail, so the test is left-tailed.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "apply",
+      "source_refs": [
+        "qtm--module-5#27",
+        "qtm--module-5#28",
+        "qtm--module-5#10"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m5-worked-examples-q-5a2922bd",
+      "type": "mcq",
+      "stem": "In the coffee example, which critical t-values does the slide read from the t table, and for which degrees of freedom?",
+      "options": [
+        "±2.364 for df = 29",
+        "±2.045 for df = 29",
+        "±1.96 for df = 30",
+        "±2.360 for df = 30"
+      ],
+      "answer": "±2.364 for df = 29",
+      "accept": [],
+      "explanation": "With n = 30, df = n − 1 = 29, and the slide takes ±2.364 from the df 29 row at α/2 = 0.025.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "recall",
+      "source_refs": [
+        "qtm--module-5#30",
+        "qtm--module-5#31"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m5-worked-examples-q-7ba156dc",
+      "type": "mcq",
+      "stem": "In the coffee example, t ≈ −2.19 and the critical values are ±2.364. What is the decision?",
+      "options": [
+        "Fail to reject H0, because −2.19 lies between −2.364 and +2.364",
+        "Reject H0, because −2.19 is negative",
+        "Reject H0, because −2.19 is below −1.96",
+        "Fail to reject H0, because the sample mean equals 1 kg"
+      ],
+      "answer": "Fail to reject H0, because −2.19 lies between −2.364 and +2.364",
+      "accept": [],
+      "explanation": "−2.19 > −2.364, so the statistic falls in the fail to reject region.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "apply",
+      "source_refs": [
+        "qtm--module-5#30",
+        "qtm--module-5#10"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m5-worked-examples-q-c1ed1e84",
+      "type": "mcq",
+      "stem": "In the battery example, p ≈ 0.0228 and α = 0.05. Which statement is correct?",
+      "options": [
+        "Reject H0: there is evidence battery life is less than claimed",
+        "Fail to reject H0: battery life equals 500 hours",
+        "Reject H0: battery life is more than claimed",
+        "Fail to reject H0 because p is less than α"
+      ],
+      "answer": "Reject H0: there is evidence battery life is less than claimed",
+      "accept": [],
+      "explanation": "p = 0.0228 < α = 0.05, so H0 is rejected in favour of μ < 500 hours.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "apply",
+      "source_refs": [
+        "qtm--module-5#28",
+        "qtm--module-5#9"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m5-worked-examples-q-e6a52ce0",
+      "type": "short",
+      "stem": "A company claims new batteries last 500 hours on average. A sample of 25 has a mean of 480 hours, with known population SD of 50 hours. Calculate the test statistic and find the p-value using the z table.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Because the population SD is known, the slide uses a **z statistic**.\n\n**Formula:** z = (x̄ − μ0) / (σ/√n)\n\n**Working:**\n- x̄ − μ0 = 480 − 500 = **−20**\n- σ/√n = 50/√25 = 50/5 = **10**\n- z = −20/10 = **−2.0**\n\n**p-value (left-tailed):** the z table gives **0.9772** for z = 2.00, so by symmetry the area to the left of −2.0 is 1 − 0.9772 = **0.0228**.\n\n**Answer:** z = −2.0 and p ≈ **0.0228**.",
+      "rubric": [
+        {
+          "point": "Formula z = (x̄ − μ0)/(σ/√n)",
+          "source_ref": "qtm--module-5#28"
+        },
+        {
+          "point": "Numerator −20, standard error 10",
+          "source_ref": "qtm--module-5#28"
+        },
+        {
+          "point": "z = −2.0",
+          "source_ref": "qtm--module-5#28"
+        },
+        {
+          "point": "p ≈ 0.0228 from table (1 − 0.9772)",
+          "source_ref": "qtm--module-5#24"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-5#27",
+        "qtm--module-5#28",
+        "qtm--module-5#24"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m5-worked-examples-q-76272527",
+      "type": "short",
+      "stem": "A machine fills coffee bags meant to weigh 1 kg. A sample of 30 bags has a mean of 0.98 kg and a standard deviation of 0.05 kg. Calculate the test statistic used on the slide and its degrees of freedom.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The slide uses a **t statistic** for this example.\n\n**Formula:** t = (x̄ − μ0) / (s/√n)\n\n**Working:**\n- x̄ − μ0 = 0.98 − 1 = **−0.02**\n- √30 ≈ 5.477, so s/√n = 0.05 ÷ 5.477 ≈ **0.00913**\n- t = −0.02 ÷ 0.00913 ≈ **−2.19**\n\n**Degrees of freedom:** df = n − 1 = 30 − 1 = **29**.\n\n**Answer:** t ≈ **−2.19** with **29** degrees of freedom.",
+      "rubric": [
+        {
+          "point": "Formula t = (x̄ − μ0)/(s/√n)",
+          "source_ref": "qtm--module-5#30"
+        },
+        {
+          "point": "Numerator −0.02, denominator about 0.00913",
+          "source_ref": "qtm--module-5#30"
+        },
+        {
+          "point": "t ≈ −2.19",
+          "source_ref": "qtm--module-5#30"
+        },
+        {
+          "point": "df = n − 1 = 29",
+          "source_ref": "qtm--module-5#30"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-5#29",
+        "qtm--module-5#30"
+      ],
+      "derived": [
+        "5.477"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m5-worked-examples-q-4faf5307",
+      "type": "short",
+      "stem": "Compare how the battery and coffee bag examples are tested: the type of test statistic, the tails, and the way the decision is reached.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The two worked examples use different tools to reach their decisions.\n\n- **Question:** battery asks whether life is **less than** 500 hours; coffee asks whether weight **differs** from 1 kg.\n- **Tails:** battery is **left-tailed** (H1: μ < 500); coffee is **two-tailed** (H1: mean ≠ 1 kg, with 0.025 in each tail).\n- **Statistic:** battery uses **z = (x̄ − μ0)/(σ/√n) = −2.0**; coffee uses **t = (x̄ − μ0)/(s/√n) ≈ −2.19** with **df = 29**.\n- **Decision method:** battery uses the **p-value** (p ≈ 0.0228 < 0.05, reject H0); coffee uses **critical values** from the **t table** (±2.364; −2.19 > −2.364, fail to reject H0).\n\nSo one example rejects H0 by the p-value route, while the other fails to reject H0 by the critical value route.",
+      "rubric": [
+        {
+          "point": "Battery left-tailed, coffee two-tailed",
+          "source_ref": "qtm--module-5#28"
+        },
+        {
+          "point": "Battery z = −2.0",
+          "source_ref": "qtm--module-5#28"
+        },
+        {
+          "point": "Coffee t ≈ −2.19 with df = 29",
+          "source_ref": "qtm--module-5#30"
+        },
+        {
+          "point": "Battery: p = 0.0228 < 0.05, reject H0",
+          "source_ref": "qtm--module-5#28"
+        },
+        {
+          "point": "Coffee: critical ±2.364 from t table, fail to reject H0",
+          "source_ref": "qtm--module-5#31"
+        }
+      ],
+      "marks": 5.0,
+      "difficulty": 2,
+      "style_tag": "differentiate",
+      "source_refs": [
+        "qtm--module-5#27",
+        "qtm--module-5#28",
+        "qtm--module-5#29",
+        "qtm--module-5#30",
+        "qtm--module-5#31"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m5-worked-examples-q-3294bf82",
+      "type": "long",
+      "stem": "A company claims its new batteries last 500 hours on average. A sample of 25 batteries has a mean life of 480 hours, and the population SD is known to be 50 hours. At α = 0.05, is there evidence that the batteries last less than 500 hours? Solve using the p-value method, and confirm your answer with the critical value method.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "This is a one-sample test of a mean with known σ, so a **z test** applies.\n\n**Step 1: Hypotheses.** The question asks about **less than** 500 hours, so the test is **left-tailed**:\n- **H0: μ = 500 hours**\n- **H1: μ < 500 hours**\n\n**Step 2: Test statistic.**\n- z = (x̄ − μ0) / (σ/√n) = (480 − 500) / (50/√25) = −20/10 = **−2.0**\n\n**Step 3: p-value.**\n- The z table gives **0.9772** for z = 2.00, so the area to the left of −2.0 is 1 − 0.9772 = **0.0228**.\n- p ≈ **0.0228**.\n\n**Step 4: Decision (p-value method).**\n- **p = 0.0228 < α = 0.05**, so **reject H0**.\n\n**Check by the critical value method:**\n- A one-tailed test at α = .05 puts the whole .05 in one tail; the slide's one-tailed cut-off is **1.645**, so here the lower cut-off is **z = −1.645**.\n- Critical mean: x̄c = 500 − 1.645 × 10 = 500 − 16.45 = **483.55 hours**.\n- The sample mean **480 < 483.55**, so it falls in the rejection region: **reject H0**.\n\n**Conclusion:** both methods agree. There is **evidence that battery life is less than claimed**, so the company's 500-hour claim is not supported.",
+      "rubric": [
+        {
+          "point": "H0: μ = 500, H1: μ < 500 (left-tailed)",
+          "source_ref": "qtm--module-5#28"
+        },
+        {
+          "point": "z = (480 − 500)/(50/√25) = −2.0",
+          "source_ref": "qtm--module-5#28"
+        },
+        {
+          "point": "p ≈ 0.0228 from z table",
+          "source_ref": "qtm--module-5#24"
+        },
+        {
+          "point": "p < 0.05, reject H0",
+          "source_ref": "qtm--module-5#28"
+        },
+        {
+          "point": "Critical mean 483.55 using 1.645; 480 below it, reject",
+          "source_ref": "qtm--module-5#10"
+        },
+        {
+          "point": "Conclusion: battery life less than claimed",
+          "source_ref": "qtm--module-5#28"
+        }
+      ],
+      "marks": 10.0,
+      "difficulty": 3,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-5#27",
+        "qtm--module-5#28",
+        "qtm--module-5#24",
+        "qtm--module-5#10",
+        "qtm--module-5#25"
+      ],
+      "derived": [
+        "16.45",
+        "483.55"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m5-worked-examples-q-166486db",
+      "type": "long",
+      "stem": "A machine fills coffee bags that should each weigh 1 kg. A random sample of 30 bags has a mean weight of 0.98 kg with a standard deviation of 0.05 kg. At a 5% significance level, test whether the average bag weight differs from 1 kg, following the slide's steps. Also find the range of sample means that would not lead to rejection.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The slide tests this with a **t statistic** and the deck's **t table**.\n\n**Step 1: Hypotheses.** The question asks whether the weight **differs**, so the test is **two-tailed**:\n- **H0: mean weight = 1 kg**\n- **H1: mean weight ≠ 1 kg**\n\n**Step 2: Significance level.** α = 0.05, split into **0.025 in each tail**.\n\n**Step 3: Test statistic.**\n- t = (x̄ − μ0) / (s/√n) = (0.98 − 1) / (0.05/√30)\n- √30 ≈ 5.477, so 0.05/√30 ≈ **0.00913**\n- t = −0.02 / 0.00913 ≈ **−2.19**\n- **Degrees of freedom:** df = n − 1 = **29**\n\n**Step 4: Critical values.** From the t table, the **df 29** row at α/2 = **0.025** gives **±2.364**.\n\n**Step 5: Decision.** **t = −2.19 > −2.364**, so the statistic lies in the **fail to reject region**: **fail to reject H0**.\n\n**Range of sample means that would not be rejected:**\n- Margin = 2.364 × 0.00913 ≈ **0.0216 kg**\n- Lower limit = 1 − 0.0216 = **0.9784 kg**; upper limit = 1 + 0.0216 = **1.0216 kg**\n- The sample mean **0.98 kg** lies inside this range, which confirms the decision.\n\n**Step 6: Interpretation.** At 5% significance the sample gives **no strong evidence that the mean bag weight differs from 1 kg**. As the module stresses, we say we **do not reject H0** rather than that we accept it.\n\n**Conclusion:** the machine can be treated as filling bags at 1 kg on average, unless stronger evidence appears.",
+      "rubric": [
+        {
+          "point": "H0: mean = 1 kg; H1: mean ≠ 1 kg; 0.025 per tail",
+          "source_ref": "qtm--module-5#30"
+        },
+        {
+          "point": "t = (0.98 − 1)/(0.05/√30) ≈ −2.19",
+          "source_ref": "qtm--module-5#30"
+        },
+        {
+          "point": "df = 29; critical t = ±2.364 from table",
+          "source_ref": "qtm--module-5#31"
+        },
+        {
+          "point": "−2.19 > −2.364, fail to reject H0",
+          "source_ref": "qtm--module-5#30"
+        },
+        {
+          "point": "Range of means not rejected: about 0.9784 to 1.0216 kg",
+          "source_ref": "qtm--module-5#30"
+        },
+        {
+          "point": "Do not say accept H0",
+          "source_ref": "qtm--module-5#12"
+        }
+      ],
+      "marks": 10.0,
+      "difficulty": 3,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-5#29",
+        "qtm--module-5#30",
+        "qtm--module-5#31",
+        "qtm--module-5#12"
+      ],
+      "derived": [
+        "5.477",
+        "0.0216",
+        "0.9784",
+        "1.0216"
+      ],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
   "explain_back": {
     "prompt": "Solve the battery example and the coffee bag example step by step, as the slides do.",
     "rubric": [

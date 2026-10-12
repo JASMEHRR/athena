@@ -367,7 +367,334 @@
       "retired": false
     }
   ],
-  "questions": [],
+  "questions": [
+    {
+      "id": "qtm-m5-errors-q-509122b1",
+      "type": "mcq",
+      "stem": "A business researcher fails to reject a null hypothesis that is actually false. What has happened?",
+      "options": [
+        "Type II error (β)",
+        "Type I error (α)",
+        "A correct decision (power)",
+        "A correct decision"
+      ],
+      "answer": "Type II error (β)",
+      "accept": [],
+      "explanation": "Failing to reject a false null is a Type II error, shown as β in the decision table.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "apply",
+      "source_refs": [
+        "qtm--module-5#14",
+        "qtm--module-5#13"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m5-errors-q-d94f694b",
+      "type": "mcq",
+      "stem": "In the decision table, rejecting the null hypothesis when the null is false is labelled:",
+      "options": [
+        "Correct decision (power)",
+        "Type I error (α)",
+        "Type II error (β)",
+        "Correct decision (confidence)"
+      ],
+      "answer": "Correct decision (power)",
+      "accept": [],
+      "explanation": "Rejecting a false null is the correct decision the slide labels power.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "identify",
+      "source_refs": [
+        "qtm--module-5#14"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m5-errors-q-86329caa",
+      "type": "mcq",
+      "stem": "Why do we say 'do not reject H0' rather than 'accept H0' when the test statistic is not large enough?",
+      "options": [
+        "Because the evidence against H0 is not strong enough, which does not prove H0 true",
+        "Because H0 is always false",
+        "Because alpha was set too high",
+        "Because a Type II error is impossible"
+      ],
+      "answer": "Because the evidence against H0 is not strong enough, which does not prove H0 true",
+      "accept": [],
+      "explanation": "Like a court, the test only finds whether evidence against H0 is strong enough; weak evidence is not proof of H0.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "qtm--module-5#12",
+        "qtm--module-5#14"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m5-errors-q-92b393e0",
+      "type": "mcq",
+      "stem": "The probability of committing a Type I error is called:",
+      "options": [
+        "Alpha (α), the level of significance",
+        "β, the Type II error rate",
+        "Power",
+        "The p-value"
+      ],
+      "answer": "Alpha (α), the level of significance",
+      "accept": [],
+      "explanation": "The probability of a Type I error is alpha, the level of significance.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "recall",
+      "source_refs": [
+        "qtm--module-5#13",
+        "qtm--module-5#14",
+        "qtm--module-5#23"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m5-errors-q-3282e5f9",
+      "type": "mcq",
+      "stem": "In the legal system comparison, what plays the part of the null hypothesis?",
+      "options": [
+        "The innocence of the accused",
+        "The guilt of the accused",
+        "The evidence beyond a reasonable doubt",
+        "The judge's decision"
+      ],
+      "answer": "The innocence of the accused",
+      "accept": [],
+      "explanation": "The legal system rejects innocence only if evidence of guilt is beyond a reasonable doubt, just as H0 is rejected only on strong evidence.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "apply",
+      "source_refs": [
+        "qtm--module-5#12"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m5-errors-q-e90f4b55",
+      "type": "short",
+      "stem": "Differentiate between a Type I error and a Type II error.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Both are wrong decisions in hypothesis testing, but they go wrong in opposite ways.\n\n- **Type I error:** **rejecting a true null hypothesis**. The null is true, but the researcher decides it is not. Its probability is **alpha (α)**, the level of significance, which equals the **area in the rejection region beyond the critical value(s)** and is **set before the study**.\n- **Type II error:** **failing to reject a false null hypothesis**. Its probability is shown as **β**.\n- **Decision table:** Type I sits at reject null / null true; Type II sits at fail to reject null / null false.\n\nSo a Type I error is a false alarm, while a Type II error is a missed effect.",
+      "rubric": [
+        {
+          "point": "Type I: rejecting a true null hypothesis",
+          "source_ref": "qtm--module-5#13"
+        },
+        {
+          "point": "Probability of Type I is α, level of significance, area beyond critical values",
+          "source_ref": "qtm--module-5#13"
+        },
+        {
+          "point": "Type II: failing to reject a false null hypothesis",
+          "source_ref": "qtm--module-5#14"
+        },
+        {
+          "point": "Type II shown as β in the decision table",
+          "source_ref": "qtm--module-5#14"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 1,
+      "style_tag": "differentiate",
+      "source_refs": [
+        "qtm--module-5#13",
+        "qtm--module-5#14"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m5-errors-q-c451e572",
+      "type": "short",
+      "stem": "Explain the legal system analogy used for hypothesis testing.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The slides compare hypothesis testing with a court case.\n\n- The **legal system rejects the innocence of the accused only if evidence of guilt is beyond a reasonable doubt**.\n- In the same way, **H0 is rejected only when the evidence against it is strong**.\n- If the test statistic is **not large enough** to convince us, we **do not say we accept H0**; we say we **do not reject H0**, because the evidence against it is not strong enough.\n\nJust as a not-guilty verdict does not prove innocence, failing to reject H0 does not prove it true.",
+      "rubric": [
+        {
+          "point": "Legal system rejects innocence only with evidence beyond reasonable doubt",
+          "source_ref": "qtm--module-5#12"
+        },
+        {
+          "point": "H0 rejected only with strong evidence",
+          "source_ref": "qtm--module-5#12"
+        },
+        {
+          "point": "We say do not reject H0, never accept H0",
+          "source_ref": "qtm--module-5#12"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 1,
+      "style_tag": "explain",
+      "source_refs": [
+        "qtm--module-5#12"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m5-errors-q-16e34391",
+      "type": "short",
+      "stem": "State three facts the slides give about alpha (α).",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Alpha links the Type I error to the picture of the test.\n\n- **Meaning:** the **probability of committing a Type I error**, also called the **level of significance**.\n- **On the curve:** alpha **equals the area under the curve in the rejection region beyond the critical value(s)**.\n- **Timing:** the value of alpha is **always set before the experiment or study is undertaken**.\n\nSo alpha is chosen in advance and fixes how large the rejection region is.",
+      "rubric": [
+        {
+          "point": "Probability of a Type I error, the level of significance",
+          "source_ref": "qtm--module-5#13"
+        },
+        {
+          "point": "Area in rejection region beyond critical values",
+          "source_ref": "qtm--module-5#13"
+        },
+        {
+          "point": "Always set before the study",
+          "source_ref": "qtm--module-5#13"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 1,
+      "style_tag": "list",
+      "source_refs": [
+        "qtm--module-5#13"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m5-errors-q-f25fed9d",
+      "type": "long",
+      "stem": "Explain Type I and Type II errors using the decision table, and explain why a hypothesis test never 'accepts' the null hypothesis.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "A hypothesis test is a decision made under uncertainty, so it can go wrong in two ways.\n\n**The decision table:** columns show the **state of nature** (what is really true), rows show the **action** taken.\n\n| Action | Null true | Null false |\n|---|---|---|\n| Fail to reject null | Correct decision | **Type II error (β)** |\n| Reject null | **Type I error (α)** | Correct decision (**power**) |\n\n**Type I error:**\n- **Rejecting a true null hypothesis**: the null is true, but the researcher decides it is not.\n- Its probability is **alpha (α)**, the **level of significance**.\n- Alpha equals the **area under the curve in the rejection region beyond the critical value(s)**.\n- Alpha is **always set before the study** is undertaken.\n\n**Type II error:**\n- **Failing to reject a false null hypothesis**; its probability is **β**.\n\n**Correct decisions:** failing to reject a true null, and rejecting a false null, which the table calls **power**.\n\n**Why we never 'accept' H0:**\n- Hypothesis testing is **similar to the legal system**, which **rejects innocence only if evidence of guilt is beyond a reasonable doubt**.\n- If the test statistic is not large enough, we say we **do not reject H0**, because the **evidence against H0 is not strong enough**. That is not proof that H0 is true, and a Type II error is still possible.\n\n**Conclusion:** α controls the risk of a false rejection, β is the risk of a missed effect, and careful wording (\"do not reject\") reflects that weak evidence is not proof.",
+      "rubric": [
+        {
+          "point": "Decision table: state of nature vs action",
+          "source_ref": "qtm--module-5#14"
+        },
+        {
+          "point": "Type I: reject true null; probability α",
+          "source_ref": "qtm--module-5#13"
+        },
+        {
+          "point": "α is area beyond critical values; set before the study",
+          "source_ref": "qtm--module-5#13"
+        },
+        {
+          "point": "Type II: fail to reject false null; β",
+          "source_ref": "qtm--module-5#14"
+        },
+        {
+          "point": "Power: rejecting a false null",
+          "source_ref": "qtm--module-5#14"
+        },
+        {
+          "point": "Legal analogy: do not reject, never accept H0",
+          "source_ref": "qtm--module-5#12"
+        }
+      ],
+      "marks": 10.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "qtm--module-5#12",
+        "qtm--module-5#13",
+        "qtm--module-5#14"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m5-errors-q-d3003981",
+      "type": "long",
+      "stem": "In the CPA problem the researcher rejected H0 at α = .05, while in the coffee bag problem the researcher failed to reject H0. For each, state which type of error could have been made, explain what it would mean, and give its probability where the slides allow.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Each decision exposes the researcher to only one of the two errors.\n\n**CPA problem (H0 rejected):**\n- The researcher found **z = 2.75 > 1.96** and **rejected H0: μ = $74,914**.\n- The only error possible after rejecting is a **Type I error**: **rejecting a true null hypothesis**.\n- Meaning: the national average net income may **not** really have changed, yet the researcher concluded it had.\n- Its probability is **α = .05**, which was set before the study and equals the area in the rejection region.\n\n**Coffee bag problem (H0 not rejected):**\n- The researcher found **t = -2.19 > -2.364** and **failed to reject H0: mean weight = 1 kg**.\n- The only error possible after failing to reject is a **Type II error**: **failing to reject a false null hypothesis**.\n- Meaning: the machine might really be filling bags at a mean different from 1 kg, but the sample evidence was not strong enough to show it.\n- Its probability is **β**; the slides do not give a value for it.\n\n**Lesson from the legal analogy:** not rejecting H0 is like a not-guilty verdict; it does not prove H0 true, so the coffee result should be read as \"no strong evidence of a difference\" rather than proof of exactly 1 kg.\n\n**Conclusion:** rejecting H0 risks a Type I error with probability α, and failing to reject risks a Type II error with probability β.",
+      "rubric": [
+        {
+          "point": "CPA: H0 rejected (z = 2.75 > 1.96), so only Type I possible",
+          "source_ref": "qtm--module-5#22"
+        },
+        {
+          "point": "Type I meaning and probability α = .05",
+          "source_ref": "qtm--module-5#13"
+        },
+        {
+          "point": "Coffee: H0 not rejected (t = -2.19 > -2.364), so only Type II possible",
+          "source_ref": "qtm--module-5#30"
+        },
+        {
+          "point": "Type II meaning, probability β",
+          "source_ref": "qtm--module-5#14"
+        },
+        {
+          "point": "Not rejecting is not proof of H0 (legal analogy)",
+          "source_ref": "qtm--module-5#12"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 3,
+      "style_tag": "case",
+      "source_refs": [
+        "qtm--module-5#13",
+        "qtm--module-5#14",
+        "qtm--module-5#22",
+        "qtm--module-5#30",
+        "qtm--module-5#12",
+        "qtm--module-5#18"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
   "explain_back": {
     "prompt": "Explain Type I and Type II errors with the decision table, and say why we never 'accept' H0.",
     "rubric": [

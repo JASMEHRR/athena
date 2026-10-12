@@ -559,7 +559,333 @@
       "retired": false
     }
   ],
-  "questions": [],
+  "questions": [
+    {
+      "id": "qtm-m4-research-process-q-17e68689",
+      "type": "mcq",
+      "stem": "In which stage of the research process is the research proposal prepared?",
+      "options": [
+        "Stage II: Proposing research",
+        "Stage I: Clarifying the research question",
+        "Stage III: Research methodology",
+        "Stage VI: Reporting the results"
+      ],
+      "answer": "Stage II: Proposing research",
+      "accept": [],
+      "explanation": "Stage II covers resource and budget allocation, valuing research information and the research proposal.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "sequence",
+      "source_refs": [
+        "qtm--module-4#30",
+        "qtm--module-4#31"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m4-research-process-q-7f5302af",
+      "type": "mcq",
+      "stem": "Which of these is NOT one of the evaluation methods listed for valuing research information?",
+      "options": [
+        "Pilot test evaluation",
+        "Ex-post facto evaluation",
+        "Option evaluation",
+        "Decision theory"
+      ],
+      "answer": "Pilot test evaluation",
+      "accept": [],
+      "explanation": "The methods are ex-post facto, prior or interim, option evaluation and decision theory; the pilot test belongs to Stage III.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "recall",
+      "source_refs": [
+        "qtm--module-4#30",
+        "qtm--module-4#31"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m4-research-process-q-9137c443",
+      "type": "mcq",
+      "stem": "A dataset stores dates as text strings. Which common data issue is this?",
+      "options": [
+        "Incorrect data types",
+        "Inconsistent categories",
+        "Duplicates",
+        "Outliers"
+      ],
+      "answer": "Incorrect data types",
+      "accept": [],
+      "explanation": "Text stored as numbers and dates as strings are the slide's examples of incorrect data types.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "apply",
+      "source_refs": [
+        "qtm--module-4#33"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m4-research-process-q-10d122cb",
+      "type": "mcq",
+      "stem": "Which of these is listed as a data quality dimension?",
+      "options": [
+        "Timeliness",
+        "Neutrality",
+        "Replication",
+        "Authority"
+      ],
+      "answer": "Timeliness",
+      "accept": [],
+      "explanation": "The five dimensions are accuracy, completeness, consistency, timeliness and validity.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "recall",
+      "source_refs": [
+        "qtm--module-4#32",
+        "qtm--module-4#8",
+        "qtm--module-4#9",
+        "qtm--module-4#13"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m4-research-process-q-3a5f828a",
+      "type": "mcq",
+      "stem": "In Stage I, which step comes right after 'Discover management dilemma'?",
+      "options": [
+        "Exploration through reports and previous studies",
+        "Define management question",
+        "Exploration through interviews",
+        "Define research question"
+      ],
+      "answer": "Exploration through reports and previous studies",
+      "accept": [],
+      "explanation": "Stage I runs: dilemma, exploration through reports, management question, exploration through interviews, research question.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "sequence",
+      "source_refs": [
+        "qtm--module-4#30"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m4-research-process-q-4b417269",
+      "type": "short",
+      "stem": "Why is data cleaning important before analysis?",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Data must be cleaned before it is analysed, because poor data leads to poor conclusions.\n\n- **Quality dimensions:** data is judged on **accuracy, completeness, consistency, timeliness and validity**.\n- **Risk of dirty data:** it can cause **biased results, reduced power and faulty decisions**.\n- **Benefits of clean data:**\n  - it **eliminates inaccuracies, missing values and duplicates** that could bias results;\n  - it ensures **consistency across data sources**, making comparison and integration easier;\n  - it **reduces computational effort** and speeds up analysis;\n  - it **increases the reliability and validity** of models, predictions and insights.\n\nClean data is therefore the base for trustworthy analysis.",
+      "rubric": [
+        {
+          "point": "Five quality dimensions",
+          "source_ref": "qtm--module-4#32"
+        },
+        {
+          "point": "Impact of poor data: biased results, reduced power, faulty decisions",
+          "source_ref": "qtm--module-4#32"
+        },
+        {
+          "point": "Removes inaccuracies, missing values, duplicates; consistency across sources",
+          "source_ref": "qtm--module-4#32"
+        },
+        {
+          "point": "Speeds analysis; increases reliability and validity",
+          "source_ref": "qtm--module-4#32"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 1,
+      "style_tag": "explain",
+      "source_refs": [
+        "qtm--module-4#32"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m4-research-process-q-1b4af207",
+      "type": "short",
+      "stem": "List the common data issues a researcher should check for, with the slide's examples.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Before analysis, a dataset should be checked for six common issues.\n\n1. **Missing values.**\n2. **Duplicates.**\n3. **Outliers.**\n4. **Inconsistent categories**, for example Yes/No/Y/N or Male/Female/Unknown.\n5. **Typographical errors.**\n6. **Incorrect data types**, for example text stored as numbers or dates stored as strings.\n\nFixing these issues is the core of data cleaning.",
+      "rubric": [
+        {
+          "point": "Missing values, duplicates, outliers",
+          "source_ref": "qtm--module-4#33"
+        },
+        {
+          "point": "Inconsistent categories with Yes/No/Y/N example",
+          "source_ref": "qtm--module-4#33"
+        },
+        {
+          "point": "Typographical errors",
+          "source_ref": "qtm--module-4#33"
+        },
+        {
+          "point": "Incorrect data types: text as numbers, dates as strings",
+          "source_ref": "qtm--module-4#33"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 1,
+      "style_tag": "list",
+      "source_refs": [
+        "qtm--module-4#33"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m4-research-process-q-3f139d8e",
+      "type": "short",
+      "stem": "What happens in Stage III of the research process, and how does it lead to the remaining stages?",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Stage III turns the approved proposal into a concrete plan.\n\n- **Stage III, Research methodology:** covers the **research design**, the **sampling design** and a **pilot test**.\n- **Stage IV, Data collection and preparation:** the plan is carried out by gathering **primary and secondary data**.\n- **Stage V, Data analysis and interpretation:** the collected data is analysed and interpreted.\n- **Stage VI, Reporting the results.**\n\nSo Stage III sets the method, and Stages IV to VI execute it and report what was found.",
+      "rubric": [
+        {
+          "point": "Stage III: research design, sampling design, pilot test",
+          "source_ref": "qtm--module-4#31"
+        },
+        {
+          "point": "Stage IV: data collection and preparation (primary and secondary)",
+          "source_ref": "qtm--module-4#31"
+        },
+        {
+          "point": "Stage V: analysis and interpretation",
+          "source_ref": "qtm--module-4#31"
+        },
+        {
+          "point": "Stage VI: reporting the results",
+          "source_ref": "qtm--module-4#31"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "qtm--module-4#31"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m4-research-process-q-82a4b2bc",
+      "type": "long",
+      "stem": "Explain the six stages of the research process.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The research process moves from a business problem to a final report in six stages.\n\n**Stage I: Clarifying the research question**\n- Discover the **management dilemma** (problem discovery).\n- Exploration through **reports and previous studies**.\n- Define the **management question**.\n- Exploration through **interviews**.\n- Define the **research question**.\n\n**Stage II: Proposing research**\n- **Resource and budget allocation.**\n- **Valuing research information**, using evaluation methods: ex-post facto evaluation, prior or interim evaluation, option evaluation and decision theory.\n- The **research proposal**.\n\n**Stage III: Research methodology**\n- **Research design**, **sampling design** and a **pilot test**.\n\n**Stage IV: Data collection and preparation**\n- Gathering **primary and secondary data** and preparing it, which includes cleaning it for accuracy, completeness, consistency, timeliness and validity.\n\n**Stage V: Data analysis and interpretation.**\n\n**Stage VI: Reporting the results.**\n\n**Conclusion:** each stage builds on the one before, so a clearly defined research question in Stage I shapes the proposal, the method, the data and the final report.",
+      "rubric": [
+        {
+          "point": "Stage I steps: dilemma, exploration, management question, research question",
+          "source_ref": "qtm--module-4#30"
+        },
+        {
+          "point": "Stage II: budget, valuing information with evaluation methods, proposal",
+          "source_ref": "qtm--module-4#30"
+        },
+        {
+          "point": "Stage III: research design, sampling design, pilot test",
+          "source_ref": "qtm--module-4#31"
+        },
+        {
+          "point": "Stage IV: data collection and preparation",
+          "source_ref": "qtm--module-4#31"
+        },
+        {
+          "point": "Stages V and VI: analysis and interpretation; reporting",
+          "source_ref": "qtm--module-4#31"
+        }
+      ],
+      "marks": 10.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "qtm--module-4#30",
+        "qtm--module-4#31"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m4-research-process-q-62012a12",
+      "type": "long",
+      "stem": "A researcher receives a survey dataset in which some answers are blank, some respondents appear twice, and the gender column contains Male, Female and Unknown while another column mixes Yes, No, Y and N. Identify the data issues, explain the risks of analysing this data as it is, and explain the benefits of cleaning it.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The dataset shows several of the common data issues listed in the module.\n\n**Issues present:**\n- Blank answers are **missing values**.\n- Respondents appearing twice are **duplicates**.\n- Male/Female/Unknown and Yes/No/Y/N are **inconsistent categories**.\n- The researcher should also check for **outliers, typographical errors and incorrect data types**.\n\n**Risks of analysing it as it is:**\n- The data falls short on quality dimensions such as **accuracy, completeness and consistency**.\n- This can lead to **biased results, reduced power and faulty decisions**.\n\n**Benefits of cleaning it:**\n- It **eliminates inaccuracies, missing values and duplicates** that could bias results.\n- It ensures **consistency** across data sources, so categories can be compared and combined.\n- It **reduces computational effort** and speeds up analysis.\n- It **increases the reliability and validity** of models, predictions and insights.\n\n**Conclusion:** the dataset should be cleaned before analysis, otherwise the findings and the decisions based on them may be wrong.",
+      "rubric": [
+        {
+          "point": "Blanks are missing values; repeated respondents are duplicates",
+          "source_ref": "qtm--module-4#33"
+        },
+        {
+          "point": "Yes/No/Y/N and Male/Female/Unknown are inconsistent categories",
+          "source_ref": "qtm--module-4#33"
+        },
+        {
+          "point": "Quality dimensions affected: accuracy, completeness, consistency",
+          "source_ref": "qtm--module-4#32"
+        },
+        {
+          "point": "Risks: biased results, reduced power, faulty decisions",
+          "source_ref": "qtm--module-4#32"
+        },
+        {
+          "point": "Benefits: removes errors, consistency, faster analysis, reliability and validity",
+          "source_ref": "qtm--module-4#32"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 2,
+      "style_tag": "case",
+      "source_refs": [
+        "qtm--module-4#32",
+        "qtm--module-4#33"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
   "explain_back": {
     "prompt": "Walk through the six stages of the research process, then explain why data must be cleaned and what problems you would look for.",
     "rubric": [

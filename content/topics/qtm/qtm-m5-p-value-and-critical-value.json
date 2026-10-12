@@ -357,7 +357,390 @@
       "retired": false
     }
   ],
-  "questions": [],
+  "questions": [
+    {
+      "id": "qtm-m5-p-value-and-critical-value-q-e6ea5e27",
+      "type": "mcq",
+      "stem": "A test has a p-value of .038. At which of these significance levels can the null hypothesis be rejected?",
+      "options": [
+        "α = .05 only",
+        "α = .01 only",
+        "Both α = .01 and α = .05",
+        "Neither α = .01 nor α = .05"
+      ],
+      "answer": "α = .05 only",
+      "accept": [],
+      "explanation": ".038 is the smallest alpha at which H0 can be rejected, so it can be rejected at .05 but not at .01.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "apply",
+      "source_refs": [
+        "qtm--module-5#23",
+        "qtm--module-5#2"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m5-p-value-and-critical-value-q-17f12b71",
+      "type": "mcq",
+      "stem": "The p-value is best defined as:",
+      "options": [
+        "The smallest value of alpha for which the null hypothesis can be rejected",
+        "The preset significance level chosen before the study",
+        "The probability of a Type II error",
+        "The critical value of z for the test"
+      ],
+      "answer": "The smallest value of alpha for which the null hypothesis can be rejected",
+      "accept": [],
+      "explanation": "The slide defines the p-value as the smallest alpha at which H0 can be rejected; no preset alpha is given in this method.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "define",
+      "source_refs": [
+        "qtm--module-5#23",
+        "qtm--module-5#14",
+        "qtm--module-5#2"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m5-p-value-and-critical-value-q-d2071cb3",
+      "type": "mcq",
+      "stem": "Using the deck's z table, what is the area to the right of z = 2.00?",
+      "options": [
+        "0.0228",
+        "0.9772",
+        "0.0456",
+        "0.0250"
+      ],
+      "answer": "0.0228",
+      "accept": [],
+      "explanation": "The table gives 0.9772 to the left of z = 2.00, so the area to the right is 1 − 0.9772 = 0.0228.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-5#24",
+        "qtm--module-5#28",
+        "qtm--module-5#10"
+      ],
+      "derived": [
+        "0.0250",
+        "0.0456"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m5-p-value-and-critical-value-q-8e5d2e16",
+      "type": "mcq",
+      "stem": "In the critical value method for the CPA problem, why is H0 rejected?",
+      "options": [
+        "The sample mean of $78,695 is above the upper critical mean of $77,605",
+        "The sample mean of $78,695 is below the lower critical mean of $72,223",
+        "The sample mean lies between $72,223 and $77,605",
+        "The hypothesised mean of $74,914 is above $72,223"
+      ],
+      "answer": "The sample mean of $78,695 is above the upper critical mean of $77,605",
+      "accept": [],
+      "explanation": "The critical value method compares the sample mean with the critical means; $78,695 lies beyond $77,605, in the upper rejection region.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "apply",
+      "source_refs": [
+        "qtm--module-5#25",
+        "qtm--module-5#21",
+        "qtm--module-5#18"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m5-p-value-and-critical-value-q-d514712c",
+      "type": "mcq",
+      "stem": "What does the critical value method determine?",
+      "options": [
+        "The critical mean value needed for z to fall in the rejection region",
+        "The smallest alpha at which H0 can be rejected",
+        "The area to the left of the observed z",
+        "The number of degrees of freedom"
+      ],
+      "answer": "The critical mean value needed for z to fall in the rejection region",
+      "accept": [],
+      "explanation": "It finds the critical x̄ needed to land in the rejection region and tests the hypotheses with it.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "define",
+      "source_refs": [
+        "qtm--module-5#25",
+        "qtm--module-5#23",
+        "qtm--module-5#2"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m5-p-value-and-critical-value-q-45b461ff",
+      "type": "short",
+      "stem": "For the CPA problem, the observed z is 2.75. Using the deck's z table, find the p-value and state the decision at α = .05.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The z table gives the area to the left of z, so the tail area is 1 minus the table entry.\n\n- **Table value:** z = 2.75 gives **0.9970**.\n- **Upper tail area:** 1 − 0.9970 = **0.0030**.\n- **Two-tailed test:** α = .05 is split as **α/2 = .025** per tail, and 0.0030 < .025. Equivalently, the two-tailed p-value is 2 × 0.0030 = **0.0060**.\n- **Decision:** p = 0.0060 ≤ α = .05, so the data are unlikely under the null and we **reject H0**.\n\nThis matches the z method: 2.75 > 1.96, reject H0.",
+      "rubric": [
+        {
+          "point": "z = 2.75 gives 0.9970 in the table",
+          "source_ref": "qtm--module-5#24"
+        },
+        {
+          "point": "Tail area 1 − 0.9970 = 0.0030",
+          "source_ref": "qtm--module-5#24"
+        },
+        {
+          "point": "Two tails: compare with .025, or p = 0.0060",
+          "source_ref": "qtm--module-5#19"
+        },
+        {
+          "point": "p ≤ α, reject H0",
+          "source_ref": "qtm--module-5#9"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 3,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-5#24",
+        "qtm--module-5#21",
+        "qtm--module-5#19",
+        "qtm--module-5#9",
+        "qtm--module-5#18"
+      ],
+      "derived": [
+        "0.0030",
+        "0.0060",
+        "0.006"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m5-p-value-and-critical-value-q-d22a141b",
+      "type": "short",
+      "stem": "Using the critical value method, find the critical sample means for the CPA problem (μ = $74,914, σ = $14,530, n = 112, α = .05 two-tailed) and state the decision for a sample mean of $78,695.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "We put the critical z values into the z formula and solve for x̄.\n\n- **Critical z:** two-tailed at α = .05, so **zc = ±1.96**.\n- **Standard error:** √112 ≈ 10.583, so σ/√n = 14,530 ÷ 10.583 ≈ **1,372.96**.\n- **Margin:** 1.96 × 1,372.96 ≈ **2,691**.\n- **Critical means:** x̄c = 74,914 − 2,691 = **$72,223** and x̄c = 74,914 + 2,691 = **$77,605**.\n- **Decision:** the sample mean **$78,695 > $77,605**, so it lies in the upper rejection region: **reject H0**.\n\nThe critical value method reaches the same conclusion as the z method.",
+      "rubric": [
+        {
+          "point": "zc = ±1.96",
+          "source_ref": "qtm--module-5#25"
+        },
+        {
+          "point": "Standard error about 1,372.96",
+          "source_ref": "qtm--module-5#21"
+        },
+        {
+          "point": "Critical means $72,223 and $77,605",
+          "source_ref": "qtm--module-5#25"
+        },
+        {
+          "point": "$78,695 > $77,605, reject H0",
+          "source_ref": "qtm--module-5#25"
+        }
+      ],
+      "marks": 5.0,
+      "difficulty": 3,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-5#25",
+        "qtm--module-5#21",
+        "qtm--module-5#19",
+        "qtm--module-5#16",
+        "qtm--module-5#18"
+      ],
+      "derived": [
+        "10.583",
+        "1,372.96",
+        "1372.96",
+        "2,691",
+        "2691"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m5-p-value-and-critical-value-q-9d29757f",
+      "type": "short",
+      "stem": "Explain the p-value method of hypothesis testing with the slide's example of a p-value of .038.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The p-value method is another way of reaching a statistical conclusion.\n\n- The **p-value** is sometimes called the **observed significance level**.\n- In this method **no preset value of alpha is given**.\n- The p-value is the **smallest value of alpha for which the null hypothesis can be rejected**.\n- **Example:** a p-value of **.038** means H0 **cannot be rejected at α = .01** (because .01 is smaller than .038) but **can be rejected at α = .05**.\n- **Rule:** reject H0 when the p-value is **less than or equal to α**.\n\nSo the p-value lets the reader see at once which significance levels would lead to rejection.",
+      "rubric": [
+        {
+          "point": "Also called observed significance level",
+          "source_ref": "qtm--module-5#23"
+        },
+        {
+          "point": "No preset alpha in this method",
+          "source_ref": "qtm--module-5#23"
+        },
+        {
+          "point": "Smallest alpha at which H0 can be rejected",
+          "source_ref": "qtm--module-5#23"
+        },
+        {
+          "point": ".038: not rejected at .01, rejected at .05",
+          "source_ref": "qtm--module-5#23"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "qtm--module-5#23",
+        "qtm--module-5#9",
+        "qtm--module-5#2"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m5-p-value-and-critical-value-q-39e7c6db",
+      "type": "long",
+      "stem": "For the CPA problem (H0: μ = $74,914, H1: μ ≠ $74,914, σ = $14,530, n = 112, sample mean $78,695, α = .05), reach the statistical conclusion by three methods: comparing z with the critical z, the p-value method and the critical value method. Show that all three agree.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The three methods use the same data and the same α, so they must lead to the same answer.\n\n**Common working:**\n- 78,695 − 74,914 = **3,781**\n- σ/√n = 14,530 ÷ √112 ≈ 14,530 ÷ 10.583 ≈ **1,372.96**\n- z = 3,781 ÷ 1,372.96 ≈ **2.75**\n\n**Method 1: compare z with the critical z.**\n- Two-tailed at α = .05, so **.025 in each tail** and critical values **±1.96**.\n- **z = 2.75 > +1.96**, so **reject H0**.\n\n**Method 2: p-value method.**\n- The p-value is the **smallest alpha at which H0 can be rejected**; no preset alpha is needed.\n- The z table gives **0.9970** for z = 2.75, so the upper tail area is 1 − 0.9970 = **0.0030**.\n- For a two-tailed test, p = 2 × 0.0030 = **0.0060** (or compare 0.0030 with .025 per tail).\n- **0.0060 ≤ .05**, so **reject H0**.\n\n**Method 3: critical value method.**\n- Find the sample means that would put z at ±1.96: 1.96 × 1,372.96 ≈ **2,691**.\n- x̄c = 74,914 − 2,691 = **$72,223** and 74,914 + 2,691 = **$77,605**.\n- The sample mean **$78,695 > $77,605**, so it is in the upper rejection region: **reject H0**.\n\n**Business decision:** the national average **may have increased**, so CPAs may be **more expensive to hire** as employees or consultants.\n\n**Conclusion:** all three methods reject H0; they are simply three ways of asking whether the sample is far enough from $74,914.",
+      "rubric": [
+        {
+          "point": "z = 2.75 from correct working",
+          "source_ref": "qtm--module-5#21"
+        },
+        {
+          "point": "Method 1: 2.75 > 1.96, reject",
+          "source_ref": "qtm--module-5#22"
+        },
+        {
+          "point": "Method 2: table 0.9970, tail 0.0030, p = 0.0060 < .05, reject",
+          "source_ref": "qtm--module-5#24"
+        },
+        {
+          "point": "p-value is smallest alpha to reject",
+          "source_ref": "qtm--module-5#23"
+        },
+        {
+          "point": "Method 3: critical means $72,223 and $77,605; $78,695 beyond, reject",
+          "source_ref": "qtm--module-5#25"
+        },
+        {
+          "point": "All agree; business implication",
+          "source_ref": "qtm--module-5#22"
+        }
+      ],
+      "marks": 10.0,
+      "difficulty": 3,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-5#18",
+        "qtm--module-5#19",
+        "qtm--module-5#21",
+        "qtm--module-5#22",
+        "qtm--module-5#23",
+        "qtm--module-5#24",
+        "qtm--module-5#25"
+      ],
+      "derived": [
+        "3,781",
+        "3781",
+        "10.583",
+        "1,372.96",
+        "1372.96",
+        "0.0030",
+        "0.0060",
+        "0.006",
+        "2,691",
+        "2691"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m5-p-value-and-critical-value-q-e719c95c",
+      "type": "long",
+      "stem": "Explain how to read the deck's standard normal (z) table, and show how it is used to find critical values and p-values. Use the table entries given in the deck.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The z table turns a z value into an area under the standard normal curve, which is what both critical values and p-values need.\n\n**How the table is laid out:**\n- The small picture on top shades the **area to the left of z**, so each entry is the **area under the curve to the left of z**.\n- **Rows** give z to one decimal (0.0 to 3.9); **columns** add the second decimal (0.00 to 0.09).\n- Sample entries: z = 0.00 → 0.5000; z = 1.64 → 0.9495; z = 1.65 → 0.9505; z = 1.96 → 0.9750; z = 2.00 → 0.9772; z = 2.75 → 0.9970.\n\n**Finding critical values:**\n- Two-tailed at α = .05 needs **.025** in each tail: z = 1.96 gives 0.9750, and 1 − 0.9750 = **0.0250**, so the cut-offs are **±1.96**.\n- One-tailed at α = .05 needs a left area of 0.95, which lies between 1.64 (0.9495) and 1.65 (0.9505), giving **1.645**.\n\n**Finding p-values:**\n- The tail area beyond the observed z is 1 minus the table entry.\n- **Battery example:** z = -2.0 is left-tailed; by symmetry the area is 1 − 0.9772 = **0.0228**, which is the slide's p ≈ 0.0228.\n- **CPA example:** z = 2.75 gives 0.9970, so the tail area is **0.0030**.\n- The p-value is the **smallest alpha at which H0 can be rejected**; reject H0 when p ≤ α.\n\n**Conclusion:** the same table answers both questions: how far out the cut-off is, and how unusual the observed result is.",
+      "rubric": [
+        {
+          "point": "Each entry is area to the left of z",
+          "source_ref": "qtm--module-5#24"
+        },
+        {
+          "point": "Rows give first decimal, columns the second",
+          "source_ref": "qtm--module-5#24"
+        },
+        {
+          "point": "1.96 → 0.9750 gives .025 tail; ±1.96 two-tailed",
+          "source_ref": "qtm--module-5#24"
+        },
+        {
+          "point": "1.645 from 0.9495 and 0.9505 for one-tailed",
+          "source_ref": "qtm--module-5#10"
+        },
+        {
+          "point": "p-value as tail area: battery 0.0228",
+          "source_ref": "qtm--module-5#28"
+        },
+        {
+          "point": "p-value is smallest alpha to reject H0",
+          "source_ref": "qtm--module-5#23"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "qtm--module-5#24",
+        "qtm--module-5#23",
+        "qtm--module-5#10",
+        "qtm--module-5#28",
+        "qtm--module-5#16"
+      ],
+      "derived": [
+        "0.0250",
+        "0.0030"
+      ],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
   "explain_back": {
     "prompt": "Explain the p-value method and the critical value method, using the .038 example and the CPA problem.",
     "rubric": [

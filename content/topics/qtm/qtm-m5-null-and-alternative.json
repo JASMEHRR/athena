@@ -402,7 +402,349 @@
       "retired": false
     }
   ],
-  "questions": [],
+  "questions": [
+    {
+      "id": "qtm-m5-null-and-alternative-q-2db5c406",
+      "type": "mcq",
+      "stem": "Which statement best describes the alternative hypothesis (H1 or Ha)?",
+      "options": [
+        "The outcome you seek to support: there is an effect or a difference",
+        "The default assumption of no effect or no difference",
+        "A statement that must always contain an equals sign",
+        "The probability of rejecting a true null hypothesis"
+      ],
+      "answer": "The outcome you seek to support: there is an effect or a difference",
+      "accept": [],
+      "explanation": "Ha is the claim you want evidence for; the default of no effect is H0.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "define",
+      "source_refs": [
+        "qtm--module-5#3",
+        "qtm--module-5#9"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m5-null-and-alternative-q-d095308f",
+      "type": "mcq",
+      "stem": "In the flour example, the average package weight is supposed to be 40 ounces. Which pair of hypotheses does the slide use?",
+      "options": [
+        "H0: μ = 40 oz; H1: μ ≠ 40 oz",
+        "H0: μ ≠ 40 oz; H1: μ = 40 oz",
+        "H0: μ ≤ 40 oz; H1: μ > 40 oz",
+        "H0: μ ≥ 40 oz; H1: μ < 40 oz"
+      ],
+      "answer": "H0: μ = 40 oz; H1: μ ≠ 40 oz",
+      "accept": [],
+      "explanation": "H0 holds the equality (no problem); H1 says the average is not 40 ounces (process out of control).",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "apply",
+      "source_refs": [
+        "qtm--module-5#4"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m5-null-and-alternative-q-ea6dab71",
+      "type": "mcq",
+      "stem": "In the market share example, why is the alternative written as H1: p > 0.18?",
+      "options": [
+        "Officials believe the share is now greater than 18% and want to prove it",
+        "The null hypothesis must always use a greater-than sign",
+        "The share was known to have fallen below 18%",
+        "Any change in either direction would matter to the officials"
+      ],
+      "answer": "Officials believe the share is now greater than 18% and want to prove it",
+      "accept": [],
+      "explanation": "The claim to be proved goes into H1; everything else, including equality, stays in H0: p ≤ 0.18.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "apply",
+      "source_refs": [
+        "qtm--module-5#5",
+        "qtm--module-5#3"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m5-null-and-alternative-q-d52c0bed",
+      "type": "mcq",
+      "stem": "After looking at sample data, which pair of decisions can a hypothesis test reach?",
+      "options": [
+        "Reject H0 or fail to reject H0",
+        "Accept H0 or accept H1",
+        "Prove H0 or prove H1",
+        "Reject H1 or accept H0"
+      ],
+      "answer": "Reject H0 or fail to reject H0",
+      "accept": [],
+      "explanation": "Based on sample data we decide whether to reject H0 or fail to reject H0; we never say we accept H0.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "recall",
+      "source_refs": [
+        "qtm--module-5#2",
+        "qtm--module-5#12"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m5-null-and-alternative-q-36dea29c",
+      "type": "mcq",
+      "stem": "Which alternative hypothesis is one-sided?",
+      "options": [
+        "H1: p > 0.18",
+        "H1: μ ≠ 40 oz",
+        "H1: parameter ≠ value",
+        "H0: μ = 40 oz"
+      ],
+      "answer": "H1: p > 0.18",
+      "accept": [],
+      "explanation": "A one-sided alternative points in one direction (> or <); ≠ is two-sided.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "identify",
+      "source_refs": [
+        "qtm--module-5#5",
+        "qtm--module-5#4",
+        "qtm--module-5#10"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m5-null-and-alternative-q-7a904595",
+      "type": "short",
+      "stem": "Differentiate between the null hypothesis and the alternative hypothesis.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Every hypothesis test sets up two competing statements about a population parameter.\n\n- **Null hypothesis (H0):** the **default assumption**, saying there is **no effect or no difference**. It is **often a statement of equality**.\n- **Alternative hypothesis (H1 or Ha):** the **outcome you seek to support**, saying there **is an effect or a difference**. It **can be two-sided or one-sided**.\n- **Decision:** based on sample data we either **reject H0** or **fail to reject H0**.\n- **Example:** for flour packages meant to average 40 ounces, H0: μ = 40 oz (no problem) and H1: μ ≠ 40 oz (process out of control).\n\nSo H0 is the status quo, and Ha is the claim that needs evidence.",
+      "rubric": [
+        {
+          "point": "H0: default assumption, no effect or difference, often equality",
+          "source_ref": "qtm--module-5#3"
+        },
+        {
+          "point": "Ha: outcome you seek to support, effect or difference",
+          "source_ref": "qtm--module-5#3"
+        },
+        {
+          "point": "Ha can be two-sided or one-sided",
+          "source_ref": "qtm--module-5#3"
+        },
+        {
+          "point": "Reject or fail to reject H0 based on sample data",
+          "source_ref": "qtm--module-5#2"
+        },
+        {
+          "point": "Flour example: H0 μ = 40 oz, H1 μ ≠ 40 oz",
+          "source_ref": "qtm--module-5#4"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 1,
+      "style_tag": "differentiate",
+      "source_refs": [
+        "qtm--module-5#2",
+        "qtm--module-5#3",
+        "qtm--module-5#4"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m5-null-and-alternative-q-d153a6ee",
+      "type": "short",
+      "stem": "Define hypothesis testing and state the two decisions it can lead to.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Hypothesis testing is how a researcher checks a claim using sample data.\n\n- **Definition:** a **formal method to decide if there is enough evidence to support a claim about a population parameter**.\n- **Two statements:** it involves the **null hypothesis (H0)** and the **alternative hypothesis (H1 or Ha)**.\n- **Two decisions:** based on **sample data**, we either **reject H0** or **fail to reject H0**.\n\nThe test never proves H0; it only asks whether the evidence is strong enough to reject it.",
+      "rubric": [
+        {
+          "point": "Formal method to decide if there is enough evidence about a population parameter",
+          "source_ref": "qtm--module-5#2"
+        },
+        {
+          "point": "Two competing statements: H0 and H1 or Ha",
+          "source_ref": "qtm--module-5#2"
+        },
+        {
+          "point": "Decision: reject H0 or fail to reject H0",
+          "source_ref": "qtm--module-5#2"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 1,
+      "style_tag": "define",
+      "source_refs": [
+        "qtm--module-5#2"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m5-null-and-alternative-q-b14d1754",
+      "type": "short",
+      "stem": "A company has held an 18% share of the market. After an increased marketing effort, officials believe the share is now greater than 18%. Write the null and alternative hypotheses and explain your choice.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The claim the officials want to prove decides where each statement goes.\n\n- **Parameter:** the market share **p**, written as a decimal, so 18% = **0.18**.\n- **Alternative (the claim):** the share is now **greater than 18%**, so **H1: p > 0.18**.\n- **Null (everything else, including equality):** **H0: p ≤ 0.18**.\n- **Type:** because H1 points in **one direction**, this is a **one-sided** alternative.\n\nThe claim to be proved goes into H1, and the null keeps the equality.",
+      "rubric": [
+        {
+          "point": "Parameter is market share p = 0.18",
+          "source_ref": "qtm--module-5#5"
+        },
+        {
+          "point": "H1: p > 0.18 (the claim officials want to prove)",
+          "source_ref": "qtm--module-5#5"
+        },
+        {
+          "point": "H0: p ≤ 0.18",
+          "source_ref": "qtm--module-5#5"
+        },
+        {
+          "point": "One-sided alternative",
+          "source_ref": "qtm--module-5#3"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-5#5",
+        "qtm--module-5#3"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m5-null-and-alternative-q-19f00bbb",
+      "type": "long",
+      "stem": "What is hypothesis testing? Explain the null and alternative hypotheses, and illustrate with the flour package and market share examples.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Hypothesis testing lets a business researcher use sample data to check a claim instead of relying on opinion.\n\n**Meaning:** a **formal method to decide if there is enough evidence to support a claim about a population parameter**. It sets up **two competing statements**, and based on **sample data** we either **reject H0** or **fail to reject H0**.\n\n**Null hypothesis (H0):** the **default assumption**: **no effect or no difference**, **often a statement of equality**.\n\n**Alternative hypothesis (H1 or Ha):** the **outcome you seek to support**: there **is an effect or a difference**. It can be:\n- **two-sided**, Ha: parameter ≠ value, used when any deviation matters;\n- **one-sided**, Ha: parameter > value or < value, used when the direction matters.\n\n**Example 1: flour packages (two-sided).** A package size is supposed to average **40 ounces**.\n- H0: μ = 40 oz (no problem)\n- H1: μ ≠ 40 oz (the process is out of control)\nToo light or too heavy are both problems, so H1 uses ≠.\n\n**Example 2: market share (one-sided).** A company has held an **18%** share; after an increased marketing effort, officials believe it is now **greater than 18%** and want to prove it.\n- H0: p ≤ 0.18\n- H1: p > 0.18\nThe claim to be proved goes into H1, and the equality stays with H0.\n\n**Conclusion:** H0 is the status quo that stands unless the data argue strongly against it, and H1 is the claim the researcher needs evidence for.",
+      "rubric": [
+        {
+          "point": "Formal method to test a claim about a population parameter",
+          "source_ref": "qtm--module-5#2"
+        },
+        {
+          "point": "Reject or fail to reject H0 based on sample data",
+          "source_ref": "qtm--module-5#2"
+        },
+        {
+          "point": "H0: default, no effect, equality; Ha: effect or difference",
+          "source_ref": "qtm--module-5#3"
+        },
+        {
+          "point": "Two-sided vs one-sided alternatives",
+          "source_ref": "qtm--module-5#10"
+        },
+        {
+          "point": "Flour: H0 μ = 40 oz, H1 μ ≠ 40 oz",
+          "source_ref": "qtm--module-5#4"
+        },
+        {
+          "point": "Market share: H0 p ≤ 0.18, H1 p > 0.18",
+          "source_ref": "qtm--module-5#5"
+        }
+      ],
+      "marks": 10.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "qtm--module-5#2",
+        "qtm--module-5#3",
+        "qtm--module-5#4",
+        "qtm--module-5#5",
+        "qtm--module-5#10"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m5-null-and-alternative-q-4b6701ff",
+      "type": "long",
+      "stem": "Using the flour and market share examples, distinguish between a two-sided and a one-sided alternative hypothesis. How does the choice affect where the rejection region lies?",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The alternative hypothesis can be two-sided or one-sided, and this decides how the test is set up.\n\n**Two-sided (non-directional) alternative:**\n- Form: **Ha: parameter ≠ value**; used when we **care about any deviation** from the value.\n- **Flour example:** H0: μ = 40 oz, H1: μ ≠ 40 oz. A package that is too light or too heavy means the process is out of control.\n- **Rejection region:** divided into **two tails** of the distribution. At α = .05 the slide's picture puts **.025 in each tail**, beyond **Z = -1.96 and Z = 1.96**.\n\n**One-sided (directional) alternative:**\n- Form: **Ha: parameter > value** or **Ha: parameter < value**; used when **the direction of the effect matters**.\n- **Market share example:** H0: p ≤ 0.18, H1: p > 0.18, because officials want to prove the share has gone **up**.\n- **Rejection region:** the **entire probability of an unlikely outcome** sits in the tail named by Ha. The slide's picture puts all of **α = .05 in the right tail**, beyond **Z = 1.645**.\n\n**Conclusion:** the wording of the claim (\"not equal\" vs \"greater than\" or \"less than\") decides whether the rejection region is split across two tails or placed in one.",
+      "rubric": [
+        {
+          "point": "Two-sided: Ha ≠, any deviation matters",
+          "source_ref": "qtm--module-5#10"
+        },
+        {
+          "point": "Flour example is two-sided",
+          "source_ref": "qtm--module-5#4"
+        },
+        {
+          "point": "Two tails, .025 each, beyond ±1.96",
+          "source_ref": "qtm--module-5#10"
+        },
+        {
+          "point": "One-sided: Ha > or <, direction matters",
+          "source_ref": "qtm--module-5#10"
+        },
+        {
+          "point": "Market share example is one-sided (p > 0.18)",
+          "source_ref": "qtm--module-5#5"
+        },
+        {
+          "point": "All of α = .05 in one tail beyond 1.645",
+          "source_ref": "qtm--module-5#10"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 2,
+      "style_tag": "differentiate",
+      "source_refs": [
+        "qtm--module-5#3",
+        "qtm--module-5#4",
+        "qtm--module-5#5",
+        "qtm--module-5#10"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
   "explain_back": {
     "prompt": "Explain what hypothesis testing is and how you set up the null and alternative hypotheses, using the flour and market share examples.",
     "rubric": [
