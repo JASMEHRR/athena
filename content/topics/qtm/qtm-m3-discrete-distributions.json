@@ -448,7 +448,347 @@
       "retired": false
     }
   ],
-  "questions": [],
+  "questions": [
+    {
+      "id": "qtm-m3-discrete-distributions-q-398f8760",
+      "type": "mcq",
+      "stem": "Which of these does the deck list as a discrete distribution?",
+      "options": [
+        "Binomial distribution",
+        "Uniform distribution",
+        "Normal distribution",
+        "Standard normal distribution (z)"
+      ],
+      "answer": "Binomial distribution",
+      "accept": [],
+      "explanation": "Discrete: Bernoulli, binomial, Poisson. Continuous: uniform, normal, standard normal (z).",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "list",
+      "source_refs": [
+        "qtm--module-3#47"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-discrete-distributions-q-1761099b",
+      "type": "mcq",
+      "stem": "In a Bernoulli experiment, the probability of success p on each trial:",
+      "options": [
+        "Remains constant from trial to trial",
+        "Rises after every success",
+        "Depends on the result of the previous trial",
+        "Equals the number of trials n"
+      ],
+      "answer": "Remains constant from trial to trial",
+      "accept": [],
+      "explanation": "p stays the same on every trial, and the trials are independent of each other.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "concept",
+      "source_refs": [
+        "qtm--module-3#48"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-discrete-distributions-q-1b7f2ca0",
+      "type": "mcq",
+      "stem": "For a Bernoulli random variable, E(X²) equals:",
+      "options": [
+        "p",
+        "p²",
+        "1 - p",
+        "p(1 - p)"
+      ],
+      "answer": "p",
+      "accept": [],
+      "explanation": "E(X²) = 1² × p + 0² × (1 - p) = p; p(1 - p) is the variance.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "formula",
+      "source_refs": [
+        "qtm--module-3#50"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-discrete-distributions-q-d188c35c",
+      "type": "mcq",
+      "stem": "If X ~ P(μ) is a Poisson random variable, what is V(X)?",
+      "options": [
+        "μ",
+        "μ²",
+        "√μ",
+        "e^-μ"
+      ],
+      "answer": "μ",
+      "accept": [],
+      "explanation": "For the Poisson distribution E(X) = μ and V(X) = μ: the mean and variance are equal.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "formula",
+      "source_refs": [
+        "qtm--module-3#51"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-discrete-distributions-q-99af753f",
+      "type": "mcq",
+      "stem": "A coin toss with heads = 1 (success) and tails = 0 (failure), each with probability .50, is a Bernoulli variable. What is its variance?",
+      "options": [
+        "0.25",
+        "0.5",
+        "1",
+        "0"
+      ],
+      "answer": "0.25",
+      "accept": [],
+      "explanation": "V(X) = p(1 - p) = 0.5 × 0.5 = 0.25; 0.5 is the mean p.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-3#49",
+        "qtm--module-3#50",
+        "qtm--module-3#38"
+      ],
+      "derived": [
+        "0.25",
+        "0.5"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-discrete-distributions-q-39e0379b",
+      "type": "short",
+      "stem": "List the conditions of a Bernoulli experiment as given in the deck.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "A Bernoulli process is built from trials that have only two results.\n\n- The experiment consists of **n identical trials**.\n- Each trial results in a **success or a failure**.\n- The probability of success **p** is **constant** from trial to trial, so the probability of failure **q = 1 - p** is constant too.\n- The trials are **independent**: their results have nothing to do with each other.\n\nThe number of successes in one such trial (1 or 0) is a **Bernoulli random variable**, e.g. a coin toss with heads as 1.",
+      "rubric": [
+        {
+          "point": "n identical trials",
+          "source_ref": "qtm--module-3#48"
+        },
+        {
+          "point": "Each trial is a success or failure",
+          "source_ref": "qtm--module-3#48"
+        },
+        {
+          "point": "p constant, q = 1 - p constant",
+          "source_ref": "qtm--module-3#50"
+        },
+        {
+          "point": "Trials independent",
+          "source_ref": "qtm--module-3#48"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 1,
+      "style_tag": "list",
+      "source_refs": [
+        "qtm--module-3#48",
+        "qtm--module-3#49",
+        "qtm--module-3#50"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-discrete-distributions-q-be326898",
+      "type": "short",
+      "stem": "2% of a manufacturer's parts are defective. Treat 'part is defective' as a success (X = 1) in one Bernoulli trial. Find E(X), V(X) and q.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Checking one part is a **Bernoulli trial**: it is either defective (success, x = 1) or good (failure, x = 0).\n\n- **p** = P(defective) = 0.02, so **q** = 1 - p = **0.98**.\n- **E(X)** = 1 × p + 0 × (1 - p) = **p = 0.02**.\n- **E(X²)** = 1² × p + 0² × (1 - p) = 0.02.\n- **V(X)** = E(X²) - [E(X)]² = p(1 - p) = 0.02 × 0.98 = **0.0196**.\n\nSo the Bernoulli mean is just p, and the variance is p times q.",
+      "rubric": [
+        {
+          "point": "p = 0.02 and q = 1 - p = 0.98",
+          "source_ref": "qtm--module-3#50"
+        },
+        {
+          "point": "E(X) = p = 0.02",
+          "source_ref": "qtm--module-3#50"
+        },
+        {
+          "point": "V(X) = p(1 - p)",
+          "source_ref": "qtm--module-3#50"
+        },
+        {
+          "point": "V(X) = 0.0196",
+          "source_ref": "qtm--module-3#50"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-3#50",
+        "qtm--module-3#12"
+      ],
+      "derived": [
+        "0.02",
+        "0.0196"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-discrete-distributions-q-c3a7ddfc",
+      "type": "short",
+      "stem": "Differentiate between the Bernoulli and the Poisson distributions.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Both are discrete distributions, but they count different things.\n\n- **Bernoulli:** one trial with only **success (1) or failure (0)**. P(1) = p, P(0) = 1 - p. **E(X) = p**, **V(X) = p(1 - p)**. Example: a coin toss with heads as 1.\n- **Poisson:** the **number of times an event occurs** over an interval of time or space, x = 0, 1, 2, ... Assumes the same probability for equal intervals and independence across nonoverlapping intervals. **p(x) = e^-μ μ^x / x!**, with **E(X) = V(X) = μ**.\n\nSo Bernoulli takes just two values, while Poisson can take any whole number of occurrences, with mean equal to variance.",
+      "rubric": [
+        {
+          "point": "Bernoulli: one trial, values 1 or 0",
+          "source_ref": "qtm--module-3#49"
+        },
+        {
+          "point": "Bernoulli mean p and variance p(1 - p)",
+          "source_ref": "qtm--module-3#50"
+        },
+        {
+          "point": "Poisson: count of occurrences in an interval, x = 0, 1, 2, ...",
+          "source_ref": "qtm--module-3#51"
+        },
+        {
+          "point": "Poisson formula and E(X) = V(X) = μ",
+          "source_ref": "qtm--module-3#51"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "differentiate",
+      "source_refs": [
+        "qtm--module-3#49",
+        "qtm--module-3#50",
+        "qtm--module-3#51"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-discrete-distributions-q-e716f882",
+      "type": "long",
+      "stem": "Explain the Bernoulli distribution and derive its mean and variance. Use the coin toss example.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The **Bernoulli distribution** describes the simplest random experiment: one trial with two results.\n\n**Bernoulli trial:** if a trial can only be a success or a failure, it is a Bernoulli trial. The number of successes X in one trial, **1 or 0**, is a **Bernoulli random variable**.\n\n**Conditions of the experiment:** n identical trials; each a success or failure; the probability of success p is constant, so the probability of failure q is constant; the trials are independent.\n\n**Distribution:**\n\n| x | P(x) |\n|---|---|\n| 1 | p |\n| 0 | 1 - p |\n\n**Mean:** E(X) = 1 × p + 0 × (1 - p) = **p**.\n\n**Variance** (computational formula V(X) = E(X²) - [E(X)]²):\n- E(X²) = 1² × p + 0² × (1 - p) = p\n- V(X) = p - p² = **p(1 - p)**, that is **pq** with q = 1 - p, the probability of failure.\n\n**Example: coin toss.** Take heads as 1 (success) and tails as 0 (failure). With probability .50 for each, E(X) = 0.5 and V(X) = 0.5 × 0.5 = 0.25.\n\nThe Bernoulli variable is the building block of the other discrete distributions in the deck, and its mean and variance follow directly from the general formulas.",
+      "rubric": [
+        {
+          "point": "Bernoulli trial: success or failure; X = 1 or 0",
+          "source_ref": "qtm--module-3#49"
+        },
+        {
+          "point": "Conditions: identical, constant p, independent trials",
+          "source_ref": "qtm--module-3#48"
+        },
+        {
+          "point": "E(X) = p",
+          "source_ref": "qtm--module-3#50"
+        },
+        {
+          "point": "V(X) = p - p² = p(1 - p), q = 1 - p",
+          "source_ref": "qtm--module-3#50"
+        },
+        {
+          "point": "Coin example: heads 1, tails 0",
+          "source_ref": "qtm--module-3#49"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "qtm--module-3#48",
+        "qtm--module-3#49",
+        "qtm--module-3#50",
+        "qtm--module-3#41",
+        "qtm--module-3#38"
+      ],
+      "derived": [
+        "0.5",
+        "0.25"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-discrete-distributions-q-69c18910",
+      "type": "long",
+      "stem": "Explain the Poisson distribution: when it applies, its formula, and its mean and variance.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The **Poisson distribution** is a discrete distribution for counting how often an event happens.\n\n**When it applies:** consider the **number of times an event occurs over an interval of time or space**, and assume:\n- the probability of the event's occurrence is the **same for any two intervals of equal length**, and\n- whether the event occurs in one interval is **independent** of whether it occurs in any other **nonoverlapping** interval.\n\n**Formula:** the probability that the event occurs x times in the interval is\n\n**P(X = x) = e^-μ μ^x / x!**, for x = 0, 1, 2, ...\n\nwhere **μ** is the mean number of occurrences and **e = 2.71828**. We write **X ~ P(μ)**.\n\n**Mean and variance:** **E(X) = μ** and **V(X) = μ**. The mean and the variance are equal.\n\n**Place in the family:** the deck lists Poisson with Bernoulli and binomial as the **discrete** distributions, unlike the continuous uniform and normal distributions.\n\n**Note:** for x = 0 the formula gives e^-μ, the chance that the event does not happen at all in the interval.\n\nSo the Poisson distribution is the tool for counts of events in a fixed stretch of time or space, described by a single number, μ.",
+      "rubric": [
+        {
+          "point": "Counts occurrences over an interval of time or space",
+          "source_ref": "qtm--module-3#51"
+        },
+        {
+          "point": "Same probability for equal intervals; independence across nonoverlapping intervals",
+          "source_ref": "qtm--module-3#51"
+        },
+        {
+          "point": "P(X = x) = e^-μ μ^x / x!, e = 2.71828",
+          "source_ref": "qtm--module-3#51"
+        },
+        {
+          "point": "E(X) = V(X) = μ",
+          "source_ref": "qtm--module-3#51"
+        },
+        {
+          "point": "Listed as a discrete distribution",
+          "source_ref": "qtm--module-3#47"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "qtm--module-3#51",
+        "qtm--module-3#47"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
   "explain_back": {
     "prompt": "Explain the Bernoulli and Poisson distributions: when each applies, the formula, and the mean and variance.",
     "rubric": [

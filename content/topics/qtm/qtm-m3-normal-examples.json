@@ -341,7 +341,375 @@
       "retired": false
     }
   ],
-  "questions": [],
+  "questions": [
+    {
+      "id": "qtm-m3-normal-examples-q-97cc847d",
+      "type": "mcq",
+      "stem": "In the toll plaza example (mean 160 microseconds, standard deviation 30), what is the z value for 180 microseconds?",
+      "options": [
+        "0.6666",
+        "-2",
+        "6",
+        "0.2475"
+      ],
+      "answer": "0.6666",
+      "accept": [],
+      "explanation": "z = (180 - 160)/30 = 20/30 = 0.6666; -2 is the z for 100, and 0.2475 is the table area, not z.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-3#62"
+      ],
+      "derived": [
+        "20/30",
+        "20"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-normal-examples-q-b17c3570",
+      "type": "mcq",
+      "stem": "Semiconductor impurities are normal with mean 127 ppm and standard deviation 22; only those below 150 ppm are acceptable. What proportion is NOT acceptable?",
+      "options": [
+        "0.148",
+        "0.852",
+        "0.352",
+        "0.5"
+      ],
+      "answer": "0.148",
+      "accept": [],
+      "explanation": "P(acceptable) = 0.8520, so P(not acceptable) = 1 - 0.8520 = 0.148.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-3#63",
+        "qtm--module-3#10"
+      ],
+      "derived": [
+        "0.148",
+        "0.352"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-normal-examples-q-b050eb2d",
+      "type": "mcq",
+      "stem": "For the daily gold price (mean $383, standard deviation $12), what is the z value for $394?",
+      "options": [
+        "0.9166",
+        "1.3333",
+        "11",
+        "0.0885"
+      ],
+      "answer": "0.9166",
+      "accept": [],
+      "explanation": "z = (394 - 383)/12 = 11/12 = 0.9166; 1.3333 is the z for $399 and 0.0885 is the final probability.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-3#64"
+      ],
+      "derived": [
+        "11",
+        "11/12"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-normal-examples-q-f311082c",
+      "type": "mcq",
+      "stem": "Using the gold example's figures, what is the probability that the next day's price is above $399?",
+      "options": [
+        "0.0912",
+        "0.4088",
+        "0.0885",
+        "0.9088"
+      ],
+      "answer": "0.0912",
+      "accept": [],
+      "explanation": "z = 1.3333 has area 0.4088 from 0, so the right tail is 0.5 - 0.4088 = 0.0912.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 3,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-3#64",
+        "qtm--module-3#57"
+      ],
+      "derived": [
+        "0.0912",
+        "0.9088"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-normal-examples-q-c9b0aac4",
+      "type": "mcq",
+      "stem": "Which working gives the proportion of acceptable semiconductors, P(X < 150)?",
+      "options": [
+        "P(Z < 1.045) = 0.5 + 0.3520",
+        "P(Z < 1.045) = 0.3520",
+        "P(Z < 1.045) = 0.5 - 0.3520",
+        "P(Z > 1.045) = 0.5 + 0.3520"
+      ],
+      "answer": "P(Z < 1.045) = 0.5 + 0.3520",
+      "accept": [],
+      "explanation": "Everything left of the mean (0.5) plus the area from 0 to 1.045 (0.3520) gives 0.8520.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-3#63"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-normal-examples-q-82b4d9bb",
+      "type": "short",
+      "stem": "Semiconductor impurities are normally distributed with mean 127 parts per million and standard deviation 22. A semiconductor is acceptable only below 150 ppm. Find the proportion acceptable and the proportion rejected.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Standardise with **z = (x - μ)/σ**, then read the table.\n\n- z = (150 - 127)/22 = 23/22 = **1.045**.\n- Table area from 0 to 1.045 = **0.3520**.\n- 'Below 150' includes the whole left half, so **P(X < 150) = 0.5 + 0.3520 = 0.8520**.\n- Rejected: 1 - 0.8520 = **0.148**.\n\nSo about 85.2% of semiconductors are acceptable and 14.8% are rejected.",
+      "rubric": [
+        {
+          "point": "z = (150 - 127)/22 = 1.045",
+          "source_ref": "qtm--module-3#63"
+        },
+        {
+          "point": "Table area 0.3520",
+          "source_ref": "qtm--module-3#63"
+        },
+        {
+          "point": "Add 0.5: P(X < 150) = 0.8520",
+          "source_ref": "qtm--module-3#63"
+        },
+        {
+          "point": "Rejected = 1 - 0.8520 = 0.148",
+          "source_ref": "qtm--module-3#10"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-3#63",
+        "qtm--module-3#58",
+        "qtm--module-3#10"
+      ],
+      "derived": [
+        "23/22",
+        "0.148",
+        "14.8%",
+        "85.2%",
+        "23"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-normal-examples-q-4b0fdaba",
+      "type": "short",
+      "stem": "In the toll plaza example (mean 160 microseconds, standard deviation 30), find the probability that the device takes more than 180 microseconds and the probability that it takes less than 100 microseconds.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Convert each value to z and use the 0.5 in each half of the curve.\n\n- **More than 180:** z = (180 - 160)/30 = 0.6666, table area 0.2475. P(X > 180) = 0.5 - 0.2475 = **0.2525**.\n- **Less than 100:** z = (100 - 160)/30 = -2, area from 0 to 2 = 0.4772. By symmetry, P(X < 100) = 0.5 - 0.4772 = **0.0228**.\n- Check: 0.2525 + 0.0228 + 0.7247 = 1.\n\nSo about 25% of responses are slower than 180 microseconds, and very few are faster than 100.",
+      "rubric": [
+        {
+          "point": "z for 180 = 0.6666, area 0.2475",
+          "source_ref": "qtm--module-3#62"
+        },
+        {
+          "point": "P(X > 180) = 0.5 - 0.2475 = 0.2525",
+          "source_ref": "qtm--module-3#57"
+        },
+        {
+          "point": "z for 100 = -2, area 0.4772",
+          "source_ref": "qtm--module-3#62"
+        },
+        {
+          "point": "P(X < 100) = 0.5 - 0.4772 = 0.0228",
+          "source_ref": "qtm--module-3#57"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-3#62",
+        "qtm--module-3#57"
+      ],
+      "derived": [
+        "0.2525",
+        "0.0228",
+        "25%"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-normal-examples-q-de525079",
+      "type": "short",
+      "stem": "Differentiate between finding a normal probability between two values on opposite sides of the mean and between two values on the same side, using the toll plaza and gold examples.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The table gives areas from 0 (the mean) to z, so the position of the two values decides whether we add or subtract.\n\n- **Opposite sides: add.** Toll plaza, 100 to 180 microseconds: z = -2 and 0.6666. The interval crosses the mean, so P = 0.4772 + 0.2475 = **0.7247**.\n- **Same side: subtract.** Gold, $394 to $399: z = 0.9166 and 1.3333, both above the mean. The smaller area sits inside the larger, so P = 0.4088 - 0.3203 = **0.0885**.\n\nSketching the curve first shows at once which rule to use.",
+      "rubric": [
+        {
+          "point": "Table area is measured from 0",
+          "source_ref": "qtm--module-3#60"
+        },
+        {
+          "point": "Opposite sides: add the two areas",
+          "source_ref": "qtm--module-3#62"
+        },
+        {
+          "point": "Toll plaza 0.4772 + 0.2475 = 0.7247",
+          "source_ref": "qtm--module-3#62"
+        },
+        {
+          "point": "Same side: subtract",
+          "source_ref": "qtm--module-3#64"
+        },
+        {
+          "point": "Gold 0.4088 - 0.3203 = 0.0885",
+          "source_ref": "qtm--module-3#64"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "differentiate",
+      "source_refs": [
+        "qtm--module-3#62",
+        "qtm--module-3#64",
+        "qtm--module-3#60"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-normal-examples-q-b5efd134",
+      "type": "long",
+      "stem": "Case: the time an electronic device in a car takes to respond to the toll plaza signal is normally distributed with mean 160 microseconds and standard deviation 30 microseconds. Find the probability that it responds within 100 to 180 microseconds. Explain each step.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The response time X is normal with **μ = 160** and **σ = 30**. To use the table we convert to the standard normal Z.\n\n**Step 1: set up.** We want P(100 < X < 180).\n\n**Step 2: standardise both limits with z = (x - μ)/σ.**\n- Lower: z = (100 - 160)/30 = -60/30 = **-2**.\n- Upper: z = (180 - 160)/30 = 20/30 = **0.6666**.\nSo P(100 < X < 180) = **P(-2 < Z < 0.6666)**.\n\n**Step 3: read the table** (area between 0 and z).\n- Area from 0 to 2 = **0.4772** (by symmetry, the same as from -2 to 0).\n- Area from 0 to 0.6666 = **0.2475**.\n\n**Step 4: combine.** The two z values lie on **opposite sides of 0**, so the areas are **added**:\nP = 0.4772 + 0.2475 = **0.7247**.\n\n**Step 5: interpret.** The area under the X curve from 100 to 180 equals the area under the Z curve from -2 to 0.6666. About **72.5%** of signals get a response within 100 to 180 microseconds. The rest fall in the two tails: responses faster than 100 or slower than 180 microseconds.\n\n**Common mistake:** subtracting 0.2475 from 0.4772. That rule is only for two values on the same side of the mean, as in the gold example.\n\nStandardising, reading the table and choosing add or subtract is the whole method for normal problems.",
+      "rubric": [
+        {
+          "point": "μ = 160, σ = 30; want P(100 < X < 180)",
+          "source_ref": "qtm--module-3#61"
+        },
+        {
+          "point": "z = -2 and 0.6666 using z = (x - μ)/σ",
+          "source_ref": "qtm--module-3#62"
+        },
+        {
+          "point": "Table areas 0.4772 and 0.2475",
+          "source_ref": "qtm--module-3#62"
+        },
+        {
+          "point": "Opposite sides, so add: 0.7247",
+          "source_ref": "qtm--module-3#62"
+        },
+        {
+          "point": "Equal areas under X and Z curves; interpretation",
+          "source_ref": "qtm--module-3#62"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 2,
+      "style_tag": "case",
+      "source_refs": [
+        "qtm--module-3#61",
+        "qtm--module-3#62",
+        "qtm--module-3#58",
+        "qtm--module-3#60"
+      ],
+      "derived": [
+        "-60/30",
+        "20/30",
+        "72.5%",
+        "20"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-normal-examples-q-bb211b06",
+      "type": "long",
+      "stem": "Case: the daily price of gold (1 troy ounce) is normal with mean $383 and standard deviation $12. A broker has an order to sell a client's gold if the next day's price is between $394 and $399. What is the probability that the gold will be sold? Explain each step and say why the areas are subtracted.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Price fluctuations over short intervals are well approximated by a normal distribution, so X ~ normal with **μ = $383** and **σ = $12**.\n\n**Step 1: set up.** The gold is sold if 394 < X < 399, so we want P(394 < X < 399).\n\n**Step 2: standardise with z = (x - μ)/σ.**\n- z for $394 = (394 - 383)/12 = 11/12 = **0.9166**.\n- z for $399 = (399 - 383)/12 = 16/12 = **1.3333**.\nSo the probability is **P(0.9166 < Z < 1.3333)**.\n\n**Step 3: table areas (from 0 to z).**\n- 0 to 1.3333: **0.4088**\n- 0 to 0.9166: **0.3203**\n\n**Step 4: subtract.** Both z values are on the **same side** of the mean, so the area from 0 to 0.9166 lies inside the area from 0 to 1.3333. The slice between them is:\nP = 0.4088 - 0.3203 = **0.0885**.\n\n**Step 5: interpret.** There is only about an **8.85%** chance that the client's gold will be sold the next day, because $394 to $399 is a narrow band almost one to one and a third standard deviations above the mean.\n\nThe same area under the X curve and the Z curve gives 0.0885.",
+      "rubric": [
+        {
+          "point": "μ = 383, σ = 12; want P(394 < X < 399)",
+          "source_ref": "qtm--module-3#64"
+        },
+        {
+          "point": "z = 0.9166 and 1.3333",
+          "source_ref": "qtm--module-3#64"
+        },
+        {
+          "point": "Table areas 0.4088 and 0.3203",
+          "source_ref": "qtm--module-3#64"
+        },
+        {
+          "point": "Same side, so subtract: 0.0885",
+          "source_ref": "qtm--module-3#64"
+        },
+        {
+          "point": "Interpretation: about 8.85% chance of sale",
+          "source_ref": "qtm--module-3#64"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 3,
+      "style_tag": "case",
+      "source_refs": [
+        "qtm--module-3#64",
+        "qtm--module-3#58",
+        "qtm--module-3#60"
+      ],
+      "derived": [
+        "11",
+        "11/12",
+        "16/12",
+        "16",
+        "8.85%"
+      ],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
   "explain_back": {
     "prompt": "Walk through how to solve a normal probability problem, using the toll plaza and semiconductor examples.",
     "rubric": [

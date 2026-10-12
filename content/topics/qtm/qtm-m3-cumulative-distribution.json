@@ -422,7 +422,356 @@
       "retired": false
     }
   ],
-  "questions": [],
+  "questions": [
+    {
+      "id": "qtm-m3-cumulative-distribution-q-25219c5c",
+      "type": "mcq",
+      "stem": "From the F(X) column for the sum of two dice, what is F(9)?",
+      "options": [
+        "30/36",
+        "26/36",
+        "33/36",
+        "4/36"
+      ],
+      "answer": "30/36",
+      "accept": [],
+      "explanation": "F(9) is the running total up to 9: 26/36 + 4/36 = 30/36. 4/36 is P(9) alone.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-3#33"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-cumulative-distribution-q-fa5d6af3",
+      "type": "mcq",
+      "stem": "For the sum of two dice, what is P(X ≥ 9) when 9 itself is included?",
+      "options": [
+        "10/36",
+        "6/36",
+        "4/36",
+        "30/36"
+      ],
+      "answer": "10/36",
+      "accept": [],
+      "explanation": "P(X ≥ 9) = P(9) + P(10) + P(11) + P(12) = 4/36 + 3/36 + 2/36 + 1/36 = 10/36, which is 1 - F(8). The deck's 6/36 leaves out 9.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 3,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-3#32",
+        "qtm--module-3#33"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-cumulative-distribution-q-2ae5a28f",
+      "type": "mcq",
+      "stem": "Which expression gives P(1 ≤ X ≤ 3) using the cumulative distribution function?",
+      "options": [
+        "F(3) - F(0)",
+        "F(3) - F(1)",
+        "F(3) + F(0)",
+        "1 - F(3)"
+      ],
+      "answer": "F(3) - F(0)",
+      "accept": [],
+      "explanation": "F(3) includes 0, 1, 2 and 3; removing F(0) leaves exactly 1, 2 and 3. F(3) - F(1) would wrongly drop X = 1.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "formula",
+      "source_refs": [
+        "qtm--module-3#34",
+        "qtm--module-3#31"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-cumulative-distribution-q-8ca0d544",
+      "type": "mcq",
+      "stem": "Telephone calls per minute at an exchange have P(x) = 0.3, 0.2, 0.2, 0.1, 0.1, 0.1 for x = 0 to 5. What is F(4)?",
+      "options": [
+        "0.9",
+        "0.8",
+        "0.1",
+        "0.7"
+      ],
+      "answer": "0.9",
+      "accept": [],
+      "explanation": "F(4) = 0.3 + 0.2 + 0.2 + 0.1 + 0.1 = 0.9; 0.1 is P(4) alone.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-3#35",
+        "qtm--module-3#31"
+      ],
+      "derived": [
+        "0.9",
+        "0.8",
+        "0.7"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-cumulative-distribution-q-819720fb",
+      "type": "mcq",
+      "stem": "For a discrete random variable, F(x) is the sum of P(i) over which values of i?",
+      "options": [
+        "All i ≤ x",
+        "All i < x",
+        "All i ≥ x",
+        "Only i = x"
+      ],
+      "answer": "All i ≤ x",
+      "accept": [],
+      "explanation": "F(x) = P(X ≤ x) = ΣP(i) over all i ≤ x, the probability that X is at most x.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "formula",
+      "source_refs": [
+        "qtm--module-3#31"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-cumulative-distribution-q-a27fad69",
+      "type": "short",
+      "stem": "Differentiate between the probability distribution P(x) and the cumulative distribution function F(x) of a discrete random variable, using the two dice example.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Both describe the same random variable, but they answer different questions.\n\n- **P(x):** lists the probability of **each single value**, e.g. P(X = 5) = 4/36 for two dice.\n- **F(x):** the **cumulative** probability that X is **at most** x: F(x) = P(X ≤ x) = ΣP(i) for i ≤ x. For two dice, F(5) = 1/36 + 2/36 + 3/36 + 4/36 = 10/36.\n- F(x) is a **running total** of the P(x) column, so it only grows and ends at F(12) = 36/36 = 1.\n\nUse P(x) for 'exactly' questions and F(x) for 'at most' and range questions.",
+      "rubric": [
+        {
+          "point": "P(x): probability of a single value",
+          "source_ref": "qtm--module-3#31"
+        },
+        {
+          "point": "F(x) = P(X ≤ x) = sum of P(i) for i ≤ x",
+          "source_ref": "qtm--module-3#31"
+        },
+        {
+          "point": "Dice example P(5) = 4/36 vs F(5) = 10/36",
+          "source_ref": "qtm--module-3#33"
+        },
+        {
+          "point": "F is a running total ending at 36/36 = 1",
+          "source_ref": "qtm--module-3#33"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "differentiate",
+      "source_refs": [
+        "qtm--module-3#31",
+        "qtm--module-3#33"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-cumulative-distribution-q-83f3cd7c",
+      "type": "short",
+      "stem": "Using the F(X) column for the sum of two dice, find P(4 ≤ X ≤ 8) and P(X > 10).",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Range questions are quickest with the **CDF**: subtract one running total from another.\n\n- **P(4 ≤ X ≤ 8)** = F(8) - F(3) = 26/36 - 3/36 = **23/36**. We subtract F(3), not F(4), so that X = 4 stays in.\n- **P(X > 10)** = 1 - F(10) = 1 - 33/36 = **3/36** (that is P(11) + P(12) = 2/36 + 1/36).\n\nSo two table lookups replace adding many single probabilities.",
+      "rubric": [
+        {
+          "point": "P(a ≤ X ≤ b) = F(b) - F(a - 1) logic, as in F(3) - F(0)",
+          "source_ref": "qtm--module-3#34"
+        },
+        {
+          "point": "F(8) = 26/36 and F(3) = 3/36",
+          "source_ref": "qtm--module-3#33"
+        },
+        {
+          "point": "P(4 ≤ X ≤ 8) = 23/36",
+          "source_ref": "qtm--module-3#33"
+        },
+        {
+          "point": "P(X > 10) = 1 - 33/36 = 3/36",
+          "source_ref": "qtm--module-3#33"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-3#33",
+        "qtm--module-3#31",
+        "qtm--module-3#34"
+      ],
+      "derived": [
+        "23/36",
+        "23"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-cumulative-distribution-q-892be78a",
+      "type": "short",
+      "stem": "For X = number of girls in four births (P = 1/16, 4/16, 6/16, 4/16, 1/16 for x = 0 to 4), write the CDF and find P(X ≤ 1) and P(2 ≤ X ≤ 4).",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The **CDF** is the running total of the probabilities.\n\n- **F(0)** = 1/16, **F(1)** = 5/16, **F(2)** = 11/16, **F(3)** = 15/16, **F(4)** = 16/16 = 1.\n- **P(X ≤ 1)** = F(1) = **5/16**.\n- **P(2 ≤ X ≤ 4)** = F(4) - F(1) = 16/16 - 5/16 = **11/16**.\n\nThis mirrors the deck's P(1 ≤ X ≤ 3) = F(3) - F(0) = 14/16.",
+      "rubric": [
+        {
+          "point": "Running totals F(0) to F(4)",
+          "source_ref": "qtm--module-3#28"
+        },
+        {
+          "point": "P(X ≤ 1) = F(1) = 5/16",
+          "source_ref": "qtm--module-3#31"
+        },
+        {
+          "point": "P(2 ≤ X ≤ 4) = F(4) - F(1) = 11/16",
+          "source_ref": "qtm--module-3#34"
+        },
+        {
+          "point": "Link to F(3) - F(0) = 14/16",
+          "source_ref": "qtm--module-3#34"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-3#28",
+        "qtm--module-3#31",
+        "qtm--module-3#34"
+      ],
+      "derived": [
+        "5/16",
+        "11/16",
+        "15/16",
+        "11",
+        "15"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-cumulative-distribution-q-edfaf308",
+      "type": "long",
+      "stem": "The number of telephone calls arriving at an exchange in a given minute between noon and 1:00 P.M. has P(x) = 0.3, 0.2, 0.2, 0.1, 0.1, 0.1 for x = 0, 1, 2, 3, 4, 5. (a) Verify that P(x) is a probability distribution. (b) Find the CDF. (c) Use it to find the probability that more than two calls arrive between 12:34 and 12:35 P.M. (d) Find P(1 ≤ X ≤ 3).",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "This exercise uses both conditions for a distribution and the CDF.\n\n**(a) Verify.**\n- Every P(x) ≥ 0. True.\n- ΣP(x) = 0.3 + 0.2 + 0.2 + 0.1 + 0.1 + 0.1 = **1**. True.\nSo P(x) is a valid probability distribution.\n\n**(b) CDF, F(x) = P(X ≤ x):**\n\n| x | 0 | 1 | 2 | 3 | 4 | 5 |\n|---|---|---|---|---|---|---|\n| P(x) | 0.3 | 0.2 | 0.2 | 0.1 | 0.1 | 0.1 |\n| F(x) | 0.3 | 0.5 | 0.7 | 0.8 | 0.9 | 1.0 |\n\n**(c) More than two calls.** 'More than two' is the complement of 'at most two':\nP(X > 2) = 1 - F(2) = 1 - 0.7 = **0.3**.\nCheck: P(3) + P(4) + P(5) = 0.1 + 0.1 + 0.1 = 0.3.\n\n**(d) Between 1 and 3 calls.** P(1 ≤ X ≤ 3) = F(3) - F(0) = 0.8 - 0.3 = **0.5**, the same pattern the deck uses in the baby girl scenario.\n\n**Interpretation:** in any minute of that hour there is a 30% chance that the exchange gets more than two calls, which helps plan how many lines to keep free.\n\nThe CDF turns every 'at most', 'more than' and 'between' question into one or two subtractions.",
+      "rubric": [
+        {
+          "point": "Validity: all P(x) ≥ 0 and the sum is 1",
+          "source_ref": "qtm--module-3#29"
+        },
+        {
+          "point": "CDF 0.3, 0.5, 0.7, 0.8, 0.9, 1.0",
+          "source_ref": "qtm--module-3#31"
+        },
+        {
+          "point": "P(X > 2) = 1 - F(2) = 0.3",
+          "source_ref": "qtm--module-3#35"
+        },
+        {
+          "point": "P(1 ≤ X ≤ 3) = F(3) - F(0) = 0.5",
+          "source_ref": "qtm--module-3#34"
+        }
+      ],
+      "marks": 10.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-3#35",
+        "qtm--module-3#29",
+        "qtm--module-3#31",
+        "qtm--module-3#34"
+      ],
+      "derived": [
+        "0.5",
+        "0.7",
+        "0.8",
+        "0.9",
+        "1.0",
+        "30%"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-cumulative-distribution-q-d171e4b4",
+      "type": "long",
+      "stem": "Explain the cumulative distribution function of a discrete random variable. Using the two dice example, show how it answers 'at most', 'at least' and 'between' questions.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The **cumulative distribution function (CDF)** turns a probability table into running totals, which makes range questions quick.\n\n**Definition:** cumulative probability is the probability that the random variable is **at most** some value x. **F(x) = P(X ≤ x) = ΣP(i) over all i ≤ x.**\n\n**Two dice (X = sum):**\n\n| X | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 |\n|---|---|---|---|---|---|---|---|---|---|---|---|\n| F(X) | 1/36 | 3/36 | 6/36 | 10/36 | 15/36 | 21/36 | 26/36 | 30/36 | 33/36 | 35/36 | 36/36 |\n\n**'At most':** P(X ≤ 5) = P(2) + P(3) + P(4) + P(5) = 1/36 + 2/36 + 3/36 + 4/36 = **10/36**, which is simply F(5).\n\n**'At least' or 'greater than':** use the complement. The deck's working gives P(X > 9) = P(10) + P(11) + P(12) = 6/36 = **1/6**, which equals 1 - F(9) = 1 - 30/36. If 9 is included, P(X ≥ 9) = 1 - F(8) = 1 - 26/36 = 10/36.\n\n**'Between':** subtract two values of F. In the baby girl scenario, P(1 ≤ X ≤ 3) = F(3) - F(0) = **14/16**.\n\n**Properties:** F only increases, and it reaches 1 at the largest value (36/36).\n\nWith the F column ready, every probability over a range needs at most one subtraction.",
+      "rubric": [
+        {
+          "point": "Definition F(x) = P(X ≤ x), sum of P(i) for i ≤ x",
+          "source_ref": "qtm--module-3#31"
+        },
+        {
+          "point": "F(X) column for two dice",
+          "source_ref": "qtm--module-3#33"
+        },
+        {
+          "point": "At most: P(X ≤ 5) = 10/36 = F(5)",
+          "source_ref": "qtm--module-3#32"
+        },
+        {
+          "point": "Greater than via complement: P(X > 9) = 6/36",
+          "source_ref": "qtm--module-3#32"
+        },
+        {
+          "point": "Between: P(1 ≤ X ≤ 3) = F(3) - F(0) = 14/16",
+          "source_ref": "qtm--module-3#34"
+        }
+      ],
+      "marks": 10.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "qtm--module-3#31",
+        "qtm--module-3#32",
+        "qtm--module-3#33",
+        "qtm--module-3#34"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
   "explain_back": {
     "prompt": "Explain the cumulative distribution function and show how to use it for 'at most', 'more than' and 'between' questions, with the professor's examples.",
     "rubric": [

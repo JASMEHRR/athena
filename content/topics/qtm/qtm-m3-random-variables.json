@@ -534,7 +534,355 @@
       "retired": false
     }
   ],
-  "questions": [],
+  "questions": [
+    {
+      "id": "qtm-m3-random-variables-q-2642652a",
+      "type": "mcq",
+      "stem": "In the four births scenario, what is the probability of exactly one girl, P(X = 1)?",
+      "options": [
+        "4/16",
+        "1/16",
+        "6/16",
+        "5/16"
+      ],
+      "answer": "4/16",
+      "accept": [],
+      "explanation": "Four birth orders (GBBB, BGBB, BBGB, BBBG) out of 16 give one girl: 4/16 = 0.25.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-3#28"
+      ],
+      "derived": [
+        "5/16"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-random-variables-q-983b561a",
+      "type": "mcq",
+      "stem": "Which of these does the deck treat as a discrete random variable?",
+      "options": [
+        "The amount of money made on an investment",
+        "Temperature",
+        "Weight",
+        "Time"
+      ],
+      "answer": "The amount of money made on an investment",
+      "accept": [],
+      "explanation": "Money can be measured at best to the nearest cent, so it is countable; temperature, weight and time are continuous.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "concept",
+      "source_refs": [
+        "qtm--module-3#29"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-random-variables-q-bff133c8",
+      "type": "mcq",
+      "stem": "When a sample space clearly exists, the deck defines a random variable as a function of the:",
+      "options": [
+        "Sample space",
+        "Probability table",
+        "Bar chart",
+        "Cumulative distribution"
+      ],
+      "answer": "Sample space",
+      "accept": [],
+      "explanation": "Each outcome in the sample space (e.g. GBBB) is mapped to a number (X = 1), so a random variable is a function of the sample space.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "define",
+      "source_refs": [
+        "qtm--module-3#28",
+        "qtm--module-3#31"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-random-variables-q-9a958f12",
+      "type": "mcq",
+      "stem": "For X = the sum of the dots on two dice, which value of X is most likely?",
+      "options": [
+        "7",
+        "6",
+        "12",
+        "2"
+      ],
+      "answer": "7",
+      "accept": [],
+      "explanation": "X = 7 has 6 of the 36 equally likely pairs, more than any other sum.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-3#30"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-random-variables-q-7f512894",
+      "type": "mcq",
+      "stem": "Why must the probabilities of all values of a discrete random variable add up to 1?",
+      "options": [
+        "All values of x represent mutually exclusive events, and together they make up all outcomes",
+        "Every value of x is equally likely",
+        "The values of x are independent events",
+        "Each P(x) is at least 0"
+      ],
+      "answer": "All values of x represent mutually exclusive events, and together they make up all outcomes",
+      "accept": [],
+      "explanation": "The values of x are mutually exclusive events, so their probabilities summed together give 1.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "concept",
+      "source_refs": [
+        "qtm--module-3#29",
+        "qtm--module-3#11"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-random-variables-q-74df4d71",
+      "type": "short",
+      "stem": "Differentiate between a discrete and a continuous random variable, with the deck's examples.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Random variables come in two kinds, depending on how many values they can take.\n\n- **Discrete:** can assume **at most a countable number of values**. Example: the money made on an investment may be $500 or a loss of $200; it can be measured at best to the nearest cent. Its distribution needs P(x) ≥ 0 and ΣP(x) = 1.\n- **Continuous:** may take **any value in an interval**; its possible values are **uncountably infinite** and can be measured, in theory, to any accuracy. Examples: temperature (36.111000099 degrees), weight, height, time.\n\nSo we count discrete values but measure continuous ones.",
+      "rubric": [
+        {
+          "point": "Discrete: countable number of values",
+          "source_ref": "qtm--module-3#29"
+        },
+        {
+          "point": "Investment money example, measured to the nearest cent",
+          "source_ref": "qtm--module-3#29"
+        },
+        {
+          "point": "Continuous: any value in an interval, uncountably infinite",
+          "source_ref": "qtm--module-3#29"
+        },
+        {
+          "point": "Examples: temperature, weight, height, time",
+          "source_ref": "qtm--module-3#29"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 1,
+      "style_tag": "differentiate",
+      "source_refs": [
+        "qtm--module-3#29",
+        "qtm--module-3#52"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-random-variables-q-6d083f68",
+      "type": "short",
+      "stem": "For X = number of girls in four births, show that P(X) is a valid probability distribution and find P(X ≥ 3) and P(at least one girl).",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The 16 birth orders are equally likely, giving P(x) = 1/16, 4/16, 6/16, 4/16, 1/16 for x = 0 to 4.\n\n- **Condition 1:** every P(x) ≥ 0. True.\n- **Condition 2:** ΣP(x) = (1 + 4 + 6 + 4 + 1)/16 = 16/16 = **1**. True, so it is a valid distribution.\n- **P(X ≥ 3)** = P(3) + P(4) = 4/16 + 1/16 = **5/16 = 0.3125**.\n- **P(at least one girl)** = 1 - P(X = 0) = 1 - 1/16 = **15/16 = 0.9375** (complement rule).\n\nBecause the values are mutually exclusive, we simply add their probabilities.",
+      "rubric": [
+        {
+          "point": "P(x) values 1/16, 4/16, 6/16, 4/16, 1/16",
+          "source_ref": "qtm--module-3#28"
+        },
+        {
+          "point": "All P(x) ≥ 0 and the sum is 16/16 = 1",
+          "source_ref": "qtm--module-3#29"
+        },
+        {
+          "point": "P(X ≥ 3) = 5/16",
+          "source_ref": "qtm--module-3#28"
+        },
+        {
+          "point": "P(at least one girl) = 1 - 1/16 = 15/16",
+          "source_ref": "qtm--module-3#10"
+        }
+      ],
+      "marks": 5.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-3#28",
+        "qtm--module-3#29",
+        "qtm--module-3#10"
+      ],
+      "derived": [
+        "5/16",
+        "0.3125",
+        "15/16",
+        "0.9375",
+        "15"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-random-variables-q-8698e160",
+      "type": "short",
+      "stem": "Two dice are rolled and X is the sum of the dots. Explain why every pair has probability 1/36 and find P(X = 7) and P(X = 2 or X = 12).",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The dice are **independent**, so each pair's probability is a product.\n\n- P(6 on red and 5 on green) = (1/6)(1/6) = **1/36**, and the same holds for all **36 pairs**.\n- **P(X = 7):** six pairs give a sum of 7, so 6/36 = **1/6**.\n- **P(X = 2 or 12):** each has only one pair (1/36), and the values are mutually exclusive, so 1/36 + 1/36 = **2/36 = 1/18**.\n\nSo the middle sums are the most likely and the extreme sums the least.",
+      "rubric": [
+        {
+          "point": "Independence: (1/6)(1/6) = 1/36 for each of 36 pairs",
+          "source_ref": "qtm--module-3#30"
+        },
+        {
+          "point": "P(X = 7) = 6/36",
+          "source_ref": "qtm--module-3#30"
+        },
+        {
+          "point": "P(X = 2) = P(X = 12) = 1/36",
+          "source_ref": "qtm--module-3#30"
+        },
+        {
+          "point": "Add exclusive values: 2/36",
+          "source_ref": "qtm--module-3#11"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 1,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-3#30",
+        "qtm--module-3#11"
+      ],
+      "derived": [
+        "2/36",
+        "1/18",
+        "18"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-random-variables-q-ddbdbcc8",
+      "type": "long",
+      "stem": "What is a random variable? Explain discrete and continuous random variables and the two conditions a discrete probability distribution must satisfy, using the four births example.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "A **random variable** turns the outcomes of an experiment into numbers so that we can calculate with them.\n\n**Definition:** a variable that assumes numerical values determined by the outcome of an experiment. It is written with a capital letter, often **X**, and its probability distribution is written **P(X)**. When a sample space exists, a random variable is a **function of the sample space**.\n\n**Example: four births.** Let X = number of girls, so X = 0, 1, 2, 3 or 4. Each birth order maps to a value: BBBB gives X = 0; GBBB, BGBB, BBGB, BBBG give X = 1; six orders give X = 2; four give X = 3; GGGG gives X = 4. With 16 equally likely orders:\n\n| x | 0 | 1 | 2 | 3 | 4 |\n|---|---|---|---|---|---|\n| P(x) | 1/16 | 4/16 | 6/16 | 4/16 | 1/16 |\n\nThe same information can be drawn as a **probability bar chart**, tallest at X = 2.\n\n**Discrete vs continuous:**\n- **Discrete:** at most a countable number of values, e.g. money on an investment, measured to the nearest cent.\n- **Continuous:** any value in an interval, uncountably infinite, e.g. temperature, weight, height, time.\n\n**Two conditions for a discrete distribution:**\n1. **P(x) ≥ 0** for all values x.\n2. **ΣP(x) = 1** over all x. The values are mutually exclusive events, so together their probabilities sum to 1. In the births table, 16/16 = 1.00.\n\nA random variable is the bridge from outcomes to numbers, and these two conditions tell us whether a table is a real probability distribution.",
+      "rubric": [
+        {
+          "point": "Definition: numerical values determined by an experiment; a function of the sample space",
+          "source_ref": "qtm--module-3#28"
+        },
+        {
+          "point": "Uses a capital X for the variable and P(X) for its distribution",
+          "source_ref": "qtm--module-3#27"
+        },
+        {
+          "point": "Four births table 1/16, 4/16, 6/16, 4/16, 1/16 and bar chart",
+          "source_ref": "qtm--module-3#28"
+        },
+        {
+          "point": "Discrete vs continuous with examples",
+          "source_ref": "qtm--module-3#29"
+        },
+        {
+          "point": "Conditions P(x) ≥ 0 and ΣP(x) = 1",
+          "source_ref": "qtm--module-3#29"
+        }
+      ],
+      "marks": 10.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "qtm--module-3#27",
+        "qtm--module-3#28",
+        "qtm--module-3#29"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-random-variables-q-bf9c17d7",
+      "type": "long",
+      "stem": "Two dice are rolled and X = the sum of the dots. Draw the probability distribution table for X = 2 to 12, check that it is a valid distribution, and find P(X is even) and P(X = 7 or X = 11).",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Each of the 36 pairs has probability (1/6)(1/6) = 1/36 because the two dice are **independent**. P(X = x) is the number of pairs giving that sum, divided by 36.\n\n| X | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 |\n|---|---|---|---|---|---|---|---|---|---|---|---|\n| P(X) | 1/36 | 2/36 | 3/36 | 4/36 | 5/36 | 6/36 | 5/36 | 4/36 | 3/36 | 2/36 | 1/36 |\n\n**Valid distribution?**\n- Every P(x) ≥ 0.\n- Sum = (1 + 2 + 3 + 4 + 5 + 6 + 5 + 4 + 3 + 2 + 1)/36 = 36/36 = **1**. So yes.\n\n**P(X is even):** X = 2, 4, 6, 8, 10, 12, which are mutually exclusive, so add:\n(1 + 3 + 5 + 5 + 3 + 1)/36 = **18/36 = 0.5**.\n\n**P(X = 7 or X = 11):** 6/36 + 2/36 = **8/36 = 2/9**.\n\n**Shape:** the distribution rises to a peak at 7 and falls symmetrically, because the middle sums can be made in more ways. The same table can be drawn as a probability bar chart, tallest at 7.\n\n**Method reminder:** the values of X are mutually exclusive, so the probability of any group of values is the sum of their individual probabilities.\n\nOnce the table is built, any question about X is just adding the right probabilities.",
+      "rubric": [
+        {
+          "point": "Each pair 1/36 by independence",
+          "source_ref": "qtm--module-3#30"
+        },
+        {
+          "point": "Correct table from 1/36 up to 6/36 at X = 7 and back",
+          "source_ref": "qtm--module-3#30"
+        },
+        {
+          "point": "Validity: all P ≥ 0 and the sum is 36/36 = 1",
+          "source_ref": "qtm--module-3#29"
+        },
+        {
+          "point": "P(X even) = 18/36 = 0.5",
+          "source_ref": "qtm--module-3#30"
+        },
+        {
+          "point": "P(7 or 11) = 8/36",
+          "source_ref": "qtm--module-3#30"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-3#30",
+        "qtm--module-3#29",
+        "qtm--module-3#33"
+      ],
+      "derived": [
+        "18/36",
+        "8/36",
+        "2/9",
+        "0.5",
+        "1+3+5+5+3+1",
+        "18"
+      ],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
   "explain_back": {
     "prompt": "Explain what a random variable is, the difference between discrete and continuous random variables, and the two conditions a discrete distribution must satisfy, with examples from the slides.",
     "rubric": [

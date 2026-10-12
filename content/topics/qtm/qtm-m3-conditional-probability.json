@@ -538,7 +538,363 @@
       "retired": false
     }
   ],
-  "questions": [],
+  "questions": [
+    {
+      "id": "qtm-m3-conditional-probability-q-36fa1109",
+      "type": "mcq",
+      "stem": "In the table of 100 projects (Telecommunications 40 AT&T and 10 IBM; Computers 20 AT&T and 30 IBM), what is P(Computers) for a project picked at random?",
+      "options": [
+        "0.5",
+        "0.33",
+        "0.75",
+        "0.2"
+      ],
+      "answer": "0.5",
+      "accept": [],
+      "explanation": "There are 20 + 30 = 50 computer projects out of 100, so P(Computers) = 50/100 = 0.5.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-3#19",
+        "qtm--module-3#18"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-conditional-probability-q-3463f219",
+      "type": "mcq",
+      "stem": "From the same projects table, what is the probability that a project is in telecommunications, given that it is an AT&T project?",
+      "options": [
+        "0.667",
+        "0.8",
+        "0.33",
+        "0.5"
+      ],
+      "answer": "0.667",
+      "accept": [],
+      "explanation": "AT&T has 60 projects, 40 of them in telecommunications: 40/60 = 0.667. (0.8 is the reverse, P(AT&T | Telecommunications).)",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-3#19"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-conditional-probability-q-6b78dd8f",
+      "type": "mcq",
+      "stem": "Which expression equals P(A ∩ B) according to the multiplication forms that lead to Bayes' theorem?",
+      "options": [
+        "P(B) P(A|B)",
+        "P(A) + P(B)",
+        "P(A|B)/P(B)",
+        "P(A) P(A|B)"
+      ],
+      "answer": "P(B) P(A|B)",
+      "accept": [],
+      "explanation": "The deck writes P(A ∩ B) = P(B) P(A|B) = P(A) P(B|A); equating the two gives Bayes' theorem.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "formula",
+      "source_refs": [
+        "qtm--module-3#15",
+        "qtm--module-3#10"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-conditional-probability-q-d5c8f78b",
+      "type": "mcq",
+      "stem": "A consulting firm wins the job with firm A with probability 0.45, and if it does, wins firm B's job with probability 0.90. What is the probability it wins A's job but NOT B's?",
+      "options": [
+        "0.045",
+        "0.405",
+        "0.55",
+        "0.10"
+      ],
+      "answer": "0.045",
+      "accept": [],
+      "explanation": "P(not B | A) = 1 - 0.90 = 0.10, so P(A and not B) = 0.45 × 0.10 = 0.045.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 3,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-3#20",
+        "qtm--module-3#15",
+        "qtm--module-3#10"
+      ],
+      "derived": [
+        "0.045",
+        "0.55",
+        "0.10"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-conditional-probability-q-33676ec5",
+      "type": "mcq",
+      "stem": "How should P(Warranty | Premium) in the deck's business example be read?",
+      "options": [
+        "The probability a customer buys a warranty, given they purchased a premium product",
+        "The probability a customer buys a premium product, given they bought a warranty",
+        "The probability a customer buys both a warranty and a premium product",
+        "The probability a customer buys either a warranty or a premium product"
+      ],
+      "answer": "The probability a customer buys a warranty, given they purchased a premium product",
+      "accept": [],
+      "explanation": "The event before the bar is the one we want; the event after the bar is the one that has already occurred.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "concept",
+      "source_refs": [
+        "qtm--module-3#13"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-conditional-probability-q-9141c18b",
+      "type": "short",
+      "stem": "In a locality, 13.5% of people aged 16-21 are unemployed (U), 29.5% are high school dropouts (D) and 5.32% are unemployed dropouts. Find P(U|D) as worked in the deck, and also P(D|U).",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Use the conditional probability formula **P(A|B) = P(A and B)/P(B)**: the joint probability over the probability of the given event.\n\n- **P(U|D)** = P(U ∩ D)/P(D). The deck's working uses P(D) = 0.2905: 0.0532/0.2905 = **18.31%**. (With 0.295 as stated in the question, you get about 18.03%.)\n- **P(D|U)** = P(U ∩ D)/P(U) = 0.0532/0.135 = **0.394 (39.4%)**.\n\nThe two answers differ because the **given** event changes the denominator: dropouts in one case, the unemployed in the other.",
+      "rubric": [
+        {
+          "point": "Formula P(A|B) = P(A and B)/P(B)",
+          "source_ref": "qtm--module-3#13"
+        },
+        {
+          "point": "P(U|D) = 0.0532/0.2905 = 18.31% as on the slide",
+          "source_ref": "qtm--module-3#14"
+        },
+        {
+          "point": "P(D|U) uses P(U) = 0.135 in the denominator",
+          "source_ref": "qtm--module-3#14"
+        },
+        {
+          "point": "P(D|U) = 0.394; the given event changes the denominator",
+          "source_ref": "qtm--module-3#15"
+        }
+      ],
+      "marks": 5.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-3#14",
+        "qtm--module-3#13",
+        "qtm--module-3#15"
+      ],
+      "derived": [
+        "0.394",
+        "39.4%",
+        "0.295",
+        "18.03%"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-conditional-probability-q-2b51f9f3",
+      "type": "short",
+      "stem": "State Bayes' theorem as given in the deck and show how it follows from the two ways of writing P(A ∩ B).",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Bayes' theorem lets us turn a conditional probability around.\n\n- From the definition of conditional probability, the joint probability can be written two ways: **P(A ∩ B) = P(B) P(A|B)** and **P(A ∩ B) = P(A) P(B|A)**.\n- Since both equal P(A ∩ B): **P(A) P(B|A) = P(B) P(A|B)**.\n- Dividing by P(A) gives **Bayes' theorem: P(B|A) = P(A|B) P(B) / P(A)**.\n\nSo if we know P(A|B) and the two single probabilities, we can find P(B|A).",
+      "rubric": [
+        {
+          "point": "P(A ∩ B) = P(B) P(A|B)",
+          "source_ref": "qtm--module-3#15"
+        },
+        {
+          "point": "P(A ∩ B) = P(A) P(B|A)",
+          "source_ref": "qtm--module-3#15"
+        },
+        {
+          "point": "Equate the two forms",
+          "source_ref": "qtm--module-3#15"
+        },
+        {
+          "point": "Bayes: P(B|A) = P(A|B) P(B)/P(A)",
+          "source_ref": "qtm--module-3#15"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "formula",
+      "source_refs": [
+        "qtm--module-3#15",
+        "qtm--module-3#13"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-conditional-probability-q-f66f07cd",
+      "type": "short",
+      "stem": "A consulting firm estimates P(job with firm A) = 0.45 and P(job with firm B | job with firm A) = 0.90. Find the chance of getting both jobs and the chance of getting A's job only.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Getting B's job depends on getting A's, so we use the **multiplication form** P(A ∩ B) = P(A) P(B|A).\n\n- **Both jobs:** 0.45 × 0.90 = **0.405**.\n- **A's job but not B's:** P(not B | A) = 1 - 0.90 = 0.10 (complement), so 0.45 × 0.10 = **0.045**.\n- Check: 0.405 + 0.045 = 0.45 = P(A), as it must be.\n\nSo the firm has about a 40.5% chance of winning both contracts.",
+      "rubric": [
+        {
+          "point": "Use P(A ∩ B) = P(A) P(B|A)",
+          "source_ref": "qtm--module-3#15"
+        },
+        {
+          "point": "Both jobs = 0.45 × 0.90 = 0.405",
+          "source_ref": "qtm--module-3#20"
+        },
+        {
+          "point": "P(not B | A) = 0.10 by complement",
+          "source_ref": "qtm--module-3#10"
+        },
+        {
+          "point": "A only = 0.045; check sums to 0.45",
+          "source_ref": "qtm--module-3#20"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-3#20",
+        "qtm--module-3#15",
+        "qtm--module-3#10"
+      ],
+      "derived": [
+        "0.10",
+        "0.045",
+        "40.5%"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-conditional-probability-q-a36151dc",
+      "type": "long",
+      "stem": "Case: 100 new projects are split between IBM (30 computers, 10 telecommunications) and AT&T (20 computers, 40 telecommunications). Build the contingency table and find P(Computers), P(Computers | AT&T), P(Computers | IBM), P(AT&T | Telecommunications), P(Telecommunications | AT&T) and P(IBM | Telecommunications). Verify the last one with Bayes' theorem.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "When two events and their complements matter, a **contingency table** makes conditional probabilities easy to read.\n\n**The table**\n\n| | AT&T | IBM | Total |\n|---|---|---|---|\n| Telecommunications | 40 | 10 | 50 |\n| Computers | 20 | 30 | 50 |\n| Total | 60 | 40 | 100 |\n\n**Rule:** for 'A given B', look only in the row or column of B and divide by its total. This is P(A|B) = P(A and B)/P(B) in counts.\n\n- **P(Computers)** = 50/100 = **0.5**\n- **P(Computers | AT&T)** = 20/60 = **0.33**\n- **P(Computers | IBM)** = 30/40 = **0.75**\n- **P(AT&T | Telecommunications)** = 40/50 = **0.8**\n- **P(Telecommunications | AT&T)** = 40/60 = **0.667**\n- **P(IBM | Telecommunications)** = 10/50 = **0.2**\n\n**Bayes check:** P(IBM | T) = P(T | IBM) P(IBM)/P(T). Here P(T | IBM) = 10/40 = 0.25, P(IBM) = 0.4 and P(T) = 0.5, so P(IBM | T) = 0.25 × 0.4 / 0.5 = 0.1/0.5 = **0.2**. The same answer, as the deck's hint says: of the 50 telecommunications projects, 10 are IBM's.\n\n**Note:** P(AT&T | T) = 0.8 but P(T | AT&T) = 0.667. Swapping the given event changes the answer.\n\nSo the contingency table gives every conditional probability directly, and Bayes' theorem confirms them.",
+      "rubric": [
+        {
+          "point": "Correct contingency table with totals 50, 50, 60, 40, 100",
+          "source_ref": "qtm--module-3#19"
+        },
+        {
+          "point": "P(C) = 0.5, P(C | AT&T) = 0.33, P(C | IBM) = 0.75",
+          "source_ref": "qtm--module-3#19"
+        },
+        {
+          "point": "P(AT&T | T) = 0.8 and P(T | AT&T) = 0.667",
+          "source_ref": "qtm--module-3#19"
+        },
+        {
+          "point": "P(IBM | T) = 10/50 = 0.2",
+          "source_ref": "qtm--module-3#18"
+        },
+        {
+          "point": "Bayes verification 0.25 × 0.4 / 0.5 = 0.2",
+          "source_ref": "qtm--module-3#15"
+        }
+      ],
+      "marks": 10.0,
+      "difficulty": 3,
+      "style_tag": "case",
+      "source_refs": [
+        "qtm--module-3#18",
+        "qtm--module-3#19",
+        "qtm--module-3#15",
+        "qtm--module-3#13"
+      ],
+      "derived": [
+        "0.25",
+        "0.4",
+        "0.1",
+        "20/60",
+        "30/40",
+        "40/50",
+        "40/60",
+        "10/50"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-conditional-probability-q-d64d3509",
+      "type": "long",
+      "stem": "Explain conditional probability, the multiplication forms and Bayes' theorem. Illustrate with the unemployment and consulting firm examples from the deck.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Many business questions are of the form 'how likely is this, now that we know that has happened?'. That is **conditional probability**.\n\n**Definition:** the probability of an event given that another has occurred. **P(A|B) = P(A and B)/P(B)**. Business example: the probability a customer buys a warranty, given they purchased a premium product.\n\n**Example 1: unemployment.** Among people aged 16-21, P(U) = 0.135, P(U ∩ D) = 0.0532 and the deck's working takes P(D) = 0.2905. Then P(U|D) = 0.0532/0.2905 = **18.31%**. Only the joint probability and the probability of the given event are needed.\n\n**Multiplication forms:** rearranging the definition gives **P(A ∩ B) = P(B) P(A|B) = P(A) P(B|A)**. This finds a joint probability when one event depends on another.\n\n**Example 2: consulting firm.** P(A) = 0.45 and P(B|A) = 0.90, so P(both jobs) = 0.45 × 0.90 = **0.405**.\n\n**Bayes' theorem:** equating the two forms and dividing gives **P(B|A) = P(A|B) P(B)/P(A)**. It reverses a conditional probability.\n\n**Contingency tables:** when two events and their complements matter, a table of counts lets us read conditional probabilities by dividing within a row or column.\n\nConditional probability updates a chance with new information, and Bayes' theorem lets us run that update in either direction.",
+      "rubric": [
+        {
+          "point": "Definition and formula P(A|B) = P(A and B)/P(B) with the warranty example",
+          "source_ref": "qtm--module-3#13"
+        },
+        {
+          "point": "Unemployment example P(U|D) = 18.31%",
+          "source_ref": "qtm--module-3#14"
+        },
+        {
+          "point": "Multiplication forms P(A ∩ B) = P(B)P(A|B) = P(A)P(B|A)",
+          "source_ref": "qtm--module-3#15"
+        },
+        {
+          "point": "Consulting firm: 0.45 × 0.90 = 0.405",
+          "source_ref": "qtm--module-3#20"
+        },
+        {
+          "point": "Bayes: P(B|A) = P(A|B)P(B)/P(A)",
+          "source_ref": "qtm--module-3#15"
+        }
+      ],
+      "marks": 10.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "qtm--module-3#13",
+        "qtm--module-3#14",
+        "qtm--module-3#15",
+        "qtm--module-3#20"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
   "explain_back": {
     "prompt": "Explain conditional probability and Bayes' theorem, and show how a contingency table answers 'given that' questions, using the professor's examples.",
     "rubric": [

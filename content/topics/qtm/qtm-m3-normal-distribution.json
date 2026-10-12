@@ -562,7 +562,356 @@
       "retired": false
     }
   ],
-  "questions": [],
+  "questions": [
+    {
+      "id": "qtm-m3-normal-distribution-q-292988d8",
+      "type": "mcq",
+      "stem": "On the deck's normal curve, what share of the area lies between μ - 1σ and μ + 1σ?",
+      "options": [
+        "68.26%",
+        "95.44%",
+        "99.72%",
+        "50%"
+      ],
+      "answer": "68.26%",
+      "accept": [],
+      "explanation": "68.26% lies within 1σ of the mean, 95.44% within 2σ and 99.72% within 3σ; 50% is the half on each side of the mean.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-3#57"
+      ],
+      "derived": [
+        "50%"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-normal-distribution-q-6d578cd9",
+      "type": "mcq",
+      "stem": "What is the skewness measure of a normal distribution?",
+      "options": [
+        "Zero",
+        "One",
+        "Always negative",
+        "It depends on σ"
+      ],
+      "answer": "Zero",
+      "accept": [],
+      "explanation": "The normal distribution is symmetric, so its skewness measure is zero.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "concept",
+      "source_refs": [
+        "qtm--module-3#57"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-normal-distribution-q-4c7ff488",
+      "type": "mcq",
+      "stem": "Using the standard normal table, what is P(Z > 1.56)?",
+      "options": [
+        "0.0594",
+        "0.4406",
+        "0.9406",
+        "0.5594"
+      ],
+      "answer": "0.0594",
+      "accept": [],
+      "explanation": "The table gives 0.4406 between 0 and 1.56, so the right tail is 0.5 - 0.4406 = 0.0594.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-3#59",
+        "qtm--module-3#57"
+      ],
+      "derived": [
+        "0.0594",
+        "0.9406",
+        "0.5594"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-normal-distribution-q-5db24d2c",
+      "type": "mcq",
+      "stem": "The entire family of normal probability distributions is defined by:",
+      "options": [
+        "Its mean μ and standard deviation σ",
+        "Its mean μ alone",
+        "Its median and mode",
+        "The constants π and e"
+      ],
+      "answer": "Its mean μ and standard deviation σ",
+      "accept": [],
+      "explanation": "Each normal curve is fixed by μ (its centre) and σ (its width); π and e are constants in every normal density.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "concept",
+      "source_refs": [
+        "qtm--module-3#57",
+        "qtm--module-3#56"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-normal-distribution-q-4f2bcfba",
+      "type": "mcq",
+      "stem": "Using the table, what is P(-1 < Z < 1)?",
+      "options": [
+        "0.6826",
+        "0.3413",
+        "0.8413",
+        "0.1359"
+      ],
+      "answer": "0.6826",
+      "accept": [],
+      "explanation": "By symmetry, 2 × 0.3413 = 0.6826, matching the 68.26% within μ ± 1σ.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-3#60",
+        "qtm--module-3#57",
+        "qtm--module-3#59"
+      ],
+      "derived": [
+        "0.6826",
+        "0.8413",
+        "0.1359"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-normal-distribution-q-99d46a5f",
+      "type": "short",
+      "stem": "Differentiate between a normal distribution and the standard normal distribution.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Every standard normal is normal, but not every normal is standard.\n\n- **Normal distribution:** a symmetric bell curve defined by its **mean μ** (any value: negative, zero or positive) and **standard deviation σ**. Larger σ gives a wider, flatter curve.\n- **Standard normal distribution:** the special normal with **mean 0** and **standard deviation 1**, written **z**.\n- **Link:** any normal x is converted with **z = (x - μ)/σ**, which measures how many standard deviations x is from μ. Then one table serves every normal problem.\n\nSo we standardise with z and read probabilities from the standard normal table.",
+      "rubric": [
+        {
+          "point": "Normal: defined by μ and σ, symmetric bell curve",
+          "source_ref": "qtm--module-3#57"
+        },
+        {
+          "point": "Standard normal: mean 0, standard deviation 1, called z",
+          "source_ref": "qtm--module-3#58"
+        },
+        {
+          "point": "Conversion z = (x - μ)/σ",
+          "source_ref": "qtm--module-3#58"
+        },
+        {
+          "point": "z = number of standard deviations from the mean; one table for all",
+          "source_ref": "qtm--module-3#58"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 1,
+      "style_tag": "differentiate",
+      "source_refs": [
+        "qtm--module-3#57",
+        "qtm--module-3#58"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-normal-distribution-q-3d1c5930",
+      "type": "short",
+      "stem": "Using the standard normal table (area between 0 and z), find P(Z < 1.56), P(Z < 2.47), and the value z such that the area between 0 and z is 0.40.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The deck's table gives the **area between 0 and z**, so for 'less than' a positive z we add the left half, **0.5**.\n\n- **P(Z < 1.56):** row 1.5, column 0.06 gives 0.4406. So 0.5 + 0.4406 = **0.9406**.\n- **P(Z < 2.47):** row 2.4, column 0.07 gives 0.4932. So 0.5 + 0.4932 = **0.9932**.\n- **Area 0.40 between 0 and z:** look inside the table for the closest value, 0.3997, in row 1.2, column 0.08. So **z ≈ 1.28**.\n\nForwards we read areas from z; backwards we read z from an area.",
+      "rubric": [
+        {
+          "point": "Table area is between 0 and z; add 0.5 for the left half",
+          "source_ref": "qtm--module-3#59"
+        },
+        {
+          "point": "P(Z < 1.56) = 0.5 + 0.4406 = 0.9406",
+          "source_ref": "qtm--module-3#59"
+        },
+        {
+          "point": "P(Z < 2.47) = 0.5 + 0.4932 = 0.9932",
+          "source_ref": "qtm--module-3#59"
+        },
+        {
+          "point": "0.3997 closest to 0.40 gives z ≈ 1.28",
+          "source_ref": "qtm--module-3#59"
+        }
+      ],
+      "marks": 5.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-3#59",
+        "qtm--module-3#57"
+      ],
+      "derived": [
+        "0.9406",
+        "0.9932",
+        "1.28"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-normal-distribution-q-f2ab41ef",
+      "type": "short",
+      "stem": "Using the standard normal table, find P(1 < Z < 2) and P(Z > 2).",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Both answers come from areas between 0 and z.\n\n- Table: area from 0 to 1 = **0.3413**; area from 0 to 2 = **0.4772**.\n- **P(1 < Z < 2):** both points are on the same side of 0, so **subtract**: 0.4772 - 0.3413 = **0.1359**.\n- **P(Z > 2):** the right half is 0.5, so 0.5 - 0.4772 = **0.0228**.\n\nIntervals on the same side subtract; tails are found from the 0.5 half.",
+      "rubric": [
+        {
+          "point": "Table values 0.3413 and 0.4772",
+          "source_ref": "qtm--module-3#60"
+        },
+        {
+          "point": "P(1 < Z < 2) = 0.4772 - 0.3413 = 0.1359",
+          "source_ref": "qtm--module-3#60"
+        },
+        {
+          "point": "P(Z > 2) = 0.5 - 0.4772 = 0.0228",
+          "source_ref": "qtm--module-3#57"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-3#60",
+        "qtm--module-3#57",
+        "qtm--module-3#59"
+      ],
+      "derived": [
+        "0.1359",
+        "0.0228"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-normal-distribution-q-977d7586",
+      "type": "long",
+      "stem": "Explain the normal distribution and its main characteristics, as given in the deck.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The **normal probability distribution** is the most important distribution for describing a **continuous** random variable, and it is widely used in statistical inference. It is also called the **Gaussian distribution**.\n\n**Applications:** heights of people, scientific measurements, test scores and amounts of rainfall.\n\n**Density:** f(x) = 1/(σ√(2π)) × e^(-(x - μ)²/2σ²), where μ is the mean, σ the standard deviation, π = 3.14159 and e = 2.71828.\n\n**Characteristics:**\n- **Symmetric:** its skewness measure is zero.\n- **Defined by two numbers:** the whole family is fixed by its mean **μ** and standard deviation **σ**.\n- **Peak at the mean:** the highest point is at the mean, which is also the **median and mode**.\n- **Mean can be any value:** negative, zero or positive.\n- **σ sets the width:** larger σ gives a wider, flatter curve.\n- **Area = probability:** the total area under the curve is **1**, with **0.5 on each side** of the mean.\n\n**Empirical areas:**\n- μ ± 1σ covers **68.26%**\n- μ ± 2σ covers **95.44%**\n- μ ± 3σ covers **99.72%**\n\nSo almost all values lie within three standard deviations of the mean.\n\nBecause of these properties, any normal problem can be standardised and solved with one table, which is why the normal curve is central to business statistics.",
+      "rubric": [
+        {
+          "point": "Most important continuous distribution; Gaussian; used in inference",
+          "source_ref": "qtm--module-3#56"
+        },
+        {
+          "point": "Applications: heights, measurements, test scores, rainfall",
+          "source_ref": "qtm--module-3#56"
+        },
+        {
+          "point": "Symmetric, defined by μ and σ, peak at mean = median = mode",
+          "source_ref": "qtm--module-3#57"
+        },
+        {
+          "point": "Larger σ gives a wider, flatter curve; total area 1, 0.5 each side",
+          "source_ref": "qtm--module-3#57"
+        },
+        {
+          "point": "68.26%, 95.44%, 99.72% within 1, 2, 3 σ",
+          "source_ref": "qtm--module-3#57"
+        }
+      ],
+      "marks": 10.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "qtm--module-3#56",
+        "qtm--module-3#57"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-normal-distribution-q-aa2572c4",
+      "type": "long",
+      "stem": "Explain the standard normal distribution, the z conversion and how to use the standard normal table. Work the deck's examples: P(Z < 1.56), P(Z < 2.47), z for an area of 0.40, and P(1 < Z < 2).",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Normal curves differ in μ and σ, so we convert them all to one **standard normal** curve and use a single table.\n\n**Standard normal distribution:** a normal distribution with **mean 0** and **standard deviation 1**. Its random variable is written **z**.\n\n**Conversion:** **z = (x - μ)/σ**. z measures how many standard deviations x is from μ.\n\n**The table:** gives the **area between 0 and a given z**. Find z to one decimal in the rows and the **second decimal place** in the columns. Since the total area is 1 with 0.5 on each side, add or subtract 0.5 as needed.\n\n**Worked examples:**\n- **P(Z < 1.56):** table 0.4406, so 0.5 + 0.4406 = **0.9406**.\n- **P(Z < 2.47):** table 0.4932, so 0.5 + 0.4932 = **0.9932**.\n- **Area 0.40 between 0 and z:** closest table value 0.3997 at row 1.2, column 0.08, so **z ≈ 1.28**.\n- **P(1 < Z < 2):** the area between two points. Table values 0.3413 (z = 1) and 0.4772 (z = 2) are on the same side, so 0.4772 - 0.3413 = **0.1359**.\n\n**Rules of thumb:**\n- 'Less than' a positive z: 0.5 + table value.\n- Between two z values on the same side: subtract.\n- Between values on opposite sides of 0: add.\n\nWith the z conversion and this table, any normal probability becomes a lookup and a little arithmetic.",
+      "rubric": [
+        {
+          "point": "Standard normal: mean 0, standard deviation 1, variable z",
+          "source_ref": "qtm--module-3#58"
+        },
+        {
+          "point": "z = (x - μ)/σ, standard deviations from the mean",
+          "source_ref": "qtm--module-3#58"
+        },
+        {
+          "point": "Table gives the area between 0 and z; add 0.5 for less than",
+          "source_ref": "qtm--module-3#59"
+        },
+        {
+          "point": "0.9406, 0.9932 and z ≈ 1.28",
+          "source_ref": "qtm--module-3#59"
+        },
+        {
+          "point": "P(1 < Z < 2) = 0.4772 - 0.3413 = 0.1359",
+          "source_ref": "qtm--module-3#60"
+        }
+      ],
+      "marks": 10.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-3#58",
+        "qtm--module-3#59",
+        "qtm--module-3#60",
+        "qtm--module-3#57"
+      ],
+      "derived": [
+        "0.9406",
+        "0.9932",
+        "1.28",
+        "0.1359"
+      ],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
   "explain_back": {
     "prompt": "Describe the normal distribution's characteristics and explain how to convert to z and use the standard normal table.",
     "rubric": [

@@ -293,7 +293,325 @@
       "retired": false
     }
   ],
-  "questions": [],
+  "questions": [
+    {
+      "id": "qtm-m3-central-limit-theorem-q-6eeed73d",
+      "type": "mcq",
+      "stem": "According to the Central Limit Theorem, the mean of the sample means equals:",
+      "options": [
+        "The population mean",
+        "The sample size",
+        "The population standard deviation",
+        "Zero"
+      ],
+      "answer": "The population mean",
+      "accept": [],
+      "explanation": "The deck states that the mean of the sample means equals the population mean.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "concept",
+      "source_refs": [
+        "qtm--module-3#65"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-central-limit-theorem-q-ed3a8fd2",
+      "type": "mcq",
+      "stem": "The Central Limit Theorem says the sampling distribution of the mean approaches a normal distribution as:",
+      "options": [
+        "The sample size increases",
+        "The population becomes normal",
+        "The sample size decreases",
+        "The population variance increases"
+      ],
+      "answer": "The sample size increases",
+      "accept": [],
+      "explanation": "As the sample size increases, the sampling distribution of the mean approaches a normal distribution, whatever the population's shape.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "concept",
+      "source_refs": [
+        "qtm--module-3#65"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-central-limit-theorem-q-4e0db5a0",
+      "type": "mcq",
+      "stem": "For which populations does the Central Limit Theorem hold?",
+      "options": [
+        "Any population with a finite mean and variance, whatever its shape",
+        "Only populations that are already normal",
+        "Only populations with discrete values",
+        "Only populations with a uniform distribution"
+      ],
+      "answer": "Any population with a finite mean and variance, whatever its shape",
+      "accept": [],
+      "explanation": "The theorem applies to any population with a finite mean and variance, regardless of the shape of the population distribution.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "concept",
+      "source_refs": [
+        "qtm--module-3#65",
+        "qtm--module-3#53"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-central-limit-theorem-q-0cfb73f4",
+      "type": "mcq",
+      "stem": "Which of these does the CLT make possible, according to the deck?",
+      "options": [
+        "Confidence intervals and hypothesis tests about population parameters, even for non-normal populations",
+        "Exact probabilities for a single value of a continuous variable",
+        "Finding the Poisson mean from the variance",
+        "Replacing sample data with a manager's subjective estimate"
+      ],
+      "answer": "Confidence intervals and hypothesis tests about population parameters, even for non-normal populations",
+      "accept": [],
+      "explanation": "The CLT enables confidence intervals and hypothesis testing based on sample data, even when the population is not normal.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "concept",
+      "source_refs": [
+        "qtm--module-3#66",
+        "qtm--module-3#52",
+        "qtm--module-3#51",
+        "qtm--module-3#4"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-central-limit-theorem-q-c2c1a67f",
+      "type": "mcq",
+      "stem": "As the sample size grows, the means of repeated samples:",
+      "options": [
+        "Cluster more tightly around the true population mean",
+        "Spread further away from the population mean",
+        "Move towards zero",
+        "Stop following any distribution"
+      ],
+      "answer": "Cluster more tightly around the true population mean",
+      "accept": [],
+      "explanation": "The variability (standard deviation) of the sample means decreases with sample size, so they cluster more tightly around the population mean.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "concept",
+      "source_refs": [
+        "qtm--module-3#65"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-central-limit-theorem-q-2f4c76ec",
+      "type": "short",
+      "stem": "State the Central Limit Theorem as given in the deck.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The **Central Limit Theorem (CLT)** explains why sample means behave predictably.\n\n- For **any population with a finite mean and variance**,\n- the **sampling distribution of the mean** approaches a **normal distribution** as the **sample size increases**,\n- **regardless of the shape** of the population distribution.\n\nSo with large enough samples, the distribution of sample means is approximately normal.",
+      "rubric": [
+        {
+          "point": "Any population with a finite mean and variance",
+          "source_ref": "qtm--module-3#65"
+        },
+        {
+          "point": "Sampling distribution of the mean approaches normal",
+          "source_ref": "qtm--module-3#65"
+        },
+        {
+          "point": "As sample size increases, regardless of population shape",
+          "source_ref": "qtm--module-3#65"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 1,
+      "style_tag": "define",
+      "source_refs": [
+        "qtm--module-3#65",
+        "qtm--module-3#66"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-central-limit-theorem-q-6450a954",
+      "type": "short",
+      "stem": "List the three things the Central Limit Theorem tells us about the means of repeated samples.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The CLT gives three practical results about sample means.\n\n- **Shape:** for large samples (usually **n ≥ 30**), the means of repeated samples are **approximately normally distributed**.\n- **Centre:** the **mean of the sample means equals the population mean**.\n- **Spread:** the **variability (standard deviation) decreases** as the sample size increases, so sample means cluster more tightly around the true population mean.\n\nSo bigger samples give sample means that are normal, centred on the truth and less spread out.",
+      "rubric": [
+        {
+          "point": "Approximately normal for large samples, usually n ≥ 30",
+          "source_ref": "qtm--module-3#65"
+        },
+        {
+          "point": "Mean of sample means = population mean",
+          "source_ref": "qtm--module-3#65"
+        },
+        {
+          "point": "standard deviation of sample means decreases as n increases",
+          "source_ref": "qtm--module-3#65"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 1,
+      "style_tag": "list",
+      "source_refs": [
+        "qtm--module-3#65",
+        "qtm--module-3#66"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-central-limit-theorem-q-b7b774f8",
+      "type": "short",
+      "stem": "Explain the practical relevance of the Central Limit Theorem, with the fields the deck mentions.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The CLT matters because real business data are often not normal.\n\n- It allows the use of **normal probability theory** even when the **original data is not normal**.\n- It enables **confidence intervals** and **hypothesis testing** about population parameters based on **sample data**, even for non-normal populations.\n- **Fields that use it:** election polling, quality control, finance, and estimating average outcomes in populations.\n\nSo the CLT is what lets a manager draw conclusions about a whole population from one sample.",
+      "rubric": [
+        {
+          "point": "Normal theory usable even when the data are not normal",
+          "source_ref": "qtm--module-3#66"
+        },
+        {
+          "point": "Confidence intervals and hypothesis tests from sample data",
+          "source_ref": "qtm--module-3#66"
+        },
+        {
+          "point": "Fields: election polling, quality control, finance, average outcomes",
+          "source_ref": "qtm--module-3#66"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 1,
+      "style_tag": "explain",
+      "source_refs": [
+        "qtm--module-3#66"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-central-limit-theorem-q-17fe08ba",
+      "type": "long",
+      "stem": "Explain the Central Limit Theorem and its practical relevance for managers.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Managers rarely see a whole population; they see samples. The **Central Limit Theorem (CLT)** explains how sample means behave, which makes inference from samples possible.\n\n**Statement:** for **any population with a finite mean and variance**, the **sampling distribution of the mean** approaches a **normal distribution** as the **sample size increases**, **regardless of the shape** of the population distribution.\n\n**What this means:**\n- **Normal shape:** for large samples (usually **n ≥ 30**), the means of repeated samples are approximately normally distributed.\n- **Same centre:** the **mean of the sample means equals the population mean**, so sample means are centred on the truth.\n- **Less spread:** the **variability (standard deviation)** of the sample means **decreases** as the sample size increases; they cluster more tightly around the true population mean.\n\n**Practical relevance:**\n- It allows the use of **normal probability theory** even when the **original data is not normal**.\n- It enables **confidence intervals** and **hypothesis testing** about population parameters from sample data, even for non-normal populations.\n- It is used in **election polling, quality control, finance** and **estimating average outcomes** in populations.\n\n**Further reading:** the deck points to an article that uses interactive **Microsoft Excel** simulations to show the CLT's appropriateness for comparing the difference between the means of any two populations.\n\nIn short, the CLT is the bridge between a single sample and the whole population: it lets a manager use the normal curve to make reliable statements about averages.",
+      "rubric": [
+        {
+          "point": "Statement: finite mean and variance, sampling distribution of the mean approaches normal as n increases, regardless of shape",
+          "source_ref": "qtm--module-3#65"
+        },
+        {
+          "point": "Large samples usually n ≥ 30",
+          "source_ref": "qtm--module-3#65"
+        },
+        {
+          "point": "Mean of sample means = population mean; standard deviation decreases with n",
+          "source_ref": "qtm--module-3#65"
+        },
+        {
+          "point": "Normal theory, confidence intervals and hypothesis tests for non-normal data",
+          "source_ref": "qtm--module-3#66"
+        },
+        {
+          "point": "Fields: polling, quality control, finance, average outcomes",
+          "source_ref": "qtm--module-3#66"
+        }
+      ],
+      "marks": 10.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "qtm--module-3#65",
+        "qtm--module-3#66",
+        "qtm--module-3#67"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-central-limit-theorem-q-bf78780f",
+      "type": "long",
+      "stem": "A manager's data come from a population that is clearly not normal. Explain, using the Central Limit Theorem, why the manager can still use the normal distribution and the z table when working with the averages of large samples.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The normal distribution and the z table normally need a normal variable. The **Central Limit Theorem** supplies one, even when the raw data are not normal.\n\n**1. The variable changes.** The manager works with the **sample mean**, not single observations. The CLT says that for any population with a **finite mean and variance**, the **sampling distribution of the mean approaches a normal distribution** as the sample size grows, **regardless of the population's shape**.\n\n**2. Large samples.** For large samples, **usually n ≥ 30**, the means of repeated samples are approximately normal, so the normal curve's properties apply: it is symmetric, defined by its mean and standard deviation, with total area 1.\n\n**3. Centre and spread.** The **mean of the sample means equals the population mean**, and their **standard deviation decreases** as the sample size increases. So the sample means are centred on the true mean and cluster more tightly around it with bigger samples.\n\n**4. Using z.** Because the sample mean is approximately normal, it can be standardised with **z = (x - μ)/σ** and the standard normal table gives probabilities as areas under the curve.\n\n**5. Why it matters.** This is exactly the practical relevance the deck stresses: the CLT allows **normal probability theory even when the original data is not normal**, and it underpins **confidence intervals and hypothesis tests** in polling, quality control and finance.\n\nSo the manager does not need normal data, only a large enough sample, for the normal tools to work on averages.",
+      "rubric": [
+        {
+          "point": "Work with the sample mean; CLT makes its distribution approximately normal regardless of shape",
+          "source_ref": "qtm--module-3#65"
+        },
+        {
+          "point": "Large samples, usually n ≥ 30",
+          "source_ref": "qtm--module-3#65"
+        },
+        {
+          "point": "Mean of sample means = population mean; standard deviation falls with n",
+          "source_ref": "qtm--module-3#65"
+        },
+        {
+          "point": "Standardise with z = (x - μ)/σ and use the table",
+          "source_ref": "qtm--module-3#58"
+        },
+        {
+          "point": "Normal theory, confidence intervals and tests for non-normal data",
+          "source_ref": "qtm--module-3#66"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 3,
+      "style_tag": "application",
+      "source_refs": [
+        "qtm--module-3#65",
+        "qtm--module-3#66",
+        "qtm--module-3#57",
+        "qtm--module-3#58"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
   "explain_back": {
     "prompt": "State the Central Limit Theorem and explain why it is useful to a manager.",
     "rubric": [

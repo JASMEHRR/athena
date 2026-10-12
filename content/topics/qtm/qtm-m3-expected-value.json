@@ -467,7 +467,385 @@
       "retired": false
     }
   ],
-  "questions": [],
+  "questions": [
+    {
+      "id": "qtm-m3-expected-value-q-bc835d02",
+      "type": "mcq",
+      "stem": "The number of dialing switches has P(x) = 0.1, 0.2, 0.3, 0.2, 0.1, 0.1 for x = 0 to 5. What is its mean (expected value)?",
+      "options": [
+        "2.3",
+        "2.5",
+        "2.01",
+        "7.3"
+      ],
+      "answer": "2.3",
+      "accept": [],
+      "explanation": "E(X) = Σ xP(x) = 0 + 0.2 + 0.6 + 0.6 + 0.4 + 0.5 = 2.3; 2.01 is the variance and 7.3 is E(X²).",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-3#42",
+        "qtm--module-3#36",
+        "qtm--module-3#43"
+      ],
+      "derived": [
+        "2.5"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-expected-value-q-98dad7e0",
+      "type": "mcq",
+      "stem": "Which formula finds the expected value of any function h(X), such as X^2 or log X?",
+      "options": [
+        "E[h(X)] = Σ h(x)P(x)",
+        "E(aX + b) = aE(X) + b",
+        "E(X) = Σ xP(x)",
+        "V(X) = E(X²) - [E(X)]²"
+      ],
+      "answer": "E[h(X)] = Σ h(x)P(x)",
+      "accept": [],
+      "explanation": "The Type 1 formula works for any function; the Type 2 formula works only for linear functions aX + b.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "formula",
+      "source_refs": [
+        "qtm--module-3#37",
+        "qtm--module-3#36",
+        "qtm--module-3#41"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-expected-value-q-ab4978a2",
+      "type": "mcq",
+      "stem": "In the coin game, X = 1 for heads and 0 for tails, each with probability .50, and the winnings are h(X) = 2X - 1. What does the Type 2 formula give?",
+      "options": [
+        "2(0.5) - 1 = 0",
+        "2(0.5) + 1 = 2",
+        "2(1) - 1 = 1",
+        "0.5 - 1 = -0.5"
+      ],
+      "answer": "2(0.5) - 1 = 0",
+      "accept": [],
+      "explanation": "E(X) = 0.5, so E(2X - 1) = 2E(X) - 1 = 0, the same as the Type 1 table: the game is fair.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-3#38",
+        "qtm--module-3#37"
+      ],
+      "derived": [
+        "0.5"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-expected-value-q-daf62704",
+      "type": "mcq",
+      "stem": "An oil well pays -$40,000 (no oil) with probability .25, $10,000 (some oil) with .7 and $70,000 (much oil) with .05. What is the expected monetary outcome?",
+      "options": [
+        "$500",
+        "$13,333",
+        "$7,000",
+        "$3,500"
+      ],
+      "answer": "$500",
+      "accept": [],
+      "explanation": "E(X) = -40,000(.25) + 10,000(.7) + 70,000(.05) = -10,000 + 7,000 + 3,500 = $500. $13,333 is a plain average that ignores the probabilities.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-3#46",
+        "qtm--module-3#36"
+      ],
+      "derived": [
+        "500",
+        "13,333",
+        "7,000",
+        "3,500",
+        "10,000"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-expected-value-q-d574472b",
+      "type": "mcq",
+      "stem": "Monthly sales are 5,000, 6,000, 7,000, 8,000 or 9,000 items with probabilities 0.2, 0.3, 0.2, 0.2, 0.1. What are the expected monthly sales?",
+      "options": [
+        "6,700",
+        "7,000",
+        "5,400",
+        "6,000"
+      ],
+      "answer": "6,700",
+      "accept": [],
+      "explanation": "E(X) = 1,000 + 1,800 + 1,400 + 1,600 + 900 = 6,700 items; 5,400 is the expected profit, not sales.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-3#39",
+        "qtm--module-3#45"
+      ],
+      "derived": [
+        "5,400",
+        "1,000",
+        "1,800",
+        "1,400",
+        "1,600",
+        "900"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-expected-value-q-20b9b7ff",
+      "type": "short",
+      "stem": "Differentiate between the Type 1 and Type 2 formulas for the expected value of a function of a random variable.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Both find the expected value of a function h(X), but they differ in when they can be used.\n\n- **Type 1:** **E[h(X)] = Σ h(x)P(x)**. Works for **any** function, e.g. X^2, 3X^4 or log X. You compute h(x) for each value and weight it by P(x).\n- **Type 2:** **E(aX + b) = aE(X) + b**, where a and b are fixed numbers. Works only for **linear** functions, but needs just E(X).\n- For a linear function, **both can be applied** and give the same answer. Example: monthly profit 2X - 8,000 gives 5,400 either way.\n\nSo Type 1 is general, Type 2 is the shortcut for linear functions.",
+      "rubric": [
+        {
+          "point": "Type 1: E[h(X)] = Σ h(x)P(x), for any function",
+          "source_ref": "qtm--module-3#37"
+        },
+        {
+          "point": "Examples X^2, 3X^4, log X",
+          "source_ref": "qtm--module-3#37"
+        },
+        {
+          "point": "Type 2: E(aX + b) = aE(X) + b for linear functions",
+          "source_ref": "qtm--module-3#37"
+        },
+        {
+          "point": "Both give the same answer for a linear function, e.g. profit 5,400",
+          "source_ref": "qtm--module-3#39"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "differentiate",
+      "source_refs": [
+        "qtm--module-3#37",
+        "qtm--module-3#38",
+        "qtm--module-3#39"
+      ],
+      "derived": [
+        "5,400"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-expected-value-q-e4ce577a",
+      "type": "short",
+      "stem": "A coin is tossed: heads wins you a dollar and tails loses a dollar. Using h(X) = 2X - 1 with X = 1 for heads and 0 for tails, find the expected value of the game by both the Type 1 and Type 2 formulas.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The winnings are a linear function of X, so both formulas apply.\n\n**Type 1 table:**\n\n| X | h(x) | P(x) | h(x)P(x) |\n|---|---|---|---|\n| 0 | -1 | .50 | -0.5 |\n| 1 | 1 | .50 | 0.5 |\n\nE[h(X)] = -0.5 + 0.5 = **0**.\n\n**Type 2:** E(X) = 0(.50) + 1(.50) = 0.5, so E(2X - 1) = 2(0.5) - 1 = **0**.\n\nAn expected value of 0 means that in the long run you neither win nor lose: it is a fair game.",
+      "rubric": [
+        {
+          "point": "h(x) = -1 for tails and 1 for heads",
+          "source_ref": "qtm--module-3#38"
+        },
+        {
+          "point": "Type 1: Σ h(x)P(x) = -0.5 + 0.5 = 0",
+          "source_ref": "qtm--module-3#38"
+        },
+        {
+          "point": "Type 2: E(X) = 0.5, 2(0.5) - 1 = 0",
+          "source_ref": "qtm--module-3#37"
+        },
+        {
+          "point": "Interpretation: a fair game",
+          "source_ref": "qtm--module-3#38"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 1,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-3#38",
+        "qtm--module-3#37"
+      ],
+      "derived": [
+        "0.5",
+        "-0.5"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-expected-value-q-0a096932",
+      "type": "short",
+      "stem": "Explain what the expected value of a discrete random variable measures and how it is calculated, using the dialing switches example.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The expected value tells us where a distribution is centred.\n\n- **Meaning:** a **measure of centrality**. The mean of the probability distribution is called the **expected value** (or expectation) of the random variable.\n- **Formula:** **μ = E(X) = Σ xP(x)**: each value multiplied by its probability, then added.\n- **Example:** for the switches, x = 0 to 5 with P(x) = 0.1, 0.2, 0.3, 0.2, 0.1, 0.1. xP(x) = 0, 0.2, 0.6, 0.6, 0.4, 0.5, so **E(X) = 2.3**.\n- The bar chart balances at 2.3, like a **centre of mass**.\n\nSo E(X) is the long-run average value of the random variable.",
+      "rubric": [
+        {
+          "point": "Measure of centrality; the mean of the distribution",
+          "source_ref": "qtm--module-3#36"
+        },
+        {
+          "point": "μ = E(X) = Σ xP(x)",
+          "source_ref": "qtm--module-3#36"
+        },
+        {
+          "point": "Switches: xP(x) column sums to 2.3",
+          "source_ref": "qtm--module-3#42"
+        },
+        {
+          "point": "Centre of mass interpretation",
+          "source_ref": "qtm--module-3#42"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 1,
+      "style_tag": "explain",
+      "source_refs": [
+        "qtm--module-3#36",
+        "qtm--module-3#42"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-expected-value-q-3e936453",
+      "type": "long",
+      "stem": "Monthly sales X are 5,000, 6,000, 7,000, 8,000 or 9,000 items with probabilities 0.2, 0.3, 0.2, 0.2, 0.1. The fixed monthly production cost is $8,000 and each item brings $2. Find the expected monthly profit using (a) the Type 1 formula and (b) the Type 2 formula.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Profit depends on sales, so profit is a function of the random variable: **h(X) = 2X - 8,000** (revenue of $2 per item minus the fixed cost).\n\n**(a) Type 1: E[h(X)] = Σ h(x)P(x)**\n\n| x | h(x) = 2x - 8,000 | P(x) | h(x)P(x) |\n|---|---|---|---|\n| 5,000 | 2,000 | 0.2 | 400 |\n| 6,000 | 4,000 | 0.3 | 1,200 |\n| 7,000 | 6,000 | 0.2 | 1,200 |\n| 8,000 | 8,000 | 0.2 | 1,600 |\n| 9,000 | 10,000 | 0.1 | 1,000 |\n\nE[h(X)] = 400 + 1,200 + 1,200 + 1,600 + 1,000 = **$5,400**.\n\n**(b) Type 2: E(aX + b) = aE(X) + b**\n\nFirst E(X) = 5,000(0.2) + 6,000(0.3) + 7,000(0.2) + 8,000(0.2) + 9,000(0.1)\n= 1,000 + 1,800 + 1,400 + 1,600 + 900 = **6,700 items**.\n\nThen E(2X - 8,000) = 2(6,700) - 8,000 = 13,400 - 8,000 = **$5,400**.\n\n**Comparison:** both methods give **$5,400**, because profit is a linear function of sales. Type 2 is faster once E(X) is known; Type 1 shows the profit at each sales level and would also work for a non-linear function.\n\nSo the company can expect a monthly profit of $5,400 from this product.",
+      "rubric": [
+        {
+          "point": "Profit function h(X) = 2X - 8,000",
+          "source_ref": "qtm--module-3#45"
+        },
+        {
+          "point": "Type 1 table with h(x)P(x) summing to 5,400",
+          "source_ref": "qtm--module-3#37"
+        },
+        {
+          "point": "E(X) = 6,700",
+          "source_ref": "qtm--module-3#45"
+        },
+        {
+          "point": "Type 2: 2(6,700) - 8,000 = 5,400",
+          "source_ref": "qtm--module-3#37"
+        },
+        {
+          "point": "Both agree because the function is linear",
+          "source_ref": "qtm--module-3#37"
+        }
+      ],
+      "marks": 10.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-3#39",
+        "qtm--module-3#37",
+        "qtm--module-3#45"
+      ],
+      "derived": [
+        "2,000",
+        "4,000",
+        "6,000",
+        "10,000",
+        "400",
+        "1,200",
+        "1,600",
+        "1,000",
+        "1,800",
+        "1,400",
+        "900",
+        "5,400",
+        "13,400"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-expected-value-q-46779947",
+      "type": "long",
+      "stem": "Explain the expected value of a discrete random variable and the expected value of a function of a random variable. Use the switches, coin game and oil well examples from the deck.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The **expected value** summarises a whole probability distribution in one number: its centre.\n\n**1. Expected value of X**\n- A **measure of centrality**: the mean of the probability distribution, also called the expectation.\n- **μ = E(X) = Σ xP(x)**: each value times its probability, added up.\n- **Switches:** x = 0 to 5 with P = 0.1, 0.2, 0.3, 0.2, 0.1, 0.1 gives E(X) = 0 + 0.2 + 0.6 + 0.6 + 0.4 + 0.5 = **2.3**, the centre of mass of the bar chart.\n- **Oil well:** E(X) = -40,000(.25) + 10,000(.7) + 70,000(.05) = -10,000 + 7,000 + 3,500 = **$500**.\n\n**2. Expected value of a function h(X)**\nh(X) could be X^2, 3X^4, log X or a linear function aX + b.\n- **Type 1:** E[h(X)] = Σ h(x)P(x), for any function.\n- **Type 2:** E(aX + b) = aE(X) + b, for linear functions only.\n- For a linear function **both can be applied**.\n\n**Coin game:** win $1 on heads, lose $1 on tails, h(X) = 2X - 1. Type 1: (-1)(.50) + (1)(.50) = **0**. Type 2: E(X) = 0.5, so 2(0.5) - 1 = **0**. The game is fair.\n\n**Why managers care:** expected value is the long-run average, so it lets a manager compare uncertain options, such as an oil well that is expected to return just $500 despite a possible $70,000.\n\nIn short, E(X) gives the centre of a distribution, and the Type 1 and Type 2 formulas extend it to profits, payoffs and any other function of X.",
+      "rubric": [
+        {
+          "point": "Expected value is a measure of centrality, μ = Σ xP(x)",
+          "source_ref": "qtm--module-3#36"
+        },
+        {
+          "point": "Switches example E(X) = 2.3",
+          "source_ref": "qtm--module-3#42"
+        },
+        {
+          "point": "Type 1 and Type 2 formulas and when each applies",
+          "source_ref": "qtm--module-3#37"
+        },
+        {
+          "point": "Coin game E[h(X)] = 0 by both methods",
+          "source_ref": "qtm--module-3#38"
+        },
+        {
+          "point": "Oil well expected outcome $500",
+          "source_ref": "qtm--module-3#46"
+        }
+      ],
+      "marks": 10.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "qtm--module-3#36",
+        "qtm--module-3#37",
+        "qtm--module-3#38",
+        "qtm--module-3#42",
+        "qtm--module-3#46"
+      ],
+      "derived": [
+        "0.5",
+        "500",
+        "10,000",
+        "7,000",
+        "3,500"
+      ],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
   "explain_back": {
     "prompt": "Explain the expected value of a discrete random variable and the two formulas for the expected value of a function of X, with the coin game as an example.",
     "rubric": [

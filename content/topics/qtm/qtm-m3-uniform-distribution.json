@@ -410,7 +410,392 @@
       "retired": false
     }
   ],
-  "questions": [],
+  "questions": [
+    {
+      "id": "qtm-m3-uniform-distribution-q-4a5ac9b1",
+      "type": "mcq",
+      "stem": "Salad taken is uniformly distributed between 5 and 15 ounces. What is the variance of the amount taken?",
+      "options": [
+        "8.33",
+        "10",
+        "2.89",
+        "0.1"
+      ],
+      "answer": "8.33",
+      "accept": [],
+      "explanation": "V(X) = (b - a)²/12 = (15 - 5)²/12 = 100/12 = 8.33. 10 is the mean, 2.89 the standard deviation and 0.1 the density.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-3#55",
+        "qtm--module-3#54"
+      ],
+      "derived": [
+        "8.33",
+        "2.89",
+        "0.1",
+        "100/12",
+        "100"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-uniform-distribution-q-cd46bb9c",
+      "type": "mcq",
+      "stem": "What does the graph of the uniform probability density function look like?",
+      "options": [
+        "A flat horizontal line at height 1/(b - a) from a to b",
+        "A bell-shaped curve centred on the mean",
+        "Separate bars at whole-number values",
+        "A straight line rising from a to b"
+      ],
+      "answer": "A flat horizontal line at height 1/(b - a) from a to b",
+      "accept": [],
+      "explanation": "f(x) = 1/(b - a) is constant between a and b and zero outside, so the graph is flat.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "concept",
+      "source_refs": [
+        "qtm--module-3#53",
+        "qtm--module-3#56",
+        "qtm--module-3#28"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-uniform-distribution-q-d42edc8d",
+      "type": "mcq",
+      "stem": "For a uniform random variable, what is f(x) outside the interval from a to b?",
+      "options": [
+        "0",
+        "1",
+        "1/(b - a)",
+        "(a + b)/2"
+      ],
+      "answer": "0",
+      "accept": [],
+      "explanation": "f(x) = 1/(b - a) for a ≤ x ≤ b and 0 elsewhere.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "formula",
+      "source_refs": [
+        "qtm--module-3#53",
+        "qtm--module-3#54"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-uniform-distribution-q-46cf19f6",
+      "type": "mcq",
+      "stem": "For the salad example (uniform from 5 to 15 ounces), what is the probability that a customer takes between 5 and 12 ounces?",
+      "options": [
+        "0.7",
+        "0.3",
+        "0.12",
+        "0.5"
+      ],
+      "answer": "0.7",
+      "accept": [],
+      "explanation": "Area = (12 - 5) × 1/10 = 0.7. 0.3 is the 12 to 15 ounce probability.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-3#55",
+        "qtm--module-3#53",
+        "qtm--module-3#52"
+      ],
+      "derived": [
+        "0.7",
+        "0.3",
+        "0.12",
+        "0.5",
+        "1/10"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-uniform-distribution-q-464f29cd",
+      "type": "mcq",
+      "stem": "Which formula gives the mean of a continuous uniform random variable over a ≤ x ≤ b?",
+      "options": [
+        "(a + b)/2",
+        "(b - a)/2",
+        "(b - a)²/12",
+        "1/(b - a)"
+      ],
+      "answer": "(a + b)/2",
+      "accept": [],
+      "explanation": "μ = E(X) = (a + b)/2, the midpoint; (b - a)²/12 is the variance and 1/(b - a) is the density.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "formula",
+      "source_refs": [
+        "qtm--module-3#54",
+        "qtm--module-3#53"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-uniform-distribution-q-6f450df0",
+      "type": "short",
+      "stem": "Differentiate between how probability is found for a discrete random variable and for a continuous random variable.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The type of random variable changes what a 'probability' even means.\n\n- **Discrete:** takes a countable set of values, and each value has its own probability P(x). We add these, e.g. F(x) = ΣP(i) for i ≤ x.\n- **Continuous:** can take **any value in an interval**. It is **not possible** to talk about the probability of one particular value.\n- Instead, we find the probability of a value **within an interval** x1 to x2, defined as the **area under the probability density function** between x1 and x2.\n\nSo discrete probabilities are added point by point, while continuous probabilities are areas over intervals.",
+      "rubric": [
+        {
+          "point": "Discrete: probability for each value, added up",
+          "source_ref": "qtm--module-3#29"
+        },
+        {
+          "point": "Continuous: any value in an interval",
+          "source_ref": "qtm--module-3#52"
+        },
+        {
+          "point": "No probability for a single particular value",
+          "source_ref": "qtm--module-3#52"
+        },
+        {
+          "point": "Probability = area under the density between x1 and x2",
+          "source_ref": "qtm--module-3#52"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "differentiate",
+      "source_refs": [
+        "qtm--module-3#52",
+        "qtm--module-3#29",
+        "qtm--module-3#31"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-uniform-distribution-q-175c3f05",
+      "type": "short",
+      "stem": "Salad taken at a hotel is uniformly distributed between 5 and 15 ounces. Write the probability density function and find the expected value, variance and standard deviation.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Here a = 5 (smallest value) and b = 15 (largest value).\n\n- **PD:** f(x) = 1/(b - a) = 1/(15 - 5) = **1/10 = 0.1** for 5 ≤ x ≤ 15, and 0 elsewhere.\n- **Expected value:** E(X) = (a + b)/2 = (5 + 15)/2 = 20/2 = **10 ounces**.\n- **Variance:** V(X) = (b - a)²/12 = 10²/12 = 100/12 = **8.33**.\n- **standard deviation:** √8.33 = **2.89 ounces**.\n\nSo customers take 10 ounces on average, spread evenly between 5 and 15.",
+      "rubric": [
+        {
+          "point": "a = 5, b = 15",
+          "source_ref": "qtm--module-3#55"
+        },
+        {
+          "point": "f(x) = 1/10 between 5 and 15, 0 elsewhere",
+          "source_ref": "qtm--module-3#53"
+        },
+        {
+          "point": "E(X) = (5 + 15)/2 = 10",
+          "source_ref": "qtm--module-3#54"
+        },
+        {
+          "point": "V(X) = 100/12 = 8.33",
+          "source_ref": "qtm--module-3#54"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-3#55",
+        "qtm--module-3#53",
+        "qtm--module-3#54",
+        "qtm--module-3#41"
+      ],
+      "derived": [
+        "0.1",
+        "1/10",
+        "20/2",
+        "100/12",
+        "8.33",
+        "2.89",
+        "100",
+        "20"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-uniform-distribution-q-530e9a51",
+      "type": "short",
+      "stem": "For salad uniformly distributed between 5 and 15 ounces, find the probability that a customer takes between 12 and 15 ounces, and the probability that the customer takes less than 12 ounces.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "For a continuous variable, probability is the **area under the density** over the interval.\n\n- Height of the uniform density = 1/(15 - 5) = 1/10.\n- **P(12 ≤ X ≤ 15)** = width × height = (15 - 12) × 1/10 = 3/10 = **0.3**.\n- **P(X < 12)** = (12 - 5) × 1/10 = **0.7**, which is also 1 - 0.3.\n\nWith a uniform distribution the probability is simply proportional to the interval's length.",
+      "rubric": [
+        {
+          "point": "Probability is the area under the density",
+          "source_ref": "qtm--module-3#52"
+        },
+        {
+          "point": "Density height 1/10",
+          "source_ref": "qtm--module-3#53"
+        },
+        {
+          "point": "P(12 to 15) = 3 × 1/10 = 0.3",
+          "source_ref": "qtm--module-3#55"
+        },
+        {
+          "point": "P(less than 12) = 0.7",
+          "source_ref": "qtm--module-3#55"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-3#55",
+        "qtm--module-3#52",
+        "qtm--module-3#53"
+      ],
+      "derived": [
+        "0.3",
+        "0.7",
+        "1/10",
+        "3/10"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-uniform-distribution-q-1e653b61",
+      "type": "long",
+      "stem": "Explain continuous probability distributions and the uniform distribution: its density function, expected value and variance. Use the salad example.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Not every business quantity is countable; amounts such as the weight of salad a customer takes are **continuous**.\n\n**Continuous probability distributions**\n- A continuous random variable can take **any value in an interval** (or a collection of intervals).\n- We cannot talk about the probability of one particular value; we talk about the probability of a value **within an interval**.\n- That probability, for x1 to x2, is the **area under the probability density function** between x1 and x2.\n\n**The uniform distribution**\n- A random variable is uniform when the probability is **proportional to the interval's length**.\n- **Density:** f(x) = **1/(b - a)** for a ≤ x ≤ b, and 0 elsewhere, where a is the smallest and b the largest value. Its graph is a flat line.\n- **Mean:** μ = E(X) = **(a + b)/2**.\n- **Variance:** σ² = V(X) = **(b - a)²/12**.\n\n**Example: salad at a hotel**, uniform between 5 and 15 ounces.\n- f(x) = 1/(15 - 5) = 0.1 for 5 ≤ x ≤ 15.\n- E(X) = (5 + 15)/2 = **10 ounces**.\n- V(X) = (15 - 5)²/12 = 100/12 = **8.33**.\n- P(12 ≤ X ≤ 15) = (15 - 12) × 0.1 = **0.3**.\n\n**Business use:** since customers are charged for the salad they take, the hotel can expect 10 ounces per customer and knows 30% of customers take 12 ounces or more.\n\nThe uniform distribution is the simplest continuous model: a flat density where every equal-length interval is equally likely.",
+      "rubric": [
+        {
+          "point": "Continuous: any value in an interval; no probability for a single value",
+          "source_ref": "qtm--module-3#52"
+        },
+        {
+          "point": "Probability = area under the density between x1 and x2",
+          "source_ref": "qtm--module-3#52"
+        },
+        {
+          "point": "f(x) = 1/(b - a) on [a, b], 0 elsewhere",
+          "source_ref": "qtm--module-3#53"
+        },
+        {
+          "point": "E(X) = (a + b)/2 and V(X) = (b - a)²/12",
+          "source_ref": "qtm--module-3#54"
+        },
+        {
+          "point": "Salad: E = 10, V = 8.33, P(12 to 15) = 0.3",
+          "source_ref": "qtm--module-3#55"
+        }
+      ],
+      "marks": 10.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "qtm--module-3#52",
+        "qtm--module-3#53",
+        "qtm--module-3#54",
+        "qtm--module-3#55"
+      ],
+      "derived": [
+        "0.1",
+        "1/10",
+        "8.33",
+        "100/12",
+        "0.3",
+        "100",
+        "30%"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m3-uniform-distribution-q-d9deebfc",
+      "type": "long",
+      "stem": "Case: customers in a hotel are charged for the amount of salad they take, which is uniformly distributed between 5 and 15 ounces. (a) Write the PD. (b) Find the expected value and variance. (c) Find the probability that a customer takes between 12 and 15 ounces. (d) Interpret the results for the hotel.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The amount of salad is a continuous random variable with a = 5 ounces and b = 15 ounces, so the **uniform** formulas apply.\n\n**(a) Probability density (PD)**\nf(x) = 1/(b - a) = 1/(15 - 5) = **1/10 = 0.1** for 5 ≤ x ≤ 15, and **0** elsewhere. The graph is a flat line at height 0.1.\n\n**(b) Expected value and variance**\n- E(X) = (a + b)/2 = (5 + 15)/2 = 20/2 = **10 ounces**.\n- V(X) = (b - a)²/12 = (10)²/12 = 100/12 = **8.33** (square ounces); standard deviation = √8.33 = 2.89 ounces.\n\n**(c) P(12 ≤ X ≤ 15)**\nThe probability is the **area under the density** between 12 and 15:\n(15 - 12) × 1/10 = 3/10 = **0.3**.\n\n**(d) Interpretation**\n- On average a customer takes **10 ounces**, so the hotel can price and stock salad around that figure.\n- About **30%** of customers take 12 ounces or more, and every ounce between 5 and 15 is equally likely.\n- A variance of 8.33 shows a fair spread around the mean, which matters because customers pay by amount.\n\nThe uniform model turns a simple sampling finding into usable numbers for pricing and planning.",
+      "rubric": [
+        {
+          "point": "PD f(x) = 1/10 between 5 and 15, 0 elsewhere",
+          "source_ref": "qtm--module-3#53"
+        },
+        {
+          "point": "E(X) = 10 ounces",
+          "source_ref": "qtm--module-3#54"
+        },
+        {
+          "point": "V(X) = 100/12 = 8.33",
+          "source_ref": "qtm--module-3#54"
+        },
+        {
+          "point": "P(12 to 15) = area = 0.3",
+          "source_ref": "qtm--module-3#52"
+        },
+        {
+          "point": "Sensible interpretation for the hotel",
+          "source_ref": "qtm--module-3#55"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 2,
+      "style_tag": "case",
+      "source_refs": [
+        "qtm--module-3#55",
+        "qtm--module-3#53",
+        "qtm--module-3#54",
+        "qtm--module-3#52"
+      ],
+      "derived": [
+        "0.1",
+        "1/10",
+        "20/2",
+        "100/12",
+        "8.33",
+        "2.89",
+        "3/10",
+        "0.3",
+        "100",
+        "30%",
+        "20"
+      ],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
   "explain_back": {
     "prompt": "Explain how probability works for a continuous random variable and describe the uniform distribution with its formulas.",
     "rubric": [
