@@ -553,7 +553,374 @@
       "retired": false
     }
   ],
-  "questions": [],
+  "questions": [
+    {
+      "id": "far-may-balance-sheets-q-a4af509c",
+      "type": "mcq",
+      "stem": "What is the net amount at which Maynard Company's equipment appears on the June 30 balance sheet?",
+      "options": [
+        "$30,732",
+        "$36,660",
+        "$7,956",
+        "$5,928"
+      ],
+      "answer": "$30,732",
+      "accept": [],
+      "explanation": "Equipment at cost 36,660 less accumulated depreciation 5,928 = 30,732; 7,956 is the June 1 net figure.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "far--session-14-case-2-1-case-3-1-maynard-a-b-full#1"
+      ],
+      "derived": [
+        "30,732",
+        "7,956"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-may-balance-sheets-q-73dbb2b3",
+      "type": "mcq",
+      "stem": "In Maynard's Exhibit 1, which balance is deducted from an asset rather than shown as a liability?",
+      "options": [
+        "Accumulated depreciation on building",
+        "Accrued wages payable",
+        "Taxes payable",
+        "Other noncurrent liabilities"
+      ],
+      "answer": "Accumulated depreciation on building",
+      "accept": [],
+      "explanation": "Accumulated depreciation is shown as a minus under Building; the other three are liabilities.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "classification",
+      "source_refs": [
+        "far--session-14-case-2-1-case-3-1-maynard-a-b-full#1"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-may-balance-sheets-q-ae68fedd",
+      "type": "mcq",
+      "stem": "What are Maynard Company's total liabilities on June 30?",
+      "options": [
+        "$62,442",
+        "$27,027",
+        "$35,415",
+        "$29,250"
+      ],
+      "answer": "$62,442",
+      "accept": [],
+      "explanation": "21,315 + 2,202 + 29,250 + 7,224 + 2,451 = 62,442; 27,027 is June 1 and 35,415 is the increase.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "far--session-14-case-2-1-case-3-1-maynard-a-b-full#1"
+      ],
+      "derived": [
+        "62,442",
+        "27,027",
+        "35,415"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-may-balance-sheets-q-c46d42b8",
+      "type": "mcq",
+      "stem": "Between June 1 and June 30, how was most of the growth in Maynard's total assets funded?",
+      "options": [
+        "By more borrowing and more unpaid bills",
+        "By issuing new capital stock",
+        "By retained earnings rising by the full net income",
+        "By selling land"
+      ],
+      "answer": "By more borrowing and more unpaid bills",
+      "accept": [],
+      "explanation": "Assets rose 43,350 while liabilities rose 35,415 and equity only 7,935; capital stock and land did not change.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "analysis",
+      "source_refs": [
+        "far--session-14-case-2-1-case-3-1-maynard-a-b-full#1"
+      ],
+      "derived": [
+        "43,350",
+        "35,415",
+        "7,935"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-may-balance-sheets-q-42b0a86f",
+      "type": "mcq",
+      "stem": "How is Maynard's Shareholder's Equity of $619,446 at June 30 best described?",
+      "options": [
+        "The residual interest: recorded assets minus recorded liabilities",
+        "The cash Diane Maynard could take out of the company",
+        "June's net income added to capital stock",
+        "The total of all the company's assets"
+      ],
+      "answer": "The residual interest: recorded assets minus recorded liabilities",
+      "accept": [],
+      "explanation": "619,446 = capital stock 390,000 + retained earnings 229,446 = assets 681,888 minus liabilities 62,442, as recorded in the books.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "concept",
+      "source_refs": [
+        "far--session-14-case-2-1-case-3-1-maynard-a-b-full#1"
+      ],
+      "derived": [
+        "681,888",
+        "62,442"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-may-balance-sheets-q-9ad9dd40",
+      "type": "short",
+      "stem": "Maynard's net income for June was $19,635, yet retained earnings rose only from $221,511 to $229,446. Explain why, with working.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Retained earnings go up by net income and down by dividends, and Maynard paid a dividend in June.\n\n**Working**\n- Opening retained earnings: **221,511**\n- Add net income for June: 221,511 + 19,635 = **241,146**\n- Less the **$11,700 dividend** Diane Maynard paid herself at the end of June: 241,146 - 11,700 = **229,446**\n\nSo retained earnings, and equity, rose by only 19,635 - 11,700 = **7,935**.\n\n**Where the dividend went:** she used it to repay her loan from the company, so the note receivable from Diane Maynard fell from 11,700 to zero.\n\n**Conclusion:** net income adds to retained earnings but the dividend takes money out, so the rise is net income minus dividends.",
+      "rubric": [
+        {
+          "point": "Net income adds to retained earnings: 221,511 + 19,635 = 241,146",
+          "source_ref": "far--session-14-case-2-1-case-3-1-maynard-a-b-full#1"
+        },
+        {
+          "point": "Dividend of 11,700 reduces retained earnings",
+          "source_ref": "far--session-14-case-2-1-case-3-1-maynard-a-b-full#1"
+        },
+        {
+          "point": "241,146 - 11,700 = 229,446",
+          "source_ref": "far--session-14-case-2-1-case-3-1-maynard-a-b-full#1"
+        },
+        {
+          "point": "Equity rose only 7,935; dividend used to repay her note",
+          "source_ref": "far--session-14-case-2-1-case-3-1-maynard-a-b-full#1"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "far--session-14-case-2-1-case-3-1-maynard-a-b-full#1"
+      ],
+      "derived": [
+        "241,146",
+        "7,935"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-may-balance-sheets-q-be64f967",
+      "type": "short",
+      "stem": "Classify the following Maynard Company balances into assets, deductions from assets, liabilities and shareholder's equity: Cash; Note receivable, Diane Maynard; Accumulated depreciation on equipment; Accrued wages payable; Bank notes payable; Prepaid insurance; Supplies on hand; Capital stock; Retained earnings; Land.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Exhibit 1 lists the accounts alphabetically, so the first step is to sort them.\n\n| Group | Items |\n|---|---|\n| **Assets** | Cash; Note receivable, Diane Maynard; Prepaid insurance; Supplies on hand; Land |\n| **Deducted from assets** | Accumulated depreciation on equipment (shown as a minus under Equipment) |\n| **Liabilities** | Accrued wages payable; Bank notes payable |\n| **Shareholder's equity** | Capital stock; Retained earnings |\n\n**Notes:** the note receivable is the owner's loan from the company, an asset until she repays it. Accumulated depreciation is not a liability: it reduces the asset's cost.\n\n**Conclusion:** once sorted, assets less liabilities must equal capital stock plus retained earnings.",
+      "rubric": [
+        {
+          "point": "Cash, note receivable, prepaid insurance, supplies, land are assets",
+          "source_ref": "far--session-14-case-2-1-case-3-1-maynard-a-b-full#1"
+        },
+        {
+          "point": "Accumulated depreciation deducted from equipment",
+          "source_ref": "far--session-14-case-2-1-case-3-1-maynard-a-b-full#1"
+        },
+        {
+          "point": "Accrued wages payable and bank notes payable are liabilities",
+          "source_ref": "far--session-14-case-2-1-case-3-1-maynard-a-b-full#1"
+        },
+        {
+          "point": "Capital stock and retained earnings are equity",
+          "source_ref": "far--session-14-case-2-1-case-3-1-maynard-a-b-full#1"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 1,
+      "style_tag": "classification",
+      "source_refs": [
+        "far--session-14-case-2-1-case-3-1-maynard-a-b-full#1"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-may-balance-sheets-q-ddddfcb5",
+      "type": "short",
+      "stem": "As of June 30, is Maynard Company worth the amount shown in Shareholder's Equity, $619,446? Explain.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "This is the fourth question of the Maynard (A) case.\n\n- **What the figure is:** capital stock **390,000** + retained earnings **229,446** = **619,446**.\n- It equals **total assets 681,888 minus total liabilities 62,442**, the **residual interest**.\n- Those amounts are the balances **recorded in the company's books** (for example, the building at its cost less accumulated depreciation).\n\nSo $619,446 is a book figure for the owner's claim, not a separate measure of what the company is worth.\n\n**Conclusion:** shareholder's equity tells us the residual interest as recorded, not necessarily what the company is worth.",
+      "rubric": [
+        {
+          "point": "619,446 = capital stock 390,000 + retained earnings 229,446",
+          "source_ref": "far--session-14-case-2-1-case-3-1-maynard-a-b-full#1"
+        },
+        {
+          "point": "Equals assets 681,888 minus liabilities 62,442: residual interest",
+          "source_ref": "far--session-14-case-2-1-case-3-1-maynard-a-b-full#1"
+        },
+        {
+          "point": "Based on amounts recorded in the books",
+          "source_ref": "far--session-14-case-2-1-case-3-1-maynard-a-b-full#1"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 2,
+      "style_tag": "case",
+      "source_refs": [
+        "far--session-14-case-2-1-case-3-1-maynard-a-b-full#1"
+      ],
+      "derived": [
+        "681,888",
+        "62,442"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-may-balance-sheets-q-77c7276d",
+      "type": "long",
+      "stem": "From Exhibit 1 of the Maynard Company (A) case, prepare balance sheets as of June 1 and June 30 in proper format.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Exhibit 1 lists balances alphabetically, so sort them into assets (with accumulated depreciation deducted), liabilities and shareholder's equity, then check that both sides agree.\n\n**Maynard Company, balance sheets ($)**\n\n| Assets | June 1 | June 30 |\n|---|---|---|\n| Cash | 34,983 | 66,660 |\n| Accounts receivable | 21,798 | 26,505 |\n| Note receivable, Diane Maynard | 11,700 | 0 |\n| Merchandise inventory | 29,835 | 26,520 |\n| Prepaid insurance | 3,150 | 2,826 |\n| Supplies on hand | 5,559 | 6,630 |\n| Building 585,000 less accumulated depreciation (156,000; 157,950) | 429,000 | 427,050 |\n| Equipment at cost (13,260; 36,660) less accumulated depreciation (5,304; 5,928) | 7,956 | 30,732 |\n| Land | 89,700 | 89,700 |\n| Other noncurrent assets | 4,857 | 5,265 |\n| **Total assets** | **638,538** | **681,888** |\n\n| Liabilities and shareholder's equity | June 1 | June 30 |\n|---|---|---|\n| Accounts payable | 8,517 | 21,315 |\n| Accrued wages payable | 1,974 | 2,202 |\n| Bank notes payable | 8,385 | 29,250 |\n| Taxes payable | 5,700 | 7,224 |\n| Other noncurrent liabilities | 2,451 | 2,451 |\n| **Total liabilities** | **27,027** | **62,442** |\n| Capital stock | 390,000 | 390,000 |\n| Retained earnings | 221,511 | 229,446 |\n| **Total shareholder's equity** | **611,511** | **619,446** |\n| **Total liabilities and equity** | **638,538** | **681,888** |\n\n**Checks**\n- June 1: 638,538 = 27,027 + 611,511.\n- June 30: 681,888 = 62,442 + 619,446.\n\n**Conclusion:** both balance sheets balance, and the June 30 equity of $619,446 matches the figure in the case.",
+      "rubric": [
+        {
+          "point": "Accounts correctly sorted into assets, liabilities, equity",
+          "source_ref": "far--session-14-case-2-1-case-3-1-maynard-a-b-full#1"
+        },
+        {
+          "point": "Accumulated depreciation deducted: building 429,000 and 427,050; equipment 7,956 and 30,732",
+          "source_ref": "far--session-14-case-2-1-case-3-1-maynard-a-b-full#1"
+        },
+        {
+          "point": "Total assets 638,538 (June 1) and 681,888 (June 30)",
+          "source_ref": "far--session-14-case-2-1-case-3-1-maynard-a-b-full#1"
+        },
+        {
+          "point": "Total liabilities 27,027 and 62,442",
+          "source_ref": "far--session-14-case-2-1-case-3-1-maynard-a-b-full#1"
+        },
+        {
+          "point": "Equity 611,511 and 619,446 (capital stock + retained earnings)",
+          "source_ref": "far--session-14-case-2-1-case-3-1-maynard-a-b-full#1"
+        },
+        {
+          "point": "Both sides agree on each date",
+          "source_ref": "far--session-14-case-2-1-case-3-1-maynard-a-b-full#1"
+        }
+      ],
+      "marks": 10.0,
+      "difficulty": 3,
+      "style_tag": "numerical",
+      "source_refs": [
+        "far--session-14-case-2-1-case-3-1-maynard-a-b-full#1"
+      ],
+      "derived": [
+        "429,000",
+        "7,956",
+        "427,050",
+        "30,732",
+        "638,538",
+        "681,888",
+        "27,027",
+        "62,442",
+        "611,511",
+        "619,446"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-may-balance-sheets-q-7d72fe36",
+      "type": "long",
+      "stem": "Comment on how Maynard Company's financial condition at the end of June compared with the beginning of June. Diane Maynard says the Cash account is healthy: is that the whole story?",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Comparing the two balance sheets shows where the growth in June came from.\n\n**Headline changes ($)**\n\n| Item | June 1 | June 30 | Change |\n|---|---|---|---|\n| Total assets | 638,538 | 681,888 | +43,350 |\n| Total liabilities | 27,027 | 62,442 | +35,415 |\n| Shareholder's equity | 611,511 | 619,446 | +7,935 |\n\n**What drove them**\n- **Cash** rose from 34,983 to 66,660, up **31,677**, so Diane Maynard is right that cash looks healthy.\n- But **bank notes payable** rose from 8,385 to 29,250 (up **20,865**, more than tripled) and **accounts payable** from 8,517 to 21,315 (up **12,798**).\n- **Equipment at cost** rose by **23,400** (13,260 to 36,660).\n- The **note receivable** from Diane Maynard of 11,700 is gone because she repaid it with her dividend.\n- **Equity** rose by only 7,935: net income of 19,635 less the 11,700 dividend.\n\n**Comment**\n- Most of the growth in assets was funded by **more borrowing and more unpaid bills**, not by equity.\n- Liabilities more than doubled, so the company owes much more at the end of June than at the start.\n- The higher cash balance is partly borrowed money, so cash alone does not show the full picture.\n\n**Conclusion:** the company grew in June, but mainly on the back of liabilities; the healthy cash balance must be read together with the rise in bank notes and payables.",
+      "rubric": [
+        {
+          "point": "Assets up 43,350; liabilities up 35,415; equity up 7,935",
+          "source_ref": "far--session-14-case-2-1-case-3-1-maynard-a-b-full#1"
+        },
+        {
+          "point": "Cash up 31,677 (34,983 to 66,660)",
+          "source_ref": "far--session-14-case-2-1-case-3-1-maynard-a-b-full#1"
+        },
+        {
+          "point": "Bank notes up 20,865 and accounts payable up 12,798",
+          "source_ref": "far--session-14-case-2-1-case-3-1-maynard-a-b-full#1"
+        },
+        {
+          "point": "Equipment up 23,400; owner's note repaid",
+          "source_ref": "far--session-14-case-2-1-case-3-1-maynard-a-b-full#1"
+        },
+        {
+          "point": "Growth funded mostly by borrowing and unpaid bills, not equity",
+          "source_ref": "far--session-14-case-2-1-case-3-1-maynard-a-b-full#1"
+        },
+        {
+          "point": "Healthy cash partly borrowed: cash alone is not the full story",
+          "source_ref": "far--session-14-case-2-1-case-3-1-maynard-a-b-full#1"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 3,
+      "style_tag": "case",
+      "source_refs": [
+        "far--session-14-case-2-1-case-3-1-maynard-a-b-full#1"
+      ],
+      "derived": [
+        "43,350",
+        "35,415",
+        "7,935",
+        "31,677",
+        "20,865",
+        "12,798",
+        "23,400",
+        "638,538",
+        "681,888",
+        "27,027",
+        "62,442",
+        "611,511"
+      ],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
   "explain_back": {
     "prompt": "Walk through how you would prepare Maynard Company's balance sheets from Exhibit 1, and explain why retained earnings rose by less than June's net income.",
     "rubric": [

@@ -475,7 +475,344 @@
       "retired": false
     }
   ],
-  "questions": [],
+  "questions": [
+    {
+      "id": "far-fe-recognition-q-5e7f3f49",
+      "type": "mcq",
+      "stem": "What does the Conceptual Framework call the amount at which an asset, a liability or equity is shown in the statement of financial position?",
+      "options": [
+        "Its carrying amount",
+        "Its residual interest",
+        "Its economic resource",
+        "Its derecognised amount"
+      ],
+      "answer": "Its carrying amount",
+      "accept": [],
+      "explanation": "Paragraph 5.1 names the recognised amount the carrying amount; residual interest is the definition of equity.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "define",
+      "source_refs": [
+        "far--five-elements-fs-recognition#2",
+        "far--five-elements-fs-recognition#1"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-fe-recognition-q-be162f7c",
+      "type": "mcq",
+      "stem": "In a sale of goods for cash, what gives rise to the income?",
+      "options": [
+        "Recognising the cash received",
+        "Derecognising the goods sold",
+        "A contribution from equity holders",
+        "A new liability being recognised"
+      ],
+      "answer": "Recognising the cash received",
+      "accept": [],
+      "explanation": "Income comes from recognising one asset (the cash); the expense comes from derecognising another (the goods sold).",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "application",
+      "source_refs": [
+        "far--five-elements-fs-recognition#3"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-fe-recognition-q-223844db",
+      "type": "mcq",
+      "stem": "A new liability is recognised and equity falls, with nothing paid to equity holders. What is recognised at the same time?",
+      "options": [
+        "An expense",
+        "Income",
+        "A contribution from equity holders",
+        "A new asset"
+      ],
+      "answer": "An expense",
+      "accept": [],
+      "explanation": "Paragraph 5.4: expenses are recognised together with the initial recognition of a liability or an increase in its carrying amount.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "application",
+      "source_refs": [
+        "far--five-elements-fs-recognition#2"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-fe-recognition-q-6e252775",
+      "type": "mcq",
+      "stem": "In Diagram 5.1, which item is deducted when working out the changes in equity for the period?",
+      "options": [
+        "Distributions to holders of equity claims",
+        "Contributions from holders of equity claims",
+        "Income",
+        "Opening equity"
+      ],
+      "answer": "Distributions to holders of equity claims",
+      "accept": [],
+      "explanation": "Changes in equity = (income - expenses) + (contributions - distributions).",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "concept",
+      "source_refs": [
+        "far--five-elements-fs-recognition#3",
+        "far--five-elements-fs-recognition#2"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-fe-recognition-q-47fd97c6",
+      "type": "mcq",
+      "stem": "Which statement about the matching of costs with income is correct under the Conceptual Framework?",
+      "options": [
+        "It can result from recognising changes in assets and liabilities, but it is not an objective of the Framework",
+        "It is the main objective of the Framework",
+        "It allows items that are not assets to appear in the statement of financial position",
+        "It applies only when goods are sold on credit"
+      ],
+      "answer": "It can result from recognising changes in assets and liabilities, but it is not an objective of the Framework",
+      "accept": [],
+      "explanation": "Paragraph 5.5 says matching follows from recognising changes in assets and liabilities but is not an objective, and it does not let non-assets onto the statement.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 3,
+      "style_tag": "concept",
+      "source_refs": [
+        "far--five-elements-fs-recognition#3"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-fe-recognition-q-93b3027f",
+      "type": "short",
+      "stem": "Define recognition and carrying amount, and explain why recognised amounts matter in the statements.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Recognition is how an item gets into the statements at all.\n\n- **Recognition:** the process of **capturing an item that meets the definition of an element** (asset, liability, equity, income or expenses) so it can be included in the **statement of financial position** or the **statement(s) of financial performance**. The item is shown **in words and as a monetary amount**, and that amount is **included in the statement's totals**.\n- **Carrying amount:** the amount at which an **asset, a liability or equity** is recognised in the statement of financial position.\n\n**Why it matters:** the statements are **structured summaries** meant to make information **comparable and understandable**, and every recognised amount feeds the totals and subtotals that link the items together.\n\n**Conclusion:** only items that meet an element definition are recognised, and their amounts build the statement totals.",
+      "rubric": [
+        {
+          "point": "Recognition captures an item meeting an element definition",
+          "source_ref": "far--five-elements-fs-recognition#2"
+        },
+        {
+          "point": "Shown in words and a monetary amount, included in totals",
+          "source_ref": "far--five-elements-fs-recognition#2"
+        },
+        {
+          "point": "Carrying amount: amount recognised for an asset, liability or equity",
+          "source_ref": "far--five-elements-fs-recognition#2"
+        },
+        {
+          "point": "Statements are structured summaries: comparable and understandable",
+          "source_ref": "far--five-elements-fs-recognition#2"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 1,
+      "style_tag": "define",
+      "source_refs": [
+        "far--five-elements-fs-recognition#2"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-fe-recognition-q-96ee524f",
+      "type": "short",
+      "stem": "Differentiate between the changes that accompany the recognition of income and those that accompany the recognition of expenses.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Paragraph 5.4 says recognising one item needs the recognition or derecognition of another, and income and expenses are mirror images.\n\n| Point | Income is recognised with | Expenses are recognised with |\n|---|---|---|\n| Assets | **Initial recognition** of an asset, or an **increase** in its carrying amount | **Derecognition** of an asset, or a **decrease** in its carrying amount |\n| Liabilities | **Derecognition** of a liability, or a **decrease** in its carrying amount | **Initial recognition** of a liability, or an **increase** in its carrying amount |\n| Effect on equity | Raises equity | Lowers equity |\n\nThis follows the definitions in Table 4.1: income means assets up or liabilities down; expenses mean assets down or liabilities up.\n\n**Conclusion:** income and expenses never appear alone; each comes with a change in an asset or a liability.",
+      "rubric": [
+        {
+          "point": "Income: asset recognised or increased",
+          "source_ref": "far--five-elements-fs-recognition#2"
+        },
+        {
+          "point": "Income: liability derecognised or decreased",
+          "source_ref": "far--five-elements-fs-recognition#2"
+        },
+        {
+          "point": "Expenses: liability recognised or increased",
+          "source_ref": "far--five-elements-fs-recognition#2"
+        },
+        {
+          "point": "Expenses: asset derecognised or decreased",
+          "source_ref": "far--five-elements-fs-recognition#2"
+        },
+        {
+          "point": "Consistent with element definitions",
+          "source_ref": "far--five-elements-fs-recognition#1"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "differentiate",
+      "source_refs": [
+        "far--five-elements-fs-recognition#2",
+        "far--five-elements-fs-recognition#1"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-fe-recognition-q-074bd566",
+      "type": "short",
+      "stem": "State the relationship shown in Diagram 5.1 between opening and closing equity.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Diagram 5.1 shows how recognition links the elements across a reporting period.\n\n- At the **beginning** and **end** of the period: **total assets minus total liabilities = total equity**.\n- **Opening equity**\n  **+ (income minus expenses)** from the statement(s) of financial performance\n  **+ (contributions from equity holders minus distributions to them)**\n  **= closing equity**.\n- The middle two items are bracketed as **changes in equity**.\n\n**Conclusion:** closing equity differs from opening equity only through performance and dealings with equity holders.",
+      "rubric": [
+        {
+          "point": "Assets minus liabilities equal equity at start and end",
+          "source_ref": "far--five-elements-fs-recognition#2"
+        },
+        {
+          "point": "Add income minus expenses",
+          "source_ref": "far--five-elements-fs-recognition#3"
+        },
+        {
+          "point": "Add contributions minus distributions",
+          "source_ref": "far--five-elements-fs-recognition#3"
+        },
+        {
+          "point": "These two make up changes in equity",
+          "source_ref": "far--five-elements-fs-recognition#3"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "far--five-elements-fs-recognition#3",
+        "far--five-elements-fs-recognition#2"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-fe-recognition-q-c9944ce4",
+      "type": "long",
+      "stem": "Explain the recognition process under the Conceptual Framework and how recognition links the elements and the financial statements.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Recognition** is the step that puts items into the statements, and it is also what ties the statements to each other.\n\n**1. What recognition is (paragraph 5.1)**\n- Capturing an item that **meets the definition of an element** for inclusion in the statement of financial position or the statement(s) of financial performance.\n- The item is shown **in words and a monetary amount**, alone or grouped, and the amount is **included in the totals**.\n- The amount recognised for an asset, liability or equity is its **carrying amount**.\n\n**2. Why (paragraph 5.2)**\n- The statements are **structured summaries** meant to make information **comparable and understandable**; recognised amounts feed the totals and subtotals.\n\n**3. The link across the period (paragraph 5.3, Diagram 5.1)**\n- Opening position: assets minus liabilities = equity.\n- Plus income minus expenses.\n- Plus contributions from equity holders minus distributions to them.\n- Equals closing position: assets minus liabilities = equity.\n- The middle two are the **changes in equity**.\n\n**4. The link within each transaction (paragraph 5.4)**\n- Recognising one item needs the recognition or derecognition of another.\n- **Income** comes with an asset recognised or increased, or a liability derecognised or decreased.\n- **Expenses** come with a liability recognised or increased, or an asset derecognised or decreased.\n\n**5. Matching (paragraph 5.5)**\n- In a sale of goods for cash, income (cash recognised) and an expense (goods derecognised) arise together, the matching of costs with income. Matching follows from these changes but is not an objective of the Framework.\n\n**Conclusion:** recognition puts element items into the statements, and because every change in income or expenses moves an asset or liability, the statements stay linked from opening to closing equity.",
+      "rubric": [
+        {
+          "point": "Recognition: capturing an item that meets an element definition, in words and amount, in totals",
+          "source_ref": "far--five-elements-fs-recognition#2"
+        },
+        {
+          "point": "Carrying amount defined",
+          "source_ref": "far--five-elements-fs-recognition#2"
+        },
+        {
+          "point": "Structured summaries: comparable and understandable",
+          "source_ref": "far--five-elements-fs-recognition#2"
+        },
+        {
+          "point": "Diagram 5.1: opening equity + changes in equity = closing equity",
+          "source_ref": "far--five-elements-fs-recognition#3"
+        },
+        {
+          "point": "Income and expenses recognised with asset or liability changes",
+          "source_ref": "far--five-elements-fs-recognition#2"
+        },
+        {
+          "point": "Matching arises but is not an objective",
+          "source_ref": "far--five-elements-fs-recognition#3"
+        }
+      ],
+      "marks": 10.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "far--five-elements-fs-recognition#2",
+        "far--five-elements-fs-recognition#3"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-fe-recognition-q-6e051eaa",
+      "type": "long",
+      "stem": "Using the Conceptual Framework's example of a sale of goods for cash, explain how income and expenses are recognised, what the matching of costs with income means, and the limits the Framework places on it.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The Framework uses one simple case, **a sale of goods for cash**, to show income and expenses being recognised at the same moment.\n\n**What happens in the sale**\n- **Income** is recognised because **one asset is recognised: the cash** received.\n- An **expense** is recognised because **another asset is derecognised: the goods sold**.\n- Both are recognised **at the same time**, when the assets change.\n\n**Why this follows the rules**\n- Paragraph 5.4: income comes with the initial recognition of an asset; expenses come with the derecognition of an asset.\n- So the sale changes two assets, and each change brings its own performance element.\n\n**Matching of costs with income**\n- The simultaneous recognition of income and its related expenses is **sometimes called the matching of costs with income**.\n- The Framework **leads to matching** when it comes from **recognising changes in assets and liabilities**.\n\n**The limits**\n- Matching is **not an objective** of the Conceptual Framework.\n- The Framework **does not allow** items that **fail the definition of an asset, a liability or equity** to be recognised in the statement of financial position just to achieve matching.\n\n**Link to Diagram 5.1:** the income minus the expense from the sale is part of the changes in equity that take opening equity to closing equity.\n\n**Conclusion:** in a cash sale, income and expense arise together from changes in assets; matching is a result of that, never a reason to recognise something that is not an element.",
+      "rubric": [
+        {
+          "point": "Income from recognising the cash (an asset)",
+          "source_ref": "far--five-elements-fs-recognition#3"
+        },
+        {
+          "point": "Expense from derecognising the goods sold",
+          "source_ref": "far--five-elements-fs-recognition#3"
+        },
+        {
+          "point": "Simultaneous recognition called matching of costs with income",
+          "source_ref": "far--five-elements-fs-recognition#3"
+        },
+        {
+          "point": "Follows from recognising changes in assets and liabilities",
+          "source_ref": "far--five-elements-fs-recognition#3"
+        },
+        {
+          "point": "Matching not an objective; no non-elements on the statement",
+          "source_ref": "far--five-elements-fs-recognition#3"
+        },
+        {
+          "point": "Link to paragraph 5.4 and changes in equity",
+          "source_ref": "far--five-elements-fs-recognition#2"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 3,
+      "style_tag": "case",
+      "source_refs": [
+        "far--five-elements-fs-recognition#3",
+        "far--five-elements-fs-recognition#2"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
   "explain_back": {
     "prompt": "Explain recognition and show how it links the statement of financial position and the statement(s) of financial performance, using the sale of goods for cash.",
     "rubric": [
