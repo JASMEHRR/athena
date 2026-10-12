@@ -73,7 +73,8 @@ After adding files, run `.\run-overnight.ps1 -Spec REFRESH.md`.
 ## Known issues
 - EMDM and ES-I have no slides here, so they have no lessons or questions. Add their slides to `inbox\` and run a refresh.
 - QTM has no past papers or pattern file, so its mock papers use a standard MBA layout.
-- "Extra help" YouTube picks are built but not fetched yet.
+- "Extra help" YouTube picks (429 videos, 3 per topic) were chosen by search, not watched: some may be in Hindi or only loosely on topic. They are labelled "Extra help, not exam source"; exams follow your slides.
+- 24 of the 44 past-paper questions cover things none of the slides here teach (for example the business model canvas, elasticity, backpropagation). The Library's Past papers tab marks them; those are the slides to get from Classroom first.
 
 ## How to continue
 Run `.\run-overnight.ps1` again to resume, or `.\run-overnight.ps1 -Spec REFRESH.md` after adding PPTs.

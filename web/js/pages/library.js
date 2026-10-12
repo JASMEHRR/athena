@@ -48,11 +48,20 @@ function searchTab(body, lib, initial) {
 
 function frameworksTab(body, lib) {
   if (!lib.frameworks.length) { body.append(empty("No frameworks yet", "Frameworks, models and matrices from your slides collect here.")); return; }
-  body.append(el("div", { class: "grid two" }, ...lib.frameworks.map((f) => el("div", { class: "card pad-sm" },
-    el("div", { class: "row between" }, el("h3", {}, f.name), pill(f.subject)),
-    f.description ? el("p", { class: "small muted", style: { marginTop: "6px" } }, f.description) : null,
-    el("ul", { class: "small", style: { paddingLeft: "18px" } }, ...f.parts.map((p) => el("li", {}, el("b", {}, p.name), p.text ? `: ${p.text}` : ""))),
-    el("div", { class: "row wrap" }, ...f.source_refs.map((r) => el("button", { class: "ref-chip", onclick: () => openSlideModal(r) }, icon("slide"), `Slide ${r.split("#")[1]}`)))))));
+  const filter = el("select", { "aria-label": "Subject" }, el("option", { value: "" }, "All subjects"),
+    ...lib.subjects.filter((s) => lib.frameworks.some((f) => f.subject_id === s.id)).map((s) => el("option", { value: s.id }, s.short_name)));
+  const grid = el("div", { class: "grid two", style: { marginTop: "14px" } });
+  function draw() {
+    clear(grid);
+    lib.frameworks.filter((f) => !filter.value || f.subject_id === filter.value).forEach((f) => grid.append(el("div", { class: "card pad-sm" },
+      el("div", { class: "row between" }, el("h3", {}, f.name), pill(f.subject)),
+      f.description ? el("p", { class: "small muted", style: { marginTop: "6px" } }, f.description) : null,
+      el("ul", { class: "small", style: { paddingLeft: "18px" } }, ...f.parts.map((p) => el("li", {}, el("b", {}, p.name), p.text ? `: ${p.text}` : ""))),
+      el("div", { class: "row wrap" }, ...f.source_refs.map((r) => el("button", { class: "ref-chip", onclick: () => openSlideModal(r) }, icon("slide"), `Slide ${r.split("#")[1]}`))))));
+  }
+  filter.addEventListener("change", draw);
+  body.append(el("div", { style: { maxWidth: "240px" } }, filter), grid);
+  draw();
 }
 
 function examplesTab(body, lib) {
@@ -80,6 +89,7 @@ function pyqTab(body, lib) {
     body.append(el("div", { class: "card", style: { marginBottom: "14px" } }, el("h3", {}, name),
       el("div", { class: "list", style: { marginTop: "8px" } }, ...list.map((q) => el("div", { class: "list-row", style: { alignItems: "flex-start" } },
         el("span", { class: "mono small faint", style: { minWidth: "48px" } }, q.q_no), el("div", { class: "grow" }, q.text),
+        q.in_slides === false ? pill("Not in your slides", "warn") : null,
         q.marks ? pill(`${q.marks} marks`) : null)))));
   }
 }
