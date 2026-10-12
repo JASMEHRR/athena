@@ -1,6 +1,6 @@
 # Coverage report
 
-Generated 2026-10-06 11:44. A deck's pass A is complete at 100% of content slides (cited by a lesson chunk, or the gap explained) with every example taught.
+Generated 2026-10-12 14:46. A deck's pass A is complete at 100% of content slides (cited by a lesson chunk, or the gap explained) with every example taught.
 
 | Deck | Subject | Topics | Content slides | Cited | Explained | Coverage | Examples taught | Pass A |
 |---|---|---|---|---|---|---|---|---|
