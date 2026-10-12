@@ -414,3 +414,6 @@ a.list-row:hover { background: var(--surface-2); text-decoration: none; border-r
   .flash { font-size: 19px; min-height: 240px; padding: var(--s5); }
   :root { --lesson: 18px; }
 }
+
+/* Online copy notice (Vercel): progress there is not kept. */
+.online-note { background: var(--warn-soft); color: var(--warn); font-size: 13px; text-align: center; padding: 6px 16px; }

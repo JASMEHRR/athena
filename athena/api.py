@@ -7,6 +7,7 @@ Listens on 127.0.0.1 only.
 from __future__ import annotations
 
 import json
+import os
 import sqlite3
 from datetime import date
 from typing import Iterator
@@ -104,7 +105,7 @@ def create_app() -> FastAPI:
     @app.get(f"{API}/health")
     def health(conn: sqlite3.Connection = Depends(get_conn)):
         topics = conn.execute("SELECT COUNT(*) FROM c_topics").fetchone()[0]
-        return {"ok": True, "version": __version__, "topics": topics}
+        return {"ok": True, "version": __version__, "topics": topics, "online_copy": bool(os.environ.get("ATHENA_ONLINE"))}
 
     @app.get(f"{API}/summary")
     def summary(conn: sqlite3.Connection = Depends(get_conn)):

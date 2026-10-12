@@ -10,6 +10,7 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+os.environ.setdefault("ATHENA_ONLINE", "1")  # the app shows "progress is not saved here"
 os.environ.setdefault("ATHENA_DATA_DIR", "/tmp/athena-data")
 os.environ.setdefault("ATHENA_DB", "/tmp/athena-data/athena.db")
 os.environ.setdefault("ATHENA_SLIDES_DIR", str(ROOT / "data" / "slides"))

@@ -21,7 +21,8 @@ def client(env):
 
 
 def test_health_subjects_and_lesson(client):
-    assert client.get("/api/v1/health").json()["topics"] == 1
+    health = client.get("/api/v1/health").json()
+    assert health["topics"] == 1 and health["online_copy"] is False  # the PC app shows no online notice
     subjects = {s["id"]: s for s in client.get("/api/v1/subjects").json()}
     assert subjects["mm"]["topics"] == 1 and subjects["emdm"]["topics"] == 0
     detail = client.get("/api/v1/subjects/mm").json()

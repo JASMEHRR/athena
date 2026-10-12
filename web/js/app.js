@@ -130,5 +130,9 @@ let theme = "dark";
 try { theme = localStorage.getItem("athena-theme") || "dark"; } catch { /* default */ }
 buildShell();
 applyTheme(theme);
+api.get("/health").then((h) => {
+  if (h.online_copy) document.body.prepend(el("div", { class: "online-note", role: "note" },
+    "Online copy: your progress here is not saved. Study in the Athena app on your PC to keep it."));
+}).catch(() => { /* health is best effort */ });
 window.addEventListener("hashchange", route);
 route();
