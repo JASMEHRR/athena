@@ -2,7 +2,7 @@
 
 import { api, qs } from "../api.js";
 import { openSlideModal } from "../components.js";
-import { clear, el, empty, escapeHtml, icon, pill, subjectDot } from "../ui.js";
+import { clear, el, empty, escapeHtml, icon, pill, subjectDot, selectSeg } from "../ui.js";
 
 export const title = () => "Library";
 
@@ -113,7 +113,7 @@ export async function render(root, { query }) {
   const body = el("div", { class: "section" });
   const seg = el("div", { class: "seg", role: "tablist" });
   function show(key) {
-    seg.querySelectorAll("button").forEach((b) => b.classList.toggle("on", b.dataset.key === key));
+    selectSeg(seg, key);
     clear(body);
     tabs.find((t) => t[0] === key)[2](body, lib, query.get("q"));
   }

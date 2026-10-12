@@ -154,6 +154,16 @@ export function pill(text, kind = "") {
   return el("span", { class: `pill ${kind}` }, text);
 }
 
+// Mark a tab in a .seg strip as selected and scroll it into view (phones scroll the strip sideways).
+export function selectSeg(seg, key) {
+  seg.querySelectorAll("button").forEach((b) => b.classList.toggle("on", b.dataset.key === key));
+  const on = seg.querySelector("button.on");
+  if (on) requestAnimationFrame(() => {
+    const s = seg.getBoundingClientRect(), b = on.getBoundingClientRect();
+    seg.scrollLeft += b.left - s.left - (s.width - b.width) / 2;
+  });
+}
+
 export function empty(title, text, action) {
   return el("div", { class: "empty" }, icon("empty"), el("h3", {}, title), text ? el("p", { class: "muted" }, text) : null, action || null);
 }

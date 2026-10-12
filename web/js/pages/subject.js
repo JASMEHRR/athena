@@ -2,7 +2,7 @@
 
 import { api } from "../api.js";
 import { openSlideModal } from "../components.js";
-import { banner, clear, el, empty, fmtDate, fmtMinutes, icon, pct, pill, ring, subjectDot } from "../ui.js";
+import { banner, clear, el, empty, fmtDate, fmtMinutes, icon, pct, pill, ring, subjectDot, selectSeg } from "../ui.js";
 
 let subjectName = "Subject";
 export const title = () => subjectName;
@@ -122,7 +122,7 @@ export async function render(root, { args }) {
   const body = el("div", { class: "section" });
   const seg = el("div", { class: "seg", role: "tablist" });
   function show(key) {
-    seg.querySelectorAll("button").forEach((b) => b.classList.toggle("on", b.dataset.key === key));
+    selectSeg(seg, key);
     clear(body);
     body.append(tabs.find((t) => t[0] === key)[2](d));
   }

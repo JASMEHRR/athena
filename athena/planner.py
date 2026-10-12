@@ -248,6 +248,9 @@ def build_plan(inp: PlanInputs) -> Plan:
             warnings.append(f"{len(queue)} {_name(inp, sid)} topic(s) do not fit before the exam on "
                             f"{future_exams[sid].isoformat()}. Add study time in Settings.")
 
+    def count(n: int, word: str) -> str:
+        return f"{n} {word}" if n == 1 else f"{n} {word}s"
+
     targets = []
     for sid in subjects_with_lessons:
         left = [t for t in inp.topics if t.subject_id == sid and t.status != "learned"]
@@ -258,10 +261,11 @@ def build_plan(inp: PlanInputs) -> Plan:
             per_day = len(left) / study_days
             targets.append({"subject_id": sid, "topics_left": len(left), "days": study_days,
                             "per_day": round(per_day, 1),
-                            "text": f"{len(left)} topics left, {study_days} days: about {max(1, round(per_day))} a day"})
+                            "text": f"{count(len(left), 'topic')} left, {count(study_days, 'day')}: "
+                                    f"about {max(1, round(per_day))} a day"})
         else:
             targets.append({"subject_id": sid, "topics_left": len(left), "days": None, "per_day": None,
-                            "text": f"{len(left)} topics left, no exam date yet"})
+                            "text": f"{count(len(left), 'topic')} left, no exam date yet"})
     return Plan(days=days, capacity=capacity, targets=targets, warnings=warnings,
                 horizon_end=horizon_end, has_exams=has_exams)
 

@@ -42,12 +42,12 @@ function timeBars(items) {
 function lineChart(series) {
   const pts = series.map((d, i) => ({ i, v: d.accuracy })).filter((p) => p.v !== null);
   if (!pts.length) return el("p", { class: "muted" }, "Answer some questions and your accuracy shows up here.");
-  const W = 600, H = 160, P = 24;
-  const x = (i) => P + (i / Math.max(1, series.length - 1)) * (W - 2 * P);
+  const W = 600, H = 160, P = 24, L = 52;  // L: room for the % labels on the left
+  const x = (i) => L + (i / Math.max(1, series.length - 1)) * (W - L - P);
   const y = (v) => H - P - v * (H - 2 * P);
   const chart = svg("svg", { viewBox: `0 0 ${W} ${H}`, width: "100%", role: "img", "aria-label": "Accuracy over the last 30 days" });
-  [0, 0.5, 1].forEach((g) => chart.append(svg("line", { x1: P, x2: W - P, y1: y(g), y2: y(g), stroke: "var(--border)", "stroke-width": 1 }),
-    svg("text", { x: 2, y: y(g) + 4, fill: "var(--faint)", "font-size": 10, "font-family": "monospace" }, document.createTextNode(`${g * 100}`))));
+  [0, 0.5, 1].forEach((g) => chart.append(svg("line", { x1: L, x2: W - P, y1: y(g), y2: y(g), stroke: "var(--border)", "stroke-width": 1 }),
+    svg("text", { x: 2, y: y(g) + 5, fill: "var(--faint)", "font-size": 15, "font-family": "monospace" }, document.createTextNode(`${g * 100}%`))));
   chart.append(svg("polyline", { points: pts.map((p) => `${x(p.i)},${y(p.v)}`).join(" "), fill: "none", stroke: "var(--accent)", "stroke-width": 2.5, "stroke-linejoin": "round" }));
   pts.forEach((p) => chart.append(svg("circle", { cx: x(p.i), cy: y(p.v), r: 3.5, fill: "var(--accent)" },
     svg("title", {}, document.createTextNode(`${series[p.i].date}: ${pct(p.v)} of ${series[p.i].answered}`)))));
@@ -87,7 +87,7 @@ export async function render(root) {
       el("div", { class: "card pad-sm stat" }, el("span", { class: "label" }, "Questions"), el("div", { class: "num" }, String(t.answered))),
       el("div", { class: "card pad-sm stat" }, el("span", { class: "label" }, "Reviews"), el("div", { class: "num" }, String(t.reviews))),
       el("div", { class: "card pad-sm stat" }, el("span", { class: "label" }, "Time"), el("div", { class: "num" }, fmtMinutes(t.minutes))),
-      el("div", { class: "card pad-sm stat" }, el("span", { class: "label" }, "Best streak"), el("div", { class: "num" }, String(d.streak.best), el("small", {}, "days")))),
+      el("div", { class: "card pad-sm stat" }, el("span", { class: "label" }, "Best streak"), el("div", { class: "num" }, String(d.streak.best), el("small", {}, d.streak.best === 1 ? "day" : "days")))),
     el("div", { class: "card section" }, el("h2", {}, "Weak-topic heatmap"), el("div", { style: { height: "14px" } }), heatmap(d.heatmap)),
     el("div", { class: "grid two section" },
       el("div", { class: "card" }, el("h2", {}, "Accuracy, last 30 days"), el("div", { style: { height: "10px" } }), lineChart(d.series)),

@@ -127,6 +127,11 @@ No exam dates, so round-robin across subjects. Validate, ground and cover each d
 
 
 
+## P8 Finish
+- [x] P8.1 All tests green; grounding and coverage clean; Playwright screenshots of every page at desktop and phone width, looked at and fixed.
+  - `scripts\screenshots.py` (Chromium in .cache/ms-playwright, test server on 8766 with a copy of test.db) saves 20 pages x 2 widths to data/screenshots and fails on console errors, failed API calls or sideways scroll. Fixed from the screenshots: phone sideways scroll on Today, Subject, Past papers and Sources (grids/lists now shrink, rows wrap, tab strips scroll and keep the chosen tab in view); topic titles wrap on phones; question text no longer squeezed into a thin column; Sources showed "Questions coming" (pass_b now set on all 28 decks); "1 topics", "1 days"; readable accuracy chart labels.
+- [x] P8.2 Final README.md and MORNING.md.
+
 ## Extras (12 Oct)
 - FAR EST on 27 Oct 2026 in content/exams.json. Planner fix: subjects with an exam date come before undated ones.
 - Lesson "Topic done" card shows past-paper questions mapped to the topic, its frameworks, and a link to answer practice.

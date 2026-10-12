@@ -43,6 +43,11 @@ def test_dated_exam_subject_beats_big_undated_backlog():
     assert first_learn.subject_id == "far"
 
 
+def test_target_text_singular():
+    plan = build_plan(PlanInputs(today=TODAY, topics=topics("sip1", 1), exams={}, study_minutes=MINUTES))
+    assert plan.targets[0]["text"] == "1 topic left, no exam date yet"
+
+
 def test_reviews_first_and_capped_with_rollover():
     inp = PlanInputs(today=TODAY, topics=topics("mm", 2), exams={}, study_minutes=MINUTES, overdue_cards=200)
     plan = build_plan(inp)

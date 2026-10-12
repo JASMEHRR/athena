@@ -399,7 +399,9 @@ a.list-row:hover { background: var(--surface-2); text-decoration: none; border-r
   .main { padding: var(--s5) var(--s4) 96px; }
   h1 { font-size: 25px; }
   .grid.two, .grid.three { grid-template-columns: minmax(0, 1fr); }
+  .list-row { flex-wrap: wrap; }
   .list-row > * { min-width: 0; }
+  .list-row > .grow { flex: 1 1 120px; }
   .list-row .grow, .list-row .title { overflow-wrap: anywhere; }
   .list-row .ellipsis { white-space: normal; }
   .hero { padding: var(--s5); }

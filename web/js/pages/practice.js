@@ -2,7 +2,7 @@
 
 import { api, qs } from "../api.js";
 import { questionCard, startTracking } from "../components.js";
-import { clear, el, empty, icon, toast } from "../ui.js";
+import { clear, el, empty, icon, toast, selectSeg } from "../ui.js";
 import { MODES } from "./practice_modes.js";
 
 export const title = () => "Practice";
@@ -112,7 +112,7 @@ export async function render(root, { query }) {
   const modes = [["quiz", "Quick quiz", (b) => quizSetup(b, subjects, { subject: query.get("subject") })], ...MODES.map((m) => [m.key, m.label, (b) => m.render(b, subjects, query, state)])];
   state = { keys: null, enter: null, restart: () => show("quiz") };
   async function show(key) {
-    seg.querySelectorAll("button").forEach((b) => b.classList.toggle("on", b.dataset.key === key));
+    selectSeg(seg, key);
     state.keys = null;
     state.enter = null;
     try {
