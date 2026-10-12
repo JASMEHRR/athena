@@ -14,7 +14,10 @@ Athena is being built. This file is kept up to date as work finishes.
   - SCE: Introduction to Entrepreneurship, Social Entrepreneurship, business ideas list, pitching template
   - SiP-I: Organization selection presentation
 - Where a practice question on a slide has no printed answer, the lesson works it out with the deck's own method.
-- **Still to write:** the exam-style question banks (needed for answer writing and mock papers).
+- **Exam question banks for every subject**: 1,561 questions (787 multiple choice, 451 short answers, 285 long answers, plus differentiate and case questions), each written answer with a model answer and the key points to tick. AIB 365, BE 209, FAR 100, MM 130, OML 100, QTM 492, SCE 158, SiP-I 7. Answer writing, case practice and timed mock papers now all work. FAR numbers were rechecked one by one.
+- **FAR exam on 27 Oct** is in the planner, so Today puts FAR first and saves the last two days for revision and a mock paper.
+- When you finish a topic, Athena shows any past-paper questions on it, the frameworks it uses, and a button to practise exam answers.
+- **Online copy**: https://athena-peach-iota.vercel.app (handy on your phone; progress there is not kept, so study on the PC app for real).
 - **Ask your professor** (slide mistakes the lessons point out in one line):
   - BE s1-2 slide 58 prints MR = 50Q - 2Q (should read 50 - 2Q).
   - BE s3: the slide 14 graph and the slide 13 table give different numbers.
@@ -32,7 +35,7 @@ Double-click **Open Athena** at the top of the Athena folder. It opens http://12
 To keep it one click away, right-click **Open Athena** and choose **Pin to Start**, or **Show more options**, then **Pin to taskbar**.
 
 ## Needs you
-1. **Your end-semester exam dates.** I found no EST datesheet anywhere. When you get it, drop a photo or PDF into `inbox\_exams\` (or type the dates in Athena's Settings page once it's ready). Until then the planner spreads subjects evenly.
+1. **Your other end-semester exam dates.** Only FAR (27 Oct) is in. Type the rest in Athena's Settings page, or drop the datesheet into `inbox\_exams\`. Until then the planner spreads the other subjects evenly.
 2. **Missing slides, by subject.** Your end-term exams mostly test the classes after the MST, and almost none of those slides are on this PC. Grab these from Classroom or your professors, and drop each subject's files into its own folder in `inbox\` (for example `inbox\Marketing Management\`):
    - **AIB:** sessions 6 onwards (AI vs ML vs DL vs NLP, data, classification, regression, clustering, Excel with AI, prompt engineering, AI in marketing, finance, HR, supply chain, KPIs).
    - **Business Economics:** elasticity, indifference curves and budget line, demand forecasting, production and cost, market structures.
@@ -68,7 +71,8 @@ After adding files, run `.\run-overnight.ps1 -Spec REFRESH.md`.
 - Details in DECISIONS.md.
 
 ## Known issues
-- No exam-style question bank yet, so Answer writing, Case practice and Mock paper say "no questions yet".
+- EMDM and ES-I have no slides here, so they have no lessons or questions. Add their slides to `inbox\` and run a refresh.
+- QTM has no past papers or pattern file, so its mock papers use a standard MBA layout.
 - "Extra help" YouTube picks are built but not fetched yet.
 
 ## How to continue

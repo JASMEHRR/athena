@@ -105,16 +105,17 @@ No exam dates, so round-robin across subjects. Validate, ground and cover each d
   - insights.py + insights.js: heatmap, time per subject, accuracy and minutes per day (SVG), 12-week streak calendar, totals.
 
 ## P6 Pass B and practice
-- [ ] P6.1 Pass B for the first subject (AIB).
+- [x] P6.1 Pass B for the first subject (AIB).
+  - Tool: `python -m athena.author <bank.json> --questions` sets a topic's question bank without touching lessons or ids; rejects stems that repeat a lesson check (same id). Brief for writers: docs/AUTHORING.md "Pass B". AIB: 365 questions over 35 topics, style from the tutorial sheet.
 - [x] P6.2 Practice pages: answer writing, case practice, mock papers.
-  - athena/mocks.py + /api/v1/mocks: sections A objective (auto-marked), B short, C long (rubric ticks), shape from patterns/<subject>.json mock_shape. practice_modes.js: answer writing, case practice, timed mock (answers saved in localStorage while taking). Needs pass B questions to be useful.
-- [ ] P6 pass B: be
-- [ ] P6 pass B: far
-- [ ] P6 pass B: mm
-- [ ] P6 pass B: oml
-- [ ] P6 pass B: qtm
-- [ ] P6 pass B: sce
-- [ ] P6 pass B: sip1
+  - athena/mocks.py + /api/v1/mocks: sections A objective (auto-marked), B short, C long (rubric ticks), shape from patterns/<subject>.json mock_shape. practice_modes.js: answer writing, case practice, timed mock (answers saved in localStorage while taking). Checked in the browser with the FAR bank (41-mark paper).
+- [x] P6 pass B: be (209 questions, MST style: 2 to 5 mark numericals)
+- [x] P6 pass B: far (100 questions; every figure recomputed against the slides)
+- [x] P6 pass B: mm (130 questions)
+- [x] P6 pass B: oml (100 questions; intro topics have no case questions since the slides give no scenario)
+- [x] P6 pass B: qtm (492 questions over 48 topics; numericals use only slide data, computed numbers derived; one invented grouped-data question removed)
+- [x] P6 pass B: sce (158 questions, MST 2025 verbs) and sip1 (7 questions)
+  - Totals: 1,561 questions (787 MCQ, 451 short, 285 long, 23 differentiate, 15 case). Grounding 0 failures. emdm and es1 have no decks, so no banks.
 
 ## P7 Library and extras
 - [ ] P7.1 Frameworks, examples catalog, cross-subject links, PYQ pages, search.
@@ -126,6 +127,8 @@ No exam dates, so round-robin across subjects. Validate, ground and cover each d
 
 
 
-## NOTE FOR NEXT ROUND
-- AIB s34 and BE s12 subagents were stopped part-way. Their partial drafts are in the old session scratchpad (drafts/s34.json, s12.json) but nothing was written to content/. Redo those two decks from scratch (do not trust the partial drafts without re-reading the slides).
+## Extras (12 Oct)
+- FAR EST on 27 Oct 2026 in content/exams.json. Planner fix: subjects with an exam date come before undated ones.
+- Lesson "Topic done" card shows past-paper questions mapped to the topic, its frameworks, and a link to answer practice.
+- Public repo https://github.com/JASMEHRR/athena; Vercel site https://athena-peach-iota.vercel.app (api/index.py, vercel.json with no framework preset; DB rebuilt in /tmp per cold start, so online progress is not kept).
 

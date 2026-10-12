@@ -1,10 +1,10 @@
 # Grounding report
 
-Generated 2026-10-06 11:44. Checked 3988 items against the slides they cite.
+Generated 2026-10-12 14:33. Checked 5549 items against the slides they cite.
 
 - Failures (visible items with a name or number not on the cited slides): **0**
 - Hidden items (needs_check, not shown in the app): 0
-- Items using derived numbers (worked answers): 145
+- Items using derived numbers (worked answers): 366
 
 Whole numbers 0 to 10 are not checked (list counts).
 
@@ -19,47 +19,107 @@ None.
 ## Derived numbers to review
 
 - chunk `aib-ch23-ai-comeback-c2`: 10.9
+- question `aib-ch23-ai-comeback-q-83f815e9`: 10.9
+- question `aib-ch23-india-ai-ecosystem-q-985aef7d`: 28,000, 280%, 3.8
+- question `aib-s2-indian-ai-and-market-q-0c9383bd`: 320.1
+- question `aib-s2-indian-ai-and-market-q-52cebde4`: 320.1, 4.68, 4.7
+- question `aib-s2-indian-ai-and-market-q-5eec441b`: 320.1
+- question `aib-s34-ai-phases-q-4aa0d5c5`: 1,420, 1,800, 15.27, 6.45
+- question `aib-s45-ani-systems-market-q-04efa548`: 10.02, 131, 47.35, 6.46
+- question `aib-s45-ani-systems-market-q-73d87deb`: 2.125
 - chunk `be-s12-calculus-optimization-c3`: 1,000, 200
 - check question `be-s12-calculus-optimization-q-80289fea`: 1,000, 200
 - chunk `be-s12-calculus-optimization-c4`: 18, 243, 355, 383, 738, 81, 82
 - check question `be-s12-calculus-optimization-q-8b5df0b1`: 82
 - check question `be-s12-calculus-optimization-q-3a691134`: 355
+- question `be-s12-calculus-optimization-q-4b34c927`: 18, 243, 355, 383, 738, 81, 82
+- question `be-s12-calculus-optimization-q-0183cd33`: 60
+- question `be-s12-calculus-optimization-q-4edd15ca`: 1,000, 200, 600
 - chunk `be-s12-firm-valuation-c5`: 0.02, 0.04, 0.05, 0.09, 0.11, 0.13, 1.09, 174.4, 26.83, 3.488, 38.76, 69.76
 - check question `be-s12-firm-valuation-q-aaad0f96`: 0.04, 0.05, 0.09, 1.09, 26.83, 3.488, 38.76, 69.76
+- question `be-s12-firm-valuation-q-7662b5de`: 0.02, 0.04, 0.05, 0.09, 0.11, 0.13, 1.09, 174.4, 26.83, 3.488, 38.76, 69.76
+- question `be-s12-firm-valuation-q-c1c2431c`: 0.02, 0.09, 0.11, 26.83, 38.76, 69.76
+- question `be-s12-firm-valuation-q-f95ecccf`: 0.05, 0.09, 0.16, 1.04, 1.09, 3.328, 3.488
+- question `be-s12-firm-valuation-q-475e8d0c`: 0.07, 1.03, 1.10, 20,600, 22,000
 - chunk `be-s12-marginal-analysis-c5`: 80
+- question `be-s12-marginal-analysis-q-df35d1dc`: 80
+- question `be-s12-marginal-analysis-q-5705cb50`: 80
 - chunk `be-s12-npv-c4`: 1.05, 121.23, 130, 428.77, 8.77
 - check question `be-s12-npv-q-2f119009`: 121.23, 130, 8.77
+- question `be-s12-npv-q-9b865726`: 1.05, 121.23, 130, 140, 21.94, 23.04, 24.19, 25.40, 26.67, 428.77, 8.77
+- question `be-s12-npv-q-79c85642`: 6,000
+- question `be-s12-npv-q-545c3c6e`: 130
+- question `be-s12-npv-q-290e5883`: 1,632.60, 1,746.88, 1,869.16
+- question `be-s12-npv-q-bee947c2`: 4,958.98, 5,504.59, 6,733.44, 6,949.65
 - chunk `be-s12-perpetuity-c3`: 0.06, 1.06, 10,561.25, 13,333.33
 - check question `be-s12-perpetuity-q-5231bb56`: 0.06
 - check question `be-s12-perpetuity-q-a88254f4`: 0.06, 1.06, 10,561, 10,561.25, 13,333, 13,333.33
+- question `be-s12-perpetuity-q-af2b5c0d`: 0.06, 1.06, 1.2625, 10,561.25, 13,333.33
+- question `be-s12-perpetuity-q-762c6cc2`: 0.5, 1.05
+- question `be-s12-perpetuity-q-3a0207d0`: 13,333.33
+- question `be-s12-perpetuity-q-0bbf0036`: 0.5%
 - chunk `be-s12-pv-of-series-c2`: 3,000
+- question `be-s12-pv-of-series-q-84d7f77c`: 1.21, 1.331, 116.45, 18.18, 206.61, 31.82, 66.12, 68.18, 78.51, 90.91, 97.67
+- question `be-s12-pv-of-series-q-afbea054`: 1.06
+- question `be-s12-pv-of-series-q-8bccc168`: 3,000
+- question `be-s12-pv-of-series-q-9e0b0af8`: 390
+- question `be-s12-pv-of-series-q-29569ac3`: 1.06, 3,000, 327, 839.62, 890.00, 943.40
+- question `be-s12-pv-of-series-q-9c0f2c22`: 1,388.89, 1,428.90, 1,886.15, 1,911.08
+- question `be-s12-pv-of-series-q-178b539f`: 3,000
+- question `be-s12-time-value-q-b82452be`: 1.10
+- question `be-s12-time-value-q-ac76247b`: 1.10
+- question `be-s3-consumer-equilibrium-q-3de8e359`: 150, 180, 30, 50
+- question `be-s3-consumer-equilibrium-q-b6f5a977`: 180, 220, 280, 300, 310, 360, 400, 530, 540, 580
+- question `be-s3-consumer-equilibrium-q-b4f3e882`: 280, 300, 580
+- question `be-s3-tu-mu-diminishing-q-27016f83`: 80
 - chunk `be-s45-consumer-surplus-c4`: 0.5
 - chunk `be-s45-consumer-surplus-c5`: 1,000, 10,937.5, 100, 12,937.5, 175, 225, 3,062.5, 5,062.5, 57.5, 6,000, 62.5, 7,000, 7,875
 - check question `be-s45-consumer-surplus-q-b7205fdd`: 10,937.5, 3,062.5, 7,875
 - check question `be-s45-consumer-surplus-q-b0373cdf`: 100
 - check question `be-s45-consumer-surplus-q-71d84117`: 3,062.5, 5,062.5
+- question `be-s45-consumer-surplus-q-d0de9b70`: 1,000, 3,062.5, 5,062.5
+- question `be-s45-consumer-surplus-q-75e31133`: 0.5
+- question `be-s45-consumer-surplus-q-917c94f8`: 0.5, 1,000, 10,937.5, 100, 12,937.5, 175, 225, 3,062.5, 5,062.5, 57.5, 6,000, 62.5, 7,000, 7,875
 - chunk `be-s45-demand-function-c4`: 200, 240, 400
 - check question `be-s45-demand-function-q-b406f065`: 400
 - check question `be-s45-demand-function-q-e3a29cb7`: 200, 400
 - check question `be-s45-demand-function-q-5359a463`: 400
+- question `be-s45-demand-function-q-c9020e43`: 200, 240, 380
+- question `be-s45-demand-function-q-be848b03`: 200, 240
+- question `be-s45-demand-function-q-8e9a8a48`: 200, 240, 400
 - chunk `be-s45-equilibrium-c5`: 175, 225, 450
 - check question `be-s45-equilibrium-q-e757ca86`: 175, 200, 225
 - chunk `be-s45-equilibrium-c6`: 0.5, 175, 200, 3,062.5, 35, 4,000
 - check question `be-s45-equilibrium-q-480f7f23`: 3,062.5, 4,000, 7,875
 - check question `be-s45-equilibrium-q-6ddec2c4`: 200
 - check question `be-s45-equilibrium-q-42226e4b`: 3,062.5, 4,000
+- question `be-s45-equilibrium-q-bec2f597`: 150, 175, 200, 225, 450
+- question `be-s45-equilibrium-q-e87cebe1`: 175, 225, 45, 450, 80
+- question `be-s45-equilibrium-q-bc4b7911`: 0.5, 175, 200, 3,062.5, 35, 4,000
 - check question `be-s45-law-of-demand-q-70b4ae6b`: 360
 - chunk `be-s45-price-restrictions-c5`: 150, 200, 250, 45
 - check question `be-s45-price-restrictions-q-e79b5ccb`: 150, 175, 200
 - chunk `be-s45-price-restrictions-c6`: 150, 2,500, 200, 250
 - check question `be-s45-price-restrictions-q-70b46543`: 10,000, 2,500, 7,500
 - check question `be-s45-price-restrictions-q-c9ecb6e6`: 150, 200
+- question `be-s45-price-restrictions-q-6188a754`: 150, 200
+- question `be-s45-price-restrictions-q-93bd0a52`: 150, 2,500, 200, 250
+- question `be-s45-price-restrictions-q-5f165faf`: 150, 200, 250, 45
 - chunk `be-s45-supply-function-c5`: 450, 500, 90
 - check question `be-s45-supply-function-q-eb463f8c`: 450
 - check question `be-s45-supply-function-q-d39af4b1`: 130
+- question `be-s45-supply-function-q-c4b86fd0`: 450, 50, 500, 540, 630, 90
+- question `be-s45-supply-function-q-4b1ce2b4`: 450, 50, 500, 90
+- question `be-s45-supply-function-q-dc813c1f`: 450, 500, 90
 - check question `far-drcr-accrual-and-depreciation-q-688118a5`: 6,400
+- question `far-drcr-accrual-and-depreciation-q-35401352`: 5,600, 6,400
 - chunk `far-drcr-equation-and-double-entry-c2`: 5,300, 6,500
+- question `far-drcr-equation-and-double-entry-q-9fade725`: 5,300, 6,200, 6,500
+- question `far-drcr-equation-and-double-entry-q-8dba94a9`: 5,300, 6,500
+- question `far-drcr-equation-and-double-entry-q-c4b50402`: 5,300, 6,500
+- question `far-drcr-equation-and-double-entry-q-92394bf6`: 2,400, 4,100, 5,300, 6,200, 6,500, 7,700
 - chunk `far-drcr-three-statements-c3`: 23,500
+- question `far-drcr-three-statements-q-93acd1d3`: 23,500
 - chunk `far-may-balance-sheets-c3`: 27,027, 429,000, 611,511, 638,538, 7,956
 - check question `far-may-balance-sheets-q-efbb3b55`: 427,050, 429,000
 - check question `far-may-balance-sheets-q-0c46c1d8`: 611,511, 611511
@@ -68,6 +128,14 @@ None.
 - check question `far-may-balance-sheets-q-ac1cb1c8`: 20,865, 35,415, 43,350, 7,935
 - check question `far-may-balance-sheets-q-16ce0f3f`: 681,888, 681888
 - chunk `far-may-balance-sheets-c5`: 241,146, 62,442, 681,888, 7,935
+- question `far-may-balance-sheets-q-a4af509c`: 30,732, 7,956
+- question `far-may-balance-sheets-q-ae68fedd`: 27,027, 35,415, 62,442
+- question `far-may-balance-sheets-q-c46d42b8`: 35,415, 43,350, 7,935
+- question `far-may-balance-sheets-q-42b0a86f`: 62,442, 681,888
+- question `far-may-balance-sheets-q-9ad9dd40`: 241,146, 7,935
+- question `far-may-balance-sheets-q-ddddfcb5`: 62,442, 681,888
+- question `far-may-balance-sheets-q-77c7276d`: 27,027, 30,732, 427,050, 429,000, 611,511, 62,442, 638,538, 681,888, 7,956
+- question `far-may-balance-sheets-q-7d72fe36`: 12,798, 20,865, 23,400, 27,027, 31,677, 35,415, 43,350, 611,511, 62,442, 638,538, 681,888, 7,935
 - chunk `far-may-income-and-cash-c2`: 70,925
 - check question `far-may-income-and-cash-q-4be6d2d8`: 66,218, 70,925
 - chunk `far-may-income-and-cash-c4`: 1,524, 1,950, 228, 324, 5,888, 624
@@ -78,11 +146,43 @@ None.
 - check question `far-may-income-and-cash-q-8371133b`: 1,524, 21,159
 - chunk `far-may-income-and-cash-c6`: 1,071, 1,524, 1,950, 12,042, 12,798, 2,574, 228, 3,315, 324, 4,707, 624
 - check question `far-may-income-and-cash-q-4e5c2421`: 12,042
+- question `far-may-income-and-cash-q-d4beddc1`: 66,218, 70,925
+- question `far-may-income-and-cash-q-4970642b`: 1,950, 2,574, 624
+- question `far-may-income-and-cash-q-bc21d536`: 1,524
+- question `far-may-income-and-cash-q-db9f1d24`: 70,925
+- question `far-may-income-and-cash-q-731a0e8c`: 228, 324, 5,888
+- question `far-may-income-and-cash-q-2f304233`: 1,524, 1,950, 10,421, 21,159, 228, 31,580, 324, 5,888, 624, 70,925
+- question `far-may-income-and-cash-q-a9f9fd2c`: 1,071, 1,524, 1,950, 12,042, 12,798, 2,574, 228, 3,315, 324, 4,707, 624
 - chunk `far-sd-worked-examples-c3`: 2,56,000, 3,06,000
 - check question `far-sd-worked-examples-q-45f082e4`: 2,56,000, 3,06,000
 - chunk `far-sd-worked-examples-c4`: 1,74,000, 2,04,000
+- question `far-sd-worked-examples-q-8ad8f959`: 1,74,000, 2,04,000
+- question `far-sd-worked-examples-q-bbf88eab`: 2,56,000, 3,06,000
+- question `far-sd-worked-examples-q-47f62c53`: 1,10,000, 1,30,000
+- question `far-sd-worked-examples-q-357a5db7`: 2,56,000, 3,06,000, 5,36,000
+- question `far-sd-worked-examples-q-269b805d`: 1,74,000, 2,04,000, 4,29,000
+- question `qtm-m1-sampling-design-q-ff363892`: 0.8, 132, 527, 527.2
+- question `qtm-m1-sampling-design-q-1195346b`: 0.2, 0.8, 131.8, 132, 527, 527.2
+- question `qtm-m1-sampling-methods-q-d3211226`: 12,500, 475
+- question `qtm-m1-sampling-methods-q-16802e3d`: 0.1
+- question `qtm-m1-sampling-methods-q-50e4fe7d`: 27, 47, 67, 87
+- question `qtm-m1-sampling-methods-q-ad319cdb`: 0.1, 0.2, 0.3, 0.4, 1,000
+- question `qtm-m1-sampling-methods-q-6e0ebc40`: 0.1
+- question `qtm-m1-scales-of-measurement-q-dc4a7685`: 1.13, 1.17
+- question `qtm-m1-scales-of-measurement-q-0834ddf5`: 1.17, 1.398, 1.4, 2.095, 2.1
+- question `qtm-m21-choosing-a-measure-q-8eca0ee3`: 3.5, 72, 8.5
 - chunk `qtm-m21-mean-c3`: 72
 - check question `qtm-m21-mean-q-5ef04b5d`: 72
+- question `qtm-m21-mean-q-f5ccf3e8`: 143, 20.43
+- question `qtm-m21-mean-q-7faaedfb`: 173, 21.625
+- question `qtm-m21-mean-q-6527ab21`: 33.87, 508
+- question `qtm-m21-mean-q-c7eb3b70`: 44, 538, 60, 72
+- question `qtm-m21-mean-q-63d1e0dc`: 1.2, 143, 173, 20.43, 21.625
+- question `qtm-m21-mean-q-da187eb9`: 72
+- question `qtm-m21-mean-q-1b992c9c`: 0.53, 1.53, 101.6, 159, 172, 177, 2.07, 31.8, 33.87, 34.4, 35.4, 508
+- question `qtm-m21-median-and-mode-q-abf0f277`: 33.87
+- question `qtm-m21-median-and-mode-q-c00e3d2c`: 11
+- question `qtm-m21-median-and-mode-q-4a372e0c`: 16
 - chunk `qtm-m21-percentile-practice-c1`: 11, 16, 17, 32.5
 - check question `qtm-m21-percentile-practice-q-961e605b`: 32.5
 - check question `qtm-m21-percentile-practice-q-560f2609`: 16
@@ -91,7 +191,24 @@ None.
 - check question `qtm-m21-percentile-practice-q-d8a20ce1`: 33.87, 508
 - chunk `qtm-m21-percentile-practice-c6`: 13.5, 16, 90
 - check question `qtm-m21-percentile-practice-q-d33e1675`: 90
+- question `qtm-m21-percentile-practice-q-64d09837`: 32.5, 50.5, 90
+- question `qtm-m21-percentile-practice-q-569465a1`: 16, 17, 32.5
+- question `qtm-m21-percentile-practice-q-1a84c307`: 36, 490.8
+- question `qtm-m21-percentile-practice-q-4992abc5`: 585, 63, 64
+- question `qtm-m21-percentile-practice-q-5e9bc387`: 17.5, 18, 442.5
+- question `qtm-m21-percentile-practice-q-4e4fba62`: 50.5, 90, 90%
+- question `qtm-m21-percentile-practice-q-9dddafc3`: 17.5, 18, 585, 63, 64
+- question `qtm-m21-percentile-practice-q-d26f7c22`: 33.87, 508
+- question `qtm-m21-percentile-practice-q-869474e7`: 18, 31, 37
+- question `qtm-m21-percentile-practice-q-99042322`: 13.5, 16, 33.87, 508, 90
 - chunk `qtm-m21-percentiles-and-quartiles-c5`: 13
+- question `qtm-m21-percentiles-and-quartiles-q-45105c14`: 16, 2.4
+- question `qtm-m21-percentiles-and-quartiles-q-fbb47737`: 26.5
+- question `qtm-m21-percentiles-and-quartiles-q-fae1fefc`: 100%
+- question `qtm-m21-percentiles-and-quartiles-q-568d4476`: 16
+- question `qtm-m21-percentiles-and-quartiles-q-7b8aae15`: 15, 16, 19.5, 29.5
+- question `qtm-m21-percentiles-and-quartiles-q-7ada684a`: 16
+- question `qtm-m21-percentiles-and-quartiles-q-503d38c8`: 13.5
 - chunk `qtm-m21-two-players-problem-c1`: 32.75, 655
 - check question `qtm-m21-two-players-problem-q-c39fafff`: 32.75
 - check question `qtm-m21-two-players-problem-q-a1ee63f7`: 32.75, 655
@@ -101,20 +218,48 @@ None.
 - chunk `qtm-m21-two-players-problem-c3`: 30.5, 32.75
 - check question `qtm-m21-two-players-problem-q-415c482f`: 32.75
 - chunk `qtm-m21-two-players-problem-c4`: 538
+- question `qtm-m21-two-players-problem-q-8f7def2a`: 11, 32.75
+- question `qtm-m21-two-players-problem-q-38e80346`: 4.5
+- question `qtm-m21-two-players-problem-q-64c43829`: 15, 16, 37.5
+- question `qtm-m21-two-players-problem-q-c04792a6`: 10.5, 32.75, 37.5, 68.5, 72.5
+- question `qtm-m21-two-players-problem-q-ae6d068d`: 30.5, 32.75
+- question `qtm-m21-two-players-problem-q-9fc26356`: 134, 166, 175, 177, 178, 193, 200, 32.75, 655, 87
+- question `qtm-m21-two-players-problem-q-a8f8820a`: 11, 538
+- question `qtm-m21-two-players-problem-q-419a013f`: 30.5, 32.75
+- question `qtm-m21-two-players-problem-q-a665e291`: 11, 30.5, 32.75, 655
+- question `qtm-m21-two-players-problem-q-9bf25a55`: 10.5, 15, 16, 32.75, 37.5, 68.5, 72.5
 - chunk `qtm-m3-conditional-probability-c2`: 0.295, 18.03%
 - check question `qtm-m3-conditional-probability-q-2f1f725a`: 0.1831
 - check question `qtm-m3-conditional-probability-q-0f4bb87e`: 1.35
 - check question `qtm-m3-conditional-probability-q-7880cc5b`: 0.1, 0.25, 0.4
 - check question `qtm-m3-conditional-probability-q-26fb5cdf`: 0.2, 0.4
 - check question `qtm-m3-conditional-probability-q-1549aaa9`: 0.4
+- question `qtm-m3-conditional-probability-q-d5c8f78b`: 0.045, 0.10, 0.55
+- question `qtm-m3-conditional-probability-q-9141c18b`: 0.295, 0.394, 18.03%, 39.4%
+- question `qtm-m3-conditional-probability-q-f66f07cd`: 0.045, 0.10, 40.5%
+- question `qtm-m3-conditional-probability-q-a36151dc`: 0.1, 0.25, 0.4
 - chunk `qtm-m3-cumulative-distribution-c3`: 15
 - chunk `qtm-m3-cumulative-distribution-c4`: 0.5, 0.7, 0.8, 0.9
 - check question `qtm-m3-cumulative-distribution-q-bc688622`: 0.4, 0.5, 0.7
 - check question `qtm-m3-cumulative-distribution-q-ead88ccf`: 0.4, 0.7
+- question `qtm-m3-cumulative-distribution-q-8ca0d544`: 0.7, 0.8, 0.9
+- question `qtm-m3-cumulative-distribution-q-83f3cd7c`: 23
+- question `qtm-m3-cumulative-distribution-q-892be78a`: 11, 15
+- question `qtm-m3-cumulative-distribution-q-edfaf308`: 0.5, 0.7, 0.8, 0.9, 30%
+- question `qtm-m3-discrete-distributions-q-99af753f`: 0.25, 0.5
+- question `qtm-m3-discrete-distributions-q-be326898`: 0.0196, 0.02
+- question `qtm-m3-discrete-distributions-q-e716f882`: 0.25, 0.5
 - chunk `qtm-m3-expected-value-c3`: 0.5
 - check question `qtm-m3-expected-value-q-95264c1a`: 0.5
 - chunk `qtm-m3-expected-value-c4`: 1,200, 1,600, 13,400, 2,000, 5,400
 - check question `qtm-m3-expected-value-q-7a075456`: 13,400, 4,700, 5,400
+- question `qtm-m3-expected-value-q-ab4978a2`: 0.5
+- question `qtm-m3-expected-value-q-daf62704`: 13,333, 3,500, 500
+- question `qtm-m3-expected-value-q-d574472b`: 1,400, 1,600, 1,800, 5,400
+- question `qtm-m3-expected-value-q-20b9b7ff`: 5,400
+- question `qtm-m3-expected-value-q-e4ce577a`: 0.5
+- question `qtm-m3-expected-value-q-3e936453`: 1,200, 1,400, 1,600, 1,800, 13,400, 2,000, 5,400
+- question `qtm-m3-expected-value-q-46779947`: 3,500, 500
 - chunk `qtm-m3-independence-practice-c2`: 0.064, 0.084, 0.16, 0.21, 0.40
 - check question `qtm-m3-independence-practice-q-52aff286`: 61%
 - chunk `qtm-m3-independence-practice-c3`: 0.9024, 0.94
@@ -125,16 +270,41 @@ None.
 - check question `qtm-m3-independence-practice-q-d72f602f`: 0.10, 0.3487
 - chunk `qtm-m3-independence-practice-c6`: 0.75, 3.25
 - check question `qtm-m3-independence-practice-q-384272fd`: 0.231, 0.333
+- question `qtm-m3-independence-practice-q-9e9c13d0`: 0.90, 0.9024, 0.94
+- question `qtm-m3-independence-practice-q-9a028b4c`: 0.0039, 0.25
+- question `qtm-m3-independence-practice-q-85206e83`: 0.231, 0.462, 3.25
+- question `qtm-m3-independence-practice-q-e307fcda`: 0.064, 0.16, 0.40, 16%, 21%
+- question `qtm-m3-independence-practice-q-bb9203ed`: 0.10, 0.3487, 0.90
+- question `qtm-m3-independence-practice-q-3ab8b934`: 0.9024, 0.94
+- question `qtm-m3-independence-practice-q-cef2db9b`: 0.064, 0.084, 0.16, 0.21, 0.40, 16%, 21%
+- question `qtm-m3-independence-practice-q-70adeb77`: 0.0039, 0.231, 0.25, 0.3164, 0.462, 0.75, 3.25
 - check question `qtm-m3-normal-distribution-q-4f0ef9b4`: 50%
 - chunk `qtm-m3-normal-distribution-c4`: 0.9406, 0.9932, 1.28
 - check question `qtm-m3-normal-distribution-q-f89ae149`: 0.0594, 0.5594, 0.9406
 - check question `qtm-m3-normal-distribution-q-76769dc5`: 1.28
 - check question `qtm-m3-normal-distribution-q-7c15cd65`: 0.1359, 0.8185
+- question `qtm-m3-normal-distribution-q-292988d8`: 50%
+- question `qtm-m3-normal-distribution-q-4c7ff488`: 0.0594, 0.5594, 0.9406
+- question `qtm-m3-normal-distribution-q-4f2bcfba`: 0.1359, 0.6826, 0.8413
+- question `qtm-m3-normal-distribution-q-3d1c5930`: 0.9406, 0.9932, 1.28
+- question `qtm-m3-normal-distribution-q-f2ab41ef`: 0.0228, 0.1359
+- question `qtm-m3-normal-distribution-q-aa2572c4`: 0.1359, 0.9406, 0.9932, 1.28
 - check question `qtm-m3-normal-examples-q-a65b3d72`: 0.2297, 0.2525
 - chunk `qtm-m3-normal-examples-c2`: 85.2%
 - check question `qtm-m3-normal-examples-q-48a245e2`: 0.1480
 - check question `qtm-m3-normal-examples-q-3ed9eba2`: 0.7291
+- question `qtm-m3-normal-examples-q-97cc847d`: 20
+- question `qtm-m3-normal-examples-q-b17c3570`: 0.148
+- question `qtm-m3-normal-examples-q-b050eb2d`: 11
+- question `qtm-m3-normal-examples-q-f311082c`: 0.0912, 0.9088
+- question `qtm-m3-normal-examples-q-82b4d9bb`: 0.148, 14.8%, 23, 85.2%
+- question `qtm-m3-normal-examples-q-4b0fdaba`: 0.0228, 0.2525, 25%
+- question `qtm-m3-normal-examples-q-b5efd134`: 20, 72.5%
+- question `qtm-m3-normal-examples-q-bb211b06`: 11, 8.85%
 - check question `qtm-m3-probability-basics-q-5970156b`: 0.02, 0.10, 0.5
+- question `qtm-m3-probability-basics-q-ca0c0630`: 12, 48, 51
+- question `qtm-m3-probability-basics-q-a76041ca`: 51
+- question `qtm-m3-probability-basics-q-c830c7d2`: 0.95, 0.97, 190, 95%, 97%
 - check question `qtm-m3-probability-rules-q-9830ea38`: 0.40, 1.04
 - chunk `qtm-m3-probability-rules-c4`: 0.02
 - check question `qtm-m3-probability-rules-q-2a2073c8`: 0.0004
@@ -142,9 +312,22 @@ None.
 - check question `qtm-m3-probability-rules-q-82d761aa`: 0.5, 0.7
 - check question `qtm-m3-probability-rules-q-63c6ab55`: 0.05, 0.15, 0.2
 - check question `qtm-m3-probability-rules-q-19ab7e6d`: 0.0003
+- question `qtm-m3-probability-rules-q-ad531173`: 0.0004, 0.02, 0.0396
+- question `qtm-m3-probability-rules-q-e7b43285`: 0.965
+- question `qtm-m3-probability-rules-q-49804729`: 0.02, 0.0396, 3.96%
+- question `qtm-m3-probability-rules-q-feb366a7`: 12
+- question `qtm-m3-random-variables-q-6d083f68`: 0.3125, 0.9375, 15
+- question `qtm-m3-random-variables-q-8698e160`: 18
+- question `qtm-m3-random-variables-q-bf9c17d7`: 0.5, 18
 - chunk `qtm-m3-uniform-distribution-c4`: 0.3, 100, 8.33
 - check question `qtm-m3-uniform-distribution-q-8222a762`: 8.33
 - check question `qtm-m3-uniform-distribution-q-4f3dd11c`: 0.12, 0.2, 0.3, 0.5
+- question `qtm-m3-uniform-distribution-q-4a5ac9b1`: 0.1, 100, 2.89, 8.33
+- question `qtm-m3-uniform-distribution-q-46cf19f6`: 0.12, 0.3, 0.5, 0.7
+- question `qtm-m3-uniform-distribution-q-175c3f05`: 0.1, 100, 2.89, 20, 8.33
+- question `qtm-m3-uniform-distribution-q-530e9a51`: 0.3, 0.7
+- question `qtm-m3-uniform-distribution-q-1e653b61`: 0.1, 0.3, 100, 30%, 8.33
+- question `qtm-m3-uniform-distribution-q-d9deebfc`: 0.1, 0.3, 100, 2.89, 20, 30%, 8.33
 - chunk `qtm-m3-variance-sd-c3`: 1.42
 - check question `qtm-m3-variance-sd-q-6f6f4282`: 2.5
 - check question `qtm-m3-variance-sd-q-3cd3a6c4`: 1.15, 1.42, 4.04
@@ -152,10 +335,35 @@ None.
 - check question `qtm-m3-variance-sd-q-a888455b`: 3,220,000
 - chunk `qtm-m3-variance-sd-c6`: 245,000,000, 250,000, 26,734.81, 3,500, 400,000,000, 500, 70,000,000, 714,750,000, 715,000,000
 - check question `qtm-m3-variance-sd-q-e54a09f8`: 13,333, 500
+- question `qtm-m3-variance-sd-q-e4e7b52d`: 1.42, 4.99, 5.29
+- question `qtm-m3-variance-sd-q-0fede688`: 26,734.81, 500, 714,750,000, 715,000,000
+- question `qtm-m3-variance-sd-q-cc0c6146`: 0.027, 0.09, 0.098, 0.289, 0.338, 0.49, 0.529, 0.729, 1.42, 1.69, 2.89, 5.29, 7.29
+- question `qtm-m3-variance-sd-q-743a7c01`: 1,268.86, 10,800,000, 12,800,000, 44,890,000, 5,000,000, 5,400, 8,100,000, 9,800,000
+- question `qtm-m3-variance-sd-q-a68e2881`: 245,000,000, 250,000, 26,734.81, 26,735, 3,500, 400,000,000, 500, 70,000,000, 714,750,000, 715,000,000
 - chunk `qtm-m5-eight-steps-cpa-c4`: 1,372.96, 10.583, 3,781
+- question `qtm-m5-eight-steps-cpa-q-66497abe`: 1,372.96, 10.583, 3,781
+- question `qtm-m5-eight-steps-cpa-q-c88d364d`: 1,372.96, 10.583, 3,781
 - chunk `qtm-m5-p-value-and-critical-value-c2`: 0.0250
 - chunk `qtm-m5-p-value-and-critical-value-c3`: 1,372.96, 2,691
+- question `qtm-m5-p-value-and-critical-value-q-d2071cb3`: 0.0250, 0.0456
+- question `qtm-m5-p-value-and-critical-value-q-45b461ff`: 0.0030, 0.0060
+- question `qtm-m5-p-value-and-critical-value-q-d22a141b`: 1,372.96, 10.583, 2,691
+- question `qtm-m5-p-value-and-critical-value-q-39e7c6db`: 0.0030, 0.0060, 1,372.96, 10.583, 2,691, 3,781
+- question `qtm-m5-p-value-and-critical-value-q-e719c95c`: 0.0030, 0.0250
+- question `qtm-m5-significance-and-tails-q-c52fb30b`: 0.025, 0.975
+- question `qtm-m5-significance-and-tails-q-9d309726`: 0.0250, 0.0495, 0.0505
+- question `qtm-m5-worked-examples-q-76272527`: 5.477
+- question `qtm-m5-worked-examples-q-3294bf82`: 16.45, 483.55
+- question `qtm-m5-worked-examples-q-166486db`: 0.0216, 0.9784, 1.0216, 5.477
+- question `qtm-m5-writing-hypotheses-q-141c3b3b`: 0.5
+- question `qtm-m5-writing-hypotheses-q-4ee78fa6`: 0.5
 - chunk `qtm-m6-anova-calculation-c4`: 116.67, 12, 2.78, 26.75, 275, 295, 335, 36.75, 44.44, 69.44, 905
+- question `qtm-m6-anova-calculation-q-3aa88c64`: 12
+- question `qtm-m6-anova-calculation-q-0bee8d9a`: 155.56, 51.85
+- question `qtm-m6-anova-calculation-q-cecd76f3`: 1.67, 116.67, 12, 2.78, 275, 295, 335, 44.44, 69.44, 8.33, 905
+- question `qtm-m6-anova-calculation-q-b78ead7d`: 0.56, 0.75, 1.25, 1.56, 1.75, 10.56, 12, 14.06, 26.75, 3.25, 36.75, 4.25
+- question `qtm-m6-anova-calculation-q-9c85d39e`: 116.67, 26.75, 275, 295, 335, 36.75, 905
+- question `qtm-m6-chi-square-q-5783147d`: 1.143, 10.667, 13.333, 2.667, 256, 4.571, 400, 5.714
 - chunk `qtm-m6-regression-c4`: 0.95, 1000, 11045, 11975, 142.5, 150, 1500, 18.5, 2200, 235, 250, 3250, 4500, 5500, 7050, 800, 8000, 92.5, 930, 950
 - check question `qtm-m6-regression-q-478e0130`: 0.95, 1000, 950
 - check question `qtm-m6-regression-q-dd41a496`: 0.95, 18.5
@@ -163,3 +371,16 @@ None.
 - chunk `qtm-m6-regression-c5`: 0.95, 0.97, 0.985, 1000, 930, 950, 964.37
 - check question `qtm-m6-regression-q-5a4af9f9`: 0.98, 0.985, 0.99, 1000, 930, 950
 - check question `qtm-m6-regression-q-41975702`: 0.97
+- question `qtm-m6-regression-q-82e4f359`: 1000, 11045, 11975, 235, 930, 950
+- question `qtm-m6-regression-q-2ce56b86`: 0.95, 18.5, 28.5, 47, 48.5
+- question `qtm-m6-regression-q-65571757`: 0.95, 100, 142.5, 150, 1500, 1600, 18.5, 22,500, 2200, 235, 250, 2500, 27,500, 3250, 35,250, 4,750, 40,000, 400, 5,000, 5500, 800, 8000, 900, 92.5
+- question `qtm-m6-regression-q-dcc62cd1`: 0.97, 0.985
+- question `qtm-m6-regression-q-c3393934`: 0.95, 0.97, 0.985, 1,000, 1000, 11045, 11975, 150, 18.5, 235, 4500, 5500, 7050, 8000, 92.5, 930, 950, 964.37
+- question `qtm-m6-regression-q-e72a933d`: 0.95, 1.5, 18.5, 38, 56.5
+- question `qtm-m6-t-test-examples-q-132edff8`: 0.2, 3.16
+- question `qtm-m6-t-test-examples-q-22b4402c`: 163
+- question `qtm-m6-t-test-examples-q-05ea508c`: 3.162
+- question `qtm-m6-t-test-examples-q-74a8a81a`: 0.0667, 0.0714, 0.1381, 0.372, 2,232, 2.07, 3.38, 82.67, 9.09
+- question `qtm-m6-t-test-examples-q-16a40d8f`: 1.467, 2.449, 7.33
+- question `qtm-m6-t-tests-q-536f6798`: 0.11, 0.33, 0.44, 0.67, 1.467, 2.33, 5.44, 7.33
+- question `qtm-m6-t-tests-q-5bb342ba`: 100, 2,232, 64, 82.67, 9.09
