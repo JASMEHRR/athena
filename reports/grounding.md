@@ -1,6 +1,6 @@
 # Grounding report
 
-Generated 2026-10-12 20:03. Checked 5680 items against the slides they cite.
+Generated 2026-10-17 22:19. Checked 5680 items against the slides they cite.
 
 - Failures (visible items with a name or number not on the cited slides): **0**
 - Hidden items (needs_check, not shown in the app): 0
