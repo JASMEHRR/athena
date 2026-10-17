@@ -2,7 +2,7 @@
 
 import { api, qs } from "../api.js";
 import { openSlideModal } from "../components.js";
-import { clear, el, empty, escapeHtml, icon, pill, subjectDot, selectSeg } from "../ui.js";
+import { clear, el, empty, escapeHtml, icon, md, pill, subjectDot, selectSeg } from "../ui.js";
 
 export const title = () => "Library";
 
@@ -90,7 +90,9 @@ function pyqTab(body, lib) {
       el("div", { class: "list", style: { marginTop: "8px" } }, ...list.map((q) => el("div", { class: "list-row", style: { alignItems: "flex-start" } },
         el("span", { class: "mono small faint", style: { minWidth: "48px" } }, q.q_no),
         el("div", { class: "grow" }, q.text,
-          q.decks?.length ? el("div", { class: "small faint" }, `Taught in: ${q.decks.map((k) => k.title).join(" · ")}`) : null),
+          q.decks?.length ? el("div", { class: "small faint" }, `Taught in: ${q.decks.map((k) => k.title).join(" · ")}`) : null,
+          q.official_answer ? el("details", { style: { marginTop: "8px" } }, el("summary", { class: "small" }, "Professor's answer"),
+            el("div", { class: "lesson", html: md(q.official_answer), style: { fontSize: "15px", marginTop: "6px" } })) : null),
         q.in_slides === false ? pill("Not in your slides", "warn") : null,
         q.marks ? pill(`${q.marks} marks`) : null)))));
   }

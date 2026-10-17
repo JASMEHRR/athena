@@ -2,7 +2,7 @@
 
 import { api } from "../api.js";
 import { openSlideModal } from "../components.js";
-import { banner, clear, el, empty, fmtDate, fmtMinutes, icon, pct, pill, ring, subjectDot, selectSeg } from "../ui.js";
+import { banner, clear, el, empty, fmtDate, fmtMinutes, icon, md, pct, pill, ring, subjectDot, selectSeg } from "../ui.js";
 
 let subjectName = "Subject";
 export const title = () => subjectName;
@@ -75,7 +75,9 @@ function pyqTab(d) {
           el("span", { class: "mono small faint", style: { minWidth: "48px" } }, q.q_no),
           el("div", { class: "grow" }, el("div", {}, q.text),
             q.decks?.length ? el("div", { class: "small faint" }, `Taught in: ${q.decks.map((k) => k.title).join(" · ")}`) : el("div", { class: "small faint" }, "No deck teaches this yet"),
-            q.note ? el("div", { class: "small faint" }, q.note) : null),
+            q.note ? el("div", { class: "small faint" }, q.note) : null,
+            q.official_answer ? el("details", { style: { marginTop: "8px" } }, el("summary", { class: "small" }, "Professor's answer"),
+              el("div", { class: "lesson", html: md(q.official_answer), style: { fontSize: "15px", marginTop: "6px" } })) : null),
           q.marks ? pill(`${q.marks} marks`) : null)))));
     }
   }

@@ -418,6 +418,8 @@ class Pyq(StrictModel):
     topic_ids: list[str] = Field(default_factory=list)
     in_slides: bool | None = None
     note: str = ""
+    # The professor's own answer or marking key for this question, condensed, when one was shared.
+    official_answer: str = ""
 
 
 class Pattern(StrictModel):
