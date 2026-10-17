@@ -2,7 +2,7 @@
 
 import { api } from "./api.js";
 import { stopTracking } from "./components.js";
-import { clear, el, errorBox, icon, toast } from "./ui.js";
+import { clear, el, errorBox, icon, setDecks, toast } from "./ui.js";
 
 const NAV = [
   { route: "today", label: "Today", icon: "today" },
@@ -20,6 +20,7 @@ const PAGES = new Set(["today", "subjects", "subject", "learn", "review", "pract
 
 const main = document.getElementById("main");
 let current = null;
+const decksReady = api.get("/decks").then(setDecks).catch(() => { /* chips just show the slide number */ });
 
 function parseHash() {
   const raw = location.hash.replace(/^#\/?/, "");
@@ -52,6 +53,7 @@ async function route() {
   main.append(el("div", { class: "page" }, el("div", { class: "skeleton" })));
   window.scrollTo(0, 0);
   try {
+    await decksReady;
     const mod = await import(`./pages/${page}.js`);
     clear(main);
     current = mod;

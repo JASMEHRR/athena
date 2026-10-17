@@ -54,6 +54,23 @@ def test_lesson_shows_past_papers_and_frameworks(env):
     assert lesson["frameworks"] == [{"id": "mm-fw-pricing", "name": "Pricing strategies"}]
 
 
+def test_mst_marker_and_source_decks(env):
+    contentio.save_deck(cf.make_deck())
+    author.apply(_draft())
+    st = contentio.load_deck_status(cf.DECK_ID); st["mst"] = True; contentio.save_deck_status(cf.DECK_ID, st)
+    contentio.write_json(contentio.content_dir() / "pyqs" / "mm.json", [
+        {"id": "mm-mst-2026-q1", "subject_id": "mm", "year": 2026, "exam": "MST", "q_no": "1", "marks": 5,
+         "text": "Explain penetration pricing.", "topic_ids": ["mm-s9-pricing"]}])
+    importer.run()
+    with TestClient(api.create_app()) as c:
+        decks = c.get("/api/v1/decks").json()
+        assert [d["id"] for d in decks if d["mst"]] == [cf.DECK_ID]
+        detail = c.get("/api/v1/subjects/mm").json()
+        assert detail["topics"][0]["mst"] is True
+        assert detail["pyqs"][0]["decks"][0]["id"] == cf.DECK_ID
+        assert c.get("/api/v1/topics/mm-s9-pricing").json()["topic"]["mst"] is True
+
+
 def test_slide_and_media(client):
     s = client.get(f"/api/v1/slides/{cf.DECK_ID}/2").json()
     assert s["title"] == "Penetration Pricing" and s["total"] == 5

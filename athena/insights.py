@@ -85,7 +85,7 @@ def library(conn: sqlite3.Connection) -> dict:
         if not ex.get("retired") and not ex.get("needs_check"):
             examples.append({**ex, "subject_id": r["subject_id"], "subject": short.get(r["subject_id"], r["subject_id"])})
     pyqs = [json.loads(r["json"]) for r in conn.execute("SELECT json FROM c_pyqs ORDER BY subject_id, id")]
-    pyqs = [{**q, "subject": short.get(q["subject_id"], q["subject_id"])} for q in pyqs]
+    pyqs = [{**q, "subject": short.get(q["subject_id"], q["subject_id"])} for q in services.with_source_decks(conn, pyqs)]
     links = []
     for r in conn.execute("SELECT json FROM c_links"):
         link = json.loads(r["json"])

@@ -43,6 +43,14 @@ def test_dated_exam_subject_beats_big_undated_backlog():
     assert first_learn.subject_id == "far"
 
 
+def test_mst_topics_come_first_within_a_subject():
+    ts = topics("qtm", 4)
+    ts[2].mst = ts[3].mst = True  # topics 3 and 4 are on the MST
+    plan = build_plan(PlanInputs(today=TODAY, topics=ts, exams={}, study_minutes=MINUTES))
+    order = [t.topic_id for t in all_tasks(plan) if t.kind == "learn"]
+    assert order[:2] == ["qtm-t3", "qtm-t4"]
+
+
 def test_target_text_singular():
     plan = build_plan(PlanInputs(today=TODAY, topics=topics("sip1", 1), exams={}, study_minutes=MINUTES))
     assert plan.targets[0]["text"] == "1 topic left, no exam date yet"

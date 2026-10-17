@@ -121,6 +121,10 @@ def create_app() -> FastAPI:
     def subjects(conn: sqlite3.Connection = Depends(get_conn)):
         return services.subjects_overview(conn)
 
+    @app.get(f"{API}/decks")
+    def decks(conn: sqlite3.Connection = Depends(get_conn)):
+        return services.deck_index(conn)
+
     @app.get(f"{API}/subjects/{{subject_id}}")
     def subject(subject_id: str, conn: sqlite3.Connection = Depends(get_conn)):
         data = services.subject_detail(conn, subject_id)

@@ -15,14 +15,19 @@ function topicsTab(d) {
       ? "The slides are in, and lessons for them are being written."
       : "There are no slides for this subject on your PC yet. Add them to the inbox folder.");
   }
-  const list = el("div", { class: "card", style: { padding: "8px 16px" } }, el("div", { class: "list" },
-    ...d.topics.map((t) => el("a", { class: "list-row", href: `#/learn/${encodeURIComponent(t.id)}` },
-      ring(t.mastery, 40, d.subject.color),
-      el("div", { class: "grow" }, el("div", { class: "title ellipsis" }, t.title),
-        el("div", { class: "small faint" }, `${fmtMinutes(t.est_minutes)} · difficulty ${t.difficulty} of 3`)),
-      t.stale ? pill("Slides changed", "warn") : null,
-      pill(...STATUS[t.status])))));
-  return list;
+  const row = (t) => el("a", { class: "list-row", href: `#/learn/${encodeURIComponent(t.id)}` },
+    ring(t.mastery, 40, d.subject.color),
+    el("div", { class: "grow" }, el("div", { class: "title ellipsis" }, t.title),
+      el("div", { class: "small faint" }, `${fmtMinutes(t.est_minutes)} · difficulty ${t.difficulty} of 3`)),
+    t.mst ? pill("MST", "warn") : null,
+    t.stale ? pill("Slides changed", "warn") : null,
+    pill(...STATUS[t.status]));
+  const mst = d.topics.filter((t) => t.mst), rest = d.topics.filter((t) => !t.mst);
+  const card = (rows) => el("div", { class: "card", style: { padding: "8px 16px" } }, el("div", { class: "list" }, ...rows.map(row)));
+  if (!mst.length) return card(rest);
+  return el("div", { class: "stack" },
+    el("span", { class: "label" }, `Study these for the MST (${mst.length})`), card(mst),
+    rest.length ? el("span", { class: "label" }, `After the MST (${rest.length})`) : null, rest.length ? card(rest) : null);
 }
 
 function decksTab(d) {
@@ -31,6 +36,7 @@ function decksTab(d) {
     ...d.decks.map((k) => el("div", { class: "list-row" }, icon("slide"),
       el("div", { class: "grow" }, el("div", { class: "title ellipsis" }, k.title || k.file_name),
         el("div", { class: "small faint ellipsis" }, `${k.file_name} · ${k.slides} slides · ${k.topics} topic${k.topics === 1 ? "" : "s"}`)),
+      k.status.mst ? pill("MST", "warn") : null,
       k.status.pass_a ? pill("Lessons ready", "good") : pill("Lessons coming"),
       el("button", { class: "btn small ghost", onclick: () => openSlideModal(`${k.id}#1`) }, "View")))));
 }
@@ -67,7 +73,9 @@ function pyqTab(d) {
       blocks.push(el("div", { class: "card" }, el("h3", {}, name), el("div", { class: "list", style: { marginTop: "8px" } },
         ...qs.map((q) => el("div", { class: "list-row", style: { alignItems: "flex-start" } },
           el("span", { class: "mono small faint", style: { minWidth: "48px" } }, q.q_no),
-          el("div", { class: "grow" }, el("div", {}, q.text), q.note ? el("div", { class: "small faint" }, q.note) : null),
+          el("div", { class: "grow" }, el("div", {}, q.text),
+            q.decks?.length ? el("div", { class: "small faint" }, `Taught in: ${q.decks.map((k) => k.title).join(" · ")}`) : el("div", { class: "small faint" }, "No deck teaches this yet"),
+            q.note ? el("div", { class: "small faint" }, q.note) : null),
           q.marks ? pill(`${q.marks} marks`) : null)))));
     }
   }

@@ -31,7 +31,7 @@ function header() {
   return el("div", { class: "learn-head" },
     el("div", { class: "row between wrap" },
       el("a", { class: "small", href: `#/subject/${t.subject_id}` }, t.subject_name),
-      el("div", { class: "row" }, el("span", { class: "small faint" }, `${t.deck_title}`))),
+      el("div", { class: "row" }, t.mst ? pill("Study for the MST", "warn") : null, el("span", { class: "small faint" }, `${t.deck_title}`))),
     el("h1", {}, t.title),
     stepsBar(),
     t.stale ? banner("The slides for this topic changed since the lesson was written. It will be updated at the next refresh.", "warn") : null);

@@ -107,6 +107,31 @@ def _question_payload(q: dict, topic_id: str, shuffle_seed: str | None = None) -
 # ------------------------------------------------------------------ subjects
 
 
+def deck_index(conn: sqlite3.Connection) -> list[dict]:
+    """Every deck with its title and whether it is on the MST syllabus (for 'study this' markers)."""
+    out = []
+    for r in conn.execute("SELECT id, subject_id, title, json FROM c_decks ORDER BY subject_id, ord"):
+        status = json.loads(r["json"]).get("status", {})
+        out.append({"id": r["id"], "subject_id": r["subject_id"], "title": r["title"],
+                    "mst": bool(status.get("mst")), "lessons": bool(status.get("pass_a"))})
+    return out
+
+
+def with_source_decks(conn: sqlite3.Connection, pyqs: list[dict]) -> list[dict]:
+    """Add 'decks': the decks (id, title) whose lessons teach each past-paper question."""
+    deck_of_topic = {r["id"]: r["deck_id"] for r in conn.execute("SELECT id, deck_id FROM c_topics")}
+    titles = {d["id"]: d["title"] for d in deck_index(conn)}
+    out = []
+    for q in pyqs:
+        ids = list(dict.fromkeys(deck_of_topic[t] for t in q.get("topic_ids", []) if t in deck_of_topic))
+        out.append({**q, "decks": [{"id": i, "title": titles.get(i, i)} for i in ids]})
+    return out
+
+
+def mst_deck_ids(conn: sqlite3.Connection) -> set[str]:
+    return {d["id"] for d in deck_index(conn) if d["mst"]}
+
+
 def topic_rows(conn: sqlite3.Connection, subject_id: str | None = None) -> list[sqlite3.Row]:
     sql = "SELECT id, subject_id, deck_id, title, ord, est_minutes, difficulty, stale FROM c_topics WHERE retired = 0"
     args: list = []
@@ -143,9 +168,10 @@ def subject_detail(conn: sqlite3.Connection, subject_id: str) -> dict | None:
         return None
     subject = json.loads(row["json"])
     topics = []
+    mst_decks = mst_deck_ids(conn)
     for t in topic_rows(conn, subject_id):
         topics.append({"id": t["id"], "title": t["title"], "deck_id": t["deck_id"], "est_minutes": t["est_minutes"],
-                       "difficulty": t["difficulty"], "stale": bool(t["stale"]),
+                       "difficulty": t["difficulty"], "stale": bool(t["stale"]), "mst": t["deck_id"] in mst_decks,
                        "status": progress.topic_status(conn, t["id"]), "mastery": progress.mastery(conn, t["id"])})
     decks = []
     for d in conn.execute("SELECT * FROM c_decks WHERE subject_id = ? ORDER BY ord", (subject_id,)):
@@ -158,8 +184,9 @@ def subject_detail(conn: sqlite3.Connection, subject_id: str) -> dict | None:
     examples = [e for e in examples if not e.get("retired") and not e.get("needs_check")]
     frameworks = [json.loads(r["json"]) for r in conn.execute(
         "SELECT json FROM c_frameworks WHERE subject_id = ? ORDER BY name", (subject_id,))]
-    pyqs = [json.loads(r["json"]) for r in conn.execute("SELECT json FROM c_pyqs WHERE subject_id = ? ORDER BY id", (subject_id,))]
-    kv = {r["key"]: json.loads(r["json"]) for r in conn.execute(
+    pyqs = with_source_decks(conn, [json.loads(r["json"]) for r in conn.execute(
+        "SELECT json FROM c_pyqs WHERE subject_id = ? ORDER BY id", (subject_id,))])
+    kv ={r["key"]: json.loads(r["json"]) for r in conn.execute(
         "SELECT key, json FROM c_kv WHERE key IN (?, ?)", (f"pattern:{subject_id}", f"syllabus:{subject_id}"))}
     topic_ids = {t["id"] for t in topics}
     videos = [v for v in _kv(conn, "videos", []) if v["topic_id"] in topic_ids]
@@ -217,7 +244,7 @@ def lesson(conn: sqlite3.Connection, topic_id: str) -> dict | None:
                   "color": subjects.get(topic["subject_id"], {}).get("color", ""),
                   "deck_id": topic["deck_id"], "deck_title": deck["title"] if deck else "",
                   "est_minutes": topic.get("est_minutes", 20), "difficulty": topic.get("difficulty", 2),
-                  "stale": topic.get("stale", False)},
+                  "stale": topic.get("stale", False), "mst": topic["deck_id"] in mst_deck_ids(conn)},
         "chunks": chunks,
         "explain_back": {"prompt": eb["prompt"], "points": [p["point"] for p in eb["rubric"]],
                          "refs": [p["source_ref"] for p in eb["rubric"]]} if eb else None,

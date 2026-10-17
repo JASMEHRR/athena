@@ -49,6 +49,7 @@ class TopicIn:
     status: str = "new"  # new, started, learned
     cards_total: int = 0
     cards_due: int = 0
+    mst: bool = False  # on the syllabus of the coming mid-semester test: scheduled before other topics
 
 
 @dataclass
@@ -114,7 +115,7 @@ def build_plan(inp: PlanInputs) -> Plan:
 
     # Unlearned topics per subject, in teaching order.
     queues: dict[str, list[TopicIn]] = {}
-    for t in sorted(inp.topics, key=lambda t: (t.subject_id, t.order)):
+    for t in sorted(inp.topics, key=lambda t: (t.subject_id, not t.mst, t.order)):
         if t.status != "learned":
             queues.setdefault(t.subject_id, []).append(t)
     subjects_with_lessons = sorted({t.subject_id for t in inp.topics})
@@ -281,13 +282,15 @@ def gather_inputs(conn: sqlite3.Connection, today: date | None = None) -> PlanIn
     subjects = services.subject_map(conn)
     now = timeutil.now()
     topics = []
+    mst_decks = services.mst_deck_ids(conn)
     for t in services.topic_rows(conn):
         cards = conn.execute("SELECT COUNT(*) FROM c_cards WHERE topic_id = ? AND hidden = 0", (t["id"],)).fetchone()[0]
         due = conn.execute("SELECT COUNT(*) FROM p_card_state WHERE topic_id = ? AND suspended = 0 AND due <= ?",
                            (t["id"], timeutil.iso(now))).fetchone()[0]
         topics.append(TopicIn(id=t["id"], subject_id=t["subject_id"], title=t["title"], est_minutes=t["est_minutes"],
                               order=t["ord"], mastery=progress.mastery(conn, t["id"]),
-                              status=progress.topic_status(conn, t["id"]), cards_total=cards, cards_due=due))
+                              status=progress.topic_status(conn, t["id"]), cards_total=cards, cards_due=due,
+                              mst=t["deck_id"] in mst_decks))
     exams: dict[str, date] = {}
     for e in services.upcoming_exams(conn, today):
         exams.setdefault(e["subject_id"], date.fromisoformat(e["date"]))

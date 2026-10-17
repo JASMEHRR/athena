@@ -88,7 +88,9 @@ function pyqTab(body, lib) {
   for (const [name, list] of Object.entries(groups)) {
     body.append(el("div", { class: "card", style: { marginBottom: "14px" } }, el("h3", {}, name),
       el("div", { class: "list", style: { marginTop: "8px" } }, ...list.map((q) => el("div", { class: "list-row", style: { alignItems: "flex-start" } },
-        el("span", { class: "mono small faint", style: { minWidth: "48px" } }, q.q_no), el("div", { class: "grow" }, q.text),
+        el("span", { class: "mono small faint", style: { minWidth: "48px" } }, q.q_no),
+        el("div", { class: "grow" }, q.text,
+          q.decks?.length ? el("div", { class: "small faint" }, `Taught in: ${q.decks.map((k) => k.title).join(" · ")}`) : null),
         q.in_slides === false ? pill("Not in your slides", "warn") : null,
         q.marks ? pill(`${q.marks} marks`) : null)))));
   }

@@ -215,6 +215,21 @@ export function subjectDot(color) {
   return el("span", { class: "dot", style: { background: color || "var(--faint)" } });
 }
 
+const DECKS = new Map();  // deck id -> {title, mst}, filled once at startup
+
+export function setDecks(list) {
+  DECKS.clear();
+  (list || []).forEach((d) => DECKS.set(d.id, d));
+}
+
+export function deckInfo(deckId) {
+  return DECKS.get(deckId) || null;
+}
+
+// "Slide 5 · Session 3: Utility" so every slide chip says which deck it came from.
 export function refLabel(ref) {
-  return `Slide ${String(ref).split("#")[1] || "?"}`;
+  const [deck, n] = String(ref).split("#");
+  const d = DECKS.get(deck);
+  const title = d ? d.title.replace(/\s+/g, " ").trim() : "";
+  return `Slide ${n || "?"}${title ? ` · ${title.length > 34 ? `${title.slice(0, 33)}…` : title}` : ""}`;
 }
