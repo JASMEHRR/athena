@@ -1,0 +1,725 @@
+{
+  "id": "qtm-m2-mean-median-mode",
+  "subject_id": "qtm",
+  "deck_id": "qtm--module-2",
+  "title": "Central tendency recap: mean, median and mode",
+  "order": 10,
+  "summary": "A quick recap from this deck's slides: how to find the mean, median and mode, with the Players' Problem and the odd and even median examples.",
+  "est_minutes": 15,
+  "difficulty": 1,
+  "source_refs": [
+    "qtm--module-2#3",
+    "qtm--module-2#4",
+    "qtm--module-2#5",
+    "qtm--module-2#6",
+    "qtm--module-2#8",
+    "qtm--module-2#9",
+    "qtm--module-2#10",
+    "qtm--module-2#12",
+    "qtm--module-2#7",
+    "qtm--module-2#11",
+    "qtm--module-2#13",
+    "qtm--module-2#14",
+    "qtm--module-2#15",
+    "qtm--module-2#16"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "qtm-m2-mean-median-mode-c1",
+      "heading": "Mean (sample and population)",
+      "explanation_md": "**Measures of central tendency:** the **mean**, **median** and **mode** (the agenda also lists percentiles and quartiles).\n\nThe **(arithmetic) mean**, also known as the average, is the **sum of the values divided by the number of values**. The **sample mean x̄** is the point estimator of the **population mean μ**.\n\n- **Sample mean:** x̄ = Σxi / n (n = number of observations in the sample)\n- **Population mean:** μ = Σxi / N (N = number of observations in the population)\n\nClass activity: calculate the population mean and the sample mean of the class heights.",
+      "example_ids": [
+        "qtm-ex-class-height"
+      ],
+      "key_terms": [
+        {
+          "term": "Mean",
+          "meaning": "The sum of the values divided by the number of values; also called the average.",
+          "source_ref": "qtm--module-2#3"
+        },
+        {
+          "term": "Point estimator",
+          "meaning": "A sample statistic used to estimate a population value; the sample mean x̄ estimates the population mean μ.",
+          "source_ref": "qtm--module-2#4"
+        }
+      ],
+      "exam_line": "Sample mean x̄ = Σxi/n; population mean μ = Σxi/N. x̄ is the point estimator of μ.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m2-mean-median-mode-q-28fc1ab5",
+          "type": "mcq",
+          "stem": "The sample mean x̄ is the point estimator of:",
+          "options": [
+            "The population mean μ",
+            "The sample median",
+            "The variance",
+            "The mode"
+          ],
+          "answer": "The population mean μ",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2#4"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m2-mean-median-mode-q-2d242bbd",
+          "type": "fill",
+          "stem": "The sample mean is x̄ = Σxi / ____.",
+          "options": [],
+          "answer": "n",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2#5"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-2#3",
+        "qtm--module-2#4",
+        "qtm--module-2#5",
+        "qtm--module-2#6"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-mean-median-mode-c2",
+      "heading": "Median (odd and even number of values)",
+      "explanation_md": "The **median** is the **middle value when the data are arranged in ascending order**.\n\n- **Odd number of observations:** the median is the middle value. The 7 values 26, 18, 27, 12, 14, 27, 19 sort to 12, 14, 18, 19, 26, 27, 27, so **Median = 19**.\n- **Even number of observations:** the median is the **average of the middle two values**. The 8 values 26, 18, 27, 12, 14, 27, 30, 19 sort to 12, 14, 18, 19, 26, 27, 27, 30, so **Median = (19 + 26)/2 = 22.5**.\n\n**Why use it:** when a data set has **extreme values**, the median is the preferred measure of central location. It is the measure most often (not always) reported for **annual income and property value data**, because a few extremely large incomes or values can **inflate the mean**.",
+      "example_ids": [
+        "qtm-ex-odd-even-median"
+      ],
+      "key_terms": [
+        {
+          "term": "Median",
+          "meaning": "The value in the middle when the data items are arranged in ascending order.",
+          "source_ref": "qtm--module-2#8"
+        }
+      ],
+      "exam_line": "Median: sort, then middle value (odd n) or average of the middle two (even n). Preferred when there are extreme values. Examples: 19; (19 + 26)/2 = 22.5.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m2-mean-median-mode-q-f037c5b4",
+          "type": "mcq",
+          "stem": "For the 8 values sorted 12, 14, 18, 19, 26, 27, 27, 30, what is the median?",
+          "options": [
+            "22.5",
+            "19",
+            "26",
+            "21.6"
+          ],
+          "answer": "22.5",
+          "accept": [],
+          "explanation": "(19 + 26)/2 = 22.5.",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2#10"
+          ],
+          "derived": [
+            "21.6"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m2-mean-median-mode-q-449971ec",
+          "type": "true_false",
+          "stem": "A few extremely large incomes can inflate the mean but not the median.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2#8"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-2#8",
+        "qtm--module-2#9",
+        "qtm--module-2#10",
+        "qtm--module-2#12"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-mean-median-mode-c3",
+      "heading": "Mode, and the Players' Problem",
+      "explanation_md": "The **mode** is the **value that occurs with the greatest frequency**. The greatest frequency can occur at two or more values: exactly two modes means **bimodal**; more than two means **multimodal**.\n\n**Players' Problem (runs in 20 matches each, total 655 for both):** the mean for both is 32.75, but Player-1 has median 10 and mode 4 while Player-2 has median 30.5 and mode 45. The averages tell different stories, which is why the professor asks what you observe from mean, median and mode.\n\n**Frequency table and dot plot:** the value 18 occurs 4 times (the mode), the median is near 22 and the mean is 26.9. Because a few high values (49, 52, 56) sit far to the right, the mean (26.9) is pulled above the median.",
+      "example_ids": [
+        "qtm-ex-two-players",
+        "qtm-ex-net-worth"
+      ],
+      "key_terms": [
+        {
+          "term": "Mode",
+          "meaning": "The value that occurs with the greatest frequency.",
+          "source_ref": "qtm--module-2#13"
+        },
+        {
+          "term": "Bimodal",
+          "meaning": "A data set with exactly two modes.",
+          "source_ref": "qtm--module-2#13"
+        },
+        {
+          "term": "Multimodal",
+          "meaning": "A data set with more than two modes.",
+          "source_ref": "qtm--module-2#13"
+        }
+      ],
+      "exam_line": "Mode = most frequent value; two modes = bimodal; more than two = multimodal. Players: same mean 32.75, medians 10 and 30.5, modes 4 and 45.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m2-mean-median-mode-q-3ee8668b",
+          "type": "mcq",
+          "stem": "A data set with exactly two modes is called:",
+          "options": [
+            "Bimodal",
+            "Multimodal",
+            "Symmetric",
+            "Mesokurtic"
+          ],
+          "answer": "Bimodal",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2#13"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m2-mean-median-mode-q-02e46611",
+          "type": "mcq",
+          "stem": "In the dot plot data, which value is the mode?",
+          "options": [
+            "18",
+            "22",
+            "26.9",
+            "56"
+          ],
+          "answer": "18",
+          "accept": [],
+          "explanation": "18 occurs 4 times, more than any other value.",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2#16"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-2#7",
+        "qtm--module-2#11",
+        "qtm--module-2#13",
+        "qtm--module-2#14",
+        "qtm--module-2#15",
+        "qtm--module-2#16"
+      ],
+      "derived": [
+        "32.75",
+        "10",
+        "30.5",
+        "4",
+        "45",
+        "655"
+      ],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "qtm-m2-mean-median-mode-f1",
+      "front": "Sample mean and population mean formulas",
+      "back": "x̄ = Σxi / n; μ = Σxi / N.",
+      "kind": "formula",
+      "source_refs": [
+        "qtm--module-2#5"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-mean-median-mode-f2",
+      "front": "Median for an odd number of observations",
+      "back": "The middle value of the sorted data (example: 19).",
+      "kind": "fact",
+      "source_refs": [
+        "qtm--module-2#9"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-mean-median-mode-f3",
+      "front": "Median for an even number of observations",
+      "back": "The average of the middle two values (example: (19 + 26)/2 = 22.5).",
+      "kind": "fact",
+      "source_refs": [
+        "qtm--module-2#10"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-mean-median-mode-f4",
+      "front": "Why prefer the median with extreme values?",
+      "back": "A few extremely large values inflate the mean but not the median.",
+      "kind": "fact",
+      "source_refs": [
+        "qtm--module-2#8"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-mean-median-mode-f5",
+      "front": "Mode, bimodal, multimodal",
+      "back": "Mode = most frequent value; two modes = bimodal; more than two = multimodal.",
+      "kind": "term",
+      "source_refs": [
+        "qtm--module-2#13"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-mean-median-mode-f6",
+      "front": "Players' Problem: mean and median",
+      "back": "Both players have the same mean but very different medians.",
+      "kind": "example",
+      "source_refs": [
+        "qtm--module-2#7",
+        "qtm--module-2#11"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [
+    {
+      "id": "qtm-m2-mean-median-mode-q-80908bb1",
+      "type": "mcq",
+      "stem": "The sample mean x̄ is calculated as:",
+      "options": [
+        "The sum of the values divided by n",
+        "The middle value",
+        "The most frequent value",
+        "The largest minus the smallest"
+      ],
+      "answer": "The sum of the values divided by n",
+      "accept": [],
+      "explanation": "x̄ = Σxi / n.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "formula",
+      "source_refs": [
+        "qtm--module-2#5",
+        "qtm--module-2#8",
+        "qtm--module-2#13",
+        "qtm--module-2#26"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-mean-median-mode-q-ce88aed4",
+      "type": "mcq",
+      "stem": "For the 7 values 12, 14, 18, 19, 26, 27, 27 the median is:",
+      "options": [
+        "19",
+        "22.5",
+        "26",
+        "18"
+      ],
+      "answer": "19",
+      "accept": [],
+      "explanation": "Middle of seven values.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-2#9",
+        "qtm--module-2#10"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-mean-median-mode-q-8aa2af92",
+      "type": "mcq",
+      "stem": "For an even number of observations the median is:",
+      "options": [
+        "The average of the middle two values",
+        "The lower middle value",
+        "The mode",
+        "The mean"
+      ],
+      "answer": "The average of the middle two values",
+      "accept": [],
+      "explanation": "Example (19 + 26)/2 = 22.5.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "steps",
+      "source_refs": [
+        "qtm--module-2#10"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-mean-median-mode-q-069be920",
+      "type": "mcq",
+      "stem": "A data set with more than two modes is called:",
+      "options": [
+        "Multimodal",
+        "Bimodal",
+        "Symmetric",
+        "Leptokurtic"
+      ],
+      "answer": "Multimodal",
+      "accept": [],
+      "explanation": "Exactly two modes is bimodal.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "define",
+      "source_refs": [
+        "qtm--module-2#13",
+        "qtm--module-2#58"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-mean-median-mode-q-00ac7d43",
+      "type": "mcq",
+      "stem": "Why is the median preferred for annual income data?",
+      "options": [
+        "A few extremely large incomes can inflate the mean",
+        "The median uses every value",
+        "The mode is always zero",
+        "The mean cannot be computed"
+      ],
+      "answer": "A few extremely large incomes can inflate the mean",
+      "accept": [],
+      "explanation": "Median resists extremes.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "qtm--module-2#8"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-mean-median-mode-q-9778273a",
+      "type": "short",
+      "stem": "Write the formulas for the sample mean and population mean and explain the symbols.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "- **Sample mean:** x̄ = Σxi / n, where n is the number of observations in the sample.\n- **Population mean:** μ = Σxi / N, where N is the number of observations in the population.\n\nThe sample mean x̄ is the point estimator of the population mean μ.",
+      "rubric": [
+        {
+          "point": "Sample mean formula",
+          "source_ref": "qtm--module-2#5"
+        },
+        {
+          "point": "Population mean formula",
+          "source_ref": "qtm--module-2#5"
+        },
+        {
+          "point": "x̄ estimates μ",
+          "source_ref": "qtm--module-2#4"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 1,
+      "style_tag": "formula",
+      "source_refs": [
+        "qtm--module-2#4",
+        "qtm--module-2#5"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-mean-median-mode-q-52b3b1dd",
+      "type": "short",
+      "stem": "Find the median of 26, 18, 27, 12, 14, 27, 30, 19 and of the first seven of these values without 30.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Sort the eight values: 12, 14, 18, 19, 26, 27, 27, 30. Even count, so average the middle two: (19 + 26)/2 = **22.5**.\n\nWithout 30 the seven values sort to 12, 14, 18, 19, 26, 27, 27; the median is the middle value, **19**.",
+      "rubric": [
+        {
+          "point": "Sort the values",
+          "source_ref": "qtm--module-2#10"
+        },
+        {
+          "point": "Median 22.5 for even count",
+          "source_ref": "qtm--module-2#10"
+        },
+        {
+          "point": "Median 19 for odd count",
+          "source_ref": "qtm--module-2#9"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 1,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-2#9",
+        "qtm--module-2#10"
+      ],
+      "derived": [
+        "22.5"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-mean-median-mode-q-b52c6c0b",
+      "type": "short",
+      "stem": "Both players in the Players' Problem have mean 32.75, but Player-1 has median 10 and mode 4 while Player-2 has median 30.5 and mode 45. What do you observe?",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The **means are equal**, so the average hides a difference. Player-1's **median (10) is far below the mean (32.75)**: a few very large scores lift the mean, so most matches are low scores and the mode 4 agrees. Player-2's median (30.5) is close to the mean, so the scores are balanced, though the mode of 45 shows a peak at high scores.\n\nSo the three measures together show Player-1 is skewed and Player-2 is steady.",
+      "rubric": [
+        {
+          "point": "Equal means 32.75",
+          "source_ref": "qtm--module-2#7"
+        },
+        {
+          "point": "Player-1 median far below mean: skewed by large scores",
+          "source_ref": "qtm--module-2#11"
+        },
+        {
+          "point": "Player-2 median close to mean",
+          "source_ref": "qtm--module-2#11"
+        },
+        {
+          "point": "Modes 4 and 45 considered",
+          "source_ref": "qtm--module-2#14"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "interpret",
+      "source_refs": [
+        "qtm--module-2#7",
+        "qtm--module-2#11",
+        "qtm--module-2#14"
+      ],
+      "derived": [
+        "32.75",
+        "10",
+        "4",
+        "30.5",
+        "45"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-mean-median-mode-q-9bc81ed1",
+      "type": "long",
+      "stem": "Explain the mean, median and mode: definitions, how each is found, and when the median is preferred.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Introduction.** These are the three measures of central tendency.\n\n**Mean.** Also the average: the sum of the values divided by the number of values. Sample x̄ = Σxi/n; population μ = Σxi/N. x̄ is the point estimator of μ.\n\n**Median.** The middle value when data are in ascending order. For an odd count it is the middle value (19 for 12, 14, 18, 19, 26, 27, 27); for an even count it is the average of the middle two ((19 + 26)/2 = 22.5).\n\n**Mode.** The value with the greatest frequency. Two modes make the data bimodal; more than two, multimodal.\n\n**When to prefer the median.** When there are extreme values, because a few extremely large incomes or property values can inflate the mean. It is the measure most often reported for annual income and property value data.\n\n**Conclusion.** Choose the measure to suit the data, and report which one you used.",
+      "rubric": [
+        {
+          "point": "Mean definition and both formulas",
+          "source_ref": "qtm--module-2#5"
+        },
+        {
+          "point": "Median with odd and even examples",
+          "source_ref": "qtm--module-2#10"
+        },
+        {
+          "point": "Mode, bimodal, multimodal",
+          "source_ref": "qtm--module-2#13"
+        },
+        {
+          "point": "Median preferred with extreme values",
+          "source_ref": "qtm--module-2#8"
+        },
+        {
+          "point": "Income or property values example",
+          "source_ref": "qtm--module-2#8"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "qtm--module-2#4",
+        "qtm--module-2#5",
+        "qtm--module-2#8",
+        "qtm--module-2#9",
+        "qtm--module-2#10",
+        "qtm--module-2#13"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-mean-median-mode-q-66c35e7d",
+      "type": "long",
+      "stem": "Use the Players' Problem to show why mean, median and mode must be read together and why spread is also needed.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Data.** Each player has 20 scores and both total 655, so each mean is 32.75.\n\n**Median and mode.** Player-1: median 10, mode 4. Player-2: median 30.5, mode 45.\n\n**Reading together.** For Player-1 the mean (32.75) is much larger than the median (10), because a few big scores (such as 90 and 78) pull it up; the typical match is a low score. For Player-2 mean and median are close, so the scores are balanced.\n\n**Why spread is needed.** The averages differ in story, but a number for spread makes it clear: the range is 90 for Player-1 and 20 for Player-2. Player-2 is much more consistent.\n\n**Conclusion.** One average can mislead; compare mean, median, mode and then a measure of variability before judging performance.",
+      "rubric": [
+        {
+          "point": "Equal means 32.75",
+          "source_ref": "qtm--module-2#7"
+        },
+        {
+          "point": "Medians 10 and 30.5 and modes 4 and 45",
+          "source_ref": "qtm--module-2#14"
+        },
+        {
+          "point": "Mean pulled by large scores for Player-1",
+          "source_ref": "qtm--module-2#11"
+        },
+        {
+          "point": "Range 90 versus 20",
+          "source_ref": "qtm--module-2#7"
+        },
+        {
+          "point": "Read measures together",
+          "source_ref": "qtm--module-2#11"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 3,
+      "style_tag": "case",
+      "source_refs": [
+        "qtm--module-2#7",
+        "qtm--module-2#11",
+        "qtm--module-2#14"
+      ],
+      "derived": [
+        "655",
+        "32.75",
+        "10",
+        "4",
+        "30.5",
+        "45",
+        "90",
+        "20"
+      ],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "explain_back": {
+    "prompt": "Define mean, median and mode and show how each is found.",
+    "rubric": [
+      {
+        "point": "Mean is the sum of values divided by the number of values: Σxi/n for a sample, Σxi/N for a population",
+        "source_ref": "qtm--module-2#5"
+      },
+      {
+        "point": "Median is the middle value of ascending data; for an even count average the middle two",
+        "source_ref": "qtm--module-2#10"
+      },
+      {
+        "point": "Mode is the value with the greatest frequency; can be bimodal or multimodal",
+        "source_ref": "qtm--module-2#13"
+      },
+      {
+        "point": "Median is preferred when extreme values are present",
+        "source_ref": "qtm--module-2#8"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

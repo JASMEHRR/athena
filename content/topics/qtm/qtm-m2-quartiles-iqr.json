@@ -1,0 +1,808 @@
+{
+  "id": "qtm-m2-quartiles-iqr",
+  "subject_id": "qtm",
+  "deck_id": "qtm--module-2",
+  "title": "Quartiles and the interquartile range (IQR)",
+  "order": 7,
+  "summary": "Quartiles split the data into four groups; IQR = Q3 - Q1 is the spread of the middle 50%. Includes the grouped data formula and worked problem.",
+  "est_minutes": 22,
+  "difficulty": 2,
+  "source_refs": [
+    "qtm--module-2#28",
+    "qtm--module-2#33",
+    "qtm--module-2#29",
+    "qtm--module-2#30",
+    "qtm--module-2#31",
+    "qtm--module-2#32"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "qtm-m2-quartiles-iqr-c1",
+      "heading": "Quartiles and percentiles",
+      "explanation_md": "**Quartiles** split ordered data into **four groups**, and each quartile is a specific percentile:\n- **First quartile Q1 = 25th percentile**\n- **Second quartile Q2 = 50th percentile = the median**\n- **Third quartile Q3 = 75th percentile**\n\nThe slide draws this on a line from **Min** to **Max**: 25% of the data lies between Min and Q1, 50% between Min and the median, 75% between Min and Q3, and 50% lies on each side of the median.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Quartile",
+          "meaning": "One of three values (Q1, Q2, Q3) that divide ordered data into four groups; specific percentiles.",
+          "source_ref": "qtm--module-2#33"
+        }
+      ],
+      "exam_line": "Q1 = 25th percentile, Q2 = 50th percentile = median, Q3 = 75th percentile.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m2-quartiles-iqr-q-aa2d69a9",
+          "type": "mcq",
+          "stem": "The second quartile Q2 equals:",
+          "options": [
+            "The median (50th percentile)",
+            "The 25th percentile",
+            "The 75th percentile",
+            "The mean"
+          ],
+          "answer": "The median (50th percentile)",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2#28",
+            "qtm--module-2#33"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m2-quartiles-iqr-q-2a8e23b0",
+          "type": "fill",
+          "stem": "The third quartile Q3 is the ____th percentile.",
+          "options": [],
+          "answer": "75",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2#29",
+            "qtm--module-2#33"
+          ],
+          "derived": [
+            "Q3"
+          ],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-2#28",
+        "qtm--module-2#33"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-quartiles-iqr-c2",
+      "heading": "Interquartile range: formula, purpose and example",
+      "explanation_md": "**IQR = Q3 - Q1.** It is the **range of the middle 50% of the data**.\n\n**Purpose (from the slide):**\n- Measures the **spread of the middle 50%** of the data.\n- Useful for **identifying outliers** and understanding data variability.\n- **Less affected by extreme values than the range**: it overcomes the sensitivity to extreme data values.\n\n**Limitation:** it **ignores information outside the middle 50%**, so it can overlook important dispersion in the tails.\n\n**Slide example (70 values):** Q3 = 525, Q1 = 445, so **IQR = 525 - 445 = 80**.\n\n**Raw (ungrouped) data positions:**\n- Q1 = the ((n + 1)/4)th term\n- Q2 = the ((n + 1)/2)th term (median)\n- Q3 = the (3(n + 1)/4)th term",
+      "example_ids": [
+        "qtm-ex-iqr-70"
+      ],
+      "key_terms": [
+        {
+          "term": "Interquartile range (IQR)",
+          "meaning": "Q3 - Q1; the range for the middle 50% of the data.",
+          "source_ref": "qtm--module-2#30"
+        }
+      ],
+      "exam_line": "IQR = Q3 - Q1; spread of the middle 50%; less affected by extremes than the range but ignores the tails. Example: 525 - 445 = 80.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m2-quartiles-iqr-q-d56a83ab",
+          "type": "mcq",
+          "stem": "In the slide example Q3 = 525 and Q1 = 445. What is the IQR?",
+          "options": [
+            "80",
+            "970",
+            "190",
+            "525"
+          ],
+          "answer": "80",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2#29",
+            "qtm--module-2#31"
+          ],
+          "derived": [
+            "190",
+            "970"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m2-quartiles-iqr-q-cfe61823",
+          "type": "mcq",
+          "stem": "What is a limitation of the IQR?",
+          "options": [
+            "It ignores information outside the middle 50%",
+            "It is very sensitive to extreme values",
+            "It uses only the smallest and largest values",
+            "It cannot be found for raw data"
+          ],
+          "answer": "It ignores information outside the middle 50%",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2#26",
+            "qtm--module-2#29",
+            "qtm--module-2#30"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m2-quartiles-iqr-q-8ec1c5fa",
+          "type": "true_false",
+          "stem": "The IQR measures the spread of the middle 50% of the data.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2#29",
+            "qtm--module-2#30"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-2#29",
+        "qtm--module-2#30",
+        "qtm--module-2#31"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-quartiles-iqr-c3",
+      "heading": "Quartiles of grouped data: formula and worked problem",
+      "explanation_md": "**Formula for grouped data (class intervals):** Qk = L + ((k × n/4 - F) / f) × h\n\n- **Qk** = the k-th quartile (k = 1, 2, 3)\n- **L** = lower boundary of the quartile class\n- **n** = total frequency\n- **F** = cumulative frequency before the quartile class\n- **f** = frequency of the quartile class\n- **h** = width of the class interval\n\n**Slide problem:** classes 1-5 (6), 6-10 (19), 11-15 (13), 16-20 (20), 21-25 (12), 26-30 (11), 31-35 (6), 36-40 (5); cumulative frequency 6, 25, 38, 58, 70, 81, 87, 92. Find Q1, Q2, Q3. Here n = 92 and h = 5.\n\n**Q1** (k = 1): k × n/4 = 23, which falls in class 6-10 (cumulative 25). L = 5.5, F = 6, f = 19. Q1 = 5.5 + ((23 - 6)/19) × 5 = **9.97**.\n\n**Q2** (k = 2): 46, which falls in class 16-20 (cumulative 58). L = 15.5, F = 38, f = 20. Q2 = 15.5 + ((46 - 38)/20) × 5 = **17.5**.\n\n**Q3** (k = 3): 69, which falls in class 21-25 (cumulative 70). L = 20.5, F = 58, f = 12. Q3 = 20.5 + ((69 - 58)/12) × 5 = **25.08**.\n\nSo IQR = 25.08 - 9.97 = **15.11**.",
+      "example_ids": [
+        "qtm-ex-grouped-quartiles"
+      ],
+      "key_terms": [],
+      "exam_line": "Grouped quartile: Qk = L + ((k n/4 - F)/f) x h. Find the class where cumulative frequency first reaches k n/4.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m2-quartiles-iqr-q-5dfecb56",
+          "type": "mcq",
+          "stem": "In the grouped quartile formula Qk = L + ((k·n/4 - F)/f)·h, what does F stand for?",
+          "options": [
+            "Cumulative frequency before the quartile class",
+            "Frequency of the quartile class",
+            "Total frequency",
+            "Width of the class interval"
+          ],
+          "answer": "Cumulative frequency before the quartile class",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2#29"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m2-quartiles-iqr-q-c4cd203e",
+          "type": "mcq",
+          "stem": "In the grouped data table the total frequency is 92. For Q2, which value of k·n/4 do we use?",
+          "options": [
+            "46",
+            "23",
+            "69",
+            "92"
+          ],
+          "answer": "46",
+          "accept": [],
+          "explanation": "2 x 92/4 = 46.",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2#29",
+            "qtm--module-2#32"
+          ],
+          "derived": [
+            "23",
+            "46",
+            "69"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m2-quartiles-iqr-q-76d942e9",
+          "type": "mcq",
+          "stem": "For the median class 16-20 with L = 15.5, F = 38, f = 20, h = 5 and k·n/4 = 46, what is Q2?",
+          "options": [
+            "17.5",
+            "15.5",
+            "20.5",
+            "18"
+          ],
+          "answer": "17.5",
+          "accept": [],
+          "explanation": "15.5 + (8/20) x 5 = 17.5.",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2#29",
+            "qtm--module-2#32"
+          ],
+          "derived": [
+            "15.5",
+            "17.5",
+            "18",
+            "20.5",
+            "46"
+          ],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-2#29",
+        "qtm--module-2#32"
+      ],
+      "derived": [
+        "92",
+        "5",
+        "23",
+        "46",
+        "69",
+        "5.5",
+        "15.5",
+        "20.5",
+        "9.97",
+        "17.5",
+        "25.08",
+        "15.11"
+      ],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "qtm-m2-quartiles-iqr-f1",
+      "front": "IQR formula",
+      "back": "IQR = Q3 - Q1.",
+      "kind": "formula",
+      "source_refs": [
+        "qtm--module-2#29",
+        "qtm--module-2#30"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-quartiles-iqr-f2",
+      "front": "What does the IQR measure?",
+      "back": "The spread (range) of the middle 50% of the data.",
+      "kind": "term",
+      "source_refs": [
+        "qtm--module-2#29",
+        "qtm--module-2#30"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-quartiles-iqr-f3",
+      "front": "IQR example from the slides",
+      "back": "Q3 = 525, Q1 = 445, IQR = 525 - 445 = 80.",
+      "kind": "example",
+      "source_refs": [
+        "qtm--module-2#29",
+        "qtm--module-2#31"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-quartiles-iqr-f4",
+      "front": "Quartiles as percentiles",
+      "back": "Q1 = 25th, Q2 = 50th (median), Q3 = 75th percentile.",
+      "kind": "fact",
+      "source_refs": [
+        "qtm--module-2#28",
+        "qtm--module-2#33"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-quartiles-iqr-f5",
+      "front": "Raw data quartile positions",
+      "back": "Q1: ((n+1)/4)th term; Q2: ((n+1)/2)th term; Q3: (3(n+1)/4)th term.",
+      "kind": "formula",
+      "source_refs": [
+        "qtm--module-2#29"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-quartiles-iqr-f6",
+      "front": "Grouped data quartile formula",
+      "back": "Qk = L + ((k·n/4 - F)/f) × h.",
+      "kind": "formula",
+      "source_refs": [
+        "qtm--module-2#29"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-quartiles-iqr-f7",
+      "front": "Limitation of the IQR",
+      "back": "Ignores information outside the middle 50%, so can overlook dispersion in the tails.",
+      "kind": "fact",
+      "source_refs": [
+        "qtm--module-2#29",
+        "qtm--module-2#30"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-quartiles-iqr-f8",
+      "front": "Grouped problem: which classes hold Q1, Q2 and Q3?",
+      "back": "Q1 in class 6-10, Q2 in class 16-20, Q3 in class 21-25: compare k·n/4 with the cumulative frequency.",
+      "kind": "example",
+      "source_refs": [
+        "qtm--module-2#29",
+        "qtm--module-2#32"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [
+    {
+      "id": "qtm-m2-quartiles-iqr-q-de95ba41",
+      "type": "mcq",
+      "stem": "The first quartile Q1 corresponds to the:",
+      "options": [
+        "25th percentile",
+        "50th percentile",
+        "75th percentile",
+        "Mean"
+      ],
+      "answer": "25th percentile",
+      "accept": [],
+      "explanation": "Q1 = 25th, Q2 = 50th, Q3 = 75th percentile.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "define",
+      "source_refs": [
+        "qtm--module-2#29",
+        "qtm--module-2#33"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-quartiles-iqr-q-ad18b9d0",
+      "type": "mcq",
+      "stem": "The interquartile range is:",
+      "options": [
+        "Q3 - Q1",
+        "Q2 - Q1",
+        "Maximum - minimum",
+        "Q3 + Q1"
+      ],
+      "answer": "Q3 - Q1",
+      "accept": [],
+      "explanation": "IQR covers the middle 50%.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "define",
+      "source_refs": [
+        "qtm--module-2#29",
+        "qtm--module-2#30",
+        "qtm--module-2#26"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-quartiles-iqr-q-515af345",
+      "type": "mcq",
+      "stem": "With Q3 = 525 and Q1 = 445, the IQR is:",
+      "options": [
+        "80",
+        "190",
+        "970",
+        "525"
+      ],
+      "answer": "80",
+      "accept": [],
+      "explanation": "525 - 445 = 80.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-2#27",
+        "qtm--module-2#29",
+        "qtm--module-2#31"
+      ],
+      "derived": [
+        "970"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-quartiles-iqr-q-c725530e",
+      "type": "mcq",
+      "stem": "A limitation of the IQR is that it:",
+      "options": [
+        "Ignores information outside the middle 50%",
+        "Is very sensitive to extreme values",
+        "Uses only the largest and smallest values",
+        "Needs the standard deviation"
+      ],
+      "answer": "Ignores information outside the middle 50%",
+      "accept": [],
+      "explanation": "Tail dispersion can be overlooked.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "qtm--module-2#26",
+        "qtm--module-2#29",
+        "qtm--module-2#30"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-quartiles-iqr-q-8f60bc60",
+      "type": "mcq",
+      "stem": "In the grouped data formula, h stands for:",
+      "options": [
+        "Width of the class interval",
+        "Total frequency",
+        "Frequency of the quartile class",
+        "Lower boundary of the quartile class"
+      ],
+      "answer": "Width of the class interval",
+      "accept": [],
+      "explanation": "Defined in the slide's key.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "formula",
+      "source_refs": [
+        "qtm--module-2#29"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-quartiles-iqr-q-c3ebc0e0",
+      "type": "short",
+      "stem": "Define the interquartile range and state its purpose.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The **interquartile range (IQR)** is the difference between the third and first quartiles: **IQR = Q3 - Q1**. It is the range of the **middle 50%** of the data.\n\nPurpose: it measures the spread of the middle half, helps identify outliers and is **less affected by extreme values than the range**.",
+      "rubric": [
+        {
+          "point": "IQR = Q3 - Q1",
+          "source_ref": "qtm--module-2#29"
+        },
+        {
+          "point": "Spread of the middle 50%",
+          "source_ref": "qtm--module-2#30"
+        },
+        {
+          "point": "Less affected by extremes; identifies outliers",
+          "source_ref": "qtm--module-2#29"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 1,
+      "style_tag": "define",
+      "source_refs": [
+        "qtm--module-2#29",
+        "qtm--module-2#30"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-quartiles-iqr-q-c3fedd64",
+      "type": "short",
+      "stem": "Using the 70-value data set, find the IQR and compare it with the range.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Range = 615 - 425 = **190**.\n\nQ1 = 445 and Q3 = 525, so **IQR = 525 - 445 = 80**.\n\nThe IQR is much smaller because it ignores the extreme values and covers only the middle 50%, so it is less sensitive to them.",
+      "rubric": [
+        {
+          "point": "Range 190",
+          "source_ref": "qtm--module-2#27"
+        },
+        {
+          "point": "IQR 80",
+          "source_ref": "qtm--module-2#31"
+        },
+        {
+          "point": "IQR less sensitive to extremes",
+          "source_ref": "qtm--module-2#30"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-2#27",
+        "qtm--module-2#29",
+        "qtm--module-2#30",
+        "qtm--module-2#31"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-quartiles-iqr-q-d38d62d0",
+      "type": "short",
+      "stem": "For the grouped table (classes 1-5 to 36-40, total frequency 92), calculate Q2 and show the formula.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Formula: Qk = L + ((k × n/4 - F)/f) × h.\n\nk = 2, n = 92, so k × n/4 = 46. The cumulative frequency first passes 46 in class 16-20 (cumulative 58). L = 15.5, F = 38, f = 20, h = 5.\n\nQ2 = 15.5 + ((46 - 38)/20) × 5 = 15.5 + 2 = **17.5**.",
+      "rubric": [
+        {
+          "point": "Formula with terms",
+          "source_ref": "qtm--module-2#29"
+        },
+        {
+          "point": "k n/4 = 46 and class 16-20",
+          "source_ref": "qtm--module-2#32"
+        },
+        {
+          "point": "L = 15.5, F = 38, f = 20, h = 5",
+          "source_ref": "qtm--module-2#32"
+        },
+        {
+          "point": "Q2 = 17.5",
+          "source_ref": "qtm--module-2#32"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 3,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-2#29",
+        "qtm--module-2#32"
+      ],
+      "derived": [
+        "92",
+        "46",
+        "15.5",
+        "38",
+        "17.5"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-quartiles-iqr-q-f0cf21c0",
+      "type": "long",
+      "stem": "Explain quartiles and the interquartile range, show how quartiles are found for raw and grouped data, and explain why the IQR is better than the range.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Introduction.** Quartiles divide ordered data into four groups; the IQR uses them to describe spread.\n\n**Quartiles.** Q1 = 25th percentile, Q2 = 50th percentile = median, Q3 = 75th percentile. The slide's line from Min to Max shows 25% below Q1, 50% below the median and 75% below Q3.\n\n**Raw data.** Q1 is the ((n + 1)/4)th term, Q2 the ((n + 1)/2)th term, Q3 the (3(n + 1)/4)th term.\n\n**Grouped data.** Qk = L + ((k × n/4 - F)/f) × h, where L is the lower boundary of the quartile class, F the cumulative frequency before it, f its frequency and h the class width.\n\n**IQR.** IQR = Q3 - Q1, the spread of the middle 50%. Example: 525 - 445 = 80 against a range of 190.\n\n**Why better.** It is less affected by extreme values and helps identify outliers. Its weakness: it ignores information outside the middle 50%.\n\n**Conclusion.** Use the IQR when extremes would distort the range.",
+      "rubric": [
+        {
+          "point": "Q1, Q2, Q3 as 25th, 50th, 75th percentiles",
+          "source_ref": "qtm--module-2#33"
+        },
+        {
+          "point": "Raw data positions",
+          "source_ref": "qtm--module-2#29"
+        },
+        {
+          "point": "Grouped data formula with terms",
+          "source_ref": "qtm--module-2#29"
+        },
+        {
+          "point": "IQR = Q3 - Q1; example 80",
+          "source_ref": "qtm--module-2#31"
+        },
+        {
+          "point": "Less affected by extremes; ignores tails",
+          "source_ref": "qtm--module-2#30"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "qtm--module-2#28",
+        "qtm--module-2#29",
+        "qtm--module-2#30",
+        "qtm--module-2#31",
+        "qtm--module-2#33"
+      ],
+      "derived": [
+        "190"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-quartiles-iqr-q-8692b99e",
+      "type": "long",
+      "stem": "Calculate Q1, Q2, Q3 and the IQR for the grouped data (class intervals 1-5 to 36-40 with frequencies 6, 19, 13, 20, 12, 11, 6, 5).",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Setup.** Cumulative frequencies: 6, 25, 38, 58, 70, 81, 87, 92, so n = 92 and h = 5. Formula: Qk = L + ((k × n/4 - F)/f) × h.\n\n**Q1** (k = 1): 92/4 = 23. First cumulative frequency above 23 is 25, class 6-10. L = 5.5, F = 6, f = 19. Q1 = 5.5 + ((23 - 6)/19) × 5 = 5.5 + 4.47 = **9.97**.\n\n**Q2** (k = 2): 46, class 16-20 (cumulative 58). L = 15.5, F = 38, f = 20. Q2 = 15.5 + ((46 - 38)/20) × 5 = **17.5**.\n\n**Q3** (k = 3): 69, class 21-25 (cumulative 70). L = 20.5, F = 58, f = 12. Q3 = 20.5 + ((69 - 58)/12) × 5 = 20.5 + 4.58 = **25.08**.\n\n**IQR** = Q3 - Q1 = 25.08 - 9.97 = **15.11**.\n\n**Conclusion.** The middle half of the observations lies within a band of about 15.11.",
+      "rubric": [
+        {
+          "point": "Cumulative frequencies, n = 92, h = 5",
+          "source_ref": "qtm--module-2#32"
+        },
+        {
+          "point": "Q1 = 9.97",
+          "source_ref": "qtm--module-2#32"
+        },
+        {
+          "point": "Q2 = 17.5",
+          "source_ref": "qtm--module-2#32"
+        },
+        {
+          "point": "Q3 = 25.08",
+          "source_ref": "qtm--module-2#32"
+        },
+        {
+          "point": "IQR = 15.11",
+          "source_ref": "qtm--module-2#29"
+        }
+      ],
+      "marks": 10.0,
+      "difficulty": 3,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-2#29",
+        "qtm--module-2#32"
+      ],
+      "derived": [
+        "92",
+        "23",
+        "6",
+        "19",
+        "5.5",
+        "4.47",
+        "9.97",
+        "46",
+        "38",
+        "15.5",
+        "17.5",
+        "69",
+        "58",
+        "20.5",
+        "4.58",
+        "25.08",
+        "15.11"
+      ],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "explain_back": {
+    "prompt": "Define quartiles and the interquartile range, and explain why the IQR is preferred to the range.",
+    "rubric": [
+      {
+        "point": "Quartiles divide the data into four groups; Q1 = 25th, Q2 = median, Q3 = 75th percentile",
+        "source_ref": "qtm--module-2#33"
+      },
+      {
+        "point": "IQR = Q3 - Q1, the spread of the middle 50%",
+        "source_ref": "qtm--module-2#29"
+      },
+      {
+        "point": "Less affected by extreme values than the range; useful for identifying outliers",
+        "source_ref": "qtm--module-2#29"
+      },
+      {
+        "point": "Example: 525 - 445 = 80",
+        "source_ref": "qtm--module-2#31"
+      },
+      {
+        "point": "Limitation: ignores information in the tails",
+        "source_ref": "qtm--module-2#30"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

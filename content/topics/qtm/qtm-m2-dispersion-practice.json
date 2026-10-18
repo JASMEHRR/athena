@@ -1,0 +1,868 @@
+{
+  "id": "qtm-m2-dispersion-practice",
+  "subject_id": "qtm",
+  "deck_id": "qtm--module-2",
+  "title": "Practice: range, sample SD and CV for two data sets",
+  "order": 6,
+  "summary": "Worked MST-style problems: two players with the same mean but very different spread, and the Analytics Department salaries with a managerial reading.",
+  "est_minutes": 30,
+  "difficulty": 3,
+  "source_refs": [
+    "qtm--module-2#7",
+    "qtm--module-2#11",
+    "qtm--module-2#14",
+    "qtm--module-2#47",
+    "qtm--module-2#44",
+    "qtm--module-2#29",
+    "qtm--module-2#53"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "qtm-m2-dispersion-practice-c1",
+      "heading": "Players' problem: same mean, very different spread",
+      "explanation_md": "Each player has 20 scores (runs in different matches). Both total **655**, so both have **mean = 655 / 20 = 32.75**.\n\n**Player-1** (78, 2, 67, 45, 8, 0, 4, 78, 90, 3, 12, 12, 56, 3, 4, 5, 90, 90, 4, 4): smallest 0, largest 90.\n**Player-2** (45, 25, 35, 45, 27, 45, 32, 45, 26, 30, 28, 31, 32, 38, 37, 26, 26, 27, 28, 27): smallest 25, largest 45.\n\n**Sample range:**\n- Player-1: 90 - 0 = **90**\n- Player-2: 45 - 25 = **20**\n\n**Sample standard deviation** (s = √[Σ(x - x̄)² / (n - 1)], n = 20, mean 32.75):\n- Player-1: Σ(x - x̄)² = 25,129.75, so s² = 25,129.75 / 19 = 1,322.62 and **s = 36.37**.\n- Player-2: Σ(x - x̄)² = 1,003.75, so s² = 1,003.75 / 19 = 52.83 and **s = 7.27**.\n\n**Coefficient of variation:** Player-1 = 36.37 / 32.75 × 100 = **111.05%**; Player-2 = 7.27 / 32.75 × 100 = **22.19%**.",
+      "example_ids": [
+        "qtm-ex-two-players"
+      ],
+      "key_terms": [],
+      "exam_line": "Same mean 32.75 but Player-1 range 90, s = 36.37, CV about 111%; Player-2 range 20, s = 7.27, CV about 22%.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m2-dispersion-practice-q-9a4fe046",
+          "type": "mcq",
+          "stem": "Both players total 655 runs in 20 matches. What is each player's mean?",
+          "options": [
+            "32.75",
+            "655",
+            "20",
+            "36.37"
+          ],
+          "answer": "32.75",
+          "accept": [],
+          "explanation": "655 / 20 = 32.75.",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2#7"
+          ],
+          "derived": [
+            "32.75",
+            "36.37",
+            "655"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m2-dispersion-practice-q-b60f7e42",
+          "type": "mcq",
+          "stem": "What is the sample range of Player-2 (smallest 25, largest 45)?",
+          "options": [
+            "20",
+            "45",
+            "90",
+            "70"
+          ],
+          "answer": "20",
+          "accept": [],
+          "explanation": "45 - 25 = 20.",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2#7"
+          ],
+          "derived": [
+            "70"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m2-dispersion-practice-q-80f0fee2",
+          "type": "fill",
+          "stem": "Player-1's sample standard deviation is about ____ (to 2 decimals).",
+          "options": [],
+          "answer": "36.37",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2#7"
+          ],
+          "derived": [
+            "36.37"
+          ],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-2#7",
+        "qtm--module-2#11",
+        "qtm--module-2#14",
+        "qtm--module-2#47"
+      ],
+      "derived": [
+        "20",
+        "655",
+        "32.75",
+        "90",
+        "45",
+        "25",
+        "25,129.75",
+        "19",
+        "1,322.62",
+        "36.37",
+        "1,003.75",
+        "52.83",
+        "7.27",
+        "111.05",
+        "22.19",
+        "100",
+        "111%",
+        "22%"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-dispersion-practice-c2",
+      "heading": "Managerial interpretation of the players",
+      "explanation_md": "The deck asks: what do you observe from the mean, median and mode? Then add the spread.\n\n| Measure | Player-1 | Player-2 |\n|---|---|---|\n| Mean | 32.75 | 32.75 |\n| Median | 10 | 30.5 |\n| Mode | 4 | 45 |\n| Range | 90 | 20 |\n| Sample SD | 36.37 | 7.27 |\n| CV | 111.05% | 22.19% |\n\n**How to say it in an exam:** the two players have the **same mean**, so on average they score the same. But **Player-1 is highly inconsistent**: the range is 90, the SD is more than the mean (CV above 100%) and the median (10) is far below the mean, so a few big scores lift the average. **Player-2 is consistent**: scores sit close together (SD 7.27, CV about 22%) and the median 30.5 is close to the mean. For a manager who wants a **reliable** performer, Player-2 is the safer choice; the mean alone hides this.",
+      "example_ids": [
+        "qtm-ex-two-players"
+      ],
+      "key_terms": [],
+      "exam_line": "Same mean does not mean same performance: compare range, SD and CV. Lower SD and CV = more consistent.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m2-dispersion-practice-q-654c21df",
+          "type": "mcq",
+          "stem": "Which statement best interprets the two players (mean 32.75 each; SD 36.37 and 7.27)?",
+          "options": [
+            "Player-2 is more consistent because its standard deviation is smaller",
+            "Player-1 is more consistent because its range is larger",
+            "They are identical because the means are equal",
+            "Player-1 is better because its SD is larger"
+          ],
+          "answer": "Player-2 is more consistent because its standard deviation is smaller",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2#7",
+            "qtm--module-2#44"
+          ],
+          "derived": [
+            "32.75",
+            "36.37",
+            "7.27"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m2-dispersion-practice-q-ecbc34fc",
+          "type": "true_false",
+          "stem": "Because both players have a mean of 32.75, a manager can say their performance is the same.",
+          "options": [],
+          "answer": "False",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2#7",
+            "qtm--module-2#23"
+          ],
+          "derived": [
+            "32.75"
+          ],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-2#7",
+        "qtm--module-2#11",
+        "qtm--module-2#14",
+        "qtm--module-2#44",
+        "qtm--module-2#47"
+      ],
+      "derived": [
+        "10",
+        "30.5",
+        "4",
+        "45",
+        "100%",
+        "111.05%",
+        "22%",
+        "22.19%",
+        "32.75",
+        "36.37",
+        "7.27"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-dispersion-practice-c3",
+      "heading": "Practice Problem 2: Analytics Department salaries",
+      "explanation_md": "**Data (₹'000 per month, 12 employees):** 42, 45, 48, 50, 50, 52, 55, 58, 60, 62, 65, 95.\n\nThe HR head worries that pay differences may hurt motivation and retention. The slide asks four things.\n\n**1. Range:** 95 - 42 = **53**, a big gap between lowest and highest paid.\n\n**2. IQR:** using the percentile method, Q1 = average of the 3rd and 4th values = (48 + 50)/2 = 49; Q3 = average of the 9th and 10th values = (60 + 62)/2 = 61. **IQR = 61 - 49 = 12.** The middle half of employees fall within a band of only 12, so most pay is **clustered**; the high range comes mainly from the one highest salary, 95.\n\n**3. Standard deviation:** mean = 682 / 12 = 56.83; Σ(x - x̄)² = 2,119.67; s² = 2,119.67 / 11 = 192.70; **s = 13.88**. On average salaries deviate about 13.88 (in ₹'000) from the mean, roughly a quarter of the mean.\n\n**4. CV:** 13.88 / 56.83 × 100 = **24.42%**. If another department has the **same mean but a smaller CV**, its pay is more evenly spread (less relative disparity).\n\n**Recommendation (as HR head):** the typical spread is moderate (IQR 12) but the one extreme salary (95) inflates the range and SD, so first check whether it reflects senior talent. Reducing disparity helps fairness and morale if the gap is not explained by seniority; if it is, accept it as normal. Variability measures give the evidence for either view.",
+      "example_ids": [
+        "qtm-ex-analytics-salaries"
+      ],
+      "key_terms": [],
+      "exam_line": "Salaries: range 53; IQR 61 - 49 = 12; mean 56.83; s = 13.88; CV = 24.42%. Same mean but smaller CV means less relative pay disparity.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m2-dispersion-practice-q-1196b901",
+          "type": "mcq",
+          "stem": "What is the range of the 12 salaries (42 up to 95, in ₹'000)?",
+          "options": [
+            "53",
+            "95",
+            "42",
+            "12"
+          ],
+          "answer": "53",
+          "accept": [],
+          "explanation": "95 - 42 = 53.",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2#53"
+          ],
+          "derived": [
+            "53"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m2-dispersion-practice-q-5b0f0aa3",
+          "type": "mcq",
+          "stem": "The salaries have s = 13.88 and mean 56.83. What is the CV?",
+          "options": [
+            "24.42%",
+            "13.88%",
+            "56.83%",
+            "4.09%"
+          ],
+          "answer": "24.42%",
+          "accept": [],
+          "explanation": "13.88 / 56.83 x 100 = 24.42%.",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2#53"
+          ],
+          "derived": [
+            "100",
+            "13.88",
+            "13.88%",
+            "24.42%",
+            "4.09%",
+            "56.83",
+            "56.83%"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m2-dispersion-practice-q-2428a765",
+          "type": "true_false",
+          "stem": "If another department has the same mean salary but a smaller CV, its pay is more evenly spread.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2#47",
+            "qtm--module-2#53"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-2#29",
+        "qtm--module-2#44",
+        "qtm--module-2#53"
+      ],
+      "derived": [
+        "53",
+        "49",
+        "61",
+        "12",
+        "682",
+        "56.83",
+        "2,119.67",
+        "11",
+        "192.70",
+        "13.88",
+        "24.42",
+        "100",
+        "Q1",
+        "Q3"
+      ],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "qtm-m2-dispersion-practice-f1",
+      "front": "Players' problem: the means",
+      "back": "Both players have the same mean: total runs divided by the number of matches.",
+      "kind": "example",
+      "source_refs": [
+        "qtm--module-2#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-dispersion-practice-f2",
+      "front": "Players' problem: ranges",
+      "back": "Player-1 has a far larger range than Player-2 (largest minus smallest score).",
+      "kind": "example",
+      "source_refs": [
+        "qtm--module-2#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-dispersion-practice-f3",
+      "front": "Players' problem: sample SDs",
+      "back": "Player-1 has a much larger sample standard deviation than Player-2.",
+      "kind": "example",
+      "source_refs": [
+        "qtm--module-2#7",
+        "qtm--module-2#44"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-dispersion-practice-f4",
+      "front": "Players' problem: CVs",
+      "back": "Player-1 has a far higher CV than Player-2, so Player-2 is more consistent.",
+      "kind": "example",
+      "source_refs": [
+        "qtm--module-2#7",
+        "qtm--module-2#47"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-dispersion-practice-f5",
+      "front": "Analytics salaries: range and IQR",
+      "back": "Range = highest salary minus lowest salary; IQR = Q3 - Q1 by the percentile method; the middle half of pay is clustered.",
+      "kind": "example",
+      "source_refs": [
+        "qtm--module-2#29",
+        "qtm--module-2#53"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-dispersion-practice-f6",
+      "front": "Analytics salaries: SD and CV",
+      "back": "CV = SD / mean times one hundred; compare the standard deviation with the mean to judge whether the spread is large.",
+      "kind": "example",
+      "source_refs": [
+        "qtm--module-2#44",
+        "qtm--module-2#53"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-dispersion-practice-f7",
+      "front": "Same mean, smaller CV: what does it imply?",
+      "back": "Less relative variability, so pay (or performance) is more evenly spread.",
+      "kind": "fact",
+      "source_refs": [
+        "qtm--module-2#47",
+        "qtm--module-2#53"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-dispersion-practice-f8",
+      "front": "Exam steps for a spread question",
+      "back": "Sort the data; range = max - min; mean; squared deviations; s² with n - 1; s; CV = s / mean x 100%; then interpret.",
+      "kind": "list",
+      "source_refs": [
+        "qtm--module-2#26",
+        "qtm--module-2#44",
+        "qtm--module-2#48"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [
+    {
+      "id": "qtm-m2-dispersion-practice-q-c0435e00",
+      "type": "mcq",
+      "stem": "Player-1's largest score is 90 and smallest is 0. The sample range is:",
+      "options": [
+        "90",
+        "45",
+        "20",
+        "78"
+      ],
+      "answer": "90",
+      "accept": [],
+      "explanation": "90 - 0 = 90.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-2#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-dispersion-practice-q-9528682b",
+      "type": "mcq",
+      "stem": "Player-2 scored between 25 and 45. The sample range is:",
+      "options": [
+        "20",
+        "45",
+        "70",
+        "25"
+      ],
+      "answer": "20",
+      "accept": [],
+      "explanation": "45 - 25 = 20.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-2#7"
+      ],
+      "derived": [
+        "70"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-dispersion-practice-q-17919d5e",
+      "type": "mcq",
+      "stem": "Both players total 655 runs in 20 matches. Which statement is correct?",
+      "options": [
+        "Same mean of 32.75, but Player-2 is much more consistent",
+        "Player-1 has the higher mean",
+        "Player-2 has the larger standard deviation",
+        "They have the same standard deviation"
+      ],
+      "answer": "Same mean of 32.75, but Player-2 is much more consistent",
+      "accept": [],
+      "explanation": "SDs are 36.37 and 7.27.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "interpret",
+      "source_refs": [
+        "qtm--module-2#7",
+        "qtm--module-2#44"
+      ],
+      "derived": [
+        "32.75",
+        "36.37",
+        "7.27",
+        "655"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-dispersion-practice-q-ee28ea34",
+      "type": "mcq",
+      "stem": "The salaries have mean 56.83 and sample SD 13.88 (₹'000). The CV is about:",
+      "options": [
+        "24.42%",
+        "13.88%",
+        "4.09%",
+        "56.83%"
+      ],
+      "answer": "24.42%",
+      "accept": [],
+      "explanation": "13.88/56.83 × 100.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-2#44",
+        "qtm--module-2#53"
+      ],
+      "derived": [
+        "56.83",
+        "13.88",
+        "24.42%",
+        "4.09%",
+        "100"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-dispersion-practice-q-96bcef83",
+      "type": "mcq",
+      "stem": "A department has the same mean salary as another but a smaller CV. This implies:",
+      "options": [
+        "Its pay is more evenly spread",
+        "Its pay is more unequal",
+        "Its mean is lower",
+        "Its range is larger"
+      ],
+      "answer": "Its pay is more evenly spread",
+      "accept": [],
+      "explanation": "A smaller CV means less relative variability.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "interpret",
+      "source_refs": [
+        "qtm--module-2#47",
+        "qtm--module-2#53"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-dispersion-practice-q-68d600cf",
+      "type": "short",
+      "stem": "Calculate the sample range and sample standard deviation of Player-1's and Player-2's scores (20 matches each, mean 32.75). Interpret briefly.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Range:** Player-1 = 90 - 0 = **90**; Player-2 = 45 - 25 = **20**.\n\n**Sample SD** s = √[Σ(x - x̄)²/(n - 1)], n = 20, mean 32.75.\n- Player-1: Σ(x - x̄)² = 25,129.75; s² = 25,129.75/19 = 1,322.62; **s = 36.37**.\n- Player-2: Σ(x - x̄)² = 1,003.75; s² = 1,003.75/19 = 52.83; **s = 7.27**.\n\n**Interpretation:** same mean, but Player-1 is highly inconsistent while Player-2 is consistent.",
+      "rubric": [
+        {
+          "point": "Ranges 90 and 20",
+          "source_ref": "qtm--module-2#7"
+        },
+        {
+          "point": "Sum of squared deviations and n - 1 = 19",
+          "source_ref": "qtm--module-2#7"
+        },
+        {
+          "point": "s = 36.37 and 7.27",
+          "source_ref": "qtm--module-2#7"
+        },
+        {
+          "point": "Interpretation: Player-2 more consistent",
+          "source_ref": "qtm--module-2#7"
+        }
+      ],
+      "marks": 5.0,
+      "difficulty": 3,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-2#7",
+        "qtm--module-2#44",
+        "qtm--module-2#50"
+      ],
+      "derived": [
+        "90",
+        "20",
+        "25,129.75",
+        "19",
+        "1,322.62",
+        "36.37",
+        "1,003.75",
+        "52.83",
+        "7.27",
+        "32.75"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-dispersion-practice-q-33ae9324",
+      "type": "short",
+      "stem": "Compute the CVs for the two players and say which is more reliable.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "CV = (s / x̄) × 100.\n\n- Player-1: 36.37 / 32.75 × 100 = **111.05%**\n- Player-2: 7.27 / 32.75 × 100 = **22.19%**\n\nPlayer-2 has far lower relative variability, so is the more reliable performer.",
+      "rubric": [
+        {
+          "point": "CV formula",
+          "source_ref": "qtm--module-2#48"
+        },
+        {
+          "point": "111.05% and 22.19%",
+          "source_ref": "qtm--module-2#7"
+        },
+        {
+          "point": "Player-2 more reliable",
+          "source_ref": "qtm--module-2#7"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-2#7",
+        "qtm--module-2#48"
+      ],
+      "derived": [
+        "36.37",
+        "32.75",
+        "111.05%",
+        "7.27",
+        "22.19%"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-dispersion-practice-q-a9e864c7",
+      "type": "short",
+      "stem": "For the 12 Analytics salaries (₹'000: 42, 45, 48, 50, 50, 52, 55, 58, 60, 62, 65, 95) find the range and the IQR, and say what they show.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Range** = 95 - 42 = **53**.\n\n**IQR** (percentile method): Q1 = average of 3rd and 4th values = (48 + 50)/2 = 49; Q3 = average of 9th and 10th values = (60 + 62)/2 = 61. IQR = 61 - 49 = **12**.\n\nThe range is wide mainly because of the highest salary, 95, but the middle 50% of employees sit within a band of 12, so pay is largely clustered.",
+      "rubric": [
+        {
+          "point": "Range 53",
+          "source_ref": "qtm--module-2#53"
+        },
+        {
+          "point": "Q1 49 and Q3 61",
+          "source_ref": "qtm--module-2#53"
+        },
+        {
+          "point": "IQR 12",
+          "source_ref": "qtm--module-2#53"
+        },
+        {
+          "point": "Interpretation: clustered middle, extreme high salary",
+          "source_ref": "qtm--module-2#53"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-2#53",
+        "qtm--module-2#29",
+        "qtm--module-2#35"
+      ],
+      "derived": [
+        "53",
+        "49",
+        "61",
+        "12"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-dispersion-practice-q-a78c2288",
+      "type": "long",
+      "stem": "As HR head, analyse the 12 Analytics Department salaries (₹'000: 42, 45, 48, 50, 50, 52, 55, 58, 60, 62, 65, 95) using range, IQR, standard deviation and CV, and recommend whether to reduce pay disparity.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Range.** 95 - 42 = 53, a wide gap between lowest and highest paid.\n\n**IQR.** Q1 = (48 + 50)/2 = 49, Q3 = (60 + 62)/2 = 61, so IQR = 12. The middle half of employees is closely clustered.\n\n**Standard deviation.** Mean = 682/12 = 56.83. Σ(x - x̄)² = 2,119.67; s² = 2,119.67/11 = 192.70; **s = 13.88**. Salaries deviate about 13.88 (₹'000) from the mean, roughly a quarter of it.\n\n**CV.** 13.88/56.83 × 100 = **24.42%**. If another department has the same mean but a smaller CV, its pay is more evenly spread.\n\n**Recommendation.** The typical variation is moderate (IQR 12), while the one salary of 95 inflates the range and standard deviation. Check whether that salary reflects senior talent: if not, reduce disparity to protect fairness and morale; if it does, accept it as normal. The variability measures give the evidence for the decision.",
+      "rubric": [
+        {
+          "point": "Range 53",
+          "source_ref": "qtm--module-2#53"
+        },
+        {
+          "point": "IQR 12 and clustering",
+          "source_ref": "qtm--module-2#53"
+        },
+        {
+          "point": "Mean 56.83 and s = 13.88",
+          "source_ref": "qtm--module-2#53"
+        },
+        {
+          "point": "CV 24.42% and comparison with smaller-CV department",
+          "source_ref": "qtm--module-2#53"
+        },
+        {
+          "point": "Recommendation linked to the measures",
+          "source_ref": "qtm--module-2#53"
+        }
+      ],
+      "marks": 10.0,
+      "difficulty": 3,
+      "style_tag": "case",
+      "source_refs": [
+        "qtm--module-2#53",
+        "qtm--module-2#29",
+        "qtm--module-2#47"
+      ],
+      "derived": [
+        "53",
+        "49",
+        "61",
+        "12",
+        "682",
+        "56.83",
+        "2,119.67",
+        "11",
+        "192.70",
+        "13.88",
+        "24.42%",
+        "100"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-dispersion-practice-q-cc82e555",
+      "type": "long",
+      "stem": "Two data sets have the same mean. Explain how to compare them with sample range and sample standard deviation, using the two players, and give a managerial interpretation.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Introduction.** The same mean can hide very different spread, so we compare range and sample standard deviation.\n\n**Players.** Each has 20 scores totalling 655, so mean = 32.75.\n\n**Range.** Player-1: 90 - 0 = 90. Player-2: 45 - 25 = 20.\n\n**Sample standard deviation.** Steps: subtract the mean from each score, square, add, divide by n - 1 = 19, take the square root. Player-1: s² = 1,322.62, s = 36.37. Player-2: s² = 52.83, s = 7.27.\n\n**Interpretation.** Player-1 swings widely (the SD exceeds the mean). Player-2's scores sit close to the mean. The medians (10 and 30.5) agree with this.\n\n**Managerial view.** For a dependable performer, pick Player-2; a manager should never rely on the mean alone.",
+      "rubric": [
+        {
+          "point": "Mean 32.75 for both",
+          "source_ref": "qtm--module-2#7"
+        },
+        {
+          "point": "Ranges 90 and 20",
+          "source_ref": "qtm--module-2#7"
+        },
+        {
+          "point": "Sample SDs 36.37 and 7.27 with n - 1",
+          "source_ref": "qtm--module-2#44"
+        },
+        {
+          "point": "Interpretation of consistency",
+          "source_ref": "qtm--module-2#7"
+        },
+        {
+          "point": "Managerial recommendation",
+          "source_ref": "qtm--module-2#7"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 3,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-2#7",
+        "qtm--module-2#11",
+        "qtm--module-2#44"
+      ],
+      "derived": [
+        "655",
+        "32.75",
+        "90",
+        "20",
+        "19",
+        "1,322.62",
+        "36.37",
+        "52.83",
+        "7.27",
+        "10",
+        "30.5"
+      ],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "explain_back": {
+    "prompt": "Two data sets have the same mean. Describe how you compare them using sample range and sample standard deviation, and give a managerial interpretation (use the two players or the salaries).",
+    "rubric": [
+      {
+        "point": "Calculate the range for each set (largest minus smallest)",
+        "source_ref": "qtm--module-2#26"
+      },
+      {
+        "point": "Calculate the sample standard deviation for each (mean, squared deviations, n - 1, square root)",
+        "source_ref": "qtm--module-2#44"
+      },
+      {
+        "point": "The larger range and standard deviation means more spread and less consistency; use the coefficient of variation when means differ",
+        "source_ref": "qtm--module-2#47"
+      },
+      {
+        "point": "Players' problem: same mean but Player-2 has the smaller standard deviation, so Player-2 is more consistent",
+        "source_ref": "qtm--module-2#7"
+      },
+      {
+        "point": "Interpret for a manager: consistency, risk or fairness depending on context",
+        "source_ref": "qtm--module-2#53"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

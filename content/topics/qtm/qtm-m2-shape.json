@@ -1,0 +1,793 @@
+{
+  "id": "qtm-m2-shape",
+  "subject_id": "qtm",
+  "deck_id": "qtm--module-2",
+  "title": "Measures of shape: skewness and kurtosis",
+  "order": 9,
+  "summary": "Skewness is the lack of symmetry; kurtosis is the peakedness. Know the formulas, the mean-median-mode order, and the kurtosis thresholds.",
+  "est_minutes": 22,
+  "difficulty": 2,
+  "source_refs": [
+    "qtm--module-2#54",
+    "qtm--module-2#55",
+    "qtm--module-2#56",
+    "qtm--module-2#44",
+    "qtm--module-2#57",
+    "qtm--module-2#58",
+    "qtm--module-2#59"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "qtm-m2-shape-c1",
+      "heading": "Skewness: what it is and how it looks",
+      "explanation_md": "**Skewness** is the **absence of symmetry**: **extreme values on one side of a distribution**.\n\nThe slide draws three curves (frequency on the vertical axis):\n- **Symmetrical:** mean, median and mode sit together at the centre peak.\n- **Right skewed (positive):** the tail stretches to the right; the order from left to right is **Mode, Median, Mean**.\n- **Negatively skewed (left):** the tail stretches to the left; the order from left to right is **Mean, Median, Mode**.\n\nFor a moderately skewed distribution there is an approximate relationship: **Mean - Mode ≈ 3 (Mean - Median)**, which can be rearranged as **3 × Median = 2 × Mean + Mode**.",
+      "example_ids": [
+        "qtm-ex-weight-stack"
+      ],
+      "key_terms": [
+        {
+          "term": "Skewness",
+          "meaning": "The absence of symmetry; extreme values on one side of a distribution.",
+          "source_ref": "qtm--module-2#54"
+        }
+      ],
+      "exam_line": "Skewness = lack of symmetry. Right skewed: mode < median < mean. Left (negative): mean < median < mode. Empirical: Mean - Mode = 3(Mean - Median); 3 Median = 2 Mean + Mode.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m2-shape-q-dcded22c",
+          "type": "mcq",
+          "stem": "In a right skewed distribution, the order from left to right is:",
+          "options": [
+            "Mode, Median, Mean",
+            "Mean, Median, Mode",
+            "Median, Mean, Mode",
+            "All three at the same point"
+          ],
+          "answer": "Mode, Median, Mean",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2#55"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m2-shape-q-71490f3f",
+          "type": "fill",
+          "stem": "For a moderately skewed distribution, 3 x Median = 2 x ____ + Mode.",
+          "options": [],
+          "answer": "Mean",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2#56"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m2-shape-q-f219ab9d",
+          "type": "true_false",
+          "stem": "In a symmetrical distribution the mean, median and mode sit at the same point.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2#55"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-2#54",
+        "qtm--module-2#55",
+        "qtm--module-2#56"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-shape-c2",
+      "heading": "Coefficient of skewness",
+      "explanation_md": "The **coefficient of skewness (S or Sk)** is a **summary measure for skewness**. The slide gives two versions:\n\n- **Sk = (Mean - Mode) / Standard Deviation**\n- **Sk = 3 (Mean - Median) / Standard Deviation**\n\n**How to read it:**\n- **S < 0:** negatively skewed (to the left).\n- **S = 0:** symmetric.\n- **S > 0:** positively skewed (to the right).",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Coefficient of skewness",
+          "meaning": "A summary measure for skewness: (Mean - Mode)/SD or 3(Mean - Median)/SD.",
+          "source_ref": "qtm--module-2#57"
+        }
+      ],
+      "exam_line": "Sk = (Mean - Mode)/SD or 3(Mean - Median)/SD. S < 0 negatively skewed, S = 0 symmetric, S > 0 positively skewed.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m2-shape-q-91219c00",
+          "type": "mcq",
+          "stem": "If the coefficient of skewness S is greater than 0, the distribution is:",
+          "options": [
+            "Positively skewed to the right",
+            "Negatively skewed to the left",
+            "Symmetric",
+            "Mesokurtic"
+          ],
+          "answer": "Positively skewed to the right",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2#57"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m2-shape-q-b17d9b65",
+          "type": "mcq",
+          "stem": "Which is a formula for the coefficient of skewness on the slide?",
+          "options": [
+            "3(Mean - Median) / Standard Deviation",
+            "(Mean + Mode) / Standard Deviation",
+            "Standard Deviation / Mean",
+            "Q3 - Q1"
+          ],
+          "answer": "3(Mean - Median) / Standard Deviation",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2#57",
+            "qtm--module-2#48",
+            "qtm--module-2#29"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-2#44",
+        "qtm--module-2#57"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-shape-c3",
+      "heading": "Kurtosis: peakedness",
+      "explanation_md": "**Kurtosis** is the **peakedness of a distribution**. There are three shapes:\n- **Leptokurtic:** high and thin.\n- **Mesokurtic:** normal in shape.\n- **Platykurtic:** flat and spread out.\n\n**Formula:** Kurtosis = (1/n) × Σ ((xi - x̄) / s)⁴, summed from i = 1 to n.\n\n**Interpreting kurtosis:**\n- **Kurtosis ≈ 3:** similar to a normal distribution (mesokurtic).\n- **Kurtosis > 3:** leptokurtic, with heavier tails, a sharper peak and **more outliers**.\n- **Kurtosis < 3:** platykurtic, with lighter tails, a flatter peak and **fewer outliers**.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Kurtosis",
+          "meaning": "The peakedness of a distribution.",
+          "source_ref": "qtm--module-2#54"
+        },
+        {
+          "term": "Leptokurtic",
+          "meaning": "High and thin; kurtosis above 3, heavier tails and more outliers.",
+          "source_ref": "qtm--module-2#58"
+        },
+        {
+          "term": "Mesokurtic",
+          "meaning": "Normal in shape; kurtosis about 3.",
+          "source_ref": "qtm--module-2#58"
+        },
+        {
+          "term": "Platykurtic",
+          "meaning": "Flat and spread out; kurtosis below 3, lighter tails and fewer outliers.",
+          "source_ref": "qtm--module-2#58"
+        }
+      ],
+      "exam_line": "Kurtosis = peakedness. About 3: mesokurtic; above 3: leptokurtic (more outliers); below 3: platykurtic (fewer outliers).",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m2-shape-q-7ef1f72d",
+          "type": "mcq",
+          "stem": "A kurtosis value greater than 3 means the distribution is:",
+          "options": [
+            "Leptokurtic, with heavier tails and more outliers",
+            "Platykurtic, with fewer outliers",
+            "Mesokurtic",
+            "Negatively skewed"
+          ],
+          "answer": "Leptokurtic, with heavier tails and more outliers",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2#58",
+            "qtm--module-2#55"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m2-shape-q-ec8c8f26",
+          "type": "fill",
+          "stem": "A flat and spread out distribution is called ____.",
+          "options": [],
+          "answer": "platykurtic",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2#58"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-2#54",
+        "qtm--module-2#58"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-shape-c4",
+      "heading": "Practice problem: component thickness",
+      "explanation_md": "**Data (thickness in micrometres, 20 components):** 50, 51, 49, 52, 50, 49, 51, 50, 50, 48, 49, 51, 52, 50, 50, 49, 48, 90, 30, 51.\n\n**Step 1:** mean x̄ = 1020 / 20 = **51**.\n**Step 2:** sample standard deviation s = **10.27**.\n**Step 3:** for each value compute ((xi - x̄)/s)⁴, add them and divide by n = 20.\n\nThe slide's answer is **Kurtosis = 11.27**.\n\n**Interpretation:** 11.27 is **well above 3**, so the data is **leptokurtic**: a high peak with heavy tails. Most parts sit very close to 50, but the extreme values 90 and 30 are outliers, so extreme thickness values are far more frequent than in a normal shape.\n\n**Risk and action:** high kurtosis (heavy tails) **signals a risk to manufacturing consistency**. The company could use **tighter process control, equipment calibration or adjusted reject limits**.",
+      "example_ids": [
+        "qtm-ex-thickness"
+      ],
+      "key_terms": [],
+      "exam_line": "Thickness data: mean 51, s = 10.27, kurtosis = 11.27 > 3, leptokurtic, outliers 90 and 30, so risk to consistency; tighter process control, calibration, reject limits.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m2-shape-q-0f52bfe5",
+          "type": "mcq",
+          "stem": "The thickness data gives kurtosis = 11.27. What does this tell you?",
+          "options": [
+            "Leptokurtic: heavy tails and more extreme thickness values",
+            "Platykurtic: a flat distribution",
+            "Perfectly normal shape",
+            "Negatively skewed"
+          ],
+          "answer": "Leptokurtic: heavy tails and more extreme thickness values",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2#58",
+            "qtm--module-2#59"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m2-shape-q-1038d1c3",
+          "type": "mcq",
+          "stem": "Which action does the slide suggest after seeing high kurtosis?",
+          "options": [
+            "Tighter process control",
+            "Raising the mean",
+            "Ignoring the outliers",
+            "Switching to the mode"
+          ],
+          "answer": "Tighter process control",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2#59"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-2#59"
+      ],
+      "derived": [
+        "1020",
+        "51",
+        "10.27"
+      ],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "qtm-m2-shape-f1",
+      "front": "Skewness",
+      "back": "Absence of symmetry; extreme values on one side of the distribution.",
+      "kind": "term",
+      "source_refs": [
+        "qtm--module-2#54"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-shape-f2",
+      "front": "Order of mean, median, mode when right skewed",
+      "back": "Mode, Median, Mean (left to right).",
+      "kind": "fact",
+      "source_refs": [
+        "qtm--module-2#55"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-shape-f3",
+      "front": "Order when negatively skewed",
+      "back": "Mean, Median, Mode (left to right).",
+      "kind": "fact",
+      "source_refs": [
+        "qtm--module-2#55"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-shape-f4",
+      "front": "Empirical skew relationship",
+      "back": "Mean - Mode ≈ 3(Mean - Median), or 3 × Median = 2 × Mean + Mode.",
+      "kind": "formula",
+      "source_refs": [
+        "qtm--module-2#56"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-shape-f5",
+      "front": "Coefficient of skewness",
+      "back": "Sk = (Mean - Mode)/SD or 3(Mean - Median)/SD; S < 0 negative, 0 symmetric, > 0 positive.",
+      "kind": "formula",
+      "source_refs": [
+        "qtm--module-2#44",
+        "qtm--module-2#57"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-shape-f6",
+      "front": "Kurtosis shapes",
+      "back": "Leptokurtic (high and thin), mesokurtic (normal), platykurtic (flat and spread out).",
+      "kind": "list",
+      "source_refs": [
+        "qtm--module-2#58"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-shape-f7",
+      "front": "Kurtosis thresholds",
+      "back": "About 3: mesokurtic; above 3: leptokurtic (more outliers); below 3: platykurtic (fewer outliers).",
+      "kind": "fact",
+      "source_refs": [
+        "qtm--module-2#58"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-shape-f8",
+      "front": "Thickness practice: kurtosis result",
+      "back": "11.27, leptokurtic, so heavy tails and outliers such as 90 and 30.",
+      "kind": "example",
+      "source_refs": [
+        "qtm--module-2#59"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [
+    {
+      "id": "qtm-m2-shape-q-d614cedc",
+      "type": "mcq",
+      "stem": "Skewness measures:",
+      "options": [
+        "The absence of symmetry in a distribution",
+        "The peakedness of a distribution",
+        "The spread of the middle 50%",
+        "The average of the data"
+      ],
+      "answer": "The absence of symmetry in a distribution",
+      "accept": [],
+      "explanation": "Slide definition.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "define",
+      "source_refs": [
+        "qtm--module-2#54"
+      ],
+      "derived": [
+        "50%"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-shape-q-3e24b311",
+      "type": "mcq",
+      "stem": "In a negatively skewed distribution the order from left to right is:",
+      "options": [
+        "Mean, Median, Mode",
+        "Mode, Median, Mean",
+        "Median, Mode, Mean",
+        "Mode, Mean, Median"
+      ],
+      "answer": "Mean, Median, Mode",
+      "accept": [],
+      "explanation": "Tail to the left pulls the mean left.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "interpret",
+      "source_refs": [
+        "qtm--module-2#55"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-shape-q-3ed0f90d",
+      "type": "mcq",
+      "stem": "If the coefficient of skewness S is 0, the distribution is:",
+      "options": [
+        "Symmetric",
+        "Positively skewed",
+        "Negatively skewed",
+        "Leptokurtic"
+      ],
+      "answer": "Symmetric",
+      "accept": [],
+      "explanation": "S = 0 means symmetric.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "interpret",
+      "source_refs": [
+        "qtm--module-2#57",
+        "qtm--module-2#58"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-shape-q-19e18ab2",
+      "type": "mcq",
+      "stem": "A kurtosis value below 3 indicates:",
+      "options": [
+        "Platykurtic: flatter peak and fewer outliers",
+        "Leptokurtic: sharper peak",
+        "Mesokurtic: normal",
+        "Positively skewed"
+      ],
+      "answer": "Platykurtic: flatter peak and fewer outliers",
+      "accept": [],
+      "explanation": "Below 3 is platykurtic.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "interpret",
+      "source_refs": [
+        "qtm--module-2#58",
+        "qtm--module-2#57"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-shape-q-865618f5",
+      "type": "mcq",
+      "stem": "Which formula gives a coefficient of skewness?",
+      "options": [
+        "(Mean - Mode) / Standard Deviation",
+        "(Q3 - Q1) / Median",
+        "Standard Deviation / Mean",
+        "Largest - smallest"
+      ],
+      "answer": "(Mean - Mode) / Standard Deviation",
+      "accept": [],
+      "explanation": "Slide formula.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "formula",
+      "source_refs": [
+        "qtm--module-2#57",
+        "qtm--module-2#48",
+        "qtm--module-2#29",
+        "qtm--module-2#26"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-shape-q-9dd94a24",
+      "type": "short",
+      "stem": "Describe the three kurtosis shapes and the value of kurtosis for each.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Kurtosis is the **peakedness** of a distribution.\n- **Leptokurtic:** high and thin; kurtosis above 3, heavier tails, more outliers.\n- **Mesokurtic:** normal in shape; kurtosis about 3.\n- **Platykurtic:** flat and spread out; kurtosis below 3, lighter tails, fewer outliers.",
+      "rubric": [
+        {
+          "point": "Leptokurtic above 3",
+          "source_ref": "qtm--module-2#58"
+        },
+        {
+          "point": "Mesokurtic about 3",
+          "source_ref": "qtm--module-2#58"
+        },
+        {
+          "point": "Platykurtic below 3",
+          "source_ref": "qtm--module-2#58"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 1,
+      "style_tag": "list",
+      "source_refs": [
+        "qtm--module-2#58"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-shape-q-c2946d09",
+      "type": "short",
+      "stem": "Distinguish a right skewed distribution from a negatively skewed one, with the order of mean, median and mode.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Right (positively) skewed:** tail stretches to the right; extreme values on the high side; order from left to right is **Mode, Median, Mean**; S > 0.\n\n**Negatively skewed:** tail stretches to the left; extreme values on the low side; order is **Mean, Median, Mode**; S < 0.\n\nIn a symmetrical distribution all three coincide and S = 0.",
+      "rubric": [
+        {
+          "point": "Right skewed: mode, median, mean; S > 0",
+          "source_ref": "qtm--module-2#55"
+        },
+        {
+          "point": "Negative: mean, median, mode; S < 0",
+          "source_ref": "qtm--module-2#57"
+        },
+        {
+          "point": "Symmetric: all equal",
+          "source_ref": "qtm--module-2#55"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "differentiate",
+      "source_refs": [
+        "qtm--module-2#55",
+        "qtm--module-2#57"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-shape-q-f51fec6a",
+      "type": "short",
+      "stem": "State the empirical relationship between mean, median and mode for a moderately skewed distribution, and show how it rearranges.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "For a moderately skewed distribution: **Mean - Mode ≈ 3 (Mean - Median)**.\n\nRearranging: Mean - Mode ≈ 3 Mean - 3 Median, so **3 × Median = 2 × Mean + Mode**.",
+      "rubric": [
+        {
+          "point": "Mean - Mode ≈ 3(Mean - Median)",
+          "source_ref": "qtm--module-2#56"
+        },
+        {
+          "point": "Rearranged to 3 Median = 2 Mean + Mode",
+          "source_ref": "qtm--module-2#56"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 2,
+      "style_tag": "formula",
+      "source_refs": [
+        "qtm--module-2#56"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-shape-q-9817f6cb",
+      "type": "long",
+      "stem": "Explain skewness and the coefficient of skewness, including how mean, median and mode behave in each case.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Introduction.** Skewness describes the shape of a distribution: the absence of symmetry caused by extreme values on one side.\n\n**Three cases.**\n- **Symmetrical:** mean, median and mode at the centre.\n- **Right skewed:** long tail to the right; order Mode, Median, Mean.\n- **Negatively skewed:** long tail to the left; order Mean, Median, Mode.\n\n**Empirical relationship.** For moderate skew, Mean - Mode ≈ 3(Mean - Median), or 3 × Median = 2 × Mean + Mode.\n\n**Coefficient of skewness.** Sk = (Mean - Mode)/Standard Deviation or Sk = 3(Mean - Median)/Standard Deviation. If S < 0 the distribution is negatively skewed, S = 0 symmetric, S > 0 positively skewed.\n\n**Conclusion.** Skewness tells us when the mean is pulled by extremes, which links back to choosing the median for skewed data.",
+      "rubric": [
+        {
+          "point": "Skewness = absence of symmetry",
+          "source_ref": "qtm--module-2#54"
+        },
+        {
+          "point": "Orders of mean, median and mode in three cases",
+          "source_ref": "qtm--module-2#55"
+        },
+        {
+          "point": "Empirical relationship",
+          "source_ref": "qtm--module-2#56"
+        },
+        {
+          "point": "Two Sk formulas",
+          "source_ref": "qtm--module-2#57"
+        },
+        {
+          "point": "Sign interpretation of S",
+          "source_ref": "qtm--module-2#57"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "qtm--module-2#54",
+        "qtm--module-2#55",
+        "qtm--module-2#56",
+        "qtm--module-2#57"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-shape-q-d2aa02ea",
+      "type": "long",
+      "stem": "The thickness (micrometres) of 20 components is: 50, 51, 49, 52, 50, 49, 51, 50, 50, 48, 49, 51, 52, 50, 50, 49, 48, 90, 30, 51. The kurtosis is 11.27. Interpret it and advise the company.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Introduction.** Kurtosis = (1/n) Σ ((xi - x̄)/s)⁴ measures peakedness and tail weight.\n\n**Calculation context.** The mean is 1020/20 = 51 and the sample standard deviation is 10.27; averaging the fourth powers of the standardised values gives the slide's result, **kurtosis = 11.27**.\n\n**Interpretation.** 11.27 is far above 3, so the data is **leptokurtic**: a high sharp peak and heavy tails. Most components are very close to 50, but extreme thicknesses (90 and 30) appear, meaning outliers are frequent compared with a normal shape.\n\n**Risk.** High kurtosis signals a risk to manufacturing consistency because extreme thickness values drive defects.\n\n**Actions.** Tighter process control, equipment calibration and adjusting reject limits.\n\n**Conclusion.** The company should investigate the cause of the extreme values rather than rely on the average thickness.",
+      "rubric": [
+        {
+          "point": "Kurtosis 11.27 is above 3, leptokurtic",
+          "source_ref": "qtm--module-2#58"
+        },
+        {
+          "point": "Heavy tails and more outliers (90 and 30)",
+          "source_ref": "qtm--module-2#59"
+        },
+        {
+          "point": "Risk to consistency",
+          "source_ref": "qtm--module-2#59"
+        },
+        {
+          "point": "Tighter process control, calibration, reject limits",
+          "source_ref": "qtm--module-2#59"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 3,
+      "style_tag": "case",
+      "source_refs": [
+        "qtm--module-2#58",
+        "qtm--module-2#59"
+      ],
+      "derived": [
+        "1020",
+        "51",
+        "10.27"
+      ],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "explain_back": {
+    "prompt": "Explain skewness and kurtosis and how each is interpreted, with the thickness problem as an application.",
+    "rubric": [
+      {
+        "point": "Skewness is lack of symmetry; S < 0 negative, S = 0 symmetric, S > 0 positive",
+        "source_ref": "qtm--module-2#57"
+      },
+      {
+        "point": "Right skewed order is mode, median, mean; left skewed is mean, median, mode",
+        "source_ref": "qtm--module-2#55"
+      },
+      {
+        "point": "Kurtosis is peakedness; leptokurtic above 3, mesokurtic about 3, platykurtic below 3",
+        "source_ref": "qtm--module-2#58"
+      },
+      {
+        "point": "Thickness data: kurtosis 11.27 means heavy tails and outliers",
+        "source_ref": "qtm--module-2#59"
+      },
+      {
+        "point": "Possible actions: tighter process control, calibration, reject limits",
+        "source_ref": "qtm--module-2#59"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

@@ -1,0 +1,586 @@
+{
+  "id": "qtm-m2-why-dispersion",
+  "subject_id": "qtm",
+  "deck_id": "qtm--module-2",
+  "title": "Why averages are not enough: measures of variability",
+  "order": 1,
+  "summary": "Two data sets can share the same mean, median and mode and still look completely different. Measures of variability tell you how spread out the data is.",
+  "est_minutes": 12,
+  "difficulty": 1,
+  "source_refs": [
+    "qtm--module-2#23",
+    "qtm--module-2#24",
+    "qtm--module-2#25"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "qtm-m2-why-dispersion-c1",
+      "heading": "Same average, different spread",
+      "explanation_md": "The deck asks a direct question: **are mean, median and mode sufficient?**\n\nLook at the two suppliers. **Supplier-1** is 1, 2, 3, 4, 5, 6, 6, 7, 8, 9, 10, 11. **Supplier-2** is 4, 5, 5, 5, 6, 6, 6, 6, 7, 7, 7, 8.\n\nFor both sets the **mean = median = mode = 6**. Yet the picture is very different. In Supplier-1 the **data are spread out** (from 1 to 11). In Supplier-2 the **data are clustered together** (from 4 to 8).\n\nSo an average alone cannot tell you which set is more consistent. You need a second number that measures spread.",
+      "example_ids": [
+        "qtm-ex-suppliers"
+      ],
+      "key_terms": [
+        {
+          "term": "Spread (dispersion)",
+          "meaning": "How far apart the data values are, shown by the supplier data sets that share an average of 6 but differ in spread.",
+          "source_ref": "qtm--module-2#23"
+        }
+      ],
+      "exam_line": "Data sets with the same mean, median and mode (all 6 for the two suppliers) can still differ: one is spread out, the other is clustered together.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m2-why-dispersion-q-c6c6aec7",
+          "type": "mcq",
+          "stem": "For Supplier-1 and Supplier-2, which statement is true?",
+          "options": [
+            "Both have mean = median = mode = 6, but Supplier-1 is more spread out",
+            "Supplier-1 has a higher mean than Supplier-2",
+            "Supplier-2 has the larger range",
+            "The two sets have different medians"
+          ],
+          "answer": "Both have mean = median = mode = 6, but Supplier-1 is more spread out",
+          "accept": [],
+          "explanation": "Both sets give 6 for all three averages; the dot plots show Supplier-1 spread out and Supplier-2 clustered.",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2#23"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m2-why-dispersion-q-216a6e42",
+          "type": "true_false",
+          "stem": "If two data sets have the same mean, median and mode, they must look the same.",
+          "options": [],
+          "answer": "False",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2#23"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-2#23"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-why-dispersion-c2",
+      "heading": "Why we measure variability",
+      "explanation_md": "The professor says it is often **desirable to consider measures of variability (dispersion) as well as measures of central tendency**.\n\nHis example: when choosing **supplier A or supplier B**, look not only at the **average delivery time** of each, but also at the **variability in delivery time** of each. A supplier who is on time on average but sometimes very late is a different risk from one who is steady.\n\nThe deck covers five measures of variability:\n1. **Range**\n2. **Interquartile Range**\n3. **Variance**\n4. **Standard Deviation**\n5. **Coefficient of Variation**",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Measures of variability",
+          "meaning": "Numbers that describe how spread out the data is, also called dispersion: range, interquartile range, variance, standard deviation and coefficient of variation.",
+          "source_ref": "qtm--module-2#25"
+        }
+      ],
+      "exam_line": "Use both central tendency and variability. Five measures of variability: range, interquartile range, variance, standard deviation, coefficient of variation.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m2-why-dispersion-q-55368372",
+          "type": "fill",
+          "stem": "When choosing between two suppliers we should consider the average delivery time and also the ____ in delivery time.",
+          "options": [],
+          "answer": "variability",
+          "accept": [
+            "dispersion",
+            "variation"
+          ],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2#24"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m2-why-dispersion-q-0fe45e6f",
+          "type": "mcq",
+          "stem": "Which of these is NOT one of the five measures of variability listed in the deck?",
+          "options": [
+            "Mode",
+            "Range",
+            "Variance",
+            "Coefficient of Variation"
+          ],
+          "answer": "Mode",
+          "accept": [],
+          "explanation": "Mode is a measure of central tendency.",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2#25",
+            "qtm--module-2#3"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-2#24",
+        "qtm--module-2#25"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "qtm-m2-why-dispersion-f1",
+      "front": "Name the five measures of variability in this deck.",
+      "back": "Range, interquartile range, variance, standard deviation, coefficient of variation.",
+      "kind": "list",
+      "source_refs": [
+        "qtm--module-2#25"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-why-dispersion-f2",
+      "front": "Why do we need variability as well as an average?",
+      "back": "Two data sets can have the same mean, median and mode but one is spread out and the other clustered.",
+      "kind": "fact",
+      "source_refs": [
+        "qtm--module-2#23",
+        "qtm--module-2#24"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-why-dispersion-f3",
+      "front": "Supplier-1 data",
+      "back": "1, 2, 3, 4, 5, 6, 6, 7, 8, 9, 10, 11 (spread out; mean = median = mode = 6).",
+      "kind": "example",
+      "source_refs": [
+        "qtm--module-2#23"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-why-dispersion-f4",
+      "front": "Supplier-2 data",
+      "back": "4, 5, 5, 5, 6, 6, 6, 6, 7, 7, 7, 8 (clustered together; mean = median = mode = 6).",
+      "kind": "example",
+      "source_refs": [
+        "qtm--module-2#23"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-why-dispersion-f5",
+      "front": "Supplier choice: what should you consider besides average delivery time?",
+      "back": "The variability in delivery time of each supplier.",
+      "kind": "fact",
+      "source_refs": [
+        "qtm--module-2#24"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [
+    {
+      "id": "qtm-m2-why-dispersion-q-fa12c33f",
+      "type": "mcq",
+      "stem": "Two suppliers' delivery data both show mean, median and mode equal to 6. What does this tell you about their spread?",
+      "options": [
+        "Nothing; the averages are equal but the spread can still differ, as the dot plots show",
+        "Their spread must be equal",
+        "Supplier-2 must be more spread out",
+        "Both must have a range of 6"
+      ],
+      "answer": "Nothing; the averages are equal but the spread can still differ, as the dot plots show",
+      "accept": [],
+      "explanation": "Set I is spread out and Set II is clustered although all three averages are 6.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "interpret",
+      "source_refs": [
+        "qtm--module-2#23"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-why-dispersion-q-56725ce1",
+      "type": "mcq",
+      "stem": "Which description fits Supplier-2's data (4, 5, 5, 5, 6, 6, 6, 6, 7, 7, 7, 8)?",
+      "options": [
+        "Data are clustered together",
+        "Data are spread out from 1 to 11",
+        "The mode is 4",
+        "The mean is below the median"
+      ],
+      "answer": "Data are clustered together",
+      "accept": [],
+      "explanation": "The slide labels Set II as clustered together.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "identify",
+      "source_refs": [
+        "qtm--module-2#23"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-why-dispersion-q-adb9b381",
+      "type": "mcq",
+      "stem": "A buyer comparing two suppliers looks only at the average delivery time. According to the deck, what else should be considered?",
+      "options": [
+        "The variability in delivery time for each supplier",
+        "Only the mode of each supplier",
+        "The largest value only",
+        "The number of suppliers"
+      ],
+      "answer": "The variability in delivery time for each supplier",
+      "accept": [],
+      "explanation": "The slide says to consider variability as well as the average.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "explain",
+      "source_refs": [
+        "qtm--module-2#24"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-why-dispersion-q-e37f0600",
+      "type": "mcq",
+      "stem": "Measures of variability are also called:",
+      "options": [
+        "Dispersion",
+        "Central tendency",
+        "Location",
+        "Percentile rank"
+      ],
+      "answer": "Dispersion",
+      "accept": [],
+      "explanation": "The slide writes variability (dispersion).",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "define",
+      "source_refs": [
+        "qtm--module-2#24",
+        "qtm--module-2#25"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-why-dispersion-q-6969547f",
+      "type": "mcq",
+      "stem": "How many measures of variability are listed in the deck's overview?",
+      "options": [
+        "Five",
+        "Three",
+        "Two",
+        "Seven"
+      ],
+      "answer": "Five",
+      "accept": [],
+      "explanation": "Range, interquartile range, variance, standard deviation and coefficient of variation.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "list",
+      "source_refs": [
+        "qtm--module-2#25"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-why-dispersion-q-59d3b987",
+      "type": "short",
+      "stem": "Define measures of variability and name the five the deck lists.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Measures of variability (dispersion)** describe how spread out the data is, as a complement to the measures of central tendency.\n\nThe deck lists five:\n1. **Range**\n2. **Interquartile range**\n3. **Variance**\n4. **Standard deviation**\n5. **Coefficient of variation**\n\nThey are needed because averages alone can hide the spread.",
+      "rubric": [
+        {
+          "point": "Variability (dispersion) describes the spread of data",
+          "source_ref": "qtm--module-2#24"
+        },
+        {
+          "point": "Used alongside central tendency",
+          "source_ref": "qtm--module-2#24"
+        },
+        {
+          "point": "All five measures named",
+          "source_ref": "qtm--module-2#25"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 1,
+      "style_tag": "define",
+      "source_refs": [
+        "qtm--module-2#24",
+        "qtm--module-2#25"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-why-dispersion-q-de7abaa3",
+      "type": "short",
+      "stem": "Using the two supplier data sets, state their ranges and say which supplier is more spread out.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Range = largest value - smallest value.\n\n- **Supplier-1:** 11 - 1 = **10**\n- **Supplier-2:** 8 - 4 = **4**\n\nSupplier-1 has the larger range, so its data are **more spread out**, even though both have mean = median = mode = 6.",
+      "rubric": [
+        {
+          "point": "Range formula applied",
+          "source_ref": "qtm--module-2#23"
+        },
+        {
+          "point": "Supplier-1 range 10 and Supplier-2 range 4",
+          "source_ref": "qtm--module-2#23"
+        },
+        {
+          "point": "Supplier-1 is more spread out",
+          "source_ref": "qtm--module-2#23"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 1,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-2#23"
+      ],
+      "derived": [
+        "10",
+        "4"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-why-dispersion-q-dab1f9de",
+      "type": "short",
+      "stem": "A manager says a supplier with an average delivery time of 6 days is 'reliable'. Use the deck's idea to challenge this in a few lines.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "An **average alone does not show reliability**. The deck's two supplier sets both have a mean, median and mode of 6, but Supplier-1 is spread out from 1 to 11 while Supplier-2 is clustered from 4 to 8.\n\nA supplier who is sometimes very early and sometimes very late is a different risk from one who is steady. So the manager must also look at the **variability in delivery time** (for example the range or standard deviation) before judging reliability.",
+      "rubric": [
+        {
+          "point": "Average alone is not enough",
+          "source_ref": "qtm--module-2#23"
+        },
+        {
+          "point": "Supplier-1 spread out versus Supplier-2 clustered with the same average",
+          "source_ref": "qtm--module-2#23"
+        },
+        {
+          "point": "Consider variability in delivery time",
+          "source_ref": "qtm--module-2#24"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "case",
+      "source_refs": [
+        "qtm--module-2#23",
+        "qtm--module-2#24"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-why-dispersion-q-0613eeb1",
+      "type": "long",
+      "stem": "Explain why mean, median and mode are not sufficient to describe a data set. Support your answer with the two supplier data sets and show how the range separates them.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Introduction.** Mean, median and mode describe the centre of the data. They say nothing about how far the values stretch around that centre, so two data sets can look identical on all three and still behave very differently.\n\n**Example from the deck.** Supplier-1: 1, 2, 3, 4, 5, 6, 6, 7, 8, 9, 10, 11. Supplier-2: 4, 5, 5, 5, 6, 6, 6, 6, 7, 7, 7, 8. For both, **mean = median = mode = 6**. On the dot plots Supplier-1 is **spread out** and Supplier-2 is **clustered together**.\n\n**What separates them.** A measure of variability does. The simplest is the range: Supplier-1 = 11 - 1 = 10; Supplier-2 = 8 - 4 = 4. The larger range shows Supplier-1 is more spread out.\n\n**Why it matters.** When choosing a supplier we should consider not only the average delivery time but also the **variability in delivery time**. A steady supplier is easier to plan around.\n\n**Measures available.** Range, interquartile range, variance, standard deviation and coefficient of variation.\n\n**Conclusion.** Always report a measure of centre together with a measure of spread.",
+      "rubric": [
+        {
+          "point": "Averages describe the centre only",
+          "source_ref": "qtm--module-2#23"
+        },
+        {
+          "point": "Both suppliers have mean = median = mode = 6",
+          "source_ref": "qtm--module-2#23"
+        },
+        {
+          "point": "Supplier-1 is spread out, Supplier-2 is clustered",
+          "source_ref": "qtm--module-2#23"
+        },
+        {
+          "point": "Range 10 versus 4 separates them",
+          "source_ref": "qtm--module-2#23"
+        },
+        {
+          "point": "Consider variability in delivery time when choosing a supplier",
+          "source_ref": "qtm--module-2#24"
+        },
+        {
+          "point": "Five measures of variability listed",
+          "source_ref": "qtm--module-2#25"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "qtm--module-2#23",
+        "qtm--module-2#24",
+        "qtm--module-2#25"
+      ],
+      "derived": [
+        "10",
+        "4"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-why-dispersion-q-107db508",
+      "type": "long",
+      "stem": "Compare Supplier-1 and Supplier-2 using range and sample standard deviation, and give a managerial recommendation on which supplier to prefer for dependable delivery.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Data.** Supplier-1: 1, 2, 3, 4, 5, 6, 6, 7, 8, 9, 10, 11 (n = 12). Supplier-2: 4, 5, 5, 5, 6, 6, 6, 6, 7, 7, 7, 8 (n = 12). Both have a mean of 6 (each total is 72).\n\n**Range.** Supplier-1: 11 - 1 = 10. Supplier-2: 8 - 4 = 4.\n\n**Sample standard deviation**, s = √[Σ(x - x̄)² / (n - 1)].\n- Supplier-1: squared deviations 25, 16, 9, 4, 1, 0, 0, 1, 4, 9, 16, 25 add to 110. s² = 110 / 11 = 10, so **s = 3.16**.\n- Supplier-2: squared deviations add to 14. s² = 14 / 11 = 1.27, so **s = 1.13**.\n\n**Interpretation.** With the same mean, median and mode (6), Supplier-1 has both the larger range (10 against 4) and the larger standard deviation (3.16 against 1.13). Its delivery times are far less consistent.\n\n**Recommendation.** Prefer **Supplier-2** for dependable delivery because its times are clustered close to the average of 6. The average alone could not show this.",
+      "rubric": [
+        {
+          "point": "Mean 6 for both sets",
+          "source_ref": "qtm--module-2#23"
+        },
+        {
+          "point": "Ranges 10 and 4",
+          "source_ref": "qtm--module-2#23"
+        },
+        {
+          "point": "Sample SD 3.16 and 1.13 with n - 1 working",
+          "source_ref": "qtm--module-2#23"
+        },
+        {
+          "point": "Supplier-1 more spread out on both measures",
+          "source_ref": "qtm--module-2#23"
+        },
+        {
+          "point": "Recommend the more consistent Supplier-2 and say why",
+          "source_ref": "qtm--module-2#24"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 3,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-2#23",
+        "qtm--module-2#24",
+        "qtm--module-2#44"
+      ],
+      "derived": [
+        "72",
+        "12",
+        "110",
+        "11",
+        "10",
+        "3.16",
+        "14",
+        "1.27",
+        "1.13",
+        "16",
+        "25"
+      ],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "explain_back": {
+    "prompt": "Explain why mean, median and mode are not sufficient, using the two supplier data sets.",
+    "rubric": [
+      {
+        "point": "Supplier-1 and Supplier-2 both have mean = median = mode = 6",
+        "source_ref": "qtm--module-2#23"
+      },
+      {
+        "point": "Supplier-1 is spread out from 1 to 11 while Supplier-2 is clustered between 4 and 8",
+        "source_ref": "qtm--module-2#23"
+      },
+      {
+        "point": "So we also need a measure of variability when comparing, for example, delivery times",
+        "source_ref": "qtm--module-2#24"
+      },
+      {
+        "point": "Measures: range, interquartile range, variance, standard deviation, coefficient of variation",
+        "source_ref": "qtm--module-2#25"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

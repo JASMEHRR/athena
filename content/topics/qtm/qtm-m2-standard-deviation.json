@@ -1,0 +1,754 @@
+{
+  "id": "qtm-m2-standard-deviation",
+  "subject_id": "qtm",
+  "deck_id": "qtm--module-2",
+  "title": "Standard deviation: sample and population",
+  "order": 4,
+  "summary": "SD is the square root of variance, in the same units as the data. Learn the steps, the limits, and the normal curve percentages.",
+  "est_minutes": 20,
+  "difficulty": 2,
+  "source_refs": [
+    "qtm--module-2#43",
+    "qtm--module-2#44",
+    "qtm--module-2#45",
+    "qtm--module-2#50",
+    "qtm--module-2#23",
+    "qtm--module-2#46"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "qtm-m2-standard-deviation-c1",
+      "heading": "Definition and formulas",
+      "explanation_md": "The **standard deviation** of a data set is the **positive square root of the variance**.\n\n- **Sample:** s = √s²\n- **Population:** σ = √σ²\n\nIt **measures the average distance of data points from the mean**, and it is **measured in the same units as the data**, so it is easier to interpret than the variance (which is in squared units).\n\nThe slides use the same 70-value table (ascending order) for the variance and the standard deviation, so the variance result carries straight into the SD.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Standard deviation",
+          "meaning": "The positive square root of the variance; the average distance of data points from the mean, in the same units as the data.",
+          "source_ref": "qtm--module-2#44"
+        }
+      ],
+      "exam_line": "SD = positive square root of variance: s = √s² (sample), σ = √σ² (population). Same units as the data.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m2-standard-deviation-q-535dea8c",
+          "type": "mcq",
+          "stem": "What is the standard deviation?",
+          "options": [
+            "The positive square root of the variance",
+            "The square of the variance",
+            "Largest minus smallest value",
+            "Q3 minus Q1"
+          ],
+          "answer": "The positive square root of the variance",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2#26",
+            "qtm--module-2#29",
+            "qtm--module-2#30",
+            "qtm--module-2#44"
+          ],
+          "derived": [
+            "Q1",
+            "Q3"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m2-standard-deviation-q-ced82510",
+          "type": "true_false",
+          "stem": "The standard deviation is measured in the same units as the data.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2#44"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m2-standard-deviation-q-9b3483e3",
+          "type": "fill",
+          "stem": "The sample standard deviation s equals the square ____ of s².",
+          "options": [],
+          "answer": "root",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2#44"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-2#43",
+        "qtm--module-2#44",
+        "qtm--module-2#45"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-standard-deviation-c2",
+      "heading": "Worked result and a small worked example",
+      "explanation_md": "**Professor's worked result (70 values, mean 490.80):**\n- s² = 2,996.16\n- **s = √s² = √2996.16 = 54.74**\n\n**Worked example with the supplier data (steps as in the exam):**\n\nSupplier-1 (1, 2, 3, 4, 5, 6, 6, 7, 8, 9, 10, 11), n = 12, mean = 6.\n- Squared deviations: 25, 16, 9, 4, 1, 0, 0, 1, 4, 9, 16, 25, which add to 110.\n- s² = 110 / (12 - 1) = 10.\n- s = √10 = **3.16**.\n\nSupplier-2 (4, 5, 5, 5, 6, 6, 6, 6, 7, 7, 7, 8), n = 12, mean = 6.\n- Squared deviations add to 14, so s² = 14 / 11 = 1.27.\n- s = √1.27 = **1.13**.\n\nSame mean, but Supplier-1 has the larger standard deviation, so Supplier-1 is more spread out.",
+      "example_ids": [
+        "qtm-ex-var-sd-70",
+        "qtm-ex-suppliers"
+      ],
+      "key_terms": [],
+      "exam_line": "Slide result: s = √2996.16 = 54.74. Always show: mean, squared deviations, divide by n - 1, square root.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m2-standard-deviation-q-544ccee6",
+          "type": "mcq",
+          "stem": "In the slide example the sample variance is 2,996.16. What is the sample standard deviation?",
+          "options": [
+            "54.74",
+            "11.15",
+            "490.80",
+            "2996.16"
+          ],
+          "answer": "54.74",
+          "accept": [],
+          "explanation": "√2996.16 = 54.74.",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2#50"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m2-standard-deviation-q-1ba33de4",
+          "type": "mcq",
+          "stem": "Using the supplier data with n = 12, Supplier-1 has squared deviations adding to 110. What is its sample standard deviation?",
+          "options": [
+            "3.16",
+            "10",
+            "9.17",
+            "1.13"
+          ],
+          "answer": "3.16",
+          "accept": [],
+          "explanation": "s² = 110/11 = 10 and √10 = 3.16.",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2#23",
+            "qtm--module-2#50"
+          ],
+          "derived": [
+            "1.13",
+            "110",
+            "3.16",
+            "9.17"
+          ],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-2#50",
+        "qtm--module-2#23"
+      ],
+      "derived": [
+        "12",
+        "110",
+        "11",
+        "10",
+        "3.16",
+        "14",
+        "1.27",
+        "1.13",
+        "25",
+        "70"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-standard-deviation-c3",
+      "heading": "Limitations and the normal curve percentages",
+      "explanation_md": "The professor lists three **limitations of the standard deviation**:\n- It is **still affected by extreme values (outliers)**.\n- Some interpretations **assume an approximately normal distribution** (for example \"68% within 1 SD\").\n- It is **not ideal for comparing variability across data sets with widely different means** (that is why we use the coefficient of variation).\n\nThe bell-curve slide gives the shares of data within each number of standard deviations (σ) on either side of the mean:\n- within ±1σ: **68.26%**\n- within ±2σ: **95.44%**\n- within ±3σ: **99.73%**\n- within ±4σ: 99.9937%, ±5σ: 99.999943%, ±6σ: 99.9999998%.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "SD limits: affected by outliers; assumes roughly normal for the 68% rule; not ideal across data sets with different means. Normal curve: ±1σ 68.26%, ±2σ 95.44%, ±3σ 99.73%.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m2-standard-deviation-q-c62f6b95",
+          "type": "mcq",
+          "stem": "On the bell curve slide, what share of the data lies within ±2σ of the mean?",
+          "options": [
+            "95.44%",
+            "68.26%",
+            "99.73%",
+            "99.9937%"
+          ],
+          "answer": "95.44%",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2#46"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m2-standard-deviation-q-e253bbd5",
+          "type": "mcq",
+          "stem": "Which is a limitation of the standard deviation?",
+          "options": [
+            "Not ideal for comparing variability across data sets with widely different means",
+            "It ignores most data values",
+            "It cannot be calculated for a sample",
+            "It is always larger than the variance"
+          ],
+          "answer": "Not ideal for comparing variability across data sets with widely different means",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2#44",
+            "qtm--module-2#26"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m2-standard-deviation-q-d0d361ba",
+          "type": "true_false",
+          "stem": "The standard deviation is unaffected by outliers.",
+          "options": [],
+          "answer": "False",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2#44"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-2#44",
+        "qtm--module-2#46"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "qtm-m2-standard-deviation-f1",
+      "front": "Standard deviation formulas",
+      "back": "Sample: s = √s². Population: σ = √σ².",
+      "kind": "formula",
+      "source_refs": [
+        "qtm--module-2#44"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-standard-deviation-f2",
+      "front": "Why is SD easier to interpret than variance?",
+      "back": "It is in the same units as the data.",
+      "kind": "fact",
+      "source_refs": [
+        "qtm--module-2#44"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-standard-deviation-f3",
+      "front": "Slide result: SD of the example table of values",
+      "back": "s = √2996.16 = 54.74.",
+      "kind": "example",
+      "source_refs": [
+        "qtm--module-2#44",
+        "qtm--module-2#50"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-standard-deviation-f4",
+      "front": "Three limitations of SD",
+      "back": "Affected by outliers; assumes approximately normal for some interpretations; not ideal across data sets with widely different means.",
+      "kind": "list",
+      "source_refs": [
+        "qtm--module-2#44"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-standard-deviation-f5",
+      "front": "Normal curve: share within ±1σ, ±2σ, ±3σ",
+      "back": "68.26%, 95.44%, 99.73%.",
+      "kind": "fact",
+      "source_refs": [
+        "qtm--module-2#46"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-standard-deviation-f6",
+      "front": "Steps to calculate a sample SD",
+      "back": "Mean; square each deviation; add; divide by n - 1 to get s²; take the square root.",
+      "kind": "list",
+      "source_refs": [
+        "qtm--module-2#44",
+        "qtm--module-2#50"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-standard-deviation-f7",
+      "front": "Supplier-1 vs Supplier-2: which has the larger SD?",
+      "back": "Supplier-1 has the larger standard deviation, so it is more spread out than Supplier-2.",
+      "kind": "example",
+      "source_refs": [
+        "qtm--module-2#23",
+        "qtm--module-2#44"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [
+    {
+      "id": "qtm-m2-standard-deviation-q-0b39b349",
+      "type": "mcq",
+      "stem": "The standard deviation of a data set is:",
+      "options": [
+        "The positive square root of the variance",
+        "The variance squared",
+        "The largest value minus the smallest",
+        "The mean divided by the variance"
+      ],
+      "answer": "The positive square root of the variance",
+      "accept": [],
+      "explanation": "s = √s² for a sample and σ = √σ² for a population.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "define",
+      "source_refs": [
+        "qtm--module-2#44",
+        "qtm--module-2#26",
+        "qtm--module-2#41"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-standard-deviation-q-0860b419",
+      "type": "mcq",
+      "stem": "Why is the standard deviation easier to interpret than the variance?",
+      "options": [
+        "It is in the same units as the data",
+        "It is always smaller than 1",
+        "It ignores outliers",
+        "It is a percentage"
+      ],
+      "answer": "It is in the same units as the data",
+      "accept": [],
+      "explanation": "Variance is in squared units.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "explain",
+      "source_refs": [
+        "qtm--module-2#44",
+        "qtm--module-2#47"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-standard-deviation-q-436979e3",
+      "type": "mcq",
+      "stem": "A sample variance of 2,996.16 gives a sample standard deviation of:",
+      "options": [
+        "54.74",
+        "11.15",
+        "1,498.08",
+        "490.80"
+      ],
+      "answer": "54.74",
+      "accept": [],
+      "explanation": "√2996.16 = 54.74.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-2#50"
+      ],
+      "derived": [
+        "1,498.08"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-standard-deviation-q-69ea08a2",
+      "type": "mcq",
+      "stem": "On the normal curve slide, what share of data lies within ±3σ of the mean?",
+      "options": [
+        "99.73%",
+        "68.26%",
+        "95.44%",
+        "99.9937%"
+      ],
+      "answer": "99.73%",
+      "accept": [],
+      "explanation": "Percentages from the bell curve slide.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "recall",
+      "source_refs": [
+        "qtm--module-2#46"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-standard-deviation-q-f454487e",
+      "type": "mcq",
+      "stem": "Which is NOT listed as a limitation of the standard deviation?",
+      "options": [
+        "It ignores all but two data values",
+        "It is still affected by outliers",
+        "Some interpretations assume an approximately normal distribution",
+        "It is not ideal across data sets with widely different means"
+      ],
+      "answer": "It ignores all but two data values",
+      "accept": [],
+      "explanation": "That is a limitation of the range.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "qtm--module-2#44",
+        "qtm--module-2#26"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-standard-deviation-q-8e75bd7c",
+      "type": "short",
+      "stem": "Define the standard deviation and state its sample and population formulas.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The **standard deviation** is the **positive square root of the variance**. It measures the average distance of data points from the mean and is in the same units as the data.\n\n- Sample: **s = √s²**, where s² = Σ(xi - x̄)²/(n - 1)\n- Population: **σ = √σ²**",
+      "rubric": [
+        {
+          "point": "Positive square root of variance",
+          "source_ref": "qtm--module-2#44"
+        },
+        {
+          "point": "Sample s and population σ formulas",
+          "source_ref": "qtm--module-2#44"
+        },
+        {
+          "point": "Same units as data",
+          "source_ref": "qtm--module-2#44"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 1,
+      "style_tag": "define",
+      "source_refs": [
+        "qtm--module-2#44",
+        "qtm--module-2#50"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-standard-deviation-q-60834f36",
+      "type": "short",
+      "stem": "Calculate the sample standard deviation of Supplier-2 (4, 5, 5, 5, 6, 6, 6, 6, 7, 7, 7, 8; mean 6).",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "n = 12, mean = 6.\n\nSquared deviations: 4 (for 4), 1, 1, 1 (for the three 5s), 0 four times (6s), 1, 1, 1 (7s), 4 (for 8). Sum = 4 + 3 + 0 + 3 + 4 = **14**.\n\ns² = 14 / (12 - 1) = 1.27.\n\n**s = √1.27 = 1.13.**\n\nDeliveries typically lie about 1.13 from the mean of 6.",
+      "rubric": [
+        {
+          "point": "Mean 6 and n = 12",
+          "source_ref": "qtm--module-2#23"
+        },
+        {
+          "point": "Squared deviations sum to 14",
+          "source_ref": "qtm--module-2#23"
+        },
+        {
+          "point": "Divide by n - 1 = 11",
+          "source_ref": "qtm--module-2#50"
+        },
+        {
+          "point": "s = 1.13",
+          "source_ref": "qtm--module-2#44"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-2#23",
+        "qtm--module-2#44",
+        "qtm--module-2#50"
+      ],
+      "derived": [
+        "12",
+        "14",
+        "11",
+        "1.27",
+        "1.13"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-standard-deviation-q-028a38d3",
+      "type": "short",
+      "stem": "List the limitations of the standard deviation.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "1. It is **still affected by extreme values (outliers)**.\n2. Some interpretations (for example 68% within 1 SD) **assume an approximately normal distribution**.\n3. It is **not ideal for comparing variability across data sets with widely different means**; the coefficient of variation is used instead.",
+      "rubric": [
+        {
+          "point": "Affected by outliers",
+          "source_ref": "qtm--module-2#44"
+        },
+        {
+          "point": "Assumes approximately normal for some interpretations",
+          "source_ref": "qtm--module-2#44"
+        },
+        {
+          "point": "Not ideal across different means",
+          "source_ref": "qtm--module-2#44"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 1,
+      "style_tag": "list",
+      "source_refs": [
+        "qtm--module-2#44",
+        "qtm--module-2#47"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-standard-deviation-q-ea09154a",
+      "type": "long",
+      "stem": "Explain the standard deviation: definition, calculation steps with the sample formula, interpretation using the normal curve percentages, and limitations.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Introduction.** The standard deviation is the most used measure of spread. It uses every value and comes back to the original units.\n\n**Definition.** It is the **positive square root of the variance** and measures the average distance of data points from the mean. Sample: s = √s². Population: σ = √σ².\n\n**Steps (sample).** Find the mean; subtract it from each value and square; add the squares; divide by n - 1 to get s²; take the square root. Slide result for the 70 values: s² = 2,996.16, so s = √2996.16 = 54.74.\n\n**Interpretation.** For a roughly normal distribution the bell curve slide shows 68.26% of data within ±1σ, 95.44% within ±2σ and 99.73% within ±3σ.\n\n**Limitations.** Still affected by outliers; some interpretations assume approximate normality; not ideal for comparing data sets with widely different means.\n\n**Conclusion.** Use it with the mean, and switch to the coefficient of variation when means differ.",
+      "rubric": [
+        {
+          "point": "Positive square root of variance; formulas",
+          "source_ref": "qtm--module-2#44"
+        },
+        {
+          "point": "Steps and result 54.74",
+          "source_ref": "qtm--module-2#50"
+        },
+        {
+          "point": "Same units as data",
+          "source_ref": "qtm--module-2#44"
+        },
+        {
+          "point": "68.26%, 95.44%, 99.73% within 1, 2, 3 sigma",
+          "source_ref": "qtm--module-2#46"
+        },
+        {
+          "point": "Three limitations",
+          "source_ref": "qtm--module-2#44"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "qtm--module-2#44",
+        "qtm--module-2#46",
+        "qtm--module-2#50",
+        "qtm--module-2#47"
+      ],
+      "derived": [
+        "70"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-standard-deviation-q-88ef1de8",
+      "type": "long",
+      "stem": "Compare the delivery consistency of Supplier-1 and Supplier-2 using sample standard deviation and range, and recommend a supplier.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Data.** Supplier-1: 1, 2, 3, 4, 5, 6, 6, 7, 8, 9, 10, 11. Supplier-2: 4, 5, 5, 5, 6, 6, 6, 6, 7, 7, 7, 8. Both have n = 12 and mean 6.\n\n**Range.** Supplier-1: 11 - 1 = 10. Supplier-2: 8 - 4 = 4.\n\n**Sample standard deviation.**\n- Supplier-1: squared deviations 25, 16, 9, 4, 1, 0, 0, 1, 4, 9, 16, 25 sum to 110. s² = 110/11 = 10. s = √10 = **3.16**.\n- Supplier-2: sum of squares 14. s² = 14/11 = 1.27. s = **1.13**.\n\n**Interpretation.** Mean, median and mode are all 6 for both, so the averages cannot separate them. Supplier-1's data are spread out (range 10, s 3.16); Supplier-2's are clustered (range 4, s 1.13).\n\n**Recommendation.** Choose Supplier-2: delivery times are much more predictable around the average of 6.",
+      "rubric": [
+        {
+          "point": "Mean 6, n = 12 for both",
+          "source_ref": "qtm--module-2#23"
+        },
+        {
+          "point": "Ranges 10 and 4",
+          "source_ref": "qtm--module-2#23"
+        },
+        {
+          "point": "s = 3.16 and 1.13 with working",
+          "source_ref": "qtm--module-2#44"
+        },
+        {
+          "point": "Same averages but different spread",
+          "source_ref": "qtm--module-2#23"
+        },
+        {
+          "point": "Recommend Supplier-2 with reason",
+          "source_ref": "qtm--module-2#24"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 3,
+      "style_tag": "case",
+      "source_refs": [
+        "qtm--module-2#23",
+        "qtm--module-2#24",
+        "qtm--module-2#44",
+        "qtm--module-2#50"
+      ],
+      "derived": [
+        "12",
+        "10",
+        "4",
+        "110",
+        "11",
+        "3.16",
+        "14",
+        "1.27",
+        "1.13"
+      ],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "explain_back": {
+    "prompt": "Explain how to calculate the sample standard deviation and how to interpret it.",
+    "rubric": [
+      {
+        "point": "SD is the positive square root of the variance, s = √s²",
+        "source_ref": "qtm--module-2#44"
+      },
+      {
+        "point": "Find the mean, square the deviations, divide by n - 1, then take the square root (slide result 54.74)",
+        "source_ref": "qtm--module-2#50"
+      },
+      {
+        "point": "It measures the average distance of data points from the mean, in the same units as the data",
+        "source_ref": "qtm--module-2#44"
+      },
+      {
+        "point": "Limitations: outliers, normality assumption, not for very different means",
+        "source_ref": "qtm--module-2#44"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

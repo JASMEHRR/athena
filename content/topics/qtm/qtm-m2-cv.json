@@ -1,0 +1,726 @@
+{
+  "id": "qtm-m2-cv",
+  "subject_id": "qtm",
+  "deck_id": "qtm--module-2",
+  "title": "Coefficient of variation (CV)",
+  "order": 5,
+  "summary": "CV = (SD / mean) x 100%. It compares relative variability across data sets with different means or units. Stock A vs Stock B is the slide example.",
+  "est_minutes": 18,
+  "difficulty": 2,
+  "source_refs": [
+    "qtm--module-2#47",
+    "qtm--module-2#48",
+    "qtm--module-2#50",
+    "qtm--module-2#49",
+    "qtm--module-2#51",
+    "qtm--module-2#52"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "qtm-m2-cv-c1",
+      "heading": "What CV is and its formula",
+      "explanation_md": "The **coefficient of variation (CV)** is the **ratio of the standard deviation to the mean, usually expressed as a percentage**.\n\n- **Sample:** CV = (s / x̄) × 100 %\n- **Population:** CV = (σ / μ) × 100 %\n\n**Slide example (70 values):** CV = (54.74 / 490.80) × 100 % = **11.15%**. The slide's callout reads it as: the standard deviation is about 11% of the mean.\n\nThe CV says how big the spread is **relative to the average**, which a plain standard deviation cannot do.",
+      "example_ids": [
+        "qtm-ex-var-sd-70"
+      ],
+      "key_terms": [
+        {
+          "term": "Coefficient of variation (CV)",
+          "meaning": "The ratio of the standard deviation to the mean, usually expressed as a percentage.",
+          "source_ref": "qtm--module-2#47"
+        }
+      ],
+      "exam_line": "CV = (s / x̄) x 100% for a sample, (σ / μ) x 100% for a population. Slide example: 54.74/490.80 x 100 = 11.15%.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m2-cv-q-81612efd",
+          "type": "mcq",
+          "stem": "What is the sample coefficient of variation?",
+          "options": [
+            "(s / x̄) × 100 %",
+            "(x̄ / s) × 100 %",
+            "s² / x̄",
+            "(s × x̄) / 100"
+          ],
+          "answer": "(s / x̄) × 100 %",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2#48"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m2-cv-q-c1dce54b",
+          "type": "fill",
+          "stem": "For the 70 values the CV is (54.74 / 490.80) x 100 = ____ %.",
+          "options": [],
+          "answer": "11.15",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2#47",
+            "qtm--module-2#50"
+          ],
+          "derived": [
+            "70"
+          ],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-2#47",
+        "qtm--module-2#48",
+        "qtm--module-2#50"
+      ],
+      "derived": [
+        "70"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-cv-c2",
+      "heading": "Strengths, limitations and when not to use CV",
+      "explanation_md": "**Strengths:**\n- **Unitless**, so you can compare variability of data sets with different units or means.\n- Ideal for **relative risk or volatility**, for example comparing the variability of returns of different investments in finance.\n- Useful in business for comparing **operational processes or production units**.\n\n**Limitations:**\n- **Not meaningful when the mean is zero or very close to zero** (it can become undefined or misleadingly large).\n- Less useful if the data has **negative numbers** or very different distributions.\n\n**Reading the ratio:** a CV ratio of 1 means mean and SD are equal; below 1 means the mean is larger than the SD; above 1 means the mean is smaller than the SD, which is very high variability.\n\n**CV should not be used** when the mean is zero, or with interval data: it should only be used with **ratio data**.\n\n**Uses on the slide:** comparing the risk and returns of two stocks, and comparing property investment in two neighbourhoods that have different means and standard deviations.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Ratio data",
+          "meaning": "The kind of data on which the CV should be used, as opposed to interval data.",
+          "source_ref": "qtm--module-2#49"
+        }
+      ],
+      "exam_line": "CV is unitless, good for comparing relative risk; not meaningful if mean is zero or near zero; use only with ratio data, not interval data.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m2-cv-q-395610e6",
+          "type": "mcq",
+          "stem": "When should the CV NOT be used?",
+          "options": [
+            "When the mean is zero",
+            "When comparing two stocks",
+            "When units differ between data sets",
+            "When the data is in ascending order"
+          ],
+          "answer": "When the mean is zero",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2#47",
+            "qtm--module-2#49"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m2-cv-q-a7cd8218",
+          "type": "true_false",
+          "stem": "The CV has units, the same as the data.",
+          "options": [],
+          "answer": "False",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2#47"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m2-cv-q-57968865",
+          "type": "mcq",
+          "stem": "A CV ratio above 1 means:",
+          "options": [
+            "The mean is smaller than the SD, very high variability",
+            "The mean equals the SD",
+            "The mean is larger than the SD",
+            "The data is symmetric"
+          ],
+          "answer": "The mean is smaller than the SD, very high variability",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2#49"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-2#47",
+        "qtm--module-2#49"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-cv-c3",
+      "heading": "Practice Problem 1: Stock A vs Stock B",
+      "explanation_md": "**Question:** Stock A has an expected return of 15% with a standard deviation of 10%. Stock B has an expected return of 10% with a standard deviation of 5%. Which is the superior investment from a risk-based perspective, and why?\n\n**Worked answer (as on the slide):**\n- CV (Stock A) = 10 × 100 / 15 = **67%**\n- CV (Stock B) = 5 × 100 / 10 = **50%**\n\n**Conclusion:** **Stock B is better than Stock A from a risk-based perspective, as its relative dispersion is less** than A's.\n\nNotice that Stock A has the bigger standard deviation, but also the bigger return. Only the CV puts the risk per unit of return on the same footing, which is why the lower CV wins.",
+      "example_ids": [
+        "qtm-ex-stock-a-b"
+      ],
+      "key_terms": [],
+      "exam_line": "Lower CV means less relative risk. CV(A) = 10x100/15 = 67%, CV(B) = 5x100/10 = 50%, so B is better on a risk basis.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m2-cv-q-f448acb0",
+          "type": "mcq",
+          "stem": "Stock A: return 15%, SD 10%. Stock B: return 10%, SD 5%. Which has the lower CV?",
+          "options": [
+            "Stock B, 50%",
+            "Stock A, 67%",
+            "Both are equal",
+            "Stock A, 50%"
+          ],
+          "answer": "Stock B, 50%",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2#44",
+            "qtm--module-2#51",
+            "qtm--module-2#52"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m2-cv-q-d7a0f630",
+          "type": "fill",
+          "stem": "CV of Stock A = 10 x 100 / 15 = ____ %.",
+          "options": [],
+          "answer": "67",
+          "accept": [
+            "66.7",
+            "66.67"
+          ],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2#52"
+          ],
+          "derived": [
+            "66.67",
+            "66.7"
+          ],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-2#51",
+        "qtm--module-2#52"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "qtm-m2-cv-f1",
+      "front": "Coefficient of variation: formula",
+      "back": "Sample: (s / x̄) × 100 %. Population: (σ / μ) × 100 %.",
+      "kind": "formula",
+      "source_refs": [
+        "qtm--module-2#48"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-cv-f2",
+      "front": "Strengths of CV",
+      "back": "Unitless; compares variability across different units or means; good for relative risk or volatility; useful for comparing operational processes or production units.",
+      "kind": "list",
+      "source_refs": [
+        "qtm--module-2#47"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-cv-f3",
+      "front": "Limitations of CV",
+      "back": "Not meaningful when the mean is zero or near zero; less useful with negative numbers or widely disparate distributions.",
+      "kind": "list",
+      "source_refs": [
+        "qtm--module-2#47"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-cv-f4",
+      "front": "When should CV not be used?",
+      "back": "When the mean is zero, or with interval data; use only with ratio data.",
+      "kind": "fact",
+      "source_refs": [
+        "qtm--module-2#49"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-cv-f5",
+      "front": "Stock A and B: CV values",
+      "back": "A: 10 x 100 / 15 = 67%. B: 5 x 100 / 10 = 50%. B is better on risk.",
+      "kind": "example",
+      "source_refs": [
+        "qtm--module-2#52"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-cv-f6",
+      "front": "CV for the example table of values",
+      "back": "54.74 / 490.80 x 100 = 11.15%.",
+      "kind": "example",
+      "source_refs": [
+        "qtm--module-2#47",
+        "qtm--module-2#50"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-cv-f7",
+      "front": "Two business uses of CV on the slide",
+      "back": "Comparing the risk and returns of two stocks; comparing property investment in two neighbourhoods with different means and standard deviations.",
+      "kind": "example",
+      "source_refs": [
+        "qtm--module-2#49"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [
+    {
+      "id": "qtm-m2-cv-q-639f0a48",
+      "type": "mcq",
+      "stem": "The coefficient of variation of a sample is:",
+      "options": [
+        "(s / x̄) × 100 %",
+        "(x̄ / s) × 100 %",
+        "s² / x̄",
+        "s × x̄"
+      ],
+      "answer": "(s / x̄) × 100 %",
+      "accept": [],
+      "explanation": "CV is the ratio of standard deviation to mean as a percentage.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "formula",
+      "source_refs": [
+        "qtm--module-2#48",
+        "qtm--module-2#47"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-cv-q-08235e65",
+      "type": "mcq",
+      "stem": "Why is the CV useful for comparing two data sets?",
+      "options": [
+        "It is unitless, so different units or means can be compared",
+        "It always equals 100",
+        "It ignores the mean",
+        "It is the same as the range"
+      ],
+      "answer": "It is unitless, so different units or means can be compared",
+      "accept": [],
+      "explanation": "Listed strength of the CV.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "explain",
+      "source_refs": [
+        "qtm--module-2#47"
+      ],
+      "derived": [
+        "100"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-cv-q-cc6c3eab",
+      "type": "mcq",
+      "stem": "CV should not be used when:",
+      "options": [
+        "The mean is zero or very close to zero",
+        "The data is in ascending order",
+        "Comparing two stocks",
+        "The data has more than 10 values"
+      ],
+      "answer": "The mean is zero or very close to zero",
+      "accept": [],
+      "explanation": "It becomes undefined or misleadingly large.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "explain",
+      "source_refs": [
+        "qtm--module-2#47",
+        "qtm--module-2#49"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-cv-q-f716725b",
+      "type": "mcq",
+      "stem": "For the 70-value data set, s = 54.74 and the mean is 490.80. The CV is about:",
+      "options": [
+        "11.15%",
+        "8.97%",
+        "54.74%",
+        "89.7%"
+      ],
+      "answer": "11.15%",
+      "accept": [],
+      "explanation": "54.74/490.80 × 100 = 11.15%.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-2#47",
+        "qtm--module-2#50"
+      ],
+      "derived": [
+        "8.97%",
+        "89.7%",
+        "70"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-cv-q-85ed01e9",
+      "type": "mcq",
+      "stem": "A stock has expected return 10% and standard deviation 5%. Its CV is:",
+      "options": [
+        "50%",
+        "67%",
+        "2%",
+        "15%"
+      ],
+      "answer": "50%",
+      "accept": [],
+      "explanation": "5 × 100 / 10 = 50%.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-2#51",
+        "qtm--module-2#52"
+      ],
+      "derived": [
+        "2%"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-cv-q-38734e75",
+      "type": "short",
+      "stem": "Define the coefficient of variation and give its formulas for sample and population.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The **coefficient of variation (CV)** is the **ratio of the standard deviation to the mean, usually expressed as a percentage**.\n\n- Sample: (s / x̄) × 100 %\n- Population: (σ / μ) × 100 %\n\nIt measures relative variability and is unitless.",
+      "rubric": [
+        {
+          "point": "Ratio of standard deviation to mean",
+          "source_ref": "qtm--module-2#47"
+        },
+        {
+          "point": "Sample formula",
+          "source_ref": "qtm--module-2#48"
+        },
+        {
+          "point": "Population formula",
+          "source_ref": "qtm--module-2#48"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 1,
+      "style_tag": "define",
+      "source_refs": [
+        "qtm--module-2#47",
+        "qtm--module-2#48"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-cv-q-7ad7a2b8",
+      "type": "short",
+      "stem": "State two strengths and two limitations of the coefficient of variation.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Strengths:**\n1. **Unitless**, so variability can be compared across data sets with different units or means.\n2. Ideal for assessing **relative risk or volatility**, for example returns on different investments.\n\n**Limitations:**\n1. **Not meaningful when the mean is zero or very close to zero.**\n2. **Less useful with negative numbers** or widely disparate distributions.",
+      "rubric": [
+        {
+          "point": "Unitless comparison",
+          "source_ref": "qtm--module-2#47"
+        },
+        {
+          "point": "Relative risk or volatility",
+          "source_ref": "qtm--module-2#47"
+        },
+        {
+          "point": "Mean near zero problem",
+          "source_ref": "qtm--module-2#47"
+        },
+        {
+          "point": "Negative numbers or disparate distributions",
+          "source_ref": "qtm--module-2#47"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 1,
+      "style_tag": "list",
+      "source_refs": [
+        "qtm--module-2#47"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-cv-q-50758447",
+      "type": "short",
+      "stem": "Stock A has expected return 15% and SD 10%; Stock B has return 10% and SD 5%. Which is better from a risk-based view? Show the calculation.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "CV = (SD / expected return) × 100.\n\n- Stock A: 10 × 100 / 15 = **67%**\n- Stock B: 5 × 100 / 10 = **50%**\n\nStock B has the smaller CV, so its relative dispersion is lower. **Stock B is better from a risk-based perspective.**",
+      "rubric": [
+        {
+          "point": "CV formula used",
+          "source_ref": "qtm--module-2#48"
+        },
+        {
+          "point": "CV(A) 67%",
+          "source_ref": "qtm--module-2#52"
+        },
+        {
+          "point": "CV(B) 50%",
+          "source_ref": "qtm--module-2#52"
+        },
+        {
+          "point": "B better, less relative dispersion",
+          "source_ref": "qtm--module-2#52"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-2#44",
+        "qtm--module-2#48",
+        "qtm--module-2#51",
+        "qtm--module-2#52"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-cv-q-52d914e3",
+      "type": "long",
+      "stem": "Explain the coefficient of variation: what it is, why it is preferred to the standard deviation for comparisons, its limitations, and apply it to Stock A and Stock B.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Introduction.** The CV expresses spread relative to the average.\n\n**Meaning.** CV = (s / x̄) × 100 % for a sample and (σ / μ) × 100 % for a population.\n\n**Why not just SD?** The standard deviation is not ideal for comparing data sets with widely different means. The CV is unitless, so it allows direct comparison of variability across different units or means, and is ideal for relative risk or volatility.\n\n**Limitations.** Not meaningful if the mean is zero or near zero; less useful with negative numbers; should be used only with ratio data.\n\n**Application.** Stock A: 15% return, SD 10%, CV = 10 × 100/15 = 67%. Stock B: 10% return, SD 5%, CV = 5 × 100/10 = 50%. Stock A has the larger SD, but the comparison must be relative.\n\n**Conclusion.** B has the lower CV, so it is the better choice on a risk basis.",
+      "rubric": [
+        {
+          "point": "Formula for CV",
+          "source_ref": "qtm--module-2#48"
+        },
+        {
+          "point": "Unitless, compares different means or units",
+          "source_ref": "qtm--module-2#47"
+        },
+        {
+          "point": "Limitations including mean near zero",
+          "source_ref": "qtm--module-2#47"
+        },
+        {
+          "point": "Stock A 67% and Stock B 50%",
+          "source_ref": "qtm--module-2#52"
+        },
+        {
+          "point": "B better on risk",
+          "source_ref": "qtm--module-2#52"
+        },
+        {
+          "point": "Use with ratio data only",
+          "source_ref": "qtm--module-2#49"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "qtm--module-2#47",
+        "qtm--module-2#48",
+        "qtm--module-2#49",
+        "qtm--module-2#52"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-cv-q-bd372d79",
+      "type": "long",
+      "stem": "Differentiate between the standard deviation and the coefficient of variation.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Introduction.** Both measure variability, but one is absolute and the other relative.\n\n| Basis | Standard deviation | Coefficient of variation |\n|---|---|---|\n| Meaning | Positive square root of variance; average distance of points from the mean | Ratio of standard deviation to mean, usually a percentage |\n| Formula | s = √s² (sample), σ = √σ² (population) | (s / x̄) × 100 %, (σ / μ) × 100 % |\n| Units | Same units as the data | Unitless |\n| Comparing data sets | Not ideal when means are widely different | Allows comparison across different units or means |\n| Typical use | Spread around the mean | Relative risk or volatility, e.g. stocks |\n| Limitation | Affected by outliers | Not meaningful when mean is zero or near zero |\n\n**Example.** For the 70 values, s = 54.74 and CV = 54.74/490.80 × 100 = 11.15%, meaning the standard deviation is about 11% of the mean.\n\n**Conclusion.** Use SD for spread in the data's own units and CV when comparing data sets with different means.",
+      "rubric": [
+        {
+          "point": "SD definition and formulas",
+          "source_ref": "qtm--module-2#44"
+        },
+        {
+          "point": "CV definition and formulas",
+          "source_ref": "qtm--module-2#48"
+        },
+        {
+          "point": "SD in data units; CV unitless",
+          "source_ref": "qtm--module-2#47"
+        },
+        {
+          "point": "CV allows comparison across different means; SD does not suit this",
+          "source_ref": "qtm--module-2#44"
+        },
+        {
+          "point": "Example 54.74 and 11.15%",
+          "source_ref": "qtm--module-2#50"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 2,
+      "style_tag": "differentiate",
+      "source_refs": [
+        "qtm--module-2#44",
+        "qtm--module-2#47",
+        "qtm--module-2#48",
+        "qtm--module-2#50"
+      ],
+      "derived": [
+        "70"
+      ],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "explain_back": {
+    "prompt": "What is the coefficient of variation, how is it calculated and why use it instead of the standard deviation? Use the Stock A and Stock B example.",
+    "rubric": [
+      {
+        "point": "CV = (standard deviation / mean) x 100%, a unitless ratio",
+        "source_ref": "qtm--module-2#47"
+      },
+      {
+        "point": "Allows comparison between data sets with different means or units",
+        "source_ref": "qtm--module-2#47"
+      },
+      {
+        "point": "Stock A: 10 x 100/15 = 67%; Stock B: 5 x 100/10 = 50%",
+        "source_ref": "qtm--module-2#52"
+      },
+      {
+        "point": "Lower CV means less relative dispersion, so Stock B is better on risk",
+        "source_ref": "qtm--module-2#52"
+      },
+      {
+        "point": "Not meaningful when the mean is zero or near zero",
+        "source_ref": "qtm--module-2#47"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

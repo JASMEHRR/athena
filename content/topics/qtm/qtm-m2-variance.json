@@ -1,0 +1,747 @@
+{
+  "id": "qtm-m2-variance",
+  "subject_id": "qtm",
+  "deck_id": "qtm--module-2",
+  "title": "Variance: sample and population",
+  "order": 3,
+  "summary": "Variance is the average squared deviation from the mean. Divide by n - 1 for a sample (Bessel's correction). Know the formula and the steps.",
+  "est_minutes": 20,
+  "difficulty": 2,
+  "source_refs": [
+    "qtm--module-2#29",
+    "qtm--module-2#40",
+    "qtm--module-2#41",
+    "qtm--module-2#23",
+    "qtm--module-2#42",
+    "qtm--module-2#50"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "qtm-m2-variance-c1",
+      "heading": "Why range and IQR are not enough",
+      "explanation_md": "The professor points out that **both range and interquartile range measure spread, but neither uses all the data items**. So he asks: what is the solution?\n\nHe shows three sets of nine values:\n- **Set-1:** 1, 2, 3, 4, 5, 6, 7, 8, 9\n- **Set-2:** 1, 1, 1, 4, 5, 6, 9, 9, 9\n- **Set-3:** 1, 5, 5, 5, 5, 5, 5, 5, 9\n\nAll three have the same smallest value (1), the same largest value (9) and the same middle (5), so the range is the same, yet Set-3 is bunched up around 5 and Set-2 is pushed to the ends. We need a measure that looks at **every** value. That is the **variance**.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "Range and IQR do not use all the data items; variance and standard deviation do.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m2-variance-q-68ef3ebd",
+          "type": "mcq",
+          "stem": "What is the common weakness of the range and the interquartile range, according to the deck?",
+          "options": [
+            "Neither uses all the data items",
+            "Neither can be negative",
+            "Both need the mean",
+            "Both are measured in squared units"
+          ],
+          "answer": "Neither uses all the data items",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2#40",
+            "qtm--module-2#41"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m2-variance-q-3230a15d",
+          "type": "true_false",
+          "stem": "Set-1 (1 to 9), Set-2 and Set-3 on the slide have the same smallest value, 1, and the same largest value, 9.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2#40"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-2#29",
+        "qtm--module-2#40"
+      ],
+      "derived": [
+        "8"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-variance-c2",
+      "heading": "What variance means: squared deviations",
+      "explanation_md": "**Variance** = the **average squared deviation of each data point from the mean**.\n\nStep by step as the slide builds it:\n1. Find the **mean**: x̄ = (x1 + x2 + ... + xn) / n.\n2. For each person find the **deviation from the mean**: x1 - x̄, x2 - x̄, ... xn - x̄.\n3. The slide then proves why we must **square** the deviations: if you just add the plain deviations, the sum is (x1 + ... + xn) - n × x̄, which becomes **0**.\n\nSo plain deviations always cancel to zero. Squaring removes the negative signs, and then we average.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Deviation",
+          "meaning": "The difference between a data value and the mean, x - x̄.",
+          "source_ref": "qtm--module-2#41"
+        },
+        {
+          "term": "Variance",
+          "meaning": "The average squared deviation of each data point from the mean.",
+          "source_ref": "qtm--module-2#41"
+        }
+      ],
+      "exam_line": "Variance = average squared deviation from the mean. The plain deviations from the mean add up to 0, so we square them.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m2-variance-q-e9e99dad",
+          "type": "mcq",
+          "stem": "The sum of the plain deviations (xi - x̄) from the mean is always:",
+          "options": [
+            "0",
+            "n",
+            "The variance",
+            "The standard deviation"
+          ],
+          "answer": "0",
+          "accept": [],
+          "explanation": "The slide's proof ends with = 0, which is why deviations are squared.",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2#41"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m2-variance-q-0ab83113",
+          "type": "fill",
+          "stem": "Variance is the average ____ deviation of each data point from the mean.",
+          "options": [],
+          "answer": "squared",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2#41"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-2#41"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-variance-c3",
+      "heading": "Sample variance vs population variance",
+      "explanation_md": "**Sample variance formula:** s² = Σ(xi - x̄)² / (n - 1)\n\nThe professor's slide divides by **n - 1** for a sample. This is called **Bessel's correction**: dividing by n - 1 instead of n **reduces bias** in the estimate, particularly when the population mean is unknown and estimated from the sample mean, and it is more accurate with smaller samples.\n\nFor a **population** the symbol is **σ²** (sigma squared) and you divide by the population size N; for a **sample** the symbol is **s²** and you divide by n - 1.\n\n**Slide example (70 values, mean 490.80):** s² = Σ(xi - x̄)² / (n - 1) = **2,996.16**.\n\n**How to calculate (exam steps):**\n1. Find the mean x̄.\n2. Subtract the mean from each value and square it.\n3. Add the squares.\n4. Divide by n - 1 (sample) or N (population).\n\nQuick check with Supplier-2 (mean 6): the squared deviations add to 14, so s² = 14 / 11 = 1.27.",
+      "example_ids": [
+        "qtm-ex-var-sd-70"
+      ],
+      "key_terms": [
+        {
+          "term": "Bessel's correction",
+          "meaning": "Dividing by n - 1 instead of n when calculating sample variance, which reduces bias.",
+          "source_ref": "qtm--module-2#42"
+        },
+        {
+          "term": "s²",
+          "meaning": "Symbol for the sample variance, with n - 1 in the denominator.",
+          "source_ref": "qtm--module-2#50"
+        }
+      ],
+      "exam_line": "Sample variance s² = Σ(xi - x̄)²/(n - 1) (Bessel's correction); slide result for the 70 values: 2,996.16. Population variance is σ².",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m2-variance-q-cf685a65",
+          "type": "mcq",
+          "stem": "The sample variance divides the sum of squared deviations by:",
+          "options": [
+            "n - 1",
+            "n",
+            "n + 1",
+            "n squared"
+          ],
+          "answer": "n - 1",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2#42",
+            "qtm--module-2#50"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m2-variance-q-3f85d1cb",
+          "type": "mcq",
+          "stem": "What is Bessel's correction used for?",
+          "options": [
+            "Reducing bias when estimating variance from a sample",
+            "Removing outliers",
+            "Converting variance into a percentage",
+            "Finding the median"
+          ],
+          "answer": "Reducing bias when estimating variance from a sample",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2#42",
+            "qtm--module-2#47"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m2-variance-q-27db73c6",
+          "type": "fill",
+          "stem": "For the 70 values in the slide example, the sample variance s² = ____.",
+          "options": [],
+          "answer": "2,996.16",
+          "accept": [
+            "2996.16"
+          ],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2#50"
+          ],
+          "derived": [
+            "70"
+          ],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-2#23",
+        "qtm--module-2#42",
+        "qtm--module-2#50"
+      ],
+      "derived": [
+        "14",
+        "1.27",
+        "70",
+        "Supplier-2"
+      ],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "qtm-m2-variance-f1",
+      "front": "Variance in words",
+      "back": "The average squared deviation of each data point from the mean.",
+      "kind": "term",
+      "source_refs": [
+        "qtm--module-2#41"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-variance-f2",
+      "front": "Sample variance formula",
+      "back": "s² = Σ(xi - x̄)² / (n - 1)",
+      "kind": "formula",
+      "source_refs": [
+        "qtm--module-2#50"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-variance-f3",
+      "front": "What is Bessel's correction?",
+      "back": "Dividing by n - 1 instead of n for sample variance, which reduces bias.",
+      "kind": "term",
+      "source_refs": [
+        "qtm--module-2#42"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-variance-f4",
+      "front": "Why square the deviations?",
+      "back": "The plain deviations from the mean add up to 0.",
+      "kind": "fact",
+      "source_refs": [
+        "qtm--module-2#41"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-variance-f5",
+      "front": "Slide result: variance of the example table of values",
+      "back": "s² = 2,996.16 (mean 490.80).",
+      "kind": "example",
+      "source_refs": [
+        "qtm--module-2#50"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-variance-f6",
+      "front": "Symbols: sample variance vs population variance",
+      "back": "s² for a sample, σ² for a population.",
+      "kind": "term",
+      "source_refs": [
+        "qtm--module-2#44",
+        "qtm--module-2#50"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-variance-f7",
+      "front": "Steps to calculate sample variance",
+      "back": "Find the mean, subtract it from each value and square, add the squares, divide by n - 1.",
+      "kind": "list",
+      "source_refs": [
+        "qtm--module-2#41",
+        "qtm--module-2#42",
+        "qtm--module-2#50"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [
+    {
+      "id": "qtm-m2-variance-q-17b367dd",
+      "type": "mcq",
+      "stem": "Variance is defined as:",
+      "options": [
+        "The average squared deviation of each data point from the mean",
+        "The difference between largest and smallest values",
+        "The square root of the standard deviation",
+        "The ratio of standard deviation to mean"
+      ],
+      "answer": "The average squared deviation of each data point from the mean",
+      "accept": [],
+      "explanation": "Slide definition of variance.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "define",
+      "source_refs": [
+        "qtm--module-2#41",
+        "qtm--module-2#26",
+        "qtm--module-2#44",
+        "qtm--module-2#47"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-variance-q-1c0ccf23",
+      "type": "mcq",
+      "stem": "Why are deviations from the mean squared before averaging?",
+      "options": [
+        "Because the plain deviations add up to zero",
+        "Because squaring converts them to percentages",
+        "Because variance must be a whole number",
+        "Because the mean is unknown"
+      ],
+      "answer": "Because the plain deviations add up to zero",
+      "accept": [],
+      "explanation": "The slide's proof ends with the sum of deviations equal to 0.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "qtm--module-2#41"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-variance-q-5f56e53d",
+      "type": "mcq",
+      "stem": "For a sample, the sum of squared deviations is divided by:",
+      "options": [
+        "n - 1",
+        "n",
+        "N",
+        "n + 1"
+      ],
+      "answer": "n - 1",
+      "accept": [],
+      "explanation": "Sample variance s² = Σ(xi - x̄)² / (n - 1).",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "formula",
+      "source_refs": [
+        "qtm--module-2#42",
+        "qtm--module-2#50"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-variance-q-7be6dc69",
+      "type": "mcq",
+      "stem": "Bessel's correction refers to:",
+      "options": [
+        "Dividing by n - 1 instead of n to reduce bias in the sample variance",
+        "Adding 1 to every data value",
+        "Using the median instead of the mean",
+        "Dividing the range by two"
+      ],
+      "answer": "Dividing by n - 1 instead of n to reduce bias in the sample variance",
+      "accept": [],
+      "explanation": "It reduces bias when the population mean is unknown.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "define",
+      "source_refs": [
+        "qtm--module-2#42"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-variance-q-0c97af32",
+      "type": "mcq",
+      "stem": "For the 70-value data set the slide gives a sample variance of:",
+      "options": [
+        "2,996.16",
+        "54.74",
+        "490.80",
+        "11.15"
+      ],
+      "answer": "2,996.16",
+      "accept": [],
+      "explanation": "s² = 2,996.16 from slide.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "recall",
+      "source_refs": [
+        "qtm--module-2#50"
+      ],
+      "derived": [
+        "70"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-variance-q-8d63993a",
+      "type": "short",
+      "stem": "State the formulas for sample variance and explain the role of n - 1.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Sample variance:** s² = Σ(xi - x̄)² / (n - 1).\n\nDividing by **n - 1** instead of n is **Bessel's correction**. It **reduces bias** in the estimate, especially when the population mean is unknown and is estimated by the sample mean, and it matters most for small samples.\n\nFor a population the variance is written σ².",
+      "rubric": [
+        {
+          "point": "Formula s² = Σ(xi - x̄)²/(n - 1)",
+          "source_ref": "qtm--module-2#50"
+        },
+        {
+          "point": "n - 1 is Bessel's correction",
+          "source_ref": "qtm--module-2#42"
+        },
+        {
+          "point": "Reduces bias when mean is estimated from the sample",
+          "source_ref": "qtm--module-2#42"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 2,
+      "style_tag": "formula",
+      "source_refs": [
+        "qtm--module-2#42",
+        "qtm--module-2#50"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-variance-q-e225a680",
+      "type": "short",
+      "stem": "Show with the slide's algebra why the sum of the deviations from the mean is zero.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Sum of deviations = (x1 - x̄) + (x2 - x̄) + ... + (xn - x̄)\n= (x1 + x2 + ... + xn) - n × x̄.\n\nSince x̄ = (x1 + ... + xn)/n, we get n × x̄ = x1 + ... + xn.\n\nSo the sum = (x1 + ... + xn) - (x1 + ... + xn) = **0**.\n\nBecause plain deviations cancel out, we **square** them before averaging.",
+      "rubric": [
+        {
+          "point": "Write the sum of deviations",
+          "source_ref": "qtm--module-2#41"
+        },
+        {
+          "point": "Replace n × x̄ using the mean formula",
+          "source_ref": "qtm--module-2#41"
+        },
+        {
+          "point": "Result 0, so squaring is needed",
+          "source_ref": "qtm--module-2#41"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "qtm--module-2#41"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-variance-q-03cd9c32",
+      "type": "short",
+      "stem": "Three data sets of nine values (Set-1: 1 to 9; Set-2: 1, 1, 1, 4, 5, 6, 9, 9, 9; Set-3: 1, 5, 5, 5, 5, 5, 5, 5, 9) all have mean 5 and range 8. Calculate the sample variance of Set-3 and say what it shows.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Set-3: mean = 45/9 = 5.\n\nSquared deviations: (1 - 5)² = 16, seven values of (5 - 5)² = 0, (9 - 5)² = 16. Sum = 32.\n\nSample variance s² = 32 / (9 - 1) = **4**.\n\nFor comparison Set-1 gives 60 / 8 = 7.5 and Set-2 gives 98 / 8 = 12.25. The same mean and range, but Set-3 is bunched at 5 so its variance is the smallest. Variance uses every data value, which range and IQR do not.",
+      "rubric": [
+        {
+          "point": "Mean 5 for Set-3",
+          "source_ref": "qtm--module-2#40"
+        },
+        {
+          "point": "Squared deviations sum to 32",
+          "source_ref": "qtm--module-2#40"
+        },
+        {
+          "point": "s² = 32/8 = 4 with n - 1",
+          "source_ref": "qtm--module-2#40"
+        },
+        {
+          "point": "Smaller variance than other sets: values bunched; variance uses all values",
+          "source_ref": "qtm--module-2#40"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 3,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-2#29",
+        "qtm--module-2#40",
+        "qtm--module-2#42",
+        "qtm--module-2#50"
+      ],
+      "derived": [
+        "45",
+        "32",
+        "60",
+        "7.5",
+        "98",
+        "12.25",
+        "4"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-variance-q-13c07d2f",
+      "type": "long",
+      "stem": "Explain what variance is and how to calculate a sample variance step by step. Include the reason for n - 1 and the professor's worked result.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Introduction.** Variance is a measure of variability that uses every data value, unlike the range and the interquartile range.\n\n**Meaning.** Variance is the **average squared deviation of each data point from the mean**.\n\n**Why squares.** A deviation is x - x̄. If you add the plain deviations, the sum is (x1 + ... + xn) - n × x̄, which equals **0**. So deviations are squared first.\n\n**Steps for a sample.**\n1. Find the mean x̄ = Σxi / n.\n2. Subtract the mean from each value and square it.\n3. Add the squares, Σ(xi - x̄)².\n4. Divide by **n - 1**: s² = Σ(xi - x̄)² / (n - 1).\n\n**Why n - 1.** This is **Bessel's correction**. It reduces bias in the estimate, particularly when the population mean is unknown and estimated from the sample mean, and it is more accurate for small samples. For a population the variance is σ².\n\n**Worked result.** For the professor's 70 values (mean 490.80), s² = 2,996.16.\n\n**Conclusion.** The square root of the variance gives the standard deviation, in the original units.",
+      "rubric": [
+        {
+          "point": "Variance = average squared deviation from the mean",
+          "source_ref": "qtm--module-2#41"
+        },
+        {
+          "point": "Plain deviations sum to zero, so square them",
+          "source_ref": "qtm--module-2#41"
+        },
+        {
+          "point": "Steps: mean, squared deviations, sum, divide by n - 1",
+          "source_ref": "qtm--module-2#50"
+        },
+        {
+          "point": "Bessel's correction reduces bias",
+          "source_ref": "qtm--module-2#42"
+        },
+        {
+          "point": "Worked result 2,996.16 for the 70 values",
+          "source_ref": "qtm--module-2#50"
+        },
+        {
+          "point": "Population variance is σ²",
+          "source_ref": "qtm--module-2#44"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "qtm--module-2#41",
+        "qtm--module-2#42",
+        "qtm--module-2#44",
+        "qtm--module-2#50"
+      ],
+      "derived": [
+        "70"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-variance-q-c3e0bc5f",
+      "type": "long",
+      "stem": "Set-1 (1 to 9), Set-2 (1, 1, 1, 4, 5, 6, 9, 9, 9) and Set-3 (1, 5, 5, 5, 5, 5, 5, 5, 9) have the same mean and range. Explain why range and IQR cannot separate them, and calculate and compare their sample variances.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Why range and IQR are not enough.** Both measure spread but **neither uses all the data items**. Each set runs from 1 to 9, so the range is the same, 9 - 1 = 8.\n\n**Means.** Set-1: 45/9 = 5. Set-2: 1 + 1 + 1 + 4 + 5 + 6 + 9 + 9 + 9 = 45, so 5. Set-3: 1 + 7 × 5 + 9 = 45, so 5.\n\n**Sample variance** s² = Σ(x - x̄)² / (n - 1), with n - 1 = 8.\n- **Set-1:** deviations -4, -3, -2, -1, 0, 1, 2, 3, 4; squares 16, 9, 4, 1, 0, 1, 4, 9, 16 sum to 60; s² = 60/8 = **7.5**.\n- **Set-2:** deviations -4, -4, -4, -1, 0, 1, 4, 4, 4; squares sum to 48 + 1 + 0 + 1 + 48 = 98; s² = 98/8 = **12.25**.\n- **Set-3:** squares 16 + 0 × 7 + 16 = 32; s² = 32/8 = **4**.\n\n**Comparison.** Set-2 (values pushed to the two ends) has the largest variance, Set-3 (values bunched at 5) the smallest, Set-1 in between.\n\n**Conclusion.** Variance uses every value, so it separates sets that range cannot.",
+      "rubric": [
+        {
+          "point": "Range and IQR do not use all the data",
+          "source_ref": "qtm--module-2#40"
+        },
+        {
+          "point": "Range 8 and mean 5 for all three sets",
+          "source_ref": "qtm--module-2#40"
+        },
+        {
+          "point": "Set-1 s² = 7.5",
+          "source_ref": "qtm--module-2#40"
+        },
+        {
+          "point": "Set-2 s² = 12.25",
+          "source_ref": "qtm--module-2#40"
+        },
+        {
+          "point": "Set-3 s² = 4 and comparison of the three",
+          "source_ref": "qtm--module-2#40"
+        },
+        {
+          "point": "Variance uses every value",
+          "source_ref": "qtm--module-2#42"
+        }
+      ],
+      "marks": 10.0,
+      "difficulty": 3,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-2#29",
+        "qtm--module-2#40",
+        "qtm--module-2#41",
+        "qtm--module-2#42",
+        "qtm--module-2#50"
+      ],
+      "derived": [
+        "45",
+        "60",
+        "7.5",
+        "98",
+        "12.25",
+        "32",
+        "4",
+        "48"
+      ],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "explain_back": {
+    "prompt": "Explain what variance is and how a sample variance is calculated. Why n - 1?",
+    "rubric": [
+      {
+        "point": "Variance is the average squared deviation of each data point from the mean",
+        "source_ref": "qtm--module-2#41"
+      },
+      {
+        "point": "Plain deviations sum to 0, so they are squared",
+        "source_ref": "qtm--module-2#41"
+      },
+      {
+        "point": "Sample variance s² = Σ(xi - x̄)²/(n - 1)",
+        "source_ref": "qtm--module-2#50"
+      },
+      {
+        "point": "Bessel's correction (n - 1) reduces bias when the mean is estimated from the sample",
+        "source_ref": "qtm--module-2#42"
+      },
+      {
+        "point": "Slide result for the example table is 2,996.16",
+        "source_ref": "qtm--module-2#50"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

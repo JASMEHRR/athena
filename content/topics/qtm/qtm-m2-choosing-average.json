@@ -1,0 +1,657 @@
+{
+  "id": "qtm-m2-choosing-average",
+  "subject_id": "qtm",
+  "deck_id": "qtm--module-2",
+  "title": "Choosing the right average",
+  "order": 11,
+  "summary": "Which of mean, median and mode to use for which kind of data, with the pros, cons, examples and common mistakes.",
+  "est_minutes": 15,
+  "difficulty": 1,
+  "source_refs": [
+    "qtm--module-2#17",
+    "qtm--module-2#18",
+    "qtm--module-2#20",
+    "qtm--module-2#21",
+    "qtm--module-2#22",
+    "qtm--module-2#19"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "qtm-m2-choosing-average-c1",
+      "heading": "Which measure for which data type",
+      "explanation_md": "The tree on the slide matches data types to measures:\n- **Nominal** (qualitative): **mode** only.\n- **Ordinal** (qualitative): **mode and median**.\n- **Discrete and continuous** (quantitative): **mode, median and mean**.\n\n**Pros and cons:**\n- **Mean:** takes all values into account, sensitive and reliable; but **biased in the presence of extreme values**.\n- **Median:** not affected by extreme values; but **less sensitive than the mean**.\n- **Mode:** the **only way to represent nominal data**; not affected by extreme values and works for qualitative data; but it can take **multiple values or no value at all**, and is less sensitive than the mean.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "Nominal: mode. Ordinal: mode, median. Quantitative: mode, median, mean. Mean is biased by extremes; median and mode are not.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m2-choosing-average-q-52d23562",
+          "type": "mcq",
+          "stem": "Which measure can be used for nominal data?",
+          "options": [
+            "Mode",
+            "Median",
+            "Mean",
+            "Standard deviation"
+          ],
+          "answer": "Mode",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2#17",
+            "qtm--module-2#18"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m2-choosing-average-q-d9615fa3",
+          "type": "mcq",
+          "stem": "Which measure is biased in the presence of extreme values?",
+          "options": [
+            "Mean",
+            "Median",
+            "Mode",
+            "Interquartile range"
+          ],
+          "answer": "Mean",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2#18",
+            "qtm--module-2#30"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-2#17",
+        "qtm--module-2#18"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-choosing-average-c2",
+      "heading": "When to use each, with the professor's examples",
+      "explanation_md": "**Mean:** use when data is **symmetric, outliers are absent and all values matter**. It uses every value and is necessary for further analysis such as standard deviation. Weakness: sensitive to outliers. Example: if the CEO earns ₹10 crore and others average ₹6 lakh, the mean salary could mislead stakeholders.\n\n**Median:** use when data is **skewed or has significant outliers**. It is not influenced by extremes, but does not use all values. Example: **median home price** is used by realtors because it is not inflated by a few luxury homes.\n\n**Mode:** use for **categorical data** or when finding the \"most popular\" matters. Weakness: may have more than one mode, or none. Examples: in fashion retail the most sold t-shirt size guides inventory purchases; in a restaurant the mode meal helps design new combos.\n\n**Choosing quickly:** employees' salaries (skewed, most earn ₹40k but the CEO ₹8L): **median**. Best-selling product size (size M t-shirts): **mode**. Daily sales in a stable market (a supermarket with consistent sales): **mean**.\n\n**Common mistakes:** reporting the mean when outliers are present; ignoring multiple modes that matter for production planning; not saying which average is used in reports.",
+      "example_ids": [
+        "qtm-ex-ceo-salary",
+        "qtm-ex-tshirt-menu",
+        "qtm-ex-median-home-price",
+        "qtm-ex-choose-average"
+      ],
+      "key_terms": [],
+      "exam_line": "Mean: symmetric, no outliers. Median: skewed or outliers. Mode: categorical or most popular. Mistakes: mean with outliers, ignoring multiple modes, not stating which average.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m2-choosing-average-q-8ca2e8bb",
+          "type": "mcq",
+          "stem": "Employees' salaries are skewed because the CEO earns far more. Which average is best?",
+          "options": [
+            "Median",
+            "Mean",
+            "Mode",
+            "Range"
+          ],
+          "answer": "Median",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2#21"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m2-choosing-average-q-7ecea6f8",
+          "type": "mcq",
+          "stem": "A shop wants to know the best-selling t-shirt size. Which measure fits?",
+          "options": [
+            "Mode",
+            "Mean",
+            "Median",
+            "Coefficient of variation"
+          ],
+          "answer": "Mode",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2#20",
+            "qtm--module-2#21",
+            "qtm--module-2#47"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m2-choosing-average-q-acb6453d",
+          "type": "true_false",
+          "stem": "One common mistake is to report the mean when outliers are present.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2#22"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-2#20",
+        "qtm--module-2#21",
+        "qtm--module-2#22"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-choosing-average-c3",
+      "heading": "Where the 70-value table comes from",
+      "explanation_md": "The deck shows a **stem and leaf** table with a count, a stem and the leaves for each stem. It lists stems from 42 to 61 and is the same set of values that appears later in the Range, Variance and Standard Deviation slides as a table of 70 numbers.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "A stem and leaf table lists a stem (such as 44) with its leaves and a count.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m2-choosing-average-q-a2a0ea97",
+          "type": "true_false",
+          "stem": "The stem and leaf table lists stems from 42 to 61 together with the count of values for each stem.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2#19"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-2#19"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "qtm-m2-choosing-average-f1",
+      "front": "Nominal data: which average?",
+      "back": "Mode only.",
+      "kind": "fact",
+      "source_refs": [
+        "qtm--module-2#17"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-choosing-average-f2",
+      "front": "Ordinal data: which averages?",
+      "back": "Mode and median.",
+      "kind": "fact",
+      "source_refs": [
+        "qtm--module-2#17"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-choosing-average-f3",
+      "front": "Quantitative data: which averages?",
+      "back": "Mode, median and mean.",
+      "kind": "fact",
+      "source_refs": [
+        "qtm--module-2#17"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-choosing-average-f4",
+      "front": "When to use the mean",
+      "back": "Data is symmetric, outliers are absent and all values are important.",
+      "kind": "fact",
+      "source_refs": [
+        "qtm--module-2#20"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-choosing-average-f5",
+      "front": "When to use the median",
+      "back": "Data is skewed or contains significant outliers.",
+      "kind": "fact",
+      "source_refs": [
+        "qtm--module-2#20"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-choosing-average-f6",
+      "front": "When to use the mode",
+      "back": "Categorical data, or when identifying the most popular is critical.",
+      "kind": "fact",
+      "source_refs": [
+        "qtm--module-2#20"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-choosing-average-f7",
+      "front": "Three common mistakes with averages",
+      "back": "Reporting the mean with outliers; ignoring multiple modes; not specifying which average is used.",
+      "kind": "list",
+      "source_refs": [
+        "qtm--module-2#22"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [
+    {
+      "id": "qtm-m2-choosing-average-q-bcb1cbcf",
+      "type": "mcq",
+      "stem": "Which measure is the only way to represent nominal data?",
+      "options": [
+        "Mode",
+        "Median",
+        "Mean",
+        "Range"
+      ],
+      "answer": "Mode",
+      "accept": [],
+      "explanation": "Mode works for nominal data.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "recall",
+      "source_refs": [
+        "qtm--module-2#17",
+        "qtm--module-2#18",
+        "qtm--module-2#26"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-choosing-average-q-832ea696",
+      "type": "mcq",
+      "stem": "For ordinal data the deck allows:",
+      "options": [
+        "Mode and median",
+        "Mean only",
+        "Mean and median",
+        "Mode only"
+      ],
+      "answer": "Mode and median",
+      "accept": [],
+      "explanation": "From the data type tree.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "recall",
+      "source_refs": [
+        "qtm--module-2#17"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-choosing-average-q-2017a09e",
+      "type": "mcq",
+      "stem": "A CEO earns far more than everyone else. Which average best reports a typical salary?",
+      "options": [
+        "Median",
+        "Mean",
+        "Range",
+        "Standard deviation"
+      ],
+      "answer": "Median",
+      "accept": [],
+      "explanation": "Robust to outliers.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "case",
+      "source_refs": [
+        "qtm--module-2#20",
+        "qtm--module-2#21",
+        "qtm--module-2#44"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-choosing-average-q-08710e7b",
+      "type": "mcq",
+      "stem": "A supermarket has consistent daily sales in a stable market. The best measure is:",
+      "options": [
+        "Mean",
+        "Median",
+        "Mode",
+        "Percentile"
+      ],
+      "answer": "Mean",
+      "accept": [],
+      "explanation": "All values are comparable.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "case",
+      "source_refs": [
+        "qtm--module-2#21",
+        "qtm--module-2#34"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-choosing-average-q-40e207f1",
+      "type": "mcq",
+      "stem": "Which is a limitation of the mode?",
+      "options": [
+        "It can take multiple values or no value at all",
+        "It is biased by extremes",
+        "It cannot be used for qualitative data",
+        "It needs all values squared"
+      ],
+      "answer": "It can take multiple values or no value at all",
+      "accept": [],
+      "explanation": "Listed con of the mode.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "explain",
+      "source_refs": [
+        "qtm--module-2#18",
+        "qtm--module-2#20"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-choosing-average-q-8a2fb9d4",
+      "type": "short",
+      "stem": "List the common mistakes with averages given in the deck.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "1. Reporting the **mean in the presence of outliers**, which can distort business decisions.\n2. **Ignoring multiple modes** when they matter for production planning.\n3. **Not specifying which average** is being used in reports.",
+      "rubric": [
+        {
+          "point": "Mean with outliers",
+          "source_ref": "qtm--module-2#22"
+        },
+        {
+          "point": "Ignoring multiple modes",
+          "source_ref": "qtm--module-2#22"
+        },
+        {
+          "point": "Not stating the average used",
+          "source_ref": "qtm--module-2#22"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 1,
+      "style_tag": "list",
+      "source_refs": [
+        "qtm--module-2#22"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-choosing-average-q-dcdfe6dd",
+      "type": "short",
+      "stem": "Give the pros and cons of the mean, median and mode.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "| Measure | Pros | Cons |\n|---|---|---|\n| Mean | Takes all values into account, sensitive and reliable | Biased in presence of extreme values |\n| Median | Not affected by extreme values | Less sensitive than the mean, does not use all values |\n| Mode | Not affected by extremes; works for qualitative data | Can take multiple values or none; less sensitive than the mean |",
+      "rubric": [
+        {
+          "point": "Mean pro and con",
+          "source_ref": "qtm--module-2#18"
+        },
+        {
+          "point": "Median pro and con",
+          "source_ref": "qtm--module-2#18"
+        },
+        {
+          "point": "Mode pro and con",
+          "source_ref": "qtm--module-2#18"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "differentiate",
+      "source_refs": [
+        "qtm--module-2#18",
+        "qtm--module-2#20"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-choosing-average-q-ee3df1e5",
+      "type": "short",
+      "stem": "A shop owner wants to decide how many of each t-shirt size to stock. Which measure would you use and why?",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Use the **mode**. The most sold t-shirt size (mode) guides inventory purchases, because it shows the most frequent occurrence. The mode suits categorical data such as size. Check whether there is more than one mode, as that would matter for the stocking plan.",
+      "rubric": [
+        {
+          "point": "Mode chosen",
+          "source_ref": "qtm--module-2#21"
+        },
+        {
+          "point": "Shows most frequent occurrence guiding inventory",
+          "source_ref": "qtm--module-2#20"
+        },
+        {
+          "point": "Check for multiple modes",
+          "source_ref": "qtm--module-2#22"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 1,
+      "style_tag": "case",
+      "source_refs": [
+        "qtm--module-2#20",
+        "qtm--module-2#21",
+        "qtm--module-2#22"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-choosing-average-q-8fc344a0",
+      "type": "long",
+      "stem": "Explain how to choose between mean, median and mode, using the deck's examples for each, and mention the common mistakes.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Introduction.** The right average depends on the data type and on whether outliers are present.\n\n**By data type.** Nominal: mode. Ordinal: mode and median. Quantitative (discrete or continuous): mode, median and mean.\n\n**Mean.** Use when data is symmetric, outliers are absent and all values matter. It uses every value and is needed for further analysis such as standard deviation, but is sensitive to outliers. Example: if the CEO earns ₹10 crore and others average ₹6 lakh, the mean could mislead stakeholders.\n\n**Median.** Use when data is skewed or has significant outliers. Example: median home price, not inflated by a few luxury homes.\n\n**Mode.** Use for categorical data or the most popular item. Example: the most sold t-shirt size guides inventory; the mode meal helps a restaurant design combos.\n\n**Common mistakes.** Mean with outliers; ignoring multiple modes; not stating which average.\n\n**Conclusion.** Match the measure to the data and state it.",
+      "rubric": [
+        {
+          "point": "Measure by data type",
+          "source_ref": "qtm--module-2#17"
+        },
+        {
+          "point": "Mean conditions and CEO example",
+          "source_ref": "qtm--module-2#20"
+        },
+        {
+          "point": "Median conditions and home price example",
+          "source_ref": "qtm--module-2#20"
+        },
+        {
+          "point": "Mode conditions and t-shirt example",
+          "source_ref": "qtm--module-2#20"
+        },
+        {
+          "point": "Common mistakes",
+          "source_ref": "qtm--module-2#22"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "qtm--module-2#17",
+        "qtm--module-2#20",
+        "qtm--module-2#21",
+        "qtm--module-2#22"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-choosing-average-q-da4f726d",
+      "type": "long",
+      "stem": "Employees' salaries are skewed (most earn ₹40k but the CEO earns ₹8L). Daily sales in a supermarket are stable. Best-selling t-shirt size is wanted. Choose a measure for each and justify.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Introduction.** The choice follows the situation.\n\n| Situation | Best measure | Why |\n|---|---|---|\n| Employees' salaries (skewed) | **Median** | Robust to outliers: most earn ₹40k but the CEO earns ₹8L |\n| Best-selling product size | **Mode** | Shows the most frequent occurrence, e.g. size M t-shirts |\n| Daily sales in a stable market | **Mean** | All values are comparable, e.g. a supermarket with consistent sales |\n\n**Explanation.** In the salary case the mean would be inflated by the one very large pay cheque and mislead stakeholders, so the median is reported. The mode is the only sensible answer for a size category. For stable sales there are no outliers, so the mean, which uses every value, is best.\n\n**Cautions.** Do not report the mean when outliers are present; watch for more than one mode; always state which average is used.\n\n**Conclusion.** The measure must suit the data.",
+      "rubric": [
+        {
+          "point": "Median for skewed salaries",
+          "source_ref": "qtm--module-2#21"
+        },
+        {
+          "point": "Mode for best-selling size",
+          "source_ref": "qtm--module-2#21"
+        },
+        {
+          "point": "Mean for stable sales",
+          "source_ref": "qtm--module-2#21"
+        },
+        {
+          "point": "Reasons given for each",
+          "source_ref": "qtm--module-2#21"
+        },
+        {
+          "point": "Cautions noted",
+          "source_ref": "qtm--module-2#22"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 2,
+      "style_tag": "case",
+      "source_refs": [
+        "qtm--module-2#20",
+        "qtm--module-2#21",
+        "qtm--module-2#22"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "explain_back": {
+    "prompt": "Explain when to use the mean, median and mode with examples.",
+    "rubric": [
+      {
+        "point": "Mean for symmetric data without outliers, uses all values but sensitive to outliers",
+        "source_ref": "qtm--module-2#20"
+      },
+      {
+        "point": "Median for skewed data or outliers, e.g. employee salaries or home prices",
+        "source_ref": "qtm--module-2#21"
+      },
+      {
+        "point": "Mode for categorical data or most popular, e.g. best-selling t-shirt size",
+        "source_ref": "qtm--module-2#21"
+      },
+      {
+        "point": "Common mistakes: mean with outliers, ignoring multiple modes, not stating the average used",
+        "source_ref": "qtm--module-2#22"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

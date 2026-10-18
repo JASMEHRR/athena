@@ -1,0 +1,604 @@
+{
+  "id": "qtm-m2-range",
+  "subject_id": "qtm",
+  "deck_id": "qtm--module-2",
+  "title": "Range: the simplest measure of spread",
+  "order": 2,
+  "summary": "Range = largest value minus smallest value. Easy, but it uses only two numbers.",
+  "est_minutes": 12,
+  "difficulty": 1,
+  "source_refs": [
+    "qtm--module-2#26",
+    "qtm--module-2#27"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "qtm-m2-range-c1",
+      "heading": "What the range is and how to find it",
+      "explanation_md": "The **range** of a data set is the **difference between the largest and the smallest data values**. It is the **simplest measure of variability**.\n\n**Formula:** Range = largest value - smallest value.\n\n**Professor's worked example:** the 70 values are arranged in ascending order, the smallest is 425 and the largest is 615. So **Range = 615 - 425 = 190**.\n\nTip: sort the data first (the slide notes the data is in ascending order), then subtract the first value from the last.",
+      "example_ids": [
+        "qtm-ex-range-70"
+      ],
+      "key_terms": [
+        {
+          "term": "Range",
+          "meaning": "Largest value minus smallest value; the simplest measure of variability.",
+          "source_ref": "qtm--module-2#26"
+        }
+      ],
+      "exam_line": "Range = largest value - smallest value. Slide example: 615 - 425 = 190.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m2-range-q-ad06de7d",
+          "type": "fill",
+          "stem": "Range = largest value - ____ value.",
+          "options": [],
+          "answer": "smallest",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2#27"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m2-range-q-df2548e3",
+          "type": "mcq",
+          "stem": "In the professor's 70-value example the smallest value is 425 and the largest is 615. What is the range?",
+          "options": [
+            "190",
+            "80",
+            "1040",
+            "615"
+          ],
+          "answer": "190",
+          "accept": [],
+          "explanation": "615 - 425 = 190.",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2#27"
+          ],
+          "derived": [
+            "1040",
+            "80"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m2-range-q-4c6449df",
+          "type": "mcq",
+          "stem": "Supplier-1 runs from 1 to 11 and Supplier-2 runs from 4 to 8. What are their ranges?",
+          "options": [
+            "10 and 4",
+            "11 and 8",
+            "6 and 6",
+            "5 and 2"
+          ],
+          "answer": "10 and 4",
+          "accept": [],
+          "explanation": "11 - 1 = 10 and 8 - 4 = 4, so Supplier-1 is more spread out.",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2#23",
+            "qtm--module-2#27"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-2#26",
+        "qtm--module-2#27"
+      ],
+      "derived": [
+        "10",
+        "4"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-range-c2",
+      "heading": "Weaknesses of the range",
+      "explanation_md": "The range is easy but has clear limits, and the professor lists them:\n\n- It is **very sensitive to the smallest and largest values**, so one extreme value changes it a lot.\n- It **considers only two values** and ignores the rest of the data set.\n- It **does not tell you how the data is distributed between the minimum and maximum**. Two very different data sets can have the same range.\n\nThis is why the deck moves on to better measures of spread: the interquartile range, variance and standard deviation.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "Range: simplest measure; sensitive to extremes; uses only two values; two very different data sets can have the same range.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "qtm-m2-range-q-a5727d5d",
+          "type": "true_false",
+          "stem": "The range uses every value in the data set.",
+          "options": [],
+          "answer": "False",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2#26"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "qtm-m2-range-q-99fd3eba",
+          "type": "mcq",
+          "stem": "Which is a limitation of the range?",
+          "options": [
+            "Two very different data sets can have the same range",
+            "It cannot be calculated for ascending data",
+            "It is expressed as a percentage",
+            "It needs the mean first"
+          ],
+          "answer": "Two very different data sets can have the same range",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "qtm--module-2#26",
+            "qtm--module-2#27",
+            "qtm--module-2#48"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "qtm--module-2#26"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "qtm-m2-range-f1",
+      "front": "Range formula",
+      "back": "Range = largest value - smallest value.",
+      "kind": "formula",
+      "source_refs": [
+        "qtm--module-2#26",
+        "qtm--module-2#27"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-range-f2",
+      "front": "Slide example: range of the 70 values",
+      "back": "615 - 425 = 190.",
+      "kind": "example",
+      "source_refs": [
+        "qtm--module-2#27"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-range-f3",
+      "front": "Why is the range sensitive?",
+      "back": "It depends only on the smallest and largest values, so extreme values change it a lot.",
+      "kind": "fact",
+      "source_refs": [
+        "qtm--module-2#26"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-range-f4",
+      "front": "How many data values does the range consider?",
+      "back": "Only two (the smallest and the largest); it ignores the rest.",
+      "kind": "fact",
+      "source_refs": [
+        "qtm--module-2#26"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-range-f5",
+      "front": "What does the range not tell you?",
+      "back": "How the data is distributed between the minimum and maximum.",
+      "kind": "fact",
+      "source_refs": [
+        "qtm--module-2#26"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [
+    {
+      "id": "qtm-m2-range-q-ed0d6b3a",
+      "type": "mcq",
+      "stem": "The range of a data set is best described as:",
+      "options": [
+        "The difference between the largest and smallest data values",
+        "The middle value of the sorted data",
+        "The average squared deviation from the mean",
+        "The square root of the variance"
+      ],
+      "answer": "The difference between the largest and smallest data values",
+      "accept": [],
+      "explanation": "Range = largest value - smallest value.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "define",
+      "source_refs": [
+        "qtm--module-2#26",
+        "qtm--module-2#41",
+        "qtm--module-2#44"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-range-q-74f8fd64",
+      "type": "mcq",
+      "stem": "A data set has smallest value 425 and largest value 615. Its range is:",
+      "options": [
+        "190",
+        "1,040",
+        "80",
+        "425"
+      ],
+      "answer": "190",
+      "accept": [],
+      "explanation": "615 - 425 = 190.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-2#27",
+        "qtm--module-2#31"
+      ],
+      "derived": [
+        "1,040"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-range-q-75064d96",
+      "type": "mcq",
+      "stem": "Why is the range called the simplest measure of variability but also a weak one?",
+      "options": [
+        "It uses only two values and ignores the rest of the data",
+        "It needs every value squared",
+        "It is always zero",
+        "It can only be used for nominal data"
+      ],
+      "answer": "It uses only two values and ignores the rest of the data",
+      "accept": [],
+      "explanation": "The slide says it considers only two values.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "explain",
+      "source_refs": [
+        "qtm--module-2#26",
+        "qtm--module-2#41"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-range-q-a7db7f9a",
+      "type": "mcq",
+      "stem": "Which statement about the range is correct?",
+      "options": [
+        "Two very different data sets can have the same range",
+        "It is not affected by extreme values",
+        "It describes how data is distributed between minimum and maximum",
+        "It measures the middle 50% of the data"
+      ],
+      "answer": "Two very different data sets can have the same range",
+      "accept": [],
+      "explanation": "The range does not show how data is distributed between min and max.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "qtm--module-2#26",
+        "qtm--module-2#30"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-range-q-8df55de9",
+      "type": "mcq",
+      "stem": "Supplier-2 delivers in 4, 5, 5, 5, 6, 6, 6, 6, 7, 7, 7, 8 days. Its range is:",
+      "options": [
+        "4",
+        "8",
+        "6",
+        "12"
+      ],
+      "answer": "4",
+      "accept": [],
+      "explanation": "8 - 4 = 4.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-2#23",
+        "qtm--module-2#27"
+      ],
+      "derived": [
+        "12"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-range-q-4c5e6610",
+      "type": "short",
+      "stem": "State the formula for the range and calculate it for the professor's 70-value data set.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Formula:** Range = largest value - smallest value.\n\nThe data set is arranged in ascending order. The smallest value is 425 and the largest is 615.\n\n**Range = 615 - 425 = 190.**\n\nThe range is the simplest measure of variability.",
+      "rubric": [
+        {
+          "point": "Formula: largest minus smallest",
+          "source_ref": "qtm--module-2#27"
+        },
+        {
+          "point": "Smallest 425 and largest 615 identified",
+          "source_ref": "qtm--module-2#27"
+        },
+        {
+          "point": "Answer 190",
+          "source_ref": "qtm--module-2#27"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 1,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-2#26",
+        "qtm--module-2#27"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-range-q-77f9f39e",
+      "type": "short",
+      "stem": "List three limitations of the range.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The range:\n1. Is **very sensitive to the smallest and largest values**, so one extreme value changes it a lot.\n2. **Considers only two values** and ignores the rest of the data set.\n3. **Does not show how the data is distributed** between the minimum and maximum, so two very different data sets can have the same range.\n\nBecause of this, measures that use all the data (variance and standard deviation) are preferred.",
+      "rubric": [
+        {
+          "point": "Sensitive to extreme values",
+          "source_ref": "qtm--module-2#26"
+        },
+        {
+          "point": "Uses only two values",
+          "source_ref": "qtm--module-2#26"
+        },
+        {
+          "point": "Does not show distribution; different sets can share a range",
+          "source_ref": "qtm--module-2#26"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 1,
+      "style_tag": "list",
+      "source_refs": [
+        "qtm--module-2#26"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-range-q-0090fdbb",
+      "type": "short",
+      "stem": "Calculate the sample range for Supplier-1 and Supplier-2 and say what it shows about consistency.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Supplier-1 (1 to 11): range = 11 - 1 = **10**.\nSupplier-2 (4 to 8): range = 8 - 4 = **4**.\n\nSupplier-2's smaller range means its times are more tightly clustered and so more consistent, even though both have a mean of 6.",
+      "rubric": [
+        {
+          "point": "Range 10 for Supplier-1",
+          "source_ref": "qtm--module-2#23"
+        },
+        {
+          "point": "Range 4 for Supplier-2",
+          "source_ref": "qtm--module-2#23"
+        },
+        {
+          "point": "Smaller range means more consistent",
+          "source_ref": "qtm--module-2#23"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 1,
+      "style_tag": "numerical",
+      "source_refs": [
+        "qtm--module-2#23",
+        "qtm--module-2#27"
+      ],
+      "derived": [
+        "10",
+        "4"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-range-q-a1641529",
+      "type": "long",
+      "stem": "Explain the range as a measure of variability: how it is calculated, with the professor's example, its advantages and its limitations.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Introduction.** The range is the simplest measure of variability. It tells you how wide the data stretches.\n\n**Calculation.** Range = largest value - smallest value. First arrange the data in ascending order, then subtract the first value from the last.\n\n**Professor's example.** For the 70 values, the smallest is 425 and the largest is 615, so **Range = 615 - 425 = 190**.\n\n**Advantages.** It is very easy to compute and to explain.\n\n**Limitations.**\n- It is **very sensitive to the smallest and largest data values**.\n- It **considers only two values** and ignores all the rest.\n- It **does not tell you how the data is distributed** between the minimum and maximum, so two very different data sets can have the same range.\n\n**Link to later measures.** Because the range uses so little information, the deck moves to the interquartile range, variance and standard deviation.\n\n**Conclusion.** Use the range for a quick feel for spread, not for a full comparison.",
+      "rubric": [
+        {
+          "point": "Range = largest - smallest, data sorted",
+          "source_ref": "qtm--module-2#26"
+        },
+        {
+          "point": "Example 615 - 425 = 190",
+          "source_ref": "qtm--module-2#27"
+        },
+        {
+          "point": "Simplest measure of variability",
+          "source_ref": "qtm--module-2#26"
+        },
+        {
+          "point": "Sensitive to smallest and largest values",
+          "source_ref": "qtm--module-2#26"
+        },
+        {
+          "point": "Only two values used; ignores the rest",
+          "source_ref": "qtm--module-2#26"
+        },
+        {
+          "point": "Does not show distribution; different sets can share a range",
+          "source_ref": "qtm--module-2#26"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "qtm--module-2#26",
+        "qtm--module-2#27"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "qtm-m2-range-q-95ff1250",
+      "type": "long",
+      "stem": "A company compares two production lines using only the range of daily output. Critically assess this approach, using the idea of the range from the deck, and suggest a better way.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Introduction.** The range is quick but crude, so judging two lines on it alone can mislead.\n\n**What the range does.** Range = largest value - smallest value. It depends only on two days of output, the best and the worst.\n\n**Problems.**\n- It is **very sensitive to the smallest and largest values**: one unusual day changes it a lot.\n- It **ignores all the other days**, so it cannot show how the rest of the output is spread.\n- **Two very different data sets can have the same range**, so two lines could look equal while one is steady and the other swings.\n\n**Example of the idea in the deck.** The professor's three sets of nine values (Set-1, Set-2 and Set-3) all run from 1 to 9 yet are shaped very differently, so a method using every value is needed.\n\n**Better approach.** Use the **interquartile range** (spread of the middle 50%) to cut the effect of extremes, and the **variance and standard deviation**, which use all the data. To compare lines with different averages, use the **coefficient of variation**.\n\n**Conclusion.** Report the range with a more complete measure of spread before making a decision.",
+      "rubric": [
+        {
+          "point": "Range uses only the largest and smallest values",
+          "source_ref": "qtm--module-2#26"
+        },
+        {
+          "point": "Sensitive to extreme values",
+          "source_ref": "qtm--module-2#26"
+        },
+        {
+          "point": "Different data sets can share the same range",
+          "source_ref": "qtm--module-2#26"
+        },
+        {
+          "point": "Sets of nine values with the same range but different shapes",
+          "source_ref": "qtm--module-2#40"
+        },
+        {
+          "point": "Better: interquartile range, standard deviation or coefficient of variation",
+          "source_ref": "qtm--module-2#40"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 3,
+      "style_tag": "case",
+      "source_refs": [
+        "qtm--module-2#26",
+        "qtm--module-2#40",
+        "qtm--module-2#47"
+      ],
+      "derived": [
+        "50%"
+      ],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "explain_back": {
+    "prompt": "Define the range, show how to calculate it and give its limitations.",
+    "rubric": [
+      {
+        "point": "Range is the difference between the largest and smallest data values, the simplest measure of variability",
+        "source_ref": "qtm--module-2#26"
+      },
+      {
+        "point": "Worked example: 615 - 425 = 190",
+        "source_ref": "qtm--module-2#27"
+      },
+      {
+        "point": "Very sensitive to the smallest and largest values",
+        "source_ref": "qtm--module-2#26"
+      },
+      {
+        "point": "Considers only two values and ignores the rest; very different data sets can have the same range",
+        "source_ref": "qtm--module-2#26"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}
