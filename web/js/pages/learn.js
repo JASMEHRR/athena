@@ -1,7 +1,7 @@
 // Learn: teach one chunk, check it, move on; then explain it back and rate confidence.
 
 import { api } from "../api.js";
-import { openSlideModal, questionCard, refChips, renderSlide, startTracking } from "../components.js";
+import { openSlideModal, questionCard, refChips, renderSlide, slideFigures, startTracking } from "../components.js";
 import { add, banner, clear, el, empty, icon, md, pill, refLabel, toast } from "../ui.js";
 
 let topicTitle = "Learn";
@@ -34,6 +34,10 @@ function header() {
       el("div", { class: "row" }, t.mst ? pill("Study for the MST", "warn") : null, el("span", { class: "small faint" }, `${t.deck_title}`))),
     el("h1", {}, t.title),
     stepsBar(),
+    state.step === 0 ? el("div", { class: "roadmap" },
+      el("span", { class: "label" }, `In this topic: ${state.lesson.chunks.length} parts, about ${t.est_minutes} minutes`),
+      el("ol", {}, ...state.lesson.chunks.map((c) => el("li", {}, c.heading))),
+      t.summary ? el("p", { class: "small muted" }, t.summary) : null) : null,
     t.stale ? banner("The slides for this topic changed since the lesson was written. It will be updated at the next refresh.", "warn") : null);
 }
 
@@ -43,7 +47,11 @@ function chunkView(chunk, index) {
   view.append(el("div", { class: "row between" }, el("span", { class: "label" }, `Part ${index + 1} of ${total}`),
     chunk.status === "known" ? pill("You said you know this", "good") : null));
   view.append(el("h2", {}, chunk.heading));
+  if (chunk.exam_line) {
+    view.append(el("div", { class: "goal" }, el("span", { class: "label" }, "What to learn in this part"), el("div", {}, chunk.exam_line)));
+  }
   view.append(el("div", { class: "lesson", html: md(chunk.explanation_md) }));
+  view.append(slideFigures(chunk.source_refs, showRef));
 
   if (chunk.examples.length) {
     view.append(el("div", { class: "prof-box" }, el("span", { class: "label" }, "From your professor's slides"),
@@ -58,10 +66,7 @@ function chunkView(chunk, index) {
     view.append(el("div", { class: "clar" }, el("span", { class: "pill warn" }, "Not on slide"),
       el("b", {}, `${chunk.clarification.term}: `), chunk.clarification.text));
   }
-  if (chunk.exam_line) {
-    view.append(el("div", { class: "exam-line" }, el("span", { class: "label" }, "Remember"), el("div", {}, chunk.exam_line)));
-  }
-  view.append(el("div", {}, el("span", { class: "label" }, "Slides"), el("div", { style: { marginTop: "8px" } }, refChips(chunk.source_refs, showRef))));
+  view.append(el("div", {}, el("span", { class: "label" }, "All slides for this part"), el("div", { style: { marginTop: "8px" } }, refChips(chunk.source_refs, showRef))));
   return view;
 }
 

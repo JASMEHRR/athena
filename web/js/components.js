@@ -52,6 +52,29 @@ export function openSlideModal(ref) {
   renderSlide(body, ref);
 }
 
+/**
+ * The slide pictures that carry a table, diagram, chart or photo, shown right inside the lesson
+ * (text-only slides are skipped; "All slides" opens them one by one). Click a picture to enlarge it.
+ */
+export function slideFigures(refs, onOpen = openSlideModal) {
+  const box = el("div", { class: "figures" });
+  const unique = [...new Set(refs || [])];
+  Promise.all(unique.map((ref) => {
+    const [deckId, n] = String(ref).split("#");
+    return api.get(`/slides/${encodeURIComponent(deckId)}/${encodeURIComponent(n)}`).then((s) => ({ ref, s })).catch(() => null);
+  })).then((rows) => {
+    const visual = rows.filter((r) => r && r.s.image && r.s.visual_text);
+    if (!visual.length) { box.remove(); return; }
+    box.append(el("span", { class: "label" }, "Pictures from the slides (tap to enlarge)"));
+    const grid = el("div", { class: "figure-grid" });
+    visual.slice(0, 6).forEach(({ ref, s }) => grid.append(el("figure", { class: "figure", onclick: () => onOpen(ref) },
+      el("img", { src: s.image, alt: `${refLabel(ref)}: ${s.title || "slide picture"}`, loading: "lazy" }),
+      el("figcaption", {}, refLabel(ref)))));
+    box.append(grid);
+  });
+  return box;
+}
+
 export function refChips(refs, onOpen = openSlideModal) {
   return el("div", { class: "row wrap" }, ...(refs || []).map((r) =>
     el("button", { class: "ref-chip", title: "Open this slide", onclick: () => onOpen(r) }, icon("slide"), refLabel(r))));

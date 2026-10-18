@@ -1,0 +1,708 @@
+{
+  "id": "mm-s456-bcg-matrix",
+  "subject_id": "mm",
+  "deck_id": "mm--session4-5-6-mm",
+  "title": "BCG matrix: allocating resources to SBUs",
+  "order": 4,
+  "summary": "The BCG matrix places each SBU by market growth rate and relative market share into Stars, Question Marks, Cash Cows or Dogs.",
+  "est_minutes": 15,
+  "difficulty": 2,
+  "source_refs": [
+    "mm--session4-5-6-mm#32",
+    "mm--session4-5-6-mm#33",
+    "mm--session4-5-6-mm#34"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "mm-s456-bcg-matrix-c1",
+      "heading": "Why the BCG matrix: allocating resources to SBUs",
+      "explanation_md": "Step 3 of corporate planning is **allocating resources to SBUs**. The slide's instruction is to assess each SBU's **competitive advantage** and the **attractiveness of the market** in which it operates.\n\nThe **BCG matrix** is the tool used for this. It is a two-by-two grid:\n\n- **Vertical axis: market growth rate**, from Low (bottom) to High (top).\n- **Horizontal axis: relative market share**, from High (left) to Low (right).\n\nEach SBU lands in one of four boxes.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "BCG matrix",
+          "meaning": "A grid that places SBUs by market growth rate and relative market share into four categories.",
+          "source_ref": "mm--session4-5-6-mm#33"
+        },
+        {
+          "term": "Market growth rate",
+          "meaning": "The vertical axis of the BCG matrix, from Low to High.",
+          "source_ref": "mm--session4-5-6-mm#33"
+        },
+        {
+          "term": "Relative market share",
+          "meaning": "The horizontal axis of the BCG matrix, running from High on the left to Low on the right.",
+          "source_ref": "mm--session4-5-6-mm#33"
+        }
+      ],
+      "exam_line": "BCG axes: market growth rate (vertical) and relative market share (horizontal, High on the left). Used for allocating resources to SBUs.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "mm-s456-bcg-matrix-q-bbddcb0e",
+          "type": "mcq",
+          "stem": "The vertical axis of the BCG matrix shows:",
+          "options": [
+            "Market growth rate",
+            "Relative market share",
+            "Total cost of owning",
+            "Number of competitors"
+          ],
+          "answer": "Market growth rate",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "mm--session4-5-6-mm#32",
+            "mm--session4-5-6-mm#33"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "mm-s456-bcg-matrix-q-dbd1f674",
+          "type": "fill",
+          "stem": "The BCG matrix helps in allocating ____ to SBUs.",
+          "options": [],
+          "answer": "resources",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "mm--session4-5-6-mm#32",
+            "mm--session4-5-6-mm#33"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "mm--session4-5-6-mm#32",
+        "mm--session4-5-6-mm#33"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "mm-s456-bcg-matrix-c2",
+      "heading": "The four categories and drink examples",
+      "explanation_md": "The four boxes, read from the axes:\n\n| Category | Market growth rate | Relative market share |\n|---|---|---|\n| **Stars** | High | High |\n| **Question Marks** | High | Low |\n| **Cash Cows** | Low | High |\n| **Dogs** | Low | Low |\n\nThe professor then fills the matrix with drinks:\n\n- **Stars**: Coca-Cola Zero Sugar\n- **Question Marks**: smartwater\n- **Cash Cows**: Coca-Cola Original Taste\n- **Dogs**: Minute Maid orange juice\n\nIn an exam answer, pick two categories, say where they sit on the two axes, and give these examples.",
+      "example_ids": [
+        "mm-ex-bcg-coke"
+      ],
+      "key_terms": [
+        {
+          "term": "Stars",
+          "meaning": "High market growth rate and high relative market share.",
+          "source_ref": "mm--session4-5-6-mm#33"
+        },
+        {
+          "term": "Question Marks",
+          "meaning": "High market growth rate and low relative market share.",
+          "source_ref": "mm--session4-5-6-mm#33"
+        },
+        {
+          "term": "Cash Cows",
+          "meaning": "Low market growth rate and high relative market share.",
+          "source_ref": "mm--session4-5-6-mm#33"
+        },
+        {
+          "term": "Dogs",
+          "meaning": "Low market growth rate and low relative market share.",
+          "source_ref": "mm--session4-5-6-mm#33"
+        }
+      ],
+      "exam_line": "Stars: Coca-Cola Zero Sugar. Question Marks: smartwater. Cash Cows: Coca-Cola Original Taste. Dogs: Minute Maid orange juice.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "mm-s456-bcg-matrix-q-9195cc8f",
+          "type": "mcq",
+          "stem": "An SBU with low market growth rate and high relative market share is a:",
+          "options": [
+            "Cash Cow",
+            "Star",
+            "Dog",
+            "Question Mark"
+          ],
+          "answer": "Cash Cow",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "mm--session4-5-6-mm#32",
+            "mm--session4-5-6-mm#33"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "mm-s456-bcg-matrix-q-e2ec3481",
+          "type": "mcq",
+          "stem": "In the slide's drinks matrix, smartwater is placed under:",
+          "options": [
+            "Question Marks",
+            "Stars",
+            "Cash Cows",
+            "Dogs"
+          ],
+          "answer": "Question Marks",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "mm--session4-5-6-mm#34"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "mm-s456-bcg-matrix-q-323ec5de",
+          "type": "mcq",
+          "stem": "Which drink is shown as a Dog?",
+          "options": [
+            "Minute Maid orange juice",
+            "Coca-Cola Zero Sugar",
+            "Coca-Cola Original Taste",
+            "smartwater"
+          ],
+          "answer": "Minute Maid orange juice",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "mm--session4-5-6-mm#34"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "mm-s456-bcg-matrix-q-e7c4a085",
+          "type": "true_false",
+          "stem": "Stars have high market growth rate and high relative market share.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "mm--session4-5-6-mm#33"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "mm--session4-5-6-mm#33",
+        "mm--session4-5-6-mm#34"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "mm-s456-bcg-matrix-f1",
+      "front": "BCG matrix axes",
+      "back": "Vertical: market growth rate (Low to High). Horizontal: relative market share (High on left, Low on right).",
+      "kind": "fact",
+      "source_refs": [
+        "mm--session4-5-6-mm#33"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "mm-s456-bcg-matrix-f2",
+      "front": "Stars",
+      "back": "High growth, high share. Example: Coca-Cola Zero Sugar.",
+      "kind": "term",
+      "source_refs": [
+        "mm--session4-5-6-mm#33",
+        "mm--session4-5-6-mm#34"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "mm-s456-bcg-matrix-f3",
+      "front": "Question Marks",
+      "back": "High growth, low share. Example: smartwater.",
+      "kind": "term",
+      "source_refs": [
+        "mm--session4-5-6-mm#33",
+        "mm--session4-5-6-mm#34"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "mm-s456-bcg-matrix-f4",
+      "front": "Cash Cows",
+      "back": "Low growth, high share. Example: Coca-Cola Original Taste.",
+      "kind": "term",
+      "source_refs": [
+        "mm--session4-5-6-mm#33",
+        "mm--session4-5-6-mm#34"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "mm-s456-bcg-matrix-f5",
+      "front": "Dogs",
+      "back": "Low growth, low share. Example: Minute Maid orange juice.",
+      "kind": "term",
+      "source_refs": [
+        "mm--session4-5-6-mm#33",
+        "mm--session4-5-6-mm#34"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "mm-s456-bcg-matrix-f6",
+      "front": "Smartwater in the BCG matrix",
+      "back": "Question Marks.",
+      "kind": "example",
+      "source_refs": [
+        "mm--session4-5-6-mm#34"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "mm-s456-bcg-matrix-f7",
+      "front": "Coca-Cola Original Taste in the BCG matrix",
+      "back": "Cash Cows.",
+      "kind": "example",
+      "source_refs": [
+        "mm--session4-5-6-mm#34"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "mm-s456-bcg-matrix-f8",
+      "front": "Purpose of resource allocation",
+      "back": "Assess each SBU's competitive advantage and the attractiveness of its market.",
+      "kind": "fact",
+      "source_refs": [
+        "mm--session4-5-6-mm#32"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [
+    {
+      "id": "mm-s456-bcg-matrix-q-1063af8a",
+      "type": "mcq",
+      "stem": "In the BCG matrix, which two things decide where an SBU sits?",
+      "options": [
+        "Market growth rate and relative market share",
+        "Total cost of owning and customer value",
+        "Strengths and weaknesses",
+        "Product and market newness"
+      ],
+      "answer": "Market growth rate and relative market share",
+      "accept": [],
+      "explanation": "The two axes of the grid are market growth rate and relative market share.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "define",
+      "source_refs": [
+        "mm--session4-5-6-mm#33",
+        "mm--session4-5-6-mm#8",
+        "mm--session4-5-6-mm#45",
+        "mm--session4-5-6-mm#37",
+        "mm--session4-5-6-mm#32"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "mm-s456-bcg-matrix-q-4291e2d0",
+      "type": "mcq",
+      "stem": "Which box of the matrix is for strategic business units in a high-growth market where the SBU has a low relative market share?",
+      "options": [
+        "Question Marks",
+        "Stars",
+        "Cash Cows",
+        "Dogs"
+      ],
+      "answer": "Question Marks",
+      "accept": [],
+      "explanation": "Top right of the grid: high growth, low share.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "define",
+      "source_refs": [
+        "mm--session4-5-6-mm#33",
+        "mm--session4-5-6-mm#32"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "mm-s456-bcg-matrix-q-6fdea964",
+      "type": "mcq",
+      "stem": "In the drinks matrix, which product is shown as a Cash Cow?",
+      "options": [
+        "Coca-Cola Original Taste",
+        "Coca-Cola Zero Sugar",
+        "smartwater",
+        "Minute Maid orange juice"
+      ],
+      "answer": "Coca-Cola Original Taste",
+      "accept": [],
+      "explanation": "The glass bottle of Original Taste sits in the Cash Cows box.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "case",
+      "source_refs": [
+        "mm--session4-5-6-mm#34",
+        "mm--session4-5-6-mm#32"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "mm-s456-bcg-matrix-q-9d2bc4fe",
+      "type": "mcq",
+      "stem": "An SBU in a low-growth market with a low relative market share is called a:",
+      "options": [
+        "Dog",
+        "Star",
+        "Cash Cow",
+        "Question Mark"
+      ],
+      "answer": "Dog",
+      "accept": [],
+      "explanation": "Bottom right of the grid.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "define",
+      "source_refs": [
+        "mm--session4-5-6-mm#33",
+        "mm--session4-5-6-mm#32"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "mm-s456-bcg-matrix-q-0d7c678a",
+      "type": "mcq",
+      "stem": "According to the slide, resource allocation to strategic business units depends on assessing each SBU's:",
+      "options": [
+        "Competitive advantage and the attractiveness of its market",
+        "Mission and vision statements",
+        "Number of products sold last year",
+        "Executive summary"
+      ],
+      "answer": "Competitive advantage and the attractiveness of its market",
+      "accept": [],
+      "explanation": "The step on allocating resources: assess competitive advantage and market attractiveness.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "mm--session4-5-6-mm#32",
+        "mm--session4-5-6-mm#23",
+        "mm--session4-5-6-mm#24",
+        "mm--session4-5-6-mm#57"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "mm-s456-bcg-matrix-q-a6291109",
+      "type": "short",
+      "stem": "State what the two axes of the BCG matrix are and how they are read.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The **BCG matrix** is a two-by-two grid used for allocating resources to strategic business units.\n\n- **Vertical axis: market growth rate**, from Low at the bottom to High at the top.\n- **Horizontal axis: relative market share**, from High on the left to Low on the right.\n\nThe four boxes that result are Stars, Question Marks, Cash Cows and Dogs. The professor's drinks example puts Coca-Cola Zero Sugar under Stars and smartwater under Question Marks.",
+      "rubric": [
+        {
+          "point": "Matrix is a grid for allocating resources to strategic business units",
+          "source_ref": "mm--session4-5-6-mm#32"
+        },
+        {
+          "point": "Vertical axis is market growth rate (Low to High)",
+          "source_ref": "mm--session4-5-6-mm#33"
+        },
+        {
+          "point": "Horizontal axis is relative market share (High on the left)",
+          "source_ref": "mm--session4-5-6-mm#33"
+        },
+        {
+          "point": "Four resulting categories named",
+          "source_ref": "mm--session4-5-6-mm#33"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 1,
+      "style_tag": "define",
+      "source_refs": [
+        "mm--session4-5-6-mm#32",
+        "mm--session4-5-6-mm#33",
+        "mm--session4-5-6-mm#34"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "mm-s456-bcg-matrix-q-638db6d5",
+      "type": "short",
+      "stem": "Identify the BCG category of each of these drinks: Coca-Cola Zero Sugar, smartwater, Coca-Cola Original Taste and Minute Maid orange juice. Say how each is placed on the two axes.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The slide fills the BCG matrix with drinks:\n\n- **Coca-Cola Zero Sugar: Star**, high market growth rate and high relative market share.\n- **smartwater: Question Mark**, high market growth rate and low relative market share.\n- **Coca-Cola Original Taste: Cash Cow**, low market growth rate and high relative market share.\n- **Minute Maid orange juice: Dog**, low market growth rate and low relative market share.\n\nSo each product's box is read from the two axes together.",
+      "rubric": [
+        {
+          "point": "Zero Sugar is a Star (high growth, high share)",
+          "source_ref": "mm--session4-5-6-mm#34"
+        },
+        {
+          "point": "smartwater is a Question Mark (high growth, low share)",
+          "source_ref": "mm--session4-5-6-mm#34"
+        },
+        {
+          "point": "Original Taste is a Cash Cow (low growth, high share)",
+          "source_ref": "mm--session4-5-6-mm#34"
+        },
+        {
+          "point": "Minute Maid is a Dog (low growth, low share)",
+          "source_ref": "mm--session4-5-6-mm#34"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "case",
+      "source_refs": [
+        "mm--session4-5-6-mm#33",
+        "mm--session4-5-6-mm#34",
+        "mm--session4-5-6-mm#32"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "mm-s456-bcg-matrix-q-03c55079",
+      "type": "short",
+      "stem": "Differentiate between Stars and Cash Cows in the BCG matrix with one example each.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Both categories have a **high relative market share**; they differ on **market growth rate**.\n\n| Basis | Stars | Cash Cows |\n|---|---|---|\n| Market growth rate | High | Low |\n| Relative market share | High | High |\n| Example from the slide | Coca-Cola Zero Sugar | Coca-Cola Original Taste |\n\nSo the dividing line is the growth of the market the SBU operates in.",
+      "rubric": [
+        {
+          "point": "Stars: high growth, high share",
+          "source_ref": "mm--session4-5-6-mm#33"
+        },
+        {
+          "point": "Cash Cows: low growth, high share",
+          "source_ref": "mm--session4-5-6-mm#33"
+        },
+        {
+          "point": "Example for Stars: Coca-Cola Zero Sugar",
+          "source_ref": "mm--session4-5-6-mm#34"
+        },
+        {
+          "point": "Example for Cash Cows: Coca-Cola Original Taste",
+          "source_ref": "mm--session4-5-6-mm#34"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "differentiate",
+      "source_refs": [
+        "mm--session4-5-6-mm#33",
+        "mm--session4-5-6-mm#34",
+        "mm--session4-5-6-mm#32"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "mm-s456-bcg-matrix-q-68882eac",
+      "type": "long",
+      "stem": "Using the BCG matrix, explain any two SBU categories with examples. Why does a firm place its strategic business units on this matrix?",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "A firm with several **strategic business units (strategic business units)** must decide where to put its resources. The slides say it should assess each SBU's **competitive advantage** and the **attractiveness of the market** in which it operates. The **BCG matrix** helps do this by placing every SBU in a grid.\n\n**The grid.** The vertical axis is **market growth rate** (Low to High) and the horizontal axis is **relative market share** (High on the left, Low on the right). This gives four categories: Stars, Question Marks, Cash Cows and Dogs.\n\n**Category 1: Stars.** These strategic business units have a **high market growth rate and a high relative market share**. The slide's example is **Coca-Cola Zero Sugar**.\n\n**Category 2: Question Marks.** These have a **high market growth rate but a low relative market share**. The slide's example is **smartwater**.\n\n(The other two are Cash Cows, low growth and high share, such as Coca-Cola Original Taste, and Dogs, low growth and low share, such as Minute Maid orange juice.)\n\n**Why use it.** Placing each SBU by its growth rate and share shows how the businesses in the portfolio differ, so the firm can allocate resources between them rather than treating all strategic business units alike.\n\n**Conclusion.** The BCG matrix sorts strategic business units into four categories using market growth rate and relative market share, and the drinks example shows one product in each box.",
+      "rubric": [
+        {
+          "point": "Resources are allocated by assessing competitive advantage and market attractiveness",
+          "source_ref": "mm--session4-5-6-mm#32"
+        },
+        {
+          "point": "Axes: market growth rate and relative market share",
+          "source_ref": "mm--session4-5-6-mm#33"
+        },
+        {
+          "point": "First category correctly placed on both axes",
+          "source_ref": "mm--session4-5-6-mm#33"
+        },
+        {
+          "point": "Second category correctly placed on both axes",
+          "source_ref": "mm--session4-5-6-mm#33"
+        },
+        {
+          "point": "Examples taken from the drinks matrix",
+          "source_ref": "mm--session4-5-6-mm#34"
+        }
+      ],
+      "marks": 10.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "mm--session4-5-6-mm#32",
+        "mm--session4-5-6-mm#33",
+        "mm--session4-5-6-mm#34",
+        "mm--session4-5-6-mm#29"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "mm-s456-bcg-matrix-q-22186c26",
+      "type": "long",
+      "stem": "A firm sells four drinks: one in a high-growth market with a high share, one in a high-growth market with a low share, one in a low-growth market with a high share and one in a low-growth market with a low share. Place them on the BCG matrix using the slide's drinks and explain the logic of the grid.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The **BCG matrix** classifies each SBU or product by **market growth rate** (vertical axis) and **relative market share** (horizontal axis, High on the left).\n\n**Placing the four drinks:**\n\n1. High growth and high share: **Star**. In the slide this is **Coca-Cola Zero Sugar**.\n2. High growth and low share: **Question Mark**. In the slide this is **smartwater**.\n3. Low growth and high share: **Cash Cow**. In the slide this is **Coca-Cola Original Taste**.\n4. Low growth and low share: **Dog**. In the slide this is **Minute Maid orange juice**.\n\n**Logic.** The firm first assesses each SBU's competitive advantage and the attractiveness of its market. Reading each product against the two axes then tells it which box it belongs to, and so how the strategic business units in the portfolio compare with each other.\n\n**Conclusion.** The drinks matrix shows that one company can hold all four types of SBU at the same time, one in each box.",
+      "rubric": [
+        {
+          "point": "High growth and high share is a Star: Coca-Cola Zero Sugar",
+          "source_ref": "mm--session4-5-6-mm#34"
+        },
+        {
+          "point": "High growth and low share is a Question Mark: smartwater",
+          "source_ref": "mm--session4-5-6-mm#34"
+        },
+        {
+          "point": "Low growth and high share is a Cash Cow: Coca-Cola Original Taste",
+          "source_ref": "mm--session4-5-6-mm#34"
+        },
+        {
+          "point": "Low growth and low share is a Dog: Minute Maid orange juice",
+          "source_ref": "mm--session4-5-6-mm#34"
+        },
+        {
+          "point": "Assess competitive advantage and market attractiveness to allocate resources",
+          "source_ref": "mm--session4-5-6-mm#32"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 3,
+      "style_tag": "case",
+      "source_refs": [
+        "mm--session4-5-6-mm#32",
+        "mm--session4-5-6-mm#33",
+        "mm--session4-5-6-mm#34"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "explain_back": {
+    "prompt": "Explain the BCG matrix and describe any two of its categories with examples.",
+    "rubric": [
+      {
+        "point": "Matrix allocates resources by assessing SBUs' competitive advantage and market attractiveness",
+        "source_ref": "mm--session4-5-6-mm#32"
+      },
+      {
+        "point": "Axes: market growth rate and relative market share",
+        "source_ref": "mm--session4-5-6-mm#33"
+      },
+      {
+        "point": "Category 1 defined by its growth and share position",
+        "source_ref": "mm--session4-5-6-mm#33"
+      },
+      {
+        "point": "Category 2 defined by its growth and share position",
+        "source_ref": "mm--session4-5-6-mm#33"
+      },
+      {
+        "point": "Examples from the drinks matrix",
+        "source_ref": "mm--session4-5-6-mm#34"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}
