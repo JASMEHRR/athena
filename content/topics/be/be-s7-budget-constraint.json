@@ -1,0 +1,703 @@
+{
+  "id": "be-s7-budget-constraint",
+  "subject_id": "be",
+  "deck_id": "be--session-7",
+  "title": "The budget constraint and the budget line",
+  "order": 3,
+  "summary": "The opportunity set, the budget line PxX + PyY = M, its intercepts and slope, and how changes in income and prices move it.",
+  "est_minutes": 25,
+  "difficulty": 2,
+  "source_refs": [
+    "be--session-7#10",
+    "be--session-7#11"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "be-s7-budget-constraint-c1",
+      "heading": "Opportunity set and budget line",
+      "explanation_md": "The **budget constraint** has two parts:\n\n- **Opportunity set**: the set of consumption bundles that are **affordable**: **PxX + PyY ≤ M**.\n- **Budget line**: the bundles that **exhaust the consumer's income**: **PxX + PyY = M**.\n\nOn the graph (good Y on the vertical axis, good X on the horizontal axis) the budget line is a straight line and the opportunity set is the area under it.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Opportunity set",
+          "meaning": "The set of consumption bundles that are affordable: PxX + PyY ≤ M.",
+          "source_ref": "be--session-7#10"
+        },
+        {
+          "term": "Budget line",
+          "meaning": "The bundles of goods that exhaust a consumer's income: PxX + PyY = M.",
+          "source_ref": "be--session-7#10"
+        }
+      ],
+      "exam_line": "Opportunity set: PxX + PyY ≤ M. Budget line: PxX + PyY = M.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s7-budget-constraint-q-f8954def",
+          "type": "mcq",
+          "stem": "The budget line is given by:",
+          "options": [
+            "PxX + PyY = M",
+            "PxX + PyY ≤ M",
+            "PxX = PyY"
+          ],
+          "answer": "PxX + PyY = M",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-7#10"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s7-budget-constraint-q-b4fa701a",
+          "type": "mcq",
+          "stem": "Which describes the opportunity set?",
+          "options": [
+            "Consumption bundles that are affordable",
+            "Bundles that exhaust income exactly",
+            "Bundles the consumer prefers"
+          ],
+          "answer": "Consumption bundles that are affordable",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-7#10"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-7#10"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s7-budget-constraint-c2",
+      "heading": "Intercepts and slope: the market rate of substitution",
+      "explanation_md": "Solve the budget line for Y:\n\n**Y = M/Py - (Px/Py) X**\n\n- **Vertical intercept**: **M/Py** (spend all income on Y).\n- **Horizontal intercept**: **M/Px** (spend all income on X).\n- **Slope**: **Px/Py** in size. The slope of the budget line is the **market rate of substitution**.\n\nThe consumer's own willingness to swap is the marginal rate of substitution (indifference curve); the **market rate** is Px/Py (budget line).",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Market rate of substitution",
+          "meaning": "The slope of the budget line, Px / Py.",
+          "source_ref": "be--session-7#10"
+        }
+      ],
+      "exam_line": "Y = M/Py - (Px/Py)X. Intercepts M/Py and M/Px. Slope (market rate of substitution) = Px/Py.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s7-budget-constraint-q-a8851d7e",
+          "type": "mcq",
+          "stem": "The horizontal intercept of the budget line is:",
+          "options": [
+            "M/Px",
+            "M/Py",
+            "Px/Py"
+          ],
+          "answer": "M/Px",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-7#10"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s7-budget-constraint-q-0c0e8683",
+          "type": "fill",
+          "stem": "The slope of the budget line, Px/Py, is called the market rate of ____.",
+          "options": [],
+          "answer": "substitution",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-7#10"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s7-budget-constraint-q-c6560417",
+          "type": "mcq",
+          "stem": "Solving for Y, the budget line is:",
+          "options": [
+            "Y = M/Py - (Px/Py)X",
+            "Y = M/Px - (Py/Px)X",
+            "Y = M - PxX"
+          ],
+          "answer": "Y = M/Py - (Px/Py)X",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-7#10"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-7#10"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s7-budget-constraint-c3",
+      "heading": "Shifts in the budget line",
+      "explanation_md": "**Income changes:**\n\n- An **increase** in income gives a **parallel, outward shift** of the budget line (M1 > M0).\n- A **decrease** gives a **parallel, downward shift** (M2 < M0).\n\n**Price changes:**\n\n- A **decrease** in the price of X **rotates the budget line counter-clockwise** (Px0 > Px1). The Y intercept M0/Py stays put, and the X intercept moves out from M0/Px0 to M0/Px1.\n- An **increase** rotates it **clockwise**.\n\nSo: income change = **parallel shift**; price change = **rotation**.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "Income up: parallel outward shift; income down: parallel downward shift. Price of X down: counter-clockwise rotation; price up: clockwise.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s7-budget-constraint-q-36f06ad9",
+          "type": "mcq",
+          "stem": "A decrease in the price of good X causes the budget line to:",
+          "options": [
+            "Rotate counter-clockwise",
+            "Shift parallel outward",
+            "Rotate clockwise"
+          ],
+          "answer": "Rotate counter-clockwise",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-7#11"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s7-budget-constraint-q-2d75c339",
+          "type": "mcq",
+          "stem": "An increase in income causes the budget line to:",
+          "options": [
+            "Shift outward, parallel",
+            "Rotate clockwise",
+            "Shift downward, parallel"
+          ],
+          "answer": "Shift outward, parallel",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-7#11"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s7-budget-constraint-q-eba93796",
+          "type": "true_false",
+          "stem": "An increase in the price of X rotates the budget line clockwise.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-7#11"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-7#11"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "be-s7-budget-constraint-f1",
+      "front": "Opportunity set",
+      "back": "Affordable bundles: PxX + PyY ≤ M.",
+      "kind": "formula",
+      "source_refs": [
+        "be--session-7#10"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s7-budget-constraint-f2",
+      "front": "Budget line",
+      "back": "PxX + PyY = M; Y = M/Py - (Px/Py)X.",
+      "kind": "formula",
+      "source_refs": [
+        "be--session-7#10"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s7-budget-constraint-f3",
+      "front": "Budget line intercepts",
+      "back": "Vertical M/Py; horizontal M/Px.",
+      "kind": "formula",
+      "source_refs": [
+        "be--session-7#10"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s7-budget-constraint-f4",
+      "front": "Market rate of substitution",
+      "back": "The slope of the budget line: Px/Py.",
+      "kind": "term",
+      "source_refs": [
+        "be--session-7#10"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s7-budget-constraint-f5",
+      "front": "Income changes and the budget line",
+      "back": "Increase: parallel outward shift. Decrease: parallel downward shift.",
+      "kind": "fact",
+      "source_refs": [
+        "be--session-7#11"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s7-budget-constraint-f6",
+      "front": "Price of X changes and the budget line",
+      "back": "Decrease rotates it counter-clockwise; increase rotates it clockwise.",
+      "kind": "fact",
+      "source_refs": [
+        "be--session-7#11"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [
+    {
+      "id": "be-s7-budget-constraint-q-6dbb6245",
+      "type": "mcq",
+      "stem": "The vertical intercept of the budget line PxX + PyY = M is:",
+      "options": [
+        "M/Py",
+        "M/Px",
+        "Px/Py"
+      ],
+      "answer": "M/Py",
+      "accept": [],
+      "explanation": "Spend all income on Y.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "formula",
+      "source_refs": [
+        "be--session-7#10"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s7-budget-constraint-q-5517ef16",
+      "type": "mcq",
+      "stem": "The slope of the budget line is called:",
+      "options": [
+        "The market rate of substitution",
+        "The marginal rate of substitution",
+        "The opportunity set"
+      ],
+      "answer": "The market rate of substitution",
+      "accept": [],
+      "explanation": "It equals Px/Py.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "define",
+      "source_refs": [
+        "be--session-7#10"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s7-budget-constraint-q-59ddabd9",
+      "type": "mcq",
+      "stem": "If income falls, the budget line:",
+      "options": [
+        "Shifts in parallel, downward",
+        "Rotates counter-clockwise",
+        "Rotates clockwise"
+      ],
+      "answer": "Shifts in parallel, downward",
+      "accept": [],
+      "explanation": "Income changes cause parallel shifts.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "explain",
+      "source_refs": [
+        "be--session-7#11"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s7-budget-constraint-q-67ab242d",
+      "type": "mcq",
+      "stem": "If the price of X rises, the budget line:",
+      "options": [
+        "Rotates clockwise",
+        "Rotates counter-clockwise",
+        "Shifts outward in parallel"
+      ],
+      "answer": "Rotates clockwise",
+      "accept": [],
+      "explanation": "Price rise gives clockwise rotation.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "be--session-7#11"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s7-budget-constraint-q-b58d423b",
+      "type": "mcq",
+      "stem": "The set of consumption bundles that are affordable is the:",
+      "options": [
+        "Opportunity set",
+        "Budget line only",
+        "Indifference curve"
+      ],
+      "answer": "Opportunity set",
+      "accept": [],
+      "explanation": "PxX + PyY ≤ M.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "define",
+      "source_refs": [
+        "be--session-7#10"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s7-budget-constraint-q-e5cca71b",
+      "type": "short",
+      "stem": "Define the opportunity set and the budget line, with their equations.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "- **Opportunity set**: the set of consumption bundles that are affordable, **PxX + PyY ≤ M**.\n- **Budget line**: the bundles of goods that exhaust a consumer's income, **PxX + PyY = M**.\n\nThe budget line is the upper edge of the opportunity set.",
+      "rubric": [
+        {
+          "point": "Opportunity set PxX + PyY ≤ M",
+          "source_ref": "be--session-7#10"
+        },
+        {
+          "point": "Budget line PxX + PyY = M",
+          "source_ref": "be--session-7#10"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 1,
+      "style_tag": "define",
+      "source_refs": [
+        "be--session-7#10"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s7-budget-constraint-q-068a1d25",
+      "type": "short",
+      "stem": "Derive the equation of the budget line in the form Y = ... and state its intercepts and slope.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Start with **PxX + PyY = M**. Subtract PxX and divide by Py:\n\n**Y = M/Py - (Px/Py) X**\n\n- Vertical intercept: **M/Py**.\n- Horizontal intercept: **M/Px**.\n- Slope: **Px/Py** (in size), the **market rate of substitution**.",
+      "rubric": [
+        {
+          "point": "Y = M/Py - (Px/Py)X",
+          "source_ref": "be--session-7#10"
+        },
+        {
+          "point": "Intercepts M/Py and M/Px",
+          "source_ref": "be--session-7#10"
+        },
+        {
+          "point": "Slope Px/Py, market rate of substitution",
+          "source_ref": "be--session-7#10"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 2,
+      "style_tag": "formula",
+      "source_refs": [
+        "be--session-7#10"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s7-budget-constraint-q-8d5250ff",
+      "type": "short",
+      "stem": "Explain, with a diagram description, what happens to the budget line when income rises and when the price of X falls.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Income rises (M1 > M0):** the budget line shifts **outward in parallel**; both intercepts grow and the slope Px/Py is unchanged.\n\n**Price of X falls:** the budget line **rotates counter-clockwise**; the Y intercept M0/Py stays the same and the X intercept moves out from M0/Px0 to M0/Px1.\n\nIn short, income changes shift the line, price changes rotate it.",
+      "rubric": [
+        {
+          "point": "Income increase: parallel outward shift",
+          "source_ref": "be--session-7#11"
+        },
+        {
+          "point": "Price decrease: counter-clockwise rotation",
+          "source_ref": "be--session-7#11"
+        },
+        {
+          "point": "Income down: parallel downward; price up: clockwise",
+          "source_ref": "be--session-7#11"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "be--session-7#11"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s7-budget-constraint-q-0ba587a0",
+      "type": "short",
+      "stem": "Differentiate between the effect of a change in income and a change in the price of X on the budget line.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "| Point | Change in income | Change in price of X |\n|---|---|---|\n| Movement | Parallel shift | Rotation |\n| Increase | Outward | Price up: clockwise |\n| Decrease | Downward | Price down: counter-clockwise |\n| Slope | Unchanged (Px/Py) | Changes |",
+      "rubric": [
+        {
+          "point": "Income: parallel shift outward or downward",
+          "source_ref": "be--session-7#11"
+        },
+        {
+          "point": "Price: rotation, clockwise or counter-clockwise",
+          "source_ref": "be--session-7#11"
+        },
+        {
+          "point": "Slope Px/Py changes only with price",
+          "source_ref": "be--session-7#10"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 2,
+      "style_tag": "differentiate",
+      "source_refs": [
+        "be--session-7#11",
+        "be--session-7#10"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s7-budget-constraint-q-1f02fb46",
+      "type": "long",
+      "stem": "Explain the budget constraint: opportunity set, budget line, intercepts, slope and the effect of changes in income and prices.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Introduction.** The budget constraint shows what bundles of X and Y a consumer can afford.\n\n**Opportunity set.** Affordable bundles: PxX + PyY ≤ M.\n\n**Budget line.** Bundles that exhaust income: PxX + PyY = M, or Y = M/Py - (Px/Py)X. Intercepts: M/Py on the Y axis and M/Px on the X axis.\n\n**Slope.** Px/Py is the market rate of substitution.\n\n**Income changes.** Increases shift the line outward in parallel (M1 > M0); decreases shift it downward in parallel (M2 < M0).\n\n**Price changes.** A fall in the price of X rotates the line counter-clockwise; a rise rotates it clockwise.\n\n**Conclusion.** Income moves the line; prices tilt it.",
+      "rubric": [
+        {
+          "point": "Opportunity set and budget line equations",
+          "source_ref": "be--session-7#10"
+        },
+        {
+          "point": "Intercepts and slope",
+          "source_ref": "be--session-7#10"
+        },
+        {
+          "point": "Income changes shift in parallel",
+          "source_ref": "be--session-7#11"
+        },
+        {
+          "point": "Price changes rotate",
+          "source_ref": "be--session-7#11"
+        },
+        {
+          "point": "Market rate of substitution",
+          "source_ref": "be--session-7#10"
+        }
+      ],
+      "marks": 5.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "be--session-7#10",
+        "be--session-7#11"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s7-budget-constraint-q-98661ff0",
+      "type": "long",
+      "stem": "The price of good X falls while income and the price of Y stay the same. Explain, using the budget line equation, how the line changes and what this does to the opportunity set.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Introduction.** The budget line is Y = M/Py - (Px/Py)X, so a lower Px changes the slope but not the Y intercept.\n\n**Y intercept.** M/Py is unchanged, because neither M nor Py changed.\n\n**X intercept.** M/Px grows: the line reaches further along the X axis (from M0/Px0 to M0/Px1, with Px0 > Px1).\n\n**Slope.** Px/Py gets smaller, so the line gets flatter: a counter-clockwise rotation.\n\n**Opportunity set.** The set of affordable bundles expands.\n\n**Conclusion.** A price fall pivots the line outward around the Y intercept.",
+      "rubric": [
+        {
+          "point": "Y intercept M/Py unchanged",
+          "source_ref": "be--session-7#10"
+        },
+        {
+          "point": "X intercept moves out",
+          "source_ref": "be--session-7#11"
+        },
+        {
+          "point": "Counter-clockwise rotation, flatter slope",
+          "source_ref": "be--session-7#11"
+        },
+        {
+          "point": "Opportunity set expands",
+          "source_ref": "be--session-7#11"
+        }
+      ],
+      "marks": 5.0,
+      "difficulty": 3,
+      "style_tag": "explain",
+      "source_refs": [
+        "be--session-7#10",
+        "be--session-7#11"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "explain_back": {
+    "prompt": "Explain the budget constraint: opportunity set, budget line, intercepts, slope, and what moves it.",
+    "rubric": [
+      {
+        "point": "Opportunity set PxX + PyY ≤ M and budget line PxX + PyY = M",
+        "source_ref": "be--session-7#10"
+      },
+      {
+        "point": "Y = M/Py - (Px/Py)X with intercepts M/Py and M/Px",
+        "source_ref": "be--session-7#10"
+      },
+      {
+        "point": "Slope Px/Py is the market rate of substitution",
+        "source_ref": "be--session-7#10"
+      },
+      {
+        "point": "Income changes shift it in parallel",
+        "source_ref": "be--session-7#11"
+      },
+      {
+        "point": "Price changes rotate it",
+        "source_ref": "be--session-7#11"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

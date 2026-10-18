@@ -1,0 +1,695 @@
+{
+  "id": "be-s7-consumer-equilibrium",
+  "subject_id": "be",
+  "deck_id": "be--session-7",
+  "title": "Consumer equilibrium and how price and income changes move it",
+  "order": 4,
+  "summary": "Equilibrium where MRS = Px/Py, substitutes and complements, normal and inferior goods, with the slides' examples.",
+  "est_minutes": 25,
+  "difficulty": 2,
+  "source_refs": [
+    "be--session-7#12",
+    "be--session-7#13",
+    "be--session-7#14",
+    "be--session-7#15",
+    "be--session-7#16"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "be-s7-consumer-equilibrium-c1",
+      "heading": "Consumer equilibrium",
+      "explanation_md": "The **equilibrium consumption bundle** is the **affordable bundle that yields the highest level of satisfaction**.\n\nIt occurs where **MRS = Px / Py**. Equivalently, the **slope of the indifference curve equals the slope of the budget line**. On the graph the budget line just touches the highest reachable indifference curve (among I, II and III), with intercepts M/Py and M/Px.\n\nThink of it this way: the consumer's willingness to swap (MRS) matches the market's rate of swapping (Px/Py).",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Consumer equilibrium",
+          "meaning": "The affordable bundle that gives the highest satisfaction, where MRS = Px/Py.",
+          "source_ref": "be--session-7#12"
+        }
+      ],
+      "exam_line": "Equilibrium: the affordable bundle with the highest satisfaction, where MRS = Px/Py (indifference curve slope equals budget line slope).",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s7-consumer-equilibrium-q-2e3aaef4",
+          "type": "mcq",
+          "stem": "Consumer equilibrium occurs where:",
+          "options": [
+            "MRS = Px / Py",
+            "MRS = M / Px",
+            "Px = Py"
+          ],
+          "answer": "MRS = Px / Py",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-7#12"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s7-consumer-equilibrium-q-ee5189f7",
+          "type": "true_false",
+          "stem": "At equilibrium the slope of the indifference curve equals the slope of the budget line.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-7#12"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-7#12"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s7-consumer-equilibrium-c2",
+      "heading": "Price changes: substitutes and complements",
+      "explanation_md": "**Substitute goods:** an increase (decrease) in the price of X leads to an **increase (decrease)** in consumption of Y. Examples: **Coke and Pepsi**; **Verizon Wireless or AT&T**.\n\n**Complementary goods:** an increase (decrease) in the price of X leads to a **decrease (increase)** in consumption of Y. Examples: **DVD and DVD players**; **computer CPUs and monitors**.\n\n**The graph:** Beer is X, pretzels are Y. When the price of beer falls (Px1 > Px2) and consumption of pretzels **rises** from Y1 to Y2, X and Y are **complements**. The consumer moves from bundle A to bundle B on a higher curve (II instead of I).",
+      "example_ids": [
+        "be-ex-s7-substitute-examples",
+        "be-ex-s7-complement-examples",
+        "be-ex-s7-pretzels-beer"
+      ],
+      "key_terms": [
+        {
+          "term": "Substitute goods",
+          "meaning": "A rise (fall) in the price of X raises (lowers) consumption of Y.",
+          "source_ref": "be--session-7#13"
+        },
+        {
+          "term": "Complementary goods",
+          "meaning": "A rise (fall) in the price of X lowers (raises) consumption of Y.",
+          "source_ref": "be--session-7#13"
+        }
+      ],
+      "exam_line": "Substitutes: Coke and Pepsi; Verizon Wireless or AT&T. Complements: DVD and DVD players; CPUs and monitors; beer and pretzels (price of beer falls, pretzel consumption rises).",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s7-consumer-equilibrium-q-3d0350e3",
+          "type": "mcq",
+          "stem": "Which pair is given as complementary goods?",
+          "options": [
+            "DVD and DVD players",
+            "Coke and Pepsi",
+            "Verizon Wireless and AT&T"
+          ],
+          "answer": "DVD and DVD players",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-7#13"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s7-consumer-equilibrium-q-d2c85717",
+          "type": "mcq",
+          "stem": "The price of X falls and consumption of Y rises. X and Y are:",
+          "options": [
+            "Complements",
+            "Substitutes",
+            "Inferior goods"
+          ],
+          "answer": "Complements",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-7#14",
+            "be--session-7#13"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s7-consumer-equilibrium-q-bacc99e6",
+          "type": "mcq",
+          "stem": "In the graph on complements, which good is on the horizontal axis?",
+          "options": [
+            "Beer",
+            "Pretzels",
+            "Other goods"
+          ],
+          "answer": "Beer",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-7#14"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-7#13",
+        "be--session-7#14"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s7-consumer-equilibrium-c3",
+      "heading": "Income changes: normal and inferior goods",
+      "explanation_md": "**Normal good:** an increase (decrease) in income leads to an **increase (decrease)** in its consumption.\n\n**Inferior good:** an increase (decrease) in income leads to a **decrease (increase)** in its consumption.\n\nThe graph for normal goods shows income rising from M0 to M1 (M0 < M1): the budget line shifts out and the consumer moves from bundle A to bundle B on a higher curve, with more of good X (X0 to X1) and more of Y (Y0 to Y1).",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Normal good",
+          "meaning": "Consumption rises when income rises.",
+          "source_ref": "be--session-7#15"
+        },
+        {
+          "term": "Inferior good",
+          "meaning": "Consumption falls when income rises.",
+          "source_ref": "be--session-7#15"
+        }
+      ],
+      "exam_line": "Normal good: income up, consumption up. Inferior good: income up, consumption down.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s7-consumer-equilibrium-q-d1607600",
+          "type": "mcq",
+          "stem": "A good whose consumption falls when income rises is:",
+          "options": [
+            "An inferior good",
+            "A normal good",
+            "A complement"
+          ],
+          "answer": "An inferior good",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-7#15"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s7-consumer-equilibrium-q-e3676bd9",
+          "type": "true_false",
+          "stem": "For a normal good, an increase in income increases consumption.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-7#15",
+            "be--session-7#16"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-7#15",
+        "be--session-7#16"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "be-s7-consumer-equilibrium-f1",
+      "front": "Consumer equilibrium",
+      "back": "The affordable bundle with the highest satisfaction, where MRS = Px/Py.",
+      "kind": "term",
+      "source_refs": [
+        "be--session-7#12"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s7-consumer-equilibrium-f2",
+      "front": "Substitute goods (slide's examples)",
+      "back": "Coke and Pepsi; Verizon Wireless or AT&T.",
+      "kind": "example",
+      "source_refs": [
+        "be--session-7#13"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s7-consumer-equilibrium-f3",
+      "front": "Complementary goods (slide's examples)",
+      "back": "DVD and DVD players; computer CPUs and monitors.",
+      "kind": "example",
+      "source_refs": [
+        "be--session-7#13"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s7-consumer-equilibrium-f4",
+      "front": "Complements in the graph",
+      "back": "Price of beer (X) falls and pretzel (Y) consumption rises.",
+      "kind": "example",
+      "source_refs": [
+        "be--session-7#14"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s7-consumer-equilibrium-f5",
+      "front": "Normal good",
+      "back": "Income up, consumption up.",
+      "kind": "term",
+      "source_refs": [
+        "be--session-7#15"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s7-consumer-equilibrium-f6",
+      "front": "Inferior good",
+      "back": "Income up, consumption down.",
+      "kind": "term",
+      "source_refs": [
+        "be--session-7#15"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [
+    {
+      "id": "be-s7-consumer-equilibrium-q-0e61dbbb",
+      "type": "mcq",
+      "stem": "The consumer's equilibrium bundle is:",
+      "options": [
+        "The affordable bundle that yields the highest satisfaction",
+        "The cheapest bundle",
+        "The bundle on the lowest indifference curve"
+      ],
+      "answer": "The affordable bundle that yields the highest satisfaction",
+      "accept": [],
+      "explanation": "Definition.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "define",
+      "source_refs": [
+        "be--session-7#12"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s7-consumer-equilibrium-q-c410ae5c",
+      "type": "mcq",
+      "stem": "At consumer equilibrium:",
+      "options": [
+        "MRS = Px / Py",
+        "MRS = M",
+        "Px = M / Py"
+      ],
+      "answer": "MRS = Px / Py",
+      "accept": [],
+      "explanation": "Slope of indifference curve equals slope of budget line.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "formula",
+      "source_refs": [
+        "be--session-7#12"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s7-consumer-equilibrium-q-3bee78fc",
+      "type": "mcq",
+      "stem": "Which is given as a pair of substitutes?",
+      "options": [
+        "Coke and Pepsi",
+        "DVD and DVD players",
+        "Computer CPUs and monitors"
+      ],
+      "answer": "Coke and Pepsi",
+      "accept": [],
+      "explanation": "Slide examples.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "example",
+      "source_refs": [
+        "be--session-7#13"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s7-consumer-equilibrium-q-d3856458",
+      "type": "mcq",
+      "stem": "If the price of X rises and consumption of Y falls, X and Y are:",
+      "options": [
+        "Complements",
+        "Substitutes",
+        "Normal goods"
+      ],
+      "answer": "Complements",
+      "accept": [],
+      "explanation": "Opposite movement means complements.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "be--session-7#13"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s7-consumer-equilibrium-q-c8a9e723",
+      "type": "mcq",
+      "stem": "If income rises and consumption of X falls, X is:",
+      "options": [
+        "An inferior good",
+        "A normal good",
+        "A substitute"
+      ],
+      "answer": "An inferior good",
+      "accept": [],
+      "explanation": "Definition of inferior good.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "explain",
+      "source_refs": [
+        "be--session-7#15"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s7-consumer-equilibrium-q-0d32bfb2",
+      "type": "short",
+      "stem": "State the condition for consumer equilibrium and explain it in words.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The equilibrium bundle is the **affordable bundle that yields the highest level of satisfaction**.\n\nCondition: **MRS = Px / Py**, or equivalently the **slope of the indifference curve equals the slope of the budget line**.\n\nIn words, the rate at which the consumer is willing to swap goods equals the rate at which the market lets her swap.",
+      "rubric": [
+        {
+          "point": "Highest satisfaction among affordable bundles",
+          "source_ref": "be--session-7#12"
+        },
+        {
+          "point": "MRS = Px/Py",
+          "source_ref": "be--session-7#12"
+        },
+        {
+          "point": "Slopes equal",
+          "source_ref": "be--session-7#12"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "be--session-7#12"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s7-consumer-equilibrium-q-bd1661a0",
+      "type": "short",
+      "stem": "Differentiate between substitute and complementary goods using the slides' examples.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "| Point | Substitutes | Complements |\n|---|---|---|\n| Price of X up | Consumption of Y up | Consumption of Y down |\n| Price of X down | Consumption of Y down | Consumption of Y up |\n| Examples | Coke and Pepsi; Verizon Wireless or AT&T | DVD and DVD players; computer CPUs and monitors |",
+      "rubric": [
+        {
+          "point": "Substitutes: price of X and Y consumption move together",
+          "source_ref": "be--session-7#13"
+        },
+        {
+          "point": "Complements: move opposite ways",
+          "source_ref": "be--session-7#13"
+        },
+        {
+          "point": "Examples from the slide",
+          "source_ref": "be--session-7#13"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 1,
+      "style_tag": "differentiate",
+      "source_refs": [
+        "be--session-7#13"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s7-consumer-equilibrium-q-034ee97b",
+      "type": "short",
+      "stem": "Differentiate between normal and inferior goods.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "| Point | Normal good | Inferior good |\n|---|---|---|\n| Income increases | Consumption increases | Consumption decreases |\n| Income decreases | Consumption decreases | Consumption increases |",
+      "rubric": [
+        {
+          "point": "Normal: income and consumption move together",
+          "source_ref": "be--session-7#15"
+        },
+        {
+          "point": "Inferior: move in opposite directions",
+          "source_ref": "be--session-7#15"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 1,
+      "style_tag": "differentiate",
+      "source_refs": [
+        "be--session-7#15"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s7-consumer-equilibrium-q-33131447",
+      "type": "short",
+      "stem": "In the pretzels and beer graph the price of beer falls and pretzel consumption rises. What does this show and how is it drawn?",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Beer is good X on the horizontal axis and pretzels are good Y on the vertical axis. When the price of beer falls (Px1 > Px2), the consumer moves from bundle A to bundle B, on a higher curve, and consumption of pretzels rises from Y1 to Y2.\n\nBecause the price of X fell and consumption of Y rose, **X and Y are complements**.",
+      "rubric": [
+        {
+          "point": "Beer on X axis, pretzels on Y axis",
+          "source_ref": "be--session-7#14"
+        },
+        {
+          "point": "Price of beer falls, pretzel consumption rises",
+          "source_ref": "be--session-7#14"
+        },
+        {
+          "point": "So complements",
+          "source_ref": "be--session-7#13"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 2,
+      "style_tag": "case",
+      "source_refs": [
+        "be--session-7#14",
+        "be--session-7#13"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s7-consumer-equilibrium-q-cba3e1cd",
+      "type": "long",
+      "stem": "Explain consumer equilibrium and how it is affected by changes in the price of a related good and by changes in income.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Introduction.** The consumer picks the affordable bundle that gives the highest satisfaction.\n\n**Equilibrium.** MRS = Px / Py: the indifference curve and budget line have the same slope.\n\n**Price of a related good.** If an increase in the price of X raises consumption of Y, the goods are substitutes (Coke and Pepsi). If it lowers consumption of Y, they are complements (DVD and DVD players).\n\n**Income.** Normal goods: consumption rises with income. Inferior goods: consumption falls as income rises.\n\n**Conclusion.** The direction of change in consumption classifies the goods.",
+      "rubric": [
+        {
+          "point": "Equilibrium and MRS = Px/Py",
+          "source_ref": "be--session-7#12"
+        },
+        {
+          "point": "Substitutes with an example",
+          "source_ref": "be--session-7#13"
+        },
+        {
+          "point": "Complements with an example",
+          "source_ref": "be--session-7#13"
+        },
+        {
+          "point": "Normal and inferior goods",
+          "source_ref": "be--session-7#15"
+        }
+      ],
+      "marks": 5.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "be--session-7#12",
+        "be--session-7#13",
+        "be--session-7#15"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s7-consumer-equilibrium-q-14519c81",
+      "type": "long",
+      "stem": "Using the graph of bundles A and B after the price of beer falls, explain how the consumer reaches a new equilibrium and what the diagram tells us about beer and pretzels.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Introduction.** A price fall changes the budget line and the consumer's best bundle.\n\n**Set up.** Pretzels (Y) are on the vertical axis, beer (X) on the horizontal. The intercepts are M/Py for pretzels and M/Px1 and M/Px2 for beer.\n\n**Movement.** Price of beer falls (Px1 > Px2): the budget line rotates out and the consumer moves from A (X1, Y1) on curve I to B (X2, Y2) on curve II.\n\n**Interpretation.** Pretzel consumption rises from Y1 to Y2 as the price of beer falls, so beer and pretzels are complements. Equilibrium is again where MRS = Px/Py.\n\n**Conclusion.** The graph is the slides' illustration of complementary goods.",
+      "rubric": [
+        {
+          "point": "Axes and intercepts",
+          "source_ref": "be--session-7#14"
+        },
+        {
+          "point": "Move from A on curve I to B on curve II",
+          "source_ref": "be--session-7#14"
+        },
+        {
+          "point": "Y rises as price of X falls: complements",
+          "source_ref": "be--session-7#14"
+        },
+        {
+          "point": "Equilibrium condition",
+          "source_ref": "be--session-7#12"
+        }
+      ],
+      "marks": 5.0,
+      "difficulty": 3,
+      "style_tag": "case",
+      "source_refs": [
+        "be--session-7#14",
+        "be--session-7#12",
+        "be--session-7#13"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "explain_back": {
+    "prompt": "Explain consumer equilibrium and how price and income changes affect consumption, with examples.",
+    "rubric": [
+      {
+        "point": "Equilibrium where MRS = Px/Py",
+        "source_ref": "be--session-7#12"
+      },
+      {
+        "point": "Substitutes: price of X up, consumption of Y up (Coke and Pepsi)",
+        "source_ref": "be--session-7#13"
+      },
+      {
+        "point": "Complements: price of X up, consumption of Y down (DVD and DVD players)",
+        "source_ref": "be--session-7#13"
+      },
+      {
+        "point": "Normal goods rise with income; inferior goods fall",
+        "source_ref": "be--session-7#15"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

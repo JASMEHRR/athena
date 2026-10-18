@@ -1,0 +1,764 @@
+{
+  "id": "be-s7-effects-and-demand",
+  "subject_id": "be",
+  "deck_id": "be--session-7",
+  "title": "Income and substitution effects, the pizza deal and demand curves",
+  "order": 5,
+  "summary": "Splitting a price change into substitution and income effects, the buy-one-get-one-free pizza application, individual demand and market demand as a horizontal sum.",
+  "est_minutes": 25,
+  "difficulty": 2,
+  "source_refs": [
+    "be--session-7#17",
+    "be--session-7#18",
+    "be--session-7#19",
+    "be--session-7#20",
+    "be--session-7#21"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "be-s7-effects-and-demand-c1",
+      "heading": "Decomposing the income and substitution effects",
+      "explanation_md": "Start at bundle **A**. A **decrease in the price of good X** expands the consumer's opportunity set. The slide splits the move into two steps:\n\n1. **Substitution effect (SE)**: the move from **A to B**.\n2. **Income effect (IE)**: a higher **real income** lets the consumer reach a higher indifference curve; the move from **B to C** is the income effect.\n\nThe **new equilibrium is point C**, on the higher curve II.",
+      "example_ids": [
+        "be-ex-s7-se-ie"
+      ],
+      "key_terms": [
+        {
+          "term": "Substitution effect (SE)",
+          "meaning": "The move from A to B after the price of X falls.",
+          "source_ref": "be--session-7#17"
+        },
+        {
+          "term": "Income effect (IE)",
+          "meaning": "The move from B to C, because higher real income reaches a higher indifference curve.",
+          "source_ref": "be--session-7#17"
+        }
+      ],
+      "exam_line": "Price of X falls: SE is A to B, IE is B to C, new equilibrium at C on a higher curve.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s7-effects-and-demand-q-3a54c27a",
+          "type": "mcq",
+          "stem": "In the decomposition, the movement from B to C is:",
+          "options": [
+            "The income effect",
+            "The substitution effect",
+            "A shift of the budget line"
+          ],
+          "answer": "The income effect",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-7#17"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s7-effects-and-demand-q-107b6f22",
+          "type": "mcq",
+          "stem": "The substitution effect moves the consumer from:",
+          "options": [
+            "A to B",
+            "B to C",
+            "C to A"
+          ],
+          "answer": "A to B",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-7#17"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-7#17"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s7-effects-and-demand-c2",
+      "heading": "A classic marketing application: buy one, get one free",
+      "explanation_md": "The slide shows a **buy-one, get-one free pizza deal** with pizza (X) on the horizontal axis and other goods (Y) on the vertical axis.\n\nWithout the deal the budget line runs from A to B and the consumer's best point is C, at 0.5 pizza on indifference curve I. With the deal the budget line is bent: from A to D (1 pizza), flat from D to E (2 pizzas, since the second is free), then down to F. The consumer ends at E, on the higher curve II.",
+      "example_ids": [
+        "be-ex-s7-bogo-pizza"
+      ],
+      "key_terms": [],
+      "exam_line": "Buy-one-get-one-free pizza: the budget line bends (A to D, flat D to E, E to F) and the consumer reaches E on the higher curve II instead of C on curve I.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s7-effects-and-demand-q-8e4da3ac",
+          "type": "mcq",
+          "stem": "In the pizza deal graph, which point is on the higher indifference curve?",
+          "options": [
+            "E",
+            "C",
+            "A"
+          ],
+          "answer": "E",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-7#18"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s7-effects-and-demand-q-e849b653",
+          "type": "mcq",
+          "stem": "What is on the vertical axis in the pizza deal graph?",
+          "options": [
+            "Other goods (Y)",
+            "Price",
+            "Income"
+          ],
+          "answer": "Other goods (Y)",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-7#18"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-7#18"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s7-effects-and-demand-c3",
+      "heading": "Individual demand and market demand",
+      "explanation_md": "**Individual demand curve:** it is derived from each **new equilibrium point** found on the indifference curves as the **price of good X is varied**. Each price gives one quantity (for example price P1 and quantity X0 or X1), and joining them gives the demand curve D.\n\n**Market demand curve:** the **horizontal summation of individual demand curves**. It shows the **total quantity all consumers would purchase at each price point**.\n\nExample on the slide: at a price of 40, consumer 1 (D1) buys 1 unit and consumer 2 (D2) buys 2 units, so the market (DM) buys 3 units. Both curves start at a price of 50.",
+      "example_ids": [
+        "be-ex-s7-market-demand"
+      ],
+      "key_terms": [
+        {
+          "term": "Market demand",
+          "meaning": "The horizontal summation of individual demand curves.",
+          "source_ref": "be--session-7#20"
+        }
+      ],
+      "exam_line": "Individual demand comes from equilibrium points as the price of X changes. Market demand = horizontal sum of individual demands (at price 40: 1 + 2 = 3).",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s7-effects-and-demand-q-e51e7abc",
+          "type": "mcq",
+          "stem": "The market demand curve is:",
+          "options": [
+            "The horizontal summation of individual demand curves",
+            "The vertical summation of individual demand curves",
+            "The average of individual demand curves"
+          ],
+          "answer": "The horizontal summation of individual demand curves",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-7#20"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s7-effects-and-demand-q-3c500fc4",
+          "type": "mcq",
+          "stem": "On the market demand slide, at a price of 40 individual quantities are 1 and 2. Market quantity is:",
+          "options": [
+            "3",
+            "2",
+            "1"
+          ],
+          "answer": "3",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-7#20"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s7-effects-and-demand-q-99d70840",
+          "type": "fill",
+          "stem": "An individual's demand curve is derived from each new ____ point as the price of X is varied.",
+          "options": [],
+          "answer": "equilibrium",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-7#19"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-7#19",
+        "be--session-7#20"
+      ],
+      "derived": [
+        "1 + 2 = 3"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s7-effects-and-demand-c4",
+      "heading": "Conclusion",
+      "explanation_md": "The slide sums up:\n\n- **Indifference curve properties** reveal consumers' preferences between bundles: **completeness, more is better, diminishing marginal rate of substitution, transitivity**.\n- **Indifference curves along with price changes** determine individuals' demand curves.\n- **Market demand** is the horizontal summation of individuals' demands.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "Four properties; indifference curves plus price changes give individual demand; market demand is the horizontal sum.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s7-effects-and-demand-q-fbbf9020",
+          "type": "mcq",
+          "stem": "Which combination determines an individual's demand curve?",
+          "options": [
+            "Indifference curves along with price changes",
+            "Budget line shifts only",
+            "Market demand"
+          ],
+          "answer": "Indifference curves along with price changes",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-7#21"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s7-effects-and-demand-q-a2658876",
+          "type": "true_false",
+          "stem": "Market demand is the horizontal summation of individuals' demands.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-7#21"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-7#21"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "be-s7-effects-and-demand-f1",
+      "front": "Substitution effect (SE)",
+      "back": "The move from A to B after the price of X falls.",
+      "kind": "term",
+      "source_refs": [
+        "be--session-7#17"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s7-effects-and-demand-f2",
+      "front": "Income effect (IE)",
+      "back": "The move from B to C: higher real income reaches a higher indifference curve; new equilibrium at C.",
+      "kind": "term",
+      "source_refs": [
+        "be--session-7#17"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s7-effects-and-demand-f3",
+      "front": "Buy-one-get-one-free pizza",
+      "back": "Budget line is bent (A to D, flat D to E, E to F); consumer reaches E on higher curve II.",
+      "kind": "example",
+      "source_refs": [
+        "be--session-7#18"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s7-effects-and-demand-f4",
+      "front": "Individual demand curve",
+      "back": "Derived from each new equilibrium point as the price of X is varied.",
+      "kind": "term",
+      "source_refs": [
+        "be--session-7#19"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s7-effects-and-demand-f5",
+      "front": "Market demand curve",
+      "back": "Horizontal summation of individual demand curves: total quantity at each price.",
+      "kind": "term",
+      "source_refs": [
+        "be--session-7#20"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s7-effects-and-demand-f6",
+      "front": "Market demand example",
+      "back": "At price 40, D1 gives 1 and D2 gives 2, so DM gives 3.",
+      "kind": "example",
+      "source_refs": [
+        "be--session-7#20"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [
+    {
+      "id": "be-s7-effects-and-demand-q-0f2c8881",
+      "type": "mcq",
+      "stem": "After a fall in the price of X, the substitution effect is the move from:",
+      "options": [
+        "A to B",
+        "B to C",
+        "A to C"
+      ],
+      "answer": "A to B",
+      "accept": [],
+      "explanation": "As labelled on the slide.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "explain",
+      "source_refs": [
+        "be--session-7#17"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s7-effects-and-demand-q-1cede769",
+      "type": "mcq",
+      "stem": "The income effect arises because:",
+      "options": [
+        "A higher real income lets the consumer reach a higher indifference curve",
+        "The budget line becomes steeper",
+        "Preferences change"
+      ],
+      "answer": "A higher real income lets the consumer reach a higher indifference curve",
+      "accept": [],
+      "explanation": "Stated on the slide.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "be--session-7#17"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s7-effects-and-demand-q-8f0c9aaf",
+      "type": "mcq",
+      "stem": "The market demand curve is obtained by:",
+      "options": [
+        "Horizontal summation of individual demand curves",
+        "Vertical summation of individual demand curves",
+        "Taking the highest individual price"
+      ],
+      "answer": "Horizontal summation of individual demand curves",
+      "accept": [],
+      "explanation": "Definition.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "define",
+      "source_refs": [
+        "be--session-7#20"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s7-effects-and-demand-q-8bd62485",
+      "type": "mcq",
+      "stem": "At a price of 40, one consumer demands 1 unit and the other demands 2. Market demand at 40 is:",
+      "options": [
+        "3 units",
+        "2 units",
+        "1 unit"
+      ],
+      "answer": "3 units",
+      "accept": [],
+      "explanation": "1 + 2 = 3.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "numerical",
+      "source_refs": [
+        "be--session-7#20"
+      ],
+      "derived": [
+        "1",
+        "2",
+        "3"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s7-effects-and-demand-q-90e6cce3",
+      "type": "mcq",
+      "stem": "An individual's demand curve is derived from:",
+      "options": [
+        "Equilibrium points as the price of X is varied",
+        "The market demand curve",
+        "The budget line alone"
+      ],
+      "answer": "Equilibrium points as the price of X is varied",
+      "accept": [],
+      "explanation": "Derived from equilibrium points.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "be--session-7#19"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s7-effects-and-demand-q-2e092498",
+      "type": "short",
+      "stem": "Explain the substitution effect and income effect of a fall in the price of good X.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Start at bundle A. A fall in the price of X expands the opportunity set.\n\n- **Substitution effect**: the move from A to B.\n- **Income effect**: higher real income lets the consumer reach a higher indifference curve; the move from B to C.\n\nThe new equilibrium is at C.",
+      "rubric": [
+        {
+          "point": "Substitution effect A to B",
+          "source_ref": "be--session-7#17"
+        },
+        {
+          "point": "Income effect B to C",
+          "source_ref": "be--session-7#17"
+        },
+        {
+          "point": "New equilibrium at C, higher curve",
+          "source_ref": "be--session-7#17"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "be--session-7#17"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s7-effects-and-demand-q-461282cb",
+      "type": "short",
+      "stem": "Describe the buy-one-get-one-free pizza deal on the slide and what it does to the consumer's equilibrium.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The graph has pizza (X) on the horizontal axis and other goods (Y) on the vertical axis. The deal bends the budget line: from A to D at one pizza, flat from D to E at two pizzas (the second is free), then down to F.\n\nWithout the deal the consumer is at C (0.5 pizza) on curve I. With the deal the consumer reaches E on the higher curve II.",
+      "rubric": [
+        {
+          "point": "Pizza X, other goods Y",
+          "source_ref": "be--session-7#18"
+        },
+        {
+          "point": "Bent budget line A, D, E, F",
+          "source_ref": "be--session-7#18"
+        },
+        {
+          "point": "Consumer reaches E on higher curve II",
+          "source_ref": "be--session-7#18"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 2,
+      "style_tag": "case",
+      "source_refs": [
+        "be--session-7#18"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s7-effects-and-demand-q-4c33c2fd",
+      "type": "short",
+      "stem": "How is an individual demand curve derived from indifference curves?",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Vary the **price of good X** and find the **new equilibrium point** on the indifference curves each time. Plot each price against the quantity of X chosen (for example price P1 with quantity X0 or X1). Joining these points gives the **individual demand curve D**.",
+      "rubric": [
+        {
+          "point": "Vary the price of X",
+          "source_ref": "be--session-7#19"
+        },
+        {
+          "point": "New equilibrium point each time",
+          "source_ref": "be--session-7#19"
+        },
+        {
+          "point": "Plot price against quantity to get D",
+          "source_ref": "be--session-7#19"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "be--session-7#19"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s7-effects-and-demand-q-2b713402",
+      "type": "short",
+      "stem": "Two consumers have individual demand curves D1 and D2. At a price of 40, consumer 1 buys 1 unit and consumer 2 buys 2 units. Find market demand at 40 and explain the method.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Market demand is the **horizontal summation** of individual demands: at each price add the quantities.\n\nAt a price of 40: 1 + 2 = **3 units**. The market demand curve DM passes through quantity 3 at price 40.",
+      "rubric": [
+        {
+          "point": "Horizontal summation",
+          "source_ref": "be--session-7#20"
+        },
+        {
+          "point": "1 + 2 = 3",
+          "source_ref": "be--session-7#20"
+        },
+        {
+          "point": "DM passes through 3 at price 40",
+          "source_ref": "be--session-7#20"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "be--session-7#20"
+      ],
+      "derived": [
+        "1",
+        "2",
+        "3"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s7-effects-and-demand-q-01bcd236",
+      "type": "long",
+      "stem": "Explain how a consumer's demand curve and the market demand curve are derived from indifference curve analysis.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Introduction.** Indifference curves together with price changes determine demand.\n\n**Individual demand.** Vary the price of X, find the new equilibrium point on the indifference curves each time, and plot price against quantity. The result is the individual demand curve D.\n\n**Market demand.** The horizontal summation of the individual demand curves. It indicates the total quantity all consumers would purchase at each price. At a price of 40, D1 gives 1 unit and D2 gives 2 units, so the market demands 3 units.\n\n**Conclusion.** Individual demand comes from preferences and prices; market demand is the sum across consumers.",
+      "rubric": [
+        {
+          "point": "Individual demand from equilibrium points as price varies",
+          "source_ref": "be--session-7#19"
+        },
+        {
+          "point": "Market demand is horizontal summation",
+          "source_ref": "be--session-7#20"
+        },
+        {
+          "point": "Example 1 + 2 = 3 at price 40",
+          "source_ref": "be--session-7#20"
+        },
+        {
+          "point": "Conclusion linking indifference curves and price changes",
+          "source_ref": "be--session-7#21"
+        }
+      ],
+      "marks": 5.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "be--session-7#19",
+        "be--session-7#20",
+        "be--session-7#21"
+      ],
+      "derived": [
+        "1",
+        "2",
+        "3"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s7-effects-and-demand-q-5f47bc39",
+      "type": "long",
+      "stem": "Separate the total effect of a fall in the price of X into the substitution and income effects, and show how the pizza deal illustrates a marketing use of this analysis.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Introduction.** A price fall expands the opportunity set; the consumer's move can be split into two steps.\n\n**Substitution effect.** From bundle A to bundle B.\n\n**Income effect.** From B to C, to a higher indifference curve because real income is higher. C is the new equilibrium.\n\n**Pizza deal.** A buy-one-get-one-free pizza deal bends the budget line (A to D, flat D to E, E to F). The consumer reaches E on the higher curve II, rather than C on curve I.\n\n**Conclusion.** Firms can use indifference curve analysis to see how pricing deals change what consumers choose.",
+      "rubric": [
+        {
+          "point": "Substitution effect A to B",
+          "source_ref": "be--session-7#17"
+        },
+        {
+          "point": "Income effect B to C and new equilibrium",
+          "source_ref": "be--session-7#17"
+        },
+        {
+          "point": "Bent budget line in the pizza deal",
+          "source_ref": "be--session-7#18"
+        },
+        {
+          "point": "Consumer ends at E on curve II",
+          "source_ref": "be--session-7#18"
+        }
+      ],
+      "marks": 5.0,
+      "difficulty": 3,
+      "style_tag": "case",
+      "source_refs": [
+        "be--session-7#17",
+        "be--session-7#18"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "explain_back": {
+    "prompt": "Explain the income and substitution effects of a fall in the price of X, and how individual and market demand curves are obtained.",
+    "rubric": [
+      {
+        "point": "Substitution effect A to B",
+        "source_ref": "be--session-7#17"
+      },
+      {
+        "point": "Income effect B to C, new equilibrium at C",
+        "source_ref": "be--session-7#17"
+      },
+      {
+        "point": "Individual demand from equilibrium points as price varies",
+        "source_ref": "be--session-7#19"
+      },
+      {
+        "point": "Market demand is the horizontal sum of individual demands",
+        "source_ref": "be--session-7#20"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

@@ -1,0 +1,628 @@
+{
+  "id": "be-s6-att-pricing-examples",
+  "subject_id": "be",
+  "deck_id": "be--session-6",
+  "title": "Using elasticities: the long distance pricing examples",
+  "order": 6,
+  "summary": "Three worked examples: whether to raise or lower price, how many more calls a 3 percent cut brings, and the effect of a competitor's 4 percent price cut.",
+  "est_minutes": 20,
+  "difficulty": 2,
+  "source_refs": [
+    "be--session-6#31",
+    "be--session-6#32",
+    "be--session-6#33",
+    "be--session-6#34",
+    "be--session-6#35",
+    "be--session-6#36",
+    "be--session-6#37"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "be-s6-att-pricing-examples-c1",
+      "heading": "Example 1: raise or lower the price?",
+      "explanation_md": "A report gives **AT&T's own price elasticity of demand for long distance services as -8.64**. AT&T needs to **boost revenues**. Should it raise or lower its price?\n\n**Answer: lower the price.** |-8.64| is greater than 1, so demand is **elastic**. A price cut makes quantity demanded rise by a **greater percentage than the price fell**, so revenue goes up.",
+      "example_ids": [
+        "be-ex-s6-att-pricing"
+      ],
+      "key_terms": [],
+      "exam_line": "Own price elasticity -8.64 means elastic demand, so to raise revenue AT&T should lower price.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s6-att-pricing-examples-q-92d4830a",
+          "type": "mcq",
+          "stem": "AT&T's own price elasticity is -8.64 and it wants more revenue. It should:",
+          "options": [
+            "Lower its price",
+            "Raise its price",
+            "Keep price unchanged"
+          ],
+          "answer": "Lower its price",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-6#32",
+            "be--session-6#33"
+          ],
+          "derived": [
+            "32"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s6-att-pricing-examples-q-3b3c32f1",
+          "type": "true_false",
+          "stem": "Because demand is elastic, a price cut raises quantity by a greater percentage than the price fell.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-6#33"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-6#31",
+        "be--session-6#32",
+        "be--session-6#33"
+      ],
+      "derived": [
+        "32"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-att-pricing-examples-c2",
+      "heading": "Example 2: quantifying the change",
+      "explanation_md": "If AT&T lowers price by **3%**, what happens to long distance call volume?\n\nUse **E = %ΔQ / %ΔP**:\n\n-8.64 = %ΔQ / (-3%)\n\n%ΔQ = (-3%) x (-8.64) = **25.92%**\n\nCalls **increase by 25.92 percent**.",
+      "example_ids": [
+        "be-ex-s6-att-calls"
+      ],
+      "key_terms": [],
+      "exam_line": "-8.64 = %ΔQ / -3%, so calls rise by 25.92%.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s6-att-pricing-examples-q-7f9ea062",
+          "type": "mcq",
+          "stem": "With elasticity -8.64 and a 3% price cut, long distance calls change by:",
+          "options": [
+            "+25.92%",
+            "-25.92%",
+            "+8.64%"
+          ],
+          "answer": "+25.92%",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-6#35"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s6-att-pricing-examples-q-f6d16e08",
+          "type": "fill",
+          "stem": "To find %ΔQ, multiply -8.64 by -____% (the price change).",
+          "options": [],
+          "answer": "3",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-6#35"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-6#34",
+        "be--session-6#35"
+      ],
+      "derived": [
+        "-3 x -8.64 = 25.92"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-att-pricing-examples-c3",
+      "heading": "Example 3: a competitor cuts its price",
+      "explanation_md": "A report gives AT&T's **cross price elasticity of demand as 9.06**. If **competitors reduce prices by 4%**, what happens to demand for AT&T services?\n\n9.06 = %ΔQ / (-4%)\n\n%ΔQ = (-4%) x 9.06 = **-36.24%**\n\nAT&T's demand **falls by 36.24 percent**. The cross elasticity is positive, so the services are **substitutes**.",
+      "example_ids": [
+        "be-ex-s6-att-cross"
+      ],
+      "key_terms": [],
+      "exam_line": "Cross elasticity 9.06 and a 4% competitor price cut: AT&T demand falls by 36.24%.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s6-att-pricing-examples-q-f689c8ec",
+          "type": "mcq",
+          "stem": "AT&T's cross price elasticity is 9.06. Competitors cut price 4%. AT&T's demand:",
+          "options": [
+            "Falls 36.24%",
+            "Rises 36.24%",
+            "Falls 9.06%"
+          ],
+          "answer": "Falls 36.24%",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-6#37"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s6-att-pricing-examples-q-28dbfd62",
+          "type": "true_false",
+          "stem": "A positive cross price elasticity of 9.06 means the services are complements.",
+          "options": [],
+          "answer": "False",
+          "accept": [],
+          "explanation": "Positive means substitutes.",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-6#36",
+            "be--session-6#22"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-6#36",
+        "be--session-6#37"
+      ],
+      "derived": [
+        "-4 x 9.06 = -36.24"
+      ],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "be-s6-att-pricing-examples-f1",
+      "front": "AT&T own price elasticity example",
+      "back": "-8.64: elastic, so to raise revenue lower price.",
+      "kind": "example",
+      "source_refs": [
+        "be--session-6#32",
+        "be--session-6#33"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-att-pricing-examples-f2",
+      "front": "AT&T 3% price cut",
+      "back": "-8.64 = %ΔQ / -3%, so calls rise 25.92%.",
+      "kind": "example",
+      "source_refs": [
+        "be--session-6#34",
+        "be--session-6#35"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-att-pricing-examples-f3",
+      "front": "AT&T cross price elasticity example",
+      "back": "9.06 with competitors cutting price 4%: AT&T demand falls 36.24%.",
+      "kind": "example",
+      "source_refs": [
+        "be--session-6#37"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-att-pricing-examples-f4",
+      "front": "Uses of elasticities",
+      "back": "Pricing; managing cash flows; impact of competitors' prices; booms and recessions; advertising campaigns.",
+      "kind": "list",
+      "source_refs": [
+        "be--session-6#31"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [
+    {
+      "id": "be-s6-att-pricing-examples-q-f175ac60",
+      "type": "mcq",
+      "stem": "A firm with own price elasticity of -8.64 wants more revenue. It should:",
+      "options": [
+        "Lower price",
+        "Raise price",
+        "Leave price alone"
+      ],
+      "answer": "Lower price",
+      "accept": [],
+      "explanation": "Demand is elastic.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "case",
+      "source_refs": [
+        "be--session-6#32",
+        "be--session-6#33"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-att-pricing-examples-q-8e3a310f",
+      "type": "mcq",
+      "stem": "With elasticity -8.64 and a 3 percent price cut, call volume changes by:",
+      "options": [
+        "+25.92%",
+        "+8.64%",
+        "-25.92%"
+      ],
+      "answer": "+25.92%",
+      "accept": [],
+      "explanation": "-8.64 x -3 = 25.92.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "be--session-6#34",
+        "be--session-6#35"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-att-pricing-examples-q-c85a94c9",
+      "type": "mcq",
+      "stem": "With cross price elasticity 9.06 and competitors cutting price 4 percent, AT&T demand changes by:",
+      "options": [
+        "-36.24%",
+        "+36.24%",
+        "-9.06%"
+      ],
+      "answer": "-36.24%",
+      "accept": [],
+      "explanation": "9.06 x -4 = -36.24.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "be--session-6#36",
+        "be--session-6#37"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-att-pricing-examples-q-d09e8c1a",
+      "type": "mcq",
+      "stem": "Why does a price cut raise revenue when demand is elastic?",
+      "options": [
+        "Quantity rises by a greater percentage than price falls",
+        "Quantity falls by less than price",
+        "Price does not affect quantity"
+      ],
+      "answer": "Quantity rises by a greater percentage than price falls",
+      "accept": [],
+      "explanation": "That is the answer given on the slide.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "be--session-6#33"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-att-pricing-examples-q-805f2b89",
+      "type": "mcq",
+      "stem": "Which elasticity was used to find the effect of competitors' price cuts?",
+      "options": [
+        "Cross price elasticity",
+        "Own price elasticity",
+        "Income elasticity"
+      ],
+      "answer": "Cross price elasticity",
+      "accept": [],
+      "explanation": "It is the response to another firm's price.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "explain",
+      "source_refs": [
+        "be--session-6#36",
+        "be--session-6#37"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-att-pricing-examples-q-96b971e2",
+      "type": "short",
+      "stem": "AT&T's own price elasticity of demand for long distance services is -8.64. Should it raise or lower price to boost revenue? Explain.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "|-8.64| is greater than 1, so demand is **elastic**.\n\nWhen demand is elastic a price reduction increases quantity demanded by a **greater percentage** than the price decline, so revenue rises.\n\nSo AT&T should **lower its price**.",
+      "rubric": [
+        {
+          "point": "Elasticity above 1 in absolute value is elastic",
+          "source_ref": "be--session-6#33"
+        },
+        {
+          "point": "Price cut raises quantity by a greater percentage",
+          "source_ref": "be--session-6#33"
+        },
+        {
+          "point": "Conclusion: lower price",
+          "source_ref": "be--session-6#33"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 2,
+      "style_tag": "case",
+      "source_refs": [
+        "be--session-6#32",
+        "be--session-6#33"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-att-pricing-examples-q-1aba3527",
+      "type": "short",
+      "stem": "If AT&T lowers price by 3 percent, what happens to the volume of long distance calls? Show the working.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "E = %ΔQ / %ΔP, so -8.64 = %ΔQ / (-3%).\n\n%ΔQ = (-3%) x (-8.64) = **25.92%**.\n\nCalls routed through AT&T increase by 25.92 percent.",
+      "rubric": [
+        {
+          "point": "Formula with -8.64 and -3%",
+          "source_ref": "be--session-6#35"
+        },
+        {
+          "point": "25.92%",
+          "source_ref": "be--session-6#35"
+        },
+        {
+          "point": "Calls increase",
+          "source_ref": "be--session-6#35"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "be--session-6#34",
+        "be--session-6#35",
+        "be--session-6#32"
+      ],
+      "derived": [
+        "3",
+        "8.64",
+        "25.92"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-att-pricing-examples-q-29c1c9c9",
+      "type": "short",
+      "stem": "AT&T's cross price elasticity is 9.06. Competitors cut prices by 4 percent. Find the change in demand for AT&T and say what the sign of 9.06 tells us.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "9.06 = %ΔQ / (-4%), so %ΔQ = (-4%) x 9.06 = **-36.24%**.\n\nAT&T's demand **falls by 36.24 percent**. The cross elasticity is positive, so AT&T's services and the competitors' are **substitutes**.",
+      "rubric": [
+        {
+          "point": "%ΔQ = -4% x 9.06",
+          "source_ref": "be--session-6#37"
+        },
+        {
+          "point": "-36.24%",
+          "source_ref": "be--session-6#37"
+        },
+        {
+          "point": "Positive means substitutes",
+          "source_ref": "be--session-6#22"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "be--session-6#36",
+        "be--session-6#37",
+        "be--session-6#22"
+      ],
+      "derived": [
+        "4",
+        "9.06",
+        "36.24"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-att-pricing-examples-q-a11a9d9e",
+      "type": "long",
+      "stem": "Using the long distance example, explain how elasticities help a manager with pricing and with reacting to competitors.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Introduction.** Elasticities turn pricing questions into numbers.\n\n**Own price elasticity.** With -8.64, demand is elastic, so lowering price raises revenue. A 3% cut raises call volume by 25.92%.\n\n**Cross price elasticity.** With 9.06, a 4% price cut by competitors reduces AT&T demand by 36.24%, because the services are substitutes.\n\n**Other uses.** Pricing, managing cash flows, competitors' prices, booms and recessions, and advertising.\n\n**Conclusion.** A manager who knows these elasticities can forecast both own-price and rival-price effects.",
+      "rubric": [
+        {
+          "point": "Elastic, so lower price",
+          "source_ref": "be--session-6#33"
+        },
+        {
+          "point": "25.92% rise in calls",
+          "source_ref": "be--session-6#35"
+        },
+        {
+          "point": "36.24% fall from competitors' cut",
+          "source_ref": "be--session-6#37"
+        },
+        {
+          "point": "Uses of elasticities",
+          "source_ref": "be--session-6#31"
+        }
+      ],
+      "marks": 5.0,
+      "difficulty": 2,
+      "style_tag": "case",
+      "source_refs": [
+        "be--session-6#31",
+        "be--session-6#32",
+        "be--session-6#33",
+        "be--session-6#35",
+        "be--session-6#37"
+      ],
+      "derived": [
+        "3",
+        "8.64",
+        "25.92",
+        "4",
+        "9.06",
+        "36.24"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-att-pricing-examples-q-6b695551",
+      "type": "long",
+      "stem": "Differentiate between the effect of own price elasticity and cross price elasticity on a firm's demand, using the AT&T figures.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Introduction.** Own price elasticity reacts to the firm's own price; cross price elasticity reacts to another firm's price.\n\n| Point | Own price | Cross price |\n|---|---|---|\n| Value | -8.64 | 9.06 |\n| Price change | Own price down 3% | Competitors' price down 4% |\n| Effect on AT&T | Calls up 25.92% | Demand down 36.24% |\n| Sign meaning | Law of demand, elastic | Substitutes |\n\n**Conclusion.** One gives the firm's own pricing lever, the other the risk from rivals.",
+      "rubric": [
+        {
+          "point": "Own price: -8.64, +25.92%",
+          "source_ref": "be--session-6#35"
+        },
+        {
+          "point": "Cross price: 9.06, -36.24%",
+          "source_ref": "be--session-6#37"
+        },
+        {
+          "point": "Positive cross means substitutes",
+          "source_ref": "be--session-6#22"
+        },
+        {
+          "point": "Comparison of own versus rival price",
+          "source_ref": "be--session-6#37"
+        }
+      ],
+      "marks": 5.0,
+      "difficulty": 2,
+      "style_tag": "differentiate",
+      "source_refs": [
+        "be--session-6#35",
+        "be--session-6#37",
+        "be--session-6#22"
+      ],
+      "derived": [
+        "25.92%",
+        "25.92",
+        "36.24%",
+        "36.24"
+      ],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "explain_back": {
+    "prompt": "Using the long distance example, explain what elasticity tells a manager about pricing and competitors.",
+    "rubric": [
+      {
+        "point": "Own price elasticity -8.64 is elastic: lower the price to raise revenue",
+        "source_ref": "be--session-6#33"
+      },
+      {
+        "point": "3% price cut gives calls up 25.92%",
+        "source_ref": "be--session-6#35"
+      },
+      {
+        "point": "Cross elasticity 9.06 and a 4% competitor cut gives demand down 36.24%",
+        "source_ref": "be--session-6#37"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

@@ -1,0 +1,792 @@
+{
+  "id": "be-s7-preference-properties",
+  "subject_id": "be",
+  "deck_id": "be--session-7",
+  "title": "The four properties of consumer preferences",
+  "order": 2,
+  "summary": "Completeness, more is better, diminishing marginal rate of substitution (with the 50, 16.67, 8.33 numbers) and transitivity.",
+  "est_minutes": 25,
+  "difficulty": 2,
+  "source_refs": [
+    "be--session-7#5",
+    "be--session-7#6",
+    "be--session-7#7",
+    "be--session-7#8",
+    "be--session-7#9"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "be-s7-preference-properties-c1",
+      "heading": "Completeness",
+      "explanation_md": "The slide lists four properties of consumer preference ordering: **completeness**, **more is better**, **diminishing marginal rate of substitution** and **transitivity**.\n\n**Completeness:** the consumer can express a preference (or indifference) between **all possible bundles**. \"I don't know\" is **not** an option.\n\nExample: if the only bundles are A, B and C, the consumer is **indifferent between A and C** (same indifference curve), **prefers B to A** and **prefers B to C**.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Completeness",
+          "meaning": "The consumer can express preferences or indifference between all possible bundles.",
+          "source_ref": "be--session-7#6"
+        }
+      ],
+      "exam_line": "Completeness: a consumer can rank every pair of bundles; 'I don't know' is not an option.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s7-preference-properties-q-a64a26f3",
+          "type": "mcq",
+          "stem": "Which is NOT one of the four preference properties on the slide?",
+          "options": [
+            "Increasing marginal utility",
+            "Completeness",
+            "Transitivity"
+          ],
+          "answer": "Increasing marginal utility",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-7#5"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s7-preference-properties-q-418b25d3",
+          "type": "mcq",
+          "stem": "Under completeness the consumer:",
+          "options": [
+            "Can express a preference or indifference between all bundles",
+            "Always prefers the cheapest bundle",
+            "May answer 'I don't know'"
+          ],
+          "answer": "Can express a preference or indifference between all bundles",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-7#6"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s7-preference-properties-q-087565f4",
+          "type": "true_false",
+          "stem": "In the completeness example, the consumer is indifferent between A and C.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-7#6"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-7#5",
+        "be--session-7#6"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s7-preference-properties-c2",
+      "heading": "More is better",
+      "explanation_md": "**More is better:** bundles with **at least as much of every good and more of some good** are preferred.\n\nOn the graph, A is at X = 1, Y = 100; B is at X = 3, Y = 100; C is at X = 3, Y = 33.33.\n\n- **B is preferred to A**: same amount of Y, **strictly more X**.\n- **B is preferred to C**: same amount of X, **strictly more Y**.\n- Generally, all bundles on **IC III** are preferred to those on IC II or IC I, and all on **IC II** are preferred to IC I. Higher curves mean more satisfaction.",
+      "example_ids": [
+        "be-ex-s7-more-is-better"
+      ],
+      "key_terms": [
+        {
+          "term": "More is better",
+          "meaning": "Bundles with at least as much of every good and more of some good are preferred.",
+          "source_ref": "be--session-7#7"
+        }
+      ],
+      "exam_line": "More is better: B beats A (more X, same Y) and beats C (more Y, same X). Higher indifference curves are preferred.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s7-preference-properties-q-fbfe1fff",
+          "type": "mcq",
+          "stem": "Why is bundle B preferred to bundle A on the slide?",
+          "options": [
+            "Same Y and strictly more X",
+            "More Y and less X",
+            "It lies on a lower curve"
+          ],
+          "answer": "Same Y and strictly more X",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-7#7"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s7-preference-properties-q-278fa00f",
+          "type": "mcq",
+          "stem": "Which indifference curve is the most preferred?",
+          "options": [
+            "III",
+            "II",
+            "I"
+          ],
+          "answer": "III",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-7#7"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-7#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s7-preference-properties-c3",
+      "heading": "Diminishing marginal rate of substitution",
+      "explanation_md": "**Diminishing marginal rate of substitution:** the amount of Y the consumer is willing to give up to stay equally satisfied **decreases as more X is acquired**.\n\nThe slide's bundles on IC I: A at X = 1, Y = 100; B at X = 2, Y = 50; C at X = 3, Y = 33.33; D at X = 4, Y = 25.\n\n| Move | Y given up for one more X |\n|---|---|\n| A to B | 50 units |\n| B to C | 16.67 units |\n| C to D | only 8.33 units |\n\nThe more X you have, the less Y you will give up for one more X. That is why indifference curves are **bowed in toward the origin**.",
+      "example_ids": [
+        "be-ex-s7-mrs-bundles"
+      ],
+      "key_terms": [
+        {
+          "term": "Diminishing marginal rate of substitution",
+          "meaning": "The amount of Y given up to keep the same satisfaction falls as more X is acquired.",
+          "source_ref": "be--session-7#8"
+        }
+      ],
+      "exam_line": "marginal rate of substitution diminishes: A to B gives up 50 of Y, B to C 16.67, C to D only 8.33, for one extra unit of X each time.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s7-preference-properties-q-a9455a1f",
+          "type": "mcq",
+          "stem": "Going from bundle B to bundle C, the consumer gives up how many units of Y for one more X?",
+          "options": [
+            "16.67",
+            "50",
+            "8.33"
+          ],
+          "answer": "16.67",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-7#8"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s7-preference-properties-q-04681e9b",
+          "type": "mcq",
+          "stem": "As more X is acquired, the Y a consumer will give up for another X:",
+          "options": [
+            "Decreases",
+            "Increases",
+            "Stays the same"
+          ],
+          "answer": "Decreases",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-7#8"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s7-preference-properties-q-ff3d5e76",
+          "type": "fill",
+          "stem": "Going from C to D the consumer gives up only ____ units of Y for one extra unit of X.",
+          "options": [],
+          "answer": "8.33",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-7#8"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-7#8"
+      ],
+      "derived": [
+        "100 - 50 = 50",
+        "50 - 33.33 = 16.67",
+        "33.33 - 25 = 8.33"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s7-preference-properties-c4",
+      "heading": "Transitivity",
+      "explanation_md": "**Transitivity:** for three bundles A, B and C, if the consumer prefers C to B and B to A, then the consumer prefers **C to A**.\n\nTransitive preferences, together with more-is-better, imply that:\n\n- **indifference curves will not intersect**;\n- the consumer will **not get caught in a perpetual cycle of indecision**.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Transitivity",
+          "meaning": "If C is preferred to B and B to A, then C is preferred to A.",
+          "source_ref": "be--session-7#9"
+        }
+      ],
+      "exam_line": "Transitivity: C over B and B over A means C over A. With more is better it means indifference curves do not cross.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s7-preference-properties-q-0edd7950",
+          "type": "mcq",
+          "stem": "If a consumer prefers C to B and B to A, transitivity says the consumer prefers:",
+          "options": [
+            "C to A",
+            "A to C",
+            "A and C equally"
+          ],
+          "answer": "C to A",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-7#9"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s7-preference-properties-q-acf04447",
+          "type": "true_false",
+          "stem": "Transitive preferences with more-is-better imply indifference curves will not intersect.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-7#9"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-7#9"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "be-s7-preference-properties-f1",
+      "front": "Four properties of preference ordering",
+      "back": "Completeness; more is better; diminishing marginal rate of substitution; transitivity.",
+      "kind": "list",
+      "source_refs": [
+        "be--session-7#5"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s7-preference-properties-f2",
+      "front": "Completeness",
+      "back": "The consumer can express a preference or indifference between all possible bundles; 'I don't know' is not an option.",
+      "kind": "term",
+      "source_refs": [
+        "be--session-7#6"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s7-preference-properties-f3",
+      "front": "More is better",
+      "back": "Bundles with at least as much of every good and more of some good are preferred; higher indifference curves are preferred.",
+      "kind": "term",
+      "source_refs": [
+        "be--session-7#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s7-preference-properties-f4",
+      "front": "Diminishing marginal rate of substitution numbers",
+      "back": "A to B: give up 50 of Y; B to C: 16.67; C to D: 8.33, each for one more unit of X.",
+      "kind": "example",
+      "source_refs": [
+        "be--session-7#8"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s7-preference-properties-f5",
+      "front": "Transitivity",
+      "back": "If C is preferred to B and B to A, then C is preferred to A; indifference curves do not intersect.",
+      "kind": "term",
+      "source_refs": [
+        "be--session-7#9"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [
+    {
+      "id": "be-s7-preference-properties-q-0d5fea6e",
+      "type": "mcq",
+      "stem": "The more-is-better property says that bundles with:",
+      "options": [
+        "At least as much of every good and more of some good are preferred",
+        "Less of every good are preferred",
+        "The same total number of goods are preferred"
+      ],
+      "answer": "At least as much of every good and more of some good are preferred",
+      "accept": [],
+      "explanation": "Definition.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "define",
+      "source_refs": [
+        "be--session-7#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s7-preference-properties-q-17510b7d",
+      "type": "mcq",
+      "stem": "Going from bundle A to B on the slide, the consumer gives up how many units of Y for one more unit of X?",
+      "options": [
+        "50",
+        "16.67",
+        "8.33"
+      ],
+      "answer": "50",
+      "accept": [],
+      "explanation": "100 to 50.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "numerical",
+      "source_refs": [
+        "be--session-7#8"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s7-preference-properties-q-95ba751b",
+      "type": "mcq",
+      "stem": "Going from C to D the consumer gives up:",
+      "options": [
+        "8.33 units of Y",
+        "16.67 units of Y",
+        "50 units of Y"
+      ],
+      "answer": "8.33 units of Y",
+      "accept": [],
+      "explanation": "33.33 to 25.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "numerical",
+      "source_refs": [
+        "be--session-7#8"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s7-preference-properties-q-b1107768",
+      "type": "mcq",
+      "stem": "Transitive preferences together with more-is-better imply that:",
+      "options": [
+        "Indifference curves will not intersect",
+        "Indifference curves must intersect",
+        "Consumers are always indifferent"
+      ],
+      "answer": "Indifference curves will not intersect",
+      "accept": [],
+      "explanation": "As stated on the slide.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "be--session-7#9"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s7-preference-properties-q-0ac83c72",
+      "type": "mcq",
+      "stem": "Under completeness, which answer is NOT allowed?",
+      "options": [
+        "I don't know",
+        "I prefer B",
+        "I am indifferent"
+      ],
+      "answer": "I don't know",
+      "accept": [],
+      "explanation": "The slide says it is not an option.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "explain",
+      "source_refs": [
+        "be--session-7#6"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s7-preference-properties-q-cbf54a3a",
+      "type": "short",
+      "stem": "Name and briefly explain the four properties of consumer preference ordering.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "1. **Completeness**: the consumer can express a preference or indifference between all possible bundles.\n2. **More is better**: bundles with at least as much of every good and more of some good are preferred.\n3. **Diminishing marginal rate of substitution**: the amount of Y given up for another X falls as more X is acquired.\n4. **Transitivity**: if C is preferred to B and B to A, then C is preferred to A.",
+      "rubric": [
+        {
+          "point": "Completeness",
+          "source_ref": "be--session-7#6"
+        },
+        {
+          "point": "More is better",
+          "source_ref": "be--session-7#7"
+        },
+        {
+          "point": "Diminishing marginal rate of substitution",
+          "source_ref": "be--session-7#8"
+        },
+        {
+          "point": "Transitivity",
+          "source_ref": "be--session-7#9"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "list",
+      "source_refs": [
+        "be--session-7#5",
+        "be--session-7#6",
+        "be--session-7#7",
+        "be--session-7#8",
+        "be--session-7#9"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s7-preference-properties-q-26b09d8a",
+      "type": "short",
+      "stem": "Using the slide's graph, explain why bundle B is preferred to bundle A and to bundle C.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "A is at X = 1, Y = 100; B is at X = 3, Y = 100; C is at X = 3, Y = 33.33.\n\n- **B over A**: same Y and strictly more X.\n- **B over C**: same X and strictly more Y.\n\nGenerally, bundles on a higher indifference curve (III over II over I) are preferred.",
+      "rubric": [
+        {
+          "point": "B over A: more X, same Y",
+          "source_ref": "be--session-7#7"
+        },
+        {
+          "point": "B over C: more Y, same X",
+          "source_ref": "be--session-7#7"
+        },
+        {
+          "point": "Higher curve preferred",
+          "source_ref": "be--session-7#7"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "be--session-7#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s7-preference-properties-q-5eb3ab80",
+      "type": "short",
+      "stem": "Using the slide's bundles A (X = 1, Y = 100), B (X = 2, Y = 50), C (X = 3, Y = 33.33) and D (X = 4, Y = 25), calculate how much Y the consumer gives up for each extra unit of X and comment.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "| Move | Y given up |\n|---|---|\n| A to B | 100 - 50 = 50 |\n| B to C | 50 - 33.33 = 16.67 |\n| C to D | 33.33 - 25 = 8.33 |\n\nThe amount of Y given up falls as more X is acquired: this is the **diminishing marginal rate of substitution**.",
+      "rubric": [
+        {
+          "point": "50 for A to B",
+          "source_ref": "be--session-7#8"
+        },
+        {
+          "point": "16.67 for B to C",
+          "source_ref": "be--session-7#8"
+        },
+        {
+          "point": "8.33 for C to D",
+          "source_ref": "be--session-7#8"
+        },
+        {
+          "point": "Diminishing marginal rate of substitution",
+          "source_ref": "be--session-7#8"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "be--session-7#8"
+      ],
+      "derived": [
+        "100",
+        "50",
+        "33.33",
+        "16.67",
+        "25",
+        "8.33"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s7-preference-properties-q-6de28ed3",
+      "type": "short",
+      "stem": "State transitivity and explain what it implies for indifference curves.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "For three bundles A, B and C, transitivity says that if C is preferred to B and B is preferred to A, then **C is preferred to A**.\n\nWith more-is-better it implies indifference curves **will not intersect** and the consumer will **not get caught in a perpetual cycle of indecision**.",
+      "rubric": [
+        {
+          "point": "C over B and B over A gives C over A",
+          "source_ref": "be--session-7#9"
+        },
+        {
+          "point": "Curves do not intersect",
+          "source_ref": "be--session-7#9"
+        },
+        {
+          "point": "No cycle of indecision",
+          "source_ref": "be--session-7#9"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "be--session-7#9"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s7-preference-properties-q-dc9216e0",
+      "type": "long",
+      "stem": "Explain the diminishing marginal rate of substitution using the numerical example on the slides.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Introduction.** The marginal rate of substitution is the rate at which a consumer swaps one good for another and keeps the same satisfaction. It diminishes as more X is acquired.\n\n**Example.** On indifference curve I the consumer holds A (X = 1, Y = 100), B (X = 2, Y = 50), C (X = 3, Y = 33.33) and D (X = 4, Y = 25).\n- A to B: give up 50 units of Y for one extra X.\n- B to C: give up 16.67.\n- C to D: give up only 8.33.\n\n**Meaning.** The more X the consumer has, the less Y is willing to be sacrificed for yet another X.\n\n**Conclusion.** This is why indifference curves bend toward the origin.",
+      "rubric": [
+        {
+          "point": "Definition",
+          "source_ref": "be--session-7#8"
+        },
+        {
+          "point": "50, 16.67, 8.33 worked",
+          "source_ref": "be--session-7#8"
+        },
+        {
+          "point": "Y given up falls as X rises",
+          "source_ref": "be--session-7#8"
+        },
+        {
+          "point": "Bundles A to D listed",
+          "source_ref": "be--session-7#8"
+        }
+      ],
+      "marks": 5.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "be--session-7#8"
+      ],
+      "derived": [
+        "100",
+        "50",
+        "33.33",
+        "16.67",
+        "25",
+        "8.33"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s7-preference-properties-q-c81e8476",
+      "type": "long",
+      "stem": "Discuss the properties of completeness, more is better and transitivity and show how each is illustrated on the slides.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Introduction.** Three properties make consumer preferences consistent.\n\n**Completeness.** The consumer can express preference or indifference between all bundles; 'I don't know' is not an option. With A, B and C, the consumer is indifferent between A and C and prefers B to both.\n\n**More is better.** Bundle B is preferred to A (same Y, more X) and to C (same X, more Y); bundles on IC III beat IC II and IC I.\n\n**Transitivity.** If C is preferred to B and B to A, then C is preferred to A. This means curves do not intersect.\n\n**Conclusion.** Together these give well-behaved indifference curves.",
+      "rubric": [
+        {
+          "point": "Completeness with A, B, C example",
+          "source_ref": "be--session-7#6"
+        },
+        {
+          "point": "More is better with B over A and C",
+          "source_ref": "be--session-7#7"
+        },
+        {
+          "point": "Transitivity statement",
+          "source_ref": "be--session-7#9"
+        },
+        {
+          "point": "No intersecting curves",
+          "source_ref": "be--session-7#9"
+        }
+      ],
+      "marks": 5.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "be--session-7#6",
+        "be--session-7#7",
+        "be--session-7#9"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "explain_back": {
+    "prompt": "Explain the four properties of consumer preferences with the slides' examples.",
+    "rubric": [
+      {
+        "point": "Completeness: all bundles can be ranked, no 'I don't know'",
+        "source_ref": "be--session-7#6"
+      },
+      {
+        "point": "More is better: B preferred to A and C; higher curves preferred",
+        "source_ref": "be--session-7#7"
+      },
+      {
+        "point": "Diminishing marginal rate of substitution: 50, 16.67, 8.33 units of Y given up",
+        "source_ref": "be--session-7#8"
+      },
+      {
+        "point": "Transitivity: C over B over A means C over A; curves do not cross",
+        "source_ref": "be--session-7#9"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

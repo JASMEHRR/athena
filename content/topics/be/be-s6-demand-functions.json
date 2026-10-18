@@ -1,0 +1,753 @@
+{
+  "id": "be-s6-demand-functions",
+  "subject_id": "be",
+  "deck_id": "be--session-6",
+  "title": "Reading demand functions: linear and log-linear",
+  "order": 7,
+  "summary": "How to read signs in a demand function, the elasticity formulas for a linear demand function with the Qd = 10 - 2P example, and the log-linear form where the coefficients are the elasticities.",
+  "est_minutes": 25,
+  "difficulty": 3,
+  "source_refs": [
+    "be--session-6#38",
+    "be--session-6#39",
+    "be--session-6#40",
+    "be--session-6#41",
+    "be--session-6#42",
+    "be--session-6#43"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "be-s6-demand-functions-c1",
+      "heading": "Interpreting a demand function",
+      "explanation_md": "A demand function is a **mathematical representation of a demand curve**. The slide's example:\n\n**Qd = 10 - 2PX + 3PY - 2M**\n\nRead the **sign of each coefficient**:\n\n- Coefficient of **PX is negative** (-2): the **law of demand holds**.\n- Coefficient of **PY is positive** (+3): **X and Y are substitutes**.\n- Coefficient of **M is negative** (-2): **X is an inferior good**.",
+      "example_ids": [
+        "be-ex-s6-demand-fn-signs"
+      ],
+      "key_terms": [],
+      "exam_line": "Signs in Qd = 10 - 2PX + 3PY - 2M: PX negative (law of demand), PY positive (substitutes), M negative (inferior good).",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s6-demand-functions-q-b26d7d48",
+          "type": "mcq",
+          "stem": "In Qd = 10 - 2PX + 3PY - 2M, X and Y are:",
+          "options": [
+            "Substitutes",
+            "Complements",
+            "Unrelated"
+          ],
+          "answer": "Substitutes",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-6#38"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s6-demand-functions-q-211010ef",
+          "type": "mcq",
+          "stem": "In the same function, the coefficient of M is negative, so X is:",
+          "options": [
+            "An inferior good",
+            "A normal good",
+            "A complement"
+          ],
+          "answer": "An inferior good",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-6#38",
+            "be--session-6#27"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s6-demand-functions-q-7c1eeeac",
+          "type": "true_false",
+          "stem": "A negative coefficient on PX means the law of demand holds.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-6#38"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-6#38"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-demand-functions-c2",
+      "heading": "Linear demand: elasticities from the coefficients",
+      "explanation_md": "The **general linear demand function** is:\n\n**Qd = α0 + αX PX + αY PY + αM M + αH H**\n\nThe three elasticities are the coefficient times price (or income) over quantity:\n\n- **Own price elasticity**: E(QX,PX) = αX x (PX / QX)\n- **Cross price elasticity**: E(QX,PY) = αY x (PY / QX)\n- **Income elasticity**: E(QX,M) = αM x (M / QX)\n\n**Example:** Qd = 10 - 2P. Own price elasticity = (-2) x P / Q. At **P = 1**, Q = 10 - 2 = **8**. So E = (-2)(1)/8 = **-0.25**, which is **inelastic**.\n\nFor a linear demand function the elasticity **depends on where you are on the line**, because it uses P / Q.",
+      "example_ids": [
+        "be-ex-s6-linear-example"
+      ],
+      "key_terms": [],
+      "exam_line": "Linear: E(QX,PX) = αX(PX/QX). Qd = 10 - 2P at P = 1, Q = 8 gives E = -0.25.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s6-demand-functions-q-de15f09e",
+          "type": "mcq",
+          "stem": "For Qd = 10 - 2P at P = 1, own price elasticity equals:",
+          "options": [
+            "-0.25",
+            "-2",
+            "-0.5"
+          ],
+          "answer": "-0.25",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-6#40"
+          ],
+          "derived": [
+            "0.5",
+            "0.25"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s6-demand-functions-q-436a359e",
+          "type": "fill",
+          "stem": "Own price elasticity for linear demand is the price coefficient times P divided by ____.",
+          "options": [],
+          "answer": "Q",
+          "accept": [
+            "QX",
+            "quantity"
+          ],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-6#39",
+            "be--session-6#40"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s6-demand-functions-q-ead8022e",
+          "type": "mcq",
+          "stem": "In Qd = 10 - 2P, what is Q when P = 1?",
+          "options": [
+            "8",
+            "10",
+            "2"
+          ],
+          "answer": "8",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-6#40"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-6#39",
+        "be--session-6#40"
+      ],
+      "derived": [
+        "(-2)(1)/8 = -0.25",
+        "0.5",
+        "0.25"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-demand-functions-c3",
+      "heading": "Log-linear demand: the coefficients are the elasticities",
+      "explanation_md": "The **general log-linear demand function** is:\n\n**ln Qd = β0 + βX ln PX + βY ln PY + βM ln M + βH ln H**\n\nHere the elasticities **are the coefficients**:\n\n- **Own price elasticity = βX**\n- **Cross price elasticity = βY**\n- **Income elasticity = βM**\n\n**Example:** ln(Qd) = 10 - 2 ln(P). Own price elasticity = **-2**, everywhere along the curve.\n\nGraph: the slide draws **linear demand** and **log-linear demand** side by side, each as a demand curve D with P against Q.",
+      "example_ids": [
+        "be-ex-s6-loglinear-example"
+      ],
+      "key_terms": [],
+      "exam_line": "Log-linear: the coefficients on ln P, ln PY and ln M are the own price, cross price and income elasticities. ln(Qd) = 10 - 2 ln(P) gives -2.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s6-demand-functions-q-7baa1aa7",
+          "type": "mcq",
+          "stem": "In ln(Qd) = 10 - 2 ln(P), the own price elasticity is:",
+          "options": [
+            "-2",
+            "10",
+            "-0.25"
+          ],
+          "answer": "-2",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-6#42"
+          ],
+          "derived": [
+            "0.25"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s6-demand-functions-q-dac6b836",
+          "type": "mcq",
+          "stem": "In a log-linear demand function, income elasticity is:",
+          "options": [
+            "The coefficient on ln M",
+            "The coefficient on ln M times M/Q",
+            "The constant term"
+          ],
+          "answer": "The coefficient on ln M",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-6#41",
+            "be--session-6#39"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s6-demand-functions-q-28c5440a",
+          "type": "true_false",
+          "stem": "For a log-linear demand function you must divide the coefficient by Q to get the elasticity.",
+          "options": [],
+          "answer": "False",
+          "accept": [],
+          "explanation": "The coefficient itself is the elasticity.",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-6#41"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-6#41",
+        "be--session-6#42",
+        "be--session-6#43"
+      ],
+      "derived": [
+        "0.25"
+      ],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "be-s6-demand-functions-f1",
+      "front": "Signs in a demand function",
+      "back": "PX coefficient negative: law of demand; PY positive: substitutes; M negative: inferior good.",
+      "kind": "list",
+      "source_refs": [
+        "be--session-6#38"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-demand-functions-f2",
+      "front": "Linear demand elasticities",
+      "back": "Own: αX(PX/QX); cross: αY(PY/QX); income: αM(M/QX).",
+      "kind": "formula",
+      "source_refs": [
+        "be--session-6#39"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-demand-functions-f3",
+      "front": "Qd = 10 - 2P at P = 1",
+      "back": "Q = 8, own price elasticity = (-2)(1)/8 = -0.25.",
+      "kind": "example",
+      "source_refs": [
+        "be--session-6#40"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-demand-functions-f4",
+      "front": "Log-linear elasticities",
+      "back": "Own price = βX; cross price = βY; income = βM.",
+      "kind": "formula",
+      "source_refs": [
+        "be--session-6#41"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-demand-functions-f5",
+      "front": "ln(Qd) = 10 - 2 ln(P)",
+      "back": "Own price elasticity is -2.",
+      "kind": "example",
+      "source_refs": [
+        "be--session-6#42"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [
+    {
+      "id": "be-s6-demand-functions-q-4856f447",
+      "type": "mcq",
+      "stem": "In Qd = 10 - 2PX + 3PY - 2M, the positive coefficient on PY shows that X and Y are:",
+      "options": [
+        "Substitutes",
+        "Complements",
+        "Unrelated"
+      ],
+      "answer": "Substitutes",
+      "accept": [],
+      "explanation": "Positive coefficient on the other price: substitutes.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "explain",
+      "source_refs": [
+        "be--session-6#38"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-demand-functions-q-d3151272",
+      "type": "mcq",
+      "stem": "In the same function the coefficient on PX is negative. This shows that:",
+      "options": [
+        "The law of demand holds",
+        "X is an inferior good",
+        "X and Y are complements"
+      ],
+      "answer": "The law of demand holds",
+      "accept": [],
+      "explanation": "Price up, quantity down.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "explain",
+      "source_refs": [
+        "be--session-6#38"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-demand-functions-q-594d716e",
+      "type": "mcq",
+      "stem": "For the linear function Qd = 10 - 2P, own price elasticity at P = 1 is:",
+      "options": [
+        "-0.25",
+        "-2",
+        "-1"
+      ],
+      "answer": "-0.25",
+      "accept": [],
+      "explanation": "(-2)(1)/8.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "be--session-6#40"
+      ],
+      "derived": [
+        "2",
+        "1",
+        "8",
+        "0.25"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-demand-functions-q-69447b52",
+      "type": "mcq",
+      "stem": "In a log-linear demand function, the own price elasticity is:",
+      "options": [
+        "The coefficient on ln PX",
+        "The coefficient times P/Q",
+        "The constant term"
+      ],
+      "answer": "The coefficient on ln PX",
+      "accept": [],
+      "explanation": "Coefficients are the elasticities.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "formula",
+      "source_refs": [
+        "be--session-6#41",
+        "be--session-6#39"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-demand-functions-q-90cfaef3",
+      "type": "mcq",
+      "stem": "For ln(Qd) = 10 - 2 ln(P), the own price elasticity is:",
+      "options": [
+        "-2",
+        "10",
+        "-0.25"
+      ],
+      "answer": "-2",
+      "accept": [],
+      "explanation": "The coefficient of ln P.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "numerical",
+      "source_refs": [
+        "be--session-6#42",
+        "be--session-6#40"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-demand-functions-q-72100695",
+      "type": "short",
+      "stem": "Interpret Qd = 10 - 2PX + 3PY - 2M: what does each coefficient sign tell you?",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "- **-2 on PX (negative)**: the law of demand holds.\n- **+3 on PY (positive)**: X and Y are substitutes.\n- **-2 on M (negative)**: X is an inferior good.\n\nSo the signs alone tell you the type of relationship.",
+      "rubric": [
+        {
+          "point": "PX negative: law of demand",
+          "source_ref": "be--session-6#38"
+        },
+        {
+          "point": "PY positive: substitutes",
+          "source_ref": "be--session-6#38"
+        },
+        {
+          "point": "M negative: inferior good",
+          "source_ref": "be--session-6#38"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "be--session-6#38"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-demand-functions-q-3c46ddef",
+      "type": "short",
+      "stem": "Qd = 10 - 2P. Find the own price elasticity at P = 1.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "For linear demand, **E = (coefficient of P) x P / Q**.\n\nAt P = 1: Q = 10 - 2 = 8.\n\nE = (-2)(1)/8 = **-0.25**. Since |E| < 1, demand is **inelastic** at this point.",
+      "rubric": [
+        {
+          "point": "E = (-2) x P / Q",
+          "source_ref": "be--session-6#40"
+        },
+        {
+          "point": "Q = 8 at P = 1",
+          "source_ref": "be--session-6#40"
+        },
+        {
+          "point": "-0.25, inelastic",
+          "source_ref": "be--session-6#40"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "be--session-6#40"
+      ],
+      "derived": [
+        "2",
+        "1",
+        "8",
+        "0.25"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-demand-functions-q-69bd850a",
+      "type": "short",
+      "stem": "Write the general linear demand function and the three elasticity formulas that come from it.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**General linear demand:** Quantity demanded = α0 + αX PX + αY PY + αM M + αH H.\n\n- Own price elasticity: αX x (PX / QX)\n- Cross price elasticity: αY x (PY / QX)\n- Income elasticity: αM x (M / QX)",
+      "rubric": [
+        {
+          "point": "General linear demand function",
+          "source_ref": "be--session-6#39"
+        },
+        {
+          "point": "Own and cross price formulas",
+          "source_ref": "be--session-6#39"
+        },
+        {
+          "point": "Income formula",
+          "source_ref": "be--session-6#39"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 2,
+      "style_tag": "formula",
+      "source_refs": [
+        "be--session-6#39"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-demand-functions-q-0b98a979",
+      "type": "short",
+      "stem": "Differentiate between linear and log-linear demand functions in how elasticity is obtained.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "| Point | Linear | Log-linear |\n|---|---|---|\n| Form | Quantity demanded = α0 + αX PX + ... | ln Qd = β0 + βX ln PX + ... |\n| Own price elasticity | αX x (PX / QX), depends on P and Q | βX itself |\n| Example | Qd = 10 - 2P gives -0.25 at P = 1 | ln(Qd) = 10 - 2 ln(P) gives -2 |\n\nThe slides draw the linear demand as a straight curve and the log-linear as a curve of a different shape.",
+      "rubric": [
+        {
+          "point": "Linear: coefficient x P/Q",
+          "source_ref": "be--session-6#39"
+        },
+        {
+          "point": "Log-linear: coefficient is the elasticity",
+          "source_ref": "be--session-6#41"
+        },
+        {
+          "point": "Examples -0.25 and -2",
+          "source_ref": "be--session-6#42"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 3,
+      "style_tag": "differentiate",
+      "source_refs": [
+        "be--session-6#39",
+        "be--session-6#40",
+        "be--session-6#41",
+        "be--session-6#42"
+      ],
+      "derived": [
+        "0.25"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-demand-functions-q-5ce0735b",
+      "type": "long",
+      "stem": "Explain how elasticities are calculated from a linear demand function and illustrate with Qd = 10 - 2P.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Introduction.** A linear demand function lets you read elasticities straight from the coefficients.\n\n**General form.** Quantity demanded = α0 + αX PX + αY PY + αM M + αH H.\n\n**Formulas.**\n- Own price: αX x (PX / QX)\n- Cross price: αY x (PY / QX)\n- Income: αM x (M / QX)\n\n**Example.** Qd = 10 - 2P. Own price elasticity = (-2)P/Q. At P = 1, Q = 10 - 2 = 8, so E = (-2)(1)/8 = **-0.25**, which is inelastic.\n\n**Conclusion.** For linear demand elasticity changes with P and Q.",
+      "rubric": [
+        {
+          "point": "General linear function",
+          "source_ref": "be--session-6#39"
+        },
+        {
+          "point": "Three elasticity formulas",
+          "source_ref": "be--session-6#39"
+        },
+        {
+          "point": "Q = 8 at P = 1",
+          "source_ref": "be--session-6#40"
+        },
+        {
+          "point": "-0.25 inelastic",
+          "source_ref": "be--session-6#40"
+        }
+      ],
+      "marks": 5.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "be--session-6#39",
+        "be--session-6#40"
+      ],
+      "derived": [
+        "2",
+        "1",
+        "8",
+        "0.25"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-demand-functions-q-8437d466",
+      "type": "long",
+      "stem": "Compare linear and log-linear demand functions and show how to read elasticities from each, using the slide examples.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Introduction.** Both are ways to write a demand curve; they differ in how elasticity is read.\n\n**Linear.** Quantity demanded = α0 + αX PX + αY PY + αM M + αH H. Elasticities = coefficient x (variable / QX). Example: Qd = 10 - 2P, at P = 1 and Q = 8 the own price elasticity is (-2)(1)/8 = -0.25.\n\n**Log-linear.** ln Qd = β0 + βX ln PX + βY ln PY + βM ln M + ln H terms. The coefficients themselves are the elasticities: own price βX, cross price βY, income βM. Example: ln(Qd) = 10 - 2 ln(P) gives own price elasticity -2.\n\n**Graphs.** The slide draws each as a demand curve D with price against quantity.\n\n**Conclusion.** Linear needs P and Q; log-linear gives the elasticity directly.",
+      "rubric": [
+        {
+          "point": "Linear formulas with P/Q",
+          "source_ref": "be--session-6#39"
+        },
+        {
+          "point": "Example -0.25",
+          "source_ref": "be--session-6#40"
+        },
+        {
+          "point": "Log-linear: coefficients are elasticities",
+          "source_ref": "be--session-6#41"
+        },
+        {
+          "point": "Example -2",
+          "source_ref": "be--session-6#42"
+        },
+        {
+          "point": "Both drawn as demand curves",
+          "source_ref": "be--session-6#43"
+        }
+      ],
+      "marks": 5.0,
+      "difficulty": 3,
+      "style_tag": "differentiate",
+      "source_refs": [
+        "be--session-6#39",
+        "be--session-6#40",
+        "be--session-6#41",
+        "be--session-6#42",
+        "be--session-6#43"
+      ],
+      "derived": [
+        "2",
+        "1",
+        "8",
+        "0.25"
+      ],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "explain_back": {
+    "prompt": "Compare how to get elasticities from a linear and a log-linear demand function, using the Qd = 10 - 2P and ln(Qd) = 10 - 2 ln(P) examples.",
+    "rubric": [
+      {
+        "point": "Linear: elasticity = coefficient x (P / Q)",
+        "source_ref": "be--session-6#39"
+      },
+      {
+        "point": "Qd = 10 - 2P at P = 1, Q = 8: -0.25",
+        "source_ref": "be--session-6#40"
+      },
+      {
+        "point": "Log-linear: the coefficients are the elasticities",
+        "source_ref": "be--session-6#41"
+      },
+      {
+        "point": "ln(Qd) = 10 - 2 ln(P): own price elasticity -2",
+        "source_ref": "be--session-6#42"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

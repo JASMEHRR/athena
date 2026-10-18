@@ -1,0 +1,666 @@
+{
+  "id": "be-s6-regression-demand",
+  "subject_id": "be",
+  "deck_id": "be--session-6",
+  "title": "Estimating demand with regression",
+  "order": 8,
+  "summary": "What regression is used for, the terms on the slide, and the professor's worked spreadsheet output for ln Qx on ln Px.",
+  "est_minutes": 20,
+  "difficulty": 2,
+  "source_refs": [
+    "be--session-6#44",
+    "be--session-6#45",
+    "be--session-6#46",
+    "be--session-6#47",
+    "be--session-6#48"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "be-s6-regression-demand-c1",
+      "heading": "Regression analysis: the tools",
+      "explanation_md": "**Regression analysis** is used, among other things, for **estimating demand functions**. The terms on the slide:\n\n- **Least squares regression model**: Y = a + bX + e\n- **Least squares regression line**: the fitted line (fitted values from the estimated a and b)\n- **Confidence intervals**\n- **t-statistic**\n- **R-square** (the coefficient of determination)\n- **F-statistic**\n\nThe example uses a spreadsheet to estimate the log-linear demand function **ln Qx = β0 + βx ln Px + e**.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "R-square",
+          "meaning": "Also called the coefficient of determination.",
+          "source_ref": "be--session-6#44"
+        }
+      ],
+      "exam_line": "Regression estimates demand functions. Terms: least squares model Y = a + bX + e, confidence intervals, t-statistic, R-square, F-statistic.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s6-regression-demand-q-c8c482ba",
+          "type": "mcq",
+          "stem": "Which is another name for R-square on the slide?",
+          "options": [
+            "Coefficient of determination",
+            "Confidence interval",
+            "F-statistic"
+          ],
+          "answer": "Coefficient of determination",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-6#44"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s6-regression-demand-q-c425b81a",
+          "type": "fill",
+          "stem": "The least squares regression model on the slide is Y = a + bX + ____.",
+          "options": [],
+          "answer": "e",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-6#44"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-6#44",
+        "be--session-6#45"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-regression-demand-c2",
+      "heading": "The spreadsheet output and how to read it",
+      "explanation_md": "The summary output (**41 observations**) gives: **Multiple R 0.41, R Square 0.17, Adjusted R Square 0.15, Standard Error 0.68**. The coefficients: **intercept 7.58** (t Stat 5.29) and **ln(P) 0.84** (t Stat 2.80), with the F statistic **7.85** and Significance F **0.01**.\n\nThe professor's reading:\n\n- The estimated function is **ln(Qx) = 7.58 - 0.84 ln(Px)**.\n- **Own price elasticity = -0.84**, which is **inelastic**.\n- **t-statistics of 5.29 and -2.80** show the coefficients are **statistically different from zero**.\n- **R-square of 0.17**: ln(PX) explains only **17 percent** of the variation in ln(Qx).\n- The **F-statistic is significant at the 1 percent level**.\n\nNote: the output table prints the ln(P) coefficient as 0.84; the professor reads it as -0.84.",
+      "example_ids": [
+        "be-ex-s6-regression-output"
+      ],
+      "key_terms": [],
+      "exam_line": "ln(Qx) = 7.58 - 0.84 ln(Px): elasticity -0.84 (inelastic); t-stats 5.29 and -2.80 significant; R-square 0.17 means only 17 percent explained; F significant at the 1 percent level.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s6-regression-demand-q-93e68e33",
+          "type": "mcq",
+          "stem": "In the regression example the estimated own price elasticity is:",
+          "options": [
+            "-0.84",
+            "7.58",
+            "0.17"
+          ],
+          "answer": "-0.84",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-6#47"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s6-regression-demand-q-0d722c80",
+          "type": "mcq",
+          "stem": "An R-square of 0.17 means ln(Px) explains:",
+          "options": [
+            "Only 17 percent of the variation in ln(Qx)",
+            "Most of the variation",
+            "17 percent of price"
+          ],
+          "answer": "Only 17 percent of the variation in ln(Qx)",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-6#47",
+            "be--session-6#46"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s6-regression-demand-q-2db41d76",
+          "type": "true_false",
+          "stem": "An own price elasticity of -0.84 means demand is inelastic.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-6#47"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-6#46",
+        "be--session-6#47"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-regression-demand-c3",
+      "heading": "Conclusion of the session",
+      "explanation_md": "The slide's takeaways:\n\n- **Elasticities** quantify the impact of changes in **prices, income and advertising** on **sales and revenues**.\n- Given market or survey data, **regression analysis** can estimate **demand functions**, **elasticities**, and other things including **cost functions**.\n- Managers can **quantify the impact** of changes in prices, income, advertising and so on.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "Elasticities quantify the impact of price, income and advertising on sales and revenue; regression estimates demand functions, elasticities and cost functions.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s6-regression-demand-q-ef1d63f3",
+          "type": "mcq",
+          "stem": "Regression analysis on market or survey data can estimate:",
+          "options": [
+            "Demand functions, elasticities and cost functions",
+            "Only cost functions",
+            "Only price"
+          ],
+          "answer": "Demand functions, elasticities and cost functions",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-6#48"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s6-regression-demand-q-1300d1a3",
+          "type": "fill",
+          "stem": "Elasticities quantify the impact of changes in prices, income and ____ on sales and revenues.",
+          "options": [],
+          "answer": "advertising",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-6#48"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-6#48"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "be-s6-regression-demand-f1",
+      "front": "Regression terms on the slide",
+      "back": "Least squares model Y = a + bX + e; regression line; confidence intervals; t-statistic; R-square; F-statistic.",
+      "kind": "list",
+      "source_refs": [
+        "be--session-6#44"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-regression-demand-f2",
+      "front": "Estimated demand function from the output",
+      "back": "ln(Qx) = 7.58 - 0.84 ln(Px).",
+      "kind": "formula",
+      "source_refs": [
+        "be--session-6#47"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-regression-demand-f3",
+      "front": "Own price elasticity in the regression example",
+      "back": "-0.84, inelastic.",
+      "kind": "fact",
+      "source_refs": [
+        "be--session-6#47"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-regression-demand-f4",
+      "front": "R-square 0.17 means",
+      "back": "ln(PX) explains only 17 percent of the variation in ln(Qx).",
+      "kind": "fact",
+      "source_refs": [
+        "be--session-6#47"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-regression-demand-f5",
+      "front": "t-statistics 5.29 and -2.80",
+      "back": "The estimated coefficients are statistically different from zero.",
+      "kind": "fact",
+      "source_refs": [
+        "be--session-6#47"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [
+    {
+      "id": "be-s6-regression-demand-q-18e85350",
+      "type": "mcq",
+      "stem": "In the regression example the estimated demand function is:",
+      "options": [
+        "ln(Qx) = 7.58 - 0.84 ln(Px)",
+        "ln(Qx) = 0.84 - 7.58 ln(Px)",
+        "Qx = 7.58 - 0.84 Px"
+      ],
+      "answer": "ln(Qx) = 7.58 - 0.84 ln(Px)",
+      "accept": [],
+      "explanation": "As read by the professor.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "formula",
+      "source_refs": [
+        "be--session-6#47"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-regression-demand-q-5484576b",
+      "type": "mcq",
+      "stem": "An own price elasticity of -0.84 means demand is:",
+      "options": [
+        "Inelastic",
+        "Elastic",
+        "Unitary"
+      ],
+      "answer": "Inelastic",
+      "accept": [],
+      "explanation": "|-0.84| is below 1.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "explain",
+      "source_refs": [
+        "be--session-6#47"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-regression-demand-q-8f9bb5a7",
+      "type": "mcq",
+      "stem": "The R-square of 0.17 tells us that:",
+      "options": [
+        "Only 17 percent of the variation in ln(Qx) is explained",
+        "17 percent of the data is wrong",
+        "The elasticity is 0.17"
+      ],
+      "answer": "Only 17 percent of the variation in ln(Qx) is explained",
+      "accept": [],
+      "explanation": "R-square is the share explained.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "be--session-6#47",
+        "be--session-6#46"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-regression-demand-q-499b9d61",
+      "type": "mcq",
+      "stem": "The t-statistics of 5.29 and -2.80 indicate that the coefficients are:",
+      "options": [
+        "Statistically different from zero",
+        "Equal to zero",
+        "Equal to each other"
+      ],
+      "answer": "Statistically different from zero",
+      "accept": [],
+      "explanation": "Large t-statistics.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "be--session-6#47"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-regression-demand-q-51549cd0",
+      "type": "mcq",
+      "stem": "The least squares regression model on the slide is:",
+      "options": [
+        "Y = a + bX + e",
+        "Y = a - bX",
+        "Y = e + a / X"
+      ],
+      "answer": "Y = a + bX + e",
+      "accept": [],
+      "explanation": "Intercept, slope and error.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "formula",
+      "source_refs": [
+        "be--session-6#44"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-regression-demand-q-ee4fab0f",
+      "type": "short",
+      "stem": "Name the terms and concepts of regression analysis listed on the slide, and one use of regression in this session.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Terms:** least squares regression model (Y = a + bX + e), the least squares regression line, confidence intervals, t-statistic, R-square (coefficient of determination) and F-statistic.\n\n**Use:** regression is used to estimate demand functions and elasticities, and other things such as cost functions.",
+      "rubric": [
+        {
+          "point": "Least squares model and line",
+          "source_ref": "be--session-6#44"
+        },
+        {
+          "point": "Confidence intervals, t-statistic, R-square, F-statistic",
+          "source_ref": "be--session-6#44"
+        },
+        {
+          "point": "Use: estimating demand functions",
+          "source_ref": "be--session-6#48"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 1,
+      "style_tag": "list",
+      "source_refs": [
+        "be--session-6#44",
+        "be--session-6#48"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-regression-demand-q-c11a6b0f",
+      "type": "short",
+      "stem": "From the regression output, write the estimated log-linear demand function and state the own price elasticity.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The output gives intercept 7.58 and a coefficient of 0.84 on ln(P), read as -0.84.\n\nEstimated function: **ln(Qx) = 7.58 - 0.84 ln(Px)**.\n\nOwn price elasticity = **-0.84**, so demand is **inelastic**.",
+      "rubric": [
+        {
+          "point": "Function ln(Qx) = 7.58 - 0.84 ln(Px)",
+          "source_ref": "be--session-6#47"
+        },
+        {
+          "point": "Elasticity -0.84",
+          "source_ref": "be--session-6#47"
+        },
+        {
+          "point": "Inelastic",
+          "source_ref": "be--session-6#47"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "be--session-6#46",
+        "be--session-6#47"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-regression-demand-q-89c7e876",
+      "type": "short",
+      "stem": "How good is the estimated demand function? Interpret the t-statistics, R-square and F-statistic.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "- **t-statistics** of 5.29 and -2.80: the estimated coefficients are statistically different from zero.\n- **R-square of 0.17**: ln(Px) explains only 17 percent of the variation in ln(Qx).\n- **F-statistic**: significant at the 1 percent level.\n\nSo the coefficients are significant but the fit is modest.",
+      "rubric": [
+        {
+          "point": "t-statistics significant",
+          "source_ref": "be--session-6#47"
+        },
+        {
+          "point": "R-square 0.17, only 17 percent",
+          "source_ref": "be--session-6#47"
+        },
+        {
+          "point": "F significant at 1 percent",
+          "source_ref": "be--session-6#47"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "be--session-6#46",
+        "be--session-6#47"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-regression-demand-q-62c15f37",
+      "type": "short",
+      "stem": "State the conclusion of the session on what elasticities and regression let a manager do.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "- **Elasticities** quantify the impact of changes in prices, income and advertising on sales and revenues.\n- Given market or survey data, **regression analysis** can estimate demand functions, elasticities and other things including cost functions.\n- Managers can therefore quantify the impact of changes in prices, income and advertising.",
+      "rubric": [
+        {
+          "point": "Elasticities quantify price, income, advertising impact",
+          "source_ref": "be--session-6#48"
+        },
+        {
+          "point": "Regression estimates demand functions and elasticities",
+          "source_ref": "be--session-6#48"
+        },
+        {
+          "point": "Also cost functions",
+          "source_ref": "be--session-6#48"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 1,
+      "style_tag": "explain",
+      "source_refs": [
+        "be--session-6#48"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-regression-demand-q-638fbbfa",
+      "type": "long",
+      "stem": "Explain how regression analysis is used to estimate a log-linear demand function and interpret the output on the slide.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Introduction.** Regression analysis estimates demand functions from market or survey data.\n\n**Setup.** A spreadsheet is used to estimate the log-linear function ln Qx = β0 + βx ln Px + e, using the least squares model Y = a + bX + e.\n\n**Output.** 41 observations; intercept 7.58, coefficient on ln(P) read as -0.84; R-square 0.17; F-statistic significant.\n\n**Interpretation.**\n- Function: ln(Qx) = 7.58 - 0.84 ln(Px).\n- Own price elasticity -0.84, inelastic.\n- t-statistics 5.29 and -2.80: coefficients different from zero.\n- R-square 0.17: only 17 percent explained.\n- F significant at the 1 percent level.\n\n**Conclusion.** The estimate is significant but explains only a small part of the variation.",
+      "rubric": [
+        {
+          "point": "Log-linear model and least squares set-up",
+          "source_ref": "be--session-6#45"
+        },
+        {
+          "point": "Estimated function and elasticity -0.84 inelastic",
+          "source_ref": "be--session-6#47"
+        },
+        {
+          "point": "t-statistics",
+          "source_ref": "be--session-6#47"
+        },
+        {
+          "point": "R-square 0.17",
+          "source_ref": "be--session-6#47"
+        },
+        {
+          "point": "F-statistic significant at 1 percent",
+          "source_ref": "be--session-6#47"
+        }
+      ],
+      "marks": 5.0,
+      "difficulty": 3,
+      "style_tag": "explain",
+      "source_refs": [
+        "be--session-6#44",
+        "be--session-6#45",
+        "be--session-6#46",
+        "be--session-6#47"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-regression-demand-q-86a8f2e8",
+      "type": "long",
+      "stem": "Differentiate between what the t-statistic, R-square and F-statistic each tell you about a regression, using the example output.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Introduction.** All three judge how good an estimate is, but they answer different questions.\n\n| Statistic | What it tests | Example value |\n|---|---|---|\n| t-statistic | Whether a coefficient is different from zero | 5.29 and -2.80: different from zero |\n| R-square | Share of variation explained | 0.17: only 17 percent |\n| F-statistic | Overall significance | 7.85, significant at the 1 percent level |\n\n**Conclusion.** The coefficients are significant, the model is significant overall, but the fit (R-square) is low.",
+      "rubric": [
+        {
+          "point": "t-statistic meaning and value",
+          "source_ref": "be--session-6#47"
+        },
+        {
+          "point": "R-square meaning and 17 percent",
+          "source_ref": "be--session-6#47"
+        },
+        {
+          "point": "F-statistic meaning and 1 percent level",
+          "source_ref": "be--session-6#47"
+        },
+        {
+          "point": "Overall judgment",
+          "source_ref": "be--session-6#47"
+        }
+      ],
+      "marks": 5.0,
+      "difficulty": 3,
+      "style_tag": "differentiate",
+      "source_refs": [
+        "be--session-6#44",
+        "be--session-6#46",
+        "be--session-6#47"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "explain_back": {
+    "prompt": "Interpret the regression output for ln(Qx) = 7.58 - 0.84 ln(Px).",
+    "rubric": [
+      {
+        "point": "Own price elasticity is -0.84, inelastic",
+        "source_ref": "be--session-6#47"
+      },
+      {
+        "point": "t-statistics 5.29 and -2.80: coefficients different from zero",
+        "source_ref": "be--session-6#47"
+      },
+      {
+        "point": "R-square 0.17: explains only 17 percent of the variation",
+        "source_ref": "be--session-6#47"
+      },
+      {
+        "point": "F-statistic significant at the 1 percent level",
+        "source_ref": "be--session-6#47"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

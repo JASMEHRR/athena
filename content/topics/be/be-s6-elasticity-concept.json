@@ -1,0 +1,600 @@
+{
+  "id": "be-s6-elasticity-concept",
+  "subject_id": "be",
+  "deck_id": "be--session-6",
+  "title": "The elasticity concept",
+  "order": 1,
+  "summary": "Elasticity as the percentage change in one variable divided by the percentage change in another, its sign rules, the calculus version, and the session roadmap.",
+  "est_minutes": 15,
+  "difficulty": 1,
+  "source_refs": [
+    "be--session-6#3",
+    "be--session-6#4",
+    "be--session-6#2",
+    "be--session-6#31"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "be-s6-elasticity-concept-c1",
+      "heading": "What elasticity measures",
+      "explanation_md": "Elasticity answers one question: **how responsive is variable G to a change in variable S?**\n\nThe formula is a ratio of percentage changes:\n\n**E(G,S) = %ΔG / %ΔS**\n\nThe **sign** tells you how the two variables move:\n\n- **E(G,S) > 0**: S and G are **directly related** (they move the same way).\n- **E(G,S) < 0**: S and G are **inversely related** (they move opposite ways).\n- **E(G,S) = 0**: S and G are **unrelated**.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Elasticity",
+          "meaning": "How responsive variable G is to a change in variable S: E(G,S) = %ΔG / %ΔS.",
+          "source_ref": "be--session-6#3"
+        }
+      ],
+      "exam_line": "E(G,S) = %ΔG / %ΔS. Positive: directly related. Negative: inversely related. Zero: unrelated.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s6-elasticity-concept-q-a6f58f64",
+          "type": "mcq",
+          "stem": "If E(G,S) is negative, G and S are:",
+          "options": [
+            "Inversely related",
+            "Directly related",
+            "Unrelated"
+          ],
+          "answer": "Inversely related",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-6#3"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s6-elasticity-concept-q-8f5d9977",
+          "type": "fill",
+          "stem": "Elasticity is the percentage change in G divided by the percentage change in ____.",
+          "options": [],
+          "answer": "S",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-6#3"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s6-elasticity-concept-q-fc2b5aab",
+          "type": "true_false",
+          "stem": "If E(G,S) = 0, then S and G are unrelated.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-6#3"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-6#3"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-elasticity-concept-c2",
+      "heading": "The calculus way to measure it",
+      "explanation_md": "For a function **G = f(S)** the slides give an alternative formula using calculus:\n\n**E(G,S) = (dG/dS) × (S/G)**\n\nIt is the slope of the function multiplied by S over G. The **sign rules do not change**: greater than 0 means directly related, less than 0 means inversely related, equal to 0 means unrelated.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "Calculus form: E(G,S) = (dG/dS)(S/G); same sign rules as the percentage form.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s6-elasticity-concept-q-02e5b734",
+          "type": "mcq",
+          "stem": "Which is the calculus form of elasticity for G = f(S)?",
+          "options": [
+            "(dG/dS) × (S/G)",
+            "(dG/dS) × (G/S)",
+            "%ΔS / %ΔG"
+          ],
+          "answer": "(dG/dS) × (S/G)",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-6#4",
+            "be--session-6#3"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s6-elasticity-concept-q-4d8ea5d3",
+          "type": "true_false",
+          "stem": "The calculus formula changes what a negative elasticity means.",
+          "options": [],
+          "answer": "False",
+          "accept": [],
+          "explanation": "The same rules apply: below 0 means inversely related.",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-6#4"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-6#4"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-elasticity-concept-c3",
+      "heading": "Roadmap of the session",
+      "explanation_md": "The overview slide lists what Session 6 covers:\n\n- The elasticity concept\n- **Own price elasticity**\n- **Elasticity and total revenue**\n- **Cross-price elasticity**\n- **Income elasticity**\n- **Demand functions**: linear and log-linear\n- **Regression analysis**\n\nLater the deck lists **uses of elasticities**: pricing, managing cash flows, the impact of changes in competitors' prices, the impact of economic booms and recessions, and the impact of advertising campaigns.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "Uses of elasticities: pricing, cash flows, competitors' prices, booms and recessions, advertising campaigns.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s6-elasticity-concept-q-d89fc04c",
+          "type": "mcq",
+          "stem": "Which is NOT on the slide's list of uses of elasticities?",
+          "options": [
+            "Setting interest rates",
+            "Pricing",
+            "Impact of advertising campaigns"
+          ],
+          "answer": "Setting interest rates",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-6#31"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s6-elasticity-concept-q-faf05cec",
+          "type": "fill",
+          "stem": "The two forms of demand function covered in the session are linear and ____.",
+          "options": [],
+          "answer": "log-linear",
+          "accept": [
+            "log linear",
+            "loglinear"
+          ],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-6#2"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-6#2",
+        "be--session-6#31"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "be-s6-elasticity-concept-f1",
+      "front": "Elasticity formula",
+      "back": "E(G,S) = %ΔG / %ΔS: how responsive G is to a change in S.",
+      "kind": "formula",
+      "source_refs": [
+        "be--session-6#3"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-elasticity-concept-f2",
+      "front": "Sign rules for elasticity",
+      "back": "Positive: directly related. Negative: inversely related. Zero: unrelated.",
+      "kind": "list",
+      "source_refs": [
+        "be--session-6#3"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-elasticity-concept-f3",
+      "front": "Calculus form of elasticity",
+      "back": "E(G,S) = (dG/dS)(S/G) for G = f(S).",
+      "kind": "formula",
+      "source_refs": [
+        "be--session-6#4"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-elasticity-concept-f4",
+      "front": "Uses of elasticities (slide list)",
+      "back": "Pricing; managing cash flows; impact of competitors' prices; booms and recessions; advertising campaigns.",
+      "kind": "list",
+      "source_refs": [
+        "be--session-6#31"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [
+    {
+      "id": "be-s6-elasticity-concept-q-0537d66f",
+      "type": "mcq",
+      "stem": "Elasticity of G with respect to S is calculated as:",
+      "options": [
+        "%ΔG divided by %ΔS",
+        "%ΔS divided by %ΔG",
+        "ΔG divided by ΔS"
+      ],
+      "answer": "%ΔG divided by %ΔS",
+      "accept": [],
+      "explanation": "Elasticity is a ratio of percentage changes, response over cause.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "define",
+      "source_refs": [
+        "be--session-6#3"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-elasticity-concept-q-9f60f6bd",
+      "type": "mcq",
+      "stem": "A positive value of E(G,S) tells you that:",
+      "options": [
+        "S and G are directly related",
+        "S and G are inversely related",
+        "S and G are unrelated"
+      ],
+      "answer": "S and G are directly related",
+      "accept": [],
+      "explanation": "Positive means they move in the same direction.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "define",
+      "source_refs": [
+        "be--session-6#3"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-elasticity-concept-q-4e87a789",
+      "type": "mcq",
+      "stem": "If E(G,S) = 0, then:",
+      "options": [
+        "S and G are unrelated",
+        "S and G are directly related",
+        "G is perfectly elastic"
+      ],
+      "answer": "S and G are unrelated",
+      "accept": [],
+      "explanation": "Zero elasticity means G does not respond to S.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "define",
+      "source_refs": [
+        "be--session-6#3"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-elasticity-concept-q-29e1d88f",
+      "type": "mcq",
+      "stem": "For a function G = f(S), the calculus version of elasticity is:",
+      "options": [
+        "(dG/dS) x (S/G)",
+        "(dS/dG) x (S/G)",
+        "(dG/dS) x (G/S)"
+      ],
+      "answer": "(dG/dS) x (S/G)",
+      "accept": [],
+      "explanation": "Slope times S over G.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "formula",
+      "source_refs": [
+        "be--session-6#4"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-elasticity-concept-q-422c39c9",
+      "type": "mcq",
+      "stem": "Which item is listed as a use of elasticities?",
+      "options": [
+        "Impact of advertising campaigns",
+        "Choosing accounting rules",
+        "Setting tax rates"
+      ],
+      "answer": "Impact of advertising campaigns",
+      "accept": [],
+      "explanation": "Pricing, cash flows, competitors' prices, booms and recessions and advertising are the listed uses.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "list",
+      "source_refs": [
+        "be--session-6#31",
+        "be--session-6#2"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-elasticity-concept-q-1b8b5a86",
+      "type": "short",
+      "stem": "Define elasticity and write its formula.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Elasticity** measures how responsive one variable G is to a change in another variable S.\n\n- Formula: **E(G,S) = %ΔG / %ΔS**.\n- It compares percentage changes, so it does not depend on the units used.\n\nSo elasticity tells you how strongly G reacts when S moves.",
+      "rubric": [
+        {
+          "point": "The responsiveness of G to a change in S",
+          "source_ref": "be--session-6#3"
+        },
+        {
+          "point": "Formula %ΔG / %ΔS",
+          "source_ref": "be--session-6#3"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 1,
+      "style_tag": "define",
+      "source_refs": [
+        "be--session-6#3"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-elasticity-concept-q-11012a9d",
+      "type": "short",
+      "stem": "What does the sign of E(G,S) tell us? Explain all three cases.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The sign shows the direction of the relationship.\n\n- **E(G,S) > 0**: S and G are **directly related**, they move together.\n- **E(G,S) < 0**: S and G are **inversely related**, they move in opposite directions.\n- **E(G,S) = 0**: S and G are **unrelated**.\n\nFor example, own price elasticity of demand is negative because price and quantity demanded move in opposite directions.",
+      "rubric": [
+        {
+          "point": "Greater than 0: directly related",
+          "source_ref": "be--session-6#3"
+        },
+        {
+          "point": "Less than 0: inversely related",
+          "source_ref": "be--session-6#3"
+        },
+        {
+          "point": "Equal to 0: unrelated",
+          "source_ref": "be--session-6#3"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 1,
+      "style_tag": "explain",
+      "source_refs": [
+        "be--session-6#3"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-elasticity-concept-q-cabb6821",
+      "type": "short",
+      "stem": "Write the calculus formula for elasticity of a function G = f(S) and say how it relates to the percentage formula.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "For G = f(S) the calculus form is **E(G,S) = (dG/dS) x (S/G)**: the slope of the function times S over G.\n\nIt is an alternative way to measure the same elasticity, and the **sign rules are unchanged**: above 0 directly related, below 0 inversely related, 0 unrelated.",
+      "rubric": [
+        {
+          "point": "E = (dG/dS)(S/G)",
+          "source_ref": "be--session-6#4"
+        },
+        {
+          "point": "Alternative measure of the same idea with the same sign rules",
+          "source_ref": "be--session-6#4"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 2,
+      "style_tag": "formula",
+      "source_refs": [
+        "be--session-6#4",
+        "be--session-6#3"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-elasticity-concept-q-713525aa",
+      "type": "long",
+      "stem": "Explain the elasticity concept and list the uses of elasticities for a manager.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Introduction.** Elasticity measures how responsive a variable G is to a change in another variable S.\n\n**Formula.** E(G,S) = %ΔG / %ΔS. Using calculus for G = f(S), E(G,S) = (dG/dS) x (S/G).\n\n**Reading the sign.**\n- Greater than 0: S and G are directly related.\n- Less than 0: inversely related.\n- Equal to 0: unrelated.\n\n**Uses for a manager.** Elasticities help with:\n1. Pricing.\n2. Managing cash flows.\n3. Judging the impact of changes in competitors' prices.\n4. Judging the impact of economic booms and recessions.\n5. Judging the impact of advertising campaigns.\n\n**Conclusion.** Elasticity turns a vague question like 'how much will sales react?' into a number a manager can use.",
+      "rubric": [
+        {
+          "point": "Elasticity is responsiveness of G to S",
+          "source_ref": "be--session-6#3"
+        },
+        {
+          "point": "Formula %ΔG / %ΔS and the calculus form",
+          "source_ref": "be--session-6#4"
+        },
+        {
+          "point": "Sign rules",
+          "source_ref": "be--session-6#3"
+        },
+        {
+          "point": "At least four uses: pricing, cash flows, competitors' prices, booms and recessions, advertising",
+          "source_ref": "be--session-6#31"
+        }
+      ],
+      "marks": 5.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "be--session-6#3",
+        "be--session-6#4",
+        "be--session-6#31"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-elasticity-concept-q-96241cd2",
+      "type": "long",
+      "stem": "A manager says 'S and G move in opposite directions when S changes'. Describe the elasticity condition for this and the other two cases, and show how you would measure elasticity using percentage changes and using calculus.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Introduction.** The direction in which two variables move is read from the sign of their elasticity.\n\n**Opposite directions.** This is **E(G,S) < 0**, an inverse relationship.\n\n**Other cases.** E(G,S) > 0 means directly related (they move together); E(G,S) = 0 means unrelated.\n\n**Measuring.**\n- Percentage method: E(G,S) = %ΔG / %ΔS.\n- Calculus method for G = f(S): E(G,S) = (dG/dS) x (S/G).\n\n**Conclusion.** Both methods give the same kind of answer and the same sign rules.",
+      "rubric": [
+        {
+          "point": "Opposite directions means E < 0 (inverse)",
+          "source_ref": "be--session-6#3"
+        },
+        {
+          "point": "E > 0 direct, E = 0 unrelated",
+          "source_ref": "be--session-6#3"
+        },
+        {
+          "point": "Percentage formula",
+          "source_ref": "be--session-6#3"
+        },
+        {
+          "point": "Calculus formula",
+          "source_ref": "be--session-6#4"
+        }
+      ],
+      "marks": 5.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "be--session-6#3",
+        "be--session-6#4"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "explain_back": {
+    "prompt": "Define elasticity, give the two formulas and explain what the sign of the answer tells you.",
+    "rubric": [
+      {
+        "point": "Elasticity measures how responsive G is to a change in S: %ΔG / %ΔS",
+        "source_ref": "be--session-6#3"
+      },
+      {
+        "point": "Calculus form: (dG/dS)(S/G)",
+        "source_ref": "be--session-6#4"
+      },
+      {
+        "point": "Greater than 0: directly related; less than 0: inversely related",
+        "source_ref": "be--session-6#3"
+      },
+      {
+        "point": "Equal to 0: unrelated",
+        "source_ref": "be--session-6#3"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

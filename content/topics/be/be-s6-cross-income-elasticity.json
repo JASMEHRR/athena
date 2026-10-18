@@ -1,0 +1,970 @@
+{
+  "id": "be-s6-cross-income-elasticity",
+  "subject_id": "be",
+  "deck_id": "be--session-6",
+  "title": "Cross-price and income elasticity with practice problems",
+  "order": 5,
+  "summary": "Cross-price elasticity (substitutes and complements), income elasticity (normal and inferior goods), and the professor's practice questions worked step by step.",
+  "est_minutes": 30,
+  "difficulty": 2,
+  "source_refs": [
+    "be--session-6#22",
+    "be--session-6#27",
+    "be--session-6#20",
+    "be--session-6#21",
+    "be--tutorial-sheet-1#6",
+    "be--session-6#23",
+    "be--session-6#25",
+    "be--session-6#28",
+    "be--tutorial-sheet-1#7",
+    "be--session-6#30"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "be-s6-cross-income-elasticity-c1",
+      "heading": "Cross-price elasticity: substitutes and complements",
+      "explanation_md": "**Cross-price elasticity** measures how the quantity demanded of good X responds to a change in the price of a **different** good Y:\n\n**E(QX,PY) = %Δ(quantity demanded of X) / %ΔPY**\n\n- **E > 0**: X and Y are **substitutes**.\n- **E < 0**: X and Y are **complements**.\n\nThe answer is read the same way for any elasticity: **%ΔQ = elasticity x %ΔP**.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Cross-price elasticity",
+          "meaning": "%Δ(quantity demanded of X) / %ΔPY: positive for substitutes, negative for complements.",
+          "source_ref": "be--session-6#22"
+        }
+      ],
+      "exam_line": "E(QX,PY) = %Δ(quantity demanded of X) / %ΔPY. Positive: substitutes. Negative: complements.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s6-cross-income-elasticity-q-c5ab90bc",
+          "type": "mcq",
+          "stem": "If the cross-price elasticity between X and Y is negative, X and Y are:",
+          "options": [
+            "Complements",
+            "Substitutes",
+            "Unrelated"
+          ],
+          "answer": "Complements",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-6#22"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s6-cross-income-elasticity-q-7187d40f",
+          "type": "mcq",
+          "stem": "Which formula gives cross-price elasticity of X with respect to Y?",
+          "options": [
+            "%Δ(quantity demanded of X) / %ΔPY",
+            "%Δ(quantity demanded of X) / %ΔPX",
+            "%Δ(quantity demanded of X) / %ΔM"
+          ],
+          "answer": "%Δ(quantity demanded of X) / %ΔPY",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-6#22",
+            "be--session-6#5",
+            "be--session-6#27"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-6#22"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-cross-income-elasticity-c2",
+      "heading": "Income elasticity: normal and inferior goods",
+      "explanation_md": "**Income elasticity** measures how quantity demanded responds to a change in income M:\n\n**E(QX,M) = %Δ(quantity demanded of X) / %ΔM**\n\n- **E > 0**: X is a **normal good**.\n- **E < 0**: X is an **inferior good**.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Income elasticity",
+          "meaning": "%Δ(quantity demanded of X) / %ΔM: positive for a normal good, negative for an inferior good.",
+          "source_ref": "be--session-6#27"
+        }
+      ],
+      "exam_line": "E(QX,M) = %Δ(quantity demanded of X) / %ΔM. Positive: normal good. Negative: inferior good.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s6-cross-income-elasticity-q-bcaf86e3",
+          "type": "mcq",
+          "stem": "A good with a negative income elasticity is:",
+          "options": [
+            "An inferior good",
+            "A normal good",
+            "A substitute"
+          ],
+          "answer": "An inferior good",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-6#27"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s6-cross-income-elasticity-q-8ab64262",
+          "type": "fill",
+          "stem": "If E(QX,M) > 0, then X is a ____ good.",
+          "options": [],
+          "answer": "normal",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-6#27"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-6#27"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-cross-income-elasticity-c3",
+      "heading": "Worked practice: elasticities of good A",
+      "explanation_md": "**Question:** good A has own-price elasticity **-2**, income elasticity **1.5**, advertising elasticity **3**, and cross-price elasticity with good B of **-5**. How does consumption of A change if:\n\n1. **Price of A falls 4%**: %ΔQ = (-2) x (-4%) = **+8%**.\n2. **Price of B rises 6%**: %ΔQ = (-5) x (6%) = **-30%** (A and B are complements).\n3. **Advertising falls 5%**: %ΔQ = 3 x (-5%) = **-15%**.\n4. **Income rises 6%**: %ΔQ = 1.5 x 6% = **+9%** (A is a normal good).\n\nRecipe: **multiply the elasticity by the percentage change in the driver.**",
+      "example_ids": [
+        "be-ex-s6-good-a-question"
+      ],
+      "key_terms": [],
+      "exam_line": "%ΔQ = elasticity x %Δ driver. For good A: +8%, -30%, -15%, +9%.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s6-cross-income-elasticity-q-60896047",
+          "type": "mcq",
+          "stem": "Good A has cross-price elasticity of -5 with good B. If the price of B rises 6%, consumption of A changes by:",
+          "options": [
+            "-30%",
+            "+30%",
+            "-5%"
+          ],
+          "answer": "-30%",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-6#20"
+          ],
+          "derived": [
+            "30%"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s6-cross-income-elasticity-q-2e847c82",
+          "type": "mcq",
+          "stem": "With own-price elasticity of -2, a 4 percent fall in the price of A changes consumption of A by:",
+          "options": [
+            "+8%",
+            "-8%",
+            "+2%"
+          ],
+          "answer": "+8%",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-6#20"
+          ],
+          "derived": [
+            "8%"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s6-cross-income-elasticity-q-993e678a",
+          "type": "mcq",
+          "stem": "With advertising elasticity 3, a 5 percent cut in advertising changes consumption of A by:",
+          "options": [
+            "-15%",
+            "+15%",
+            "-5%"
+          ],
+          "answer": "-15%",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-6#20"
+          ],
+          "derived": [
+            "15%"
+          ],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-6#20",
+        "be--session-6#21",
+        "be--tutorial-sheet-1#6"
+      ],
+      "derived": [
+        "+8%",
+        "-30%",
+        "-15%",
+        "+9%",
+        "30%",
+        "8%",
+        "15%",
+        "9%"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-cross-income-elasticity-c4",
+      "heading": "Worked practice: generic store, goods A and B, budget smartphone",
+      "explanation_md": "**Generic store.** The price of branded electronics is expected to rise 12%. Cross-price elasticity between generic products and branded electronics is **0.20**. %ΔQ = 0.20 x 12% = **+2.4%**. It is positive, so they are **substitutes**: your generic sales **rise by 2.4%**.\n\n**Goods A and B.** Cross-price elasticity is **5**. How much must the price of B change to raise consumption of A by 25%? 5 = 25% / %Δ price of B, so %Δ price of B = 25 / 5 = **5%**. The price of B must **rise by 5%**.\n\n**Budget smartphone.** Income elasticity is **-0.85** and incomes are expected to rise **8%**. %ΔQ = -0.85 x 8% = **-6.8%**. Negative income elasticity means an **inferior good**, so sales **fall by 6.8%**. As the manager you should scale back production and inventory plans.",
+      "example_ids": [
+        "be-ex-s6-generic-store",
+        "be-ex-s6-cross-25",
+        "be-ex-s6-smartphone"
+      ],
+      "key_terms": [],
+      "exam_line": "Generic store +2.4% (substitutes); price of B must rise 5%; budget smartphone sales fall 6.8% (inferior good).",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s6-cross-income-elasticity-q-c0ae38b9",
+          "type": "mcq",
+          "stem": "Cross-price elasticity 0.20 and a 12% rise in the price of branded electronics. Sales of generic products:",
+          "options": [
+            "Rise by 2.4%",
+            "Fall by 2.4%",
+            "Rise by 12%"
+          ],
+          "answer": "Rise by 2.4%",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-6#23"
+          ],
+          "derived": [
+            "2.4%"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s6-cross-income-elasticity-q-dbbcd7e9",
+          "type": "fill",
+          "stem": "For a cross-price elasticity of 5, a 25% rise in consumption of A needs the price of B to change by ____ percent.",
+          "options": [],
+          "answer": "5",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-6#25"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s6-cross-income-elasticity-q-a71f5075",
+          "type": "mcq",
+          "stem": "Income elasticity -0.85 and incomes up 8%. Sales of the smartphone:",
+          "options": [
+            "Fall by 6.8%",
+            "Rise by 6.8%",
+            "Fall by 8%"
+          ],
+          "answer": "Fall by 6.8%",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-6#28"
+          ],
+          "derived": [
+            "8%",
+            "6.8%"
+          ],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-6#23",
+        "be--session-6#25",
+        "be--session-6#28",
+        "be--tutorial-sheet-1#7"
+      ],
+      "derived": [
+        "0.20 x 12 = 2.4",
+        "25 / 5 = 5",
+        "-0.85 x 8 = -6.8",
+        "8%",
+        "2.4%",
+        "6.8%"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-cross-income-elasticity-c5",
+      "heading": "Practice: revenue from two products when the price of A rises",
+      "explanation_md": "**Question:** product A earns **$50,000** a year and product B earns **$120,000**. Own-price elasticity of A is **-1.2**; cross-price elasticity of B with respect to A is **-2.5**. What happens to total revenue if the price of A rises **3%**?\n\n**Product A:** %ΔA quantity = -1.2 x 3% = **-3.6%**. Price up 3% but quantity down 3.6%, so A's revenue falls by about 0.6%, roughly **$300** (demand is elastic, so a price rise lowers revenue).\n\n**Product B:** %ΔB quantity = -2.5 x 3% = **-7.5%**. Price of B is unchanged, so B's revenue falls 7.5% of $120,000 = **$9,000**.\n\n**Total:** about **-$9,300**. Total revenue falls.",
+      "example_ids": [
+        "be-ex-s6-two-product-revenue"
+      ],
+      "key_terms": [],
+      "exam_line": "Revenue from both products: A falls by about $300, B falls by $9,000, total falls by about $9,300.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s6-cross-income-elasticity-q-29b73e4c",
+          "type": "mcq",
+          "stem": "In the two-product question, a 3% rise in the price of A changes the quantity of B by:",
+          "options": [
+            "-7.5%",
+            "-3.6%",
+            "+7.5%"
+          ],
+          "answer": "-7.5%",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-6#30"
+          ],
+          "derived": [
+            "3.6%",
+            "7.5%"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s6-cross-income-elasticity-q-0a206eb4",
+          "type": "true_false",
+          "stem": "In the two-product question, total revenue rises when the price of A is increased by 3 percent.",
+          "options": [],
+          "answer": "False",
+          "accept": [],
+          "explanation": "Both products lose revenue.",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-6#30"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-6#30"
+      ],
+      "derived": [
+        "-1.2 x 3 = -3.6%",
+        "3 - 3.6 = -0.6%",
+        "0.6% of 50,000 = 300",
+        "-2.5 x 3 = -7.5%",
+        "7.5% of 120,000 = 9,000",
+        "300 + 9,000 = 9,300",
+        "0.6%",
+        "3.6%",
+        "7.5%",
+        "9,000",
+        "9,300",
+        "300"
+      ],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "be-s6-cross-income-elasticity-f1",
+      "front": "Cross-price elasticity",
+      "back": "E(QX,PY) = %Δ(quantity demanded of X) / %ΔPY. Positive: substitutes. Negative: complements.",
+      "kind": "formula",
+      "source_refs": [
+        "be--session-6#22"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-cross-income-elasticity-f2",
+      "front": "Income elasticity",
+      "back": "E(QX,M) = %Δ(quantity demanded of X) / %ΔM. Positive: normal good. Negative: inferior good.",
+      "kind": "formula",
+      "source_refs": [
+        "be--session-6#27"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-cross-income-elasticity-f3",
+      "front": "Recipe for a %ΔQ question",
+      "back": "%ΔQ = elasticity x %Δ in price, income or advertising.",
+      "kind": "fact",
+      "source_refs": [
+        "be--session-6#20",
+        "be--session-6#21"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-cross-income-elasticity-f4",
+      "front": "Good A: price of A falls 4%",
+      "back": "(-2) x (-4%) = +8% consumption.",
+      "kind": "example",
+      "source_refs": [
+        "be--session-6#20",
+        "be--tutorial-sheet-1#6"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-cross-income-elasticity-f5",
+      "front": "Good A: price of B rises 6%",
+      "back": "(-5) x 6% = -30% consumption (complements).",
+      "kind": "example",
+      "source_refs": [
+        "be--session-6#20",
+        "be--tutorial-sheet-1#6"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-cross-income-elasticity-f6",
+      "front": "Good A: income rises 6%",
+      "back": "1.5 x 6% = +9% consumption (normal good).",
+      "kind": "example",
+      "source_refs": [
+        "be--session-6#20",
+        "be--tutorial-sheet-1#6"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-cross-income-elasticity-f7",
+      "front": "Generic store question",
+      "back": "Cross-price elasticity 0.20 and a 12% rise in branded electronics prices: generic sales rise 2.4%.",
+      "kind": "example",
+      "source_refs": [
+        "be--session-6#23",
+        "be--tutorial-sheet-1#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-cross-income-elasticity-f8",
+      "front": "Budget smartphone question",
+      "back": "Income elasticity -0.85, incomes up 8%: sales fall 6.8% (inferior good).",
+      "kind": "example",
+      "source_refs": [
+        "be--session-6#28",
+        "be--tutorial-sheet-1#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [
+    {
+      "id": "be-s6-cross-income-elasticity-q-207bfdef",
+      "type": "mcq",
+      "stem": "A positive cross-price elasticity between goods X and Y means they are:",
+      "options": [
+        "Substitutes",
+        "Complements",
+        "Inferior goods"
+      ],
+      "answer": "Substitutes",
+      "accept": [],
+      "explanation": "Positive: price of Y up, demand for X up.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "define",
+      "source_refs": [
+        "be--session-6#22"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-cross-income-elasticity-q-be201b32",
+      "type": "mcq",
+      "stem": "A negative income elasticity means the good is:",
+      "options": [
+        "Inferior",
+        "Normal",
+        "A complement"
+      ],
+      "answer": "Inferior",
+      "accept": [],
+      "explanation": "Demand falls as income rises.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "define",
+      "source_refs": [
+        "be--session-6#27"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-cross-income-elasticity-q-f6ca856c",
+      "type": "mcq",
+      "stem": "Own price elasticity is -2 and the price falls 4 percent. Quantity demanded changes by:",
+      "options": [
+        "+8%",
+        "-8%",
+        "+2%"
+      ],
+      "answer": "+8%",
+      "accept": [],
+      "explanation": "(-2) x (-4) = +8.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "be--session-6#20",
+        "be--tutorial-sheet-1#6"
+      ],
+      "derived": [
+        "8%",
+        "8"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-cross-income-elasticity-q-46b668af",
+      "type": "mcq",
+      "stem": "Income elasticity is 1.5 and income rises 6 percent. Quantity demanded changes by:",
+      "options": [
+        "+9%",
+        "+6%",
+        "-9%"
+      ],
+      "answer": "+9%",
+      "accept": [],
+      "explanation": "1.5 x 6 = 9.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "be--session-6#20",
+        "be--tutorial-sheet-1#6"
+      ],
+      "derived": [
+        "9%",
+        "9"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-cross-income-elasticity-q-90082f8d",
+      "type": "mcq",
+      "stem": "Good A has cross-price elasticity 5 with good B. For A's consumption to rise 25 percent, the price of B must:",
+      "options": [
+        "Rise 5 percent",
+        "Fall 5 percent",
+        "Rise 125 percent"
+      ],
+      "answer": "Rise 5 percent",
+      "accept": [],
+      "explanation": "25 / 5 = 5.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "be--session-6#25",
+        "be--tutorial-sheet-1#7"
+      ],
+      "derived": [
+        "25",
+        "5",
+        "125%",
+        "125"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-cross-income-elasticity-q-45507431",
+      "type": "short",
+      "stem": "Good A has own-price elasticity -2, income elasticity 1.5, advertising elasticity 3 and cross-price elasticity with good B of -5. Find the change in consumption of A if the price of B rises 6 percent and advertising falls 5 percent.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Use **%ΔQ = elasticity x %Δ driver**.\n\n- Price of B up 6%: (-5) x 6% = **-30%**. The negative cross-price elasticity shows A and B are complements.\n- Advertising down 5%: 3 x (-5%) = **-15%**.\n\nConsumption of A falls 30% from the price rise of B and 15% from the advertising cut.",
+      "rubric": [
+        {
+          "point": "Formula %ΔQ = E x %Δ driver",
+          "source_ref": "be--session-6#20"
+        },
+        {
+          "point": "-30% for price of B",
+          "source_ref": "be--session-6#20"
+        },
+        {
+          "point": "-15% for advertising",
+          "source_ref": "be--session-6#20"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "be--session-6#20",
+        "be--tutorial-sheet-1#6"
+      ],
+      "derived": [
+        "30%",
+        "30",
+        "15%",
+        "15"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-cross-income-elasticity-q-d0ba0358",
+      "type": "short",
+      "stem": "You run a store selling only generic products. The price of branded electronics is expected to rise 12 percent and the cross-price elasticity of generic products with branded electronics is 0.20. How will this affect sales?",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Cross-price elasticity = %ΔQ / %ΔP, so 0.20 = %ΔQ / 12%.\n\n%ΔQ = 0.20 x 12% = **+2.4%**.\n\nThe elasticity is positive, so the two are **substitutes**. Sales of generic products are expected to **rise by 2.4%**.",
+      "rubric": [
+        {
+          "point": "0.20 = %ΔQ / 12%",
+          "source_ref": "be--session-6#23"
+        },
+        {
+          "point": "%ΔQ = 2.4%",
+          "source_ref": "be--session-6#23"
+        },
+        {
+          "point": "Positive so substitutes, sales rise",
+          "source_ref": "be--session-6#23"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 2,
+      "style_tag": "case",
+      "source_refs": [
+        "be--session-6#23",
+        "be--tutorial-sheet-1#7"
+      ],
+      "derived": [
+        "0.20",
+        "12",
+        "2.4"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-cross-income-elasticity-q-0037132b",
+      "type": "short",
+      "stem": "Income elasticity of demand for a budget smartphone is -0.85 and incomes are expected to rise 8 percent. How will this affect sales, and what should the manager do?",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "-0.85 = %ΔQ / 8%, so %ΔQ = -0.85 x 8% = **-6.8%**.\n\nThe income elasticity is negative, so the phone is an **inferior good**. Sales are expected to **fall by 6.8%**, and the manager should scale back production and inventory plans.",
+      "rubric": [
+        {
+          "point": "%ΔQ = -0.85 x 8%",
+          "source_ref": "be--session-6#28"
+        },
+        {
+          "point": "-6.8%",
+          "source_ref": "be--session-6#28"
+        },
+        {
+          "point": "Negative, so inferior good",
+          "source_ref": "be--session-6#28"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 2,
+      "style_tag": "case",
+      "source_refs": [
+        "be--session-6#28",
+        "be--tutorial-sheet-1#7"
+      ],
+      "derived": [
+        "0.85",
+        "8",
+        "6.8"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-cross-income-elasticity-q-ff59fd00",
+      "type": "short",
+      "stem": "Differentiate between cross-price elasticity and income elasticity.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "| Point | Cross-price elasticity | Income elasticity |\n|---|---|---|\n| Measures response to | Price of another good Y | Income M |\n| Formula | %Δ quantity demanded / %ΔPY | %Δ quantity demanded / %ΔM |\n| Positive means | X and Y are substitutes | X is a normal good |\n| Negative means | X and Y are complements | X is an inferior good |",
+      "rubric": [
+        {
+          "point": "Cross-price formula and signs",
+          "source_ref": "be--session-6#22"
+        },
+        {
+          "point": "Income formula and signs",
+          "source_ref": "be--session-6#27"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 1,
+      "style_tag": "differentiate",
+      "source_refs": [
+        "be--session-6#22",
+        "be--session-6#27"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-cross-income-elasticity-q-0a5033e2",
+      "type": "long",
+      "stem": "The manager of a firm earns $50,000 a year from product A and $120,000 from product B. Own-price elasticity of A is -1.2 and cross-price elasticity of B with A is -2.5. How will total revenue change if the price of A is increased by 3 percent?",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Product A.** %Δ quantity of A = -1.2 x 3% = -3.6%. Price rises 3% and quantity falls 3.6%, so revenue changes by about 3% - 3.6% = -0.6%. That is 0.6% of $50,000 = about **-$300**.\n\n**Product B.** %Δ quantity of B = -2.5 x 3% = -7.5%. The price of B is unchanged, so revenue falls 7.5% of $120,000 = **-$9,000**.\n\n**Total.** -300 - 9,000 = about **-$9,300**.\n\nRevenue falls because demand for A is elastic and B is a complement to A.",
+      "rubric": [
+        {
+          "point": "A: -3.6% quantity, about -$300 revenue",
+          "source_ref": "be--session-6#30"
+        },
+        {
+          "point": "B: -7.5% quantity, -$9,000 revenue",
+          "source_ref": "be--session-6#30"
+        },
+        {
+          "point": "Total about -$9,300",
+          "source_ref": "be--session-6#30"
+        },
+        {
+          "point": "Elastic A and complement B explain the fall",
+          "source_ref": "be--session-6#30"
+        }
+      ],
+      "marks": 5.0,
+      "difficulty": 3,
+      "style_tag": "numerical",
+      "source_refs": [
+        "be--session-6#30"
+      ],
+      "derived": [
+        "1.2",
+        "3",
+        "3.6%",
+        "3.6",
+        "0.6%",
+        "0.6",
+        "50,000",
+        "50000",
+        "300",
+        "2.5",
+        "7.5%",
+        "7.5",
+        "120,000",
+        "120000",
+        "9,000",
+        "9000",
+        "9,300",
+        "9300"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-cross-income-elasticity-q-c5516dda",
+      "type": "long",
+      "stem": "Explain cross-price and income elasticity of demand and how a manager uses them, with the generic store and budget smartphone examples.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Introduction.** Elasticities beyond own price tell a manager how demand reacts to other prices and to income.\n\n**Cross-price elasticity.** E = %Δ quantity demanded / %ΔPY. Positive: substitutes. Negative: complements.\n\n**Income elasticity.** E = %Δ quantity demanded / %ΔM. Positive: normal good. Negative: inferior good.\n\n**Generic store.** Cross-price elasticity 0.20 and a 12% rise in branded electronics prices gives 0.20 x 12% = +2.4%: substitutes, generic sales rise.\n\n**Budget smartphone.** Income elasticity -0.85 and incomes up 8% gives -6.8%: an inferior good, so sales fall.\n\n**Conclusion.** Multiply the elasticity by the expected percentage change to forecast sales.",
+      "rubric": [
+        {
+          "point": "Cross-price formula and sign meaning",
+          "source_ref": "be--session-6#22"
+        },
+        {
+          "point": "Income formula and sign meaning",
+          "source_ref": "be--session-6#27"
+        },
+        {
+          "point": "Generic store +2.4%",
+          "source_ref": "be--session-6#23"
+        },
+        {
+          "point": "Smartphone -6.8%",
+          "source_ref": "be--session-6#28"
+        }
+      ],
+      "marks": 5.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "be--session-6#22",
+        "be--session-6#27",
+        "be--session-6#23",
+        "be--session-6#28",
+        "be--tutorial-sheet-1#7"
+      ],
+      "derived": [
+        "0.20",
+        "12",
+        "2.4",
+        "0.85",
+        "8",
+        "6.8"
+      ],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "explain_back": {
+    "prompt": "Define cross-price and income elasticity with the sign rules, then work out the generic store and smartphone questions.",
+    "rubric": [
+      {
+        "point": "Cross-price: %Δ(quantity demanded of X) / %ΔPY; positive substitutes, negative complements",
+        "source_ref": "be--session-6#22"
+      },
+      {
+        "point": "Income: %Δ(quantity demanded of X) / %ΔM; positive normal, negative inferior",
+        "source_ref": "be--session-6#27"
+      },
+      {
+        "point": "Generic store: 0.20 x 12% = +2.4%",
+        "source_ref": "be--tutorial-sheet-1#7"
+      },
+      {
+        "point": "Smartphone: -0.85 x 8% = -6.8%, inferior good",
+        "source_ref": "be--tutorial-sheet-1#7"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

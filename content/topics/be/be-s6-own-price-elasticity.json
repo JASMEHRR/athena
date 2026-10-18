@@ -1,0 +1,703 @@
+{
+  "id": "be-s6-own-price-elasticity",
+  "subject_id": "be",
+  "deck_id": "be--session-6",
+  "title": "Own price elasticity and total revenue",
+  "order": 2,
+  "summary": "Own price elasticity, elastic, inelastic and unitary demand, the two extreme cases, and what a price change does to total revenue.",
+  "est_minutes": 20,
+  "difficulty": 2,
+  "source_refs": [
+    "be--session-6#5",
+    "be--session-6#6",
+    "be--session-6#7"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "be-s6-own-price-elasticity-c1",
+      "heading": "Own price elasticity of demand",
+      "explanation_md": "**Own price elasticity** measures how quantity demanded of good X responds to a change in the price of X itself:\n\n**E(QX,PX) = %ΔQd / %ΔPX**\n\nBy the **law of demand** it is **negative** (price up, quantity down). To classify demand look at the **absolute value**:\n\n- **Elastic**: |E| > 1\n- **Inelastic**: |E| < 1\n- **Unitary**: |E| = 1",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Own price elasticity",
+          "meaning": "%ΔQd / %ΔPX, negative according to the law of demand.",
+          "source_ref": "be--session-6#5"
+        }
+      ],
+      "exam_line": "E(QX,PX) = %ΔQd / %ΔPX, negative by the law of demand. Elastic |E|>1, inelastic |E|<1, unitary |E|=1.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s6-own-price-elasticity-q-bbf52add",
+          "type": "mcq",
+          "stem": "Demand is inelastic when:",
+          "options": [
+            "|E| < 1",
+            "|E| > 1",
+            "|E| = 1"
+          ],
+          "answer": "|E| < 1",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-6#5"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s6-own-price-elasticity-q-92519c89",
+          "type": "true_false",
+          "stem": "Own price elasticity of demand is negative according to the law of demand.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-6#5"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s6-own-price-elasticity-q-e6527931",
+          "type": "mcq",
+          "stem": "Demand is unitary when:",
+          "options": [
+            "|E| = 1",
+            "|E| = 0",
+            "|E| > 1"
+          ],
+          "answer": "|E| = 1",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-6#5",
+            "be--session-6#6"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-6#5"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-own-price-elasticity-c2",
+      "heading": "The two extremes: perfectly elastic and perfectly inelastic",
+      "explanation_md": "The slide draws two graphs with price on the vertical axis and quantity on the horizontal axis, each with a demand curve D.\n\n- **Perfectly elastic demand**: elasticity is **infinite**.\n- **Perfectly inelastic demand**: elasticity is **0**.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "Perfectly elastic: E is infinite. Perfectly inelastic: E = 0.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s6-own-price-elasticity-q-8b22375c",
+          "type": "mcq",
+          "stem": "Perfectly inelastic demand has own price elasticity equal to:",
+          "options": [
+            "0",
+            "1",
+            "Infinity"
+          ],
+          "answer": "0",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-6#6",
+            "be--session-6#5"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s6-own-price-elasticity-q-91c78feb",
+          "type": "fill",
+          "stem": "For perfectly ____ demand, elasticity is infinite.",
+          "options": [],
+          "answer": "elastic",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-6#6"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-6#6"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-own-price-elasticity-c3",
+      "heading": "Own price elasticity and total revenue",
+      "explanation_md": "What happens to **total revenue** when price changes depends on elasticity:\n\n- **Elastic demand**: a price **increase** lowers total revenue; a price **decrease** raises it.\n- **Inelastic demand**: a price **increase** raises total revenue; a price **decrease** lowers it.\n- **Unitary demand**: total revenue is **maximized** where demand is unitary elastic.\n\nThis is the **total revenue test**, the same idea as the total expenditure method of finding elasticity: watch what happens to price and total revenue (price times quantity) together.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Total revenue",
+          "meaning": "Price times quantity, TR = P × Q.",
+          "source_ref": "be--session-6#19"
+        }
+      ],
+      "exam_line": "Elastic: price and TR move in opposite directions. Inelastic: price and TR move the same way. TR is maximized at unitary elasticity.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s6-own-price-elasticity-q-9ce01543",
+          "type": "mcq",
+          "stem": "If demand is elastic and the firm lowers its price, total revenue will:",
+          "options": [
+            "Rise",
+            "Fall",
+            "Stay the same"
+          ],
+          "answer": "Rise",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-6#7"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s6-own-price-elasticity-q-7a73ad45",
+          "type": "mcq",
+          "stem": "Where is total revenue maximized?",
+          "options": [
+            "Where demand is unitary elastic",
+            "Where demand is perfectly inelastic",
+            "Where demand is perfectly elastic"
+          ],
+          "answer": "Where demand is unitary elastic",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-6#7",
+            "be--session-6#6"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s6-own-price-elasticity-q-09fb5fd4",
+          "type": "true_false",
+          "stem": "When demand is inelastic, a price increase leads to higher total revenue.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-6#7"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-6#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "be-s6-own-price-elasticity-f1",
+      "front": "Own price elasticity formula",
+      "back": "E(QX,PX) = %ΔQd / %ΔPX, negative by the law of demand.",
+      "kind": "formula",
+      "source_refs": [
+        "be--session-6#5"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-own-price-elasticity-f2",
+      "front": "Elastic, inelastic, unitary",
+      "back": "Elastic |E|>1; inelastic |E|<1; unitary |E|=1.",
+      "kind": "list",
+      "source_refs": [
+        "be--session-6#5"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-own-price-elasticity-f3",
+      "front": "Perfectly elastic and perfectly inelastic demand",
+      "back": "Perfectly elastic: E is infinite. Perfectly inelastic: E = 0.",
+      "kind": "fact",
+      "source_refs": [
+        "be--session-6#6"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-own-price-elasticity-f4",
+      "front": "Elastic demand: price vs total revenue",
+      "back": "Price up, TR down; price down, TR up.",
+      "kind": "fact",
+      "source_refs": [
+        "be--session-6#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-own-price-elasticity-f5",
+      "front": "Inelastic demand: price vs total revenue",
+      "back": "Price up, TR up; price down, TR down.",
+      "kind": "fact",
+      "source_refs": [
+        "be--session-6#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-own-price-elasticity-f6",
+      "front": "Where is total revenue maximized?",
+      "back": "Where demand is unitary elastic.",
+      "kind": "fact",
+      "source_refs": [
+        "be--session-6#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [
+    {
+      "id": "be-s6-own-price-elasticity-q-889e516a",
+      "type": "mcq",
+      "stem": "Own price elasticity of demand is normally:",
+      "options": [
+        "Negative, by the law of demand",
+        "Positive, by the law of demand",
+        "Zero, by the law of demand"
+      ],
+      "answer": "Negative, by the law of demand",
+      "accept": [],
+      "explanation": "Price up means quantity demanded down.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "define",
+      "source_refs": [
+        "be--session-6#5"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-own-price-elasticity-q-dc9bebaf",
+      "type": "mcq",
+      "stem": "If |E| is greater than 1, demand is:",
+      "options": [
+        "Elastic",
+        "Inelastic",
+        "Unitary"
+      ],
+      "answer": "Elastic",
+      "accept": [],
+      "explanation": "Elastic means |E| > 1.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "define",
+      "source_refs": [
+        "be--session-6#5"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-own-price-elasticity-q-1fdcf5a0",
+      "type": "mcq",
+      "stem": "Demand is inelastic and the price rises. Total revenue will:",
+      "options": [
+        "Rise",
+        "Fall",
+        "Stay the same"
+      ],
+      "answer": "Rise",
+      "accept": [],
+      "explanation": "Inelastic: price and total revenue move the same way.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "be--session-6#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-own-price-elasticity-q-0c163228",
+      "type": "mcq",
+      "stem": "Demand is elastic and the price falls. Total revenue will:",
+      "options": [
+        "Rise",
+        "Fall",
+        "Stay the same"
+      ],
+      "answer": "Rise",
+      "accept": [],
+      "explanation": "Elastic: price and total revenue move opposite ways.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "be--session-6#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-own-price-elasticity-q-a7e1164d",
+      "type": "mcq",
+      "stem": "Perfectly inelastic demand has an elasticity of:",
+      "options": [
+        "0",
+        "1",
+        "Infinity"
+      ],
+      "answer": "0",
+      "accept": [],
+      "explanation": "Quantity does not respond at all.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "define",
+      "source_refs": [
+        "be--session-6#6"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-own-price-elasticity-q-cc71e0dc",
+      "type": "short",
+      "stem": "Define own price elasticity of demand and state the three cases.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Own price elasticity of demand** measures how quantity demanded of good X responds to a change in the price of X: **E = %Δ quantity demanded / %ΔPX**. By the law of demand it is negative.\n\nUsing the absolute value:\n- **Elastic**: |E| > 1\n- **Inelastic**: |E| < 1\n- **Unitary**: |E| = 1",
+      "rubric": [
+        {
+          "point": "Formula %ΔQ / %ΔP and negative sign",
+          "source_ref": "be--session-6#5"
+        },
+        {
+          "point": "Elastic |E|>1",
+          "source_ref": "be--session-6#5"
+        },
+        {
+          "point": "Inelastic |E|<1 and unitary |E|=1",
+          "source_ref": "be--session-6#5"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 1,
+      "style_tag": "define",
+      "source_refs": [
+        "be--session-6#5"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-own-price-elasticity-q-812f2080",
+      "type": "short",
+      "stem": "What do perfectly elastic and perfectly inelastic demand mean? Describe the two graphs.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The slide shows two graphs with price on the vertical axis and quantity on the horizontal axis, each with a demand curve D.\n\n- **Perfectly elastic demand**: elasticity is **infinite**.\n- **Perfectly inelastic demand**: elasticity is **0**.\n\nThese are the two extreme ends of the elasticity scale.",
+      "rubric": [
+        {
+          "point": "Perfectly elastic: infinite elasticity",
+          "source_ref": "be--session-6#6"
+        },
+        {
+          "point": "Perfectly inelastic: elasticity 0",
+          "source_ref": "be--session-6#6"
+        },
+        {
+          "point": "Graphs of P against Q with demand curve D",
+          "source_ref": "be--session-6#6"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 1,
+      "style_tag": "explain",
+      "source_refs": [
+        "be--session-6#6"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-own-price-elasticity-q-189d451c",
+      "type": "short",
+      "stem": "Explain how the elasticity of demand decides what happens to total revenue when the price is lowered.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "A price cut changes revenue in different ways depending on elasticity.\n\n- **Elastic demand**: a price decrease **raises** total revenue.\n- **Inelastic demand**: a price decrease **lowers** total revenue.\n- **Unitary demand**: total revenue is at its **maximum**.\n\nSo a firm facing elastic demand gains by cutting price.",
+      "rubric": [
+        {
+          "point": "Elastic: price decrease raises TR",
+          "source_ref": "be--session-6#7"
+        },
+        {
+          "point": "Inelastic: price decrease lowers TR",
+          "source_ref": "be--session-6#7"
+        },
+        {
+          "point": "Unitary: TR maximized",
+          "source_ref": "be--session-6#7"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "be--session-6#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-own-price-elasticity-q-a9561ac6",
+      "type": "short",
+      "stem": "Differentiate between elastic and inelastic demand.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "| Point | Elastic | Inelastic |\n|---|---|---|\n| Elasticity | \\|E\\| > 1 | \\|E\\| < 1 |\n| Price rise | Total revenue falls | Total revenue rises |\n| Price fall | Total revenue rises | Total revenue falls |\n\nIn short, elastic demand responds strongly to price; inelastic demand responds weakly.",
+      "rubric": [
+        {
+          "point": "Elastic |E|>1, inelastic |E|<1",
+          "source_ref": "be--session-6#5"
+        },
+        {
+          "point": "Total revenue effect of a price increase",
+          "source_ref": "be--session-6#7"
+        },
+        {
+          "point": "Total revenue effect of a price decrease",
+          "source_ref": "be--session-6#7"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 1,
+      "style_tag": "differentiate",
+      "source_refs": [
+        "be--session-6#5",
+        "be--session-6#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-own-price-elasticity-q-858e2119",
+      "type": "long",
+      "stem": "Explain own price elasticity of demand and the relationship between price, elasticity and total revenue.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Introduction.** Own price elasticity of demand shows how sensitive quantity demanded of a good is to its own price.\n\n**Formula.** E = %Δ quantity demanded / %ΔPX, negative by the law of demand.\n\n**Cases.**\n- Elastic |E| > 1\n- Inelastic |E| < 1\n- Unitary |E| = 1\n- Extremes: perfectly elastic (infinite) and perfectly inelastic (0).\n\n**Total revenue.**\n- Elastic: price up, TR down; price down, TR up.\n- Inelastic: price up, TR up; price down, TR down.\n- Unitary: TR is maximized.\n\n**Conclusion.** A manager who knows elasticity can predict whether a price change will raise or lower revenue.",
+      "rubric": [
+        {
+          "point": "Formula and negative sign",
+          "source_ref": "be--session-6#5"
+        },
+        {
+          "point": "Elastic, inelastic, unitary definitions",
+          "source_ref": "be--session-6#5"
+        },
+        {
+          "point": "Extremes: infinite and zero",
+          "source_ref": "be--session-6#6"
+        },
+        {
+          "point": "Elastic TR rule",
+          "source_ref": "be--session-6#7"
+        },
+        {
+          "point": "Inelastic TR rule and TR maximized at unitary",
+          "source_ref": "be--session-6#7"
+        }
+      ],
+      "marks": 5.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "be--session-6#5",
+        "be--session-6#6",
+        "be--session-6#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-own-price-elasticity-q-b774f699",
+      "type": "long",
+      "stem": "For a firm, a price change moves revenue up in some cases and down in others. Explain why, covering elastic, inelastic and unitary demand.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Introduction.** What a price change does to revenue depends on how strongly quantity demanded reacts.\n\n**Elastic (|E| > 1).** Quantity changes by a bigger percentage than price, so price and total revenue move in opposite directions.\n\n**Inelastic (|E| < 1).** Quantity changes by a smaller percentage than price, so price and total revenue move in the same direction.\n\n**Unitary (|E| = 1).** Total revenue is maximized at the point where demand is unitary elastic.\n\n**Conclusion.** Check elasticity before raising or cutting a price.",
+      "rubric": [
+        {
+          "point": "Elastic: opposite direction",
+          "source_ref": "be--session-6#7"
+        },
+        {
+          "point": "Inelastic: same direction",
+          "source_ref": "be--session-6#7"
+        },
+        {
+          "point": "Unitary: TR maximized",
+          "source_ref": "be--session-6#7"
+        },
+        {
+          "point": "Elasticity definitions with |E| limits",
+          "source_ref": "be--session-6#5"
+        }
+      ],
+      "marks": 5.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "be--session-6#7",
+        "be--session-6#5"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "explain_back": {
+    "prompt": "Explain own price elasticity of demand and how it decides the effect of a price change on total revenue.",
+    "rubric": [
+      {
+        "point": "E = %ΔQd / %ΔPX, negative by the law of demand",
+        "source_ref": "be--session-6#5"
+      },
+      {
+        "point": "Elastic |E|>1, inelastic |E|<1, unitary |E|=1",
+        "source_ref": "be--session-6#5"
+      },
+      {
+        "point": "Elastic: price and total revenue move in opposite directions",
+        "source_ref": "be--session-6#7"
+      },
+      {
+        "point": "Inelastic: price and total revenue move in the same direction",
+        "source_ref": "be--session-6#7"
+      },
+      {
+        "point": "Total revenue is maximized at unitary elasticity",
+        "source_ref": "be--session-6#7"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

@@ -1,0 +1,745 @@
+{
+  "id": "be-s6-linear-demand-tr-mr",
+  "subject_id": "be",
+  "deck_id": "be--session-6",
+  "title": "Linear demand, total revenue and marginal revenue",
+  "order": 3,
+  "summary": "The professor's step-by-step graph of a straight-line demand curve: total revenue rises then falls, and elasticity changes along the line. Marginal revenue tells you the zone.",
+  "est_minutes": 25,
+  "difficulty": 2,
+  "source_refs": [
+    "be--session-6#8",
+    "be--session-6#9",
+    "be--session-6#10",
+    "be--session-6#11",
+    "be--session-6#12",
+    "be--session-6#13",
+    "be--session-6#14",
+    "be--session-6#15",
+    "be--session-6#16"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "be-s6-linear-demand-tr-mr-c1",
+      "heading": "Building the picture point by point",
+      "explanation_md": "The deck builds one picture over several slides. The left graph has **price (P)** up to **100** and **quantity (Q)** from **0 to 50**: a straight downward demand line. The right graph shows **TR** against **Q**.\n\nPoints are added one at a time:\n\n| Price | Quantity | Total revenue |\n|---|---|---|\n| 80 | 10 | 800 |\n| 60 | 20 | 1200 |\n| 40 | 30 | 1200 |\n| 20 | 40 | 800 |\n\nSo as you slide down the demand line, **TR rises** (800, then 1200), is the same at Q = 20 and Q = 30, and then **falls** back to 800. The TR curve is a **hill shape** with its top between Q = 20 and Q = 30.",
+      "example_ids": [
+        "be-ex-s6-linear-tr-table"
+      ],
+      "key_terms": [],
+      "exam_line": "Linear demand: as quantity rises from 0, TR rises to a maximum and then falls (e.g. 800, 1200, 1200, 800 at Q = 10, 20, 30, 40).",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s6-linear-demand-tr-mr-q-0f4a1b06",
+          "type": "mcq",
+          "stem": "On the slide's linear demand line, what is total revenue at P = 60 and Q = 20?",
+          "options": [
+            "1200",
+            "800",
+            "600"
+          ],
+          "answer": "1200",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-6#10"
+          ],
+          "derived": [
+            "600"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s6-linear-demand-tr-mr-q-df3710a5",
+          "type": "mcq",
+          "stem": "At P = 20 and Q = 40, total revenue is:",
+          "options": [
+            "800",
+            "1200",
+            "400"
+          ],
+          "answer": "800",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-6#12"
+          ],
+          "derived": [
+            "400"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s6-linear-demand-tr-mr-q-d359ab62",
+          "type": "true_false",
+          "stem": "On the slide's graph, total revenue keeps rising all the way along the demand line.",
+          "options": [],
+          "answer": "False",
+          "accept": [],
+          "explanation": "It rises, peaks, then falls back to 800.",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-6#12",
+            "be--session-6#15"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-6#8",
+        "be--session-6#9",
+        "be--session-6#10",
+        "be--session-6#11",
+        "be--session-6#12"
+      ],
+      "derived": [
+        "80 x 10 = 800",
+        "60 x 20 = 1200",
+        "40 x 30 = 1200",
+        "20 x 40 = 800",
+        "600",
+        "400"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-linear-demand-tr-mr-c2",
+      "heading": "Elastic, unit elastic and inelastic zones",
+      "explanation_md": "The last builds label the zones:\n\n- The **upper part** of the demand line (high price, low quantity) is **elastic**. Here TR is rising as Q rises.\n- The **middle point** where TR peaks is **unit elastic**.\n- The **lower part** (low price, high quantity) is **inelastic**. Here TR is falling as Q rises.\n\nThis matches the total revenue rules: in the elastic zone, cutting price raises TR; in the inelastic zone, cutting price lowers TR; at the top of the hill, demand is unit elastic. **One straight line has all three kinds of elasticity.**",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "Along a linear demand curve: elastic at high prices, unit elastic at the TR peak, inelastic at low prices.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s6-linear-demand-tr-mr-q-53b50cd7",
+          "type": "mcq",
+          "stem": "On a linear demand curve, which part is inelastic?",
+          "options": [
+            "The lower part, at low prices and high quantities",
+            "The upper part, at high prices",
+            "The whole curve"
+          ],
+          "answer": "The lower part, at low prices and high quantities",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-6#14",
+            "be--session-6#15"
+          ],
+          "derived": [
+            "14"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s6-linear-demand-tr-mr-q-05939525",
+          "type": "fill",
+          "stem": "At the peak of the TR curve demand is ____ elastic.",
+          "options": [],
+          "answer": "unit",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-6#15"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s6-linear-demand-tr-mr-q-8e3c543f",
+          "type": "true_false",
+          "stem": "The upper part of the linear demand curve is elastic.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-6#13",
+            "be--session-6#15"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-6#13",
+        "be--session-6#14",
+        "be--session-6#15"
+      ],
+      "derived": [
+        "14"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-linear-demand-tr-mr-c3",
+      "heading": "Marginal revenue and elasticity",
+      "explanation_md": "The next slide adds the **MR** line to the same demand graph (the MR line is steeper and hits the quantity axis first).\n\nFor a **linear inverse demand function**: **MR(Q) = a + 2bQ**, where **b < 0**.\n\nThe zones are read from MR:\n\n- **MR > 0**: demand is **elastic**.\n- **MR = 0**: demand is **unit elastic**.\n- **MR < 0**: demand is **inelastic**.\n\nLink to TR: while MR is positive, TR is still rising; when MR hits zero, TR is at its peak.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Marginal revenue (MR)",
+          "meaning": "The revenue line for a linear inverse demand function: MR(Q) = a + 2bQ with b < 0.",
+          "source_ref": "be--session-6#16"
+        }
+      ],
+      "exam_line": "Linear inverse demand: MR(Q) = a + 2bQ, b < 0. MR > 0 elastic; MR = 0 unit elastic; MR < 0 inelastic.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s6-linear-demand-tr-mr-q-d242c8b3",
+          "type": "mcq",
+          "stem": "When MR = 0, demand is:",
+          "options": [
+            "Unit elastic",
+            "Elastic",
+            "Inelastic"
+          ],
+          "answer": "Unit elastic",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-6#16"
+          ],
+          "derived": [
+            "16"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s6-linear-demand-tr-mr-q-9797e0f9",
+          "type": "mcq",
+          "stem": "For a linear inverse demand function, marginal revenue is:",
+          "options": [
+            "MR(Q) = a + 2bQ, where b < 0",
+            "MR(Q) = a + bQ, where b > 0",
+            "MR(Q) = 2a + bQ"
+          ],
+          "answer": "MR(Q) = a + 2bQ, where b < 0",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-6#16"
+          ],
+          "derived": [
+            "16"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s6-linear-demand-tr-mr-q-12d13877",
+          "type": "true_false",
+          "stem": "If MR is below 0, demand is elastic.",
+          "options": [],
+          "answer": "False",
+          "accept": [],
+          "explanation": "MR below 0 means demand is inelastic.",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-6#16"
+          ],
+          "derived": [
+            "16"
+          ],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-6#16"
+      ],
+      "derived": [
+        "16"
+      ],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "be-s6-linear-demand-tr-mr-f1",
+      "front": "Linear demand graph: TR at each point",
+      "back": "P=80, Q=10, TR=800; P=60, Q=20, TR=1200; P=40, Q=30, TR=1200; P=20, Q=40, TR=800.",
+      "kind": "example",
+      "source_refs": [
+        "be--session-6#9",
+        "be--session-6#10",
+        "be--session-6#11",
+        "be--session-6#12"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-linear-demand-tr-mr-f2",
+      "front": "Shape of TR along a linear demand curve",
+      "back": "Rises, peaks (unit elastic), then falls.",
+      "kind": "fact",
+      "source_refs": [
+        "be--session-6#15"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-linear-demand-tr-mr-f3",
+      "front": "Which part of a linear demand curve is elastic?",
+      "back": "The upper part (high price, low quantity). The lower part is inelastic.",
+      "kind": "fact",
+      "source_refs": [
+        "be--session-6#15"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-linear-demand-tr-mr-f4",
+      "front": "MR for linear inverse demand",
+      "back": "MR(Q) = a + 2bQ, where b < 0.",
+      "kind": "formula",
+      "source_refs": [
+        "be--session-6#16"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-linear-demand-tr-mr-f5",
+      "front": "MR and elasticity",
+      "back": "MR > 0 elastic; MR = 0 unit elastic; MR < 0 inelastic.",
+      "kind": "list",
+      "source_refs": [
+        "be--session-6#16"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [
+    {
+      "id": "be-s6-linear-demand-tr-mr-q-a488a562",
+      "type": "mcq",
+      "stem": "On the professor's linear demand graph, what is total revenue when price is 80 and quantity is 10?",
+      "options": [
+        "800",
+        "1200",
+        "80"
+      ],
+      "answer": "800",
+      "accept": [],
+      "explanation": "80 x 10 = 800.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "numerical",
+      "source_refs": [
+        "be--session-6#9",
+        "be--session-6#10"
+      ],
+      "derived": [
+        "80",
+        "10",
+        "800"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-linear-demand-tr-mr-q-b8c80712",
+      "type": "mcq",
+      "stem": "Along a straight-line demand curve, total revenue:",
+      "options": [
+        "Rises, reaches a maximum, then falls",
+        "Keeps rising",
+        "Keeps falling"
+      ],
+      "answer": "Rises, reaches a maximum, then falls",
+      "accept": [],
+      "explanation": "The TR curve is hill shaped.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "explain",
+      "source_refs": [
+        "be--session-6#12",
+        "be--session-6#15"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-linear-demand-tr-mr-q-c39a0a39",
+      "type": "mcq",
+      "stem": "The upper part of a linear demand curve (high price, low quantity) is:",
+      "options": [
+        "Elastic",
+        "Inelastic",
+        "Perfectly inelastic"
+      ],
+      "answer": "Elastic",
+      "accept": [],
+      "explanation": "TR is rising there.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "explain",
+      "source_refs": [
+        "be--session-6#15",
+        "be--session-6#13"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-linear-demand-tr-mr-q-de09d3f3",
+      "type": "mcq",
+      "stem": "When MR is below zero, demand is:",
+      "options": [
+        "Inelastic",
+        "Elastic",
+        "Unit elastic"
+      ],
+      "answer": "Inelastic",
+      "accept": [],
+      "explanation": "MR < 0 means inelastic.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "be--session-6#16"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-linear-demand-tr-mr-q-3920e6a6",
+      "type": "mcq",
+      "stem": "For a linear inverse demand function, MR(Q) equals:",
+      "options": [
+        "a + 2bQ, with b below 0",
+        "a + bQ, with b above 0",
+        "2a + bQ, with b below 0"
+      ],
+      "answer": "a + 2bQ, with b below 0",
+      "accept": [],
+      "explanation": "The MR line has twice the slope of demand.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "formula",
+      "source_refs": [
+        "be--session-6#16"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-linear-demand-tr-mr-q-6805d4c3",
+      "type": "short",
+      "stem": "For the linear demand graph with P = 80, 60, 40, 20 at Q = 10, 20, 30, 40, calculate total revenue at each point and say how it behaves.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**TR = P x Q**\n\n| P | Q | TR |\n|---|---|---|\n| 80 | 10 | 800 |\n| 60 | 20 | 1200 |\n| 40 | 30 | 1200 |\n| 20 | 40 | 800 |\n\nTR rises from 800 to 1200, is equal at Q = 20 and 30, and then falls back to 800. It peaks between Q = 20 and Q = 30, where demand is unit elastic.",
+      "rubric": [
+        {
+          "point": "TR = P x Q worked for each point",
+          "source_ref": "be--session-6#12"
+        },
+        {
+          "point": "800, 1200, 1200, 800",
+          "source_ref": "be--session-6#12"
+        },
+        {
+          "point": "TR rises then falls",
+          "source_ref": "be--session-6#15"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "be--session-6#9",
+        "be--session-6#10",
+        "be--session-6#11",
+        "be--session-6#12"
+      ],
+      "derived": [
+        "80",
+        "10",
+        "800",
+        "60",
+        "20",
+        "1200",
+        "40",
+        "30"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-linear-demand-tr-mr-q-715836e2",
+      "type": "short",
+      "stem": "Using the linear demand and TR graphs, mark the elastic, unit elastic and inelastic regions.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "- **Elastic**: the upper part of the demand line, where TR rises as quantity rises.\n- **Unit elastic**: the middle point, at the peak of the TR curve.\n- **Inelastic**: the lower part of the demand line, where TR falls as quantity rises.\n\nSo one straight demand line contains all three kinds of elasticity.",
+      "rubric": [
+        {
+          "point": "Upper part elastic, TR rising",
+          "source_ref": "be--session-6#15"
+        },
+        {
+          "point": "Peak of TR unit elastic",
+          "source_ref": "be--session-6#15"
+        },
+        {
+          "point": "Lower part inelastic, TR falling",
+          "source_ref": "be--session-6#15"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "be--session-6#13",
+        "be--session-6#14",
+        "be--session-6#15"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-linear-demand-tr-mr-q-9aa9122f",
+      "type": "short",
+      "stem": "How does marginal revenue show whether demand is elastic, unit elastic or inelastic?",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "For a linear inverse demand function, **MR(Q) = a + 2bQ** with b < 0.\n\n- **MR > 0**: demand is **elastic**.\n- **MR = 0**: demand is **unit elastic**.\n- **MR < 0**: demand is **inelastic**.\n\nThe MR line lies below the demand line and falls more steeply.",
+      "rubric": [
+        {
+          "point": "MR(Q) = a + 2bQ, b < 0",
+          "source_ref": "be--session-6#16"
+        },
+        {
+          "point": "MR > 0 elastic, MR = 0 unit elastic",
+          "source_ref": "be--session-6#16"
+        },
+        {
+          "point": "MR < 0 inelastic",
+          "source_ref": "be--session-6#16"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "be--session-6#16"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-linear-demand-tr-mr-q-f04387e8",
+      "type": "long",
+      "stem": "Explain, using a linear demand curve and the total revenue curve, how elasticity changes along the demand line.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Introduction.** A straight-line demand curve does not have one elasticity: it changes along the line.\n\n**TR along the line.** With P = 80, 60, 40, 20 at Q = 10, 20, 30, 40, total revenue is 800, 1200, 1200 and 800. TR rises, peaks, and falls.\n\n**Elastic region.** At high prices and low quantities TR rises as Q rises: a price cut raises revenue, so demand is elastic.\n\n**Unit elastic point.** At the peak of TR, demand is unit elastic.\n\n**Inelastic region.** At low prices and high quantities TR falls as Q rises: a price cut lowers revenue, so demand is inelastic.\n\n**Conclusion.** Elasticity depends on where you are on the demand curve.",
+      "rubric": [
+        {
+          "point": "TR values 800, 1200, 1200, 800",
+          "source_ref": "be--session-6#12"
+        },
+        {
+          "point": "Upper part elastic",
+          "source_ref": "be--session-6#15"
+        },
+        {
+          "point": "Peak unit elastic",
+          "source_ref": "be--session-6#15"
+        },
+        {
+          "point": "Lower part inelastic",
+          "source_ref": "be--session-6#15"
+        },
+        {
+          "point": "TR hill shape explained",
+          "source_ref": "be--session-6#15"
+        }
+      ],
+      "marks": 5.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "be--session-6#9",
+        "be--session-6#10",
+        "be--session-6#11",
+        "be--session-6#12",
+        "be--session-6#13",
+        "be--session-6#14",
+        "be--session-6#15"
+      ],
+      "derived": [
+        "80",
+        "10",
+        "800",
+        "60",
+        "20",
+        "1200",
+        "40",
+        "30"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s6-linear-demand-tr-mr-q-11f15a16",
+      "type": "long",
+      "stem": "Explain the link between demand, marginal revenue and elasticity for a linear inverse demand function.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Introduction.** Marginal revenue (MR) tells you whether a firm is in the elastic or the inelastic part of a linear demand curve.\n\n**Formula.** For linear inverse demand, **MR(Q) = a + 2bQ**, where b < 0.\n\n**Rules.**\n- MR > 0: demand is elastic (TR is rising).\n- MR = 0: demand is unit elastic (TR is at its peak).\n- MR < 0: demand is inelastic (TR is falling).\n\n**Graph.** The MR line starts at the same point on the price axis as demand but falls more steeply.\n\n**Conclusion.** Reading the sign of MR is a quick check of elasticity.",
+      "rubric": [
+        {
+          "point": "MR(Q) = a + 2bQ with b < 0",
+          "source_ref": "be--session-6#16"
+        },
+        {
+          "point": "MR > 0 elastic",
+          "source_ref": "be--session-6#16"
+        },
+        {
+          "point": "MR = 0 unit elastic",
+          "source_ref": "be--session-6#16"
+        },
+        {
+          "point": "MR < 0 inelastic",
+          "source_ref": "be--session-6#16"
+        },
+        {
+          "point": "Link to TR rising, peak, falling",
+          "source_ref": "be--session-6#15"
+        }
+      ],
+      "marks": 5.0,
+      "difficulty": 3,
+      "style_tag": "explain",
+      "source_refs": [
+        "be--session-6#16",
+        "be--session-6#15"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "explain_back": {
+    "prompt": "Using the linear demand graph, explain how elasticity and total revenue change as you move down the demand line, and how MR shows the zones.",
+    "rubric": [
+      {
+        "point": "TR rises then falls (example 800, 1200, 1200, 800)",
+        "source_ref": "be--session-6#12"
+      },
+      {
+        "point": "Upper part elastic, peak unit elastic, lower part inelastic",
+        "source_ref": "be--session-6#15"
+      },
+      {
+        "point": "MR(Q) = a + 2bQ with b < 0",
+        "source_ref": "be--session-6#16"
+      },
+      {
+        "point": "MR > 0 elastic, MR = 0 unit elastic, MR < 0 inelastic",
+        "source_ref": "be--session-6#16"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}
