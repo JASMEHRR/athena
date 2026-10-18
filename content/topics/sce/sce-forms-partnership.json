@@ -1,0 +1,683 @@
+{
+  "id": "sce-forms-partnership",
+  "subject_id": "sce",
+  "deck_id": "sce--forms-of-business-organizations-2026",
+  "title": "Partnership, the partnership deed and LLP",
+  "order": 3,
+  "summary": "What a partnership is, how it is set up through a deed, how it is managed and funded, and the five steps of LLP registration.",
+  "est_minutes": 20,
+  "difficulty": 2,
+  "source_refs": [
+    "sce--forms-of-business-organizations-2026#16",
+    "sce--forms-of-business-organizations-2026#17",
+    "sce--forms-of-business-organizations-2026#18",
+    "sce--forms-of-business-organizations-2026#19"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "sce-forms-partnership-c1",
+      "heading": "What a partnership is",
+      "explanation_md": "A **partnership** is a lawful business where **two or more people (not more than fifty)** have a legal relationship and **voluntarily combine their capital** to run a business with a **profit motive**, by oral or written agreement.\n\n- **Profits and losses** are shared in mutually agreed proportions, as written in the **partnership deed**, with **unlimited liability**.\n- **No continuity**: if one partner dies, retires or is declared insolvent, the entire enterprise must be dissolved.\n- **Transfer of interest**: a partner cannot transfer his interest or share without the consent of the other partners.\n- **Accounts**: auditing is not necessary. Forming a balance sheet is not mandatory, though advisable for financial clarity and for raising a loan.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Partnership",
+          "meaning": "A lawful business where two or more people (not more than fifty) voluntarily combine their capital to run a business with a profit motive, by oral or written agreement.",
+          "source_ref": "sce--forms-of-business-organizations-2026#16"
+        },
+        {
+          "term": "Partnership continuity",
+          "meaning": "None: death, retirement or insolvency of a partner dissolves the entire enterprise.",
+          "source_ref": "sce--forms-of-business-organizations-2026#16"
+        }
+      ],
+      "exam_line": "Partnership: two to fifty people, pooled capital, profit motive, profits shared as per the deed, unlimited liability, no continuity, no transfer of share without consent.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "sce-forms-partnership-q-75a837f8",
+          "type": "mcq",
+          "stem": "What is the maximum number of people in a partnership, as given on the slide?",
+          "options": [
+            "Fifty",
+            "Seven",
+            "Two hundred",
+            "Ten"
+          ],
+          "answer": "Fifty",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "sce--forms-of-business-organizations-2026#16",
+            "sce--forms-of-business-organizations-2026#24",
+            "sce--forms-of-business-organizations-2026#26",
+            "sce--forms-of-business-organizations-2026#35"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "sce-forms-partnership-q-cedd520c",
+          "type": "true_false",
+          "stem": "If one partner dies, a partnership continues without any change.",
+          "options": [],
+          "answer": "False",
+          "accept": [],
+          "explanation": "The entire enterprise must be dissolved.",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "sce--forms-of-business-organizations-2026#16"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "sce-forms-partnership-q-fe35e425",
+          "type": "fill",
+          "stem": "Partners share profits and losses with ____ liability.",
+          "options": [],
+          "answer": "unlimited",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "sce--forms-of-business-organizations-2026#16"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "sce--forms-of-business-organizations-2026#16"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "sce-forms-partnership-c2",
+      "heading": "The partnership deed",
+      "explanation_md": "The **partnership deed** is the written agreement. The slide lists what a written deed contains:\n\n- name of the firm; names of the partners; permanent address; duration\n- nature of business, aims and objectives\n- rights, powers and duties of each partner\n- financial year end and accounting records\n- contribution of each partner\n- profit and loss sharing proportions\n- who has authority to manage the firm and sign cheques\n- division of tasks between partners\n- an **arbitration clause** for disputes\n- procedure for dissolution of the firm\n\nThe slide shows a **sample deed**: a blank template with spaces for the two partners' names, the firm name and address, a business of dealers in spices, general merchants and importers and exporters, and an accounting year ending on 31st March.",
+      "example_ids": [
+        "sce-ex-deed-sample"
+      ],
+      "key_terms": [
+        {
+          "term": "Partnership deed",
+          "meaning": "The written agreement setting out the firm, partners, contributions, profit sharing, management authority and how the firm is dissolved.",
+          "source_ref": "sce--forms-of-business-organizations-2026#17"
+        },
+        {
+          "term": "Arbitration clause",
+          "meaning": "The deed clause for any dispute or disagreement among partners.",
+          "source_ref": "sce--forms-of-business-organizations-2026#17"
+        }
+      ],
+      "exam_line": "A deed names the firm and partners, states each partner's contribution, profit-loss ratio, who manages and signs cheques, an arbitration clause and dissolution procedure.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "sce-forms-partnership-q-98ce1a05",
+          "type": "mcq",
+          "stem": "Which item is in the list of contents of a written partnership deed?",
+          "options": [
+            "Proportion in which profits and losses are divided",
+            "Memorandum of Association",
+            "Certificate of Commencement",
+            "List of independent directors"
+          ],
+          "answer": "Proportion in which profits and losses are divided",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "sce--forms-of-business-organizations-2026#17",
+            "sce--forms-of-business-organizations-2026#21",
+            "sce--forms-of-business-organizations-2026#28"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "sce-forms-partnership-q-26355a62",
+          "type": "mcq",
+          "stem": "In the sample deed, the firm's business is that of dealers in what?",
+          "options": [
+            "Spices, general merchants and importers and exporters",
+            "Restaurants and liquor",
+            "Education and training",
+            "Insurance and loss assessment"
+          ],
+          "answer": "Spices, general merchants and importers and exporters",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "sce--forms-of-business-organizations-2026#18",
+            "sce--forms-of-business-organizations-2026#13",
+            "sce--forms-of-business-organizations-2026#33"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "sce--forms-of-business-organizations-2026#17",
+        "sce--forms-of-business-organizations-2026#18"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "sce-forms-partnership-c3",
+      "heading": "LLP registration in five steps",
+      "explanation_md": "The slide shows **LLP** with a picture titled **Steps of LLP Registration**:\n\n1. Procurement of **DSC**\n2. Reserve an LLP name\n3. Incorporation of LLP and **DIN** application\n4. Apply for **PAN** and **TAN**\n5. Drafting and filing of the LLP agreement\n\nSo, like a company, an LLP is established through a registration process, and like a partnership it ends with a written agreement between the partners.",
+      "example_ids": [
+        "sce-ex-llp-steps"
+      ],
+      "key_terms": [
+        {
+          "term": "LLP registration steps",
+          "meaning": "DSC, reserve a name, incorporation and DIN application, PAN and TAN, draft and file the LLP agreement.",
+          "source_ref": "sce--forms-of-business-organizations-2026#19"
+        }
+      ],
+      "exam_line": "LLP steps: DSC, name reservation, incorporation and DIN, PAN and TAN, LLP agreement.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "sce-forms-partnership-q-a3d48847",
+          "type": "mcq",
+          "stem": "What is the first step of LLP registration in the picture?",
+          "options": [
+            "Procurement of DSC",
+            "Reserve an LLP name",
+            "Apply for PAN and TAN",
+            "Drafting and filing of LLP agreement"
+          ],
+          "answer": "Procurement of DSC",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "sce--forms-of-business-organizations-2026#19"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "sce-forms-partnership-q-5ee6422f",
+          "type": "fill",
+          "stem": "The last step of LLP registration is drafting and filing of the LLP ____.",
+          "options": [],
+          "answer": "agreement",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "sce--forms-of-business-organizations-2026#19"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "sce--forms-of-business-organizations-2026#19"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "sce-forms-partnership-f1",
+      "front": "Partnership definition",
+      "back": "Two or more people (not more than fifty) voluntarily combine capital to run a lawful business with a profit motive, by oral or written agreement.",
+      "kind": "term",
+      "source_refs": [
+        "sce--forms-of-business-organizations-2026#16"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "sce-forms-partnership-f2",
+      "front": "Partners' liability",
+      "back": "Unlimited.",
+      "kind": "fact",
+      "source_refs": [
+        "sce--forms-of-business-organizations-2026#16"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "sce-forms-partnership-f3",
+      "front": "What happens when a partner dies, retires or is declared insolvent?",
+      "back": "The entire enterprise must be dissolved (no continuity).",
+      "kind": "fact",
+      "source_refs": [
+        "sce--forms-of-business-organizations-2026#16"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "sce-forms-partnership-f4",
+      "front": "Can a partner transfer his share freely?",
+      "back": "No, not without the consent of the other partners.",
+      "kind": "fact",
+      "source_refs": [
+        "sce--forms-of-business-organizations-2026#16"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "sce-forms-partnership-f5",
+      "front": "Name five contents of a partnership deed.",
+      "back": "Firm name, partners' names, contribution of each, profit-loss proportions, arbitration clause (also address, duration, dissolution procedure and more).",
+      "kind": "list",
+      "source_refs": [
+        "sce--forms-of-business-organizations-2026#17"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "sce-forms-partnership-f6",
+      "front": "Five steps of LLP registration",
+      "back": "DSC; reserve name; incorporation and DIN; PAN and TAN; LLP agreement.",
+      "kind": "list",
+      "source_refs": [
+        "sce--forms-of-business-organizations-2026#19"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [
+    {
+      "id": "sce-forms-partnership-q-c35df153",
+      "type": "mcq",
+      "stem": "What happens to a partnership if one partner retires?",
+      "options": [
+        "The entire enterprise must be dissolved",
+        "It continues with perpetual succession",
+        "The shareholders elect a replacement",
+        "The Registrar appoints a director"
+      ],
+      "answer": "The entire enterprise must be dissolved",
+      "accept": [],
+      "explanation": "A partnership has no continuity.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "recall",
+      "source_refs": [
+        "sce--forms-of-business-organizations-2026#16",
+        "sce--forms-of-business-organizations-2026#20",
+        "sce--forms-of-business-organizations-2026#21"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "sce-forms-partnership-q-8459c538",
+      "type": "mcq",
+      "stem": "A partner can transfer his interest in the firm only when what happens?",
+      "options": [
+        "The other partners consent",
+        "The Charity Commissioner approves",
+        "The Registrar of Companies approves",
+        "Three-fifths of the members vote"
+      ],
+      "answer": "The other partners consent",
+      "accept": [],
+      "explanation": "The slide restricts transfer without the consent of other partners.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "recall",
+      "source_refs": [
+        "sce--forms-of-business-organizations-2026#16",
+        "sce--forms-of-business-organizations-2026#45",
+        "sce--forms-of-business-organizations-2026#48"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "sce-forms-partnership-q-aa5787da",
+      "type": "mcq",
+      "stem": "Which item belongs in a written partnership deed?",
+      "options": [
+        "An arbitration clause for disputes",
+        "A prospectus",
+        "An independent director",
+        "A certificate of commencement"
+      ],
+      "answer": "An arbitration clause for disputes",
+      "accept": [],
+      "explanation": "The deed includes an arbitration clause.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "recall",
+      "source_refs": [
+        "sce--forms-of-business-organizations-2026#17",
+        "sce--forms-of-business-organizations-2026#21",
+        "sce--forms-of-business-organizations-2026#26"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "sce-forms-partnership-q-cb5c4233",
+      "type": "mcq",
+      "stem": "What is the last step of LLP registration shown in the deck?",
+      "options": [
+        "Drafting and filing of LLP agreement",
+        "Reserve an LLP name",
+        "Apply for PAN and TAN",
+        "Procurement of DSC"
+      ],
+      "answer": "Drafting and filing of LLP agreement",
+      "accept": [],
+      "explanation": "It is step five.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "recall",
+      "source_refs": [
+        "sce--forms-of-business-organizations-2026#19"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "sce-forms-partnership-q-c21234dd",
+      "type": "short",
+      "stem": "Define a partnership and state its key features as given in the deck.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "A **partnership** is a lawful business in which two or more people (not more than fifty) have a legal relationship and voluntarily combine their capital to run it with a profit motive, by oral or written agreement.\n\n- **Sharing**: profits and losses are shared in agreed proportions as written in the partnership deed.\n- **Liability**: unlimited.\n- **Continuity**: none; death, retirement or insolvency of a partner dissolves the enterprise.\n- **Transfer**: a partner cannot transfer his share without the other partners' consent.\n- **Accounts**: audit not necessary; a balance sheet is advisable for clarity and raising a loan.",
+      "rubric": [
+        {
+          "point": "Two or more people, up to fifty, combine capital for a profit motive",
+          "source_ref": "sce--forms-of-business-organizations-2026#16"
+        },
+        {
+          "point": "Profits and losses shared per the deed; unlimited liability",
+          "source_ref": "sce--forms-of-business-organizations-2026#16"
+        },
+        {
+          "point": "No continuity",
+          "source_ref": "sce--forms-of-business-organizations-2026#16"
+        },
+        {
+          "point": "Restriction on transfer of share; audit not necessary",
+          "source_ref": "sce--forms-of-business-organizations-2026#16"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 1,
+      "style_tag": "define",
+      "source_refs": [
+        "sce--forms-of-business-organizations-2026#16"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "sce-forms-partnership-q-99bfb9ac",
+      "type": "short",
+      "stem": "List any eight contents of a written partnership deed.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "A **partnership deed** is the written agreement among partners. It records:\n\n1. Name of the firm and names of the partners\n2. Permanent address and duration\n3. Nature of business with aims and objectives\n4. Rights, powers and duties of the partners\n5. Contribution of each partner\n6. Proportion for dividing profits and losses\n7. Who manages the firm and signs the cheques\n8. An arbitration clause, and the procedure for dissolution\n\nOther items: financial year end, accounting records and division of tasks.",
+      "rubric": [
+        {
+          "point": "Name of firm and partners, address, duration",
+          "source_ref": "sce--forms-of-business-organizations-2026#17"
+        },
+        {
+          "point": "Nature of business, rights, powers and duties",
+          "source_ref": "sce--forms-of-business-organizations-2026#17"
+        },
+        {
+          "point": "Contributions and profit-loss proportions",
+          "source_ref": "sce--forms-of-business-organizations-2026#17"
+        },
+        {
+          "point": "Management and cheque signing authority, arbitration, dissolution",
+          "source_ref": "sce--forms-of-business-organizations-2026#17"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 1,
+      "style_tag": "list",
+      "source_refs": [
+        "sce--forms-of-business-organizations-2026#17"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "sce-forms-partnership-q-e21fe1a5",
+      "type": "short",
+      "stem": "Describe the sample partnership deed shown in the deck.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The deck shows a **template partnership deed** dated in April 2010 between two parties, with blanks for their names.\n\n- It records that the parties carry on business as **dealers in spices, general merchants and importers and exporters**.\n- Clauses cover the firm name, the registered address, that the partnership is at will, the nature of the business and the date it began.\n- The **accounting year ends on 31st March** each year.\n\nIt shows how the contents listed for a deed look on paper.",
+      "rubric": [
+        {
+          "point": "Template between two parties with blanks",
+          "source_ref": "sce--forms-of-business-organizations-2026#18"
+        },
+        {
+          "point": "Business of spices, general merchants, importers and exporters",
+          "source_ref": "sce--forms-of-business-organizations-2026#18"
+        },
+        {
+          "point": "Accounting year ends 31st March",
+          "source_ref": "sce--forms-of-business-organizations-2026#18"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 1,
+      "style_tag": "explain",
+      "source_refs": [
+        "sce--forms-of-business-organizations-2026#18",
+        "sce--forms-of-business-organizations-2026#17"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "sce-forms-partnership-q-1c3633a9",
+      "type": "long",
+      "stem": "Explain the partnership form of business: how it is established, managed and funded, its liability and continuity, and the contents of a partnership deed.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "A **partnership** is a lawful business where two or more people (not more than fifty) have a legal relationship and voluntarily combine their capital to run it with a profit motive.\n\n**Establishment.** It starts by **oral or written agreement**. The written agreement is the **partnership deed**, which names the firm and partners, its address and duration, the nature of business and objectives, and the rights, powers and duties of the partners.\n\n**Management.** The deed says who has authority to manage the firm and sign cheques, and how tasks are divided among partners. Disputes go through an **arbitration clause**.\n\n**Funding.** The partners **combine their capital**, and the extent of each partner's contribution is recorded in the deed. Auditing is not necessary, and forming a balance sheet is not mandatory, though it is advisable for clarity and for raising a loan.\n\n**Profit and liability.** Profits and losses are shared in the agreed proportions written in the deed, with **unlimited liability**.\n\n**Continuity.** There is **no continuity**: if a partner dies, retires or is declared insolvent, the entire enterprise must be dissolved. A partner also cannot transfer his share without the consent of the others. The deed contains the dissolution procedure.\n\nExample: the deck's sample deed is for a firm of dealers in spices and general merchants, with an accounting year ending on 31st March.\n\nIn conclusion, a partnership pools capital and skills but depends on the partners staying together.",
+      "rubric": [
+        {
+          "point": "Definition: two or more people (up to fifty), pooled capital, profit motive",
+          "source_ref": "sce--forms-of-business-organizations-2026#16"
+        },
+        {
+          "point": "Oral or written agreement; contents of the deed",
+          "source_ref": "sce--forms-of-business-organizations-2026#17"
+        },
+        {
+          "point": "Management authority, cheque signing and arbitration per the deed",
+          "source_ref": "sce--forms-of-business-organizations-2026#17"
+        },
+        {
+          "point": "Funding: capital contributions; balance sheet for a loan",
+          "source_ref": "sce--forms-of-business-organizations-2026#16"
+        },
+        {
+          "point": "Unlimited liability; profits shared per deed",
+          "source_ref": "sce--forms-of-business-organizations-2026#16"
+        },
+        {
+          "point": "No continuity; no transfer without consent",
+          "source_ref": "sce--forms-of-business-organizations-2026#16"
+        },
+        {
+          "point": "Example: sample deed of a spices dealers firm",
+          "source_ref": "sce--forms-of-business-organizations-2026#18"
+        }
+      ],
+      "marks": 10.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "sce--forms-of-business-organizations-2026#16",
+        "sce--forms-of-business-organizations-2026#17",
+        "sce--forms-of-business-organizations-2026#18"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "sce-forms-partnership-q-e655ea73",
+      "type": "long",
+      "stem": "Describe the steps of LLP registration given in the deck and compare how an LLP is established with a partnership and a private limited company.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The deck shows **five steps of LLP registration**:\n\n1. Procurement of **DSC**\n2. Reserve an LLP name\n3. Incorporation of LLP and **DIN** application\n4. Apply for **PAN** and **TAN**\n5. Drafting and filing of the **LLP agreement**\n\n**Compared with a partnership.** A partnership can start by an oral or written agreement, with a deed setting out the terms. An LLP follows a registration process and ends with an LLP agreement.\n\n**Compared with a private limited company.** The registration process of a Pvt. Ltd. company is drawn in the deck as a path: DSC, DIN, name check, filing the e-Memorandum and e-Articles of Association, PAN and TAN, the certificate of the Registrar of Companies, and a current bank account. Both use DSC, DIN, name reservation or check, and PAN and TAN, but the company files its memorandum and articles, while the LLP files an LLP agreement.\n\nIn short, the steps overlap, but the key documents differ: LLP agreement versus memorandum and articles.",
+      "rubric": [
+        {
+          "point": "Five LLP steps in order",
+          "source_ref": "sce--forms-of-business-organizations-2026#19"
+        },
+        {
+          "point": "Partnership: oral or written agreement and a deed",
+          "source_ref": "sce--forms-of-business-organizations-2026#16"
+        },
+        {
+          "point": "Pvt. Ltd. steps from the registration picture",
+          "source_ref": "sce--forms-of-business-organizations-2026#25"
+        },
+        {
+          "point": "Common steps: DSC, DIN, name, PAN and TAN",
+          "source_ref": "sce--forms-of-business-organizations-2026#25"
+        },
+        {
+          "point": "Different key documents: LLP agreement versus eMoA and eAoA",
+          "source_ref": "sce--forms-of-business-organizations-2026#25"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 3,
+      "style_tag": "differentiate",
+      "source_refs": [
+        "sce--forms-of-business-organizations-2026#16",
+        "sce--forms-of-business-organizations-2026#19",
+        "sce--forms-of-business-organizations-2026#25"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "explain_back": {
+    "prompt": "Explain the partnership form: how it is established, managed and what happens on a partner's death.",
+    "rubric": [
+      {
+        "point": "Two or more people (up to fifty) pool capital for a lawful, profit-making business by oral or written agreement",
+        "source_ref": "sce--forms-of-business-organizations-2026#16"
+      },
+      {
+        "point": "Profits and losses shared as per the deed; unlimited liability",
+        "source_ref": "sce--forms-of-business-organizations-2026#16"
+      },
+      {
+        "point": "Deed lists contributions, management authority, arbitration and dissolution",
+        "source_ref": "sce--forms-of-business-organizations-2026#17"
+      },
+      {
+        "point": "No continuity: death, retirement or insolvency dissolves it; no share transfer without consent",
+        "source_ref": "sce--forms-of-business-organizations-2026#16"
+      },
+      {
+        "point": "Audit and balance sheet not mandatory, but balance sheet advisable for a loan",
+        "source_ref": "sce--forms-of-business-organizations-2026#16"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

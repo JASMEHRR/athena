@@ -1,0 +1,761 @@
+{
+  "id": "sce-pmf-business-model",
+  "subject_id": "sce",
+  "deck_id": "sce--product-market-fit-2026",
+  "title": "Step 1 and 2: your business model is the product",
+  "order": 2,
+  "summary": "The nine-box business model canvas, and the steps of brainstorming several models, prioritizing where to start and spotting the riskiest parts.",
+  "est_minutes": 20,
+  "difficulty": 2,
+  "source_refs": [
+    "sce--product-market-fit-2026#9",
+    "sce--product-market-fit-2026#10",
+    "sce--product-market-fit-2026#11",
+    "sce--product-market-fit-2026#12",
+    "sce--product-market-fit-2026#13",
+    "sce--product-market-fit-2026#14"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "sce-pmf-business-model-c1",
+      "heading": "Your product is not 'the product'",
+      "explanation_md": "Step **1** of the steps to product-market fit says: **Your product is NOT \"the product\".**\n\nIn other words, the thing you build is not the whole story. The next slide says what the product really is.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "Step 1: your product is NOT the product.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "sce-pmf-business-model-q-0870e102",
+          "type": "mcq",
+          "stem": "What is step 1 on the steps to product-market fit?",
+          "options": [
+            "Your product is NOT \"the product\"",
+            "Brainstorm multiple models",
+            "Understand the three stages of a startup",
+            "Identify the riskiest parts"
+          ],
+          "answer": "Your product is NOT \"the product\"",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "sce--product-market-fit-2026#9",
+            "sce--product-market-fit-2026#11",
+            "sce--product-market-fit-2026#15"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "sce-pmf-business-model-q-e6dbbeba",
+          "type": "true_false",
+          "stem": "Step 1 says your product is the product.",
+          "options": [],
+          "answer": "False",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "sce--product-market-fit-2026#9"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "sce--product-market-fit-2026#9"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "sce-pmf-business-model-c2",
+      "heading": "The business model canvas: nine boxes",
+      "explanation_md": "The slide says: **Your \"business model\" is the product.** It shows a nine-box canvas with a red circle around the whole thing.\n\nThe boxes, left to right and top to bottom:\n\n- **Problem**\n- **Solution**, with **Key Metrics** under it\n- **Unique Value Proposition**\n- **Unfair Advantage**, with **Channels** under it\n- **Customer Segments**\n- along the bottom: **Cost Structure** and **Revenue Streams**\n\nThat makes **nine**: Problem, Solution, Unique Value Proposition, Unfair Advantage, Customer Segments, Key Metrics, Channels, Cost Structure, Revenue Streams. For a consultancy exam question, walk through every box in this order and fill each one for the business in the question.",
+      "example_ids": [
+        "sce-ex-canvas-slide"
+      ],
+      "key_terms": [
+        {
+          "term": "Nine boxes of the canvas",
+          "meaning": "Problem, Solution, Unique Value Proposition, Unfair Advantage, Customer Segments, Key Metrics, Channels, Cost Structure, Revenue Streams.",
+          "source_ref": "sce--product-market-fit-2026#10"
+        }
+      ],
+      "exam_line": "Business model = the product. Nine boxes: Problem, Solution, Unique Value Proposition, Unfair Advantage, Customer Segments, Key Metrics, Channels, Cost Structure, Revenue Streams.",
+      "clarification": {
+        "term": "Unfair advantage",
+        "text": "A strength your business has that others cannot easily copy or buy."
+      },
+      "check_questions": [
+        {
+          "id": "sce-pmf-business-model-q-53e4c76e",
+          "type": "mcq",
+          "stem": "Which box sits directly under Solution on the canvas?",
+          "options": [
+            "Key Metrics",
+            "Channels",
+            "Cost Structure",
+            "Revenue Streams"
+          ],
+          "answer": "Key Metrics",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "sce--product-market-fit-2026#10"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "sce-pmf-business-model-q-f9f186e4",
+          "type": "mcq",
+          "stem": "Which two boxes run along the bottom of the canvas?",
+          "options": [
+            "Cost Structure and Revenue Streams",
+            "Problem and Solution",
+            "Channels and Key Metrics",
+            "Unfair Advantage and Customer Segments"
+          ],
+          "answer": "Cost Structure and Revenue Streams",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "sce--product-market-fit-2026#10"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "sce-pmf-business-model-q-d6a009e2",
+          "type": "fill",
+          "stem": "The canvas box that sits under Unfair Advantage is ____.",
+          "options": [],
+          "answer": "Channels",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "sce--product-market-fit-2026#10"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "sce--product-market-fit-2026#10"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "sce-pmf-business-model-c3",
+      "heading": "Brainstorm models, then prioritize where to start",
+      "explanation_md": "Step **2**: **Brainstorm multiple models and prioritize where to start.**\n\n**Brainstorm possible models.** The picture shows five small canvases stacked in a column, with a **Time** arrow along the bottom. You start with several possible models, not one.\n\n**Prioritize where to start.** Two of the five canvases are crossed out. A yellow note gives the four criteria for choosing:\n\n1. **Customer Pain Level**\n2. **Ease of Reach**\n3. **Price/Gross Margin**\n4. **Market Size**",
+      "example_ids": [
+        "sce-ex-models-over-time"
+      ],
+      "key_terms": [
+        {
+          "term": "Prioritization criteria",
+          "meaning": "Customer Pain Level, Ease of Reach, Price/Gross Margin, Market Size.",
+          "source_ref": "sce--product-market-fit-2026#13"
+        }
+      ],
+      "exam_line": "Step 2: brainstorm multiple models, then prioritize with: Customer Pain Level, Ease of Reach, Price/Gross Margin, Market Size.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "sce-pmf-business-model-q-ca05fb0c",
+          "type": "mcq",
+          "stem": "Which is NOT one of the four criteria for prioritizing where to start?",
+          "options": [
+            "Number of founders",
+            "Customer Pain Level",
+            "Ease of Reach",
+            "Market Size"
+          ],
+          "answer": "Number of founders",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "sce--product-market-fit-2026#13"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "sce-pmf-business-model-q-a49fbcb9",
+          "type": "fill",
+          "stem": "The first criterion for prioritizing where to start is Customer ____ Level.",
+          "options": [],
+          "answer": "Pain",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "sce--product-market-fit-2026#13"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "sce--product-market-fit-2026#11",
+        "sce--product-market-fit-2026#12",
+        "sce--product-market-fit-2026#13"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "sce-pmf-business-model-c4",
+      "heading": "Identify the riskiest parts of your model",
+      "explanation_md": "The next slide, **Identify the riskiest parts of your model**, keeps the same stack of five canvases and the Time arrow. The two crossed-out canvases are gone from the next column. For each of the remaining three, a second canvas is drawn with **two boxes shaded red**: the riskiest parts of that model.\n\nSo the order is: brainstorm several models, prioritize and cross some out, then mark the riskiest parts of the ones left.",
+      "example_ids": [
+        "sce-ex-models-over-time"
+      ],
+      "key_terms": [],
+      "exam_line": "Mark the riskiest parts of each remaining model (shaded red on the canvas).",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "sce-pmf-business-model-q-c88d5ee4",
+          "type": "mcq",
+          "stem": "How does the slide show the riskiest parts of a model?",
+          "options": [
+            "Shading some boxes of the canvas red",
+            "Writing a Plan B",
+            "Crossing out the whole canvas",
+            "Adding a Time arrow"
+          ],
+          "answer": "Shading some boxes of the canvas red",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "sce--product-market-fit-2026#14",
+            "sce--product-market-fit-2026#13"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "sce-pmf-business-model-q-6f884e15",
+          "type": "true_false",
+          "stem": "The riskiest-parts step comes after prioritizing where to start.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "sce--product-market-fit-2026#13",
+            "sce--product-market-fit-2026#14"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "sce--product-market-fit-2026#14"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "sce-pmf-business-model-f1",
+      "front": "Step 1 of the steps to product-market fit",
+      "back": "Your product is NOT \"the product\".",
+      "kind": "fact",
+      "source_refs": [
+        "sce--product-market-fit-2026#9"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "sce-pmf-business-model-f2",
+      "front": "Business model canvas boxes (nine)",
+      "back": "Problem, Solution, Unique Value Proposition, Unfair Advantage, Customer Segments, Key Metrics, Channels, Cost Structure, Revenue Streams.",
+      "kind": "list",
+      "source_refs": [
+        "sce--product-market-fit-2026#10"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "sce-pmf-business-model-f3",
+      "front": "Which boxes sit under Solution and Unfair Advantage?",
+      "back": "Key Metrics under Solution; Channels under Unfair Advantage.",
+      "kind": "fact",
+      "source_refs": [
+        "sce--product-market-fit-2026#10"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "sce-pmf-business-model-f4",
+      "front": "Step 2",
+      "back": "Brainstorm multiple models and prioritize where to start.",
+      "kind": "fact",
+      "source_refs": [
+        "sce--product-market-fit-2026#11"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "sce-pmf-business-model-f5",
+      "front": "Four criteria to prioritize where to start",
+      "back": "Customer Pain Level, Ease of Reach, Price/Gross Margin, Market Size.",
+      "kind": "list",
+      "source_refs": [
+        "sce--product-market-fit-2026#13"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "sce-pmf-business-model-f6",
+      "front": "Riskiest parts of the model",
+      "back": "Identified (shaded red on the canvas) for the models that remain.",
+      "kind": "fact",
+      "source_refs": [
+        "sce--product-market-fit-2026#14"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [
+    {
+      "id": "sce-pmf-business-model-q-e65bf573",
+      "type": "mcq",
+      "stem": "How many boxes does the canvas in the deck have?",
+      "options": [
+        "Nine",
+        "Five",
+        "Seven",
+        "Eight"
+      ],
+      "answer": "Nine",
+      "accept": [],
+      "explanation": "Problem, Solution, Unique Value Proposition, Unfair Advantage, Customer Segments, Key Metrics, Channels, Cost Structure, Revenue Streams.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "recall",
+      "source_refs": [
+        "sce--product-market-fit-2026#10",
+        "sce--product-market-fit-2026#12"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "sce-pmf-business-model-q-50002d3b",
+      "type": "mcq",
+      "stem": "Which box is placed under Unfair Advantage on the canvas?",
+      "options": [
+        "Channels",
+        "Key Metrics",
+        "Revenue Streams",
+        "Problem"
+      ],
+      "answer": "Channels",
+      "accept": [],
+      "explanation": "Key Metrics sits under Solution.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "recall",
+      "source_refs": [
+        "sce--product-market-fit-2026#10"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "sce-pmf-business-model-q-59708a1e",
+      "type": "mcq",
+      "stem": "The deck says what is the product?",
+      "options": [
+        "Your business model",
+        "Your logo",
+        "Your first customer",
+        "Your price"
+      ],
+      "answer": "Your business model",
+      "accept": [],
+      "explanation": "The slide heading says your business model is the product.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "recall",
+      "source_refs": [
+        "sce--product-market-fit-2026#10",
+        "sce--product-market-fit-2026#9"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "sce-pmf-business-model-q-01967e54",
+      "type": "mcq",
+      "stem": "Which criterion is used to prioritize which model to start with?",
+      "options": [
+        "Ease of Reach",
+        "Number of boxes filled",
+        "Time arrow length",
+        "Colour of the canvas"
+      ],
+      "answer": "Ease of Reach",
+      "accept": [],
+      "explanation": "The four are Customer Pain Level, Ease of Reach, Price/Gross Margin and Market Size.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "recall",
+      "source_refs": [
+        "sce--product-market-fit-2026#13"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "sce-pmf-business-model-q-09df31a1",
+      "type": "mcq",
+      "stem": "After brainstorming and prioritizing models, what does the deck do next?",
+      "options": [
+        "Identify the riskiest parts of each remaining model",
+        "Scale the business",
+        "Change the price",
+        "Hire a team"
+      ],
+      "answer": "Identify the riskiest parts of each remaining model",
+      "accept": [],
+      "explanation": "The riskiest parts are shaded red on the canvas.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "recall",
+      "source_refs": [
+        "sce--product-market-fit-2026#14",
+        "sce--product-market-fit-2026#13",
+        "sce--product-market-fit-2026#16"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "sce-pmf-business-model-q-0ecf3f85",
+      "type": "short",
+      "stem": "List the nine boxes of the business model canvas shown in the deck.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The deck says **your business model is the product** and draws it as a **nine-box canvas**:\n\n1. Problem\n2. Solution (with **Key Metrics** under it)\n3. Unique Value Proposition\n4. Unfair Advantage (with **Channels** under it)\n5. Customer Segments\n6. Cost Structure (bottom left)\n7. Revenue Streams (bottom right)\n\nCounting Key Metrics and Channels, that is nine boxes.",
+      "rubric": [
+        {
+          "point": "Problem, Solution, Unique Value Proposition",
+          "source_ref": "sce--product-market-fit-2026#10"
+        },
+        {
+          "point": "Unfair Advantage and Customer Segments",
+          "source_ref": "sce--product-market-fit-2026#10"
+        },
+        {
+          "point": "Key Metrics and Channels placed under Solution and Unfair Advantage",
+          "source_ref": "sce--product-market-fit-2026#10"
+        },
+        {
+          "point": "Cost Structure and Revenue Streams along the bottom",
+          "source_ref": "sce--product-market-fit-2026#10"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 1,
+      "style_tag": "list",
+      "source_refs": [
+        "sce--product-market-fit-2026#10"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "sce-pmf-business-model-q-77a15151",
+      "type": "short",
+      "stem": "Explain how the deck suggests choosing between several possible business models.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The deck's step 2 is to **brainstorm multiple models and prioritize where to start**.\n\n- First brainstorm several possible models, drawn as separate canvases over time.\n- Then **prioritize** using four criteria: **Customer Pain Level, Ease of Reach, Price/Gross Margin, Market Size**. Weaker models are crossed out.\n- Then **identify the riskiest parts** of each remaining model, shown as shaded boxes.",
+      "rubric": [
+        {
+          "point": "Brainstorm multiple models",
+          "source_ref": "sce--product-market-fit-2026#12"
+        },
+        {
+          "point": "Four prioritizing criteria",
+          "source_ref": "sce--product-market-fit-2026#13"
+        },
+        {
+          "point": "Cross out weaker models",
+          "source_ref": "sce--product-market-fit-2026#13"
+        },
+        {
+          "point": "Identify riskiest parts of the model",
+          "source_ref": "sce--product-market-fit-2026#14"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "sce--product-market-fit-2026#11",
+        "sce--product-market-fit-2026#12",
+        "sce--product-market-fit-2026#13",
+        "sce--product-market-fit-2026#14"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "sce-pmf-business-model-q-fa4d7e01",
+      "type": "short",
+      "stem": "Why does the deck say the product is not 'the product' but the business model?",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Step 1 of the steps to product-market fit says your product is **not** \"the product\". The next slide says **your business model is the product** and shows the nine-box canvas around it.\n\nSo what you test and refine is the whole model (problem, solution, value proposition, customers, channels, costs and revenue), not only the thing you build.",
+      "rubric": [
+        {
+          "point": "Step 1: your product is NOT the product",
+          "source_ref": "sce--product-market-fit-2026#9"
+        },
+        {
+          "point": "Business model is the product",
+          "source_ref": "sce--product-market-fit-2026#10"
+        },
+        {
+          "point": "Whole canvas of nine boxes",
+          "source_ref": "sce--product-market-fit-2026#10"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "sce--product-market-fit-2026#9",
+        "sce--product-market-fit-2026#10"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "sce-pmf-business-model-q-cbadecf4",
+      "type": "long",
+      "stem": "Develop a business model canvas for a consultancy firm using the nine boxes in the deck. Explain what you would write in each box.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The deck says **your business model is the product**, drawn as a canvas of nine boxes. For a consultancy firm I would fill them in this order, using the deck's own questions: who is the customer, what is the pain, and how do I solve it.\n\n1. **Customer Segments**: the core customers the firm sells advice to, written the way the deck writes its core customer (B).\n2. **Problem**: the customer's pain point (C) that the firm's advice addresses. Rank it by **Customer Pain Level**, the first criterion the deck uses to choose where to start.\n3. **Solution**: how the consultancy solves that pain (D), the service it delivers.\n4. **Unique Value Proposition**: the single reason a customer picks this firm over others.\n5. **Unfair Advantage**: what the firm has that others cannot easily copy or buy.\n6. **Channels**: how the firm reaches customers; the deck's second criterion is **Ease of Reach**.\n7. **Key Metrics**: the numbers that show whether the service is working.\n8. **Revenue Streams**: how the firm earns, with the deck's **Price/Gross Margin** criterion in mind.\n9. **Cost Structure**: what it costs to deliver the service.\n\nThen, as the deck advises, brainstorm more than one version of this canvas, prioritize with **Customer Pain Level, Ease of Reach, Price/Gross Margin and Market Size**, and mark the riskiest boxes to test first.\n\nIn conclusion, a consultancy's canvas is a living model that you test, not a fixed plan.",
+      "rubric": [
+        {
+          "point": "Customer Segments and Problem (customer pain point)",
+          "source_ref": "sce--product-market-fit-2026#10"
+        },
+        {
+          "point": "Solution and Unique Value Proposition",
+          "source_ref": "sce--product-market-fit-2026#10"
+        },
+        {
+          "point": "Unfair Advantage and Channels",
+          "source_ref": "sce--product-market-fit-2026#10"
+        },
+        {
+          "point": "Key Metrics",
+          "source_ref": "sce--product-market-fit-2026#10"
+        },
+        {
+          "point": "Revenue Streams and Cost Structure",
+          "source_ref": "sce--product-market-fit-2026#10"
+        },
+        {
+          "point": "Prioritize and test the riskiest parts",
+          "source_ref": "sce--product-market-fit-2026#13"
+        }
+      ],
+      "marks": 10.0,
+      "difficulty": 2,
+      "style_tag": "case",
+      "source_refs": [
+        "sce--product-market-fit-2026#10",
+        "sce--product-market-fit-2026#13",
+        "sce--product-market-fit-2026#14",
+        "sce--product-market-fit-2026#21"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "sce-pmf-business-model-q-9fca4955",
+      "type": "long",
+      "stem": "Explain the steps in the deck for building a business model on the way to product-market fit: the canvas, brainstorming models, prioritizing and spotting risk.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The deck gives a sequence of steps.\n\n**Step 1: your product is not \"the product\".** Your **business model is the product**, drawn as a nine-box canvas: Problem, Solution, Unique Value Proposition, Unfair Advantage, Customer Segments, Key Metrics, Channels, Cost Structure and Revenue Streams.\n\n**Step 2: brainstorm multiple models and prioritize where to start.** Draw several canvases over time. Prioritize with four criteria: **Customer Pain Level, Ease of Reach, Price/Gross Margin and Market Size**, and cross out the weaker models.\n\n**Identify the riskiest parts.** For each remaining model, shade the riskiest boxes so you know what to test first.\n\n**Step 3: understand the three stages of a startup** (Problem/Solution Fit, Product/Market Fit, Scale) so you know which question you are answering.\n\nIn conclusion, you are not looking for a better Plan A but a path to a plan that works.",
+      "rubric": [
+        {
+          "point": "Business model is the product; nine boxes",
+          "source_ref": "sce--product-market-fit-2026#10"
+        },
+        {
+          "point": "Brainstorm multiple models",
+          "source_ref": "sce--product-market-fit-2026#12"
+        },
+        {
+          "point": "Four prioritizing criteria",
+          "source_ref": "sce--product-market-fit-2026#13"
+        },
+        {
+          "point": "Identify riskiest parts",
+          "source_ref": "sce--product-market-fit-2026#14"
+        },
+        {
+          "point": "Link to three stages and the path to a plan that works",
+          "source_ref": "sce--product-market-fit-2026#16"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "sce--product-market-fit-2026#5",
+        "sce--product-market-fit-2026#9",
+        "sce--product-market-fit-2026#10",
+        "sce--product-market-fit-2026#12",
+        "sce--product-market-fit-2026#13",
+        "sce--product-market-fit-2026#14",
+        "sce--product-market-fit-2026#16"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "explain_back": {
+    "prompt": "Draw and explain the business model canvas in the deck, and how you choose which model to start with.",
+    "rubric": [
+      {
+        "point": "Your business model is the product",
+        "source_ref": "sce--product-market-fit-2026#10"
+      },
+      {
+        "point": "Nine boxes: Problem, Solution, Unique Value Proposition, Unfair Advantage, Customer Segments, Key Metrics, Channels, Cost Structure, Revenue Streams",
+        "source_ref": "sce--product-market-fit-2026#10"
+      },
+      {
+        "point": "Brainstorm multiple models",
+        "source_ref": "sce--product-market-fit-2026#12"
+      },
+      {
+        "point": "Prioritize using Customer Pain Level, Ease of Reach, Price/Gross Margin, Market Size",
+        "source_ref": "sce--product-market-fit-2026#13"
+      },
+      {
+        "point": "Identify the riskiest parts of the model",
+        "source_ref": "sce--product-market-fit-2026#14"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

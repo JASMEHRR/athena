@@ -1,0 +1,762 @@
+{
+  "id": "sce-pmf-pmf-statement",
+  "subject_id": "sce",
+  "deck_id": "sce--product-market-fit-2026",
+  "title": "Writing your product-market fit statement",
+  "order": 4,
+  "summary": "The mini exercise (A, B, C, D), the vegetable delivery example, the product concepts list and the custom furniture example.",
+  "est_minutes": 20,
+  "difficulty": 2,
+  "source_refs": [
+    "sce--product-market-fit-2026#21",
+    "sce--product-market-fit-2026#22",
+    "sce--product-market-fit-2026#23",
+    "sce--product-market-fit-2026#24"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "sce-pmf-pmf-statement-c1",
+      "heading": "The mini exercise: four blanks",
+      "explanation_md": "The **mini exercise** gives you a fill-in statement with four blanks:\n\n- I sell **A** (my core product) to\n- **B** (my core customer)\n- **B has a problem**, and it is **C** (the customer's pain point)\n- My product or service solves C by **D** (how you solve the problem)\n\nSo: **A** product, **B** customer, **C** pain point, **D** how you solve it. Use it as a quick way to state your product-market fit.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Product-market fit statement",
+          "meaning": "I sell A (core product) to B (core customer); B has a problem C (pain point); my product solves C by D (how I solve it).",
+          "source_ref": "sce--product-market-fit-2026#21"
+        }
+      ],
+      "exam_line": "A = core product, B = core customer, C = customer's pain point, D = how you solve the problem.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "sce-pmf-pmf-statement-q-0005628c",
+          "type": "mcq",
+          "stem": "In the mini exercise, what does C stand for?",
+          "options": [
+            "The customer's pain point",
+            "The core product",
+            "The core customer",
+            "How you solve the problem"
+          ],
+          "answer": "The customer's pain point",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "sce--product-market-fit-2026#21"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "sce-pmf-pmf-statement-q-39d1e5e1",
+          "type": "mcq",
+          "stem": "In the mini exercise, what does D stand for?",
+          "options": [
+            "How you solve the problem",
+            "The core customer",
+            "The core product",
+            "The pain point"
+          ],
+          "answer": "How you solve the problem",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "sce--product-market-fit-2026#21"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "sce--product-market-fit-2026#21"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "sce-pmf-pmf-statement-c2",
+      "heading": "Example: clean vegetables in Jaipur",
+      "explanation_md": "The slide fills in the blanks.\n\n- **A, core product**: clean vegetables.\n- **B, core customer**: middle and upper middle class customers in Jaipur, with home delivery through a mobile app.\n- **C, pain point**: customers in Jaipur do not know whether the vegetables they eat are grown in fresh water or dirty water.\n- **D, how it is solved**: posting regular video and photo streams of the farms where the vegetables are bought, with home delivery on a **subscription model**, for increased ease of purchase.",
+      "example_ids": [
+        "sce-ex-clean-vegetables"
+      ],
+      "key_terms": [],
+      "exam_line": "Clean vegetables to middle and upper middle class customers in Jaipur; pain point is not knowing whether vegetables are grown in fresh or dirty water; solved by farm photo and video streams and subscription home delivery.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "sce-pmf-pmf-statement-q-6df6a112",
+          "type": "mcq",
+          "stem": "In the vegetables example, what is the customer's pain point?",
+          "options": [
+            "They do not know whether vegetables are grown in fresh water or dirty water",
+            "Vegetables are too expensive",
+            "There is no mobile app",
+            "Delivery is slow"
+          ],
+          "answer": "They do not know whether vegetables are grown in fresh water or dirty water",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "sce--product-market-fit-2026#22",
+            "sce--product-market-fit-2026#24"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "sce-pmf-pmf-statement-q-fdae3488",
+          "type": "mcq",
+          "stem": "How does the vegetables business solve the pain point?",
+          "options": [
+            "Regular video and photo streams of farms, with subscription home delivery",
+            "A lower price",
+            "A shop in every area",
+            "A cash on delivery option"
+          ],
+          "answer": "Regular video and photo streams of farms, with subscription home delivery",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "sce--product-market-fit-2026#22"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "sce-pmf-pmf-statement-q-bd38ca2c",
+          "type": "fill",
+          "stem": "The vegetables are home delivered on a ____ model.",
+          "options": [],
+          "answer": "subscription",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "sce--product-market-fit-2026#22"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "sce--product-market-fit-2026#22"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "sce-pmf-pmf-statement-c3",
+      "heading": "What counts as a product",
+      "explanation_md": "The slide is a list of ways to think about the product part (A) of your statement:\n\n- **Levels of product**: Core, Generic, Expected, Augmented, Potential Product.\n- **Form**: Product, Service, or Experience.\n- **What it offers**: Features, Advantages, Benefits.\n- **Range**: Product Width, Product Depth, Product Line, Product Type, SKU.\n- **Price positioning**: Cheap, Value for Money, Affordable Premium, Super Premium, Premium Luxury, Ultra Luxury.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Levels of product",
+          "meaning": "Core, Generic, Expected, Augmented and Potential product.",
+          "source_ref": "sce--product-market-fit-2026#23"
+        },
+        {
+          "term": "Price positioning ladder",
+          "meaning": "Cheap, Value for Money, Affordable Premium, Super Premium, Premium Luxury, Ultra Luxury.",
+          "source_ref": "sce--product-market-fit-2026#23"
+        }
+      ],
+      "exam_line": "Product levels: core, generic, expected, augmented, potential. Price ladder from Cheap to Ultra Luxury.",
+      "clarification": {
+        "term": "SKU",
+        "text": "A single distinct item that is stocked and sold."
+      },
+      "check_questions": [
+        {
+          "id": "sce-pmf-pmf-statement-q-f1d80bff",
+          "type": "mcq",
+          "stem": "Which list gives the levels of a product on the slide?",
+          "options": [
+            "Core, Generic, Expected, Augmented, Potential",
+            "Cheap, Value for Money, Affordable Premium",
+            "Features, Advantages, Benefits",
+            "Width, Depth, Line, Type, SKU"
+          ],
+          "answer": "Core, Generic, Expected, Augmented, Potential",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "sce--product-market-fit-2026#23"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "sce-pmf-pmf-statement-q-0e51645c",
+          "type": "mcq",
+          "stem": "Which is the top of the price positioning ladder?",
+          "options": [
+            "Ultra Luxury",
+            "Super Premium",
+            "Premium Luxury",
+            "Affordable Premium"
+          ],
+          "answer": "Ultra Luxury",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "sce--product-market-fit-2026#23"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "sce--product-market-fit-2026#23"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "sce-pmf-pmf-statement-c4",
+      "heading": "Example: customised board wood furniture",
+      "explanation_md": "The last example is a whole statement in one paragraph.\n\n- **Product**: customised commercial board wood furniture.\n- **Customers**: incubation centres, cafes, shops and others needing specialised furniture with high aesthetics.\n- **Pain point**: they cannot get custom furniture from organised players and depend on the local carpenter, so quality assurance is compromised.\n- **Solution**: highly customisable designs made on **CNC machines**, giving **zero inventory** and a high degree of precision.",
+      "example_ids": [
+        "sce-ex-wood-furniture"
+      ],
+      "key_terms": [],
+      "exam_line": "Custom commercial furniture for incubation centres, cafes and shops; pain point is dependence on local carpenters; solved with customisable designs made on CNC machines (zero inventory, high precision).",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "sce-pmf-pmf-statement-q-e76882ac",
+          "type": "mcq",
+          "stem": "What pain point does the furniture business address?",
+          "options": [
+            "Customers depend on local carpenters with compromised quality assurance",
+            "Furniture is too heavy",
+            "Customers want cheaper chairs",
+            "Shops lack space"
+          ],
+          "answer": "Customers depend on local carpenters with compromised quality assurance",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "sce--product-market-fit-2026#24",
+            "sce--product-market-fit-2026#22"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "sce-pmf-pmf-statement-q-0537382a",
+          "type": "fill",
+          "stem": "The furniture designs are manufactured on ____ machines, enabling zero inventory.",
+          "options": [],
+          "answer": "CNC",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "sce--product-market-fit-2026#24"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "sce--product-market-fit-2026#24"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "sce-pmf-pmf-statement-f1",
+      "front": "Mini exercise: A, B, C, D",
+      "back": "A core product; B core customer; C customer's pain point; D how you solve it.",
+      "kind": "list",
+      "source_refs": [
+        "sce--product-market-fit-2026#21"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "sce-pmf-pmf-statement-f2",
+      "front": "Vegetables example: pain point",
+      "back": "Customers in Jaipur do not know whether vegetables are grown in fresh or dirty water.",
+      "kind": "example",
+      "source_refs": [
+        "sce--product-market-fit-2026#22"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "sce-pmf-pmf-statement-f3",
+      "front": "Vegetables example: solution",
+      "back": "Farm photo and video streams, subscription home delivery for ease of purchase.",
+      "kind": "example",
+      "source_refs": [
+        "sce--product-market-fit-2026#22"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "sce-pmf-pmf-statement-f4",
+      "front": "Levels of product",
+      "back": "Core, Generic, Expected, Augmented, Potential.",
+      "kind": "list",
+      "source_refs": [
+        "sce--product-market-fit-2026#23"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "sce-pmf-pmf-statement-f5",
+      "front": "Price positioning ladder",
+      "back": "Cheap, Value for Money, Affordable Premium, Super Premium, Premium Luxury, Ultra Luxury.",
+      "kind": "list",
+      "source_refs": [
+        "sce--product-market-fit-2026#23"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "sce-pmf-pmf-statement-f6",
+      "front": "Furniture example: customers and pain point",
+      "back": "Incubation centres, cafes, shops; they depend on local carpenters with compromised quality assurance.",
+      "kind": "example",
+      "source_refs": [
+        "sce--product-market-fit-2026#24"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "sce-pmf-pmf-statement-f7",
+      "front": "Furniture example: solution",
+      "back": "Customisable designs made on CNC machines: zero inventory, high precision.",
+      "kind": "example",
+      "source_refs": [
+        "sce--product-market-fit-2026#24"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [
+    {
+      "id": "sce-pmf-pmf-statement-q-2159f971",
+      "type": "mcq",
+      "stem": "In the vegetables example, who is the core customer?",
+      "options": [
+        "Middle and upper middle class customers in Jaipur",
+        "Farmers",
+        "Restaurants",
+        "Incubation centres"
+      ],
+      "answer": "Middle and upper middle class customers in Jaipur",
+      "accept": [],
+      "explanation": "Incubation centres are in the furniture example.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "recall",
+      "source_refs": [
+        "sce--product-market-fit-2026#22",
+        "sce--product-market-fit-2026#24"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "sce-pmf-pmf-statement-q-f8fed905",
+      "type": "mcq",
+      "stem": "In the furniture example, how are the designs manufactured?",
+      "options": [
+        "On CNC machines",
+        "By local carpenters",
+        "By hand in a workshop",
+        "By outside suppliers"
+      ],
+      "answer": "On CNC machines",
+      "accept": [],
+      "explanation": "This enables zero inventory and high precision.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "recall",
+      "source_refs": [
+        "sce--product-market-fit-2026#24"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "sce-pmf-pmf-statement-q-f077822a",
+      "type": "mcq",
+      "stem": "Which is a level of product on the product slide?",
+      "options": [
+        "Augmented",
+        "Premium",
+        "Width",
+        "Subscription"
+      ],
+      "answer": "Augmented",
+      "accept": [],
+      "explanation": "The levels are Core, Generic, Expected, Augmented, Potential.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "recall",
+      "source_refs": [
+        "sce--product-market-fit-2026#23",
+        "sce--product-market-fit-2026#22"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "sce-pmf-pmf-statement-q-5121075c",
+      "type": "mcq",
+      "stem": "In the mini exercise, B is what?",
+      "options": [
+        "The core customer",
+        "The core product",
+        "The pain point",
+        "How you solve the problem"
+      ],
+      "answer": "The core customer",
+      "accept": [],
+      "explanation": "A product, B customer, C pain point, D solution.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "recall",
+      "source_refs": [
+        "sce--product-market-fit-2026#21"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "sce-pmf-pmf-statement-q-ef257dae",
+      "type": "mcq",
+      "stem": "Which price positioning is the highest on the ladder?",
+      "options": [
+        "Ultra Luxury",
+        "Premium Luxury",
+        "Super Premium",
+        "Affordable Premium"
+      ],
+      "answer": "Ultra Luxury",
+      "accept": [],
+      "explanation": "The ladder runs from Cheap to Ultra Luxury.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "recall",
+      "source_refs": [
+        "sce--product-market-fit-2026#23"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "sce-pmf-pmf-statement-q-9b3ef5e5",
+      "type": "short",
+      "stem": "Explain the four-blank mini exercise used to state product-market fit.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The mini exercise is a fill-in sentence:\n\n- **A**: my core product, which I sell to\n- **B**: my core customer\n- **C**: the customer's pain point, the problem B has\n- **D**: how my product or service solves C\n\nIt forces you to state product, customer, pain point and solution in one place.",
+      "rubric": [
+        {
+          "point": "A is the core product",
+          "source_ref": "sce--product-market-fit-2026#21"
+        },
+        {
+          "point": "B is the core customer",
+          "source_ref": "sce--product-market-fit-2026#21"
+        },
+        {
+          "point": "C is the pain point",
+          "source_ref": "sce--product-market-fit-2026#21"
+        },
+        {
+          "point": "D is how you solve it",
+          "source_ref": "sce--product-market-fit-2026#21"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 1,
+      "style_tag": "explain",
+      "source_refs": [
+        "sce--product-market-fit-2026#21"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "sce-pmf-pmf-statement-q-eec07d74",
+      "type": "short",
+      "stem": "Apply the mini exercise to the clean vegetables business in the deck.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "- **A**: clean vegetables.\n- **B**: middle and upper middle class customers in Jaipur, with home delivery through a mobile app.\n- **C**: they do not know whether the vegetables they eat are grown in fresh water or dirty water.\n- **D**: regular video and photo streams of the farms where vegetables are bought, with home delivery on a subscription model, for increased ease of purchase.",
+      "rubric": [
+        {
+          "point": "Product: clean vegetables",
+          "source_ref": "sce--product-market-fit-2026#22"
+        },
+        {
+          "point": "Customer: middle and upper middle class in Jaipur",
+          "source_ref": "sce--product-market-fit-2026#22"
+        },
+        {
+          "point": "Pain point: fresh versus dirty water",
+          "source_ref": "sce--product-market-fit-2026#22"
+        },
+        {
+          "point": "Solution: farm streams and subscription delivery",
+          "source_ref": "sce--product-market-fit-2026#22"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "case",
+      "source_refs": [
+        "sce--product-market-fit-2026#22"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "sce-pmf-pmf-statement-q-abd18f07",
+      "type": "short",
+      "stem": "Apply the mini exercise to the customised furniture business in the deck.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "- **A**: customised commercial board wood furniture.\n- **B**: customers like incubation centres, cafes and shops that need specialised furniture with high aesthetics.\n- **C**: they cannot get custom furniture from organised players and depend on the local carpenter, with quality assurance compromised.\n- **D**: highly customisable designs manufactured on CNC machines, giving zero inventory and a high degree of precision.",
+      "rubric": [
+        {
+          "point": "Product: customised commercial furniture",
+          "source_ref": "sce--product-market-fit-2026#24"
+        },
+        {
+          "point": "Customers: incubation centres, cafes, shops",
+          "source_ref": "sce--product-market-fit-2026#24"
+        },
+        {
+          "point": "Pain point: dependence on local carpenters",
+          "source_ref": "sce--product-market-fit-2026#24"
+        },
+        {
+          "point": "Solution: CNC machines, zero inventory, precision",
+          "source_ref": "sce--product-market-fit-2026#24"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "case",
+      "source_refs": [
+        "sce--product-market-fit-2026#24"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "sce-pmf-pmf-statement-q-c1312e71",
+      "type": "long",
+      "stem": "Write a product-market fit statement for a business, explaining each part, and illustrate it with one example from the deck.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The deck gives a **mini exercise** for stating product-market fit: *I sell A (my core product) to B (my core customer). B has a problem, and it is C (the customer's pain point). My product solves C by D (how I solve the problem).*\n\n**Parts.**\n- **A**: the core product. The deck also lists ways to think about a product: levels (Core, Generic, Expected, Augmented, Potential), product, service or experience, and price positioning from Cheap to Ultra Luxury.\n- **B**: the core customer.\n- **C**: the pain point.\n- **D**: how you solve it.\n\n**Example: clean vegetables.** A is clean vegetables; B is middle and upper middle class customers in Jaipur with home delivery through a mobile app; C is that they do not know whether vegetables are grown in fresh or dirty water; D is regular video and photo streams of the farms with subscription home delivery for ease of purchase.\n\n**Second example: furniture.** Customised board wood furniture for incubation centres, cafes and shops, whose pain is dependence on local carpenters, solved by customisable designs made on CNC machines with zero inventory.\n\nIn conclusion, a good statement names the product, the customer, the pain and the solution clearly.",
+      "rubric": [
+        {
+          "point": "The A, B, C, D structure",
+          "source_ref": "sce--product-market-fit-2026#21"
+        },
+        {
+          "point": "Product concepts: levels and price positioning",
+          "source_ref": "sce--product-market-fit-2026#23"
+        },
+        {
+          "point": "Vegetables example filled in",
+          "source_ref": "sce--product-market-fit-2026#22"
+        },
+        {
+          "point": "Furniture example",
+          "source_ref": "sce--product-market-fit-2026#24"
+        },
+        {
+          "point": "Clear conclusion",
+          "source_ref": "sce--product-market-fit-2026#21"
+        }
+      ],
+      "marks": 10.0,
+      "difficulty": 2,
+      "style_tag": "case",
+      "source_refs": [
+        "sce--product-market-fit-2026#21",
+        "sce--product-market-fit-2026#22",
+        "sce--product-market-fit-2026#23",
+        "sce--product-market-fit-2026#24"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "sce-pmf-pmf-statement-q-c6eeb104",
+      "type": "long",
+      "stem": "Compare the clean vegetables business and the customised furniture business in the deck on customer, pain point and how each solves it.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "| Basis | Clean vegetables | Customised furniture |\n|---|---|---|\n| Core product | Clean vegetables | Customised commercial board wood furniture |\n| Core customer | Middle and upper middle class customers in Jaipur | Incubation centres, cafes, shops needing specialised furniture with high aesthetics |\n| Pain point | They do not know whether vegetables are grown in fresh or dirty water | They cannot get custom furniture from organised players and rely on local carpenters, with compromised quality assurance |\n| Solution | Regular video and photo streams of farms; home delivery on a subscription model | Highly customisable designs made on CNC machines; zero inventory; high precision |\n\nBoth follow the same pattern from the mini exercise: product, customer, pain point and how it is solved. The first answers a trust problem with transparency; the second answers a quality problem with precise manufacturing.\n\nIn conclusion, each statement names a specific customer and a specific pain.",
+      "rubric": [
+        {
+          "point": "Products and customers of each",
+          "source_ref": "sce--product-market-fit-2026#22"
+        },
+        {
+          "point": "Pain points of each",
+          "source_ref": "sce--product-market-fit-2026#24"
+        },
+        {
+          "point": "Solutions of each",
+          "source_ref": "sce--product-market-fit-2026#24"
+        },
+        {
+          "point": "Same A, B, C, D pattern",
+          "source_ref": "sce--product-market-fit-2026#21"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 2,
+      "style_tag": "differentiate",
+      "source_refs": [
+        "sce--product-market-fit-2026#21",
+        "sce--product-market-fit-2026#22",
+        "sce--product-market-fit-2026#24"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "explain_back": {
+    "prompt": "Write a product-market fit statement using the four-blank exercise and explain it with one example from the deck.",
+    "rubric": [
+      {
+        "point": "A is the core product, B the core customer",
+        "source_ref": "sce--product-market-fit-2026#21"
+      },
+      {
+        "point": "C is the customer's pain point, D is how you solve it",
+        "source_ref": "sce--product-market-fit-2026#21"
+      },
+      {
+        "point": "Example: clean vegetables for customers in Jaipur and their pain point",
+        "source_ref": "sce--product-market-fit-2026#22"
+      },
+      {
+        "point": "Solution: farm photo and video streams with subscription delivery",
+        "source_ref": "sce--product-market-fit-2026#22"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}
