@@ -8,6 +8,7 @@ attempt; grading happens on the server.
 from __future__ import annotations
 
 import json
+import os
 import random
 import re
 import sqlite3
@@ -90,6 +91,10 @@ def next_exam_by_subject(conn: sqlite3.Connection, today: date | None = None) ->
 
 
 def media_url(rel: str | None) -> str | None:
+    # Online copy: the slide pictures are too big to ship with the app, so they load from the public repo.
+    base = os.environ.get("ATHENA_MEDIA_BASE")
+    if base:
+        return f"{base.rstrip('/')}/{rel}" if rel else None
     return f"/media/{rel}" if rel else None
 
 

@@ -71,6 +71,14 @@ def test_mst_marker_and_source_decks(env):
         assert c.get("/api/v1/topics/mm-s9-pricing").json()["topic"]["mst"] is True
 
 
+def test_online_copy_loads_slide_pictures_from_the_repo(monkeypatch):
+    from athena import services
+
+    assert services.media_url("slides/d/slide-001.jpg") == "/media/slides/d/slide-001.jpg"
+    monkeypatch.setenv("ATHENA_MEDIA_BASE", "https://example.org/data/")
+    assert services.media_url("slides/d/slide-001.jpg") == "https://example.org/data/slides/d/slide-001.jpg"
+
+
 def test_slide_and_media(client):
     s = client.get(f"/api/v1/slides/{cf.DECK_ID}/2").json()
     assert s["title"] == "Penetration Pricing" and s["total"] == 5
