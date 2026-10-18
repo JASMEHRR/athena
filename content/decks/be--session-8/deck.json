@@ -1,0 +1,2366 @@
+{
+  "id": "be--session-8",
+  "subject_id": "be",
+  "file": "E:\\imp\\projects\\athena\\inbox\\Business Economics\\Session 8.pptx",
+  "source": "inbox",
+  "file_type": "pptx",
+  "sha256": "e0a815f8cbeef154b8cc11af8b782c9e5a465e276c50565201f1c4540a23ba7b",
+  "title": "Session 8",
+  "order": 0,
+  "duplicates": [],
+  "ingested_at": "2026-10-17T22:48:18+05:30",
+  "slides": [
+    {
+      "n": 1,
+      "kind": "title",
+      "title": "Session 8",
+      "text": "Session 8\nThe Production Process and Costs",
+      "bullets": [
+        {
+          "level": 0,
+          "text": "The Production Process and Costs"
+        }
+      ],
+      "tables": [],
+      "notes": "",
+      "charts": [],
+      "visual_text": "",
+      "images": [],
+      "render": "slides/be--session-8/slide-001.jpg",
+      "needs_visual": false,
+      "word_count": 7
+    },
+    {
+      "n": 2,
+      "kind": "content",
+      "title": "Overview",
+      "text": "Overview\nProduction Analysis\nTotal Product, Marginal Product, Average Product\nIsoquants\nIsocosts\nCost Minimization\nCost Analysis\nTotal Cost, Variable Cost, Fixed Costs\nCubic Cost Function\nCost Relations\nMulti-Product Cost Functions",
+      "bullets": [
+        {
+          "level": 0,
+          "text": "Production Analysis"
+        },
+        {
+          "level": 1,
+          "text": "Total Product, Marginal Product, Average Product"
+        },
+        {
+          "level": 1,
+          "text": "Isoquants"
+        },
+        {
+          "level": 1,
+          "text": "Isocosts"
+        },
+        {
+          "level": 1,
+          "text": "Cost Minimization"
+        },
+        {
+          "level": 0,
+          "text": "Cost Analysis"
+        },
+        {
+          "level": 1,
+          "text": "Total Cost, Variable Cost, Fixed Costs"
+        },
+        {
+          "level": 1,
+          "text": "Cubic Cost Function"
+        },
+        {
+          "level": 1,
+          "text": "Cost Relations"
+        },
+        {
+          "level": 0,
+          "text": "Multi-Product Cost Functions"
+        }
+      ],
+      "tables": [],
+      "notes": "",
+      "charts": [],
+      "visual_text": "",
+      "images": [],
+      "render": "slides/be--session-8/slide-002.jpg",
+      "needs_visual": false,
+      "word_count": 29
+    },
+    {
+      "n": 3,
+      "kind": "content",
+      "title": "Production Analysis",
+      "text": "Production Analysis\nProduction Function\nQ = F(K,L)\nQ is quantity of output produced.\nK is capital input.\nL is labor input.\nF is a functional form relating the inputs to output.\nThe maximum amount of output that can be produced with K units of capital and L units of labor.\nShort-Run vs. Long-Run Decisions\nFixed vs. Variable Inputs",
+      "bullets": [
+        {
+          "level": 0,
+          "text": "Production Function"
+        },
+        {
+          "level": 1,
+          "text": "Q = F(K,L)"
+        },
+        {
+          "level": 2,
+          "text": "Q is quantity of output produced."
+        },
+        {
+          "level": 2,
+          "text": "K is capital input."
+        },
+        {
+          "level": 2,
+          "text": "L is labor input."
+        },
+        {
+          "level": 2,
+          "text": "F is a functional form relating the inputs to output."
+        },
+        {
+          "level": 1,
+          "text": "The maximum amount of output that can be produced with K units of capital and L units of labor."
+        },
+        {
+          "level": 0,
+          "text": "Short-Run vs. Long-Run Decisions"
+        },
+        {
+          "level": 0,
+          "text": "Fixed vs. Variable Inputs"
+        }
+      ],
+      "tables": [],
+      "notes": "",
+      "charts": [],
+      "visual_text": "",
+      "images": [],
+      "render": "slides/be--session-8/slide-003.jpg",
+      "needs_visual": false,
+      "word_count": 58
+    },
+    {
+      "n": 4,
+      "kind": "content",
+      "title": "Production Function Algebraic Forms",
+      "text": "Production Function Algebraic Forms\nLinear production function: inputs are perfect substitutes.\nQ  F K , L  aK  bL\nLeontief production function: inputs are used in fixed proportions.\nQ  FK, L  minbK,cL\nCobb-Douglas production function: inputs have a degree of substitutability.\nQ  F K , L  K a Lb",
+      "bullets": [
+        {
+          "level": 0,
+          "text": "Linear production function: inputs are perfect substitutes."
+        },
+        {
+          "level": 0,
+          "text": "Q  F K , L  aK  bL"
+        },
+        {
+          "level": 0,
+          "text": "Leontief production function: inputs are used in fixed proportions."
+        },
+        {
+          "level": 0,
+          "text": "Q  FK, L  minbK,cL"
+        },
+        {
+          "level": 0,
+          "text": "Cobb-Douglas production function: inputs have a degree of substitutability."
+        },
+        {
+          "level": 0,
+          "text": "Q  F K , L  K a Lb"
+        }
+      ],
+      "tables": [],
+      "notes": "",
+      "charts": [],
+      "visual_text": "",
+      "images": [],
+      "render": "slides/be--session-8/slide-004.jpg",
+      "needs_visual": false,
+      "word_count": 48
+    },
+    {
+      "n": 5,
+      "kind": "content",
+      "title": "Question: A firm's production function is: Q = F(K,L)= min{3K,4L} where K is capital and L is labour. Calculate output when K = 5, L = 2.",
+      "text": "Question: A firm's production function is: Q = F(K,L)= min{3K,4L} where K is capital and L is labour. Calculate output when K = 5, L = 2.\nSolution:\nQ = min{3K,4L}\nFor K=5 ⇒ 3K=15;\nFor L = 2 ⇒ 4L=8;\nTherefore,\nQ=min{15,8}= 8",
+      "bullets": [
+        {
+          "level": 0,
+          "text": "Solution:"
+        },
+        {
+          "level": 0,
+          "text": "Q = min{3K,4L}"
+        },
+        {
+          "level": 0,
+          "text": "For K=5 ⇒ 3K=15;"
+        },
+        {
+          "level": 0,
+          "text": "For L = 2 ⇒ 4L=8;"
+        },
+        {
+          "level": 0,
+          "text": "Therefore,"
+        },
+        {
+          "level": 0,
+          "text": "Q=min{15,8}= 8"
+        }
+      ],
+      "tables": [],
+      "notes": "",
+      "charts": [],
+      "visual_text": "",
+      "images": [],
+      "render": "slides/be--session-8/slide-005.jpg",
+      "needs_visual": false,
+      "word_count": 45
+    },
+    {
+      "n": 6,
+      "kind": "content",
+      "title": "Productivity Measures: Total Product",
+      "text": "Productivity Measures: Total Product\nTotal Product (TP): maximum output produced with given amounts of inputs.\nExample: Cobb-Douglas Production Function: Q = F(K,L) = K.5 L.5\nK is fixed at 16 units.\nShort run Cobb-Douglass production function:\nQ = (16).5 L.5 = 4 L.5\nTotal Product when 100 units of labor are used?\nQ = 4 (100).5 = 4(10) = 40 units",
+      "bullets": [
+        {
+          "level": 0,
+          "text": "Total Product (TP): maximum output produced with given amounts of inputs."
+        },
+        {
+          "level": 0,
+          "text": "Example: Cobb-Douglas Production Function: Q = F(K,L) = K.5 L.5"
+        },
+        {
+          "level": 1,
+          "text": "K is fixed at 16 units."
+        },
+        {
+          "level": 1,
+          "text": "Short run Cobb-Douglass production function:"
+        },
+        {
+          "level": 0,
+          "text": "Q = (16).5 L.5 = 4 L.5"
+        },
+        {
+          "level": 1,
+          "text": "Total Product when 100 units of labor are used?"
+        },
+        {
+          "level": 0,
+          "text": "Q = 4 (100).5 = 4(10) = 40 units"
+        }
+      ],
+      "tables": [],
+      "notes": "",
+      "charts": [],
+      "visual_text": "",
+      "images": [],
+      "render": "slides/be--session-8/slide-006.jpg",
+      "needs_visual": false,
+      "word_count": 58
+    },
+    {
+      "n": 7,
+      "kind": "content",
+      "title": "Productivity Measures: Average Product",
+      "text": "Productivity Measures: Average Product\nAverage Product of an Input: Measure of output produced per unit of input.\nAverage Product of Labor: APL = Q/L.\nMeasures the output of an “average” worker.\nExample: Q = F(K,L) = K.5 L.5\nIf the inputs are K = 16 and L = 16, then the average product of labor is APL = [(16) 0.5(16)0.5]/16 = 1.\nAverage Product of Capital: APK = Q/K.\nMeasures the output of an “average” unit of capital.\nExample: Q = F(K,L) = K.5 L.5\nIf the inputs are K = 16 and L = 16, then the average product of capital is APK = [(16)0.5(16)0.5]/16 = 1.",
+      "bullets": [
+        {
+          "level": 0,
+          "text": "Average Product of an Input: Measure of output produced per unit of input."
+        },
+        {
+          "level": 1,
+          "text": "Average Product of Labor: APL = Q/L."
+        },
+        {
+          "level": 2,
+          "text": "Measures the output of an “average” worker."
+        },
+        {
+          "level": 2,
+          "text": "Example: Q = F(K,L) = K.5 L.5"
+        },
+        {
+          "level": 3,
+          "text": "If the inputs are K = 16 and L = 16, then the average product of labor is APL = [(16) 0.5(16)0.5]/16 = 1."
+        },
+        {
+          "level": 1,
+          "text": "Average Product of Capital: APK = Q/K."
+        },
+        {
+          "level": 2,
+          "text": "Measures the output of an “average” unit of capital."
+        },
+        {
+          "level": 2,
+          "text": "Example: Q = F(K,L) = K.5 L.5"
+        },
+        {
+          "level": 3,
+          "text": "If the inputs are K = 16 and L = 16, then the average product of capital is APK = [(16)0.5(16)0.5]/16 = 1."
+        }
+      ],
+      "tables": [],
+      "notes": "",
+      "charts": [],
+      "visual_text": "",
+      "images": [],
+      "render": "slides/be--session-8/slide-007.jpg",
+      "needs_visual": false,
+      "word_count": 105
+    },
+    {
+      "n": 8,
+      "kind": "content",
+      "title": "Productivity Measures: Marginal Product",
+      "text": "Productivity Measures: Marginal Product\nMarginal Product: Change in total output attributable to the last unit of an input.\nMarginal Product of Labor: MPL = Q/L\nMeasures the output produced by the last worker.\nSlope of the short-run production function (with respect to labor).\nMarginal Product of Capital: MPK = Q/K\nMeasures the output produced by the last unit of capital.\nWhen capital is allowed to vary in the short run, MPK is the slope of the production function (with respect to capital).",
+      "bullets": [
+        {
+          "level": 0,
+          "text": "Marginal Product: Change in total output attributable to the last unit of an input."
+        },
+        {
+          "level": 1,
+          "text": "Marginal Product of Labor: MPL = Q/L"
+        },
+        {
+          "level": 2,
+          "text": "Measures the output produced by the last worker."
+        },
+        {
+          "level": 2,
+          "text": "Slope of the short-run production function (with respect to labor)."
+        },
+        {
+          "level": 1,
+          "text": "Marginal Product of Capital: MPK = Q/K"
+        },
+        {
+          "level": 2,
+          "text": "Measures the output produced by the last unit of capital."
+        },
+        {
+          "level": 2,
+          "text": "When capital is allowed to vary in the short run, MPK is the slope of the production function (with respect to capital)."
+        }
+      ],
+      "tables": [],
+      "notes": "",
+      "charts": [],
+      "visual_text": "",
+      "images": [],
+      "render": "slides/be--session-8/slide-008.jpg",
+      "needs_visual": false,
+      "word_count": 82
+    },
+    {
+      "n": 9,
+      "kind": "content",
+      "title": "Question: A firm observes the following relationship between labour and output. Calculate: (1) Average Product of labour (2) Marginal Product of labour (3) At what level of employment does diminishing marginal product begin?",
+      "text": "Question: A firm observes the following relationship between labour and output. Calculate: (1) Average Product of labour (2) Marginal Product of labour (3) At what level of employment does diminishing marginal product begin?\nLabour (L) | Total Product (TP)\n0 | 0\n1 | 10\n2 | 24\n3 | 39\n4 | 52\n5 | 60\n6 | 66\n7 | 70",
+      "bullets": [],
+      "tables": [
+        [
+          [
+            "Labour (L)",
+            "Total Product (TP)"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "1",
+            "10"
+          ],
+          [
+            "2",
+            "24"
+          ],
+          [
+            "3",
+            "39"
+          ],
+          [
+            "4",
+            "52"
+          ],
+          [
+            "5",
+            "60"
+          ],
+          [
+            "6",
+            "66"
+          ],
+          [
+            "7",
+            "70"
+          ]
+        ]
+      ],
+      "notes": "",
+      "charts": [],
+      "visual_text": "",
+      "images": [],
+      "render": "slides/be--session-8/slide-009.jpg",
+      "needs_visual": false,
+      "word_count": 54
+    },
+    {
+      "n": 10,
+      "kind": "content",
+      "title": "Solution: APL = Q/L MPL = Q/L At 4th unit of L, MPL starts declining (from 15 to 13)",
+      "text": "Solution: APL = Q/L MPL = Q/L At 4th unit of L, MPL starts declining (from 15 to 13)\nL | TP | AP (TP/L) | MP (TP/L)\n0 | 0\n1 | 10 | 10.0 | 10\n2 | 24 | 12.0 | 14\n3 | 39 | 13.0 | 15\n4 | 52 | 13.0 | 13\n5 | 60 | 12.0 | 8\n6 | 66 | 11.0 | 6\n7 | 70 | 10.0 | 4",
+      "bullets": [],
+      "tables": [
+        [
+          [
+            "L",
+            "TP",
+            "AP (TP/L)",
+            "MP (TP/L)"
+          ],
+          [
+            "0",
+            "0",
+            "",
+            ""
+          ],
+          [
+            "1",
+            "10",
+            "10.0",
+            "10"
+          ],
+          [
+            "2",
+            "24",
+            "12.0",
+            "14"
+          ],
+          [
+            "3",
+            "39",
+            "13.0",
+            "15"
+          ],
+          [
+            "4",
+            "52",
+            "13.0",
+            "13"
+          ],
+          [
+            "5",
+            "60",
+            "12.0",
+            "8"
+          ],
+          [
+            "6",
+            "66",
+            "11.0",
+            "6"
+          ],
+          [
+            "7",
+            "70",
+            "10.0",
+            "4"
+          ]
+        ]
+      ],
+      "notes": "",
+      "charts": [],
+      "visual_text": "",
+      "images": [],
+      "render": "slides/be--session-8/slide-010.jpg",
+      "needs_visual": false,
+      "word_count": 57
+    },
+    {
+      "n": 11,
+      "kind": "content",
+      "title": "Increasing, Diminishing and Negative Marginal Returns",
+      "text": "Increasing, Diminishing and Negative Marginal Returns\nIncreasing Marginal Returns\nDiminishing Marginal Returns\nNegative Marginal Returns\nQ\nQ=F(K,L)\nAP\nL\nMP",
+      "bullets": [
+        {
+          "level": 0,
+          "text": "Increasing Marginal Returns"
+        },
+        {
+          "level": 0,
+          "text": "Diminishing Marginal Returns"
+        },
+        {
+          "level": 0,
+          "text": "Negative Marginal Returns"
+        },
+        {
+          "level": 0,
+          "text": "Q"
+        },
+        {
+          "level": 0,
+          "text": "Q=F(K,L)"
+        },
+        {
+          "level": 0,
+          "text": "AP"
+        },
+        {
+          "level": 0,
+          "text": "L"
+        },
+        {
+          "level": 0,
+          "text": "MP"
+        }
+      ],
+      "tables": [],
+      "notes": "",
+      "charts": [],
+      "visual_text": "",
+      "images": [],
+      "render": "slides/be--session-8/slide-011.jpg",
+      "needs_visual": true,
+      "word_count": 22
+    },
+    {
+      "n": 12,
+      "kind": "content",
+      "title": "Law of Variable Proportions",
+      "text": "Law of Variable Proportions\nShort run: Law of Variable Proportions ⇒ Variation in Marginal product of labour (MPL)\nLaw of Variable Proportions: As successive units of a variable input are added to a fixed input, the marginal product of the variable input first increases, reaches a maximum, and eventually decreases.\nInitially, the fixed input is underutilised. Adding variable inputs allows: Specialisation (workers can divide tasks), better coordination (workers can assist each other) and better utilisation of the fixed input (machines/factory space are used more effectively).\nSo each additional worker can contribute more than the previous worker.\nEventually, the fixed input becomes a constraint. Too many variable inputs sharing the same machines means workers have to wait for machines, the space becomes crowded and opportunities for further specialisation are already exhausted.\nTherefore, each additional worker adds less output than the previous worker.",
+      "bullets": [
+        {
+          "level": 0,
+          "text": "Short run: Law of Variable Proportions ⇒ Variation in Marginal product of labour (MPL)"
+        },
+        {
+          "level": 0,
+          "text": "Law of Variable Proportions: As successive units of a variable input are added to a fixed input, the marginal product of the variable input first increases, reaches a maximum, and eventually decreases."
+        },
+        {
+          "level": 0,
+          "text": "Initially, the fixed input is underutilised. Adding variable inputs allows: Specialisation (workers can divide tasks), better coordination (workers can assist each other) and better utilisation of the fixed input (machines/factory space are used more effectively)."
+        },
+        {
+          "level": 1,
+          "text": "So each additional worker can contribute more than the previous worker."
+        },
+        {
+          "level": 0,
+          "text": "Eventually, the fixed input becomes a constraint. Too many variable inputs sharing the same machines means workers have to wait for machines, the space becomes crowded and opportunities for further specialisation are already exhausted."
+        },
+        {
+          "level": 1,
+          "text": "Therefore, each additional worker adds less output than the previous worker."
+        }
+      ],
+      "tables": [],
+      "notes": "",
+      "charts": [],
+      "visual_text": "",
+      "images": [],
+      "render": "slides/be--session-8/slide-012.jpg",
+      "needs_visual": false,
+      "word_count": 141
+    },
+    {
+      "n": 13,
+      "kind": "content",
+      "title": "Guiding the Production Process",
+      "text": "Guiding the Production Process\nProducing on the production function\nAligning incentives to induce maximum worker effort.\nEmploying the right level of inputs\nWhen labor or capital vary in the short run, to maximize profit a manager will hire\nlabor until the value of marginal product of labor equals the wage: VMPL = w, where VMPL = P x MPL.\ncapital until the value of marginal product of capital equals the rental rate: VMPK = r, where VMPK = P x MPK .",
+      "bullets": [
+        {
+          "level": 0,
+          "text": "Producing on the production function"
+        },
+        {
+          "level": 1,
+          "text": "Aligning incentives to induce maximum worker effort."
+        },
+        {
+          "level": 0,
+          "text": "Employing the right level of inputs"
+        },
+        {
+          "level": 1,
+          "text": "When labor or capital vary in the short run, to maximize profit a manager will hire"
+        },
+        {
+          "level": 2,
+          "text": "labor until the value of marginal product of labor equals the wage: VMPL = w, where VMPL = P x MPL."
+        },
+        {
+          "level": 2,
+          "text": "capital until the value of marginal product of capital equals the rental rate: VMPK = r, where VMPK = P x MPK ."
+        }
+      ],
+      "tables": [],
+      "notes": "",
+      "charts": [],
+      "visual_text": "",
+      "images": [],
+      "render": "slides/be--session-8/slide-013.jpg",
+      "needs_visual": false,
+      "word_count": 77
+    },
+    {
+      "n": 14,
+      "kind": "content",
+      "title": "Isoquant",
+      "text": "Isoquant\nIllustrates the long-run combinations of inputs (K, L) that yield the producer the same level of output.\nThe shape of an isoquant reflects the ease with which a producer can substitute among inputs while maintaining the same level of output.",
+      "bullets": [
+        {
+          "level": 0,
+          "text": "Illustrates the long-run combinations of inputs (K, L) that yield the producer the same level of output."
+        },
+        {
+          "level": 0,
+          "text": "The shape of an isoquant reflects the ease with which a producer can substitute among inputs while maintaining the same level of output."
+        }
+      ],
+      "tables": [],
+      "notes": "",
+      "charts": [],
+      "visual_text": "",
+      "images": [],
+      "render": "slides/be--session-8/slide-014.jpg",
+      "needs_visual": false,
+      "word_count": 41
+    },
+    {
+      "n": 15,
+      "kind": "content",
+      "title": "Marginal Rate of Technical Substitution (MRTS)",
+      "text": "Marginal Rate of Technical Substitution (MRTS)\nThe rate at which two inputs are substituted while maintaining the same output level.\n MPL\nMRTS\nKL\nMP\nK",
+      "bullets": [
+        {
+          "level": 0,
+          "text": "The rate at which two inputs are substituted while maintaining the same output level."
+        },
+        {
+          "level": 0,
+          "text": " MPL"
+        },
+        {
+          "level": 0,
+          "text": "MRTS"
+        },
+        {
+          "level": 0,
+          "text": "KL"
+        },
+        {
+          "level": 0,
+          "text": "MP"
+        },
+        {
+          "level": 0,
+          "text": "K"
+        }
+      ],
+      "tables": [],
+      "notes": "",
+      "charts": [],
+      "visual_text": "",
+      "images": [],
+      "render": "slides/be--session-8/slide-015.jpg",
+      "needs_visual": false,
+      "word_count": 25
+    },
+    {
+      "n": 16,
+      "kind": "content",
+      "title": "Linear Isoquants",
+      "text": "Linear Isoquants\nCapital and labor are perfect substitutes\nQ = aK + bL\nMRTSKL = b/a\nLinear isoquants imply that inputs are substituted at a constant rate, independent of the input levels employed.\nK\nIncreasing Output\nQ1 Q2\nQ3\nL",
+      "bullets": [
+        {
+          "level": 0,
+          "text": "Capital and labor are perfect substitutes"
+        },
+        {
+          "level": 1,
+          "text": "Q = aK + bL"
+        },
+        {
+          "level": 1,
+          "text": "MRTSKL = b/a"
+        },
+        {
+          "level": 1,
+          "text": "Linear isoquants imply that inputs are substituted at a constant rate, independent of the input levels employed."
+        },
+        {
+          "level": 0,
+          "text": "K"
+        },
+        {
+          "level": 0,
+          "text": "Increasing Output"
+        },
+        {
+          "level": 0,
+          "text": "Q1 Q2"
+        },
+        {
+          "level": 0,
+          "text": "Q3"
+        },
+        {
+          "level": 0,
+          "text": "L"
+        }
+      ],
+      "tables": [],
+      "notes": "",
+      "charts": [],
+      "visual_text": "",
+      "images": [],
+      "render": "slides/be--session-8/slide-016.jpg",
+      "needs_visual": false,
+      "word_count": 38
+    },
+    {
+      "n": 17,
+      "kind": "content",
+      "title": "Leontief Isoquants",
+      "text": "Leontief Isoquants\nQ3\nCapital and labor are perfect complements.\nCapital and labor are used in fixed-proportions.\nQ = min {bK, cL}\nSince capital and labor are consumed in fixed proportions there is no input substitution along isoquants (hence, no MRTSKL).\nK\nQ2\nQ1\nIncreasing Output\nL",
+      "bullets": [
+        {
+          "level": 0,
+          "text": "Q3"
+        },
+        {
+          "level": 0,
+          "text": "Capital and labor are perfect complements."
+        },
+        {
+          "level": 0,
+          "text": "Capital and labor are used in fixed-proportions."
+        },
+        {
+          "level": 0,
+          "text": "Q = min {bK, cL}"
+        },
+        {
+          "level": 0,
+          "text": "Since capital and labor are consumed in fixed proportions there is no input substitution along isoquants (hence, no MRTSKL)."
+        },
+        {
+          "level": 0,
+          "text": "K"
+        },
+        {
+          "level": 0,
+          "text": "Q2"
+        },
+        {
+          "level": 0,
+          "text": "Q1"
+        },
+        {
+          "level": 0,
+          "text": "Increasing Output"
+        },
+        {
+          "level": 0,
+          "text": "L"
+        }
+      ],
+      "tables": [],
+      "notes": "",
+      "charts": [],
+      "visual_text": "",
+      "images": [],
+      "render": "slides/be--session-8/slide-017.jpg",
+      "needs_visual": true,
+      "word_count": 45
+    },
+    {
+      "n": 18,
+      "kind": "content",
+      "title": "Cobb-Douglas Isoquants",
+      "text": "Cobb-Douglas Isoquants\nInputs are not perfectly substitutable.\nDiminishing marginal rate of technical substitution.\nAs less of one input is used in the production process, increasingly more of the other input must be employed to produce the same output level.\nQ = KaLb\nMRTSKL = MPL/MPK\nK\nQ3\nIncreasing Output\nQ\n2\nQ1\nL",
+      "bullets": [
+        {
+          "level": 0,
+          "text": "Inputs are not perfectly substitutable."
+        },
+        {
+          "level": 0,
+          "text": "Diminishing marginal rate of technical substitution."
+        },
+        {
+          "level": 1,
+          "text": "As less of one input is used in the production process, increasingly more of the other input must be employed to produce the same output level."
+        },
+        {
+          "level": 0,
+          "text": "Q = KaLb"
+        },
+        {
+          "level": 0,
+          "text": "MRTSKL = MPL/MPK"
+        },
+        {
+          "level": 0,
+          "text": "K"
+        },
+        {
+          "level": 0,
+          "text": "Q3"
+        },
+        {
+          "level": 0,
+          "text": "Increasing Output"
+        },
+        {
+          "level": 0,
+          "text": "Q"
+        },
+        {
+          "level": 0,
+          "text": "2"
+        },
+        {
+          "level": 0,
+          "text": "Q1"
+        },
+        {
+          "level": 0,
+          "text": "L"
+        }
+      ],
+      "tables": [],
+      "notes": "",
+      "charts": [],
+      "visual_text": "",
+      "images": [],
+      "render": "slides/be--session-8/slide-018.jpg",
+      "needs_visual": false,
+      "word_count": 52
+    },
+    {
+      "n": 19,
+      "kind": "content",
+      "title": "Isocost",
+      "text": "Isocost\nThe combinations of inputs that produce a given level of output at the same cost:\nwL + rK = C\nRearranging,\nK= (1/r)C - (w/r)L\nFor given input prices, isocosts farther from the origin are associated with higher costs.\nChanges in input prices change the slope of the isocost line.\nK\nNew Isocost Line associated with higher costs (C0 < C1).\nC1/r\nC0/r\nC0 C1\nC0/w C1/w\nL\nK\nNew Isocost Line for a decrease in the wage (price of labor: w0 > w1).\nC/r\nL\nC/w0\nC/w1",
+      "bullets": [
+        {
+          "level": 0,
+          "text": "The combinations of inputs that produce a given level of output at the same cost:"
+        },
+        {
+          "level": 0,
+          "text": "wL + rK = C"
+        },
+        {
+          "level": 0,
+          "text": "Rearranging,"
+        },
+        {
+          "level": 0,
+          "text": "K= (1/r)C - (w/r)L"
+        },
+        {
+          "level": 0,
+          "text": "For given input prices, isocosts farther from the origin are associated with higher costs."
+        },
+        {
+          "level": 0,
+          "text": "Changes in input prices change the slope of the isocost line."
+        },
+        {
+          "level": 0,
+          "text": "K"
+        },
+        {
+          "level": 0,
+          "text": "New Isocost Line associated with higher costs (C0 < C1)."
+        },
+        {
+          "level": 0,
+          "text": "C1/r"
+        },
+        {
+          "level": 0,
+          "text": "C0/r"
+        },
+        {
+          "level": 0,
+          "text": "C0 C1"
+        },
+        {
+          "level": 0,
+          "text": "C0/w C1/w"
+        },
+        {
+          "level": 0,
+          "text": "L"
+        },
+        {
+          "level": 0,
+          "text": "K"
+        },
+        {
+          "level": 0,
+          "text": "New Isocost Line for a decrease in the wage (price of labor: w0 > w1)."
+        },
+        {
+          "level": 0,
+          "text": "C/r"
+        },
+        {
+          "level": 0,
+          "text": "L"
+        },
+        {
+          "level": 0,
+          "text": "C/w0"
+        },
+        {
+          "level": 0,
+          "text": "C/w1"
+        }
+      ],
+      "tables": [],
+      "notes": "",
+      "charts": [],
+      "visual_text": "",
+      "images": [],
+      "render": "slides/be--session-8/slide-019.jpg",
+      "needs_visual": true,
+      "word_count": 95
+    },
+    {
+      "n": 20,
+      "kind": "content",
+      "title": "Cost Minimization",
+      "text": "Cost Minimization\nMarginal product per dollar spent should be equal for all inputs:\nMPL  MPK  MPL\nw r MPK\nBut, this is just\n w r\n w r\nMRTS\nKL",
+      "bullets": [
+        {
+          "level": 0,
+          "text": "Marginal product per dollar spent should be equal for all inputs:"
+        },
+        {
+          "level": 0,
+          "text": "MPL  MPK  MPL"
+        },
+        {
+          "level": 0,
+          "text": "w r MPK"
+        },
+        {
+          "level": 0,
+          "text": "But, this is just"
+        },
+        {
+          "level": 0,
+          "text": " w r"
+        },
+        {
+          "level": 0,
+          "text": " w r"
+        },
+        {
+          "level": 0,
+          "text": "MRTS"
+        },
+        {
+          "level": 0,
+          "text": "KL"
+        }
+      ],
+      "tables": [],
+      "notes": "",
+      "charts": [],
+      "visual_text": "",
+      "images": [],
+      "render": "slides/be--session-8/slide-020.jpg",
+      "needs_visual": false,
+      "word_count": 29
+    },
+    {
+      "n": 21,
+      "kind": "content",
+      "title": "Cost Minimization",
+      "text": "Cost Minimization\nK\nPoint of Cost Minimization\nSlope of Isocost\n=\nSlope of Isoquant\nQ\nL\nMichael R. Baye, Managerial Economics and Business Strategy, 6e. ©The McGraw-Hill Companies, Inc., 2008",
+      "bullets": [
+        {
+          "level": 0,
+          "text": "K"
+        },
+        {
+          "level": 0,
+          "text": "Point of Cost Minimization"
+        },
+        {
+          "level": 0,
+          "text": "Slope of Isocost"
+        },
+        {
+          "level": 0,
+          "text": "="
+        },
+        {
+          "level": 0,
+          "text": "Slope of Isoquant"
+        },
+        {
+          "level": 0,
+          "text": "Q"
+        },
+        {
+          "level": 0,
+          "text": "L"
+        },
+        {
+          "level": 0,
+          "text": "Michael R. Baye, Managerial Economics and Business Strategy, 6e. ©The McGraw-Hill Companies, Inc., 2008"
+        }
+      ],
+      "tables": [],
+      "notes": "",
+      "charts": [],
+      "visual_text": "",
+      "images": [],
+      "render": "slides/be--session-8/slide-021.jpg",
+      "needs_visual": false,
+      "word_count": 29
+    },
+    {
+      "n": 22,
+      "kind": "content",
+      "title": "Optimal Input Substitution",
+      "text": "Optimal Input Substitution\nK\nA firm initially produces Q0 by employing the combination of inputs represented by point A at a cost of C0.\nSuppose w0 falls to w1.\nA\nThe isocost curve rotates counterclockwise; which represents the same cost level prior to the wage change.\nTo produce the same level of output, Q0, the firm will produce on a lower isocost line (C1) at a point B.\nThe slope of the new isocost line represents the lower wage relative to the rental rate of capital.\nK0\nK\nB\n1\nQ\n0\n0\nL\nL\nC /w\nC /w\nC /w\n0 1\nL\n0\n1\n0 0\n1 1",
+      "bullets": [
+        {
+          "level": 0,
+          "text": "K"
+        },
+        {
+          "level": 0,
+          "text": "A firm initially produces Q0 by employing the combination of inputs represented by point A at a cost of C0."
+        },
+        {
+          "level": 0,
+          "text": "Suppose w0 falls to w1."
+        },
+        {
+          "level": 0,
+          "text": "A"
+        },
+        {
+          "level": 0,
+          "text": "The isocost curve rotates counterclockwise; which represents the same cost level prior to the wage change."
+        },
+        {
+          "level": 0,
+          "text": "To produce the same level of output, Q0, the firm will produce on a lower isocost line (C1) at a point B."
+        },
+        {
+          "level": 0,
+          "text": "The slope of the new isocost line represents the lower wage relative to the rental rate of capital."
+        },
+        {
+          "level": 0,
+          "text": "K0"
+        },
+        {
+          "level": 0,
+          "text": "K"
+        },
+        {
+          "level": 0,
+          "text": "B"
+        },
+        {
+          "level": 0,
+          "text": "1"
+        },
+        {
+          "level": 0,
+          "text": "Q"
+        },
+        {
+          "level": 0,
+          "text": "0"
+        },
+        {
+          "level": 0,
+          "text": "0"
+        },
+        {
+          "level": 0,
+          "text": "L"
+        },
+        {
+          "level": 0,
+          "text": "L"
+        },
+        {
+          "level": 0,
+          "text": "C /w"
+        },
+        {
+          "level": 0,
+          "text": "C /w"
+        },
+        {
+          "level": 0,
+          "text": "C /w"
+        },
+        {
+          "level": 0,
+          "text": "0 1"
+        },
+        {
+          "level": 0,
+          "text": "L"
+        },
+        {
+          "level": 0,
+          "text": "0"
+        },
+        {
+          "level": 0,
+          "text": "1"
+        },
+        {
+          "level": 0,
+          "text": "0 0"
+        },
+        {
+          "level": 0,
+          "text": "1 1"
+        }
+      ],
+      "tables": [],
+      "notes": "",
+      "charts": [],
+      "visual_text": "",
+      "images": [],
+      "render": "slides/be--session-8/slide-022.jpg",
+      "needs_visual": true,
+      "word_count": 110
+    },
+    {
+      "n": 23,
+      "kind": "content",
+      "title": "Cost Analysis",
+      "text": "Cost Analysis\nTypes of Costs\nShort-Run\nFixed costs (FC)\nSunk costs\nShort-run variable costs (VC)\nShort-run total costs (TC)\nLong-Run\nAll costs are variable\nNo fixed costs",
+      "bullets": [
+        {
+          "level": 0,
+          "text": "Types of Costs"
+        },
+        {
+          "level": 1,
+          "text": "Short-Run"
+        },
+        {
+          "level": 2,
+          "text": "Fixed costs (FC)"
+        },
+        {
+          "level": 2,
+          "text": "Sunk costs"
+        },
+        {
+          "level": 2,
+          "text": "Short-run variable costs (VC)"
+        },
+        {
+          "level": 2,
+          "text": "Short-run total costs (TC)"
+        },
+        {
+          "level": 1,
+          "text": "Long-Run"
+        },
+        {
+          "level": 2,
+          "text": "All costs are variable"
+        },
+        {
+          "level": 2,
+          "text": "No fixed costs"
+        }
+      ],
+      "tables": [],
+      "notes": "",
+      "charts": [],
+      "visual_text": "",
+      "images": [],
+      "render": "slides/be--session-8/slide-023.jpg",
+      "needs_visual": true,
+      "word_count": 27
+    },
+    {
+      "n": 24,
+      "kind": "content",
+      "title": "Total and Variable Costs",
+      "text": "Total and Variable Costs\nC(Q): Minimum total cost of producing alternative levels of output:\n$\nC(Q) = VC + FC\nVC(Q)\nC(Q) = VC(Q) + FC\nVC(Q): Costs that vary with output.\nFC\nFC: Costs that do not vary with output.\n0\nQ",
+      "bullets": [
+        {
+          "level": 0,
+          "text": "C(Q): Minimum total cost of producing alternative levels of output:"
+        },
+        {
+          "level": 0,
+          "text": "$"
+        },
+        {
+          "level": 0,
+          "text": "C(Q) = VC + FC"
+        },
+        {
+          "level": 0,
+          "text": "VC(Q)"
+        },
+        {
+          "level": 0,
+          "text": "C(Q) = VC(Q) + FC"
+        },
+        {
+          "level": 0,
+          "text": "VC(Q): Costs that vary with output."
+        },
+        {
+          "level": 0,
+          "text": "FC"
+        },
+        {
+          "level": 0,
+          "text": "FC: Costs that do not vary with output."
+        },
+        {
+          "level": 0,
+          "text": "0"
+        },
+        {
+          "level": 0,
+          "text": "Q"
+        }
+      ],
+      "tables": [],
+      "notes": "",
+      "charts": [],
+      "visual_text": "",
+      "images": [],
+      "render": "slides/be--session-8/slide-024.jpg",
+      "needs_visual": false,
+      "word_count": 45
+    },
+    {
+      "n": 25,
+      "kind": "content",
+      "title": "Fixed and Sunk Costs",
+      "text": "Fixed and Sunk Costs\nFC: Costs that do not change $ as output changes.\nC(Q) = VC + FC\nSunk Cost: A cost that is forever lost after it has been paid.\nVC(Q)\nDecision makers should ignore sunk costs to maximize profit or minimize losses\nFC\nQ",
+      "bullets": [
+        {
+          "level": 0,
+          "text": "FC: Costs that do not change $ as output changes."
+        },
+        {
+          "level": 0,
+          "text": "C(Q) = VC + FC"
+        },
+        {
+          "level": 0,
+          "text": "Sunk Cost: A cost that is forever lost after it has been paid."
+        },
+        {
+          "level": 0,
+          "text": "VC(Q)"
+        },
+        {
+          "level": 0,
+          "text": "Decision makers should ignore sunk costs to maximize profit or minimize losses"
+        },
+        {
+          "level": 0,
+          "text": "FC"
+        },
+        {
+          "level": 0,
+          "text": "Q"
+        }
+      ],
+      "tables": [],
+      "notes": "",
+      "charts": [],
+      "visual_text": "",
+      "images": [],
+      "render": "slides/be--session-8/slide-025.jpg",
+      "needs_visual": false,
+      "word_count": 47
+    },
+    {
+      "n": 26,
+      "kind": "content",
+      "title": "Some Definitions",
+      "text": "Some Definitions\nAverage Total Cost ATC = AVC + AFC ATC = C(Q)/Q\n$\nMC\nATC\nAVC\nAverage Variable Cost AVC = VC(Q)/Q\nMR\nAverage Fixed Cost AFC = FC/Q\nMarginal Cost MC = C/Q\nAFC\nQ",
+      "bullets": [
+        {
+          "level": 0,
+          "text": "Average Total Cost ATC = AVC + AFC ATC = C(Q)/Q"
+        },
+        {
+          "level": 0,
+          "text": "$"
+        },
+        {
+          "level": 0,
+          "text": "MC"
+        },
+        {
+          "level": 0,
+          "text": "ATC"
+        },
+        {
+          "level": 0,
+          "text": "AVC"
+        },
+        {
+          "level": 0,
+          "text": "Average Variable Cost AVC = VC(Q)/Q"
+        },
+        {
+          "level": 0,
+          "text": "MR"
+        },
+        {
+          "level": 0,
+          "text": "Average Fixed Cost AFC = FC/Q"
+        },
+        {
+          "level": 0,
+          "text": "Marginal Cost MC = C/Q"
+        },
+        {
+          "level": 0,
+          "text": "AFC"
+        },
+        {
+          "level": 0,
+          "text": "Q"
+        }
+      ],
+      "tables": [],
+      "notes": "",
+      "charts": [],
+      "visual_text": "",
+      "images": [],
+      "render": "slides/be--session-8/slide-026.jpg",
+      "needs_visual": true,
+      "word_count": 37
+    },
+    {
+      "n": 27,
+      "kind": "content",
+      "title": "Fixed Cost",
+      "text": "Fixed Cost\nQ0(ATC-AVC)\n$\nMC\n= Q  AFC\n0\nATC\nAVC\n= Q0(FC/ Q0)\n= FC\nATC\nAFC\nFixed Cost\nAVC\nQ\nQ0",
+      "bullets": [
+        {
+          "level": 0,
+          "text": "Q0(ATC-AVC)"
+        },
+        {
+          "level": 0,
+          "text": "$"
+        },
+        {
+          "level": 0,
+          "text": "MC"
+        },
+        {
+          "level": 0,
+          "text": "= Q  AFC"
+        },
+        {
+          "level": 0,
+          "text": "0"
+        },
+        {
+          "level": 0,
+          "text": "ATC"
+        },
+        {
+          "level": 0,
+          "text": "AVC"
+        },
+        {
+          "level": 0,
+          "text": "= Q0(FC/ Q0)"
+        },
+        {
+          "level": 0,
+          "text": "= FC"
+        },
+        {
+          "level": 0,
+          "text": "ATC"
+        },
+        {
+          "level": 0,
+          "text": "AFC"
+        },
+        {
+          "level": 0,
+          "text": "Fixed Cost"
+        },
+        {
+          "level": 0,
+          "text": "AVC"
+        },
+        {
+          "level": 0,
+          "text": "Q"
+        },
+        {
+          "level": 0,
+          "text": "Q0"
+        }
+      ],
+      "tables": [],
+      "notes": "",
+      "charts": [],
+      "visual_text": "",
+      "images": [],
+      "render": "slides/be--session-8/slide-027.jpg",
+      "needs_visual": true,
+      "word_count": 22
+    },
+    {
+      "n": 28,
+      "kind": "content",
+      "title": "Variable Cost",
+      "text": "Variable Cost\n$\nQ0AVC\n= Q0[VC(Q0)/ Q0]\n= VC(Q0)\nMC\nATC AVC\nAVC\nVariable Cost\nMinimum of AVC\nQ0\nQ",
+      "bullets": [
+        {
+          "level": 0,
+          "text": "$"
+        },
+        {
+          "level": 0,
+          "text": "Q0AVC"
+        },
+        {
+          "level": 0,
+          "text": "= Q0[VC(Q0)/ Q0]"
+        },
+        {
+          "level": 0,
+          "text": "= VC(Q0)"
+        },
+        {
+          "level": 0,
+          "text": "MC"
+        },
+        {
+          "level": 0,
+          "text": "ATC AVC"
+        },
+        {
+          "level": 0,
+          "text": "AVC"
+        },
+        {
+          "level": 0,
+          "text": "Variable Cost"
+        },
+        {
+          "level": 0,
+          "text": "Minimum of AVC"
+        },
+        {
+          "level": 0,
+          "text": "Q0"
+        },
+        {
+          "level": 0,
+          "text": "Q"
+        }
+      ],
+      "tables": [],
+      "notes": "",
+      "charts": [],
+      "visual_text": "",
+      "images": [
+        "slides/be--session-8/img-160b2de106c34bba.png"
+      ],
+      "render": "slides/be--session-8/slide-028.jpg",
+      "needs_visual": true,
+      "word_count": 22
+    },
+    {
+      "n": 29,
+      "kind": "content",
+      "title": "Total Cost",
+      "text": "Total Cost\nQ0ATC\nMC\n$\nATC AVC\n= Q0[C(Q0)/ Q0]\n= C(Q0)\nATC\nTotal Cost\nMinimum of ATC\nQ0\nQ",
+      "bullets": [
+        {
+          "level": 0,
+          "text": "Q0ATC"
+        },
+        {
+          "level": 0,
+          "text": "MC"
+        },
+        {
+          "level": 0,
+          "text": "$"
+        },
+        {
+          "level": 0,
+          "text": "ATC AVC"
+        },
+        {
+          "level": 0,
+          "text": "= Q0[C(Q0)/ Q0]"
+        },
+        {
+          "level": 0,
+          "text": "= C(Q0)"
+        },
+        {
+          "level": 0,
+          "text": "ATC"
+        },
+        {
+          "level": 0,
+          "text": "Total Cost"
+        },
+        {
+          "level": 0,
+          "text": "Minimum of ATC"
+        },
+        {
+          "level": 0,
+          "text": "Q0"
+        },
+        {
+          "level": 0,
+          "text": "Q"
+        }
+      ],
+      "tables": [],
+      "notes": "",
+      "charts": [],
+      "visual_text": "",
+      "images": [],
+      "render": "slides/be--session-8/slide-029.jpg",
+      "needs_visual": true,
+      "word_count": 22
+    },
+    {
+      "n": 30,
+      "kind": "content",
+      "title": "Question:",
+      "text": "Question:\nA firm's fixed cost is ₹100. Its variable costs at different output levels are:\nCalculate:\nTotal Fixed Cost (TFC )\nTotal Variable Cost (TVC)\nTotal Cost (TC)\nAverage Fixed Cost (AFC)\nAverage Variable Cost (AVC)\nAverage Total Cost (ATC)\nMarginal Cost (MC)\nOutput (Q) | Variable Cost (VC)\n0 | 0\n1 | 60\n2 | 100\n3 | 135\n4 | 180\n5 | 240\n6 | 315",
+      "bullets": [
+        {
+          "level": 0,
+          "text": "A firm's fixed cost is ₹100. Its variable costs at different output levels are:"
+        },
+        {
+          "level": 0,
+          "text": "Calculate:"
+        },
+        {
+          "level": 0,
+          "text": "Total Fixed Cost (TFC )"
+        },
+        {
+          "level": 0,
+          "text": "Total Variable Cost (TVC)"
+        },
+        {
+          "level": 0,
+          "text": "Total Cost (TC)"
+        },
+        {
+          "level": 0,
+          "text": "Average Fixed Cost (AFC)"
+        },
+        {
+          "level": 0,
+          "text": "Average Variable Cost (AVC)"
+        },
+        {
+          "level": 0,
+          "text": "Average Total Cost (ATC)"
+        },
+        {
+          "level": 0,
+          "text": "Marginal Cost (MC)"
+        }
+      ],
+      "tables": [
+        [
+          [
+            "Output (Q)",
+            "Variable Cost (VC)"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "1",
+            "60"
+          ],
+          [
+            "2",
+            "100"
+          ],
+          [
+            "3",
+            "135"
+          ],
+          [
+            "4",
+            "180"
+          ],
+          [
+            "5",
+            "240"
+          ],
+          [
+            "6",
+            "315"
+          ]
+        ]
+      ],
+      "notes": "",
+      "charts": [],
+      "visual_text": "",
+      "images": [],
+      "render": "slides/be--session-8/slide-030.jpg",
+      "needs_visual": false,
+      "word_count": 61
+    },
+    {
+      "n": 31,
+      "kind": "content",
+      "title": "Solution",
+      "text": "Solution\nQ | TFC | TVC | TC (TFC +TVC) | AFC (TFC/Q) | AVC (TVC/Q) | ATC (TC /Q) | MC (TC/Q)\n0 | 100 | 0 | 100\n1 | 100 | 60 | 160 | 100 | 60 | 160 | 60\n2 | 100 | 100 | 200 | 50 | 50 | 100 | 40\n3 | 100 | 135 | 235 | 33.3 | 45 | 78.3 | 35\n4 | 100 | 180 | 280 | 25 | 45 | 70 | 45\n5 | 100 | 240 | 340 | 20 | 48 | 68 | 60\n6 | 100 | 315 | 415 | 16.7 | 52.5 | 69.2 | 75",
+      "bullets": [],
+      "tables": [
+        [
+          [
+            "Q",
+            "TFC",
+            "TVC",
+            "TC (TFC +TVC)",
+            "AFC (TFC/Q)",
+            "AVC (TVC/Q)",
+            "ATC (TC /Q)",
+            "MC (TC/Q)"
+          ],
+          [
+            "0",
+            "100",
+            "0",
+            "100",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "1",
+            "100",
+            "60",
+            "160",
+            "100",
+            "60",
+            "160",
+            "60"
+          ],
+          [
+            "2",
+            "100",
+            "100",
+            "200",
+            "50",
+            "50",
+            "100",
+            "40"
+          ],
+          [
+            "3",
+            "100",
+            "135",
+            "235",
+            "33.3",
+            "45",
+            "78.3",
+            "35"
+          ],
+          [
+            "4",
+            "100",
+            "180",
+            "280",
+            "25",
+            "45",
+            "70",
+            "45"
+          ],
+          [
+            "5",
+            "100",
+            "240",
+            "340",
+            "20",
+            "48",
+            "68",
+            "60"
+          ],
+          [
+            "6",
+            "100",
+            "315",
+            "415",
+            "16.7",
+            "52.5",
+            "69.2",
+            "75"
+          ]
+        ]
+      ],
+      "notes": "",
+      "charts": [],
+      "visual_text": "",
+      "images": [],
+      "render": "slides/be--session-8/slide-031.jpg",
+      "needs_visual": false,
+      "word_count": 71
+    },
+    {
+      "n": 32,
+      "kind": "content",
+      "title": "Cubic Cost Function",
+      "text": "Cubic Cost Function\nC(Q) = f + a Q + b Q2 + cQ3\nMarginal Cost?\nMemorize:\nMC(Q) = a + 2bQ + 3cQ2\nCalculus:\ndC/dQ = a + 2bQ + 3cQ2",
+      "bullets": [
+        {
+          "level": 0,
+          "text": "C(Q) = f + a Q + b Q2 + cQ3"
+        },
+        {
+          "level": 0,
+          "text": "Marginal Cost?"
+        },
+        {
+          "level": 1,
+          "text": "Memorize:"
+        },
+        {
+          "level": 0,
+          "text": "MC(Q) = a + 2bQ + 3cQ2"
+        },
+        {
+          "level": 1,
+          "text": "Calculus:"
+        },
+        {
+          "level": 0,
+          "text": "dC/dQ = a + 2bQ + 3cQ2"
+        }
+      ],
+      "tables": [],
+      "notes": "",
+      "charts": [],
+      "visual_text": "",
+      "images": [],
+      "render": "slides/be--session-8/slide-032.jpg",
+      "needs_visual": false,
+      "word_count": 25
+    },
+    {
+      "n": 33,
+      "kind": "content",
+      "title": "An Example",
+      "text": "An Example\nTotal Cost: C(Q) = 10 + Q + Q2\nVariable cost function:\nVC(Q) = Q + Q2\nVariable cost of producing 2 units:\nVC(2) = 2 + (2)2 = 6\nFixed costs:\nFC = 10\nMarginal cost function:\nMC(Q) = 1 + 2Q\nMarginal cost of producing 2 units: MC(2) = 1 + 2(2) = 5",
+      "bullets": [
+        {
+          "level": 0,
+          "text": "Total Cost: C(Q) = 10 + Q + Q2"
+        },
+        {
+          "level": 0,
+          "text": "Variable cost function:"
+        },
+        {
+          "level": 0,
+          "text": "VC(Q) = Q + Q2"
+        },
+        {
+          "level": 0,
+          "text": "Variable cost of producing 2 units:"
+        },
+        {
+          "level": 0,
+          "text": "VC(2) = 2 + (2)2 = 6"
+        },
+        {
+          "level": 0,
+          "text": "Fixed costs:"
+        },
+        {
+          "level": 0,
+          "text": "FC = 10"
+        },
+        {
+          "level": 0,
+          "text": "Marginal cost function:"
+        },
+        {
+          "level": 0,
+          "text": "MC(Q) = 1 + 2Q"
+        },
+        {
+          "level": 0,
+          "text": "Marginal cost of producing 2 units: MC(2) = 1 + 2(2) = 5"
+        }
+      ],
+      "tables": [],
+      "notes": "",
+      "charts": [],
+      "visual_text": "",
+      "images": [],
+      "render": "slides/be--session-8/slide-033.jpg",
+      "needs_visual": false,
+      "word_count": 51
+    },
+    {
+      "n": 34,
+      "kind": "content",
+      "title": "Question",
+      "text": "Question\nA firm's total cost function is: TC = 100 + 20Q + 2Q2.\nFind:\nFixed cost\nVariable cost\nAverage total cost\nAverage variable cost\nMarginal cost\nATC when Q = 10\nMC when Q = 10",
+      "bullets": [
+        {
+          "level": 0,
+          "text": "A firm's total cost function is: TC = 100 + 20Q + 2Q2."
+        },
+        {
+          "level": 0,
+          "text": "Find:"
+        },
+        {
+          "level": 0,
+          "text": "Fixed cost"
+        },
+        {
+          "level": 0,
+          "text": "Variable cost"
+        },
+        {
+          "level": 0,
+          "text": "Average total cost"
+        },
+        {
+          "level": 0,
+          "text": "Average variable cost"
+        },
+        {
+          "level": 0,
+          "text": "Marginal cost"
+        },
+        {
+          "level": 0,
+          "text": "ATC when Q = 10"
+        },
+        {
+          "level": 0,
+          "text": "MC when Q = 10"
+        }
+      ],
+      "tables": [],
+      "notes": "",
+      "charts": [],
+      "visual_text": "",
+      "images": [],
+      "render": "slides/be--session-8/slide-034.jpg",
+      "needs_visual": false,
+      "word_count": 32
+    },
+    {
+      "n": 35,
+      "kind": "content",
+      "title": "Solution:",
+      "text": "Solution:\nTC = 100 + 20Q + 2Q2\n1. Fixed cost\nThe constant term is 100. Therefore, FC = 100\n2. Variable cost\nVC = 20Q + 2Q2\n3. Average total cost\nATC = TC / Q\nATC = (100/Q) +20+2Q\n4. Average variable cost\nAVC = TVC/Q = 20+2Q\n5. Marginal cost\nMC = dTC/dQ (differentiate TC w.r.t. Q)\nMC = 20+4Q\n6. ATC when Q = 10\nATC= (100/Q) +20+2Q = (100/10) + 20 + 2*10 = 50\n7. MC when Q = 10\nMC = 20+4Q = 20 + 4*10 = 60",
+      "bullets": [
+        {
+          "level": 0,
+          "text": "TC = 100 + 20Q + 2Q2"
+        },
+        {
+          "level": 0,
+          "text": "1. Fixed cost"
+        },
+        {
+          "level": 0,
+          "text": "The constant term is 100. Therefore, FC = 100"
+        },
+        {
+          "level": 0,
+          "text": "2. Variable cost"
+        },
+        {
+          "level": 0,
+          "text": "VC = 20Q + 2Q2"
+        },
+        {
+          "level": 0,
+          "text": "3. Average total cost"
+        },
+        {
+          "level": 0,
+          "text": "ATC = TC / Q"
+        },
+        {
+          "level": 0,
+          "text": "ATC = (100/Q) +20+2Q"
+        },
+        {
+          "level": 0,
+          "text": "4. Average variable cost"
+        },
+        {
+          "level": 0,
+          "text": "AVC = TVC/Q = 20+2Q"
+        },
+        {
+          "level": 0,
+          "text": "5. Marginal cost"
+        },
+        {
+          "level": 0,
+          "text": "MC = dTC/dQ (differentiate TC w.r.t. Q)"
+        },
+        {
+          "level": 0,
+          "text": "MC = 20+4Q"
+        },
+        {
+          "level": 0,
+          "text": "6. ATC when Q = 10"
+        },
+        {
+          "level": 0,
+          "text": "ATC= (100/Q) +20+2Q = (100/10) + 20 + 2*10 = 50"
+        },
+        {
+          "level": 0,
+          "text": "7. MC when Q = 10"
+        },
+        {
+          "level": 0,
+          "text": "MC = 20+4Q = 20 + 4*10 = 60"
+        }
+      ],
+      "tables": [],
+      "notes": "",
+      "charts": [],
+      "visual_text": "",
+      "images": [],
+      "render": "slides/be--session-8/slide-035.jpg",
+      "needs_visual": false,
+      "word_count": 84
+    },
+    {
+      "n": 36,
+      "kind": "content",
+      "title": "Question",
+      "text": "Question\nThe cost function for Managerial Enterprises is given by C(Q) = 20 + 3Q2.\nDetermine the marginal cost, average fixed cost, average variable cost, and average total cost when Q = 10.",
+      "bullets": [
+        {
+          "level": 0,
+          "text": "The cost function for Managerial Enterprises is given by C(Q) = 20 + 3Q2."
+        },
+        {
+          "level": 0,
+          "text": "Determine the marginal cost, average fixed cost, average variable cost, and average total cost when Q = 10."
+        }
+      ],
+      "tables": [],
+      "notes": "",
+      "charts": [],
+      "visual_text": "",
+      "images": [],
+      "render": "slides/be--session-8/slide-036.jpg",
+      "needs_visual": false,
+      "word_count": 31
+    },
+    {
+      "n": 37,
+      "kind": "content",
+      "title": "Long Run Costs",
+      "text": "Long Run Costs\nA long run average cost curve shows the minimum average costs of producing alternative levels of output, allowing for optimal selection of both fixed and variable costs of production.",
+      "bullets": [
+        {
+          "level": 0,
+          "text": "A long run average cost curve shows the minimum average costs of producing alternative levels of output, allowing for optimal selection of both fixed and variable costs of production."
+        }
+      ],
+      "tables": [],
+      "notes": "",
+      "charts": [],
+      "visual_text": "",
+      "images": [],
+      "render": "slides/be--session-8/slide-037.jpg",
+      "needs_visual": false,
+      "word_count": 32
+    },
+    {
+      "n": 38,
+      "kind": "content",
+      "title": "Long-Run Average Costs",
+      "text": "Long-Run Average Costs\n$\nLRAC\nEconomies of Scale\nDiseconomies of Scale\nQ*\nQ",
+      "bullets": [
+        {
+          "level": 0,
+          "text": "$"
+        },
+        {
+          "level": 0,
+          "text": "LRAC"
+        },
+        {
+          "level": 0,
+          "text": "Economies of Scale"
+        },
+        {
+          "level": 0,
+          "text": "Diseconomies of Scale"
+        },
+        {
+          "level": 0,
+          "text": "Q*"
+        },
+        {
+          "level": 0,
+          "text": "Q"
+        }
+      ],
+      "tables": [],
+      "notes": "",
+      "charts": [],
+      "visual_text": "",
+      "images": [],
+      "render": "slides/be--session-8/slide-038.jpg",
+      "needs_visual": true,
+      "word_count": 13
+    },
+    {
+      "n": 39,
+      "kind": "content",
+      "title": "Economies of Scale and the U-Shaped LRAC Curve",
+      "text": "Economies of Scale and the U-Shaped LRAC Curve\nEconomies of Scale ⇒ Falling LRAC\nAs output increases: Q↑ ⇒ LRAC↓\nWhy?\nGreater specialisation and division of labour\nBetter utilisation of machinery and other resources\nBulk purchasing and input discounts\nSpreading fixed/setup costs over more units\nGreater scope for managerial and technical efficiencies\nDiseconomies of Scale ⇒ Rising LRAC\nBeyond an optimal scale: Q↑ ⇒ LRAC↑\nWhy?\nManagerial and coordination difficulties\nBureaucracy and slower decision-making\nDifficulty monitoring a very large organisation\nCongestion and organisational complexity",
+      "bullets": [
+        {
+          "level": 0,
+          "text": "Economies of Scale ⇒ Falling LRAC"
+        },
+        {
+          "level": 0,
+          "text": "As output increases: Q↑ ⇒ LRAC↓"
+        },
+        {
+          "level": 0,
+          "text": "Why?"
+        },
+        {
+          "level": 1,
+          "text": "Greater specialisation and division of labour"
+        },
+        {
+          "level": 1,
+          "text": "Better utilisation of machinery and other resources"
+        },
+        {
+          "level": 1,
+          "text": "Bulk purchasing and input discounts"
+        },
+        {
+          "level": 1,
+          "text": "Spreading fixed/setup costs over more units"
+        },
+        {
+          "level": 1,
+          "text": "Greater scope for managerial and technical efficiencies"
+        },
+        {
+          "level": 0,
+          "text": "Diseconomies of Scale ⇒ Rising LRAC"
+        },
+        {
+          "level": 0,
+          "text": "Beyond an optimal scale: Q↑ ⇒ LRAC↑"
+        },
+        {
+          "level": 0,
+          "text": "Why?"
+        },
+        {
+          "level": 1,
+          "text": "Managerial and coordination difficulties"
+        },
+        {
+          "level": 1,
+          "text": "Bureaucracy and slower decision-making"
+        },
+        {
+          "level": 1,
+          "text": "Difficulty monitoring a very large organisation"
+        },
+        {
+          "level": 1,
+          "text": "Congestion and organisational complexity"
+        }
+      ],
+      "tables": [],
+      "notes": "",
+      "charts": [],
+      "visual_text": "",
+      "images": [],
+      "render": "slides/be--session-8/slide-039.jpg",
+      "needs_visual": false,
+      "word_count": 81
+    },
+    {
+      "n": 40,
+      "kind": "content",
+      "title": "Multi-Product Cost Function",
+      "text": "Multi-Product Cost Function\nC(Q1, Q2): Cost of jointly producing two outputs.\nGeneral function form:\nCQ , Q   f  aQ Q  bQ2  cQ2\n1 2 1 2 1 2\nWhere, f = some constant value",
+      "bullets": [
+        {
+          "level": 0,
+          "text": "C(Q1, Q2): Cost of jointly producing two outputs."
+        },
+        {
+          "level": 0,
+          "text": "General function form:"
+        },
+        {
+          "level": 0,
+          "text": "CQ , Q   f  aQ Q  bQ2  cQ2"
+        },
+        {
+          "level": 0,
+          "text": "1 2 1 2 1 2"
+        },
+        {
+          "level": 0,
+          "text": "Where, f = some constant value"
+        }
+      ],
+      "tables": [],
+      "notes": "",
+      "charts": [],
+      "visual_text": "",
+      "images": [],
+      "render": "slides/be--session-8/slide-040.jpg",
+      "needs_visual": false,
+      "word_count": 34
+    },
+    {
+      "n": 41,
+      "kind": "content",
+      "title": "Economies of Scope",
+      "text": "Economies of Scope\nC(Q1, 0) + C(0, Q2) > C(Q1, Q2).\nIt is cheaper to produce the two outputs jointly instead of separately.\nExample:\nIt is cheaper for Time-Warner to produce Internet connections and Instant Messaging services jointly than separately.",
+      "bullets": [
+        {
+          "level": 0,
+          "text": "C(Q1, 0) + C(0, Q2) > C(Q1, Q2)."
+        },
+        {
+          "level": 1,
+          "text": "It is cheaper to produce the two outputs jointly instead of separately."
+        },
+        {
+          "level": 0,
+          "text": "Example:"
+        },
+        {
+          "level": 1,
+          "text": "It is cheaper for Time-Warner to produce Internet connections and Instant Messaging services jointly than separately."
+        }
+      ],
+      "tables": [],
+      "notes": "",
+      "charts": [],
+      "visual_text": "",
+      "images": [],
+      "render": "slides/be--session-8/slide-041.jpg",
+      "needs_visual": false,
+      "word_count": 41
+    },
+    {
+      "n": 42,
+      "kind": "content",
+      "title": "Cost Complementarity",
+      "text": "Cost Complementarity\nThe marginal cost of producing good 1 declines as more of good two is produced:\nMC1Q1,Q2) /Q2 < 0.\nExample:\nCow hides and steaks.",
+      "bullets": [
+        {
+          "level": 0,
+          "text": "The marginal cost of producing good 1 declines as more of good two is produced:"
+        },
+        {
+          "level": 0,
+          "text": "MC1Q1,Q2) /Q2 < 0."
+        },
+        {
+          "level": 0,
+          "text": "Example:"
+        },
+        {
+          "level": 1,
+          "text": "Cow hides and steaks."
+        }
+      ],
+      "tables": [],
+      "notes": "",
+      "charts": [],
+      "visual_text": "",
+      "images": [],
+      "render": "slides/be--session-8/slide-042.jpg",
+      "needs_visual": false,
+      "word_count": 26
+    },
+    {
+      "n": 43,
+      "kind": "content",
+      "title": "Quadratic Multi-Product Cost Function",
+      "text": "Quadratic Multi-Product Cost Function\nC(Q1, Q2) = f + aQ1Q2 + (Q1 )2 + (Q2 )2\nMC1(Q1, Q2) = aQ2 + 2Q1\nMC2(Q1, Q2) = aQ1 + 2Q2\nCost complementarity exists if a < 0\nEconomies of scope exist if\nf > aQ1Q2\nf > aQ1Q2: Joint production is cheaper\n(Why?)",
+      "bullets": [
+        {
+          "level": 0,
+          "text": "C(Q1, Q2) = f + aQ1Q2 + (Q1 )2 + (Q2 )2"
+        },
+        {
+          "level": 0,
+          "text": "MC1(Q1, Q2) = aQ2 + 2Q1"
+        },
+        {
+          "level": 0,
+          "text": "MC2(Q1, Q2) = aQ1 + 2Q2"
+        },
+        {
+          "level": 0,
+          "text": "Cost complementarity exists if a < 0"
+        },
+        {
+          "level": 0,
+          "text": "Economies of scope exist if"
+        },
+        {
+          "level": 0,
+          "text": "f > aQ1Q2"
+        },
+        {
+          "level": 0,
+          "text": "f > aQ1Q2: Joint production is cheaper"
+        },
+        {
+          "level": 0,
+          "text": "(Why?)"
+        }
+      ],
+      "tables": [],
+      "notes": "",
+      "charts": [],
+      "visual_text": "",
+      "images": [],
+      "render": "slides/be--session-8/slide-043.jpg",
+      "needs_visual": false,
+      "word_count": 43
+    },
+    {
+      "n": 44,
+      "kind": "blank",
+      "title": "",
+      "text": "",
+      "bullets": [],
+      "tables": [],
+      "notes": "",
+      "charts": [],
+      "visual_text": "",
+      "images": [],
+      "render": "slides/be--session-8/slide-044.jpg",
+      "needs_visual": false,
+      "word_count": 0
+    },
+    {
+      "n": 45,
+      "kind": "content",
+      "title": "A Numerical Example:",
+      "text": "A Numerical Example:\nC(Q1, Q2) = 90 - 2Q1Q2 + (Q1 )2 + (Q2 )2\nCost Complementarity?\nYes, since a = -2 < 0 MC1(Q1, Q2) = -2Q2 + 2Q1",
+      "bullets": [
+        {
+          "level": 0,
+          "text": "C(Q1, Q2) = 90 - 2Q1Q2 + (Q1 )2 + (Q2 )2"
+        },
+        {
+          "level": 0,
+          "text": "Cost Complementarity?"
+        },
+        {
+          "level": 0,
+          "text": "Yes, since a = -2 < 0 MC1(Q1, Q2) = -2Q2 + 2Q1"
+        }
+      ],
+      "tables": [],
+      "notes": "",
+      "charts": [],
+      "visual_text": "",
+      "images": [],
+      "render": "slides/be--session-8/slide-045.jpg",
+      "needs_visual": true,
+      "word_count": 24
+    },
+    {
+      "n": 46,
+      "kind": "content",
+      "title": "Conclusion",
+      "text": "Conclusion\nTo maximize profits (minimize costs) managers must use inputs such that the value of marginal of each input reflects price the firm must pay to employ the input.\nThe optimal mix of inputs is achieved when the\nMRTSKL = (w/r).\nCost functions are the foundation for helping to determine profit-maximizing behavior in future chapters.",
+      "bullets": [
+        {
+          "level": 0,
+          "text": "To maximize profits (minimize costs) managers must use inputs such that the value of marginal of each input reflects price the firm must pay to employ the input."
+        },
+        {
+          "level": 0,
+          "text": "The optimal mix of inputs is achieved when the"
+        },
+        {
+          "level": 0,
+          "text": "MRTSKL = (w/r)."
+        },
+        {
+          "level": 0,
+          "text": "Cost functions are the foundation for helping to determine profit-maximizing behavior in future chapters."
+        }
+      ],
+      "tables": [],
+      "notes": "",
+      "charts": [],
+      "visual_text": "",
+      "images": [],
+      "render": "slides/be--session-8/slide-046.jpg",
+      "needs_visual": false,
+      "word_count": 55
+    }
+  ]
+}
