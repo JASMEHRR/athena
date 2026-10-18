@@ -1,0 +1,643 @@
+{
+  "id": "oml-pers-big-five",
+  "subject_id": "oml",
+  "deck_id": "oml--3-personality",
+  "title": "The Big Five personality model",
+  "order": 3,
+  "summary": "The five basic dimensions, what each measures, and how to apply them to people at work.",
+  "est_minutes": 20,
+  "difficulty": 2,
+  "source_refs": [
+    "oml--3-personality#15",
+    "oml--3-personality#16"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "oml-pers-big-five-c1",
+      "heading": "What the Big Five is",
+      "explanation_md": "The **Big Five** is a personality assessment model with **five basic dimensions**. The slide credits it as the **John Bearden tool**.\n\nThese five dimensions **underlie all others** and cover most of the significant variation in human personality. Test scores on these traits do a **very good job of predicting how people behave in real-life situations**.\n\nThe five traits: **Extroversion, Agreeableness, Conscientiousness, Emotional Stability, Openness to experience**. A handy memory trick is to remember the first letters, but only the names matter in the exam.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Big Five",
+          "meaning": "A personality assessment model with five basic dimensions that underlie all others and predict behavior in real-life situations.",
+          "source_ref": "oml--3-personality#15"
+        }
+      ],
+      "exam_line": "Big Five: Extroversion, Agreeableness, Conscientiousness, Emotional Stability, Openness to experience. Scores predict behavior in many real-life situations.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "oml-pers-big-five-q-05f154af",
+          "type": "mcq",
+          "stem": "Which list is the Big Five?",
+          "options": [
+            "Extroversion, Agreeableness, Conscientiousness, Emotional Stability, Openness to experience",
+            "Heredity, Environment, Situation, Culture, Norms",
+            "Thinking, Feeling, Sensing, Judging, Perceiving",
+            "Self-esteem, Locus of control, Mach, Narcissism, Risk-taking"
+          ],
+          "answer": "Extroversion, Agreeableness, Conscientiousness, Emotional Stability, Openness to experience",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "oml--3-personality#15",
+            "oml--3-personality#6",
+            "oml--3-personality#12",
+            "oml--3-personality#17",
+            "oml--3-personality#21",
+            "oml--3-personality#23"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "oml-pers-big-five-q-1900622a",
+          "type": "true_false",
+          "stem": "The Big Five scores are said to predict how people behave in a variety of real-life situations.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "oml--3-personality#15"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "oml--3-personality#15"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "oml-pers-big-five-c2",
+      "heading": "Each of the five dimensions",
+      "explanation_md": "- **Extroversion**: sociable, expressive, self-assured and confident.\n- **Agreeableness**: good-natured, cooperative and trusting.\n- **Conscientiousness** (a measure of **reliability**): responsible, dependable, determined and organized.\n- **Emotional Stability** (the **ability to handle stress**): calm, self-confident and secure on the positive side; nervous, depressed and insecure on the negative side.\n- **Openness to Experience**: imaginative, creative, curious, artistic, sensitive and intellectual, versus conventional and conservative people who find comfort in the familiar.\n\nTo apply it to a work situation: ask which dimension explains the behavior. A person who stays calm under pressure is high on emotional stability; one who is dependable and organized is high on conscientiousness; one who is cooperative and trusting is high on agreeableness.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Conscientiousness",
+          "meaning": "A measure of reliability: responsible, dependable, determined, organized.",
+          "source_ref": "oml--3-personality#16"
+        },
+        {
+          "term": "Emotional Stability",
+          "meaning": "Ability to handle stress: calm, self-confident, secure versus nervous, depressed, insecure.",
+          "source_ref": "oml--3-personality#16"
+        },
+        {
+          "term": "Openness to Experience",
+          "meaning": "Imaginative, creative, curious, artistic versus conventional and comfortable in the familiar.",
+          "source_ref": "oml--3-personality#16"
+        }
+      ],
+      "exam_line": "Conscientiousness measures reliability; Emotional Stability measures ability to handle stress; Openness is imagination and curiosity versus the conventional.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "oml-pers-big-five-q-b22a63fe",
+          "type": "mcq",
+          "stem": "Which Big Five trait is described as a measure of reliability?",
+          "options": [
+            "Conscientiousness",
+            "Agreeableness",
+            "Extroversion",
+            "Openness to experience"
+          ],
+          "answer": "Conscientiousness",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "oml--3-personality#16"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "oml-pers-big-five-q-46ef7d6e",
+          "type": "mcq",
+          "stem": "Calm, self-confident and secure describes the positive side of which trait?",
+          "options": [
+            "Emotional Stability",
+            "Extroversion",
+            "Agreeableness",
+            "Openness to experience"
+          ],
+          "answer": "Emotional Stability",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "oml--3-personality#16"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "oml-pers-big-five-q-256c311e",
+          "type": "fill",
+          "stem": "Good-natured, cooperative and trusting describes ____.",
+          "options": [],
+          "answer": "Agreeableness",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "oml--3-personality#16"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "oml--3-personality#16"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "oml-pers-big-five-f1",
+      "front": "List: the Big Five",
+      "back": "Extroversion, Agreeableness, Conscientiousness, Emotional Stability, Openness to experience",
+      "kind": "list",
+      "source_refs": [
+        "oml--3-personality#15"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "oml-pers-big-five-f2",
+      "front": "Extroversion",
+      "back": "Sociable, expressive, self-assured and confident",
+      "kind": "term",
+      "source_refs": [
+        "oml--3-personality#16"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "oml-pers-big-five-f3",
+      "front": "Agreeableness",
+      "back": "Good-natured, cooperative and trusting",
+      "kind": "term",
+      "source_refs": [
+        "oml--3-personality#16"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "oml-pers-big-five-f4",
+      "front": "Conscientiousness",
+      "back": "Measure of reliability: responsible, dependable, determined, organized",
+      "kind": "term",
+      "source_refs": [
+        "oml--3-personality#16"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "oml-pers-big-five-f5",
+      "front": "Emotional Stability",
+      "back": "Ability to handle stress: calm, self-confident, secure vs nervous, depressed, insecure",
+      "kind": "term",
+      "source_refs": [
+        "oml--3-personality#16"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "oml-pers-big-five-f6",
+      "front": "Openness to Experience",
+      "back": "Imaginative, creative, curious, artistic, sensitive, intellectual vs conventional and conservative",
+      "kind": "term",
+      "source_refs": [
+        "oml--3-personality#16"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "oml-pers-big-five-f7",
+      "front": "Why use the Big Five?",
+      "back": "Its five dimensions underlie all others and predict behavior in real-life situations",
+      "kind": "fact",
+      "source_refs": [
+        "oml--3-personality#15"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [
+    {
+      "id": "oml-pers-big-five-q-8ccd84d5",
+      "type": "mcq",
+      "stem": "Which Big Five trait measures the ability to handle stress?",
+      "options": [
+        "Emotional Stability",
+        "Conscientiousness",
+        "Agreeableness",
+        "Extroversion"
+      ],
+      "answer": "Emotional Stability",
+      "accept": [],
+      "explanation": "Emotional stability is calm, secure and self-confident versus nervous and insecure.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "define",
+      "source_refs": [
+        "oml--3-personality#16"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "oml-pers-big-five-q-b0fd95c1",
+      "type": "mcq",
+      "stem": "An employee is responsible, dependable, determined and organized. Which Big Five trait is high?",
+      "options": [
+        "Conscientiousness",
+        "Openness to experience",
+        "Agreeableness",
+        "Extroversion"
+      ],
+      "answer": "Conscientiousness",
+      "accept": [],
+      "explanation": "Conscientiousness is the measure of reliability.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "case",
+      "source_refs": [
+        "oml--3-personality#16"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "oml-pers-big-five-q-1449f31f",
+      "type": "mcq",
+      "stem": "Imaginative, creative, curious and artistic people score high on which trait?",
+      "options": [
+        "Openness to experience",
+        "Extroversion",
+        "Emotional Stability",
+        "Agreeableness"
+      ],
+      "answer": "Openness to experience",
+      "accept": [],
+      "explanation": "The opposite is conventional and conservative, comfortable with the familiar.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "define",
+      "source_refs": [
+        "oml--3-personality#16"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "oml-pers-big-five-q-ea24e6ff",
+      "type": "mcq",
+      "stem": "A team member is sociable, expressive and self-assured. Which trait does this show?",
+      "options": [
+        "Extroversion",
+        "Agreeableness",
+        "Conscientiousness",
+        "Emotional Stability"
+      ],
+      "answer": "Extroversion",
+      "accept": [],
+      "explanation": "Extroversion is sociable, expressive and self-assured and confident.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "case",
+      "source_refs": [
+        "oml--3-personality#16"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "oml-pers-big-five-q-cfb1dc39",
+      "type": "mcq",
+      "stem": "Why is the Big Five considered useful?",
+      "options": [
+        "Its scores predict behavior in a variety of real-life situations",
+        "It gives 16 types",
+        "It measures cardiac risk",
+        "It replaces job analysis"
+      ],
+      "answer": "Its scores predict behavior in a variety of real-life situations",
+      "accept": [],
+      "explanation": "The slide says test scores do a very good job of predicting behavior in real-life situations.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "oml--3-personality#15",
+        "oml--3-personality#13",
+        "oml--3-personality#28"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "oml-pers-big-five-q-4d59c0df",
+      "type": "short",
+      "stem": "List the Big Five personality traits and give a one-line description of each.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The **Big Five** are five basic dimensions that underlie all others:\n- **Extroversion**: sociable, expressive, self-assured and confident.\n- **Agreeableness**: good-natured, cooperative and trusting.\n- **Conscientiousness**: responsible, dependable, determined, organized (reliability).\n- **Emotional Stability**: calm, self-confident, secure versus nervous, depressed, insecure (handling stress).\n- **Openness to Experience**: imaginative, creative, curious, artistic versus conventional.",
+      "rubric": [
+        {
+          "point": "Extroversion",
+          "source_ref": "oml--3-personality#16"
+        },
+        {
+          "point": "Agreeableness",
+          "source_ref": "oml--3-personality#16"
+        },
+        {
+          "point": "Conscientiousness",
+          "source_ref": "oml--3-personality#16"
+        },
+        {
+          "point": "Emotional Stability",
+          "source_ref": "oml--3-personality#16"
+        },
+        {
+          "point": "Openness to Experience",
+          "source_ref": "oml--3-personality#16"
+        }
+      ],
+      "marks": 5.0,
+      "difficulty": 1,
+      "style_tag": "list",
+      "source_refs": [
+        "oml--3-personality#15",
+        "oml--3-personality#16"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "oml-pers-big-five-q-9e7e2a57",
+      "type": "short",
+      "stem": "Explain conscientiousness and emotional stability with a workplace example for each.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Conscientiousness** is a measure of reliability: responsible, dependable, determined and organized. Example: an employee who meets every deadline and keeps work organized.\n\n**Emotional Stability** is the ability to handle stress: calm, self-confident and secure on the positive side, nervous, depressed and insecure on the negative side. Example: a manager who stays calm under pressure, versus one who becomes nervous and insecure.\n\nBoth help predict behavior at work.",
+      "rubric": [
+        {
+          "point": "Conscientiousness defined as reliability",
+          "source_ref": "oml--3-personality#16"
+        },
+        {
+          "point": "Workplace example for conscientiousness",
+          "source_ref": "oml--3-personality#16"
+        },
+        {
+          "point": "Emotional stability defined as handling stress",
+          "source_ref": "oml--3-personality#16"
+        },
+        {
+          "point": "Workplace example for emotional stability",
+          "source_ref": "oml--3-personality#16"
+        }
+      ],
+      "marks": 5.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "oml--3-personality#16"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "oml-pers-big-five-q-6b78448a",
+      "type": "short",
+      "stem": "Differentiate between the Big Five model and the MBTI.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The **MBTI** classifies people on four pairs (E/I, S/N, T/F, J/P) from a 100-question test into 16 types, and its results tend to be unrelated to job performance.\n\nThe **Big Five** uses five basic dimensions (Extroversion, Agreeableness, Conscientiousness, Emotional Stability, Openness) that underlie all others, and its scores predict behavior in many real-life situations.\n\nIn short, MBTI sorts people into types; the Big Five describes five dimensions and predicts behavior better.",
+      "rubric": [
+        {
+          "point": "MBTI: four pairs and 16 types",
+          "source_ref": "oml--3-personality#11"
+        },
+        {
+          "point": "MBTI unrelated to job performance",
+          "source_ref": "oml--3-personality#14"
+        },
+        {
+          "point": "Big Five: five dimensions",
+          "source_ref": "oml--3-personality#15"
+        },
+        {
+          "point": "Big Five predicts behavior in real-life situations",
+          "source_ref": "oml--3-personality#15"
+        }
+      ],
+      "marks": 5.0,
+      "difficulty": 2,
+      "style_tag": "differentiate",
+      "source_refs": [
+        "oml--3-personality#11",
+        "oml--3-personality#13",
+        "oml--3-personality#14",
+        "oml--3-personality#15",
+        "oml--3-personality#16"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "oml-pers-big-five-q-7b92677e",
+      "type": "long",
+      "stem": "Apply the Big Five Personality Model to an organizational situation, showing how the traits influence employee behaviour and performance.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The **Big Five** has five basic dimensions that underlie all others, and test scores predict how people behave in real-life situations, so it is useful for understanding employees.\n\nConsider a team in an organization:\n- **Extroversion**: a sociable, expressive and confident member leads discussions and handles clients.\n- **Agreeableness**: a good-natured, cooperative and trusting member builds team harmony.\n- **Conscientiousness**: a responsible, dependable and organized member delivers reliably; this is the measure of reliability.\n- **Emotional Stability**: a calm, secure member keeps performing under stress, while a nervous or insecure member struggles when pressure rises.\n- **Openness to Experience**: an imaginative, curious member generates new ideas, while a conventional member prefers the familiar.\n\nA manager can use this to place people in roles that fit, for example a calm and dependable person for high-pressure work. This supports personality-job fit, which leads to excellence and job satisfaction.\n\nConclusion: the Big Five helps explain and predict behavior and performance.",
+      "rubric": [
+        {
+          "point": "Big Five dimensions identified",
+          "source_ref": "oml--3-personality#15"
+        },
+        {
+          "point": "Extroversion and Agreeableness applied",
+          "source_ref": "oml--3-personality#16"
+        },
+        {
+          "point": "Conscientiousness and Emotional Stability applied",
+          "source_ref": "oml--3-personality#16"
+        },
+        {
+          "point": "Openness applied",
+          "source_ref": "oml--3-personality#16"
+        },
+        {
+          "point": "Links to behavior and performance, personality-job fit",
+          "source_ref": "oml--3-personality#8"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 2,
+      "style_tag": "case",
+      "source_refs": [
+        "oml--3-personality#8",
+        "oml--3-personality#15",
+        "oml--3-personality#16"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "oml-pers-big-five-q-fbc33e17",
+      "type": "long",
+      "stem": "Explain the Big Five model fully and discuss how a manager could use it to build a team.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The **Big Five** is a personality assessment model with five basic dimensions that underlie all others and cover most significant variation in human personality. Scores predict behavior in many real-life situations.\n\n**The five traits**: Extroversion (sociable, expressive, self-assured), Agreeableness (good-natured, cooperative, trusting), Conscientiousness (responsible, dependable, determined, organized; reliability), Emotional Stability (calm, self-confident, secure; ability to handle stress) and Openness to Experience (imaginative, creative, curious, artistic versus conventional).\n\n**Team building**: a manager can look for a mix. Extroverts help with communication, agreeable people with cooperation, conscientious people with reliable delivery, emotionally stable people for stressful tasks and open people for creative work. Matching traits to job needs gives personality-job fit, which leads to excellence and job satisfaction.\n\nConclusion: because the dimensions predict behavior, the Big Five is a practical guide for placing people and managing teams.",
+      "rubric": [
+        {
+          "point": "Big Five definition and predictive power",
+          "source_ref": "oml--3-personality#15"
+        },
+        {
+          "point": "All five traits described",
+          "source_ref": "oml--3-personality#16"
+        },
+        {
+          "point": "Reliability and stress handling noted",
+          "source_ref": "oml--3-personality#16"
+        },
+        {
+          "point": "Team application with trait mix",
+          "source_ref": "oml--3-personality#16"
+        },
+        {
+          "point": "Personality-job fit link",
+          "source_ref": "oml--3-personality#8"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 3,
+      "style_tag": "explain",
+      "source_refs": [
+        "oml--3-personality#8",
+        "oml--3-personality#15",
+        "oml--3-personality#16"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "explain_back": {
+    "prompt": "Explain the Big Five personality model and apply it to an organizational situation.",
+    "rubric": [
+      {
+        "point": "Big Five: five basic dimensions that underlie all others and predict behavior",
+        "source_ref": "oml--3-personality#15"
+      },
+      {
+        "point": "Extroversion and Agreeableness described correctly",
+        "source_ref": "oml--3-personality#16"
+      },
+      {
+        "point": "Conscientiousness (reliability) and Emotional Stability (handling stress) described correctly",
+        "source_ref": "oml--3-personality#16"
+      },
+      {
+        "point": "Openness to experience: imaginative and curious versus conventional",
+        "source_ref": "oml--3-personality#16"
+      },
+      {
+        "point": "Links at least two traits to a work situation, e.g. a dependable organized employee or a calm manager under stress",
+        "source_ref": "oml--3-personality#16"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

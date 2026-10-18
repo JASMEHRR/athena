@@ -1,0 +1,834 @@
+{
+  "id": "oml-found-abilities",
+  "subject_id": "oml",
+  "deck_id": "oml--2-foundations-of-individual-behaviour",
+  "title": "Abilities: intellectual, physical and ability-job fit",
+  "order": 3,
+  "summary": "The seven intellectual dimensions, intelligence and job performance, physical ability and ability-job fit.",
+  "est_minutes": 25,
+  "difficulty": 2,
+  "source_refs": [
+    "oml--2-foundations-of-individual-behaviour#7",
+    "oml--2-foundations-of-individual-behaviour#8",
+    "oml--2-foundations-of-individual-behaviour#9",
+    "oml--2-foundations-of-individual-behaviour#14",
+    "oml--2-foundations-of-individual-behaviour#15"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "oml-found-abilities-c1",
+      "heading": "Intellectual ability and its seven dimensions",
+      "explanation_md": "**Intellectual ability** is the capacity to do **mental activities**: thinking, reasoning and problem solving. It has **7 dimensions**, each with a job example:\n\n1. **Number aptitude**: work quickly and accurately with numbers. An accountant calculating financial statements without errors.\n2. **Verbal comprehension**: understand and interpret written or spoken words. A lawyer reading complex legal documents.\n3. **Perceptual speed**: identify visual details quickly and accurately. A quality inspector spotting defects on a production line in seconds.\n4. **Inductive reasoning**: identify patterns from specific information to reach general conclusions. A detective linking clues to solve a crime.\n5. **Deductive reasoning**: apply general rules to specific problems. A doctor diagnosing a patient from known symptoms and medical principles.\n6. **Spatial visualization**: imagine how objects look in space and can be arranged. An architect visualizing a building design before drawing it.\n7. **Memory**: recall past experiences, facts and information accurately. A tour guide remembering facts about many monuments.",
+      "example_ids": [
+        "oml-ex-found-accountant",
+        "oml-ex-found-lawyer",
+        "oml-ex-found-inspector",
+        "oml-ex-found-detective",
+        "oml-ex-found-doctor",
+        "oml-ex-found-architect",
+        "oml-ex-found-tour-guide"
+      ],
+      "key_terms": [
+        {
+          "term": "Intellectual ability",
+          "meaning": "The capacity to do mental activities: thinking, reasoning and problem solving.",
+          "source_ref": "oml--2-foundations-of-individual-behaviour#7"
+        }
+      ],
+      "exam_line": "Seven dimensions: number aptitude, verbal comprehension, perceptual speed, inductive reasoning, deductive reasoning, spatial visualization, memory.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "oml-found-abilities-q-985789e1",
+          "type": "mcq",
+          "stem": "An architect visualizing a building design before drawing it shows which dimension?",
+          "options": [
+            "Spatial visualization",
+            "Perceptual speed",
+            "Number aptitude",
+            "Memory"
+          ],
+          "answer": "Spatial visualization",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "oml--2-foundations-of-individual-behaviour#7"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "oml-found-abilities-q-b47484b1",
+          "type": "mcq",
+          "stem": "A quality inspector spotting defects within seconds shows which dimension?",
+          "options": [
+            "Perceptual speed",
+            "Verbal comprehension",
+            "Deductive reasoning",
+            "Number aptitude"
+          ],
+          "answer": "Perceptual speed",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "oml--2-foundations-of-individual-behaviour#7"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "oml-found-abilities-q-f86724d1",
+          "type": "fill",
+          "stem": "Intellectual ability has ____ dimensions.",
+          "options": [],
+          "answer": "7",
+          "accept": [
+            "seven"
+          ],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "oml--2-foundations-of-individual-behaviour#7"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "oml--2-foundations-of-individual-behaviour#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "oml-found-abilities-c2",
+      "heading": "Inductive vs deductive reasoning",
+      "explanation_md": "**Inductive reasoning** uses **specific examples to make a general rule**, finding patterns or stereotypes. The flow: **Observation, Pattern, Tentative Hypothesis, Theory**. Example: a detective linking clues.\n\n**Deductive reasoning** takes a **general rule and uses it to make a more specific example**, drawing conclusions from previously known facts and definitions. The flow: **Theory, Hypothesis, Observation, Confirmation**. Example: a doctor diagnosing from known symptoms and principles.",
+      "example_ids": [
+        "oml-ex-found-detective",
+        "oml-ex-found-doctor"
+      ],
+      "key_terms": [
+        {
+          "term": "Inductive reasoning",
+          "meaning": "Uses specific examples to make a general rule; observation, pattern, tentative hypothesis, theory.",
+          "source_ref": "oml--2-foundations-of-individual-behaviour#7"
+        },
+        {
+          "term": "Deductive reasoning",
+          "meaning": "Takes a general rule and uses it to make a more specific example; theory, hypothesis, observation, confirmation.",
+          "source_ref": "oml--2-foundations-of-individual-behaviour#7"
+        }
+      ],
+      "exam_line": "Inductive: specific to general (observation, pattern, tentative hypothesis, theory). Deductive: general to specific (theory, hypothesis, observation, confirmation).",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "oml-found-abilities-q-3ff34878",
+          "type": "mcq",
+          "stem": "Which flow describes deductive reasoning?",
+          "options": [
+            "Theory, hypothesis, observation, confirmation",
+            "Observation, pattern, tentative hypothesis, theory",
+            "Memory, speed, pattern, number",
+            "Cognitive, social, emotional, cultural"
+          ],
+          "answer": "Theory, hypothesis, observation, confirmation",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "oml--2-foundations-of-individual-behaviour#7",
+            "oml--2-foundations-of-individual-behaviour#10"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "oml-found-abilities-q-8b14ec83",
+          "type": "true_false",
+          "stem": "Inductive reasoning uses specific examples to make a general rule.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "oml--2-foundations-of-individual-behaviour#7"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "oml--2-foundations-of-individual-behaviour#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "oml-found-abilities-c3",
+      "heading": "Intelligence and job performance",
+      "explanation_md": "**Intelligence is one of the predictors of job performance**, so IQ tests are used as hiring tools. But the **correlation between intelligence and job satisfaction is about zero**: it does not make people happier or more satisfied with their jobs. Different jobs place different demands on intellectual abilities, including **information-processing demands**.\n\nWhy are intelligent people good performers? They are **more creative**, **learn jobs more quickly**, are **more adaptable** to changing circumstances and are **better at inventing solutions**. That makes intelligence a key element in hiring and one of the better predictors of performance across all types of jobs.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "Intelligence predicts job performance across jobs (creative, learn faster, adaptable, better at solutions) but its correlation with job satisfaction is about zero.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "oml-found-abilities-q-0f3f96b4",
+          "type": "mcq",
+          "stem": "What does the deck say about intelligence and job satisfaction?",
+          "options": [
+            "The correlation is about zero",
+            "They are strongly positive",
+            "They are strongly negative",
+            "Smart people are always happier"
+          ],
+          "answer": "The correlation is about zero",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "oml--2-foundations-of-individual-behaviour#8",
+            "oml--2-foundations-of-individual-behaviour#9"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "oml-found-abilities-q-27731790",
+          "type": "mcq",
+          "stem": "Which is NOT given as a reason intelligent people perform well?",
+          "options": [
+            "They always lead better",
+            "They learn jobs more quickly",
+            "They are more adaptable",
+            "They are more creative"
+          ],
+          "answer": "They always lead better",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "oml--2-foundations-of-individual-behaviour#9",
+            "oml--2-foundations-of-individual-behaviour#13"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "oml--2-foundations-of-individual-behaviour#8",
+        "oml--2-foundations-of-individual-behaviour#9"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "oml-found-abilities-c4",
+      "heading": "Physical ability and ability-job fit",
+      "explanation_md": "**Physical ability** is the capacity to do tasks demanding **stamina, strength** and similar characteristics. The slide lists strength factors, flexibility factors and other factors such as body coordination, balance and stamina.\n\n**Ability-job fit** is about matching the **employee's abilities** with the **job's ability requirements**. Two mismatches:\n- **Low abilities, high requirements**: performance is **inadequate**.\n- **High abilities, low requirements**: **organizational inefficiencies** and **reduced job satisfaction**.\n\nFit matters in both directions.",
+      "example_ids": [
+        "oml-ex-found-ability-job"
+      ],
+      "key_terms": [
+        {
+          "term": "Physical ability",
+          "meaning": "The capacity to do tasks demanding stamina, strength and similar characteristics.",
+          "source_ref": "oml--2-foundations-of-individual-behaviour#14"
+        },
+        {
+          "term": "Ability-job fit",
+          "meaning": "Matching an employee's abilities to the job's ability requirements.",
+          "source_ref": "oml--2-foundations-of-individual-behaviour#15"
+        }
+      ],
+      "exam_line": "Ability-job fit: low ability with high requirements gives inadequate performance; high ability with low requirements gives inefficiency and lower job satisfaction.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "oml-found-abilities-q-125a8fe1",
+          "type": "mcq",
+          "stem": "High employee abilities with low job requirements leads to",
+          "options": [
+            "Organizational inefficiencies and reduced job satisfaction",
+            "Inadequate performance",
+            "Perfect fit",
+            "Higher turnover only"
+          ],
+          "answer": "Organizational inefficiencies and reduced job satisfaction",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "oml--2-foundations-of-individual-behaviour#15"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "oml-found-abilities-q-09e088bf",
+          "type": "fill",
+          "stem": "Physical ability is the capacity to do tasks demanding stamina, ____ and similar characteristics.",
+          "options": [],
+          "answer": "strength",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "oml--2-foundations-of-individual-behaviour#14"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "oml--2-foundations-of-individual-behaviour#14",
+        "oml--2-foundations-of-individual-behaviour#15"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "oml-found-abilities-f1",
+      "front": "Intellectual ability",
+      "back": "Capacity to do mental activities: thinking, reasoning and problem solving",
+      "kind": "term",
+      "source_refs": [
+        "oml--2-foundations-of-individual-behaviour#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "oml-found-abilities-f2",
+      "front": "Seven dimensions of intellectual ability",
+      "back": "Number aptitude, verbal comprehension, perceptual speed, inductive reasoning, deductive reasoning, spatial visualization, memory",
+      "kind": "list",
+      "source_refs": [
+        "oml--2-foundations-of-individual-behaviour#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "oml-found-abilities-f3",
+      "front": "Accountant calculating statements without errors",
+      "back": "Number aptitude",
+      "kind": "example",
+      "source_refs": [
+        "oml--2-foundations-of-individual-behaviour#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "oml-found-abilities-f4",
+      "front": "Lawyer reading complex legal documents",
+      "back": "Verbal comprehension",
+      "kind": "example",
+      "source_refs": [
+        "oml--2-foundations-of-individual-behaviour#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "oml-found-abilities-f5",
+      "front": "Detective linking clues",
+      "back": "Inductive reasoning",
+      "kind": "example",
+      "source_refs": [
+        "oml--2-foundations-of-individual-behaviour#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "oml-found-abilities-f6",
+      "front": "Doctor diagnosing from known symptoms",
+      "back": "Deductive reasoning",
+      "kind": "example",
+      "source_refs": [
+        "oml--2-foundations-of-individual-behaviour#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "oml-found-abilities-f7",
+      "front": "Inductive vs deductive",
+      "back": "Inductive: specific examples to a general rule. Deductive: general rule to a specific example",
+      "kind": "term",
+      "source_refs": [
+        "oml--2-foundations-of-individual-behaviour#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "oml-found-abilities-f8",
+      "front": "Intelligence and job satisfaction",
+      "back": "Correlation is about zero",
+      "kind": "fact",
+      "source_refs": [
+        "oml--2-foundations-of-individual-behaviour#8"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "oml-found-abilities-f9",
+      "front": "Why intelligent people perform well",
+      "back": "More creative, learn faster, more adaptable, better at inventing solutions",
+      "kind": "list",
+      "source_refs": [
+        "oml--2-foundations-of-individual-behaviour#9"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "oml-found-abilities-f10",
+      "front": "Physical ability",
+      "back": "Capacity for tasks demanding stamina, strength and similar characteristics",
+      "kind": "term",
+      "source_refs": [
+        "oml--2-foundations-of-individual-behaviour#14"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "oml-found-abilities-f11",
+      "front": "Ability-job fit mismatches",
+      "back": "Low ability and high requirements: inadequate performance. High ability and low requirements: inefficiency and lower satisfaction",
+      "kind": "fact",
+      "source_refs": [
+        "oml--2-foundations-of-individual-behaviour#15"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [
+    {
+      "id": "oml-found-abilities-q-0ad79e8c",
+      "type": "mcq",
+      "stem": "A doctor diagnosing a patient from known symptoms and medical principles shows which dimension?",
+      "options": [
+        "Deductive reasoning",
+        "Inductive reasoning",
+        "Memory",
+        "Perceptual speed"
+      ],
+      "answer": "Deductive reasoning",
+      "accept": [],
+      "explanation": "Deductive reasoning applies general rules to specific problems.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "case",
+      "source_refs": [
+        "oml--2-foundations-of-individual-behaviour#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "oml-found-abilities-q-cb568385",
+      "type": "mcq",
+      "stem": "A tour guide remembering facts about many monuments shows which dimension?",
+      "options": [
+        "Memory",
+        "Number aptitude",
+        "Spatial visualization",
+        "Verbal comprehension"
+      ],
+      "answer": "Memory",
+      "accept": [],
+      "explanation": "Memory is recalling past experiences, facts and information accurately.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "case",
+      "source_refs": [
+        "oml--2-foundations-of-individual-behaviour#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "oml-found-abilities-q-cff0e912",
+      "type": "mcq",
+      "stem": "A lawyer reading complex legal documents shows which dimension?",
+      "options": [
+        "Verbal comprehension",
+        "Number aptitude",
+        "Inductive reasoning",
+        "Perceptual speed"
+      ],
+      "answer": "Verbal comprehension",
+      "accept": [],
+      "explanation": "Understanding written or spoken words.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "case",
+      "source_refs": [
+        "oml--2-foundations-of-individual-behaviour#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "oml-found-abilities-q-135d27c1",
+      "type": "mcq",
+      "stem": "How strongly is intelligence linked to being satisfied with one's job, per the deck?",
+      "options": [
+        "The correlation is about zero",
+        "Intelligent people are always more satisfied",
+        "Intelligence lowers satisfaction sharply",
+        "Intelligence predicts satisfaction better than performance"
+      ],
+      "answer": "The correlation is about zero",
+      "accept": [],
+      "explanation": "Intelligence does not make people happier with their jobs.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "oml--2-foundations-of-individual-behaviour#8",
+        "oml--2-foundations-of-individual-behaviour#9"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "oml-found-abilities-q-62bea39c",
+      "type": "mcq",
+      "stem": "Low employee abilities matched with high job requirements results in",
+      "options": [
+        "inadequate performance",
+        "organizational inefficiencies",
+        "reduced job satisfaction only",
+        "a perfect fit"
+      ],
+      "answer": "inadequate performance",
+      "accept": [],
+      "explanation": "High abilities with low requirements causes inefficiency and lower satisfaction instead.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "oml--2-foundations-of-individual-behaviour#15"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "oml-found-abilities-q-699bf93f",
+      "type": "short",
+      "stem": "Differentiate between inductive and deductive reasoning with an example for each.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Inductive reasoning** uses specific examples to make a general rule, finding patterns. Flow: observation, pattern, tentative hypothesis, theory. Example: a detective linking clues to solve a crime.\n\n**Deductive reasoning** takes a general rule and uses it to make a more specific example, drawing conclusions from known facts and definitions. Flow: theory, hypothesis, observation, confirmation. Example: a doctor diagnosing a patient from known symptoms and medical principles.",
+      "rubric": [
+        {
+          "point": "Inductive: specific to general",
+          "source_ref": "oml--2-foundations-of-individual-behaviour#7"
+        },
+        {
+          "point": "Inductive flow and detective example",
+          "source_ref": "oml--2-foundations-of-individual-behaviour#7"
+        },
+        {
+          "point": "Deductive: general to specific",
+          "source_ref": "oml--2-foundations-of-individual-behaviour#7"
+        },
+        {
+          "point": "Deductive flow and doctor example",
+          "source_ref": "oml--2-foundations-of-individual-behaviour#7"
+        }
+      ],
+      "marks": 5.0,
+      "difficulty": 2,
+      "style_tag": "differentiate",
+      "source_refs": [
+        "oml--2-foundations-of-individual-behaviour#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "oml-found-abilities-q-49ce3cb9",
+      "type": "short",
+      "stem": "Why are intelligent people good job performers?",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Intelligence is one of the better predictors of performance across all types of jobs and is a key element in hiring. Intelligent people are **more creative**, **learn jobs more quickly**, are **more adaptable to changing circumstances** and are **better at inventing solutions**.\n\nHowever, the correlation between intelligence and job satisfaction is about zero.",
+      "rubric": [
+        {
+          "point": "More creative",
+          "source_ref": "oml--2-foundations-of-individual-behaviour#9"
+        },
+        {
+          "point": "Learn jobs quickly",
+          "source_ref": "oml--2-foundations-of-individual-behaviour#9"
+        },
+        {
+          "point": "More adaptable",
+          "source_ref": "oml--2-foundations-of-individual-behaviour#9"
+        },
+        {
+          "point": "Better at inventing solutions",
+          "source_ref": "oml--2-foundations-of-individual-behaviour#9"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 1,
+      "style_tag": "explain",
+      "source_refs": [
+        "oml--2-foundations-of-individual-behaviour#8",
+        "oml--2-foundations-of-individual-behaviour#9"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "oml-found-abilities-q-d2774c96",
+      "type": "short",
+      "stem": "Explain ability-job fit and its consequences when it is missing.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Ability-job fit** is the match between the employee's abilities and the job's ability requirements.\n\nIf abilities are low and requirements high, **performance is inadequate**. If abilities are high and requirements low, the result is **organizational inefficiencies** and **reduced job satisfaction**.\n\nManagers should match people to jobs in both directions.",
+      "rubric": [
+        {
+          "point": "Definition of fit",
+          "source_ref": "oml--2-foundations-of-individual-behaviour#15"
+        },
+        {
+          "point": "Low ability and high requirements: inadequate performance",
+          "source_ref": "oml--2-foundations-of-individual-behaviour#15"
+        },
+        {
+          "point": "High ability and low requirements: inefficiency",
+          "source_ref": "oml--2-foundations-of-individual-behaviour#15"
+        },
+        {
+          "point": "Reduced job satisfaction",
+          "source_ref": "oml--2-foundations-of-individual-behaviour#15"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "oml--2-foundations-of-individual-behaviour#15"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "oml-found-abilities-q-0c163f3e",
+      "type": "long",
+      "stem": "Explain intellectual ability and its seven dimensions, giving a job example for each.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Intellectual ability** is the capacity to do mental activities: thinking, reasoning and problem solving. It has seven dimensions.\n\n1. **Number aptitude**: working quickly and accurately with numbers, e.g. an accountant calculating financial statements without errors.\n2. **Verbal comprehension**: understanding written or spoken words, e.g. a lawyer reading complex legal documents.\n3. **Perceptual speed**: spotting visual details quickly, e.g. a quality inspector finding defects in seconds.\n4. **Inductive reasoning**: from specific information to a general conclusion, e.g. a detective linking clues.\n5. **Deductive reasoning**: applying general rules to specific problems, e.g. a doctor diagnosing from known symptoms.\n6. **Spatial visualization**: imagining objects in space, e.g. an architect visualizing a design.\n7. **Memory**: recalling facts accurately, e.g. a tour guide remembering monument facts.\n\nConclusion: different jobs place different demands on these abilities.",
+      "rubric": [
+        {
+          "point": "Definition of intellectual ability",
+          "source_ref": "oml--2-foundations-of-individual-behaviour#7"
+        },
+        {
+          "point": "Number aptitude and verbal comprehension with examples",
+          "source_ref": "oml--2-foundations-of-individual-behaviour#7"
+        },
+        {
+          "point": "Perceptual speed with example",
+          "source_ref": "oml--2-foundations-of-individual-behaviour#7"
+        },
+        {
+          "point": "Inductive and deductive reasoning with examples",
+          "source_ref": "oml--2-foundations-of-individual-behaviour#7"
+        },
+        {
+          "point": "Spatial visualization and memory with examples",
+          "source_ref": "oml--2-foundations-of-individual-behaviour#7"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "oml--2-foundations-of-individual-behaviour#7",
+        "oml--2-foundations-of-individual-behaviour#8"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "oml-found-abilities-q-fa90e156",
+      "type": "long",
+      "stem": "A firm hires a highly qualified person for a very simple job and another weaker person for a demanding one. Apply ability-job fit and the deck's views on intelligence to explain the likely outcomes and the lessons for hiring.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Ability-job fit** matches the employee's abilities to the job's ability requirements.\n\n**Highly qualified person in a simple job**: high abilities with low requirements causes organizational inefficiencies and reduced job satisfaction.\n\n**Weaker person in a demanding job**: low abilities with high requirements causes inadequate performance.\n\n**Role of intelligence**: intelligence is one of the better predictors of performance across all types of jobs and a key element in hiring, because intelligent people learn jobs quickly, adapt, are more creative and invent solutions. But its correlation with job satisfaction is about zero, so a bright person is not automatically satisfied. Different jobs also place different demands on intellectual abilities.\n\n**Lessons**: assess the job's ability requirements, such as information-processing demands, and hire for fit in both directions rather than just maximum ability.\n\nConclusion: good hiring balances ability against requirements.",
+      "rubric": [
+        {
+          "point": "High ability, low requirements outcome",
+          "source_ref": "oml--2-foundations-of-individual-behaviour#15"
+        },
+        {
+          "point": "Low ability, high requirements outcome",
+          "source_ref": "oml--2-foundations-of-individual-behaviour#15"
+        },
+        {
+          "point": "Intelligence predicts performance, not satisfaction",
+          "source_ref": "oml--2-foundations-of-individual-behaviour#8"
+        },
+        {
+          "point": "Why intelligent people perform well",
+          "source_ref": "oml--2-foundations-of-individual-behaviour#9"
+        },
+        {
+          "point": "Hiring lesson: match both ways",
+          "source_ref": "oml--2-foundations-of-individual-behaviour#15"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 3,
+      "style_tag": "case",
+      "source_refs": [
+        "oml--2-foundations-of-individual-behaviour#8",
+        "oml--2-foundations-of-individual-behaviour#9",
+        "oml--2-foundations-of-individual-behaviour#15"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "explain_back": {
+    "prompt": "Explain intellectual ability, its seven dimensions with examples, and why ability-job fit matters.",
+    "rubric": [
+      {
+        "point": "Intellectual ability: capacity for thinking, reasoning and problem solving",
+        "source_ref": "oml--2-foundations-of-individual-behaviour#7"
+      },
+      {
+        "point": "Seven dimensions listed",
+        "source_ref": "oml--2-foundations-of-individual-behaviour#7"
+      },
+      {
+        "point": "Job examples such as accountant for number aptitude and lawyer for verbal comprehension",
+        "source_ref": "oml--2-foundations-of-individual-behaviour#7"
+      },
+      {
+        "point": "Intelligence predicts job performance but not job satisfaction",
+        "source_ref": "oml--2-foundations-of-individual-behaviour#8"
+      },
+      {
+        "point": "Ability-job fit: both low-high and high-low mismatches cause problems",
+        "source_ref": "oml--2-foundations-of-individual-behaviour#15"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}
