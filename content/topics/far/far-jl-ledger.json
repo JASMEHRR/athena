@@ -1,0 +1,1483 @@
+{
+  "id": "far-jl-ledger",
+  "subject_id": "far",
+  "deck_id": "far--4-co3-journal-ledger-tb",
+  "title": "The ledger: posting and balancing accounts",
+  "order": 4,
+  "summary": "What the ledger is, its two-sided format, a Cash T-account question, and the ledger accounts for M/S Manish Malhotra.",
+  "est_minutes": 20,
+  "difficulty": 2,
+  "source_refs": [
+    "far--4-co3-journal-ledger-tb#9",
+    "far--4-co3-journal-ledger-tb#11",
+    "far--4-co3-journal-ledger-tb#4",
+    "far--4-co3-journal-ledger-tb#10",
+    "far--4-co3-journal-ledger-tb#13",
+    "far--4-co3-journal-ledger-tb#14"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "far-jl-ledger-c1",
+      "heading": "What the ledger is and how it is laid out",
+      "explanation_md": "The **ledger** is the **principal book of the accounting system**. It holds the different accounts, and the transactions that relate to each account are recorded in that account.\n\nThe format has a **Dr.** side on the left and a **Cr.** side on the right. Each side has the same columns: **Date**, **Particulars**, **J.F.** and **Amount (₹)**.\n\nPosting means taking each journal entry and writing the debit amount on the debit side of one account and the credit amount on the credit side of the other. The journal uses the L.F. column; the ledger uses J.F.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Ledger",
+          "meaning": "The principal book of the accounting system, containing the different accounts where transactions relating to each account are recorded.",
+          "source_ref": "far--4-co3-journal-ledger-tb#9"
+        }
+      ],
+      "exam_line": "The ledger is the principal book of accounts. Format: Dr. side and Cr. side, each with Date, Particulars, J.F. and Amount.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "far-jl-ledger-q-365e38db",
+          "type": "mcq",
+          "stem": "How does the slide describe the ledger?",
+          "options": [
+            "The principal book of the accounting system",
+            "A statement of the balances of all accounts",
+            "The first record of a transaction",
+            "A list of adjusting entries"
+          ],
+          "answer": "The principal book of the accounting system",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--4-co3-journal-ledger-tb#9",
+            "far--4-co3-journal-ledger-tb#15",
+            "far--4-co3-journal-ledger-tb#4"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-jl-ledger-q-7489bdfa",
+          "type": "mcq",
+          "stem": "Which column heading is used in the ledger format, but not in the journal format?",
+          "options": [
+            "J.F.",
+            "L.F.",
+            "Date",
+            "Particulars"
+          ],
+          "answer": "J.F.",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--4-co3-journal-ledger-tb#9",
+            "far--4-co3-journal-ledger-tb#11",
+            "far--4-co3-journal-ledger-tb#4"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-jl-ledger-q-8569fdc6",
+          "type": "true_false",
+          "stem": "The ledger format has a debit side and a credit side, each with its own date, particulars and amount.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--4-co3-journal-ledger-tb#9",
+            "far--4-co3-journal-ledger-tb#11"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#9",
+        "far--4-co3-journal-ledger-tb#11",
+        "far--4-co3-journal-ledger-tb#4"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-ledger-c2",
+      "heading": "Cash T-account: classify, post and find the balance",
+      "explanation_md": "The question gives three journal entries and asks for three things: **classify each account and say its normal balance**, **post to the Cash account in T-account format** (opening balance 10,000 on March 1), and **find the closing cash balance**.\n\nThe entries are:\n\n- March 2: **Cash A/c Dr, To Paid-in Capital** 3,00,000 (capital issued).\n- March 31: **Salary Expense A/c Dr, To Salary Payable A/c** 50,000 (accrued wages owed).\n- April 1: **Supplies A/c Dr, To Cash A/c** 90,000 (cash paid for supplies).\n\n**Normal balances:** Cash is an asset, so debit. Supplies is an asset, so debit. Salary Expense is an expense, so debit. Paid-in Capital is on the credit side. Salary Payable is a payable, so credit.\n\n**Cash T-account:** Debit side: opening balance 10,000 and March 2 capital 3,00,000. Credit side: April 1 supplies 90,000. The salary entry does not touch Cash.\n\n**Balance:** 10,000 + 3,00,000 - 90,000 = **₹2,20,000 debit**.",
+      "example_ids": [
+        "far-ex-ex-cash-tacct"
+      ],
+      "key_terms": [],
+      "exam_line": "Cash closing balance: 10,000 + 3,00,000 - 90,000 = 2,20,000 (debit). The salary accrual does not touch Cash.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "far-jl-ledger-q-b5c2a595",
+          "type": "mcq",
+          "stem": "What is the Cash balance after the three transactions, with an opening balance of 10,000?",
+          "options": [
+            "₹2,20,000",
+            "₹3,10,000",
+            "₹2,70,000",
+            "₹1,60,000"
+          ],
+          "answer": "₹2,20,000",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--4-co3-journal-ledger-tb#10"
+          ],
+          "derived": [
+            "1,60,000",
+            "10,000",
+            "10000",
+            "160000",
+            "2,20,000",
+            "2,70,000",
+            "220000",
+            "270000",
+            "3,00,000",
+            "3,10,000",
+            "300000",
+            "310000",
+            "50,000",
+            "50000",
+            "90,000",
+            "90000"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-jl-ledger-q-a7cb122c",
+          "type": "mcq",
+          "stem": "Which of the three entries has no effect on the Cash account?",
+          "options": [
+            "The accrued salary entry on March 31",
+            "The capital entry on March 2",
+            "The supplies entry on April 1",
+            "All three affect Cash"
+          ],
+          "answer": "The accrued salary entry on March 31",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--4-co3-journal-ledger-tb#10"
+          ],
+          "derived": [
+            "1,60,000",
+            "10,000",
+            "10000",
+            "160000",
+            "2,20,000",
+            "2,70,000",
+            "220000",
+            "270000",
+            "3,00,000",
+            "3,10,000",
+            "300000",
+            "310000",
+            "50,000",
+            "50000",
+            "90,000",
+            "90000"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-jl-ledger-q-764231b4",
+          "type": "true_false",
+          "stem": "Salary Payable has a credit normal balance.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--4-co3-journal-ledger-tb#10",
+            "far--4-co3-journal-ledger-tb#16"
+          ],
+          "derived": [
+            "1,60,000",
+            "10,000",
+            "10000",
+            "160000",
+            "2,20,000",
+            "2,70,000",
+            "220000",
+            "270000",
+            "3,00,000",
+            "3,10,000",
+            "300000",
+            "310000",
+            "50,000",
+            "50000",
+            "90,000",
+            "90000"
+          ],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#10"
+      ],
+      "derived": [
+        "3,00,000",
+        "90,000",
+        "10,000",
+        "2,20,000",
+        "50,000",
+        "3,10,000",
+        "2,70,000",
+        "1,60,000",
+        "300000",
+        "90000",
+        "10000",
+        "220000",
+        "50000",
+        "310000",
+        "270000",
+        "160000"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-ledger-c3",
+      "heading": "Example 4: posting to the ledger (Cash, Bank, Capital)",
+      "explanation_md": "After the journal, each entry is posted to the two accounts it touches. The handwritten solution balances each account at the end (March 31, marked c/d for carried down).\n\n**Cash A/c.** Debit side: June 5 capital 2,00,000 and June 22 sales 15,000, total 2,15,000. Credit side: June 8 Bank 80,000, June 25 Gulmohar 30,000, June 30 Salary 6,000, total 1,16,000. **Balance c/d: 99,000** on the credit side, which brings the two sides level at 2,15,000.\n\n**Bank A/c.** Debit: June 8 cash 80,000 and June 28 Mohit Bros 10,000, total 90,000. Credit: June 12 machines 20,000 and June 18 rent 5,000, total 25,000. **Balance c/d: 65,000.**\n\n**Capital A/c.** Credit: June 5 cash 2,00,000. Balance c/d 2,00,000 on the debit side.",
+      "example_ids": [
+        "far-ex-ex4-manish"
+      ],
+      "key_terms": [],
+      "exam_line": "Ledger balances for Example 4: Cash 99,000; Bank 65,000; Capital 2,00,000.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "far-jl-ledger-q-6870dc1f",
+          "type": "mcq",
+          "stem": "What is the closing balance of the Bank A/c in Example 4?",
+          "options": [
+            "₹65,000",
+            "₹90,000",
+            "₹25,000",
+            "₹99,000"
+          ],
+          "answer": "₹65,000",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--4-co3-journal-ledger-tb#14",
+            "far--4-co3-journal-ledger-tb#13"
+          ],
+          "derived": [
+            "1,16,000",
+            "116000",
+            "2,00,000",
+            "2,15,000",
+            "200000",
+            "215000",
+            "25,000",
+            "25000",
+            "65,000",
+            "65000",
+            "90,000",
+            "90000",
+            "99,000",
+            "99000"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-jl-ledger-q-61b0b538",
+          "type": "fill",
+          "stem": "The closing balance of the Cash A/c in Example 4 is ₹____.",
+          "options": [],
+          "answer": "99,000",
+          "accept": [
+            "99000"
+          ],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--4-co3-journal-ledger-tb#13"
+          ],
+          "derived": [
+            "1,16,000",
+            "116000",
+            "2,00,000",
+            "2,15,000",
+            "200000",
+            "215000",
+            "25,000",
+            "25000",
+            "65,000",
+            "65000",
+            "90,000",
+            "90000",
+            "99,000",
+            "99000"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-jl-ledger-q-83a55f11",
+          "type": "mcq",
+          "stem": "In the Cash A/c, the June 22 amount of 15,000 is posted from which journal entry?",
+          "options": [
+            "Cash A/c Dr, To Sales A/c",
+            "Bank A/c Dr, To Cash A/c",
+            "Salary A/c Dr, To Cash A/c",
+            "Cash A/c Dr, To Capital A/c"
+          ],
+          "answer": "Cash A/c Dr, To Sales A/c",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--4-co3-journal-ledger-tb#13"
+          ],
+          "derived": [
+            "1,16,000",
+            "116000",
+            "2,00,000",
+            "2,15,000",
+            "200000",
+            "215000",
+            "25,000",
+            "25000",
+            "65,000",
+            "65000",
+            "90,000",
+            "90000",
+            "99,000",
+            "99000"
+          ],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#13",
+        "far--4-co3-journal-ledger-tb#14"
+      ],
+      "derived": [
+        "2,15,000",
+        "1,16,000",
+        "99,000",
+        "90,000",
+        "25,000",
+        "65,000",
+        "2,00,000",
+        "215000",
+        "116000",
+        "99000",
+        "90000",
+        "25000",
+        "65000",
+        "200000"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-ledger-c4",
+      "heading": "Example 4: the other ledger accounts",
+      "explanation_md": "The remaining accounts on the handwritten pages:\n\n- **Purchases A/c:** debit June 12, 30,000 (from Gulmohar); balance c/d 30,000.\n- **Sales A/c:** credit 10,000 (Mohit Bros) and 15,000 (cash); balance c/d **25,000**.\n- **M/s Mohit Bros A/c:** debit June 20, 10,000 (sales); credit June 28, 10,000 (bank). Nothing is left owing.\n- **M/s Gulmohar F.H. A/c:** credit June 12, 30,000 (purchases); debit June 25, 30,000 (cash). Nothing is left owing.\n- **Salary A/c:** debit June 30, 6,000; balance c/d 6,000.\n- **Machines A/c:** debit June 12, 20,000; balance c/d 20,000.\n- **Rent A/c:** debit June 18, 5,000; balance c/d 5,000.\n\nThe two party accounts end at nil because each was settled in full.",
+      "example_ids": [
+        "far-ex-ex4-manish"
+      ],
+      "key_terms": [],
+      "exam_line": "Sales A/c balance 25,000; the Mohit Bros and Gulmohar accounts are settled in full.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "far-jl-ledger-q-57dc961c",
+          "type": "mcq",
+          "stem": "What is the Sales A/c balance in Example 4?",
+          "options": [
+            "₹25,000",
+            "₹10,000",
+            "₹15,000",
+            "₹30,000"
+          ],
+          "answer": "₹25,000",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--4-co3-journal-ledger-tb#14"
+          ],
+          "derived": [
+            "25,000",
+            "25000"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-jl-ledger-q-5f39a144",
+          "type": "true_false",
+          "stem": "The account of M/s Mohit Bros has nothing left owing at the end because the cheque of 10,000 cleared the credit sale.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--4-co3-journal-ledger-tb#14",
+            "far--4-co3-journal-ledger-tb#13"
+          ],
+          "derived": [
+            "25,000",
+            "25000"
+          ],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#14"
+      ],
+      "derived": [
+        "25,000",
+        "25000"
+      ],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "far-jl-ledger-f1",
+      "front": "Ledger",
+      "back": "The principal book of the accounting system; contains the different accounts.",
+      "kind": "term",
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#9"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-ledger-f2",
+      "front": "Ledger format columns",
+      "back": "Dr. side and Cr. side, each with Date, Particulars, J.F. and Amount.",
+      "kind": "list",
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#9",
+        "far--4-co3-journal-ledger-tb#11"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-ledger-f3",
+      "front": "Cash T-account method",
+      "back": "Opening balance plus the capital received, less the supplies paid, gives the closing Cash balance; the salary accrual does not touch Cash.",
+      "kind": "formula",
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#10"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-ledger-f4",
+      "front": "Cash A/c in Example 4",
+      "back": "Debits: capital and cash sales. Credits: bank, Gulmohar and salary. Balance c/d 99,000.",
+      "kind": "fact",
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#13"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-ledger-f5",
+      "front": "Bank A/c in Example 4",
+      "back": "Debits: cash 80,000 and Mohit Bros 10,000. Credits: machines and rent. Balance c/d 65,000.",
+      "kind": "fact",
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#14"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-ledger-f6",
+      "front": "Sales A/c in Example 4",
+      "back": "Credits 10,000 and 15,000; balance 25,000.",
+      "kind": "fact",
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#14"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-ledger-f7",
+      "front": "Normal balances",
+      "back": "Assets, expenses and receivables debit; liabilities, revenues and payables credit.",
+      "kind": "list",
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#16"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [
+    {
+      "id": "far-jl-ledger-q-2001e621",
+      "type": "mcq",
+      "stem": "What is the closing balance of the Cash account in the T-account question, with an opening balance of 10,000, capital received of 3,00,000 and 90,000 paid for supplies?",
+      "options": [
+        "2,20,000 debit",
+        "3,10,000 debit",
+        "2,70,000 debit",
+        "3,10,000 credit"
+      ],
+      "answer": "2,20,000 debit",
+      "accept": [],
+      "explanation": "10,000 + 3,00,000 - 90,000 = 2,20,000.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#10"
+      ],
+      "derived": [
+        "1,16,000",
+        "10,000",
+        "10000",
+        "116000",
+        "15,000",
+        "15000",
+        "2,00,000",
+        "2,15,000",
+        "2,20,000",
+        "2,70,000",
+        "20,000",
+        "20000",
+        "200000",
+        "215000",
+        "220000",
+        "25,000",
+        "25000",
+        "270000",
+        "3,00,000",
+        "3,10,000",
+        "30,000",
+        "30000",
+        "300000",
+        "310000",
+        "5,000",
+        "50,000",
+        "5000",
+        "50000",
+        "6,000",
+        "6000",
+        "65,000",
+        "65000",
+        "80,000",
+        "80000",
+        "90,000",
+        "90000",
+        "99,000",
+        "99000"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-ledger-q-54e182e4",
+      "type": "mcq",
+      "stem": "After all June transactions of M/S Manish Malhotra are posted, the Bank A/c shows a balance of:",
+      "options": [
+        "65,000",
+        "90,000",
+        "25,000",
+        "99,000"
+      ],
+      "answer": "65,000",
+      "accept": [],
+      "explanation": "Debits 80,000 + 10,000 less credits 20,000 + 5,000.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "numerical",
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#14",
+        "far--4-co3-journal-ledger-tb#13"
+      ],
+      "derived": [
+        "1,16,000",
+        "10,000",
+        "10000",
+        "116000",
+        "15,000",
+        "15000",
+        "2,00,000",
+        "2,15,000",
+        "2,20,000",
+        "2,70,000",
+        "20,000",
+        "20000",
+        "200000",
+        "215000",
+        "220000",
+        "25,000",
+        "25000",
+        "270000",
+        "3,00,000",
+        "3,10,000",
+        "30,000",
+        "30000",
+        "300000",
+        "310000",
+        "5,000",
+        "50,000",
+        "5000",
+        "50000",
+        "6,000",
+        "6000",
+        "65,000",
+        "65000",
+        "80,000",
+        "80000",
+        "90,000",
+        "90000",
+        "99,000",
+        "99000"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-ledger-q-a22ae0a6",
+      "type": "mcq",
+      "stem": "Which account is the 'principal book of the accounting system'?",
+      "options": [
+        "Ledger",
+        "Journal",
+        "Trial balance",
+        "Adjusting entry"
+      ],
+      "answer": "Ledger",
+      "accept": [],
+      "explanation": "The slide calls the ledger the principal book containing the accounts.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "define",
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#9",
+        "far--4-co3-journal-ledger-tb#4",
+        "far--4-co3-journal-ledger-tb#15"
+      ],
+      "derived": [
+        "1,16,000",
+        "10,000",
+        "10000",
+        "116000",
+        "15,000",
+        "15000",
+        "2,00,000",
+        "2,15,000",
+        "2,20,000",
+        "2,70,000",
+        "20,000",
+        "20000",
+        "200000",
+        "215000",
+        "220000",
+        "25,000",
+        "25000",
+        "270000",
+        "3,00,000",
+        "3,10,000",
+        "30,000",
+        "30000",
+        "300000",
+        "310000",
+        "5,000",
+        "50,000",
+        "5000",
+        "50000",
+        "6,000",
+        "6000",
+        "65,000",
+        "65000",
+        "80,000",
+        "80000",
+        "90,000",
+        "90000",
+        "99,000",
+        "99000"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-ledger-q-304e5d78",
+      "type": "mcq",
+      "stem": "In the Cash T-account question, which entry does not affect the Cash account?",
+      "options": [
+        "Salary Expense A/c Dr, To Salary Payable A/c",
+        "Cash A/c Dr, To Paid-in Capital",
+        "Supplies A/c Dr, To Cash A/c",
+        "None of them"
+      ],
+      "answer": "Salary Expense A/c Dr, To Salary Payable A/c",
+      "accept": [],
+      "explanation": "Accrued wages are owed, not paid, so no cash moves.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "explain",
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#10"
+      ],
+      "derived": [
+        "1,16,000",
+        "10,000",
+        "10000",
+        "116000",
+        "15,000",
+        "15000",
+        "2,00,000",
+        "2,15,000",
+        "2,20,000",
+        "2,70,000",
+        "20,000",
+        "20000",
+        "200000",
+        "215000",
+        "220000",
+        "25,000",
+        "25000",
+        "270000",
+        "3,00,000",
+        "3,10,000",
+        "30,000",
+        "30000",
+        "300000",
+        "310000",
+        "5,000",
+        "50,000",
+        "5000",
+        "50000",
+        "6,000",
+        "6000",
+        "65,000",
+        "65000",
+        "80,000",
+        "80000",
+        "90,000",
+        "90000",
+        "99,000",
+        "99000"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-ledger-q-461a8da9",
+      "type": "mcq",
+      "stem": "How much is carried down in the Sales A/c of M/S Manish Malhotra?",
+      "options": [
+        "25,000",
+        "10,000",
+        "15,000",
+        "30,000"
+      ],
+      "answer": "25,000",
+      "accept": [],
+      "explanation": "Credit sale 10,000 plus cash sales 15,000.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "numerical",
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#14",
+        "far--4-co3-journal-ledger-tb#13"
+      ],
+      "derived": [
+        "1,16,000",
+        "10,000",
+        "10000",
+        "116000",
+        "15,000",
+        "15000",
+        "2,00,000",
+        "2,15,000",
+        "2,20,000",
+        "2,70,000",
+        "20,000",
+        "20000",
+        "200000",
+        "215000",
+        "220000",
+        "25,000",
+        "25000",
+        "270000",
+        "3,00,000",
+        "3,10,000",
+        "30,000",
+        "30000",
+        "300000",
+        "310000",
+        "5,000",
+        "50,000",
+        "5000",
+        "50000",
+        "6,000",
+        "6000",
+        "65,000",
+        "65000",
+        "80,000",
+        "80000",
+        "90,000",
+        "90000",
+        "99,000",
+        "99000"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-ledger-q-4d4f1db5",
+      "type": "short",
+      "stem": "What is a ledger? Describe its format.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The **ledger** is the principal book of the accounting system. It contains the different accounts, and the transactions relating to each account are recorded in it.\n\n**Format:** a Dr. side and a Cr. side. Each side has Date, Particulars, J.F. and Amount (₹).\n\nEntries from the journal are posted to the ledger accounts.",
+      "rubric": [
+        {
+          "point": "Principal book of the accounting system",
+          "source_ref": "far--4-co3-journal-ledger-tb#9"
+        },
+        {
+          "point": "Contains accounts, transactions recorded under each",
+          "source_ref": "far--4-co3-journal-ledger-tb#9"
+        },
+        {
+          "point": "Dr. and Cr. sides with date, particulars, J.F., amount",
+          "source_ref": "far--4-co3-journal-ledger-tb#9"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 1,
+      "style_tag": "define",
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#9",
+        "far--4-co3-journal-ledger-tb#11"
+      ],
+      "derived": [
+        "1,16,000",
+        "10,000",
+        "10000",
+        "116000",
+        "15,000",
+        "15000",
+        "2,00,000",
+        "2,15,000",
+        "2,20,000",
+        "2,70,000",
+        "20,000",
+        "20000",
+        "200000",
+        "215000",
+        "220000",
+        "25,000",
+        "25000",
+        "270000",
+        "3,00,000",
+        "3,10,000",
+        "30,000",
+        "30000",
+        "300000",
+        "310000",
+        "5,000",
+        "50,000",
+        "5000",
+        "50000",
+        "6,000",
+        "6000",
+        "65,000",
+        "65000",
+        "80,000",
+        "80000",
+        "90,000",
+        "90000",
+        "99,000",
+        "99000"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-ledger-q-cd641161",
+      "type": "short",
+      "stem": "Classify each account in the Cash T-account question and state its normal balance.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "- **Cash:** an asset, normal balance **debit**.\n- **Supplies:** an asset, normal balance **debit**.\n- **Salary Expense:** an expense, normal balance **debit**.\n- **Salary Payable:** a payable (liability), normal balance **credit**.\n- **Paid-in Capital:** capital contributed, shown on the **credit** side.\n\nBy the rule on the trial balance slide, assets, expenses and receivables are debit balances; liabilities, revenues and payables are credit balances.",
+      "rubric": [
+        {
+          "point": "Cash and supplies: assets, debit",
+          "source_ref": "far--4-co3-journal-ledger-tb#16"
+        },
+        {
+          "point": "Salary expense: expense, debit",
+          "source_ref": "far--4-co3-journal-ledger-tb#16"
+        },
+        {
+          "point": "Salary payable: credit",
+          "source_ref": "far--4-co3-journal-ledger-tb#16"
+        },
+        {
+          "point": "Paid-in capital: credit",
+          "source_ref": "far--4-co3-journal-ledger-tb#10"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "classify",
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#10",
+        "far--4-co3-journal-ledger-tb#16"
+      ],
+      "derived": [
+        "1,16,000",
+        "10,000",
+        "10000",
+        "116000",
+        "15,000",
+        "15000",
+        "2,00,000",
+        "2,15,000",
+        "2,20,000",
+        "2,70,000",
+        "20,000",
+        "20000",
+        "200000",
+        "215000",
+        "220000",
+        "25,000",
+        "25000",
+        "270000",
+        "3,00,000",
+        "3,10,000",
+        "30,000",
+        "30000",
+        "300000",
+        "310000",
+        "5,000",
+        "50,000",
+        "5000",
+        "50000",
+        "6,000",
+        "6000",
+        "65,000",
+        "65000",
+        "80,000",
+        "80000",
+        "90,000",
+        "90000",
+        "99,000",
+        "99000"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-ledger-q-1b6e9ddb",
+      "type": "short",
+      "stem": "Post the three entries of the T-account question to the Cash account (opening balance 10,000) and find the balance.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Cash A/c (T-account)**\n\n- Debit side: opening balance 10,000; March 2 Paid-in Capital 3,00,000. Total 3,10,000.\n- Credit side: April 1 Supplies 90,000.\n\nThe March 31 salary entry (Salary Expense Dr, Salary Payable Cr 50,000) does not involve cash.\n\n**Balance:** 3,10,000 - 90,000 = **2,20,000 debit**.",
+      "rubric": [
+        {
+          "point": "Debit side 10,000 and 3,00,000",
+          "source_ref": "far--4-co3-journal-ledger-tb#10"
+        },
+        {
+          "point": "Credit side 90,000",
+          "source_ref": "far--4-co3-journal-ledger-tb#10"
+        },
+        {
+          "point": "Salary entry does not touch Cash",
+          "source_ref": "far--4-co3-journal-ledger-tb#10"
+        },
+        {
+          "point": "Balance 2,20,000",
+          "source_ref": "far--4-co3-journal-ledger-tb#10"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#10"
+      ],
+      "derived": [
+        "1,16,000",
+        "10,000",
+        "10000",
+        "116000",
+        "15,000",
+        "15000",
+        "2,00,000",
+        "2,15,000",
+        "2,20,000",
+        "2,70,000",
+        "20,000",
+        "20000",
+        "200000",
+        "215000",
+        "220000",
+        "25,000",
+        "25000",
+        "270000",
+        "3,00,000",
+        "3,10,000",
+        "30,000",
+        "30000",
+        "300000",
+        "310000",
+        "5,000",
+        "50,000",
+        "5000",
+        "50000",
+        "6,000",
+        "6000",
+        "65,000",
+        "65000",
+        "80,000",
+        "80000",
+        "90,000",
+        "90000",
+        "99,000",
+        "99000"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-ledger-q-5260ab39",
+      "type": "short",
+      "stem": "Prepare the Cash A/c of M/S Manish Malhotra from the journal entries and find the closing balance.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Debit side:** June 5 To Capital 2,00,000; June 22 To Sales 15,000. Total 2,15,000.\n\n**Credit side:** June 8 By Bank 80,000; June 25 By M/s Gulmohar F.H. 30,000; June 30 By Salary 6,000. Total 1,16,000.\n\n**Balance c/d:** 2,15,000 - 1,16,000 = **99,000** (debit balance, shown on the credit side to level the account).",
+      "rubric": [
+        {
+          "point": "Debits capital 2,00,000 and sales 15,000",
+          "source_ref": "far--4-co3-journal-ledger-tb#13"
+        },
+        {
+          "point": "Credits bank, Gulmohar, salary",
+          "source_ref": "far--4-co3-journal-ledger-tb#13"
+        },
+        {
+          "point": "Totals 2,15,000 and 1,16,000",
+          "source_ref": "far--4-co3-journal-ledger-tb#13"
+        },
+        {
+          "point": "Balance 99,000",
+          "source_ref": "far--4-co3-journal-ledger-tb#13"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#13"
+      ],
+      "derived": [
+        "1,16,000",
+        "10,000",
+        "10000",
+        "116000",
+        "15,000",
+        "15000",
+        "2,00,000",
+        "2,15,000",
+        "2,20,000",
+        "2,70,000",
+        "20,000",
+        "20000",
+        "200000",
+        "215000",
+        "220000",
+        "25,000",
+        "25000",
+        "270000",
+        "3,00,000",
+        "3,10,000",
+        "30,000",
+        "30000",
+        "300000",
+        "310000",
+        "5,000",
+        "50,000",
+        "5000",
+        "50000",
+        "6,000",
+        "6000",
+        "65,000",
+        "65000",
+        "80,000",
+        "80000",
+        "90,000",
+        "90000",
+        "99,000",
+        "99000"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-ledger-q-86edfb42",
+      "type": "short",
+      "stem": "Differentiate between the journal and the ledger using the formats and purpose given in the slides.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Journal:** transactions are first recorded here. The format has Date, Particulars, L.F. and two amount columns, Dr. and Cr., with one entry showing both debit and credit.\n\n**Ledger:** the principal book containing the different accounts. The format has a Dr. side and a Cr. side, each with Date, Particulars, J.F. and Amount, and entries for one account are collected together.\n\nExample: the June 22 journal entry Cash A/c Dr, To Sales A/c is posted to the debit side of Cash A/c and the credit side of Sales A/c.",
+      "rubric": [
+        {
+          "point": "Journal columns and first record",
+          "source_ref": "far--4-co3-journal-ledger-tb#4"
+        },
+        {
+          "point": "Ledger principal book with accounts",
+          "source_ref": "far--4-co3-journal-ledger-tb#9"
+        },
+        {
+          "point": "Ledger has two sides with J.F.",
+          "source_ref": "far--4-co3-journal-ledger-tb#9"
+        },
+        {
+          "point": "Example of posting",
+          "source_ref": "far--4-co3-journal-ledger-tb#13"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "differentiate",
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#4",
+        "far--4-co3-journal-ledger-tb#9",
+        "far--4-co3-journal-ledger-tb#11",
+        "far--4-co3-journal-ledger-tb#13"
+      ],
+      "derived": [
+        "1,16,000",
+        "10,000",
+        "10000",
+        "116000",
+        "15,000",
+        "15000",
+        "2,00,000",
+        "2,15,000",
+        "2,20,000",
+        "2,70,000",
+        "20,000",
+        "20000",
+        "200000",
+        "215000",
+        "220000",
+        "25,000",
+        "25000",
+        "270000",
+        "3,00,000",
+        "3,10,000",
+        "30,000",
+        "30000",
+        "300000",
+        "310000",
+        "5,000",
+        "50,000",
+        "5000",
+        "50000",
+        "6,000",
+        "6000",
+        "65,000",
+        "65000",
+        "80,000",
+        "80000",
+        "90,000",
+        "90000",
+        "99,000",
+        "99000"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-ledger-q-75cf9407",
+      "type": "long",
+      "stem": "Post the ten transactions of Example 4 to the Cash, Bank and Capital accounts and show the closing balances.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "After journalising, each entry is posted to the debit side of one account and the credit side of another, and each account is balanced at the end (balance c/d).\n\n**Cash A/c**\n- Dr: June 5 Capital 2,00,000; June 22 Sales 15,000 (total 2,15,000).\n- Cr: June 8 Bank 80,000; June 25 M/s Gulmohar F.H. 30,000; June 30 Salary 6,000 (total 1,16,000).\n- Balance c/d: **99,000**.\n\n**Bank A/c**\n- Dr: June 8 Cash 80,000; June 28 M/s Mohit Bros 10,000 (total 90,000).\n- Cr: June 12 Machines 20,000; June 18 Rent 5,000 (total 25,000).\n- Balance c/d: **65,000**.\n\n**Capital A/c**\n- Cr: June 5 Cash 2,00,000. Balance c/d 2,00,000.\n\nThe Cash and Bank balances are the assets the business still holds in each form.",
+      "rubric": [
+        {
+          "point": "Cash debits and credits correctly posted",
+          "source_ref": "far--4-co3-journal-ledger-tb#13"
+        },
+        {
+          "point": "Cash balance 99,000",
+          "source_ref": "far--4-co3-journal-ledger-tb#13"
+        },
+        {
+          "point": "Bank debits and credits posted",
+          "source_ref": "far--4-co3-journal-ledger-tb#14"
+        },
+        {
+          "point": "Bank balance 65,000",
+          "source_ref": "far--4-co3-journal-ledger-tb#14"
+        },
+        {
+          "point": "Capital A/c 2,00,000",
+          "source_ref": "far--4-co3-journal-ledger-tb#13"
+        }
+      ],
+      "marks": 10.0,
+      "difficulty": 3,
+      "style_tag": "numerical",
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#13",
+        "far--4-co3-journal-ledger-tb#14"
+      ],
+      "derived": [
+        "1,16,000",
+        "10,000",
+        "10000",
+        "116000",
+        "15,000",
+        "15000",
+        "2,00,000",
+        "2,15,000",
+        "2,20,000",
+        "2,70,000",
+        "20,000",
+        "20000",
+        "200000",
+        "215000",
+        "220000",
+        "25,000",
+        "25000",
+        "270000",
+        "3,00,000",
+        "3,10,000",
+        "30,000",
+        "30000",
+        "300000",
+        "310000",
+        "5,000",
+        "50,000",
+        "5000",
+        "50000",
+        "6,000",
+        "6000",
+        "65,000",
+        "65000",
+        "80,000",
+        "80000",
+        "90,000",
+        "90000",
+        "99,000",
+        "99000"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-ledger-q-fc04b941",
+      "type": "long",
+      "stem": "Show the remaining ledger accounts of Example 4 (Purchases, Sales, the two party accounts, Salary, Machines and Rent) with their balances.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "- **Purchases A/c:** Dr June 12, 30,000 (M/s Gulmohar F.H.). Balance c/d 30,000.\n- **Sales A/c:** Cr 10,000 (M/s Mohit Bros) and 15,000 (Cash). Balance c/d 25,000.\n- **M/s Mohit Bros A/c:** Dr June 20, 10,000 (Sales); Cr June 28, 10,000 (Bank). Nothing left owing.\n- **M/s Gulmohar F.H. A/c:** Cr June 12, 30,000 (Purchases); Dr June 25, 30,000 (Cash). Nothing left owing.\n- **Salary A/c:** Dr June 30, 6,000. Balance c/d 6,000.\n- **Machines A/c:** Dr June 12, 20,000. Balance c/d 20,000.\n- **Rent A/c:** Dr June 18, 5,000. Balance c/d 5,000.\n\nThe two party accounts are settled in full, which is why they close at nil.",
+      "rubric": [
+        {
+          "point": "Purchases and party account of Gulmohar",
+          "source_ref": "far--4-co3-journal-ledger-tb#14"
+        },
+        {
+          "point": "Sales 10,000 and 15,000, balance 25,000",
+          "source_ref": "far--4-co3-journal-ledger-tb#14"
+        },
+        {
+          "point": "Mohit Bros debit and credit",
+          "source_ref": "far--4-co3-journal-ledger-tb#14"
+        },
+        {
+          "point": "Salary, Machines and Rent balances",
+          "source_ref": "far--4-co3-journal-ledger-tb#14"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 3,
+      "style_tag": "numerical",
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#14",
+        "far--4-co3-journal-ledger-tb#13"
+      ],
+      "derived": [
+        "1,16,000",
+        "10,000",
+        "10000",
+        "116000",
+        "15,000",
+        "15000",
+        "2,00,000",
+        "2,15,000",
+        "2,20,000",
+        "2,70,000",
+        "20,000",
+        "20000",
+        "200000",
+        "215000",
+        "220000",
+        "25,000",
+        "25000",
+        "270000",
+        "3,00,000",
+        "3,10,000",
+        "30,000",
+        "30000",
+        "300000",
+        "310000",
+        "5,000",
+        "50,000",
+        "5000",
+        "50000",
+        "6,000",
+        "6000",
+        "65,000",
+        "65000",
+        "80,000",
+        "80000",
+        "90,000",
+        "90000",
+        "99,000",
+        "99000"
+      ],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "explain_back": {
+    "prompt": "Explain what the ledger is and show how the Cash account of Example 4 is posted and balanced.",
+    "rubric": [
+      {
+        "point": "Ledger is the principal book containing the accounts",
+        "source_ref": "far--4-co3-journal-ledger-tb#9"
+      },
+      {
+        "point": "Two-sided format with Dr. and Cr., date, particulars, J.F., amount",
+        "source_ref": "far--4-co3-journal-ledger-tb#9"
+      },
+      {
+        "point": "Cash debits: capital 2,00,000 and sales 15,000",
+        "source_ref": "far--4-co3-journal-ledger-tb#13"
+      },
+      {
+        "point": "Cash credits: bank 80,000, Gulmohar 30,000, salary 6,000; balance 99,000",
+        "source_ref": "far--4-co3-journal-ledger-tb#13"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

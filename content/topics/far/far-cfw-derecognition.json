@@ -1,0 +1,723 @@
+{
+  "id": "far-cfw-derecognition",
+  "subject_id": "far",
+  "deck_id": "far--reading-1-conceptual-framework",
+  "title": "Derecognition",
+  "order": 11,
+  "summary": "When and how assets and liabilities are removed from the statement of financial position, including retained and transferred components and contract modifications.",
+  "est_minutes": 20,
+  "difficulty": 3,
+  "source_refs": [
+    "far--reading-1-conceptual-framework#46",
+    "far--reading-1-conceptual-framework#47",
+    "far--reading-1-conceptual-framework#48"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "far-cfw-derecognition-c1",
+      "heading": "What derecognition is and its aims",
+      "explanation_md": "**Derecognition** is the **removal of all or part of a recognised asset or liability** from the statement of financial position. It normally happens when the item **no longer meets the definition**:\n\n- an **asset** is normally derecognised when the entity **loses control** of all or part of it;\n- a **liability** is normally derecognised when the entity **no longer has a present obligation** for all or part of it.\n\nThe accounting aims to faithfully represent both:\n\n(a) any assets and liabilities **retained** after the transaction (including any acquired, incurred or created in it); and\n(b) the **change** in the entity's assets and liabilities as a result of the transaction.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Derecognition",
+          "meaning": "The removal of all or part of a recognised asset or liability from the statement of financial position.",
+          "source_ref": "far--reading-1-conceptual-framework#46"
+        }
+      ],
+      "exam_line": "Derecognition normally happens when an asset's control is lost or a liability's present obligation ends; the aims are to represent faithfully what is retained and what has changed.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "far-cfw-derecognition-q-12833c8c",
+          "type": "mcq",
+          "stem": "When is an asset normally derecognised?",
+          "options": [
+            "When the entity loses control of all or part of it",
+            "When it is first acquired",
+            "When its probability of benefits is low",
+            "When it is measured"
+          ],
+          "answer": "When the entity loses control of all or part of it",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--reading-1-conceptual-framework#46"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-cfw-derecognition-q-34e6adfe",
+          "type": "mcq",
+          "stem": "When is a liability normally derecognised?",
+          "options": [
+            "When the entity no longer has a present obligation for all or part of it",
+            "When it is first incurred",
+            "When it is disclosed",
+            "When it is measured at fair value"
+          ],
+          "answer": "When the entity no longer has a present obligation for all or part of it",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--reading-1-conceptual-framework#46"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-cfw-derecognition-q-296e1cc2",
+          "type": "true_false",
+          "stem": "Derecognition is the removal of all or part of a recognised asset or liability.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--reading-1-conceptual-framework#46"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "far--reading-1-conceptual-framework#46"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cfw-derecognition-c2",
+      "heading": "How the aims are normally achieved",
+      "explanation_md": "The aims are normally achieved by:\n\n(a) **Derecognising** assets and liabilities that have **expired or been consumed, collected, fulfilled or transferred**, and recognising any resulting income and expenses. These are the **transferred component**.\n(b) **Continuing to recognise** any assets or liabilities **retained**, the **retained component**. It becomes a **separate unit of account**, so **no income or expenses** are recognised on the retained component because of the derecognition, unless the measurement requirements for it change.\n(c) If needed to achieve the aims, applying one or more of: **presenting the retained component separately**; **presenting separately** the income and expenses recognised from derecognising the transferred component; or **providing explanatory information**.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "Derecognise the transferred component, keep recognising the retained component as a separate unit, and use separate presentation or explanatory information if needed.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "far-cfw-derecognition-q-9212be9f",
+          "type": "mcq",
+          "stem": "What happens to the retained component after derecognition of the transferred component?",
+          "options": [
+            "It continues to be recognised as a separate unit of account",
+            "It is derecognised too",
+            "It becomes income",
+            "It becomes equity"
+          ],
+          "answer": "It continues to be recognised as a separate unit of account",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--reading-1-conceptual-framework#46"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-cfw-derecognition-q-b373b299",
+          "type": "mcq",
+          "stem": "Which is one of the procedures that may be applied?",
+          "options": [
+            "Providing explanatory information",
+            "Ignoring the transaction",
+            "Offsetting all items",
+            "Changing the reporting period"
+          ],
+          "answer": "Providing explanatory information",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--reading-1-conceptual-framework#46"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "far--reading-1-conceptual-framework#46"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cfw-derecognition-c3",
+      "heading": "When transfer is only apparent",
+      "explanation_md": "Sometimes an entity **appears to transfer** an asset or liability but it **remains** the entity's:\n\n(a) if the entity has transferred an asset but **keeps exposure to significant positive or negative variations** in the benefits it produces, it may **still control** the asset;\n(b) if it has transferred the asset to a party holding it **as the entity's agent**, the transferor **still controls** it.\n\nThen derecognition is **not appropriate** because it would not achieve the aims.\n\n**Derecognition may overstate the change.** When the entity no longer has the transferred component, derecognition shows that. But it might imply the financial position **changed more than it really has**, for example:\n\n(a) the entity has transferred an asset and **at the same time** made another transaction giving a present right or obligation to **reacquire** it (such as a forward contract, a written put option or a purchased call option); or\n(b) the entity has kept **significant exposure** to variations in benefits from a transferred component it no longer controls.\n\nIn these cases the aims may sometimes be met by **continuing to recognise the transferred component**. Consequences:\n\n(a) **no income or expenses** on either component from the transaction;\n(b) the **proceeds received (or paid)** are treated as a **loan received (or given)**; and\n(c) **separate presentation or explanatory information** is needed to show that the entity no longer has any rights or obligations in the transferred component, and information about its income and expenses after transfer may be needed.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "If an entity keeps exposure to significant variations or the asset is held by its agent, it may still control the asset and derecognition is not appropriate; continuing to recognise treats proceeds as a loan.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "far-cfw-derecognition-q-5d57e30f",
+          "type": "mcq",
+          "stem": "If an entity transfers an asset to a party holding it as the entity's agent, what is the position?",
+          "options": [
+            "The transferor still controls the asset",
+            "The asset is derecognised",
+            "The asset becomes income",
+            "The agent owns it"
+          ],
+          "answer": "The transferor still controls the asset",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--reading-1-conceptual-framework#47"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-cfw-derecognition-q-b7071795",
+          "type": "true_false",
+          "stem": "If the transferred component continues to be recognised, the proceeds are treated as a loan received.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--reading-1-conceptual-framework#47"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-cfw-derecognition-q-abe0148d",
+          "type": "true_false",
+          "stem": "Keeping exposure to significant variations in the benefits may indicate that the entity still controls the asset.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--reading-1-conceptual-framework#47"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "far--reading-1-conceptual-framework#46",
+        "far--reading-1-conceptual-framework#47"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cfw-derecognition-c4",
+      "heading": "Contract modifications",
+      "explanation_md": "A derecognition question arises when a **contract is modified** so as to reduce or remove existing rights or obligations. The entity considers **which unit of account** gives the most useful information about what is retained and how the modification changed the entity's assets and liabilities:\n\n(a) If it **only eliminates** existing rights or obligations, apply the derecognition discussion to decide whether to derecognise them.\n(b) If it **only adds** new rights or obligations, decide whether to treat the additions as a **separate asset or liability** or as **part of the same unit of account** as the existing ones.\n(c) If it **both eliminates and adds**, consider both the **separate and combined effect**. If the contract is modified so much that **in substance it replaces the old asset or liability with a new one**, the entity may need to **derecognise the original and recognise the new** one.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "Contract modifications: eliminating rights or obligations, adding new ones, or both; extensive modification may replace the old asset or liability with a new one.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "far-cfw-derecognition-q-3e2bf500",
+          "type": "mcq",
+          "stem": "If a contract modification both eliminates existing rights and adds new ones to such an extent that it replaces the old asset with a new one, what may be needed?",
+          "options": [
+            "Derecognise the original and recognise the new asset or liability",
+            "Do nothing",
+            "Record only income",
+            "Offset the two"
+          ],
+          "answer": "Derecognise the original and recognise the new asset or liability",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--reading-1-conceptual-framework#48"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-cfw-derecognition-q-d0200b9c",
+          "type": "true_false",
+          "stem": "If a modification only adds new rights or obligations, the entity must decide whether they are a separate asset or liability or part of the same unit of account.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--reading-1-conceptual-framework#48"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "far--reading-1-conceptual-framework#48"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "far-cfw-derecognition-f1",
+      "front": "Derecognition",
+      "back": "Removal of all or part of a recognised asset or liability from the statement of financial position.",
+      "kind": "term",
+      "source_refs": [
+        "far--reading-1-conceptual-framework#46"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cfw-derecognition-f2",
+      "front": "Derecognition of an asset",
+      "back": "Normally when the entity loses control of all or part of it.",
+      "kind": "fact",
+      "source_refs": [
+        "far--reading-1-conceptual-framework#46"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cfw-derecognition-f3",
+      "front": "Derecognition of a liability",
+      "back": "Normally when the entity no longer has a present obligation for all or part of it.",
+      "kind": "fact",
+      "source_refs": [
+        "far--reading-1-conceptual-framework#46"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cfw-derecognition-f4",
+      "front": "Transferred and retained components",
+      "back": "Transferred: derecognised, with resulting income and expenses. Retained: still recognised as a separate unit of account.",
+      "kind": "term",
+      "source_refs": [
+        "far--reading-1-conceptual-framework#46"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cfw-derecognition-f5",
+      "front": "When transfer is only apparent",
+      "back": "Exposure to significant variations in benefits, or an agent holding the asset, may mean the entity still controls it.",
+      "kind": "fact",
+      "source_refs": [
+        "far--reading-1-conceptual-framework#47"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cfw-derecognition-f6",
+      "front": "Continuing to recognise a transferred component",
+      "back": "No income or expenses; proceeds treated as a loan; separate presentation or explanation needed.",
+      "kind": "list",
+      "source_refs": [
+        "far--reading-1-conceptual-framework#47"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cfw-derecognition-f7",
+      "front": "Extensive contract modification",
+      "back": "May replace the old asset or liability with a new one; derecognise the old and recognise the new.",
+      "kind": "fact",
+      "source_refs": [
+        "far--reading-1-conceptual-framework#48"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [
+    {
+      "id": "far-cfw-derecognition-q-fb6e165e",
+      "type": "mcq",
+      "stem": "Which event normally leads to derecognition of an asset?",
+      "options": [
+        "When the entity loses control of all or part of it",
+        "When it is first measured",
+        "When it is recognised",
+        "When its value rises"
+      ],
+      "answer": "When the entity loses control of all or part of it",
+      "accept": [],
+      "explanation": "Derecognition normally occurs when the item no longer meets the definition.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "define",
+      "source_refs": [
+        "far--reading-1-conceptual-framework#46"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cfw-derecognition-q-ceb6a0e7",
+      "type": "mcq",
+      "stem": "The retained component after a derecognition is:",
+      "options": [
+        "Still recognised, as a separate unit of account",
+        "Derecognised",
+        "Income",
+        "An expense"
+      ],
+      "answer": "Still recognised, as a separate unit of account",
+      "accept": [],
+      "explanation": "No income or expenses arise on it because of the derecognition unless measurement requirements change.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "far--reading-1-conceptual-framework#46"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cfw-derecognition-q-9cd1854a",
+      "type": "mcq",
+      "stem": "An entity transfers an asset to a party who holds it as the entity's agent. What is the position?",
+      "options": [
+        "The transferor still controls the asset",
+        "The asset is derecognised",
+        "The agent controls it",
+        "It becomes income"
+      ],
+      "answer": "The transferor still controls the asset",
+      "accept": [],
+      "explanation": "Derecognition would not achieve its aims.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "case",
+      "source_refs": [
+        "far--reading-1-conceptual-framework#47"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cfw-derecognition-q-9c44b9a3",
+      "type": "mcq",
+      "stem": "If the transferred component continues to be recognised, the proceeds received are treated as:",
+      "options": [
+        "A loan received",
+        "Income",
+        "Equity",
+        "An expense"
+      ],
+      "answer": "A loan received",
+      "accept": [],
+      "explanation": "No income or expenses are recognised on either component.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "far--reading-1-conceptual-framework#47"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cfw-derecognition-q-029d81d3",
+      "type": "short",
+      "stem": "Define derecognition and state when assets and liabilities are normally derecognised.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Derecognition** is the **removal of all or part of a recognised asset or liability** from the statement of financial position.\n\nIt normally occurs when the item no longer meets the definition: for an **asset**, when the entity **loses control** of all or part of it; for a **liability**, when the entity **no longer has a present obligation** for all or part of it.",
+      "rubric": [
+        {
+          "point": "Removal of all or part of a recognised item",
+          "source_ref": "far--reading-1-conceptual-framework#46"
+        },
+        {
+          "point": "Asset: loss of control",
+          "source_ref": "far--reading-1-conceptual-framework#46"
+        },
+        {
+          "point": "Liability: no present obligation",
+          "source_ref": "far--reading-1-conceptual-framework#46"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 1,
+      "style_tag": "define",
+      "source_refs": [
+        "far--reading-1-conceptual-framework#46"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cfw-derecognition-q-bdf06336",
+      "type": "short",
+      "stem": "Explain the aims of derecognition and the transferred and retained components.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Derecognition aims to represent faithfully (a) any assets and liabilities **retained** after the transaction, and (b) the **change** in the entity's assets and liabilities from it.\n\nNormally the entity:\n\n- **derecognises** assets and liabilities that have expired or been consumed, collected, fulfilled or transferred (the **transferred component**), recognising any resulting income and expenses;\n- **continues to recognise** those retained (the **retained component**), as a separate unit of account, with no income or expenses on it as a result of the derecognition; and\n- if needed, presents the retained component separately, presents separately the income and expenses on derecognition, or gives explanatory information.",
+      "rubric": [
+        {
+          "point": "Two aims",
+          "source_ref": "far--reading-1-conceptual-framework#46"
+        },
+        {
+          "point": "Transferred component derecognised",
+          "source_ref": "far--reading-1-conceptual-framework#46"
+        },
+        {
+          "point": "Retained component separate unit of account",
+          "source_ref": "far--reading-1-conceptual-framework#46"
+        },
+        {
+          "point": "Separate presentation or explanatory information",
+          "source_ref": "far--reading-1-conceptual-framework#46"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "far--reading-1-conceptual-framework#46"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cfw-derecognition-q-b4dc52c4",
+      "type": "short",
+      "stem": "When is derecognition of a transferred asset not appropriate?",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Derecognition is not appropriate where the entity **appears to transfer** an asset but it remains its asset:\n\n- the entity keeps exposure to **significant positive or negative variations** in the asset's benefits, which may show it still controls the asset; or\n- the asset was transferred to a party who holds it **as the entity's agent**, so the transferor still controls it.\n\nAlso, derecognition may overstate the change in financial position if the entity has at the same time a present right or obligation to **reacquire** the asset (such as a forward contract, a written put option or a purchased call option), or keeps significant exposure to the transferred component. Then the aims may be met by **continuing to recognise** the transferred component, treating the proceeds as a **loan**, with no income or expenses.",
+      "rubric": [
+        {
+          "point": "Significant exposure to variations in benefits",
+          "source_ref": "far--reading-1-conceptual-framework#47"
+        },
+        {
+          "point": "Agent holds the asset",
+          "source_ref": "far--reading-1-conceptual-framework#47"
+        },
+        {
+          "point": "Right or obligation to reacquire",
+          "source_ref": "far--reading-1-conceptual-framework#47"
+        },
+        {
+          "point": "Continue to recognise, proceeds as a loan",
+          "source_ref": "far--reading-1-conceptual-framework#47"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 3,
+      "style_tag": "explain",
+      "source_refs": [
+        "far--reading-1-conceptual-framework#47"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cfw-derecognition-q-b5e2e206",
+      "type": "long",
+      "stem": "Discuss derecognition in the Conceptual Framework, including transferred and retained components and cases where derecognition does not achieve its aims.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Derecognition** removes all or part of a recognised asset or liability from the statement of financial position, normally when the item no longer meets the definition: loss of control of an asset or no present obligation for a liability.\n\n**Aims.** To faithfully represent (a) what is **retained** and (b) the **change** in assets and liabilities caused by the transaction.\n\n**How achieved.** The **transferred component** (expired, consumed, collected, fulfilled or transferred items) is derecognised with any resulting income and expenses. The **retained component** continues to be recognised as a **separate unit of account**, with no income or expenses on it unless its measurement requirements change. Where needed the entity presents the retained component or the income and expenses separately, or gives explanatory information.\n\n**When derecognition is not appropriate.** If the entity appears to transfer an asset but keeps exposure to significant variations in its benefits, or the asset is held by its agent, it may still control it. If derecognition would overstate the change (for example the entity also gets a right or obligation to reacquire the asset, or keeps significant exposure to a component it no longer controls), the aims may be achieved by **continuing to recognise** the transferred component: no income or expenses, proceeds treated as a loan, and separate presentation or explanatory information.\n\n**Contract modifications.** Consider the unit of account that gives the most useful information. If only rights are eliminated, apply derecognition thinking; if only new rights are added, decide whether they are separate or part of the same unit; if both, consider the separate and combined effect. A very extensive modification may replace the old asset or liability with a new one.",
+      "rubric": [
+        {
+          "point": "Definition and normal timing",
+          "source_ref": "far--reading-1-conceptual-framework#46"
+        },
+        {
+          "point": "Aims",
+          "source_ref": "far--reading-1-conceptual-framework#46"
+        },
+        {
+          "point": "Transferred and retained components",
+          "source_ref": "far--reading-1-conceptual-framework#46"
+        },
+        {
+          "point": "Cases where derecognition is not appropriate; proceeds as a loan",
+          "source_ref": "far--reading-1-conceptual-framework#47"
+        },
+        {
+          "point": "Contract modifications",
+          "source_ref": "far--reading-1-conceptual-framework#48"
+        }
+      ],
+      "marks": 10.0,
+      "difficulty": 3,
+      "style_tag": "explain",
+      "source_refs": [
+        "far--reading-1-conceptual-framework#46",
+        "far--reading-1-conceptual-framework#47",
+        "far--reading-1-conceptual-framework#48"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cfw-derecognition-q-e6f5bd1f",
+      "type": "long",
+      "stem": "Explain how contract modifications are treated for derecognition.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "A question about derecognition arises when a contract is modified to reduce or remove existing rights or obligations. The entity considers **which unit of account** gives the most useful information about what is retained and how the modification changed the entity's assets and liabilities.\n\n(a) If the modification **only eliminates** existing rights or obligations, the discussion of derecognition is applied to decide whether to derecognise them.\n(b) If it **only adds** new rights or obligations, decide whether they are a **separate asset or liability** or **part of the same unit of account** as the existing ones.\n(c) If it **both eliminates and adds**, consider the **separate and combined effect**. If the contract is modified so extensively that **in substance it replaces the old asset or liability with a new one**, the entity may need to **derecognise the original and recognise the new** one.",
+      "rubric": [
+        {
+          "point": "Unit of account chosen for useful information",
+          "source_ref": "far--reading-1-conceptual-framework#48"
+        },
+        {
+          "point": "Only eliminating rights or obligations",
+          "source_ref": "far--reading-1-conceptual-framework#48"
+        },
+        {
+          "point": "Only adding rights or obligations",
+          "source_ref": "far--reading-1-conceptual-framework#48"
+        },
+        {
+          "point": "Both: separate and combined effect; extensive modification replaces the old item",
+          "source_ref": "far--reading-1-conceptual-framework#48"
+        }
+      ],
+      "marks": 6.0,
+      "difficulty": 3,
+      "style_tag": "explain",
+      "source_refs": [
+        "far--reading-1-conceptual-framework#48"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "explain_back": {
+    "prompt": "Explain when assets and liabilities are derecognised and how the transferred and retained components are treated.",
+    "rubric": [
+      {
+        "point": "Asset: control lost; liability: no present obligation",
+        "source_ref": "far--reading-1-conceptual-framework#46"
+      },
+      {
+        "point": "Transferred component derecognised with resulting income and expenses",
+        "source_ref": "far--reading-1-conceptual-framework#46"
+      },
+      {
+        "point": "Retained component continues as a separate unit of account",
+        "source_ref": "far--reading-1-conceptual-framework#46"
+      },
+      {
+        "point": "Derecognition not appropriate where the entity still controls the asset",
+        "source_ref": "far--reading-1-conceptual-framework#47"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

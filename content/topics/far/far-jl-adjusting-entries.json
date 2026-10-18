@@ -1,0 +1,834 @@
+{
+  "id": "far-jl-adjusting-entries",
+  "subject_id": "far",
+  "deck_id": "far--4-co3-journal-ledger-tb",
+  "title": "Important adjusting journal entries",
+  "order": 3,
+  "summary": "Four kinds of adjusting entry: income received in advance, outstanding expenses, prepaid expenses and income receivable, with the summary table.",
+  "est_minutes": 20,
+  "difficulty": 2,
+  "source_refs": [
+    "far--4-co3-journal-ledger-tb#5",
+    "far--4-co3-journal-ledger-tb#7",
+    "far--4-co3-journal-ledger-tb#6",
+    "far--4-co3-journal-ledger-tb#8"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "far-jl-adjusting-entries-c1",
+      "heading": "Unearned revenue (income received in advance)",
+      "explanation_md": "**Unearned revenue** is also called revenue received in advance, deferred revenue or income in advance. The business has the cash but has not yet earned it.\n\nTwo entries are shown:\n\n1. When the cash arrives: **Cash/Bank A/c Dr 8500, To Interest received in advance (unearned interest) A/c 8500.** The note says cash was received from a customer for services to be performed in the future.\n2. As the revenue is earned: **Interest received in advance A/c Dr 8500, To Interest A/c 8500.** This is the adjusting entry for the portion of the revenue earned.",
+      "example_ids": [
+        "far-ex-adj-unearned"
+      ],
+      "key_terms": [
+        {
+          "term": "Unearned revenue",
+          "meaning": "Revenue received in advance, also called deferred revenue or income in advance.",
+          "source_ref": "far--4-co3-journal-ledger-tb#5"
+        }
+      ],
+      "exam_line": "Income in advance: Cash Dr to Unearned/Advance income A/c; later Unearned income A/c Dr to the income A/c for the part earned.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "far-jl-adjusting-entries-q-a8ba8718",
+          "type": "mcq",
+          "stem": "When the interest ₹8500 is earned, which entry is passed?",
+          "options": [
+            "Interest received in advance A/c Dr, To Interest A/c",
+            "Cash/Bank A/c Dr, To Interest A/c",
+            "Interest A/c Dr, To Cash/Bank A/c",
+            "Interest received in advance A/c Dr, To Cash/Bank A/c"
+          ],
+          "answer": "Interest received in advance A/c Dr, To Interest A/c",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--4-co3-journal-ledger-tb#5",
+            "far--4-co3-journal-ledger-tb#7"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-jl-adjusting-entries-q-34450890",
+          "type": "fill",
+          "stem": "Revenue received in advance is also called ____ revenue.",
+          "options": [],
+          "answer": "deferred",
+          "accept": [
+            "unearned"
+          ],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--4-co3-journal-ledger-tb#5"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#5",
+        "far--4-co3-journal-ledger-tb#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-adjusting-entries-c2",
+      "heading": "Outstanding (accrued) expenses",
+      "explanation_md": "**Accrual of unrecorded expenses**, also called **outstanding expenses** or **payable expenses**, are costs already incurred but not yet paid.\n\n- **Outstanding wages:** Wages Expense A/c Dr 7800, To Outstanding Wages A/c 7800. Wages earned by employees but not yet paid.\n- **Outstanding interest:** Interest Expense A/c Dr, To Outstanding Interest A/c. The amount is principal × interest rate × fraction of year.\n- **Outstanding income tax:** Tax Expense A/c Dr, To Outstanding Taxes A/c.\n\nIn each case the expense account is debited and a liability account is credited.",
+      "example_ids": [
+        "far-ex-adj-wages"
+      ],
+      "key_terms": [
+        {
+          "term": "Outstanding expense",
+          "meaning": "An expense that has been incurred but not yet paid; also called accrued or payable expense.",
+          "source_ref": "far--4-co3-journal-ledger-tb#5"
+        }
+      ],
+      "exam_line": "Outstanding expenses: Concerned Expense A/c Dr, To Outstanding Expense A/c. Interest = principal × rate × fraction of year.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "far-jl-adjusting-entries-q-7900583f",
+          "type": "mcq",
+          "stem": "What is the entry for outstanding wages of 7800?",
+          "options": [
+            "Wages Expense A/c Dr, To Outstanding Wages A/c",
+            "Outstanding Wages A/c Dr, To Wages Expense A/c",
+            "Cash/Bank A/c Dr, To Wages Expense A/c",
+            "Wages Expense A/c Dr, To Cash/Bank A/c"
+          ],
+          "answer": "Wages Expense A/c Dr, To Outstanding Wages A/c",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--4-co3-journal-ledger-tb#5",
+            "far--4-co3-journal-ledger-tb#7"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-jl-adjusting-entries-q-146e870f",
+          "type": "fill",
+          "stem": "Outstanding interest is worked out as principal × interest rate × ____ of year.",
+          "options": [],
+          "answer": "fraction",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--4-co3-journal-ledger-tb#6"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-jl-adjusting-entries-q-25c185d0",
+          "type": "true_false",
+          "stem": "For outstanding income tax the entry is Tax Expense A/c Dr, To Outstanding Taxes A/c.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--4-co3-journal-ledger-tb#6",
+            "far--4-co3-journal-ledger-tb#7"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#5",
+        "far--4-co3-journal-ledger-tb#6",
+        "far--4-co3-journal-ledger-tb#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-adjusting-entries-c3",
+      "heading": "Prepaid expenses and income receivable",
+      "explanation_md": "**Prepaid expenses.** Rent paid in advance:\n\n1. On payment: **Prepaid Rent A/c Dr 10,000, To Cash/Bank A/c 10,000** (cash paid in advance for rent).\n2. Adjusting entry: **Rent A/c Dr 10,000, To Prepaid Rent A/c 10,000.**\n\n**Accrued income (income receivable).** Royalty earned but not yet received:\n\n1. **Royalty Receivable A/c Dr 5,000, To Royalty A/c 5,000** (income receivable but not yet received).\n2. When the cash comes: **Cash/Bank A/c Dr, To Royalty Receivable A/c** (cash received from royalty income).",
+      "example_ids": [
+        "far-ex-adj-prepaid-rent",
+        "far-ex-adj-royalty"
+      ],
+      "key_terms": [],
+      "exam_line": "Prepaid: Rent A/c Dr, To Prepaid Rent A/c. Income receivable: Royalty Receivable A/c Dr, To Royalty A/c.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "far-jl-adjusting-entries-q-b3a69cf0",
+          "type": "mcq",
+          "stem": "Which is the adjusting entry for prepaid rent of 10,000?",
+          "options": [
+            "Rent A/c Dr, To Prepaid Rent A/c",
+            "Prepaid Rent A/c Dr, To Rent A/c",
+            "Rent A/c Dr, To Cash/Bank A/c",
+            "Cash/Bank A/c Dr, To Prepaid Rent A/c"
+          ],
+          "answer": "Rent A/c Dr, To Prepaid Rent A/c",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--4-co3-journal-ledger-tb#7"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-jl-adjusting-entries-q-c8ae7d2c",
+          "type": "mcq",
+          "stem": "Royalty of 5,000 is earned but not yet received. What is debited?",
+          "options": [
+            "Royalty Receivable A/c",
+            "Royalty A/c",
+            "Cash/Bank A/c",
+            "Prepaid Rent A/c"
+          ],
+          "answer": "Royalty Receivable A/c",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--4-co3-journal-ledger-tb#7"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-adjusting-entries-c4",
+      "heading": "The summary table of adjusting entries",
+      "explanation_md": "The last slide puts all four types in one table:\n\n| Adjusting entry | A/c debited | A/c credited |\n|---|---|---|\n| Prepaid expenses | Concerned Expense A/c | Prepaid Expense A/c |\n| Unearned income / income received in advance | Unearned Revenue A/c or Income received in advance A/c | Concerned Income A/c |\n| Accrued / outstanding expenses | Concerned Expense A/c | Outstanding Expense A/c or Expenses Payable A/c |\n| Accrued income / income receivable | Concerned Income Receivable A/c | Concerned Revenue A/c |\n\nLearn the table and you can write any of the adjusting entries from the earlier slides.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "Prepaid: Dr Expense, Cr Prepaid Expense. Income in advance: Dr Unearned Revenue, Cr Income. Outstanding expense: Dr Expense, Cr Outstanding Expense. Income receivable: Dr Income Receivable, Cr Revenue.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "far-jl-adjusting-entries-q-fb43f97c",
+          "type": "mcq",
+          "stem": "For accrued income, which account is credited?",
+          "options": [
+            "Concerned Revenue A/c",
+            "Concerned Income Receivable A/c",
+            "Prepaid Expense A/c",
+            "Outstanding Expense A/c"
+          ],
+          "answer": "Concerned Revenue A/c",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--4-co3-journal-ledger-tb#8",
+            "far--4-co3-journal-ledger-tb#7"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-jl-adjusting-entries-q-76adf090",
+          "type": "mcq",
+          "stem": "For prepaid expenses, which account is credited?",
+          "options": [
+            "Prepaid Expense A/c",
+            "Concerned Expense A/c",
+            "Expenses Payable A/c",
+            "Concerned Income A/c"
+          ],
+          "answer": "Prepaid Expense A/c",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--4-co3-journal-ledger-tb#8",
+            "far--4-co3-journal-ledger-tb#7"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-jl-adjusting-entries-q-e8e42904",
+          "type": "true_false",
+          "stem": "For accrued expenses the debit is to the concerned expense account.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--4-co3-journal-ledger-tb#8",
+            "far--4-co3-journal-ledger-tb#7"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#8",
+        "far--4-co3-journal-ledger-tb#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "far-jl-adjusting-entries-f1",
+      "front": "Prepaid expense adjusting entry",
+      "back": "Dr Concerned Expense A/c, Cr Prepaid Expense A/c.",
+      "kind": "formula",
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#8",
+        "far--4-co3-journal-ledger-tb#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-adjusting-entries-f2",
+      "front": "Income received in advance adjusting entry",
+      "back": "Dr Unearned Revenue (or Income received in advance) A/c, Cr Concerned Income A/c.",
+      "kind": "formula",
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#8",
+        "far--4-co3-journal-ledger-tb#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-adjusting-entries-f3",
+      "front": "Outstanding expense adjusting entry",
+      "back": "Dr Concerned Expense A/c, Cr Outstanding Expense (Expenses Payable) A/c.",
+      "kind": "formula",
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#8",
+        "far--4-co3-journal-ledger-tb#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-adjusting-entries-f4",
+      "front": "Accrued income adjusting entry",
+      "back": "Dr Concerned Income Receivable A/c, Cr Concerned Revenue A/c.",
+      "kind": "formula",
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#8",
+        "far--4-co3-journal-ledger-tb#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-adjusting-entries-f5",
+      "front": "Outstanding interest amount",
+      "back": "Principal × interest rate × fraction of year.",
+      "kind": "formula",
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#6"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-adjusting-entries-f6",
+      "front": "Other names for unearned revenue",
+      "back": "Revenue received in advance, deferred revenue, income in advance.",
+      "kind": "list",
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#5"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-adjusting-entries-f7",
+      "front": "Example: outstanding wages",
+      "back": "Wages Expense A/c Dr 7800, To Outstanding Wages A/c 7800.",
+      "kind": "example",
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#5",
+        "far--4-co3-journal-ledger-tb#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [
+    {
+      "id": "far-jl-adjusting-entries-q-6e0740bc",
+      "type": "mcq",
+      "stem": "Rent of 10,000 was paid in advance and the period has now passed. Which adjusting entry is passed?",
+      "options": [
+        "Rent A/c Dr, To Prepaid Rent A/c",
+        "Prepaid Rent A/c Dr, To Rent A/c",
+        "Rent A/c Dr, To Outstanding Rent A/c",
+        "Prepaid Rent A/c Dr, To Cash/Bank A/c"
+      ],
+      "answer": "Rent A/c Dr, To Prepaid Rent A/c",
+      "accept": [],
+      "explanation": "The prepaid amount becomes an expense, so the expense is debited and Prepaid Rent is credited.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "journal entry",
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#7",
+        "far--4-co3-journal-ledger-tb#8"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-adjusting-entries-q-653b8494",
+      "type": "mcq",
+      "stem": "Wages of 7800 are earned by employees but not yet paid. Which entry is passed?",
+      "options": [
+        "Wages Expense A/c Dr, To Outstanding Wages A/c",
+        "Outstanding Wages A/c Dr, To Wages Expense A/c",
+        "Wages Expense A/c Dr, To Cash/Bank A/c",
+        "Cash/Bank A/c Dr, To Outstanding Wages A/c"
+      ],
+      "answer": "Wages Expense A/c Dr, To Outstanding Wages A/c",
+      "accept": [],
+      "explanation": "An accrued expense debits the expense and credits the outstanding liability.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "journal entry",
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#5",
+        "far--4-co3-journal-ledger-tb#8",
+        "far--4-co3-journal-ledger-tb#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-adjusting-entries-q-4df497da",
+      "type": "mcq",
+      "stem": "Royalty of 5,000 has been earned but not yet received. Which entry is passed?",
+      "options": [
+        "Royalty Receivable A/c Dr, To Royalty A/c",
+        "Royalty A/c Dr, To Royalty Receivable A/c",
+        "Cash/Bank A/c Dr, To Royalty A/c",
+        "Royalty Receivable A/c Dr, To Cash/Bank A/c"
+      ],
+      "answer": "Royalty Receivable A/c Dr, To Royalty A/c",
+      "accept": [],
+      "explanation": "Accrued income debits the receivable and credits the income.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "journal entry",
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#7",
+        "far--4-co3-journal-ledger-tb#8"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-adjusting-entries-q-f4944270",
+      "type": "mcq",
+      "stem": "In the summary table, which account is debited for income received in advance?",
+      "options": [
+        "Unearned Revenue A/c or Income received in advance A/c",
+        "Concerned Income A/c",
+        "Prepaid Expense A/c",
+        "Expenses Payable A/c"
+      ],
+      "answer": "Unearned Revenue A/c or Income received in advance A/c",
+      "accept": [],
+      "explanation": "The liability is cleared (debited) as the income is earned, and the income account is credited.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "define",
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#8",
+        "far--4-co3-journal-ledger-tb#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-adjusting-entries-q-4bd5dfc0",
+      "type": "mcq",
+      "stem": "How is outstanding interest calculated on the slide?",
+      "options": [
+        "Principal × interest rate × fraction of year",
+        "Principal ÷ interest rate",
+        "Interest rate × number of years only",
+        "Principal + interest rate"
+      ],
+      "answer": "Principal × interest rate × fraction of year",
+      "accept": [],
+      "explanation": "The slide gives this working for outstanding interest.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "formula",
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#6",
+        "far--4-co3-journal-ledger-tb#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-adjusting-entries-q-39436341",
+      "type": "short",
+      "stem": "What is unearned revenue? Give the two journal entries shown for interest received in advance of 8500.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Unearned revenue** (also called revenue received in advance, deferred revenue or income in advance) is money received before the service is performed.\n\nEntries:\n1. On receipt: **Cash/Bank A/c Dr 8500, To Interest received in advance A/c 8500** (cash received for services to be performed in the future).\n2. As earned: **Interest received in advance A/c Dr 8500, To Interest A/c 8500** (adjusting entry for the portion earned).\n\nSo the advance is first a credit to a liability-type account and later moves to income.",
+      "rubric": [
+        {
+          "point": "Definition and other names",
+          "source_ref": "far--4-co3-journal-ledger-tb#5"
+        },
+        {
+          "point": "Entry on receipt of cash",
+          "source_ref": "far--4-co3-journal-ledger-tb#5"
+        },
+        {
+          "point": "Adjusting entry when earned",
+          "source_ref": "far--4-co3-journal-ledger-tb#5"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "journal entry",
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#5",
+        "far--4-co3-journal-ledger-tb#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-adjusting-entries-q-7e92e698",
+      "type": "short",
+      "stem": "Explain outstanding expenses and give the entries for wages, interest and income tax.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Outstanding expenses** (accrual of unrecorded expenses, payable expenses) are costs incurred but not yet paid, so they must be recorded by an adjusting entry.\n\n- **Wages:** Wages Expense A/c Dr 7800, To Outstanding Wages A/c 7800.\n- **Interest:** Interest Expense A/c Dr, To Outstanding Interest A/c (principal × interest rate × fraction of year).\n- **Income tax:** Tax Expense A/c Dr, To Outstanding Taxes A/c.\n\nIn each case the expense is debited and an outstanding (payable) account is credited.",
+      "rubric": [
+        {
+          "point": "Meaning: incurred but not paid",
+          "source_ref": "far--4-co3-journal-ledger-tb#5"
+        },
+        {
+          "point": "Wages entry",
+          "source_ref": "far--4-co3-journal-ledger-tb#5"
+        },
+        {
+          "point": "Interest entry and formula",
+          "source_ref": "far--4-co3-journal-ledger-tb#6"
+        },
+        {
+          "point": "Tax entry",
+          "source_ref": "far--4-co3-journal-ledger-tb#6"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#5",
+        "far--4-co3-journal-ledger-tb#6",
+        "far--4-co3-journal-ledger-tb#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-adjusting-entries-q-3e7f1409",
+      "type": "short",
+      "stem": "Differentiate between prepaid expenses and outstanding expenses with the adjusting entry for each.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Prepaid expense:** paid in advance for the future. Adjusting entry: **Concerned Expense A/c Dr, To Prepaid Expense A/c**. Example: prepaid rent 10,000, Rent A/c Dr, To Prepaid Rent A/c.\n\n**Outstanding expense:** incurred but not yet paid. Adjusting entry: **Concerned Expense A/c Dr, To Outstanding Expense A/c (or Expenses Payable A/c)**. Example: wages 7800.\n\nIn both the expense account is debited; they differ in the account credited.",
+      "rubric": [
+        {
+          "point": "Prepaid is paid in advance, outstanding not yet paid",
+          "source_ref": "far--4-co3-journal-ledger-tb#8"
+        },
+        {
+          "point": "Prepaid entry credits Prepaid Expense A/c",
+          "source_ref": "far--4-co3-journal-ledger-tb#8"
+        },
+        {
+          "point": "Outstanding entry credits Outstanding Expense A/c",
+          "source_ref": "far--4-co3-journal-ledger-tb#8"
+        },
+        {
+          "point": "Examples prepaid rent and wages",
+          "source_ref": "far--4-co3-journal-ledger-tb#7"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "differentiate",
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#7",
+        "far--4-co3-journal-ledger-tb#8",
+        "far--4-co3-journal-ledger-tb#5"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-adjusting-entries-q-19a190b6",
+      "type": "short",
+      "stem": "Differentiate between income received in advance and accrued income (income receivable) with the debit and credit of each.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Income received in advance:** cash is received before the income is earned. As it is earned: **Unearned Revenue A/c (or Income received in advance A/c) Dr, To Concerned Income A/c**.\n\n**Accrued income:** income is earned but not yet received. **Concerned Income Receivable A/c Dr, To Concerned Revenue A/c**. Example: Royalty Receivable A/c Dr 5,000, To Royalty A/c 5,000.\n\nOne starts with cash and later earns it; the other starts with earning and later receives cash.",
+      "rubric": [
+        {
+          "point": "Advance: cash first, earned later",
+          "source_ref": "far--4-co3-journal-ledger-tb#8"
+        },
+        {
+          "point": "Advance entry Dr Unearned Revenue, Cr Income",
+          "source_ref": "far--4-co3-journal-ledger-tb#8"
+        },
+        {
+          "point": "Accrued: earned first, cash later",
+          "source_ref": "far--4-co3-journal-ledger-tb#8"
+        },
+        {
+          "point": "Accrued entry Dr Receivable, Cr Revenue; royalty 5,000",
+          "source_ref": "far--4-co3-journal-ledger-tb#7"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "differentiate",
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#5",
+        "far--4-co3-journal-ledger-tb#7",
+        "far--4-co3-journal-ledger-tb#8"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-adjusting-entries-q-ca0491f1",
+      "type": "long",
+      "stem": "Explain the four types of adjusting journal entry with the debit and credit for each and an example from the slides.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Adjusting entries bring the books in line with what has actually been earned or incurred in the period. Four types are shown.\n\n1. **Prepaid expenses:** Dr Concerned Expense A/c, Cr Prepaid Expense A/c. Example: Prepaid Rent A/c Dr 10,000, To Cash/Bank A/c on payment, then Rent A/c Dr 10,000, To Prepaid Rent A/c.\n2. **Unearned income (income received in advance):** Dr Unearned Revenue A/c or Income received in advance A/c, Cr Concerned Income A/c. Example: cash of 8500 received in advance, then Interest received in advance A/c Dr 8500, To Interest A/c 8500.\n3. **Accrued or outstanding expenses:** Dr Concerned Expense A/c, Cr Outstanding Expense A/c or Expenses Payable A/c. Example: Wages Expense A/c Dr 7800, To Outstanding Wages A/c 7800; also outstanding interest (principal × interest rate × fraction of year) and outstanding tax.\n4. **Accrued income (income receivable):** Dr Concerned Income Receivable A/c, Cr Concerned Revenue A/c. Example: Royalty Receivable A/c Dr 5,000, To Royalty A/c 5,000, and later Cash/Bank A/c Dr, To Royalty Receivable A/c.\n\nIn every case one side is the concerned income or expense account, so the profit of the period is stated correctly.",
+      "rubric": [
+        {
+          "point": "Prepaid expense entry and example",
+          "source_ref": "far--4-co3-journal-ledger-tb#7"
+        },
+        {
+          "point": "Unearned income entry and example",
+          "source_ref": "far--4-co3-journal-ledger-tb#5"
+        },
+        {
+          "point": "Outstanding expense entry and wages example",
+          "source_ref": "far--4-co3-journal-ledger-tb#5"
+        },
+        {
+          "point": "Accrued income entry and royalty example",
+          "source_ref": "far--4-co3-journal-ledger-tb#7"
+        },
+        {
+          "point": "Summary table understood",
+          "source_ref": "far--4-co3-journal-ledger-tb#8"
+        }
+      ],
+      "marks": 10.0,
+      "difficulty": 3,
+      "style_tag": "explain",
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#5",
+        "far--4-co3-journal-ledger-tb#6",
+        "far--4-co3-journal-ledger-tb#7",
+        "far--4-co3-journal-ledger-tb#8"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-adjusting-entries-q-224fc0bd",
+      "type": "long",
+      "stem": "Show, with journal entries, how prepaid rent of 10,000 and royalty receivable of 5,000 are handled from the first entry to the final one.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Prepaid rent of 10,000**\n\n1. When paid: **Prepaid Rent A/c Dr 10,000, To Cash/Bank A/c 10,000** (cash paid in advance for rent).\n2. Adjusting entry: **Rent A/c Dr 10,000, To Prepaid Rent A/c 10,000**.\n\nBy the summary table, a prepaid expense debits the concerned expense account and credits the prepaid expense account.\n\n**Royalty receivable of 5,000**\n\n1. Adjusting entry: **Royalty Receivable A/c Dr 5,000, To Royalty A/c 5,000** (income receivable but not yet received).\n2. When the cash comes in: **Cash/Bank A/c Dr, To Royalty Receivable A/c** (cash received from royalty income).\n\nBy the summary table, accrued income debits the concerned income receivable account and credits the concerned revenue account.",
+      "rubric": [
+        {
+          "point": "Prepaid rent paid entry",
+          "source_ref": "far--4-co3-journal-ledger-tb#7"
+        },
+        {
+          "point": "Prepaid rent adjusting entry",
+          "source_ref": "far--4-co3-journal-ledger-tb#7"
+        },
+        {
+          "point": "Royalty receivable entry",
+          "source_ref": "far--4-co3-journal-ledger-tb#7"
+        },
+        {
+          "point": "Cash receipt entry",
+          "source_ref": "far--4-co3-journal-ledger-tb#7"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 3,
+      "style_tag": "journal entry",
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#7",
+        "far--4-co3-journal-ledger-tb#8"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "explain_back": {
+    "prompt": "Explain the four types of adjusting entry and give the debit and credit for each.",
+    "rubric": [
+      {
+        "point": "Prepaid expenses: Dr expense, Cr prepaid expense",
+        "source_ref": "far--4-co3-journal-ledger-tb#8"
+      },
+      {
+        "point": "Income received in advance: Dr unearned revenue, Cr income",
+        "source_ref": "far--4-co3-journal-ledger-tb#8"
+      },
+      {
+        "point": "Outstanding expenses: Dr expense, Cr outstanding expense or expenses payable",
+        "source_ref": "far--4-co3-journal-ledger-tb#8"
+      },
+      {
+        "point": "Income receivable: Dr income receivable, Cr revenue",
+        "source_ref": "far--4-co3-journal-ledger-tb#8"
+      },
+      {
+        "point": "An example such as prepaid rent 10,000",
+        "source_ref": "far--4-co3-journal-ledger-tb#7"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

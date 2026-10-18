@@ -1,0 +1,853 @@
+{
+  "id": "far-cfw-measurement-bases",
+  "subject_id": "far",
+  "deck_id": "far--reading-1-conceptual-framework",
+  "title": "Measurement bases: historical cost and current value",
+  "order": 12,
+  "summary": "What a measurement basis is, how historical cost is updated, and the current value bases: fair value, value in use and fulfilment value, and current cost.",
+  "est_minutes": 35,
+  "difficulty": 3,
+  "source_refs": [
+    "far--reading-1-conceptual-framework#50",
+    "far--reading-1-conceptual-framework#51",
+    "far--reading-1-conceptual-framework#52",
+    "far--reading-1-conceptual-framework#53"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "far-cfw-measurement-bases-c1",
+      "heading": "Measurement bases and historical cost",
+      "explanation_md": "Elements recognised in the statements are **quantified in money**, which needs a **measurement basis**: an identified feature of the item being measured, such as **historical cost, fair value or fulfilment value**. Applying a basis to an asset or liability gives a **measure** for it and for related income and expenses. Because the qualitative characteristics and the cost constraint differ by item, **different bases** are likely to suit different assets, liabilities, income and expenses.\n\nA Standard may describe how to apply the basis, for example by specifying **techniques** to estimate a measure, a **simplified approach**, or how to **modify** a basis (such as excluding from fulfilment value the chance that the entity itself may fail to fulfil a liability, its **own credit risk**).\n\n**Historical cost** uses information taken, at least partly, from the **price of the transaction or event** that created the asset or liability. Unlike current value, it **does not reflect changes in value**, except for **impairment of an asset** or a liability becoming **onerous**.\n\n- **Asset:** the costs of acquiring or creating it: the **consideration paid plus transaction costs**.\n- **Liability:** the **consideration received** to take it on, **minus transaction costs**.\n- If an item arises from an event that is **not a transaction on market terms**, there may be no cost, or the cost may not be relevant. Then a **current value is used as deemed cost** at initial recognition, as the starting point for later historical cost measurement.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Measurement basis",
+          "meaning": "An identified feature, such as historical cost, fair value or fulfilment value, of an item being measured.",
+          "source_ref": "far--reading-1-conceptual-framework#50"
+        },
+        {
+          "term": "Historical cost",
+          "meaning": "A measure derived at least in part from the price of the transaction or event that gave rise to the asset or liability.",
+          "source_ref": "far--reading-1-conceptual-framework#50"
+        }
+      ],
+      "exam_line": "Historical cost: asset = consideration paid plus transaction costs; liability = consideration received minus transaction costs; no value changes except impairment or onerous liabilities.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "far-cfw-measurement-bases-q-798ec80d",
+          "type": "mcq",
+          "stem": "What is the historical cost of an asset when acquired?",
+          "options": [
+            "Consideration paid plus transaction costs",
+            "Its current market price",
+            "Present value of future cash flows",
+            "Consideration received minus transaction costs"
+          ],
+          "answer": "Consideration paid plus transaction costs",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--reading-1-conceptual-framework#50"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-cfw-measurement-bases-q-669c6afd",
+          "type": "mcq",
+          "stem": "What is the historical cost of a liability when incurred?",
+          "options": [
+            "Consideration received minus transaction costs",
+            "Consideration paid plus transaction costs",
+            "Fair value",
+            "Fulfilment value"
+          ],
+          "answer": "Consideration received minus transaction costs",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--reading-1-conceptual-framework#50"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-cfw-measurement-bases-q-50cf0f1c",
+          "type": "true_false",
+          "stem": "Unlike current value, historical cost does not reflect changes in value, except for impairment of an asset or a liability becoming onerous.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--reading-1-conceptual-framework#50"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "far--reading-1-conceptual-framework#50"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cfw-measurement-bases-c2",
+      "heading": "How historical cost is updated over time",
+      "explanation_md": "**Asset.** Its historical cost is updated to show, where applicable:\n\n(a) **consumption** of part or all of the resource (**depreciation or amortisation**);\n(b) **payments received** that extinguish part or all of the asset;\n(c) events that make part or all of the cost **no longer recoverable** (**impairment**); and\n(d) **accrual of interest** for any financing component.\n\n**Liability.** Its historical cost is updated to show, where applicable:\n\n(a) **fulfilment** of part or all of it (payments, or delivering goods);\n(b) events that raise the value of the obligation until the liability becomes **onerous**, that is, the historical cost is no longer enough to show the obligation to fulfil it; and\n(c) **accrual of interest** for any financing component.\n\n**Amortised cost.** One way to apply historical cost to financial assets and liabilities is **amortised cost**. It reflects estimates of future cash flows **discounted at a rate set at initial recognition** (updated for variable rate instruments), and is updated for interest accrual, impairment of a financial asset, and receipts or payments.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Amortised cost",
+          "meaning": "A way of applying historical cost to financial assets and liabilities, reflecting estimates of future cash flows discounted at a rate set at initial recognition.",
+          "source_ref": "far--reading-1-conceptual-framework#51"
+        }
+      ],
+      "exam_line": "Historical cost of an asset is updated for depreciation or amortisation, payments received, impairment and accrued interest; of a liability for fulfilment, onerous effects and accrued interest.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "far-cfw-measurement-bases-q-7a4f17a0",
+          "type": "mcq",
+          "stem": "Which update reflects consumption of an asset's economic resource?",
+          "options": [
+            "Depreciation or amortisation",
+            "Impairment",
+            "Accrual of interest",
+            "Fulfilment"
+          ],
+          "answer": "Depreciation or amortisation",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--reading-1-conceptual-framework#51"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-cfw-measurement-bases-q-c6c676ce",
+          "type": "mcq",
+          "stem": "A liability is onerous when:",
+          "options": [
+            "Its historical cost is no longer sufficient to depict the obligation to fulfil it",
+            "It is paid in cash",
+            "It is disclosed in the notes",
+            "It is derecognised"
+          ],
+          "answer": "Its historical cost is no longer sufficient to depict the obligation to fulfil it",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--reading-1-conceptual-framework#51"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-cfw-measurement-bases-q-19006cf3",
+          "type": "fill",
+          "stem": "Events that make part or all of an asset's cost no longer recoverable cause ____.",
+          "options": [],
+          "answer": "impairment",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--reading-1-conceptual-framework#51"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "far--reading-1-conceptual-framework#51"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cfw-measurement-bases-c3",
+      "heading": "Current value and fair value",
+      "explanation_md": "**Current value** measures use information **updated to reflect conditions at the measurement date**, so they reflect changes in cash flow estimates and other factors since the last measurement. Unlike historical cost, current value is **not derived, even in part, from the price of the original transaction**.\n\nThe current value bases are: **fair value**; **value in use** (assets) and **fulfilment value** (liabilities); and **current cost**.\n\n**Fair value** is the price that would be **received to sell an asset, or paid to transfer a liability, in an orderly transaction between market participants** at the measurement date. It reflects the **market participants' perspective**, using the assumptions they would use when pricing the item, acting in their economic best interest.\n\n- Sometimes fair value is observed **directly in an active market**.\n- Otherwise it is estimated using techniques, including **cash-flow-based techniques**, reflecting: (a) **estimates of future cash flows**; (b) possible **variations in their amount or timing** caused by uncertainty; (c) the **time value of money**; (d) the **price for bearing the uncertainty** (a risk premium or discount); and (e) other factors such as **liquidity** if market participants would consider them. Factors (b) and (d) include **credit risk** (the counterparty failing) and **own credit risk**.\n- Fair value is **not increased by transaction costs on acquiring** the asset and **not decreased by those on incurring** the liability, and **does not reflect transaction costs on ultimate disposal or transfer/settlement**.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Fair value",
+          "meaning": "The price that would be received to sell an asset or paid to transfer a liability in an orderly transaction between market participants at the measurement date.",
+          "source_ref": "far--reading-1-conceptual-framework#52"
+        }
+      ],
+      "exam_line": "Fair value is the market-participant price to sell an asset or transfer a liability, an exit value; it is not adjusted for transaction costs.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "far-cfw-measurement-bases-q-9830223a",
+          "type": "mcq",
+          "stem": "Whose perspective does fair value reflect?",
+          "options": [
+            "Market participants",
+            "The entity only",
+            "The Board",
+            "The auditor"
+          ],
+          "answer": "Market participants",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--reading-1-conceptual-framework#52"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-cfw-measurement-bases-q-4bba3014",
+          "type": "true_false",
+          "stem": "Fair value is increased by the transaction costs incurred when acquiring the asset.",
+          "options": [],
+          "answer": "False",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--reading-1-conceptual-framework#52"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-cfw-measurement-bases-q-ce082b2d",
+          "type": "mcq",
+          "stem": "Which is NOT a current value basis?",
+          "options": [
+            "Historical cost",
+            "Fair value",
+            "Value in use and fulfilment value",
+            "Current cost"
+          ],
+          "answer": "Historical cost",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--reading-1-conceptual-framework#51",
+            "far--reading-1-conceptual-framework#52"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "far--reading-1-conceptual-framework#51",
+        "far--reading-1-conceptual-framework#52"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cfw-measurement-bases-c4",
+      "heading": "Value in use, fulfilment value and current cost",
+      "explanation_md": "**Value in use** is the **present value of the cash flows or other benefits an entity expects from using an asset and from its ultimate disposal**. **Fulfilment value** is the **present value of the cash or other resources the entity expects to be obliged to transfer** as it fulfils a liability, including amounts for other parties needed to fulfil it.\n\n- They are based on future cash flows, so **do not include transaction costs on acquiring** the asset or taking on the liability, but **do include the present value of transaction costs expected on ultimate disposal** or on fulfilling the liability.\n- They reflect **entity-specific assumptions**, not those of market participants (in practice often little different).\n- They **cannot be observed directly**; they use cash-flow-based techniques, reflecting the same factors as fair value but from an **entity-specific** view.\n\n**Current cost.** The current cost of an **asset** is the cost of an **equivalent asset at the measurement date**: the consideration that would be paid **plus** transaction costs. For a **liability**: the consideration that would be received for an equivalent liability **minus** transaction costs.\n\n- Current cost, like historical cost, is an **entry value** (market where the entity would acquire the asset). Fair value, value in use and fulfilment value are **exit values**. Unlike historical cost, current cost reflects conditions **at the measurement date**.\n- If it cannot be observed directly, it is estimated indirectly, for example by **adjusting the current price of a new asset** for the age and condition of the asset held.\n\nTable 6.1 summarises the information each basis provides.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Value in use",
+          "meaning": "The present value of cash flows or other benefits an entity expects from using an asset and from its ultimate disposal.",
+          "source_ref": "far--reading-1-conceptual-framework#52"
+        },
+        {
+          "term": "Current cost",
+          "meaning": "The cost of an equivalent asset at the measurement date, including transaction costs; an entry value.",
+          "source_ref": "far--reading-1-conceptual-framework#53"
+        }
+      ],
+      "exam_line": "Value in use and fulfilment value are entity-specific present values and exit values; current cost is an entry value that reflects conditions at the measurement date.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "far-cfw-measurement-bases-q-7f48e783",
+          "type": "mcq",
+          "stem": "Which of these is an entry value?",
+          "options": [
+            "Current cost",
+            "Fair value",
+            "Value in use",
+            "Fulfilment value"
+          ],
+          "answer": "Current cost",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--reading-1-conceptual-framework#53"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-cfw-measurement-bases-q-b0724fc4",
+          "type": "mcq",
+          "stem": "Value in use reflects:",
+          "options": [
+            "Entity-specific assumptions",
+            "Market participants' assumptions",
+            "Historical prices",
+            "Transaction costs on acquiring the asset"
+          ],
+          "answer": "Entity-specific assumptions",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--reading-1-conceptual-framework#53"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-cfw-measurement-bases-q-22a1037f",
+          "type": "true_false",
+          "stem": "Value in use includes the present value of transaction costs the entity expects on ultimate disposal of the asset.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--reading-1-conceptual-framework#53"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "far--reading-1-conceptual-framework#52",
+        "far--reading-1-conceptual-framework#53"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "far-cfw-measurement-bases-f1",
+      "front": "Measurement basis",
+      "back": "An identified feature, such as historical cost or fair value, of an item being measured.",
+      "kind": "term",
+      "source_refs": [
+        "far--reading-1-conceptual-framework#50"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cfw-measurement-bases-f2",
+      "front": "Historical cost of an asset",
+      "back": "Consideration paid plus transaction costs.",
+      "kind": "formula",
+      "source_refs": [
+        "far--reading-1-conceptual-framework#50"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cfw-measurement-bases-f3",
+      "front": "Historical cost of a liability",
+      "back": "Consideration received minus transaction costs.",
+      "kind": "formula",
+      "source_refs": [
+        "far--reading-1-conceptual-framework#50"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cfw-measurement-bases-f4",
+      "front": "Updates to the historical cost of an asset",
+      "back": "Depreciation or amortisation, payments received, impairment, accrued interest.",
+      "kind": "list",
+      "source_refs": [
+        "far--reading-1-conceptual-framework#51"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cfw-measurement-bases-f5",
+      "front": "Amortised cost",
+      "back": "Historical cost applied to financial instruments: estimated future cash flows discounted at the rate set at initial recognition.",
+      "kind": "term",
+      "source_refs": [
+        "far--reading-1-conceptual-framework#51"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cfw-measurement-bases-f6",
+      "front": "Current value bases",
+      "back": "Fair value; value in use (assets) and fulfilment value (liabilities); current cost.",
+      "kind": "list",
+      "source_refs": [
+        "far--reading-1-conceptual-framework#51"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cfw-measurement-bases-f7",
+      "front": "Fair value",
+      "back": "Price received to sell an asset or paid to transfer a liability in an orderly transaction between market participants.",
+      "kind": "term",
+      "source_refs": [
+        "far--reading-1-conceptual-framework#52"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cfw-measurement-bases-f8",
+      "front": "Value in use and fulfilment value",
+      "back": "Present value of cash flows from using an asset and disposing of it; present value of cash to fulfil a liability; entity-specific.",
+      "kind": "term",
+      "source_refs": [
+        "far--reading-1-conceptual-framework#52",
+        "far--reading-1-conceptual-framework#53"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cfw-measurement-bases-f9",
+      "front": "Entry value versus exit value",
+      "back": "Entry values: historical cost and current cost. Exit values: fair value, value in use and fulfilment value.",
+      "kind": "fact",
+      "source_refs": [
+        "far--reading-1-conceptual-framework#53"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cfw-measurement-bases-f10",
+      "front": "Deemed cost",
+      "back": "A current value used as cost at initial recognition when the item was not acquired on market terms.",
+      "kind": "term",
+      "source_refs": [
+        "far--reading-1-conceptual-framework#50"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [
+    {
+      "id": "far-cfw-measurement-bases-q-caacc2f4",
+      "type": "mcq",
+      "stem": "The historical cost of a liability when it is incurred is:",
+      "options": [
+        "The consideration received to take it on, minus transaction costs",
+        "The consideration paid plus transaction costs",
+        "Its fair value",
+        "Present value of expected payments"
+      ],
+      "answer": "The consideration received to take it on, minus transaction costs",
+      "accept": [],
+      "explanation": "For an asset it is consideration paid plus transaction costs.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "define",
+      "source_refs": [
+        "far--reading-1-conceptual-framework#50"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cfw-measurement-bases-q-78416af3",
+      "type": "mcq",
+      "stem": "Fair value is:",
+      "options": [
+        "The price received to sell an asset or paid to transfer a liability in an orderly transaction between market participants",
+        "The cost of an equivalent asset today",
+        "The present value of cash flows to the entity",
+        "The original transaction price"
+      ],
+      "answer": "The price received to sell an asset or paid to transfer a liability in an orderly transaction between market participants",
+      "accept": [],
+      "explanation": "It reflects the market participants' perspective.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "define",
+      "source_refs": [
+        "far--reading-1-conceptual-framework#52"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cfw-measurement-bases-q-6ef52ae2",
+      "type": "mcq",
+      "stem": "Which two measurement bases are entry values?",
+      "options": [
+        "Historical cost and current cost",
+        "Fair value and value in use",
+        "Value in use and fulfilment value",
+        "Fair value and fulfilment value"
+      ],
+      "answer": "Historical cost and current cost",
+      "accept": [],
+      "explanation": "Fair value, value in use and fulfilment value are exit values.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "classify",
+      "source_refs": [
+        "far--reading-1-conceptual-framework#53"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cfw-measurement-bases-q-35e12da0",
+      "type": "mcq",
+      "stem": "Which assumptions does value in use rely on?",
+      "options": [
+        "Entity-specific assumptions",
+        "Market participants' assumptions",
+        "Only past prices",
+        "The Board's assumptions"
+      ],
+      "answer": "Entity-specific assumptions",
+      "accept": [],
+      "explanation": "Fair value is the market-participant measure.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "far--reading-1-conceptual-framework#53",
+        "far--reading-1-conceptual-framework#52"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cfw-measurement-bases-q-a78be4d1",
+      "type": "short",
+      "stem": "Describe historical cost and how it is updated over time.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Historical cost** uses information from the price of the transaction or event that created the asset or liability. It does not reflect changes in value except for impairment or an onerous liability.\n\n- **Asset:** consideration paid plus transaction costs.\n- **Liability:** consideration received minus transaction costs.\n\n**Updating an asset:** for consumption (depreciation or amortisation), payments received, impairment, and accrued interest on a financing component.\n**Updating a liability:** for fulfilment, events making it onerous, and accrued interest.\n\n**Amortised cost** applies historical cost to financial instruments using future cash flows discounted at a rate set at initial recognition. If the item arises from an event not on market terms, a current value is used as a deemed cost.",
+      "rubric": [
+        {
+          "point": "Based on transaction price; no value changes except impairment or onerous",
+          "source_ref": "far--reading-1-conceptual-framework#50"
+        },
+        {
+          "point": "Asset and liability formulas",
+          "source_ref": "far--reading-1-conceptual-framework#50"
+        },
+        {
+          "point": "Updates for an asset",
+          "source_ref": "far--reading-1-conceptual-framework#51"
+        },
+        {
+          "point": "Updates for a liability; amortised cost",
+          "source_ref": "far--reading-1-conceptual-framework#51"
+        }
+      ],
+      "marks": 5.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "far--reading-1-conceptual-framework#50",
+        "far--reading-1-conceptual-framework#51"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cfw-measurement-bases-q-5055e424",
+      "type": "short",
+      "stem": "Differentiate between fair value and value in use.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Fair value:** the price to sell an asset or transfer a liability in an orderly transaction between **market participants**. It reflects **market participants' assumptions**, is not increased by transaction costs on acquiring the asset and does not reflect transaction costs on disposal. It can often be observed in an active market.\n\n**Value in use:** the **present value of the cash flows or other benefits the entity expects from using an asset and from its ultimate disposal**. It reflects **entity-specific assumptions**, cannot be observed directly, and includes the present value of transaction costs expected on disposal (not acquisition costs).\n\nBoth are exit values and use cash-flow-based techniques when not observable.",
+      "rubric": [
+        {
+          "point": "Fair value: market participants' price to sell or transfer",
+          "source_ref": "far--reading-1-conceptual-framework#52"
+        },
+        {
+          "point": "Value in use: present value from use and disposal",
+          "source_ref": "far--reading-1-conceptual-framework#53"
+        },
+        {
+          "point": "Market-participant versus entity-specific assumptions",
+          "source_ref": "far--reading-1-conceptual-framework#53"
+        },
+        {
+          "point": "Treatment of transaction costs",
+          "source_ref": "far--reading-1-conceptual-framework#53"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "differentiate",
+      "source_refs": [
+        "far--reading-1-conceptual-framework#52",
+        "far--reading-1-conceptual-framework#53"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cfw-measurement-bases-q-ca8eaa2e",
+      "type": "short",
+      "stem": "Explain what current cost is and how it differs from historical cost and fair value.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The **current cost** of an asset is the cost of an **equivalent asset at the measurement date**: the consideration that would be paid plus transaction costs. For a liability it is the consideration that would be received for an equivalent liability minus transaction costs.\n\nLike historical cost it is an **entry value** (prices in the market where the entity would acquire the asset or incur the liability), but unlike historical cost it reflects **conditions at the measurement date**. It differs from fair value, value in use and fulfilment value, which are **exit values**.\n\nIf it cannot be observed directly, it may be estimated by adjusting the current price of a new asset for the age and condition of the asset held.",
+      "rubric": [
+        {
+          "point": "Cost of an equivalent asset at the measurement date",
+          "source_ref": "far--reading-1-conceptual-framework#53"
+        },
+        {
+          "point": "Entry value like historical cost",
+          "source_ref": "far--reading-1-conceptual-framework#53"
+        },
+        {
+          "point": "Reflects conditions at measurement date, unlike historical cost",
+          "source_ref": "far--reading-1-conceptual-framework#53"
+        },
+        {
+          "point": "Exit values for fair value and others; estimate from new asset price",
+          "source_ref": "far--reading-1-conceptual-framework#53"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "differentiate",
+      "source_refs": [
+        "far--reading-1-conceptual-framework#53"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cfw-measurement-bases-q-d1dbba67",
+      "type": "long",
+      "stem": "Describe the measurement bases in the Conceptual Framework: historical cost and the current value bases.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Recognised elements are quantified in money, which requires a **measurement basis**: an identified feature, such as historical cost, fair value or fulfilment value, of the item being measured. Different bases may suit different items.\n\n**Historical cost.** Uses information from the transaction price; unchanged by value changes except impairment or an onerous liability. Asset: consideration paid plus transaction costs. Liability: consideration received minus transaction costs. Updated for depreciation or amortisation, payments, impairment, fulfilment and accrued interest. **Amortised cost** is one application to financial instruments. A deemed cost (a current value) may be used when an item is not acquired on market terms.\n\n**Current value** uses information updated to the measurement date, not derived from the original transaction price. Its bases:\n\n- **Fair value:** the price to sell an asset or transfer a liability between market participants; market-participant assumptions; observed in an active market or estimated with cash-flow-based techniques (cash flows, variability, time value, risk price, liquidity); not adjusted for transaction costs.\n- **Value in use and fulfilment value:** present value of cash flows from using and disposing of an asset, or of the cash to fulfil a liability; entity-specific assumptions; cannot be observed directly.\n- **Current cost:** the cost of an equivalent asset at the measurement date, including transaction costs; an entry value, unlike the exit values of the other current value bases.",
+      "rubric": [
+        {
+          "point": "Measurement basis defined",
+          "source_ref": "far--reading-1-conceptual-framework#50"
+        },
+        {
+          "point": "Historical cost and updating",
+          "source_ref": "far--reading-1-conceptual-framework#51"
+        },
+        {
+          "point": "Fair value",
+          "source_ref": "far--reading-1-conceptual-framework#52"
+        },
+        {
+          "point": "Value in use and fulfilment value",
+          "source_ref": "far--reading-1-conceptual-framework#53"
+        },
+        {
+          "point": "Current cost and entry versus exit values",
+          "source_ref": "far--reading-1-conceptual-framework#53"
+        }
+      ],
+      "marks": 10.0,
+      "difficulty": 3,
+      "style_tag": "explain",
+      "source_refs": [
+        "far--reading-1-conceptual-framework#50",
+        "far--reading-1-conceptual-framework#51",
+        "far--reading-1-conceptual-framework#52",
+        "far--reading-1-conceptual-framework#53"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cfw-measurement-bases-q-ccf94d0f",
+      "type": "long",
+      "stem": "A Standard requires an asset to be measured at fair value using a cash-flow-based technique. List the factors the technique must reflect and explain how transaction costs are treated.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "When fair value cannot be observed directly in an active market it is estimated using techniques, including **cash-flow-based techniques**. The technique reflects:\n\n(a) **estimates of future cash flows**;\n(b) possible **variations in the amount or timing** of those cash flows caused by uncertainty;\n(c) the **time value of money**;\n(d) the **price for bearing the uncertainty** (a risk premium or discount); and\n(e) **other factors**, such as liquidity, if market participants would consider them.\n\nFactors (b) and (d) include the risk that a counterparty fails to fulfil its liability (**credit risk**) or that the entity fails to fulfil its liability (**own credit risk**).\n\n**Transaction costs.** Because fair value is not derived from the transaction price, it is **not increased by transaction costs incurred on acquiring** the asset, not decreased by those on incurring a liability, and does **not reflect transaction costs on ultimate disposal** or on transferring or settling a liability.\n\nThe measure reflects the assumptions of **market participants**, not the entity.",
+      "rubric": [
+        {
+          "point": "Estimates of future cash flows and variations in amount or timing",
+          "source_ref": "far--reading-1-conceptual-framework#52"
+        },
+        {
+          "point": "Time value of money and price for bearing uncertainty",
+          "source_ref": "far--reading-1-conceptual-framework#52"
+        },
+        {
+          "point": "Other factors such as liquidity; credit risk",
+          "source_ref": "far--reading-1-conceptual-framework#52"
+        },
+        {
+          "point": "Transaction costs not added or deducted",
+          "source_ref": "far--reading-1-conceptual-framework#52"
+        },
+        {
+          "point": "Market-participant perspective",
+          "source_ref": "far--reading-1-conceptual-framework#52"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 3,
+      "style_tag": "case",
+      "source_refs": [
+        "far--reading-1-conceptual-framework#52"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "explain_back": {
+    "prompt": "Describe the measurement bases in the Conceptual Framework.",
+    "rubric": [
+      {
+        "point": "Historical cost: from the transaction price; asset consideration paid plus costs, liability consideration received minus costs",
+        "source_ref": "far--reading-1-conceptual-framework#50"
+      },
+      {
+        "point": "Historical cost is updated for depreciation, impairment, interest and fulfilment",
+        "source_ref": "far--reading-1-conceptual-framework#51"
+      },
+      {
+        "point": "Fair value: market-participant exit price",
+        "source_ref": "far--reading-1-conceptual-framework#52"
+      },
+      {
+        "point": "Value in use and fulfilment value: entity-specific present values; current cost: entry value at the measurement date",
+        "source_ref": "far--reading-1-conceptual-framework#53"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

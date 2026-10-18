@@ -1,0 +1,724 @@
+{
+  "id": "far-cfw-capital-maintenance",
+  "subject_id": "far",
+  "deck_id": "far--reading-1-conceptual-framework",
+  "title": "Concepts of capital and capital maintenance",
+  "order": 17,
+  "summary": "Financial and physical concepts of capital, how each defines profit, holding gains, and capital maintenance adjustments.",
+  "est_minutes": 25,
+  "difficulty": 3,
+  "source_refs": [
+    "far--reading-1-conceptual-framework#78",
+    "far--reading-1-conceptual-framework#79",
+    "far--reading-1-conceptual-framework#80"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "far-cfw-capital-maintenance-c1",
+      "heading": "Concepts of capital",
+      "explanation_md": "Chapter 8 was carried forward unchanged from the 2010 Framework, which originally came from the 1989 Framework.\n\nMost entities use a **financial concept of capital**, such as **invested money or invested purchasing power**. Here capital is the same as the entity's **net assets, or equity**. Under a **physical concept of capital**, such as **operating capability**, capital is the entity's **productive capacity**, for example units of output per day.\n\n**Which to choose** depends on the **needs of users**. Use a **financial** concept if users mainly care about maintaining **nominal invested capital** or the **purchasing power of invested capital**. Use a **physical** concept if their main concern is the entity's **operating capability**. The concept chosen sets **the goal to be reached in determining profit**, even if making it operational brings some measurement difficulties.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Financial concept of capital",
+          "meaning": "Capital as invested money or invested purchasing power; the same as the net assets or equity of the entity.",
+          "source_ref": "far--reading-1-conceptual-framework#78"
+        },
+        {
+          "term": "Physical concept of capital",
+          "meaning": "Capital as the productive capacity of the entity, such as operating capability or units of output per day.",
+          "source_ref": "far--reading-1-conceptual-framework#78"
+        }
+      ],
+      "exam_line": "Financial capital = net assets or equity (invested money or purchasing power); physical capital = productive capacity (operating capability). The choice depends on users' needs.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "far-cfw-capital-maintenance-q-49b9002e",
+          "type": "mcq",
+          "stem": "Under a financial concept of capital, capital is:",
+          "options": [
+            "The same as net assets or equity",
+            "The productive capacity",
+            "Units of output per day",
+            "Total liabilities"
+          ],
+          "answer": "The same as net assets or equity",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--reading-1-conceptual-framework#78"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-cfw-capital-maintenance-q-5da168c5",
+          "type": "mcq",
+          "stem": "When should a physical concept of capital be used?",
+          "options": [
+            "When users' main concern is the entity's operating capability",
+            "When users care about nominal invested capital",
+            "Always",
+            "Never"
+          ],
+          "answer": "When users' main concern is the entity's operating capability",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--reading-1-conceptual-framework#78"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-cfw-capital-maintenance-q-e0dbf142",
+          "type": "true_false",
+          "stem": "Most entities adopt a financial concept of capital.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--reading-1-conceptual-framework#78"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "far--reading-1-conceptual-framework#78"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cfw-capital-maintenance-c2",
+      "heading": "Capital maintenance and profit",
+      "explanation_md": "The concepts of capital give rise to two concepts of **capital maintenance**:\n\n- **Financial capital maintenance:** profit is earned only if the **financial (money) amount of net assets at the end** of the period **exceeds** that at the **beginning**, after excluding distributions to, and contributions from, owners. It can be measured in **nominal monetary units** or in **units of constant purchasing power**.\n- **Physical capital maintenance:** profit is earned only if the **physical productive capacity (operating capability)** at the end exceeds that at the beginning, after excluding distributions to and contributions from owners.\n\nCapital maintenance links the **concepts of capital** with the **concepts of profit**. It is the **reference point for measuring profit**, a prerequisite for distinguishing a **return on capital** from a **return of capital**. Only inflows of assets in excess of the amount needed to maintain capital are profit and so a return on capital. **Profit is the residual** after expenses (including capital maintenance adjustments where appropriate) are deducted from income; if expenses exceed income the residual is a loss.\n\nThe **physical** concept requires the **current cost** basis. The **financial** concept does not require a particular basis; it depends on the type of financial capital the entity wants to maintain.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Capital maintenance",
+          "meaning": "The idea of how an entity defines the capital it seeks to maintain; the reference point for measuring profit.",
+          "source_ref": "far--reading-1-conceptual-framework#78"
+        }
+      ],
+      "exam_line": "Financial capital maintenance: profit if the money amount of net assets rises over the period (excluding owner flows). Physical capital maintenance: profit if productive capacity rises; it needs current cost. Profit is the residual after maintaining capital.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "far-cfw-capital-maintenance-q-548464d3",
+          "type": "mcq",
+          "stem": "Under financial capital maintenance, profit is earned only if:",
+          "options": [
+            "The money amount of net assets at the end exceeds that at the beginning, excluding owner flows",
+            "Productive capacity falls",
+            "Liabilities fall to zero",
+            "Sales rise"
+          ],
+          "answer": "The money amount of net assets at the end exceeds that at the beginning, excluding owner flows",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--reading-1-conceptual-framework#78"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-cfw-capital-maintenance-q-6d70b83c",
+          "type": "mcq",
+          "stem": "Which concept of capital maintenance requires the current cost basis of measurement?",
+          "options": [
+            "Physical capital maintenance",
+            "Financial capital maintenance",
+            "Both",
+            "Neither"
+          ],
+          "answer": "Physical capital maintenance",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--reading-1-conceptual-framework#79"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-cfw-capital-maintenance-q-55f57262",
+          "type": "true_false",
+          "stem": "Only inflows of assets in excess of amounts needed to maintain capital may be regarded as profit.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--reading-1-conceptual-framework#78"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "far--reading-1-conceptual-framework#78",
+        "far--reading-1-conceptual-framework#79"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cfw-capital-maintenance-c3",
+      "heading": "Price changes, holding gains and capital maintenance adjustments",
+      "explanation_md": "**The main difference** between the two concepts is how they treat the **effects of price changes** on the entity's assets and liabilities. The entity has maintained capital if it has as much at the end as at the beginning; any excess is profit.\n\n- **Financial capital maintenance in nominal units:** profit is the **increase in nominal money capital**. Price increases on assets held, **holding gains**, are conceptually **profits**, though they may not be recognised as such until the assets are **disposed of in an exchange**.\n- **Financial capital maintenance in constant purchasing power units:** profit is the increase in **invested purchasing power**. Only the part of the asset price rise **above the rise in the general price level** is profit. The rest is a **capital maintenance adjustment**, part of equity.\n- **Physical capital maintenance:** profit is the increase in **productive capacity**. **All price changes** affecting assets and liabilities are changes in the measurement of productive capacity, so they are **capital maintenance adjustments within equity**, not profit.\n\n**Capital maintenance adjustments.** The revaluation or restatement of assets and liabilities causes increases or decreases in equity. They meet the definition of income and expenses, but under certain capital maintenance concepts they are **not included in the income statement**; they are included in **equity** as **capital maintenance adjustments or revaluation reserves**.\n\n**Accounting model.** The choice of measurement bases and capital maintenance concept determines the accounting model. Different models differ in relevance and reliability and management must seek a balance. The Framework applies to a range of models; the Board does not intend to prescribe a model other than in exceptional circumstances, such as entities reporting in the currency of a **hyperinflationary economy**.",
+      "example_ids": [
+        "far-ex-holding-gains"
+      ],
+      "key_terms": [
+        {
+          "term": "Capital maintenance adjustment",
+          "meaning": "A change in equity from revaluing or restating assets and liabilities that, under certain concepts, is kept in equity as a revaluation reserve rather than in the income statement.",
+          "source_ref": "far--reading-1-conceptual-framework#80"
+        }
+      ],
+      "exam_line": "Holding gains are conceptually profit under nominal financial capital maintenance; under physical capital maintenance (and the excess over general price rises in constant purchasing power) price changes are capital maintenance adjustments in equity.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "far-cfw-capital-maintenance-q-c4dd0b95",
+          "type": "mcq",
+          "stem": "Under physical capital maintenance, price changes affecting assets and liabilities are treated as:",
+          "options": [
+            "Capital maintenance adjustments in equity",
+            "Profit",
+            "Expenses",
+            "Liabilities"
+          ],
+          "answer": "Capital maintenance adjustments in equity",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--reading-1-conceptual-framework#79"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-cfw-capital-maintenance-q-166ca26b",
+          "type": "mcq",
+          "stem": "Under financial capital maintenance in nominal money units, increases in the prices of assets held are conceptually:",
+          "options": [
+            "Profits (holding gains)",
+            "Losses",
+            "Capital maintenance adjustments only",
+            "Liabilities"
+          ],
+          "answer": "Profits (holding gains)",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--reading-1-conceptual-framework#79"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-cfw-capital-maintenance-q-76285092",
+          "type": "true_false",
+          "stem": "Capital maintenance adjustments or revaluation reserves are included in equity rather than in the income statement.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--reading-1-conceptual-framework#80"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "far--reading-1-conceptual-framework#79",
+        "far--reading-1-conceptual-framework#80"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "far-cfw-capital-maintenance-f1",
+      "front": "Financial concept of capital",
+      "back": "Invested money or purchasing power; capital equals net assets or equity.",
+      "kind": "term",
+      "source_refs": [
+        "far--reading-1-conceptual-framework#78"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cfw-capital-maintenance-f2",
+      "front": "Physical concept of capital",
+      "back": "Productive capacity, such as operating capability or units of output per day.",
+      "kind": "term",
+      "source_refs": [
+        "far--reading-1-conceptual-framework#78"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cfw-capital-maintenance-f3",
+      "front": "Financial capital maintenance",
+      "back": "Profit if the money amount of net assets at the end exceeds that at the start, excluding owner flows.",
+      "kind": "term",
+      "source_refs": [
+        "far--reading-1-conceptual-framework#78"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cfw-capital-maintenance-f4",
+      "front": "Physical capital maintenance",
+      "back": "Profit if productive capacity at the end exceeds that at the start; requires the current cost basis.",
+      "kind": "term",
+      "source_refs": [
+        "far--reading-1-conceptual-framework#78",
+        "far--reading-1-conceptual-framework#79"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cfw-capital-maintenance-f5",
+      "front": "Holding gains",
+      "back": "Price increases on assets held; conceptually profit under nominal financial capital maintenance.",
+      "kind": "term",
+      "source_refs": [
+        "far--reading-1-conceptual-framework#79"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cfw-capital-maintenance-f6",
+      "front": "Constant purchasing power maintenance",
+      "back": "Only the part of the price increase above the general price level rise is profit; the rest is a capital maintenance adjustment.",
+      "kind": "fact",
+      "source_refs": [
+        "far--reading-1-conceptual-framework#79"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cfw-capital-maintenance-f7",
+      "front": "Capital maintenance adjustment",
+      "back": "A revaluation effect kept in equity (revaluation reserve) rather than in the income statement.",
+      "kind": "term",
+      "source_refs": [
+        "far--reading-1-conceptual-framework#80"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cfw-capital-maintenance-f8",
+      "front": "Return on capital versus return of capital",
+      "back": "Only inflows in excess of what maintains capital are profit, a return on capital.",
+      "kind": "fact",
+      "source_refs": [
+        "far--reading-1-conceptual-framework#78"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [
+    {
+      "id": "far-cfw-capital-maintenance-q-5180ade9",
+      "type": "mcq",
+      "stem": "Which concept of capital regards capital as the productive capacity of the entity?",
+      "options": [
+        "Physical concept of capital",
+        "Financial concept of capital",
+        "Nominal concept of capital",
+        "Legal concept of capital"
+      ],
+      "answer": "Physical concept of capital",
+      "accept": [],
+      "explanation": "For example units of output per day.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "define",
+      "source_refs": [
+        "far--reading-1-conceptual-framework#78"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cfw-capital-maintenance-q-056f9777",
+      "type": "mcq",
+      "stem": "Under physical capital maintenance, price changes on assets and liabilities are treated as:",
+      "options": [
+        "Capital maintenance adjustments within equity",
+        "Profit",
+        "Expenses",
+        "Liabilities"
+      ],
+      "answer": "Capital maintenance adjustments within equity",
+      "accept": [],
+      "explanation": "They are changes in the measurement of productive capacity.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "far--reading-1-conceptual-framework#79"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cfw-capital-maintenance-q-e6260b3f",
+      "type": "mcq",
+      "stem": "Which capital maintenance concept requires the current cost basis of measurement?",
+      "options": [
+        "Physical capital maintenance",
+        "Financial capital maintenance",
+        "Both equally",
+        "Neither"
+      ],
+      "answer": "Physical capital maintenance",
+      "accept": [],
+      "explanation": "The financial concept does not require a particular basis.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "define",
+      "source_refs": [
+        "far--reading-1-conceptual-framework#79"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cfw-capital-maintenance-q-91356b36",
+      "type": "mcq",
+      "stem": "Under financial capital maintenance in constant purchasing power units, profit is only the part of an asset price rise that:",
+      "options": [
+        "Exceeds the rise in the general level of prices",
+        "Equals the rise in the general level of prices",
+        "Is below the general rise",
+        "Is recognised in the notes"
+      ],
+      "answer": "Exceeds the rise in the general level of prices",
+      "accept": [],
+      "explanation": "The rest is a capital maintenance adjustment within equity.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 3,
+      "style_tag": "explain",
+      "source_refs": [
+        "far--reading-1-conceptual-framework#79"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cfw-capital-maintenance-q-deb0a81f",
+      "type": "short",
+      "stem": "Distinguish the financial and physical concepts of capital and say when each should be chosen.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Financial concept:** capital is invested money or invested purchasing power; it is the same as the **net assets or equity** of the entity. Most entities use it.\n\n**Physical concept:** capital is the entity's **productive capacity**, for example operating capability or units of output per day.\n\nThe choice depends on **users' needs**: use the financial concept if users mainly care about maintaining nominal invested capital or purchasing power, and the physical concept if their main concern is the entity's operating capability. The concept chosen sets the goal for determining profit.",
+      "rubric": [
+        {
+          "point": "Financial: net assets or equity, money or purchasing power",
+          "source_ref": "far--reading-1-conceptual-framework#78"
+        },
+        {
+          "point": "Physical: productive capacity, operating capability",
+          "source_ref": "far--reading-1-conceptual-framework#78"
+        },
+        {
+          "point": "Choice depends on users' needs",
+          "source_ref": "far--reading-1-conceptual-framework#78"
+        },
+        {
+          "point": "Concept sets the goal for determining profit",
+          "source_ref": "far--reading-1-conceptual-framework#78"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "differentiate",
+      "source_refs": [
+        "far--reading-1-conceptual-framework#78"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cfw-capital-maintenance-q-54223c62",
+      "type": "short",
+      "stem": "Explain financial capital maintenance and physical capital maintenance.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Financial capital maintenance:** profit is earned only if the financial (money) amount of **net assets at the end** of the period **exceeds** that at the beginning, after excluding distributions to, and contributions from, owners. It can be measured in nominal monetary units or in units of constant purchasing power.\n\n**Physical capital maintenance:** profit is earned only if the **physical productive capacity (operating capability)** at the end exceeds that at the beginning, after excluding owner flows.\n\nCapital maintenance is the reference point for measuring profit and separates a return on capital from a return of capital: only inflows in excess of the amount needed to maintain capital are profit.",
+      "rubric": [
+        {
+          "point": "Financial capital maintenance",
+          "source_ref": "far--reading-1-conceptual-framework#78"
+        },
+        {
+          "point": "Nominal units or constant purchasing power",
+          "source_ref": "far--reading-1-conceptual-framework#78"
+        },
+        {
+          "point": "Physical capital maintenance",
+          "source_ref": "far--reading-1-conceptual-framework#78"
+        },
+        {
+          "point": "Profit as the residual; return on versus return of capital",
+          "source_ref": "far--reading-1-conceptual-framework#78"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "far--reading-1-conceptual-framework#78"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cfw-capital-maintenance-q-9477a762",
+      "type": "short",
+      "stem": "What are holding gains and how do the capital maintenance concepts treat them?",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Holding gains** are increases in the prices of assets held over the period.\n\n- Under **financial capital maintenance in nominal money units**, profit is the increase in nominal money capital, so holding gains are conceptually **profits**, though they may not be recognised until the assets are disposed of in an exchange transaction.\n- Under **constant purchasing power**, only the part of the price rise that **exceeds the rise in the general price level** is profit; the rest is a **capital maintenance adjustment** in equity.\n- Under **physical capital maintenance**, all price changes are changes in the measurement of productive capacity and are **capital maintenance adjustments** within equity, not profit.",
+      "rubric": [
+        {
+          "point": "Holding gains defined as price increases on assets held",
+          "source_ref": "far--reading-1-conceptual-framework#79"
+        },
+        {
+          "point": "Nominal financial capital: conceptually profit",
+          "source_ref": "far--reading-1-conceptual-framework#79"
+        },
+        {
+          "point": "Constant purchasing power: only the excess over general prices",
+          "source_ref": "far--reading-1-conceptual-framework#79"
+        },
+        {
+          "point": "Physical capital: capital maintenance adjustments",
+          "source_ref": "far--reading-1-conceptual-framework#79"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 3,
+      "style_tag": "explain",
+      "source_refs": [
+        "far--reading-1-conceptual-framework#79"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cfw-capital-maintenance-q-c41cdaad",
+      "type": "long",
+      "stem": "Discuss the concepts of capital and capital maintenance and their effect on the determination of profit.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Concepts of capital.** Under the **financial concept** (invested money or purchasing power) capital is the entity's net assets or equity; most entities use it. Under the **physical concept** (operating capability) capital is productive capacity. The choice depends on the needs of users, and sets the goal for determining profit.\n\n**Capital maintenance.** The financial concept gives **financial capital maintenance**: profit only if the money amount of net assets at the end exceeds that at the start, excluding owner flows, measured in nominal units or constant purchasing power. The physical concept gives **physical capital maintenance**: profit only if productive capacity at the end exceeds that at the start. Capital maintenance links capital and profit: it is the reference point, and only inflows in excess of those needed to maintain capital are profit, a return on capital. Profit is the residual after expenses (including capital maintenance adjustments where appropriate) are deducted from income.\n\n**Measurement.** Physical capital maintenance requires the current cost basis; financial does not require a particular basis.\n\n**Price changes.** This is the main difference. Nominal financial capital: holding gains are conceptually profit. Constant purchasing power: only the excess over general price rises is profit and the rest is a capital maintenance adjustment. Physical: all price changes are capital maintenance adjustments within equity. Revaluations may be kept in equity as capital maintenance adjustments or revaluation reserves rather than in the income statement.\n\nThe choice of bases and concept determines the accounting model; the Board does not prescribe one except in exceptional circumstances such as hyperinflationary economies.",
+      "rubric": [
+        {
+          "point": "Financial and physical concepts of capital, and choice by users' needs",
+          "source_ref": "far--reading-1-conceptual-framework#78"
+        },
+        {
+          "point": "Financial and physical capital maintenance",
+          "source_ref": "far--reading-1-conceptual-framework#78"
+        },
+        {
+          "point": "Profit as the residual; return on capital",
+          "source_ref": "far--reading-1-conceptual-framework#78"
+        },
+        {
+          "point": "Treatment of price changes",
+          "source_ref": "far--reading-1-conceptual-framework#79"
+        },
+        {
+          "point": "Capital maintenance adjustments and accounting model",
+          "source_ref": "far--reading-1-conceptual-framework#80"
+        }
+      ],
+      "marks": 10.0,
+      "difficulty": 3,
+      "style_tag": "explain",
+      "source_refs": [
+        "far--reading-1-conceptual-framework#78",
+        "far--reading-1-conceptual-framework#79",
+        "far--reading-1-conceptual-framework#80"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cfw-capital-maintenance-q-2e6ee4ab",
+      "type": "long",
+      "stem": "Explain capital maintenance adjustments and how the choice of measurement basis and capital maintenance concept shapes the accounting model.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Capital maintenance adjustments.** The revaluation or restatement of assets and liabilities causes increases or decreases in equity. They meet the definition of income and expenses, but under certain concepts of capital maintenance they are **not included in the income statement**. Instead they are included in equity as **capital maintenance adjustments or revaluation reserves**.\n\n**Link to profit.** Under physical capital maintenance all price changes affecting assets and liabilities are treated this way. Under constant purchasing power maintenance the part of the price rise equal to the general price rise is treated this way. Under nominal financial capital maintenance holding gains are conceptually profit.\n\n**Accounting model.** The selection of measurement bases and the concept of capital maintenance determines the **accounting model**. Different models have different degrees of relevance and reliability, and management must seek a balance. The Conceptual Framework applies to a range of models and does not prescribe one, except in exceptional circumstances such as an entity reporting in the currency of a hyperinflationary economy.",
+      "rubric": [
+        {
+          "point": "Revaluations meet the definition of income and expenses",
+          "source_ref": "far--reading-1-conceptual-framework#80"
+        },
+        {
+          "point": "Kept in equity rather than the income statement under certain concepts",
+          "source_ref": "far--reading-1-conceptual-framework#80"
+        },
+        {
+          "point": "Link to the three profit concepts",
+          "source_ref": "far--reading-1-conceptual-framework#79"
+        },
+        {
+          "point": "Choice of bases and concept determines the accounting model",
+          "source_ref": "far--reading-1-conceptual-framework#79"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 3,
+      "style_tag": "explain",
+      "source_refs": [
+        "far--reading-1-conceptual-framework#79",
+        "far--reading-1-conceptual-framework#80"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "explain_back": {
+    "prompt": "Compare financial and physical capital maintenance and their treatment of price changes.",
+    "rubric": [
+      {
+        "point": "Financial capital: net assets or equity; profit if the money amount of net assets rises",
+        "source_ref": "far--reading-1-conceptual-framework#78"
+      },
+      {
+        "point": "Physical capital: productive capacity; profit if capacity rises; needs current cost",
+        "source_ref": "far--reading-1-conceptual-framework#78"
+      },
+      {
+        "point": "Nominal financial capital: holding gains are conceptually profit",
+        "source_ref": "far--reading-1-conceptual-framework#79"
+      },
+      {
+        "point": "Physical capital: all price changes are capital maintenance adjustments within equity",
+        "source_ref": "far--reading-1-conceptual-framework#79"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

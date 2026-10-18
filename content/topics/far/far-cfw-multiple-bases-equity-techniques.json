@@ -1,0 +1,712 @@
+{
+  "id": "far-cfw-multiple-bases-equity-techniques",
+  "subject_id": "far",
+  "deck_id": "far--reading-1-conceptual-framework",
+  "title": "More than one basis, measuring equity, and cash-flow-based techniques",
+  "order": 15,
+  "summary": "Using different bases for the statement of financial position and profit or loss, how total equity is measured, and how central estimates are used.",
+  "est_minutes": 25,
+  "difficulty": 3,
+  "source_refs": [
+    "far--reading-1-conceptual-framework#68",
+    "far--reading-1-conceptual-framework#69",
+    "far--reading-1-conceptual-framework#70",
+    "far--reading-1-conceptual-framework#71"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "far-cfw-multiple-bases-equity-techniques-c1",
+      "heading": "More than one measurement basis",
+      "explanation_md": "Sometimes the factors lead to the view that **more than one basis** is needed for an asset or liability and its income and expenses, to give relevant, faithful information about both **position and performance**.\n\nIn most cases the most understandable approach is:\n\n(a) to use **a single basis** for both the item in the statement of financial position and the related income and expenses, and\n(b) to give additional information on **a different basis in the notes**.\n\nIn some cases, though, it is more relevant or faithful to use:\n\n(a) a **current value basis** for the asset or liability in the statement of financial position, and\n(b) a **different basis** for the related income and expenses in the **statement of profit or loss**.\n\nThen the total income or expenses from the change in current value is **split**:\n\n- the **statement of profit or loss** includes the amounts measured on the basis chosen for that statement; and\n- **other comprehensive income** includes **all the remaining** income or expenses. The accumulated other comprehensive income for the item equals the difference between the **carrying amount in the statement of financial position** and the carrying amount that would result from the basis chosen for profit or loss.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "Usually one basis plus notes on another; sometimes a current value in the statement of financial position and a different basis for profit or loss, with the remainder in other comprehensive income.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "far-cfw-multiple-bases-equity-techniques-q-e72ddb6c",
+          "type": "mcq",
+          "stem": "What is usually the most understandable way to give information on more than one basis?",
+          "options": [
+            "Use one basis in the statements and give another basis in the notes",
+            "Use three bases in the statements",
+            "Use no basis",
+            "Use only fair value everywhere"
+          ],
+          "answer": "Use one basis in the statements and give another basis in the notes",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--reading-1-conceptual-framework#68"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-cfw-multiple-bases-equity-techniques-q-9f99cc95",
+          "type": "mcq",
+          "stem": "Where do the remaining income or expenses go when a different basis is used for profit or loss?",
+          "options": [
+            "Other comprehensive income",
+            "Equity directly",
+            "The notes only",
+            "Liabilities"
+          ],
+          "answer": "Other comprehensive income",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--reading-1-conceptual-framework#69"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-cfw-multiple-bases-equity-techniques-q-e2e6e4ea",
+          "type": "true_false",
+          "stem": "In some cases a current value basis is used in the statement of financial position and a different basis for related income and expenses in profit or loss.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--reading-1-conceptual-framework#69"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "far--reading-1-conceptual-framework#68",
+        "far--reading-1-conceptual-framework#69"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cfw-multiple-bases-equity-techniques-c2",
+      "heading": "Measurement of equity",
+      "explanation_md": "**Total equity is not measured directly.** It equals the total carrying amount of all recognised assets **less** the total carrying amount of all recognised liabilities.\n\nBecause general purpose statements are **not designed to show the entity's value**, total equity will not generally equal:\n\n(a) the **aggregate market value** of equity claims;\n(b) the amount that could be raised by **selling the entity as a whole** on a going concern basis; or\n(c) the amount that could be raised by **selling all assets and settling all liabilities**.\n\nIt may be appropriate to measure directly some **classes** and **components** of equity, but because total equity is a **residual**, at least one class and at least one component **cannot be measured directly**.\n\nThe carrying amount of a class or component of equity is normally **positive**, but can be **negative** in some circumstances. Similarly, total equity is generally positive but can be negative, depending on which assets and liabilities are recognised and how they are measured.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "Total equity is a residual: recognised assets less recognised liabilities. It does not generally equal market value of equity claims or the amount from selling the entity.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "far-cfw-multiple-bases-equity-techniques-q-af365254",
+          "type": "mcq",
+          "stem": "How is total equity measured?",
+          "options": [
+            "As total carrying amount of recognised assets less recognised liabilities",
+            "Directly at market value",
+            "As income minus expenses",
+            "As the sale price of the entity"
+          ],
+          "answer": "As total carrying amount of recognised assets less recognised liabilities",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--reading-1-conceptual-framework#69"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-cfw-multiple-bases-equity-techniques-q-1b70490c",
+          "type": "true_false",
+          "stem": "Total equity will generally equal the aggregate market value of equity claims.",
+          "options": [],
+          "answer": "False",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--reading-1-conceptual-framework#69"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-cfw-multiple-bases-equity-techniques-q-f544e676",
+          "type": "true_false",
+          "stem": "Total equity is generally positive, but it can be negative.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--reading-1-conceptual-framework#70"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "far--reading-1-conceptual-framework#69",
+        "far--reading-1-conceptual-framework#70"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cfw-multiple-bases-equity-techniques-c3",
+      "heading": "Cash-flow-based measurement techniques and central estimates",
+      "explanation_md": "Sometimes a measure cannot be observed directly. A way to estimate it is a **cash-flow-based technique**. These are **not measurement bases**; they are **techniques used in applying** a basis. So when using one you must identify which basis is used and how far the technique reflects the factors for that basis (for fair value, the factors listed for it). Techniques can be used with a **modified** basis, for example fulfilment value modified to exclude the effect of **own credit risk**. Modified bases may be more relevant or cheaper, but can be **harder for users to understand**.\n\n**Outcome uncertainty** (about the amount or timing of future cash flows) is considered when choosing **a single amount from the range** of possible cash flows. The most relevant amount is usually from the **central part** of the range, a **central estimate**. Different central estimates give different information:\n\n(a) the **expected value**: the probability-weighted average (the statistical **mean**), reflecting the entire range with more weight on likelier outcomes; it does not predict the final cash flow;\n(b) the **maximum amount more likely than not** to occur (like the statistical **median**): the probability of a later loss is no more than 50% and of a later gain no more than 50%;\n(c) the **most likely outcome** (the statistical **mode**): the single most likely final flow.\n\nA central estimate **does not capture the price for bearing the uncertainty** that the outcome may differ from it, and **no central estimate gives complete information** about the range, so users may need information on the range of possible outcomes.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Central estimate",
+          "meaning": "A single amount from the central part of the range of possible cash flows, such as the expected value, the amount more likely than not, or the most likely outcome.",
+          "source_ref": "far--reading-1-conceptual-framework#70"
+        }
+      ],
+      "exam_line": "Cash-flow-based techniques are not bases; central estimates: expected value (mean), amount more likely than not (median), most likely outcome (mode). No central estimate gives complete information.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "far-cfw-multiple-bases-equity-techniques-q-78417552",
+          "type": "mcq",
+          "stem": "The probability-weighted average of possible outcomes is the:",
+          "options": [
+            "Expected value",
+            "Most likely outcome",
+            "Median",
+            "Mode"
+          ],
+          "answer": "Expected value",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--reading-1-conceptual-framework#70"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-cfw-multiple-bases-equity-techniques-q-d27e1469",
+          "type": "mcq",
+          "stem": "The single most likely final inflow or outflow is the:",
+          "options": [
+            "Most likely outcome (statistical mode)",
+            "Expected value",
+            "Statistical mean",
+            "Fair value"
+          ],
+          "answer": "Most likely outcome (statistical mode)",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--reading-1-conceptual-framework#70"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-cfw-multiple-bases-equity-techniques-q-f5df8904",
+          "type": "true_false",
+          "stem": "Cash-flow-based measurement techniques are measurement bases.",
+          "options": [],
+          "answer": "False",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--reading-1-conceptual-framework#70"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-cfw-multiple-bases-equity-techniques-q-0eb79af3",
+          "type": "true_false",
+          "stem": "A central estimate captures the price for bearing the uncertainty that the outcome may differ from it.",
+          "options": [],
+          "answer": "False",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--reading-1-conceptual-framework#71"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "far--reading-1-conceptual-framework#70",
+        "far--reading-1-conceptual-framework#71"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "far-cfw-multiple-bases-equity-techniques-f1",
+      "front": "Two bases in the statements",
+      "back": "Current value in the statement of financial position, a different basis in profit or loss, remainder in other comprehensive income.",
+      "kind": "fact",
+      "source_refs": [
+        "far--reading-1-conceptual-framework#69"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cfw-multiple-bases-equity-techniques-f2",
+      "front": "Preferred way to show a second basis",
+      "back": "Use one basis in the statements and give the other in the notes.",
+      "kind": "fact",
+      "source_refs": [
+        "far--reading-1-conceptual-framework#68"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cfw-multiple-bases-equity-techniques-f3",
+      "front": "Measurement of total equity",
+      "back": "Recognised assets less recognised liabilities; not measured directly.",
+      "kind": "formula",
+      "source_refs": [
+        "far--reading-1-conceptual-framework#69"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cfw-multiple-bases-equity-techniques-f4",
+      "front": "Total equity versus value",
+      "back": "Total equity does not generally equal the market value of equity claims or the amount from selling the entity.",
+      "kind": "fact",
+      "source_refs": [
+        "far--reading-1-conceptual-framework#69"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cfw-multiple-bases-equity-techniques-f5",
+      "front": "Cash-flow-based techniques",
+      "back": "Techniques used in applying a basis; not bases themselves.",
+      "kind": "fact",
+      "source_refs": [
+        "far--reading-1-conceptual-framework#70"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cfw-multiple-bases-equity-techniques-f6",
+      "front": "Central estimates",
+      "back": "Expected value (mean), maximum amount more likely than not (median), most likely outcome (mode).",
+      "kind": "list",
+      "source_refs": [
+        "far--reading-1-conceptual-framework#70"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cfw-multiple-bases-equity-techniques-f7",
+      "front": "Limits of a central estimate",
+      "back": "Does not capture the price for bearing uncertainty; none gives complete information about the range.",
+      "kind": "fact",
+      "source_refs": [
+        "far--reading-1-conceptual-framework#71"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [
+    {
+      "id": "far-cfw-multiple-bases-equity-techniques-q-6f8498de",
+      "type": "mcq",
+      "stem": "The statistical mean among central estimates corresponds to the:",
+      "options": [
+        "Expected value",
+        "Most likely outcome",
+        "Maximum amount more likely than not",
+        "Fair value"
+      ],
+      "answer": "Expected value",
+      "accept": [],
+      "explanation": "The expected value is the probability-weighted average.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "define",
+      "source_refs": [
+        "far--reading-1-conceptual-framework#70"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cfw-multiple-bases-equity-techniques-q-2dbb6481",
+      "type": "mcq",
+      "stem": "Total equity is measured as:",
+      "options": [
+        "Recognised assets minus recognised liabilities",
+        "Market value of equity claims",
+        "Income minus expenses",
+        "The sale price of the entity"
+      ],
+      "answer": "Recognised assets minus recognised liabilities",
+      "accept": [],
+      "explanation": "It is a residual and not measured directly.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "define",
+      "source_refs": [
+        "far--reading-1-conceptual-framework#69"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cfw-multiple-bases-equity-techniques-q-67cd3f95",
+      "type": "mcq",
+      "stem": "Cash-flow-based measurement techniques are:",
+      "options": [
+        "Techniques used in applying a measurement basis, not bases themselves",
+        "Measurement bases",
+        "Units of account",
+        "Elements"
+      ],
+      "answer": "Techniques used in applying a measurement basis, not bases themselves",
+      "accept": [],
+      "explanation": "The basis used must be identified.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "far--reading-1-conceptual-framework#70"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cfw-multiple-bases-equity-techniques-q-7534633a",
+      "type": "mcq",
+      "stem": "Where do the remaining income or expenses go when a basis different from the statement of financial position basis is used for profit or loss?",
+      "options": [
+        "Other comprehensive income",
+        "Directly to liabilities",
+        "The notes only",
+        "No account"
+      ],
+      "answer": "Other comprehensive income",
+      "accept": [],
+      "explanation": "Accumulated other comprehensive income equals the difference in carrying amounts.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "far--reading-1-conceptual-framework#69"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cfw-multiple-bases-equity-techniques-q-d6047bde",
+      "type": "short",
+      "stem": "Explain how the Framework deals with more than one measurement basis.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Sometimes more than one basis is needed to give relevant, faithful information about both position and performance. Usually the most understandable way is to use **one basis** for the item in the statement of financial position and for its income and expenses, and give **additional information on a different basis in the notes**.\n\nIn some cases it is more relevant to use a **current value basis** in the statement of financial position and a **different basis** for the related income and expenses in the **statement of profit or loss**. The total income or expenses from the change in current value is then split: profit or loss gets the amounts on its chosen basis and **other comprehensive income** gets the remainder.",
+      "rubric": [
+        {
+          "point": "One basis plus notes on another",
+          "source_ref": "far--reading-1-conceptual-framework#68"
+        },
+        {
+          "point": "Current value in the statement of financial position, other basis in profit or loss",
+          "source_ref": "far--reading-1-conceptual-framework#69"
+        },
+        {
+          "point": "Remainder in other comprehensive income",
+          "source_ref": "far--reading-1-conceptual-framework#69"
+        },
+        {
+          "point": "Accumulated other comprehensive income equals the difference in carrying amounts",
+          "source_ref": "far--reading-1-conceptual-framework#69"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 3,
+      "style_tag": "explain",
+      "source_refs": [
+        "far--reading-1-conceptual-framework#68",
+        "far--reading-1-conceptual-framework#69"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cfw-multiple-bases-equity-techniques-q-cd106243",
+      "type": "short",
+      "stem": "Explain how total equity is measured and why it does not generally equal the value of the entity.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Total equity** is not measured directly. It equals the total carrying amount of all recognised **assets less** the total carrying amount of all recognised **liabilities**.\n\nBecause general purpose statements are **not designed to show the entity's value**, it will not generally equal the aggregate market value of equity claims, the amount from selling the entity as a whole as a going concern, or the amount from selling all its assets and settling all its liabilities.\n\nSome classes and components of equity may be measured directly, but at least one class and one component cannot be, since total equity is a residual. Total equity is generally positive but can be negative.",
+      "rubric": [
+        {
+          "point": "Recognised assets less recognised liabilities",
+          "source_ref": "far--reading-1-conceptual-framework#69"
+        },
+        {
+          "point": "Statements are not designed to show value",
+          "source_ref": "far--reading-1-conceptual-framework#69"
+        },
+        {
+          "point": "Not equal to market value or sale amounts",
+          "source_ref": "far--reading-1-conceptual-framework#69"
+        },
+        {
+          "point": "At least one class and component not measured directly; can be negative",
+          "source_ref": "far--reading-1-conceptual-framework#70"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "far--reading-1-conceptual-framework#69",
+        "far--reading-1-conceptual-framework#70"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cfw-multiple-bases-equity-techniques-q-a21ed400",
+      "type": "short",
+      "stem": "Describe the central estimates used with cash-flow-based techniques.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "When a measure is estimated from uncertain cash flows a single amount from the **central part of the range** is usually the most relevant, a **central estimate**. Three examples:\n\n- the **expected value** (statistical mean), a probability-weighted average that reflects the whole range and does not predict the final flow;\n- the **maximum amount more likely than not to occur** (like the median), where the probability of a later loss and of a later gain is each no more than 50%;\n- the **most likely outcome** (the mode), the single most likely final flow.\n\nNone captures the price for bearing the uncertainty, and none gives complete information about the range, so users may need information on the range.",
+      "rubric": [
+        {
+          "point": "Central estimate from the central part of the range",
+          "source_ref": "far--reading-1-conceptual-framework#70"
+        },
+        {
+          "point": "Expected value (mean)",
+          "source_ref": "far--reading-1-conceptual-framework#70"
+        },
+        {
+          "point": "More likely than not (median) and most likely outcome (mode)",
+          "source_ref": "far--reading-1-conceptual-framework#70"
+        },
+        {
+          "point": "Limits of central estimates",
+          "source_ref": "far--reading-1-conceptual-framework#71"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 3,
+      "style_tag": "explain",
+      "source_refs": [
+        "far--reading-1-conceptual-framework#70",
+        "far--reading-1-conceptual-framework#71"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cfw-multiple-bases-equity-techniques-q-4a5b67f7",
+      "type": "long",
+      "stem": "Discuss how the Framework measures equity and treats cash-flow-based measurement techniques.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Equity.** Total equity is not measured directly; it is total carrying amount of recognised assets less recognised liabilities. Statements are not designed to show the entity's value, so total equity does not generally equal the market value of equity claims or amounts from selling the entity or its assets. Some classes and components of equity may be measured directly, but because equity is a residual, at least one class and one component cannot be. Equity is normally positive but can be negative.\n\n**Cash-flow-based techniques.** When a measure cannot be observed directly, these techniques may be used to estimate it. They are **not measurement bases**; they apply a basis, so the basis used and the factors it reflects must be identified (for fair value, the factors for fair value). They may be used with a modified basis, for example fulfilment value excluding own credit risk, which may be more relevant or cheaper but harder to understand.\n\n**Outcome uncertainty** is handled by picking a single amount from the range, usually from the central part. Central estimates include the **expected value** (mean), the **maximum amount more likely than not** (median) and the **most likely outcome** (mode). A central estimate does not capture the price for bearing uncertainty and no central estimate gives complete information about the range, so users may need information about the range of outcomes.",
+      "rubric": [
+        {
+          "point": "Equity is a residual, not measured directly",
+          "source_ref": "far--reading-1-conceptual-framework#69"
+        },
+        {
+          "point": "Does not equal the entity's value",
+          "source_ref": "far--reading-1-conceptual-framework#69"
+        },
+        {
+          "point": "Cash-flow techniques are not bases; modified bases",
+          "source_ref": "far--reading-1-conceptual-framework#70"
+        },
+        {
+          "point": "Central estimates",
+          "source_ref": "far--reading-1-conceptual-framework#70"
+        },
+        {
+          "point": "Limits and need for range information",
+          "source_ref": "far--reading-1-conceptual-framework#71"
+        }
+      ],
+      "marks": 10.0,
+      "difficulty": 3,
+      "style_tag": "explain",
+      "source_refs": [
+        "far--reading-1-conceptual-framework#69",
+        "far--reading-1-conceptual-framework#70",
+        "far--reading-1-conceptual-framework#71"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cfw-multiple-bases-equity-techniques-q-fa85520f",
+      "type": "long",
+      "stem": "A Standard permits one basis for the statement of financial position and a different basis for profit or loss. Explain how the income and expenses are classified and what accumulated other comprehensive income represents.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "In some cases it is more relevant, or a more faithful representation of both position and performance, to use a **current value basis** for the asset or liability in the statement of financial position and a **different basis** for related income and expenses in the **statement of profit or loss**. The factors for selecting bases must be considered.\n\nThe total income or expenses arising in the period from the change in current value is **separated and classified** so that:\n\n(a) the **statement of profit or loss** includes the income or expenses measured on the basis selected for that statement; and\n(b) **other comprehensive income** includes all the remaining income or expenses.\n\nAs a result, the **accumulated other comprehensive income** for that item equals the difference between: (i) the **carrying amount in the statement of financial position**; and (ii) the carrying amount that would have been determined using the basis selected for profit or loss.\n\nIn most cases, the simpler and more understandable alternative is to use one basis in the statements and give another in the notes.",
+      "rubric": [
+        {
+          "point": "Current value in the statement of financial position, a different basis in profit or loss",
+          "source_ref": "far--reading-1-conceptual-framework#69"
+        },
+        {
+          "point": "Total change split between profit or loss and other comprehensive income",
+          "source_ref": "far--reading-1-conceptual-framework#69"
+        },
+        {
+          "point": "Accumulated other comprehensive income equals the difference in carrying amounts",
+          "source_ref": "far--reading-1-conceptual-framework#69"
+        },
+        {
+          "point": "Usual alternative: one basis and notes",
+          "source_ref": "far--reading-1-conceptual-framework#68"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 3,
+      "style_tag": "case",
+      "source_refs": [
+        "far--reading-1-conceptual-framework#68",
+        "far--reading-1-conceptual-framework#69"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "explain_back": {
+    "prompt": "Explain how total equity is measured and why it generally does not equal the value of the entity.",
+    "rubric": [
+      {
+        "point": "Total equity is not measured directly; it is recognised assets less recognised liabilities",
+        "source_ref": "far--reading-1-conceptual-framework#69"
+      },
+      {
+        "point": "Statements are not designed to show the entity's value",
+        "source_ref": "far--reading-1-conceptual-framework#69"
+      },
+      {
+        "point": "It will not generally equal market value of equity claims or amounts from sale of the entity",
+        "source_ref": "far--reading-1-conceptual-framework#69"
+      },
+      {
+        "point": "It can be negative depending on which assets and liabilities are recognised and measured",
+        "source_ref": "far--reading-1-conceptual-framework#70"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

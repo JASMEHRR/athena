@@ -1,0 +1,1387 @@
+{
+  "id": "far-jl-journal",
+  "subject_id": "far",
+  "deck_id": "far--4-co3-journal-ledger-tb",
+  "title": "The journal: recording transactions",
+  "order": 2,
+  "summary": "The journal format, how a journal entry is written, and the ten journal entries for M/S Manish Malhotra.",
+  "est_minutes": 20,
+  "difficulty": 2,
+  "source_refs": [
+    "far--4-co3-journal-ledger-tb#4",
+    "far--4-co3-journal-ledger-tb#13",
+    "far--4-co3-journal-ledger-tb#12"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "far-jl-journal-c1",
+      "heading": "The journal format and how an entry looks",
+      "explanation_md": "The journal is where each transaction is first written down. The format on the slide has these columns: **Date**, **Particulars**, **L.F.**, and two amount columns, **Dr.** and **Cr.**\n\nIn the worked pages every entry follows the same pattern:\n\n- Line 1: the account to be debited, with **Dr** next to it, and the amount in the Dr column.\n- Line 2: the word **To** and the account to be credited, with the amount in the Cr column.\n- Line 3: a short note in brackets that starts with **Being**, saying what happened (for example, being cash sales).\n\nSo every entry has a debit and a credit of the same amount.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Journal",
+          "meaning": "The book in which a transaction is first recorded as a debit and a credit, with a short note.",
+          "source_ref": "far--4-co3-journal-ledger-tb#4"
+        }
+      ],
+      "exam_line": "A journal entry has the date, the account debited (Dr), the account credited (To), the amount in both columns, and a short note starting with Being.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "far-jl-journal-q-ffd2e024",
+          "type": "mcq",
+          "stem": "Which columns appear in the journal format?",
+          "options": [
+            "Date, Particulars, L.F., Dr. amount, Cr. amount",
+            "Date, Particulars, J.F., Debit side, Credit side on two halves",
+            "Account title, Debit balance, Credit balance",
+            "Item, Quantity, Rate"
+          ],
+          "answer": "Date, Particulars, L.F., Dr. amount, Cr. amount",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--4-co3-journal-ledger-tb#4",
+            "far--4-co3-journal-ledger-tb#9",
+            "far--4-co3-journal-ledger-tb#15"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-jl-journal-q-df29a868",
+          "type": "fill",
+          "stem": "In a journal entry the note under the entry starts with the word ____.",
+          "options": [],
+          "answer": "Being",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--4-co3-journal-ledger-tb#13"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-jl-journal-q-9785f422",
+          "type": "true_false",
+          "stem": "Each journal entry on the handwritten pages has equal amounts on the debit and credit sides.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--4-co3-journal-ledger-tb#13"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#4",
+        "far--4-co3-journal-ledger-tb#13"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-journal-c2",
+      "heading": "Example 4: the ten transactions of M/S Manish Malhotra",
+      "explanation_md": "The question asks you to **journalise** the transactions, **prepare the accounting equation** for them and **post the entries to the ledger**. The June transactions are:\n\n- June 05: business started with cash, ₹2,00,000\n- June 08: opened a bank account with Syndicate Bank, ₹80,000\n- June 12: goods purchased on credit from M/s Gulmohar Fashion House, ₹30,000\n- June 12: office machines bought, paid by cheque, ₹20,000\n- June 18: rent paid by cheque, ₹5,000\n- June 20: sale of goods on credit to M/s Mohit Bros, ₹10,000\n- June 22: cash sales, ₹15,000\n- June 25: cash paid to M/s Gulmohar Fashion House, ₹30,000\n- June 28: cheque received from M/s Mohit Bros, ₹10,000\n- June 30: salary paid in cash, ₹6,000",
+      "example_ids": [
+        "far-ex-ex4-manish"
+      ],
+      "key_terms": [],
+      "exam_line": "Example 4 has three tasks: journalise, prepare the accounting equation, and post to the ledger.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "far-jl-journal-q-def0d998",
+          "type": "mcq",
+          "stem": "Which three things does Example 4 ask for?",
+          "options": [
+            "Journalise, prepare the accounting equation, post to the ledger",
+            "Prepare a trial balance, correct errors, prepare adjusting entries",
+            "Prepare a ledger, a balance sheet and a cash flow",
+            "Classify accounts, find errors, value stock"
+          ],
+          "answer": "Journalise, prepare the accounting equation, post to the ledger",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--4-co3-journal-ledger-tb#12",
+            "far--4-co3-journal-ledger-tb#20",
+            "far--4-co3-journal-ledger-tb#21"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-jl-journal-q-c7daed78",
+          "type": "mcq",
+          "stem": "On June 25, to whom is cash paid?",
+          "options": [
+            "M/s Gulmohar Fashion House",
+            "M/s Mohit Bros",
+            "Syndicate Bank",
+            "M/s Sumit Traders"
+          ],
+          "answer": "M/s Gulmohar Fashion House",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--4-co3-journal-ledger-tb#12",
+            "far--4-co3-journal-ledger-tb#2"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#12"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-journal-c3",
+      "heading": "Example 4: the journal entries",
+      "explanation_md": "The handwritten solution gives these entries (Dr account, then To account):\n\n| Date | Debit | Credit | Amount (₹) | Note |\n|---|---|---|---|---|\n| June 5 | Cash A/c | Capital A/c | 2,00,000 | business started with cash |\n| June 8 | Bank A/c | Cash A/c | 80,000 | bank account opened |\n| June 12 | Purchases A/c | M/s Gulmohar F.H. A/c | 30,000 | goods bought on credit |\n| June 12 | Machines A/c | Bank A/c | 20,000 | machines bought |\n| June 18 | Rent A/c | Bank A/c | 5,000 | rent paid |\n| June 20 | M/s Mohit Bros A/c | Sales A/c | 10,000 | goods sold on credit |\n| June 22 | Cash A/c | Sales A/c | 15,000 | cash sales |\n| June 25 | M/s Gulmohar F.H. A/c | Cash A/c | 30,000 | cash paid to Gulmohar |\n| June 28 | Bank A/c | M/s Mohit Bros A/c | 10,000 | cheque received |\n| June 30 | Salary A/c | Cash A/c | 6,000 | salary paid in cash |\n\nNotice the pattern: what comes in or is received is debited (cash, bank, machines, purchases, rent, salary, the customer who owes us). The source or the thing given is credited (capital, cash, bank, sales, the supplier we owe).",
+      "example_ids": [
+        "far-ex-ex4-manish"
+      ],
+      "key_terms": [],
+      "exam_line": "Know the entries: for example, credit sales are Debit M/s Mohit Bros, Credit Sales; payment received by cheque is Debit Bank, Credit M/s Mohit Bros.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "far-jl-journal-q-f30b399c",
+          "type": "mcq",
+          "stem": "What is the journal entry for the cash sales of ₹15,000 on June 22?",
+          "options": [
+            "Cash A/c Dr, To Sales A/c",
+            "Sales A/c Dr, To Cash A/c",
+            "Bank A/c Dr, To Sales A/c",
+            "Purchases A/c Dr, To Cash A/c"
+          ],
+          "answer": "Cash A/c Dr, To Sales A/c",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--4-co3-journal-ledger-tb#13"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-jl-journal-q-b95fb10c",
+          "type": "mcq",
+          "stem": "What is the entry when the cheque of ₹10,000 is received from M/s Mohit Bros?",
+          "options": [
+            "Bank A/c Dr, To M/s Mohit Bros A/c",
+            "M/s Mohit Bros A/c Dr, To Bank A/c",
+            "Cash A/c Dr, To M/s Mohit Bros A/c",
+            "Bank A/c Dr, To Sales A/c"
+          ],
+          "answer": "Bank A/c Dr, To M/s Mohit Bros A/c",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--4-co3-journal-ledger-tb#13",
+            "far--4-co3-journal-ledger-tb#12"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-jl-journal-q-8673361b",
+          "type": "fill",
+          "stem": "On June 12 the goods bought on credit are recorded as Purchases A/c Dr, To M/s ____ F.H. A/c.",
+          "options": [],
+          "answer": "Gulmohar",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--4-co3-journal-ledger-tb#13"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#13"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-journal-c4",
+      "heading": "Example 4: the accounting equation view",
+      "explanation_md": "The question also asks for the accounting equation. Counting the purchased goods of ₹30,000 as stock, the running totals are:\n\n| After | Assets | Liabilities | Capital |\n|---|---|---|---|\n| June 5 | 2,00,000 | 0 | 2,00,000 |\n| June 8 | 2,00,000 | 0 | 2,00,000 |\n| June 12 goods | 2,30,000 | 30,000 | 2,00,000 |\n| June 12 machines | 2,30,000 | 30,000 | 2,00,000 |\n| June 18 rent | 2,25,000 | 30,000 | 1,95,000 |\n| June 20 credit sale | 2,35,000 | 30,000 | 2,05,000 |\n| June 22 cash sales | 2,50,000 | 30,000 | 2,20,000 |\n| June 25 payment | 2,20,000 | 0 | 2,20,000 |\n| June 28 cheque | 2,20,000 | 0 | 2,20,000 |\n| June 30 salary | 2,14,000 | 0 | 2,14,000 |\n\nCapital moves because rent (5,000) and salary (6,000) lower it and the sales (10,000 and 15,000) raise it. At the end the assets are cash 99,000, bank 65,000, machines 20,000 and stock 30,000, which is 2,14,000.",
+      "example_ids": [
+        "far-ex-ex4-manish"
+      ],
+      "key_terms": [],
+      "exam_line": "Rent and salary reduce capital; sales increase it; paying a supplier lowers both assets and liabilities.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "far-jl-journal-q-13d37adc",
+          "type": "mcq",
+          "stem": "After the rent of ₹5,000 is paid by cheque on June 18, what is capital?",
+          "options": [
+            "₹1,95,000",
+            "₹2,00,000",
+            "₹2,05,000",
+            "₹2,25,000"
+          ],
+          "answer": "₹1,95,000",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--4-co3-journal-ledger-tb#12"
+          ],
+          "derived": [
+            "1,95,000",
+            "195000",
+            "2,00,000",
+            "2,05,000",
+            "2,14,000",
+            "2,20,000",
+            "2,25,000",
+            "2,30,000",
+            "2,35,000",
+            "2,50,000",
+            "20,000",
+            "20000",
+            "200000",
+            "205000",
+            "214000",
+            "220000",
+            "225000",
+            "230000",
+            "235000",
+            "25,000",
+            "25000",
+            "250000",
+            "30,000",
+            "30000",
+            "5,000",
+            "5000",
+            "6,000",
+            "6000",
+            "65,000",
+            "65000",
+            "99,000",
+            "99000"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-jl-journal-q-c89f74d3",
+          "type": "fill",
+          "stem": "After the salary on June 30, both assets and liabilities plus capital are ₹____ (with no liabilities left).",
+          "options": [],
+          "answer": "2,14,000",
+          "accept": [
+            "214000"
+          ],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--4-co3-journal-ledger-tb#12"
+          ],
+          "derived": [
+            "1,95,000",
+            "195000",
+            "2,00,000",
+            "2,05,000",
+            "2,14,000",
+            "2,20,000",
+            "2,25,000",
+            "2,30,000",
+            "2,35,000",
+            "2,50,000",
+            "20,000",
+            "20000",
+            "200000",
+            "205000",
+            "214000",
+            "220000",
+            "225000",
+            "230000",
+            "235000",
+            "25,000",
+            "25000",
+            "250000",
+            "30,000",
+            "30000",
+            "5,000",
+            "5000",
+            "6,000",
+            "6000",
+            "65,000",
+            "65000",
+            "99,000",
+            "99000"
+          ],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#12",
+        "far--4-co3-journal-ledger-tb#13"
+      ],
+      "derived": [
+        "2,00,000",
+        "2,30,000",
+        "30,000",
+        "2,25,000",
+        "1,95,000",
+        "2,35,000",
+        "2,05,000",
+        "2,50,000",
+        "2,20,000",
+        "2,14,000",
+        "99,000",
+        "65,000",
+        "20,000",
+        "25,000",
+        "5,000",
+        "6,000",
+        "200000",
+        "230000",
+        "30000",
+        "225000",
+        "195000",
+        "235000",
+        "205000",
+        "250000",
+        "220000",
+        "214000",
+        "99000",
+        "65000",
+        "20000",
+        "25000",
+        "5000",
+        "6000"
+      ],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "far-jl-journal-f1",
+      "front": "Journal format columns",
+      "back": "Date, Particulars, L.F., Dr. amount, Cr. amount.",
+      "kind": "list",
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#4"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-journal-f2",
+      "front": "How a journal entry is written",
+      "back": "Debit account Dr; To credit account; short note starting with Being.",
+      "kind": "fact",
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#13"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-journal-f3",
+      "front": "Entry: business started with cash",
+      "back": "Cash A/c Dr, To Capital A/c (2,00,000).",
+      "kind": "example",
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#13"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-journal-f4",
+      "front": "Entry: goods bought on credit",
+      "back": "Purchases A/c Dr, To the supplier's A/c (M/s Gulmohar, 30,000).",
+      "kind": "example",
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#13"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-journal-f5",
+      "front": "Entry: credit sale",
+      "back": "The customer's A/c Dr (M/s Mohit Bros), To Sales A/c (10,000).",
+      "kind": "example",
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#13"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-journal-f6",
+      "front": "Entry: cheque received from a customer",
+      "back": "Bank A/c Dr, To the customer's A/c (10,000).",
+      "kind": "example",
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#13"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-journal-f7",
+      "front": "Entry: salary paid in cash",
+      "back": "Salary A/c Dr, To Cash A/c (6,000).",
+      "kind": "example",
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#13"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [
+    {
+      "id": "far-jl-journal-q-f2137f6c",
+      "type": "mcq",
+      "stem": "On June 12 goods of 30,000 are bought on credit from M/s Gulmohar Fashion House. Which entry is passed?",
+      "options": [
+        "Purchases A/c Dr, To M/s Gulmohar F.H. A/c",
+        "M/s Gulmohar F.H. A/c Dr, To Purchases A/c",
+        "Purchases A/c Dr, To Cash A/c",
+        "Cash A/c Dr, To M/s Gulmohar F.H. A/c"
+      ],
+      "answer": "Purchases A/c Dr, To M/s Gulmohar F.H. A/c",
+      "accept": [],
+      "explanation": "The purchase is debited and the supplier who is owed the money is credited.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "journal entry",
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#12",
+        "far--4-co3-journal-ledger-tb#13"
+      ],
+      "derived": [
+        "1,16,000",
+        "1,95,000",
+        "10,000",
+        "10000",
+        "116000",
+        "15,000",
+        "15000",
+        "195000",
+        "2,00,000",
+        "2,05,000",
+        "2,14,000",
+        "2,15,000",
+        "2,20,000",
+        "2,25,000",
+        "2,30,000",
+        "2,35,000",
+        "2,50,000",
+        "20,000",
+        "20000",
+        "200000",
+        "205000",
+        "214000",
+        "215000",
+        "220000",
+        "225000",
+        "230000",
+        "235000",
+        "25,000",
+        "25000",
+        "250000",
+        "30,000",
+        "30000",
+        "5,000",
+        "5000",
+        "6,000",
+        "6000",
+        "65,000",
+        "65000",
+        "80,000",
+        "80000",
+        "99,000",
+        "99000"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-journal-q-38253464",
+      "type": "mcq",
+      "stem": "Which journal entry records rent of 5,000 paid by cheque on June 18?",
+      "options": [
+        "Rent A/c Dr, To Bank A/c",
+        "Bank A/c Dr, To Rent A/c",
+        "Rent A/c Dr, To Cash A/c",
+        "Cash A/c Dr, To Rent A/c"
+      ],
+      "answer": "Rent A/c Dr, To Bank A/c",
+      "accept": [],
+      "explanation": "Rent is an expense debited; the bank gives up the cheque amount so it is credited.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "journal entry",
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#12",
+        "far--4-co3-journal-ledger-tb#13"
+      ],
+      "derived": [
+        "1,16,000",
+        "1,95,000",
+        "10,000",
+        "10000",
+        "116000",
+        "15,000",
+        "15000",
+        "195000",
+        "2,00,000",
+        "2,05,000",
+        "2,14,000",
+        "2,15,000",
+        "2,20,000",
+        "2,25,000",
+        "2,30,000",
+        "2,35,000",
+        "2,50,000",
+        "20,000",
+        "20000",
+        "200000",
+        "205000",
+        "214000",
+        "215000",
+        "220000",
+        "225000",
+        "230000",
+        "235000",
+        "25,000",
+        "25000",
+        "250000",
+        "30,000",
+        "30000",
+        "5,000",
+        "5000",
+        "6,000",
+        "6000",
+        "65,000",
+        "65000",
+        "80,000",
+        "80000",
+        "99,000",
+        "99000"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-journal-q-3fe02d4c",
+      "type": "mcq",
+      "stem": "Which entry records the credit sale of 10,000 to M/s Mohit Bros?",
+      "options": [
+        "M/s Mohit Bros A/c Dr, To Sales A/c",
+        "Sales A/c Dr, To M/s Mohit Bros A/c",
+        "Cash A/c Dr, To Sales A/c",
+        "Bank A/c Dr, To Sales A/c"
+      ],
+      "answer": "M/s Mohit Bros A/c Dr, To Sales A/c",
+      "accept": [],
+      "explanation": "The customer owes money, so the customer's account is debited and sales credited.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "journal entry",
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#12",
+        "far--4-co3-journal-ledger-tb#13"
+      ],
+      "derived": [
+        "1,16,000",
+        "1,95,000",
+        "10,000",
+        "10000",
+        "116000",
+        "15,000",
+        "15000",
+        "195000",
+        "2,00,000",
+        "2,05,000",
+        "2,14,000",
+        "2,15,000",
+        "2,20,000",
+        "2,25,000",
+        "2,30,000",
+        "2,35,000",
+        "2,50,000",
+        "20,000",
+        "20000",
+        "200000",
+        "205000",
+        "214000",
+        "215000",
+        "220000",
+        "225000",
+        "230000",
+        "235000",
+        "25,000",
+        "25000",
+        "250000",
+        "30,000",
+        "30000",
+        "5,000",
+        "5000",
+        "6,000",
+        "6000",
+        "65,000",
+        "65000",
+        "80,000",
+        "80000",
+        "99,000",
+        "99000"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-journal-q-e30fc3a6",
+      "type": "mcq",
+      "stem": "How is the opening of a bank account with 80,000 taken from cash recorded on June 8?",
+      "options": [
+        "Bank A/c Dr, To Cash A/c",
+        "Cash A/c Dr, To Bank A/c",
+        "Bank A/c Dr, To Capital A/c",
+        "Capital A/c Dr, To Bank A/c"
+      ],
+      "answer": "Bank A/c Dr, To Cash A/c",
+      "accept": [],
+      "explanation": "Bank receives the money (debit) and cash gives it up (credit).",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "journal entry",
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#12",
+        "far--4-co3-journal-ledger-tb#13"
+      ],
+      "derived": [
+        "1,16,000",
+        "1,95,000",
+        "10,000",
+        "10000",
+        "116000",
+        "15,000",
+        "15000",
+        "195000",
+        "2,00,000",
+        "2,05,000",
+        "2,14,000",
+        "2,15,000",
+        "2,20,000",
+        "2,25,000",
+        "2,30,000",
+        "2,35,000",
+        "2,50,000",
+        "20,000",
+        "20000",
+        "200000",
+        "205000",
+        "214000",
+        "215000",
+        "220000",
+        "225000",
+        "230000",
+        "235000",
+        "25,000",
+        "25000",
+        "250000",
+        "30,000",
+        "30000",
+        "5,000",
+        "5000",
+        "6,000",
+        "6000",
+        "65,000",
+        "65000",
+        "80,000",
+        "80000",
+        "99,000",
+        "99000"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-journal-q-c1323f56",
+      "type": "mcq",
+      "stem": "Which set of columns belongs to the journal format?",
+      "options": [
+        "Date, Particulars, L.F., Dr. amount, Cr. amount",
+        "Account Title, L.F., Debit Balance, Credit Balance",
+        "Date, Particulars, J.F., Amount on each of two sides",
+        "Adjusting Entry, A/C Debited, A/C Credited"
+      ],
+      "answer": "Date, Particulars, L.F., Dr. amount, Cr. amount",
+      "accept": [],
+      "explanation": "The journal has one particulars column with two amount columns.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "define",
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#4",
+        "far--4-co3-journal-ledger-tb#9",
+        "far--4-co3-journal-ledger-tb#15",
+        "far--4-co3-journal-ledger-tb#8"
+      ],
+      "derived": [
+        "1,16,000",
+        "1,95,000",
+        "10,000",
+        "10000",
+        "116000",
+        "15,000",
+        "15000",
+        "195000",
+        "2,00,000",
+        "2,05,000",
+        "2,14,000",
+        "2,15,000",
+        "2,20,000",
+        "2,25,000",
+        "2,30,000",
+        "2,35,000",
+        "2,50,000",
+        "20,000",
+        "20000",
+        "200000",
+        "205000",
+        "214000",
+        "215000",
+        "220000",
+        "225000",
+        "230000",
+        "235000",
+        "25,000",
+        "25000",
+        "250000",
+        "30,000",
+        "30000",
+        "5,000",
+        "5000",
+        "6,000",
+        "6000",
+        "65,000",
+        "65000",
+        "80,000",
+        "80000",
+        "99,000",
+        "99000"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-journal-q-b3eadb72",
+      "type": "short",
+      "stem": "What is a journal? Describe the format of a journal entry using one transaction from Example 4.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The **journal** is the book where each transaction is first recorded, as a debit and a credit of equal amount.\n\n**Format:** columns for Date, Particulars, L.F., and amounts under Dr. and Cr. The entry shows the account debited (marked Dr), then **To** and the account credited, and a short note starting with **Being**.\n\nExample: June 22, **Cash A/c Dr 15,000, To Sales A/c 15,000** (being cash sales).\n\nSo every journal entry has a debit and a credit of the same amount.",
+      "rubric": [
+        {
+          "point": "Journal is where transactions are first recorded",
+          "source_ref": "far--4-co3-journal-ledger-tb#4"
+        },
+        {
+          "point": "Columns Date, Particulars, L.F., Dr., Cr.",
+          "source_ref": "far--4-co3-journal-ledger-tb#4"
+        },
+        {
+          "point": "Debit first, then To credit account, Being note",
+          "source_ref": "far--4-co3-journal-ledger-tb#13"
+        },
+        {
+          "point": "Example such as Cash A/c Dr, To Sales A/c 15,000",
+          "source_ref": "far--4-co3-journal-ledger-tb#13"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 1,
+      "style_tag": "define",
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#4",
+        "far--4-co3-journal-ledger-tb#13"
+      ],
+      "derived": [
+        "1,16,000",
+        "1,95,000",
+        "10,000",
+        "10000",
+        "116000",
+        "15,000",
+        "15000",
+        "195000",
+        "2,00,000",
+        "2,05,000",
+        "2,14,000",
+        "2,15,000",
+        "2,20,000",
+        "2,25,000",
+        "2,30,000",
+        "2,35,000",
+        "2,50,000",
+        "20,000",
+        "20000",
+        "200000",
+        "205000",
+        "214000",
+        "215000",
+        "220000",
+        "225000",
+        "230000",
+        "235000",
+        "25,000",
+        "25000",
+        "250000",
+        "30,000",
+        "30000",
+        "5,000",
+        "5000",
+        "6,000",
+        "6000",
+        "65,000",
+        "65000",
+        "80,000",
+        "80000",
+        "99,000",
+        "99000"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-journal-q-5fe74a2e",
+      "type": "short",
+      "stem": "Pass the journal entries for the transactions of 5 June and 25 June in Example 4 and say which accounts are debited and credited.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**June 5, business started with cash:** Cash A/c Dr 2,00,000, To Capital A/c 2,00,000. Cash (asset) is debited; capital is credited.\n\n**June 25, cash paid to M/s Gulmohar Fashion House:** M/s Gulmohar F.H. A/c Dr 30,000, To Cash A/c 30,000. The supplier's account is debited because the amount owed is settled; cash is credited.\n\nThe June 25 payment clears the 30,000 owed from the credit purchase on June 12.",
+      "rubric": [
+        {
+          "point": "June 5 Cash Dr, Capital Cr 2,00,000",
+          "source_ref": "far--4-co3-journal-ledger-tb#13"
+        },
+        {
+          "point": "June 25 Gulmohar Dr, Cash Cr 30,000",
+          "source_ref": "far--4-co3-journal-ledger-tb#13"
+        },
+        {
+          "point": "Equal amounts on both sides",
+          "source_ref": "far--4-co3-journal-ledger-tb#13"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "journal entry",
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#12",
+        "far--4-co3-journal-ledger-tb#13"
+      ],
+      "derived": [
+        "1,16,000",
+        "1,95,000",
+        "10,000",
+        "10000",
+        "116000",
+        "15,000",
+        "15000",
+        "195000",
+        "2,00,000",
+        "2,05,000",
+        "2,14,000",
+        "2,15,000",
+        "2,20,000",
+        "2,25,000",
+        "2,30,000",
+        "2,35,000",
+        "2,50,000",
+        "20,000",
+        "20000",
+        "200000",
+        "205000",
+        "214000",
+        "215000",
+        "220000",
+        "225000",
+        "230000",
+        "235000",
+        "25,000",
+        "25000",
+        "250000",
+        "30,000",
+        "30000",
+        "5,000",
+        "5000",
+        "6,000",
+        "6000",
+        "65,000",
+        "65000",
+        "80,000",
+        "80000",
+        "99,000",
+        "99000"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-journal-q-4d4f545b",
+      "type": "short",
+      "stem": "Prepare the accounting equation for the first four transactions of Example 4 (to June 12) and show the running totals.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Treat the goods purchased as stock.\n\n- **June 5:** Cash +2,00,000, Capital +2,00,000. Assets 2,00,000 = Capital 2,00,000.\n- **June 8:** Bank +80,000, Cash -80,000. Assets unchanged at 2,00,000.\n- **June 12, goods on credit:** Stock +30,000, Creditor +30,000. Assets 2,30,000 = Liabilities 30,000 + Capital 2,00,000.\n- **June 12, machines by cheque:** Machines +20,000, Bank -20,000. Assets stay at 2,30,000.\n\nBoth sides are equal after each step.",
+      "rubric": [
+        {
+          "point": "June 5 effect and total",
+          "source_ref": "far--4-co3-journal-ledger-tb#12"
+        },
+        {
+          "point": "June 8 is a swap of assets",
+          "source_ref": "far--4-co3-journal-ledger-tb#12"
+        },
+        {
+          "point": "Goods on credit: 30,000 liability, assets 2,30,000",
+          "source_ref": "far--4-co3-journal-ledger-tb#12"
+        },
+        {
+          "point": "Machines swap, totals still equal",
+          "source_ref": "far--4-co3-journal-ledger-tb#12"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#12",
+        "far--4-co3-journal-ledger-tb#13"
+      ],
+      "derived": [
+        "1,16,000",
+        "1,95,000",
+        "10,000",
+        "10000",
+        "116000",
+        "15,000",
+        "15000",
+        "195000",
+        "2,00,000",
+        "2,05,000",
+        "2,14,000",
+        "2,15,000",
+        "2,20,000",
+        "2,25,000",
+        "2,30,000",
+        "2,35,000",
+        "2,50,000",
+        "20,000",
+        "20000",
+        "200000",
+        "205000",
+        "214000",
+        "215000",
+        "220000",
+        "225000",
+        "230000",
+        "235000",
+        "25,000",
+        "25000",
+        "250000",
+        "30,000",
+        "30000",
+        "5,000",
+        "5000",
+        "6,000",
+        "6000",
+        "65,000",
+        "65000",
+        "80,000",
+        "80000",
+        "99,000",
+        "99000"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-journal-q-96ec7ea7",
+      "type": "short",
+      "stem": "Differentiate between a journal entry that records a credit sale and one that records a cash sale, using the slides' examples.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Credit sale (June 20):** M/s Mohit Bros A/c Dr 10,000, To Sales A/c 10,000. The customer's account is debited because the customer owes the money; cash does not move yet.\n\n**Cash sale (June 22):** Cash A/c Dr 15,000, To Sales A/c 15,000. Cash is debited because the money comes in at once.\n\nIn both, **Sales A/c is credited**. The later cheque from M/s Mohit Bros is Bank A/c Dr, To M/s Mohit Bros A/c 10,000, which settles the credit sale.",
+      "rubric": [
+        {
+          "point": "Credit sale debits the customer's account",
+          "source_ref": "far--4-co3-journal-ledger-tb#13"
+        },
+        {
+          "point": "Cash sale debits Cash",
+          "source_ref": "far--4-co3-journal-ledger-tb#13"
+        },
+        {
+          "point": "Sales credited in both",
+          "source_ref": "far--4-co3-journal-ledger-tb#13"
+        },
+        {
+          "point": "Cheque later settles the customer",
+          "source_ref": "far--4-co3-journal-ledger-tb#13"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "differentiate",
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#12",
+        "far--4-co3-journal-ledger-tb#13"
+      ],
+      "derived": [
+        "1,16,000",
+        "1,95,000",
+        "10,000",
+        "10000",
+        "116000",
+        "15,000",
+        "15000",
+        "195000",
+        "2,00,000",
+        "2,05,000",
+        "2,14,000",
+        "2,15,000",
+        "2,20,000",
+        "2,25,000",
+        "2,30,000",
+        "2,35,000",
+        "2,50,000",
+        "20,000",
+        "20000",
+        "200000",
+        "205000",
+        "214000",
+        "215000",
+        "220000",
+        "225000",
+        "230000",
+        "235000",
+        "25,000",
+        "25000",
+        "250000",
+        "30,000",
+        "30000",
+        "5,000",
+        "5000",
+        "6,000",
+        "6000",
+        "65,000",
+        "65000",
+        "80,000",
+        "80000",
+        "99,000",
+        "99000"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-journal-q-baa6b011",
+      "type": "long",
+      "stem": "Journalise the ten June transactions of M/S Manish Malhotra (Example 4).",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "A journal entry shows the account debited, the account credited, equal amounts, and a note starting with Being.\n\n| Date | Entry | Amount (₹) |\n|---|---|---|\n| June 5 | Cash A/c Dr, To Capital A/c (business started with cash) | 2,00,000 |\n| June 8 | Bank A/c Dr, To Cash A/c (bank account opened) | 80,000 |\n| June 12 | Purchases A/c Dr, To M/s Gulmohar F.H. A/c (goods bought on credit) | 30,000 |\n| June 12 | Machines A/c Dr, To Bank A/c (machines bought by cheque) | 20,000 |\n| June 18 | Rent A/c Dr, To Bank A/c (rent paid by cheque) | 5,000 |\n| June 20 | M/s Mohit Bros A/c Dr, To Sales A/c (goods sold on credit) | 10,000 |\n| June 22 | Cash A/c Dr, To Sales A/c (cash sales) | 15,000 |\n| June 25 | M/s Gulmohar F.H. A/c Dr, To Cash A/c (cash paid) | 30,000 |\n| June 28 | Bank A/c Dr, To M/s Mohit Bros A/c (cheque received) | 10,000 |\n| June 30 | Salary A/c Dr, To Cash A/c (salary paid in cash) | 6,000 |\n\nEach entry has equal debit and credit amounts. The two settlements on June 25 and June 28 clear the supplier and customer accounts.",
+      "rubric": [
+        {
+          "point": "Capital and bank entries correct",
+          "source_ref": "far--4-co3-journal-ledger-tb#13"
+        },
+        {
+          "point": "Credit purchase and machines entries correct",
+          "source_ref": "far--4-co3-journal-ledger-tb#13"
+        },
+        {
+          "point": "Rent and credit sale entries correct",
+          "source_ref": "far--4-co3-journal-ledger-tb#13"
+        },
+        {
+          "point": "Cash sale and cash paid entries correct",
+          "source_ref": "far--4-co3-journal-ledger-tb#13"
+        },
+        {
+          "point": "Cheque received and salary entries correct",
+          "source_ref": "far--4-co3-journal-ledger-tb#13"
+        }
+      ],
+      "marks": 10.0,
+      "difficulty": 3,
+      "style_tag": "journal entry",
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#12",
+        "far--4-co3-journal-ledger-tb#13"
+      ],
+      "derived": [
+        "1,16,000",
+        "1,95,000",
+        "10,000",
+        "10000",
+        "116000",
+        "15,000",
+        "15000",
+        "195000",
+        "2,00,000",
+        "2,05,000",
+        "2,14,000",
+        "2,15,000",
+        "2,20,000",
+        "2,25,000",
+        "2,30,000",
+        "2,35,000",
+        "2,50,000",
+        "20,000",
+        "20000",
+        "200000",
+        "205000",
+        "214000",
+        "215000",
+        "220000",
+        "225000",
+        "230000",
+        "235000",
+        "25,000",
+        "25000",
+        "250000",
+        "30,000",
+        "30000",
+        "5,000",
+        "5000",
+        "6,000",
+        "6000",
+        "65,000",
+        "65000",
+        "80,000",
+        "80000",
+        "99,000",
+        "99000"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-journal-q-95e016e0",
+      "type": "long",
+      "stem": "For Example 4, show the effect of every transaction on the accounting equation and the closing position.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Treat the goods purchased as stock. Running totals:\n\n| After | Assets | Liabilities | Capital |\n|---|---|---|---|\n| June 5 | 2,00,000 | 0 | 2,00,000 |\n| June 8 | 2,00,000 | 0 | 2,00,000 |\n| June 12 goods on credit | 2,30,000 | 30,000 | 2,00,000 |\n| June 12 machines | 2,30,000 | 30,000 | 2,00,000 |\n| June 18 rent | 2,25,000 | 30,000 | 1,95,000 |\n| June 20 credit sale | 2,35,000 | 30,000 | 2,05,000 |\n| June 22 cash sales | 2,50,000 | 30,000 | 2,20,000 |\n| June 25 payment to Gulmohar | 2,20,000 | 0 | 2,20,000 |\n| June 28 cheque from Mohit Bros | 2,20,000 | 0 | 2,20,000 |\n| June 30 salary | 2,14,000 | 0 | 2,14,000 |\n\nRent (5,000) and salary (6,000) reduce capital; sales of 10,000 and 15,000 increase it. At the end the assets are cash 99,000, bank 65,000, machines 20,000 and stock 30,000, which add up to 2,14,000, equal to capital.",
+      "rubric": [
+        {
+          "point": "Early transactions: capital and swaps",
+          "source_ref": "far--4-co3-journal-ledger-tb#12"
+        },
+        {
+          "point": "Credit purchase creates liability 30,000",
+          "source_ref": "far--4-co3-journal-ledger-tb#12"
+        },
+        {
+          "point": "Rent lowers and sales raise capital",
+          "source_ref": "far--4-co3-journal-ledger-tb#12"
+        },
+        {
+          "point": "Settlements reduce liabilities and debtors",
+          "source_ref": "far--4-co3-journal-ledger-tb#12"
+        },
+        {
+          "point": "Closing position 2,14,000 each side",
+          "source_ref": "far--4-co3-journal-ledger-tb#12"
+        }
+      ],
+      "marks": 10.0,
+      "difficulty": 3,
+      "style_tag": "numerical",
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#12",
+        "far--4-co3-journal-ledger-tb#13"
+      ],
+      "derived": [
+        "1,16,000",
+        "1,95,000",
+        "10,000",
+        "10000",
+        "116000",
+        "15,000",
+        "15000",
+        "195000",
+        "2,00,000",
+        "2,05,000",
+        "2,14,000",
+        "2,15,000",
+        "2,20,000",
+        "2,25,000",
+        "2,30,000",
+        "2,35,000",
+        "2,50,000",
+        "20,000",
+        "20000",
+        "200000",
+        "205000",
+        "214000",
+        "215000",
+        "220000",
+        "225000",
+        "230000",
+        "235000",
+        "25,000",
+        "25000",
+        "250000",
+        "30,000",
+        "30000",
+        "5,000",
+        "5000",
+        "6,000",
+        "6000",
+        "65,000",
+        "65000",
+        "80,000",
+        "80000",
+        "99,000",
+        "99000"
+      ],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "explain_back": {
+    "prompt": "Explain how a transaction is recorded in the journal, using two entries from Example 4.",
+    "rubric": [
+      {
+        "point": "Journal columns: date, particulars, L.F., Dr. and Cr. amounts",
+        "source_ref": "far--4-co3-journal-ledger-tb#4"
+      },
+      {
+        "point": "Debit account first, then To and the credit account, equal amounts",
+        "source_ref": "far--4-co3-journal-ledger-tb#13"
+      },
+      {
+        "point": "A Being note describes the transaction",
+        "source_ref": "far--4-co3-journal-ledger-tb#13"
+      },
+      {
+        "point": "Examples such as Cash A/c Dr To Capital A/c, or Bank A/c Dr To M/s Mohit Bros A/c",
+        "source_ref": "far--4-co3-journal-ledger-tb#13"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

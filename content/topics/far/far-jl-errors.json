@@ -1,0 +1,740 @@
+{
+  "id": "far-jl-errors",
+  "subject_id": "far",
+  "deck_id": "far--4-co3-journal-ledger-tb",
+  "title": "Classification of accounting errors",
+  "order": 6,
+  "summary": "Four kinds of error: commission, omission, principle and compensating, and which of them affect the trial balance.",
+  "est_minutes": 15,
+  "difficulty": 2,
+  "source_refs": [
+    "far--4-co3-journal-ledger-tb#23",
+    "far--4-co3-journal-ledger-tb#24"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "far-jl-errors-c1",
+      "heading": "Errors of commission and errors of omission",
+      "explanation_md": "**Errors of commission** come from the **negligence of the person recording** the transactions. They **impact the trial balance**. Examples: recording a wrong amount, wrong totalling in the ledger or subsidiary books, or posting on the wrong side of a ledger account.\n\n**Errors of omission** happen when the accountant **forgets to record an entry**. There are two kinds:\n\n- **Complete omission:** the transaction is not recorded in the books at all. Example: failure to record the purchase of an asset.\n- **Partial omission:** the transaction is recorded on one side only. Example: credit sales of ₹5000 to Raj, where the sales entry is made but Raj's account is not. That leads to a partial omission.",
+      "example_ids": [
+        "far-ex-err-partial"
+      ],
+      "key_terms": [
+        {
+          "term": "Error of commission",
+          "meaning": "An error from negligence in recording, such as a wrong amount, wrong totalling or posting on the wrong side; it affects the trial balance.",
+          "source_ref": "far--4-co3-journal-ledger-tb#23"
+        },
+        {
+          "term": "Error of omission",
+          "meaning": "An error where the accountant forgets to record an entry, completely or partly.",
+          "source_ref": "far--4-co3-journal-ledger-tb#23"
+        }
+      ],
+      "exam_line": "Commission: negligence (wrong amount, totalling, wrong side), affects the trial balance. Omission: complete (not recorded) or partial (one side only).",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "far-jl-errors-q-7ef39215",
+          "type": "mcq",
+          "stem": "Credit sales of ₹5000 to Raj are entered in sales but not in Raj's account. What error is this?",
+          "options": [
+            "Partial omission",
+            "Complete omission",
+            "Error of principle",
+            "Compensating error"
+          ],
+          "answer": "Partial omission",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--4-co3-journal-ledger-tb#23",
+            "far--4-co3-journal-ledger-tb#24"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-jl-errors-q-c1daa4a4",
+          "type": "mcq",
+          "stem": "Posting an amount on the wrong side of a ledger account is an error of which type?",
+          "options": [
+            "Commission",
+            "Omission",
+            "Principle",
+            "Compensating"
+          ],
+          "answer": "Commission",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--4-co3-journal-ledger-tb#23"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-jl-errors-q-ea4c14aa",
+          "type": "true_false",
+          "stem": "Failing to record the purchase of an asset is an example of complete omission.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--4-co3-journal-ledger-tb#23"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#23"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-errors-c2",
+      "heading": "Errors of principle and compensating errors",
+      "explanation_md": "**Errors of principle** occur when a transaction is recorded in a way that does not follow the accounting rules (every debit has a matching credit). Recording such a transaction **does not impact the trial balance**; the transaction is simply recorded in the wrong accounts. Example: an asset is purchased and recorded as an expense.\n\n**Compensating errors** occur when **one wrong entry neutralises the impact of another**. Example from the slide: Jay buys goods worth ₹4000 and the amount is recorded as ₹400 on his account. That reduces the debit side by ₹3600. At the same time, Veeru pays ₹4000 and it is recorded as ₹400, which reduces the credit balance by ₹3600. The two errors cancel each other, so the **trial balance total does not change**.\n\n**Which errors the trial balance shows:** commission errors impact it; principle errors and compensating errors do not.",
+      "example_ids": [
+        "far-ex-err-compensating"
+      ],
+      "key_terms": [
+        {
+          "term": "Error of principle",
+          "meaning": "A transaction recorded against the accounting rules, in the wrong accounts; it does not affect the trial balance.",
+          "source_ref": "far--4-co3-journal-ledger-tb#23"
+        },
+        {
+          "term": "Compensating errors",
+          "meaning": "One wrong entry that cancels the effect of another, so the trial balance total is unchanged.",
+          "source_ref": "far--4-co3-journal-ledger-tb#24"
+        }
+      ],
+      "exam_line": "Principle error: wrong accounts, trial balance unaffected (asset recorded as expense). Compensating errors: two errors cancel (Jay and Veeru, each short by ₹3600).",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "far-jl-errors-q-9884acc6",
+          "type": "mcq",
+          "stem": "An asset is bought and recorded as an expense. Which error is this?",
+          "options": [
+            "Error of principle",
+            "Error of commission",
+            "Partial omission",
+            "Compensating error"
+          ],
+          "answer": "Error of principle",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--4-co3-journal-ledger-tb#23"
+          ],
+          "derived": [
+            "3,600",
+            "3600",
+            "4,000",
+            "400",
+            "4000"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-jl-errors-q-baf28247",
+          "type": "mcq",
+          "stem": "Which error type leaves the trial balance total unchanged because two mistakes cancel?",
+          "options": [
+            "Compensating error",
+            "Error of commission",
+            "Complete omission",
+            "Partial omission"
+          ],
+          "answer": "Compensating error",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--4-co3-journal-ledger-tb#24",
+            "far--4-co3-journal-ledger-tb#23"
+          ],
+          "derived": [
+            "3,600",
+            "3600",
+            "4,000",
+            "400",
+            "4000"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-jl-errors-q-f8db7a19",
+          "type": "fill",
+          "stem": "In the Jay and Veeru example, each error reduces its side by ₹____.",
+          "options": [],
+          "answer": "3600",
+          "accept": [
+            "3,600",
+            "Rs 3,600"
+          ],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--4-co3-journal-ledger-tb#24"
+          ],
+          "derived": [
+            "3,600",
+            "3600",
+            "4,000",
+            "400",
+            "4000"
+          ],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#23",
+        "far--4-co3-journal-ledger-tb#24"
+      ],
+      "derived": [
+        "3,600",
+        "4,000",
+        "400",
+        "3600",
+        "4000",
+        "400"
+      ],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "far-jl-errors-f1",
+      "front": "Error of commission",
+      "back": "Negligence in recording: wrong amount, wrong totalling, wrong side. Impacts the trial balance.",
+      "kind": "term",
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#23"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-errors-f2",
+      "front": "Error of omission",
+      "back": "Accountant forgets an entry: complete omission or partial omission.",
+      "kind": "term",
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#23"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-errors-f3",
+      "front": "Complete omission example",
+      "back": "Failure to record the purchase of an asset.",
+      "kind": "example",
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#23"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-errors-f4",
+      "front": "Partial omission example",
+      "back": "Credit sales of ₹5000 to Raj: sales entry made, Raj's account not.",
+      "kind": "example",
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#23"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-errors-f5",
+      "front": "Error of principle",
+      "back": "Transaction recorded against the accounting rules, in the wrong account; no impact on the trial balance. Example: asset recorded as expense.",
+      "kind": "term",
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#23"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-errors-f6",
+      "front": "Compensating errors",
+      "back": "One wrong entry neutralises another; trial balance total unchanged.",
+      "kind": "term",
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#24"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-errors-f7",
+      "front": "Jay and Veeru example",
+      "back": "₹4000 recorded as ₹400 on each account: debit side and credit side each fall by ₹3600.",
+      "kind": "example",
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#24"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [
+    {
+      "id": "far-jl-errors-q-bcdee5e1",
+      "type": "mcq",
+      "stem": "Which error leaves the trial balance total unchanged because one mistake cancels another?",
+      "options": [
+        "Compensating error",
+        "Error of commission",
+        "Complete omission",
+        "Partial omission"
+      ],
+      "answer": "Compensating error",
+      "accept": [],
+      "explanation": "The two mistakes neutralise each other.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "define",
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#24",
+        "far--4-co3-journal-ledger-tb#23"
+      ],
+      "derived": [
+        "3,600",
+        "3600"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-errors-q-0e6364c9",
+      "type": "mcq",
+      "stem": "An asset is purchased but recorded as an expense. This is an error of:",
+      "options": [
+        "Principle",
+        "Commission",
+        "Omission",
+        "Compensation"
+      ],
+      "answer": "Principle",
+      "accept": [],
+      "explanation": "It breaks the accounting rules by using the wrong account.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "classify",
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#23"
+      ],
+      "derived": [
+        "3,600",
+        "3600"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-errors-q-6c9516f1",
+      "type": "mcq",
+      "stem": "Credit sales of 5000 to Raj are recorded in sales but not in Raj's account. This is:",
+      "options": [
+        "Partial omission",
+        "Complete omission",
+        "Error of principle",
+        "Compensating error"
+      ],
+      "answer": "Partial omission",
+      "accept": [],
+      "explanation": "Only one side of the transaction is recorded.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "classify",
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#23"
+      ],
+      "derived": [
+        "3,600",
+        "3600"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-errors-q-c2bbd58e",
+      "type": "mcq",
+      "stem": "Posting an amount on the wrong side of a ledger account is an error of:",
+      "options": [
+        "Commission",
+        "Omission",
+        "Principle",
+        "Compensation"
+      ],
+      "answer": "Commission",
+      "accept": [],
+      "explanation": "It comes from negligence while recording and affects the trial balance.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "classify",
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#23"
+      ],
+      "derived": [
+        "3,600",
+        "3600"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-errors-q-e115b7cd",
+      "type": "mcq",
+      "stem": "Which error does NOT impact the trial balance?",
+      "options": [
+        "Error of principle",
+        "Error of commission",
+        "Wrong totalling in the ledger",
+        "Posting on the wrong side"
+      ],
+      "answer": "Error of principle",
+      "accept": [],
+      "explanation": "The transaction is recorded with a debit and credit but in incorrect accounts.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#23"
+      ],
+      "derived": [
+        "3,600",
+        "3600"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-errors-q-fafdab59",
+      "type": "short",
+      "stem": "Explain errors of omission with the two types and an example of each.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Errors of omission** arise when the accountant forgets to record an entry.\n\n- **Complete omission:** the transaction is not recorded in the books at all. Example: failure to record the purchase of an asset.\n- **Partial omission:** the transaction is recorded on one side only. Example: credit sales of ₹5000 to Raj; the sales entry is made but Raj's account is not.\n\nA partial omission leaves one side of the transaction unrecorded.",
+      "rubric": [
+        {
+          "point": "Meaning: forgetting to record",
+          "source_ref": "far--4-co3-journal-ledger-tb#23"
+        },
+        {
+          "point": "Complete omission with example",
+          "source_ref": "far--4-co3-journal-ledger-tb#23"
+        },
+        {
+          "point": "Partial omission with example",
+          "source_ref": "far--4-co3-journal-ledger-tb#23"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 1,
+      "style_tag": "explain",
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#23"
+      ],
+      "derived": [
+        "3,600",
+        "3600"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-errors-q-8d692e43",
+      "type": "short",
+      "stem": "What is an error of principle? Does it affect the trial balance? Give the slide's example.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "An **error of principle** occurs when a transaction is recorded in a way that does not follow the accounting rules, so it ends up in the wrong accounts.\n\nIt **does not impact the trial balance**, because the debit and credit are still equal.\n\nExample: an asset is purchased and recorded as an expense.",
+      "rubric": [
+        {
+          "point": "Recorded against accounting rules, wrong accounts",
+          "source_ref": "far--4-co3-journal-ledger-tb#23"
+        },
+        {
+          "point": "No impact on the trial balance",
+          "source_ref": "far--4-co3-journal-ledger-tb#23"
+        },
+        {
+          "point": "Asset recorded as expense",
+          "source_ref": "far--4-co3-journal-ledger-tb#23"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 1,
+      "style_tag": "explain",
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#23"
+      ],
+      "derived": [
+        "3,600",
+        "3600"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-errors-q-066faf39",
+      "type": "short",
+      "stem": "Explain compensating errors using the example of Jay and Veeru.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Compensating errors** occur when one wrong entry neutralises another.\n\nJay buys goods of ₹4000 but it is recorded as ₹400 on his account, so the debit side falls short by 3,600. Veeru pays ₹4000 but it is recorded as ₹400, so the credit balance falls short by 3,600.\n\nThe two shortfalls are equal and opposite, so they cancel and the trial balance total is unchanged.",
+      "rubric": [
+        {
+          "point": "Definition: one error cancels another",
+          "source_ref": "far--4-co3-journal-ledger-tb#24"
+        },
+        {
+          "point": "Jay: 4000 recorded as 400, shortfall 3,600",
+          "source_ref": "far--4-co3-journal-ledger-tb#24"
+        },
+        {
+          "point": "Veeru: same error on the credit side",
+          "source_ref": "far--4-co3-journal-ledger-tb#24"
+        },
+        {
+          "point": "Trial balance total unchanged",
+          "source_ref": "far--4-co3-journal-ledger-tb#24"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#24"
+      ],
+      "derived": [
+        "3,600",
+        "3600"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-errors-q-9584320c",
+      "type": "short",
+      "stem": "Differentiate between errors of commission and errors of principle, and say which affects the trial balance.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Error of commission:** from negligence in recording, such as a wrong amount, wrong totalling or posting on the wrong side. It **impacts the trial balance**.\n\n**Error of principle:** a transaction recorded against the accounting rules in the wrong accounts, for example an asset recorded as an expense. It **does not impact the trial balance**.",
+      "rubric": [
+        {
+          "point": "Commission: negligence, wrong amount or side",
+          "source_ref": "far--4-co3-journal-ledger-tb#23"
+        },
+        {
+          "point": "Commission affects the trial balance",
+          "source_ref": "far--4-co3-journal-ledger-tb#23"
+        },
+        {
+          "point": "Principle: wrong accounts, rules broken",
+          "source_ref": "far--4-co3-journal-ledger-tb#23"
+        },
+        {
+          "point": "Principle does not affect the trial balance",
+          "source_ref": "far--4-co3-journal-ledger-tb#23"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "differentiate",
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#23"
+      ],
+      "derived": [
+        "3,600",
+        "3600"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-errors-q-4b2b75fa",
+      "type": "long",
+      "stem": "Classify and explain the errors that can occur in accounting, with the slides' examples, and say which of them the trial balance would show.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Accounting errors fall into four classes.\n\n1. **Errors of commission:** negligence in recording, such as a wrong amount, wrong totalling in the ledger or subsidiary books, or posting on the wrong side. They impact the trial balance.\n2. **Errors of omission:** an entry is forgotten. *Complete omission:* the transaction is not recorded (the purchase of an asset). *Partial omission:* only one side is recorded (credit sales of ₹5000 to Raj with no entry in Raj's account).\n3. **Errors of principle:** a transaction is recorded against the accounting rules, in the wrong accounts; an asset is recorded as an expense. These do not impact the trial balance.\n4. **Compensating errors:** one wrong entry cancels another. Jay's purchase of ₹4000 recorded as ₹400 and Veeru's payment of ₹4000 recorded as ₹400 each fall short by 3,600, so the trial balance total does not change.\n\nSo commission errors show up in the trial balance, while principle and compensating errors do not.",
+      "rubric": [
+        {
+          "point": "Commission and its examples",
+          "source_ref": "far--4-co3-journal-ledger-tb#23"
+        },
+        {
+          "point": "Complete and partial omission with examples",
+          "source_ref": "far--4-co3-journal-ledger-tb#23"
+        },
+        {
+          "point": "Principle error and example",
+          "source_ref": "far--4-co3-journal-ledger-tb#23"
+        },
+        {
+          "point": "Compensating errors with Jay and Veeru",
+          "source_ref": "far--4-co3-journal-ledger-tb#24"
+        },
+        {
+          "point": "Which affect the trial balance",
+          "source_ref": "far--4-co3-journal-ledger-tb#23"
+        }
+      ],
+      "marks": 10.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#23",
+        "far--4-co3-journal-ledger-tb#24"
+      ],
+      "derived": [
+        "3,600",
+        "3600"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-errors-q-6a609902",
+      "type": "long",
+      "stem": "A trial balance tallies. Does that prove the books are free of errors? Discuss using the slides' classes of error.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "A tallying trial balance only shows that total debits equal total credits. Some errors do not change that total.\n\n- **Errors of principle** do not impact it: the transaction is recorded in the wrong accounts but the debit and credit are equal (an asset recorded as an expense).\n- **Compensating errors** do not change it: Jay's 4000 recorded as 400 and Veeru's 4000 recorded as 400 cancel each other, each being short by 3,600.\n\nBy contrast, errors of commission such as posting on the wrong side impact the trial balance, and the totals will not tally. A partial omission also leaves one side missing.\n\nSo a tallying trial balance supports arithmetical accuracy but does not prove the absence of every kind of error.",
+      "rubric": [
+        {
+          "point": "Principle errors do not affect the totals",
+          "source_ref": "far--4-co3-journal-ledger-tb#23"
+        },
+        {
+          "point": "Compensating errors cancel, Jay and Veeru",
+          "source_ref": "far--4-co3-journal-ledger-tb#24"
+        },
+        {
+          "point": "Commission errors do affect the trial balance",
+          "source_ref": "far--4-co3-journal-ledger-tb#23"
+        },
+        {
+          "point": "Conclusion: tallying does not prove no errors",
+          "source_ref": "far--4-co3-journal-ledger-tb#23"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 3,
+      "style_tag": "explain",
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#23",
+        "far--4-co3-journal-ledger-tb#24"
+      ],
+      "derived": [
+        "3,600",
+        "3600"
+      ],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "explain_back": {
+    "prompt": "Explain the four classes of accounting error and say which affect the trial balance.",
+    "rubric": [
+      {
+        "point": "Commission: negligence in recording; impacts the trial balance",
+        "source_ref": "far--4-co3-journal-ledger-tb#23"
+      },
+      {
+        "point": "Omission: complete or partial, with an example",
+        "source_ref": "far--4-co3-journal-ledger-tb#23"
+      },
+      {
+        "point": "Principle: wrong account, no impact on trial balance, asset recorded as expense",
+        "source_ref": "far--4-co3-journal-ledger-tb#23"
+      },
+      {
+        "point": "Compensating: errors cancel, trial balance total unchanged, Jay and Veeru ₹3600",
+        "source_ref": "far--4-co3-journal-ledger-tb#24"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

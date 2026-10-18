@@ -1,0 +1,757 @@
+{
+  "id": "far-cf-deposit-expense-receivable",
+  "subject_id": "far",
+  "deck_id": "far--practice-circle-films-transaction-analysis",
+  "title": "Transactions 4 to 6: a deposit, an expense and a receivable",
+  "order": 2,
+  "summary": "A customer deposit creates a liability, an ad is an expense, and an invoice with no cash still changes the equation.",
+  "est_minutes": 15,
+  "difficulty": 2,
+  "source_refs": [
+    "far--practice-circle-films-transaction-analysis#2"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "far-cf-deposit-expense-receivable-c1",
+      "heading": "Transaction 4: a deposit is a liability",
+      "explanation_md": "Circle Films **receives a ₹2,000 deposit** from a customer to film her parents' fiftieth wedding anniversary.\n\nCash is received, so assets increase. But it **has not yet provided the service, so it has an obligation to the customer.** Liabilities increase by the cash received, in an account called **Unearned Revenue**.\n\nTable: Cash ₹6,500 + ₹2,000 = ₹8,500; Unearned Revenue ₹0 + ₹2,000. Total assets ₹18,500 = Liabilities ₹2,000 + Equity ₹16,500.",
+      "example_ids": [
+        "far-ex-t4-deposit"
+      ],
+      "key_terms": [
+        {
+          "term": "Unearned revenue",
+          "meaning": "The liability account that rises when cash is received before the service is provided.",
+          "source_ref": "far--practice-circle-films-transaction-analysis#2"
+        }
+      ],
+      "exam_line": "Cash received before the service is performed raises assets and liabilities (unearned revenue), not equity.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "far-cf-deposit-expense-receivable-q-4da90a04",
+          "type": "mcq",
+          "stem": "Why does a ₹2,000 deposit increase liabilities and not equity?",
+          "options": [
+            "The service has not yet been provided, so Circle Films owes the customer",
+            "The deposit is an expense",
+            "The deposit is paid to the owners",
+            "The deposit buys equipment"
+          ],
+          "answer": "The service has not yet been provided, so Circle Films owes the customer",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--practice-circle-films-transaction-analysis#2"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-cf-deposit-expense-receivable-q-e98e408d",
+          "type": "fill",
+          "stem": "After transaction 4, total assets are ₹____.",
+          "options": [],
+          "answer": "18,500",
+          "accept": [
+            "18500"
+          ],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--practice-circle-films-transaction-analysis#2"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "far--practice-circle-films-transaction-analysis#2"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cf-deposit-expense-receivable-c2",
+      "heading": "Transaction 5: an advertisement is an expense",
+      "explanation_md": "Circle Films **pays ₹250 cash to run an ad in the local paper.**\n\nCash falls, so assets decrease. A decrease in assets from **operating a business is an expense**. Expenses decrease net income and therefore retained earnings, so **equity decreases**.\n\nTable: Cash ₹8,500 - ₹250 = ₹8,250; Retained Earnings ₹1,500 - ₹250 = ₹1,250. Total assets ₹18,250 = Liabilities ₹2,000 + Equity ₹16,250.",
+      "example_ids": [
+        "far-ex-t5-ad"
+      ],
+      "key_terms": [
+        {
+          "term": "Expense",
+          "meaning": "A decrease in assets from operating a business; it lowers net income and retained earnings.",
+          "source_ref": "far--practice-circle-films-transaction-analysis#2"
+        }
+      ],
+      "exam_line": "Paying an expense in cash lowers cash and retained earnings by the same amount.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "far-cf-deposit-expense-receivable-q-d3652f24",
+          "type": "mcq",
+          "stem": "What is the effect of paying ₹250 for a newspaper ad?",
+          "options": [
+            "Cash and retained earnings both fall by ₹250",
+            "Cash falls and liabilities rise by ₹250",
+            "Cash falls and supplies rise by ₹250",
+            "Only liabilities fall"
+          ],
+          "answer": "Cash and retained earnings both fall by ₹250",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--practice-circle-films-transaction-analysis#2"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-cf-deposit-expense-receivable-q-11395c1d",
+          "type": "fill",
+          "stem": "After transaction 5, retained earnings are ₹____.",
+          "options": [],
+          "answer": "1,250",
+          "accept": [
+            "1250"
+          ],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--practice-circle-films-transaction-analysis#2"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "far--practice-circle-films-transaction-analysis#2"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cf-deposit-expense-receivable-c3",
+      "heading": "Transaction 6: an invoice with no cash still counts",
+      "explanation_md": "Circle Films **films a dance competition, leaving a ₹3,500 invoice** with the customer.\n\nIt is tempting to say no cash means no accounting transaction. But **not all accounting transactions affect cash.** By completing the job and leaving an invoice, Circle Films now has a **receivable** from the customer, so assets increase. Because the receivable arises from providing a service, there is **additional revenue and more equity.**\n\nThis is very similar to transaction 3. The only difference is the **type of asset that increases**: accounts receivable instead of cash.\n\nTable: Accounts Receivable ₹0 + ₹3,500; Retained Earnings ₹1,250 + ₹3,500 = ₹4,750. Total assets ₹21,750 = Liabilities ₹2,000 + Equity ₹19,750.",
+      "example_ids": [
+        "far-ex-t6-dance"
+      ],
+      "key_terms": [
+        {
+          "term": "Receivable",
+          "meaning": "An amount a customer owes after a service is performed but not yet paid for; an asset.",
+          "source_ref": "far--practice-circle-films-transaction-analysis#2"
+        }
+      ],
+      "exam_line": "A credit sale of services raises accounts receivable and retained earnings; no cash moves.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "far-cf-deposit-expense-receivable-q-9fb0b015",
+          "type": "mcq",
+          "stem": "How is transaction 6 different from transaction 3?",
+          "options": [
+            "Only the type of asset that increases is different",
+            "Liabilities rise in transaction 6",
+            "Equity falls in transaction 6",
+            "Cash rises in transaction 6"
+          ],
+          "answer": "Only the type of asset that increases is different",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--practice-circle-films-transaction-analysis#2",
+            "far--practice-circle-films-transaction-analysis#1"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-cf-deposit-expense-receivable-q-cf1a4db5",
+          "type": "true_false",
+          "stem": "No cash was received in transaction 6, so there is no effect on the accounting equation.",
+          "options": [],
+          "answer": "False",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--practice-circle-films-transaction-analysis#2"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-cf-deposit-expense-receivable-q-fef3b45c",
+          "type": "fill",
+          "stem": "After transaction 6, total assets are ₹____.",
+          "options": [],
+          "answer": "21,750",
+          "accept": [
+            "21750"
+          ],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--practice-circle-films-transaction-analysis#2"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "far--practice-circle-films-transaction-analysis#2"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "far-cf-deposit-expense-receivable-f1",
+      "front": "Customer deposit before service",
+      "back": "Cash up and liabilities (unearned revenue) up; the company owes the service.",
+      "kind": "example",
+      "source_refs": [
+        "far--practice-circle-films-transaction-analysis#2"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cf-deposit-expense-receivable-f2",
+      "front": "Expense",
+      "back": "A decrease in assets from operating a business; lowers net income and retained earnings.",
+      "kind": "term",
+      "source_refs": [
+        "far--practice-circle-films-transaction-analysis#2"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cf-deposit-expense-receivable-f3",
+      "front": "Newspaper ad ₹250",
+      "back": "Cash and retained earnings both fall by ₹250.",
+      "kind": "example",
+      "source_refs": [
+        "far--practice-circle-films-transaction-analysis#2"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cf-deposit-expense-receivable-f4",
+      "front": "Invoice left with a customer",
+      "back": "Accounts receivable rises and retained earnings rise; no cash yet.",
+      "kind": "example",
+      "source_refs": [
+        "far--practice-circle-films-transaction-analysis#2"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cf-deposit-expense-receivable-f5",
+      "front": "Transaction 6 versus 3",
+      "back": "Same effect on equity; the asset that rises is receivable, not cash.",
+      "kind": "fact",
+      "source_refs": [
+        "far--practice-circle-films-transaction-analysis#2",
+        "far--practice-circle-films-transaction-analysis#1"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cf-deposit-expense-receivable-f6",
+      "front": "Totals after transaction 4, 5, 6",
+      "back": "Assets ₹18,500, ₹18,250 and ₹21,750.",
+      "kind": "fact",
+      "source_refs": [
+        "far--practice-circle-films-transaction-analysis#2"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [
+    {
+      "id": "far-cf-deposit-expense-receivable-q-c87c20bb",
+      "type": "mcq",
+      "stem": "A ₹2,000 deposit is received before the filming is done. Which side rises other than cash?",
+      "options": [
+        "Liabilities (unearned revenue)",
+        "Retained earnings",
+        "Common stock",
+        "Equipment"
+      ],
+      "answer": "Liabilities (unearned revenue)",
+      "accept": [],
+      "explanation": "The company still owes the service.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "explain",
+      "source_refs": [
+        "far--practice-circle-films-transaction-analysis#2"
+      ],
+      "derived": [
+        "1,000",
+        "1000",
+        "9,000",
+        "9000"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cf-deposit-expense-receivable-q-b786f1f4",
+      "type": "mcq",
+      "stem": "Paying ₹250 for a newspaper ad affects retained earnings by:",
+      "options": [
+        "-₹250",
+        "+₹250",
+        "No change",
+        "-₹2,000"
+      ],
+      "answer": "-₹250",
+      "accept": [],
+      "explanation": "It is an expense.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "numerical",
+      "source_refs": [
+        "far--practice-circle-films-transaction-analysis#2"
+      ],
+      "derived": [
+        "1,000",
+        "1000",
+        "9,000",
+        "9000"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cf-deposit-expense-receivable-q-a7b3afda",
+      "type": "mcq",
+      "stem": "Leaving a ₹3,500 invoice with a customer creates which asset?",
+      "options": [
+        "Accounts receivable",
+        "Cash",
+        "Supplies",
+        "Equipment"
+      ],
+      "answer": "Accounts receivable",
+      "accept": [],
+      "explanation": "The customer owes the amount.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "explain",
+      "source_refs": [
+        "far--practice-circle-films-transaction-analysis#2"
+      ],
+      "derived": [
+        "1,000",
+        "1000",
+        "9,000",
+        "9000"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cf-deposit-expense-receivable-q-123f39c3",
+      "type": "mcq",
+      "stem": "After transaction 6, retained earnings are:",
+      "options": [
+        "₹4,750",
+        "₹1,250",
+        "₹3,500",
+        "₹1,500"
+      ],
+      "answer": "₹4,750",
+      "accept": [],
+      "explanation": "1,250 plus 3,500.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "far--practice-circle-films-transaction-analysis#2"
+      ],
+      "derived": [
+        "1,000",
+        "1000",
+        "9,000",
+        "9000"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cf-deposit-expense-receivable-q-9768430a",
+      "type": "mcq",
+      "stem": "After transaction 5, total assets are:",
+      "options": [
+        "₹18,250",
+        "₹18,500",
+        "₹16,250",
+        "₹21,750"
+      ],
+      "answer": "₹18,250",
+      "accept": [],
+      "explanation": "Cash is 8,250 plus supplies 1,000 plus equipment 9,000.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "far--practice-circle-films-transaction-analysis#2"
+      ],
+      "derived": [
+        "1,000",
+        "1000",
+        "9,000",
+        "9000"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cf-deposit-expense-receivable-q-1499afd7",
+      "type": "short",
+      "stem": "Why is the ₹2,000 customer deposit a liability and not revenue?",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Circle Films receives the ₹2,000 for filming a fiftieth wedding anniversary, but it **has not yet provided the service**. It therefore has an **obligation to the customer**.\n\nCash rises (₹6,500 to ₹8,500) and **liabilities rise by ₹2,000** in Unearned Revenue. Equity does not change, so total assets ₹18,500 = liabilities ₹2,000 + equity ₹16,500.",
+      "rubric": [
+        {
+          "point": "Service not yet provided",
+          "source_ref": "far--practice-circle-films-transaction-analysis#2"
+        },
+        {
+          "point": "Obligation to the customer",
+          "source_ref": "far--practice-circle-films-transaction-analysis#2"
+        },
+        {
+          "point": "Cash and unearned revenue each rise by 2,000",
+          "source_ref": "far--practice-circle-films-transaction-analysis#2"
+        },
+        {
+          "point": "Equity unchanged at 16,500",
+          "source_ref": "far--practice-circle-films-transaction-analysis#2"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "far--practice-circle-films-transaction-analysis#2"
+      ],
+      "derived": [
+        "1,000",
+        "1000",
+        "9,000",
+        "9000"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cf-deposit-expense-receivable-q-706aa696",
+      "type": "short",
+      "stem": "Show the effect of the ₹250 advertisement on the accounting equation.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Circle Films pays **₹250 cash for an ad.**\n\n- Cash falls from ₹8,500 to ₹8,250.\n- A decrease in assets from operating the business is an **expense**, so retained earnings fall from ₹1,500 to ₹1,250.\n\nTotal assets ₹18,250 = liabilities ₹2,000 + equity ₹16,250.",
+      "rubric": [
+        {
+          "point": "Cash -250",
+          "source_ref": "far--practice-circle-films-transaction-analysis#2"
+        },
+        {
+          "point": "Expense lowers retained earnings to 1,250",
+          "source_ref": "far--practice-circle-films-transaction-analysis#2"
+        },
+        {
+          "point": "Equation 18,250 = 2,000 + 16,250",
+          "source_ref": "far--practice-circle-films-transaction-analysis#2"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 1,
+      "style_tag": "numerical",
+      "source_refs": [
+        "far--practice-circle-films-transaction-analysis#2"
+      ],
+      "derived": [
+        "1,000",
+        "1000",
+        "9,000",
+        "9000"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cf-deposit-expense-receivable-q-251b887e",
+      "type": "short",
+      "stem": "Transaction 6 leaves an invoice with the customer and no cash is received. Does it affect the accounting equation? Show how.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Yes.** Not all accounting transactions affect cash.\n\nBy completing the job, Circle Films has a **receivable** of ₹3,500, so assets rise. Because the receivable arises from providing a service, there is **additional revenue** and retained earnings rise from ₹1,250 to ₹4,750.\n\nTotal assets ₹21,750 = liabilities ₹2,000 + equity ₹19,750. It is like transaction 3, except that the asset which increases is a receivable.",
+      "rubric": [
+        {
+          "point": "Not all transactions affect cash",
+          "source_ref": "far--practice-circle-films-transaction-analysis#2"
+        },
+        {
+          "point": "Receivable of 3,500 raises assets",
+          "source_ref": "far--practice-circle-films-transaction-analysis#2"
+        },
+        {
+          "point": "Revenue raises retained earnings to 4,750",
+          "source_ref": "far--practice-circle-films-transaction-analysis#2"
+        },
+        {
+          "point": "Equation 21,750 = 2,000 + 19,750",
+          "source_ref": "far--practice-circle-films-transaction-analysis#2"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "far--practice-circle-films-transaction-analysis#2"
+      ],
+      "derived": [
+        "1,000",
+        "1000",
+        "9,000",
+        "9000"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cf-deposit-expense-receivable-q-7d40c19d",
+      "type": "short",
+      "stem": "Differentiate between transaction 4 (deposit received) and transaction 6 (invoice left with the customer).",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Transaction 4:** cash is received first and the service is still to be done. Cash rises by ₹2,000 and **liabilities rise** (unearned revenue). Equity does not change.\n\n**Transaction 6:** the service is done first and cash is still to come. Accounts receivable rises by ₹3,500 and **equity rises** (retained earnings). Liabilities do not change.\n\nIn one the company owes the customer; in the other the customer owes the company.",
+      "rubric": [
+        {
+          "point": "Transaction 4: cash first, liability rises",
+          "source_ref": "far--practice-circle-films-transaction-analysis#2"
+        },
+        {
+          "point": "Transaction 6: service first, receivable rises",
+          "source_ref": "far--practice-circle-films-transaction-analysis#2"
+        },
+        {
+          "point": "Equity effect differs",
+          "source_ref": "far--practice-circle-films-transaction-analysis#2"
+        },
+        {
+          "point": "Who owes whom",
+          "source_ref": "far--practice-circle-films-transaction-analysis#2"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "differentiate",
+      "source_refs": [
+        "far--practice-circle-films-transaction-analysis#2"
+      ],
+      "derived": [
+        "1,000",
+        "1000",
+        "9,000",
+        "9000"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cf-deposit-expense-receivable-q-863d4637",
+      "type": "long",
+      "stem": "Analyse transactions 4, 5 and 6 of Circle Films on the accounting equation, showing the totals after each.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Starting position (after transaction 3): Cash ₹6,500, Supplies ₹1,000, Equipment ₹9,000; Common Stock ₹15,000, Retained Earnings ₹1,500.\n\n**Transaction 4: ₹2,000 deposit.** Cash +₹2,000 (₹8,500). Unearned Revenue +₹2,000 because the service is still owed. Assets ₹18,500 = Liabilities ₹2,000 + Equity ₹16,500.\n\n**Transaction 5: ₹250 ad.** Cash -₹250 (₹8,250). The expense reduces retained earnings to ₹1,250. Assets ₹18,250 = ₹2,000 + ₹16,250.\n\n**Transaction 6: dance competition, ₹3,500 invoice.** Accounts Receivable +₹3,500. Revenue raises retained earnings to ₹4,750. Assets ₹21,750 = ₹2,000 + ₹19,750.\n\nThe equation balances throughout.",
+      "rubric": [
+        {
+          "point": "Transaction 4 effects and totals",
+          "source_ref": "far--practice-circle-films-transaction-analysis#2"
+        },
+        {
+          "point": "Transaction 5 as an expense",
+          "source_ref": "far--practice-circle-films-transaction-analysis#2"
+        },
+        {
+          "point": "Transaction 6 as receivable and revenue",
+          "source_ref": "far--practice-circle-films-transaction-analysis#2"
+        },
+        {
+          "point": "Totals 18,500, 18,250, 21,750",
+          "source_ref": "far--practice-circle-films-transaction-analysis#2"
+        },
+        {
+          "point": "Balance each time",
+          "source_ref": "far--practice-circle-films-transaction-analysis#1"
+        }
+      ],
+      "marks": 9.0,
+      "difficulty": 3,
+      "style_tag": "numerical",
+      "source_refs": [
+        "far--practice-circle-films-transaction-analysis#2"
+      ],
+      "derived": [
+        "1,000",
+        "1000",
+        "9,000",
+        "9000"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cf-deposit-expense-receivable-q-905ddb9a",
+      "type": "long",
+      "stem": "Explain how liabilities, expenses and receivables enter the accounting equation using Circle Films' transactions 4, 5 and 6.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Liability (transaction 4).** A ₹2,000 deposit is received before the filming. Cash rises but the company owes the service, so liabilities rise (Unearned Revenue).\n\n**Expense (transaction 5).** ₹250 is paid for an ad. A decrease in assets from operating the business is an expense; it lowers net income and retained earnings.\n\n**Receivable (transaction 6).** A ₹3,500 invoice is left with the customer. No cash arrives, yet the firm now has a receivable (an asset) and additional revenue, so equity rises.\n\nIn all three the equation stays in balance because each change on one side is matched on the other.",
+      "rubric": [
+        {
+          "point": "Deposit creates a liability",
+          "source_ref": "far--practice-circle-films-transaction-analysis#2"
+        },
+        {
+          "point": "Expense lowers retained earnings",
+          "source_ref": "far--practice-circle-films-transaction-analysis#2"
+        },
+        {
+          "point": "Receivable and revenue raise assets and equity",
+          "source_ref": "far--practice-circle-films-transaction-analysis#2"
+        },
+        {
+          "point": "Equation stays balanced",
+          "source_ref": "far--practice-circle-films-transaction-analysis#2"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 3,
+      "style_tag": "explain",
+      "source_refs": [
+        "far--practice-circle-films-transaction-analysis#2"
+      ],
+      "derived": [
+        "1,000",
+        "1000",
+        "9,000",
+        "9000"
+      ],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "explain_back": {
+    "prompt": "Explain how a deposit, an ad payment and an unpaid invoice each change the accounting equation.",
+    "rubric": [
+      {
+        "point": "Deposit: cash up, unearned revenue (liability) up by ₹2,000",
+        "source_ref": "far--practice-circle-films-transaction-analysis#2"
+      },
+      {
+        "point": "Ad: cash down, retained earnings down by ₹250 as an expense",
+        "source_ref": "far--practice-circle-films-transaction-analysis#2"
+      },
+      {
+        "point": "Invoice: receivable up, retained earnings up by ₹3,500",
+        "source_ref": "far--practice-circle-films-transaction-analysis#2"
+      },
+      {
+        "point": "Not all transactions affect cash",
+        "source_ref": "far--practice-circle-films-transaction-analysis#2"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

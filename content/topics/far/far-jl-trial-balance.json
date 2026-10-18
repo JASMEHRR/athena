@@ -1,0 +1,1633 @@
+{
+  "id": "far-jl-trial-balance",
+  "subject_id": "far",
+  "deck_id": "far--4-co3-journal-ledger-tb",
+  "title": "The trial balance: meaning, steps and practice",
+  "order": 5,
+  "summary": "What a trial balance is, why it is prepared, the five steps, the account list, and three practice questions with totals.",
+  "est_minutes": 30,
+  "difficulty": 2,
+  "source_refs": [
+    "far--4-co3-journal-ledger-tb#15",
+    "far--4-co3-journal-ledger-tb#17",
+    "far--4-co3-journal-ledger-tb#16",
+    "far--4-co3-journal-ledger-tb#18",
+    "far--4-co3-journal-ledger-tb#19",
+    "far--4-co3-journal-ledger-tb#20",
+    "far--4-co3-journal-ledger-tb#21",
+    "far--4-co3-journal-ledger-tb#22",
+    "far--4-co3-journal-ledger-tb#14",
+    "far--4-co3-journal-ledger-tb#12"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "far-jl-trial-balance-c1",
+      "heading": "Meaning and objectives of the trial balance",
+      "explanation_md": "A **trial balance** is a statement that shows the **balances, or totals of debits and credits, of all the accounts in the ledger**. Its purpose is to **verify the arithmetical accuracy of posting** into the ledger accounts.\n\nIt shows the final position of all accounts and helps in preparing the final statements. The accountant takes the balances of all accounts from the trial balance instead of going through the whole ledger. It is usually prepared with the balances of accounts.\n\nThe slide gives three **objectives**:\n\n1. To ascertain the arithmetical accuracy of the ledger accounts.\n2. To help in locating errors.\n3. To help in preparing the financial statements (the Profit & Loss account and the Balance Sheet).\n\nThe format has columns for **Account Title**, **L.F.**, **Debit Balance** and **Credit Balance**, with a Total row.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Trial balance",
+          "meaning": "A statement of the balances of all ledger accounts, prepared to verify the arithmetical accuracy of posting.",
+          "source_ref": "far--4-co3-journal-ledger-tb#15"
+        }
+      ],
+      "exam_line": "Objectives of a trial balance: check arithmetical accuracy of the ledger, help locate errors, help prepare the Profit & Loss account and Balance Sheet.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "far-jl-trial-balance-q-6bef4b2c",
+          "type": "mcq",
+          "stem": "Which is one of the stated objectives of preparing a trial balance?",
+          "options": [
+            "To help in the preparation of financial statements",
+            "To record each transaction for the first time",
+            "To calculate the cash received",
+            "To value the closing stock"
+          ],
+          "answer": "To help in the preparation of financial statements",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--4-co3-journal-ledger-tb#17"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-jl-trial-balance-q-c91b2e55",
+          "type": "fill",
+          "stem": "A trial balance is prepared to verify the ____ accuracy of posting into the ledger accounts.",
+          "options": [],
+          "answer": "arithmetical",
+          "accept": [
+            "arithmetic"
+          ],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--4-co3-journal-ledger-tb#15"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-jl-trial-balance-q-02183eec",
+          "type": "true_false",
+          "stem": "The trial balance lets the accountant take balances without going through the whole ledger.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--4-co3-journal-ledger-tb#15"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#15",
+        "far--4-co3-journal-ledger-tb#17"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-trial-balance-c2",
+      "heading": "Steps to prepare a trial balance",
+      "explanation_md": "The slide gives five steps:\n\n1. **Ascertain the balance** of each account in the ledger.\n2. **List each account** and place its balance in the **debit or credit column**, as the case may be. An account with a zero balance may be included with zero in the column of its normal balance.\n3. **Total the debit column.**\n4. **Total the credit column.**\n5. **Verify** that the debit total equals the credit total.\n\nIf the totals do not tally, there are errors, so check the balances of all accounts.\n\n**Which side?** All **assets, expenses and receivables** have **debit balances**. All **liabilities, revenues and payables** have **credit balances**.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "Assets, expenses and receivables: debit. Liabilities, revenues and payables: credit. Debit total must equal credit total.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "far-jl-trial-balance-q-ef0b8d73",
+          "type": "mcq",
+          "stem": "Which group of accounts normally has debit balances?",
+          "options": [
+            "Assets, expenses and receivables",
+            "Liabilities, revenues and payables",
+            "Assets, revenues and payables",
+            "Liabilities, expenses and receivables"
+          ],
+          "answer": "Assets, expenses and receivables",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--4-co3-journal-ledger-tb#16"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-jl-trial-balance-q-f50e3096",
+          "type": "true_false",
+          "stem": "If the debit and credit totals do not tally, it indicates that there are some errors.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--4-co3-journal-ledger-tb#16"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-jl-trial-balance-q-26679828",
+          "type": "mcq",
+          "stem": "Where may an account with a zero balance be shown in a trial balance?",
+          "options": [
+            "With zero in the column for its normal balance",
+            "It must be left out",
+            "In the credit column only",
+            "In both columns"
+          ],
+          "answer": "With zero in the column for its normal balance",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--4-co3-journal-ledger-tb#16"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#16"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-trial-balance-c3",
+      "heading": "Accounts that appear in a trial balance",
+      "explanation_md": "Two slides list the account titles that can appear in a trial balance. The layout is the same as before: Account title, L.F., Debit Balance, Credit Balance.\n\nFirst list: **Capital, Land & Buildings, Plant & Machinery, Equipment, Furniture and Fixtures, Cash in Hand, Cash at Bank, Debtors, Bills Receivable, Stock of Raw Materials, Stock of Finished Goods, Purchases, Carriage Inwards, Carriage Outwards, Sales, Sales Return, Purchases Return.**\n\nSecond list: **Interest Paid, Commission/Discount Received, Salaries, Long Term Loan, Bills Payable, Creditors, Advances from Customers, Drawings**, then the **Total** row (debit total and credit total must agree).\n\nUse the rule from the steps: asset, expense and receivable titles (for example Cash at Bank, Debtors, Bills Receivable, Purchases, Salaries, Drawings) go in the debit column; liability, revenue and payable titles (for example Bills Payable, Creditors, Long Term Loan, Sales) go in the credit column.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "Know the common trial balance titles and place assets, expenses, receivables on the debit side; liabilities, revenues, payables on the credit side.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "far-jl-trial-balance-q-4ac8c176",
+          "type": "mcq",
+          "stem": "Which of these appears in the trial balance list as a payable?",
+          "options": [
+            "Bills Payable",
+            "Bills Receivable",
+            "Debtors",
+            "Cash in Hand"
+          ],
+          "answer": "Bills Payable",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--4-co3-journal-ledger-tb#19",
+            "far--4-co3-journal-ledger-tb#18"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-jl-trial-balance-q-f959e85a",
+          "type": "mcq",
+          "stem": "Which of these titles is listed in the trial balance format?",
+          "options": [
+            "Advances from Customers",
+            "Goodwill",
+            "Share premium",
+            "Retained earnings"
+          ],
+          "answer": "Advances from Customers",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--4-co3-journal-ledger-tb#19"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#18",
+        "far--4-co3-journal-ledger-tb#19"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-trial-balance-c4",
+      "heading": "Practice 1: the account balances and the total of ₹1,32,000",
+      "explanation_md": "Sort all the balances by the rule (assets, expenses, receivables debit; liabilities, revenues, payables credit; owner's investment on the credit side, drawings on the debit side).\n\n**Debit balances:** Marketable Security 6,500; Sundry Debtors 12,000; Prepaid Rent 2,000; Insurance Expense 7,300; Rent & Rates Expense 400; Accrued Revenue 15,000; Machinery 25,000; Drawings 3,500; Equipments 40,000; Maintenance Exp. 5,000; Miscellaneous Expenses 4,800; Dep. Exp. Equipments 2,000; Unexpired Insurance 8,500. **Total 1,32,000.**\n\n**Credit balances:** Bank Loan 14,000; Bill Payable 1,000; Unearned Revenue 3,500; Outstanding Salaries 2,500; Owner's Investments 95,000; Acc. Dep. Equipments 14,000; Accrued Expenses 1,500; Vendor's Payables 500. **Total 1,32,000.**\n\nBoth columns equal the slide's printed total of ₹1,32,000.",
+      "example_ids": [
+        "far-ex-tb-q1"
+      ],
+      "key_terms": [],
+      "exam_line": "TB practice 1: debit total = credit total = ₹1,32,000.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "far-jl-trial-balance-q-6b14f729",
+          "type": "mcq",
+          "stem": "In practice question 1, in which column does Owner's Investments (95,000) go?",
+          "options": [
+            "Credit",
+            "Debit",
+            "Either",
+            "It is left out"
+          ],
+          "answer": "Credit",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--4-co3-journal-ledger-tb#20",
+            "far--4-co3-journal-ledger-tb#16"
+          ],
+          "derived": [
+            "1,000",
+            "1,32,000",
+            "1,500",
+            "1000",
+            "132000",
+            "14,000",
+            "14000",
+            "1500",
+            "2,500",
+            "2500",
+            "3,500",
+            "3500",
+            "500",
+            "95,000",
+            "95000"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-jl-trial-balance-q-7b64abef",
+          "type": "mcq",
+          "stem": "In practice question 1, which is a debit balance?",
+          "options": [
+            "Accrued Revenue 15,000",
+            "Unearned Revenue 3,500",
+            "Bank Loan 14,000",
+            "Outstanding Salaries 2,500"
+          ],
+          "answer": "Accrued Revenue 15,000",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--4-co3-journal-ledger-tb#20"
+          ],
+          "derived": [
+            "1,000",
+            "1,32,000",
+            "1,500",
+            "1000",
+            "132000",
+            "14,000",
+            "14000",
+            "1500",
+            "2,500",
+            "2500",
+            "3,500",
+            "3500",
+            "500",
+            "95,000",
+            "95000"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-jl-trial-balance-q-4d0cf3d1",
+          "type": "fill",
+          "stem": "The total of each column in practice question 1 is ₹____.",
+          "options": [],
+          "answer": "1,32,000",
+          "accept": [
+            "132000"
+          ],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--4-co3-journal-ledger-tb#20"
+          ],
+          "derived": [
+            "1,000",
+            "1,32,000",
+            "1,500",
+            "1000",
+            "132000",
+            "14,000",
+            "14000",
+            "1500",
+            "2,500",
+            "2500",
+            "3,500",
+            "3500",
+            "500",
+            "95,000",
+            "95000"
+          ],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#20"
+      ],
+      "derived": [
+        "1,32,000",
+        "14,000",
+        "1,000",
+        "3,500",
+        "2,500",
+        "95,000",
+        "1,500",
+        "500",
+        "132000",
+        "14000",
+        "1000",
+        "3500",
+        "2500",
+        "95000",
+        "1500",
+        "500"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-trial-balance-c5",
+      "heading": "Practice 2: finding the mistakes in a trial balance",
+      "explanation_md": "The given TB has 15 lines and **printed totals of Debit ₹7,649 and Credit ₹6,289**, so it does not tally. The task is to find the errors and make a corrected TB.\n\nThe lines that sit on the wrong side:\n\n- **Due from Customers 530** is shown as credit. It is a receivable, so it moves to **debit**.\n- **Purchase Return 364** is shown as debit. It moves to **credit**.\n- **Creditors 528** is shown as debit. A payable is a **credit**.\n- **Note Payable 680** is shown as debit. A payable is a **credit**.\n- **Inventory 264** is shown as credit. It is an asset, so **debit**.\n- **Return Inward 98** is shown as credit. It moves to **debit**.\n\n**Corrected debits:** Drawings 560, Equipments 2,850, Due from Customers 530, Purchases 1,260, Taxes 720, Cash in Hand 226, Inventory 264, Repair 461, Return Inward 98 = **₹6,969**.\n\n**Corrected credits:** Owner Equity 1,551, Sales 2,850, Purchase Return 364, Bank Loan 996, Creditors 528, Note Payable 680 = **₹6,969**.\n\nThe corrected TB tallies at ₹6,969, matching the slide.",
+      "example_ids": [
+        "far-ex-tb-q2"
+      ],
+      "key_terms": [],
+      "exam_line": "Corrected TB total is ₹6,969 on both sides (printed totals were 7,649 and 6,289).",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "far-jl-trial-balance-q-e2b11001",
+          "type": "mcq",
+          "stem": "In practice question 2, what is the total of the corrected trial balance?",
+          "options": [
+            "₹6,969",
+            "₹7,649",
+            "₹6,289",
+            "₹1,360"
+          ],
+          "answer": "₹6,969",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--4-co3-journal-ledger-tb#21"
+          ],
+          "derived": [
+            "1,360",
+            "1,551",
+            "1360",
+            "1551",
+            "2,850",
+            "2850",
+            "364",
+            "528",
+            "6,289",
+            "6,969",
+            "6289",
+            "680",
+            "6969",
+            "7,649",
+            "7649",
+            "996"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-jl-trial-balance-q-1e7c4b15",
+          "type": "mcq",
+          "stem": "Which account in practice question 2 is wrongly shown on the credit side?",
+          "options": [
+            "Due from Customers",
+            "Sales",
+            "Bank Loan",
+            "Owner Equity"
+          ],
+          "answer": "Due from Customers",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--4-co3-journal-ledger-tb#21",
+            "far--4-co3-journal-ledger-tb#16"
+          ],
+          "derived": [
+            "1,360",
+            "1,551",
+            "1360",
+            "1551",
+            "2,850",
+            "2850",
+            "364",
+            "528",
+            "6,289",
+            "6,969",
+            "6289",
+            "680",
+            "6969",
+            "7,649",
+            "7649",
+            "996"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-jl-trial-balance-q-146af26a",
+          "type": "true_false",
+          "stem": "In practice question 2, Creditors should be shown on the credit side.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--4-co3-journal-ledger-tb#21",
+            "far--4-co3-journal-ledger-tb#16"
+          ],
+          "derived": [
+            "1,360",
+            "1,551",
+            "1360",
+            "1551",
+            "2,850",
+            "2850",
+            "364",
+            "528",
+            "6,289",
+            "6,969",
+            "6289",
+            "680",
+            "6969",
+            "7,649",
+            "7649",
+            "996"
+          ],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#21"
+      ],
+      "derived": [
+        "1,360",
+        "6,969",
+        "7,649",
+        "6,289",
+        "1,551",
+        "2,850",
+        "364",
+        "996",
+        "528",
+        "680",
+        "1360",
+        "6969",
+        "7649",
+        "6289",
+        "1551",
+        "2850",
+        "364",
+        "996",
+        "528",
+        "680"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-trial-balance-c6",
+      "heading": "Practice 3: M/s Metro Corp. and the trial balance of Example 4",
+      "explanation_md": "**M/s Metro Corp.** Debit side: Drawings 74,800; Purchases 2,95,700; Stock (1.04.2011) 30,000; Bills receivable 52,500; Furniture 33,000; Discount allowed 950; Rent 72,500; Freight 3,500; Printing charges 1,500; Insurance 2,700; Sundry expenses 21,000; Income tax 9,500; Machinery 2,15,400. Total **₹8,13,050**.\n\nCredit side: Capital 2,50,000; Sales 3,35,350; Sundry creditors 75,000; Discount received 1,000; Bank loan 1,20,000; Bills payable 31,700. Total **₹8,13,050**.\n\n**TB from Example 4 (Manish Malhotra),** using the ledger balances:\n\n- Debit: Cash 99,000; Bank 65,000; Purchases 30,000; Machines 20,000; Rent 5,000; Salary 6,000 = **₹2,25,000**.\n- Credit: Capital 2,00,000; Sales 25,000 = **₹2,25,000**.\n\nThe two totals agree, which shows the posting was arithmetically accurate.",
+      "example_ids": [
+        "far-ex-tb-q3",
+        "far-ex-ex4-manish"
+      ],
+      "key_terms": [],
+      "exam_line": "Metro Corp. TB total ₹8,13,050; Example 4 TB total ₹2,25,000.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "far-jl-trial-balance-q-6d7de603",
+          "type": "mcq",
+          "stem": "What is the total of the trial balance for M/s Metro Corp.?",
+          "options": [
+            "₹8,13,050",
+            "₹1,32,000",
+            "₹6,969",
+            "₹2,25,000"
+          ],
+          "answer": "₹8,13,050",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--4-co3-journal-ledger-tb#22",
+            "far--4-co3-journal-ledger-tb#20",
+            "far--4-co3-journal-ledger-tb#21"
+          ],
+          "derived": [
+            "2,00,000",
+            "2,25,000",
+            "20,000",
+            "20000",
+            "200000",
+            "225000",
+            "25,000",
+            "25000",
+            "30,000",
+            "30000",
+            "5,000",
+            "5000",
+            "6,000",
+            "6000",
+            "65,000",
+            "65000",
+            "8,13,050",
+            "813050",
+            "99,000",
+            "99000"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-jl-trial-balance-q-c76b9985",
+          "type": "fill",
+          "stem": "In the Example 4 trial balance, the debit and credit totals are each ₹____.",
+          "options": [],
+          "answer": "2,25,000",
+          "accept": [
+            "225000"
+          ],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--4-co3-journal-ledger-tb#13",
+            "far--4-co3-journal-ledger-tb#14"
+          ],
+          "derived": [
+            "2,00,000",
+            "2,25,000",
+            "20,000",
+            "20000",
+            "200000",
+            "225000",
+            "25,000",
+            "25000",
+            "30,000",
+            "30000",
+            "5,000",
+            "5000",
+            "6,000",
+            "6000",
+            "65,000",
+            "65000",
+            "8,13,050",
+            "813050",
+            "99,000",
+            "99000"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-jl-trial-balance-q-6711f527",
+          "type": "mcq",
+          "stem": "In the Metro Corp. trial balance, which is a credit balance?",
+          "options": [
+            "Sundry creditors 75,000",
+            "Drawings 74,800",
+            "Bills receivable 52,500",
+            "Furniture 33,000"
+          ],
+          "answer": "Sundry creditors 75,000",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--4-co3-journal-ledger-tb#22"
+          ],
+          "derived": [
+            "2,00,000",
+            "2,25,000",
+            "20,000",
+            "20000",
+            "200000",
+            "225000",
+            "25,000",
+            "25000",
+            "30,000",
+            "30000",
+            "5,000",
+            "5000",
+            "6,000",
+            "6000",
+            "65,000",
+            "65000",
+            "8,13,050",
+            "813050",
+            "99,000",
+            "99000"
+          ],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#22",
+        "far--4-co3-journal-ledger-tb#14",
+        "far--4-co3-journal-ledger-tb#12"
+      ],
+      "derived": [
+        "8,13,050",
+        "2,25,000",
+        "99,000",
+        "65,000",
+        "30,000",
+        "20,000",
+        "5,000",
+        "6,000",
+        "2,00,000",
+        "25,000",
+        "813050",
+        "225000",
+        "99000",
+        "65000",
+        "30000",
+        "20000",
+        "5000",
+        "6000",
+        "200000",
+        "25000"
+      ],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "far-jl-trial-balance-f1",
+      "front": "Trial balance",
+      "back": "A statement of the balances of all ledger accounts to verify the arithmetical accuracy of posting.",
+      "kind": "term",
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#15"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-trial-balance-f2",
+      "front": "Objectives of a trial balance",
+      "back": "Check arithmetical accuracy of the ledger; help locate errors; help prepare the financial statements.",
+      "kind": "list",
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#17"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-trial-balance-f3",
+      "front": "Steps to prepare a trial balance",
+      "back": "Find each balance, list it in the debit or credit column, total both columns, verify they are equal.",
+      "kind": "list",
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#16"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-trial-balance-f4",
+      "front": "Debit-balance accounts",
+      "back": "All assets, expenses and receivables.",
+      "kind": "fact",
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#16"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-trial-balance-f5",
+      "front": "Credit-balance accounts",
+      "back": "All liabilities, revenues and payables.",
+      "kind": "fact",
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#16"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-trial-balance-f6",
+      "front": "Trial balance columns",
+      "back": "Account Title, L.F., Debit Balance, Credit Balance, Total.",
+      "kind": "list",
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#15"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-trial-balance-f7",
+      "front": "Practice 1 total",
+      "back": "₹1,32,000 on each side.",
+      "kind": "fact",
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#20"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-trial-balance-f8",
+      "front": "Practice 2 corrected total",
+      "back": "₹6,969 on each side (printed totals 7,649 and 6,289).",
+      "kind": "fact",
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#21"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-trial-balance-f9",
+      "front": "Practice 3 total",
+      "back": "₹8,13,050 on each side.",
+      "kind": "fact",
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#22"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [
+    {
+      "id": "far-jl-trial-balance-q-69da03b4",
+      "type": "mcq",
+      "stem": "Which group of accounts normally has debit balances in a trial balance?",
+      "options": [
+        "Assets, expenses and receivables",
+        "Liabilities, revenues and payables",
+        "Assets, revenues and payables",
+        "Liabilities, expenses and receivables"
+      ],
+      "answer": "Assets, expenses and receivables",
+      "accept": [],
+      "explanation": "The slide states this rule directly.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "classify",
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#16"
+      ],
+      "derived": [
+        "1,32,000",
+        "1,360",
+        "132000",
+        "1360",
+        "2,00,000",
+        "2,25,000",
+        "20,000",
+        "20000",
+        "200000",
+        "225000",
+        "25,000",
+        "25000",
+        "30,000",
+        "30000",
+        "5,000",
+        "5000",
+        "6,000",
+        "6,969",
+        "6000",
+        "65,000",
+        "65000",
+        "6969",
+        "8,13,050",
+        "813050",
+        "99,000",
+        "99000"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-trial-balance-q-63bdf812",
+      "type": "mcq",
+      "stem": "The debit and credit columns of a trial balance do not tally. What does this indicate?",
+      "options": [
+        "There are some errors",
+        "The books are accurate",
+        "The ledger is complete",
+        "Capital has been wrongly omitted"
+      ],
+      "answer": "There are some errors",
+      "accept": [],
+      "explanation": "The slide says non-tallying totals point to errors.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "explain",
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#16"
+      ],
+      "derived": [
+        "1,32,000",
+        "1,360",
+        "132000",
+        "1360",
+        "2,00,000",
+        "2,25,000",
+        "20,000",
+        "20000",
+        "200000",
+        "225000",
+        "25,000",
+        "25000",
+        "30,000",
+        "30000",
+        "5,000",
+        "5000",
+        "6,000",
+        "6,969",
+        "6000",
+        "65,000",
+        "65000",
+        "6969",
+        "8,13,050",
+        "813050",
+        "99,000",
+        "99000"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-trial-balance-q-040c7586",
+      "type": "mcq",
+      "stem": "What is the total of the corrected trial balance in practice question 2?",
+      "options": [
+        "6,969",
+        "7,649",
+        "6,289",
+        "1,360"
+      ],
+      "answer": "6,969",
+      "accept": [],
+      "explanation": "After placing each account on its correct side, both columns total 6,969.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#21"
+      ],
+      "derived": [
+        "1,32,000",
+        "1,360",
+        "132000",
+        "1360",
+        "2,00,000",
+        "2,25,000",
+        "20,000",
+        "20000",
+        "200000",
+        "225000",
+        "25,000",
+        "25000",
+        "30,000",
+        "30000",
+        "5,000",
+        "5000",
+        "6,000",
+        "6,969",
+        "6000",
+        "65,000",
+        "65000",
+        "6969",
+        "8,13,050",
+        "813050",
+        "99,000",
+        "99000"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-trial-balance-q-e8717926",
+      "type": "mcq",
+      "stem": "Which is NOT a stated objective of a trial balance?",
+      "options": [
+        "To record each transaction for the first time",
+        "To ascertain the arithmetical accuracy of the ledger accounts",
+        "To help in locating errors",
+        "To help in preparing the financial statements"
+      ],
+      "answer": "To record each transaction for the first time",
+      "accept": [],
+      "explanation": "First recording is the work of the journal.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "define",
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#17",
+        "far--4-co3-journal-ledger-tb#4"
+      ],
+      "derived": [
+        "1,32,000",
+        "1,360",
+        "132000",
+        "1360",
+        "2,00,000",
+        "2,25,000",
+        "20,000",
+        "20000",
+        "200000",
+        "225000",
+        "25,000",
+        "25000",
+        "30,000",
+        "30000",
+        "5,000",
+        "5000",
+        "6,000",
+        "6,969",
+        "6000",
+        "65,000",
+        "65000",
+        "6969",
+        "8,13,050",
+        "813050",
+        "99,000",
+        "99000"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-trial-balance-q-e095f32f",
+      "type": "mcq",
+      "stem": "In practice question 1, the account Unearned Revenue (3,500) goes in which column?",
+      "options": [
+        "Credit",
+        "Debit",
+        "Both",
+        "Neither"
+      ],
+      "answer": "Credit",
+      "accept": [],
+      "explanation": "Unearned revenue is a liability-type balance, so credit.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "classify",
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#20",
+        "far--4-co3-journal-ledger-tb#16"
+      ],
+      "derived": [
+        "1,32,000",
+        "1,360",
+        "132000",
+        "1360",
+        "2,00,000",
+        "2,25,000",
+        "20,000",
+        "20000",
+        "200000",
+        "225000",
+        "25,000",
+        "25000",
+        "30,000",
+        "30000",
+        "5,000",
+        "5000",
+        "6,000",
+        "6,969",
+        "6000",
+        "65,000",
+        "65000",
+        "6969",
+        "8,13,050",
+        "813050",
+        "99,000",
+        "99000"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-trial-balance-q-0bd61418",
+      "type": "short",
+      "stem": "What is a trial balance? State its objectives.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "A **trial balance** is a statement showing the balances, or totals of debits and credits, of all the accounts in the ledger, prepared to verify the arithmetical accuracy of posting.\n\n**Objectives:**\n1. To ascertain the arithmetical accuracy of the ledger accounts.\n2. To help in locating errors.\n3. To help in preparing the financial statements, the Profit & Loss account and the Balance Sheet.\n\nIt also lets the accountant take the balances from one statement instead of the whole ledger.",
+      "rubric": [
+        {
+          "point": "Statement of ledger balances",
+          "source_ref": "far--4-co3-journal-ledger-tb#15"
+        },
+        {
+          "point": "Verifies arithmetical accuracy",
+          "source_ref": "far--4-co3-journal-ledger-tb#17"
+        },
+        {
+          "point": "Helps locate errors",
+          "source_ref": "far--4-co3-journal-ledger-tb#17"
+        },
+        {
+          "point": "Helps prepare financial statements",
+          "source_ref": "far--4-co3-journal-ledger-tb#17"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 1,
+      "style_tag": "define",
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#15",
+        "far--4-co3-journal-ledger-tb#17"
+      ],
+      "derived": [
+        "1,32,000",
+        "1,360",
+        "132000",
+        "1360",
+        "2,00,000",
+        "2,25,000",
+        "20,000",
+        "20000",
+        "200000",
+        "225000",
+        "25,000",
+        "25000",
+        "30,000",
+        "30000",
+        "5,000",
+        "5000",
+        "6,000",
+        "6,969",
+        "6000",
+        "65,000",
+        "65000",
+        "6969",
+        "8,13,050",
+        "813050",
+        "99,000",
+        "99000"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-trial-balance-q-7e1fe74e",
+      "type": "short",
+      "stem": "List the steps to prepare a trial balance and say what you do if the totals do not agree.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Steps:**\n1. Ascertain the balance of each ledger account.\n2. List each account and put its balance in the debit or credit column (a zero balance may be shown in its normal column).\n3. Total the debit column.\n4. Total the credit column.\n5. Verify that the two totals are equal.\n\nIf they do not tally there are errors, so check the correctness of the balances of all accounts. Assets, expenses and receivables are debits; liabilities, revenues and payables are credits.",
+      "rubric": [
+        {
+          "point": "Ascertain balances and list in columns",
+          "source_ref": "far--4-co3-journal-ledger-tb#16"
+        },
+        {
+          "point": "Total both columns",
+          "source_ref": "far--4-co3-journal-ledger-tb#16"
+        },
+        {
+          "point": "Verify equal",
+          "source_ref": "far--4-co3-journal-ledger-tb#16"
+        },
+        {
+          "point": "If not equal, check for errors",
+          "source_ref": "far--4-co3-journal-ledger-tb#16"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 1,
+      "style_tag": "list",
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#16"
+      ],
+      "derived": [
+        "1,32,000",
+        "1,360",
+        "132000",
+        "1360",
+        "2,00,000",
+        "2,25,000",
+        "20,000",
+        "20000",
+        "200000",
+        "225000",
+        "25,000",
+        "25000",
+        "30,000",
+        "30000",
+        "5,000",
+        "5000",
+        "6,000",
+        "6,969",
+        "6000",
+        "65,000",
+        "65000",
+        "6969",
+        "8,13,050",
+        "813050",
+        "99,000",
+        "99000"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-trial-balance-q-eb3c6b75",
+      "type": "short",
+      "stem": "Prepare the trial balance of M/S Manish Malhotra from the ledger balances of Example 4 and show it tallies.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Debit balances:** Cash 99,000; Bank 65,000; Purchases 30,000; Machines 20,000; Rent 5,000; Salary 6,000. Total **2,25,000**.\n\n**Credit balances:** Capital 2,00,000; Sales 25,000. Total **2,25,000**.\n\nBoth columns total 2,25,000, so the posting is arithmetically accurate.",
+      "rubric": [
+        {
+          "point": "Debit accounts listed",
+          "source_ref": "far--4-co3-journal-ledger-tb#14"
+        },
+        {
+          "point": "Credit accounts listed",
+          "source_ref": "far--4-co3-journal-ledger-tb#14"
+        },
+        {
+          "point": "Debit total 2,25,000",
+          "source_ref": "far--4-co3-journal-ledger-tb#14"
+        },
+        {
+          "point": "Credit total 2,25,000 and tallies",
+          "source_ref": "far--4-co3-journal-ledger-tb#14"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#13",
+        "far--4-co3-journal-ledger-tb#14",
+        "far--4-co3-journal-ledger-tb#12"
+      ],
+      "derived": [
+        "1,32,000",
+        "1,360",
+        "132000",
+        "1360",
+        "2,00,000",
+        "2,25,000",
+        "20,000",
+        "20000",
+        "200000",
+        "225000",
+        "25,000",
+        "25000",
+        "30,000",
+        "30000",
+        "5,000",
+        "5000",
+        "6,000",
+        "6,969",
+        "6000",
+        "65,000",
+        "65000",
+        "6969",
+        "8,13,050",
+        "813050",
+        "99,000",
+        "99000"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-trial-balance-q-67b8823e",
+      "type": "short",
+      "stem": "In practice question 2 the printed trial balance totals 7,649 (debit) and 6,289 (credit). Identify the accounts on the wrong side and give the corrected total.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Using the rule that assets and receivables are debits and liabilities and payables are credits:\n\n- Due from Customers 530: debit, not credit.\n- Inventory 264: debit, not credit.\n- Return Inward 98: debit, not credit.\n- Purchase Return 364: credit, not debit.\n- Creditors 528: credit, not debit.\n- Note Payable 680: credit, not debit.\n\n**Corrected debits:** 560 + 2,850 + 530 + 1,260 + 720 + 226 + 264 + 461 + 98 = 6,969.\n**Corrected credits:** 1,551 + 2,850 + 364 + 996 + 528 + 680 = 6,969.\n\nBoth tally at **6,969**.",
+      "rubric": [
+        {
+          "point": "Receivables and assets moved to debit",
+          "source_ref": "far--4-co3-journal-ledger-tb#21"
+        },
+        {
+          "point": "Payables moved to credit",
+          "source_ref": "far--4-co3-journal-ledger-tb#21"
+        },
+        {
+          "point": "Purchase return and return inward corrected",
+          "source_ref": "far--4-co3-journal-ledger-tb#21"
+        },
+        {
+          "point": "Both totals 6,969",
+          "source_ref": "far--4-co3-journal-ledger-tb#21"
+        }
+      ],
+      "marks": 5.0,
+      "difficulty": 3,
+      "style_tag": "numerical",
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#21",
+        "far--4-co3-journal-ledger-tb#16"
+      ],
+      "derived": [
+        "1,32,000",
+        "1,360",
+        "132000",
+        "1360",
+        "2,00,000",
+        "2,25,000",
+        "20,000",
+        "20000",
+        "200000",
+        "225000",
+        "25,000",
+        "25000",
+        "30,000",
+        "30000",
+        "5,000",
+        "5000",
+        "6,000",
+        "6,969",
+        "6000",
+        "65,000",
+        "65000",
+        "6969",
+        "8,13,050",
+        "813050",
+        "99,000",
+        "99000"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-trial-balance-q-6c5cd300",
+      "type": "short",
+      "stem": "Differentiate between the debit-balance and credit-balance accounts in a trial balance, using accounts from practice question 1.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Debit balances** are assets, expenses and receivables. In practice question 1: Machinery 25,000, Sundry Debtors 12,000, Maintenance Exp. 5,000, Accrued Revenue 15,000 and Drawings 3,500.\n\n**Credit balances** are liabilities, revenues and payables. In practice question 1: Bank Loan 14,000, Bill Payable 1,000, Unearned Revenue 3,500 and Owner's Investments 95,000.\n\nThe debit column total and the credit column total are each 1,32,000.",
+      "rubric": [
+        {
+          "point": "Debit: assets, expenses, receivables",
+          "source_ref": "far--4-co3-journal-ledger-tb#16"
+        },
+        {
+          "point": "Credit: liabilities, revenues, payables",
+          "source_ref": "far--4-co3-journal-ledger-tb#16"
+        },
+        {
+          "point": "Examples from practice question 1",
+          "source_ref": "far--4-co3-journal-ledger-tb#20"
+        },
+        {
+          "point": "Totals 1,32,000 each",
+          "source_ref": "far--4-co3-journal-ledger-tb#20"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "differentiate",
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#16",
+        "far--4-co3-journal-ledger-tb#20"
+      ],
+      "derived": [
+        "1,32,000",
+        "1,360",
+        "132000",
+        "1360",
+        "2,00,000",
+        "2,25,000",
+        "20,000",
+        "20000",
+        "200000",
+        "225000",
+        "25,000",
+        "25000",
+        "30,000",
+        "30000",
+        "5,000",
+        "5000",
+        "6,000",
+        "6,969",
+        "6000",
+        "65,000",
+        "65000",
+        "6969",
+        "8,13,050",
+        "813050",
+        "99,000",
+        "99000"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-trial-balance-q-b04de0bc",
+      "type": "long",
+      "stem": "Explain the meaning, objectives and preparation of a trial balance, and show the practice 1 totals.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "A **trial balance** is a statement that shows the balances of all the accounts in the ledger, prepared to verify the arithmetical accuracy of posting. It shows the final position of all accounts, so the accountant does not have to go through the whole ledger.\n\n**Objectives:** to ascertain arithmetical accuracy, to help in locating errors, and to help in preparing the financial statements (Profit & Loss account and Balance Sheet).\n\n**Steps:** ascertain each balance; list each account in the debit or credit column; total both; verify that they are equal. If they do not tally there are errors. Assets, expenses and receivables are debits; liabilities, revenues and payables are credits.\n\n**Illustration (practice 1):** debits include Machinery 25,000, Equipments 40,000, Sundry Debtors 12,000 and Drawings 3,500; credits include Owner's Investments 95,000 and Bank Loan 14,000. Each column totals 1,32,000.\n\nA tallying trial balance supports accuracy but the totals must agree.",
+      "rubric": [
+        {
+          "point": "Meaning of trial balance",
+          "source_ref": "far--4-co3-journal-ledger-tb#15"
+        },
+        {
+          "point": "Three objectives",
+          "source_ref": "far--4-co3-journal-ledger-tb#17"
+        },
+        {
+          "point": "Five steps",
+          "source_ref": "far--4-co3-journal-ledger-tb#16"
+        },
+        {
+          "point": "Debit and credit rule",
+          "source_ref": "far--4-co3-journal-ledger-tb#16"
+        },
+        {
+          "point": "Practice 1 totals 1,32,000",
+          "source_ref": "far--4-co3-journal-ledger-tb#20"
+        }
+      ],
+      "marks": 10.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#15",
+        "far--4-co3-journal-ledger-tb#16",
+        "far--4-co3-journal-ledger-tb#17",
+        "far--4-co3-journal-ledger-tb#20"
+      ],
+      "derived": [
+        "1,32,000",
+        "1,360",
+        "132000",
+        "1360",
+        "2,00,000",
+        "2,25,000",
+        "20,000",
+        "20000",
+        "200000",
+        "225000",
+        "25,000",
+        "25000",
+        "30,000",
+        "30000",
+        "5,000",
+        "5000",
+        "6,000",
+        "6,969",
+        "6000",
+        "65,000",
+        "65000",
+        "6969",
+        "8,13,050",
+        "813050",
+        "99,000",
+        "99000"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-jl-trial-balance-q-da6436a0",
+      "type": "long",
+      "stem": "Prepare a trial balance for M/s Metro Corp. from the balances given and state the total.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Assets, expenses and drawings go in the debit column; capital, sales, liabilities and income go in the credit column.\n\n**Debit:** Drawings 74,800; Purchases 2,95,700; Stock (1.04.2011) 30,000; Bills receivable 52,500; Furniture 33,000; Discount allowed 950; Rent 72,500; Freight 3,500; Printing charges 1,500; Insurance 2,700; Sundry expenses 21,000; Income tax 9,500; Machinery 2,15,400. Total **8,13,050**.\n\n**Credit:** Capital 2,50,000; Sales 3,35,350; Sundry creditors 75,000; Discount received 1,000; Bank loan 1,20,000; Bills payable 31,700. Total **8,13,050**.\n\nThe columns tally at 8,13,050. The closing stock of 17,000 on 31.03.2012 is not part of this total.",
+      "rubric": [
+        {
+          "point": "Debit balances listed correctly",
+          "source_ref": "far--4-co3-journal-ledger-tb#22"
+        },
+        {
+          "point": "Credit balances listed correctly",
+          "source_ref": "far--4-co3-journal-ledger-tb#22"
+        },
+        {
+          "point": "Debit total 8,13,050",
+          "source_ref": "far--4-co3-journal-ledger-tb#22"
+        },
+        {
+          "point": "Credit total 8,13,050 and tallies",
+          "source_ref": "far--4-co3-journal-ledger-tb#22"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 3,
+      "style_tag": "numerical",
+      "source_refs": [
+        "far--4-co3-journal-ledger-tb#22",
+        "far--4-co3-journal-ledger-tb#16"
+      ],
+      "derived": [
+        "1,32,000",
+        "1,360",
+        "132000",
+        "1360",
+        "2,00,000",
+        "2,25,000",
+        "20,000",
+        "20000",
+        "200000",
+        "225000",
+        "25,000",
+        "25000",
+        "30,000",
+        "30000",
+        "5,000",
+        "5000",
+        "6,000",
+        "6,969",
+        "6000",
+        "65,000",
+        "65000",
+        "6969",
+        "8,13,050",
+        "813050",
+        "99,000",
+        "99000"
+      ],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "explain_back": {
+    "prompt": "Explain what a trial balance is, why it is prepared and the steps to prepare one.",
+    "rubric": [
+      {
+        "point": "Statement of the balances of all ledger accounts",
+        "source_ref": "far--4-co3-journal-ledger-tb#15"
+      },
+      {
+        "point": "Verifies arithmetical accuracy, helps locate errors, helps prepare the final statements",
+        "source_ref": "far--4-co3-journal-ledger-tb#17"
+      },
+      {
+        "point": "Steps: ascertain balances, list in debit or credit column, total both, verify they are equal",
+        "source_ref": "far--4-co3-journal-ledger-tb#16"
+      },
+      {
+        "point": "Assets, expenses, receivables debit; liabilities, revenues, payables credit",
+        "source_ref": "far--4-co3-journal-ledger-tb#16"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

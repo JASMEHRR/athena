@@ -1,0 +1,916 @@
+{
+  "id": "far-cfw-recognition",
+  "subject_id": "far",
+  "deck_id": "far--reading-1-conceptual-framework",
+  "title": "Recognition: the process and the criteria",
+  "order": 10,
+  "summary": "How recognition links the statements, why not every element that meets a definition is recognised, and how relevance, faithful representation and cost decide.",
+  "est_minutes": 35,
+  "difficulty": 3,
+  "source_refs": [
+    "far--reading-1-conceptual-framework#40",
+    "far--reading-1-conceptual-framework#41",
+    "far--reading-1-conceptual-framework#42",
+    "far--reading-1-conceptual-framework#43",
+    "far--reading-1-conceptual-framework#44",
+    "far--reading-1-conceptual-framework#45"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "far-cfw-recognition-c1",
+      "heading": "The recognition process and how it links the statements",
+      "explanation_md": "**Recognition** is the process of capturing, for inclusion in the statement of financial position or the statement(s) of financial performance, an item that **meets the definition of an element**: an asset, liability, equity, income or expense. The item is shown **in words and with a monetary amount**, and included in the statement's totals. The amount at which an asset, liability or equity is recognised in the statement of financial position is its **carrying amount**.\n\nThe two statements are **structured summaries** designed to make information **comparable and understandable**. Amounts recognised are included in totals and subtotals that link the items.\n\n**How recognition links the elements (Diagram 5.1):**\n\n- In the statement of financial position at the start and the end of the period, **total assets minus total liabilities equal total equity**.\n- The **change in equity** during the period is **income minus expenses**, plus **contributions from equity holders** minus **distributions to them**.\n\nThe statements are linked because recognising one item (or a change in its carrying amount) requires recognising or derecognising other items.\n\n- **Income** is recognised at the same time as **recognising an asset (or increasing its carrying amount)**, or **derecognising a liability (or reducing it)**.\n- **Expenses** are recognised at the same time as **recognising a liability (or increasing it)**, or **derecognising an asset (or reducing it)**.\n\n**Example:** a **sale of goods for cash** recognises both **income** (from recognising the cash asset) and an **expense** (from derecognising the goods sold). This simultaneous recognition is sometimes called **matching of costs with income**. The concepts lead to such matching when it arises from changes in assets and liabilities, but **matching is not an objective** of the Framework, and the Framework **does not allow** recognising in the statement of financial position items that are not assets, liabilities or equity.",
+      "example_ids": [
+        "far-ex-sale-for-cash"
+      ],
+      "key_terms": [
+        {
+          "term": "Recognition",
+          "meaning": "Capturing for inclusion in a statement an item that meets the definition of an element, shown in words and a monetary amount and included in the totals.",
+          "source_ref": "far--reading-1-conceptual-framework#40"
+        },
+        {
+          "term": "Carrying amount",
+          "meaning": "The amount at which an asset, liability or equity is recognised in the statement of financial position.",
+          "source_ref": "far--reading-1-conceptual-framework#40"
+        }
+      ],
+      "exam_line": "Recognition links the elements: assets minus liabilities equal equity; change in equity is income minus expenses plus contributions minus distributions. A sale for cash recognises income and an expense together. Matching is not an objective.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "far-cfw-recognition-q-a59ba013",
+          "type": "mcq",
+          "stem": "What is the carrying amount?",
+          "options": [
+            "The amount at which an asset, liability or equity is recognised in the statement of financial position",
+            "The cash price only",
+            "The amount of income for the period",
+            "The market price"
+          ],
+          "answer": "The amount at which an asset, liability or equity is recognised in the statement of financial position",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--reading-1-conceptual-framework#40"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-cfw-recognition-q-828553ab",
+          "type": "mcq",
+          "stem": "A sale of goods for cash recognises:",
+          "options": [
+            "Income (the cash asset) and an expense (the goods derecognised)",
+            "Only income",
+            "Only an expense",
+            "A liability"
+          ],
+          "answer": "Income (the cash asset) and an expense (the goods derecognised)",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--reading-1-conceptual-framework#41"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-cfw-recognition-q-d3fee2c5",
+          "type": "true_false",
+          "stem": "Matching of costs with income is an objective of the Conceptual Framework.",
+          "options": [],
+          "answer": "False",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--reading-1-conceptual-framework#41"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "far--reading-1-conceptual-framework#40",
+        "far--reading-1-conceptual-framework#41"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cfw-recognition-c2",
+      "heading": "Recognition criteria: definition is necessary but not enough",
+      "explanation_md": "Only items that meet the **definition** of an asset, liability or equity are recognised in the statement of financial position, and only items meeting the definition of income or expenses in the statement(s) of financial performance. But **not every item that meets a definition is recognised**.\n\n- **Not recognising** an item that meets a definition makes the statements **less complete** and can leave out useful information.\n- But recognising some items would **not provide useful information**.\n\nAn asset or liability is recognised **only if** recognition, and of any resulting income, expenses or changes in equity, gives users useful information, that is:\n\n(a) **relevant** information, and\n(b) a **faithful representation**.\n\n**Cost constrains recognition too.** Preparers incur costs to obtain a relevant measure, and users incur costs of analysing it. An item is recognised if the **benefits are likely to justify the costs**. It is **not possible to define precisely** when recognition gives useful information at acceptable cost, so **judgement** is needed and requirements may vary between and within Standards.\n\n**Consider the alternative.** If no asset is recognised when expenditure is incurred, an **expense** is recognised. Over time this may itself give useful information, such as trends.\n\nEven if an item is **not recognised**, the entity may need to give information about it in the **notes**, made visible enough to make up for its absence from the structured summaries.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "An item that meets a definition is recognised only if recognition gives relevant information and a faithful representation, at a cost justified by the benefits. Unrecognised items may be disclosed in the notes.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "far-cfw-recognition-q-09bd885c",
+          "type": "mcq",
+          "stem": "When is an asset or liability recognised?",
+          "options": [
+            "Only if recognition provides relevant information and a faithful representation, with benefits justifying costs",
+            "Whenever it meets the definition",
+            "Only if it is certain",
+            "Only if it is legally enforceable"
+          ],
+          "answer": "Only if recognition provides relevant information and a faithful representation, with benefits justifying costs",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--reading-1-conceptual-framework#41",
+            "far--reading-1-conceptual-framework#42"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-cfw-recognition-q-e032a65d",
+          "type": "true_false",
+          "stem": "Every item that meets the definition of an element must be recognised.",
+          "options": [],
+          "answer": "False",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--reading-1-conceptual-framework#41"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-cfw-recognition-q-ad44c8e6",
+          "type": "true_false",
+          "stem": "If no asset is recognised when expenditure is incurred, an expense is recognised.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--reading-1-conceptual-framework#42"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "far--reading-1-conceptual-framework#41",
+        "far--reading-1-conceptual-framework#42"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cfw-recognition-c3",
+      "heading": "Recognition and relevance: uncertain existence and low probability",
+      "explanation_md": "Information about the elements is relevant, but **recognising a particular asset or liability** may not always be relevant, for example if:\n\n(a) it is **uncertain whether** the asset or liability **exists**; or\n(b) it exists but the **probability of an inflow or outflow** of benefits is **low**.\n\nThese factors do **not automatically** mean recognition lacks relevance. Other factors may matter, and it may be a **combination** of factors that decides.\n\n**Existence uncertainty.** If it is unclear whether the asset or liability exists, combined perhaps with a low probability and an **exceptionally wide range of outcomes**, recognition at a **single amount** may not give relevant information. Either way, **explanatory information** about the uncertainties may need to be given.\n\n**Low probability.** An asset or liability can exist even if the probability of benefits is low. Then the most relevant information may be about the **magnitude, timing and the factors affecting probability** of possible flows, usually in the **notes**.\n\nBut recognition may still be relevant. For example, (a) if the item was acquired or incurred in an **exchange on market terms**, its **cost reflects the probability** and is generally readily available; not recognising it would **create an expense or income at exchange**, which might not be a faithful representation. (b) If it arises from an event that is **not an exchange**, recognising it usually creates income or expenses, and with a low probability users may not find recognising the asset and income (or liability and expense) relevant.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "Recognition may lack relevance when existence is uncertain or the probability of flows is low, but not automatically; the notes may give the magnitude and timing instead.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "far-cfw-recognition-q-e8e75dd6",
+          "type": "mcq",
+          "stem": "Where is information about an asset or liability with a low probability of inflow or outflow typically given?",
+          "options": [
+            "In the notes",
+            "In the statement of financial position at a single amount",
+            "In the cost constraint",
+            "It is never given"
+          ],
+          "answer": "In the notes",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--reading-1-conceptual-framework#43"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-cfw-recognition-q-096a5e87",
+          "type": "true_false",
+          "stem": "Existence uncertainty or low probability automatically means recognition lacks relevance.",
+          "options": [],
+          "answer": "False",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--reading-1-conceptual-framework#43"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-cfw-recognition-q-1511d369",
+          "type": "mcq",
+          "stem": "For an item acquired in an exchange on market terms, why may recognition still be relevant even with a low probability?",
+          "options": [
+            "Its cost reflects the probability and not recognising it would create an expense or income at exchange",
+            "Because cost is irrelevant",
+            "Because exchanges are always certain",
+            "Because it is verifiable"
+          ],
+          "answer": "Its cost reflects the probability and not recognising it would create an expense or income at exchange",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--reading-1-conceptual-framework#43"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "far--reading-1-conceptual-framework#42",
+        "far--reading-1-conceptual-framework#43"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cfw-recognition-c4",
+      "heading": "Recognition and faithful representation: measurement uncertainty",
+      "explanation_md": "Recognition is appropriate if it gives not only relevant information but also a **faithful representation**. That can be affected by the level of **measurement uncertainty** and other factors.\n\n**Measurement uncertainty.** To be recognised an item must be **measured**, often by an estimate. Reasonable estimates are essential and do not undermine usefulness if clearly described and explained. **Even a high level of uncertainty does not necessarily prevent** an estimate being useful.\n\nIn some cases it may be so high that it is questionable whether the estimate is faithful enough. This could be when the only way of estimating is a **cash-flow-based technique** and also:\n\n(a) the **range of possible outcomes is exceptionally wide** and the probability of each is exceptionally hard to estimate;\n(b) the measure is **exceptionally sensitive to small changes** in probability estimates (for example a very low probability of an exceptionally high flow); or\n(c) the measurement needs **exceptionally difficult or subjective allocations** of cash flows that do not relate only to the item.\n\nThen the most useful information may be the **uncertain measure with a description and explanation**, especially if it is the most relevant measure. Or it may be a **different measure, slightly less relevant but less uncertain**. In limited circumstances **all available measures** may be so uncertain that none gives useful information; then the item is **not recognised**. Whether or not it is recognised, explanatory information about uncertainty over its **existence, measurement or outcome** may be needed.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "High measurement uncertainty does not automatically stop recognition; in limited circumstances, if no measure gives useful information even with explanation, the item is not recognised.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "far-cfw-recognition-q-c1b406c4",
+          "type": "mcq",
+          "stem": "When would an asset or liability not be recognised because of measurement uncertainty?",
+          "options": [
+            "When all available measures are so uncertain that none gives useful information",
+            "Whenever an estimate is needed",
+            "Whenever the amount is small",
+            "Whenever an auditor disagrees"
+          ],
+          "answer": "When all available measures are so uncertain that none gives useful information",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--reading-1-conceptual-framework#45",
+            "far--reading-1-conceptual-framework#44"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-cfw-recognition-q-fa9b638e",
+          "type": "true_false",
+          "stem": "Even a high level of measurement uncertainty does not necessarily prevent an estimate from providing useful information.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--reading-1-conceptual-framework#44"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-cfw-recognition-q-f548ac08",
+          "type": "mcq",
+          "stem": "Which is a circumstance of very high measurement uncertainty?",
+          "options": [
+            "An exceptionally wide range of possible outcomes that are hard to assign probabilities to",
+            "A price observed in an active market",
+            "A small estimate",
+            "A cash payment"
+          ],
+          "answer": "An exceptionally wide range of possible outcomes that are hard to assign probabilities to",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--reading-1-conceptual-framework#44"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "far--reading-1-conceptual-framework#44",
+        "far--reading-1-conceptual-framework#45"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cfw-recognition-c5",
+      "heading": "Other factors in faithful representation",
+      "explanation_md": "A faithful representation of a recognised item involves not only recognising it but also its **measurement, presentation and disclosure**. So when judging whether recognition gives a faithful representation, look beyond the description and measurement in the statement of financial position to:\n\n(a) **The resulting income, expenses and changes in equity.** If an entity acquires an asset for consideration and does **not recognise the asset**, it recognises **expenses**, reducing profit and equity. If the entity does not consume the asset immediately, that could wrongly suggest its **financial position has got worse**.\n(b) **Whether related assets and liabilities are recognised.** If not, recognition may create a **recognition inconsistency (accounting mismatch)** which may not give an understandable or faithful picture of the overall effect, even with notes.\n(c) **Presentation and disclosure.** A complete depiction includes all the descriptions and explanations users need, so disclosure can enable a recognised amount to be part of a faithful representation.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Accounting mismatch",
+          "meaning": "A recognition inconsistency that arises when related assets and liabilities are not both recognised.",
+          "source_ref": "far--reading-1-conceptual-framework#45"
+        }
+      ],
+      "exam_line": "Faithful representation in recognition depends on the resulting income and expenses, whether related assets and liabilities are recognised (avoiding accounting mismatch), and presentation and disclosure.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "far-cfw-recognition-q-6f126aa2",
+          "type": "mcq",
+          "stem": "What can happen if an acquired asset is not recognised?",
+          "options": [
+            "Expenses are recognised, reducing profit and equity, which may wrongly suggest financial position has deteriorated",
+            "Income is recognised",
+            "Equity increases",
+            "Liabilities disappear"
+          ],
+          "answer": "Expenses are recognised, reducing profit and equity, which may wrongly suggest financial position has deteriorated",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--reading-1-conceptual-framework#45"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-cfw-recognition-q-5715cd30",
+          "type": "fill",
+          "stem": "A recognition inconsistency is also called an accounting ____.",
+          "options": [],
+          "answer": "mismatch",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--reading-1-conceptual-framework#45"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "far--reading-1-conceptual-framework#45"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "far-cfw-recognition-f1",
+      "front": "Recognition",
+      "back": "Capturing in a statement an item that meets an element's definition, in words and an amount, included in totals.",
+      "kind": "term",
+      "source_refs": [
+        "far--reading-1-conceptual-framework#40"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cfw-recognition-f2",
+      "front": "Carrying amount",
+      "back": "Amount at which an asset, liability or equity is recognised in the statement of financial position.",
+      "kind": "term",
+      "source_refs": [
+        "far--reading-1-conceptual-framework#40"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cfw-recognition-f3",
+      "front": "How recognition links the statements",
+      "back": "Assets minus liabilities equal equity; change in equity is income minus expenses plus contributions minus distributions.",
+      "kind": "formula",
+      "source_refs": [
+        "far--reading-1-conceptual-framework#40",
+        "far--reading-1-conceptual-framework#41"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cfw-recognition-f4",
+      "front": "Sale of goods for cash",
+      "back": "Recognises income (cash asset) and an expense (goods derecognised) together.",
+      "kind": "example",
+      "source_refs": [
+        "far--reading-1-conceptual-framework#41"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cfw-recognition-f5",
+      "front": "Matching",
+      "back": "Simultaneous recognition of income and related expenses; not an objective of the Framework.",
+      "kind": "fact",
+      "source_refs": [
+        "far--reading-1-conceptual-framework#41"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cfw-recognition-f6",
+      "front": "Recognition criteria",
+      "back": "Recognise an asset or liability only if it gives relevant information and a faithful representation, with benefits justifying costs.",
+      "kind": "list",
+      "source_refs": [
+        "far--reading-1-conceptual-framework#41",
+        "far--reading-1-conceptual-framework#42"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cfw-recognition-f7",
+      "front": "Factors that may reduce relevance of recognition",
+      "back": "Uncertain existence; low probability of inflow or outflow.",
+      "kind": "list",
+      "source_refs": [
+        "far--reading-1-conceptual-framework#42",
+        "far--reading-1-conceptual-framework#43"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cfw-recognition-f8",
+      "front": "Measurement uncertainty and recognition",
+      "back": "High uncertainty does not necessarily prevent recognition; if no measure is useful the item is not recognised.",
+      "kind": "fact",
+      "source_refs": [
+        "far--reading-1-conceptual-framework#44",
+        "far--reading-1-conceptual-framework#45"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cfw-recognition-f9",
+      "front": "Accounting mismatch",
+      "back": "Recognition inconsistency when related assets and liabilities are not both recognised.",
+      "kind": "term",
+      "source_refs": [
+        "far--reading-1-conceptual-framework#45"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [
+    {
+      "id": "far-cfw-recognition-q-5a8c325b",
+      "type": "mcq",
+      "stem": "Which is the correct statement about recognition?",
+      "options": [
+        "Not every item that meets the definition of an element is recognised",
+        "Every item meeting a definition must be recognised",
+        "Only assets are recognised",
+        "Recognition ignores cost"
+      ],
+      "answer": "Not every item that meets the definition of an element is recognised",
+      "accept": [],
+      "explanation": "Recognition must give relevant information and a faithful representation, within cost.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "explain",
+      "source_refs": [
+        "far--reading-1-conceptual-framework#41",
+        "far--reading-1-conceptual-framework#42"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cfw-recognition-q-f5fc8d43",
+      "type": "mcq",
+      "stem": "Recognition of income occurs at the same time as:",
+      "options": [
+        "Recognising an asset or derecognising a liability",
+        "Recognising a liability only",
+        "Derecognising equity",
+        "Recognising treasury shares"
+      ],
+      "answer": "Recognising an asset or derecognising a liability",
+      "accept": [],
+      "explanation": "Income arises from an increase in assets or decrease in liabilities.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "far--reading-1-conceptual-framework#40"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cfw-recognition-q-fbf70ed5",
+      "type": "mcq",
+      "stem": "If no asset is recognised when expenditure is incurred, what is recognised instead?",
+      "options": [
+        "An expense",
+        "Income",
+        "Equity",
+        "A liability"
+      ],
+      "answer": "An expense",
+      "accept": [],
+      "explanation": "Over time the expense may itself give useful trend information.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "far--reading-1-conceptual-framework#42"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cfw-recognition-q-701bcfa2",
+      "type": "mcq",
+      "stem": "Matching of costs with income is:",
+      "options": [
+        "Not an objective of the Framework",
+        "The main objective of the Framework",
+        "Required for every item",
+        "The same as faithful representation"
+      ],
+      "answer": "Not an objective of the Framework",
+      "accept": [],
+      "explanation": "It can happen as a result of recognising changes in assets and liabilities, but is not an objective.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "far--reading-1-conceptual-framework#41"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cfw-recognition-q-e87e0e68",
+      "type": "mcq",
+      "stem": "Under what condition does measurement uncertainty lead to an item not being recognised?",
+      "options": [
+        "When all available measures are so uncertain that none gives useful information",
+        "Whenever any estimate is used",
+        "Whenever there is outcome uncertainty",
+        "Whenever the amount is small"
+      ],
+      "answer": "When all available measures are so uncertain that none gives useful information",
+      "accept": [],
+      "explanation": "A high level of uncertainty does not by itself prevent recognition.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 3,
+      "style_tag": "explain",
+      "source_refs": [
+        "far--reading-1-conceptual-framework#44",
+        "far--reading-1-conceptual-framework#45"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cfw-recognition-q-950ada8a",
+      "type": "short",
+      "stem": "Define recognition and explain how recognition links the statement of financial position and the statements of financial performance.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Recognition** is capturing, for inclusion in the statement of financial position or the statement(s) of financial performance, an item that **meets the definition of an element**, depicted in words and a monetary amount and included in the totals.\n\nIt links the statements: at the start and end of the period **assets minus liabilities equal equity**, and the **change in equity** is income minus expenses plus contributions minus distributions. Recognising one item requires recognising or derecognising others: **income** goes with an asset recognised or a liability derecognised; **expenses** go with a liability recognised or an asset derecognised.\n\nExample: a sale of goods for cash recognises income (the cash) and an expense (the goods derecognised).",
+      "rubric": [
+        {
+          "point": "Definition of recognition",
+          "source_ref": "far--reading-1-conceptual-framework#40"
+        },
+        {
+          "point": "Assets minus liabilities equal equity",
+          "source_ref": "far--reading-1-conceptual-framework#40"
+        },
+        {
+          "point": "Change in equity formula",
+          "source_ref": "far--reading-1-conceptual-framework#40"
+        },
+        {
+          "point": "Income and expenses paired with asset and liability changes; sale example",
+          "source_ref": "far--reading-1-conceptual-framework#41"
+        }
+      ],
+      "marks": 5.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "far--reading-1-conceptual-framework#40",
+        "far--reading-1-conceptual-framework#41"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cfw-recognition-q-688418ec",
+      "type": "short",
+      "stem": "Explain the recognition criteria for assets and liabilities.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Only items meeting the **definition** of an element are recognised, but **not all** are. An asset or liability is recognised only if recognition, and of any resulting income, expenses or changes in equity, provides users with:\n\n- **relevant** information; and\n- a **faithful representation**.\n\nRecognition is also constrained by **cost**: the benefits to users must be likely to justify the costs of providing and using the information. Judgement is needed, so requirements may vary between and within Standards. Unrecognised items may still need to be disclosed in the notes.",
+      "rubric": [
+        {
+          "point": "Definition is necessary but not enough",
+          "source_ref": "far--reading-1-conceptual-framework#41"
+        },
+        {
+          "point": "Relevant information",
+          "source_ref": "far--reading-1-conceptual-framework#42"
+        },
+        {
+          "point": "Faithful representation",
+          "source_ref": "far--reading-1-conceptual-framework#42"
+        },
+        {
+          "point": "Cost constraint; notes for unrecognised items",
+          "source_ref": "far--reading-1-conceptual-framework#42"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "far--reading-1-conceptual-framework#41",
+        "far--reading-1-conceptual-framework#42"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cfw-recognition-q-f98442ec",
+      "type": "short",
+      "stem": "Why might recognition of an asset or liability not provide relevant information? Give the two factors named in the Framework.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Recognition may not give relevant information if:\n\n(a) it is **uncertain whether the asset or liability exists**; or\n(b) it exists but the **probability of an inflow or outflow** of economic benefits is **low**.\n\nThese do **not automatically** mean it lacks relevance; a combination of factors may decide. With a low probability the most relevant information may be about the **magnitude, timing and factors affecting the probability** of the flows, usually in the **notes**. But recognition may still be relevant, for example when the item was acquired in an exchange on market terms, because its cost reflects the probability and not recognising it would create an expense or income at the exchange.",
+      "rubric": [
+        {
+          "point": "Uncertain existence",
+          "source_ref": "far--reading-1-conceptual-framework#42"
+        },
+        {
+          "point": "Low probability of inflow or outflow",
+          "source_ref": "far--reading-1-conceptual-framework#42"
+        },
+        {
+          "point": "Not automatic; combination of factors",
+          "source_ref": "far--reading-1-conceptual-framework#43"
+        },
+        {
+          "point": "Information in the notes; market-terms exchange example",
+          "source_ref": "far--reading-1-conceptual-framework#43"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 3,
+      "style_tag": "explain",
+      "source_refs": [
+        "far--reading-1-conceptual-framework#42",
+        "far--reading-1-conceptual-framework#43"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cfw-recognition-q-43e6348e",
+      "type": "long",
+      "stem": "Discuss the recognition criteria in the Conceptual Framework with reference to relevance and faithful representation.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Recognition** captures an item meeting the definition of an element in a statement, shown in words and a monetary amount. Only items meeting the definition are recognised, but not all of them: recognising some items would not give useful information.\n\nAn asset or liability is recognised only if it gives **relevant information** and a **faithful representation**, within the **cost constraint**.\n\n**Relevance.** Recognition may not be relevant if (a) it is uncertain whether the asset or liability exists, or (b) it exists but the probability of an inflow or outflow is low. Neither automatically rules out relevance. With a low probability, the most relevant information may be the magnitude, timing and factors affecting probability, usually in the notes. Yet if the item was acquired in an exchange on market terms, its cost reflects the probability and not recognising it would create an expense or income at exchange, which may not be faithful.\n\n**Faithful representation.** Measurement uncertainty matters. Reasonable estimates do not undermine usefulness if explained. Uncertainty may be so high (for example an exceptionally wide range of outcomes, extreme sensitivity to small changes in probabilities, or very subjective allocations) that the best information is an explained estimate or a different, less relevant but less uncertain measure; in limited cases none is useful and the item is not recognised. Faithful representation also depends on the resulting income and expenses, on whether related assets and liabilities are recognised (avoiding an accounting mismatch), and on presentation and disclosure.\n\n**Cost.** The benefits must justify the costs for preparers and users.",
+      "rubric": [
+        {
+          "point": "Definition necessary but not sufficient",
+          "source_ref": "far--reading-1-conceptual-framework#41"
+        },
+        {
+          "point": "Relevance factors: existence uncertainty and low probability",
+          "source_ref": "far--reading-1-conceptual-framework#43"
+        },
+        {
+          "point": "Measurement uncertainty and faithful representation",
+          "source_ref": "far--reading-1-conceptual-framework#44"
+        },
+        {
+          "point": "Other factors: income and expenses, mismatch, disclosure",
+          "source_ref": "far--reading-1-conceptual-framework#45"
+        },
+        {
+          "point": "Cost constraint and judgement",
+          "source_ref": "far--reading-1-conceptual-framework#42"
+        }
+      ],
+      "marks": 10.0,
+      "difficulty": 3,
+      "style_tag": "explain",
+      "source_refs": [
+        "far--reading-1-conceptual-framework#41",
+        "far--reading-1-conceptual-framework#42",
+        "far--reading-1-conceptual-framework#43",
+        "far--reading-1-conceptual-framework#44",
+        "far--reading-1-conceptual-framework#45"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cfw-recognition-q-e61a4ce5",
+      "type": "long",
+      "stem": "Explain the role of measurement uncertainty in recognition, including the circumstances in which uncertainty is so high that recognition may be questionable.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "To be recognised an asset or liability must be **measured**, often by an estimate, so **measurement uncertainty** arises. The use of **reasonable estimates** is essential and does not undermine usefulness if they are **clearly and accurately described and explained**; even a high level does not necessarily prevent useful information.\n\nIt may be so high that it is questionable whether the estimate is a sufficiently faithful representation. This may be so if the only way to estimate the measure is a **cash-flow-based technique** and also: (a) the **range of possible outcomes is exceptionally wide** and the probability of each exceptionally hard to estimate; (b) the measure is **exceptionally sensitive to small changes** in probability estimates; or (c) measuring requires **exceptionally difficult or subjective allocations** of cash flows.\n\nIn such cases the most useful information may be the estimate with a **description and explanation of the uncertainties**, or a **different measure that is slightly less relevant but less uncertain**. In limited circumstances all available measures are so uncertain that none gives useful information and the item is **not recognised**. Explanatory information about uncertainty over existence, measurement or outcome may be needed either way.",
+      "rubric": [
+        {
+          "point": "Reasonable estimates do not undermine usefulness if explained",
+          "source_ref": "far--reading-1-conceptual-framework#44"
+        },
+        {
+          "point": "Circumstances of very high uncertainty",
+          "source_ref": "far--reading-1-conceptual-framework#44"
+        },
+        {
+          "point": "Options: explained estimate or different measure",
+          "source_ref": "far--reading-1-conceptual-framework#44"
+        },
+        {
+          "point": "No recognition in limited circumstances; explanatory information",
+          "source_ref": "far--reading-1-conceptual-framework#45"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 3,
+      "style_tag": "explain",
+      "source_refs": [
+        "far--reading-1-conceptual-framework#44",
+        "far--reading-1-conceptual-framework#45"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "explain_back": {
+    "prompt": "Explain the recognition criteria in the Conceptual Framework.",
+    "rubric": [
+      {
+        "point": "Only items meeting an element's definition are recognised, but not all of them are",
+        "source_ref": "far--reading-1-conceptual-framework#41"
+      },
+      {
+        "point": "Recognise if it gives relevant information and a faithful representation",
+        "source_ref": "far--reading-1-conceptual-framework#42"
+      },
+      {
+        "point": "Uncertain existence and low probability may affect relevance; measurement uncertainty may affect faithful representation",
+        "source_ref": "far--reading-1-conceptual-framework#43"
+      },
+      {
+        "point": "Cost constrains recognition: benefits must justify costs",
+        "source_ref": "far--reading-1-conceptual-framework#42"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

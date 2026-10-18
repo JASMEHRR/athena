@@ -1,0 +1,638 @@
+{
+  "id": "far-cyc-cycle",
+  "subject_id": "far",
+  "deck_id": "far--accounting-cycle-and-golden-rules",
+  "title": "The accounting cycle: eight steps that repeat",
+  "order": 1,
+  "summary": "What the accounting cycle is, its eight steps in order, and why it starts with a transaction and ends with closed books.",
+  "est_minutes": 12,
+  "difficulty": 1,
+  "source_refs": [
+    "far--accounting-cycle-and-golden-rules#3",
+    "far--accounting-cycle-and-golden-rules#4"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "far-cyc-cycle-c1",
+      "heading": "What the accounting cycle is",
+      "explanation_md": "The **accounting cycle** is the standard sequence of steps a business follows to **record transactions, summarize them, and produce financial statements**, and then reset for the next period.\n\nThree features to remember:\n\n- It **starts with a transaction**. A source document such as an invoice or receipt triggers the process.\n- It **ends with closed books**. Temporary accounts are reset to zero for the next period.\n- It **repeats every period**: monthly, quarterly or annually, the cycle never stops.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Accounting cycle",
+          "meaning": "The standard sequence of steps a business follows to record transactions, summarize them and produce financial statements, then reset for the next period.",
+          "source_ref": "far--accounting-cycle-and-golden-rules#3"
+        }
+      ],
+      "exam_line": "The accounting cycle starts with a transaction (source document), ends with closed books, and repeats every period.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "far-cyc-cycle-q-909f0dff",
+          "type": "mcq",
+          "stem": "What triggers the accounting cycle?",
+          "options": [
+            "A transaction supported by a source document such as an invoice or receipt",
+            "The preparation of financial statements",
+            "The closing of accounts",
+            "The adjusted trial balance"
+          ],
+          "answer": "A transaction supported by a source document such as an invoice or receipt",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--accounting-cycle-and-golden-rules#3",
+            "far--accounting-cycle-and-golden-rules#4"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-cyc-cycle-q-75c259ca",
+          "type": "true_false",
+          "stem": "The accounting cycle runs once and is never repeated.",
+          "options": [],
+          "answer": "False",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--accounting-cycle-and-golden-rules#3"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-cyc-cycle-q-7a4af905",
+          "type": "fill",
+          "stem": "At the end of the cycle, ____ accounts are reset to zero for the next period.",
+          "options": [],
+          "answer": "temporary",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--accounting-cycle-and-golden-rules#3"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "far--accounting-cycle-and-golden-rules#3"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cyc-cycle-c2",
+      "heading": "The eight steps in order",
+      "explanation_md": "The eight steps, in order:\n\n1. **Analyze transactions**\n2. **Journalize entries**\n3. **Post to the ledger**\n4. **Trial balance** (the unadjusted trial balance)\n5. **Adjusting entries**\n6. **Adjusted trial balance**\n7. **Financial statements**\n8. **Close accounts** and prepare the post-closing balance\n\nSteps 1 to 8 repeat every accounting period. **Step 8 resets the temporary accounts** so the cycle can begin again.\n\nA memory aid: first you analyze, journalize and post (steps 1 to 3); then you check with a trial balance (4); then you adjust and check again (5 and 6); then you report (7) and close (8).",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "Eight steps: analyze, journalize, post to ledger, trial balance, adjusting entries, adjusted trial balance, financial statements, close.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "far-cyc-cycle-q-f6ae32b9",
+          "type": "mcq",
+          "stem": "Which step comes immediately after posting to the ledger?",
+          "options": [
+            "Trial balance",
+            "Journalize entries",
+            "Adjusting entries",
+            "Financial statements"
+          ],
+          "answer": "Trial balance",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--accounting-cycle-and-golden-rules#3",
+            "far--accounting-cycle-and-golden-rules#4"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-cyc-cycle-q-b6d298f9",
+          "type": "mcq",
+          "stem": "Which step is step 7 of the cycle?",
+          "options": [
+            "Financial statements",
+            "Adjusted trial balance",
+            "Close accounts",
+            "Adjusting entries"
+          ],
+          "answer": "Financial statements",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--accounting-cycle-and-golden-rules#3",
+            "far--accounting-cycle-and-golden-rules#4"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-cyc-cycle-q-83304c54",
+          "type": "fill",
+          "stem": "Step 5 of the accounting cycle is ____ entries.",
+          "options": [],
+          "answer": "adjusting",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--accounting-cycle-and-golden-rules#3",
+            "far--accounting-cycle-and-golden-rules#4"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-cyc-cycle-q-4fd906c0",
+          "type": "true_false",
+          "stem": "Step 8 resets temporary accounts so the cycle can begin again.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--accounting-cycle-and-golden-rules#4"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "far--accounting-cycle-and-golden-rules#3",
+        "far--accounting-cycle-and-golden-rules#4"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "far-cyc-cycle-f1",
+      "front": "Accounting cycle",
+      "back": "The standard sequence of steps from recording transactions to producing financial statements and closing, repeated every period.",
+      "kind": "term",
+      "source_refs": [
+        "far--accounting-cycle-and-golden-rules#3"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cyc-cycle-f2",
+      "front": "Eight steps of the cycle",
+      "back": "Analyze transactions, journalize, post to ledger, trial balance, adjusting entries, adjusted trial balance, financial statements, close accounts.",
+      "kind": "list",
+      "source_refs": [
+        "far--accounting-cycle-and-golden-rules#3",
+        "far--accounting-cycle-and-golden-rules#4"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cyc-cycle-f3",
+      "front": "What starts the cycle",
+      "back": "A transaction, triggered by a source document such as an invoice or receipt.",
+      "kind": "fact",
+      "source_refs": [
+        "far--accounting-cycle-and-golden-rules#3"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cyc-cycle-f4",
+      "front": "What ends the cycle",
+      "back": "Closed books: temporary accounts reset to zero for the next period.",
+      "kind": "fact",
+      "source_refs": [
+        "far--accounting-cycle-and-golden-rules#3"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cyc-cycle-f5",
+      "front": "How often the cycle repeats",
+      "back": "Every period: monthly, quarterly or annually.",
+      "kind": "fact",
+      "source_refs": [
+        "far--accounting-cycle-and-golden-rules#3"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cyc-cycle-f6",
+      "front": "Step 4 versus step 6",
+      "back": "Step 4 is the (unadjusted) trial balance; step 6 is the adjusted trial balance, after the adjusting entries of step 5.",
+      "kind": "fact",
+      "source_refs": [
+        "far--accounting-cycle-and-golden-rules#3",
+        "far--accounting-cycle-and-golden-rules#4"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [
+    {
+      "id": "far-cyc-cycle-q-7f5a6d31",
+      "type": "mcq",
+      "stem": "Which step of the accounting cycle comes between the unadjusted trial balance and the adjusted trial balance?",
+      "options": [
+        "Adjusting entries",
+        "Financial statements",
+        "Posting to the ledger",
+        "Closing accounts"
+      ],
+      "answer": "Adjusting entries",
+      "accept": [],
+      "explanation": "Step 5 sits between steps 4 and 6.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "list",
+      "source_refs": [
+        "far--accounting-cycle-and-golden-rules#3",
+        "far--accounting-cycle-and-golden-rules#4"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cyc-cycle-q-152891f6",
+      "type": "mcq",
+      "stem": "The accounting cycle begins with:",
+      "options": [
+        "Analyzing a transaction supported by a source document",
+        "Preparing the financial statements",
+        "Posting to the ledger",
+        "Closing the books"
+      ],
+      "answer": "Analyzing a transaction supported by a source document",
+      "accept": [],
+      "explanation": "A source document such as an invoice or receipt triggers the process.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "explain",
+      "source_refs": [
+        "far--accounting-cycle-and-golden-rules#3",
+        "far--accounting-cycle-and-golden-rules#4"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cyc-cycle-q-a9d3b1c9",
+      "type": "mcq",
+      "stem": "What does step 8 of the cycle achieve?",
+      "options": [
+        "Resets temporary accounts so the cycle can begin again",
+        "Records the first transaction",
+        "Produces the adjusted trial balance",
+        "Posts entries to the ledger"
+      ],
+      "answer": "Resets temporary accounts so the cycle can begin again",
+      "accept": [],
+      "explanation": "Closing resets temporary accounts to zero.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "explain",
+      "source_refs": [
+        "far--accounting-cycle-and-golden-rules#4",
+        "far--accounting-cycle-and-golden-rules#3"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cyc-cycle-q-82de5a57",
+      "type": "mcq",
+      "stem": "How often does the accounting cycle repeat?",
+      "options": [
+        "Every period: monthly, quarterly or annually",
+        "Once in the life of the business",
+        "Only at year end",
+        "Only when there is an error"
+      ],
+      "answer": "Every period: monthly, quarterly or annually",
+      "accept": [],
+      "explanation": "The slide says the cycle never stops.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "explain",
+      "source_refs": [
+        "far--accounting-cycle-and-golden-rules#3"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cyc-cycle-q-8256d2db",
+      "type": "mcq",
+      "stem": "Which is step 6 of the accounting cycle?",
+      "options": [
+        "Adjusted trial balance",
+        "Trial balance",
+        "Financial statements",
+        "Close accounts"
+      ],
+      "answer": "Adjusted trial balance",
+      "accept": [],
+      "explanation": "Step 6 follows the adjusting entries.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "list",
+      "source_refs": [
+        "far--accounting-cycle-and-golden-rules#3",
+        "far--accounting-cycle-and-golden-rules#4"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cyc-cycle-q-56530ea0",
+      "type": "short",
+      "stem": "What is the accounting cycle? Explain where it starts and ends.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The **accounting cycle** is the standard sequence of steps a business follows to record transactions, summarize them and produce financial statements, then reset for the next period.\n\nIt **starts with a transaction**, triggered by a source document such as an invoice or receipt. It **ends with closed books**, when temporary accounts are reset to zero.\n\nIt repeats every period, monthly, quarterly or annually.",
+      "rubric": [
+        {
+          "point": "Standard sequence from recording to financial statements",
+          "source_ref": "far--accounting-cycle-and-golden-rules#3"
+        },
+        {
+          "point": "Starts with a transaction and source document",
+          "source_ref": "far--accounting-cycle-and-golden-rules#3"
+        },
+        {
+          "point": "Ends with closed books, temporary accounts reset",
+          "source_ref": "far--accounting-cycle-and-golden-rules#3"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 1,
+      "style_tag": "define",
+      "source_refs": [
+        "far--accounting-cycle-and-golden-rules#3"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cyc-cycle-q-d0d0fc47",
+      "type": "short",
+      "stem": "List the eight steps of the accounting cycle in order.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "1. **Analyze transactions**\n2. **Journalize entries**\n3. **Post to the ledger**\n4. **Trial balance** (unadjusted)\n5. **Adjusting entries**\n6. **Adjusted trial balance**\n7. **Financial statements**\n8. **Close accounts** and post-closing balance\n\nThe steps repeat each period, and step 8 resets the temporary accounts.",
+      "rubric": [
+        {
+          "point": "Steps 1 to 3: analyze, journalize, post",
+          "source_ref": "far--accounting-cycle-and-golden-rules#4"
+        },
+        {
+          "point": "Step 4 trial balance",
+          "source_ref": "far--accounting-cycle-and-golden-rules#4"
+        },
+        {
+          "point": "Steps 5 and 6: adjusting entries and adjusted trial balance",
+          "source_ref": "far--accounting-cycle-and-golden-rules#4"
+        },
+        {
+          "point": "Steps 7 and 8: statements and close",
+          "source_ref": "far--accounting-cycle-and-golden-rules#4"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 1,
+      "style_tag": "list",
+      "source_refs": [
+        "far--accounting-cycle-and-golden-rules#3",
+        "far--accounting-cycle-and-golden-rules#4"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cyc-cycle-q-4820ca71",
+      "type": "short",
+      "stem": "Differentiate between the trial balance in step 4 and the adjusted trial balance in step 6.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Trial balance (step 4):** prepared after posting to the ledger and before any adjusting entries, so it is the unadjusted trial balance.\n\n**Adjusted trial balance (step 6):** prepared after the adjusting entries of step 5 have been made.\n\nThe adjusted trial balance feeds step 7, the financial statements.",
+      "rubric": [
+        {
+          "point": "Step 4 follows posting to the ledger",
+          "source_ref": "far--accounting-cycle-and-golden-rules#4"
+        },
+        {
+          "point": "Step 4 is before adjusting entries",
+          "source_ref": "far--accounting-cycle-and-golden-rules#4"
+        },
+        {
+          "point": "Step 6 follows adjusting entries (step 5)",
+          "source_ref": "far--accounting-cycle-and-golden-rules#4"
+        },
+        {
+          "point": "Step 6 comes before the financial statements",
+          "source_ref": "far--accounting-cycle-and-golden-rules#4"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "differentiate",
+      "source_refs": [
+        "far--accounting-cycle-and-golden-rules#3",
+        "far--accounting-cycle-and-golden-rules#4"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cyc-cycle-q-7fecb9ea",
+      "type": "long",
+      "stem": "Explain the accounting cycle and its eight steps, and say what makes it a cycle.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The **accounting cycle** is the standard sequence of steps used to record transactions, summarize them and produce financial statements, then reset for the next period.\n\n**The eight steps:**\n1. Analyze transactions, triggered by a source document such as an invoice or receipt.\n2. Journalize entries.\n3. Post to the ledger.\n4. Prepare the (unadjusted) trial balance.\n5. Make adjusting entries.\n6. Prepare the adjusted trial balance.\n7. Prepare the financial statements.\n8. Close accounts, leaving a post-closing balance.\n\n**Why a cycle:** step 8 resets the temporary accounts to zero so the process can begin again. It repeats every period, monthly, quarterly or annually, and never stops.\n\nSo the cycle runs from transaction to closed books and then starts again.",
+      "rubric": [
+        {
+          "point": "Definition of the accounting cycle",
+          "source_ref": "far--accounting-cycle-and-golden-rules#3"
+        },
+        {
+          "point": "Steps 1 to 4 in order",
+          "source_ref": "far--accounting-cycle-and-golden-rules#4"
+        },
+        {
+          "point": "Steps 5 to 8 in order",
+          "source_ref": "far--accounting-cycle-and-golden-rules#4"
+        },
+        {
+          "point": "Starts with a transaction, ends with closed books",
+          "source_ref": "far--accounting-cycle-and-golden-rules#3"
+        },
+        {
+          "point": "Repeats every period; step 8 resets temporary accounts",
+          "source_ref": "far--accounting-cycle-and-golden-rules#4"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "far--accounting-cycle-and-golden-rules#3",
+        "far--accounting-cycle-and-golden-rules#4"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cyc-cycle-q-1ac54cbe",
+      "type": "long",
+      "stem": "A student says 'the accounting cycle ends when the financial statements are prepared'. Do you agree? Discuss using the eight steps.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**No.** The financial statements are step 7, not the last step.\n\nStep 8 is **close accounts and post-closing balance**. It resets the temporary accounts to zero so the cycle can begin again for the next period.\n\nThe cycle therefore **ends with closed books**, not with the statements. It also repeats every period, monthly, quarterly or annually.\n\nSo the cycle runs from the first transaction, through journal, ledger, trial balance, adjustments, adjusted trial balance and financial statements, and finishes with closing.",
+      "rubric": [
+        {
+          "point": "Financial statements are step 7",
+          "source_ref": "far--accounting-cycle-and-golden-rules#4"
+        },
+        {
+          "point": "Step 8 closes accounts",
+          "source_ref": "far--accounting-cycle-and-golden-rules#4"
+        },
+        {
+          "point": "Temporary accounts reset to zero",
+          "source_ref": "far--accounting-cycle-and-golden-rules#3"
+        },
+        {
+          "point": "The cycle repeats every period",
+          "source_ref": "far--accounting-cycle-and-golden-rules#3"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 3,
+      "style_tag": "case",
+      "source_refs": [
+        "far--accounting-cycle-and-golden-rules#3",
+        "far--accounting-cycle-and-golden-rules#4"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "explain_back": {
+    "prompt": "Describe the accounting cycle and list its steps in order.",
+    "rubric": [
+      {
+        "point": "Standard sequence from recording transactions to financial statements, then reset",
+        "source_ref": "far--accounting-cycle-and-golden-rules#3"
+      },
+      {
+        "point": "Starts with a transaction and a source document",
+        "source_ref": "far--accounting-cycle-and-golden-rules#3"
+      },
+      {
+        "point": "Eight steps in the correct order",
+        "source_ref": "far--accounting-cycle-and-golden-rules#4"
+      },
+      {
+        "point": "Step 8 closes temporary accounts and the cycle repeats each period",
+        "source_ref": "far--accounting-cycle-and-golden-rules#4"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

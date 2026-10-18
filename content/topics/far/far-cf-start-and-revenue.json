@@ -1,0 +1,709 @@
+{
+  "id": "far-cf-start-and-revenue",
+  "subject_id": "far",
+  "deck_id": "far--practice-circle-films-transaction-analysis",
+  "title": "Transactions 1 to 3: shares issued, an asset swap, and revenue",
+  "order": 1,
+  "summary": "How Circle Films' first three transactions change the equation Assets = Liabilities + Equity.",
+  "est_minutes": 15,
+  "difficulty": 1,
+  "source_refs": [
+    "far--practice-circle-films-transaction-analysis#1"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "far-cf-start-and-revenue-c1",
+      "heading": "Transaction 1: shares issued for cash",
+      "explanation_md": "After incorporating, Circle Films **issues 3,000 shares of common stock to investors for ₹15,000 cash.**\n\n- Cash is received, so **assets rise by ₹15,000**.\n- Investors have contributed cash for an ownership interest, so **equity rises**. More specifically, **common stock rises by ₹15,000**.\n\nTable: Cash goes from ₹0 to ₹15,000 and Common Stock from ₹0 to ₹15,000. Assets ₹15,000 = Liabilities ₹0 + Equity ₹15,000.",
+      "example_ids": [
+        "far-ex-t1-stock"
+      ],
+      "key_terms": [
+        {
+          "term": "Common stock",
+          "meaning": "The equity account that rises when investors contribute cash for an ownership interest.",
+          "source_ref": "far--practice-circle-films-transaction-analysis#1"
+        }
+      ],
+      "exam_line": "Issuing shares for cash: assets (cash) and equity (common stock) both rise by the amount received.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "far-cf-start-and-revenue-q-4ada70e3",
+          "type": "mcq",
+          "stem": "Circle Films issues 3,000 shares for ₹15,000 cash. What happens?",
+          "options": [
+            "Cash and common stock each rise by ₹15,000",
+            "Cash rises and liabilities rise by ₹15,000",
+            "Cash rises and retained earnings rise by ₹15,000",
+            "Only assets rise"
+          ],
+          "answer": "Cash and common stock each rise by ₹15,000",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--practice-circle-films-transaction-analysis#1"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-cf-start-and-revenue-q-0a12920c",
+          "type": "fill",
+          "stem": "After transaction 1, total assets are ₹____.",
+          "options": [],
+          "answer": "15,000",
+          "accept": [
+            "15000"
+          ],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--practice-circle-films-transaction-analysis#1"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "far--practice-circle-films-transaction-analysis#1"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cf-start-and-revenue-c2",
+      "heading": "Transaction 2: exchanging one asset for others",
+      "explanation_md": "Circle Films buys a **video camera for ₹9,000** and **memory cards for ₹1,000.**\n\nThe company is **exchanging one asset (cash) for other assets (equipment and supplies)**. Assets both increase and decrease by ₹10,000, so the **net effect is no change in total assets**.\n\nTable: Cash ₹15,000 - ₹10,000 = ₹5,000; Supplies +₹1,000; Equipment +₹9,000. Total assets ₹15,000 = ₹0 + ₹15,000.",
+      "example_ids": [
+        "far-ex-t2-camera"
+      ],
+      "key_terms": [],
+      "exam_line": "An asset swap changes the mix of assets but not total assets, liabilities or equity.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "far-cf-start-and-revenue-q-d3b02b4e",
+          "type": "mcq",
+          "stem": "What is the net effect of buying the video camera and memory cards with cash on total assets?",
+          "options": [
+            "No change",
+            "Rise of ₹10,000",
+            "Fall of ₹10,000",
+            "Rise of ₹9,000"
+          ],
+          "answer": "No change",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--practice-circle-films-transaction-analysis#1"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-cf-start-and-revenue-q-1a6c8874",
+          "type": "fill",
+          "stem": "After transaction 2, the Cash balance is ₹____.",
+          "options": [],
+          "answer": "5,000",
+          "accept": [
+            "5000"
+          ],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--practice-circle-films-transaction-analysis#1"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-cf-start-and-revenue-q-74657be0",
+          "type": "true_false",
+          "stem": "In transaction 2, supplies rise by ₹1,000 and equipment by ₹9,000.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--practice-circle-films-transaction-analysis#1"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "far--practice-circle-films-transaction-analysis#1"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cf-start-and-revenue-c3",
+      "heading": "Transaction 3: revenue from filming a wedding",
+      "explanation_md": "Circle Films **receives ₹1,500 immediately after filming a customer's wedding.**\n\nCash rises, so assets increase. But unlike transaction 2, the increase comes from **providing a service**. An inflow of assets from providing a service is a **revenue**. **Revenues increase net income and therefore retained earnings**, so equity increases.\n\nTable: Cash ₹5,000 + ₹1,500 = ₹6,500; Retained Earnings ₹0 + ₹1,500 = ₹1,500. Total assets ₹16,500 = Liabilities ₹0 + Equity ₹16,500 (common stock ₹15,000 plus retained earnings ₹1,500).",
+      "example_ids": [
+        "far-ex-t3-wedding"
+      ],
+      "key_terms": [
+        {
+          "term": "Revenue",
+          "meaning": "An inflow of assets from providing a service; it increases net income and therefore retained earnings.",
+          "source_ref": "far--practice-circle-films-transaction-analysis#1"
+        }
+      ],
+      "exam_line": "Revenue earned for cash: cash rises and retained earnings rise by the same amount.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "far-cf-start-and-revenue-q-3e04c0f9",
+          "type": "mcq",
+          "stem": "Which account increases when Circle Films is paid ₹1,500 for filming a wedding?",
+          "options": [
+            "Retained earnings",
+            "Common stock",
+            "Notes payable",
+            "Supplies"
+          ],
+          "answer": "Retained earnings",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--practice-circle-films-transaction-analysis#1"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-cf-start-and-revenue-q-6a977468",
+          "type": "fill",
+          "stem": "After transaction 3, total assets are ₹____.",
+          "options": [],
+          "answer": "16,500",
+          "accept": [
+            "16500"
+          ],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--practice-circle-films-transaction-analysis#1"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-cf-start-and-revenue-q-80b4c366",
+          "type": "true_false",
+          "stem": "An inflow of assets from providing a service is a revenue.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--practice-circle-films-transaction-analysis#1"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "far--practice-circle-films-transaction-analysis#1"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "far-cf-start-and-revenue-f1",
+      "front": "Issuing shares for cash",
+      "back": "Cash and common stock both rise (₹15,000 in transaction 1).",
+      "kind": "example",
+      "source_refs": [
+        "far--practice-circle-films-transaction-analysis#1"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cf-start-and-revenue-f2",
+      "front": "Asset exchange",
+      "back": "One asset up, another down; no change in total assets (transaction 2).",
+      "kind": "fact",
+      "source_refs": [
+        "far--practice-circle-films-transaction-analysis#1"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cf-start-and-revenue-f3",
+      "front": "Revenue",
+      "back": "An inflow of assets from providing a service; raises net income and retained earnings.",
+      "kind": "term",
+      "source_refs": [
+        "far--practice-circle-films-transaction-analysis#1"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cf-start-and-revenue-f4",
+      "front": "Effect of a cash revenue",
+      "back": "Cash rises and retained earnings rise (₹1,500 in transaction 3).",
+      "kind": "example",
+      "source_refs": [
+        "far--practice-circle-films-transaction-analysis#1"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cf-start-and-revenue-f5",
+      "front": "Balance after transaction 2",
+      "back": "Cash ₹5,000, Supplies ₹1,000, Equipment ₹9,000; Common Stock ₹15,000.",
+      "kind": "fact",
+      "source_refs": [
+        "far--practice-circle-films-transaction-analysis#1"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cf-start-and-revenue-f6",
+      "front": "Balance after transaction 3",
+      "back": "Total assets ₹16,500 = Liabilities ₹0 + Equity ₹16,500.",
+      "kind": "fact",
+      "source_refs": [
+        "far--practice-circle-films-transaction-analysis#1"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [
+    {
+      "id": "far-cf-start-and-revenue-q-d1c8726e",
+      "type": "mcq",
+      "stem": "Circle Films receives ₹15,000 from investors for shares. Which accounts rise?",
+      "options": [
+        "Cash and common stock",
+        "Cash and notes payable",
+        "Cash and retained earnings",
+        "Equipment and common stock"
+      ],
+      "answer": "Cash and common stock",
+      "accept": [],
+      "explanation": "Investors contribute cash for an ownership interest.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "explain",
+      "source_refs": [
+        "far--practice-circle-films-transaction-analysis#1",
+        "far--practice-circle-films-transaction-analysis#2",
+        "far--practice-circle-films-transaction-analysis#3"
+      ],
+      "derived": [
+        "10,000",
+        "10000"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cf-start-and-revenue-q-459775c7",
+      "type": "mcq",
+      "stem": "Buying a camera and memory cards for ₹10,000 in cash changes total assets by:",
+      "options": [
+        "Nothing",
+        "+₹10,000",
+        "-₹10,000",
+        "+₹9,000"
+      ],
+      "answer": "Nothing",
+      "accept": [],
+      "explanation": "One asset is exchanged for others.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "explain",
+      "source_refs": [
+        "far--practice-circle-films-transaction-analysis#1"
+      ],
+      "derived": [
+        "10,000",
+        "10000"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cf-start-and-revenue-q-e3659f8f",
+      "type": "mcq",
+      "stem": "The ₹1,500 received after filming a wedding is recorded as:",
+      "options": [
+        "Revenue, raising retained earnings",
+        "A liability",
+        "A dividend",
+        "An exchange of assets"
+      ],
+      "answer": "Revenue, raising retained earnings",
+      "accept": [],
+      "explanation": "An inflow from a service is revenue.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "explain",
+      "source_refs": [
+        "far--practice-circle-films-transaction-analysis#1"
+      ],
+      "derived": [
+        "10,000",
+        "10000"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cf-start-and-revenue-q-2d9e2e41",
+      "type": "mcq",
+      "stem": "After transactions 1 and 2, what is the cash balance?",
+      "options": [
+        "₹5,000",
+        "₹15,000",
+        "₹10,000",
+        "₹6,500"
+      ],
+      "answer": "₹5,000",
+      "accept": [],
+      "explanation": "15,000 less 10,000.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "numerical",
+      "source_refs": [
+        "far--practice-circle-films-transaction-analysis#1"
+      ],
+      "derived": [
+        "10,000",
+        "10000"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cf-start-and-revenue-q-275e7fca",
+      "type": "mcq",
+      "stem": "After transaction 3, which side of the equation is ₹16,500?",
+      "options": [
+        "Both assets and equity",
+        "Only assets",
+        "Only liabilities",
+        "Only common stock"
+      ],
+      "answer": "Both assets and equity",
+      "accept": [],
+      "explanation": "Assets ₹16,500 = liabilities ₹0 + equity ₹16,500.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "numerical",
+      "source_refs": [
+        "far--practice-circle-films-transaction-analysis#1"
+      ],
+      "derived": [
+        "10,000",
+        "10000"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cf-start-and-revenue-q-0f86a19d",
+      "type": "short",
+      "stem": "Show the effect of Circle Films' first transaction on the accounting equation.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Circle Films **issues 3,000 shares of common stock for ₹15,000 cash.**\n\n- Cash rises from ₹0 to ₹15,000, so assets are ₹15,000.\n- Investors have contributed cash for an ownership interest, so common stock rises to ₹15,000.\n\n**Assets ₹15,000 = Liabilities ₹0 + Equity ₹15,000.**",
+      "rubric": [
+        {
+          "point": "Cash +₹15,000",
+          "source_ref": "far--practice-circle-films-transaction-analysis#1"
+        },
+        {
+          "point": "Common stock +₹15,000 as equity",
+          "source_ref": "far--practice-circle-films-transaction-analysis#1"
+        },
+        {
+          "point": "Equation balances at ₹15,000",
+          "source_ref": "far--practice-circle-films-transaction-analysis#1"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 1,
+      "style_tag": "numerical",
+      "source_refs": [
+        "far--practice-circle-films-transaction-analysis#1"
+      ],
+      "derived": [
+        "10,000",
+        "10000"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cf-start-and-revenue-q-9c5e4c7e",
+      "type": "short",
+      "stem": "Explain transaction 2 (camera and memory cards) and its effect on total assets.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Circle Films buys a **video camera for ₹9,000** and **memory cards for ₹1,000**.\n\n- Equipment rises by ₹9,000 and supplies by ₹1,000.\n- Cash falls by ₹10,000, from ₹15,000 to ₹5,000.\n\nIt exchanges one asset (cash) for other assets, so assets both increase and decrease by ₹10,000. **Total assets stay at ₹15,000**, equal to equity of ₹15,000.",
+      "rubric": [
+        {
+          "point": "Equipment +9,000 and supplies +1,000",
+          "source_ref": "far--practice-circle-films-transaction-analysis#1"
+        },
+        {
+          "point": "Cash falls by 10,000 to 5,000",
+          "source_ref": "far--practice-circle-films-transaction-analysis#1"
+        },
+        {
+          "point": "Exchange of assets",
+          "source_ref": "far--practice-circle-films-transaction-analysis#1"
+        },
+        {
+          "point": "Total assets unchanged at 15,000",
+          "source_ref": "far--practice-circle-films-transaction-analysis#1"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "far--practice-circle-films-transaction-analysis#1"
+      ],
+      "derived": [
+        "10,000",
+        "10000"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cf-start-and-revenue-q-a9d1ac0b",
+      "type": "short",
+      "stem": "Why does the ₹1,500 wedding payment increase equity, while the ₹10,000 purchase of equipment and supplies does not?",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Wedding payment (transaction 3):** the cash comes from providing a service, so it is a **revenue**. Revenues increase net income and therefore retained earnings, so equity rises. Retained earnings go from ₹0 to ₹1,500.\n\n**Purchase (transaction 2):** cash is exchanged for other assets (equipment and supplies). Nothing is earned, so equity stays at ₹15,000.\n\nThe cause of the asset change decides whether equity moves.",
+      "rubric": [
+        {
+          "point": "Wedding payment is revenue for a service",
+          "source_ref": "far--practice-circle-films-transaction-analysis#1"
+        },
+        {
+          "point": "Revenue raises retained earnings by 1,500",
+          "source_ref": "far--practice-circle-films-transaction-analysis#1"
+        },
+        {
+          "point": "Purchase exchanges one asset for others",
+          "source_ref": "far--practice-circle-films-transaction-analysis#1"
+        },
+        {
+          "point": "Equity unchanged in the purchase",
+          "source_ref": "far--practice-circle-films-transaction-analysis#1"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "differentiate",
+      "source_refs": [
+        "far--practice-circle-films-transaction-analysis#1"
+      ],
+      "derived": [
+        "10,000",
+        "10000"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cf-start-and-revenue-q-e00d7729",
+      "type": "long",
+      "stem": "Analyse the first three Circle Films transactions on the accounting equation and show the totals after each.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Transaction 1: shares issued for ₹15,000 cash.** Cash +₹15,000; Common Stock +₹15,000. Assets ₹15,000 = Liabilities ₹0 + Equity ₹15,000.\n\n**Transaction 2: camera ₹9,000 and memory cards ₹1,000.** Cash -₹10,000 (to ₹5,000); Supplies +₹1,000; Equipment +₹9,000. An exchange of assets, so total assets stay ₹15,000 = ₹0 + ₹15,000.\n\n**Transaction 3: ₹1,500 received for filming a wedding.** Cash +₹1,500 (to ₹6,500). The inflow from a service is revenue, so Retained Earnings +₹1,500. Assets ₹16,500 = Liabilities ₹0 + Equity ₹16,500 (common stock ₹15,000 + retained earnings ₹1,500).\n\nThe equation balances after each transaction.",
+      "rubric": [
+        {
+          "point": "Transaction 1 with totals",
+          "source_ref": "far--practice-circle-films-transaction-analysis#1"
+        },
+        {
+          "point": "Transaction 2 as an exchange of assets",
+          "source_ref": "far--practice-circle-films-transaction-analysis#1"
+        },
+        {
+          "point": "Transaction 3 as revenue",
+          "source_ref": "far--practice-circle-films-transaction-analysis#1"
+        },
+        {
+          "point": "Totals 15,000, 15,000 and 16,500",
+          "source_ref": "far--practice-circle-films-transaction-analysis#1"
+        },
+        {
+          "point": "Equation balances each time",
+          "source_ref": "far--practice-circle-films-transaction-analysis#1"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "far--practice-circle-films-transaction-analysis#1"
+      ],
+      "derived": [
+        "10,000",
+        "10000"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cf-start-and-revenue-q-b748ad05",
+      "type": "long",
+      "stem": "Explain the three types of effect seen in the first three transactions: an increase in assets and equity from owners, an exchange of assets, and revenue. Use Circle Films' numbers.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**1. Owners contribute (transaction 1).** Investors give ₹15,000 for 3,000 shares. Cash and common stock both rise by ₹15,000.\n\n**2. Exchange of assets (transaction 2).** Cash of ₹10,000 buys a ₹9,000 camera and ₹1,000 of memory cards. Assets both increase and decrease by ₹10,000, so the net effect is no change in total assets.\n\n**3. Revenue (transaction 3).** ₹1,500 is received for filming a wedding. Cash rises, and because the inflow comes from providing a service it is a revenue. Revenues increase net income and retained earnings, so equity rises by ₹1,500.\n\nIn each case assets equal liabilities plus equity afterwards.",
+      "rubric": [
+        {
+          "point": "Owner contribution raises cash and common stock",
+          "source_ref": "far--practice-circle-films-transaction-analysis#1"
+        },
+        {
+          "point": "Exchange: no change in total assets",
+          "source_ref": "far--practice-circle-films-transaction-analysis#1"
+        },
+        {
+          "point": "Revenue raises retained earnings",
+          "source_ref": "far--practice-circle-films-transaction-analysis#1"
+        },
+        {
+          "point": "Numbers 15,000, 10,000 and 1,500 used",
+          "source_ref": "far--practice-circle-films-transaction-analysis#1"
+        }
+      ],
+      "marks": 8.0,
+      "difficulty": 3,
+      "style_tag": "explain",
+      "source_refs": [
+        "far--practice-circle-films-transaction-analysis#1"
+      ],
+      "derived": [
+        "10,000",
+        "10000"
+      ],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "explain_back": {
+    "prompt": "Explain how the first three Circle Films transactions change the accounting equation.",
+    "rubric": [
+      {
+        "point": "Shares for cash raise cash and common stock by ₹15,000",
+        "source_ref": "far--practice-circle-films-transaction-analysis#1"
+      },
+      {
+        "point": "Camera and cards are an exchange of assets, no change in total assets",
+        "source_ref": "far--practice-circle-films-transaction-analysis#1"
+      },
+      {
+        "point": "Wedding payment is revenue: cash and retained earnings rise by ₹1,500",
+        "source_ref": "far--practice-circle-films-transaction-analysis#1"
+      },
+      {
+        "point": "Equation stays in balance, ending at ₹16,500",
+        "source_ref": "far--practice-circle-films-transaction-analysis#1"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

@@ -1,0 +1,1054 @@
+{
+  "id": "far-cyc-golden-rules",
+  "subject_id": "far",
+  "deck_id": "far--accounting-cycle-and-golden-rules",
+  "title": "Personal, real and nominal accounts and the golden rules",
+  "order": 2,
+  "summary": "Sorting accounts into three families and applying one debit and credit rule to each, with the Northstar Bike Co. examples.",
+  "est_minutes": 25,
+  "difficulty": 2,
+  "source_refs": [
+    "far--accounting-cycle-and-golden-rules#5",
+    "far--accounting-cycle-and-golden-rules#6",
+    "far--accounting-cycle-and-golden-rules#7",
+    "far--accounting-cycle-and-golden-rules#8",
+    "far--accounting-cycle-and-golden-rules#9",
+    "far--accounting-cycle-and-golden-rules#11",
+    "far--accounting-cycle-and-golden-rules#10"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "far-cyc-golden-rules-c1",
+      "heading": "Three families of accounts",
+      "explanation_md": "The traditional approach sorts every ledger account into one of three families. **The family decides the debit and credit rule.**\n\n- **Personal accounts:** people, firms and organizations. Examples: debtors, creditors, banks, capital, individuals.\n- **Real accounts:** assets the business owns. Examples: cash, inventory, equipment, buildings, goodwill.\n- **Nominal accounts:** income and expenses for the period. Examples: rent, salaries, sales, commission, interest.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Personal account",
+          "meaning": "An account for people, firms and organizations the business deals with.",
+          "source_ref": "far--accounting-cycle-and-golden-rules#5"
+        },
+        {
+          "term": "Real account",
+          "meaning": "An account for assets the business owns.",
+          "source_ref": "far--accounting-cycle-and-golden-rules#5"
+        },
+        {
+          "term": "Nominal account",
+          "meaning": "An account for income and expenses for the period.",
+          "source_ref": "far--accounting-cycle-and-golden-rules#5"
+        }
+      ],
+      "exam_line": "Personal: people, firms, banks. Real: assets owned. Nominal: income and expenses.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "far-cyc-golden-rules-q-0addc28b",
+          "type": "mcq",
+          "stem": "Rent, salaries and sales are examples of which type of account?",
+          "options": [
+            "Nominal",
+            "Personal",
+            "Real",
+            "Bank"
+          ],
+          "answer": "Nominal",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--accounting-cycle-and-golden-rules#5"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-cyc-golden-rules-q-da8f9c24",
+          "type": "mcq",
+          "stem": "Debtors, creditors and capital are which type of account?",
+          "options": [
+            "Personal",
+            "Real",
+            "Nominal",
+            "Goodwill"
+          ],
+          "answer": "Personal",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--accounting-cycle-and-golden-rules#5",
+            "far--accounting-cycle-and-golden-rules#6"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-cyc-golden-rules-q-aa58dfe2",
+          "type": "true_false",
+          "stem": "Cash, inventory, equipment, buildings and goodwill are real accounts.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--accounting-cycle-and-golden-rules#5",
+            "far--accounting-cycle-and-golden-rules#7"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "far--accounting-cycle-and-golden-rules#5"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cyc-golden-rules-c2",
+      "heading": "Personal accounts: debit the receiver, credit the giver",
+      "explanation_md": "For a **personal account** the golden rule is **Debit the receiver, Credit the giver.**\n\nExample from the slide: Northstar Bike Co. pays **$500 cash to a supplier, Metro Parts Ltd.** The supplier receives the money, so **Metro Parts Ltd. is debited $500**. Cash is the giver, so **Cash A/c is credited $500**.\n\nCommon personal accounts: Debtors, Creditors, Capital, Bank A/c and Drawings.",
+      "example_ids": [
+        "far-ex-metro-parts"
+      ],
+      "key_terms": [],
+      "exam_line": "Personal accounts: Debit the receiver, Credit the giver.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "far-cyc-golden-rules-q-64e3630c",
+          "type": "mcq",
+          "stem": "Northstar Bike Co. pays $500 cash to supplier Metro Parts Ltd. Which account is debited?",
+          "options": [
+            "Metro Parts Ltd.",
+            "Cash A/c",
+            "Rent A/c",
+            "Equipment A/c"
+          ],
+          "answer": "Metro Parts Ltd.",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--accounting-cycle-and-golden-rules#6"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-cyc-golden-rules-q-f22ce997",
+          "type": "fill",
+          "stem": "For personal accounts: debit the ____, credit the giver.",
+          "options": [],
+          "answer": "receiver",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--accounting-cycle-and-golden-rules#6"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-cyc-golden-rules-q-79db8ce7",
+          "type": "mcq",
+          "stem": "In the Metro Parts example, why is Cash A/c credited?",
+          "options": [
+            "Cash is the giver",
+            "Cash is the receiver",
+            "Cash is an expense",
+            "Cash is an income"
+          ],
+          "answer": "Cash is the giver",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--accounting-cycle-and-golden-rules#6"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "far--accounting-cycle-and-golden-rules#6"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cyc-golden-rules-c3",
+      "heading": "Real accounts: debit what comes in, credit what goes out",
+      "explanation_md": "For a **real account** the golden rule is **Debit what comes in, Credit what goes out.**\n\nExample from the slide: Northstar Bike Co. buys a **repair stand for $1,200 cash.** The equipment comes in, so **Equipment A/c is debited $1,200**. Cash goes out, so **Cash A/c is credited $1,200**.\n\nCommon real accounts: Cash, Inventory, Equipment, Buildings and Goodwill.",
+      "example_ids": [
+        "far-ex-repair-stand"
+      ],
+      "key_terms": [],
+      "exam_line": "Real accounts: Debit what comes in, Credit what goes out.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "far-cyc-golden-rules-q-e6b41aef",
+          "type": "mcq",
+          "stem": "Northstar Bike Co. buys a repair stand for $1,200 cash. Which entry is correct?",
+          "options": [
+            "Dr Equipment A/c, Cr Cash A/c",
+            "Dr Cash A/c, Cr Equipment A/c",
+            "Dr Rent A/c, Cr Cash A/c",
+            "Dr Equipment A/c, Cr Capital A/c"
+          ],
+          "answer": "Dr Equipment A/c, Cr Cash A/c",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--accounting-cycle-and-golden-rules#7"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-cyc-golden-rules-q-12d968f6",
+          "type": "fill",
+          "stem": "For real accounts: debit what comes ____, credit what goes out.",
+          "options": [],
+          "answer": "in",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--accounting-cycle-and-golden-rules#7"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "far--accounting-cycle-and-golden-rules#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cyc-golden-rules-c4",
+      "heading": "Nominal accounts: debit expenses and losses, credit incomes and gains",
+      "explanation_md": "For a **nominal account** the golden rule is **Debit all expenses and losses, Credit all incomes and gains.**\n\nExample from the slide: Northstar Bike Co. pays **$300 cash for shop rent.** Rent is an expense, so **Rent A/c is debited $300**. Cash is the giver, so **Cash A/c is credited $300**.\n\nCommon nominal accounts: Rent, Salaries, Sales, Commission and Interest.",
+      "example_ids": [
+        "far-ex-shop-rent"
+      ],
+      "key_terms": [],
+      "exam_line": "Nominal accounts: Debit all expenses and losses, Credit all incomes and gains.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "far-cyc-golden-rules-q-8d452d56",
+          "type": "mcq",
+          "stem": "Northstar Bike Co. pays $300 cash for shop rent. Which entry is correct?",
+          "options": [
+            "Dr Rent A/c, Cr Cash A/c",
+            "Dr Cash A/c, Cr Rent A/c",
+            "Dr Equipment A/c, Cr Cash A/c",
+            "Dr Cash A/c, Cr Sales A/c"
+          ],
+          "answer": "Dr Rent A/c, Cr Cash A/c",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--accounting-cycle-and-golden-rules#8"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-cyc-golden-rules-q-47a9b6c8",
+          "type": "true_false",
+          "stem": "Under the nominal account rule, incomes and gains are credited.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--accounting-cycle-and-golden-rules#8"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "far--accounting-cycle-and-golden-rules#8"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cyc-golden-rules-c5",
+      "heading": "The three golden rules in one table",
+      "explanation_md": "| Account type | Covers | Debit | Credit |\n|---|---|---|---|\n| Personal | People, firms, banks | The receiver | The giver |\n| Real | Assets the business owns | What comes in | What goes out |\n| Nominal | Income and expenses | Expenses and losses | Incomes and gains |\n\nThe slide says: **one classification, one rule**. Every transaction fits exactly one row per account touched.\n\nSo for each transaction: (1) find the accounts, (2) classify each as personal, real or nominal, (3) apply its rule. The debit and credit will then balance.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "Know the table: Personal (receiver/giver), Real (comes in/goes out), Nominal (expenses and losses/incomes and gains).",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "far-cyc-golden-rules-q-6335c886",
+          "type": "mcq",
+          "stem": "Match the account type to its credit rule: Real.",
+          "options": [
+            "What goes out",
+            "The giver",
+            "Incomes and gains",
+            "Expenses and losses"
+          ],
+          "answer": "What goes out",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--accounting-cycle-and-golden-rules#9"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-cyc-golden-rules-q-ef3bcd94",
+          "type": "mcq",
+          "stem": "Which account type is debited for the receiver?",
+          "options": [
+            "Personal",
+            "Real",
+            "Nominal",
+            "None of them"
+          ],
+          "answer": "Personal",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--accounting-cycle-and-golden-rules#9"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-cyc-golden-rules-q-8fd0daf4",
+          "type": "mcq",
+          "stem": "Which account type is credited for incomes and gains?",
+          "options": [
+            "Nominal",
+            "Real",
+            "Personal",
+            "Bank"
+          ],
+          "answer": "Nominal",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--accounting-cycle-and-golden-rules#9"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "far--accounting-cycle-and-golden-rules#9",
+        "far--accounting-cycle-and-golden-rules#11"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cyc-golden-rules-c6",
+      "heading": "Applying the rules: three Northstar Bike Co. entries",
+      "explanation_md": "Three transactions, three account types, one balanced journal:\n\n- **Real:** buys a delivery van for $32,000 cash. **Dr Delivery Van A/c $32,000, Cr Cash A/c $32,000.** The van comes in (Dr); cash goes out (Cr).\n- **Personal:** receives $2,000 cash from customer Alex Rivera. **Dr Cash A/c $2,000, Cr Alex Rivera A/c $2,000.** Cash comes in (Dr); Rivera is the giver (Cr).\n- **Nominal:** pays $150 cash for shop electricity. **Dr Electricity Exp. A/c $150, Cr Cash A/c $150.** The expense is incurred (Dr); cash is the giver (Cr).\n\nNotice that cash is an asset (real account) but it can appear on either side, depending on whether it comes in or goes out.",
+      "example_ids": [
+        "far-ex-delivery-van",
+        "far-ex-alex-rivera",
+        "far-ex-electricity"
+      ],
+      "key_terms": [],
+      "exam_line": "Delivery van: Dr Van, Cr Cash. Cash from Alex Rivera: Dr Cash, Cr Rivera. Electricity: Dr Electricity Exp., Cr Cash.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "far-cyc-golden-rules-q-065c2588",
+          "type": "mcq",
+          "stem": "Alex Rivera pays $2,000 cash to Northstar Bike Co. Which entry is correct?",
+          "options": [
+            "Dr Cash A/c, Cr Alex Rivera A/c",
+            "Dr Alex Rivera A/c, Cr Cash A/c",
+            "Dr Cash A/c, Cr Sales A/c",
+            "Dr Alex Rivera A/c, Cr Capital A/c"
+          ],
+          "answer": "Dr Cash A/c, Cr Alex Rivera A/c",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--accounting-cycle-and-golden-rules#10"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-cyc-golden-rules-q-b9d66a6a",
+          "type": "mcq",
+          "stem": "Which type of account is the $150 shop electricity entry?",
+          "options": [
+            "Nominal",
+            "Real",
+            "Personal",
+            "None"
+          ],
+          "answer": "Nominal",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--accounting-cycle-and-golden-rules#10"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-cyc-golden-rules-q-48b7a03b",
+          "type": "fill",
+          "stem": "For the $32,000 delivery van, the credit entry is to ____ A/c.",
+          "options": [],
+          "answer": "Cash",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--accounting-cycle-and-golden-rules#10"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "far-cyc-golden-rules-q-ded14ee2",
+          "type": "true_false",
+          "stem": "In the delivery van entry the van is debited because it comes in.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "far--accounting-cycle-and-golden-rules#10"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "far--accounting-cycle-and-golden-rules#10"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "far-cyc-golden-rules-f1",
+      "front": "Personal account rule",
+      "back": "Debit the receiver, credit the giver.",
+      "kind": "formula",
+      "source_refs": [
+        "far--accounting-cycle-and-golden-rules#6",
+        "far--accounting-cycle-and-golden-rules#9"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cyc-golden-rules-f2",
+      "front": "Real account rule",
+      "back": "Debit what comes in, credit what goes out.",
+      "kind": "formula",
+      "source_refs": [
+        "far--accounting-cycle-and-golden-rules#7",
+        "far--accounting-cycle-and-golden-rules#9"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cyc-golden-rules-f3",
+      "front": "Nominal account rule",
+      "back": "Debit all expenses and losses, credit all incomes and gains.",
+      "kind": "formula",
+      "source_refs": [
+        "far--accounting-cycle-and-golden-rules#8",
+        "far--accounting-cycle-and-golden-rules#9"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cyc-golden-rules-f4",
+      "front": "Personal accounts: examples",
+      "back": "Debtors, creditors, capital, bank, drawings, individuals.",
+      "kind": "list",
+      "source_refs": [
+        "far--accounting-cycle-and-golden-rules#5",
+        "far--accounting-cycle-and-golden-rules#6"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cyc-golden-rules-f5",
+      "front": "Real accounts: examples",
+      "back": "Cash, inventory, equipment, buildings, goodwill.",
+      "kind": "list",
+      "source_refs": [
+        "far--accounting-cycle-and-golden-rules#5",
+        "far--accounting-cycle-and-golden-rules#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cyc-golden-rules-f6",
+      "front": "Nominal accounts: examples",
+      "back": "Rent, salaries, sales, commission, interest.",
+      "kind": "list",
+      "source_refs": [
+        "far--accounting-cycle-and-golden-rules#5",
+        "far--accounting-cycle-and-golden-rules#8"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cyc-golden-rules-f7",
+      "front": "Metro Parts Ltd. entry",
+      "back": "Dr Metro Parts Ltd. $500 (receiver), Cr Cash A/c $500 (giver).",
+      "kind": "example",
+      "source_refs": [
+        "far--accounting-cycle-and-golden-rules#6"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cyc-golden-rules-f8",
+      "front": "Delivery van entry",
+      "back": "Dr Delivery Van A/c $32,000, Cr Cash A/c $32,000.",
+      "kind": "example",
+      "source_refs": [
+        "far--accounting-cycle-and-golden-rules#10"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cyc-golden-rules-f9",
+      "front": "Alex Rivera entry",
+      "back": "Dr Cash A/c $2,000, Cr Alex Rivera A/c $2,000.",
+      "kind": "example",
+      "source_refs": [
+        "far--accounting-cycle-and-golden-rules#10"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [
+    {
+      "id": "far-cyc-golden-rules-q-f949ffaf",
+      "type": "mcq",
+      "stem": "Northstar Bike Co. pays $150 cash for shop electricity. Which entry is correct?",
+      "options": [
+        "Dr Electricity Exp. A/c, Cr Cash A/c",
+        "Dr Cash A/c, Cr Electricity Exp. A/c",
+        "Dr Cash A/c, Cr Sales A/c",
+        "Dr Equipment A/c, Cr Cash A/c"
+      ],
+      "answer": "Dr Electricity Exp. A/c, Cr Cash A/c",
+      "accept": [],
+      "explanation": "An expense is debited; cash is the giver.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "journal entry",
+      "source_refs": [
+        "far--accounting-cycle-and-golden-rules#10",
+        "far--accounting-cycle-and-golden-rules#8"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cyc-golden-rules-q-069a1a3b",
+      "type": "mcq",
+      "stem": "Which golden rule applies to a Real account?",
+      "options": [
+        "Debit what comes in, credit what goes out",
+        "Debit the receiver, credit the giver",
+        "Debit expenses and losses, credit incomes and gains",
+        "Debit incomes, credit expenses"
+      ],
+      "answer": "Debit what comes in, credit what goes out",
+      "accept": [],
+      "explanation": "Real accounts are assets owned by the business.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "define",
+      "source_refs": [
+        "far--accounting-cycle-and-golden-rules#7",
+        "far--accounting-cycle-and-golden-rules#9"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cyc-golden-rules-q-5ef2549c",
+      "type": "mcq",
+      "stem": "Which of these is a Personal account?",
+      "options": [
+        "Creditors",
+        "Cash",
+        "Rent",
+        "Equipment"
+      ],
+      "answer": "Creditors",
+      "accept": [],
+      "explanation": "Debtors, creditors, banks and capital are personal accounts.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "classify",
+      "source_refs": [
+        "far--accounting-cycle-and-golden-rules#5",
+        "far--accounting-cycle-and-golden-rules#6",
+        "far--accounting-cycle-and-golden-rules#7",
+        "far--accounting-cycle-and-golden-rules#8"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cyc-golden-rules-q-c116ba37",
+      "type": "mcq",
+      "stem": "Northstar Bike Co. buys a repair stand for $1,200 cash. Which account is debited?",
+      "options": [
+        "Equipment A/c",
+        "Cash A/c",
+        "Rent A/c",
+        "Repair A/c Payable"
+      ],
+      "answer": "Equipment A/c",
+      "accept": [],
+      "explanation": "The equipment comes in.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "journal entry",
+      "source_refs": [
+        "far--accounting-cycle-and-golden-rules#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cyc-golden-rules-q-8e37d41b",
+      "type": "mcq",
+      "stem": "Which accounts are debited under the nominal account rule?",
+      "options": [
+        "Expenses and losses",
+        "Incomes and gains",
+        "What comes in",
+        "The giver"
+      ],
+      "answer": "Expenses and losses",
+      "accept": [],
+      "explanation": "Nominal accounts debit expenses and losses and credit incomes and gains.",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "define",
+      "source_refs": [
+        "far--accounting-cycle-and-golden-rules#8",
+        "far--accounting-cycle-and-golden-rules#9"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cyc-golden-rules-q-7bf247cf",
+      "type": "short",
+      "stem": "Explain the classification of accounts into personal, real and nominal, with examples of each.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The traditional approach sorts every ledger account into one of three families, and **the family decides the debit and credit rule**.\n\n- **Personal accounts:** people, firms and organizations. Examples: debtors, creditors, banks, capital, individuals.\n- **Real accounts:** assets the business owns. Examples: cash, inventory, equipment, buildings, goodwill.\n- **Nominal accounts:** income and expenses for the period. Examples: rent, salaries, sales, commission, interest.",
+      "rubric": [
+        {
+          "point": "Personal: people, firms, organizations, examples",
+          "source_ref": "far--accounting-cycle-and-golden-rules#5"
+        },
+        {
+          "point": "Real: assets owned, examples",
+          "source_ref": "far--accounting-cycle-and-golden-rules#5"
+        },
+        {
+          "point": "Nominal: income and expenses, examples",
+          "source_ref": "far--accounting-cycle-and-golden-rules#5"
+        },
+        {
+          "point": "The type decides the rule",
+          "source_ref": "far--accounting-cycle-and-golden-rules#5"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 1,
+      "style_tag": "explain",
+      "source_refs": [
+        "far--accounting-cycle-and-golden-rules#5"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cyc-golden-rules-q-4e2bc20d",
+      "type": "short",
+      "stem": "State the three golden rules in a table and give one example entry for each from Northstar Bike Co.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "| Type | Debit | Credit |\n|---|---|---|\n| Personal | The receiver | The giver |\n| Real | What comes in | What goes out |\n| Nominal | Expenses and losses | Incomes and gains |\n\n**Examples:**\n- Personal: pays $500 cash to supplier Metro Parts Ltd.: Dr Metro Parts Ltd. $500, Cr Cash A/c $500.\n- Real: buys a repair stand for $1,200 cash: Dr Equipment A/c $1,200, Cr Cash A/c $1,200.\n- Nominal: pays $300 cash for shop rent: Dr Rent A/c $300, Cr Cash A/c $300.",
+      "rubric": [
+        {
+          "point": "Personal rule receiver and giver",
+          "source_ref": "far--accounting-cycle-and-golden-rules#9"
+        },
+        {
+          "point": "Real rule comes in and goes out",
+          "source_ref": "far--accounting-cycle-and-golden-rules#9"
+        },
+        {
+          "point": "Nominal rule expenses/losses and incomes/gains",
+          "source_ref": "far--accounting-cycle-and-golden-rules#9"
+        },
+        {
+          "point": "Examples with Metro Parts, repair stand, rent",
+          "source_ref": "far--accounting-cycle-and-golden-rules#6"
+        }
+      ],
+      "marks": 5.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "far--accounting-cycle-and-golden-rules#6",
+        "far--accounting-cycle-and-golden-rules#7",
+        "far--accounting-cycle-and-golden-rules#8",
+        "far--accounting-cycle-and-golden-rules#9"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cyc-golden-rules-q-96b2cde9",
+      "type": "short",
+      "stem": "Alex Rivera, a customer, pays $2,000 cash to Northstar Bike Co. Classify the accounts and give the journal entry.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "- **Cash A/c** is a real account: cash comes in, so it is **debited $2,000**.\n- **Alex Rivera A/c** is a personal account: Rivera is the giver, so it is **credited $2,000**.\n\n**Entry:** Dr Cash A/c $2,000, Cr Alex Rivera A/c $2,000.\n\nDebit and credit are equal.",
+      "rubric": [
+        {
+          "point": "Cash is real, comes in, debit",
+          "source_ref": "far--accounting-cycle-and-golden-rules#10"
+        },
+        {
+          "point": "Alex Rivera is personal, giver, credit",
+          "source_ref": "far--accounting-cycle-and-golden-rules#10"
+        },
+        {
+          "point": "Entry with equal amounts",
+          "source_ref": "far--accounting-cycle-and-golden-rules#10"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "journal entry",
+      "source_refs": [
+        "far--accounting-cycle-and-golden-rules#10"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cyc-golden-rules-q-dce2eaed",
+      "type": "short",
+      "stem": "Differentiate between how real accounts and nominal accounts are debited and credited.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Real accounts** cover assets the business owns (cash, inventory, equipment, buildings, goodwill). Rule: debit what comes in, credit what goes out. Example: buying a delivery van for $32,000 cash debits Delivery Van A/c and credits Cash A/c.\n\n**Nominal accounts** cover income and expenses for the period (rent, salaries, sales, commission, interest). Rule: debit all expenses and losses, credit all incomes and gains. Example: paying $150 for electricity debits Electricity Exp. A/c.",
+      "rubric": [
+        {
+          "point": "Real covers assets owned; nominal income and expenses",
+          "source_ref": "far--accounting-cycle-and-golden-rules#5"
+        },
+        {
+          "point": "Real rule: in and out",
+          "source_ref": "far--accounting-cycle-and-golden-rules#7"
+        },
+        {
+          "point": "Nominal rule: expenses/losses and incomes/gains",
+          "source_ref": "far--accounting-cycle-and-golden-rules#8"
+        },
+        {
+          "point": "Examples van and electricity",
+          "source_ref": "far--accounting-cycle-and-golden-rules#10"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "differentiate",
+      "source_refs": [
+        "far--accounting-cycle-and-golden-rules#5",
+        "far--accounting-cycle-and-golden-rules#7",
+        "far--accounting-cycle-and-golden-rules#8",
+        "far--accounting-cycle-and-golden-rules#10"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cyc-golden-rules-q-865fc0c4",
+      "type": "long",
+      "stem": "Explain the three golden rules of debit and credit. Apply them to the three Northstar Bike Co. transactions: a $32,000 delivery van for cash, $2,000 received from Alex Rivera, and $150 paid for electricity.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Accounts are first classified as **personal, real or nominal**, and the type decides the rule.\n\n| Type | Debit | Credit |\n|---|---|---|\n| Personal | The receiver | The giver |\n| Real | What comes in | What goes out |\n| Nominal | Expenses and losses | Incomes and gains |\n\n**1. Delivery van, $32,000 cash (real):** the van comes in and cash goes out. Dr Delivery Van A/c $32,000, Cr Cash A/c $32,000.\n\n**2. $2,000 from customer Alex Rivera (personal):** cash comes in (Dr) and Rivera is the giver (Cr). Dr Cash A/c $2,000, Cr Alex Rivera A/c $2,000.\n\n**3. $150 for shop electricity (nominal):** an expense is incurred (Dr) and cash is the giver (Cr). Dr Electricity Exp. A/c $150, Cr Cash A/c $150.\n\nIn each entry the debit equals the credit, so the journal stays balanced.",
+      "rubric": [
+        {
+          "point": "Classification into three types",
+          "source_ref": "far--accounting-cycle-and-golden-rules#5"
+        },
+        {
+          "point": "Table of the three rules",
+          "source_ref": "far--accounting-cycle-and-golden-rules#9"
+        },
+        {
+          "point": "Delivery van entry",
+          "source_ref": "far--accounting-cycle-and-golden-rules#10"
+        },
+        {
+          "point": "Alex Rivera entry",
+          "source_ref": "far--accounting-cycle-and-golden-rules#10"
+        },
+        {
+          "point": "Electricity entry",
+          "source_ref": "far--accounting-cycle-and-golden-rules#10"
+        }
+      ],
+      "marks": 10.0,
+      "difficulty": 3,
+      "style_tag": "journal entry",
+      "source_refs": [
+        "far--accounting-cycle-and-golden-rules#5",
+        "far--accounting-cycle-and-golden-rules#9",
+        "far--accounting-cycle-and-golden-rules#10"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "far-cyc-golden-rules-q-989145d9",
+      "type": "long",
+      "stem": "For each of the following Northstar Bike Co. transactions, classify the accounts and give the journal entry: (a) $500 cash paid to supplier Metro Parts Ltd., (b) a repair stand bought for $1,200 cash, (c) $300 cash paid for shop rent.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**(a) $500 paid to Metro Parts Ltd.** Metro Parts Ltd. is a personal account and is the receiver, so it is debited. Cash is the giver and is credited. **Dr Metro Parts Ltd. $500, Cr Cash A/c $500.**\n\n**(b) Repair stand for $1,200.** Equipment is a real account and comes in, so it is debited. Cash goes out and is credited. **Dr Equipment A/c $1,200, Cr Cash A/c $1,200.**\n\n**(c) Shop rent $300.** Rent is a nominal account and an expense, so it is debited. Cash is the giver and is credited. **Dr Rent A/c $300, Cr Cash A/c $300.**\n\nIn all three, Cash is credited because cash goes out, but the debited account follows the rule of its own type.",
+      "rubric": [
+        {
+          "point": "Metro Parts: personal, receiver, Dr; Cash Cr $500",
+          "source_ref": "far--accounting-cycle-and-golden-rules#6"
+        },
+        {
+          "point": "Repair stand: real, comes in, Dr Equipment $1,200",
+          "source_ref": "far--accounting-cycle-and-golden-rules#7"
+        },
+        {
+          "point": "Rent: nominal expense, Dr Rent $300",
+          "source_ref": "far--accounting-cycle-and-golden-rules#8"
+        },
+        {
+          "point": "Cash is credited in all three, amounts equal",
+          "source_ref": "far--accounting-cycle-and-golden-rules#6"
+        }
+      ],
+      "marks": 9.0,
+      "difficulty": 3,
+      "style_tag": "journal entry",
+      "source_refs": [
+        "far--accounting-cycle-and-golden-rules#6",
+        "far--accounting-cycle-and-golden-rules#7",
+        "far--accounting-cycle-and-golden-rules#8"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "explain_back": {
+    "prompt": "Explain the three types of account and the golden rule for each, with an example.",
+    "rubric": [
+      {
+        "point": "Personal accounts: people, firms, banks; debit the receiver, credit the giver",
+        "source_ref": "far--accounting-cycle-and-golden-rules#6"
+      },
+      {
+        "point": "Real accounts: assets; debit what comes in, credit what goes out",
+        "source_ref": "far--accounting-cycle-and-golden-rules#7"
+      },
+      {
+        "point": "Nominal accounts: income and expenses; debit expenses and losses, credit incomes and gains",
+        "source_ref": "far--accounting-cycle-and-golden-rules#8"
+      },
+      {
+        "point": "An example such as the $32,000 delivery van or the $300 rent",
+        "source_ref": "far--accounting-cycle-and-golden-rules#10"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}
