@@ -13,7 +13,7 @@ ROOT = Path(__file__).resolve().parent.parent
 os.environ.setdefault("ATHENA_ONLINE", "1")  # the app shows "progress is not saved here"
 os.environ.setdefault("ATHENA_DATA_DIR", "/tmp/athena-data")
 os.environ.setdefault("ATHENA_DB", "/tmp/athena-data/athena.db")
-os.environ.setdefault("ATHENA_SLIDES_DIR", str(ROOT / "data" / "slides"))
+os.environ.setdefault("ATHENA_SLIDES_DIR", "/tmp/athena-data/slides")  # empty: pictures come from ATHENA_MEDIA_BASE
 # Slide pictures (360 MB) do not fit in the function bundle: serve them from the public repo.
 os.environ.setdefault("ATHENA_MEDIA_BASE", "https://raw.githubusercontent.com/JASMEHRR/athena/main/data")
 sys.path.insert(0, str(ROOT))
