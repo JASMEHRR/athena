@@ -1,10 +1,10 @@
 # Grounding report
 
-Generated 2026-10-17 22:19. Checked 5680 items against the slides they cite.
+Generated 2026-10-18 11:29. Checked 9037 items against the slides they cite.
 
 - Failures (visible items with a name or number not on the cited slides): **0**
 - Hidden items (needs_check, not shown in the app): 0
-- Items using derived numbers (worked answers): 366
+- Items using derived numbers (worked answers): 513
 
 Whole numbers 0 to 10 are not checked (list counts).
 
@@ -111,6 +111,53 @@ None.
 - question `be-s45-supply-function-q-c4b86fd0`: 450, 50, 500, 540, 630, 90
 - question `be-s45-supply-function-q-4b1ce2b4`: 450, 50, 500, 90
 - question `be-s45-supply-function-q-dc813c1f`: 450, 500, 90
+- chunk `be-s6-cross-income-elasticity-c3`: 15%
+- check question `be-s6-cross-income-elasticity-q-60896047`: 30%
+- check question `be-s6-cross-income-elasticity-q-2e847c82`: 8%
+- check question `be-s6-cross-income-elasticity-q-993e678a`: 15%
+- check question `be-s6-cross-income-elasticity-q-c0ae38b9`: 2.4%
+- check question `be-s6-cross-income-elasticity-q-a71f5075`: 6.8%
+- chunk `be-s6-cross-income-elasticity-c5`: 0.6%, 3.6%, 300, 7.5%, 9,000, 9,300
+- check question `be-s6-cross-income-elasticity-q-29b73e4c`: 3.6%, 7.5%
+- question `be-s6-cross-income-elasticity-q-90082f8d`: 125
+- question `be-s6-cross-income-elasticity-q-45507431`: 15%
+- question `be-s6-cross-income-elasticity-q-0a5033e2`: 0.6%, 3.6%, 300, 7.5%, 9,000, 9,300
+- check question `be-s6-demand-functions-q-de15f09e`: 0.5
+- check question `be-s6-demand-functions-q-7baa1aa7`: 0.25
+- check question `be-s6-linear-demand-tr-mr-q-0f4a1b06`: 600
+- check question `be-s6-linear-demand-tr-mr-q-df3710a5`: 400
+- chunk `far-bt-journal-and-trial-balance-c2`: 24,000
+- check question `far-bt-journal-and-trial-balance-q-dc7b899a`: 24,000, 39,000
+- chunk `far-bt-journal-and-trial-balance-c4`: 1,51,200, 2,80,850, 24,000, 30,925, 76,400, 8,225
+- check question `far-bt-journal-and-trial-balance-q-bd85f659`: 2,07,300, 2,80,850, 76,400
+- check question `far-bt-journal-and-trial-balance-q-e14fc1ad`: 76,400, 76400
+- check question `far-bt-journal-and-trial-balance-q-f6872ed7`: 57,475
+- question `far-bt-journal-and-trial-balance-q-5e85dcd3`: 24,000, 39,000
+- question `far-bt-journal-and-trial-balance-q-c10731ed`: 1,51,200, 76,400
+- question `far-bt-journal-and-trial-balance-q-f057313c`: 30,925, 8,225
+- question `far-bt-journal-and-trial-balance-q-dc46c8b8`: 24,000
+- question `far-bt-journal-and-trial-balance-q-8b4d7fed`: 1,51,200, 2,80,850, 24,000, 30,925, 76,400, 8,225
+- chunk `far-bt-profit-and-balance-sheet-c1`: 1,010, 1,015, 1,51,200, 60,600, 76,400, 90, 91,050
+- check question `far-bt-profit-and-balance-sheet-q-9461e6b0`: 90
+- check question `far-bt-profit-and-balance-sheet-q-8f3502c6`: 1,000, 1,010, 1,015, 1,275
+- chunk `far-bt-profit-and-balance-sheet-c2`: 1,51,200, 16,250, 6,850, 60,150, 76,400, 9,400, 91,050
+- check question `far-bt-profit-and-balance-sheet-q-90b6d9ca`: 13,400, 16,250, 6,850, 9,400
+- check question `far-bt-profit-and-balance-sheet-q-89b0cd08`: 6,850, 6850
+- chunk `far-bt-profit-and-balance-sheet-c3`: 1,52,850, 2,07,300, 24,000, 30,925, 54,450, 6,850, 8,225, 91,050
+- check question `far-bt-profit-and-balance-sheet-q-8a8936e0`: 1,52,850, 1,56,850, 6,850
+- check question `far-bt-profit-and-balance-sheet-q-5ca045f6`: 1,52,850, 2,07,300, 2,80,850, 54,450
+- check question `far-bt-profit-and-balance-sheet-q-03d7238f`: 24,000
+- question `far-bt-profit-and-balance-sheet-q-f4775f4d`: 90
+- question `far-bt-profit-and-balance-sheet-q-b9b4db22`: 16,250, 6,850, 60,150, 76,400, 91,050
+- question `far-bt-profit-and-balance-sheet-q-290be6b0`: 13,400, 16,250, 6,850, 9,400
+- question `far-bt-profit-and-balance-sheet-q-15acb41d`: 1,52,850, 2,07,300, 2,80,850, 54,450
+- question `far-bt-profit-and-balance-sheet-q-2d5301e2`: 1,010, 1,015, 1,51,200, 60,150, 60,600, 90, 91,050
+- question `far-bt-profit-and-balance-sheet-q-281bd339`: 1,51,200, 16,250, 6,850, 60,150, 76,400, 9,400, 91,050
+- question `far-bt-profit-and-balance-sheet-q-2a1c41e0`: 6,850, 76,400
+- question `far-bt-profit-and-balance-sheet-q-37aef69a`: 1,51,200, 1,52,850, 16,250, 2,07,300, 24,000, 30,925, 54,450, 6,850, 60,150, 76,400, 8,225, 9,400, 90, 91,050
+- question `far-bt-profit-and-balance-sheet-q-84f5c0c2`: 1,51,200, 1,52,850, 16,250, 2,07,300, 2,80,850, 54,450, 6,850, 60,150, 76,400, 9,400, 91,050
+- question `far-cf-deposit-expense-receivable-q-9768430a`: 1,000, 9,000
+- question `far-cf-note-collection-and-summary-q-3afde3f8`: 7,000
 - check question `far-drcr-accrual-and-depreciation-q-688118a5`: 6,400
 - question `far-drcr-accrual-and-depreciation-q-35401352`: 5,600, 6,400
 - chunk `far-drcr-equation-and-double-entry-c2`: 5,300, 6,500
@@ -120,6 +167,38 @@ None.
 - question `far-drcr-equation-and-double-entry-q-92394bf6`: 2,400, 4,100, 5,300, 6,200, 6,500, 7,700
 - chunk `far-drcr-three-statements-c3`: 23,500
 - question `far-drcr-three-statements-q-93acd1d3`: 23,500
+- chunk `far-jl-equation-effects-c2`: 1,15,000, 1,70,000, 30,000, 4,10,000, 4,90,000, 5,95,000, 6,50,000, 6,60,000
+- check question `far-jl-equation-effects-q-2c5e49a9`: 4,90,000, 5,95,000, 6,50,000, 6,60,000
+- chunk `far-jl-equation-effects-c3`: 1,15,000, 11,35,000, 11,70,000, 2,85,000, 3,20,000, 8,50,000
+- check question `far-jl-equation-effects-q-eacfe0c1`: 2,85,000, 3,15,000
+- check question `far-jl-equation-effects-q-b414e3cf`: 8,50,000, 850000
+- chunk `far-jl-equation-effects-c4`: 1,40,000, 11,70,000, 11,95,000, 12,30,000, 2,85,000, 3,20,000, 40,000, 5,40,000, 8,85,000, 9,10,000
+- check question `far-jl-equation-effects-q-835f5268`: 11,70,000, 1170000
+- question `far-jl-equation-effects-q-b933c007`: 1,15,000
+- question `far-jl-equation-effects-q-31ca6299`: 11,35,000, 2,85,000, 8,50,000
+- question `far-jl-equation-effects-q-11f99deb`: 1,15,000, 1,70,000, 30,000, 4,10,000, 4,90,000, 5,95,000, 6,50,000, 6,60,000
+- question `far-jl-equation-effects-q-5dd0572d`: 1,15,000, 1,40,000, 11,35,000, 11,70,000, 11,95,000, 12,30,000, 2,85,000, 3,20,000, 40,000, 5,40,000, 8,50,000, 8,85,000, 9,10,000
+- question `far-jl-equation-effects-q-b8b13f31`: 11,70,000, 11,85,000, 12,30,000, 3,20,000, 8,50,000, 9,10,000
+- chunk `far-jl-journal-c4`: 1,95,000, 2,05,000, 2,14,000, 2,20,000, 2,25,000, 2,30,000, 2,35,000, 2,50,000, 65,000
+- check question `far-jl-journal-q-13d37adc`: 1,95,000, 2,05,000, 2,25,000
+- check question `far-jl-journal-q-c89f74d3`: 2,14,000, 214000
+- question `far-jl-journal-q-4d4f545b`: 2,30,000
+- question `far-jl-journal-q-95e016e0`: 1,95,000, 2,05,000, 2,14,000, 2,20,000, 2,25,000, 2,30,000, 2,35,000, 2,50,000, 65,000
+- chunk `far-jl-ledger-c2`: 2,20,000
+- check question `far-jl-ledger-q-b5c2a595`: 1,60,000, 2,20,000, 2,70,000, 3,10,000
+- chunk `far-jl-ledger-c3`: 1,16,000, 2,15,000, 90,000
+- check question `far-jl-ledger-q-6870dc1f`: 90,000
+- question `far-jl-ledger-q-2001e621`: 2,20,000, 2,70,000, 3,10,000
+- question `far-jl-ledger-q-54e182e4`: 90,000
+- question `far-jl-ledger-q-1b6e9ddb`: 2,20,000, 3,10,000
+- question `far-jl-ledger-q-5260ab39`: 1,16,000, 2,15,000
+- question `far-jl-ledger-q-75cf9407`: 1,16,000, 2,15,000, 90,000
+- check question `far-jl-trial-balance-q-e2b11001`: 1,360
+- chunk `far-jl-trial-balance-c6`: 2,25,000, 99,000
+- check question `far-jl-trial-balance-q-6d7de603`: 2,25,000
+- check question `far-jl-trial-balance-q-c76b9985`: 2,25,000, 225000
+- question `far-jl-trial-balance-q-040c7586`: 1,360
+- question `far-jl-trial-balance-q-eb3c6b75`: 2,25,000
 - chunk `far-may-balance-sheets-c3`: 27,027, 429,000, 611,511, 638,538, 7,956
 - check question `far-may-balance-sheets-q-efbb3b55`: 427,050, 429,000
 - check question `far-may-balance-sheets-q-0c46c1d8`: 611,511, 611511
@@ -170,6 +249,74 @@ None.
 - question `qtm-m1-sampling-methods-q-6e0ebc40`: 0.1
 - question `qtm-m1-scales-of-measurement-q-dc4a7685`: 1.13, 1.17
 - question `qtm-m1-scales-of-measurement-q-0834ddf5`: 1.17, 1.398, 1.4, 2.095, 2.1
+- chunk `qtm-m2-cv-c1`: 70
+- check question `qtm-m2-cv-q-c1dce54b`: 70
+- check question `qtm-m2-cv-q-d7a0f630`: 66.67, 66.7
+- question `qtm-m2-cv-q-08235e65`: 100
+- question `qtm-m2-cv-q-f716725b`: 70, 8.97%, 89.7%
+- question `qtm-m2-cv-q-85ed01e9`: 2%
+- question `qtm-m2-cv-q-bd372d79`: 70
+- chunk `qtm-m2-dispersion-practice-c1`: 1,003.75, 1,322.62, 100, 111%, 111.05%, 19, 22%, 22.19%, 25,129.75, 32.75, 36.37, 52.83, 655, 7.27
+- check question `qtm-m2-dispersion-practice-q-9a4fe046`: 32.75, 36.37, 655
+- check question `qtm-m2-dispersion-practice-q-b60f7e42`: 70
+- check question `qtm-m2-dispersion-practice-q-80f0fee2`: 36.37
+- chunk `qtm-m2-dispersion-practice-c2`: 100%, 111.05%, 22%, 22.19%, 30.5, 32.75, 36.37, 7.27
+- check question `qtm-m2-dispersion-practice-q-654c21df`: 32.75, 36.37, 7.27
+- check question `qtm-m2-dispersion-practice-q-ecbc34fc`: 32.75
+- chunk `qtm-m2-dispersion-practice-c3`: 100, 11, 13.88, 192.70, 2,119.67, 24.42%, 49, 53, 56.83, 61, 682
+- check question `qtm-m2-dispersion-practice-q-1196b901`: 53
+- check question `qtm-m2-dispersion-practice-q-5b0f0aa3`: 100, 13.88, 13.88%, 24.42%, 4.09%, 56.83, 56.83%
+- question `qtm-m2-dispersion-practice-q-9528682b`: 70
+- question `qtm-m2-dispersion-practice-q-17919d5e`: 32.75, 36.37, 655, 7.27
+- question `qtm-m2-dispersion-practice-q-ee28ea34`: 100, 13.88, 13.88%, 24.42%, 4.09%, 56.83, 56.83%
+- question `qtm-m2-dispersion-practice-q-68d600cf`: 1,003.75, 1,322.62, 19, 25,129.75, 32.75, 36.37, 52.83, 7.27
+- question `qtm-m2-dispersion-practice-q-33ae9324`: 111.05%, 22.19%, 32.75, 36.37, 7.27
+- question `qtm-m2-dispersion-practice-q-a9e864c7`: 49, 53, 61
+- question `qtm-m2-dispersion-practice-q-a78c2288`: 100, 11, 13.88, 192.70, 2,119.67, 24.42%, 49, 53, 56.83, 61, 682
+- question `qtm-m2-dispersion-practice-q-cc82e555`: 1,322.62, 19, 30.5, 32.75, 36.37, 52.83, 655, 7.27
+- check question `qtm-m2-mean-median-mode-q-f037c5b4`: 21.6
+- chunk `qtm-m2-mean-median-mode-c3`: 30.5, 32.75, 655
+- question `qtm-m2-mean-median-mode-q-b52c6c0b`: 30.5, 32.75
+- question `qtm-m2-mean-median-mode-q-66c35e7d`: 30.5, 32.75, 655
+- chunk `qtm-m2-percentiles-c1`: 20%, 80, 80%
+- chunk `qtm-m2-percentiles-c2`: 0.2, 0.8
+- chunk `qtm-m2-percentiles-c3`: 11, 16, 17, 32.5
+- check question `qtm-m2-percentiles-q-55e915d9`: 16, 17, 32.5
+- chunk `qtm-m2-percentiles-c4`: 11.25, 13.5, 3.75, 33.87, 508, 7.5, 90
+- check question `qtm-m2-percentiles-q-fa35212f`: 33.87, 508
+- check question `qtm-m2-percentiles-q-03c71b81`: 13.5, 90
+- question `qtm-m2-percentiles-q-7fa313c1`: 32.5
+- question `qtm-m2-percentiles-q-f522690c`: 0.2, 0.8
+- question `qtm-m2-percentiles-q-ffbad9fa`: 11, 16, 17, 32.5
+- question `qtm-m2-percentiles-q-00e1cb62`: 0.2, 0.8
+- question `qtm-m2-percentiles-q-00f1cf72`: 11.25, 13.5, 3.75, 33.87, 508, 7.5, 90
+- check question `qtm-m2-quartiles-iqr-q-d56a83ab`: 190, 970
+- chunk `qtm-m2-quartiles-iqr-c3`: 15.11, 15.5, 17.5, 20.5, 23, 25.08, 46, 5.5, 69, 9.97
+- check question `qtm-m2-quartiles-iqr-q-c4cd203e`: 23, 46, 69
+- check question `qtm-m2-quartiles-iqr-q-76d942e9`: 15.5, 17.5, 18, 20.5, 46
+- question `qtm-m2-quartiles-iqr-q-515af345`: 970
+- question `qtm-m2-quartiles-iqr-q-d38d62d0`: 15.5, 17.5, 46
+- question `qtm-m2-quartiles-iqr-q-f0cf21c0`: 190
+- question `qtm-m2-quartiles-iqr-q-8692b99e`: 15.11, 15.5, 17.5, 20.5, 23, 25.08, 4.47, 4.58, 46, 5.5, 69, 9.97
+- check question `qtm-m2-range-q-df2548e3`: 1040, 80
+- question `qtm-m2-range-q-74f8fd64`: 1,040
+- question `qtm-m2-range-q-95ff1250`: 50%
+- chunk `qtm-m2-shape-c4`: 10.27, 1020
+- question `qtm-m2-shape-q-d614cedc`: 50%
+- question `qtm-m2-shape-q-d2aa02ea`: 10.27, 1020
+- chunk `qtm-m2-standard-deviation-c2`: 1.13, 1.27, 110, 14, 25, 3.16, 70
+- check question `qtm-m2-standard-deviation-q-1ba33de4`: 1.13, 110, 3.16, 9.17
+- question `qtm-m2-standard-deviation-q-436979e3`: 1,498.08
+- question `qtm-m2-standard-deviation-q-60834f36`: 1.13, 1.27
+- question `qtm-m2-standard-deviation-q-ea09154a`: 70
+- question `qtm-m2-standard-deviation-q-88ef1de8`: 1.13, 1.27, 110, 3.16
+- chunk `qtm-m2-variance-c3`: 1.27, 14, 70
+- check question `qtm-m2-variance-q-27db73c6`: 70
+- question `qtm-m2-variance-q-0c97af32`: 70
+- question `qtm-m2-variance-q-03cd9c32`: 12.25, 32, 45, 60, 7.5, 98
+- question `qtm-m2-variance-q-13c07d2f`: 70
+- question `qtm-m2-variance-q-c3e0bc5f`: 12.25, 32, 45, 48, 60, 7.5, 98
+- question `qtm-m2-why-dispersion-q-107db508`: 1.13, 1.27, 110, 16, 3.16, 72
 - question `qtm-m21-choosing-a-measure-q-8eca0ee3`: 3.5, 72, 8.5
 - chunk `qtm-m21-mean-c3`: 72
 - check question `qtm-m21-mean-q-5ef04b5d`: 72
