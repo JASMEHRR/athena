@@ -203,6 +203,35 @@ def check(cat: Catalog) -> tuple[list[str], list[str]]:
         if fb.topic_id not in cat.topics:
             errors.append(f"feedback {fb.id}: unknown topic {fb.topic_id}")
 
+    objective = {q.id: q for _, _, q in cat.iter_questions() if q.type in OBJECTIVE_TYPES}
+    for sid, course in cat.crash.items():
+        where = f"crash/{sid}.json"
+        if EM_DASH in course.model_dump_json():
+            errors.append(f"{where}: contains an em dash; JasMehr's text must not use them")
+        if sid not in cat.subjects:
+            errors.append(f"{where}: unknown subject {sid}")
+        for f in course.formulas:
+            _check_ref(cat, f.source_ref, f"{where} formula {f.name!r}", errors)
+        for s in course.sections:
+            sw = f"{where} section {s.id}"
+            for ref in s.source_refs:
+                _check_ref(cat, ref, sw, errors)
+            for v in s.visuals:
+                if v.source_ref:
+                    _check_ref(cat, v.source_ref, f"{sw} {v.kind} picture", errors)
+            for tid in s.topic_ids:
+                topic = cat.topics.get(tid)
+                if topic is None or topic.subject_id != sid:
+                    errors.append(f"{sw}: unknown {sid} topic {tid}")
+            for qid in s.quiz_ids:
+                if qid not in objective:
+                    errors.append(f"{sw}: quiz id {qid} is not an objective question in the bank")
+            for p in s.practice:
+                if p.pyq_id and p.pyq_id not in cat.pyqs:
+                    errors.append(f"{sw}: unknown past-paper question {p.pyq_id}")
+            if s.analogy and s.analogy.text in s.exam_answer_md:
+                errors.append(f"{sw}: the exam answer contains the analogy (not on slide)")
+
     return errors, warnings
 
 

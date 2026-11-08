@@ -30,6 +30,8 @@ DB = ROOT / "data" / "screens.db"
 SIZES = {"desktop": (1440, 900), "phone": (390, 844)}
 PAGES = [
     ("today", "#/today"),
+    ("crash-index", "#/crash"),
+    ("crash-be", "#/crash/be?hours=12"),
     ("subjects", "#/subjects"),
     ("subject-far", "#/subject/far"),
     ("learn", "#/learn/far-fe-elements"),

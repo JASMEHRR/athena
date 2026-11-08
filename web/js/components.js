@@ -85,10 +85,12 @@ export function refChips(refs, onOpen = openSlideModal) {
 /**
  * A worked example revealed one step at a time: the question, then each step
  * (what we do, why, the result), then the answer. Returns {node, next, done}
- * so the page can let Enter show the next step.
+ * so the page can let Enter show the next step (enterKey: show that hint). tryFirst:
+ * practice mode, where JasMehr attempts the question before revealing anything
+ * (steps may be empty).
  */
-export function workedSteps(w) {
-  const steps = w.steps.map((st, i) => el("li", { class: "wstep", hidden: true },
+export function workedSteps(w, { tryFirst = false, enterKey = false } = {}) {
+  const steps = (w.steps || []).map((st, i) => el("li", { class: "wstep", hidden: true },
     el("div", { class: "wstep-head" }, el("span", { class: "wstep-n" }, String(i + 1)), el("b", {}, st.title)),
     el("div", { class: "lesson", html: md(st.body_md) }),
     st.why ? el("p", { class: "wstep-why" }, el("b", {}, "Why: "), st.why) : null,
@@ -98,31 +100,42 @@ export function workedSteps(w) {
   const nextBtn = el("button", { class: "btn primary" });
   const allBtn = el("button", { class: "btn ghost" }, "Show all steps");
   const controls = el("div", { class: "row wrap" }, nextBtn, allBtn,
-    el("span", { class: "small faint" }, el("span", { class: "kbd" }, "Enter"), " next step"));
+    enterKey ? el("span", { class: "small faint" }, el("span", { class: "kbd" }, "Enter"), " next step") : null);
   let shown = 0;
+
+  let opened = false;  // with no steps, the answer is the only thing to reveal
 
   function label() {
     clear(nextBtn);
-    nextBtn.append(shown ? `Next: step ${shown + 1} of ${steps.length}` : `Show step 1 of ${steps.length}`, icon("arrow"));
+    if (!steps.length) nextBtn.append(tryFirst ? "I've tried it: show the answer" : "Show the answer", icon("arrow"));
+    else if (shown) nextBtn.append(`Next: step ${shown + 1} of ${steps.length}`, icon("arrow"));
+    else nextBtn.append(`${tryFirst ? "I've tried it: show" : "Show"} step 1 of ${steps.length}`, icon("arrow"));
+  }
+  function finished() {
+    return steps.length ? shown >= steps.length : opened;
   }
   function reveal(upTo) {
     const before = shown;
     while (shown < Math.min(upTo, steps.length)) steps[shown++].hidden = false;
-    if (shown >= steps.length) {
+    if (!steps.length) opened = true;
+    if (finished()) {
       if (answer) answer.hidden = false;
       controls.remove();
     } else {
       label();
     }
-    if (shown > before) steps[before].scrollIntoView({ behavior: "smooth", block: "nearest" });
+    const first = shown > before ? steps[before] : answer;
+    if (first) first.scrollIntoView({ behavior: "smooth", block: "nearest" });
   }
   label();
+  if (!steps.length) allBtn.remove();
   nextBtn.addEventListener("click", () => reveal(shown + 1));
   allBtn.addEventListener("click", () => reveal(steps.length));
   const node = el("div", { class: "worked" },
-    el("div", { class: "worked-q" }, el("div", { class: "sec-h" }, "The question"), el("div", { class: "lesson", html: md(w.question_md) })),
+    el("div", { class: "worked-q" }, el("div", { class: "sec-h" }, tryFirst ? "Try it yourself first" : "The question"),
+      el("div", { class: "lesson", html: md(w.question_md) })),
     el("ol", { class: "wsteps" }, steps), controls, answer);
-  return { node, next: () => reveal(shown + 1), done: () => shown >= steps.length };
+  return { node, next: () => reveal(shown + 1), done: finished };
 }
 
 // ------------------------------------------------------------- question card

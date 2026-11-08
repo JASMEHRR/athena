@@ -150,6 +150,18 @@ def create_app() -> FastAPI:
             raise _not_found("topic")
         return data
 
+    @app.get(f"{API}/crash")
+    def crash_list(conn: sqlite3.Connection = Depends(get_conn)):
+        return services.crash_index(conn)
+
+    @app.get(f"{API}/crash/{{subject_id}}")
+    def crash_course(subject_id: str, hours: float = Query(12, ge=0.5, le=200),
+                     conn: sqlite3.Connection = Depends(get_conn)):
+        data = services.crash_course(conn, subject_id, hours)
+        if data is None:
+            raise _not_found("crash course")
+        return data
+
     @app.get(f"{API}/slides/{{deck_id}}/{{n}}")
     def slide(deck_id: str, n: int, conn: sqlite3.Connection = Depends(get_conn)):
         data = services.slide(conn, deck_id, n)

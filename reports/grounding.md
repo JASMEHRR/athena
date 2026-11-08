@@ -1,10 +1,10 @@
 # Grounding report
 
-Generated 2026-11-08 11:03. Checked 9041 items against the slides they cite.
+Generated 2026-11-08 12:19. Checked 9081 items against the slides they cite.
 
 - Failures (visible items with a name or number not on the cited slides): **0**
 - Hidden items (needs_check, not shown in the app): 0
-- Items using derived numbers (worked answers): 513
+- Items using derived numbers (worked answers): 521
 
 Whole numbers 0 to 10 are not checked (list counts).
 
@@ -531,3 +531,11 @@ None.
 - question `qtm-m6-t-test-examples-q-16a40d8f`: 1.467, 2.449, 7.33
 - question `qtm-m6-t-tests-q-536f6798`: 0.11, 0.33, 0.44, 0.67, 1.467, 2.33, 5.44, 7.33
 - question `qtm-m6-t-tests-q-5bb342ba`: 100, 2,232, 64, 82.67, 9.09
+- crash section `be:cost-functions`: 30, 32, 320
+- crash section `be:trend`: 10.607, 1008, 101, 1022.5, 112, 11325, 164.36, 164.4, 2972.5, 428, 45, 535, 58.92, 74.25, 84
+- crash section `be:moving-average`: 15.00, 20.00, 20.07, 225.00, 23.33, 2416.67, 28.33, 400.00, 402.78, 44.44, 544.44, 802.78
+- crash section `be:exponential-smoothing`: 0.01, 0.09, 0.8, 1.08, 1.13, 1.17, 1.28, 1.29, 1.41, 1.68, 1.93, 10.45, 11.37, 11.97, 2.04, 2.13, 2.19, 2.30, 20.70, 20.71, 20.77, 20.87, 20.96, 21.07, 21.08, 21.09, 21.13, 21.37, 21.41, 21.46, 253, 3.23, 3.37, 3.46, 3.71, 4.14, 4.54, 4.80, 5.30, 57.62
+- crash section `be:elasticity`: 0.2, 1.6, 25, 25%, 30, 30%
+- crash section `be:markets-and-government`: 105, 120, 150, 2,500, 200, 360, 390, 55, 65, 90
+- crash section `be:consumer-choice`: 0.5
+- crash section `be:foundations`: 0.06, 1.05, 1.06, 1.2625, 10,561.25, 121.23, 13,333.33, 130, 8.77

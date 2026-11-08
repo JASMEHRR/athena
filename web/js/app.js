@@ -6,6 +6,7 @@ import { clear, el, errorBox, icon, setDecks, toast } from "./ui.js";
 
 const NAV = [
   { route: "today", label: "Today", icon: "today" },
+  { route: "crash", label: "One-shot", icon: "spark" },
   { route: "subjects", label: "Subjects", icon: "subjects" },
   { route: "review", label: "Review", icon: "review", badge: true },
   { route: "practice", label: "Practice", icon: "practice" },
@@ -16,7 +17,7 @@ const NAV = [
   { route: "settings", label: "Settings", icon: "settings" },
 ];
 const TABS = ["today", "subjects", "review", "practice", "more"];
-const PAGES = new Set(["today", "subjects", "subject", "learn", "review", "practice", "plan", "insights", "library", "sources", "settings", "more"]);
+const PAGES = new Set(["today", "crash", "subjects", "subject", "learn", "review", "practice", "plan", "insights", "library", "sources", "settings", "more"]);
 
 const main = document.getElementById("main");
 let current = null;

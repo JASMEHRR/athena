@@ -61,8 +61,18 @@ export function onKey(e) {
   if (warm && warm._keys) warm._keys(e);
 }
 
+function crashCard(c) {
+  return el("a", { class: "crash-cta", href: `#/crash/${c.subject_id}` },
+    el("span", { class: "crash-cta-icon" }, icon("spark")),
+    el("div", { class: "grow" }, el("div", { class: "crash-cta-kicker" }, `One-shot · ${c.subject_name}`),
+      el("div", { class: "crash-cta-title" }, c.title),
+      el("div", { class: "small muted" }, `${c.sections} parts, planned around the hours you have` +
+        (c.next_exam ? ` · exam in ${c.next_exam.days_left} ${c.next_exam.days_left === 1 ? "day" : "days"}` : ""))),
+    el("span", { class: "btn primary" }, "Start", icon("arrow")));
+}
+
 export async function render(root) {
-  const t = await api.get("/today");
+  const [t, crashes] = await Promise.all([api.get("/today"), api.get("/crash").catch(() => [])]);
   const page = el("div", { class: "page" });
   root.append(page);
 
@@ -75,6 +85,8 @@ export async function render(root) {
         el("div", { class: "num" }, String(t.streak.days), el("small", {}, t.streak.days === 1 ? "day streak" : "day streak")),
         el("div", { class: "small faint" }, t.streak.done_today ? "Today counts already" : "Study 15 minutes or do a review to keep it")),
       dots)));
+
+  if (crashes.length) page.append(el("div", { class: "stack section" }, ...crashes.map(crashCard)));
 
   if (!t.has_exam_dates) {
     page.append(banner("No exam dates yet. Add your end-semester dates and Athena will plan backwards from them. Until then it rotates through your subjects.",

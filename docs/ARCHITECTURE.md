@@ -37,6 +37,7 @@ FastAPI on 127.0.0.1:8765  ->  web/ (plain HTML, CSS, ES modules)
 | `srs.py` | FSRS wrapper: card state in and out of SQLite, ratings, retrievability. |
 | `progress.py` | Attempts, mastery, streak, activity time. |
 | `planner.py` | Deterministic study planner (pure functions, unit tested). |
+| `crash.py` | Fits a one-shot crash course into the hours JasMehr has: priorities, a timed paper, breaks (pure functions, unit tested). |
 | `api.py` | FastAPI app under `/api/v1`, plus static files from `web/`. |
 | `nudge.py` | `python -m athena.nudge`: reads SQLite, shows a Windows notification. |
 | `sync_classroom.py` | Optional read-only Google Classroom download into inbox/. |

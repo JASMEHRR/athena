@@ -49,8 +49,9 @@ const textWidth = (text, size = 13) => String(text).length * size * 0.56;
 
 function plot(v) {
   const W = 440, H = 300, ml = 46, mr = 64, mt = 28, mb = 42;
+  const yMin = v.y_min || 0;
   const X = (x) => r1(ml + (x / v.x_max) * (W - ml - mr));
-  const Y = (y) => r1(H - mb - (y / v.y_max) * (H - mt - mb));
+  const Y = (y) => r1(H - mb - ((y - yMin) / (v.y_max - yMin)) * (H - mt - mb));
   const svg = svgBox(W, H, v.title || `Graph of ${v.y_label} against ${v.x_label}`);
   const areas = s("g"), guides = s("g"), axes = s("g"), lines = s("g"), dots = s("g");
   svg.append(areas, guides, axes, lines, dots);
@@ -66,7 +67,7 @@ function plot(v) {
 
   const x0 = X(0), y0 = Y(0);
   axes.append(
-    s("path", { d: `M${x0},${y0} V${mt - 10}`, class: "axis" }),
+    s("path", { d: `M${x0},${Y(yMin)} V${mt - 10}`, class: "axis" }),
     s("path", { d: `M${x0},${y0} H${W - mr + 22}`, class: "axis" }),
     s("path", { d: `M${x0 - 4},${mt - 4} L${x0},${mt - 12} L${x0 + 4},${mt - 4}z`, class: "axis-head" }),
     s("path", { d: `M${W - mr + 18},${y0 - 4} L${W - mr + 26},${y0} L${W - mr + 18},${y0 + 4}z`, class: "axis-head" }),
@@ -105,6 +106,9 @@ function plot(v) {
     if (d.guides) guides.append(s("path", { d: `M${x0},${y} H${x} V${y0}`, class: "guide" }));
     dots.append(s("circle", { cx: x, cy: y, r: 4.5, class: "dot" }));
     if (d.label) dots.append(s("text", { x: x + 8, y: d.label_at === "below" ? y + 18 : y - 8, class: "dot-label" }, d.label));
+  }
+  for (const n of v.notes || []) {
+    dots.append(s("text", { x: X(n.x), y: Y(n.y), class: `note-label t-${n.tone}` }, n.text));
   }
   return svg;
 }

@@ -7,6 +7,7 @@ export const title = () => "More";
 
 export async function render(root) {
   const items = [
+    ["crash", "One-shot", "A whole exam in one guided page, planned for your hours", "spark"],
     ["plan", "Plan", "Calendar, daily targets, exam countdown", "plan"],
     ["insights", "Insights", "Weak spots, time spent, accuracy, streak", "insights"],
     ["library", "Library", "Frameworks, examples, past papers, search", "library"],

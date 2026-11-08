@@ -123,6 +123,12 @@ export async function render(root, { args }) {
       el("div", { class: "stat" }, el("span", { class: "label" }, "Mastery"), el("div", { class: "num" }, pct(avg))),
       d.next_exam ? el("div", { class: "stat" }, el("span", { class: "label" }, "Exam"), el("div", { class: "num" }, `${d.next_exam.days_left}`, el("small", {}, "days")),
         el("div", { class: "small faint" }, fmtDate(d.next_exam.date))) : null)));
+  if (d.crash) {
+    page.append(el("a", { class: "crash-cta", href: `#/crash/${d.subject.id}` }, el("span", { class: "crash-cta-icon" }, icon("spark")),
+      el("div", { class: "grow" }, el("div", { class: "crash-cta-kicker" }, "One-shot"), el("div", { class: "crash-cta-title" }, d.crash.title),
+        el("div", { class: "small muted" }, "The whole exam in one guided page, planned around the hours you have")),
+      el("span", { class: "btn primary" }, "Start", icon("arrow"))));
+  }
 
   const tabs = [
     ["topics", "Topics", topicsTab], ["decks", "Slides", decksTab], ["examples", "Examples", examplesTab],

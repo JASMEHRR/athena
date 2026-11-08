@@ -15,7 +15,7 @@ import sqlite3
 import uuid
 from datetime import date, datetime, timedelta
 
-from . import config, grading, progress, srs, timeutil
+from . import config, crash, grading, progress, srs, timeutil
 
 OBJECTIVE = ("mcq", "true_false", "fill", "one_line")
 WRITTEN = ("short", "long", "differentiate", "case")
@@ -195,10 +195,12 @@ def subject_detail(conn: sqlite3.Connection, subject_id: str) -> dict | None:
         "SELECT key, json FROM c_kv WHERE key IN (?, ?)", (f"pattern:{subject_id}", f"syllabus:{subject_id}"))}
     topic_ids = {t["id"] for t in topics}
     videos = [v for v in _kv(conn, "videos", []) if v["topic_id"] in topic_ids]
+    oneshot = _kv(conn, f"crash:{subject_id}")
     return {
         "subject": subject, "topics": topics, "decks": decks, "examples": examples, "frameworks": frameworks,
         "pyqs": pyqs, "pattern": kv.get(f"pattern:{subject_id}"), "syllabus": kv.get(f"syllabus:{subject_id}"),
         "videos": videos, "next_exam": next_exam_by_subject(conn).get(subject_id),
+        "crash": {"title": oneshot["title"]} if oneshot else None,
     }
 
 
@@ -270,6 +272,44 @@ def lesson(conn: sqlite3.Connection, topic_id: str) -> dict | None:
         "progress": {"status": progress.topic_status(conn, topic_id), "mastery": progress.mastery(conn, topic_id),
                      "confidence": tp["confidence"] if tp else None},
     }
+
+
+# ------------------------------------------------------------------ one-shot crash course
+
+
+def crash_index(conn: sqlite3.Connection) -> list[dict]:
+    """Every subject with a crash course, next exam first."""
+    subjects = subject_map(conn)
+    next_exams = next_exam_by_subject(conn)
+    out = []
+    for r in conn.execute("SELECT key, json FROM c_kv WHERE key LIKE 'crash:%'"):
+        course = json.loads(r["json"])
+        sid = course["subject_id"]
+        out.append({"subject_id": sid, "title": course["title"], "exam": course["exam"],
+                    "subject_name": subjects.get(sid, {}).get("name", sid), "color": subjects.get(sid, {}).get("color", ""),
+                    "sections": len(course["sections"]), "minutes": sum(s["minutes"] for s in course["sections"]),
+                    "next_exam": next_exams.get(sid)})
+    return sorted(out, key=lambda c: (c["next_exam"] is None, (c["next_exam"] or {}).get("date", ""), c["subject_id"]))
+
+
+def crash_course(conn: sqlite3.Connection, subject_id: str, hours: float) -> dict | None:
+    """The course, its plan for the hours given, and its quiz questions (answers stay on the server)."""
+    course = _kv(conn, f"crash:{subject_id}")
+    if course is None:
+        return None
+    sections = [crash.Section(s["id"], s["title"], s["priority"], s["minutes"]) for s in course["sections"]]
+    titles = {r["id"]: r["title"] for r in topic_rows(conn, subject_id)}
+    for s in course["sections"]:
+        s["topics"] = [{"id": t, "title": titles[t]} for t in s.get("topic_ids", []) if t in titles]
+        quiz = []
+        for qid in s.get("quiz_ids", []):
+            row = question_row(conn, qid)
+            if row is not None and not row["hidden"]:
+                quiz.append(_question_payload(json.loads(row["json"]), row["topic_id"], timeutil.day_str()))
+        s["quiz"] = quiz
+    subject = subject_map(conn).get(subject_id, {})
+    return {"course": course, "plan": crash.plan(sections, hours), "subject_name": subject.get("name", subject_id),
+            "color": subject.get("color", ""), "next_exam": next_exam_by_subject(conn).get(subject_id)}
 
 
 def topic_links(conn: sqlite3.Connection, topic_id: str) -> list[dict]:

@@ -312,6 +312,27 @@ def run_checks(cat: Catalog) -> list[ItemResult]:
         if not fw.retired:
             text = "\n".join([fw.name, fw.description] + [f"{p.name}: {p.text}" for p in fw.parts])
             check("framework", fw.id, "", fw.source_refs, text)
+
+    # One-shot crash courses: each section against its slides, plus the past papers its practice quotes.
+    for sid, course in cat.crash.items():
+        for f in course.formulas:
+            check("crash formula", f"{sid}:{f.name}", "", [f.source_ref], f"{f.name}\n{f.formula}\n{f.note}")
+        for s in course.sections:
+            refs = sorted(set(s.source_refs) | {v.source_ref for v in s.visuals if v.source_ref})
+            ev, bad = _evidence_for(cat, refs)
+            papers = [f"{q.exam} {q.year} Q{q.q_no} {q.text}"
+                      for q in (cat.pyqs[p.pyq_id] for p in s.practice if p.pyq_id in cat.pyqs)]
+            if papers:
+                ev = build_evidence([ev.text, *papers])
+            missing, used = check_text("\n".join(s.teaching_texts()), ev, vocab, set(s.derived))
+            result = ItemResult("crash section", f"{sid}:{s.id}", "", refs, missing, used)
+            if bad:
+                result.missing.append("bad refs: " + ", ".join(bad))
+            results.append(result)
+            if s.analogy:
+                problems = analogy_problems(s.analogy.text, vocab)
+                results.append(ItemResult("crash analogy", f"{sid}:{s.id}", "", refs,
+                                          [f"names or numbers: {', '.join(problems)}"] if problems else []))
     return results
 
 

@@ -337,33 +337,43 @@ class PlotDot(StrictModel):
     guides: bool = False  # dashed lines from the dot to both axes
 
 
+class PlotNote(StrictModel):
+    x: float
+    y: float
+    text: str  # a label written inside the graph, starting at (x, y)
+    tone: Tone = "muted"
+
+
 class PlotVisual(VisualBase):
-    """A graph with axes from 0: demand and supply, cost curves, shaded surplus areas."""
+    """A graph with x from 0: demand and supply, cost curves, shaded surplus areas.
+    y starts at 0 unless y_min is negative (marginal product below zero, say)."""
 
     kind: Literal["plot"] = "plot"
     x_label: str
     y_label: str
     x_max: float = Field(gt=0)
     y_max: float = Field(gt=0)
+    y_min: float = Field(default=0, le=0)
     x_ticks: list[Tick] = Field(default_factory=list)
     y_ticks: list[Tick] = Field(default_factory=list)
     lines: list[PlotLine] = Field(default_factory=list)
     areas: list[PlotArea] = Field(default_factory=list)
     dots: list[PlotDot] = Field(default_factory=list)
+    notes: list[PlotNote] = Field(default_factory=list)
 
     @model_validator(mode="after")
     def _inside(self) -> "PlotVisual":
         points = [p for line in self.lines for p in line.points] + [p for a in self.areas for p in a.points]
-        points += [(d.x, d.y) for d in self.dots]
+        points += [(d.x, d.y) for d in self.dots] + [(n.x, n.y) for n in self.notes]
         for x, y in points:
-            if not (0 <= x <= self.x_max and 0 <= y <= self.y_max):
-                raise ValueError(f"plot point ({x}, {y}) is outside the axes 0..{self.x_max}, 0..{self.y_max}")
+            if not (0 <= x <= self.x_max and self.y_min <= y <= self.y_max):
+                raise ValueError(f"plot point ({x}, {y}) is outside the axes 0..{self.x_max}, {self.y_min}..{self.y_max}")
         for t in self.x_ticks:
             if not 0 <= t.at <= self.x_max:
                 raise ValueError(f"x tick {t.at} is outside 0..{self.x_max}")
         for t in self.y_ticks:
-            if not 0 <= t.at <= self.y_max:
-                raise ValueError(f"y tick {t.at} is outside 0..{self.y_max}")
+            if not self.y_min <= t.at <= self.y_max:
+                raise ValueError(f"y tick {t.at} is outside {self.y_min}..{self.y_max}")
         if not (self.lines or self.areas or self.dots):
             raise ValueError("a plot needs at least one line, area or dot")
         return self
@@ -492,7 +502,7 @@ def visual_strings(v: VisualBase) -> list[str]:
     if isinstance(v, PlotVisual):
         out += [v.x_label, v.y_label]
         out += [t.label or _num(t.at) for t in v.x_ticks + v.y_ticks]
-        out += [x.label for x in v.lines + v.areas + v.dots]
+        out += [x.label for x in v.lines + v.areas + v.dots] + [n.text for n in v.notes]
     elif isinstance(v, NormalVisual):
         out += [s.label for s in v.shades] + [m.label for m in v.marks]
     elif isinstance(v, TreeVisual):
@@ -536,12 +546,14 @@ class Chunk(StrictModel):
         """The pass C text that must be grounded like the explanation (the analogy is checked separately)."""
         out = [self.big_idea, self.memory_trick, self.exam_answer_md, *self.watch_out]
         if self.worked:
-            out.append(self.worked.question_md)
-            out += [s for step in self.worked.steps for s in (step.title, step.body_md, step.why, step.result)]
-            out.append(self.worked.answer_md)
+            out += worked_texts(self.worked.question_md, self.worked.steps, self.worked.answer_md)
         for v in self.visuals:
             out += visual_strings(v)
         return [s for s in out if s]
+
+
+def worked_texts(question: str, steps: list[WorkStep], answer: str) -> list[str]:
+    return [question, *(s for step in steps for s in (step.title, step.body_md, step.why, step.result)), answer]
 
     @field_validator("id")
     @classmethod
@@ -609,6 +621,99 @@ class Topic(StrictModel):
     @classmethod
     def _refs(cls, v: list[str]) -> list[str]:
         return _check_refs(v)
+
+
+# --------------------------------------------------------------------- one-shot crash course
+#
+# content/crash/<subject>.json: the whole exam in one guided page, ordered by what
+# the papers ask. The app fits it into the hours JasMehr has (athena/crash.py).
+# Sections are grounded against their slides; practice taken from a past paper is
+# grounded against that paper's text too.
+
+
+class Formula(StrictModel):
+    name: str
+    formula: str
+    note: str = ""  # when to use it, in plain words
+    source_ref: str
+
+    @field_validator("source_ref")
+    @classmethod
+    def _ref(cls, v: str) -> str:
+        parse_source_ref(v)
+        return v
+
+
+class Practice(StrictModel):
+    """An exam-style question: try it, then reveal the working step by step."""
+
+    question_md: str
+    marks: float = 0
+    pyq_id: str = ""  # set when the question is from a past paper
+    steps: list[WorkStep] = Field(default_factory=list)
+    answer_md: str
+
+
+class CrashSection(StrictModel):
+    id: str
+    title: str
+    unit: str = ""  # syllabus unit, e.g. "Unit IV"
+    priority: Literal[1, 2, 3]  # 1 sure to come, 2 likely, 3 if time allows
+    minutes: int = Field(ge=5, le=240)  # time to learn it properly
+    why: str  # why it matters: what the past papers asked (not checked against the slides)
+    topic_ids: list[str] = Field(default_factory=list)  # full lessons to open for more depth
+    source_refs: list[str] = Field(min_length=1)
+    big_idea: str
+    body_md: str
+    visuals: list[Visual] = Field(default_factory=list)
+    analogy: Analogy | None = None
+    worked: Worked | None = None
+    watch_out: list[str] = Field(default_factory=list)
+    memory_trick: str = ""
+    exam_answer_md: str = ""
+    practice: list[Practice] = Field(default_factory=list)
+    quiz_ids: list[str] = Field(default_factory=list)  # question bank ids, graded by the server
+    derived: list[str] = Field(default_factory=list)
+
+    @field_validator("id")
+    @classmethod
+    def _id(cls, v: str) -> str:
+        return _check_slug(v, "section id")
+
+    @field_validator("source_refs")
+    @classmethod
+    def _refs(cls, v: list[str]) -> list[str]:
+        return _check_refs(v)
+
+    def teaching_texts(self) -> list[str]:
+        """Everything shown that must be on the cited slides (or a cited past paper, or derived)."""
+        out = [self.title, self.big_idea, self.body_md, self.memory_trick, self.exam_answer_md, *self.watch_out]
+        if self.worked:
+            out += worked_texts(self.worked.question_md, self.worked.steps, self.worked.answer_md)
+        for v in self.visuals:
+            out += visual_strings(v)
+        for p in self.practice:
+            out += worked_texts(p.question_md, p.steps, p.answer_md)
+        return [s for s in out if s]
+
+
+class CrashCourse(StrictModel):
+    subject_id: str
+    title: str
+    exam: str  # which exam this prepares for, e.g. "End-term (EST)"
+    intro_md: str
+    paper_md: str  # the paper's shape, how marks are given, how to use the 120 minutes
+    gaps_md: str = ""  # what the paper may ask that Athena has no slides for yet
+    formulas: list[Formula] = Field(default_factory=list)
+    sections: list[CrashSection] = Field(min_length=1)
+    last_hour: list[str] = Field(default_factory=list)  # the final revision list
+
+    @model_validator(mode="after")
+    def _unique(self) -> "CrashCourse":
+        ids = [s.id for s in self.sections]
+        if len(set(ids)) != len(ids):
+            raise ValueError("crash course section ids must be unique")
+        return self
 
 
 # --------------------------------------------------------------------- catalogs

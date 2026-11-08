@@ -110,6 +110,13 @@ List of `{id, subject_id, year, exam, q_no, marks, text, co, bt, topic_ids[], in
 ### `content/syllabus/<subject_id>.json`
 `{subject_id, course_code, title, source_file, faculty[], modules[], evaluation[], sessions[{n, topic, module, deck_ids[], has_ppt}], note}`.
 
+### `content/crash/<subject_id>.json` (one-shot crash course)
+`{subject_id, title, exam, intro_md, paper_md, gaps_md, formulas[{name, formula, note, source_ref}], sections[CrashSection], last_hour[]}`. The whole exam in one guided page; the app fits it into the hours JasMehr enters (`athena/crash.py`).
+
+**CrashSection:** `{id (slug), title, unit, priority (1 sure to come, 2 likely, 3 if time), minutes (5-240), why, topic_ids[], source_refs[], big_idea, body_md, visuals[Visual], analogy, worked, watch_out[], memory_trick, exam_answer_md, practice[Practice], quiz_ids[], derived[]}`. Sections are listed in study order (must-know first). `why` says what the past papers asked and is not grounded; everything else is grounded against `source_refs`, the visuals' `source_ref`, and the text of any past paper a practice item quotes. `quiz_ids` are objective questions from the bank (graded by the server). `topic_ids` link to the full lessons.
+
+**Practice:** `{question_md, marks, pyq_id, steps[{title, body_md, why, result}], answer_md}`: try first, then reveal step by step. `pyq_id` names the past-paper question it reproduces.
+
 ### `content/videos.json`
 List of `{id, topic_id, title, url, channel, duration_s}`. Labelled "Extra help, not exam source" in the app.
 

@@ -73,6 +73,18 @@ Keys per chunk (all optional, but a taught chunk has at least `big_idea`, one vi
 
 Never put the analogy inside `exam_answer`. Every number and name must be on the chunk's slides (or a visual's `ref`) or in `derived`.
 
+## One-shot crash course (per subject, next exam first)
+
+What JasMehr asked for on 8 Nov 2026: "give it everything, tell it how many hours I have, and it teaches me everything the paper comes from". One file, `content/crash/<subject>.json` (schema in docs/CONTENT_SCHEMA.md).
+
+1. Read the subject's pattern, every past paper (transcribe new ones into `content/pyqs/<subject>.json`), and the decks the exam covers. Note which slide questions the papers reuse word for word (BE EST 2025 Q2 was Session 8's slide question).
+2. Choose 10 to 15 sections in study order: what the latest papers test most comes first, with priority 1; mid-term material that may return is 2 or 3. Give each a realistic `minutes`.
+3. Each section: `why` (the past-paper evidence), a one-line `big_idea`, a short `body_md`, at least one picture, the slide's own worked example as `worked`, practice from slide questions and past papers (`pyq_id`), `quiz_ids` from the bank where it exists, `watch_out`, `memory_trick`, `exam_answer_md`.
+4. Compute every number in a script (tables, RMSE, NPV) instead of typing it, and list computed numbers in `derived`. Name slide arithmetic slips plainly.
+5. If the paper can ask about topics with no slides in Athena, say so in `gaps_md`. Never fill the gap from outside the slides.
+6. `formulas`: every formula the paper needs, one card each, with its slide. `last_hour`: 10 to 15 lines to read before walking in.
+7. Run validate and grounding, open `#/crash/<subject>` at desktop and phone width with every part open, and commit.
+
 ## Pass B (question bank, per subject)
 
 Write a question-bank draft `{"subject_id": "be", "topics": {"<topic_id>": [question, ...]}}` and run `python -m athena.author <file> --questions`. It replaces only the `questions` of those topics (re-running is safe) and leaves lessons, cards and ids alone. Questions use the check format plus `model`, `rubric` (`[["point", slide], ...]`), `marks`, `difficulty` (1 to 3), `style` and `derived`; slide refs are numbers in the topic's own deck. Per topic: about 5 MCQs, 3 short, 2 long, plus differentiate and case questions where the slides support them. Written questions need `model` (short intro, the points, the professor's example, short conclusion) and a `rubric`. Match the subject's style in `content/patterns/<subject>.json`.

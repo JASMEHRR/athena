@@ -92,7 +92,7 @@ function teachView(chunk, index) {
       el("p", {}, chunk.analogy.text)));
   }
   if (chunk.worked) {
-    state.worked = workedSteps(chunk.worked);
+    state.worked = workedSteps(chunk.worked, { enterKey: true });
     view.append(el("section", { class: "tsec" }, el("h3", { class: "sec-h" }, icon("steps"), "Step by step"), state.worked.node));
   }
   if (chunk.watch_out.length) {

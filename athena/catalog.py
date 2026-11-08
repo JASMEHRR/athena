@@ -14,6 +14,7 @@ from pydantic import BaseModel, ValidationError
 from . import config
 from .models import (
     Chunk,
+    CrashCourse,
     Deck,
     Example,
     Exam,
@@ -48,6 +49,7 @@ class Catalog:
     syllabi: dict[str, Syllabus] = field(default_factory=dict)
     videos: dict[str, Video] = field(default_factory=dict)
     feedback: dict[str, Feedback] = field(default_factory=dict)
+    crash: dict[str, CrashCourse] = field(default_factory=dict)  # subject id -> one-shot crash course
     errors: list[str] = field(default_factory=list)
     duplicate_ids: list[str] = field(default_factory=list)
 
@@ -209,6 +211,14 @@ def load(content_dir: Path | None = None) -> Catalog:
         fb = _parse(path, Feedback, cat.errors, root)
         if fb is not None:
             cat.feedback[fb.id] = fb
+
+    for path in sorted((root / "crash").glob("*.json")):
+        course = _parse(path, CrashCourse, cat.errors, root)
+        if course is None:
+            continue
+        if course.subject_id != path.stem:
+            cat.errors.append(f"{_rel(path, root)}: subject_id {course.subject_id} does not match the file name")
+        cat.crash[course.subject_id] = course
 
     return cat
 

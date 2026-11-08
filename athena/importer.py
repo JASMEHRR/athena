@@ -110,6 +110,7 @@ def import_catalog(conn: sqlite3.Connection, cat: Catalog) -> dict:
 
         kv = {f"pattern:{k}": v.model_dump(mode="json") for k, v in cat.patterns.items()}
         kv.update({f"syllabus:{k}": v.model_dump(mode="json") for k, v in cat.syllabi.items()})
+        kv.update({f"crash:{k}": v.model_dump(mode="json") for k, v in cat.crash.items()})
         kv["videos"] = [v.model_dump(mode="json") for v in cat.videos.values()]
         kv["feedback"] = [f.model_dump(mode="json") for f in cat.feedback.values()]
         for key, value in kv.items():

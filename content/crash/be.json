@@ -1,0 +1,2624 @@
+{
+  "subject_id": "be",
+  "title": "BE one-shot: the end-term in one go",
+  "exam": "End-term (EST)",
+  "intro_md": "Everything Athena has for the Business Economics end-term, in the order that wins marks: **production and cost first** (the 2025 end-term was built on them), then **demand forecasting**, then a fast revision of the **mid-term topics**.\n\nEach part gives you the idea in one line, a picture, a worked example from the slides, practice from the slides and past papers, and the exact way to write the answer. Pick your hours, follow the plan from the top, and tick each part when it feels solid.",
+  "paper_md": "**The 2025 end-term:** 40 marks, 120 minutes, all questions compulsory, calculators allowed.\n\n- **Q1: five short questions × 4 marks = 20 marks** (explain, compare, one small calculation).\n- **Q2 to Q5: four questions × 5 marks = 20 marks** (a cost function, profit-maximizing output and price, a theory question with a diagram).\n\n**Timing:** about 3 minutes a mark. Q1 parts about 10 minutes each (50 minutes), each 5-mark question about 15 minutes (60 minutes), 10 minutes to check.\n\n**How to write each answer:** the definition in the slide's words, a diagram where one fits, the formula, the working laid out in a table, and a one-line conclusion. Numericals: formula first, then substitution, then the answer with units.",
+  "gaps_md": "**Not in Athena yet:** the 2025 end-term also asked about **market structures** (perfect competition, monopoly, monopolistic competition, oligopoly and the kinked demand curve), **industry concentration** (HHI, Rothschild and Dansby-Willig indexes) and **specialized investments and contract length**. Your BE slides in Athena stop at Session 9, so these are not covered here. If your professor has shared those slides, put them in the Business Economics inbox folder and they will be added.",
+  "formulas": [
+    {
+      "name": "Production function",
+      "formula": "Q = F(K, L)",
+      "note": "Maximum output from K and L",
+      "source_ref": "be--session-8#3"
+    },
+    {
+      "name": "Three production functions",
+      "formula": "Q = aK + bL; Q = min{bK, cL}; Q = K^a L^b",
+      "note": "Linear, Leontief, Cobb-Douglas",
+      "source_ref": "be--session-8#4"
+    },
+    {
+      "name": "Average product of labour",
+      "formula": "APL = Q/L",
+      "source_ref": "be--session-8#7"
+    },
+    {
+      "name": "Marginal product of labour",
+      "formula": "MPL = ΔQ/ΔL",
+      "note": "Output from the last worker",
+      "source_ref": "be--session-8#8"
+    },
+    {
+      "name": "How much labour to hire",
+      "formula": "VMPL = w, where VMPL = P × MPL",
+      "source_ref": "be--session-8#13"
+    },
+    {
+      "name": "MRTS",
+      "formula": "MRTS_KL = MPL/MPK",
+      "source_ref": "be--session-8#18"
+    },
+    {
+      "name": "Isocost line",
+      "formula": "wL + rK = C",
+      "note": "K = (1/r)C - (w/r)L",
+      "source_ref": "be--session-8#19"
+    },
+    {
+      "name": "Cost minimization",
+      "formula": "MPL/w = MPK/r, so MRTS_KL = w/r",
+      "note": "Isocost tangent to isoquant",
+      "source_ref": "be--session-8#20"
+    },
+    {
+      "name": "Total cost",
+      "formula": "C(Q) = VC(Q) + FC",
+      "source_ref": "be--session-8#24"
+    },
+    {
+      "name": "Average costs",
+      "formula": "AFC = FC/Q; AVC = VC(Q)/Q; ATC = C(Q)/Q = AVC + AFC",
+      "source_ref": "be--session-8#26"
+    },
+    {
+      "name": "Marginal cost",
+      "formula": "MC = ΔC/ΔQ (or dC/dQ)",
+      "source_ref": "be--session-8#26"
+    },
+    {
+      "name": "Cubic cost function",
+      "formula": "C = f + aQ + bQ² + cQ³, so MC = a + 2bQ + 3cQ²",
+      "source_ref": "be--session-8#32"
+    },
+    {
+      "name": "Economies of scope",
+      "formula": "C(Q1, 0) + C(0, Q2) > C(Q1, Q2)",
+      "source_ref": "be--session-8#41"
+    },
+    {
+      "name": "Quadratic multi-product cost",
+      "formula": "MC1 = aQ2 + 2Q1; complementarity if a < 0; scope if f > aQ1Q2",
+      "source_ref": "be--session-8#43"
+    },
+    {
+      "name": "Linear trend",
+      "formula": "S = a + bt",
+      "note": "Normal equations from a table of t, t², St",
+      "source_ref": "be--session-9#16"
+    },
+    {
+      "name": "3-period moving average",
+      "formula": "F(t+1) = (Y(t) + Y(t-1) + Y(t-2)) / 3",
+      "source_ref": "be--session-9#21"
+    },
+    {
+      "name": "Exponential smoothing",
+      "formula": "F(t+1) = αY(t) + (1 - α)F(t), 0 < α < 1",
+      "source_ref": "be--session-9#27"
+    },
+    {
+      "name": "RMSE",
+      "formula": "RMSE = √[Σ(At - Ft)² / n]",
+      "note": "Lower is better",
+      "source_ref": "be--session-9#25"
+    },
+    {
+      "name": "Own price elasticity",
+      "formula": "E(QX,PX) = %ΔQX / %ΔPX",
+      "source_ref": "be--session-6#5"
+    },
+    {
+      "name": "Cross and income elasticity",
+      "formula": "E(QX,PY) = %ΔQX / %ΔPY; E(QX,M) = %ΔQX / %ΔM",
+      "source_ref": "be--session-6#22"
+    },
+    {
+      "name": "Market equilibrium",
+      "formula": "Qxs = Qxd",
+      "source_ref": "be--sessions-4-and-5#26"
+    },
+    {
+      "name": "Budget line",
+      "formula": "PxX + PyY = M",
+      "source_ref": "be--session-7#10"
+    },
+    {
+      "name": "Consumer equilibrium",
+      "formula": "MRS = Px/Py",
+      "source_ref": "be--session-7#12"
+    },
+    {
+      "name": "Present value",
+      "formula": "PV = FV / (1 + i)^n",
+      "source_ref": "be--session-1-and-2#20"
+    },
+    {
+      "name": "Perpetuity",
+      "formula": "PV = CF / i",
+      "source_ref": "be--session-1-and-2#37"
+    },
+    {
+      "name": "NPV",
+      "formula": "NPV = PV of future cash flows - C₀",
+      "note": "Accept if NPV > 0",
+      "source_ref": "be--session-1-and-2#31"
+    }
+  ],
+  "sections": [
+    {
+      "id": "production-functions",
+      "title": "Production functions: linear, Leontief, Cobb-Douglas",
+      "unit": "Unit IV",
+      "priority": 1,
+      "minutes": 30,
+      "why": "The end-term is built on production and cost (the 2025 end-term was almost all Unit IV and V). The professor's two worked questions here are ready-made short numericals.",
+      "source_refs": [
+        "be--session-8#3",
+        "be--session-8#4",
+        "be--session-8#5",
+        "be--session-8#6",
+        "be--session-8#7",
+        "be--session-8#8"
+      ],
+      "big_idea": "A production function tells you the most output you can make from given amounts of capital (K) and labour (L): Q = F(K, L).",
+      "body_md": "**Production function: Q = F(K, L)**, the **maximum** amount of output that can be produced with K units of capital and L units of labour.\n\n- **Short run:** some inputs are **fixed**. **Long run:** all inputs are **variable**.\n\n**Three forms you must know:**\n\n| Form | Formula | What it means |\n|---|---|---|\n| **Linear** | Q = aK + bL | Inputs are **perfect substitutes** |\n| **Leontief** | Q = min{bK, cL} | Inputs are used in **fixed proportions** |\n| **Cobb-Douglas** | Q = K^a L^b | Inputs have a **degree of substitutability** |\n\n**Measuring productivity:**\n\n- **Total product (TP):** the maximum output from the inputs.\n- **Average product:** APL = Q/L, the output of an 'average' worker (APK = Q/K for capital).\n- **Marginal product:** MPL = ΔQ/ΔL, the output produced by the **last** worker. It is the slope of the production function.",
+      "visuals": [
+        {
+          "kind": "compare",
+          "title": "The three production functions",
+          "sides": [
+            {
+              "title": "Linear: Q = aK + bL",
+              "tone": "a",
+              "points": [
+                "Perfect substitutes",
+                "Swap K for L at a constant rate"
+              ]
+            },
+            {
+              "title": "Leontief: Q = min{bK, cL}",
+              "tone": "d",
+              "points": [
+                "Fixed proportions",
+                "Output is set by the scarcer input"
+              ]
+            },
+            {
+              "title": "Cobb-Douglas: Q = K^a L^b",
+              "tone": "b",
+              "points": [
+                "Some substitutability",
+                "Inputs are not perfectly substitutable"
+              ]
+            }
+          ]
+        }
+      ],
+      "worked": {
+        "question_md": "**The professor's question:** a firm's production function is **Q = F(K, L) = min{3K, 4L}**, where K is capital and L is labour. Calculate output when **K = 5, L = 2**.",
+        "steps": [
+          {
+            "title": "Work out each part of the min",
+            "body_md": "3K = 3 × 5 = **15**\n\n4L = 4 × 2 = **8**",
+            "why": "In a Leontief function you need both inputs together, so you check what each one alone allows.",
+            "result": "3K = 15, 4L = 8"
+          },
+          {
+            "title": "Take the smaller one",
+            "body_md": "Q = min{15, 8} = **8**",
+            "why": "With fixed proportions the scarcer input limits output; the extra capital cannot be used.",
+            "result": "Q = 8"
+          }
+        ],
+        "answer_md": "**Q = 8 units.** Labour is the limit here."
+      },
+      "practice": [
+        {
+          "question_md": "Q = F(K, L) = K^0.5 L^0.5 and capital is fixed at **16 units** (the short run). What is total product when **100 units of labour** are used?",
+          "steps": [
+            {
+              "title": "Fix capital",
+              "body_md": "Q = (16)^0.5 L^0.5 = 4 L^0.5",
+              "why": "Capital is fixed in the short run, so it becomes a number.",
+              "result": ""
+            },
+            {
+              "title": "Put in L = 100",
+              "body_md": "Q = 4 × (100)^0.5 = 4 × 10 = **40**",
+              "why": "",
+              "result": "TP = 40 units"
+            }
+          ],
+          "answer_md": "**Total product = 40 units.**"
+        },
+        {
+          "question_md": "With Q = K^0.5 L^0.5, **K = 16 and L = 16**. Find the average product of labour and of capital.",
+          "steps": [
+            {
+              "title": "Find Q",
+              "body_md": "Q = (16)^0.5 × (16)^0.5 = 4 × 4 = **16**",
+              "why": "",
+              "result": ""
+            },
+            {
+              "title": "Divide",
+              "body_md": "APL = Q/L = 16/16 = **1**\n\nAPK = Q/K = 16/16 = **1**",
+              "why": "Average product is output per unit of that input.",
+              "result": ""
+            }
+          ],
+          "answer_md": "**APL = 1 and APK = 1.**"
+        }
+      ],
+      "watch_out": [
+        "In min{3K, 4L} you take the **smaller** number. Do not add them.",
+        "**Average** product divides (Q/L). **Marginal** product is the **change** in Q from one more unit of L.",
+        "K^0.5 means the **square root** of K."
+      ],
+      "memory_trick": "**Linear adds, Leontief takes the smaller, Cobb-Douglas multiplies.**",
+      "exam_answer_md": "**Production function:** Q = F(K, L), the maximum output that can be produced with K units of capital and L units of labour.\n\n- **Linear:** Q = aK + bL, inputs are perfect substitutes.\n- **Leontief:** Q = min{bK, cL}, inputs are used in fixed proportions.\n- **Cobb-Douglas:** Q = K^a L^b, inputs have a degree of substitutability.\n\nExample: Q = min{3K, 4L} with K = 5, L = 2 gives 3K = 15, 4L = 8, so **Q = min{15, 8} = 8**."
+    },
+    {
+      "id": "variable-proportions",
+      "title": "TP, AP, MP and the law of variable proportions",
+      "unit": "Unit IV",
+      "priority": 1,
+      "minutes": 35,
+      "why": "A TP table turned into AP and MP is a quick numerical, and the law of variable proportions is a classic 'Explain with a diagram' question. The professor solved this exact table in class.",
+      "source_refs": [
+        "be--session-8#8",
+        "be--session-8#9",
+        "be--session-8#10",
+        "be--session-8#11",
+        "be--session-8#12",
+        "be--session-8#13"
+      ],
+      "big_idea": "Add workers to a fixed factory and each new worker first adds more output, then less, and in the end can even reduce it.",
+      "body_md": "**Law of Variable Proportions** (short run): as successive units of a **variable input** are added to a **fixed input**, the **marginal product** of the variable input **first increases, reaches a maximum, and eventually decreases**.\n\n**Why it rises first:** the fixed input is **underutilised**. More workers allow **specialisation**, better **coordination** and **better utilisation** of the machines and space.\n\n**Why it falls later:** the fixed input becomes a **constraint**. Workers **wait for machines**, the space becomes **crowded**, and the chances for more specialisation are **exhausted**.\n\nThe three stages: **increasing**, **diminishing** and **negative** marginal returns.\n\n**How much labour to hire?** Hire labour until the **value of marginal product equals the wage**: **VMPL = w**, where **VMPL = P × MPL**. For capital: VMPK = r.",
+      "visuals": [
+        {
+          "kind": "plot",
+          "title": "Total, average and marginal product (shapes only)",
+          "x_label": "Labour (L)",
+          "y_label": "Output",
+          "x_max": 10,
+          "y_max": 10,
+          "y_min": -2,
+          "lines": [
+            {
+              "points": [
+                [
+                  4,
+                  -2
+                ],
+                [
+                  4,
+                  9
+                ]
+              ],
+              "tone": "muted",
+              "dashed": true
+            },
+            {
+              "points": [
+                [
+                  8,
+                  -2
+                ],
+                [
+                  8,
+                  9
+                ]
+              ],
+              "tone": "muted",
+              "dashed": true
+            },
+            {
+              "points": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  2,
+                  1.2
+                ],
+                [
+                  3,
+                  2.6
+                ],
+                [
+                  4,
+                  4.6
+                ],
+                [
+                  5,
+                  6.4
+                ],
+                [
+                  6,
+                  7.6
+                ],
+                [
+                  7,
+                  8.2
+                ],
+                [
+                  8,
+                  8.4
+                ],
+                [
+                  9,
+                  8.1
+                ],
+                [
+                  10,
+                  7.5
+                ]
+              ],
+              "label": "TP",
+              "tone": "a",
+              "curve": true
+            },
+            {
+              "points": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  1.5,
+                  3
+                ],
+                [
+                  3,
+                  4.9
+                ],
+                [
+                  4,
+                  5.2
+                ],
+                [
+                  5,
+                  4.3
+                ],
+                [
+                  6,
+                  3
+                ],
+                [
+                  7,
+                  1.5
+                ],
+                [
+                  8,
+                  0
+                ],
+                [
+                  9,
+                  -1.3
+                ]
+              ],
+              "label": "MP",
+              "tone": "d",
+              "curve": true
+            },
+            {
+              "points": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  2,
+                  1.8
+                ],
+                [
+                  4,
+                  3.2
+                ],
+                [
+                  5.5,
+                  3.6
+                ],
+                [
+                  7,
+                  3.4
+                ],
+                [
+                  8.5,
+                  3.0
+                ],
+                [
+                  10,
+                  2.4
+                ]
+              ],
+              "label": "AP",
+              "tone": "b",
+              "curve": true
+            }
+          ],
+          "notes": [
+            {
+              "x": 0.3,
+              "y": 9.4,
+              "text": "Increasing",
+              "tone": "b"
+            },
+            {
+              "x": 4.3,
+              "y": 9.4,
+              "text": "Diminishing",
+              "tone": "c"
+            },
+            {
+              "x": 8.2,
+              "y": 9.4,
+              "text": "Negative",
+              "tone": "d"
+            }
+          ],
+          "caption": "MP peaks first, then cuts AP at the top of AP. Total product peaks where MP reaches zero; after that MP is negative and total product falls.",
+          "source_ref": "be--session-8#11"
+        }
+      ],
+      "worked": {
+        "question_md": "**The professor's question:** a firm observes the following relationship between labour and output. Calculate (1) the average product of labour, (2) the marginal product of labour, (3) at what level of employment diminishing marginal product begins.\n\n| Labour (L) | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 |\n|---|---|---|---|---|---|---|---|---|\n| Total product (TP) | 0 | 10 | 24 | 39 | 52 | 60 | 66 | 70 |",
+        "steps": [
+          {
+            "title": "Set up the table",
+            "body_md": "Add two columns: **AP = TP ÷ L** and **MP = this TP minus the previous TP**.",
+            "why": "Average product is output per worker; marginal product is what the last worker added.",
+            "result": ""
+          },
+          {
+            "title": "Fill it in",
+            "body_md": "| L | TP | AP = TP/L | MP = change in TP |\n|---|---|---|---|\n| 1 | 10 | 10/1 = **10** | 10 - 0 = **10** |\n| 2 | 24 | 24/2 = **12** | 24 - 10 = **14** |\n| 3 | 39 | 39/3 = **13** | 39 - 24 = **15** |\n| 4 | 52 | 52/4 = **13** | 52 - 39 = **13** |\n| 5 | 60 | 60/5 = **12** | 60 - 52 = **8** |\n| 6 | 66 | 66/6 = **11** | 66 - 60 = **6** |\n| 7 | 70 | 70/7 = **10** | 70 - 66 = **4** |",
+            "why": "",
+            "result": "AP: 10, 12, 13, 13, 12, 11, 10. MP: 10, 14, 15, 13, 8, 6, 4"
+          },
+          {
+            "title": "Find where diminishing returns begin",
+            "body_md": "MP rises to **15** with the 3rd worker, then **falls to 13** with the **4th** worker.",
+            "why": "Diminishing marginal product begins where MP first falls.",
+            "result": "From the 4th unit of labour"
+          }
+        ],
+        "answer_md": "**AP and MP as in the table. Diminishing marginal product begins at the 4th unit of labour (MP falls from 15 to 13).**"
+      },
+      "watch_out": [
+        "MP is the **difference** between rows, not TP ÷ L (that is AP).",
+        "Diminishing returns start when **MP** starts falling (the 4th worker here), not when TP starts falling.",
+        "MP can fall while TP still rises. TP falls only once MP is **negative**."
+      ],
+      "memory_trick": "**MP leads, AP follows:** MP peaks first, and MP cuts AP at the top of AP.",
+      "exam_answer_md": "**Law of Variable Proportions:** as successive units of a variable input are added to a fixed input, the marginal product of the variable input first increases, reaches a maximum, and eventually decreases.\n\n- **Increasing returns:** the fixed input is underutilised; specialisation, coordination and better use of machines mean each worker adds more.\n- **Diminishing returns:** the fixed input becomes a constraint; each extra worker adds less.\n- **Negative returns:** total product falls.\n\n(Draw TP, AP and MP against L with the three stages.) In the professor's table MP rises to 15 and falls from the 4th worker.",
+      "derived": [
+        "0",
+        "1",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "2",
+        "24",
+        "3",
+        "39",
+        "4",
+        "5",
+        "52",
+        "6",
+        "60",
+        "66",
+        "7",
+        "70",
+        "8"
+      ]
+    },
+    {
+      "id": "cost-minimization",
+      "title": "Isoquants, isocosts and cost minimization",
+      "unit": "Unit IV",
+      "priority": 1,
+      "minutes": 45,
+      "why": "The 2025 end-term asked exactly this for 4 marks: 'Utilizing the iso-quant and iso-cost curves explain the cost minimization principle'. The diagram is half the marks.",
+      "source_refs": [
+        "be--session-8#14",
+        "be--session-8#15",
+        "be--session-8#16",
+        "be--session-8#17",
+        "be--session-8#18",
+        "be--session-8#19",
+        "be--session-8#20",
+        "be--session-8#21",
+        "be--session-8#22",
+        "be--session-8#46"
+      ],
+      "big_idea": "The cheapest way to make a given output is where the isoquant just touches the lowest isocost line: there MRTS = w/r.",
+      "body_md": "**Isoquant:** the long-run combinations of K and L that give the **same output**. Its shape shows how easily one input can replace the other.\n\n**MRTS** (marginal rate of technical substitution): the rate at which two inputs are substituted while keeping the same output. **MRTS_KL = MPL / MPK**.\n\n| Isoquant | Production function | Shape and substitution |\n|---|---|---|\n| Linear | Q = aK + bL | Straight line; perfect substitutes; MRTS = b/a, constant |\n| Leontief | Q = min{bK, cL} | Fixed proportions; perfect complements; no substitution |\n| Cobb-Douglas | Q = K^a L^b | Curved; diminishing MRTS |\n\n**Isocost:** all input combinations that **cost the same**: **wL + rK = C**, or **K = (1/r)C - (w/r)L**. Isocosts farther from the origin cost more. A change in input prices changes the **slope**.\n\n**Cost minimization:** marginal product per dollar spent should be equal for all inputs:\n\n**MPL / w = MPK / r**, which is the same as **MPL / MPK = w / r**, which is just **MRTS_KL = w / r**.\n\nOn the graph this is where the **slope of the isocost = slope of the isoquant**.\n\n**If the wage falls** (w0 to w1), the isocost rotates. To make the same output Q0 the firm moves to a **lower isocost** at point B, using **more labour and less capital**.",
+      "visuals": [
+        {
+          "kind": "plot",
+          "title": "Cost minimization: touch, don't cut",
+          "x_label": "Labour (L)",
+          "y_label": "Capital (K)",
+          "x_max": 8,
+          "y_max": 8,
+          "x_ticks": [
+            {
+              "at": 3,
+              "label": "L*"
+            }
+          ],
+          "y_ticks": [
+            {
+              "at": 3,
+              "label": "K*"
+            }
+          ],
+          "lines": [
+            {
+              "points": [
+                [
+                  1.2,
+                  7.5
+                ],
+                [
+                  1.5,
+                  6
+                ],
+                [
+                  2,
+                  4.5
+                ],
+                [
+                  3,
+                  3
+                ],
+                [
+                  4.5,
+                  2
+                ],
+                [
+                  6,
+                  1.5
+                ],
+                [
+                  7.5,
+                  1.2
+                ]
+              ],
+              "label": "Q",
+              "tone": "a",
+              "curve": true
+            },
+            {
+              "points": [
+                [
+                  0,
+                  6
+                ],
+                [
+                  6,
+                  0
+                ]
+              ],
+              "label": "Lowest cost",
+              "label_at": "mid",
+              "tone": "b"
+            },
+            {
+              "points": [
+                [
+                  0,
+                  7.5
+                ],
+                [
+                  7.5,
+                  0
+                ]
+              ],
+              "label": "Costs more",
+              "label_at": "mid",
+              "tone": "muted",
+              "dashed": true
+            },
+            {
+              "points": [
+                [
+                  0,
+                  4
+                ],
+                [
+                  4,
+                  0
+                ]
+              ],
+              "label": "Too cheap",
+              "label_at": "below",
+              "tone": "muted",
+              "dashed": true
+            }
+          ],
+          "dots": [
+            {
+              "x": 3,
+              "y": 3,
+              "label": "MRTS = w/r",
+              "guides": true
+            }
+          ],
+          "caption": "The green isocost just touches the isoquant Q: that is the cheapest way to make Q. The higher dashed line also reaches Q but costs more; the lower one cannot reach Q at all.",
+          "source_ref": "be--session-8#21"
+        },
+        {
+          "kind": "plot",
+          "title": "When the wage falls: A to B",
+          "x_label": "Labour (L)",
+          "y_label": "Capital (K)",
+          "x_max": 10,
+          "y_max": 10,
+          "x_ticks": [
+            {
+              "at": 2,
+              "label": "L0"
+            },
+            {
+              "at": 4.5,
+              "label": "L1"
+            }
+          ],
+          "y_ticks": [
+            {
+              "at": 4.5,
+              "label": "K0"
+            },
+            {
+              "at": 2,
+              "label": "K1"
+            }
+          ],
+          "lines": [
+            {
+              "points": [
+                [
+                  0.95,
+                  9.5
+                ],
+                [
+                  1.2,
+                  7.5
+                ],
+                [
+                  1.5,
+                  6
+                ],
+                [
+                  2,
+                  4.5
+                ],
+                [
+                  3,
+                  3
+                ],
+                [
+                  4.5,
+                  2
+                ],
+                [
+                  6,
+                  1.5
+                ],
+                [
+                  9,
+                  1
+                ]
+              ],
+              "label": "Q0",
+              "tone": "a",
+              "curve": true
+            },
+            {
+              "points": [
+                [
+                  0,
+                  9
+                ],
+                [
+                  4,
+                  0
+                ]
+              ],
+              "label": "w0",
+              "tone": "d"
+            },
+            {
+              "points": [
+                [
+                  0,
+                  4
+                ],
+                [
+                  9,
+                  0
+                ]
+              ],
+              "label": "C1",
+              "tone": "b"
+            },
+            {
+              "points": [
+                [
+                  0,
+                  9
+                ],
+                [
+                  10,
+                  4.56
+                ]
+              ],
+              "label": "C0 at w1",
+              "label_at": "mid",
+              "tone": "muted",
+              "dashed": true
+            }
+          ],
+          "dots": [
+            {
+              "x": 2,
+              "y": 4.5,
+              "label": "A",
+              "guides": true
+            },
+            {
+              "x": 4.5,
+              "y": 2,
+              "label": "B",
+              "guides": true
+            }
+          ],
+          "caption": "A cheaper wage makes the isocost flatter. The same output Q0 is now made at B on the lower isocost C1: more labour (L0 to L1), less capital (K0 to K1).",
+          "source_ref": "be--session-8#22"
+        }
+      ],
+      "worked": {
+        "question_md": "**The exam question (4 marks):** utilizing the iso-quant and iso-cost curves, explain the cost minimization principle. Build the answer in four moves.",
+        "steps": [
+          {
+            "title": "Define the two curves",
+            "body_md": "**Isoquant:** combinations of K and L that give the same output.\n\n**Isocost:** combinations of K and L that cost the same: wL + rK = C.",
+            "why": "Definitions in the slide's words are the first marks.",
+            "result": ""
+          },
+          {
+            "title": "Draw the diagram",
+            "body_md": "K up the side, L along the bottom. One curved isoquant Q and three parallel isocost lines; mark where the lowest one just touches Q.",
+            "why": "The examiner looks for the tangency point.",
+            "result": ""
+          },
+          {
+            "title": "State the condition",
+            "body_md": "At the touching point the slope of the isocost equals the slope of the isoquant:\n\n**MPL / w = MPK / r**, so **MRTS_KL = MPL / MPK = w / r**.",
+            "why": "This is the rule that makes the point the cheapest.",
+            "result": "MRTS_KL = w / r"
+          },
+          {
+            "title": "Explain why, and the wage change",
+            "body_md": "Marginal product per dollar spent is equal for all inputs, so no swap of inputs lowers cost. If the wage falls, the isocost gets flatter and the firm uses more labour and less capital (A to B).",
+            "why": "A one-line 'why' and the wage case show understanding.",
+            "result": ""
+          }
+        ],
+        "answer_md": "Cost is minimized where the isocost is tangent to the isoquant: **MRTS_KL = w/r**, equivalently **MPL/w = MPK/r**."
+      },
+      "watch_out": [
+        "Cost minimization is a **tangency** (the lines just touch). If an isocost **cuts** the isoquant, a cheaper isocost can still reach that output.",
+        "Keep labour on top on both sides: **MPL/MPK = w/r**.",
+        "A change in an input **price** changes the **slope** of the isocost (it rotates). A change in the cost level shifts it in or out."
+      ],
+      "memory_trick": "**Touch, don't cut.** The cheapest isocost just touches the isoquant.",
+      "exam_answer_md": "**Isoquant:** combinations of K and L that give the same level of output. **Isocost:** combinations of inputs with the same cost, **wL + rK = C**.\n\n**Cost minimization principle:** a given output is produced at the lowest cost where the isocost line is **tangent** to the isoquant, so the slope of the isocost equals the slope of the isoquant:\n\n**MPL / w = MPK / r**, that is, **MRTS_KL = MPL / MPK = w / r**.\n\nMarginal product per dollar spent is then equal for all inputs; any other point on the isoquant lies on a higher isocost.\n\n(Draw: K on the vertical axis, L on the horizontal, a curved isoquant, three isocost lines, and mark the tangency point.)\n\nIf the wage falls, the isocost becomes flatter and the firm substitutes labour for capital (point A to point B)."
+    },
+    {
+      "id": "cost-concepts",
+      "title": "Fixed, variable, average and marginal cost",
+      "unit": "Unit IV",
+      "priority": 1,
+      "minutes": 40,
+      "why": "Cost tables are reliable 5-mark numericals; the professor's table (fixed cost ₹100) is the exact type.",
+      "source_refs": [
+        "be--session-8#23",
+        "be--session-8#24",
+        "be--session-8#25",
+        "be--session-8#26",
+        "be--session-8#27",
+        "be--session-8#28",
+        "be--session-8#29",
+        "be--session-8#30",
+        "be--session-8#31",
+        "be--session-8#33"
+      ],
+      "big_idea": "Total cost = fixed cost + variable cost. Divide by Q for the averages; the change in total cost from one more unit is marginal cost.",
+      "body_md": "**Short run:** fixed costs (FC), sunk costs, variable costs (VC), total costs (TC). **Long run:** all costs are variable; no fixed costs.\n\n- **FC:** costs that **do not change** as output changes.\n- **VC(Q):** costs that **vary** with output.\n- **C(Q) = VC(Q) + FC**\n- **Sunk cost:** a cost that is forever lost after it has been paid. Decision makers should **ignore sunk costs**.\n\n| Measure | Formula |\n|---|---|\n| Average fixed cost | AFC = FC/Q |\n| Average variable cost | AVC = VC(Q)/Q |\n| Average total cost | ATC = C(Q)/Q = AVC + AFC |\n| Marginal cost | MC = ΔC/ΔQ |\n\n**Shapes:** AFC keeps **falling**. AVC and ATC are **U-shaped**. **MC cuts AVC and ATC at their minimum points.**",
+      "visuals": [
+        {
+          "kind": "plot",
+          "title": "The cost curves (shapes only)",
+          "x_label": "Q",
+          "y_label": "$",
+          "x_max": 10,
+          "y_max": 12,
+          "lines": [
+            {
+              "points": [
+                [
+                  1,
+                  6
+                ],
+                [
+                  2,
+                  3
+                ],
+                [
+                  3,
+                  2
+                ],
+                [
+                  5,
+                  1.2
+                ],
+                [
+                  7,
+                  0.86
+                ],
+                [
+                  10,
+                  0.6
+                ]
+              ],
+              "label": "AFC",
+              "tone": "d",
+              "curve": true
+            },
+            {
+              "points": [
+                [
+                  1,
+                  5
+                ],
+                [
+                  2,
+                  3.9
+                ],
+                [
+                  3,
+                  3.2
+                ],
+                [
+                  4.5,
+                  3.0
+                ],
+                [
+                  6,
+                  3.3
+                ],
+                [
+                  8,
+                  4.2
+                ],
+                [
+                  10,
+                  5.4
+                ]
+              ],
+              "label": "AVC",
+              "tone": "b",
+              "curve": true
+            },
+            {
+              "points": [
+                [
+                  1,
+                  11
+                ],
+                [
+                  2,
+                  6.9
+                ],
+                [
+                  3,
+                  5.2
+                ],
+                [
+                  4.5,
+                  4.35
+                ],
+                [
+                  5.6,
+                  4.25
+                ],
+                [
+                  7,
+                  4.6
+                ],
+                [
+                  8.5,
+                  5.6
+                ],
+                [
+                  9.6,
+                  6.7
+                ]
+              ],
+              "label": "ATC",
+              "tone": "a",
+              "curve": true
+            },
+            {
+              "points": [
+                [
+                  1,
+                  4.2
+                ],
+                [
+                  2,
+                  2.6
+                ],
+                [
+                  3,
+                  2.3
+                ],
+                [
+                  4.5,
+                  3.0
+                ],
+                [
+                  5.6,
+                  4.25
+                ],
+                [
+                  6.5,
+                  5.6
+                ],
+                [
+                  7.5,
+                  7.6
+                ],
+                [
+                  8.5,
+                  10.5
+                ]
+              ],
+              "label": "MC",
+              "tone": "c",
+              "curve": true
+            }
+          ],
+          "caption": "AFC keeps falling. AVC and ATC are U-shaped, and the gap between them (that gap is AFC) narrows. MC cuts AVC and then ATC at their lowest points.",
+          "source_ref": "be--session-8#26"
+        }
+      ],
+      "worked": {
+        "question_md": "**The professor's question:** a firm's fixed cost is **₹100**. Its variable costs at different outputs are:\n\n| Output (Q) | 0 | 1 | 2 | 3 | 4 | 5 | 6 |\n|---|---|---|---|---|---|---|---|\n| Variable cost (VC) | 0 | 60 | 100 | 135 | 180 | 240 | 315 |\n\nCalculate TFC, TVC, TC, AFC, AVC, ATC and MC.",
+        "steps": [
+          {
+            "title": "TFC and TC",
+            "body_md": "TFC = **100** at every output (even at Q = 0). TC = TFC + TVC: 100, 160, 200, 235, 280, 340, 415.",
+            "why": "Fixed cost does not change with output.",
+            "result": "TC: 100, 160, 200, 235, 280, 340, 415"
+          },
+          {
+            "title": "The three averages",
+            "body_md": "AFC = 100/Q, AVC = TVC/Q, ATC = TC/Q, row by row.",
+            "why": "Average means per unit, so divide by Q.",
+            "result": ""
+          },
+          {
+            "title": "Marginal cost",
+            "body_md": "MC = this TC minus the previous TC: 60, 40, 35, 45, 60, 75.",
+            "why": "MC is the cost of one more unit.",
+            "result": "MC: 60, 40, 35, 45, 60, 75"
+          },
+          {
+            "title": "The full table",
+            "body_md": "| Q | TFC | TVC | TC | AFC = TFC/Q | AVC = TVC/Q | ATC = TC/Q | MC = change in TC |\n|---|---|---|---|---|---|---|---|\n| 0 | 100 | 0 | 100 |  |  |  |  |\n| 1 | 100 | 60 | 160 | 100 | 60 | 160 | 60 |\n| 2 | 100 | 100 | 200 | 50 | 50 | 100 | 40 |\n| 3 | 100 | 135 | 235 | 33.3 | 45 | 78.3 | 35 |\n| 4 | 100 | 180 | 280 | 25 | 45 | 70 | 45 |\n| 5 | 100 | 240 | 340 | 20 | 48 | 68 | 60 |\n| 6 | 100 | 315 | 415 | 16.7 | 52.5 | 69.2 | 75 |",
+            "why": "Write the table in this exact order of columns in the exam.",
+            "result": ""
+          }
+        ],
+        "answer_md": "As in the table. Notice MC (35) is lowest before AVC is lowest (45), and MC rises through AVC and ATC."
+      },
+      "practice": [
+        {
+          "question_md": "**The professor's example:** total cost C(Q) = 10 + Q + Q². Find the fixed cost, the variable cost of producing 2 units, and the marginal cost of producing 2 units.",
+          "steps": [
+            {
+              "title": "Split the function",
+              "body_md": "FC = **10** (the constant). VC(Q) = Q + Q².",
+              "why": "Everything with Q in it is variable.",
+              "result": ""
+            },
+            {
+              "title": "VC(2)",
+              "body_md": "VC(2) = 2 + (2)² = **6**",
+              "why": "",
+              "result": ""
+            },
+            {
+              "title": "MC(2)",
+              "body_md": "MC(Q) = 1 + 2Q, so MC(2) = 1 + 2(2) = **5**",
+              "why": "Marginal cost is the derivative of the cost function.",
+              "result": ""
+            }
+          ],
+          "answer_md": "**FC = 10, VC(2) = 6, MC(2) = 5.**"
+        }
+      ],
+      "watch_out": [
+        "MC is the **change** in total cost for one more unit, not TC ÷ Q.",
+        "At Q = 0 total cost is **not zero**: it equals the fixed cost.",
+        "AFC falls all the way; it never turns up."
+      ],
+      "memory_trick": "**Average: divide by Q. Marginal: the change.**",
+      "exam_answer_md": "Draw one table with the columns **Q, TFC, TVC, TC = TFC + TVC, AFC = TFC/Q, AVC = TVC/Q, ATC = TC/Q, MC = ΔTC/ΔQ** and fill every row.\n\nFinish with one line: **MC cuts AVC and ATC at their minimum points; AFC keeps falling.**"
+    },
+    {
+      "id": "cost-functions",
+      "title": "Cost functions: MC, AFC, AVC and ATC from a formula",
+      "unit": "Unit IV",
+      "priority": 1,
+      "minutes": 35,
+      "why": "This was the 2025 end-term Q2 for 5 marks, word for word the professor's slide question: C(Q) = 20 + 3Q², find MC, AFC, AVC and ATC at Q = 10.",
+      "source_refs": [
+        "be--session-8#26",
+        "be--session-8#32",
+        "be--session-8#33",
+        "be--session-8#34",
+        "be--session-8#35",
+        "be--session-8#36"
+      ],
+      "big_idea": "In a cost function the constant is fixed cost, every term with Q is variable cost, and marginal cost is the derivative.",
+      "body_md": "A **cost function** gives total cost for any Q. Read it in this order:\n\n- The **constant** = **fixed cost (FC)**.\n- Every term **with Q** = **variable cost VC(Q)**.\n- **MC = dC/dQ** (differentiate total cost).\n- **ATC = C(Q)/Q, AVC = VC(Q)/Q, AFC = FC/Q.**\n\n**Cubic cost function:** C(Q) = f + aQ + bQ² + cQ³, so **MC(Q) = a + 2bQ + 3cQ²** (memorize it).\n\nDifferentiating, term by term: the constant disappears, aQ becomes a, bQ² becomes 2bQ, cQ³ becomes 3cQ².",
+      "visuals": [
+        {
+          "kind": "matrix",
+          "title": "Reading two of the professor's cost functions",
+          "row_title": "Find",
+          "rows": [
+            "Fixed cost",
+            "Variable cost",
+            "Marginal cost",
+            "Average total cost"
+          ],
+          "col_title": "Cost function",
+          "cols": [
+            "C(Q) = 10 + Q + Q²",
+            "TC = 100 + 20Q + 2Q²"
+          ],
+          "cells": [
+            [
+              "10",
+              "100"
+            ],
+            [
+              "Q + Q²",
+              "20Q + 2Q²"
+            ],
+            [
+              "1 + 2Q",
+              "20 + 4Q"
+            ],
+            [
+              "10/Q + 1 + Q",
+              "100/Q + 20 + 2Q"
+            ]
+          ],
+          "highlight": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "caption": "The constant is always the fixed cost. Marginal cost comes from differentiating; ATC from dividing every term by Q."
+        }
+      ],
+      "worked": {
+        "question_md": "**The professor's question:** a firm's total cost function is **TC = 100 + 20Q + 2Q²**. Find the fixed cost, variable cost, average total cost, average variable cost, marginal cost, and ATC and MC when **Q = 10**.",
+        "steps": [
+          {
+            "title": "Fixed and variable cost",
+            "body_md": "FC = **100** (the constant). VC = **20Q + 2Q²**.",
+            "why": "",
+            "result": ""
+          },
+          {
+            "title": "The averages",
+            "body_md": "ATC = TC/Q = **100/Q + 20 + 2Q**\n\nAVC = VC/Q = **20 + 2Q**",
+            "why": "Divide every term by Q.",
+            "result": ""
+          },
+          {
+            "title": "Marginal cost",
+            "body_md": "MC = dTC/dQ = **20 + 4Q**",
+            "why": "2Q² differentiates to 4Q; the constant 100 disappears.",
+            "result": ""
+          },
+          {
+            "title": "Put in Q = 10",
+            "body_md": "ATC = 100/10 + 20 + 2(10) = 10 + 20 + 20 = **50**\n\nMC = 20 + 4(10) = **60**",
+            "why": "",
+            "result": "ATC = 50, MC = 60"
+          }
+        ],
+        "answer_md": "**FC = 100; VC = 20Q + 2Q²; ATC = 100/Q + 20 + 2Q; AVC = 20 + 2Q; MC = 20 + 4Q; at Q = 10, ATC = 50 and MC = 60.**"
+      },
+      "practice": [
+        {
+          "question_md": "**2025 end-term Q2 (5 marks), also the professor's slide question:** the cost function is **C(Q) = 20 + 3Q²**. Calculate MC, AFC, AVC and ATC when **Q = 10**.",
+          "marks": 5,
+          "pyq_id": "be-est-2025-q2",
+          "steps": [
+            {
+              "title": "Split the function",
+              "body_md": "FC = **20**. VC(Q) = **3Q²**.",
+              "why": "The constant is fixed cost.",
+              "result": ""
+            },
+            {
+              "title": "Marginal cost",
+              "body_md": "MC = dC/dQ = **6Q**, so MC(10) = 6 × 10 = **60**",
+              "why": "3Q² differentiates to 6Q.",
+              "result": "MC = 60"
+            },
+            {
+              "title": "Average fixed cost",
+              "body_md": "AFC = FC/Q = 20/10 = **2**",
+              "why": "",
+              "result": "AFC = 2"
+            },
+            {
+              "title": "Average variable cost",
+              "body_md": "AVC = VC/Q = 3Q²/Q = 3Q = 3 × 10 = **30**",
+              "why": "",
+              "result": "AVC = 30"
+            },
+            {
+              "title": "Average total cost, checked two ways",
+              "body_md": "ATC = AFC + AVC = 2 + 30 = **32**\n\nCheck: C(10) = 20 + 3(100) = 320, and 320/10 = **32**",
+              "why": "",
+              "result": "ATC = 32"
+            }
+          ],
+          "answer_md": "**MC = 60, AFC = 2, AVC = 30, ATC = 32.**"
+        }
+      ],
+      "watch_out": [
+        "The constant is **fixed cost**, so it does **not** appear in VC, AVC or MC.",
+        "3Q² differentiates to **6Q**, not 3Q.",
+        "Check ATC two ways (AFC + AVC, and C(Q)/Q). They must match."
+      ],
+      "memory_trick": "**Constant = fixed. Terms with Q = variable. Derivative = marginal.**",
+      "exam_answer_md": "C(Q) = 20 + 3Q², so FC = 20 and VC = 3Q².\n\n- MC = dC/dQ = 6Q = 6(10) = **60**\n- AFC = FC/Q = 20/10 = **2**\n- AVC = VC/Q = 3Q = 3(10) = **30**\n- ATC = AFC + AVC = 2 + 30 = **32** (check: C(10) = 320, 320/10 = 32)",
+      "derived": [
+        "60",
+        "30",
+        "32",
+        "320",
+        "300",
+        "50",
+        "6"
+      ]
+    },
+    {
+      "id": "scale-and-scope",
+      "title": "Long-run cost: economies of scale and scope",
+      "unit": "Unit IV",
+      "priority": 2,
+      "minutes": 30,
+      "why": "A favourite 'Explain' question: why the long-run average cost curve is U-shaped, plus economies of scope and cost complementarity.",
+      "source_refs": [
+        "be--session-8#37",
+        "be--session-8#38",
+        "be--session-8#39",
+        "be--session-8#40",
+        "be--session-8#41",
+        "be--session-8#42",
+        "be--session-8#43",
+        "be--session-8#45"
+      ],
+      "big_idea": "In the long run average cost first falls (economies of scale) and then rises (diseconomies of scale); producing two goods together can also be cheaper (economies of scope).",
+      "body_md": "**Long-run average cost (LRAC):** the minimum average cost of producing each output when the firm can choose **all** its inputs.\n\n**Economies of scale (LRAC falls as Q rises):** greater **specialisation** and division of labour; better use of **machinery**; **bulk purchasing** and input discounts; **spreading fixed/setup costs** over more units; managerial and technical efficiencies.\n\n**Diseconomies of scale (LRAC rises beyond the optimal scale Q*):** managerial and **coordination** difficulties; **bureaucracy** and slower decisions; difficulty **monitoring** a very large organisation; **congestion** and complexity.\n\n**Multi-product cost function C(Q1, Q2):** the cost of producing two outputs jointly.\n\n- **Economies of scope:** C(Q1, 0) + C(0, Q2) > C(Q1, Q2): cheaper to produce the two jointly than separately.\n- **Cost complementarity:** the marginal cost of good 1 **declines** as more of good 2 is produced.\n\nFor **C(Q1, Q2) = f + aQ1Q2 + (Q1)² + (Q2)²**: MC1 = aQ2 + 2Q1. **Cost complementarity if a < 0. Economies of scope if f > aQ1Q2.**",
+      "visuals": [
+        {
+          "kind": "plot",
+          "title": "The U-shaped LRAC",
+          "x_label": "Q",
+          "y_label": "$",
+          "x_max": 10,
+          "y_max": 10,
+          "x_ticks": [
+            {
+              "at": 5,
+              "label": "Q*"
+            }
+          ],
+          "lines": [
+            {
+              "points": [
+                [
+                  0.8,
+                  8.5
+                ],
+                [
+                  2.5,
+                  5.5
+                ],
+                [
+                  4,
+                  4.2
+                ],
+                [
+                  5,
+                  4
+                ],
+                [
+                  6,
+                  4.2
+                ],
+                [
+                  7.5,
+                  5.3
+                ],
+                [
+                  9.2,
+                  7.3
+                ]
+              ],
+              "label": "LRAC",
+              "tone": "a",
+              "curve": true
+            }
+          ],
+          "dots": [
+            {
+              "x": 5,
+              "y": 4,
+              "guides": true
+            }
+          ],
+          "notes": [
+            {
+              "x": 0.6,
+              "y": 1.6,
+              "text": "Economies of scale",
+              "tone": "b"
+            },
+            {
+              "x": 5.6,
+              "y": 1.6,
+              "text": "Diseconomies",
+              "tone": "d"
+            }
+          ],
+          "caption": "Left of Q* average cost falls (economies of scale); right of Q* it rises (diseconomies of scale).",
+          "source_ref": "be--session-8#38"
+        },
+        {
+          "kind": "compare",
+          "title": "Why LRAC falls, then rises",
+          "sides": [
+            {
+              "title": "Economies of scale",
+              "tone": "b",
+              "points": [
+                "Specialisation and division of labour",
+                "Better use of machinery",
+                "Bulk purchasing discounts",
+                "Fixed costs spread over more units"
+              ]
+            },
+            {
+              "title": "Diseconomies of scale",
+              "tone": "d",
+              "points": [
+                "Coordination difficulties",
+                "Bureaucracy, slower decisions",
+                "Hard to monitor a very large organisation",
+                "Congestion and complexity"
+              ]
+            }
+          ]
+        }
+      ],
+      "worked": {
+        "question_md": "**The professor's example:** C(Q1, Q2) = 90 - 2Q1Q2 + (Q1)² + (Q2)². Is there cost complementarity? Are there economies of scope?",
+        "steps": [
+          {
+            "title": "Match the form",
+            "body_md": "Compare with f + aQ1Q2 + (Q1)² + (Q2)²: **f = 90, a = -2**.",
+            "why": "",
+            "result": ""
+          },
+          {
+            "title": "Cost complementarity",
+            "body_md": "a = -2 < 0, so **yes**. MC1 = aQ2 + 2Q1 = **-2Q2 + 2Q1**: more Q2 lowers MC1.",
+            "why": "Cost complementarity needs a negative a.",
+            "result": "Cost complementarity: yes"
+          },
+          {
+            "title": "Economies of scope",
+            "body_md": "The rule is f > aQ1Q2. Here aQ1Q2 = -2Q1Q2, which is negative for any positive outputs, and f = 90 is positive, so **f > aQ1Q2: yes**.",
+            "why": "Joint production saves the fixed cost f.",
+            "result": "Economies of scope: yes"
+          }
+        ],
+        "answer_md": "**Yes to both:** a = -2 < 0 gives cost complementarity, and 90 > -2Q1Q2 gives economies of scope."
+      },
+      "watch_out": [
+        "Economies of **scale** are about one product at a bigger size. Economies of **scope** are about two products made **together**.",
+        "Cost complementarity needs **a < 0** in front of Q1Q2."
+      ],
+      "memory_trick": "**Scale is size; scope is variety.**",
+      "exam_answer_md": "**Economies of scale:** as output rises, LRAC falls (specialisation, better use of machinery, bulk buying, fixed costs spread over more units). **Diseconomies of scale:** beyond the optimal scale Q*, LRAC rises (coordination problems, bureaucracy, monitoring, congestion). So LRAC is U-shaped (draw it, with Q* at the bottom).\n\n**Economies of scope:** C(Q1, 0) + C(0, Q2) > C(Q1, Q2). **Cost complementarity:** the marginal cost of good 1 falls as more of good 2 is produced; with C = f + aQ1Q2 + (Q1)² + (Q2)² this needs a < 0."
+    },
+    {
+      "id": "forecasting-basics",
+      "title": "Demand forecasting: meaning, steps and methods",
+      "unit": "Unit III",
+      "priority": 1,
+      "minutes": 25,
+      "why": "Demand forecasting is a whole syllabus unit; its theory gives easy 'Explain' marks (the steps, qualitative versus quantitative, choosing a model).",
+      "source_refs": [
+        "be--session-9#2",
+        "be--session-9#3",
+        "be--session-9#4",
+        "be--session-9#5",
+        "be--session-9#6",
+        "be--session-9#7",
+        "be--session-9#8",
+        "be--session-9#9",
+        "be--session-9#11",
+        "be--session-9#12"
+      ],
+      "big_idea": "Demand forecasting estimates future demand from past data, market information and judgement; it is a bridge between an uncertain future and today's decisions.",
+      "body_md": "**Demand forecasting:** the process of estimating the future demand for a product or service using **historical data**, **market information**, and/or **statistical and judgmental methods**.\n\n**Decisions that need forecasts:** which markets to pursue, what products to produce, how many people to hire, how many inputs to purchase, how many units to produce.\n\n**What forecasts are like:** they are **rarely perfect**; more accurate for **aggregated** data than for individual items; more accurate for **shorter** than longer periods.\n\n**Two families of methods:**\n\n- **Qualitative:** generated subjectively by the forecaster: market research and consumer surveys; the **Delphi method** (consensus among a group of experts).\n- **Quantitative (statistical):** mathematical models. **Time series** models assume the future follows past patterns; **causal** models explore cause and effect with leading indicators (housing starts and appliance sales).\n\n**Time series data = historic pattern + random variation.** The pattern may include **level, trend, seasonality and cycle**.\n\n**Choosing a model:** the amount and type of data, the degree of accuracy required, the length of the forecast horizon, and the patterns in the data.",
+      "visuals": [
+        {
+          "kind": "flow",
+          "title": "Forecasting steps",
+          "steps": [
+            {
+              "label": "What needs to be forecast?",
+              "note": "Level of detail, units of analysis, time horizon"
+            },
+            {
+              "label": "What data is available?",
+              "note": "Identify needed data and whether it is available"
+            },
+            {
+              "label": "Select and test the model",
+              "note": "Cost, ease of use and accuracy"
+            },
+            {
+              "label": "Generate the forecast"
+            },
+            {
+              "label": "Monitor forecast accuracy over time"
+            }
+          ],
+          "source_ref": "be--session-9#5"
+        },
+        {
+          "kind": "tree",
+          "direction": "down",
+          "title": "Forecasting methods",
+          "nodes": [
+            {
+              "id": "all",
+              "label": "Forecasting methods"
+            },
+            {
+              "id": "qual",
+              "parent": "all",
+              "label": "Qualitative"
+            },
+            {
+              "id": "quant",
+              "parent": "all",
+              "label": "Quantitative"
+            },
+            {
+              "id": "survey",
+              "parent": "qual",
+              "label": "Market research and surveys"
+            },
+            {
+              "id": "delphi",
+              "parent": "qual",
+              "label": "Delphi method"
+            },
+            {
+              "id": "ts",
+              "parent": "quant",
+              "label": "Time series"
+            },
+            {
+              "id": "causal",
+              "parent": "quant",
+              "label": "Causal models"
+            },
+            {
+              "id": "ols",
+              "parent": "ts",
+              "label": "Trend (least squares)"
+            },
+            {
+              "id": "ma",
+              "parent": "ts",
+              "label": "Moving average"
+            },
+            {
+              "id": "es",
+              "parent": "ts",
+              "label": "Exponential smoothing"
+            }
+          ]
+        }
+      ],
+      "watch_out": [
+        "**Time series** uses the past pattern of the same variable. **Causal** models use other variables that drive demand. Do not mix them up."
+      ],
+      "memory_trick": "**Steps: What, Data, Model, Forecast, Monitor.**",
+      "exam_answer_md": "**Demand forecasting** is the process of estimating the future demand for a product or service using historical data, market information, and/or statistical and judgmental methods.\n\n**Steps:** decide what needs to be forecast (detail, units, time horizon); see what data is available; select and test the model (cost, ease of use, accuracy); generate the forecast; monitor its accuracy over time.\n\n**Methods:** qualitative (market research and consumer surveys, the Delphi method) and quantitative (time series: trend, moving average, exponential smoothing; causal models with leading indicators)."
+    },
+    {
+      "id": "trend",
+      "title": "Trend forecasting by least squares (linear and quadratic)",
+      "unit": "Unit III",
+      "priority": 2,
+      "minutes": 35,
+      "why": "Trend fitting is a full table question (5 marks): build the table, solve two equations, forecast.",
+      "source_refs": [
+        "be--session-9#14",
+        "be--session-9#15",
+        "be--session-9#16",
+        "be--session-9#17",
+        "be--session-9#18",
+        "be--session-9#19"
+      ],
+      "big_idea": "Fit the straight line S = a + bt through past sales using two normal equations, then put in the future t to forecast.",
+      "body_md": "**Linear trend:** S = a + bt, where t numbers the periods 1, 2, 3, and so on.\n\nFind a and b from the two normal equations (the slide's worked example uses exactly these):\n\n- **ΣS = na + bΣt**\n- **ΣSt = aΣt + bΣt²**\n\nSo the table needs columns **t, t², St** and their sums.\n\n**Straight line or curve?** Look at the differences in sales. Roughly constant **first** differences: straight line. Roughly constant **second** differences: a **quadratic** trend S = a + bt + ct².\n\nFor the quadratic, number the years so the middle year is 0 (-3 to 3). Then Σt = 0 and Σt³ = 0, and **b = ΣSt / Σt²** directly.",
+      "worked": {
+        "question_md": "**The professor's question:** assuming the present trend continues, what is the expected sales value for the year 2000?\n\n| Year | 1993 | 1994 | 1995 | 1996 | 1997 |\n|---|---|---|---|---|---|\n| Sales (₹ crore) | 605 | 715 | 830 | 790 | 835 |",
+        "steps": [
+          {
+            "title": "Build the table",
+            "body_md": "| Year | Sales S | t | t² | St |\n|---|---|---|---|---|\n| 1993 | 605 | 1 | 1 | 605 |\n| 1994 | 715 | 2 | 4 | 1430 |\n| 1995 | 830 | 3 | 9 | 2490 |\n| 1996 | 790 | 4 | 16 | 3160 |\n| 1997 | 835 | 5 | 25 | 4175 |\n| Sum | 3775 | 15 | 55 | 11860 |",
+            "why": "The sums feed the two equations.",
+            "result": "ΣS = 3775, Σt = 15, Σt² = 55, ΣSt = 11860"
+          },
+          {
+            "title": "Write the two equations",
+            "body_md": "3775 = 5a + 15b\n\n11860 = 15a + 55b",
+            "why": "",
+            "result": ""
+          },
+          {
+            "title": "Solve",
+            "body_md": "Multiply the first by 3: 11325 = 15a + 45b. Subtract it from the second: 535 = 10b, so **b = 53.5**. Then 5a = 3775 - 15(53.5) = 2972.5, so **a = 594.5**.",
+            "why": "Make the a-terms equal, subtract, and one unknown disappears.",
+            "result": "a = 594.5, b = 53.5"
+          },
+          {
+            "title": "Forecast",
+            "body_md": "Trend: **S = 594.5 + 53.5t**. The year 2000 is t = 8.\n\nS = 594.5 + 53.5 × 8 = 594.5 + 428 = **1022.5**\n\nThe slide prints 1024.9 here, but 594.5 + 428 = 1022.5. Show your working so the examiner sees the right arithmetic.",
+            "why": "Keep counting t past the data: 1997 was 5, so 2000 is 8.",
+            "result": "Forecast for 2000 = 1022.5"
+          }
+        ],
+        "answer_md": "**S = 594.5 + 53.5t; expected sales in 2000 = ₹1022.5 crore.**"
+      },
+      "practice": [
+        {
+          "question_md": "**The professor's question:** (1) do we need a linear or non-linear trend? (2) Forecast sales for the year 2000.\n\n| Year | 1990 | 1991 | 1992 | 1993 | 1994 | 1995 | 1996 |\n|---|---|---|---|---|---|---|---|\n| Sales | 10 | 15 | 22 | 31 | 43 | 57 | 74 |",
+          "steps": [
+            {
+              "title": "Linear or not?",
+              "body_md": "First differences: 5, 7, 9, 12, 14, 17 (rising). Second differences: 2, 2, 3, 2, 3 (roughly constant). So use a **quadratic** trend S = a + bt + ct².",
+              "why": "Constant second differences point to a curve.",
+              "result": ""
+            },
+            {
+              "title": "Table with t from -3 to 3",
+              "body_md": "| Year | S | t | t² | St | St² |\n|---|---|---|---|---|---|\n| 1990 | 10 | -3 | 9 | -30 | 90 |\n| 1991 | 15 | -2 | 4 | -30 | 60 |\n| 1992 | 22 | -1 | 1 | -22 | 22 |\n| 1993 | 31 | 0 | 0 | 0 | 0 |\n| 1994 | 43 | 1 | 1 | 43 | 43 |\n| 1995 | 57 | 2 | 4 | 114 | 228 |\n| 1996 | 74 | 3 | 9 | 222 | 666 |\n| Sum | 252 | 0 | 28 | 297 | 1109 |",
+              "why": "With the middle year at 0, Σt and Σt³ are 0.",
+              "result": ""
+            },
+            {
+              "title": "Three equations",
+              "body_md": "252 = 7a + 28c\n\n297 = 28b\n\n1109 = 28a + 196c",
+              "why": "",
+              "result": ""
+            },
+            {
+              "title": "Solve",
+              "body_md": "b = 297/28 = **10.607**\n\nMultiply the first by 4: 1008 = 28a + 112c; subtract from the third: 101 = 84c, so **c = 1.202**\n\na = (252 - 28 × 1.202) / 7 = **31.19**\n\nThe slide writes b = 10.067 (and so gets 160.56); 297 ÷ 28 is actually 10.607.",
+              "why": "",
+              "result": "a = 31.19, b = 10.607, c = 1.202"
+            },
+            {
+              "title": "Forecast for 2000 (t = 7)",
+              "body_md": "S = 31.19 + 10.607(7) + 1.202(49) = 31.19 + 74.25 + 58.92 = **164.36**",
+              "why": "",
+              "result": ""
+            }
+          ],
+          "answer_md": "**Quadratic trend S = 31.19 + 10.607t + 1.202t²; forecast for 2000 is about 164.4.**"
+        }
+      ],
+      "watch_out": [
+        "Number the years 1, 2, 3 for a straight line, and keep counting for the forecast year (2000 is t = 8 in the first question).",
+        "Check the second differences before choosing a quadratic.",
+        "Two slips on the slides: 1024.9 should be 1022.5, and b = 10.067 should be 10.607. Trust your own working and show every step."
+      ],
+      "memory_trick": "**Table, two equations, solve, plug in.**",
+      "exam_answer_md": "1. Table of t, t² and St with their sums.\n2. Normal equations: ΣS = na + bΣt and ΣSt = aΣt + bΣt².\n3. Solve for a and b.\n4. Write the trend S = a + bt and put in the forecast year's t.\n\nFor the slide data: **S = 594.5 + 53.5t**, and the forecast for 2000 is **1022.5**.",
+      "derived": [
+        "0",
+        "1",
+        "10",
+        "1109",
+        "114",
+        "11860",
+        "1430",
+        "15",
+        "16",
+        "1990",
+        "1991",
+        "1992",
+        "1993",
+        "1994",
+        "1995",
+        "1996",
+        "1997",
+        "2",
+        "22",
+        "222",
+        "228",
+        "2490",
+        "25",
+        "252",
+        "28",
+        "297",
+        "3",
+        "30",
+        "31",
+        "3160",
+        "3775",
+        "4",
+        "4175",
+        "43",
+        "5",
+        "55",
+        "57",
+        "60",
+        "605",
+        "666",
+        "715",
+        "74",
+        "790",
+        "830",
+        "835",
+        "9",
+        "90",
+        "1.202",
+        "10.607",
+        "1008",
+        "101",
+        "1022.5",
+        "112",
+        "11325",
+        "164.36",
+        "164.4",
+        "2972.5",
+        "31.19",
+        "428",
+        "45",
+        "53.5",
+        "535",
+        "58.92",
+        "594.5",
+        "74.25",
+        "84"
+      ]
+    },
+    {
+      "id": "moving-average",
+      "title": "Moving averages and choosing a method with RMSE",
+      "unit": "Unit III",
+      "priority": 1,
+      "minutes": 30,
+      "why": "Moving averages and RMSE are at the heart of the forecasting numericals; the professor's practice question asks for both methods and an RMSE comparison.",
+      "source_refs": [
+        "be--session-9#20",
+        "be--session-9#21",
+        "be--session-9#22",
+        "be--session-9#23",
+        "be--session-9#25",
+        "be--session-9#31"
+      ],
+      "big_idea": "A moving average forecasts the next period as the average of the last few actual values; compare methods with RMSE and pick the lower one.",
+      "body_md": "Data contains an underlying pattern and random fluctuations. A trend line forces one shape onto the data; a **moving average** simply **smooths** it by averaging recent observations.\n\n**3-period moving average:** **F(t+1) = (Y(t) + Y(t-1) + Y(t-2)) / 3**\n\nWhy use it: it **smoothens random fluctuations**, is **easy to calculate**, and **uses recent observations**.\n\n**3-period or 5-period?** Calculate the **Root Mean Square Error** for each and choose the **lower** one:\n\n**RMSE = √[ Σ(At - Ft)² / n ]**, where n = the number of periods for which forecasts are available.\n\nOn the slide: RMSE(3) = √(2416.367/6) = **20.068** and RMSE(5) = √(2866/4) = **26.767**, so the **3-year moving average** is preferred and the forecast for 2026 is **140**.",
+      "visuals": [
+        {
+          "kind": "plot",
+          "title": "Actual sales and the 3-year moving average",
+          "x_label": "Year",
+          "y_label": "Sales",
+          "x_max": 11,
+          "y_max": 160,
+          "x_ticks": [
+            {
+              "at": 1,
+              "label": "2017"
+            },
+            {
+              "at": 3,
+              "label": "2019"
+            },
+            {
+              "at": 5,
+              "label": "2021"
+            },
+            {
+              "at": 7,
+              "label": "2023"
+            },
+            {
+              "at": 10,
+              "label": "2026"
+            }
+          ],
+          "y_ticks": [
+            {
+              "at": 80
+            },
+            {
+              "at": 100
+            },
+            {
+              "at": 120
+            },
+            {
+              "at": 140
+            }
+          ],
+          "lines": [
+            {
+              "points": [
+                [
+                  1,
+                  80
+                ],
+                [
+                  2,
+                  85
+                ],
+                [
+                  3,
+                  90
+                ],
+                [
+                  4,
+                  100
+                ],
+                [
+                  5,
+                  120
+                ],
+                [
+                  6,
+                  110
+                ],
+                [
+                  7,
+                  130
+                ],
+                [
+                  8,
+                  140
+                ],
+                [
+                  9,
+                  150
+                ]
+              ],
+              "tone": "a"
+            },
+            {
+              "points": [
+                [
+                  4,
+                  85.0
+                ],
+                [
+                  5,
+                  91.66666666666667
+                ],
+                [
+                  6,
+                  103.33333333333333
+                ],
+                [
+                  7,
+                  110.0
+                ],
+                [
+                  8,
+                  120.0
+                ],
+                [
+                  9,
+                  126.66666666666667
+                ],
+                [
+                  10,
+                  140.0
+                ]
+              ],
+              "tone": "c"
+            }
+          ],
+          "dots": [
+            {
+              "x": 10,
+              "y": 140.0,
+              "label": "140",
+              "label_at": "below"
+            }
+          ],
+          "caption": "The blue line is actual sales; the amber line is the 3-year moving average forecast. The forecast trails behind a rising series.",
+          "source_ref": "be--session-9#23"
+        }
+      ],
+      "worked": {
+        "question_md": "**The professor's question:** find the forecast for 2026 using a 3-year moving average.\n\n| Year | 2017 | 2018 | 2019 | 2020 | 2021 | 2022 | 2023 | 2024 | 2025 |\n|---|---|---|---|---|---|---|---|---|---|\n| Actual sales | 80 | 85 | 90 | 100 | 120 | 110 | 130 | 140 | 150 |",
+        "steps": [
+          {
+            "title": "First forecast: 2020",
+            "body_md": "F(2020) = (80 + 85 + 90) / 3 = **85**",
+            "why": "You need three actual values before the first forecast.",
+            "result": ""
+          },
+          {
+            "title": "Slide the window one year at a time",
+            "body_md": "| Year | Actual A | 3-year MA forecast F |\n|---|---|---|\n| 2017 | 80 |  |\n| 2018 | 85 |  |\n| 2019 | 90 |  |\n| 2020 | 100 | 85 |\n| 2021 | 120 | 91.67 |\n| 2022 | 110 | 103.33 |\n| 2023 | 130 | 110 |\n| 2024 | 140 | 120 |\n| 2025 | 150 | 126.67 |\n| 2026 |  | 140 |",
+            "why": "Drop the oldest year, add the newest, divide by 3.",
+            "result": ""
+          },
+          {
+            "title": "Forecast 2026",
+            "body_md": "F(2026) = (130 + 140 + 150) / 3 = **140**",
+            "why": "",
+            "result": "F(2026) = 140"
+          }
+        ],
+        "answer_md": "**Forecast for 2026 = 140.**"
+      },
+      "practice": [
+        {
+          "question_md": "Using the table above, calculate the RMSE of the 3-year moving average.",
+          "steps": [
+            {
+              "title": "Errors and squares",
+              "body_md": "| Year | A | F | A - F | (A - F)² |\n|---|---|---|---|---|\n| 2020 | 100 | 85.00 | 15.00 | 225.00 |\n| 2021 | 120 | 91.67 | 28.33 | 802.78 |\n| 2022 | 110 | 103.33 | 6.67 | 44.44 |\n| 2023 | 130 | 110.00 | 20.00 | 400.00 |\n| 2024 | 140 | 120.00 | 20.00 | 400.00 |\n| 2025 | 150 | 126.67 | 23.33 | 544.44 |",
+              "why": "Error = actual minus forecast, for each year that has a forecast.",
+              "result": ""
+            },
+            {
+              "title": "Average and root",
+              "body_md": "Σ(A - F)² = 2416.67; n = 6\n\nRMSE = √(2416.67 / 6) = √402.78 = **20.07**\n\nThe slide prints the sum as 2416.367; the squares add to about 2416.67, and the RMSE is the same to two decimals (20.07).",
+              "why": "Square, average, then take the root.",
+              "result": "RMSE = 20.07"
+            },
+            {
+              "title": "Compare",
+              "body_md": "RMSE(3) = 20.07 is lower than RMSE(5) = 26.767, so choose the **3-year moving average**.",
+              "why": "Lower RMSE means smaller typical errors.",
+              "result": ""
+            }
+          ],
+          "answer_md": "**RMSE(3) is about 20.07; the 3-year moving average is the better method.**"
+        }
+      ],
+      "watch_out": [
+        "The first forecast is for the **4th** year (you need three actual values first).",
+        "In RMSE, n is the number of periods that **have** a forecast (6 here, not 9).",
+        "Square, then average, then take the **square root**. Do not skip the root."
+      ],
+      "memory_trick": "**RMSE: error, square, mean, root** (in that order).",
+      "exam_answer_md": "F(t+1) = (Y(t) + Y(t-1) + Y(t-2)) / 3. Draw the table of year, actual and forecast; the 2026 forecast is (130 + 140 + 150)/3 = **140**.\n\nCompare methods with **RMSE = √[Σ(At - Ft)²/n]**: the lower RMSE wins. RMSE(3) = 20.068 < RMSE(5) = 26.767, so the **3-year moving average** is preferred.",
+      "derived": [
+        "100",
+        "103.33",
+        "110",
+        "120",
+        "126.67",
+        "130",
+        "140",
+        "15",
+        "150",
+        "20",
+        "20.07",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025",
+        "2026",
+        "225",
+        "23.33",
+        "2416.67",
+        "28.33",
+        "3",
+        "400",
+        "402.78",
+        "44.44",
+        "544.44",
+        "6.67",
+        "80",
+        "802.78",
+        "85",
+        "90",
+        "91.67"
+      ]
+    },
+    {
+      "id": "exponential-smoothing",
+      "title": "Exponential smoothing (and the RMSE question)",
+      "unit": "Unit III",
+      "priority": 1,
+      "minutes": 40,
+      "why": "The 2025 mid-term's 5-mark question was exactly this: exponential smoothing with w = 0.2, starting from the average, then RMSE. The slides solve one with α = 0.3.",
+      "source_refs": [
+        "be--session-9#25",
+        "be--session-9#26",
+        "be--session-9#27",
+        "be--session-9#28",
+        "be--session-9#29",
+        "be--session-9#30"
+      ],
+      "big_idea": "Exponential smoothing: next forecast = α × this period's actual + (1 - α) × this period's forecast, so recent data counts more.",
+      "body_md": "A moving average gives **equal importance** to every value in its window. But this year's sales usually say more about next year than older sales do. **Exponential smoothing** gives **more importance to recent observations** and progressively less to older ones.\n\n**F(t+1) = αY(t) + (1 - α)F(t)**, with **0 < α < 1**\n\n- F(t+1) = forecast for the next period\n- Y(t) = actual value in the current period\n- F(t) = forecast for the current period\n- α = the smoothing constant (a question may call it w)\n\n**You need a starting forecast.** The slides use the **first actual observation**; the 2025 mid-term said to use the **average**. Use whatever the question says.",
+      "visuals": [
+        {
+          "kind": "plot",
+          "title": "Actual sales and the smoothed forecast (α = 0.3)",
+          "x_label": "Year",
+          "y_label": "Sales",
+          "x_max": 7,
+          "y_max": 150,
+          "x_ticks": [
+            {
+              "at": 1,
+              "label": "2020"
+            },
+            {
+              "at": 3,
+              "label": "2022"
+            },
+            {
+              "at": 5,
+              "label": "2024"
+            },
+            {
+              "at": 6,
+              "label": "2025"
+            }
+          ],
+          "y_ticks": [
+            {
+              "at": 100
+            },
+            {
+              "at": 120
+            },
+            {
+              "at": 140
+            }
+          ],
+          "lines": [
+            {
+              "points": [
+                [
+                  1,
+                  100
+                ],
+                [
+                  2,
+                  120
+                ],
+                [
+                  3,
+                  110
+                ],
+                [
+                  4,
+                  130
+                ],
+                [
+                  5,
+                  140
+                ]
+              ],
+              "tone": "a"
+            },
+            {
+              "points": [
+                [
+                  2,
+                  100
+                ],
+                [
+                  3,
+                  106
+                ],
+                [
+                  4,
+                  107.2
+                ],
+                [
+                  5,
+                  114.04
+                ],
+                [
+                  6,
+                  121.83
+                ]
+              ],
+              "tone": "c"
+            }
+          ],
+          "dots": [
+            {
+              "x": 6,
+              "y": 121.83,
+              "label": "121.83",
+              "label_at": "below"
+            }
+          ],
+          "caption": "The blue line is actual sales; the amber line is the forecast. Each forecast moves only part of the way toward the latest actual value: that is the smoothing.",
+          "source_ref": "be--session-9#30"
+        }
+      ],
+      "worked": {
+        "question_md": "**The professor's question:** the table gives actual sales for 2020 to 2024. With **α = 0.3**, find the sales forecast for 2025.\n\n| Year | 2020 | 2021 | 2022 | 2023 | 2024 |\n|---|---|---|---|---|---|\n| Actual sales | 100 | 120 | 110 | 130 | 140 |",
+        "steps": [
+          {
+            "title": "Starting forecast",
+            "body_md": "Use the first actual observation: **F(2021) = 100**.",
+            "why": "The method needs one forecast to begin with.",
+            "result": ""
+          },
+          {
+            "title": "Forecast for 2022",
+            "body_md": "F(2022) = 0.3 × 120 + (1 - 0.3) × 100 = 36 + 70 = **106**",
+            "why": "",
+            "result": ""
+          },
+          {
+            "title": "Forecast for 2023",
+            "body_md": "F(2023) = 0.3 × 110 + (1 - 0.3) × 106 = 33 + 74.2 = **107.20**",
+            "why": "",
+            "result": ""
+          },
+          {
+            "title": "Forecast for 2024",
+            "body_md": "F(2024) = 0.3 × 130 + (1 - 0.3) × 107.2 = 39 + 75.04 = **114.04**",
+            "why": "",
+            "result": ""
+          },
+          {
+            "title": "Forecast for 2025",
+            "body_md": "F(2025) = 0.3 × 140 + (1 - 0.3) × 114.04 = 42 + 79.828 = **121.83**",
+            "why": "",
+            "result": ""
+          }
+        ],
+        "answer_md": "**F(2025) = 121.83.**"
+      },
+      "practice": [
+        {
+          "question_md": "**2025 mid-term Q6 (5 marks):** using the average sales as F1 and **w = 0.2**, calculate the RMSE.\n\n| Month | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 |\n|---|---|---|---|---|---|---|---|---|---|---|---|---|\n| Actual A | 20 | 22 | 21 | 23 | 18 | 24 | 20 | 19 | 22 | 23 | 18 | 23 |",
+          "marks": 5,
+          "pyq_id": "be-mst-2025-q6",
+          "steps": [
+            {
+              "title": "Starting forecast",
+              "body_md": "F1 = average = 253 / 12 = **21.08**",
+              "why": "The question says to start from the average.",
+              "result": ""
+            },
+            {
+              "title": "The rule with w = 0.2",
+              "body_md": "F(t+1) = 0.2 × A(t) + 0.8 × F(t)",
+              "why": "1 - w = 0.8 goes on the old forecast.",
+              "result": ""
+            },
+            {
+              "title": "The full table",
+              "body_md": "| Month | A | F | A - F | (A - F)² |\n|---|---|---|---|---|\n| 1 | 20 | 21.08 | -1.08 | 1.17 |\n| 2 | 22 | 20.87 | 1.13 | 1.28 |\n| 3 | 21 | 21.09 | -0.09 | 0.01 |\n| 4 | 23 | 21.07 | 1.93 | 3.71 |\n| 5 | 18 | 21.46 | -3.46 | 11.97 |\n| 6 | 24 | 20.77 | 3.23 | 10.45 |\n| 7 | 20 | 21.41 | -1.41 | 2.00 |\n| 8 | 19 | 21.13 | -2.13 | 4.54 |\n| 9 | 22 | 20.71 | 1.29 | 1.68 |\n| 10 | 23 | 20.96 | 2.04 | 4.14 |\n| 11 | 18 | 21.37 | -3.37 | 11.37 |\n| 12 | 23 | 20.70 | 2.30 | 5.30 |",
+              "why": "Carry 2 decimals; errors are actual minus forecast.",
+              "result": ""
+            },
+            {
+              "title": "RMSE",
+              "body_md": "Σ(A - F)² = 57.62; n = 12\n\nRMSE = √(57.62 / 12) = √4.80 = **2.19**",
+              "why": "",
+              "result": "RMSE = 2.19"
+            }
+          ],
+          "answer_md": "**RMSE is about 2.19.**"
+        }
+      ],
+      "watch_out": [
+        "Put **α** on the **actual** and **(1 - α)** on the **old forecast**. Swapping them is the most common mistake.",
+        "Start exactly as the question says: the first actual value (slides) or the average (the mid-term).",
+        "Carry 2 to 4 decimals all the way and round only at the end."
+      ],
+      "memory_trick": "**New forecast = old forecast + α × (actual - old forecast):** move a fraction α of the way toward the actual.",
+      "exam_answer_md": "**F(t+1) = αY(t) + (1 - α)F(t)**, 0 < α < 1. State the starting forecast, then draw a table: period, actual, forecast, error (A - F), error squared.\n\n**RMSE = √[Σ(A - F)²/n]**. Conclude: the lower the RMSE, the better the forecasting model.",
+      "derived": [
+        "0.01",
+        "0.09",
+        "0.3",
+        "0.7",
+        "0.8",
+        "1",
+        "1.08",
+        "1.13",
+        "1.17",
+        "1.28",
+        "1.29",
+        "1.41",
+        "1.68",
+        "1.93",
+        "10",
+        "10.45",
+        "100",
+        "106",
+        "107.2",
+        "11",
+        "11.37",
+        "11.97",
+        "110",
+        "114.04",
+        "12",
+        "120",
+        "121.83",
+        "130",
+        "140",
+        "18",
+        "19",
+        "2",
+        "2.04",
+        "2.13",
+        "2.19",
+        "2.3",
+        "20",
+        "20.7",
+        "20.71",
+        "20.77",
+        "20.87",
+        "20.96",
+        "2022",
+        "2023",
+        "2024",
+        "2025",
+        "21",
+        "21.07",
+        "21.08",
+        "21.09",
+        "21.13",
+        "21.37",
+        "21.41",
+        "21.46",
+        "22",
+        "23",
+        "24",
+        "253",
+        "3",
+        "3.23",
+        "3.37",
+        "3.46",
+        "3.71",
+        "33",
+        "36",
+        "39",
+        "4",
+        "4.14",
+        "4.54",
+        "4.8",
+        "42",
+        "5",
+        "5.3",
+        "57.62",
+        "6",
+        "7",
+        "70",
+        "74.2",
+        "75.04",
+        "79.828",
+        "8",
+        "9"
+      ]
+    },
+    {
+      "id": "elasticity",
+      "title": "Elasticity: own price, cross price and income",
+      "unit": "Unit II",
+      "priority": 2,
+      "minutes": 35,
+      "why": "The 2026 mid-term gave 5 marks to price, cross-price and income elasticity in one question; the total revenue test is a regular short question.",
+      "topic_ids": [
+        "be-s6-own-price-elasticity",
+        "be-s6-cross-income-elasticity",
+        "be-s6-factors-and-te-practice"
+      ],
+      "source_refs": [
+        "be--session-6#5",
+        "be--session-6#7",
+        "be--session-6#17",
+        "be--session-6#18",
+        "be--session-6#22",
+        "be--session-6#27"
+      ],
+      "big_idea": "Elasticity = % change in quantity ÷ % change in the driver; its sign says how they are related and its size says how strongly demand reacts.",
+      "body_md": "| Elasticity | Formula | How to read it |\n|---|---|---|\n| Own price | E(QX,PX) = %ΔQX / %ΔPX | |E| > 1 elastic, |E| < 1 inelastic, |E| = 1 unitary |\n| Cross price | E(QX,PY) = %ΔQX / %ΔPY | Positive: substitutes. Negative: complements |\n| Income | E(QX,M) = %ΔQX / %ΔM | Positive: normal good. Negative: inferior good |\n\n**Total revenue test:** if demand is **elastic**, price and total revenue move in **opposite** directions; if **inelastic**, they move the **same** way. Total revenue is highest at **unitary** elasticity.\n\n**Demand is more elastic** with more substitutes, over a longer time, and when the good takes a bigger share of the budget.",
+      "practice": [
+        {
+          "question_md": "**2026 mid-term Q4 (5 marks):** a store sells 500 phones a week at ₹50,000; apps cost ₹100; the average monthly budget is ₹60,000. Find (a) the price elasticity when a discount to ₹45,000 lifts sales to 650; (b) the cross-price elasticity when app prices double to ₹200 and sales drop to 400; (c) the income elasticity when budgets rise to ₹75,000 and sales rise to 700.",
+          "marks": 5,
+          "pyq_id": "be-mst-2026-q4",
+          "steps": [
+            {
+              "title": "Price elasticity",
+              "body_md": "%ΔQ = (650 - 500)/500 = **30%**; %ΔP = (45,000 - 50,000)/50,000 = **-10%**\n\nE = 30 / -10 = **-3**: elastic (|E| > 1).",
+              "why": "Each % change is (new - old) ÷ old.",
+              "result": "E = -3, elastic"
+            },
+            {
+              "title": "Cross-price elasticity",
+              "body_md": "%ΔQ = (400 - 500)/500 = **-20%**; %ΔP(apps) = (200 - 100)/100 = **100%**\n\nE = -20 / 100 = **-0.2**: negative, so phones and apps are **complements**.",
+              "why": "",
+              "result": "E = -0.2, complements"
+            },
+            {
+              "title": "Income elasticity",
+              "body_md": "%ΔQ = (700 - 500)/500 = **40%**; %ΔM = (75,000 - 60,000)/60,000 = **25%**\n\nE = 40 / 25 = **1.6**: positive, so a **normal good**.",
+              "why": "",
+              "result": "E = 1.6, normal good"
+            }
+          ],
+          "answer_md": "**Price elasticity -3 (elastic); cross-price -0.2 (complements); income 1.6 (normal good).**"
+        }
+      ],
+      "quiz_ids": [
+        "be-s6-own-price-elasticity-q-889e516a",
+        "be-s6-own-price-elasticity-q-dc9bebaf",
+        "be-s6-cross-income-elasticity-q-207bfdef",
+        "be-s6-cross-income-elasticity-q-be201b32"
+      ],
+      "watch_out": [
+        "Keep the **sign**: for cross and income elasticity the sign is the answer (substitute or complement, normal or inferior).",
+        "Elastic means price and revenue move **opposite** ways: a price cut raises revenue."
+      ],
+      "memory_trick": "**Cross: plus means swap (substitutes), minus means pair (complements).**",
+      "exam_answer_md": "Write the formula, the two % changes with working, the elasticity, and one line of meaning (elastic or inelastic; substitutes or complements; normal or inferior).",
+      "derived": [
+        "30",
+        "10",
+        "3",
+        "20",
+        "100",
+        "0.2",
+        "40",
+        "25",
+        "1.6",
+        "150",
+        "5000"
+      ]
+    },
+    {
+      "id": "markets-and-government",
+      "title": "Equilibrium, surplus, price controls and a tax",
+      "unit": "Unit II",
+      "priority": 2,
+      "minutes": 35,
+      "why": "Both 2026 and 2025 mid-terms asked for equilibrium work and the government's role (price controls, a tax); surplus is a regular 'Explain' question.",
+      "topic_ids": [
+        "be-s45-equilibrium",
+        "be-s45-price-restrictions",
+        "be-s45-consumer-surplus",
+        "be-s45-supply-function"
+      ],
+      "source_refs": [
+        "be--sessions-4-and-5#3",
+        "be--sessions-4-and-5#13",
+        "be--sessions-4-and-5#21",
+        "be--sessions-4-and-5#22",
+        "be--sessions-4-and-5#25",
+        "be--sessions-4-and-5#26",
+        "be--sessions-4-and-5#31",
+        "be--sessions-4-and-5#32",
+        "be--sessions-4-and-5#33",
+        "be--sessions-4-and-5#34",
+        "be--sessions-4-and-5#35",
+        "be--sessions-4-and-5#36",
+        "be--sessions-4-and-5#37"
+      ],
+      "big_idea": "Equilibrium is where quantity demanded equals quantity supplied; a ceiling below it causes a shortage, a floor above it a surplus, and a tax shifts supply.",
+      "body_md": "**Market equilibrium:** the price that balances supply and demand, **Qxs = Qxd**, with no shortage or surplus.\n\n**Consumer surplus:** the value consumers get from a good but do not have to pay for. **Producer surplus:** the amount producers receive in excess of the amount necessary to induce them to produce.\n\n**Government intervention:**\n\n- **Price ceiling** (maximum legal price, below equilibrium): quantity supplied < quantity demanded, a **shortage**. Buyers also pay a nonpecuniary price, so the full economic price is higher.\n- **Price floor** (minimum legal price, above equilibrium): quantity demanded < quantity supplied, a **surplus**; the government may buy the surplus.\n- **Taxes** are one of the determinants of supply: a tax on producers shifts supply.",
+      "visuals": [
+        {
+          "kind": "compare",
+          "title": "Price ceiling versus price floor",
+          "sides": [
+            {
+              "title": "Price ceiling",
+              "tone": "a",
+              "points": [
+                "Maximum legal price",
+                "Set below equilibrium",
+                "Shortage: Qs < Qd",
+                "Full economic price above the ceiling"
+              ]
+            },
+            {
+              "title": "Price floor",
+              "tone": "c",
+              "points": [
+                "Minimum legal price",
+                "Set above equilibrium",
+                "Surplus: Qd < Qs",
+                "Government may buy the surplus"
+              ]
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "question_md": "**2026 mid-term Q5 (3 marks):** Qd = 300 - 3P and Qs = -60 + 3P. The government puts a specific tax of $10 per unit on producers. Calculate the new price paid by consumers.",
+          "marks": 3,
+          "pyq_id": "be-mst-2026-q5",
+          "steps": [
+            {
+              "title": "Equilibrium before the tax",
+              "body_md": "300 - 3P = -60 + 3P, so 360 = 6P and **P = 60**; Q = 300 - 3(60) = **120**",
+              "why": "Set Qd = Qs first, so you can show the change.",
+              "result": ""
+            },
+            {
+              "title": "Supply after the tax",
+              "body_md": "Producers keep only P - 10 of each sale, so supply becomes Qs = -60 + 3(P - 10) = **-90 + 3P**.",
+              "why": "A tax on producers shifts the supply curve.",
+              "result": ""
+            },
+            {
+              "title": "New equilibrium",
+              "body_md": "300 - 3P = -90 + 3P, so 390 = 6P and **P = 65**. Consumers pay **$65**; producers keep 55; Q = 105.",
+              "why": "",
+              "result": "Consumers pay 65"
+            }
+          ],
+          "answer_md": "**Consumers now pay $65 (up from $60); half of the $10 tax falls on consumers here.**"
+        },
+        {
+          "question_md": "**The professor's questions:** with Qxd = 400 - 5Px and Qxs = -50 + 5Px, (a) a price ceiling of ₹40: find the shortage; (b) a price floor of ₹50: find the surplus and the cost to the government if it buys it.",
+          "steps": [
+            {
+              "title": "Ceiling at ₹40",
+              "body_md": "Qxd = 400 - 5(40) = **200**; Qxs = -50 + 5(40) = **150**; shortage = 200 - 150 = **50**.",
+              "why": "",
+              "result": ""
+            },
+            {
+              "title": "Floor at ₹50",
+              "body_md": "Qxd = 400 - 5(50) = **150**; Qxs = -50 + 5(50) = **200**; surplus = **50**; cost = 50 × 50 = **₹2,500**.",
+              "why": "",
+              "result": ""
+            }
+          ],
+          "answer_md": "**Ceiling: shortage of 50. Floor: surplus of 50, costing the government ₹2,500.**"
+        }
+      ],
+      "quiz_ids": [
+        "be-s45-price-restrictions-q-c588009b",
+        "be-s45-price-restrictions-q-6ea4957e",
+        "be-s45-equilibrium-q-02bc9d73",
+        "be-s45-equilibrium-q-1e32193d"
+      ],
+      "watch_out": [
+        "A ceiling **below** equilibrium causes a **shortage**; a floor **above** equilibrium causes a **surplus**.",
+        "For a tax on producers, replace P with **P - tax** in the supply equation, then solve again."
+      ],
+      "memory_trick": "**Ceiling holds price down, floor holds price up.**",
+      "exam_answer_md": "**Role of government intervention:** governments can set a **price ceiling** (maximum legal price, below equilibrium, causing a shortage) or a **price floor** (minimum legal price, above equilibrium, causing a surplus), and taxes shift supply. Give one example from the slides for each, then show the effect on a demand and supply diagram.",
+      "derived": [
+        "60",
+        "65",
+        "120",
+        "105",
+        "55",
+        "360",
+        "390",
+        "6",
+        "90",
+        "200",
+        "150",
+        "50",
+        "2500"
+      ]
+    },
+    {
+      "id": "consumer-choice",
+      "title": "Utility, indifference curves and the budget line",
+      "unit": "Unit II",
+      "priority": 3,
+      "minutes": 35,
+      "why": "Mid-term topics that can return as short questions: MU and TU, consumer equilibrium, the four preference properties, the budget line.",
+      "topic_ids": [
+        "be-s3-tu-mu-diminishing",
+        "be-s3-consumer-equilibrium",
+        "be-s7-preference-properties",
+        "be-s7-budget-constraint",
+        "be-s7-consumer-equilibrium"
+      ],
+      "source_refs": [
+        "be--session-3#11",
+        "be--session-3#12",
+        "be--session-3#15",
+        "be--session-7#5",
+        "be--session-7#7",
+        "be--session-7#8",
+        "be--session-7#9",
+        "be--session-7#10",
+        "be--session-7#12"
+      ],
+      "big_idea": "A consumer picks the affordable bundle with the highest satisfaction: where the highest reachable indifference curve just touches the budget line (MRS = Px/Py).",
+      "body_md": "**Total utility (TU):** the sum of the utilities from all units consumed. **Marginal utility (MU):** the change in TU from one more unit. **Law of diminishing marginal utility:** MU falls as you consume more of a good.\n\n**Budget line:** **PxX + PyY = M**; its intercepts are M/Px and M/Py and its slope is **Px/Py** (in size).\n\n**Four properties of preferences:** completeness, more is better, diminishing marginal rate of substitution, transitivity (so indifference curves do not cross).\n\n**Consumer equilibrium:** the affordable bundle with the highest satisfaction, where **MRS = Px/Py** (the indifference curve's slope equals the budget line's slope).",
+      "visuals": [
+        {
+          "kind": "compare",
+          "title": "The four properties of preferences",
+          "sides": [
+            {
+              "title": "Completeness",
+              "tone": "a",
+              "points": [
+                "Every pair of bundles can be ranked"
+              ]
+            },
+            {
+              "title": "More is better",
+              "tone": "b",
+              "points": [
+                "Higher indifference curves are preferred"
+              ]
+            },
+            {
+              "title": "Diminishing MRS",
+              "tone": "c",
+              "points": [
+                "You give up less and less of Y for each extra X"
+              ]
+            },
+            {
+              "title": "Transitivity",
+              "tone": "d",
+              "points": [
+                "C over B and B over A means C over A",
+                "So indifference curves do not cross"
+              ]
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "question_md": "**2025 mid-term Q2 (2 marks):** good A costs Rs. 2 and good B Rs. 4; income is Rs. 20. (i) Which bundles lie on the budget line? (ii) How many units of A if all income goes on A? (iii) The budget line's equation? (iv) Its slope?",
+          "marks": 2,
+          "pyq_id": "be-mst-2025-q2",
+          "steps": [
+            {
+              "title": "Equation",
+              "body_md": "2A + 4B = 20",
+              "why": "Price times quantity for each good adds up to income.",
+              "result": ""
+            },
+            {
+              "title": "Bundles",
+              "body_md": "(A, B) = (10, 0), (8, 1), (6, 2), (4, 3), (2, 4), (0, 5)",
+              "why": "",
+              "result": ""
+            },
+            {
+              "title": "All on A, and the slope",
+              "body_md": "All income on A: 20/2 = **10 units**. Slope (B on the vertical axis): -2/4 = **-0.5**.",
+              "why": "",
+              "result": ""
+            }
+          ],
+          "answer_md": "**2A + 4B = 20; bundles (10, 0) to (0, 5) as listed; 10 units of A; slope -0.5.**"
+        },
+        {
+          "question_md": "**2025 mid-term Q5 (2 marks):** an ice-cream costs Rs. 30. The MU of the 3rd one is 90 utils and the MU of Rs. 1 is 3 utils. Should she eat more or stop?",
+          "marks": 2,
+          "pyq_id": "be-mst-2025-q5",
+          "steps": [
+            {
+              "title": "Turn MU into rupees",
+              "body_md": "90 utils ÷ 3 utils per rupee = Rs. 30 of satisfaction.",
+              "why": "",
+              "result": ""
+            },
+            {
+              "title": "Compare with the price",
+              "body_md": "Rs. 30 of satisfaction = Rs. 30 price, so MU/P equals the MU of money. She is in equilibrium.",
+              "why": "Equilibrium: MU of the good in money terms equals its price.",
+              "result": ""
+            }
+          ],
+          "answer_md": "**She should stop at 3: the 3rd ice-cream's utility is worth exactly its price.**"
+        }
+      ],
+      "quiz_ids": [
+        "be-s3-tu-mu-diminishing-q-15d2a1e4",
+        "be-s7-preference-properties-q-0d5fea6e",
+        "be-s7-budget-constraint-q-6dbb6245"
+      ],
+      "watch_out": [
+        "The budget line's slope is the **price ratio**, not the income.",
+        "Indifference curves never cross (transitivity)."
+      ],
+      "memory_trick": "**Equilibrium = touch:** highest indifference curve touching the budget line.",
+      "exam_answer_md": "**Consumer equilibrium (indifference curves):** the consumer chooses the affordable bundle with the highest satisfaction, where the highest indifference curve is tangent to the budget line: **MRS = Px/Py**. (Draw it.)",
+      "derived": [
+        "10",
+        "0.5",
+        "8",
+        "6",
+        "4",
+        "2",
+        "5",
+        "30"
+      ]
+    },
+    {
+      "id": "foundations",
+      "title": "Economic profit, present value, perpetuity and NPV",
+      "unit": "Unit I",
+      "priority": 3,
+      "minutes": 30,
+      "why": "The 2026 mid-term had a deferred perpetuity (2 marks) and an NPV choice (5 marks); accounting versus economic profit is a common 3-mark question.",
+      "topic_ids": [
+        "be-s12-manager-role",
+        "be-s12-time-value",
+        "be-s12-perpetuity",
+        "be-s12-npv"
+      ],
+      "source_refs": [
+        "be--session-1-and-2#14",
+        "be--session-1-and-2#15",
+        "be--session-1-and-2#20",
+        "be--session-1-and-2#24",
+        "be--session-1-and-2#31",
+        "be--session-1-and-2#36",
+        "be--session-1-and-2#37",
+        "be--session-1-and-2#40"
+      ],
+      "big_idea": "Economic profit counts the opportunity cost that accounting profit ignores, and money later is worth less than money now: PV = FV/(1 + i)^n.",
+      "body_md": "**Accounting profit** = total revenue - explicit costs. **Economic profit** = total revenue - (explicit + implicit costs): it includes opportunity cost, so it is the complete measure.\n\n**Present value:** PV = FV / (1 + i)^n. **A series:** add the PV of each flow.\n\n**Perpetuity** (pays forever): **PV = CF / i**. If the first payment comes later, CF / i gives the value one period **before** the first payment; then discount that back to today.\n\n**NPV** = PV of future cash flows - the cost today (C₀). Accept if NPV > 0.",
+      "practice": [
+        {
+          "question_md": "**2026 mid-term Q2 (2 marks):** $800 a year forever, first payment at the end of Year 5, interest 6%. What is its present value today?",
+          "marks": 2,
+          "pyq_id": "be-mst-2026-q2",
+          "steps": [
+            {
+              "title": "Value of the perpetuity",
+              "body_md": "800 / 0.06 = **$13,333.33**, its value at the end of Year 4 (one period before the first payment).",
+              "why": "",
+              "result": ""
+            },
+            {
+              "title": "Discount to today",
+              "body_md": "PV = 13,333.33 / (1.06)^4 = 13,333.33 / 1.2625 = **$10,561.25**",
+              "why": "",
+              "result": "PV = $10,561.25"
+            }
+          ],
+          "answer_md": "**Present value is about $10,561.25.**"
+        },
+        {
+          "question_md": "**2026 mid-term Q3 (5 marks):** the efficient fridge costs $550 and saves $28 at the end of each of the next 5 years; the standard one costs $420; cost of funds 5%. Which should you buy?",
+          "marks": 5,
+          "pyq_id": "be-mst-2026-q3",
+          "steps": [
+            {
+              "title": "Extra cost today",
+              "body_md": "550 - 420 = **$130** (this is C₀).",
+              "why": "Compare only what differs between the two choices.",
+              "result": ""
+            },
+            {
+              "title": "PV of the savings",
+              "body_md": "28/1.05 + 28/1.05² + 28/1.05³ + 28/1.05⁴ + 28/1.05⁵ = **$121.23**",
+              "why": "",
+              "result": ""
+            },
+            {
+              "title": "NPV",
+              "body_md": "NPV = 121.23 - 130 = **-8.77**, which is negative.",
+              "why": "",
+              "result": "NPV = -8.77"
+            }
+          ],
+          "answer_md": "**NPV is negative, so buy the standard model: the savings are worth less today than the extra $130.**"
+        }
+      ],
+      "quiz_ids": [
+        "be-s12-manager-role-q-d7f62826",
+        "be-s12-perpetuity-q-6890c1cf",
+        "be-s12-npv-q-a5e70e21"
+      ],
+      "watch_out": [
+        "A delayed perpetuity: CF/i is the value one period **before** the first payment, so discount for 4 years when the first payment is in Year 5.",
+        "NPV compares only the **difference** between options."
+      ],
+      "memory_trick": "**Economic profit pays rent to your alternatives** (it subtracts opportunity cost).",
+      "exam_answer_md": "**Accounting profit** = TR - explicit costs (ignores opportunity cost). **Economic profit** = TR - (explicit + implicit costs), a complete measure of profitability. Give one example of an implicit cost (the owner's own time or money).",
+      "derived": [
+        "0.06",
+        "1.05",
+        "1.06",
+        "1.2625",
+        "10561.25",
+        "121.23",
+        "13333.33",
+        "8.77",
+        "130",
+        "4"
+      ]
+    }
+  ],
+  "last_hour": [
+    "Leontief: take the **smaller** of bK and cL. Cobb-Douglas K^0.5 means square root.",
+    "AP = TP/L; MP = change in TP. Diminishing returns begin where **MP** first falls.",
+    "Cost minimization: isocost **tangent** to isoquant; **MRTS_KL = MPL/MPK = w/r**. Draw it.",
+    "Cost function: constant = FC; Q-terms = VC; MC = derivative; ATC = AFC + AVC (check with C(Q)/Q).",
+    "C(Q) = 20 + 3Q² at Q = 10: MC 60, AFC 2, AVC 30, ATC 32.",
+    "MC cuts AVC and ATC at their minimum points; AFC keeps falling.",
+    "LRAC is U-shaped: economies of scale, then diseconomies beyond Q*. Scope: joint is cheaper.",
+    "Exponential smoothing: **α on the actual, (1 - α) on the old forecast**; start as the question says.",
+    "RMSE: error, square, mean, root. n = periods with a forecast. Lower RMSE wins.",
+    "Moving average: the first forecast is for the 4th period.",
+    "Trend: table of t, t², St; two normal equations; keep counting t for the forecast year.",
+    "Elasticity signs: cross plus = substitutes, minus = complements; income plus = normal, minus = inferior.",
+    "Tax on producers: replace P with P - tax in supply, then solve again.",
+    "Every numerical: formula, substitution, answer with units, one-line comment."
+  ]
+}
