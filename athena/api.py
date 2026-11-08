@@ -20,6 +20,17 @@ from pydantic import BaseModel, Field
 from . import __version__, admin, config, db, insights, mocks, planner, progress, services, srs
 
 API = "/api/v1"
+NO_CACHE = {"Cache-Control": "no-cache"}
+
+
+class FreshStaticFiles(StaticFiles):
+    """The app's own HTML, CSS and JS. "no-cache" makes the browser ask for a newer copy
+    every time (a cheap 304 when nothing changed), so updates show up without a hard refresh."""
+
+    async def get_response(self, path: str, scope):
+        response = await super().get_response(path, scope)
+        response.headers.update(NO_CACHE)
+        return response
 
 
 def get_conn() -> Iterator[sqlite3.Connection]:
@@ -346,7 +357,7 @@ def create_app() -> FastAPI:
 
     @app.get("/")
     def index():
-        return FileResponse(config.WEB_DIR / "index.html")
+        return FileResponse(config.WEB_DIR / "index.html", headers=NO_CACHE)
 
-    app.mount("/", StaticFiles(directory=str(config.WEB_DIR), html=True), name="web")
+    app.mount("/", FreshStaticFiles(directory=str(config.WEB_DIR), html=True), name="web")
     return app

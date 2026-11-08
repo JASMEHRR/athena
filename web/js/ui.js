@@ -38,12 +38,19 @@ export function escapeHtml(text) {
     .replace(/"/g, "&quot;").replace(/'/g, "&#39;");
 }
 
+const STAR = "\u0001";
+
 function inline(text) {
-  // Input is already HTML-escaped.
+  // Input is already HTML-escaped. A literal star is "\*", or a capital letter's star as in
+  // P* and Q* (economics notation); both are kept out of the bold and italic matching.
   return text
+    .replace(/\\\*/g, STAR)
+    // P* then a non-star (P*, P*.) or a closing bold (**P***); not **D**, where the stars close bold.
+    .replace(/(^|[^A-Za-z])([A-Z])\*(?=\*\*(?!\*)|[^*A-Za-z0-9]|$)/g, `$1$2${STAR}`)
     .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
     .replace(/(^|[^*])\*(?!\s)(.+?)\*(?!\*)/g, "$1<em>$2</em>")
-    .replace(/`([^`]+)`/g, "<code>$1</code>");
+    .replace(/`([^`]+)`/g, "<code>$1</code>")
+    .replaceAll(STAR, "*");
 }
 
 // Minimal, safe Markdown: paragraphs, bold, italic, lists, tables, headings.
@@ -122,6 +129,10 @@ const ICONS = {
   search: '<circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/>',
   play: '<path d="M7 4l13 8-13 8z"/>',
   empty: '<rect x="3" y="5" width="18" height="14" rx="3"/><path d="M3 10h18"/>',
+  eye: '<path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/>',
+  steps: '<path d="M4 6h2M4 12h2M4 18h2M9 6h11M9 12h11M9 18h11"/>',
+  bulb: '<path d="M9 18h6M10 22h4M12 2a7 7 0 0 0-4 12.7V17h8v-2.3A7 7 0 0 0 12 2z"/>',
+  pen: '<path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4z"/>',
 };
 
 export function icon(name, cls = "") {

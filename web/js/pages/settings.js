@@ -112,7 +112,7 @@ function displaySection(settings) {
   }, t === "dark" ? "Dark" : "Light")));
   return section("Display", null,
     el("div", { class: "row between wrap" }, el("span", {}, "Theme"), theme),
-    el("label", { class: "check" }, clar, "Show 'Not on slide' clarifications in lessons"),
+    el("label", { class: "check" }, clar, "Show 'Not on slide' notes in lessons (plain meanings and everyday comparisons)"),
     el("button", { class: "btn", onclick: () => save({ show_clarifications: clar.checked }) }, "Save"));
 }
 

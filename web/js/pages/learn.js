@@ -1,8 +1,9 @@
 // Learn: teach one chunk, check it, move on; then explain it back and rate confidence.
 
 import { api } from "../api.js";
-import { openSlideModal, questionCard, refChips, renderSlide, slideFigures, startTracking } from "../components.js";
+import { openSlideModal, questionCard, refChips, renderSlide, slideFigures, startTracking, workedSteps } from "../components.js";
 import { add, banner, clear, el, empty, icon, md, pill, refLabel, toast } from "../ui.js";
+import { renderVisual } from "../visuals.js";
 
 let topicTitle = "Learn";
 export const title = () => topicTitle;
@@ -70,6 +71,61 @@ function chunkView(chunk, index) {
   return view;
 }
 
+// Pass C lessons: one plain line, the explanation, pictures, a worked example step by step,
+// the usual mistakes, a memory trick and the exam answer, then the professor's material.
+function teachView(chunk, index) {
+  const view = el("div", { class: "stack lg teach" });
+  const total = state.lesson.chunks.length;
+  view.append(el("div", { class: "row between" }, el("span", { class: "label" }, `Part ${index + 1} of ${total}`),
+    chunk.status === "known" ? pill("You said you know this", "good") : null));
+  view.append(el("h2", {}, chunk.heading));
+  view.append(el("div", { class: "big-idea" }, el("div", { class: "sec-h" }, "In one line"), el("p", {}, chunk.big_idea)));
+  view.append(el("div", { class: "lesson", html: md(chunk.explanation_md) }));
+
+  if (chunk.visuals.length) {
+    view.append(el("section", { class: "tsec" }, el("h3", { class: "sec-h" }, icon("eye"), "See it"),
+      ...chunk.visuals.map((v) => renderVisual(v, { onOpenRef: showRef }))));
+  }
+  if (chunk.analogy) {
+    view.append(el("div", { class: "analogy" },
+      el("div", { class: "row wrap" }, el("span", { class: "sec-h" }, icon("bulb"), "Think of it like this"), pill("Not on slide", "warn")),
+      el("p", {}, chunk.analogy.text)));
+  }
+  if (chunk.worked) {
+    state.worked = workedSteps(chunk.worked);
+    view.append(el("section", { class: "tsec" }, el("h3", { class: "sec-h" }, icon("steps"), "Step by step"), state.worked.node));
+  }
+  if (chunk.watch_out.length) {
+    view.append(el("div", { class: "watch" }, el("div", { class: "sec-h" }, icon("alert"), "Watch out"),
+      el("div", { class: "lesson", html: md(chunk.watch_out.map((t) => `- ${t}`).join("\n")) })));
+  }
+  if (chunk.memory_trick) {
+    view.append(el("div", { class: "trick" }, el("div", { class: "sec-h" }, icon("spark"), "Memory trick"),
+      el("div", { class: "lesson", html: md(chunk.memory_trick) })));
+  }
+  if (chunk.exam_answer_md) {
+    view.append(el("div", { class: "exam-sheet" }, el("div", { class: "sec-h" }, icon("pen"), "Write it like this in the exam"),
+      el("div", { class: "lesson", html: md(chunk.exam_answer_md) })));
+  }
+  if (chunk.examples.length) {
+    view.append(el("div", { class: "prof-box" }, el("span", { class: "label" }, "From your professor's slides"),
+      ...chunk.examples.map((x) => el("div", { class: "ex" }, el("b", {}, `${x.label}: `), x.text, " ",
+        el("button", { class: "ref-chip", onclick: () => showRef(x.source_ref) }, icon("slide"), refLabel(x.source_ref))))));
+  }
+  if (chunk.key_terms.length) {
+    view.append(el("div", {}, el("div", { class: "sec-h" }, "Key terms"), el("div", { class: "terms" },
+      ...chunk.key_terms.map((k) => el("div", { class: "term" }, el("b", {}, k.term), el("span", {}, k.meaning))))));
+  }
+  if (chunk.clarification) {
+    view.append(el("div", { class: "clar" }, el("span", { class: "pill warn" }, "Not on slide"),
+      el("b", {}, `${chunk.clarification.term}: `), chunk.clarification.text));
+  }
+  view.append(el("details", { class: "slides-more" },
+    el("summary", {}, icon("slide"), `The professor's slides for this part (${chunk.source_refs.length})`),
+    slideFigures(chunk.source_refs, showRef), el("div", { style: { marginTop: "10px" } }, refChips(chunk.source_refs, showRef))));
+  return view;
+}
+
 async function markChunk(chunk, status) {
   chunk.status = status === "known" ? "known" : chunk.status === "known" ? "known" : "seen";
   try {
@@ -82,9 +138,12 @@ async function markChunk(chunk, status) {
 function renderChunkStage() {
   const chunk = state.lesson.chunks[state.step];
   if (chunk.status === "new") markChunk(chunk, "seen");
-  if (chunk.source_refs.length && state.panel && wide()) showRef(chunk.source_refs[0]);
+  // Side panel: the slide a picture redraws is the most useful one to have open beside it.
+  const panelRef = (chunk.visuals || []).find((v) => v.source_ref)?.source_ref || chunk.source_refs[0];
+  if (panelRef && state.panel && wide()) showRef(panelRef);
 
-  const content = chunkView(chunk, state.step);
+  state.worked = null;
+  const content = chunk.big_idea ? teachView(chunk, state.step) : chunkView(chunk, state.step);
   const checksBox = el("div", { class: "stack lg" });
   const actions = el("div", { class: "row wrap section" });
   let checkIndex = 0;
@@ -128,7 +187,11 @@ function renderChunkStage() {
   know.addEventListener("click", async () => { await markChunk(chunk, "known"); goNext(); });
   const back = state.step > 0 ? el("button", { class: "btn ghost", onclick: () => { state.step -= 1; draw(); } }, icon("back"), "Back") : null;
   add(actions, cont, know, el("span", { class: "spacer" }), back, el("span", { class: "small faint" }, el("span", { class: "kbd" }, "Enter"), " continue"));
-  state.enter = () => { if (!checking) cont.click(); };
+  state.enter = () => {
+    if (checking) return;
+    if (state.worked && !state.worked.done()) state.worked.next();
+    else cont.click();
+  };
   state.keys = null;
   return el("div", {}, content, actions, el("div", { class: "section" }, checksBox));
 }
@@ -275,7 +338,7 @@ export async function render(root, { args, query }) {
   layout.append(left, panel);
   const page = el("div", { class: "page" }, layout);
   root.append(page);
-  state = { lesson, step: 0, left, panel, panelBody, keys: null, enter: null };
+  state = { lesson, step: 0, left, panel, panelBody, keys: null, enter: null, worked: null };
 
   if (!lesson.chunks.length) {
     left.append(header(), empty("No lesson parts", "This topic has no lesson content yet."));

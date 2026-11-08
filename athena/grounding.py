@@ -4,7 +4,10 @@ For each item (lesson chunk, question, flashcard, explain-it-back prompt,
 example, framework) take the text, visual_text and notes of the slides it
 cites, then check that every proper noun, company name, number, percentage
 and year in the item appears there (case-insensitive, light fuzzy matching).
-Clarifications must contain no names or numbers at all.
+A chunk's teaching layer (one-line idea, worked steps, picture labels, mistakes,
+memory trick, exam answer) is checked as part of the chunk.
+Clarifications must contain no names or numbers at all. Analogies ("Think of it
+like this", not on the slides) must contain no names and no numbers above 10.
 
 Rules worth knowing:
 - Whole numbers 0 to 10 are not checked: they are list counts ("3 types").
@@ -161,6 +164,7 @@ def corpus_lowercase_vocab(cat: Catalog) -> set[str]:
     for topic in cat.topics.values():
         for chunk in topic.chunks:
             _lower_words(f"{chunk.heading} {chunk.explanation_md} {chunk.exam_line}", vocab)
+            _lower_words(" ".join(chunk.teaching_texts()), vocab)
         for card in topic.flashcards:
             _lower_words(f"{card.front} {card.back}", vocab)
         for q in topic.questions:
@@ -214,6 +218,17 @@ def clarification_problems(text: str) -> list[str]:
     return problems
 
 
+def analogy_problems(text: str, vocab: set[str]) -> list[str]:
+    """Names, and numbers other than small counts, in an analogy (it is not on the slides)."""
+    problems = [raw for norm, raw in numbers_in(text)
+                if "." in norm or "%" in raw or int(norm) > 10]
+    for word in proper_nouns(text):
+        low = word.lower()
+        if word.isupper() or not (low in vocab or "~" + stem(low) in vocab):
+            problems.append(word)
+    return problems
+
+
 def _evidence_for(cat: Catalog, refs: list[str]) -> tuple[Evidence, list[str]]:
     texts, bad = [], []
     for ref in refs:
@@ -255,13 +270,20 @@ def run_checks(cat: Catalog) -> list[ItemResult]:
         for chunk in topic.chunks:
             if chunk.retired:
                 continue
-            refs = sorted(set(chunk.source_refs) | {k.source_ref for k in chunk.key_terms})
+            refs = sorted(set(chunk.source_refs) | {k.source_ref for k in chunk.key_terms}
+                          | {v.source_ref for v in chunk.visuals if v.source_ref})
             text = "\n".join([chunk.heading, chunk.explanation_md, chunk.exam_line]
-                             + [f"{k.term}: {k.meaning}" for k in chunk.key_terms])
+                             + [f"{k.term}: {k.meaning}" for k in chunk.key_terms]
+                             + chunk.teaching_texts())
             check("chunk", chunk.id, topic.id, refs, text, chunk.derived, chunk.needs_check)
             if chunk.clarification:
                 problems = clarification_problems(chunk.clarification.text)
                 results.append(ItemResult("clarification", chunk.id, topic.id, refs,
+                                          [f"names or numbers: {', '.join(problems)}"] if problems else [],
+                                          hidden=chunk.needs_check))
+            if chunk.analogy:
+                problems = analogy_problems(chunk.analogy.text, vocab)
+                results.append(ItemResult("analogy", chunk.id, topic.id, refs,
                                           [f"names or numbers: {', '.join(problems)}"] if problems else [],
                                           hidden=chunk.needs_check))
             for q in chunk.check_questions:

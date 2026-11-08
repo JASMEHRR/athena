@@ -237,6 +237,9 @@ def lesson(conn: sqlite3.Connection, topic_id: str) -> dict | None:
                          for e in c.get("example_ids", []) if e in examples],
             "key_terms": c.get("key_terms", []), "exam_line": c.get("exam_line", ""),
             "clarification": c.get("clarification") if show_clar else None,
+            "big_idea": c.get("big_idea", ""), "analogy": c.get("analogy") if show_clar else None,
+            "visuals": c.get("visuals", []), "worked": c.get("worked"), "watch_out": c.get("watch_out", []),
+            "memory_trick": c.get("memory_trick", ""), "exam_answer_md": c.get("exam_answer_md", ""),
             "source_refs": c["source_refs"], "status": chunk_status.get(c["id"], "new"),
             "checks": [_question_payload(q, topic_id, seed) for q in c.get("check_questions", [])
                        if not q.get("retired") and not q.get("needs_check")],

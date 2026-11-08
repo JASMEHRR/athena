@@ -80,6 +80,51 @@ export function refChips(refs, onOpen = openSlideModal) {
     el("button", { class: "ref-chip", title: "Open this slide", onclick: () => onOpen(r) }, icon("slide"), refLabel(r))));
 }
 
+// ------------------------------------------------------------- worked example
+
+/**
+ * A worked example revealed one step at a time: the question, then each step
+ * (what we do, why, the result), then the answer. Returns {node, next, done}
+ * so the page can let Enter show the next step.
+ */
+export function workedSteps(w) {
+  const steps = w.steps.map((st, i) => el("li", { class: "wstep", hidden: true },
+    el("div", { class: "wstep-head" }, el("span", { class: "wstep-n" }, String(i + 1)), el("b", {}, st.title)),
+    el("div", { class: "lesson", html: md(st.body_md) }),
+    st.why ? el("p", { class: "wstep-why" }, el("b", {}, "Why: "), st.why) : null,
+    st.result ? el("div", { class: "wstep-result" }, st.result) : null));
+  const answer = w.answer_md ? el("div", { class: "wanswer", hidden: true },
+    el("div", { class: "sec-h" }, icon("check"), "Answer"), el("div", { class: "lesson", html: md(w.answer_md) })) : null;
+  const nextBtn = el("button", { class: "btn primary" });
+  const allBtn = el("button", { class: "btn ghost" }, "Show all steps");
+  const controls = el("div", { class: "row wrap" }, nextBtn, allBtn,
+    el("span", { class: "small faint" }, el("span", { class: "kbd" }, "Enter"), " next step"));
+  let shown = 0;
+
+  function label() {
+    clear(nextBtn);
+    nextBtn.append(shown ? `Next: step ${shown + 1} of ${steps.length}` : `Show step 1 of ${steps.length}`, icon("arrow"));
+  }
+  function reveal(upTo) {
+    const before = shown;
+    while (shown < Math.min(upTo, steps.length)) steps[shown++].hidden = false;
+    if (shown >= steps.length) {
+      if (answer) answer.hidden = false;
+      controls.remove();
+    } else {
+      label();
+    }
+    if (shown > before) steps[before].scrollIntoView({ behavior: "smooth", block: "nearest" });
+  }
+  label();
+  nextBtn.addEventListener("click", () => reveal(shown + 1));
+  allBtn.addEventListener("click", () => reveal(steps.length));
+  const node = el("div", { class: "worked" },
+    el("div", { class: "worked-q" }, el("div", { class: "sec-h" }, "The question"), el("div", { class: "lesson", html: md(w.question_md) })),
+    el("ol", { class: "wsteps" }, steps), controls, answer);
+  return { node, next: () => reveal(shown + 1), done: () => shown >= steps.length };
+}
+
 // ------------------------------------------------------------- question card
 
 /**

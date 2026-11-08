@@ -27,7 +27,7 @@
     {
       "id": "be-s45-equilibrium-c1",
       "heading": "Producer surplus",
-      "explanation_md": "Consumers get a surplus; so do sellers.\n\n**Producer surplus** is **the amount producers receive in excess of the amount necessary to induce them to produce the good.**\n\nOn the slide's graph, the price is **P*** and the quantity is **Q***. The supply curve is **S0**. The **green triangle between the price line P* and the supply curve, from zero out to Q*,** is the producer surplus.\n\nCompare with consumer surplus: consumer surplus sits **above** the price and **below** demand; producer surplus sits **below** the price and **above** supply.",
+      "explanation_md": "Every seller has a lowest price at which they would still be willing to produce. The **supply curve** shows that lowest price, unit by unit.\n\nBut the market pays **one price, P***, for every unit sold. So all the units up to **Q*** sell at P*, even the ones the seller would have made for less. That extra money is the **producer surplus**.\n\nOn the graph it is the **triangle below the price line P* and above the supply curve**, from zero out to Q*.",
       "example_ids": [],
       "key_terms": [
         {
@@ -113,12 +113,122 @@
       ],
       "derived": [],
       "needs_check": false,
-      "retired": false
+      "retired": false,
+      "big_idea": "Producer surplus is what sellers receive over and above the least they would have needed to make the good.",
+      "analogy": {
+        "text": "Think of a seller who would happily make something for a small amount, but the market pays more. The extra money in their hand, over the least they would have accepted, is their surplus."
+      },
+      "visuals": [
+        {
+          "title": "Producer surplus on the slide's graph",
+          "caption": "",
+          "source_ref": "be--sessions-4-and-5#25",
+          "kind": "plot",
+          "x_label": "Quantity",
+          "y_label": "Price",
+          "x_max": 10.0,
+          "y_max": 10.0,
+          "x_ticks": [
+            {
+              "at": 6.0,
+              "label": "Q*"
+            }
+          ],
+          "y_ticks": [
+            {
+              "at": 6.0,
+              "label": "P*"
+            }
+          ],
+          "lines": [
+            {
+              "points": [
+                [
+                  0.0,
+                  2.0
+                ],
+                [
+                  9.0,
+                  8.0
+                ]
+              ],
+              "label": "S0",
+              "label_at": "end",
+              "tone": "a",
+              "dashed": false,
+              "bold": false,
+              "curve": false
+            }
+          ],
+          "areas": [
+            {
+              "points": [
+                [
+                  0.0,
+                  2.0
+                ],
+                [
+                  0.0,
+                  6.0
+                ],
+                [
+                  6.0,
+                  6.0
+                ]
+              ],
+              "label": "Producer surplus",
+              "tone": "b"
+            }
+          ],
+          "dots": [
+            {
+              "x": 6.0,
+              "y": 6.0,
+              "label": "",
+              "label_at": "above",
+              "guides": true
+            }
+          ]
+        },
+        {
+          "title": "The two surpluses side by side",
+          "caption": "",
+          "source_ref": null,
+          "kind": "compare",
+          "sides": [
+            {
+              "title": "Consumer surplus",
+              "points": [
+                "Buyers gain it",
+                "The value consumers get but do not have to pay for",
+                "Sits above the price line, below demand"
+              ],
+              "tone": "a"
+            },
+            {
+              "title": "Producer surplus",
+              "points": [
+                "Sellers gain it",
+                "What producers receive above what was needed to make them produce",
+                "Sits below the price line, above supply"
+              ],
+              "tone": "b"
+            }
+          ]
+        }
+      ],
+      "worked": null,
+      "watch_out": [
+        "Do not mix up the two surpluses: **consumer** surplus is **above** the price line, **producer** surplus is **below** it.",
+        "The triangle stops at **Q***, the quantity actually sold. It does not run along the whole supply curve."
+      ],
+      "memory_trick": "**Buyers on top, sellers underneath.** Consumer surplus is above the price line; producer surplus is below it.",
+      "exam_answer_md": "**Producer surplus** is the amount producers receive in excess of the amount necessary to induce them to produce the good.\n\nOn a supply graph it is the area **between the price line P* and the supply curve, from zero to Q***. (Draw the supply curve, mark P* and Q*, and shade the triangle.)"
     },
     {
       "id": "be-s45-equilibrium-c2",
       "heading": "Market equilibrium: the balancing price",
-      "explanation_md": "**Market equilibrium** is **the price (P) that balances supply and demand.** At that price:\n\n- **Qxs = Qxd** (quantity supplied equals quantity demanded)\n- **No shortage or surplus**\n\nThe slide also calls it a **steady-state**, and shows a balance scale with both pans level.\n\nOn a graph it is simply where the demand curve and the supply curve cross.",
+      "explanation_md": "**Market equilibrium** is the price that **balances supply and demand**. At that price:\n\n- quantity supplied equals quantity demanded: **Qxs = Qxd**\n- there is **no shortage and no surplus**\n\nThe slide calls it a **steady-state** and shows a balance scale with both pans level: nothing is pushing the price up or down.\n\nOn a graph, equilibrium is simply the point where the **demand curve and the supply curve cross**.",
       "example_ids": [],
       "key_terms": [
         {
@@ -184,12 +294,132 @@
       ],
       "derived": [],
       "needs_check": false,
-      "retired": false
+      "retired": false,
+      "big_idea": "Equilibrium is the price where the amount buyers want equals the amount sellers offer: Qxs = Qxd.",
+      "analogy": {
+        "text": "Think of a see-saw with buyers on one end and sellers on the other. At the right price both ends weigh the same, so it stays level and still."
+      },
+      "visuals": [
+        {
+          "title": "Equilibrium is where the two lines cross",
+          "caption": "Where demand (D) meets supply (S), buyers want exactly what sellers offer. That price is P* and that quantity is Q*.",
+          "source_ref": null,
+          "kind": "plot",
+          "x_label": "Quantity",
+          "y_label": "Price",
+          "x_max": 10.0,
+          "y_max": 10.0,
+          "x_ticks": [
+            {
+              "at": 5.0,
+              "label": "Q*"
+            }
+          ],
+          "y_ticks": [
+            {
+              "at": 5.0,
+              "label": "P*"
+            }
+          ],
+          "lines": [
+            {
+              "points": [
+                [
+                  1.0,
+                  9.0
+                ],
+                [
+                  9.0,
+                  1.0
+                ]
+              ],
+              "label": "D",
+              "label_at": "end",
+              "tone": "a",
+              "dashed": false,
+              "bold": false,
+              "curve": false
+            },
+            {
+              "points": [
+                [
+                  1.0,
+                  1.0
+                ],
+                [
+                  9.0,
+                  9.0
+                ]
+              ],
+              "label": "S",
+              "label_at": "end",
+              "tone": "b",
+              "dashed": false,
+              "bold": false,
+              "curve": false
+            }
+          ],
+          "areas": [],
+          "dots": [
+            {
+              "x": 5.0,
+              "y": 5.0,
+              "label": "Qxs = Qxd",
+              "label_at": "above",
+              "guides": true
+            }
+          ]
+        },
+        {
+          "title": "Three places the price can be",
+          "caption": "",
+          "source_ref": null,
+          "kind": "compare",
+          "sides": [
+            {
+              "title": "Price too low",
+              "points": [
+                "Below the equilibrium price",
+                "Buyers want more than sellers offer",
+                "Shortage",
+                "Price is pushed up"
+              ],
+              "tone": "d"
+            },
+            {
+              "title": "At equilibrium",
+              "points": [
+                "Qxs = Qxd",
+                "No shortage or surplus",
+                "Steady-state"
+              ],
+              "tone": "b"
+            },
+            {
+              "title": "Price too high",
+              "points": [
+                "Above the equilibrium price",
+                "Sellers offer more than buyers want",
+                "Surplus",
+                "Price is pushed down"
+              ],
+              "tone": "c"
+            }
+          ]
+        }
+      ],
+      "worked": null,
+      "watch_out": [
+        "Equilibrium is a **price and a quantity**. In the exam always give both.",
+        "At equilibrium there is **no** shortage and **no** surplus. If your numbers still show a gap, you have not found equilibrium yet."
+      ],
+      "memory_trick": "**Cross = balance.** Where the two lines cross, Qxs = Qxd.",
+      "exam_answer_md": "**Market equilibrium** is the price (P) that balances supply and demand, so that **Qxs = Qxd**.\n\nAt this price there is **no shortage or surplus**, so the market is in a **steady-state**. On the graph it is the point where the demand and supply curves cross."
     },
     {
       "id": "be-s45-equilibrium-c3",
       "heading": "If the price is too low: a shortage",
-      "explanation_md": "The deck asks: **what if price is below the equilibrium level?**\n\nThe graph: demand **D** and supply **S** cross at a price of **7**. Now set the price at **5**:\n\n- quantity **supplied** = **6**\n- quantity **demanded** = **12**\n\n**Shortage = 12 - 6 = 6.**\n\nAt a price of **6** the red gap is shorter, so the shortage is smaller. The arrows point **up** both curves toward the crossing point at 7.\n\nSo a price below equilibrium means buyers want more than sellers offer: a **shortage**, measured as quantity demanded minus quantity supplied.",
+      "explanation_md": "Look at the slide's graph. Demand **D** and supply **S** cross at a price of **7**. Now suppose the price sits at **5**, below that.\n\nAt a price of 5, sellers offer only **6** units, but buyers want **12**. The red gap between them is the **shortage**.\n\nAt a price of **6** the red gap is shorter, so the shortage is smaller. The arrows on the slide point **up** both curves, toward the crossing point at 7.",
       "example_ids": [
         "be-ex-s45-price-too-low"
       ],
@@ -256,12 +486,244 @@
       ],
       "derived": [],
       "needs_check": false,
-      "retired": false
+      "retired": false,
+      "big_idea": "If the price is below equilibrium, buyers want more than sellers offer, so there is a shortage: quantity demanded minus quantity supplied.",
+      "analogy": {
+        "text": "Think of a shop selling something far too cheaply. A crowd turns up, the shelves empty fast, and many people leave without one. That is a shortage."
+      },
+      "visuals": [
+        {
+          "title": "If price is too low...",
+          "caption": "At a price of 5, sellers offer 6 and buyers want 12. The red gap is the shortage. At 6 the gap is smaller, and it closes at the equilibrium price of 7.",
+          "source_ref": "be--sessions-4-and-5#28",
+          "kind": "plot",
+          "x_label": "Quantity",
+          "y_label": "Price",
+          "x_max": 16.0,
+          "y_max": 10.0,
+          "x_ticks": [
+            {
+              "at": 6.0,
+              "label": ""
+            },
+            {
+              "at": 12.0,
+              "label": ""
+            }
+          ],
+          "y_ticks": [
+            {
+              "at": 5.0,
+              "label": ""
+            },
+            {
+              "at": 6.0,
+              "label": ""
+            },
+            {
+              "at": 7.0,
+              "label": ""
+            }
+          ],
+          "lines": [
+            {
+              "points": [
+                [
+                  0.0,
+                  5.0
+                ],
+                [
+                  6.0,
+                  5.0
+                ]
+              ],
+              "label": "",
+              "label_at": "end",
+              "tone": "muted",
+              "dashed": true,
+              "bold": false,
+              "curve": false
+            },
+            {
+              "points": [
+                [
+                  0.0,
+                  6.0
+                ],
+                [
+                  7.0,
+                  6.0
+                ]
+              ],
+              "label": "",
+              "label_at": "end",
+              "tone": "muted",
+              "dashed": true,
+              "bold": false,
+              "curve": false
+            },
+            {
+              "points": [
+                [
+                  6.0,
+                  0.0
+                ],
+                [
+                  6.0,
+                  5.0
+                ]
+              ],
+              "label": "",
+              "label_at": "end",
+              "tone": "muted",
+              "dashed": true,
+              "bold": false,
+              "curve": false
+            },
+            {
+              "points": [
+                [
+                  12.0,
+                  0.0
+                ],
+                [
+                  12.0,
+                  5.0
+                ]
+              ],
+              "label": "",
+              "label_at": "end",
+              "tone": "muted",
+              "dashed": true,
+              "bold": false,
+              "curve": false
+            },
+            {
+              "points": [
+                [
+                  2.0,
+                  10.0
+                ],
+                [
+                  14.0,
+                  4.0
+                ]
+              ],
+              "label": "D",
+              "label_at": "end",
+              "tone": "a",
+              "dashed": false,
+              "bold": false,
+              "curve": false
+            },
+            {
+              "points": [
+                [
+                  2.0,
+                  1.0
+                ],
+                [
+                  10.0,
+                  9.0
+                ]
+              ],
+              "label": "S",
+              "label_at": "end",
+              "tone": "b",
+              "dashed": false,
+              "bold": false,
+              "curve": false
+            },
+            {
+              "points": [
+                [
+                  6.0,
+                  5.0
+                ],
+                [
+                  12.0,
+                  5.0
+                ]
+              ],
+              "label": "Shortage 12 - 6 = 6",
+              "label_at": "below",
+              "tone": "d",
+              "dashed": false,
+              "bold": true,
+              "curve": false
+            },
+            {
+              "points": [
+                [
+                  7.0,
+                  6.0
+                ],
+                [
+                  10.0,
+                  6.0
+                ]
+              ],
+              "label": "",
+              "label_at": "end",
+              "tone": "d",
+              "dashed": false,
+              "bold": true,
+              "curve": false
+            }
+          ],
+          "areas": [],
+          "dots": [
+            {
+              "x": 8.0,
+              "y": 7.0,
+              "label": "Equilibrium",
+              "label_at": "above",
+              "guides": true
+            }
+          ]
+        }
+      ],
+      "worked": {
+        "question_md": "On the slide's graph, the price is held at **5**. How big is the shortage, and which way will the price move?",
+        "steps": [
+          {
+            "title": "Read across to supply",
+            "body_md": "Start at **5** on the price axis and go across until you hit the **S** line. Drop down to the quantity axis: sellers offer **6** units.",
+            "why": "Supply tells you how much sellers offer at this price.",
+            "result": "Quantity supplied = 6"
+          },
+          {
+            "title": "Read across to demand",
+            "body_md": "Carry on along the same price line until you hit the **D** line. Drop down: buyers want **12** units.",
+            "why": "Demand tells you how much buyers want at this price.",
+            "result": "Quantity demanded = 12"
+          },
+          {
+            "title": "Subtract",
+            "body_md": "| Quantity demanded | Quantity supplied | Shortage |\n|---|---|---|\n| 12 | 6 | 12 - 6 = **6** |",
+            "why": "A shortage is how many more buyers want than sellers offer, so it is demanded minus supplied.",
+            "result": "Shortage = 6"
+          },
+          {
+            "title": "Say which way the price moves",
+            "body_md": "The arrows on the slide point **up** both curves toward the crossing point. With buyers left wanting more, the price is pushed up toward **7**, and the gap shrinks (it is smaller at 6).",
+            "why": "The exam often asks what happens next, not just the number.",
+            "result": "Price moves up toward 7"
+          }
+        ],
+        "answer_md": "At a price of 5 there is a **shortage of 6 units** (12 - 6), and the price is pushed **up** toward the equilibrium of 7."
+      },
+      "watch_out": [
+        "Shortage = **demanded minus supplied** (12 - 6). Do it the other way round and you get a negative number.",
+        "A shortage comes from a price that is **too low**, not too high."
+      ],
+      "memory_trick": "**Too low, too few.** A price that is too low leaves too few goods: a shortage.",
+      "exam_answer_md": "If the price is **below equilibrium**, quantity demanded is greater than quantity supplied, so there is a **shortage**.\n\nShortage = quantity demanded - quantity supplied. On the slide, at a price of 5: demanded = 12, supplied = 6, so **shortage = 12 - 6 = 6**. The price is pushed up toward the equilibrium price of 7. (Draw the graph with the red gap at the low price.)"
     },
     {
       "id": "be-s45-equilibrium-c4",
       "heading": "If the price is too high: a surplus",
-      "explanation_md": "Now the opposite: **what if price is above the equilibrium level?**\n\nThe graph: demand **D** and supply **S** cross at a price of **7** and a quantity of **8**. Set the price at **9**:\n\n- quantity **demanded** = **6**\n- quantity **supplied** = **14**\n\n**Surplus = 14 - 6 = 8.**\n\nAt a price of **8** the gap is smaller. The arrows point **down** both curves toward the crossing point.\n\nSo a price above equilibrium means sellers offer more than buyers want: a **surplus**, measured as quantity supplied minus quantity demanded.",
+      "explanation_md": "Now the opposite case. On this slide's graph, demand **D** and supply **S** cross at a price of **7** and a quantity of **8**. Suppose the price sits at **9**, above that.\n\nAt a price of 9, buyers want only **6** units, but sellers offer **14**. The red gap is the **surplus**: goods left unsold.\n\nAt a price of **8** the gap is smaller. The arrows on the slide point **down** both curves, toward the crossing point.",
       "example_ids": [
         "be-ex-s45-price-too-high"
       ],
@@ -351,12 +813,274 @@
       ],
       "derived": [],
       "needs_check": false,
-      "retired": false
+      "retired": false,
+      "big_idea": "If the price is above equilibrium, sellers offer more than buyers want, so there is a surplus: quantity supplied minus quantity demanded.",
+      "analogy": {
+        "text": "Think of a shop pricing something far too high. Few people buy, and boxes pile up in the storeroom. That pile is a surplus."
+      },
+      "visuals": [
+        {
+          "title": "If price is too high...",
+          "caption": "At a price of 9, buyers want 6 but sellers offer 14. The red gap is the surplus. At 8 it is smaller, and it closes at the equilibrium price of 7.",
+          "source_ref": "be--sessions-4-and-5#30",
+          "kind": "plot",
+          "x_label": "Quantity",
+          "y_label": "Price",
+          "x_max": 18.0,
+          "y_max": 12.0,
+          "x_ticks": [
+            {
+              "at": 6.0,
+              "label": ""
+            },
+            {
+              "at": 8.0,
+              "label": ""
+            },
+            {
+              "at": 14.0,
+              "label": ""
+            }
+          ],
+          "y_ticks": [
+            {
+              "at": 7.0,
+              "label": ""
+            },
+            {
+              "at": 8.0,
+              "label": ""
+            },
+            {
+              "at": 9.0,
+              "label": ""
+            }
+          ],
+          "lines": [
+            {
+              "points": [
+                [
+                  0.0,
+                  9.0
+                ],
+                [
+                  6.0,
+                  9.0
+                ]
+              ],
+              "label": "",
+              "label_at": "end",
+              "tone": "muted",
+              "dashed": true,
+              "bold": false,
+              "curve": false
+            },
+            {
+              "points": [
+                [
+                  0.0,
+                  8.0
+                ],
+                [
+                  7.0,
+                  8.0
+                ]
+              ],
+              "label": "",
+              "label_at": "end",
+              "tone": "muted",
+              "dashed": true,
+              "bold": false,
+              "curve": false
+            },
+            {
+              "points": [
+                [
+                  6.0,
+                  0.0
+                ],
+                [
+                  6.0,
+                  9.0
+                ]
+              ],
+              "label": "",
+              "label_at": "end",
+              "tone": "muted",
+              "dashed": true,
+              "bold": false,
+              "curve": false
+            },
+            {
+              "points": [
+                [
+                  14.0,
+                  0.0
+                ],
+                [
+                  14.0,
+                  9.0
+                ]
+              ],
+              "label": "",
+              "label_at": "end",
+              "tone": "muted",
+              "dashed": true,
+              "bold": false,
+              "curve": false
+            },
+            {
+              "points": [
+                [
+                  3.0,
+                  12.0
+                ],
+                [
+                  13.0,
+                  2.0
+                ]
+              ],
+              "label": "D",
+              "label_at": "end",
+              "tone": "a",
+              "dashed": false,
+              "bold": false,
+              "curve": false
+            },
+            {
+              "points": [
+                [
+                  2.0,
+                  5.0
+                ],
+                [
+                  17.0,
+                  10.0
+                ]
+              ],
+              "label": "S",
+              "label_at": "end",
+              "tone": "b",
+              "dashed": false,
+              "bold": false,
+              "curve": false
+            },
+            {
+              "points": [
+                [
+                  6.0,
+                  9.0
+                ],
+                [
+                  14.0,
+                  9.0
+                ]
+              ],
+              "label": "Surplus 14 - 6 = 8",
+              "label_at": "mid",
+              "tone": "d",
+              "dashed": false,
+              "bold": true,
+              "curve": false
+            },
+            {
+              "points": [
+                [
+                  7.0,
+                  8.0
+                ],
+                [
+                  11.0,
+                  8.0
+                ]
+              ],
+              "label": "",
+              "label_at": "end",
+              "tone": "d",
+              "dashed": false,
+              "bold": true,
+              "curve": false
+            }
+          ],
+          "areas": [],
+          "dots": [
+            {
+              "x": 8.0,
+              "y": 7.0,
+              "label": "Equilibrium",
+              "label_at": "below",
+              "guides": true
+            }
+          ]
+        },
+        {
+          "title": "Shortage and surplus: the two mistakes in price",
+          "caption": "",
+          "source_ref": null,
+          "kind": "compare",
+          "sides": [
+            {
+              "title": "Price too low: shortage",
+              "points": [
+                "Demanded is bigger than supplied",
+                "Shortage = demanded - supplied",
+                "Price is pushed up"
+              ],
+              "tone": "d"
+            },
+            {
+              "title": "Price too high: surplus",
+              "points": [
+                "Supplied is bigger than demanded",
+                "Surplus = supplied - demanded",
+                "Price is pushed down"
+              ],
+              "tone": "c"
+            }
+          ]
+        }
+      ],
+      "worked": {
+        "question_md": "On the slide's graph, the price is held at **9**. How big is the surplus, and which way will the price move?",
+        "steps": [
+          {
+            "title": "Read across to demand",
+            "body_md": "Start at **9** on the price axis and go across until you hit the **D** line. Drop down: buyers want **6** units.",
+            "why": "Demand tells you how much buyers want at this price.",
+            "result": "Quantity demanded = 6"
+          },
+          {
+            "title": "Read across to supply",
+            "body_md": "Carry on along the same price line to the **S** line. Drop down: sellers offer **14** units.",
+            "why": "Supply tells you how much sellers offer at this price.",
+            "result": "Quantity supplied = 14"
+          },
+          {
+            "title": "Subtract",
+            "body_md": "| Quantity supplied | Quantity demanded | Surplus |\n|---|---|---|\n| 14 | 6 | 14 - 6 = **8** |",
+            "why": "A surplus is how much more sellers offer than buyers want, so it is supplied minus demanded.",
+            "result": "Surplus = 8"
+          },
+          {
+            "title": "Say which way the price moves",
+            "body_md": "The arrows on the slide point **down** both curves toward the crossing point. With goods left unsold, the price is pushed down toward **7**, where the quantity is **8**.",
+            "why": "Show you know the market moves back to equilibrium.",
+            "result": "Price moves down toward 7"
+          }
+        ],
+        "answer_md": "At a price of 9 there is a **surplus of 8 units** (14 - 6), and the price is pushed **down** toward the equilibrium of 7 (quantity 8)."
+      },
+      "watch_out": [
+        "Surplus = **supplied minus demanded** (14 - 6). It is the opposite subtraction to a shortage.",
+        "This kind of surplus means **unsold goods**. It is not the same thing as consumer surplus or producer surplus."
+      ],
+      "memory_trick": "**Too high, piles up.** A price that is too high leaves goods piling up: a surplus.",
+      "exam_answer_md": "If the price is **above equilibrium**, quantity supplied is greater than quantity demanded, so there is a **surplus**.\n\nSurplus = quantity supplied - quantity demanded. On the slide, equilibrium is at a price of 7 and a quantity of 8. At a price of 9: supplied = 14, demanded = 6, so **surplus = 14 - 6 = 8**. The price is pushed down toward 7."
     },
     {
       "id": "be-s45-equilibrium-c5",
       "heading": "Practice: find the equilibrium for good X",
-      "explanation_md": "**The question:** demand **Qxd = 400 - 5Px**, supply **Qxs = -50 + 5Px**. Find the equilibrium price and quantity and show it on a graph.\n\nHere is the working with the equilibrium condition **Qxs = Qxd**.\n\n**Step 1: set them equal.**\n400 - 5Px = -50 + 5Px\n\n**Step 2: solve for Px.**\n450 = 10Px, so **Px = ₹45**\n\n**Step 3: find the quantity** (use either function).\nQxd = 400 - 5(45) = 400 - 225 = **175**\nQxs = -50 + 5(45) = -50 + 225 = **175**. Both match, so there is no shortage or surplus.\n\nThe later surplus questions confirm the market equilibrium price as **P = ₹45**.\n\n**Graph:** the demand line meets the price axis at 80; the supply line starts at a price of 10. They cross at a price of 45 and a quantity of 175.\n\nNotice this is the same market as the earlier demand and supply practice questions: Qxd = 400 - 5Px came out of the demand question and Qxs = -50 + 5Px out of the supply question.",
+      "explanation_md": "This is the slide's own question. Demand and supply come as **equations**, and you find the one price where they give the same quantity.\n\nThe method is always the same three moves: **set them equal, solve for Px, then find Q**. The slide also asks you to **show it on a graph**, so draw it too.",
       "example_ids": [
         "be-ex-s45-equilibrium-question"
       ],
@@ -449,12 +1173,131 @@
         "80"
       ],
       "needs_check": false,
-      "retired": false
+      "retired": false,
+      "big_idea": "To find equilibrium, set demand equal to supply, solve for the price, then put that price back in to get the quantity.",
+      "analogy": null,
+      "visuals": [
+        {
+          "title": "Qxd = 400 - 5Px and Qxs = -50 + 5Px on one graph",
+          "caption": "Demand starts at a price of 80 and slopes down. Supply starts at a price of 10 and slopes up. They cross at a price of ₹45 and a quantity of 175.",
+          "source_ref": null,
+          "kind": "plot",
+          "x_label": "Quantity",
+          "y_label": "Price (₹)",
+          "x_max": 400.0,
+          "y_max": 90.0,
+          "x_ticks": [
+            {
+              "at": 175.0,
+              "label": ""
+            }
+          ],
+          "y_ticks": [
+            {
+              "at": 10.0,
+              "label": ""
+            },
+            {
+              "at": 45.0,
+              "label": ""
+            },
+            {
+              "at": 80.0,
+              "label": ""
+            }
+          ],
+          "lines": [
+            {
+              "points": [
+                [
+                  0.0,
+                  80.0
+                ],
+                [
+                  375.0,
+                  5.0
+                ]
+              ],
+              "label": "D",
+              "label_at": "end",
+              "tone": "a",
+              "dashed": false,
+              "bold": false,
+              "curve": false
+            },
+            {
+              "points": [
+                [
+                  0.0,
+                  10.0
+                ],
+                [
+                  375.0,
+                  85.0
+                ]
+              ],
+              "label": "S",
+              "label_at": "end",
+              "tone": "b",
+              "dashed": false,
+              "bold": false,
+              "curve": false
+            }
+          ],
+          "areas": [],
+          "dots": [
+            {
+              "x": 175.0,
+              "y": 45.0,
+              "label": "Equilibrium",
+              "label_at": "above",
+              "guides": true
+            }
+          ]
+        }
+      ],
+      "worked": {
+        "question_md": "**The slide's question:** the demand and supply functions of good X are **Qxd = 400 - 5Px** and **Qxs = -50 + 5Px**. Find the equilibrium price and quantity. Show the equilibrium graphically.",
+        "steps": [
+          {
+            "title": "Set demand equal to supply",
+            "body_md": "At equilibrium **Qxd = Qxs**, so make the two right-hand sides equal:\n\n400 - 5Px = -50 + 5Px",
+            "why": "Equilibrium is where buyers want exactly what sellers offer.",
+            "result": "400 - 5Px = -50 + 5Px"
+          },
+          {
+            "title": "Get Px on its own",
+            "body_md": "| Move | Equation |\n|---|---|\n| Start | 400 - 5Px = -50 + 5Px |\n| Add 5Px to both sides | 400 = -50 + 10Px |\n| Add 50 to both sides | 450 = 10Px |\n| Divide both sides by 10 | Px = 45 |",
+            "why": "Move every Px term to one side and every plain number to the other, then divide.",
+            "result": "Px = ₹45"
+          },
+          {
+            "title": "Find the quantity",
+            "body_md": "Put **Px = 45** back into both equations to check:\n\n| Equation | Working | Quantity |\n|---|---|---|\n| Demand | 400 - 5(45) = 400 - 225 | **175** |\n| Supply | -50 + 5(45) = -50 + 225 | **175** |",
+            "why": "Both give the same quantity, which proves the price is right: no shortage, no surplus.",
+            "result": "Q = 175 units"
+          },
+          {
+            "title": "Show it on a graph",
+            "body_md": "Put price up the side and quantity along the bottom. The demand line meets the price axis at **80** (where Qxd = 0). The supply line starts at a price of **10** (where Qxs = 0). Mark where they cross: a price of **₹45** and a quantity of **175**.",
+            "why": "The question says 'show the equilibrium graphically', so the graph earns marks too.",
+            "result": "They cross at P = ₹45, Q = 175"
+          }
+        ],
+        "answer_md": "**Equilibrium price = ₹45. Equilibrium quantity = 175 units.**"
+      },
+      "watch_out": [
+        "When **-5Px** moves to the other side it becomes **+5Px**. Most mistakes here are sign mistakes.",
+        "Put the price back into **both** equations. If they do not give the same quantity, recheck your working.",
+        "Give the answer with units: price in ₹ and quantity in units."
+      ],
+      "memory_trick": "**Equal, solve, plug in.** Set them equal, solve for the price, plug the price back in for the quantity.",
+      "exam_answer_md": "At equilibrium, Qxd = Qxs:\n400 - 5Px = -50 + 5Px\n450 = 10Px\n**Px = ₹45**\n\nQxd = 400 - 5(45) = **175** and Qxs = -50 + 5(45) = **175**, so the market clears.\n\n**Equilibrium: P = ₹45, Q = 175 units.** (Draw D starting at a price of 80 and sloping down, S starting at 10 and sloping up, crossing at a price of ₹45 and a quantity of 175.)"
     },
     {
       "id": "be-s45-equilibrium-c6",
       "heading": "Practice: producer surplus when Px = 10 + 0.2Qs",
-      "explanation_md": "**The question:** inverse demand **Px = 80 - 0.2Qd**, inverse supply **Px = 10 + 0.2Qs**. Find producer surplus at the market equilibrium (**P = ₹45**) and at **Px = ₹50** (the price floor scenario). Then say what happens to producer surplus as the price rises.\n\nHere is the working. Producer surplus is the triangle between the price line and the supply curve (as on the producer surplus graph). The supply line starts at a price of 10.\n\n**At P = ₹45.** Quantity supplied: 45 = 10 + 0.2Qs, so Qs = 35 / 0.2 = **175**.\nTriangle: 175 units wide, 45 - 10 = 35 high.\n**Producer surplus = 0.5 x 175 x 35 = ₹3,062.5**\n\n**At Px = ₹50.** Qs = (50 - 10) / 0.2 = **200**.\nTriangle: 200 wide, 50 - 10 = 40 high.\n**Producer surplus = 0.5 x 200 x 40 = ₹4,000**\n\n**As the price rises** from ₹45 to ₹50, producer surplus grows from ₹3,062.5 to ₹4,000. **Producer surplus gets bigger as the price rises.**",
+      "explanation_md": "This is the slide's question on producer surplus. Supply comes as an **inverse supply**: the price written in terms of the quantity, **Px = 10 + 0.2Qs**. So supply starts at a price of **10**, when nothing is supplied.\n\nProducer surplus is the **triangle between the price line and the supply curve**. A triangle's area is **½ × base × height**:\n\n- **base** = the quantity supplied at that price\n- **height** = the price minus 10",
       "example_ids": [
         "be-ex-s45-ps-question"
       ],
@@ -554,7 +1397,160 @@
         "3750"
       ],
       "needs_check": false,
-      "retired": false
+      "retired": false,
+      "big_idea": "Producer surplus here is a triangle: half times the quantity sold times the gap between the price and where supply starts.",
+      "analogy": null,
+      "visuals": [
+        {
+          "title": "Producer surplus at ₹45 and at ₹50",
+          "caption": "The green triangle is producer surplus at ₹45. The amber strip is the extra producer surplus when the price rises to ₹50. The triangle grows taller and wider.",
+          "source_ref": null,
+          "kind": "plot",
+          "x_label": "Quantity",
+          "y_label": "Price (₹)",
+          "x_max": 230.0,
+          "y_max": 60.0,
+          "x_ticks": [
+            {
+              "at": 175.0,
+              "label": ""
+            },
+            {
+              "at": 200.0,
+              "label": ""
+            }
+          ],
+          "y_ticks": [
+            {
+              "at": 10.0,
+              "label": ""
+            },
+            {
+              "at": 45.0,
+              "label": ""
+            },
+            {
+              "at": 50.0,
+              "label": ""
+            }
+          ],
+          "lines": [
+            {
+              "points": [
+                [
+                  0.0,
+                  10.0
+                ],
+                [
+                  220.0,
+                  54.0
+                ]
+              ],
+              "label": "S",
+              "label_at": "end",
+              "tone": "a",
+              "dashed": false,
+              "bold": false,
+              "curve": false
+            }
+          ],
+          "areas": [
+            {
+              "points": [
+                [
+                  0.0,
+                  10.0
+                ],
+                [
+                  0.0,
+                  45.0
+                ],
+                [
+                  175.0,
+                  45.0
+                ]
+              ],
+              "label": "Surplus at ₹45",
+              "tone": "b"
+            },
+            {
+              "points": [
+                [
+                  0.0,
+                  45.0
+                ],
+                [
+                  0.0,
+                  50.0
+                ],
+                [
+                  200.0,
+                  50.0
+                ],
+                [
+                  175.0,
+                  45.0
+                ]
+              ],
+              "label": "Extra at ₹50",
+              "tone": "c"
+            }
+          ],
+          "dots": [
+            {
+              "x": 175.0,
+              "y": 45.0,
+              "label": "",
+              "label_at": "above",
+              "guides": true
+            },
+            {
+              "x": 200.0,
+              "y": 50.0,
+              "label": "",
+              "label_at": "above",
+              "guides": true
+            }
+          ]
+        }
+      ],
+      "worked": {
+        "question_md": "**The slide's question:** inverse demand **Px = 80 - 0.2Qd**, inverse supply **Px = 10 + 0.2Qs**. How much producer surplus do producers receive at the market equilibrium (**P = ₹45**)? How much if **Px = ₹50** (the price floor scenario)? In general, what happens to producer surplus as the price rises?",
+        "steps": [
+          {
+            "title": "Quantity supplied at ₹45",
+            "body_md": "Put Px = 45 into the supply equation:\n\n45 = 10 + 0.2Qs\n35 = 0.2Qs\nQs = 35 ÷ 0.2 = **175**",
+            "why": "The triangle's base is the quantity sellers sell at this price.",
+            "result": "Qs = 175"
+          },
+          {
+            "title": "Producer surplus at ₹45",
+            "body_md": "| Part | Working | Value |\n|---|---|---|\n| Base | quantity supplied | 175 |\n| Height | 45 - 10 | 35 |\n| Area | ½ × 175 × 35 | **3,062.5** |",
+            "why": "Producer surplus is the triangle under the price and over supply, and a triangle is half base times height.",
+            "result": "Producer surplus = ₹3,062.5"
+          },
+          {
+            "title": "Repeat at ₹50",
+            "body_md": "50 = 10 + 0.2Qs, so Qs = 40 ÷ 0.2 = **200**.\n\n| Part | Working | Value |\n|---|---|---|\n| Base | quantity supplied | 200 |\n| Height | 50 - 10 | 40 |\n| Area | ½ × 200 × 40 | **4,000** |",
+            "why": "Same method, new price.",
+            "result": "Producer surplus = ₹4,000"
+          },
+          {
+            "title": "What happens as the price rises?",
+            "body_md": "| Price | Producer surplus |\n|---|---|\n| ₹45 | ₹3,062.5 |\n| ₹50 | ₹4,000 |\n\nThe higher price gives a **bigger** triangle: it is both taller and wider.",
+            "why": "The question asks for the general rule, so say it in words.",
+            "result": "Producer surplus rises as the price rises"
+          }
+        ],
+        "answer_md": "At ₹45: **₹3,062.5**. At ₹50: **₹4,000**. Producer surplus **gets bigger as the price rises**."
+      },
+      "watch_out": [
+        "The height is **the price minus 10** (where supply starts), not the price itself.",
+        "Use **½** for a triangle. Forgetting it doubles your answer.",
+        "This is the **inverse** supply (Px on the left). Rearrange it to find Qs before you work out the area."
+      ],
+      "memory_trick": "**Half × base × height**, and the height is measured from where supply starts.",
+      "exam_answer_md": "Producer surplus = the area between the price and the supply curve = ½ × Qs × (P - 10).\n\nAt P = ₹45: 45 = 10 + 0.2Qs, so Qs = 175. Producer surplus = ½ × 175 × 35 = **₹3,062.5**.\nAt P = ₹50: 50 = 10 + 0.2Qs, so Qs = 200. Producer surplus = ½ × 200 × 40 = **₹4,000**.\n\nSo **producer surplus increases as the price rises**."
     }
   ],
   "flashcards": [

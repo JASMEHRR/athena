@@ -1,4 +1,4 @@
-# Writing lesson content (pass A and pass B)
+# Writing lesson content (pass A, pass B and pass C)
 
 Claude writes all teaching content. This is the workflow and the draft format.
 
@@ -53,6 +53,25 @@ Claude writes all teaching content. This is the workflow and the draft format.
 ```
 
 Refs are slide numbers in this deck, or full `"<deck_id>#<n>"` strings for another deck. Ids are generated: topic `<subject>-<short>-<slug>`, chunk `<topic>-c<n>`, card `<topic>-f<n>`, question `<topic>-q-<hash of stem>`, example `<subject>-ex-<key>`.
+
+## Pass C (teach it properly, per topic)
+
+JasMehr's verdict on pass A lessons: "just words". Pass C adds a teaching layer to every chunk of a topic without touching ids, checks, cards or questions. Write a draft `{"subject_id": "be", "topics": {"<topic_id>": {"c1": {...}, "c2": {...}}}}` and run `python -m athena.author <file> --teach`. Only the keys given are replaced (derived numbers are added), so re-running is safe. Then run validate and grounding, look at every part in the app at desktop and phone width (pictures included), and commit.
+
+Keys per chunk (all optional, but a taught chunk has at least `big_idea`, one visual or a worked example, `watch_out` and `exam_answer`):
+
+- `big_idea`: the part in one plain sentence, as you would say it to a friend.
+- `body`: replaces `explanation_md`. Short paragraphs, one idea each, plain words, **bold** the terms. Explain *why*, not only *what*. Write `P*` and `Q*` freely; for any other literal star write `\*` (in the JSON draft: `\\*`).
+- `exam`: replaces `exam_line` (still used as the old-layout summary).
+- `visuals`: a list of picture specs (docs/CONTENT_SCHEMA.md); `"ref": <slide>` sets `source_ref`. Redraw the slide's own graph with the slide's own numbers; when a slide has a graph, the lesson should have the drawn version. Use `compare` for "A vs B", `flow` for processes and cycles, `tree` for decision/probability trees and classifications, `matrix` for payoff tables and 2x2 grids, `normal` for z questions. Check that labels do not collide at phone width.
+- `analogy`: one everyday comparison (at most 3 sentences, no names, no numbers above 10). Only when it truly helps.
+- `worked`: `{"question": md, "steps": [{"title", "body", "why", "result"}], "answer": md}`. One move per step. Lay the working out in **columns** (a Markdown table) whenever there is more than one number: show where every number comes from. `why` is one plain sentence. `result` is the line to underline.
+- `watch_out`: the 2 or 3 mistakes students actually make here (signs, wrong subtraction, wrong table column, mixing up two terms).
+- `trick`: one short memory hook.
+- `exam_answer`: the answer exactly as it should be written for full marks: definition in the slide's words, the formula, the working, the conclusion, and "(Draw ...)" where a diagram earns marks.
+- `derived`: numbers you computed.
+
+Never put the analogy inside `exam_answer`. Every number and name must be on the chunk's slides (or a visual's `ref`) or in `derived`.
 
 ## Pass B (question bank, per subject)
 

@@ -132,6 +132,14 @@ No exam dates, so round-robin across subjects. Validate, ground and cover each d
   - `scripts\screenshots.py` (Chromium in .cache/ms-playwright, test server on 8766 with a copy of test.db) saves 20 pages x 2 widths to data/screenshots and fails on console errors, failed API calls or sideways scroll. Fixed from the screenshots: phone sideways scroll on Today, Subject, Past papers and Sources (grids/lists now shrink, rows wrap, tab strips scroll and keep the chosen tab in view); topic titles wrap on phones; question text no longer squeezed into a thin column; Sources showed "Questions coming" (pass_b now set on all 28 decks); "1 topics", "1 days"; readable accuracy chart labels.
 - [x] P8.2 Final README.md and MORNING.md.
 
+## P9 Teaching upgrade (8 Nov 2026, JasMehr: "it teaches so bad... just words, visuals also need to be included")
+Plan agreed with JasMehr: (1) teaching layer and drawn pictures, (2) a simpler app (4 menu items, Home focused on the next exam, Study grouped by module), (3) rewrite lessons in exam order, BE first, then write the 24 decks that have no lessons yet, (4) past-paper walkthroughs. Analogies allowed, labelled "Not on slide".
+- [x] P9.1 Teaching layer: models (big_idea, analogy, visuals, worked, watch_out, memory_trick, exam_answer_md), grounding and validate rules, `author --teach`, lesson API, web/js/visuals.js (plot, normal, tree, flow, compare, matrix), step-by-step worked examples, new lesson layout, tests/test_teaching.py. Pilot topic be-s45-equilibrium (6 parts, 6 pictures) checked at desktop and phone width in both themes. Fixed on the way: P* and Q* broke bold text in every lesson; the browser kept stale JS after updates (now no-cache).
+- [ ] P9.2 Simpler app: menu, Home, Study by module, exam-aware markers (the "Study for the MST" pills are stale).
+- [ ] P9.3 Pass C for BE: the other 33 topics.
+- [ ] P9.4 Pass A for decks with no lessons (24), in exam order.
+- [ ] P9.5 Past-paper walkthroughs, question by question.
+
 ## Extras (12 Oct)
 - FAR EST on 27 Oct 2026 in content/exams.json. Planner fix: subjects with an exam date come before undated ones.
 - Lesson "Topic done" card shows past-paper questions mapped to the topic, its frameworks, and a link to answer practice.

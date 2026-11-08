@@ -10,6 +10,9 @@ This command turns it into:
 It never overwrites an existing topic file unless --force is given, because
 JasMehr's progress points at the ids inside it. Use --force only for a topic
 that has never been imported into the app, or when only adding to it.
+
+--questions sets a topic's question bank (pass B); --teach adds the teaching
+layer to existing chunks (pass C). Both keep every id.
 """
 
 from __future__ import annotations
@@ -236,15 +239,90 @@ def add_questions(draft: dict) -> dict:
     return {"topics": len(counts), "questions": sum(counts.values())}
 
 
+TEACH_KEYS = {"big_idea", "body", "exam", "analogy", "visuals", "worked", "watch_out", "trick", "exam_answer", "derived"}
+
+
+def _teach_chunk(chunk: Chunk, deck_id: str, c: dict) -> Chunk:
+    unknown = set(c) - TEACH_KEYS
+    if unknown:
+        raise DraftError(f"{chunk.id}: unknown keys {sorted(unknown)}; use {sorted(TEACH_KEYS)}")
+    data = chunk.model_dump()
+    if "body" in c:
+        data["explanation_md"] = c["body"]
+    if "exam" in c:
+        data["exam_line"] = c["exam"]
+    if "big_idea" in c:
+        data["big_idea"] = c["big_idea"]
+    if "analogy" in c:
+        data["analogy"] = {"text": c["analogy"]} if c["analogy"] else None
+    if "visuals" in c:
+        visuals = []
+        for spec in c["visuals"]:
+            spec = dict(spec)
+            if "ref" in spec:
+                spec["source_ref"] = _ref(deck_id, spec.pop("ref"))
+            visuals.append(spec)
+        data["visuals"] = visuals
+    if "worked" in c:
+        w = c["worked"]
+        data["worked"] = None if not w else {
+            "question_md": w["question"],
+            "steps": [{"title": s["title"], "body_md": s["body"], "why": s.get("why", ""), "result": s.get("result", "")}
+                      for s in w["steps"]],
+            "answer_md": w.get("answer", ""),
+        }
+    if "watch_out" in c:
+        data["watch_out"] = c["watch_out"]
+    if "trick" in c:
+        data["memory_trick"] = c["trick"]
+    if "exam_answer" in c:
+        data["exam_answer_md"] = c["exam_answer"]
+    data["derived"] = list(dict.fromkeys([*data["derived"], *(str(x) for x in c.get("derived", []))]))
+    return Chunk.model_validate(data)
+
+
+def teach(draft: dict) -> dict:
+    """Pass C: add the teaching layer to existing chunks, keeping ids, checks, cards and questions.
+
+    Draft: {"subject_id": "be", "topics": {"<topic_id>": {"c1": {...}, "c2": {...}}}}. Chunk keys
+    are "c<n>" or full chunk ids. Only the keys given are replaced (derived numbers are added),
+    so re-running a draft is safe. See docs/AUTHORING.md "Pass C" for the keys.
+    """
+    subject_id = draft["subject_id"]
+    counts = {}
+    for topic_id, chunks in draft["topics"].items():
+        path = contentio.topic_path(subject_id, topic_id)
+        if not path.is_file():
+            raise DraftError(f"no topic {topic_id} in subject {subject_id}")
+        topic = contentio.load_topic_file(path)
+        index = {c.id: i for i, c in enumerate(topic.chunks)}
+        for key, c in chunks.items():
+            chunk_id = key if key.startswith(topic_id + "-") else f"{topic_id}-{key}"
+            if chunk_id not in index:
+                raise DraftError(f"{topic_id}: no chunk {key}")
+            topic.chunks[index[chunk_id]] = _teach_chunk(topic.chunks[index[chunk_id]], topic.deck_id, c)
+        topic = Topic.model_validate(topic.model_dump())
+        contentio.save_topic(topic)
+        counts[topic_id] = len(chunks)
+    return {"topics": len(counts), "chunks": sum(counts.values())}
+
+
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(prog="python -m athena.author", description=__doc__)
     parser.add_argument("draft", type=Path)
     parser.add_argument("--force", action="store_true")
-    parser.add_argument("--questions", action="store_true", help="draft is a pass B question bank")
+    mode = parser.add_mutually_exclusive_group()
+    mode.add_argument("--questions", action="store_true", help="draft is a pass B question bank")
+    mode.add_argument("--teach", action="store_true", help="draft is a pass C teaching layer for existing chunks")
     args = parser.parse_args(argv)
     try:
         draft = json.loads(args.draft.read_text(encoding="utf-8"))
-        result = add_questions(draft) if args.questions else apply(draft, force=args.force)
+        if args.questions:
+            result = add_questions(draft)
+        elif args.teach:
+            result = teach(draft)
+        else:
+            result = apply(draft, force=args.force)
     except (OSError, json.JSONDecodeError, DraftError, KeyError, ValueError) as exc:
         print(f"ERROR: {exc}")
         return 1

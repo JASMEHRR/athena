@@ -45,7 +45,9 @@ Written by `python -m athena.ingest`, then enriched by Claude (only `visual_text
  source_refs[], stale, retired,
  chunks: [{id, heading, explanation_md, example_ids[], key_terms[{term, meaning, source_ref}],
            exam_line, clarification: {term, text} | null, check_questions[Question],
-           source_refs[], needs_check, retired}],
+           source_refs[], needs_check, retired,
+           big_idea, analogy: {text} | null, visuals[Visual], worked: Worked | null,
+           watch_out[], memory_trick, exam_answer_md}],
  flashcards: [{id, front, back, kind: term|list|example|fact|formula, source_refs[], needs_check, retired}],
  questions: [Question],
  explain_back: {prompt, rubric[{point, source_ref}]} | null,
@@ -66,7 +68,24 @@ Written by `python -m athena.ingest`, then enriched by Claude (only `visual_text
 - `fill`, `one_line`: `answer` required; matching ignores case, spaces and punctuation, and also accepts anything in `accept`.
 - `short`, `long`, `differentiate`, `case`: `model_answer_md` and a rubric of at least 2 points required. Model answers follow MBA exam shape: short intro, the points, the professor's example, short conclusion. Never contain clarification text.
 
-`clarification` is the one narrow exception to "slides only": at most 2 sentences giving the plain meaning of a term the slide names without explaining. No names, no numbers, no examples. The app labels it "Not on slide".
+`clarification` is a narrow exception to "slides only": at most 2 sentences giving the plain meaning of a term the slide names without explaining. No names, no numbers, no examples. The app labels it "Not on slide".
+
+**Teaching layer (pass C).** A chunk with a `big_idea` is shown in the teaching layout; chunks without one keep the older layout.
+
+- `big_idea`: the whole part in one plain sentence ("In one line").
+- `analogy`: `{text}`, "Think of it like this", the second exception to "slides only" (JasMehr, 8 Nov 2026). At most 3 sentences, no names, no numbers above 10, never inside a model answer or `exam_answer_md`. Labelled "Not on slide"; hidden with clarifications when that setting is off.
+- `visuals`: pictures the app draws (web/js/visuals.js). Every visual has `kind`, optional `title`, `caption` and `source_ref` (the slide it redraws). Kinds:
+  - `plot`: axes from 0 to `x_max`/`y_max` with `x_label`, `y_label`, `x_ticks`/`y_ticks` `[{at, label}]`, `lines` `[{points [[x,y],...], label, label_at end|mid|below, tone, dashed, bold, curve}]`, `areas` `[{points, label, tone}]`, `dots` `[{x, y, label, label_at above|below, guides}]`. Every point must sit inside the axes.
+  - `normal`: a bell curve on z from -3.5 to 3.5 with `shades` `[{from_z, to_z, tone, label}]` (null = open end) and `marks` `[{z, label}]`.
+  - `tree`: `direction` right (decision and probability trees) or down (classification trees); `nodes` `[{id, label, parent, edge, shape decision|chance|end|box, value, cut}]` with exactly one root.
+  - `flow`: `steps` `[{label, note}]`, `cycle` true for a cycle.
+  - `compare`: 2 to 4 `sides` `[{title, points[], tone}]`.
+  - `matrix`: `rows`, `cols`, `cells` (rows x cols), `row_title`, `col_title`, `highlight` `[[row, col]]`.
+  - `tone` is `a` (blue), `b` (green), `c` (amber), `d` (red) or `muted`.
+- `worked`: `{question_md, steps [{title, body_md, why, result}], answer_md}`, revealed one step at a time.
+- `watch_out`: the usual mistakes, one line each. `memory_trick`: one line. `exam_answer_md`: the answer as JasMehr should write it in the exam.
+
+Grounding checks every text and label in the layer (except the analogy, which has its own rule) against the chunk's slides plus each visual's `source_ref`; computed numbers go in `derived`.
 
 Items with `needs_check: true` are hidden from lessons and quizzes.
 

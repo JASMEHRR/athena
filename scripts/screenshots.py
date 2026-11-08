@@ -33,6 +33,7 @@ PAGES = [
     ("subjects", "#/subjects"),
     ("subject-far", "#/subject/far"),
     ("learn", "#/learn/far-fe-elements"),
+    ("learn-teach", "#/learn/be-s45-equilibrium?part=3"),
     ("review", "#/review"),
     ("practice-quiz", "#/practice"),
     ("practice-write", "#/practice?mode=write&subject=far"),

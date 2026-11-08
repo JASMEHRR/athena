@@ -89,6 +89,11 @@ def check(cat: Catalog) -> tuple[list[str], list[str]]:
                 _check_ref(cat, ref, cw, errors)
             for term in chunk.key_terms:
                 _check_ref(cat, term.source_ref, f"{cw} key term {term.term!r}", errors)
+            for v in chunk.visuals:
+                if v.source_ref:
+                    _check_ref(cat, v.source_ref, f"{cw} {v.kind} picture", errors)
+            if chunk.analogy and chunk.analogy.text in chunk.exam_answer_md:
+                errors.append(f"{cw}: the exam answer contains the analogy (not on slide)")
             for ex_id in chunk.example_ids:
                 ex = cat.examples.get(ex_id)
                 if ex is None:
@@ -115,6 +120,9 @@ def check(cat: Catalog) -> tuple[list[str], list[str]]:
             for text in clar_texts:
                 if text and text in q.model_answer_md:
                     errors.append(f"{qw}: model answer contains clarification text (not on slide)")
+            for text in (c.analogy.text for c in topic.chunks if c.analogy):
+                if text and text in q.model_answer_md:
+                    errors.append(f"{qw}: model answer contains analogy text (not on slide)")
 
         for card in topic.flashcards:
             if not card.id.startswith(topic.id + "-"):
