@@ -1,0 +1,557 @@
+{
+  "id": "be-s9-exponential-smoothing",
+  "subject_id": "be",
+  "deck_id": "be--session-9",
+  "title": "Exponential smoothing",
+  "order": 5,
+  "summary": "Why give recent data more weight, the smoothing formula, the α = 0.3 example, and the practice question comparing it with a moving average.",
+  "est_minutes": 30,
+  "difficulty": 2,
+  "source_refs": [
+    "be--session-9#26",
+    "be--session-9#27",
+    "be--session-9#28",
+    "be--session-9#29",
+    "be--session-9#30",
+    "be--session-9#31",
+    "be--session-9#22",
+    "be--session-9#23",
+    "be--session-9#25"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "be-s9-exponential-smoothing-c1",
+      "heading": "Why exponential smoothing",
+      "explanation_md": "A moving average gives **equal importance** to every observation inside its window. But the latest year usually says more about next year than an older one: 2025 sales tell you more about 2026 than 2023 sales do.\n\n**Exponential smoothing** gives **more importance to recent observations** and **progressively less** to older ones.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "Moving averages weight the window equally; exponential smoothing weights recent data more.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s9-exponential-smoothing-q-854ad781",
+          "type": "mcq",
+          "stem": "The limitation of a moving average that exponential smoothing fixes is that it:",
+          "options": [
+            "Gives equal importance to all observations in the window",
+            "Cannot be calculated by hand",
+            "Needs a smoothing constant above 1"
+          ],
+          "answer": "Gives equal importance to all observations in the window",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-9#26"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s9-exponential-smoothing-q-08916a46",
+          "type": "true_false",
+          "stem": "Exponential smoothing gives more importance to recent observations.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-9#26"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-9#26"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false,
+      "big_idea": "",
+      "analogy": null,
+      "visuals": [],
+      "worked": null,
+      "watch_out": [],
+      "memory_trick": "",
+      "exam_answer_md": ""
+    },
+    {
+      "id": "be-s9-exponential-smoothing-c2",
+      "heading": "The smoothing formula",
+      "explanation_md": "**F(t+1) = αY(t) + (1 - α)F(t)**\n\n- F(t+1): forecast for next period\n- Y(t): actual value this period\n- F(t): forecast for this period\n- **α: the smoothing constant, with 0 < α < 1**\n\nEach new forecast blends this period's actual value with this period's forecast. A **bigger α** reacts faster to the latest data.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Smoothing constant",
+          "meaning": "α in F(t+1) = αY(t) + (1 - α)F(t), between 0 and 1",
+          "source_ref": "be--session-9#27"
+        }
+      ],
+      "exam_line": "F(t+1) = αY(t) + (1 - α)F(t), with 0 < α < 1.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s9-exponential-smoothing-q-c8e40e34",
+          "type": "mcq",
+          "stem": "In exponential smoothing, the forecast for next period is:",
+          "options": [
+            "αY(t) + (1 - α)F(t)",
+            "(Y(t) + Y(t-1) + Y(t-2)) / 3",
+            "a + bt"
+          ],
+          "answer": "αY(t) + (1 - α)F(t)",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-9#27",
+            "be--session-9#21",
+            "be--session-9#16"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s9-exponential-smoothing-q-f643172a",
+          "type": "fill",
+          "stem": "The smoothing constant α lies between 0 and ____.",
+          "options": [],
+          "answer": "1",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-9#27"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-9#27"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false,
+      "big_idea": "",
+      "analogy": null,
+      "visuals": [],
+      "worked": null,
+      "watch_out": [],
+      "memory_trick": "",
+      "exam_answer_md": ""
+    },
+    {
+      "id": "be-s9-exponential-smoothing-c3",
+      "heading": "Worked question: α = 0.3",
+      "explanation_md": "Sales from 2020 to 2024 are 100, 120, 110, 130 and 140. Take the **first actual as the first forecast**: F2021 = 100.\n\n| Year | Actual | Working | Forecast |\n|---|---|---|---|\n| 2021 | 120 | first actual | 100.00 |\n| 2022 | 110 | 0.3 x 120 + 0.7 x 100 = 36 + 70 | 106.00 |\n| 2023 | 130 | 0.3 x 110 + 0.7 x 106 = 33 + 74.2 | 107.20 |\n| 2024 | 140 | 0.3 x 130 + 0.7 x 107.2 = 39 + 75.04 | 114.04 |\n| 2025 | | 0.3 x 140 + 0.7 x 114.04 = 42 + 79.828 | **121.83** |",
+      "example_ids": [
+        "be-ex-smoothing-alpha-03"
+      ],
+      "key_terms": [],
+      "exam_line": "Start with F = the first actual, then apply F(t+1) = 0.3Y(t) + 0.7F(t) year by year: F2025 = 121.83.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s9-exponential-smoothing-q-f7f4f5b7",
+          "type": "mcq",
+          "stem": "With α = 0.3, the sales forecast for 2025 is:",
+          "options": [
+            "121.83",
+            "114.04",
+            "140"
+          ],
+          "answer": "121.83",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-9#28",
+            "be--session-9#29",
+            "be--session-9#30"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s9-exponential-smoothing-q-8cc0eec9",
+          "type": "mcq",
+          "stem": "In the α = 0.3 example, the forecast for 2022 is:",
+          "options": [
+            "106",
+            "100",
+            "110"
+          ],
+          "answer": "106",
+          "accept": [],
+          "explanation": "0.3 x 120 + 0.7 x 100 = 36 + 70 = 106.",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-9#28",
+            "be--session-9#29",
+            "be--session-9#30"
+          ],
+          "derived": [
+            "0.7"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s9-exponential-smoothing-q-d99b7317",
+          "type": "true_false",
+          "stem": "The worked example uses the first actual observation as the initial forecast.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-9#28",
+            "be--session-9#29",
+            "be--session-9#30"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-9#28",
+        "be--session-9#29",
+        "be--session-9#30"
+      ],
+      "derived": [
+        "0.7"
+      ],
+      "needs_check": false,
+      "retired": false,
+      "big_idea": "",
+      "analogy": null,
+      "visuals": [],
+      "worked": null,
+      "watch_out": [],
+      "memory_trick": "",
+      "exam_answer_md": ""
+    },
+    {
+      "id": "be-s9-exponential-smoothing-c4",
+      "heading": "Practice: moving average or exponential smoothing?",
+      "explanation_md": "The practice question takes the 2017 to 2025 sales (80, 85, 90, 100, 120, 110, 130, 140, 150) and asks for the 2026 forecast by a **3-year moving average** and by **exponential smoothing with α = 0.1**, then compares them with **RMSE**.\n\nWorked with the slides' own conventions (first actual as the first forecast, RMSE over 2020 to 2025 so both methods cover the same six years):\n\n| Method | 2026 forecast | RMSE |\n|---|---|---|\n| 3-year moving average | 140 | about 20.07 |\n| Exponential smoothing, α = 0.1 | about 103.21 | about 38.21 |\n\nThe **moving average** wins here. With α as small as 0.1 the smoothed forecast reacts **too slowly** to sales that keep rising, so its errors are large.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "Compute both forecasts, compute RMSE for both over the same years, and choose the lower RMSE: here the 3-year moving average.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s9-exponential-smoothing-q-5cf537e1",
+          "type": "mcq",
+          "stem": "In the practice question, which method has the lower RMSE?",
+          "options": [
+            "The 3-year moving average",
+            "Exponential smoothing with α = 0.1",
+            "They are exactly equal"
+          ],
+          "answer": "The 3-year moving average",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-9#31",
+            "be--session-9#22",
+            "be--session-9#23",
+            "be--session-9#25"
+          ],
+          "derived": [
+            "0.1"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s9-exponential-smoothing-q-a73bebbe",
+          "type": "true_false",
+          "stem": "With α = 0.1, exponential smoothing reacts slowly to steadily rising sales.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-9#31",
+            "be--session-9#22",
+            "be--session-9#23",
+            "be--session-9#25"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-9#31",
+        "be--session-9#22",
+        "be--session-9#23",
+        "be--session-9#25"
+      ],
+      "derived": [
+        "103.21",
+        "38.21",
+        "20.07",
+        "0.9"
+      ],
+      "needs_check": false,
+      "retired": false,
+      "big_idea": "",
+      "analogy": null,
+      "visuals": [],
+      "worked": null,
+      "watch_out": [],
+      "memory_trick": "",
+      "exam_answer_md": ""
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "be-s9-exponential-smoothing-f1",
+      "front": "Exponential smoothing",
+      "back": "F(t+1) = αY(t) + (1 - α)F(t), with 0 < α < 1",
+      "kind": "formula",
+      "source_refs": [
+        "be--session-9#27"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s9-exponential-smoothing-f2",
+      "front": "Why exponential smoothing",
+      "back": "Gives more weight to recent observations, unlike a moving average",
+      "kind": "fact",
+      "source_refs": [
+        "be--session-9#26"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s9-exponential-smoothing-f3",
+      "front": "α = 0.3 example",
+      "back": "F2022 = 106, F2023 = 107.2, F2024 = 114.04, F2025 = 121.83",
+      "kind": "fact",
+      "source_refs": [
+        "be--session-9#28",
+        "be--session-9#29",
+        "be--session-9#30"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s9-exponential-smoothing-f4",
+      "front": "Initial forecast",
+      "back": "Use the first actual observation as the first forecast",
+      "kind": "fact",
+      "source_refs": [
+        "be--session-9#29"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [
+    {
+      "id": "be-s9-exponential-smoothing-q-1def3b44",
+      "type": "mcq",
+      "stem": "In the α = 0.3 example, the forecast for 2024 is:",
+      "options": [
+        "114.04",
+        "107.2",
+        "121.83"
+      ],
+      "answer": "114.04",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "",
+      "source_refs": [
+        "be--session-9#29",
+        "be--session-9#30"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s9-exponential-smoothing-q-4f91c94e",
+      "type": "long",
+      "stem": "Sales for 2020 to 2024 were 100, 120, 110, 130 and 140. With α = 0.3, find the sales forecast for 2025 by exponential smoothing.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Use **F(t+1) = αY(t) + (1 - α)F(t)** with α = 0.3, and take the first actual as the first forecast (F2021 = 100).\n\n| Year | Actual | Working | Forecast |\n|---|---|---|---|\n| 2022 | 110 | 0.3 x 120 + 0.7 x 100 | 106 |\n| 2023 | 130 | 0.3 x 110 + 0.7 x 106 | 107.2 |\n| 2024 | 140 | 0.3 x 130 + 0.7 x 107.2 | 114.04 |\n| 2025 | | 0.3 x 140 + 0.7 x 114.04 | **121.83** |",
+      "rubric": [
+        {
+          "point": "Formula and α = 0.3",
+          "source_ref": "be--session-9#27"
+        },
+        {
+          "point": "Initial forecast of 100",
+          "source_ref": "be--session-9#29"
+        },
+        {
+          "point": "Forecasts 106, 107.2, 114.04",
+          "source_ref": "be--session-9#29"
+        },
+        {
+          "point": "F2025 = 121.83",
+          "source_ref": "be--session-9#30"
+        }
+      ],
+      "marks": 5.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "be--session-9#27",
+        "be--session-9#28",
+        "be--session-9#29",
+        "be--session-9#30"
+      ],
+      "derived": [
+        "0.7"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s9-exponential-smoothing-q-fdb0690b",
+      "type": "long",
+      "stem": "For 2017 to 2025 sales of 80, 85, 90, 100, 120, 110, 130, 140 and 150, forecast 2026 by a 3-year moving average and by exponential smoothing with α = 0.1, and use RMSE to choose the better model.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**3-year moving average:** 2026 = (130 + 140 + 150) / 3 = **140**, RMSE about **20.07** over 2020 to 2025.\n\n**Exponential smoothing, α = 0.1**, starting from the first actual (80) as the first forecast: forecasts 80.5, 81.45, 83.31, 86.97, 89.28, 93.35 and 98.01 for 2019 to 2025, and about **103.21** for 2026. Over the same six years (2020 to 2025) its RMSE is about **38.21**.\n\nThe moving average has the **lower RMSE**, so it is the preferable model for this data: with α = 0.1, smoothing lags behind sales that keep rising.",
+      "rubric": [
+        {
+          "point": "3-year MA forecast of 140",
+          "source_ref": "be--session-9#23"
+        },
+        {
+          "point": "Smoothing forecasts with α = 0.1",
+          "source_ref": "be--session-9#27"
+        },
+        {
+          "point": "RMSE for both over the same years",
+          "source_ref": "be--session-9#25"
+        },
+        {
+          "point": "Chooses the lower RMSE",
+          "source_ref": "be--session-9#25"
+        }
+      ],
+      "marks": 5.0,
+      "difficulty": 3,
+      "style_tag": "numerical",
+      "source_refs": [
+        "be--session-9#31",
+        "be--session-9#23",
+        "be--session-9#25",
+        "be--session-9#27",
+        "be--session-9#29"
+      ],
+      "derived": [
+        "80.5",
+        "81.45",
+        "83.31",
+        "86.97",
+        "89.28",
+        "93.35",
+        "98.01",
+        "103.21",
+        "20.07",
+        "38.21",
+        "0.9"
+      ],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "explain_back": {
+    "prompt": "Explain exponential smoothing and how it differs from a moving average, using the α = 0.3 example.",
+    "rubric": [
+      {
+        "point": "Moving averages weight all observations in the window equally",
+        "source_ref": "be--session-9#26"
+      },
+      {
+        "point": "F(t+1) = αY(t) + (1 - α)F(t), 0 < α < 1",
+        "source_ref": "be--session-9#27"
+      },
+      {
+        "point": "Start from the first actual and work year by year",
+        "source_ref": "be--session-9#29"
+      },
+      {
+        "point": "F2025 = 121.83 in the example",
+        "source_ref": "be--session-9#30"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

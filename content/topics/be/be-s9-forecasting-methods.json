@@ -1,0 +1,576 @@
+{
+  "id": "be-s9-forecasting-methods",
+  "subject_id": "be",
+  "deck_id": "be--session-9",
+  "title": "Qualitative and quantitative forecasting methods",
+  "order": 2,
+  "summary": "Qualitative versus quantitative methods, market research, executive opinion and the Delphi method, time series versus causal models, the parts of a time series, the methods list and how to choose a model.",
+  "est_minutes": 25,
+  "difficulty": 1,
+  "source_refs": [
+    "be--session-9#6",
+    "be--session-9#7",
+    "be--session-9#8",
+    "be--session-9#9",
+    "be--session-9#10",
+    "be--session-9#11",
+    "be--session-9#12"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "be-s9-forecasting-methods-c1",
+      "heading": "Qualitative or quantitative",
+      "explanation_md": "There are two families of forecasting models:\n\n- **Qualitative methods**: forecasts generated **subjectively** by the forecaster.\n- **Quantitative (statistical) methods**: forecasts generated through **mathematical modeling**.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "Qualitative: subjective judgement. Quantitative: mathematical models.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s9-forecasting-methods-q-3ae71eea",
+          "type": "mcq",
+          "stem": "Forecasts generated subjectively by the forecaster come from:",
+          "options": [
+            "Qualitative methods",
+            "Quantitative methods",
+            "Time series models only"
+          ],
+          "answer": "Qualitative methods",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-9#6"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s9-forecasting-methods-q-798db8a1",
+          "type": "true_false",
+          "stem": "Quantitative methods generate forecasts through mathematical modeling.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-9#6"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-9#6"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false,
+      "big_idea": "",
+      "analogy": null,
+      "visuals": [],
+      "worked": null,
+      "watch_out": [],
+      "memory_trick": "",
+      "exam_answer_md": ""
+    },
+    {
+      "id": "be-s9-forecasting-methods-c2",
+      "heading": "Three qualitative methods",
+      "explanation_md": "| Method | How it works | Strength | Weakness |\n|---|---|---|---|\n| Market research or consumer surveys | Surveys and interviews to find customer preferences | Good guide to customer preferences | Hard to develop a good questionnaire |\n| Executive opinion | A group of managers meet and agree a forecast | Good for strategic or new-product forecasting | One person's opinion can dominate |\n| Delphi method | Builds a consensus among a group of experts | Excellent for long-term product demand and technological forecasts | Time consuming to develop |",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Delphi method",
+          "meaning": "Builds a consensus among a group of experts; good for long-term and technological forecasts but time consuming",
+          "source_ref": "be--session-9#7"
+        },
+        {
+          "term": "Executive opinion",
+          "meaning": "A group of managers meet and come up with a forecast",
+          "source_ref": "be--session-9#7"
+        }
+      ],
+      "exam_line": "Surveys: customer preferences, hard questionnaire. Executive opinion: strategic, one voice may dominate. Delphi: expert consensus, long-term, slow.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s9-forecasting-methods-q-b3997c29",
+          "type": "mcq",
+          "stem": "Which qualitative method seeks a consensus among a group of experts?",
+          "options": [
+            "Delphi method",
+            "Executive opinion",
+            "Consumer surveys"
+          ],
+          "answer": "Delphi method",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-9#7"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s9-forecasting-methods-q-1cb25936",
+          "type": "mcq",
+          "stem": "A weakness of executive opinion is that:",
+          "options": [
+            "One person's opinion can dominate the forecast",
+            "It is hard to write a good questionnaire",
+            "It needs many years of sales data"
+          ],
+          "answer": "One person's opinion can dominate the forecast",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-9#7"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s9-forecasting-methods-q-4434f96c",
+          "type": "true_false",
+          "stem": "The Delphi method is excellent for forecasting long-term product demand but time consuming to develop.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-9#7"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-9#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false,
+      "big_idea": "",
+      "analogy": null,
+      "visuals": [],
+      "worked": null,
+      "watch_out": [],
+      "memory_trick": "",
+      "exam_answer_md": ""
+    },
+    {
+      "id": "be-s9-forecasting-methods-c3",
+      "heading": "Time series and causal models",
+      "explanation_md": "Statistical forecasting has two kinds of model:\n\n- **Time series models** assume the **future will follow the same patterns as the past**.\n- **Causal models** explore **cause-and-effect relationships** and use **leading indicators** to predict the future. The slide's example: **housing starts** help predict **appliance sales**.",
+      "example_ids": [
+        "be-ex-housing-starts-appliances"
+      ],
+      "key_terms": [],
+      "exam_line": "Time series: the past pattern continues. Causal: cause and effect with leading indicators (housing starts and appliance sales).",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s9-forecasting-methods-q-0be7ed66",
+          "type": "mcq",
+          "stem": "Using housing starts to predict appliance sales is an example of:",
+          "options": [
+            "A causal model",
+            "A time series model",
+            "The Delphi method"
+          ],
+          "answer": "A causal model",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-9#8",
+            "be--session-9#7"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s9-forecasting-methods-q-687654a9",
+          "type": "true_false",
+          "stem": "Time series models assume the future will follow the same patterns as the past.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-9#8"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-9#8"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false,
+      "big_idea": "",
+      "analogy": null,
+      "visuals": [],
+      "worked": null,
+      "watch_out": [],
+      "memory_trick": "",
+      "exam_answer_md": ""
+    },
+    {
+      "id": "be-s9-forecasting-methods-c4",
+      "heading": "What a time series is made of",
+      "explanation_md": "**Data = historic pattern + random variation.**\n\nThe historic pattern can include:\n\n- **Level**: data moves sideways around a long-term average.\n- **Trend**: data rises or falls progressively.\n- **Seasonality**: a regularly repeating pattern, for example the same quarters peaking every year.\n- **Cycle**: data rises or falls over a longer stretch of time.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "Data = historic pattern (level, trend, seasonality, cycle) + random variation.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s9-forecasting-methods-q-e2b02979",
+          "type": "mcq",
+          "stem": "A regularly repeating pattern in time series data is:",
+          "options": [
+            "Seasonality",
+            "Trend",
+            "Level"
+          ],
+          "answer": "Seasonality",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-9#9",
+            "be--session-9#10"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s9-forecasting-methods-q-72b0ac5f",
+          "type": "fill",
+          "stem": "Data = historic pattern + random ____",
+          "options": [],
+          "answer": "variation",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-9#9",
+            "be--session-9#10"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-9#9",
+        "be--session-9#10"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false,
+      "big_idea": "",
+      "analogy": null,
+      "visuals": [],
+      "worked": null,
+      "watch_out": [],
+      "memory_trick": "",
+      "exam_answer_md": ""
+    },
+    {
+      "id": "be-s9-forecasting-methods-c5",
+      "heading": "Methods, and how to choose one",
+      "explanation_md": "The slides list four **methods of forecasting**: **ordinary least square**, **regression**, **moving average** and **exponential smoothing**.\n\nTo **select a model**, look at:\n\n- the **amount and type of data** you have\n- the **degree of accuracy** you need\n- the **length of the forecast horizon**\n- whether there are **patterns in the data**",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "Choose a model by the data available, the accuracy required, the forecast horizon and the patterns in the data.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s9-forecasting-methods-q-4f86ede2",
+          "type": "mcq",
+          "stem": "Which is a factor in selecting a forecasting model?",
+          "options": [
+            "The length of the forecast horizon",
+            "The colour of the product",
+            "The firm's share price"
+          ],
+          "answer": "The length of the forecast horizon",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-9#11",
+            "be--session-9#12"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s9-forecasting-methods-q-51d9e4d8",
+          "type": "true_false",
+          "stem": "Moving average and exponential smoothing are among the forecasting methods listed on the slides.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-9#11",
+            "be--session-9#12"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-9#11",
+        "be--session-9#12"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false,
+      "big_idea": "",
+      "analogy": null,
+      "visuals": [],
+      "worked": null,
+      "watch_out": [],
+      "memory_trick": "",
+      "exam_answer_md": ""
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "be-s9-forecasting-methods-f1",
+      "front": "Qualitative vs quantitative",
+      "back": "Qualitative: subjective; quantitative: mathematical modeling",
+      "kind": "fact",
+      "source_refs": [
+        "be--session-9#6"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s9-forecasting-methods-f2",
+      "front": "Qualitative methods",
+      "back": "Market research or consumer surveys; executive opinion; Delphi method",
+      "kind": "list",
+      "source_refs": [
+        "be--session-9#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s9-forecasting-methods-f3",
+      "front": "Time series vs causal",
+      "back": "Time series: past patterns continue; causal: cause and effect with leading indicators",
+      "kind": "fact",
+      "source_refs": [
+        "be--session-9#8"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s9-forecasting-methods-f4",
+      "front": "Time series components",
+      "back": "Level, trend, seasonality, cycle, plus random variation",
+      "kind": "list",
+      "source_refs": [
+        "be--session-9#9"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s9-forecasting-methods-f5",
+      "front": "Choosing a model",
+      "back": "Data available, accuracy required, forecast horizon, data patterns",
+      "kind": "list",
+      "source_refs": [
+        "be--session-9#12"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [
+    {
+      "id": "be-s9-forecasting-methods-q-d52bab43",
+      "type": "mcq",
+      "stem": "A strength of market research and consumer surveys is that they are:",
+      "options": [
+        "A good determinant of customer preferences",
+        "Quick to develop",
+        "Free of any questionnaire design"
+      ],
+      "answer": "A good determinant of customer preferences",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "",
+      "source_refs": [
+        "be--session-9#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s9-forecasting-methods-q-fc6e3d7f",
+      "type": "mcq",
+      "stem": "The long-term average around which data moves is the:",
+      "options": [
+        "Level",
+        "Cycle",
+        "Seasonality"
+      ],
+      "answer": "Level",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "",
+      "source_refs": [
+        "be--session-9#9"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s9-forecasting-methods-q-bb3e4853",
+      "type": "short",
+      "stem": "Compare the three qualitative forecasting methods on the slides.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "| Method | How it works | Strength | Weakness |\n|---|---|---|---|\n| Market research or consumer surveys | Surveys and interviews | Good guide to customer preferences | Hard to develop a good questionnaire |\n| Executive opinion | Managers meet and agree a forecast | Good for strategic or new-product forecasting | One person's opinion can dominate |\n| Delphi method | Consensus among experts | Long-term and technological forecasts | Time consuming |",
+      "rubric": [
+        {
+          "point": "Market research or surveys with strength and weakness",
+          "source_ref": "be--session-9#7"
+        },
+        {
+          "point": "Executive opinion with strength and weakness",
+          "source_ref": "be--session-9#7"
+        },
+        {
+          "point": "Delphi method with strength and weakness",
+          "source_ref": "be--session-9#7"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "differentiate",
+      "source_refs": [
+        "be--session-9#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "explain_back": {
+    "prompt": "Explain the qualitative and quantitative methods of demand forecasting and how to choose between models.",
+    "rubric": [
+      {
+        "point": "Qualitative vs quantitative",
+        "source_ref": "be--session-9#6"
+      },
+      {
+        "point": "Surveys, executive opinion and Delphi, with strengths and weaknesses",
+        "source_ref": "be--session-9#7"
+      },
+      {
+        "point": "Time series vs causal models",
+        "source_ref": "be--session-9#8"
+      },
+      {
+        "point": "Factors for selecting a model",
+        "source_ref": "be--session-9#12"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

@@ -1,0 +1,494 @@
+{
+  "id": "be-s9-trend",
+  "subject_id": "be",
+  "deck_id": "be--session-9",
+  "title": "Trend estimation: linear and quadratic trends",
+  "order": 3,
+  "summary": "Fitting a straight-line trend with the normal equations, checking differences to choose a linear or quadratic trend, and fitting the quadratic trend; two slide arithmetic slips are corrected.",
+  "est_minutes": 40,
+  "difficulty": 3,
+  "source_refs": [
+    "be--session-9#14",
+    "be--session-9#15",
+    "be--session-9#16",
+    "be--session-9#17",
+    "be--session-9#18",
+    "be--session-9#19"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "be-s9-trend-c1",
+      "heading": "Fitting a linear trend",
+      "explanation_md": "Sales (₹ Crore) for 1993 to 1997 are 605, 715, 830, 790 and 835. Number the years t = 1 to 5 and fit **S = a + bt**.\n\n| Year | S | T | T² | ST |\n|---|---|---|---|---|\n| 1993 | 605 | 1 | 1 | 605 |\n| 1994 | 715 | 2 | 4 | 1430 |\n| 1995 | 830 | 3 | 9 | 2490 |\n| 1996 | 790 | 4 | 16 | 3160 |\n| 1997 | 835 | 5 | 25 | 4175 |\n| Sum | 3775 | 15 | 55 | 11860 |\n\nThe two **normal equations**: 3775 = 5a + 15b and 11860 = 15a + 55b. Solving gives **b = 53.5** and **a = 594.5**, so **S = 594.5 + 53.5t**.\n\nThe year 2000 is **t = 8**: S = 594.5 + 53.5 x 8 = 594.5 + 428 = **1022.5**. The slide prints 1024.9 on this last line, but the arithmetic gives 1022.5; show your working.",
+      "example_ids": [
+        "be-ex-linear-trend-1993-1997"
+      ],
+      "key_terms": [],
+      "exam_line": "Build the T, T² and ST columns, solve the two normal equations, then put the forecast year's t into S = a + bt.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s9-trend-q-9f0e6f06",
+          "type": "mcq",
+          "stem": "For the trend S = 594.5 + 53.5t with 1993 as t = 1, which t is the year 2000?",
+          "options": [
+            "8",
+            "5",
+            "7"
+          ],
+          "answer": "8",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-9#14",
+            "be--session-9#15",
+            "be--session-9#16"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s9-trend-q-74405c31",
+          "type": "mcq",
+          "stem": "What is the forecast for 2000 from S = 594.5 + 53.5t?",
+          "options": [
+            "1022.5",
+            "1024.9",
+            "594.5"
+          ],
+          "answer": "1022.5",
+          "accept": [],
+          "explanation": "53.5 x 8 = 428 and 594.5 + 428 = 1022.5; the slide's 1024.9 is an arithmetic slip.",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-9#14",
+            "be--session-9#15",
+            "be--session-9#16"
+          ],
+          "derived": [
+            "1022.5",
+            "428"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s9-trend-q-8fc29e5a",
+          "type": "true_false",
+          "stem": "In the linear trend example, the slope b works out to 53.5.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-9#14",
+            "be--session-9#15",
+            "be--session-9#16"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-9#14",
+        "be--session-9#15",
+        "be--session-9#16"
+      ],
+      "derived": [
+        "428",
+        "1022.5"
+      ],
+      "needs_check": false,
+      "retired": false,
+      "big_idea": "",
+      "analogy": null,
+      "visuals": [],
+      "worked": null,
+      "watch_out": [],
+      "memory_trick": "",
+      "exam_answer_md": ""
+    },
+    {
+      "id": "be-s9-trend-c2",
+      "heading": "Linear or non-linear? Look at the differences",
+      "explanation_md": "Sales for 1990 to 1996 are 10, 15, 22, 31, 43, 57 and 74.\n\n- The **first differences** (5, 7, 9, 12, 14, 17) keep growing, so a straight line will not fit.\n- The **second differences** stay close to **2 or 3**: nearly constant. Nearly constant second differences point to a **quadratic (non-linear) trend**: S = a + bt + ct².\n\nWith seven years the slide codes time as **t = -3 to 3**, with 1993 as 0, so that the sum of t is 0. That makes the equations much easier.",
+      "example_ids": [
+        "be-ex-quadratic-trend-1990-1996"
+      ],
+      "key_terms": [],
+      "exam_line": "Constant first differences mean a linear trend; constant second differences mean a quadratic trend.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s9-trend-q-a327c868",
+          "type": "mcq",
+          "stem": "Nearly constant second differences in sales data suggest:",
+          "options": [
+            "A quadratic trend",
+            "A linear trend",
+            "No trend at all"
+          ],
+          "answer": "A quadratic trend",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-9#17",
+            "be--session-9#18"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s9-trend-q-f4778a92",
+          "type": "true_false",
+          "stem": "In the 1990 to 1996 sales example, the year 1993 is coded as t = 0.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-9#17",
+            "be--session-9#18"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-9#17",
+        "be--session-9#18"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false,
+      "big_idea": "",
+      "analogy": null,
+      "visuals": [],
+      "worked": null,
+      "watch_out": [],
+      "memory_trick": "",
+      "exam_answer_md": ""
+    },
+    {
+      "id": "be-s9-trend-c3",
+      "heading": "Fitting the quadratic trend",
+      "explanation_md": "With the sums from the table (sum of S = 252, sum of t² = 28, sum of t⁴ = 196, sum of St = 297, sum of St² = 1109), the equations are:\n\n- 252 = 7a + 28c\n- 297 = 28b\n- 1109 = 28a + 196c\n\n| Unknown | Working | Value |\n|---|---|---|\n| b | 297 / 28 | **10.607** |\n| c | from the first and third equations | **1.202** |\n| a | from 252 = 7a + 28c | **31.19** |\n\nThe slide prints b = 10.067, but 297 / 28 is **10.607**.\n\nThe year 2000 is **t = 7** (1996 is t = 3). Forecast: 31.19 + 10.607 x 7 + 1.202 x 49 = **164.36**. The slide's 160.56 comes from its typo in b.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "Quadratic trend S = 31.19 + 10.607t + 1.202t²; forecast for 2000 (t = 7) is 164.36.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s9-trend-q-4976c707",
+          "type": "mcq",
+          "stem": "From 297 = 28b, the value of b is:",
+          "options": [
+            "10.607",
+            "10.067",
+            "1.202"
+          ],
+          "answer": "10.607",
+          "accept": [],
+          "explanation": "297 divided by 28 is 10.607; the slide's 10.067 swaps two digits.",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-9#18",
+            "be--session-9#19"
+          ],
+          "derived": [
+            "10.607"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s9-trend-q-d547a9fb",
+          "type": "mcq",
+          "stem": "In the quadratic trend example, which t is the year 2000?",
+          "options": [
+            "7",
+            "3",
+            "8"
+          ],
+          "answer": "7",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-9#18",
+            "be--session-9#19"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s9-trend-q-f64be28c",
+          "type": "fill",
+          "stem": "With nearly constant second differences, fit the trend S = a + bt + c____",
+          "options": [],
+          "answer": "t²",
+          "accept": [
+            "t2",
+            "t^2"
+          ],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-9#18",
+            "be--session-9#19"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-9#18",
+        "be--session-9#19"
+      ],
+      "derived": [
+        "10.607",
+        "164.36",
+        "49",
+        "74.25",
+        "58.92"
+      ],
+      "needs_check": false,
+      "retired": false,
+      "big_idea": "",
+      "analogy": null,
+      "visuals": [],
+      "worked": null,
+      "watch_out": [],
+      "memory_trick": "",
+      "exam_answer_md": ""
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "be-s9-trend-f1",
+      "front": "Linear trend normal equations",
+      "back": "Sum of S = na + b(sum of t); sum of St = a(sum of t) + b(sum of t²)",
+      "kind": "formula",
+      "source_refs": [
+        "be--session-9#15",
+        "be--session-9#16"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s9-trend-f2",
+      "front": "Linear trend answer",
+      "back": "S = 594.5 + 53.5t, with t = 8 for the year 2000",
+      "kind": "fact",
+      "source_refs": [
+        "be--session-9#16"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s9-trend-f3",
+      "front": "Choosing the trend",
+      "back": "Constant first differences: linear; constant second differences: quadratic",
+      "kind": "fact",
+      "source_refs": [
+        "be--session-9#17",
+        "be--session-9#18"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s9-trend-f4",
+      "front": "Quadratic trend answer",
+      "back": "S = a + bt + ct² with b = 297/28 and t = 7 for the year 2000",
+      "kind": "fact",
+      "source_refs": [
+        "be--session-9#19"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [
+    {
+      "id": "be-s9-trend-q-437a3571",
+      "type": "mcq",
+      "stem": "In the 1993 to 1997 trend table, the sum of ST is:",
+      "options": [
+        "11860",
+        "3775",
+        "55"
+      ],
+      "answer": "11860",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "",
+      "source_refs": [
+        "be--session-9#15"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s9-trend-q-e6e36322",
+      "type": "long",
+      "stem": "Sales (₹ Crore) were 605, 715, 830, 790 and 835 for 1993 to 1997. Assuming the present trend continues, forecast sales for the year 2000.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Number the years t = 1 to 5 and fit S = a + bt.\n\n| Year | S | T | T² | ST |\n|---|---|---|---|---|\n| 1993 | 605 | 1 | 1 | 605 |\n| 1994 | 715 | 2 | 4 | 1430 |\n| 1995 | 830 | 3 | 9 | 2490 |\n| 1996 | 790 | 4 | 16 | 3160 |\n| 1997 | 835 | 5 | 25 | 4175 |\n| Sum | 3775 | 15 | 55 | 11860 |\n\nNormal equations: 3775 = 5a + 15b and 11860 = 15a + 55b, so **b = 53.5** and **a = 594.5**.\n\nTrend: **S = 594.5 + 53.5t**. The year 2000 is t = 8: S = 594.5 + 428 = **1022.5** (₹ Crore).",
+      "rubric": [
+        {
+          "point": "Table with T, T² and ST",
+          "source_ref": "be--session-9#15"
+        },
+        {
+          "point": "Normal equations solved: a = 594.5, b = 53.5",
+          "source_ref": "be--session-9#16"
+        },
+        {
+          "point": "t = 8 for 2000 and forecast 1022.5",
+          "source_ref": "be--session-9#16"
+        }
+      ],
+      "marks": 5.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "be--session-9#14",
+        "be--session-9#15",
+        "be--session-9#16"
+      ],
+      "derived": [
+        "428",
+        "1022.5"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s9-trend-q-d667dce9",
+      "type": "long",
+      "stem": "Sales were 10, 15, 22, 31, 43, 57 and 74 for 1990 to 1996. Determine whether a linear or non-linear trend is needed, and forecast sales for the year 2000.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Which trend?** First differences are 5, 7, 9, 12, 14, 17 (not constant); second differences are about 2 to 3 (nearly constant), so fit a **quadratic** trend S = a + bt + ct², with t = -3 to 3 (1993 = 0).\n\n**Equations** from the sums: 252 = 7a + 28c, 297 = 28b, 1109 = 28a + 196c.\n\n- b = 297/28 = **10.607**\n- c = **1.202** and a = **31.19**\n\nTrend: **S = 31.19 + 10.607t + 1.202t²**. The year 2000 is t = 7: 31.19 + 74.25 + 58.92 = **164.36**.",
+      "rubric": [
+        {
+          "point": "Differences show a quadratic trend",
+          "source_ref": "be--session-9#18"
+        },
+        {
+          "point": "Equations set up with coded t",
+          "source_ref": "be--session-9#19"
+        },
+        {
+          "point": "a, b and c found",
+          "source_ref": "be--session-9#19"
+        },
+        {
+          "point": "Forecast for 2000 with t = 7",
+          "source_ref": "be--session-9#19"
+        }
+      ],
+      "marks": 5.0,
+      "difficulty": 3,
+      "style_tag": "numerical",
+      "source_refs": [
+        "be--session-9#17",
+        "be--session-9#18",
+        "be--session-9#19"
+      ],
+      "derived": [
+        "10.607",
+        "164.36",
+        "74.25",
+        "58.92"
+      ],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "explain_back": {
+    "prompt": "Explain how to fit a linear trend to sales data and how to decide whether a quadratic trend is needed.",
+    "rubric": [
+      {
+        "point": "Number the years and build the T, T² and ST columns",
+        "source_ref": "be--session-9#15"
+      },
+      {
+        "point": "Solve the two normal equations for a and b",
+        "source_ref": "be--session-9#16"
+      },
+      {
+        "point": "Use differences: constant second differences mean a quadratic trend",
+        "source_ref": "be--session-9#18"
+      },
+      {
+        "point": "Put the forecast year's t into the equation",
+        "source_ref": "be--session-9#16"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

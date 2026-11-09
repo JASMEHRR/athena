@@ -5,14 +5,14 @@
   "source": "inbox",
   "file_type": "pptx",
   "sha256": "c0bb59e146a47558cabb58143fbfa19dbcaf96e2768f67ebe96ba7e21d2df185",
-  "title": "Demand Forecasting",
+  "title": "Session 9: Demand Forecasting",
   "order": 0,
   "duplicates": [],
   "ingested_at": "2026-10-17T22:48:34+05:30",
   "slides": [
     {
       "n": 1,
-      "kind": "content",
+      "kind": "title",
       "title": "Demand Forecasting",
       "text": "Demand Forecasting\n1",
       "bullets": [
@@ -29,7 +29,7 @@
         "slides/be--session-9/img-c30f004d10e8bae3.jpg"
       ],
       "render": "slides/be--session-9/slide-001.jpg",
-      "needs_visual": true,
+      "needs_visual": false,
       "word_count": 3
     },
     {
@@ -198,7 +198,7 @@
       "tables": [],
       "notes": "",
       "charts": [],
-      "visual_text": "",
+      "visual_text": "Types of Forecasting Models. Qualitative methods: forecasts generated subjectively by the forecaster. Quantitative (statistical) methods: forecasts generated through mathematical modeling.",
       "images": [],
       "render": "slides/be--session-9/slide-006.jpg",
       "needs_visual": true,
@@ -266,7 +266,7 @@
       "tables": [],
       "notes": "",
       "charts": [],
-      "visual_text": "",
+      "visual_text": "Table titled Qualitative Methods with columns Type, Characteristics, Strengths, Weaknesses. Market research/Consumer surveys: uses surveys and interviews to identify customer preferences; good determinant of customer preferences; it can be difficult to develop a good questionnaire. Executive opinion: a group of managers meet and come up with a forecast; good for strategic or new-product forecasting; one person's opinion can dominate the forecast. Delphi method: seeks to develop a consensus among a group of experts; excellent for forecasting long-term product demand, technological; time consuming to develop.",
       "images": [
         "slides/be--session-9/img-17622b2de9d535d5.png"
       ],
@@ -348,7 +348,7 @@
       "tables": [],
       "notes": "",
       "charts": [],
-      "visual_text": "",
+      "visual_text": "Composition of Time Series Data. Data = historic pattern + random variation. Historic pattern may include level (long-term average), trend, seasonality and cycle.",
       "images": [],
       "render": "slides/be--session-9/slide-009.jpg",
       "needs_visual": true,
@@ -363,7 +363,7 @@
       "tables": [],
       "notes": "",
       "charts": [],
-      "visual_text": "",
+      "visual_text": "Four small graphs of quantity against time titled Time Series Patterns. (a) Level or horizontal pattern: data follows a horizontal pattern around the mean. (b) Trend pattern: data is progressively increasing (shown) or decreasing. (c) Seasonal pattern: data exhibits a regularly repeating pattern, shown over quarters 1 to 4 repeating. (d) Cycle: data increases or decreases over time, a slow wave over several years of quarters.",
       "images": [
         "slides/be--session-9/img-d43683e22b0af974.jpg"
       ],
@@ -397,7 +397,7 @@
       "tables": [],
       "notes": "",
       "charts": [],
-      "visual_text": "",
+      "visual_text": "Methods of Forecasting: Ordinary Least Square, Regression, Moving Average, Exponential Smoothing.",
       "images": [],
       "render": "slides/be--session-9/slide-011.jpg",
       "needs_visual": true,
@@ -429,7 +429,7 @@
       "tables": [],
       "notes": "",
       "charts": [],
-      "visual_text": "",
+      "visual_text": "Factors for Selecting a Forecasting Model: the amount and type of available data, degree of accuracy required, length of forecast horizon, presence of data patterns.",
       "images": [],
       "render": "slides/be--session-9/slide-012.jpg",
       "needs_visual": true,
@@ -437,7 +437,7 @@
     },
     {
       "n": 13,
-      "kind": "content",
+      "kind": "title",
       "title": "Quantitative Forecasting Approaches",
       "text": "Quantitative Forecasting Approaches",
       "bullets": [],
@@ -447,7 +447,7 @@
       "visual_text": "",
       "images": [],
       "render": "slides/be--session-9/slide-013.jpg",
-      "needs_visual": true,
+      "needs_visual": false,
       "word_count": 3
     },
     {
@@ -1049,7 +1049,7 @@
       "tables": [],
       "notes": "",
       "charts": [],
-      "visual_text": "",
+      "visual_text": "Table titled 5-period Moving Average. Columns: Year, Actual Sales (A), 3-year MA forecast (F), A-F, (A-F)², 5-year MA forecast (F), A-F, (A-F)². 2017 to 2019 have no forecasts. 2020: 100, 85, 15, 225. 2021: 120, 91.67, 28.33, 802.58. 2022: 110, 103.33, 6.67, 44.48, and 5-year 95, 15, 225. 2023: 130, 110, 20, 400, and 101, 29, 841. 2024: 140, 120, 20, 400, and 110, 30, 900. 2025: 150, 126.67, 23.33, 544.28, and 120, 30, 900. Sum of (At - Ft)²: 2416.367 for the 3-year MA and 2866 for the 5-year MA. Forecasts for 2026: 140 (3-year) and 130 (5-year).",
       "images": [],
       "render": "slides/be--session-9/slide-024.jpg",
       "needs_visual": true,

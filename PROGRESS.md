@@ -97,6 +97,8 @@ No exam dates, so round-robin across subjects. Validate, ground and cover each d
   - 8 topics (qtm-m6-*), 32 chunks, 86 checks, 60 cards, 12 examples. By subagent, reviewed. Slides 8, 9, 11: critical t values typed over, decision lines use the old ones (same decision); one neutral note. Slide 28 advertising regression worked with the deck's formulas (derived).
 - [x] P4 pass A: be--session-8 (46 slides, 11 visual)
   - 7 topics (be-s8-*), 29 chunks, 71 checks, 29 cards, 25 questions, 6 examples. Written 9 Nov 2026 for the BE EST on 16 Nov. Slide 36 (C(Q) = 20 + 3Q², reused as EST 2025 Q2) solved with the deck's formulas, numbers derived. Slide 44 is blank.
+- [x] P4 pass A: be--session-9 (31 slides, 14 visual)
+  - 5 topics (be-s9-*), 18 chunks, 42 checks, 20 cards, 13 questions, 5 examples. Written 9 Nov 2026 for the BE EST. Slide slips named in lessons (as in the crash course): slide 16 prints 1024.9 for 594.5 + 428 = 1022.5; slide 19 prints b = 10.067 for 297/28 = 10.607 (so 160.56 should be 164.36). Slide 31 practice (3-year MA vs smoothing with α = 0.1) worked by script: forecasts 140 and 103.21, RMSE about 20.07 and 38.21 over 2020 to 2025, numbers derived. EST 2025 Q1(a) and Q2 now link to the session 8 lessons.
 
 ## P5 Planning and nudges
 - [x] P5.1 Planner, Plan page, .ics export, Settings.

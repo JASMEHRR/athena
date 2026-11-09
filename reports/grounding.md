@@ -1,10 +1,10 @@
 # Grounding report
 
-Generated 2026-11-09 15:06. Checked 9248 items against the slides they cite.
+Generated 2026-11-09 15:11. Checked 9351 items against the slides they cite.
 
 - Failures (visible items with a name or number not on the cited slides): **0**
 - Hidden items (needs_check, not shown in the app): 0
-- Items using derived numbers (worked answers): 528
+- Items using derived numbers (worked answers): 539
 
 Whole numbers 0 to 10 are not checked (list counts).
 
@@ -133,6 +133,17 @@ None.
 - question `be-s8-cost-functions-q-23e962ca`: 30, 300, 32, 320, 60
 - check question `be-s8-production-functions-q-4cff0a23`: 23
 - check question `be-s8-productivity-q-8fe5f9e4`: 400
+- chunk `be-s9-exponential-smoothing-c3`: 0.7
+- check question `be-s9-exponential-smoothing-q-8cc0eec9`: 0.7
+- chunk `be-s9-exponential-smoothing-c4`: 103.21, 20.07, 38.21
+- question `be-s9-exponential-smoothing-q-4f91c94e`: 0.7
+- question `be-s9-exponential-smoothing-q-fdb0690b`: 103.21, 20.07, 38.21, 80.5, 81.45, 83.31, 86.97, 89.28, 93.35, 98.01
+- chunk `be-s9-trend-c1`: 1022.5, 428
+- check question `be-s9-trend-q-74405c31`: 1022.5, 428
+- chunk `be-s9-trend-c3`: 10.607, 164.36, 49
+- check question `be-s9-trend-q-4976c707`: 10.607
+- question `be-s9-trend-q-e6e36322`: 1022.5, 428
+- question `be-s9-trend-q-d667dce9`: 10.607, 164.36, 58.92, 74.25
 - chunk `far-bt-journal-and-trial-balance-c2`: 24,000
 - check question `far-bt-journal-and-trial-balance-q-dc7b899a`: 24,000, 39,000
 - chunk `far-bt-journal-and-trial-balance-c4`: 1,51,200, 2,80,850, 24,000, 30,925, 76,400, 8,225

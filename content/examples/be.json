@@ -1142,5 +1142,70 @@
     ],
     "needs_check": false,
     "retired": false
+  },
+  {
+    "id": "be-ex-housing-starts-appliances",
+    "deck_id": "be--session-9",
+    "slide": 8,
+    "label": "Housing starts and appliance sales",
+    "text": "A causal model uses a leading indicator: housing starts help predict appliance sales.",
+    "kind": "illustration",
+    "taught_in": [
+      "be-s9-forecasting-methods-c3"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "be-ex-linear-trend-1993-1997",
+    "deck_id": "be--session-9",
+    "slide": 14,
+    "label": "Linear trend on sales from 1993 to 1997",
+    "text": "Sales of 605, 715, 830, 790 and 835 (₹ Crore), used to fit a straight-line trend and forecast the year 2000.",
+    "kind": "illustration",
+    "taught_in": [
+      "be-s9-trend-c1"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "be-ex-quadratic-trend-1990-1996",
+    "deck_id": "be--session-9",
+    "slide": 17,
+    "label": "Quadratic trend on sales from 1990 to 1996",
+    "text": "Sales of 10, 15, 22, 31, 43, 57 and 74: the second differences are nearly constant, so a quadratic trend fits.",
+    "kind": "illustration",
+    "taught_in": [
+      "be-s9-trend-c2"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "be-ex-sales-2017-2025",
+    "deck_id": "be--session-9",
+    "slide": 22,
+    "label": "Annual sales from 2017 to 2025",
+    "text": "Sales of 80, 85, 90, 100, 120, 110, 130, 140 and 150, used for the 3-year and 5-year moving averages and the practice question.",
+    "kind": "illustration",
+    "taught_in": [
+      "be-s9-moving-average-c2"
+    ],
+    "needs_check": false,
+    "retired": false
+  },
+  {
+    "id": "be-ex-smoothing-alpha-03",
+    "deck_id": "be--session-9",
+    "slide": 28,
+    "label": "Exponential smoothing with α = 0.3",
+    "text": "Sales from 2020 to 2024 of 100, 120, 110, 130 and 140, used to forecast 2025 with α = 0.3.",
+    "kind": "illustration",
+    "taught_in": [
+      "be-s9-exponential-smoothing-c3"
+    ],
+    "needs_check": false,
+    "retired": false
   }
 ]

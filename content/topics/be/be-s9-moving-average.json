@@ -1,0 +1,428 @@
+{
+  "id": "be-s9-moving-average",
+  "subject_id": "be",
+  "deck_id": "be--session-9",
+  "title": "Moving averages and choosing with RMSE",
+  "order": 4,
+  "summary": "Why smooth the data, the 3-period moving average formula, the 2026 forecast, the 5-period moving average, and picking the method with the lower RMSE.",
+  "est_minutes": 30,
+  "difficulty": 2,
+  "source_refs": [
+    "be--session-9#20",
+    "be--session-9#21",
+    "be--session-9#22",
+    "be--session-9#23",
+    "be--session-9#24",
+    "be--session-9#25"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "be-s9-moving-average-c1",
+      "heading": "Why smooth the data?",
+      "explanation_md": "Historical data contain two things: an **underlying pattern** and **random fluctuations**.\n\nFitting a **trend line** captures the pattern, but it **imposes** a particular mathematical shape (linear or quadratic) on the data. If you do not want to assume a shape, you can **smooth** the data instead: a **moving average** averages the most recent observations.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "Trend lines impose a shape; moving averages smooth the data by averaging recent observations.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s9-moving-average-q-446d0985",
+          "type": "mcq",
+          "stem": "A moving average forecasts by:",
+          "options": [
+            "Averaging recent observations",
+            "Fitting a quadratic curve",
+            "Asking a panel of experts"
+          ],
+          "answer": "Averaging recent observations",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-9#20"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s9-moving-average-q-a3aa214d",
+          "type": "true_false",
+          "stem": "Fitting a trend line imposes a particular mathematical pattern on the data.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-9#20"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-9#20"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false,
+      "big_idea": "",
+      "analogy": null,
+      "visuals": [],
+      "worked": null,
+      "watch_out": [],
+      "memory_trick": "",
+      "exam_answer_md": ""
+    },
+    {
+      "id": "be-s9-moving-average-c2",
+      "heading": "The 3-period moving average",
+      "explanation_md": "The forecast for next period is the **average of a fixed number of recent periods**. For three periods:\n\n**F(t+1) = (Y(t) + Y(t-1) + Y(t-2)) / 3**\n\nIt **smooths random fluctuations**, is **easy to calculate** and uses **recent observations**.\n\n| Year | Actual sales | 3-year MA forecast |\n|---|---|---|\n| 2020 | 100 | 85 |\n| 2021 | 120 | 91.67 |\n| 2022 | 110 | 103.33 |\n| 2023 | 130 | 110 |\n| 2024 | 140 | 120 |\n| 2025 | 150 | 126.67 |\n| 2026 | | **140** |\n\nThe 2026 forecast is the average of 2023, 2024 and 2025: (130 + 140 + 150) / 3 = **140**.",
+      "example_ids": [
+        "be-ex-sales-2017-2025"
+      ],
+      "key_terms": [],
+      "exam_line": "3-year MA: F(t+1) = (Y(t) + Y(t-1) + Y(t-2)) / 3; for 2026, (130 + 140 + 150) / 3 = 140.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s9-moving-average-q-7c1e93ec",
+          "type": "mcq",
+          "stem": "Using the 3-year moving average, the forecast for 2026 is:",
+          "options": [
+            "140",
+            "150",
+            "126.67"
+          ],
+          "answer": "140",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-9#21",
+            "be--session-9#22",
+            "be--session-9#23"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s9-moving-average-q-eb7d3841",
+          "type": "mcq",
+          "stem": "The 3-year moving average forecast for 2020 uses the actual sales of:",
+          "options": [
+            "2017, 2018 and 2019",
+            "2018, 2019 and 2020",
+            "2020 only"
+          ],
+          "answer": "2017, 2018 and 2019",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-9#21",
+            "be--session-9#22",
+            "be--session-9#23"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s9-moving-average-q-33e69413",
+          "type": "true_false",
+          "stem": "One reason to use a moving average is that it smooths random fluctuations.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-9#21",
+            "be--session-9#22",
+            "be--session-9#23"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-9#21",
+        "be--session-9#22",
+        "be--session-9#23"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false,
+      "big_idea": "",
+      "analogy": null,
+      "visuals": [],
+      "worked": null,
+      "watch_out": [],
+      "memory_trick": "",
+      "exam_answer_md": ""
+    },
+    {
+      "id": "be-s9-moving-average-c3",
+      "heading": "3 or 5 periods? Compare the RMSE",
+      "explanation_md": "A **5-year moving average** averages five years instead of three; its 2026 forecast is **130**.\n\nTo choose, compute the **root mean square error** for each and pick the **lower** one:\n\n**RMSE = square root of [sum of (At - Ft)² / n]**, where n is the number of periods that have a forecast.\n\n| | Sum of (A - F)² | n | RMSE |\n|---|---|---|---|\n| 3-year MA | 2416.367 | 6 | **20.068** |\n| 5-year MA | 2866 | 4 | **26.767** |\n\nSince RMSE3 < RMSE5, the **3-year moving average** is preferred, so the 2026 forecast is **140**.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "RMSE = square root of [sum of (At - Ft)² / n]; pick the lower: 20.068 for the 3-year MA beats 26.767, so forecast 140.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s9-moving-average-q-44341832",
+          "type": "mcq",
+          "stem": "Between the 3-year and 5-year moving averages, the slides choose:",
+          "options": [
+            "The 3-year MA, because its RMSE is lower",
+            "The 5-year MA, because it uses more data",
+            "Neither, because both RMSEs are equal"
+          ],
+          "answer": "The 3-year MA, because its RMSE is lower",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-9#24",
+            "be--session-9#25"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s9-moving-average-q-f5e96e5c",
+          "type": "mcq",
+          "stem": "The RMSE of the 3-year moving average is:",
+          "options": [
+            "20.068",
+            "26.767",
+            "2416.367"
+          ],
+          "answer": "20.068",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-9#24",
+            "be--session-9#25"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s9-moving-average-q-d866be56",
+          "type": "true_false",
+          "stem": "When comparing forecasting methods, the one with the higher RMSE is preferred.",
+          "options": [],
+          "answer": "False",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-9#24",
+            "be--session-9#25"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-9#24",
+        "be--session-9#25"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false,
+      "big_idea": "",
+      "analogy": null,
+      "visuals": [],
+      "worked": null,
+      "watch_out": [],
+      "memory_trick": "",
+      "exam_answer_md": ""
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "be-s9-moving-average-f1",
+      "front": "3-period moving average",
+      "back": "F(t+1) = (Y(t) + Y(t-1) + Y(t-2)) / 3",
+      "kind": "formula",
+      "source_refs": [
+        "be--session-9#21"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s9-moving-average-f2",
+      "front": "Why use a moving average",
+      "back": "Smooths random fluctuations, easy to calculate, uses recent observations",
+      "kind": "list",
+      "source_refs": [
+        "be--session-9#21"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s9-moving-average-f3",
+      "front": "RMSE",
+      "back": "Square root of [sum of (At - Ft)² / n]; choose the method with the lower RMSE",
+      "kind": "formula",
+      "source_refs": [
+        "be--session-9#25"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s9-moving-average-f4",
+      "front": "3-year vs 5-year MA",
+      "back": "RMSE 20.068 vs 26.767, so the 3-year MA is chosen and 2026 is forecast at 140",
+      "kind": "fact",
+      "source_refs": [
+        "be--session-9#25"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [
+    {
+      "id": "be-s9-moving-average-q-ff4c7497",
+      "type": "mcq",
+      "stem": "The 5-year moving average forecast for 2026 is:",
+      "options": [
+        "130",
+        "140",
+        "120"
+      ],
+      "answer": "130",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "",
+      "source_refs": [
+        "be--session-9#24"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s9-moving-average-q-b954a562",
+      "type": "long",
+      "stem": "Annual sales for 2017 to 2025 are 80, 85, 90, 100, 120, 110, 130, 140 and 150. Find the forecast for 2026 using a 3-year moving average, and use RMSE to compare it with a 5-year moving average.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**3-year MA forecasts** (average of the previous three years): 2020: 85, 2021: 91.67, 2022: 103.33, 2023: 110, 2024: 120, 2025: 126.67, and **2026: (130 + 140 + 150) / 3 = 140**.\n\n**RMSE** = square root of [sum of (At - Ft)² / n]:\n\n| | Sum of (A - F)² | n | RMSE |\n|---|---|---|---|\n| 3-year MA | 2416.367 | 6 | 20.068 |\n| 5-year MA | 2866 | 4 | 26.767 |\n\nThe 3-year MA has the lower RMSE, so it is preferred and the forecast for 2026 is **140**.",
+      "rubric": [
+        {
+          "point": "3-year MA forecasts",
+          "source_ref": "be--session-9#23"
+        },
+        {
+          "point": "2026 forecast of 140",
+          "source_ref": "be--session-9#23"
+        },
+        {
+          "point": "RMSE for both methods",
+          "source_ref": "be--session-9#25"
+        },
+        {
+          "point": "Chooses the lower RMSE",
+          "source_ref": "be--session-9#25"
+        }
+      ],
+      "marks": 5.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "be--session-9#22",
+        "be--session-9#23",
+        "be--session-9#24",
+        "be--session-9#25"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "explain_back": {
+    "prompt": "Explain the moving average method and how RMSE is used to choose between a 3-year and a 5-year moving average.",
+    "rubric": [
+      {
+        "point": "Moving averages smooth the data without imposing a trend shape",
+        "source_ref": "be--session-9#20"
+      },
+      {
+        "point": "F(t+1) is the average of the last three periods",
+        "source_ref": "be--session-9#21"
+      },
+      {
+        "point": "RMSE formula",
+        "source_ref": "be--session-9#25"
+      },
+      {
+        "point": "Pick the lower RMSE: the 3-year MA, forecast 140",
+        "source_ref": "be--session-9#25"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

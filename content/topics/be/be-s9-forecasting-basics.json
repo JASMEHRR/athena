@@ -1,0 +1,358 @@
+{
+  "id": "be-s9-forecasting-basics",
+  "subject_id": "be",
+  "deck_id": "be--session-9",
+  "title": "What demand forecasting is and the forecasting steps",
+  "order": 1,
+  "summary": "The definition, the decisions that need forecasts, what forecasts are like, and the five forecasting steps.",
+  "est_minutes": 15,
+  "difficulty": 1,
+  "source_refs": [
+    "be--session-9#2",
+    "be--session-9#3",
+    "be--session-9#4",
+    "be--session-9#5"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "be-s9-forecasting-basics-c1",
+      "heading": "What demand forecasting is, and why firms need it",
+      "explanation_md": "**Demand forecasting** is estimating the **future demand** for a product or service using historical data, market information, and statistical or judgmental methods.\n\nFirms need forecasts to decide **which markets to pursue**, **what products to produce**, **how many people to hire**, **how many inputs to buy** and **how many units to produce**.\n\nThe slide's line to remember: the forecast is a **bridge between uncertainty about the future and today's business decisions**.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Demand forecasting",
+          "meaning": "Estimating future demand for a product or service from historical data, market information, and statistical or judgmental methods",
+          "source_ref": "be--session-9#2"
+        }
+      ],
+      "exam_line": "A forecast is the bridge between uncertainty about the future and today's business decisions.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s9-forecasting-basics-q-cd5dd8c9",
+          "type": "mcq",
+          "stem": "Which decision needs a demand forecast, according to the slides?",
+          "options": [
+            "How many units to produce",
+            "Which accounting standard to follow",
+            "Who sits on the board"
+          ],
+          "answer": "How many units to produce",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-9#2",
+            "be--session-9#3"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s9-forecasting-basics-q-90cd73a8",
+          "type": "true_false",
+          "stem": "Demand forecasting can use historical data, market information, and statistical or judgmental methods.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-9#2",
+            "be--session-9#3"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-9#2",
+        "be--session-9#3"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false,
+      "big_idea": "",
+      "analogy": null,
+      "visuals": [],
+      "worked": null,
+      "watch_out": [],
+      "memory_trick": "",
+      "exam_answer_md": ""
+    },
+    {
+      "id": "be-s9-forecasting-basics-c2",
+      "heading": "What forecasts are like",
+      "explanation_md": "- Forecasts are **rarely perfect**. The real question is whether they are **accurate enough to make better decisions**.\n- Forecasts are **more accurate for aggregated data** (a whole product group) than for individual items.\n- Forecasts are **more accurate for shorter** time periods than for longer ones.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "Forecasts are rarely perfect, more accurate for aggregated data and for shorter periods.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s9-forecasting-basics-q-2fa89558",
+          "type": "mcq",
+          "stem": "Forecasts tend to be more accurate for:",
+          "options": [
+            "Shorter time periods",
+            "Longer time periods",
+            "Individual items rather than groups"
+          ],
+          "answer": "Shorter time periods",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-9#4"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s9-forecasting-basics-q-f0d36fad",
+          "type": "true_false",
+          "stem": "Forecasts are more accurate for individual items than for aggregated data.",
+          "options": [],
+          "answer": "False",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-9#4"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-9#4"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false,
+      "big_idea": "",
+      "analogy": null,
+      "visuals": [],
+      "worked": null,
+      "watch_out": [],
+      "memory_trick": "",
+      "exam_answer_md": ""
+    },
+    {
+      "id": "be-s9-forecasting-basics-c3",
+      "heading": "The forecasting steps",
+      "explanation_md": "1. **What needs to be forecast?** Decide the level of detail, units of analysis and time horizon.\n2. **What data is available?** Identify the data needed and whether you have it.\n3. **Select and test the forecasting model**, judging cost, ease of use and accuracy.\n4. **Generate the forecast.**\n5. **Monitor forecast accuracy over time.**",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "Decide what to forecast, check the data, select and test a model, generate the forecast, monitor accuracy.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s9-forecasting-basics-q-0cda3a8f",
+          "type": "mcq",
+          "stem": "Which is the last forecasting step on the slides?",
+          "options": [
+            "Monitor forecast accuracy over time",
+            "Generate the forecast",
+            "Identify the data needed"
+          ],
+          "answer": "Monitor forecast accuracy over time",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-9#5"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s9-forecasting-basics-q-5f6bf556",
+          "type": "mcq",
+          "stem": "When selecting and testing a forecasting model, the slides say to weigh:",
+          "options": [
+            "Cost, ease of use and accuracy",
+            "Only the cheapest model",
+            "Only the most complex model"
+          ],
+          "answer": "Cost, ease of use and accuracy",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-9#5"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-9#5"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false,
+      "big_idea": "",
+      "analogy": null,
+      "visuals": [],
+      "worked": null,
+      "watch_out": [],
+      "memory_trick": "",
+      "exam_answer_md": ""
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "be-s9-forecasting-basics-f1",
+      "front": "Demand forecasting",
+      "back": "Estimating future demand using historical data, market information, and statistical or judgmental methods",
+      "kind": "term",
+      "source_refs": [
+        "be--session-9#2"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s9-forecasting-basics-f2",
+      "front": "Characteristics of forecasts",
+      "back": "Rarely perfect; more accurate for aggregated data; more accurate for shorter periods",
+      "kind": "list",
+      "source_refs": [
+        "be--session-9#4"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s9-forecasting-basics-f3",
+      "front": "Forecasting steps",
+      "back": "What to forecast; what data is available; select and test the model; generate the forecast; monitor accuracy",
+      "kind": "list",
+      "source_refs": [
+        "be--session-9#5"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [
+    {
+      "id": "be-s9-forecasting-basics-q-88bc9a71",
+      "type": "mcq",
+      "stem": "The slides describe a forecast as a bridge between:",
+      "options": [
+        "Uncertainty about the future and today's business decisions",
+        "Costs and revenues",
+        "Supply and demand"
+      ],
+      "answer": "Uncertainty about the future and today's business decisions",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "",
+      "source_refs": [
+        "be--session-9#3"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s9-forecasting-basics-q-8a8c67f7",
+      "type": "short",
+      "stem": "Explain the steps in demand forecasting.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "1. **What needs to be forecast:** the level of detail, units of analysis and time horizon.\n2. **What data is available:** identify the data needed and whether it exists.\n3. **Select and test the model:** weigh cost, ease of use and accuracy.\n4. **Generate the forecast.**\n5. **Monitor accuracy over time**, since forecasts are rarely perfect.",
+      "rubric": [
+        {
+          "point": "What to forecast and the data needed",
+          "source_ref": "be--session-9#5"
+        },
+        {
+          "point": "Select and test the model on cost, ease of use and accuracy",
+          "source_ref": "be--session-9#5"
+        },
+        {
+          "point": "Generate and monitor accuracy",
+          "source_ref": "be--session-9#5"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 1,
+      "style_tag": "explain",
+      "source_refs": [
+        "be--session-9#5"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "explain_back": {
+    "prompt": "Explain what demand forecasting is, why firms need it, and the steps in making a forecast.",
+    "rubric": [
+      {
+        "point": "Definition of demand forecasting",
+        "source_ref": "be--session-9#2"
+      },
+      {
+        "point": "Decisions that need forecasts",
+        "source_ref": "be--session-9#3"
+      },
+      {
+        "point": "Forecasts are rarely perfect; better for aggregated data and short periods",
+        "source_ref": "be--session-9#4"
+      },
+      {
+        "point": "The forecasting steps",
+        "source_ref": "be--session-9#5"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}
