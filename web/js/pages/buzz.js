@@ -2,6 +2,8 @@
 // Runs full screen over the shell. Everything after opening is driven by the Buzz buzzers:
 // the show moves on by itself, and any red buzzer skips ahead. Party answers never touch
 // study progress; only a game history row is saved at the end.
+// Look and feel follow Ascend (glass, cyan accent, mono labels); the host is an original
+// particle orb and all sound is synthesised, so nothing is borrowed from any real show.
 
 import { api, qs } from "../api.js";
 import { escapeHtml as esc, toast } from "../ui.js";
@@ -14,35 +16,41 @@ const BUTTONS = ["red", "blue", "orange", "green", "yellow"];
 const COLORS = ["blue", "orange", "green", "yellow"]; // answer buttons, top to bottom on a handset
 // The receiver reports 20 buttons, 5 per handset, in HID order red, yellow, green, orange, blue.
 const DEFAULT_LAYOUT = { stride: 5, red: 0, yellow: 1, green: 2, orange: 3, blue: 4 };
-const PLAYER_COLORS = ["#ff5fa2", "#38d9f5", "#a3e635", "#b18cff"];
+const PLAYER_COLORS = ["#22d3ee", "#f17a11", "#a78bfa", "#facc15"];
 const SKIN = ["#f1c27d", "#c68642", "#e0ac69", "#8d5524"];
 const LENGTHS = {
   short: { label: "Short", ff: 3, buzz: 6, snatch: 3, potatoes: 1, final: 3 },
   normal: { label: "Normal", ff: 5, buzz: 10, snatch: 5, potatoes: 2, final: 5 },
   long: { label: "Long", ff: 8, buzz: 16, snatch: 8, potatoes: 3, final: 8 },
 };
-const FOCI = [["all", "All topics"], ["pyq", "Past-paper topics"], ["exam", "Exam syllabus"]];
+const FOCI = [["all", "All topics"], ["pyq", "Past papers"], ["exam", "Exam syllabus"]];
 const ANSWER_TIMES = [5, 10, 15];
 const BUZZ_WINDOWS = [1, 2, 3];
 const POINTS = { base: 500, speed: 500, buzz: 500, penalty: 250, snatch: 300, pass: 100, boom: 500, ko: 500 };
 const DAMAGE = { wrong: 20, boom: 50 };
 const GUARD_MS = 1200; // a frantic buzz cannot skip the next screen by accident
+const RED_GRACE_MS = 700; // red is ignored this long after a question appears
 const MIN_SUBJECT_QUESTIONS = 8;
 const CAL_STEPS = [[0, "red"], [0, "blue"], [0, "orange"], [0, "green"], [0, "yellow"], [1, "red"]];
+const CIRC = 2 * Math.PI * 42; // timer ring circumference (r = 42 in a 100 box)
+// Text sizes step down with length so long slide wording still fits its panel.
+const sizeClass = (text, m, l, xl) => (text.length > xl ? "xl" : text.length > l ? "l" : text.length > m ? "m" : "");
 
 const LINES = {
-  hello: ["Welcome to the Buzz quiz! I'm Bolt. Press your red buzzers to join.", "Hello, hello! Bolt here. Red buzzers to join, green to start."],
-  join: ["{name} is in!", "{name} has entered the building.", "Here comes {name}. Act natural.", "{name}, ready to lose gracefully?"],
+  hello: ["Welcome to the Buzz quiz! I'm Bolt. Press your red buzzers to join.", "Hello, hello! Bolt here. Red buzzers to join, green to start the show."],
+  join: ["{name} is in!", "{name} has entered the studio.", "Here comes {name}. Act natural.", "{name}, ready to lose gracefully?"],
   needPlayers: ["Somebody press a red buzzer first!"],
   pick: ["{subject}! Good choice.", "{subject}. Let's see what you remember.", "Ooh, {subject}."],
   intro_fastest: ["Fastest Finger! Everyone answers. The quicker you are, the more you score.", "Round one, Fastest Finger. Speed is everything."],
-  intro_buzz: ["Buzz In! Slam red first, then answer in {secs} seconds. Wrong answers hurt.", "Buzz In time. Fast fingers, brave hearts, questionable choices."],
+  intro_buzz: ["Buzz In! Slam red first, then you have {secs} seconds. Wrong answers hurt.", "Buzz In time. Fast fingers, brave hearts, questionable choices."],
   intro_snatch: ["Snatch! The fastest right answer steals {pts} points from the leader.", "Snatch round. Be quick and rob the leader blind."],
   intro_potato: ["Hot Potato! Only the holder answers. Right answer, pass it on. Don't be holding it when it blows!", "Hot Potato. Nobody knows when it goes off. Not even me."],
   intro_final: ["The final! Double points. Wrong answers cost you. Use your doubles wisely.", "Final round. Everything counts double. Good luck, you'll need it."],
+  lockedIn: ["Answers are locked. Let's see...", "Everyone's in. The answer is...", "Locked. Drumroll please..."],
   right: ["Correct!", "Nailed it!", "Look at that brain go!", "Somebody actually studied!", "Beautiful."],
   nobody: ["Ouch. Nobody got that one.", "Silence. Beautiful, terrible silence.", "Not one of you. Wow.", "I'm not angry. Just disappointed."],
   buzzed: ["{name}!", "{name} buzzes in!", "Go on, {name}!"],
+  finalAnswer: ["Is that your final answer?", "Bold choice...", "Let's see..."],
   buzzWrong: ["Nope!", "Swing and a miss, {name}.", "That's a no from me."],
   double: ["{name} doubles up! Brave.", "Double or nothing, {name}!"],
   snatch: ["{name} snatches {pts} points from {victim}! Daylight robbery!", "Thief! {name} grabs {pts} from {victim}!"],
@@ -57,44 +65,174 @@ const LINES = {
   pyq: ["Fun fact: this topic was in your {exam} {year} paper."],
 };
 
-// ------------------------------------------------------------------ art (original characters)
-
-const HOST_SVG = `<svg viewBox="0 0 120 130" aria-hidden="true">
-  <line x1="60" y1="20" x2="60" y2="8" stroke="#ffd21f" stroke-width="4"/>
-  <circle class="bz-bulb" cx="60" cy="7" r="6"/>
-  <rect x="16" y="20" width="88" height="76" rx="30" fill="#ffd21f"/>
-  <rect x="25" y="31" width="70" height="46" rx="20" fill="#14183c"/>
-  <g class="bz-eyes"><ellipse cx="46" cy="48" rx="7" ry="9" fill="#7df9ff"/><ellipse cx="74" cy="48" rx="7" ry="9" fill="#7df9ff"/></g>
-  <ellipse class="bz-mouth" cx="60" cy="64" rx="11" ry="2.6" fill="#7df9ff"/>
-  <circle cx="18" cy="58" r="6" fill="#e0b400"/><circle cx="102" cy="58" r="6" fill="#e0b400"/>
-  <rect x="50" y="96" width="20" height="9" fill="#c9a400"/>
-  <path d="M42 105 L60 114 L42 123 Z M78 105 L60 114 L78 123 Z" fill="#ff2e4d"/><circle cx="60" cy="114" r="5" fill="#ff2e4d"/>
-</svg>`;
+// ------------------------------------------------------------------ contestants (original cartoon faces)
 
 const HAIR = [
   '<path d="M14 36 Q14 8 40 8 Q66 8 66 36 Q58 20 40 21 Q22 20 14 36Z" fill="#3b2a1a"/>',
   '<path d="M12 44 Q9 6 40 6 Q71 6 68 44 L66 64 Q62 30 40 23 Q18 30 14 64Z" fill="#1c1c1c"/>',
   '<circle cx="40" cy="11" r="11" fill="#5a3a22"/><path d="M14 36 Q15 13 40 15 Q65 13 66 36 Q56 22 40 23 Q24 22 14 36Z" fill="#5a3a22"/>',
-  '<path d="M14 32 L20 10 L28 22 L36 5 L44 22 L52 8 L58 22 L66 32 Q60 19 40 19 Q20 19 14 32Z" fill="#c0392b"/>',
+  '<path d="M14 32 L20 10 L28 22 L36 5 L44 22 L52 8 L58 22 L66 32 Q60 19 40 19 Q20 19 14 32Z" fill="#b45309"/>',
 ];
 
 function avatar(i, mood) {
   const eyes = {
-    idle: '<circle cx="31" cy="42" r="3.4" fill="#222"/><circle cx="49" cy="42" r="3.4" fill="#222"/>',
-    happy: '<path d="M26 43 Q31 37 36 43 M44 43 Q49 37 54 43" stroke="#222" stroke-width="3" fill="none" stroke-linecap="round"/>',
-    sad: '<circle cx="31" cy="44" r="3.2" fill="#222"/><circle cx="49" cy="44" r="3.2" fill="#222"/><path d="M25 37 L35 40 M55 37 L45 40" stroke="#222" stroke-width="2.5" stroke-linecap="round"/>',
-    ko: '<path d="M27 38 L35 46 M35 38 L27 46 M45 38 L53 46 M53 38 L45 46" stroke="#222" stroke-width="3" stroke-linecap="round"/>',
-    think: '<circle cx="32" cy="40" r="3.4" fill="#222"/><circle cx="50" cy="40" r="3.4" fill="#222"/>',
+    idle: '<circle cx="31" cy="42" r="3.4" fill="#111"/><circle cx="49" cy="42" r="3.4" fill="#111"/>',
+    happy: '<path d="M26 43 Q31 37 36 43 M44 43 Q49 37 54 43" stroke="#111" stroke-width="3" fill="none" stroke-linecap="round"/>',
+    sad: '<circle cx="31" cy="44" r="3.2" fill="#111"/><circle cx="49" cy="44" r="3.2" fill="#111"/><path d="M25 37 L35 40 M55 37 L45 40" stroke="#111" stroke-width="2.5" stroke-linecap="round"/>',
+    ko: '<path d="M27 38 L35 46 M35 38 L27 46 M45 38 L53 46 M53 38 L45 46" stroke="#111" stroke-width="3" stroke-linecap="round"/>',
+    think: '<circle cx="32" cy="40" r="3.4" fill="#111"/><circle cx="50" cy="40" r="3.4" fill="#111"/>',
   }[mood];
   const mouth = {
-    idle: '<path d="M33 56 L47 56" stroke="#222" stroke-width="3" stroke-linecap="round"/>',
+    idle: '<path d="M33 56 L47 56" stroke="#111" stroke-width="3" stroke-linecap="round"/>',
     happy: '<path d="M28 52 Q40 66 52 52 Z" fill="#7a1f1f"/>',
-    sad: '<path d="M31 60 Q40 52 49 60" stroke="#222" stroke-width="3" fill="none" stroke-linecap="round"/>',
-    ko: '<path d="M30 58 Q34 54 38 58 T46 58 T52 57" stroke="#222" stroke-width="2.5" fill="none" stroke-linecap="round"/>',
+    sad: '<path d="M31 60 Q40 52 49 60" stroke="#111" stroke-width="3" fill="none" stroke-linecap="round"/>',
+    ko: '<path d="M30 58 Q34 54 38 58 T46 58 T52 57" stroke="#111" stroke-width="2.5" fill="none" stroke-linecap="round"/>',
     think: '<ellipse cx="44" cy="57" rx="4" ry="5" fill="#7a1f1f"/>',
   }[mood];
-  return `<svg viewBox="0 0 80 80" aria-hidden="true"><circle cx="40" cy="44" r="27" fill="${SKIN[i]}"/>${HAIR[i]}${eyes}${mouth}
-    <path d="M16 80 Q18 68 40 68 Q62 68 64 80Z" fill="${PLAYER_COLORS[i]}"/></svg>`;
+  return `<svg viewBox="0 0 80 80" aria-hidden="true"><circle cx="40" cy="46" r="26" fill="${SKIN[i]}"/>${HAIR[i]}${eyes}${mouth}
+    <path d="M14 80 Q16 70 40 70 Q64 70 66 80Z" fill="${PLAYER_COLORS[i]}"/></svg>`;
+}
+
+// ------------------------------------------------------------------ the host: a particle orb
+
+const ORB_STATES = {
+  idle: { tint: [34, 211, 238], spin: 0.25, glow: 0.45, jitter: 0, link: 0.22 },
+  speaking: { tint: [103, 232, 249], spin: 0.5, glow: 0.95, jitter: 0.015, link: 0.4 },
+  thinking: { tint: [139, 92, 246], spin: 0.95, glow: 0.7, jitter: 0.03, link: 0.34 },
+  win: { tint: [250, 204, 21], spin: 1.3, glow: 1, jitter: 0.02, link: 0.5 },
+  alarm: { tint: [244, 63, 94], spin: 1.6, glow: 1, jitter: 0.07, link: 0.45 },
+};
+
+function makeOrb(canvas) {
+  const N = 110;
+  const golden = Math.PI * (3 - Math.sqrt(5));
+  const pts = [];
+  for (let i = 0; i < N; i++) {
+    const y = 1 - (i / (N - 1)) * 2;
+    const r = Math.sqrt(1 - y * y);
+    pts.push([Math.cos(golden * i) * r, y, Math.sin(golden * i) * r]);
+  }
+  const links = [];
+  for (let i = 0; i < N; i++) for (let j = i + 1; j < N; j++) {
+    const d = (pts[i][0] - pts[j][0]) ** 2 + (pts[i][1] - pts[j][1]) ** 2 + (pts[i][2] - pts[j][2]) ** 2;
+    if (d < 0.11) links.push([i, j]);
+  }
+  const ctx = canvas.getContext("2d");
+  const reduced = window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const cur = { ...ORB_STATES.idle, tint: [...ORB_STATES.idle.tint] };
+  let target = "idle";
+  let angle = 0;
+  let last = performance.now();
+  return {
+    set(state) { if (ORB_STATES[state]) target = state; },
+    draw(t) {
+      const dt = Math.min(0.1, (t - last) / 1000);
+      last = t;
+      const want = ORB_STATES[target];
+      const k = 1 - Math.exp(-dt * 5); // smooth blend between moods
+      for (const key of ["spin", "glow", "jitter", "link"]) cur[key] += (want[key] - cur[key]) * k;
+      for (let c = 0; c < 3; c++) cur.tint[c] += (want.tint[c] - cur.tint[c]) * k;
+      const dpr = window.devicePixelRatio || 1;
+      const size = canvas.clientWidth * dpr;
+      if (!size) return;
+      if (canvas.width !== size) { canvas.width = size; canvas.height = size; }
+      angle += (reduced ? 0.15 : cur.spin) * dt;
+      const pulse = target === "speaking" ? 1 + 0.06 * Math.sin(t * 0.018) + 0.035 * Math.sin(t * 0.041)
+        : 1 + 0.025 * Math.sin(t * 0.0016);
+      const R = size * 0.33 * (reduced ? 1 : pulse);
+      const cx = size / 2;
+      const [r, g, b] = cur.tint.map(Math.round);
+      ctx.clearRect(0, 0, size, size);
+      const halo = ctx.createRadialGradient(cx, cx, R * 0.1, cx, cx, R * 1.5);
+      halo.addColorStop(0, `rgba(${r},${g},${b},${0.35 * cur.glow})`);
+      halo.addColorStop(1, `rgba(${r},${g},${b},0)`);
+      ctx.fillStyle = halo;
+      ctx.fillRect(0, 0, size, size);
+      const ca = Math.cos(angle);
+      const sa = Math.sin(angle);
+      const tilt = 0.38;
+      const ct = Math.cos(tilt);
+      const st = Math.sin(tilt);
+      const jit = reduced ? 0 : cur.jitter;
+      const proj = pts.map(([x, y, z], i) => {
+        const jx = jit ? Math.sin(t * 0.013 + i) * jit : 0;
+        const x1 = (x + jx) * ca - z * sa;
+        const z1 = (x + jx) * sa + z * ca;
+        const y1 = y * ct - z1 * st;
+        const z2 = y * st + z1 * ct;
+        const s = 1 / (1.9 - z2 * 0.6);
+        return [cx + x1 * R * s * 1.4, cx + y1 * R * s * 1.4, z2];
+      });
+      ctx.lineWidth = Math.max(1, dpr * 0.8);
+      for (const [i, j] of links) {
+        const depth = (proj[i][2] + proj[j][2] + 2) / 4;
+        ctx.strokeStyle = `rgba(${r},${g},${b},${(cur.link * depth).toFixed(3)})`;
+        ctx.beginPath();
+        ctx.moveTo(proj[i][0], proj[i][1]);
+        ctx.lineTo(proj[j][0], proj[j][1]);
+        ctx.stroke();
+      }
+      for (const [x, y, z] of proj) {
+        const depth = (z + 1) / 2;
+        ctx.fillStyle = `rgba(${Math.min(255, r + 60)},${Math.min(255, g + 40)},${Math.min(255, b + 20)},${0.35 + 0.65 * depth})`;
+        ctx.beginPath();
+        ctx.arc(x, y, (1 + depth * 2.2) * dpr, 0, Math.PI * 2);
+        ctx.fill();
+      }
+      const core = ctx.createRadialGradient(cx, cx, 0, cx, cx, R * 0.45);
+      core.addColorStop(0, `rgba(255,255,255,${0.5 * cur.glow})`);
+      core.addColorStop(1, `rgba(${r},${g},${b},0)`);
+      ctx.fillStyle = core;
+      ctx.beginPath();
+      ctx.arc(cx, cx, R * 0.45, 0, Math.PI * 2);
+      ctx.fill();
+    },
+  };
+}
+
+// ------------------------------------------------------------------ the world: a starfield that warps between rounds
+
+function makeStars(canvas) {
+  const ctx = canvas.getContext("2d");
+  const reduced = window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const stars = Array.from({ length: 220 }, () => ({ x: Math.random() * 2 - 1, y: Math.random() * 2 - 1, z: Math.random() }));
+  let speed = 0.05;
+  let target = 0.05;
+  let last = performance.now();
+  return {
+    warp(on) { target = on ? 1.1 : 0.05; },
+    draw(t) {
+      const dt = Math.min(0.1, (t - last) / 1000);
+      last = t;
+      speed += (target - speed) * (1 - Math.exp(-dt * 3));
+      const dpr = Math.min(2, window.devicePixelRatio || 1);
+      const w = canvas.clientWidth * dpr;
+      const h = canvas.clientHeight * dpr;
+      if (!w || !h) return;
+      if (canvas.width !== w || canvas.height !== h) { canvas.width = w; canvas.height = h; }
+      ctx.clearRect(0, 0, w, h);
+      const cx = w / 2;
+      const cy = h * 0.46;
+      const v = reduced ? 0.01 : speed;
+      for (const s of stars) {
+        const pz = s.z;
+        s.z -= v * dt;
+        if (s.z <= 0.02) { s.x = Math.random() * 2 - 1; s.y = Math.random() * 2 - 1; s.z = 1; continue; }
+        const x = cx + (s.x / s.z) * cx * 0.6;
+        const y = cy + (s.y / s.z) * cy * 0.6;
+        if (x < 0 || x > w || y < 0 || y > h) { s.z = 0; continue; }
+        const px = cx + (s.x / pz) * cx * 0.6;
+        const py = cy + (s.y / pz) * cy * 0.6;
+        const a = Math.min(1, (1 - s.z) * 1.4);
+        ctx.strokeStyle = `rgba(${s.y > 0 ? "103,232,249" : "232,190,255"},${a.toFixed(3)})`;
+        ctx.lineWidth = (1 - s.z) * 2.2 * dpr;
+        ctx.beginPath();
+        ctx.moveTo(px, py);
+        ctx.lineTo(x + (x === px ? 0.5 : 0), y);
+        ctx.stroke();
+      }
+    },
+  };
 }
 
 // ------------------------------------------------------------------ state and storage
@@ -112,6 +250,7 @@ function loadPrefs() {
     answerTime: ANSWER_TIMES.includes(p.answerTime) ? p.answerTime : 10,
     buzzWindow: BUZZ_WINDOWS.includes(p.buzzWindow) ? p.buzzWindow : 2,
     voice: typeof p.voice === "boolean" ? p.voice : true,
+    music: typeof p.music === "boolean" ? p.music : true,
     prize: typeof p.prize === "string" ? p.prize.slice(0, 80) : "Bragging rights",
     focus: FOCI.some(([k]) => k === p.focus) ? p.focus : "all",
     subject: typeof p.subject === "string" ? p.subject : "",
@@ -125,7 +264,7 @@ function savePrefs() {
   try {
     localStorage.setItem("athena-buzz", JSON.stringify({
       names: S.players.map((p) => p.name), length: S.length, answerTime: S.answerTime, buzzWindow: S.buzzWindow,
-      voice: S.voice, prize: S.prize, focus: S.focus, subject: subject ? subject.id : "", layout: S.layout,
+      voice: S.voice, music: S.music, prize: S.prize, focus: S.focus, subject: subject ? subject.id : "", layout: S.layout,
     }));
   } catch { /* private mode: settings just reset next time */ }
 }
@@ -137,15 +276,18 @@ function buildLookup(L) {
 }
 
 const now = () => performance.now();
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const pick = (arr) => arr[Math.floor(Math.random() * arr.length)];
 const shuffle = (arr) => { const a = [...arr]; for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
 const joined = () => S.players.map((p, i) => (p.joined ? i : -1)).filter((i) => i >= 0);
 const fill = (text, vars = {}) => text.replace(/\{(\w+)\}/g, (_, k) => String(vars[k] ?? ""));
 const fmtDate = (iso) => { try { return new Date(iso).toLocaleDateString(undefined, { day: "numeric", month: "short" }); } catch { return iso; } };
+const fmtNum = (n) => Number(n).toLocaleString("en-IN");
 
-// ------------------------------------------------------------------ sound
+// ------------------------------------------------------------------ sound (all synthesised)
 
 let actx = null;
+let noiseBuf = null;
 function audio() {
   const Ctx = window.AudioContext || window.webkitAudioContext;
   if (!Ctx) return null;
@@ -169,6 +311,34 @@ function tone(freq, dur = 0.15, type = "square", vol = 0.08, delay = 0, slideTo 
   o.start(t);
   o.stop(t + dur + 0.05);
 }
+// A short burst of filtered noise: claps, snare hits, whooshes.
+function hiss(dur, { freq = 1800, q = 0.8, vol = 0.12, delay = 0, sweepTo = null, attack = 0.005 } = {}) {
+  const ctx = audio();
+  if (!ctx) return;
+  if (!noiseBuf) {
+    noiseBuf = ctx.createBuffer(1, ctx.sampleRate, ctx.sampleRate);
+    const d = noiseBuf.getChannelData(0);
+    for (let i = 0; i < d.length; i++) d[i] = Math.random() * 2 - 1;
+  }
+  const t = ctx.currentTime + delay;
+  const src = ctx.createBufferSource();
+  src.buffer = noiseBuf;
+  src.loop = true;
+  const f = ctx.createBiquadFilter();
+  f.type = "bandpass";
+  f.frequency.setValueAtTime(freq, t);
+  if (sweepTo) f.frequency.exponentialRampToValueAtTime(sweepTo, t + dur);
+  f.Q.value = q;
+  const g = ctx.createGain();
+  g.gain.setValueAtTime(0.0001, t);
+  g.gain.exponentialRampToValueAtTime(vol, t + attack);
+  g.gain.exponentialRampToValueAtTime(0.0001, t + dur);
+  src.connect(f);
+  f.connect(g);
+  g.connect(ctx.destination);
+  src.start(t, Math.random() * 0.5);
+  src.stop(t + dur + 0.05);
+}
 const SFX = {
   join: (i) => { tone(440 + i * 110, 0.12, "triangle", 0.1); tone(660 + i * 165, 0.15, "triangle", 0.1, 0.1); },
   move: () => tone(900, 0.04, "square", 0.04),
@@ -176,12 +346,44 @@ const SFX = {
   lock: () => tone(1200, 0.06, "square", 0.05),
   double: () => [600, 800, 1200].forEach((f, k) => tone(f, 0.08, "square", 0.06, k * 0.06)),
   right: () => [523, 659, 784, 1047].forEach((f, k) => tone(f, 0.18, "triangle", 0.1, k * 0.09)),
-  wrong: () => tone(220, 0.35, "sawtooth", 0.1, 0, 110),
+  wrong: () => { tone(196, 0.5, "sawtooth", 0.11, 0, 98); tone(185, 0.5, "square", 0.05, 0.02, 92); },
   tick: () => tone(880, 0.05, "sine", 0.06),
-  boom: () => { tone(140, 0.9, "sawtooth", 0.22, 0, 35); tone(90, 1.1, "square", 0.16, 0.04, 30); tone(60, 1.2, "triangle", 0.2, 0.08, 25); },
+  whoosh: () => hiss(0.45, { freq: 300, sweepTo: 4000, q: 0.6, vol: 0.1, attack: 0.15 }),
+  drumroll: (secs = 1.1) => {
+    const hits = Math.floor(secs / 0.045);
+    for (let i = 0; i < hits; i++) hiss(0.06, { freq: 2600, q: 0.9, vol: 0.03 + (0.09 * i) / hits, delay: i * 0.045 });
+    hiss(0.35, { freq: 1800, q: 0.6, vol: 0.22, delay: secs });
+    tone(70, 0.4, "sine", 0.25, secs, 45);
+  },
+  applause: (secs = 2.4, big = false) => {
+    const claps = Math.floor(secs * (big ? 70 : 45));
+    for (let i = 0; i < claps; i++) {
+      const at = Math.random() * secs;
+      const fade = 1 - at / (secs * 1.15);
+      hiss(0.05 + Math.random() * 0.04, { freq: 900 + Math.random() * 1800, q: 1.2, vol: (0.03 + Math.random() * 0.05) * fade, delay: at });
+    }
+    hiss(secs, { freq: 1500, q: 0.4, vol: 0.05, attack: 0.25 });
+  },
+  boom: () => { hiss(1.4, { freq: 180, sweepTo: 60, q: 0.5, vol: 0.5, attack: 0.01 }); tone(80, 1.2, "sine", 0.4, 0, 30); },
   ko: () => [400, 300, 200, 120].forEach((f, k) => tone(f, 0.18, "square", 0.08, k * 0.12)),
-  fanfare: () => [523, 659, 784, 1047, 784, 1047].forEach((f, k) => tone(f, 0.25, "triangle", 0.1, k * 0.14)),
+  fanfare: () => [523, 659, 784, 1047, 784, 1047, 1319].forEach((f, k) => tone(f, 0.28, "triangle", 0.11, k * 0.14)),
 };
+
+// A quiet suspense bed while a question is open: a low pulse and soft ticks.
+function musicStart(fast = false) {
+  musicStop();
+  if (!S || !S.music) return;
+  const beat = fast ? 0.28 : 0.42;
+  let n = 0;
+  S.musicTimer = setInterval(() => {
+    const low = n % 4 === 0;
+    tone(low ? 55 : 62, beat * 0.9, "sine", low ? 0.16 : 0.09);
+    if (n % 2 === 1) hiss(0.04, { freq: 7000, q: 1, vol: 0.02 });
+    if (n % 8 === 6) tone(110, beat * 0.6, "triangle", 0.05);
+    n += 1;
+  }, beat * 1000);
+}
+function musicStop() { if (S && S.musicTimer) { clearInterval(S.musicTimer); S.musicTimer = null; } }
 
 // ------------------------------------------------------------------ host voice
 
@@ -192,33 +394,28 @@ function chooseVoice() {
   hostVoice = voices.find((v) => /^en-IN/i.test(v.lang)) || voices.find((v) => /^en-GB/i.test(v.lang)) || voices.find((v) => /^en/i.test(v.lang)) || null;
 }
 
-function setTalking(on) {
-  const h = S && S.dom.host;
-  if (h) h.classList.toggle("talking", on);
-}
-
 // The host says a line: it shows in the speech bubble and, with the voice on, is spoken.
 function say(text, { bubble = true } = {}) {
   if (!S || !text) return;
-  if (bubble) S.dom.bubble.textContent = text;
-  const quietUntil = now() + Math.min(4500, 700 + text.length * 45);
-  if (!S.voice || !("speechSynthesis" in window)) {
-    S.speakingUntil = quietUntil;
-    setTalking(true);
-    return;
+  if (bubble) {
+    S.dom.say.textContent = text;
+    S.dom.bubble.classList.remove("pop");
+    void S.dom.bubble.offsetWidth; // restart the pop animation
+    S.dom.bubble.classList.add("pop");
   }
+  const quietUntil = now() + Math.min(4500, 700 + text.length * 45);
+  if (!S.voice || !("speechSynthesis" in window)) { S.speakingUntil = quietUntil; return; }
   try {
     speechSynthesis.cancel(); // the newest line always wins, so the host never lags behind the game
     const u = new SpeechSynthesisUtterance(text);
     if (hostVoice) u.voice = hostVoice;
     u.rate = 1.08;
     u.pitch = 1.1;
-    const done = () => { if (S && S.utter === u) { S.utter = null; S.speakingUntil = 0; setTalking(false); } };
+    const done = () => { if (S && S.utter === u) { S.utter = null; S.speakingUntil = 0; } };
     u.onend = done;
     u.onerror = done;
     S.utter = u;
     S.speakingUntil = now() + 15000; // safety net if the browser never reports the end
-    setTalking(true);
     speechSynthesis.speak(u);
   } catch (err) {
     console.warn("Host voice failed", err);
@@ -228,6 +425,31 @@ function say(text, { bubble = true } = {}) {
 const line = (kind, vars, extra = "") => say(fill(pick(LINES[kind]), vars) + (extra ? " " + extra : ""));
 const speaking = () => S && now() < S.speakingUntil;
 function shutUp() { if ("speechSynthesis" in window) speechSynthesis.cancel(); }
+
+// ------------------------------------------------------------------ stage effects
+
+function orbFlash(state, ms = 1800) { S.orbFlash = { state, until: now() + ms }; }
+function orbMood() {
+  if (S.orbFlash && now() < S.orbFlash.until) return S.orbFlash.state;
+  if (S.phase === "final") return "win";
+  if (speaking()) return "speaking";
+  if (["question", "revealing", "potato", "potatoJudging", "countdown"].includes(S.phase)) return "thinking";
+  return "idle";
+}
+// The HUD line along the top pulses with the show: chase (building up), win, lose, hold (suspense).
+function marquee(mode, ms = 0) {
+  S.dom.marquee.className = "bz-hudline" + (mode ? " " + mode : "");
+  clearTimeout(S.marqueeTimer);
+  if (ms) S.marqueeTimer = setTimeout(() => { if (S) S.dom.marquee.className = "bz-hudline"; }, ms);
+}
+function dim(on) { S.dom.stage.classList.toggle("dim", on); }
+function strike() {
+  const s = S.dom.strike;
+  s.hidden = false;
+  s.innerHTML = '<div class="x"></div>'; // a fresh element restarts the stamp animation
+  clearTimeout(S.strikeTimer);
+  S.strikeTimer = setTimeout(() => { if (S) S.dom.strike.hidden = true; }, 950);
+}
 
 // ------------------------------------------------------------------ lights (Athena server drives the receiver)
 
@@ -248,7 +470,7 @@ async function pushLights() {
     } while (S && S.lightsDirty);
   } catch (err) {
     if (S) {
-      S.lightsOff = true; // stop retrying every frame; the game plays fine without lights
+      S.lightsOff = true; // stop retrying; the game plays fine without lights
       if (err.status === 503) toast("Buzzer lights not found. Is the receiver plugged in? The game works without them.");
       else console.warn("Buzzer lights failed", err);
     }
@@ -318,7 +540,8 @@ function onButton(p, b) {
       if (pl.joined && b === "red" && settled()) runAuto();
       return;
     case "question":
-      if (pl.joined) questionButton(p, b);
+      // A red press meant to skip the previous screen must not buzz in or spend a x2 by accident.
+      if (pl.joined && !(b === "red" && now() - S.phaseAt < RED_GRACE_MS)) questionButton(p, b);
       return;
     case "potato":
       if (pl.joined && p === S.game.potato.holder) {
@@ -366,17 +589,22 @@ function setPhase(p) {
   S.phase = p;
   S.phaseAt = now();
   S.auto = null;
+  S.token = (S.token || 0) + 1; // lets timers notice that the show has moved on
 }
 
 // Move on by itself once the host has finished talking (or after maxMs at the latest).
 function autoAdvance(fn, minMs, maxMs) { S.auto = { fn, at: now() + minMs, max: now() + maxMs }; }
 function runAuto() { if (S.auto) { const fn = S.auto.fn; S.auto = null; fn(); } }
 
-function tick() {
+function tick(t) {
   if (!S) return;
   poll();
-  const t = now();
-  if (S.dom.host.classList.contains("talking") && !speaking()) setTalking(false);
+  S.orb.set(orbMood());
+  S.orb.draw(t);
+  const warping = S.phase === "intro" || S.phase === "countdown";
+  S.stars.warp(warping);
+  S.stars.draw(t);
+  S.dom.stage.classList.toggle("warp", warping);
   if (S.auto && t >= S.auto.at && (!speaking() || t >= S.auto.max)) runAuto();
   if (S.phase === "question") {
     if (S.buzz.holder !== null && !S.buzz.judging) {
@@ -387,7 +615,7 @@ function tick() {
       const secs = Math.ceil((S.timer.end - t) / 1000);
       if (secs <= 3 && secs !== S.lastTick) { S.lastTick = secs; SFX.tick(); }
     }
-    updateBar(t);
+    if (S.phase === "question") updateClock(t);
   } else if (["potato", "potatoJudging", "potatoPause"].includes(S.phase)) {
     const pot = S.game.potato;
     if (t >= pot.fuseEnd) boom();
@@ -396,12 +624,37 @@ function tick() {
   rafId = requestAnimationFrame(tick);
 }
 
-function updateBar(t) {
-  const bar = S.dom.bar;
+function updateClock(t) {
+  const c = S.dom.clock;
+  if (!c || !c.isConnected) return;
   const answering = S.buzz.holder !== null;
-  S.dom.timer.classList.toggle("answering", answering);
-  const frac = answering ? (S.buzz.deadline - t) / (S.buzzWindow * 1000) : (S.timer.end - t) / S.timer.total;
-  bar.style.width = (Math.max(0, Math.min(1, frac)) * 100).toFixed(2) + "%";
+  const total = answering ? S.buzzWindow * 1000 : S.timer.total;
+  const left = Math.max(0, answering ? S.buzz.deadline - t : S.timer.end - t);
+  const frac = left / total;
+  c.querySelector(".fg").style.strokeDashoffset = (CIRC * (1 - frac)).toFixed(1);
+  const n = String(Math.ceil(left / 1000));
+  const label = c.querySelector(".n");
+  if (label.textContent !== n) label.textContent = n;
+  c.classList.toggle("hot", answering || frac < 0.25);
+  c.classList.toggle("warn", !answering && frac >= 0.25 && frac < 0.5);
+}
+
+// A 3, 2, 1 before the first question of each round.
+function countdown(then) {
+  setPhase("countdown");
+  const token = S.token;
+  let n = 3;
+  const step = () => {
+    if (!S || S.token !== token) return;
+    if (n === 0) { SFX.whoosh(); then(); return; }
+    S.countN = n;
+    renderMain();
+    SFX.tick();
+    n -= 1;
+    setTimeout(step, 750);
+  };
+  marquee("chase");
+  step();
 }
 
 // ------------------------------------------------------------------ lobby
@@ -409,7 +662,7 @@ function updateBar(t) {
 function moveSubject(dir) {
   const n = S.subjects.length;
   for (let k = 1; k <= n; k++) {
-    const i = (S.sel + dir * k + n * k) % n;
+    const i = (((S.sel + dir * k) % n) + n) % n;
     if (subjectCount(S.subjects[i]) >= MIN_SUBJECT_QUESTIONS) { S.sel = i; break; }
   }
   SFX.move();
@@ -435,11 +688,13 @@ function subjectCount(s) {
 
 function showLobby() {
   shutUp();
+  musicStop();
   setPhase("lobby");
   S.game = null;
-  S.dom.bubble.textContent = "";
+  dim(false);
+  marquee("");
   renderTop();
-  renderMain();
+  renderMain(true);
   renderPods();
   setLights(S.players.map((p) => p.joined));
   line("hello");
@@ -483,6 +738,7 @@ async function startGame() {
   S.players.forEach((p) => Object.assign(p, { score: 0, hp: 100, doubles: 2, throws: 1, stats: { fastest: 0, damage: 0, snatched: 0, kos: 0 } }));
   if (data.focus !== S.focus) toast(`No ${FOCI.find(([k]) => k === S.focus)[1].toLowerCase()} questions in ${subject.short_name} yet, so this show uses all topics.`);
   savePrefs();
+  SFX.fanfare();
   nextRound();
 }
 
@@ -490,16 +746,19 @@ function nextRound() {
   const g = S.game;
   g.r += 1;
   g.qi = 0;
+  musicStop();
   if (g.r >= g.rounds.length) { showFinal(); return; }
   const round = g.rounds[g.r];
   if (round.mode === "potato") g.potato = { left: round.potatoes, holder: null, fuseStart: 0, fuseEnd: 0, nextTick: 0, answered: null, passTo: null };
   setPhase("intro");
   setLights([false, false, false, false]);
+  marquee("chase");
+  SFX.whoosh();
   renderTop();
   renderMain(true);
   renderPods();
   line("intro_" + round.mode, { secs: S.buzzWindow, pts: POINTS.snatch });
-  autoAdvance(round.mode === "potato" ? startPotato : startQuestion, 3000, 11000);
+  autoAdvance(() => countdown(round.mode === "potato" ? startPotato : startQuestion), 3000, 11000);
 }
 
 function answerFor(q) {
@@ -521,16 +780,19 @@ function startQuestion() {
   S.doubled = [false, false, false, false];
   S.pending = [0, 0, 0, 0];
   S.results = null;
-  S.buzz = { holder: null, locked: new Set(), deadline: 0, judging: false };
+  S.buzz = { holder: null, locked: new Set(), deadline: 0, judging: false, picked: null };
   S.timer = { total: S.answerTime * 1000, end: now() + S.answerTime * 1000, remaining: 0 };
   S.lastTick = -1;
   setPhase("question");
+  dim(false);
+  marquee("");
   setLights(round.mode === "buzz" ? S.players.map((p) => p.joined) : [false, false, false, false]);
   renderTop();
   renderMain(true);
   renderPods();
+  musicStart();
   say(S.q.stem, { bubble: false });
-  S.dom.bubble.textContent = round.mode === "buzz" ? "Red buzzer to answer!" : (round.mode === "final" ? "Double points! Red doubles again." : "Lock in your answer! Red to double up.");
+  S.dom.say.textContent = round.mode === "buzz" ? "Red buzzer to answer!" : (round.mode === "final" ? "Double points! Red doubles again." : "Lock in your answer! Red to double up.");
 }
 
 function lockIn(p, choice) {
@@ -565,19 +827,30 @@ function buzzIn(p) {
   renderPods();
 }
 
+// The buzzed-in player picks: their panel lights up, a short drumroll, then the verdict.
 async function buzzAnswer(p, choice) {
   if (S.buzz.holder !== p || S.buzz.judging || choice >= S.q.options.length) return;
   S.buzz.judging = true;
+  S.buzz.picked = choice;
   S.answers[p] = { choice, at: now() };
+  SFX.lock();
+  musicStop();
+  line("finalAnswer");
+  SFX.drumroll(0.85);
+  renderMain();
+  const ansP = answerFor(S.q);
+  await sleep(950);
   let ans;
-  try { ans = await answerFor(S.q); } catch (err) { ans = { index: -1 }; toast(err.message); }
+  try { ans = await ansP; } catch (err) { ans = { index: -1 }; toast(err.message); }
   if (!S || S.phase !== "question" || S.buzz.holder !== p) return;
   S.buzz.judging = false;
+  S.buzz.picked = null;
   if (choice === ans.index) {
     S.pending[p] += POINTS.buzz * S.game.rounds[S.game.r].mult;
-    reveal();
+    reveal({ suspense: false });
   } else {
     wrongBuzz(p, false);
+    musicStart();
   }
 }
 
@@ -587,8 +860,12 @@ function wrongBuzz(p, timedOut) {
   S.buzz.locked.add(p);
   S.buzz.holder = null;
   S.buzz.judging = false;
+  S.buzz.picked = null;
   SFX.wrong();
-  if (joined().every((i) => S.buzz.locked.has(i))) { reveal(); return; }
+  strike();
+  orbFlash("alarm", 1200);
+  marquee("lose", 1200);
+  if (joined().every((i) => S.buzz.locked.has(i))) { reveal({ suspense: false }); return; }
   line("buzzWrong", { name: S.players[p].name }, timedOut ? "Too slow!" : "");
   S.timer.end = now() + Math.max(S.timer.remaining, 3000);
   setLights(S.players.map((pl, i) => pl.joined && !S.buzz.locked.has(i)));
@@ -616,12 +893,25 @@ function checkKOs() {
   return kos;
 }
 
-async function reveal() {
+async function reveal({ suspense = true } = {}) {
   if (S.phase !== "question") return;
   setPhase("revealing");
+  musicStop();
+  const token = S.token;
+  const ansP = answerFor(S.q);
+  if (suspense) {
+    dim(true);
+    marquee("hold");
+    line("lockedIn");
+    SFX.drumroll(1.1);
+    renderMain();
+    renderPods();
+    await sleep(1200);
+  }
   let ans;
-  try { ans = await answerFor(S.q); } catch (err) { toast(err.message); ans = { index: -1, explanation: "" }; }
-  if (!S || S.phase !== "revealing") return;
+  try { ans = await ansP; } catch (err) { toast(err.message); ans = { index: -1, explanation: "" }; }
+  if (!S || S.token !== token) return;
+  dim(false);
   const round = S.game.rounds[S.game.r];
   S.before = S.players.map((p) => p.score);
   S.results = S.players.map((pl, i) => {
@@ -648,7 +938,19 @@ async function reveal() {
   S.answer = ans;
   setPhase("reveal");
   const winners = joined().filter((i) => S.results[i] && S.results[i].delta > 0);
-  if (winners.length) { SFX.right(); blink(winners); } else { SFX.wrong(); setLights([false, false, false, false]); }
+  if (winners.length) {
+    SFX.right();
+    SFX.applause(winners.length > 1 ? 2.2 : 1.8);
+    blink(winners);
+    marquee("win", 2000);
+    orbFlash("win");
+  } else {
+    SFX.wrong();
+    if (round.mode !== "buzz") strike();
+    setLights([false, false, false, false]);
+    marquee("lose", 1500);
+    orbFlash("alarm", 1400);
+  }
   if (kos.length) setTimeout(() => SFX.ko(), 500);
   renderMain();
   renderPods(true);
@@ -696,6 +998,7 @@ function startPotato() {
   pot.fuseStart = t;
   pot.fuseEnd = t + 20000 + Math.random() * 15000; // nobody knows when
   pot.nextTick = t;
+  musicStart(true);
   potatoQuestion();
   line("potatoStart", { name: S.players[pot.holder].name });
 }
@@ -705,6 +1008,7 @@ function potatoQuestion() {
   answerFor(S.q);
   S.game.potato.answered = null;
   setPhase("potato");
+  marquee("chase");
   setLights(S.players.map((_, i) => i === S.game.potato.holder));
   renderTop();
   renderMain(true);
@@ -719,13 +1023,14 @@ function nextHolder(from) {
 async function potatoAnswer(choice) {
   const pot = S.game.potato;
   setPhase("potatoJudging");
+  const token = S.token;
   let ans;
   try { ans = await answerFor(S.q); } catch (err) { ans = { index: -1 }; toast(err.message); }
-  if (!S || S.phase !== "potatoJudging") return; // it blew up while we were checking
+  if (!S || S.token !== token) return; // it blew up while we were checking
   const correct = choice === ans.index;
   pot.answered = { choice, correct, index: ans.index };
   if (correct) { S.players[pot.holder].score += POINTS.pass; pot.passTo = nextHolder(pot.holder); SFX.right(); }
-  else { pot.passTo = pot.holder; SFX.wrong(); }
+  else { pot.passTo = pot.holder; SFX.wrong(); strike(); }
   potatoPause();
 }
 
@@ -736,7 +1041,7 @@ function throwPotato(p) {
   pl.throws -= 1;
   pot.answered = { thrown: true };
   pot.passTo = nextHolder(p);
-  SFX.double();
+  SFX.whoosh();
   line("throwIt", { name: pl.name });
   potatoPause();
 }
@@ -744,10 +1049,11 @@ function throwPotato(p) {
 function potatoPause() {
   const pot = S.game.potato;
   setPhase("potatoPause");
+  const token = S.token;
   renderMain();
   renderPods();
   setTimeout(() => {
-    if (!S || S.phase !== "potatoPause") return;
+    if (!S || S.token !== token) return;
     const passed = pot.passTo !== pot.holder;
     pot.holder = pot.passTo;
     if (passed && !pot.answered.thrown) line("pass", { name: S.players[pot.holder].name });
@@ -759,6 +1065,7 @@ function boom() {
   const pot = S.game.potato;
   S.before = S.players.map((p) => p.score);
   setPhase("boom");
+  musicStop();
   pot.left -= 1;
   const victim = pot.holder;
   S.players[victim].score -= POINTS.boom;
@@ -767,10 +1074,12 @@ function boom() {
   S.results = S.players.map((pl, i) => (pl.joined ? { delta: i === victim ? -POINTS.boom - (kos.includes(i) ? POINTS.ko : 0) : 0, ko: kos.includes(i) } : null));
   SFX.boom();
   blink([0, 1, 2, 3], 1600);
+  marquee("lose", 2000);
+  orbFlash("alarm", 2200);
   renderMain();
   renderPods(true);
   line(kos.length ? "ko" : "boom", { name: S.players[victim].name, pts: POINTS.ko });
-  autoAdvance(pot.left > 0 ? startPotato : showScores, 3800, 9000);
+  autoAdvance(pot.left > 0 ? () => countdown(startPotato) : showScores, 3800, 9000);
 }
 
 // ------------------------------------------------------------------ scores and final
@@ -779,7 +1088,10 @@ const ranked = () => joined().sort((a, b) => S.players[b].score - S.players[a].s
 
 function showScores() {
   setPhase("scores");
+  musicStop();
   setLights([false, false, false, false]);
+  marquee("");
+  SFX.whoosh();
   renderTop();
   renderMain(true);
   renderPods();
@@ -801,21 +1113,24 @@ function badges() {
   if (thief !== null && S.players[thief].stats.snatched > 0) out.push({ p: thief, name: "Pickpocket", why: `snatched ${S.players[thief].stats.snatched} points` });
   if (ids.length > 1) {
     const tank = best("damage", (a, b) => a < b);
-    out.push({ p: tank, name: "Iron wall", why: `took the least damage (${S.players[tank].stats.damage})` });
+    out.push({ p: tank, name: "Iron wall", why: `least damage taken (${S.players[tank].stats.damage})` });
   }
   return out;
 }
 
 function showFinal() {
   setPhase("final");
+  musicStop();
   const order = ranked();
   const top = S.players[order[0]].score;
   S.winners = order.filter((i) => S.players[i].score === top);
   S.badges = badges();
+  marquee("win");
   renderTop();
   renderMain(true);
   renderPods();
   SFX.fanfare();
+  SFX.applause(4, true);
   confetti();
   blink(S.winners);
   if (S.winners.length > 1) line("tie");
@@ -828,7 +1143,7 @@ function showFinal() {
   }).catch((err) => toast("Could not save this game to the history: " + err.message));
 }
 
-function confetti(ms = 4500) {
+function confetti(ms = 5000) {
   if (window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches) return;
   const c = document.createElement("canvas");
   c.className = "bz-confetti";
@@ -836,8 +1151,8 @@ function confetti(ms = 4500) {
   const ctx = c.getContext("2d");
   const W = (c.width = innerWidth);
   const H = (c.height = innerHeight);
-  const colors = ["#2f7bff", "#ff8a1f", "#22c55e", "#ffd21f", "#ff2e4d", "#ff5fa2"];
-  const bits = Array.from({ length: 200 }, () => ({
+  const colors = ["#22d3ee", "#67e8f9", "#facc15", "#a78bfa", "#f17a11", "#ffffff"];
+  const bits = Array.from({ length: 220 }, () => ({
     x: Math.random() * W, y: -20 - Math.random() * H * 0.6, vx: (Math.random() - 0.5) * 3, vy: 2 + Math.random() * 4,
     r: Math.random() * 6.28, vr: (Math.random() - 0.5) * 0.3, s: 6 + Math.random() * 8, c: pick(colors),
   }));
@@ -885,28 +1200,28 @@ function renderTop() {
   let meta = "";
   if (g && g.r >= 0 && g.r < g.rounds.length && S.phase !== "final") {
     const round = g.rounds[g.r];
-    const count = round.mode === "potato" ? `Potato ${Math.min(round.potatoes, round.potatoes - g.potato.left + 1)} of ${round.potatoes}`
-      : `Question ${Math.min(g.qi + 1, round.questions.length)} of ${round.questions.length}`;
-    meta = `<span class="bz-tag">Round ${g.r + 1}: ${esc(round.name)}${round.mult > 1 ? " (x2)" : ""}</span>
-      <span class="bz-small">${esc(g.subject.short_name)} · ${S.phase === "intro" || S.phase === "scores" ? `${g.rounds.length} rounds` : count}</span>`;
-  } else if (S.phase === "lobby") {
-    meta = '<span class="bz-tag">Buzz quiz</span>';
+    meta = `<span class="bz-roundtag">Round ${g.r + 1} · ${esc(round.name)}${round.mult > 1 ? " x2" : ""}</span>
+      <span class="bz-eyebrow">${esc(g.subject.short_name)} · ${esc(FOCI.find(([k]) => k === g.focus)[1])}</span>`;
+  } else if (S.phase === "final") {
+    meta = '<span class="bz-roundtag">Final results</span>';
+  } else {
+    meta = '<span class="bz-roundtag">Buzz quiz · Lobby</span>';
   }
   const inShow = S.phase !== "lobby" && S.phase !== "calibrate";
   S.dom.meta.innerHTML = `${meta}<span class="bz-actions">
-    <button class="bz-btn tiny" data-act="fullscreen">Full screen</button>
-    <button class="bz-btn tiny" data-act="${inShow ? "lobby" : "exit"}">${inShow ? "End show" : "Exit"}</button></span>`;
+    <button class="bz-btn ghost" data-act="fullscreen">Full screen</button>
+    <button class="bz-btn ghost" data-act="${inShow ? "lobby" : "exit"}">${inShow ? "End show" : "Exit"}</button></span>`;
 }
 
 function renderMain(enter = false) {
   const m = S.dom.main;
-  m.className = "bz-main" + (enter ? " bz-enter" : "");
+  m.className = "bz-main" + (enter ? " bz-enter glitch" : "");
   m.innerHTML = {
-    lobby: lobbyHTML, calibrate: calibrateHTML, intro: introHTML, question: questionHTML, revealing: questionHTML,
-    reveal: questionHTML, potato: potatoHTML, potatoJudging: potatoHTML, potatoPause: potatoHTML, boom: boomHTML,
-    scores: scoresHTML, final: finalHTML,
+    lobby: lobbyHTML, calibrate: calibrateHTML, intro: introHTML, countdown: countdownHTML, question: questionHTML,
+    revealing: questionHTML, reveal: questionHTML, potato: potatoHTML, potatoJudging: potatoHTML, potatoPause: potatoHTML,
+    boom: boomHTML, scores: scoresHTML, final: finalHTML,
   }[S.phase]();
-  if (S.phase !== "question" && S.phase !== "revealing") S.dom.bar.style.width = "0";
+  S.dom.clock = m.querySelector(".bz-clock");
   if (S.phase === "lobby") {
     const prize = m.querySelector("#bzPrize");
     if (prize) prize.addEventListener("input", () => { S.prize = prize.value.slice(0, 80); savePrefs(); });
@@ -915,60 +1230,95 @@ function renderMain(enter = false) {
 
 function lobbyHTML() {
   const pad = findPad();
-  const subj = S.subjects.map((s, i) => {
+  const tiles = S.subjects.map((s, i) => {
     const n = subjectCount(s);
-    const exam = s.next_exam ? `<span class="x">${esc(s.next_exam.type || "Exam")} in ${s.next_exam.days_left} day${s.next_exam.days_left === 1 ? "" : "s"}</span>` : "";
-    return `<button class="bz-subj ${i === S.sel ? "sel" : ""}" style="--sc:${esc(s.color || "#2f7bff")}" data-act="subject" data-i="${i}" ${n < MIN_SUBJECT_QUESTIONS ? "disabled" : ""}>
-      <div class="s">${esc(s.short_name)}</div><div class="n">${esc(s.name)}</div><div class="c">${n} questions</div>${exam}</button>`;
+    const exam = s.next_exam ? `<span class="exam">${esc(s.next_exam.type || "Exam")} in ${s.next_exam.days_left}d</span>` : "";
+    return `<button class="bz-tile ${i === S.sel ? "sel" : ""}" style="--sc:${esc(s.color || "#22d3ee")}" data-act="subject" data-i="${i}" ${n < MIN_SUBJECT_QUESTIONS ? "disabled" : ""}>
+      <span class="bar"></span><span class="code">${esc(s.short_name)}</span><span class="name">${esc(s.name)}</span>
+      <span class="foot"><span class="count">${fmtNum(n)} Qs</span>${exam}</span></button>`;
   }).join("");
-  const chips = (list, cur, act, label = (x) => x) => list.map((x) => `<button class="bz-pick ${x === cur ? "on" : ""}" data-act="${act}" data-v="${x}">${esc(label(x))}</button>`).join("");
-  const hist = S.history.length ? S.history.map((h) => `<li>${esc(fmtDate(h.played_at))} · ${esc(h.short_name)} · <span class="w">${esc(h.winner || "?")}</span> won${h.players[0] ? ` (${h.players[0].score})` : ""}${h.prize ? ` · ${esc(h.prize)}` : ""}</li>`).join("")
-    : '<li class="bz-small">No shows yet. The first winner goes here.</li>';
+  const seg = (label, list, cur, act, show = (x) => x) => `<div class="bz-setting"><span class="bz-eyebrow">${label}</span><div class="bz-seg">${
+    list.map((x) => `<button class="${String(x) === String(cur) ? "on" : ""}" data-act="${act}" data-v="${x}">${esc(show(x))}</button>`).join("")}</div></div>`;
+  const hist = S.history.length ? S.history.slice(0, 6).map((h) => `<li><span class="d">${esc(fmtDate(h.played_at))} · ${esc(h.short_name)}</span>
+      <span class="w">${esc(h.winner || "?")}</span><span class="s">${h.players[0] ? fmtNum(h.players[0].score) : ""}</span>${h.prize ? `<span class="p">${esc(h.prize)}</span>` : ""}</li>`).join("")
+    : '<li><span class="d">No shows yet</span><span class="w">The first winner goes here</span><span></span></li>';
   return `
-  <p class="bz-legend">Any joined buzzer: <b class="c-red">Red</b> join · <b class="c-blue">Blue</b> / <b class="c-yellow">Yellow</b> choose subject · <b class="c-orange">Orange</b> topics · <b class="c-green">Green</b> start the show
-    ${pad ? "" : '<br>No buzzers seen yet: press any button on a handset to wake them up.'}</p>
+  <div class="bz-legend"><span><i style="--kc:var(--red)"></i>Red join</span>
+    <span><i style="--kc:var(--k-blue)"></i><i style="--kc:var(--k-yellow)"></i>Blue / yellow subject</span>
+    <span><i style="--kc:var(--k-orange)"></i>Orange topics</span><span><i style="--kc:var(--k-green)"></i>Green start</span>
+    ${pad ? "" : "<span>Press any buzzer to wake them up</span>"}</div>
   <div class="bz-lobby">
-    <section class="bz-panel"><h2>Subject (soonest exam first)</h2><div class="bz-subjects">${subj}</div></section>
-    <section class="bz-panel">
-      <h2>Show settings</h2>
-      <div class="bz-opts-row"><span>Topics</span>${chips(FOCI.map(([k]) => k), S.focus, "focus", (k) => FOCI.find(([x]) => x === k)[1])}</div>
-      <div class="bz-opts-row"><span>Length</span>${chips(Object.keys(LENGTHS), S.length, "length", (k) => LENGTHS[k].label)}</div>
-      <div class="bz-opts-row"><span>Answer time</span>${chips(ANSWER_TIMES, S.answerTime, "answerTime", (x) => x + "s")}</div>
-      <div class="bz-opts-row"><span>After a buzz</span>${chips(BUZZ_WINDOWS, S.buzzWindow, "buzzWindow", (x) => x + "s to answer")}</div>
-      <div class="bz-opts-row"><span>Host voice</span>${chips(["on", "off"], S.voice ? "on" : "off", "voice")}</div>
-      <div class="bz-opts-row"><span>Prize</span><input id="bzPrize" class="bz-prize" maxlength="80" value="${esc(S.prize)}" aria-label="Prize for the winner"></div>
-      <div class="bz-opts-row"><button class="bz-btn go" data-act="start">Start the show</button><button class="bz-btn tiny" data-act="calibrate">Fix buzzer buttons</button></div>
-      <h2>Last shows</h2><ul class="bz-hist">${hist}</ul>
+    <section class="bz-holo bz-panel">
+      <div class="bz-panelhead"><span class="bz-eyebrow cyan">Choose your subject</span><span class="bz-eyebrow">Soonest exam first</span></div>
+      <div class="bz-board">${tiles}</div>
+      <div class="bz-setting"><span class="bz-eyebrow">Hall of fame</span><ul class="bz-hist">${hist}</ul></div>
+    </section>
+    <section class="bz-holo bz-panel">
+      <div class="bz-cta" style="justify-content:space-between;align-items:center"><button class="bz-btn go" data-act="start">Start the show</button><button class="bz-btn ghost" data-act="calibrate">Fix buttons</button></div>
+      ${seg("Topics", FOCI.map(([k]) => k), S.focus, "focus", (k) => FOCI.find(([x]) => x === k)[1])}
+      <div class="bz-grid2">
+        ${seg("Show length", Object.keys(LENGTHS), S.length, "length", (k) => LENGTHS[k].label)}
+        ${seg("Answer time", ANSWER_TIMES, S.answerTime, "answerTime", (x) => x + "s")}
+        ${seg("After a buzz", BUZZ_WINDOWS, S.buzzWindow, "buzzWindow", (x) => x + "s")}
+        ${seg("Host voice", ["on", "off"], S.voice ? "on" : "off", "voice")}
+        ${seg("Music", ["on", "off"], S.music ? "on" : "off", "music")}
+      </div>
+      <div class="bz-setting"><span class="bz-eyebrow">Prize for the winner</span><input id="bzPrize" class="bz-input" maxlength="80" value="${esc(S.prize)}" aria-label="Prize for the winner"></div>
     </section>
   </div>`;
 }
 
 function calibrateHTML() {
   const [p, color] = CAL_STEPS[S.cal.length];
-  return `<div class="bz-center"><div class="bz-eyebrow">Fix buzzer buttons · step ${S.cal.length + 1} of ${CAL_STEPS.length}</div>
-    <div class="bz-title sm">Handset ${p + 1}: press <span class="c-${color}">${color}</span></div>
-    <p class="bz-rules">Only needed if a button lights the wrong colour or player.</p>
-    <div class="bz-opts-row" style="justify-content:center"><button class="bz-btn" data-act="calReset">Reset to default</button><button class="bz-btn" data-act="lobby">Cancel</button></div></div>`;
+  return `<div class="bz-center"><span class="bz-eyebrow cyan">Fix buzzer buttons · step ${S.cal.length + 1} of ${CAL_STEPS.length}</span>
+    <div class="bz-word sm">Handset ${p + 1}: press <span class="k-${color}">${color}</span></div>
+    <p class="bz-lead">Only needed if a button lights the wrong colour or player.</p>
+    <div class="bz-cta"><button class="bz-btn" data-act="calReset">Reset to default</button><button class="bz-btn" data-act="lobby">Cancel</button></div></div>`;
 }
 
 function introHTML() {
   const g = S.game;
   const round = g.rounds[g.r];
   const rules = {
-    fastest: `Everyone answers with blue, orange, green or yellow. Faster right answers score more. Red uses a <b>x2</b> lifeline.`,
-    buzz: `Hit <b class="c-red">red</b> first, then answer within <b>${S.buzzWindow} second${S.buzzWindow === 1 ? "" : "s"}</b>. Right: +${POINTS.buzz}. Wrong or too slow: -${POINTS.penalty} and damage.`,
-    snatch: `Everyone answers. The fastest right answer snatches <b>${POINTS.snatch}</b> points from the leader.`,
-    potato: `Only the holder answers. Right: +${POINTS.pass} and pass it on. When it blows, the holder loses <b>${POINTS.boom}</b>. Red throws it away (once per game).`,
-    final: `Double points. Wrong answers cost ${POINTS.penalty * 2} and hurt. Red doubles again if you still have a x2.`,
+    fastest: `Everyone answers with <b>blue, orange, green or yellow</b>. Faster right answers score up to <b>1,000</b>. Red plays a <b>x2</b>: double the points, double the risk.`,
+    buzz: `Hit <b>red</b> first, then answer within <b>${S.buzzWindow} second${S.buzzWindow === 1 ? "" : "s"}</b>. Right: <b>+${POINTS.buzz}</b>. Wrong or too slow: <b>-${POINTS.penalty}</b> and damage.`,
+    snatch: `Everyone answers. The fastest right answer snatches <b>${POINTS.snatch}</b> points straight from the leader.`,
+    potato: `Only the holder answers. Right: <b>+${POINTS.pass}</b> and pass it on. When it blows, the holder loses <b>${POINTS.boom}</b>. Red throws it away, once per game.`,
+    final: `Everything counts <b>double</b>. Wrong answers cost <b>${POINTS.penalty * 2}</b> and hurt. Still got a x2? Red stacks it.`,
   }[round.mode];
-  return `<div class="bz-center"><div class="bz-eyebrow">Round ${g.r + 1} of ${g.rounds.length}</div>
-    <div class="bz-title">${esc(round.name)}</div><p class="bz-rules">${rules}</p></div>`;
+  const count = round.mode === "potato" ? `${round.potatoes} potato${round.potatoes === 1 ? "" : "es"}` : `${round.questions.length} questions`;
+  return `<div class="bz-center"><span class="bz-eyebrow cyan">Round ${g.r + 1} of ${g.rounds.length} · ${count}</span>
+    <div class="bz-word">${esc(round.name)}</div>
+    <div class="bz-card bz-holo"><p class="bz-lead">${rules}</p><span class="bz-tick tr"></span><span class="bz-tick bl"></span></div></div>`;
 }
 
-function optionsHTML(marks, pickers = []) {
-  return S.q.options.map((o, j) => `<li class="bz-opt ${COLORS[j]} ${marks(j)}" style="--i:${j}">
-    <span class="dot" aria-hidden="true"></span><span class="txt">${esc(o)}</span>
-    <span class="bz-chips">${(pickers[j] || []).map((i) => `<span class="bz-chip" style="--pc:${PLAYER_COLORS[i]}">${esc(S.players[i].name)}</span>`).join("")}</span></li>`).join("");
+function countdownHTML() {
+  const round = S.game.rounds[S.game.r];
+  return `<div class="bz-center"><span class="bz-eyebrow cyan">${esc(round.name)} · entering arena</span>
+    <div class="bz-countwrap"><i></i><i></i><i></i><div class="bz-count" data-n="${S.countN}">${S.countN}</div></div><span class="bz-eyebrow">Get ready</span></div>`;
+}
+
+function answersHTML(marks, pickers = []) {
+  // Every option in a question gets the same text size (from the longest), so the grid stays even.
+  const size = sizeClass(S.q.options.reduce((a, o) => (o.length > a.length ? o : a), ""), 36, 72, 115);
+  return S.q.options.map((o, j) => `<div class="bz-opt ${size} ${marks(j)}" style="--i:${j};--kc:var(--k-${COLORS[j]})">
+    <span class="orb" aria-label="${COLORS[j]} button"></span><span class="txt">${esc(o)}</span>
+    <span class="who">${(pickers[j] || []).map((i) => `<span style="--pc:${PLAYER_COLORS[i]}">${esc(S.players[i].name)}</span>`).join("")}</span></div>`).join("");
+}
+const answersGrid = (inner) => `<div class="bz-answers ${S.q.options.length <= 2 ? "" : ""}">${inner}</div>`;
+const questionPanel = () => `<div class="bz-holo bz-qpanel" data-qid="${esc(S.q.id)}"><p class="bz-q ${sizeClass(S.q.stem, 70, 120, 180)}">${esc(S.q.stem)}</p>
+  <span class="bz-tick tr"></span><span class="bz-tick bl"></span></div>`;
+
+function ladderHTML() {
+  const g = S.game;
+  const round = g.rounds[g.r];
+  const per = round.mode === "buzz" ? POINTS.buzz * round.mult : (POINTS.base + POINTS.speed) * round.mult;
+  const steps = round.questions.map((_, k) => k).reverse().map((k) => {
+    const cls = k === g.qi ? "now" : k < g.qi ? "done" : "next5";
+    return `<div class="bz-step ${cls}"><span>Q${k + 1}</span><span>${k < g.qi ? "done" : fmtNum(per)}</span></div>`;
+  }).join("");
+  return `<aside class="bz-ladder bz-holo"><span class="bz-eyebrow cyan head">${esc(round.name)}</span>${steps}
+    <span class="bz-eyebrow head" style="margin-top:8px">${round.mode === "buzz" ? "Per right buzz" : "Up to, per question"}</span></aside>`;
 }
 
 function questionHTML() {
@@ -976,63 +1326,82 @@ function questionHTML() {
   const round = S.game.rounds[S.game.r];
   const pickers = COLORS.map(() => []);
   if (revealed) S.players.forEach((pl, i) => { if (pl.joined && S.answers[i]) pickers[S.answers[i].choice].push(i); });
-  const marks = (j) => (revealed ? (j === S.answer.index ? "correct" : "dim") : "");
+  const marks = (j) => {
+    if (revealed) {
+      if (j === S.answer.index) return "correct";
+      return pickers[j].length ? "wrongpick dim" : "dim";
+    }
+    return S.buzz.picked === j ? "picked" : "";
+  };
   let prompt = "";
-  if (!revealed && round.mode === "buzz") {
-    prompt = S.buzz.holder === null ? (S.buzz.locked.size ? "Still open! Hit red to have a go" : "Hit your red buzzer to answer")
-      : `${esc(S.players[S.buzz.holder].name)}, answer now!`;
+  if (S.phase === "revealing") prompt = "Locked in...";
+  else if (!revealed && round.mode === "buzz") {
+    prompt = S.buzz.picked !== null ? "Final answer..." : S.buzz.holder === null ? (S.buzz.locked.size ? "Still open! Hit red to have a go" : "Hit your red buzzer to answer")
+      : `${S.players[S.buzz.holder].name}, answer now!`;
   } else if (!revealed) prompt = "Lock in with blue, orange, green or yellow";
   let info = "";
   if (revealed) {
     if (S.snatch) {
-      info += `<div class="bz-note snatch">${S.snatch.amount ? `${esc(S.players[S.snatch.thief].name)} snatched ${S.snatch.amount} points from ${esc(S.players[S.snatch.victim].name)}!`
-        : `${esc(S.players[S.snatch.thief].name)} was fastest, but there was nothing to snatch.`}</div>`;
+      info += `<div class="bz-chip snatch"><span class="bz-eyebrow">Snatch</span>${S.snatch.amount ? `${esc(S.players[S.snatch.thief].name)} took ${S.snatch.amount} from ${esc(S.players[S.snatch.victim].name)}`
+        : `${esc(S.players[S.snatch.thief].name)} was fastest, but there was nothing to snatch`}</div>`;
     }
     const pyq = S.q.pyq && S.q.pyq[0];
-    if (pyq) info += `<div class="bz-note pyq">Examined in ${esc(pyq.exam)} ${esc(pyq.year)}, Q${esc(pyq.q_no)}${pyq.marks ? ` (${esc(pyq.marks)} marks)` : ""}</div>`;
-    if (S.answer.explanation) info += `<div class="bz-note">${esc(S.answer.explanation)}</div>`;
+    if (pyq) info += `<div class="bz-chip pyq"><span class="bz-eyebrow">Past paper</span>${esc(pyq.exam)} ${esc(pyq.year)}, Q${esc(pyq.q_no)}${pyq.marks ? ` · ${esc(pyq.marks)} marks` : ""}</div>`;
+    if (S.answer.explanation) info += `<div class="bz-chip"><span class="bz-eyebrow">Why</span>${esc(S.answer.explanation)}</div>`;
   }
-  return `<div class="bz-qcard" data-qid="${esc(S.q.id)}"><p class="bz-q">${esc(S.q.stem)}</p></div>
-    <ol class="bz-opts">${optionsHTML(marks, pickers)}</ol>
-    ${info ? `<div class="bz-info">${info}</div>` : ""}
-    <div class="bz-prompt">${prompt}</div>`;
+  const g = S.game;
+  const modeCap = { fastest: "Everyone answers", buzz: "Buzz in to answer", snatch: "Fastest steals", final: "Double points" }[round.mode];
+  return `<div class="bz-qwrap"><div class="bz-qcol">
+      <div class="bz-qhead">
+        <div class="bz-clock"><svg viewBox="0 0 100 100"><circle class="tk" cx="50" cy="50" r="48"/><circle class="bg" cx="50" cy="50" r="42"/><circle class="fg" cx="50" cy="50" r="42" stroke-dasharray="${CIRC.toFixed(1)}" stroke-dashoffset="${revealed ? CIRC.toFixed(1) : 0}"/></svg><span class="n">${revealed ? "" : S.answerTime}</span></div>
+        <div class="bz-qmeta"><span class="bz-eyebrow">Question ${g.qi + 1} of ${round.questions.length}</span><span class="v">${esc(modeCap)}</span></div>
+      </div>
+      ${questionPanel()}
+      ${answersGrid(answersHTML(marks, pickers))}
+      <div class="bz-info">${info}</div>
+      <div class="bz-prompt">${esc(prompt)}</div>
+    </div>${ladderHTML()}</div>`;
 }
 
 function potatoHTML() {
   const pot = S.game.potato;
   const a = pot.answered;
-  const marks = (j) => (!a || a.thrown ? "" : j === a.index ? "correct" : j === a.choice ? "wrongpick" : "dim");
+  const marks = (j) => (!a || a.thrown ? "" : j === a.index ? "correct" : j === a.choice ? "wrongpick dim" : "dim");
   const holder = S.players[pot.holder];
-  const prompt = !a ? (S.phase === "potatoJudging" ? "Checking..." : `Only ${esc(holder.name)} can answer. Quick!${holder.throws ? " Red throws it away." : ""}`)
+  const prompt = !a ? (S.phase === "potatoJudging" ? "Checking..." : `Only ${holder.name} can answer${holder.throws ? " · red throws it away" : ""}`)
     : a.thrown ? "Thrown!" : a.correct ? "Right! Pass it on!" : "Wrong! Still holding it...";
-  return `<div class="bz-center" style="flex:0;flex-direction:row;gap:2vw"><span class="bz-potato" aria-hidden="true">\u{1F954}</span>
-      <span class="bz-holder" style="--pc:${PLAYER_COLORS[pot.holder]}">${esc(holder.name)} has the potato!</span></div>
-    <div class="bz-qcard" data-qid="${esc(S.q.id)}"><p class="bz-q">${esc(S.q.stem)}</p></div>
-    <ol class="bz-opts">${optionsHTML(marks)}</ol>
-    <div class="bz-prompt">${prompt}</div>`;
+  const round = S.game.rounds[S.game.r];
+  return `<div class="bz-qcol" style="flex:1">
+    <div class="bz-potrow"><span class="bz-potato" aria-hidden="true">\u{1F954}</span>
+      <span class="bz-holder" style="--pc:${PLAYER_COLORS[pot.holder]}">${esc(holder.name)} has the potato!</span>
+      <span class="bz-eyebrow">Potato ${round.potatoes - pot.left + 1} of ${round.potatoes}</span></div>
+    ${questionPanel()}
+    ${answersGrid(answersHTML(marks))}
+    <div class="bz-info"></div>
+    <div class="bz-prompt">${esc(prompt)}</div></div>`;
 }
 
 function boomHTML() {
   const pot = S.game.potato;
-  return `<div class="bz-center bz-shake"><div class="bz-boom">BOOM!</div>
-    <p class="bz-rules">${esc(S.players[pot.holder].name)} was holding it and loses ${POINTS.boom} points.${pot.left > 0 ? " Another potato is coming..." : ""}</p></div>`;
+  return `<div class="bz-center bz-shake"><div class="bz-boomwrap"><i></i><i></i><div class="bz-boom">BOOM!</div></div>
+    <p class="bz-lead"><b>${esc(S.players[pot.holder].name)}</b> was holding it and loses <b>${POINTS.boom}</b>.${pot.left > 0 ? " Another potato is coming..." : ""}</p></div>`;
 }
 
 function scoresHTML() {
   const order = ranked();
-  const max = Math.max(1, ...order.map((i) => S.players[i].score));
-  return `<div class="bz-center"><div class="bz-eyebrow">After round ${S.game.r + 1}</div><div class="bz-title sm">Scoreboard</div>
-    <div class="bz-board">${order.map((i) => `<div class="bz-brow" style="--pc:${PLAYER_COLORS[i]}"><span>${esc(S.players[i].name)}</span>
-      <div class="bz-track"><div class="bz-fill" style="width:${Math.max(0, S.players[i].score) / max * 100}%"></div></div><span>${S.players[i].score}</span></div>`).join("")}</div></div>`;
+  return `<div class="bz-center"><span class="bz-eyebrow cyan">After round ${S.game.r + 1}</span><div class="bz-word sm">Scoreboard</div>
+    <div class="bz-scores">${order.map((i, k) => `<div class="bz-row bz-holo ${k === 0 ? "lead" : ""}" style="--pc:${PLAYER_COLORS[i]};--i:${k}">
+      <span class="r">#${k + 1}</span><span class="nm">${esc(S.players[i].name)}</span><span class="sc">${fmtNum(S.players[i].score)}</span></div>`).join("")}</div></div>`;
 }
 
 function finalHTML() {
   const names = S.winners.map((i) => esc(S.players[i].name)).join(" and ");
-  return `<div class="bz-center"><div class="bz-trophy" aria-hidden="true">\u{1F3C6}</div>
-    <div class="bz-title">${S.winners.length > 1 ? "It's a tie!" : `${names} wins!`}</div>
-    ${S.prize ? `<div class="bz-prizeline">Prize: ${esc(S.prize)}${S.winners.length > 1 ? ` (shared by ${names})` : ""}</div>` : ""}
-    <div class="bz-badges">${S.badges.map((b) => `<div class="bz-badge" style="--pc:${PLAYER_COLORS[b.p]}">${esc(b.name)}: ${esc(S.players[b.p].name)}<small>${esc(b.why)}</small></div>`).join("")}</div>
-    <p class="bz-rules"><b class="c-red">Red</b>: play again · <b class="c-green">Green</b>: back to the lobby</p></div>`;
+  return `<div class="bz-center"><div class="bz-trophywrap"><i></i><i></i><div class="bz-trophy" aria-hidden="true">\u{1F3C6}</div></div>
+    <div class="bz-word">${S.winners.length > 1 ? "It's a tie!" : `${names} wins!`}</div>
+    <div class="bz-legend"><span><i style="--kc:var(--red)"></i>Red play again</span><span><i style="--kc:var(--k-green)"></i>Green back to the lobby</span></div>
+    ${S.prize ?`<div class="bz-prize bz-holo"><span class="bz-eyebrow cyan">The prize</span><div class="v">${esc(S.prize)}</div>${S.winners.length > 1 ? `<span class="bz-eyebrow">Shared by ${names}</span>` : ""}</div>` : ""}
+    <div class="bz-badges">${S.badges.map((b) => `<div class="bz-badge bz-holo" style="--pc:${PLAYER_COLORS[b.p]}"><span class="bz-eyebrow">${esc(b.name)}</span>
+      <div class="bz-bwho">${esc(S.players[b.p].name)}</div><div class="bz-bwhy">${esc(b.why)}</div></div>`).join("")}</div></div>`;
 }
 
 function podState(i) {
@@ -1040,26 +1409,26 @@ function podState(i) {
   if (!pl.joined) return { cls: "empty", mood: "idle", status: "" };
   const ph = S.phase;
   const r = S.results && S.results[i];
-  if (ph === "lobby") return { cls: "", mood: "happy", status: "Ready!" };
-  if (ph === "final") return S.winners.includes(i) ? { cls: "winner", mood: "happy", status: "Winner!" } : { cls: "", mood: "sad", status: "" };
+  if (ph === "lobby") return { cls: "locked", mood: "happy", status: "Ready" };
+  if (ph === "final") return S.winners.includes(i) ? { cls: "winner", mood: "happy", status: "Winner" } : { cls: "", mood: "sad", status: "" };
   if ((ph === "reveal" || ph === "boom") && r) {
-    if (r.ko) return { cls: "out", mood: "ko", status: "Knocked out!", ko: true };
-    if (ph === "boom" && i === S.game.potato.holder) return { cls: "out", mood: "ko", status: "Boom!" };
-    if (r.delta > 0) return { cls: "", mood: "happy", status: "" };
-    if (r.delta < 0) return { cls: "", mood: "sad", status: "" };
+    if (r.ko) return { cls: "out", mood: "ko", status: "Knocked out", ko: true };
+    if (ph === "boom" && i === S.game.potato.holder) return { cls: "out", mood: "ko", status: "Boom" };
+    if (r.delta > 0) return { cls: "locked", mood: "happy", status: "Correct" };
+    if (r.delta < 0) return { cls: "", mood: "sad", status: "Ouch" };
     return { cls: "", mood: "idle", status: ph === "reveal" ? "No points" : "" };
   }
   if (ph === "question" || ph === "revealing") {
     const mode = S.game.rounds[S.game.r].mode;
-    const dbl = S.doubled[i] ? " x2!" : "";
+    const dbl = S.doubled[i] ? " · x2" : "";
     if (mode === "buzz") {
       if (S.buzz.holder === i) return { cls: "buzzed", mood: "think", status: "Answer!" };
       if (S.buzz.locked.has(i)) return { cls: "out", mood: "sad", status: "Locked out" };
-      return { cls: "", mood: "idle", status: S.buzz.holder === null ? "Ready to buzz" : "Wait..." };
+      return { cls: "", mood: "idle", status: S.buzz.holder === null ? "Ready to buzz" : "Wait" };
     }
-    return S.answers[i] ? { cls: "locked", mood: "think", status: "Locked in" + dbl } : { cls: "", mood: "idle", status: "Thinking..." + dbl };
+    return S.answers[i] ? { cls: "locked", mood: "think", status: "Locked in" + dbl } : { cls: "", mood: "idle", status: "Thinking" + dbl };
   }
-  if (["potato", "potatoJudging", "potatoPause"].includes(ph) && i === S.game.potato.holder) return { cls: "hot", mood: "think", status: "Hot potato!" };
+  if (["potato", "potatoJudging", "potatoPause"].includes(ph) && i === S.game.potato.holder) return { cls: "hot", mood: "think", status: "Hot potato" };
   return { cls: "", mood: "idle", status: "" };
 }
 
@@ -1068,40 +1437,40 @@ function renderPods(animate = false) {
   S.dom.pods.innerHTML = S.players.map((pl, i) => {
     const st = podState(i);
     const from = animate && S.before ? S.before[i] : pl.score;
+    const hpOn = Math.ceil(pl.hp / 10);
     const tokens = inGame && pl.joined
-      ? `${[0, 1].map((k) => `<span class="bz-tok x2 ${k < pl.doubles ? "" : "used"}">x2</span>`).join("")}<span class="bz-tok throw ${pl.throws ? "" : "used"}">Throw</span>` : "";
+      ? `${[0, 1].map((k) => `<span class="bz-tok ${k < pl.doubles ? "" : "used"}">x2</span>`).join("")}<span class="bz-tok ${pl.throws ? "" : "used"}">Throw</span>` : "";
+    const body = pl.joined
+      ? `<div class="sc" data-from="${from}" data-to="${pl.score}">${inGame ? fmtNum(from) : "Ready"}</div>
+         ${inGame ? `<div class="bz-hp ${pl.hp <= 30 ? "low" : ""}" title="Health ${pl.hp}">${Array.from({ length: 10 }, (_, k) => `<i class="${k < hpOn ? "on" : ""}"></i>`).join("")}</div><div class="bz-toks">${tokens}</div>` : ""}`
+      : '<div class="join">Press <span class="k-red">red</span> to join</div>';
     return `<div class="bz-pod ${st.cls}" style="--pc:${PLAYER_COLORS[i]}" data-act="pod" data-p="${i}">
-      <div class="bz-delta" data-p="${i}"></div>
-      ${st.ko ? '<div class="bz-ko">K.O.</div>' : ""}
-      <div class="bz-avatar">${avatar(i, st.mood)}</div>
-      <div class="bz-name">${esc(pl.name)}</div>
-      ${pl.joined
-        ? `<div><div class="bz-score" data-from="${from}" data-to="${pl.score}">${inGame ? from : "Ready"}</div>${inGame ? `<div class="bz-hp" title="Health ${pl.hp}"><i style="width:${pl.hp}%"></i></div><div class="bz-tokens">${tokens}</div>` : ""}</div>`
-        : '<div class="bz-join">Press <b class="c-red">red</b> to join</div>'}
-      <div class="bz-desk"><span class="bz-dome ${S.lights[i] ? "lit" : ""}"></span>
-        <span class="bz-keys">${COLORS.map((c) => `<i data-b="${c}" style="background:var(--${c});color:var(--${c})"></i>`).join("")}</span></div>
-      <div class="bz-status">${esc(st.status)}</div>
-    </div>`;
+      <div class="bz-delta" data-p="${i}"></div>${st.ko ? '<div class="bz-ko">K.O.</div>' : ""}
+      <div class="row1"><div class="bz-face">${avatar(i, st.mood)}</div>
+        <div class="bz-who"><div class="nm">${esc(pl.name)}</div>${body}</div>
+        <div class="bz-btns"><span class="bz-dome ${S.lights[i] ? "lit" : ""}"></span>
+          <span class="bz-keys">${COLORS.map((c) => `<i data-b="${c}" style="--kc:var(--k-${c})"></i>`).join("")}</span></div></div>
+      <div class="bz-status">${esc(st.status)}</div><div class="bz-desk"></div></div>`;
   }).join("");
   if (!animate || !S.results) return;
   S.results.forEach((r, i) => {
     if (!r || !r.delta) return;
     const d = S.dom.pods.querySelector(`.bz-delta[data-p="${i}"]`);
-    d.textContent = (r.delta > 0 ? "+" : "") + r.delta;
+    d.textContent = (r.delta > 0 ? "+" : "") + fmtNum(r.delta);
     d.classList.add("show", r.delta > 0 ? "plus" : "minus");
   });
   countUp();
 }
 
 function countUp() {
-  S.dom.pods.querySelectorAll(".bz-score[data-to]").forEach((el) => {
+  S.dom.pods.querySelectorAll(".sc[data-to]").forEach((el) => {
     const from = +el.dataset.from;
     const to = +el.dataset.to;
     if (from === to) return;
     const start = now();
     const step = () => {
       const k = Math.min(1, (now() - start) / 900);
-      el.textContent = Math.round(from + (to - from) * (1 - Math.pow(1 - k, 3)));
+      el.textContent = fmtNum(Math.round(from + (to - from) * (1 - Math.pow(1 - k, 3))));
       if (k < 1 && el.isConnected) requestAnimationFrame(step);
     };
     requestAnimationFrame(step);
@@ -1122,6 +1491,7 @@ function onClick(e) {
   else if (act === "answerTime") { S.answerTime = +v; savePrefs(); renderMain(); }
   else if (act === "buzzWindow") { S.buzzWindow = +v; savePrefs(); renderMain(); }
   else if (act === "voice") { S.voice = v === "on"; if (!S.voice) shutUp(); savePrefs(); renderMain(); if (S.voice) say("Bolt here. I'm back!"); }
+  else if (act === "music") { S.music = v === "on"; if (!S.music) musicStop(); savePrefs(); renderMain(); }
   else if (act === "start") startGame();
   else if (act === "calibrate") startCalibrate();
   else if (act === "calReset") { S.layout = { ...DEFAULT_LAYOUT }; S.lookup = buildLookup(S.layout); savePrefs(); toast("Default button layout restored."); showLobby(); }
@@ -1150,23 +1520,30 @@ export async function render(root) {
   const prefs = loadPrefs();
   const stage = document.createElement("div");
   stage.className = "bz-stage";
-  stage.innerHTML = `<header class="bz-top"><div class="bz-host">${HOST_SVG}</div><div class="bz-bubble" aria-live="polite"></div><div class="bz-meta"></div></header>
-    <div class="bz-timer"><i></i></div><main class="bz-main"></main><footer class="bz-pods"></footer>`;
+  stage.innerHTML = `<div class="bz-world" aria-hidden="true"><canvas class="bz-stars"></canvas><div class="bz-horizon"></div>
+      <div class="bz-grid"></div><div class="bz-grid ceiling"></div><div class="bz-scan"></div></div>
+    <div class="bz-hudline" aria-hidden="true"></div>
+    <header class="bz-top"><div class="bz-host"><canvas aria-hidden="true"></canvas></div>
+      <div class="bz-bubble bz-holo" aria-live="polite"><span class="bz-eyebrow cyan">Bolt · host</span><span class="t"></span><span class="bz-tick tr"></span><span class="bz-tick bl"></span></div>
+      <div class="bz-meta"></div></header>
+    <main class="bz-main"></main><footer class="bz-pods"></footer><div class="bz-strike" hidden></div>`;
   document.body.append(stage);
   const subjects = setup.subjects;
   const savedSel = subjects.findIndex((s) => s.id === prefs.subject);
   S = {
-    dom: { stage, host: stage.querySelector(".bz-host"), bubble: stage.querySelector(".bz-bubble"), meta: stage.querySelector(".bz-meta"),
-      timer: stage.querySelector(".bz-timer"), bar: stage.querySelector(".bz-timer i"), main: stage.querySelector(".bz-main"), pods: stage.querySelector(".bz-pods") },
+    dom: { stage, bubble: stage.querySelector(".bz-bubble"), say: stage.querySelector(".bz-bubble .t"), meta: stage.querySelector(".bz-meta"),
+      marquee: stage.querySelector(".bz-hudline"), main: stage.querySelector(".bz-main"), pods: stage.querySelector(".bz-pods"), strike: stage.querySelector(".bz-strike"), clock: null },
+    orb: makeOrb(stage.querySelector(".bz-host canvas")),
+    stars: makeStars(stage.querySelector(".bz-stars")),
     subjects, history: setup.history, sel: Math.max(0, savedSel >= 0 ? savedSel : subjects.findIndex((s) => s.questions >= MIN_SUBJECT_QUESTIONS)),
-    focus: prefs.focus, length: prefs.length, answerTime: prefs.answerTime, buzzWindow: prefs.buzzWindow, voice: prefs.voice, prize: prefs.prize,
+    focus: prefs.focus, length: prefs.length, answerTime: prefs.answerTime, buzzWindow: prefs.buzzWindow, voice: prefs.voice, music: prefs.music, prize: prefs.prize,
     layout: prefs.layout, lookup: buildLookup(prefs.layout),
     players: [0, 1, 2, 3].map((i) => ({ name: (typeof prefs.names[i] === "string" && prefs.names[i].trim()) ? prefs.names[i].trim().slice(0, 20) : `Player ${i + 1}`,
       joined: false, score: 0, hp: 100, doubles: 2, throws: 1, stats: { fastest: 0, damage: 0, snatched: 0, kos: 0 } })),
-    lights: [false, false, false, false], phase: "lobby", phaseAt: now(), auto: null, speakingUntil: 0, padId: undefined, prev: [], game: null,
+    lights: [false, false, false, false], phase: "lobby", phaseAt: now(), auto: null, speakingUntil: 0, padId: undefined, prev: [], game: null, token: 0,
   };
   stage.addEventListener("click", onClick);
-  if (!subjects.length) { S.dom.main.innerHTML = '<div class="bz-center"><div class="bz-title sm">No questions yet</div><p class="bz-rules">Import a subject first.</p></div>'; return; }
+  if (!subjects.length) { S.dom.main.innerHTML = '<div class="bz-center"><div class="bz-word sm">No questions yet</div><p class="bz-lead">Import a subject first.</p></div>'; return; }
   if ("speechSynthesis" in window) { chooseVoice(); speechSynthesis.onvoiceschanged = chooseVoice; }
   showLobby();
   rafId = requestAnimationFrame(tick);
@@ -1176,8 +1553,11 @@ export function cleanup() {
   cancelAnimationFrame(rafId);
   if (!S) return;
   stopBlink();
+  musicStop();
   shutUp();
   clearTimeout(S.pickTimer);
+  clearTimeout(S.marqueeTimer);
+  clearTimeout(S.strikeTimer);
   const lightsWereOn = !S.lightsOff;
   S.dom.stage.remove();
   document.querySelectorAll(".bz-confetti").forEach((c) => c.remove());
