@@ -102,7 +102,7 @@ class BuzzPlayer(BaseModel):
 
 class BuzzGameBody(BaseModel):
     subject_id: str = Field(max_length=40)
-    focus: str = Field(default="all", pattern="^(all|pyq|exam)$")
+    focus: str = Field(default="est-all", pattern="^(est|mst)-(all|pyq)$")  # exam, then topic focus
     players: list[BuzzPlayer] = Field(min_length=1, max_length=4)
     winner: str = Field(default="", max_length=60)
     prize: str = Field(default="", max_length=80)
@@ -268,10 +268,10 @@ def create_app() -> FastAPI:
         return services.buzz_setup(conn)
 
     @app.get(f"{API}/buzz/questions")
-    def buzz_questions(subject_id: str, focus: str = "all", count: int = Query(40, ge=1, le=120),
+    def buzz_questions(subject_id: str, exam: str = "EST", focus: str = "all", count: int = Query(40, ge=1, le=120),
                        conn: sqlite3.Connection = Depends(get_conn)):
         try:
-            return services.buzz_questions(conn, subject_id, focus, count)
+            return services.buzz_questions(conn, subject_id, exam, focus, count)
         except KeyError:
             raise _not_found("subject")
         except ValueError as exc:

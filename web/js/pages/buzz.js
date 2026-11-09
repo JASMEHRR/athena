@@ -17,13 +17,15 @@ const COLORS = ["blue", "orange", "green", "yellow"]; // answer buttons, top to 
 // The receiver reports 20 buttons, 5 per handset, in HID order red, yellow, green, orange, blue.
 const DEFAULT_LAYOUT = { stride: 5, red: 0, yellow: 1, green: 2, orange: 3, blue: 4 };
 const PLAYER_COLORS = ["#22d3ee", "#f17a11", "#a78bfa", "#facc15"];
-const SKIN = ["#f1c27d", "#c68642", "#e0ac69", "#8d5524"];
 const LENGTHS = {
   short: { label: "Short", ff: 3, buzz: 6, snatch: 3, potatoes: 1, final: 3 },
   normal: { label: "Normal", ff: 5, buzz: 10, snatch: 5, potatoes: 2, final: 5 },
   long: { label: "Long", ff: 8, buzz: 16, snatch: 8, potatoes: 3, final: 8 },
 };
-const FOCI = [["all", "All topics"], ["pyq", "Past papers"], ["exam", "Exam syllabus"]];
+const FOCI = [["all", "Whole syllabus"], ["pyq", "Past-paper topics"]];
+// MST: the decks on the mid-semester syllabus. EST: the whole course, leaning on what came after the MST.
+const EXAMS = { EST: { label: "EST", long: "End-semester", blurb: "Whole course, weighted to what came after the MST" },
+  MST: { label: "MST", long: "Mid-semester", blurb: "Only the decks on the MST syllabus" } };
 const ANSWER_TIMES = [5, 10, 15];
 const BUZZ_WINDOWS = [1, 2, 3];
 const POINTS = { base: 500, speed: 500, buzz: 500, penalty: 250, snatch: 300, pass: 100, boom: 500, ko: 500 };
@@ -65,14 +67,8 @@ const LINES = {
   pyq: ["Fun fact: this topic was in your {exam} {year} paper."],
 };
 
-// ------------------------------------------------------------------ contestants (original cartoon faces)
-
-const HAIR = [
-  '<path d="M14 36 Q14 8 40 8 Q66 8 66 36 Q58 20 40 21 Q22 20 14 36Z" fill="#3b2a1a"/>',
-  '<path d="M12 44 Q9 6 40 6 Q71 6 68 44 L66 64 Q62 30 40 23 Q18 30 14 64Z" fill="#1c1c1c"/>',
-  '<circle cx="40" cy="11" r="11" fill="#5a3a22"/><path d="M14 36 Q15 13 40 15 Q65 13 66 36 Q56 22 40 23 Q24 22 14 36Z" fill="#5a3a22"/>',
-  '<path d="M14 32 L20 10 L28 22 L36 5 L44 22 L52 8 L58 22 L66 32 Q60 19 40 19 Q20 19 14 32Z" fill="#b45309"/>',
-];
+// ------------------------------------------------------------------ contestants: neutral faces in the player's colour
+// No hair, skin tone or other identity cues, so anyone can be any player.
 
 function avatar(i, mood) {
   const eyes = {
@@ -89,8 +85,10 @@ function avatar(i, mood) {
     ko: '<path d="M30 58 Q34 54 38 58 T46 58 T52 57" stroke="#111" stroke-width="2.5" fill="none" stroke-linecap="round"/>',
     think: '<ellipse cx="44" cy="57" rx="4" ry="5" fill="#7a1f1f"/>',
   }[mood];
-  return `<svg viewBox="0 0 80 80" aria-hidden="true"><circle cx="40" cy="46" r="26" fill="${SKIN[i]}"/>${HAIR[i]}${eyes}${mouth}
-    <path d="M14 80 Q16 70 40 70 Q64 70 66 80Z" fill="${PLAYER_COLORS[i]}"/></svg>`;
+  const c = PLAYER_COLORS[i];
+  return `<svg viewBox="0 0 80 80" aria-hidden="true"><circle cx="40" cy="44" r="30" fill="${c}"/>
+    <circle cx="40" cy="44" r="30" fill="url(#bz-shade)"/><g transform="translate(0 2)">${eyes}${mouth}</g>
+    <defs><radialGradient id="bz-shade" cx=".35" cy=".3" r=".8"><stop offset="0" stop-color="#fff" stop-opacity=".35"/><stop offset="1" stop-color="#000" stop-opacity=".18"/></radialGradient></defs></svg>`;
 }
 
 // ------------------------------------------------------------------ the host: a particle orb
@@ -304,8 +302,11 @@ function loadPrefs() {
     length: LENGTHS[p.length] ? p.length : "normal",
     answerTime: ANSWER_TIMES.includes(p.answerTime) ? p.answerTime : 10,
     buzzWindow: BUZZ_WINDOWS.includes(p.buzzWindow) ? p.buzzWindow : 2,
-    voice: typeof p.voice === "boolean" ? p.voice : true,
+    // Until someone picks a voice, it stays off unless a natural-sounding one is available (see rankVoices).
+    voice: typeof p.voice === "boolean" ? p.voice : false,
+    voiceChosen: p.voiceChosen === true,
     voiceName: typeof p.voiceName === "string" ? p.voiceName : "",
+    exam: EXAMS[p.exam] ? p.exam : "EST",
     music: typeof p.music === "boolean" ? p.music : true,
     prize: typeof p.prize === "string" ? p.prize.slice(0, 80) : "Bragging rights",
     focus: FOCI.some(([k]) => k === p.focus) ? p.focus : "all",
@@ -320,7 +321,8 @@ function savePrefs() {
   try {
     localStorage.setItem("athena-buzz", JSON.stringify({
       names: S.players.map((p) => p.name), length: S.length, answerTime: S.answerTime, buzzWindow: S.buzzWindow,
-      voice: S.voice, voiceName: S.voiceName, music: S.music, prize: S.prize, focus: S.focus, subject: subject ? subject.id : "", layout: S.layout,
+      voice: S.voice, voiceChosen: S.voiceChosen, voiceName: S.voiceName, exam: S.exam,
+      music: S.music, prize: S.prize, focus: S.focus, subject: subject ? subject.id : "", layout: S.layout,
     }));
   } catch { /* private mode: settings just reset next time */ }
 }
@@ -450,8 +452,12 @@ function rankVoices() {
   const score = (v) => (/natural/i.test(v.name) ? 100 : 0) + (/online/i.test(v.name) ? 20 : 0) + (/^google/i.test(v.name) ? 50 : 0)
     + (/^en-IN/i.test(v.lang) ? 15 : /^en-GB/i.test(v.lang) ? 10 : 5);
   voices = speechSynthesis.getVoices().filter((v) => /^en/i.test(v.lang)).sort((a, b) => score(b) - score(a));
-  if (S && S.phase === "lobby") renderMain();
+  if (!S) return;
+  // Robotic voices made the host feel cheap, so the voice starts on only when a natural one exists.
+  if (!S.voiceChosen) S.voice = voices.some(isNatural);
+  if (S.phase === "lobby") renderMain();
 }
+const isNatural = (v) => /natural/i.test(v.name);
 const voiceLabel = (v) => v.name.replace(/^(Microsoft|Google)\s+/i, "").replace(/\s*\(Natural\)|\s+Online|\s+-\s+.*$/gi, "").trim();
 const currentVoice = () => voices.find((v) => v.name === S.voiceName) || voices[0] || null;
 
@@ -589,8 +595,11 @@ function onButton(p, b) {
   const pl = S.players[p];
   switch (S.phase) {
     case "lobby": lobbyButton(p, b); return;
-    case "final":
-      if (pl.joined && settled()) { if (b === "red") startGame(); else if (b === "green") showLobby(); }
+    case "final": case "recap":
+      if (!pl.joined || !settled()) return;
+      if (b === "red") startGame();
+      else if (b === "green") showLobby();
+      else if (b === "blue") { if (S.phase === "final") showRecap(); else backToFinal(); }
       return;
     case "intro": case "reveal": case "scores": case "boom":
       if (pl.joined && b === "red" && settled()) runAuto();
@@ -617,7 +626,7 @@ function lobbyButton(p, b) {
   }
   if (!pl.joined) return;
   if (b === "blue" || b === "yellow") moveSubject(b === "blue" ? -1 : 1);
-  else if (b === "orange") cycleFocus();
+  else if (b === "orange") cycleMode();
   else if (b === "green") startGame();
 }
 
@@ -710,10 +719,19 @@ function countdown(then) {
 
 // ------------------------------------------------------------------ lobby
 
+// Subjects in board order for the chosen exam: soonest exam first, then the rest by name.
+function boardOrder() {
+  const days = (s) => (s.exams[S.exam] ? s.exams[S.exam].days_left : 9999);
+  return S.subjects.map((s, i) => i).sort((a, b) => days(S.subjects[a]) - days(S.subjects[b])
+    || S.subjects[a].short_name.localeCompare(S.subjects[b].short_name));
+}
+
 function moveSubject(dir) {
-  const n = S.subjects.length;
+  const order = boardOrder();
+  const n = order.length;
+  const at = Math.max(0, order.indexOf(S.sel));
   for (let k = 1; k <= n; k++) {
-    const i = (((S.sel + dir * k) % n) + n) % n;
+    const i = order[(((at + dir * k) % n) + n) % n];
     if (subjectCount(S.subjects[i]) >= MIN_SUBJECT_QUESTIONS) { S.sel = i; break; }
   }
   SFX.move();
@@ -723,18 +741,35 @@ function moveSubject(dir) {
   S.pickTimer = setTimeout(() => { if (S && S.phase === "lobby") line("pick", { subject: S.subjects[S.sel].name }); }, 700);
 }
 
-function cycleFocus() {
-  const i = FOCI.findIndex(([k]) => k === S.focus);
-  S.focus = FOCI[(i + 1) % FOCI.length][0];
+// Orange steps through the four ways to play: EST whole course, EST past papers, MST, MST past papers.
+function cycleMode() {
+  const modes = [["EST", "all"], ["EST", "pyq"], ["MST", "all"], ["MST", "pyq"]];
+  const i = modes.findIndex(([e, f]) => e === S.exam && f === S.focus);
+  [S.exam, S.focus] = modes[(i + 1) % modes.length];
+  applyExamTheme();
   SFX.move();
   savePrefs();
   renderMain();
-  say(FOCI.find(([k]) => k === S.focus)[1] + ".");
+  say(`${EXAMS[S.exam].long} prep. ${FOCI.find(([k]) => k === S.focus)[1]}.`);
+}
+
+function setExam(exam) {
+  S.exam = exam;
+  applyExamTheme();
+  savePrefs();
+  renderMain();
+}
+
+// EST shows run in gold, MST shows in cyan, so it is obvious at a glance which exam you are revising for.
+function applyExamTheme() {
+  S.dom.stage.classList.toggle("est", S.exam === "EST");
+  S.dom.stage.classList.toggle("mst", S.exam === "MST");
 }
 
 function subjectCount(s) {
   if (!s) return 0;
-  return S.focus === "pyq" && s.pyq_questions ? s.pyq_questions : S.focus === "exam" && s.exam_questions ? s.exam_questions : s.questions;
+  const c = s.counts[S.exam];
+  return S.focus === "pyq" && c.pyq ? c.pyq : c.all;
 }
 
 function showLobby() {
@@ -742,6 +777,7 @@ function showLobby() {
   musicStop();
   setPhase("lobby");
   setScene(S.sceneBase);
+  applyExamTheme();
   S.game = null;
   dim(false);
   renderTop();
@@ -767,7 +803,7 @@ async function startGame() {
   const main = L.ff + L.buzz + L.snatch + L.final;
   let data;
   try {
-    data = await api.get(`/buzz/questions${qs({ subject_id: subject.id, focus: S.focus, count: Math.min(120, main + L.potatoes * 12) })}`);
+    data = await api.get(`/buzz/questions${qs({ subject_id: subject.id, exam: S.exam, focus: S.focus, count: Math.min(120, main + L.potatoes * 12) })}`);
   } catch (err) {
     if (S) { S.loading = false; toast(err.message); }
     return;
@@ -785,9 +821,9 @@ async function startGame() {
     { mode: "potato", name: "Hot Potato", potatoes: L.potatoes },
     { mode: "final", name: "Double Trouble", mult: 2, penalty: true, n: take(L.final) },
   ].map((r) => (r.n ? { ...r, questions: pool.splice(0, r.n) } : r)).filter((r) => r.mode === "potato" || r.questions.length);
-  S.game = { subject, focus: data.focus, rounds, r: -1, qi: 0, spare: pool, used: [], potato: null };
+  S.game = { subject, exam: data.exam || S.exam, focus: data.focus, rounds, r: -1, qi: 0, spare: pool, used: [], potato: null, misses: [] };
   S.players.forEach((p) => Object.assign(p, { score: 0, hp: 100, doubles: 2, throws: 1, stats: { fastest: 0, damage: 0, snatched: 0, kos: 0 } }));
-  if (data.focus !== S.focus) toast(`No ${FOCI.find(([k]) => k === S.focus)[1].toLowerCase()} questions in ${subject.short_name} yet, so this show uses all topics.`);
+  if (data.focus !== S.focus) toast(`No past-paper topics for the ${S.exam} in ${subject.short_name} yet, so this show uses the whole ${S.exam} syllabus.`);
   savePrefs();
   SFX.fanfare();
   nextRound();
@@ -842,7 +878,8 @@ function startQuestion() {
   renderMain(true);
   renderPods();
   musicStart();
-  say(S.q.stem, { bubble: false });
+  // Long questions read by a robotic voice sound worst, so they are only read aloud by a natural voice.
+  if (S.voice && currentVoice() && isNatural(currentVoice())) say(S.q.stem, { bubble: false });
   S.dom.say.textContent = round.mode === "buzz" ? "Red buzzer to answer!" : (round.mode === "final" ? "Double points! Red doubles again." : "Lock in your answer! Red to double up.");
 }
 
@@ -985,6 +1022,9 @@ async function reveal({ suspense = true } = {}) {
   const kos = checkKOs();
   kos.forEach((i) => { S.results[i].ko = true; });
   S.answer = ans;
+  const missed = round.mode === "buzz" ? !joined().some((i) => S.pending[i] > 0)
+    : joined().some((i) => !(S.answers[i] && S.answers[i].choice === ans.index));
+  if (missed) addMiss(S.q, ans);
   setPhase("reveal");
   const winners = joined().filter((i) => S.results[i] && S.results[i].delta > 0);
   if (winners.length) {
@@ -1006,6 +1046,13 @@ async function reveal({ suspense = true } = {}) {
   else if (S.snatch && S.snatch.amount) line("snatch", { name: S.players[S.snatch.thief].name, victim: S.players[S.snatch.victim].name, pts: S.snatch.amount });
   else line(winners.length ? "right" : "nobody", {}, pyq ? fill(LINES.pyq[0], pyq) : "");
   autoAdvance(nextQuestion, 3200 + (ans.explanation ? 1800 : 0), 9000);
+}
+
+// Remember a question someone got wrong or nobody answered, for the revision list at the end.
+function addMiss(q, ans) {
+  const g = S.game;
+  if (!g || ans.index < 0 || g.misses.some((m) => m.id === q.id)) return;
+  g.misses.push({ id: q.id, stem: q.stem, answer: q.options[ans.index], why: ans.explanation || "", pyq: (q.pyq && q.pyq[0]) || null });
 }
 
 function applySnatch(right) {
@@ -1077,7 +1124,7 @@ async function potatoAnswer(choice) {
   const correct = choice === ans.index;
   pot.answered = { choice, correct, index: ans.index };
   if (correct) { S.players[pot.holder].score += POINTS.pass; pot.passTo = nextHolder(pot.holder); SFX.right(); }
-  else { pot.passTo = pot.holder; SFX.wrong(); strike(); }
+  else { pot.passTo = pot.holder; SFX.wrong(); strike(); addMiss(S.q, ans); }
   potatoPause();
 }
 
@@ -1183,10 +1230,25 @@ function showFinal() {
   else line("winner", { name: S.players[S.winners[0]].name });
   const winnerNames = S.winners.map((i) => S.players[i].name).join(" and ");
   api.post("/buzz/games", {
-    subject_id: S.game.subject.id, focus: S.game.focus,
+    subject_id: S.game.subject.id, focus: `${S.game.exam.toLowerCase()}-${S.game.focus}`,
     players: order.map((i) => ({ name: S.players[i].name, score: S.players[i].score })),
     winner: winnerNames.slice(0, 60), prize: S.prize.slice(0, 80),
   }).catch((err) => toast("Could not save this game to the history: " + err.message));
+}
+
+// The revision list: every question that tripped someone up, with the answer and why.
+function showRecap() {
+  if (!S.game.misses.length) { say("Nobody missed a thing. Impressive."); return; }
+  setPhase("recap");
+  renderMain(true);
+  renderPods();
+  say(`${S.game.misses.length} to revise. Read the why, not just the answer.`);
+}
+function backToFinal() {
+  setPhase("final");
+  renderTop();
+  renderMain(true);
+  renderPods();
 }
 
 function confetti(ms = 5000) {
@@ -1246,7 +1308,7 @@ function renderTop() {
   let meta = "";
   if (g && g.r >= 0 && g.r < g.rounds.length && S.phase !== "final") {
     const round = g.rounds[g.r];
-    meta = `<span class="bz-roundtag">Round ${g.r + 1} · ${esc(round.name)}${round.mult > 1 ? " x2" : ""}</span>
+    meta = `<span class="bz-roundtag">${g.exam} prep · Round ${g.r + 1} · ${esc(round.name)}${round.mult > 1 ? " x2" : ""}</span>
       <span class="bz-eyebrow">${esc(g.subject.short_name)} · ${esc(FOCI.find(([k]) => k === g.focus)[1])}</span>`;
   } else if (S.phase === "final") {
     meta = '<span class="bz-roundtag">Final results</span>';
@@ -1265,7 +1327,7 @@ function renderMain(enter = false) {
   m.innerHTML = {
     lobby: lobbyHTML, calibrate: calibrateHTML, intro: introHTML, countdown: countdownHTML, question: questionHTML,
     revealing: questionHTML, reveal: questionHTML, potato: potatoHTML, potatoJudging: potatoHTML, potatoPause: potatoHTML,
-    boom: boomHTML, scores: scoresHTML, final: finalHTML,
+    boom: boomHTML, scores: scoresHTML, final: finalHTML, recap: recapHTML,
   }[S.phase]();
   S.dom.clock = m.querySelector(".bz-clock");
   if (S.phase === "lobby") {
@@ -1276,35 +1338,42 @@ function renderMain(enter = false) {
 
 function lobbyHTML() {
   const pad = findPad();
-  const tiles = S.subjects.map((s, i) => {
+  const tiles = boardOrder().map((i) => {
+    const s = S.subjects[i];
     const n = subjectCount(s);
-    const exam = s.next_exam ? `<span class="exam">${esc(s.next_exam.type || "Exam")} in ${s.next_exam.days_left}d</span>` : "";
-    return `<button class="bz-tile ${i === S.sel ? "sel" : ""}" style="--sc:${esc(s.color || "#22d3ee")}" data-act="subject" data-i="${i}" ${n < MIN_SUBJECT_QUESTIONS ? "disabled" : ""}>
-      <span class="bar"></span><span class="code">${esc(s.short_name)}</span><span class="name">${esc(s.name)}</span>
-      <span class="foot"><span class="count">${fmtNum(n)} Qs</span>${exam}</span></button>`;
+    const e = s.exams[S.exam];
+    const when = e ? (e.days_left === 0 ? "today" : e.days_left === 1 ? "tomorrow" : `${e.days_left}d`) : "";
+    const exam = e ? `<span class="exam">${S.exam} ${esc(fmtDate(e.date))} · ${when}</span>` : "";
+    const count = n >= MIN_SUBJECT_QUESTIONS ? `${fmtNum(n)} Qs` : n ? `Only ${n} Qs` : "No quiz questions yet";
+    return `<button class="bz-tile ${i === S.sel ? "sel" : ""} ${e ? "soon" : ""}" style="--sc:${esc(s.color || "#22d3ee")}" data-act="subject" data-i="${i}" ${n < MIN_SUBJECT_QUESTIONS ? "disabled" : ""}>
+      <span class="code">${esc(s.short_name)}</span><span class="name">${esc(s.name)}</span>
+      <span class="foot"><span class="count">${count}</span>${exam}</span></button>`;
   }).join("");
+  const examSwitch = Object.keys(EXAMS).map((k) => `<button class="bz-exam ${k === S.exam ? "on" : ""} ${k.toLowerCase()}" data-act="exam" data-v="${k}">
+    <span class="big">${EXAMS[k].label}</span><span class="sub">${EXAMS[k].long}</span><span class="ex-why">${EXAMS[k].blurb}</span></button>`).join("");
   const seg = (label, list, cur, act, show = (x) => x) => `<div class="bz-setting"><span class="bz-eyebrow">${label}</span><div class="bz-seg">${
     list.map((x) => `<button class="${String(x) === String(cur) ? "on" : ""}" data-act="${act}" data-v="${esc(String(x))}">${esc(show(x))}</button>`).join("")}</div></div>`;
   const voiceList = voices.slice(0, 4);
   const voicePicker = seg(`Host voice${voices.some((v) => /natural/i.test(v.name)) ? "" : " · Edge has the most natural voices"}`,
     ["off", ...voiceList.map((v) => v.name)], S.voice && currentVoice() ? currentVoice().name : "off", "voice",
     (x) => (x === "off" ? "Off" : voiceLabel(voiceList.find((v) => v.name === x))));
-  const hist = S.history.length ? S.history.slice(0, 6).map((h) => `<li><span class="d">${esc(fmtDate(h.played_at))} · ${esc(h.short_name)}</span>
+  const hist = S.history.length ? S.history.slice(0, 6).map((h) => `<li><span class="d">${esc(fmtDate(h.played_at))} · ${esc(h.short_name)}${/^(est|mst)-/.test(h.focus) ? ` · ${esc(h.focus.slice(0, 3).toUpperCase())}` : ""}</span>
       <span class="w">${esc(h.winner || "?")}</span><span class="s">${h.players[0] ? fmtNum(h.players[0].score) : ""}</span>${h.prize ? `<span class="p">${esc(h.prize)}</span>` : ""}</li>`).join("")
     : '<li><span class="d">No shows yet</span><span class="w">The first winner goes here</span><span></span></li>';
   return `
   <div class="bz-legend"><span><i style="--kc:var(--red)"></i>Red join</span>
     <span><i style="--kc:var(--k-blue)"></i><i style="--kc:var(--k-yellow)"></i>Blue / yellow subject</span>
-    <span><i style="--kc:var(--k-orange)"></i>Orange topics</span><span><i style="--kc:var(--k-green)"></i>Green start</span>
+    <span><i style="--kc:var(--k-orange)"></i>Orange EST / MST and topics</span><span><i style="--kc:var(--k-green)"></i>Green start</span>
     ${pad ? "" : "<span>Press any buzzer to wake them up</span>"}</div>
   <div class="bz-lobby">
     <section class="bz-holo bz-panel">
-      <div class="bz-panelhead"><span class="bz-eyebrow cyan">Choose your subject</span><span class="bz-eyebrow">Soonest exam first</span></div>
+      <div class="bz-panelhead"><span class="bz-eyebrow cyan">${EXAMS[S.exam].long} revision · choose a subject</span><span class="bz-eyebrow">Next ${S.exam} first</span></div>
       <div class="bz-board">${tiles}</div>
       <div class="bz-setting"><span class="bz-eyebrow">Hall of fame</span><ul class="bz-hist">${hist}</ul></div>
     </section>
     <section class="bz-holo bz-panel">
-      <div class="bz-cta" style="justify-content:space-between;align-items:center"><button class="bz-btn go" data-act="start">Start the show</button><button class="bz-btn ghost" data-act="calibrate">Fix buttons</button></div>
+      <div class="bz-examswitch">${examSwitch}</div>
+      <div class="bz-cta" style="justify-content:space-between;align-items:center"><button class="bz-btn go" data-act="start">Start ${S.exam} show</button><button class="bz-btn ghost" data-act="calibrate">Fix buttons</button></div>
       ${seg("Topics", FOCI.map(([k]) => k), S.focus, "focus", (k) => FOCI.find(([x]) => x === k)[1])}
       <div class="bz-grid2">
         ${seg("Show length", Object.keys(LENGTHS), S.length, "length", (k) => LENGTHS[k].label)}
@@ -1435,10 +1504,24 @@ function finalHTML() {
   const names = S.winners.map((i) => esc(S.players[i].name)).join(" and ");
   return `<div class="bz-center"><div class="bz-trophy" aria-hidden="true">\u{1F3C6}</div>
     <div class="bz-word">${S.winners.length > 1 ? "It's a tie!" : `${names} wins!`}</div>
-    <div class="bz-legend"><span><i style="--kc:var(--red)"></i>Red play again</span><span><i style="--kc:var(--k-green)"></i>Green back to the lobby</span></div>
+    <div class="bz-legend"><span><i style="--kc:var(--red)"></i>Red play again</span><span><i style="--kc:var(--k-green)"></i>Green back to the lobby</span>
+      ${S.game.misses.length ? `<span><i style="--kc:var(--k-blue)"></i>Blue revise ${S.game.misses.length} missed</span>` : ""}</div>
     ${S.prize ?`<div class="bz-prize bz-holo"><span class="bz-eyebrow cyan">The prize</span><div class="v">${esc(S.prize)}</div>${S.winners.length > 1 ? `<span class="bz-eyebrow">Shared by ${names}</span>` : ""}</div>` : ""}
     <div class="bz-badges">${S.badges.map((b) => `<div class="bz-badge bz-holo" style="--pc:${PLAYER_COLORS[b.p]}"><span class="bz-eyebrow">${esc(b.name)}</span>
       <div class="bz-bwho">${esc(S.players[b.p].name)}</div><div class="bz-bwhy">${esc(b.why)}</div></div>`).join("")}</div></div>`;
+}
+
+function recapHTML() {
+  const g = S.game;
+  const items = g.misses.slice(0, 12).map((m, k) => `<li class="bz-miss bz-holo" style="--i:${k}">
+    <p class="q">${esc(m.stem)}</p>
+    <p class="a"><span class="bz-eyebrow cyan">Answer</span>${esc(m.answer)}</p>
+    ${m.why ? `<p class="w">${esc(m.why)}</p>` : ""}
+    ${m.pyq ? `<span class="bz-eyebrow">Past paper · ${esc(m.pyq.exam)} ${esc(m.pyq.year)}, Q${esc(m.pyq.q_no)}</span>` : ""}</li>`).join("");
+  return `<div class="bz-recap"><div class="bz-recaphead"><span class="bz-eyebrow cyan">${g.exam} revision · ${esc(g.subject.short_name)}</span>
+      <div class="bz-word sm">Revise these ${g.misses.length}</div></div>
+    <ol class="bz-misses">${items}</ol>
+    <div class="bz-legend"><span><i style="--kc:var(--k-blue)"></i>Blue back to results</span><span><i style="--kc:var(--red)"></i>Red play again</span><span><i style="--kc:var(--k-green)"></i>Green lobby</span></div></div>`;
 }
 
 function podState(i) {
@@ -1447,7 +1530,7 @@ function podState(i) {
   const ph = S.phase;
   const r = S.results && S.results[i];
   if (ph === "lobby") return { cls: "locked", mood: "happy", status: "Ready" };
-  if (ph === "final") return S.winners.includes(i) ? { cls: "winner", mood: "happy", status: "Winner" } : { cls: "", mood: "sad", status: "" };
+  if (ph === "final" || ph === "recap") return S.winners.includes(i) ? { cls: "winner", mood: "happy", status: "Winner" } : { cls: "", mood: "sad", status: "" };
   if ((ph === "reveal" || ph === "boom") && r) {
     if (r.ko) return { cls: "out", mood: "ko", status: "Knocked out", ko: true };
     if (ph === "boom" && i === S.game.potato.holder) return { cls: "out", mood: "ko", status: "Boom" };
@@ -1523,11 +1606,13 @@ function onClick(e) {
   const v = el.dataset.v;
   if (act === "subject") { S.sel = +el.dataset.i; SFX.move(); savePrefs(); renderMain(); line("pick", { subject: S.subjects[S.sel].name }); }
   else if (act === "focus") { S.focus = v; savePrefs(); renderMain(); }
+  else if (act === "exam" && EXAMS[v]) { setExam(v); say(`${EXAMS[v].long} prep.`); }
   else if (act === "length") { S.length = v; savePrefs(); renderMain(); }
   else if (act === "answerTime") { S.answerTime = +v; savePrefs(); renderMain(); }
   else if (act === "buzzWindow") { S.buzzWindow = +v; savePrefs(); renderMain(); }
   else if (act === "voice") {
     S.voice = v !== "off";
+    S.voiceChosen = true;
     if (S.voice) S.voiceName = v; else shutUp();
     savePrefs();
     renderMain();
@@ -1575,15 +1660,23 @@ export async function render(root) {
       scenes: [...stage.querySelectorAll(".bz-scene")], main: stage.querySelector(".bz-main"), pods: stage.querySelector(".bz-pods"), strike: stage.querySelector(".bz-strike"), clock: null },
     orb: makeOrb(stage.querySelector(".bz-host canvas")),
     sceneBase: Math.floor(Math.random() * 1000), sceneN: 0, sceneFlip: false, voiceName: prefs.voiceName,
-    subjects, history: setup.history, sel: Math.max(0, savedSel >= 0 ? savedSel : subjects.findIndex((s) => s.questions >= MIN_SUBJECT_QUESTIONS)),
-    focus: prefs.focus, length: prefs.length, answerTime: prefs.answerTime, buzzWindow: prefs.buzzWindow, voice: prefs.voice, music: prefs.music, prize: prefs.prize,
+    subjects, history: setup.history, sel: Math.max(0, savedSel),
+    exam: prefs.exam, focus: prefs.focus, length: prefs.length, answerTime: prefs.answerTime, buzzWindow: prefs.buzzWindow,
+    voice: prefs.voice, voiceChosen: prefs.voiceChosen, music: prefs.music, prize: prefs.prize,
     layout: prefs.layout, lookup: buildLookup(prefs.layout),
     players: [0, 1, 2, 3].map((i) => ({ name: (typeof prefs.names[i] === "string" && prefs.names[i].trim()) ? prefs.names[i].trim().slice(0, 20) : `Player ${i + 1}`,
       joined: false, score: 0, hp: 100, doubles: 2, throws: 1, stats: { fastest: 0, damage: 0, snatched: 0, kos: 0 } })),
     lights: [false, false, false, false], phase: "lobby", phaseAt: now(), auto: null, speakingUntil: 0, padId: undefined, prev: [], game: null, token: 0,
   };
   stage.addEventListener("click", onClick);
-  if (!subjects.length) { S.dom.main.innerHTML = '<div class="bz-center"><div class="bz-word sm">No questions yet</div><p class="bz-lead">Import a subject first.</p></div>'; return; }
+  if (!subjects.some((s) => s.counts.EST.all >= MIN_SUBJECT_QUESTIONS)) {
+    S.dom.main.innerHTML = '<div class="bz-center"><div class="bz-word sm">No questions yet</div><p class="bz-lead">Import a subject first.</p></div>';
+    return;
+  }
+  // Start on the saved subject, or else the playable subject with the soonest exam.
+  if (savedSel < 0 || subjectCount(S.subjects[S.sel]) < MIN_SUBJECT_QUESTIONS) {
+    S.sel = boardOrder().find((i) => subjectCount(S.subjects[i]) >= MIN_SUBJECT_QUESTIONS) ?? 0;
+  }
   if ("speechSynthesis" in window) { rankVoices(); speechSynthesis.onvoiceschanged = rankVoices; }
   showLobby();
   rafId = requestAnimationFrame(tick);

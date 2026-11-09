@@ -382,82 +382,117 @@ def buzz_answer(conn: sqlite3.Connection, question_id: str) -> dict:
     return {"answer": q["answer"], "explanation": q.get("explanation", ""), "source_refs": q.get("source_refs", [])}
 
 
-BUZZ_FOCUS = ("all", "pyq", "exam")
+BUZZ_EXAMS = ("EST", "MST")
+BUZZ_FOCUS = ("all", "pyq")
+EST_NEW_SHARE = 0.6  # EST shows weight the part of the course the MST did not cover
 
 
-def _pyq_refs_by_topic(conn: sqlite3.Connection) -> dict[str, list[dict]]:
-    """topic id -> the past-paper questions that examined it (exam, year, question number, marks)."""
+def _pyq_refs_by_topic(conn: sqlite3.Connection, exam: str | None = None) -> dict[str, list[dict]]:
+    """topic id -> the past-paper questions that examined it (exam, year, question number, marks).
+
+    With exam set ("MST" or "EST"), only papers of that kind count.
+    """
     out: dict[str, list[dict]] = {}
     for r in conn.execute("SELECT json FROM c_pyqs"):
         p = json.loads(r["json"])
+        if exam and p.get("exam") != exam:
+            continue
         ref = {"exam": p.get("exam", ""), "year": p.get("year"), "q_no": p.get("q_no", ""), "marks": p.get("marks")}
         for topic_id in p.get("topic_ids", []):
             out.setdefault(topic_id, []).append(ref)
     return out
 
 
-def _buzz_focus_topics(conn: sqlite3.Connection, pyq_refs: dict[str, list[dict]]) -> dict[str, dict[str, set[str]]]:
-    """subject id -> {"pyq": topics a past paper asked about, "exam": topics from decks on the exam syllabus}."""
-    exam_decks = {d["id"] for d in deck_index(conn) if d["mst"]}
+def _buzz_topic_sets(conn: sqlite3.Connection) -> dict[str, dict[str, set[str]]]:
+    """subject id -> {"all": every topic, "mst": topics from MST-syllabus decks, "late": topics after the MST}."""
+    mst_decks = {d["id"] for d in deck_index(conn) if d["mst"]}
     out: dict[str, dict[str, set[str]]] = {}
     for r in conn.execute("SELECT id, subject_id, deck_id FROM c_topics"):
-        sets = out.setdefault(r["subject_id"], {"pyq": set(), "exam": set()})
-        if r["id"] in pyq_refs:
-            sets["pyq"].add(r["id"])
-        if r["deck_id"] in exam_decks:
-            sets["exam"].add(r["id"])
+        sets = out.setdefault(r["subject_id"], {"all": set(), "mst": set(), "late": set()})
+        sets["all"].add(r["id"])
+        sets["mst" if r["deck_id"] in mst_decks else "late"].add(r["id"])
     return out
 
 
+def _buzz_scope(sets: dict[str, set[str]], exam: str) -> set[str]:
+    """The topics an exam covers: the MST decks for an MST, the whole course for an EST."""
+    return sets["mst"] if exam == "MST" and sets["mst"] else sets["all"]
+
+
 def buzz_setup(conn: sqlite3.Connection) -> dict:
-    """Subjects with Buzz-ready questions, soonest exam first, plus recent games."""
-    pyq_refs = _pyq_refs_by_topic(conn)
-    focus_topics = _buzz_focus_topics(conn, pyq_refs)
+    """Every subject with its question counts for each exam and focus, its next MST and EST, and recent games."""
+    sets_by_subject = _buzz_topic_sets(conn)
+    pyq = {"EST": set(_pyq_refs_by_topic(conn, "EST")), "MST": set(_pyq_refs_by_topic(conn, "MST")), "any": set(_pyq_refs_by_topic(conn))}
+    empty = {"all": set(), "mst": set(), "late": set()}
     counts: dict[str, dict[str, int]] = {}
     marks = ",".join("?" * len(BUZZ_TYPES))
     for r in conn.execute(f"SELECT subject_id, topic_id FROM c_questions WHERE hidden = 0 AND type IN ({marks})", BUZZ_TYPES):
-        c = counts.setdefault(r["subject_id"], {"all": 0, "pyq": 0, "exam": 0})
-        c["all"] += 1
-        sets = focus_topics.get(r["subject_id"], {"pyq": set(), "exam": set()})
-        c["pyq"] += r["topic_id"] in sets["pyq"]
-        c["exam"] += r["topic_id"] in sets["exam"]
-    subjects = subject_map(conn)
-    upcoming = next_exam_by_subject(conn)
+        sid, tid = r["subject_id"], r["topic_id"]
+        c = counts.setdefault(sid, {"EST": 0, "MST": 0, "EST_pyq": 0, "MST_pyq": 0, "any_pyq_EST": 0, "any_pyq_MST": 0})
+        for exam in BUZZ_EXAMS:
+            if tid not in _buzz_scope(sets_by_subject.get(sid, empty), exam):
+                continue
+            c[exam] += 1
+            c[f"{exam}_pyq"] += tid in pyq[exam]
+            c[f"any_pyq_{exam}"] += tid in pyq["any"]
+    upcoming: dict[tuple[str, str], dict] = {}
+    for e in upcoming_exams(conn):
+        upcoming.setdefault((e["subject_id"], str(e.get("type") or "EST").upper()), e)
     out = []
-    for sid, c in counts.items():
-        s = subjects.get(sid, {})
-        e = upcoming.get(sid)
-        out.append({"id": sid, "name": s.get("name", sid), "short_name": s.get("short_name", sid), "color": s.get("color", ""),
-                    "questions": c["all"], "pyq_questions": c["pyq"], "exam_questions": c["exam"],
-                    "next_exam": {"type": e.get("type", ""), "date": e["date"], "days_left": e["days_left"]} if e else None})
-    out.sort(key=lambda x: (x["next_exam"] is None, x["next_exam"]["days_left"] if x["next_exam"] else 0, x["short_name"]))
+    for sid, s in subject_map(conn).items():
+        c = counts.get(sid, {})
+        entry = {"id": sid, "name": s.get("name", sid), "short_name": s.get("short_name", sid), "color": s.get("color", ""),
+                 "counts": {}, "exams": {}}
+        for exam in BUZZ_EXAMS:
+            # Past-paper focus uses this exam's own papers when there are any, else any past paper.
+            entry["counts"][exam] = {"all": c.get(exam, 0), "pyq": c.get(f"{exam}_pyq", 0) or c.get(f"any_pyq_{exam}", 0)}
+            e = upcoming.get((sid, exam))
+            entry["exams"][exam] = {"date": e["date"], "days_left": e["days_left"], "time": e.get("time", "")} if e else None
+        out.append(entry)
     return {"subjects": out, "history": buzz_history(conn)}
 
 
-def buzz_questions(conn: sqlite3.Connection, subject_id: str, focus: str = "all", count: int = 40) -> dict:
+def buzz_questions(conn: sqlite3.Connection, subject_id: str, exam: str = "EST", focus: str = "all", count: int = 40) -> dict:
     """Multiple choice and true or false questions for one game, without answers.
 
-    focus "pyq" keeps to topics a past paper examined; "exam" keeps to decks on the exam syllabus.
-    If a focus has no questions for this subject, the game falls back to all topics and says so.
+    exam "MST" keeps to the decks on the MST syllabus. exam "EST" covers the whole course, with
+    EST_NEW_SHARE of the questions from the part after the MST, which the MST never tested.
+    focus "pyq" keeps to topics a past paper examined (this exam's papers first). If a focus has
+    no questions here, the game falls back to the whole scope and says so in "focus".
     Each question lists the past-paper questions on its topic, so the show can mention them.
     """
+    if exam not in BUZZ_EXAMS:
+        raise ValueError(f"exam must be one of {', '.join(BUZZ_EXAMS)}")
     if focus not in BUZZ_FOCUS:
         raise ValueError(f"focus must be one of {', '.join(BUZZ_FOCUS)}")
     if subject_id not in subject_map(conn):
         raise KeyError(subject_id)
-    pyq_refs = _pyq_refs_by_topic(conn)
+    sets = _buzz_topic_sets(conn).get(subject_id, {"all": set(), "mst": set(), "late": set()})
+    refs_exam = _pyq_refs_by_topic(conn, exam)
+    refs_any = _pyq_refs_by_topic(conn)
+    scope = _buzz_scope(sets, exam)
     used = focus
-    topic_ids: list[str] | None = None
-    if focus != "all":
-        topic_ids = sorted(_buzz_focus_topics(conn, pyq_refs).get(subject_id, {}).get(focus, set()))
-    questions = quiz(conn, subject_id, topic_ids or None, list(BUZZ_TYPES), count) if topic_ids != [] else []
-    if focus != "all" and not questions:
+    if focus == "pyq":
+        pool = (set(refs_exam) & scope) or (set(refs_any) & scope)
+        if pool:
+            scope = pool
+        else:
+            used = "all"
+    types = list(BUZZ_TYPES)
+    if exam == "EST" and used == "all" and sets["late"] and sets["mst"]:
+        questions = quiz(conn, subject_id, sorted(sets["late"]), types, round(count * EST_NEW_SHARE))
+        seen = {q["id"] for q in questions}
+        questions += [q for q in quiz(conn, subject_id, sorted(sets["all"]), types, count) if q["id"] not in seen][: count - len(questions)]
+        random.shuffle(questions)
+    else:
+        questions = quiz(conn, subject_id, sorted(scope), types, count) if scope else []
+    if used != "all" and not questions:
         used = "all"
-        questions = quiz(conn, subject_id, None, list(BUZZ_TYPES), count)
+        questions = quiz(conn, subject_id, sorted(_buzz_scope(sets, exam)), types, count)
     questions = [q for q in questions if 2 <= len(q["options"]) <= 4]  # four answer buttons per handset
     for q in questions:
-        q["pyq"] = pyq_refs.get(q["topic_id"], [])[:3]
-    return {"focus": used, "questions": questions}
+        q["pyq"] = (refs_exam.get(q["topic_id"]) or refs_any.get(q["topic_id"], []))[:3]
+    return {"exam": exam, "focus": used, "questions": questions}
 
 
 def buzz_save_game(conn: sqlite3.Connection, subject_id: str, focus: str, players: list[dict], winner: str, prize: str) -> dict:

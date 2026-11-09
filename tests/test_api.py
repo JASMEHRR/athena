@@ -160,16 +160,20 @@ def test_buzz_setup_questions_history_and_lights(client, monkeypatch):
 
     setup = client.get("/api/v1/buzz/setup").json()
     mm = next(s for s in setup["subjects"] if s["id"] == "mm")
-    assert mm["questions"] >= 2 and setup["history"] == []
-    got = client.get("/api/v1/buzz/questions", params={"subject_id": "mm", "focus": "all", "count": 10}).json()
-    assert got["focus"] == "all" and got["questions"]
-    assert all("answer" not in q and 2 <= len(q["options"]) <= 4 and "pyq" in q for q in got["questions"])
-    # The small test content has no past papers, so the past-paper focus falls back to all topics.
+    assert mm["counts"]["EST"]["all"] >= 2 and setup["history"] == []
+    assert set(mm["exams"]) == {"EST", "MST"}
+    assert next(s for s in setup["subjects"] if s["id"] == "emdm")["counts"]["EST"]["all"] == 0  # listed even with no questions
+    for exam in ("EST", "MST"):
+        got = client.get("/api/v1/buzz/questions", params={"subject_id": "mm", "exam": exam, "count": 10}).json()
+        assert got["exam"] == exam and got["focus"] == "all" and got["questions"]
+        assert all("answer" not in q and 2 <= len(q["options"]) <= 4 and "pyq" in q for q in got["questions"])
+    # The small test content has no past papers, so the past-paper focus falls back to the whole scope.
     assert client.get("/api/v1/buzz/questions", params={"subject_id": "mm", "focus": "pyq"}).json()["focus"] == "all"
     assert client.get("/api/v1/buzz/questions", params={"subject_id": "nope"}).status_code == 404
     assert client.get("/api/v1/buzz/questions", params={"subject_id": "mm", "focus": "bad"}).status_code == 400
+    assert client.get("/api/v1/buzz/questions", params={"subject_id": "mm", "exam": "final"}).status_code == 400
 
-    game = {"subject_id": "mm", "focus": "all", "players": [{"name": "Asha", "score": 1200}, {"name": "Ravi", "score": 300}],
+    game = {"subject_id": "mm", "focus": "est-all", "players": [{"name": "Asha", "score": 1200}, {"name": "Ravi", "score": 300}],
             "winner": "Asha", "prize": "Loser buys chai"}
     assert client.post("/api/v1/buzz/games", json=game).status_code == 200
     history = client.get("/api/v1/buzz/setup").json()["history"]
