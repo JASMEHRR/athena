@@ -1,10 +1,10 @@
 # Grounding report
 
-Generated 2026-11-08 12:19. Checked 9081 items against the slides they cite.
+Generated 2026-11-09 15:06. Checked 9248 items against the slides they cite.
 
 - Failures (visible items with a name or number not on the cited slides): **0**
 - Hidden items (needs_check, not shown in the app): 0
-- Items using derived numbers (worked answers): 521
+- Items using derived numbers (worked answers): 528
 
 Whole numbers 0 to 10 are not checked (list counts).
 
@@ -126,6 +126,13 @@ None.
 - check question `be-s6-demand-functions-q-7baa1aa7`: 0.25
 - check question `be-s6-linear-demand-tr-mr-q-0f4a1b06`: 600
 - check question `be-s6-linear-demand-tr-mr-q-df3710a5`: 400
+- chunk `be-s8-cost-functions-c4`: 30, 300, 32, 60
+- check question `be-s8-cost-functions-q-2afa67ec`: 30, 32, 60
+- check question `be-s8-cost-functions-q-30f1a59f`: 30, 32
+- question `be-s8-cost-functions-q-f24f07a1`: 30, 32, 60
+- question `be-s8-cost-functions-q-23e962ca`: 30, 300, 32, 320, 60
+- check question `be-s8-production-functions-q-4cff0a23`: 23
+- check question `be-s8-productivity-q-8fe5f9e4`: 400
 - chunk `far-bt-journal-and-trial-balance-c2`: 24,000
 - check question `far-bt-journal-and-trial-balance-q-dc7b899a`: 24,000, 39,000
 - chunk `far-bt-journal-and-trial-balance-c4`: 1,51,200, 2,80,850, 24,000, 30,925, 76,400, 8,225

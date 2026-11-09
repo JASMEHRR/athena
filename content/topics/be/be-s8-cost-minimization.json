@@ -1,0 +1,446 @@
+{
+  "id": "be-s8-cost-minimization",
+  "subject_id": "be",
+  "deck_id": "be--session-8",
+  "title": "Cost minimization with isoquants and isocosts",
+  "order": 4,
+  "summary": "The rule MPL/w = MPK/r, the tangency picture, what happens when the wage falls, and the session's conclusion.",
+  "est_minutes": 20,
+  "difficulty": 2,
+  "source_refs": [
+    "be--session-8#20",
+    "be--session-8#21",
+    "be--session-8#22",
+    "be--session-8#46"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "be-s8-cost-minimization-c1",
+      "heading": "The cost-minimizing rule",
+      "explanation_md": "To produce a given output at the lowest cost, the **marginal product per dollar spent should be equal for all inputs**:\n\n**MPL / w = MPK / r**\n\nRearranged, that is **MPL / MPK = w / r**, and since MPL/MPK is the MRTS, the rule is simply **MRTS_KL = w / r**.\n\nWhy: if a dollar spent on labour bought more output than a dollar on capital, the firm could shift spending towards labour and make the same output for less.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "Cost is minimised where MPL/w = MPK/r, which is MRTS_KL = w/r.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s8-cost-minimization-q-770f2953",
+          "type": "mcq",
+          "stem": "A firm minimises cost when:",
+          "options": [
+            "MRTS_KL = w/r",
+            "MPL = MPK",
+            "w = r"
+          ],
+          "answer": "MRTS_KL = w/r",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-8#20"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s8-cost-minimization-q-7ebbe7d3",
+          "type": "true_false",
+          "stem": "At the cost-minimising input mix, the marginal product per dollar spent is equal for all inputs.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-8#20"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s8-cost-minimization-q-0ef22419",
+          "type": "fill",
+          "stem": "MPL / w = MPK / ____",
+          "options": [],
+          "answer": "r",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-8#20"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-8#20"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false,
+      "big_idea": "",
+      "analogy": null,
+      "visuals": [],
+      "worked": null,
+      "watch_out": [],
+      "memory_trick": "",
+      "exam_answer_md": ""
+    },
+    {
+      "id": "be-s8-cost-minimization-c2",
+      "heading": "The picture: where the isoquant touches the isocost",
+      "explanation_md": "Draw K on the vertical axis and L on the horizontal. The **isoquant** Q shows the output needed; the **isocost** lines show cost levels.\n\nThe **point of cost minimization** is where the isoquant just **touches** (is tangent to) the **lowest isocost line** it can reach. At that point the **slope of the isocost equals the slope of the isoquant**, which is the same as MRTS_KL = w/r.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "Cost minimization: the isoquant is tangent to the lowest isocost; slope of isocost = slope of isoquant. (Draw the diagram.)",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s8-cost-minimization-q-23c3a69d",
+          "type": "mcq",
+          "stem": "At the point of cost minimization, the isoquant is:",
+          "options": [
+            "Tangent to the lowest isocost line it can reach",
+            "Crossing the isocost line twice",
+            "Parallel to the labour axis"
+          ],
+          "answer": "Tangent to the lowest isocost line it can reach",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-8#21",
+            "be--session-8#20"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s8-cost-minimization-q-378f8fef",
+          "type": "true_false",
+          "stem": "At the cost-minimizing point, the slope of the isocost equals the slope of the isoquant.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-8#21",
+            "be--session-8#20"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-8#21",
+        "be--session-8#20"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false,
+      "big_idea": "",
+      "analogy": null,
+      "visuals": [],
+      "worked": null,
+      "watch_out": [],
+      "memory_trick": "",
+      "exam_answer_md": ""
+    },
+    {
+      "id": "be-s8-cost-minimization-c3",
+      "heading": "When the wage falls: optimal input substitution",
+      "explanation_md": "The firm makes Q0 at point A, using L0 and K0, at cost C0.\n\nNow the wage falls from **w0 to w1**. The isocost line **rotates counterclockwise**, because labour is now cheaper relative to capital.\n\nTo make the same Q0, the firm moves to **point B** on a **lower isocost line C1**: it uses **more labour (L0 to L1)** and **less capital (K0 to K1)**. It substitutes towards the input that became cheaper.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "A lower wage rotates the isocost; to make the same output the firm moves along the isoquant to more labour, less capital, at a lower cost.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s8-cost-minimization-q-9f2a219d",
+          "type": "mcq",
+          "stem": "If the wage falls, to make the same output Q0 the firm uses:",
+          "options": [
+            "More labour and less capital",
+            "Less labour and more capital",
+            "The same mix at a higher cost"
+          ],
+          "answer": "More labour and less capital",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-8#22"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s8-cost-minimization-q-bc343d38",
+          "type": "true_false",
+          "stem": "When the wage falls, the isocost line rotates counterclockwise.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-8#22"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-8#22"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false,
+      "big_idea": "",
+      "analogy": null,
+      "visuals": [],
+      "worked": null,
+      "watch_out": [],
+      "memory_trick": "",
+      "exam_answer_md": ""
+    },
+    {
+      "id": "be-s8-cost-minimization-c4",
+      "heading": "The session's conclusion",
+      "explanation_md": "- To maximise profit (or minimise cost), managers use inputs so that the value of the marginal product of each input reflects the price the firm pays for it.\n- The **optimal mix of inputs** is reached when **MRTS_KL = w/r**.\n- **Cost functions** are the foundation for working out profit-maximising behaviour.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "Optimal input mix: MRTS_KL = w/r.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s8-cost-minimization-q-f5f0b9ce",
+          "type": "true_false",
+          "stem": "The optimal mix of inputs is achieved when MRTS_KL = w/r.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-8#46"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-8#46"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false,
+      "big_idea": "",
+      "analogy": null,
+      "visuals": [],
+      "worked": null,
+      "watch_out": [],
+      "memory_trick": "",
+      "exam_answer_md": ""
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "be-s8-cost-minimization-f1",
+      "front": "Cost-minimizing rule",
+      "back": "MPL/w = MPK/r, which means MRTS_KL = w/r",
+      "kind": "formula",
+      "source_refs": [
+        "be--session-8#20"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s8-cost-minimization-f2",
+      "front": "Point of cost minimization",
+      "back": "Where the isoquant is tangent to the lowest isocost: slope of isocost = slope of isoquant",
+      "kind": "fact",
+      "source_refs": [
+        "be--session-8#21"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s8-cost-minimization-f3",
+      "front": "Wage falls",
+      "back": "Isocost rotates; same output made with more labour and less capital at a lower cost",
+      "kind": "fact",
+      "source_refs": [
+        "be--session-8#22"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [
+    {
+      "id": "be-s8-cost-minimization-q-e5cf4fd4",
+      "type": "mcq",
+      "stem": "MPL/MPK = w/r is the same condition as:",
+      "options": [
+        "MRTS_KL = w/r",
+        "VMPL = w",
+        "MC = MR"
+      ],
+      "answer": "MRTS_KL = w/r",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "",
+      "source_refs": [
+        "be--session-8#20",
+        "be--session-8#13",
+        "be--session-8#26"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s8-cost-minimization-q-7d7bbb6e",
+      "type": "mcq",
+      "stem": "After a fall in the wage, the firm's new cost-minimising point B for the same output lies on:",
+      "options": [
+        "A lower isocost line",
+        "A higher isocost line",
+        "The same isocost line"
+      ],
+      "answer": "A lower isocost line",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "",
+      "source_refs": [
+        "be--session-8#22"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s8-cost-minimization-q-0b081e96",
+      "type": "long",
+      "stem": "Utilizing the isoquant and isocost curves, explain the cost minimization principle.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "A firm wants to make a given output at the **lowest cost**.\n\n- **Isoquant:** the combinations of K and L that give the same output. Its slope is the MRTS_KL = MPL/MPK.\n- **Isocost:** the combinations that cost the same, wL + rK = C, with slope w/r.\n- **Rule:** marginal product per dollar must be equal for all inputs, **MPL/w = MPK/r**, which is **MRTS_KL = w/r**.\n- **Diagram:** the cost-minimising point is where the isoquant is **tangent to the lowest isocost line** it can reach, so the slope of the isocost equals the slope of the isoquant. (Draw K on the vertical axis, L on the horizontal, the isoquant and three isocosts, and mark the tangency.)\n\nIf the wage falls, the isocost rotates and the firm moves along the isoquant to more labour and less capital at a lower cost.",
+      "rubric": [
+        {
+          "point": "Defines isoquant and isocost",
+          "source_ref": "be--session-8#14"
+        },
+        {
+          "point": "States MPL/w = MPK/r, or MRTS_KL = w/r",
+          "source_ref": "be--session-8#20"
+        },
+        {
+          "point": "Tangency of isoquant and lowest isocost, with diagram",
+          "source_ref": "be--session-8#21"
+        },
+        {
+          "point": "Effect of an input price change",
+          "source_ref": "be--session-8#22"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "be--session-8#14",
+        "be--session-8#19",
+        "be--session-8#20",
+        "be--session-8#21",
+        "be--session-8#22"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "explain_back": {
+    "prompt": "Using the isoquant and isocost curves, explain the cost minimization principle.",
+    "rubric": [
+      {
+        "point": "Marginal product per dollar equal for all inputs: MPL/w = MPK/r",
+        "source_ref": "be--session-8#20"
+      },
+      {
+        "point": "Equivalent to MRTS_KL = w/r",
+        "source_ref": "be--session-8#20"
+      },
+      {
+        "point": "Diagram: isoquant tangent to the lowest isocost; slope of isocost = slope of isoquant",
+        "source_ref": "be--session-8#21"
+      },
+      {
+        "point": "A lower wage shifts the mix towards labour",
+        "source_ref": "be--session-8#22"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

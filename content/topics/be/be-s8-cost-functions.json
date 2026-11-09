@@ -1,0 +1,590 @@
+{
+  "id": "be-s8-cost-functions",
+  "subject_id": "be",
+  "deck_id": "be--session-8",
+  "title": "Cost functions: from C(Q) to MC, AFC, AVC and ATC",
+  "order": 6,
+  "summary": "The cubic cost function and its MC, the C(Q) = 10 + Q + Q² example, TC = 100 + 20Q + 2Q² step by step, and the Managerial Enterprises question C(Q) = 20 + 3Q².",
+  "est_minutes": 30,
+  "difficulty": 2,
+  "source_refs": [
+    "be--session-8#32",
+    "be--session-8#33",
+    "be--session-8#34",
+    "be--session-8#35",
+    "be--session-8#36",
+    "be--session-8#26"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "be-s8-cost-functions-c1",
+      "heading": "The cubic cost function and its marginal cost",
+      "explanation_md": "A cubic cost function: **C(Q) = f + aQ + bQ² + cQ³**. The constant **f** is the fixed cost; everything with Q in it is variable cost.\n\n**Marginal cost** is the derivative: **MC(Q) = a + 2bQ + 3cQ²**. Bring each power down and lower it by one; the constant f disappears because it does not change with output.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "C(Q) = f + aQ + bQ² + cQ³ gives MC(Q) = a + 2bQ + 3cQ² (dC/dQ).",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s8-cost-functions-q-240bf223",
+          "type": "mcq",
+          "stem": "For C(Q) = f + aQ + bQ² + cQ³, MC(Q) is:",
+          "options": [
+            "a + 2bQ + 3cQ²",
+            "f + aQ",
+            "aQ + bQ² + cQ³"
+          ],
+          "answer": "a + 2bQ + 3cQ²",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-8#32"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s8-cost-functions-q-2f4a3ce9",
+          "type": "true_false",
+          "stem": "In a cubic cost function, the fixed cost f does not appear in marginal cost.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-8#32"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-8#32"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false,
+      "big_idea": "",
+      "analogy": null,
+      "visuals": [],
+      "worked": null,
+      "watch_out": [],
+      "memory_trick": "",
+      "exam_answer_md": ""
+    },
+    {
+      "id": "be-s8-cost-functions-c2",
+      "heading": "Example: C(Q) = 10 + Q + Q²",
+      "explanation_md": "| Item | Working | Answer |\n|---|---|---|\n| Variable cost function | everything with Q | VC(Q) = Q + Q² |\n| VC of 2 units | 2 + (2)² | 6 |\n| Fixed cost | the constant | FC = 10 |\n| Marginal cost function | derivative | MC(Q) = 1 + 2Q |\n| MC of 2 units | 1 + 2(2) | 5 |",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "Split C(Q) into the constant (FC) and the Q terms (VC); differentiate for MC.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s8-cost-functions-q-d32ec643",
+          "type": "mcq",
+          "stem": "For C(Q) = 10 + Q + Q², the fixed cost is:",
+          "options": [
+            "10",
+            "6",
+            "5"
+          ],
+          "answer": "10",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-8#33"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s8-cost-functions-q-729b2ea0",
+          "type": "mcq",
+          "stem": "For C(Q) = 10 + Q + Q², the marginal cost of producing 2 units is:",
+          "options": [
+            "5",
+            "6",
+            "10"
+          ],
+          "answer": "5",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-8#33"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-8#33"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false,
+      "big_idea": "",
+      "analogy": null,
+      "visuals": [],
+      "worked": null,
+      "watch_out": [],
+      "memory_trick": "",
+      "exam_answer_md": ""
+    },
+    {
+      "id": "be-s8-cost-functions-c3",
+      "heading": "Worked question: TC = 100 + 20Q + 2Q²",
+      "explanation_md": "| Find | Working | Answer |\n|---|---|---|\n| Fixed cost | the constant term | FC = 100 |\n| Variable cost | the Q terms | VC = 20Q + 2Q² |\n| ATC | TC/Q | 100/Q + 20 + 2Q |\n| AVC | VC/Q | 20 + 2Q |\n| MC | dTC/dQ | 20 + 4Q |\n| ATC at Q = 10 | 100/10 + 20 + 2(10) | **50** |\n| MC at Q = 10 | 20 + 4(10) | **60** |",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "ATC = 100/Q + 20 + 2Q gives 50 at Q = 10; MC = 20 + 4Q gives 60 at Q = 10.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s8-cost-functions-q-82b1ebf9",
+          "type": "mcq",
+          "stem": "For TC = 100 + 20Q + 2Q², ATC at Q = 10 is:",
+          "options": [
+            "50",
+            "60",
+            "100"
+          ],
+          "answer": "50",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-8#34",
+            "be--session-8#35"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s8-cost-functions-q-63417ae2",
+          "type": "fill",
+          "stem": "For TC = 100 + 20Q + 2Q², MC = 20 + ____Q",
+          "options": [],
+          "answer": "4",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-8#34",
+            "be--session-8#35"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s8-cost-functions-q-f55138fb",
+          "type": "true_false",
+          "stem": "For TC = 100 + 20Q + 2Q², AVC = 20 + 2Q.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-8#34",
+            "be--session-8#35"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-8#34",
+        "be--session-8#35"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false,
+      "big_idea": "",
+      "analogy": null,
+      "visuals": [],
+      "worked": null,
+      "watch_out": [],
+      "memory_trick": "",
+      "exam_answer_md": ""
+    },
+    {
+      "id": "be-s8-cost-functions-c4",
+      "heading": "The Managerial Enterprises question: C(Q) = 20 + 3Q²",
+      "explanation_md": "Find MC, AFC, AVC and ATC at **Q = 10** for **C(Q) = 20 + 3Q²**. Fixed cost is 20 and variable cost is 3Q².\n\n| Find | Formula | At Q = 10 |\n|---|---|---|\n| MC | dC/dQ = 6Q | **60** |\n| AFC | 20/Q | **2** |\n| AVC | 3Q²/Q = 3Q | **30** |\n| ATC | AFC + AVC = 20/Q + 3Q | **32** |\n\nCheck: ATC = C(10)/10 = (20 + 300)/10 = 32.",
+      "example_ids": [
+        "be-ex-managerial-enterprises"
+      ],
+      "key_terms": [],
+      "exam_line": "C(Q) = 20 + 3Q² at Q = 10: MC = 60, AFC = 2, AVC = 30, ATC = 32.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s8-cost-functions-q-2afa67ec",
+          "type": "mcq",
+          "stem": "For C(Q) = 20 + 3Q², marginal cost at Q = 10 is:",
+          "options": [
+            "60",
+            "30",
+            "32"
+          ],
+          "answer": "60",
+          "accept": [],
+          "explanation": "MC = 6Q, so 6 x 10 = 60.",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-8#36",
+            "be--session-8#26"
+          ],
+          "derived": [
+            "6Q",
+            "6",
+            "60",
+            "3Q",
+            "30",
+            "32",
+            "2"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s8-cost-functions-q-30f1a59f",
+          "type": "mcq",
+          "stem": "For C(Q) = 20 + 3Q², average total cost at Q = 10 is:",
+          "options": [
+            "32",
+            "30",
+            "2"
+          ],
+          "answer": "32",
+          "accept": [],
+          "explanation": "AFC = 2 and AVC = 30, so ATC = 32.",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-8#36",
+            "be--session-8#26"
+          ],
+          "derived": [
+            "6Q",
+            "6",
+            "60",
+            "3Q",
+            "30",
+            "32",
+            "2"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s8-cost-functions-q-e2490ded",
+          "type": "true_false",
+          "stem": "For C(Q) = 20 + 3Q², average fixed cost at Q = 10 is 2.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-8#36",
+            "be--session-8#26"
+          ],
+          "derived": [
+            "6Q",
+            "6",
+            "60",
+            "3Q",
+            "30",
+            "32",
+            "2"
+          ],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-8#36",
+        "be--session-8#26"
+      ],
+      "derived": [
+        "6Q",
+        "6",
+        "60",
+        "3Q",
+        "30",
+        "32",
+        "300",
+        "320"
+      ],
+      "needs_check": false,
+      "retired": false,
+      "big_idea": "",
+      "analogy": null,
+      "visuals": [],
+      "worked": null,
+      "watch_out": [],
+      "memory_trick": "",
+      "exam_answer_md": ""
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "be-s8-cost-functions-f1",
+      "front": "Cubic cost function",
+      "back": "C(Q) = f + aQ + bQ² + cQ³; MC(Q) = a + 2bQ + 3cQ²",
+      "kind": "formula",
+      "source_refs": [
+        "be--session-8#32"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s8-cost-functions-f2",
+      "front": "Splitting a cost function",
+      "back": "The constant is FC; the Q terms are VC; MC = dC/dQ",
+      "kind": "fact",
+      "source_refs": [
+        "be--session-8#33",
+        "be--session-8#35"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s8-cost-functions-f3",
+      "front": "C(Q) = 20 + 3Q² at Q = 10",
+      "back": "Fixed cost is the constant 20 and variable cost is 3Q²; differentiate for marginal cost and divide by Q for the averages",
+      "kind": "fact",
+      "source_refs": [
+        "be--session-8#36",
+        "be--session-8#26"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [
+    {
+      "id": "be-s8-cost-functions-q-22460d92",
+      "type": "mcq",
+      "stem": "For TC = 100 + 20Q + 2Q², the fixed cost is:",
+      "options": [
+        "100",
+        "20",
+        "2"
+      ],
+      "answer": "100",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "",
+      "source_refs": [
+        "be--session-8#35"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s8-cost-functions-q-f24f07a1",
+      "type": "mcq",
+      "stem": "For C(Q) = 20 + 3Q², average variable cost at Q = 10 is:",
+      "options": [
+        "30",
+        "60",
+        "32"
+      ],
+      "answer": "30",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "",
+      "source_refs": [
+        "be--session-8#36",
+        "be--session-8#26"
+      ],
+      "derived": [
+        "30",
+        "60",
+        "32"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s8-cost-functions-q-23e962ca",
+      "type": "long",
+      "stem": "The cost function for Managerial Enterprises is C(Q) = 20 + 3Q². Determine the marginal cost, average fixed cost, average variable cost and average total cost when Q = 10.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "Fixed cost is **20** and variable cost is **3Q²**.\n\n| Find | Formula | At Q = 10 |\n|---|---|---|\n| MC | dC/dQ = 6Q | 60 |\n| AFC | 20/Q | 2 |\n| AVC | 3Q | 30 |\n| ATC | 20/Q + 3Q | 32 |\n\nCheck: C(10) = 20 + 300 = 320, and 320/10 = 32.",
+      "rubric": [
+        {
+          "point": "MC = 6Q = 60",
+          "source_ref": "be--session-8#36"
+        },
+        {
+          "point": "AFC = 2",
+          "source_ref": "be--session-8#36"
+        },
+        {
+          "point": "AVC = 30",
+          "source_ref": "be--session-8#36"
+        },
+        {
+          "point": "ATC = 32",
+          "source_ref": "be--session-8#36"
+        }
+      ],
+      "marks": 5.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "be--session-8#36",
+        "be--session-8#26"
+      ],
+      "derived": [
+        "6Q",
+        "6",
+        "60",
+        "2",
+        "3Q",
+        "30",
+        "32",
+        "300",
+        "320"
+      ],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s8-cost-functions-q-5d6d8b2a",
+      "type": "long",
+      "stem": "A firm's total cost function is TC = 100 + 20Q + 2Q². Find fixed cost, variable cost, ATC, AVC and MC, and ATC and MC when Q = 10.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "- FC = **100** (the constant)\n- VC = **20Q + 2Q²**\n- ATC = TC/Q = **100/Q + 20 + 2Q**\n- AVC = VC/Q = **20 + 2Q**\n- MC = dTC/dQ = **20 + 4Q**\n- ATC at Q = 10: 100/10 + 20 + 2(10) = **50**\n- MC at Q = 10: 20 + 4(10) = **60**",
+      "rubric": [
+        {
+          "point": "FC and VC",
+          "source_ref": "be--session-8#35"
+        },
+        {
+          "point": "ATC and AVC functions",
+          "source_ref": "be--session-8#35"
+        },
+        {
+          "point": "MC = 20 + 4Q",
+          "source_ref": "be--session-8#35"
+        },
+        {
+          "point": "ATC = 50 and MC = 60 at Q = 10",
+          "source_ref": "be--session-8#35"
+        }
+      ],
+      "marks": 5.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "be--session-8#34",
+        "be--session-8#35"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "explain_back": {
+    "prompt": "Explain how to get fixed, variable, average and marginal cost from a cost function such as TC = 100 + 20Q + 2Q².",
+    "rubric": [
+      {
+        "point": "Fixed cost is the constant term",
+        "source_ref": "be--session-8#35"
+      },
+      {
+        "point": "Variable cost is the Q terms",
+        "source_ref": "be--session-8#35"
+      },
+      {
+        "point": "ATC = TC/Q and AVC = VC/Q",
+        "source_ref": "be--session-8#35"
+      },
+      {
+        "point": "MC = dTC/dQ",
+        "source_ref": "be--session-8#35"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

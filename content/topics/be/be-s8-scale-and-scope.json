@@ -1,0 +1,577 @@
+{
+  "id": "be-s8-scale-and-scope",
+  "subject_id": "be",
+  "deck_id": "be--session-8",
+  "title": "Long-run costs, economies of scale and scope, and cost complementarity",
+  "order": 7,
+  "summary": "The long-run average cost curve, why it is U-shaped, multi-product cost functions, economies of scope (Time-Warner), cost complementarity (cow hides and steaks) and the quadratic multi-product example.",
+  "est_minutes": 30,
+  "difficulty": 2,
+  "source_refs": [
+    "be--session-8#37",
+    "be--session-8#38",
+    "be--session-8#39",
+    "be--session-8#40",
+    "be--session-8#41",
+    "be--session-8#42",
+    "be--session-8#43",
+    "be--session-8#45"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "be-s8-scale-and-scope-c1",
+      "heading": "The long-run average cost curve",
+      "explanation_md": "The **long-run average cost (LRAC)** curve shows the **minimum average cost** of producing each output level when the firm can choose **both** fixed and variable inputs optimally.\n\nIt is **U-shaped**: LRAC falls up to **Q*** (**economies of scale**) and rises after Q* (**diseconomies of scale**).",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Long-run average cost",
+          "meaning": "The minimum average cost of each output when all inputs can be chosen optimally",
+          "source_ref": "be--session-8#37"
+        }
+      ],
+      "exam_line": "LRAC falls with economies of scale up to Q*, then rises with diseconomies of scale.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s8-scale-and-scope-q-6e41f739",
+          "type": "mcq",
+          "stem": "To the left of Q* on the LRAC curve, the firm has:",
+          "options": [
+            "Economies of scale",
+            "Diseconomies of scale",
+            "Cost complementarity"
+          ],
+          "answer": "Economies of scale",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-8#37",
+            "be--session-8#38"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s8-scale-and-scope-q-5e7db9cb",
+          "type": "true_false",
+          "stem": "The long-run average cost curve lets the firm choose both fixed and variable costs optimally.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-8#37",
+            "be--session-8#38"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-8#37",
+        "be--session-8#38"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false,
+      "big_idea": "",
+      "analogy": null,
+      "visuals": [],
+      "worked": null,
+      "watch_out": [],
+      "memory_trick": "",
+      "exam_answer_md": ""
+    },
+    {
+      "id": "be-s8-scale-and-scope-c2",
+      "heading": "Why the LRAC is U-shaped",
+      "explanation_md": "**Economies of scale (LRAC falls as Q rises)** come from:\n\n- greater specialisation and division of labour\n- better use of machinery and other resources\n- bulk purchasing and input discounts\n- spreading fixed or setup costs over more units\n- more room for managerial and technical efficiencies\n\n**Diseconomies of scale (LRAC rises beyond the optimal scale)** come from:\n\n- managerial and coordination difficulties\n- bureaucracy and slower decision-making\n- difficulty monitoring a very large organisation\n- congestion and organisational complexity",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "Falling LRAC: specialisation, better machines, bulk buying, spreading fixed costs. Rising LRAC: coordination, bureaucracy, monitoring, congestion.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s8-scale-and-scope-q-ac93bf94",
+          "type": "mcq",
+          "stem": "Which is a cause of diseconomies of scale?",
+          "options": [
+            "Bureaucracy and slower decision-making",
+            "Bulk purchasing and input discounts",
+            "Spreading fixed costs over more units"
+          ],
+          "answer": "Bureaucracy and slower decision-making",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-8#39"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s8-scale-and-scope-q-8517aadb",
+          "type": "mcq",
+          "stem": "Which is a cause of economies of scale?",
+          "options": [
+            "Greater specialisation and division of labour",
+            "Difficulty monitoring a very large organisation",
+            "Congestion"
+          ],
+          "answer": "Greater specialisation and division of labour",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-8#39"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-8#39"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false,
+      "big_idea": "",
+      "analogy": null,
+      "visuals": [],
+      "worked": null,
+      "watch_out": [],
+      "memory_trick": "",
+      "exam_answer_md": ""
+    },
+    {
+      "id": "be-s8-scale-and-scope-c3",
+      "heading": "Multi-product costs and economies of scope",
+      "explanation_md": "A **multi-product cost function C(Q1, Q2)** is the cost of producing two outputs **together**.\n\n**Economies of scope** exist when **C(Q1, 0) + C(0, Q2) > C(Q1, Q2)**: it is **cheaper to produce the two outputs jointly** than separately.\n\nThe slide's example: it is cheaper for **Time-Warner** to produce Internet connections and Instant Messaging services together than apart.",
+      "example_ids": [
+        "be-ex-time-warner"
+      ],
+      "key_terms": [
+        {
+          "term": "Economies of scope",
+          "meaning": "C(Q1, 0) + C(0, Q2) > C(Q1, Q2): joint production is cheaper",
+          "source_ref": "be--session-8#41"
+        }
+      ],
+      "exam_line": "Economies of scope: C(Q1, 0) + C(0, Q2) > C(Q1, Q2) (Time-Warner: Internet plus Instant Messaging).",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s8-scale-and-scope-q-bf1d00c1",
+          "type": "mcq",
+          "stem": "Economies of scope exist when:",
+          "options": [
+            "C(Q1, 0) + C(0, Q2) > C(Q1, Q2)",
+            "C(Q1, 0) + C(0, Q2) < C(Q1, Q2)",
+            "LRAC is rising"
+          ],
+          "answer": "C(Q1, 0) + C(0, Q2) > C(Q1, Q2)",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-8#41",
+            "be--session-8#38"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s8-scale-and-scope-q-bac75308",
+          "type": "mcq",
+          "stem": "The slides' example of economies of scope is:",
+          "options": [
+            "Time-Warner's Internet connections and Instant Messaging",
+            "Cow hides and steaks",
+            "Managerial Enterprises"
+          ],
+          "answer": "Time-Warner's Internet connections and Instant Messaging",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-8#41",
+            "be--session-8#42",
+            "be--session-8#36"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-8#40",
+        "be--session-8#41"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false,
+      "big_idea": "",
+      "analogy": null,
+      "visuals": [],
+      "worked": null,
+      "watch_out": [],
+      "memory_trick": "",
+      "exam_answer_md": ""
+    },
+    {
+      "id": "be-s8-scale-and-scope-c4",
+      "heading": "Cost complementarity and the quadratic example",
+      "explanation_md": "**Cost complementarity**: the marginal cost of good 1 **falls** as more of good 2 is produced, ΔMC1/ΔQ2 < 0. The slide's example is **cow hides and steaks**.\n\nFor the quadratic form **C(Q1, Q2) = f + aQ1Q2 + (Q1)² + (Q2)²**:\n\n- MC1 = aQ2 + 2Q1 and MC2 = aQ1 + 2Q2\n- **Cost complementarity exists if a < 0**\n- **Economies of scope exist if f > aQ1Q2**\n\n**Numerical example:** C(Q1, Q2) = 90 - 2Q1Q2 + (Q1)² + (Q2)². Here a = -2 < 0, so there **is** cost complementarity, and MC1 = -2Q2 + 2Q1.",
+      "example_ids": [
+        "be-ex-cow-hides-steaks"
+      ],
+      "key_terms": [
+        {
+          "term": "Cost complementarity",
+          "meaning": "The marginal cost of one good falls as more of the other is produced",
+          "source_ref": "be--session-8#42"
+        }
+      ],
+      "exam_line": "In C = f + aQ1Q2 + Q1² + Q2²: complementarity if a < 0; scope if f > aQ1Q2.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s8-scale-and-scope-q-eb6f1412",
+          "type": "mcq",
+          "stem": "In C(Q1, Q2) = f + aQ1Q2 + (Q1)² + (Q2)², cost complementarity exists if:",
+          "options": [
+            "a < 0",
+            "a > 0",
+            "f = 0"
+          ],
+          "answer": "a < 0",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-8#42",
+            "be--session-8#43",
+            "be--session-8#45"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s8-scale-and-scope-q-0aa8a413",
+          "type": "mcq",
+          "stem": "For C(Q1, Q2) = 90 - 2Q1Q2 + (Q1)² + (Q2)², MC1 is:",
+          "options": [
+            "-2Q2 + 2Q1",
+            "90 - 2Q1",
+            "2Q2 + 2Q1"
+          ],
+          "answer": "-2Q2 + 2Q1",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-8#42",
+            "be--session-8#43",
+            "be--session-8#45"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s8-scale-and-scope-q-c7629cf0",
+          "type": "true_false",
+          "stem": "Cow hides and steaks are the slides' example of cost complementarity.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-8#42",
+            "be--session-8#43",
+            "be--session-8#45"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-8#42",
+        "be--session-8#43",
+        "be--session-8#45"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false,
+      "big_idea": "",
+      "analogy": null,
+      "visuals": [],
+      "worked": null,
+      "watch_out": [],
+      "memory_trick": "",
+      "exam_answer_md": ""
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "be-s8-scale-and-scope-f1",
+      "front": "LRAC",
+      "back": "Minimum average cost when all inputs can be chosen; U-shaped",
+      "kind": "term",
+      "source_refs": [
+        "be--session-8#37",
+        "be--session-8#38"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s8-scale-and-scope-f2",
+      "front": "Economies of scale causes",
+      "back": "Specialisation, better use of machinery, bulk purchasing, spreading fixed costs, managerial efficiencies",
+      "kind": "list",
+      "source_refs": [
+        "be--session-8#39"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s8-scale-and-scope-f3",
+      "front": "Diseconomies of scale causes",
+      "back": "Coordination difficulties, bureaucracy, monitoring a very large organisation, congestion",
+      "kind": "list",
+      "source_refs": [
+        "be--session-8#39"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s8-scale-and-scope-f4",
+      "front": "Economies of scope",
+      "back": "C(Q1, 0) + C(0, Q2) > C(Q1, Q2)",
+      "kind": "formula",
+      "source_refs": [
+        "be--session-8#41"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s8-scale-and-scope-f5",
+      "front": "Cost complementarity",
+      "back": "MC of good 1 falls as more of good 2 is produced; in the quadratic form, a < 0",
+      "kind": "formula",
+      "source_refs": [
+        "be--session-8#42",
+        "be--session-8#43"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [
+    {
+      "id": "be-s8-scale-and-scope-q-1d66c1ba",
+      "type": "mcq",
+      "stem": "For C(Q1, Q2) = 90 - 2Q1Q2 + (Q1)² + (Q2)², is there cost complementarity?",
+      "options": [
+        "Yes, because a = -2 is below zero",
+        "No, because the fixed cost is 90",
+        "No, because a is positive"
+      ],
+      "answer": "Yes, because a = -2 is below zero",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "",
+      "source_refs": [
+        "be--session-8#45"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s8-scale-and-scope-q-de35a189",
+      "type": "mcq",
+      "stem": "In the quadratic multi-product cost function, economies of scope exist if:",
+      "options": [
+        "f > aQ1Q2",
+        "f < aQ1Q2",
+        "a > 0"
+      ],
+      "answer": "f > aQ1Q2",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "",
+      "source_refs": [
+        "be--session-8#43"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s8-scale-and-scope-q-69961ed6",
+      "type": "short",
+      "stem": "Why is the long-run average cost curve U-shaped?",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The **LRAC** shows the minimum average cost of each output when all inputs can be chosen.\n\n- It **falls** at first because of **economies of scale**: specialisation and division of labour, better use of machinery, bulk purchasing, spreading fixed or setup costs, and managerial and technical efficiencies.\n- Beyond the optimal scale Q* it **rises** because of **diseconomies of scale**: coordination difficulties, bureaucracy and slow decisions, monitoring a very large organisation, and congestion.\n\n(Draw the U-shaped LRAC with Q* at the bottom.)",
+      "rubric": [
+        {
+          "point": "LRAC definition",
+          "source_ref": "be--session-8#37"
+        },
+        {
+          "point": "Economies of scale reasons",
+          "source_ref": "be--session-8#39"
+        },
+        {
+          "point": "Diseconomies of scale reasons",
+          "source_ref": "be--session-8#39"
+        },
+        {
+          "point": "Diagram with Q*",
+          "source_ref": "be--session-8#38"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "be--session-8#37",
+        "be--session-8#38",
+        "be--session-8#39"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s8-scale-and-scope-q-3040dcc6",
+      "type": "differentiate",
+      "stem": "Differentiate between economies of scope and cost complementarity, with the slides' examples.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "| | Economies of scope | Cost complementarity |\n|---|---|---|\n| Meaning | Producing two outputs jointly is cheaper than separately | The marginal cost of one good falls as more of the other is produced |\n| Condition | C(Q1, 0) + C(0, Q2) > C(Q1, Q2) | ΔMC1/ΔQ2 < 0; in the quadratic form, a < 0 |\n| Example | Time-Warner: Internet connections and Instant Messaging | Cow hides and steaks |",
+      "rubric": [
+        {
+          "point": "Economies of scope meaning and condition",
+          "source_ref": "be--session-8#41"
+        },
+        {
+          "point": "Cost complementarity meaning and condition",
+          "source_ref": "be--session-8#42"
+        },
+        {
+          "point": "Both examples",
+          "source_ref": "be--session-8#41"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "differentiate",
+      "source_refs": [
+        "be--session-8#41",
+        "be--session-8#42",
+        "be--session-8#43"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "explain_back": {
+    "prompt": "Explain why the long-run average cost curve is U-shaped, and distinguish economies of scope from cost complementarity.",
+    "rubric": [
+      {
+        "point": "Economies of scale make LRAC fall, with reasons",
+        "source_ref": "be--session-8#39"
+      },
+      {
+        "point": "Diseconomies of scale make LRAC rise, with reasons",
+        "source_ref": "be--session-8#39"
+      },
+      {
+        "point": "Economies of scope: joint production is cheaper",
+        "source_ref": "be--session-8#41"
+      },
+      {
+        "point": "Cost complementarity: MC of one good falls as more of the other is made",
+        "source_ref": "be--session-8#42"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

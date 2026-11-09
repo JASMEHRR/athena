@@ -95,6 +95,8 @@ No exam dates, so round-robin across subjects. Validate, ground and cover each d
   - 7 topics (qtm-m5-*), 25 chunks, 67 checks, 43 cards, 10 examples. By subagent, reviewed. Slide 30 coffee example uses t with a known SD and says 'Reject H1'; one neutral note.
 - [x] P4 pass A: qtm--module-6 (38 slides, 16 visual)
   - 8 topics (qtm-m6-*), 32 chunks, 86 checks, 60 cards, 12 examples. By subagent, reviewed. Slides 8, 9, 11: critical t values typed over, decision lines use the old ones (same decision); one neutral note. Slide 28 advertising regression worked with the deck's formulas (derived).
+- [x] P4 pass A: be--session-8 (46 slides, 11 visual)
+  - 7 topics (be-s8-*), 29 chunks, 71 checks, 29 cards, 25 questions, 6 examples. Written 9 Nov 2026 for the BE EST on 16 Nov. Slide 36 (C(Q) = 20 + 3Q², reused as EST 2025 Q2) solved with the deck's formulas, numbers derived. Slide 44 is blank.
 
 ## P5 Planning and nudges
 - [x] P5.1 Planner, Plan page, .ics export, Settings.

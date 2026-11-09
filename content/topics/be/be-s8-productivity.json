@@ -1,0 +1,751 @@
+{
+  "id": "be-s8-productivity",
+  "subject_id": "be",
+  "deck_id": "be--session-8",
+  "title": "Total, average and marginal product, and the law of variable proportions",
+  "order": 2,
+  "summary": "TP, AP and MP with the professor's examples, the labour table, the three zones of returns, why marginal product rises then falls, and hiring until VMPL = w.",
+  "est_minutes": 35,
+  "difficulty": 2,
+  "source_refs": [
+    "be--session-8#6",
+    "be--session-8#7",
+    "be--session-8#8",
+    "be--session-8#9",
+    "be--session-8#10",
+    "be--session-8#11",
+    "be--session-8#12",
+    "be--session-8#13"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "be-s8-productivity-c1",
+      "heading": "Total product",
+      "explanation_md": "**Total product (TP)** is the maximum output produced with given amounts of inputs.\n\nThe professor's example uses a Cobb-Douglas function, **Q = K^0.5 L^0.5**. In the short run capital is fixed at **16** units, so Q = (16)^0.5 L^0.5 = **4L^0.5**.\n\nWith 100 units of labour: Q = 4(100)^0.5 = 4(10) = **40 units**.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Total product",
+          "meaning": "The maximum output produced with given amounts of inputs",
+          "source_ref": "be--session-8#6"
+        }
+      ],
+      "exam_line": "Fix capital, simplify the function, then plug in labour: Q = 4(100)^0.5 = 40.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s8-productivity-q-8fe5f9e4",
+          "type": "mcq",
+          "stem": "With Q = 4L^0.5, total product when L = 100 is:",
+          "options": [
+            "40 units",
+            "400 units",
+            "10 units"
+          ],
+          "answer": "40 units",
+          "accept": [],
+          "explanation": "The square root of 100 is 10, and 4 x 10 = 40.",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-8#6",
+            "be--session-8#7"
+          ],
+          "derived": [
+            "400"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s8-productivity-q-2fc97b21",
+          "type": "true_false",
+          "stem": "Total product is the maximum output produced with given amounts of inputs.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-8#6",
+            "be--session-8#7"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-8#6",
+        "be--session-8#7"
+      ],
+      "derived": [
+        "400"
+      ],
+      "needs_check": false,
+      "retired": false,
+      "big_idea": "",
+      "analogy": null,
+      "visuals": [],
+      "worked": null,
+      "watch_out": [],
+      "memory_trick": "",
+      "exam_answer_md": ""
+    },
+    {
+      "id": "be-s8-productivity-c2",
+      "heading": "Average and marginal product",
+      "explanation_md": "**Average product of labour: APL = Q/L.** It is the output of an **average** worker. Average product of capital is APK = Q/K. With K = 16 and L = 16 in Q = K^0.5 L^0.5, both APL and APK equal **1**.\n\n**Marginal product of labour: MPL = ΔQ/ΔL.** It is the output produced by the **last** worker, and it is the slope of the short-run production function. MPK = ΔQ/ΔK does the same for the last unit of capital.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Average product of labour",
+          "meaning": "APL = Q/L, the output of an average worker",
+          "source_ref": "be--session-8#7"
+        },
+        {
+          "term": "Marginal product of labour",
+          "meaning": "MPL = ΔQ/ΔL, the output produced by the last worker",
+          "source_ref": "be--session-8#8"
+        }
+      ],
+      "exam_line": "APL = Q/L (the average worker); MPL = ΔQ/ΔL (the last worker, and the slope of the production function).",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s8-productivity-q-c3fd14ff",
+          "type": "mcq",
+          "stem": "The output produced by the last worker is the:",
+          "options": [
+            "Marginal product of labour",
+            "Average product of labour",
+            "Total product"
+          ],
+          "answer": "Marginal product of labour",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-8#7",
+            "be--session-8#8"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s8-productivity-q-888e7c77",
+          "type": "mcq",
+          "stem": "With Q = K^0.5 L^0.5, K = 16 and L = 16, the average product of labour is:",
+          "options": [
+            "1",
+            "16",
+            "4"
+          ],
+          "answer": "1",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-8#7",
+            "be--session-8#8"
+          ],
+          "derived": [
+            "4"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s8-productivity-q-b895b861",
+          "type": "fill",
+          "stem": "APL = Q / ____",
+          "options": [],
+          "answer": "L",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-8#7",
+            "be--session-8#8"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-8#7",
+        "be--session-8#8"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false,
+      "big_idea": "",
+      "analogy": null,
+      "visuals": [],
+      "worked": null,
+      "watch_out": [],
+      "memory_trick": "",
+      "exam_answer_md": ""
+    },
+    {
+      "id": "be-s8-productivity-c3",
+      "heading": "Worked question: the labour table",
+      "explanation_md": "The firm's table, with APL = TP/L and MPL = change in TP:\n\n| L | TP | AP | MP |\n|---|---|---|---|\n| 1 | 10 | 10.0 | 10 |\n| 2 | 24 | 12.0 | 14 |\n| 3 | 39 | 13.0 | 15 |\n| 4 | 52 | 13.0 | 13 |\n| 5 | 60 | 12.0 | 8 |\n| 6 | 66 | 11.0 | 6 |\n| 7 | 70 | 10.0 | 4 |\n\nMP climbs to 15 at the 3rd worker, then falls to 13 at the **4th**. So **diminishing marginal product begins at the 4th unit of labour**.",
+      "example_ids": [
+        "be-ex-labour-tp-table"
+      ],
+      "key_terms": [],
+      "exam_line": "MP is the change in TP. Diminishing returns start where MP first falls: the 4th worker (15 to 13).",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s8-productivity-q-f600108f",
+          "type": "mcq",
+          "stem": "In the professor's labour table, diminishing marginal product begins at:",
+          "options": [
+            "The 4th unit of labour",
+            "The 2nd unit of labour",
+            "The 7th unit of labour"
+          ],
+          "answer": "The 4th unit of labour",
+          "accept": [],
+          "explanation": "MP rises to 15 at the 3rd worker and falls to 13 at the 4th.",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-8#9",
+            "be--session-8#10"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s8-productivity-q-22ae1328",
+          "type": "mcq",
+          "stem": "In the labour table, the marginal product of the 3rd worker is:",
+          "options": [
+            "15",
+            "13",
+            "39"
+          ],
+          "answer": "15",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-8#9",
+            "be--session-8#10"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s8-productivity-q-b947a570",
+          "type": "true_false",
+          "stem": "In the labour table, average product is highest, at 13, when 3 or 4 workers are employed.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-8#9",
+            "be--session-8#10"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-8#9",
+        "be--session-8#10"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false,
+      "big_idea": "",
+      "analogy": null,
+      "visuals": [],
+      "worked": null,
+      "watch_out": [],
+      "memory_trick": "",
+      "exam_answer_md": ""
+    },
+    {
+      "id": "be-s8-productivity-c4",
+      "heading": "Increasing, diminishing and negative returns",
+      "explanation_md": "The graph splits labour into three zones:\n\n- **Increasing marginal returns**: MP is rising.\n- **Diminishing marginal returns**: MP is falling but still positive. MP crosses AP at the **top** of AP.\n- **Negative marginal returns**: MP is below zero and total product **falls**.\n\nOrder of the peaks: MP peaks first, then AP, then total product.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "MP peaks first, then AP, then total product; MP cuts AP at AP's maximum; negative MP means total product is falling.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s8-productivity-q-a7dbf6ba",
+          "type": "mcq",
+          "stem": "In the zone of negative marginal returns:",
+          "options": [
+            "MP is below zero and total product falls",
+            "MP is rising",
+            "AP is rising"
+          ],
+          "answer": "MP is below zero and total product falls",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-8#11"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s8-productivity-q-4faa3d26",
+          "type": "true_false",
+          "stem": "Marginal product crosses average product at the highest point of average product.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-8#11"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-8#11"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false,
+      "big_idea": "",
+      "analogy": null,
+      "visuals": [],
+      "worked": null,
+      "watch_out": [],
+      "memory_trick": "",
+      "exam_answer_md": ""
+    },
+    {
+      "id": "be-s8-productivity-c5",
+      "heading": "The law of variable proportions",
+      "explanation_md": "**Law of variable proportions:** as more units of a variable input are added to a fixed input, the marginal product of the variable input **first increases, reaches a maximum, and eventually decreases**.\n\n**Why it rises first:** the fixed input is underused. More workers allow **specialisation** (dividing tasks), **better coordination** (helping each other) and **better use of the fixed input** (machines and space used more effectively). So each new worker adds more than the last.\n\n**Why it falls later:** the fixed input becomes a **constraint**. Workers wait for machines, the space gets **crowded**, and the chances to specialise are already used up. So each new worker adds less than the last.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Law of variable proportions",
+          "meaning": "As a variable input is added to a fixed input, its marginal product first increases, reaches a maximum, then decreases",
+          "source_ref": "be--session-8#12"
+        }
+      ],
+      "exam_line": "MP rises (specialisation, coordination, better use of the fixed input), peaks, then falls (the fixed input becomes a constraint).",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s8-productivity-q-ece23305",
+          "type": "mcq",
+          "stem": "Under the law of variable proportions, the marginal product of the variable input:",
+          "options": [
+            "First increases, reaches a maximum, then decreases",
+            "Always decreases",
+            "Stays constant"
+          ],
+          "answer": "First increases, reaches a maximum, then decreases",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-8#12"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s8-productivity-q-1a4bd1ea",
+          "type": "mcq",
+          "stem": "Which is a reason marginal product eventually falls?",
+          "options": [
+            "Workers have to wait for machines",
+            "Workers can divide tasks",
+            "Machines are used more effectively"
+          ],
+          "answer": "Workers have to wait for machines",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-8#12"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s8-productivity-q-cad3a9c2",
+          "type": "true_false",
+          "stem": "In the short run, the law of variable proportions describes how the marginal product of labour varies.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-8#12"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-8#12"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false,
+      "big_idea": "",
+      "analogy": null,
+      "visuals": [],
+      "worked": null,
+      "watch_out": [],
+      "memory_trick": "",
+      "exam_answer_md": ""
+    },
+    {
+      "id": "be-s8-productivity-c6",
+      "heading": "Hiring the right amount of each input",
+      "explanation_md": "To guide production a manager must produce **on** the production function, align incentives so workers give maximum effort, and employ the **right level of inputs**.\n\nWhen inputs vary in the short run, a profit-maximising manager hires:\n\n- **labour until VMPL = w**, where VMPL = P x MPL (the value of the marginal product of labour equals the wage);\n- **capital until VMPK = r**, where VMPK = P x MPK (equals the rental rate).",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Value of marginal product of labour",
+          "meaning": "VMPL = P x MPL, the value of the last worker's output",
+          "source_ref": "be--session-8#13"
+        }
+      ],
+      "exam_line": "Hire labour until VMPL = w and capital until VMPK = r.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s8-productivity-q-e4f4a510",
+          "type": "mcq",
+          "stem": "To maximise profit, a manager hires labour until:",
+          "options": [
+            "VMPL = w",
+            "MPL = 0",
+            "VMPK = w"
+          ],
+          "answer": "VMPL = w",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-8#13"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s8-productivity-q-0be9f65f",
+          "type": "fill",
+          "stem": "VMPL = P x ____",
+          "options": [],
+          "answer": "MPL",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-8#13"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-8#13"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false,
+      "big_idea": "",
+      "analogy": null,
+      "visuals": [],
+      "worked": null,
+      "watch_out": [],
+      "memory_trick": "",
+      "exam_answer_md": ""
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "be-s8-productivity-f1",
+      "front": "Total product",
+      "back": "The maximum output produced with given amounts of inputs",
+      "kind": "term",
+      "source_refs": [
+        "be--session-8#6"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s8-productivity-f2",
+      "front": "APL",
+      "back": "Q/L: the output of an average worker",
+      "kind": "formula",
+      "source_refs": [
+        "be--session-8#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s8-productivity-f3",
+      "front": "MPL",
+      "back": "ΔQ/ΔL: the output of the last worker; the slope of the short-run production function",
+      "kind": "formula",
+      "source_refs": [
+        "be--session-8#8"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s8-productivity-f4",
+      "front": "Law of variable proportions",
+      "back": "Marginal product of the variable input first rises, reaches a maximum, then falls",
+      "kind": "term",
+      "source_refs": [
+        "be--session-8#12"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s8-productivity-f5",
+      "front": "Hiring rule",
+      "back": "Labour until VMPL = w; capital until VMPK = r",
+      "kind": "formula",
+      "source_refs": [
+        "be--session-8#13"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [
+    {
+      "id": "be-s8-productivity-q-69c8f4c4",
+      "type": "mcq",
+      "stem": "MPL is the slope of:",
+      "options": [
+        "The short-run production function",
+        "The isocost line",
+        "The average product curve"
+      ],
+      "answer": "The short-run production function",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "",
+      "source_refs": [
+        "be--session-8#8"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s8-productivity-q-c128301d",
+      "type": "mcq",
+      "stem": "In the professor's labour table, what is the average product of labour with 6 workers?",
+      "options": [
+        "11.0",
+        "6",
+        "66"
+      ],
+      "answer": "11.0",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "",
+      "source_refs": [
+        "be--session-8#10"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s8-productivity-q-74872612",
+      "type": "short",
+      "stem": "Explain the law of variable proportions with reasons.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The **law of variable proportions** says that as successive units of a variable input are added to a fixed input, the marginal product of the variable input first increases, reaches a maximum, and eventually decreases.\n\n- **Rising stage:** the fixed input is underused, so extra workers allow specialisation, better coordination and better use of machines and space.\n- **Falling stage:** the fixed input becomes a constraint: workers wait for machines, the space is crowded and specialisation is exhausted.\n\nSo each extra worker first adds more, then less, than the previous one.",
+      "rubric": [
+        {
+          "point": "States the law: MP rises, peaks, then falls",
+          "source_ref": "be--session-8#12"
+        },
+        {
+          "point": "Reasons for rising MP",
+          "source_ref": "be--session-8#12"
+        },
+        {
+          "point": "Reasons for falling MP",
+          "source_ref": "be--session-8#12"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "be--session-8#12"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s8-productivity-q-bfb2e203",
+      "type": "long",
+      "stem": "Using the professor's labour table (TP of 0, 10, 24, 39, 52, 60, 66 and 70 for 0 to 7 workers), calculate APL and MPL and state where diminishing marginal product begins.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "APL = TP/L and MPL = change in TP.\n\n| L | TP | APL | MPL |\n|---|---|---|---|\n| 1 | 10 | 10.0 | 10 |\n| 2 | 24 | 12.0 | 14 |\n| 3 | 39 | 13.0 | 15 |\n| 4 | 52 | 13.0 | 13 |\n| 5 | 60 | 12.0 | 8 |\n| 6 | 66 | 11.0 | 6 |\n| 7 | 70 | 10.0 | 4 |\n\nMPL rises to 15 and falls to 13 at the **4th worker**, so diminishing marginal product begins there.",
+      "rubric": [
+        {
+          "point": "APL column correct",
+          "source_ref": "be--session-8#10"
+        },
+        {
+          "point": "MPL column correct",
+          "source_ref": "be--session-8#10"
+        },
+        {
+          "point": "Diminishing MP begins at the 4th unit of labour",
+          "source_ref": "be--session-8#10"
+        }
+      ],
+      "marks": 5.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "be--session-8#9",
+        "be--session-8#10"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "explain_back": {
+    "prompt": "Explain the law of variable proportions and why the marginal product of labour first rises and then falls.",
+    "rubric": [
+      {
+        "point": "Statement: MP of the variable input first increases, peaks, then decreases",
+        "source_ref": "be--session-8#12"
+      },
+      {
+        "point": "Rises: specialisation, coordination, better use of the fixed input",
+        "source_ref": "be--session-8#12"
+      },
+      {
+        "point": "Falls: the fixed input becomes a constraint (waiting for machines, crowding, specialisation exhausted)",
+        "source_ref": "be--session-8#12"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

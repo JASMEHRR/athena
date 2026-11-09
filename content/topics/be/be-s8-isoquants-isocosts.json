@@ -1,0 +1,475 @@
+{
+  "id": "be-s8-isoquants-isocosts",
+  "subject_id": "be",
+  "deck_id": "be--session-8",
+  "title": "Isoquants, MRTS and isocost lines",
+  "order": 3,
+  "summary": "Isoquants and the marginal rate of technical substitution, the linear, Leontief and Cobb-Douglas isoquant shapes, and the isocost line.",
+  "est_minutes": 25,
+  "difficulty": 2,
+  "source_refs": [
+    "be--session-8#14",
+    "be--session-8#15",
+    "be--session-8#18",
+    "be--session-8#16",
+    "be--session-8#17",
+    "be--session-8#19"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "be-s8-isoquants-isocosts-c1",
+      "heading": "Isoquants and the MRTS",
+      "explanation_md": "An **isoquant** shows the long-run combinations of inputs (K, L) that give the **same level of output**. Its shape tells you how easily the producer can swap one input for the other while keeping output the same.\n\nThe **marginal rate of technical substitution (MRTS)** is the rate at which two inputs are substituted while keeping output the same: **MRTS_KL = MPL / MPK**.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Isoquant",
+          "meaning": "Combinations of K and L that give the same output",
+          "source_ref": "be--session-8#14"
+        },
+        {
+          "term": "MRTS",
+          "meaning": "The rate at which two inputs are substituted while keeping the same output; MRTS_KL = MPL/MPK",
+          "source_ref": "be--session-8#15"
+        }
+      ],
+      "exam_line": "Isoquant: same output, different input mixes. MRTS_KL = MPL/MPK.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s8-isoquants-isocosts-q-1dd6c97c",
+          "type": "mcq",
+          "stem": "An isoquant shows:",
+          "options": [
+            "Input combinations that give the same output",
+            "Input combinations that cost the same",
+            "Output at different prices"
+          ],
+          "answer": "Input combinations that give the same output",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-8#14",
+            "be--session-8#15",
+            "be--session-8#18"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s8-isoquants-isocosts-q-c0d3b752",
+          "type": "fill",
+          "stem": "MRTS_KL = MPL / ____",
+          "options": [],
+          "answer": "MPK",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-8#15",
+            "be--session-8#18"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-8#14",
+        "be--session-8#15",
+        "be--session-8#18"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false,
+      "big_idea": "",
+      "analogy": null,
+      "visuals": [],
+      "worked": null,
+      "watch_out": [],
+      "memory_trick": "",
+      "exam_answer_md": ""
+    },
+    {
+      "id": "be-s8-isoquants-isocosts-c2",
+      "heading": "Three isoquant shapes",
+      "explanation_md": "- **Linear isoquants** (Q = aK + bL): capital and labour are **perfect substitutes**. MRTS_KL = **b/a**, a constant rate whatever the input levels.\n- **Leontief isoquants** (Q = min{bK, cL}): capital and labour are **perfect complements**, used in fixed proportions. The isoquants are L-shaped and there is **no substitution** along them, so no MRTS.\n- **Cobb-Douglas isoquants** (Q = K^a L^b): inputs are **not perfectly substitutable**. The MRTS **diminishes**: as you use less of one input, you need increasingly more of the other to keep output the same.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "Linear: constant MRTS = b/a. Leontief: L-shaped, no MRTS. Cobb-Douglas: convex, diminishing MRTS.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s8-isoquants-isocosts-q-486ec81e",
+          "type": "mcq",
+          "stem": "Leontief isoquants mean capital and labour are:",
+          "options": [
+            "Perfect complements",
+            "Perfect substitutes",
+            "Partly substitutable with a diminishing MRTS"
+          ],
+          "answer": "Perfect complements",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-8#16",
+            "be--session-8#17",
+            "be--session-8#18"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s8-isoquants-isocosts-q-dc45dc75",
+          "type": "mcq",
+          "stem": "For a linear isoquant Q = aK + bL, MRTS_KL equals:",
+          "options": [
+            "b/a",
+            "a/b",
+            "MPK/MPL"
+          ],
+          "answer": "b/a",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-8#16",
+            "be--session-8#18"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s8-isoquants-isocosts-q-98ea1ce3",
+          "type": "true_false",
+          "stem": "Cobb-Douglas isoquants show a diminishing marginal rate of technical substitution.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-8#16",
+            "be--session-8#17",
+            "be--session-8#18"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-8#16",
+        "be--session-8#17",
+        "be--session-8#18"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false,
+      "big_idea": "",
+      "analogy": null,
+      "visuals": [],
+      "worked": null,
+      "watch_out": [],
+      "memory_trick": "",
+      "exam_answer_md": ""
+    },
+    {
+      "id": "be-s8-isoquants-isocosts-c3",
+      "heading": "Isocost lines",
+      "explanation_md": "An **isocost line** shows the input combinations that cost the same: **wL + rK = C**, where w is the wage and r the rental rate of capital. Rearranged: **K = (1/r)C - (w/r)L**, so the intercepts are C/r on the capital axis and C/w on the labour axis, and the slope is -w/r.\n\n- Isocosts **farther from the origin** mean **higher costs** (C0 < C1).\n- A change in an input price **changes the slope**: a lower wage swings the labour intercept out from C/w0 to C/w1.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Isocost line",
+          "meaning": "Input combinations with the same total cost: wL + rK = C",
+          "source_ref": "be--session-8#19"
+        }
+      ],
+      "exam_line": "Isocost: wL + rK = C, intercepts C/r and C/w, slope -w/r; a price change rotates it.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s8-isoquants-isocosts-q-3c50cf9c",
+          "type": "mcq",
+          "stem": "The isocost equation is:",
+          "options": [
+            "wL + rK = C",
+            "Q = F(K,L)",
+            "MRTS_KL = MPL/MPK"
+          ],
+          "answer": "wL + rK = C",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-8#19",
+            "be--session-8#15",
+            "be--session-8#18"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s8-isoquants-isocosts-q-2f739b84",
+          "type": "mcq",
+          "stem": "A fall in the wage makes the isocost line:",
+          "options": [
+            "Change its slope",
+            "Shift parallel towards the origin",
+            "Stay exactly the same"
+          ],
+          "answer": "Change its slope",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-8#19"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s8-isoquants-isocosts-q-4307af00",
+          "type": "true_false",
+          "stem": "For given input prices, isocosts farther from the origin are associated with higher costs.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-8#19"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-8#19"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false,
+      "big_idea": "",
+      "analogy": null,
+      "visuals": [],
+      "worked": null,
+      "watch_out": [],
+      "memory_trick": "",
+      "exam_answer_md": ""
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "be-s8-isoquants-isocosts-f1",
+      "front": "Isoquant",
+      "back": "Long-run combinations of K and L that give the same output",
+      "kind": "term",
+      "source_refs": [
+        "be--session-8#14"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s8-isoquants-isocosts-f2",
+      "front": "MRTS_KL",
+      "back": "MPL/MPK: the rate inputs are swapped keeping output the same",
+      "kind": "formula",
+      "source_refs": [
+        "be--session-8#15",
+        "be--session-8#18"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s8-isoquants-isocosts-f3",
+      "front": "Isoquant shapes",
+      "back": "Linear: perfect substitutes; Leontief: perfect complements, no MRTS; Cobb-Douglas: diminishing MRTS",
+      "kind": "list",
+      "source_refs": [
+        "be--session-8#16",
+        "be--session-8#17",
+        "be--session-8#18"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s8-isoquants-isocosts-f4",
+      "front": "Isocost line",
+      "back": "wL + rK = C, or K = (1/r)C - (w/r)L",
+      "kind": "formula",
+      "source_refs": [
+        "be--session-8#19"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [
+    {
+      "id": "be-s8-isoquants-isocosts-q-9bf98e8d",
+      "type": "mcq",
+      "stem": "Along a Leontief isoquant there is:",
+      "options": [
+        "No input substitution",
+        "Substitution at a constant rate",
+        "A diminishing MRTS"
+      ],
+      "answer": "No input substitution",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "",
+      "source_refs": [
+        "be--session-8#17"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s8-isoquants-isocosts-q-1b9e4a4d",
+      "type": "mcq",
+      "stem": "In K = (1/r)C - (w/r)L, the slope of the isocost line depends on:",
+      "options": [
+        "The wage relative to the rental rate",
+        "Total output",
+        "The marginal product of labour"
+      ],
+      "answer": "The wage relative to the rental rate",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "",
+      "source_refs": [
+        "be--session-8#19"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s8-isoquants-isocosts-q-8c753924",
+      "type": "differentiate",
+      "stem": "Differentiate between linear, Leontief and Cobb-Douglas isoquants.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "| | Linear | Leontief | Cobb-Douglas |\n|---|---|---|---|\n| Function | Q = aK + bL | Q = min{bK, cL} | Q = K^a L^b |\n| Inputs | Perfect substitutes | Perfect complements, fixed proportions | Not perfectly substitutable |\n| MRTS | Constant, b/a | None | Diminishing |\n| Shape | Straight line | L-shaped | Convex curve |",
+      "rubric": [
+        {
+          "point": "Linear: perfect substitutes, constant MRTS = b/a",
+          "source_ref": "be--session-8#16"
+        },
+        {
+          "point": "Leontief: perfect complements, no substitution",
+          "source_ref": "be--session-8#17"
+        },
+        {
+          "point": "Cobb-Douglas: diminishing MRTS",
+          "source_ref": "be--session-8#18"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "differentiate",
+      "source_refs": [
+        "be--session-8#16",
+        "be--session-8#17",
+        "be--session-8#18"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "explain_back": {
+    "prompt": "Explain what an isoquant and an isocost line show, and how the three isoquant shapes differ.",
+    "rubric": [
+      {
+        "point": "Isoquant: input combinations with the same output",
+        "source_ref": "be--session-8#14"
+      },
+      {
+        "point": "MRTS_KL = MPL/MPK",
+        "source_ref": "be--session-8#18"
+      },
+      {
+        "point": "Linear isoquant: perfect substitutes, constant MRTS",
+        "source_ref": "be--session-8#16"
+      },
+      {
+        "point": "Leontief isoquant: perfect complements, no substitution",
+        "source_ref": "be--session-8#17"
+      },
+      {
+        "point": "Cobb-Douglas isoquant: diminishing MRTS",
+        "source_ref": "be--session-8#18"
+      },
+      {
+        "point": "Isocost: wL + rK = C, the same cost",
+        "source_ref": "be--session-8#19"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

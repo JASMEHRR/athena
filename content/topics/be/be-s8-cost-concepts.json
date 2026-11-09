@@ -1,0 +1,661 @@
+{
+  "id": "be-s8-cost-concepts",
+  "subject_id": "be",
+  "deck_id": "be--session-8",
+  "title": "Fixed, variable, sunk, average and marginal cost",
+  "order": 5,
+  "summary": "Short-run and long-run costs, total, variable, fixed and sunk cost, the average and marginal cost definitions and curves, costs as areas, and the cost table with fixed cost of ₹100.",
+  "est_minutes": 35,
+  "difficulty": 2,
+  "source_refs": [
+    "be--session-8#23",
+    "be--session-8#24",
+    "be--session-8#25",
+    "be--session-8#26",
+    "be--session-8#27",
+    "be--session-8#28",
+    "be--session-8#29",
+    "be--session-8#30",
+    "be--session-8#31"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "be-s8-cost-concepts-c1",
+      "heading": "Types of costs",
+      "explanation_md": "In the **short run** a firm has **fixed costs (FC)**, **sunk costs**, **variable costs (VC)** and **total costs (TC)**.\n\nIn the **long run** **all costs are variable**: there are **no fixed costs**, because the firm can change every input.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "Short run: FC, sunk costs, VC, TC. Long run: all costs variable, no fixed costs.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s8-cost-concepts-q-9a95af11",
+          "type": "mcq",
+          "stem": "In the long run:",
+          "options": [
+            "All costs are variable",
+            "All costs are fixed",
+            "Only sunk costs remain"
+          ],
+          "answer": "All costs are variable",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-8#23"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s8-cost-concepts-q-b8ebd1bd",
+          "type": "true_false",
+          "stem": "Fixed costs exist in the long run.",
+          "options": [],
+          "answer": "False",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-8#23"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-8#23"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false,
+      "big_idea": "",
+      "analogy": null,
+      "visuals": [],
+      "worked": null,
+      "watch_out": [],
+      "memory_trick": "",
+      "exam_answer_md": ""
+    },
+    {
+      "id": "be-s8-cost-concepts-c2",
+      "heading": "Total, variable, fixed and sunk costs",
+      "explanation_md": "**C(Q) = VC(Q) + FC**: the minimum total cost of producing each level of output.\n\n- **Variable cost VC(Q)** changes with output.\n- **Fixed cost FC** does not change as output changes.\n- **Sunk cost** is a cost that is **forever lost** once it has been paid. Decision makers should **ignore sunk costs** to maximise profit or minimise losses, because nothing they decide now can bring that money back.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Sunk cost",
+          "meaning": "A cost that is forever lost after it has been paid",
+          "source_ref": "be--session-8#25"
+        },
+        {
+          "term": "Fixed cost",
+          "meaning": "A cost that does not vary with output",
+          "source_ref": "be--session-8#24"
+        }
+      ],
+      "exam_line": "C(Q) = VC(Q) + FC. Ignore sunk costs when deciding.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s8-cost-concepts-q-f6e7a8e9",
+          "type": "mcq",
+          "stem": "A sunk cost is:",
+          "options": [
+            "A cost that is forever lost after it has been paid",
+            "A cost that varies with output",
+            "The cost of the last unit"
+          ],
+          "answer": "A cost that is forever lost after it has been paid",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-8#24",
+            "be--session-8#25"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s8-cost-concepts-q-883bee26",
+          "type": "true_false",
+          "stem": "Decision makers should ignore sunk costs to maximise profit or minimise losses.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-8#24",
+            "be--session-8#25"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s8-cost-concepts-q-a5db61e9",
+          "type": "fill",
+          "stem": "C(Q) = VC(Q) + ____",
+          "options": [],
+          "answer": "FC",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-8#24",
+            "be--session-8#25"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-8#24",
+        "be--session-8#25"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false,
+      "big_idea": "",
+      "analogy": null,
+      "visuals": [],
+      "worked": null,
+      "watch_out": [],
+      "memory_trick": "",
+      "exam_answer_md": ""
+    },
+    {
+      "id": "be-s8-cost-concepts-c3",
+      "heading": "Average and marginal cost",
+      "explanation_md": "- **ATC = C(Q)/Q**, and **ATC = AVC + AFC**\n- **AVC = VC(Q)/Q**\n- **AFC = FC/Q**\n- **MC = ΔC/ΔQ**, the extra cost of one more unit\n\nOn the graph, **AFC keeps falling** (the same fixed cost spread over more units). AVC and ATC are **U-shaped**, with ATC above AVC. **MC cuts AVC and ATC at their minimum points**.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "ATC = AVC + AFC; AFC = FC/Q falls forever; MC cuts AVC and ATC at their lowest points.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s8-cost-concepts-q-96e40380",
+          "type": "mcq",
+          "stem": "MC cuts the ATC curve:",
+          "options": [
+            "At the minimum of ATC",
+            "At the maximum of ATC",
+            "At the minimum of AFC"
+          ],
+          "answer": "At the minimum of ATC",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-8#26"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s8-cost-concepts-q-900a7694",
+          "type": "mcq",
+          "stem": "AFC equals:",
+          "options": [
+            "FC/Q",
+            "VC(Q)/Q",
+            "ΔC/ΔQ"
+          ],
+          "answer": "FC/Q",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-8#26"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s8-cost-concepts-q-eb6cbae8",
+          "type": "true_false",
+          "stem": "ATC = AVC + AFC.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-8#26"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-8#26"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false,
+      "big_idea": "",
+      "analogy": null,
+      "visuals": [],
+      "worked": null,
+      "watch_out": [],
+      "memory_trick": "",
+      "exam_answer_md": ""
+    },
+    {
+      "id": "be-s8-cost-concepts-c4",
+      "heading": "Reading costs as areas on the graph",
+      "explanation_md": "At an output Q0 each cost is a **rectangle**:\n\n- **Fixed cost** = Q0 x (ATC - AVC) = Q0 x AFC = FC\n- **Variable cost** = Q0 x AVC = VC(Q0)\n- **Total cost** = Q0 x ATC = C(Q0)\n\nThe gap between ATC and AVC is AFC, which is why it shrinks as Q grows.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "At Q0: FC = Q0(ATC - AVC), VC = Q0 x AVC, TC = Q0 x ATC.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s8-cost-concepts-q-ba8a4ec0",
+          "type": "mcq",
+          "stem": "On the cost graph, total cost at Q0 is the rectangle:",
+          "options": [
+            "Q0 x ATC",
+            "Q0 x AFC",
+            "Q0 x MC"
+          ],
+          "answer": "Q0 x ATC",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-8#27",
+            "be--session-8#28",
+            "be--session-8#29"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s8-cost-concepts-q-1649a230",
+          "type": "true_false",
+          "stem": "Fixed cost at Q0 equals Q0 x (ATC - AVC).",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-8#27",
+            "be--session-8#28",
+            "be--session-8#29"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-8#27",
+        "be--session-8#28",
+        "be--session-8#29"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false,
+      "big_idea": "",
+      "analogy": null,
+      "visuals": [],
+      "worked": null,
+      "watch_out": [],
+      "memory_trick": "",
+      "exam_answer_md": ""
+    },
+    {
+      "id": "be-s8-cost-concepts-c5",
+      "heading": "Worked question: the cost table",
+      "explanation_md": "Fixed cost is **₹100** at every output. TC = TFC + TVC, AFC = TFC/Q, AVC = TVC/Q, ATC = TC/Q, MC = change in TC.\n\n| Q | TVC | TC | AFC | AVC | ATC | MC |\n|---|---|---|---|---|---|---|\n| 1 | 60 | 160 | 100 | 60 | 160 | 60 |\n| 2 | 100 | 200 | 50 | 50 | 100 | 40 |\n| 3 | 135 | 235 | 33.3 | 45 | 78.3 | 35 |\n| 4 | 180 | 280 | 25 | 45 | 70 | 45 |\n| 5 | 240 | 340 | 20 | 48 | 68 | 60 |\n| 6 | 315 | 415 | 16.7 | 52.5 | 69.2 | 75 |\n\nNotice MC is lowest at Q = 3, AVC is lowest at Q = 3 and 4, and ATC is lowest at Q = 5.",
+      "example_ids": [
+        "be-ex-cost-table-100"
+      ],
+      "key_terms": [],
+      "exam_line": "Build the table column by column; MC is the change in TC, not TC/Q.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s8-cost-concepts-q-47b109fb",
+          "type": "mcq",
+          "stem": "In the cost table with fixed cost of ₹100, ATC at Q = 3 is:",
+          "options": [
+            "78.3",
+            "45",
+            "235"
+          ],
+          "answer": "78.3",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-8#30",
+            "be--session-8#31"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s8-cost-concepts-q-5b2e2764",
+          "type": "mcq",
+          "stem": "In the same cost table, the marginal cost of the 4th unit is:",
+          "options": [
+            "45",
+            "35",
+            "60"
+          ],
+          "answer": "45",
+          "accept": [],
+          "explanation": "TC rises from 235 to 280, an increase of 45.",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-8#30",
+            "be--session-8#31"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s8-cost-concepts-q-b7a1da36",
+          "type": "true_false",
+          "stem": "In the cost table, ATC is lowest at Q = 5.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-8#30",
+            "be--session-8#31"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-8#30",
+        "be--session-8#31"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false,
+      "big_idea": "",
+      "analogy": null,
+      "visuals": [],
+      "worked": null,
+      "watch_out": [],
+      "memory_trick": "",
+      "exam_answer_md": ""
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "be-s8-cost-concepts-f1",
+      "front": "Short run vs long run costs",
+      "back": "Short run: FC, sunk, VC, TC. Long run: all costs variable, no fixed costs",
+      "kind": "list",
+      "source_refs": [
+        "be--session-8#23"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s8-cost-concepts-f2",
+      "front": "Sunk cost",
+      "back": "A cost forever lost after it has been paid; ignore it when deciding",
+      "kind": "term",
+      "source_refs": [
+        "be--session-8#25"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s8-cost-concepts-f3",
+      "front": "Average costs",
+      "back": "ATC = C(Q)/Q = AVC + AFC; AVC = VC/Q; AFC = FC/Q",
+      "kind": "formula",
+      "source_refs": [
+        "be--session-8#26"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s8-cost-concepts-f4",
+      "front": "Marginal cost",
+      "back": "MC = ΔC/ΔQ; cuts AVC and ATC at their minimum points",
+      "kind": "formula",
+      "source_refs": [
+        "be--session-8#26"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s8-cost-concepts-f5",
+      "front": "Costs as areas",
+      "back": "FC = Q0(ATC - AVC); VC = Q0 x AVC; TC = Q0 x ATC",
+      "kind": "formula",
+      "source_refs": [
+        "be--session-8#27",
+        "be--session-8#28",
+        "be--session-8#29"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [
+    {
+      "id": "be-s8-cost-concepts-q-b09922e7",
+      "type": "mcq",
+      "stem": "In the cost table with fixed cost of ₹100, AVC at Q = 6 is:",
+      "options": [
+        "52.5",
+        "315",
+        "16.7"
+      ],
+      "answer": "52.5",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "",
+      "source_refs": [
+        "be--session-8#31"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s8-cost-concepts-q-e2611a33",
+      "type": "mcq",
+      "stem": "Which cost should a manager ignore when deciding how much to produce?",
+      "options": [
+        "Sunk cost",
+        "Variable cost",
+        "Marginal cost"
+      ],
+      "answer": "Sunk cost",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "",
+      "source_refs": [
+        "be--session-8#25"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s8-cost-concepts-q-4374f9bb",
+      "type": "short",
+      "stem": "What is a sunk cost, and why should managers ignore it?",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "A **sunk cost** is a cost that is **forever lost** after it has been paid. Managers should **ignore** it when deciding, because no future choice can recover it; only costs that change with the decision matter for maximising profit or minimising losses.",
+      "rubric": [
+        {
+          "point": "Definition: forever lost once paid",
+          "source_ref": "be--session-8#25"
+        },
+        {
+          "point": "Should be ignored to maximise profit or minimise losses",
+          "source_ref": "be--session-8#25"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 1,
+      "style_tag": "explain",
+      "source_refs": [
+        "be--session-8#25"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s8-cost-concepts-q-74b3c0f0",
+      "type": "long",
+      "stem": "A firm's fixed cost is ₹100 and its variable costs for outputs 0 to 6 are 0, 60, 100, 135, 180, 240 and 315. Calculate TFC, TVC, TC, AFC, AVC, ATC and MC.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "TC = TFC + TVC; AFC = TFC/Q; AVC = TVC/Q; ATC = TC/Q; MC = change in TC.\n\n| Q | TFC | TVC | TC | AFC | AVC | ATC | MC |\n|---|---|---|---|---|---|---|---|\n| 0 | 100 | 0 | 100 | | | | |\n| 1 | 100 | 60 | 160 | 100 | 60 | 160 | 60 |\n| 2 | 100 | 100 | 200 | 50 | 50 | 100 | 40 |\n| 3 | 100 | 135 | 235 | 33.3 | 45 | 78.3 | 35 |\n| 4 | 100 | 180 | 280 | 25 | 45 | 70 | 45 |\n| 5 | 100 | 240 | 340 | 20 | 48 | 68 | 60 |\n| 6 | 100 | 315 | 415 | 16.7 | 52.5 | 69.2 | 75 |",
+      "rubric": [
+        {
+          "point": "TC column correct",
+          "source_ref": "be--session-8#31"
+        },
+        {
+          "point": "AFC, AVC and ATC columns correct",
+          "source_ref": "be--session-8#31"
+        },
+        {
+          "point": "MC as the change in TC",
+          "source_ref": "be--session-8#31"
+        }
+      ],
+      "marks": 5.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "be--session-8#30",
+        "be--session-8#31"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "explain_back": {
+    "prompt": "Explain fixed, variable, sunk, average and marginal cost and how the cost curves relate to each other.",
+    "rubric": [
+      {
+        "point": "C(Q) = VC(Q) + FC; fixed vs variable",
+        "source_ref": "be--session-8#24"
+      },
+      {
+        "point": "Sunk cost is forever lost and should be ignored",
+        "source_ref": "be--session-8#25"
+      },
+      {
+        "point": "ATC = AVC + AFC; AFC keeps falling",
+        "source_ref": "be--session-8#26"
+      },
+      {
+        "point": "MC cuts AVC and ATC at their minimum points",
+        "source_ref": "be--session-8#26"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

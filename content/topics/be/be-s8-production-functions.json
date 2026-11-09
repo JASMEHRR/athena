@@ -1,0 +1,462 @@
+{
+  "id": "be-s8-production-functions",
+  "subject_id": "be",
+  "deck_id": "be--session-8",
+  "title": "The production function and its three forms",
+  "order": 1,
+  "summary": "What Q = F(K,L) means, short run versus long run, the linear, Leontief and Cobb-Douglas forms, and the Leontief output question.",
+  "est_minutes": 20,
+  "difficulty": 1,
+  "source_refs": [
+    "be--session-8#2",
+    "be--session-8#3",
+    "be--session-8#4",
+    "be--session-8#5"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "be-s8-production-functions-c1",
+      "heading": "What a production function says",
+      "explanation_md": "A **production function** links inputs to output: **Q = F(K,L)**. Q is the quantity of output, **K** is capital, **L** is labour, and F is the functional form that turns inputs into output.\n\nIt gives the **maximum** output a firm can produce with K units of capital and L units of labour. Producing less than that is wasting inputs.\n\nThe session splits decisions into the **short run**, where some inputs are **fixed**, and the **long run**, where inputs are **variable**.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Production function",
+          "meaning": "Q = F(K,L): the maximum output from K units of capital and L units of labour",
+          "source_ref": "be--session-8#3"
+        },
+        {
+          "term": "Fixed input",
+          "meaning": "An input the firm cannot change in the short run",
+          "source_ref": "be--session-8#3"
+        }
+      ],
+      "exam_line": "Q = F(K,L) is the maximum output that K units of capital and L units of labour can produce.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s8-production-functions-q-1a065386",
+          "type": "mcq",
+          "stem": "In Q = F(K,L), what does L stand for?",
+          "options": [
+            "Labour input",
+            "Capital input",
+            "Quantity of output"
+          ],
+          "answer": "Labour input",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-8#2",
+            "be--session-8#3"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s8-production-functions-q-476d5520",
+          "type": "true_false",
+          "stem": "A production function gives the maximum output that can be produced with K units of capital and L units of labour.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-8#2",
+            "be--session-8#3"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s8-production-functions-q-b4400b1a",
+          "type": "fill",
+          "stem": "In Q = F(K,L), K is the ____ input.",
+          "options": [],
+          "answer": "capital",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-8#2",
+            "be--session-8#3"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-8#2",
+        "be--session-8#3"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false,
+      "big_idea": "",
+      "analogy": null,
+      "visuals": [],
+      "worked": null,
+      "watch_out": [],
+      "memory_trick": "",
+      "exam_answer_md": ""
+    },
+    {
+      "id": "be-s8-production-functions-c2",
+      "heading": "Three algebraic forms",
+      "explanation_md": "The slides give three shapes for F:\n\n- **Linear**: Q = aK + bL. Inputs are **perfect substitutes**: you can swap one for the other at a fixed rate.\n- **Leontief**: Q = min{bK, cL}. Inputs are used in **fixed proportions**: extra of one input is useless without more of the other.\n- **Cobb-Douglas**: Q = K^a L^b. Inputs have **a degree of substitutability**: you can swap them, but not perfectly.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Linear production function",
+          "meaning": "Q = aK + bL, inputs are perfect substitutes",
+          "source_ref": "be--session-8#4"
+        },
+        {
+          "term": "Leontief production function",
+          "meaning": "Q = min{bK, cL}, inputs used in fixed proportions",
+          "source_ref": "be--session-8#4"
+        },
+        {
+          "term": "Cobb-Douglas production function",
+          "meaning": "Q = K^a L^b, inputs have a degree of substitutability",
+          "source_ref": "be--session-8#4"
+        }
+      ],
+      "exam_line": "Linear: perfect substitutes. Leontief: fixed proportions. Cobb-Douglas: a degree of substitutability.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s8-production-functions-q-1e82680d",
+          "type": "mcq",
+          "stem": "Which production function uses inputs in fixed proportions?",
+          "options": [
+            "Leontief",
+            "Linear",
+            "Cobb-Douglas"
+          ],
+          "answer": "Leontief",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-8#4"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s8-production-functions-q-702f1742",
+          "type": "mcq",
+          "stem": "In a linear production function, the inputs are:",
+          "options": [
+            "Perfect substitutes",
+            "Used in fixed proportions",
+            "Never substitutable"
+          ],
+          "answer": "Perfect substitutes",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-8#4"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s8-production-functions-q-a96dfd85",
+          "type": "true_false",
+          "stem": "In a Cobb-Douglas production function, inputs have a degree of substitutability.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-8#4"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-8#4"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false,
+      "big_idea": "",
+      "analogy": null,
+      "visuals": [],
+      "worked": null,
+      "watch_out": [],
+      "memory_trick": "",
+      "exam_answer_md": ""
+    },
+    {
+      "id": "be-s8-production-functions-c3",
+      "heading": "Worked question: a Leontief firm",
+      "explanation_md": "The firm's production function is **Q = min{3K, 4L}**, with K = 5 and L = 2.\n\n| Term | Working | Value |\n|---|---|---|\n| 3K | 3 x 5 | 15 |\n| 4L | 4 x 2 | 8 |\n| Q | min{15, 8} | **8** |\n\nWith fixed proportions, output is set by the **smaller** term. Here labour holds output to 8, so the extra capital adds nothing.",
+      "example_ids": [
+        "be-ex-leontief-3k-4l"
+      ],
+      "key_terms": [],
+      "exam_line": "For a Leontief function, work out each term and take the minimum: Q = min{15, 8} = 8.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s8-production-functions-q-4cff0a23",
+          "type": "mcq",
+          "stem": "Q = min{3K, 4L}. With K = 5 and L = 2, output is:",
+          "options": [
+            "8",
+            "15",
+            "23"
+          ],
+          "answer": "8",
+          "accept": [],
+          "explanation": "3K = 15 and 4L = 8; a Leontief firm produces the smaller of the two.",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-8#5",
+            "be--session-8#4"
+          ],
+          "derived": [
+            "23"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s8-production-functions-q-c8fc00d6",
+          "type": "fill",
+          "stem": "For Q = min{3K, 4L} with L = 2, the labour term 4L equals ____.",
+          "options": [],
+          "answer": "8",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-8#5",
+            "be--session-8#4"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-8#5",
+        "be--session-8#4"
+      ],
+      "derived": [
+        "23"
+      ],
+      "needs_check": false,
+      "retired": false,
+      "big_idea": "",
+      "analogy": null,
+      "visuals": [],
+      "worked": null,
+      "watch_out": [],
+      "memory_trick": "",
+      "exam_answer_md": ""
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "be-s8-production-functions-f1",
+      "front": "Production function",
+      "back": "Q = F(K,L): the maximum output from K units of capital and L units of labour",
+      "kind": "formula",
+      "source_refs": [
+        "be--session-8#3"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s8-production-functions-f2",
+      "front": "Linear production function",
+      "back": "Q = aK + bL: inputs are perfect substitutes",
+      "kind": "formula",
+      "source_refs": [
+        "be--session-8#4"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s8-production-functions-f3",
+      "front": "Leontief production function",
+      "back": "Q = min{bK, cL}: inputs used in fixed proportions",
+      "kind": "formula",
+      "source_refs": [
+        "be--session-8#4"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s8-production-functions-f4",
+      "front": "Cobb-Douglas production function",
+      "back": "Q = K^a L^b: inputs have a degree of substitutability",
+      "kind": "formula",
+      "source_refs": [
+        "be--session-8#4"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [
+    {
+      "id": "be-s8-production-functions-q-a67b4978",
+      "type": "mcq",
+      "stem": "Q = F(K,L) measures:",
+      "options": [
+        "The maximum output from given capital and labour",
+        "The minimum cost of producing Q",
+        "The price of output"
+      ],
+      "answer": "The maximum output from given capital and labour",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "",
+      "source_refs": [
+        "be--session-8#3"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s8-production-functions-q-fbc05e76",
+      "type": "mcq",
+      "stem": "Which form is written Q = min{bK, cL}?",
+      "options": [
+        "Leontief",
+        "Cobb-Douglas",
+        "Linear"
+      ],
+      "answer": "Leontief",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "",
+      "source_refs": [
+        "be--session-8#4"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s8-production-functions-q-86dc0e63",
+      "type": "short",
+      "stem": "A firm's production function is Q = min{3K, 4L}. Calculate output when K = 5 and L = 2.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "This is a **Leontief** production function, so inputs are used in fixed proportions and output is the smaller term.\n\n- 3K = 3 x 5 = 15\n- 4L = 4 x 2 = 8\n- Q = min{15, 8} = **8**\n\nLabour is the binding input here.",
+      "rubric": [
+        {
+          "point": "Recognises fixed proportions (Leontief)",
+          "source_ref": "be--session-8#4"
+        },
+        {
+          "point": "3K = 15 and 4L = 8",
+          "source_ref": "be--session-8#5"
+        },
+        {
+          "point": "Q = min{15, 8} = 8",
+          "source_ref": "be--session-8#5"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 1,
+      "style_tag": "numerical",
+      "source_refs": [
+        "be--session-8#4",
+        "be--session-8#5"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "explain_back": {
+    "prompt": "Explain the three algebraic forms of the production function and how each treats substitution between capital and labour.",
+    "rubric": [
+      {
+        "point": "Linear, Q = aK + bL: perfect substitutes",
+        "source_ref": "be--session-8#4"
+      },
+      {
+        "point": "Leontief, Q = min{bK, cL}: fixed proportions",
+        "source_ref": "be--session-8#4"
+      },
+      {
+        "point": "Cobb-Douglas, Q = K^a L^b: a degree of substitutability",
+        "source_ref": "be--session-8#4"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

@@ -1,6 +1,6 @@
 # Coverage report
 
-Generated 2026-11-08 12:19. A deck's pass A is complete at 100% of content slides (cited by a lesson chunk, or the gap explained) with every example taught.
+Generated 2026-11-09 15:06. A deck's pass A is complete at 100% of content slides (cited by a lesson chunk, or the gap explained) with every example taught.
 
 | Deck | Subject | Topics | Content slides | Cited | Explained | Coverage | Examples taught | Pass A |
 |---|---|---|---|---|---|---|---|---|
@@ -10,7 +10,7 @@ Generated 2026-11-08 12:19. A deck's pass A is complete at 100% of content slide
 | aib--ai-for-business-chapters-2-3 | aib | 12 | 16 | 16 | 0 | 100% | 31/31 | done |
 | be--session-6 | be | 8 | 43 | 43 | 0 | 100% | 14/14 | done |
 | be--session-7 | be | 5 | 20 | 20 | 0 | 100% | 8/8 | done |
-| be--session-8 | be | 0 | 44 | 0 | 0 | 0% | 0/0 |  |
+| be--session-8 | be | 7 | 44 | 44 | 1 | 100% | 6/6 | ready |
 | be--session-9 | be | 0 | 31 | 0 | 0 | 0% | 0/0 |  |
 | be--tutorial-sheet-1 | be | 0 | 7 | 2 | 0 | 29% | 0/0 |  |
 | be--session-1-and-2 | be | 9 | 55 | 55 | 0 | 100% | 24/24 | done |
@@ -78,6 +78,9 @@ Generated 2026-11-08 12:19. A deck's pass A is complete at 100% of content slide
 
 ### aib--aib-session3-4-introduction-to-ai
 - Slide 43 explained: Decorative painting with no text (a robot figure marked AI among village scenes); nothing to teach without adding an interpretation the slide does not state.
+
+### be--session-8
+- Slide 44 explained: Blank slide.
 
 ### mm--session-10-11-12mm
 - Slide 29 explained: Only a web link to an interactive exercise, nothing to teach.
