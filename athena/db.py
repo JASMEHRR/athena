@@ -243,6 +243,18 @@ MIGRATIONS: list[str] = [
         updated_at TEXT NOT NULL
     );
     """,
+    # 2: Buzz quiz party games (history only; never touches study progress).
+    """
+    CREATE TABLE IF NOT EXISTS p_buzz_games (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        played_at TEXT NOT NULL,
+        subject_id TEXT NOT NULL DEFAULT '',
+        focus TEXT NOT NULL DEFAULT 'all',
+        players_json TEXT NOT NULL,
+        winner TEXT NOT NULL DEFAULT '',
+        prize TEXT NOT NULL DEFAULT ''
+    );
+    """,
 ]
 
 

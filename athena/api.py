@@ -17,7 +17,7 @@ from fastapi.responses import FileResponse, JSONResponse, PlainTextResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
 
-from . import __version__, admin, config, db, insights, mocks, planner, progress, services, srs
+from . import __version__, admin, buzzlights, config, db, insights, mocks, planner, progress, services, srs
 
 API = "/api/v1"
 NO_CACHE = {"Cache-Control": "no-cache"}
@@ -93,6 +93,23 @@ class TaskStatusBody(BaseModel):
 
 class MockCreate(BaseModel):
     subject_id: str
+
+
+class BuzzPlayer(BaseModel):
+    name: str = Field(min_length=1, max_length=20)
+    score: int = Field(ge=-1_000_000, le=1_000_000)
+
+
+class BuzzGameBody(BaseModel):
+    subject_id: str = Field(max_length=40)
+    focus: str = Field(default="all", pattern="^(all|pyq|exam)$")
+    players: list[BuzzPlayer] = Field(min_length=1, max_length=4)
+    winner: str = Field(default="", max_length=60)
+    prize: str = Field(default="", max_length=80)
+
+
+class BuzzLightsBody(BaseModel):
+    on: list[bool] = Field(min_length=4, max_length=4)
 
 
 class MockSubmit(BaseModel):
@@ -236,6 +253,40 @@ def create_app() -> FastAPI:
         topic_ids = [t for t in (topics or "").split(",") if t]
         type_list = [t for t in (types or "").split(",") if t] or None
         return services.quiz(conn, subject_id, topic_ids or None, type_list, count, include_checks)
+
+    @app.get(f"{API}/buzz/answer/{{question_id}}")
+    def buzz_answer(question_id: str, conn: sqlite3.Connection = Depends(get_conn)):
+        try:
+            return services.buzz_answer(conn, question_id)
+        except KeyError:
+            raise _not_found("question")
+        except ValueError as exc:
+            raise HTTPException(status_code=400, detail=str(exc))
+
+    @app.get(f"{API}/buzz/setup")
+    def buzz_setup(conn: sqlite3.Connection = Depends(get_conn)):
+        return services.buzz_setup(conn)
+
+    @app.get(f"{API}/buzz/questions")
+    def buzz_questions(subject_id: str, focus: str = "all", count: int = Query(40, ge=1, le=120),
+                       conn: sqlite3.Connection = Depends(get_conn)):
+        try:
+            return services.buzz_questions(conn, subject_id, focus, count)
+        except KeyError:
+            raise _not_found("subject")
+        except ValueError as exc:
+            raise HTTPException(status_code=400, detail=str(exc))
+
+    @app.post(f"{API}/buzz/games")
+    def buzz_save(body: BuzzGameBody, conn: sqlite3.Connection = Depends(get_conn)):
+        return services.buzz_save_game(conn, body.subject_id, body.focus, [p.model_dump() for p in body.players],
+                                       body.winner, body.prize)
+
+    @app.post(f"{API}/buzz/lights")
+    def buzz_lights(body: BuzzLightsBody):
+        if not buzzlights.set_lights(body.on):
+            raise HTTPException(status_code=503, detail="No Buzz receiver found. Is it plugged in?")
+        return {"ok": True}
 
     # ---------------------------------------------------------------- activity, settings, search
 

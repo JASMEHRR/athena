@@ -364,6 +364,120 @@ def answer(conn: sqlite3.Connection, question_id: str, given: str, context: str)
             "source_refs": q.get("source_refs", []), "card_added": card_added}
 
 
+BUZZ_TYPES = ("mcq", "true_false")
+
+
+def buzz_answer(conn: sqlite3.Connection, question_id: str) -> dict:
+    """The answer to a Buzz quiz question, shown at the reveal. Records nothing.
+
+    The Buzz quiz is a party game for up to four people on one screen, so their
+    guesses must not count towards JasMehr's own accuracy, mastery or review cards.
+    """
+    row = question_row(conn, question_id)
+    if row is None or row["hidden"]:
+        raise KeyError(question_id)
+    q = json.loads(row["json"])
+    if q["type"] not in BUZZ_TYPES:
+        raise ValueError("the Buzz quiz only uses multiple choice and true or false questions")
+    return {"answer": q["answer"], "explanation": q.get("explanation", ""), "source_refs": q.get("source_refs", [])}
+
+
+BUZZ_FOCUS = ("all", "pyq", "exam")
+
+
+def _pyq_refs_by_topic(conn: sqlite3.Connection) -> dict[str, list[dict]]:
+    """topic id -> the past-paper questions that examined it (exam, year, question number, marks)."""
+    out: dict[str, list[dict]] = {}
+    for r in conn.execute("SELECT json FROM c_pyqs"):
+        p = json.loads(r["json"])
+        ref = {"exam": p.get("exam", ""), "year": p.get("year"), "q_no": p.get("q_no", ""), "marks": p.get("marks")}
+        for topic_id in p.get("topic_ids", []):
+            out.setdefault(topic_id, []).append(ref)
+    return out
+
+
+def _buzz_focus_topics(conn: sqlite3.Connection, pyq_refs: dict[str, list[dict]]) -> dict[str, dict[str, set[str]]]:
+    """subject id -> {"pyq": topics a past paper asked about, "exam": topics from decks on the exam syllabus}."""
+    exam_decks = {d["id"] for d in deck_index(conn) if d["mst"]}
+    out: dict[str, dict[str, set[str]]] = {}
+    for r in conn.execute("SELECT id, subject_id, deck_id FROM c_topics"):
+        sets = out.setdefault(r["subject_id"], {"pyq": set(), "exam": set()})
+        if r["id"] in pyq_refs:
+            sets["pyq"].add(r["id"])
+        if r["deck_id"] in exam_decks:
+            sets["exam"].add(r["id"])
+    return out
+
+
+def buzz_setup(conn: sqlite3.Connection) -> dict:
+    """Subjects with Buzz-ready questions, soonest exam first, plus recent games."""
+    pyq_refs = _pyq_refs_by_topic(conn)
+    focus_topics = _buzz_focus_topics(conn, pyq_refs)
+    counts: dict[str, dict[str, int]] = {}
+    marks = ",".join("?" * len(BUZZ_TYPES))
+    for r in conn.execute(f"SELECT subject_id, topic_id FROM c_questions WHERE hidden = 0 AND type IN ({marks})", BUZZ_TYPES):
+        c = counts.setdefault(r["subject_id"], {"all": 0, "pyq": 0, "exam": 0})
+        c["all"] += 1
+        sets = focus_topics.get(r["subject_id"], {"pyq": set(), "exam": set()})
+        c["pyq"] += r["topic_id"] in sets["pyq"]
+        c["exam"] += r["topic_id"] in sets["exam"]
+    subjects = subject_map(conn)
+    upcoming = next_exam_by_subject(conn)
+    out = []
+    for sid, c in counts.items():
+        s = subjects.get(sid, {})
+        e = upcoming.get(sid)
+        out.append({"id": sid, "name": s.get("name", sid), "short_name": s.get("short_name", sid), "color": s.get("color", ""),
+                    "questions": c["all"], "pyq_questions": c["pyq"], "exam_questions": c["exam"],
+                    "next_exam": {"type": e.get("type", ""), "date": e["date"], "days_left": e["days_left"]} if e else None})
+    out.sort(key=lambda x: (x["next_exam"] is None, x["next_exam"]["days_left"] if x["next_exam"] else 0, x["short_name"]))
+    return {"subjects": out, "history": buzz_history(conn)}
+
+
+def buzz_questions(conn: sqlite3.Connection, subject_id: str, focus: str = "all", count: int = 40) -> dict:
+    """Multiple choice and true or false questions for one game, without answers.
+
+    focus "pyq" keeps to topics a past paper examined; "exam" keeps to decks on the exam syllabus.
+    If a focus has no questions for this subject, the game falls back to all topics and says so.
+    Each question lists the past-paper questions on its topic, so the show can mention them.
+    """
+    if focus not in BUZZ_FOCUS:
+        raise ValueError(f"focus must be one of {', '.join(BUZZ_FOCUS)}")
+    if subject_id not in subject_map(conn):
+        raise KeyError(subject_id)
+    pyq_refs = _pyq_refs_by_topic(conn)
+    used = focus
+    topic_ids: list[str] | None = None
+    if focus != "all":
+        topic_ids = sorted(_buzz_focus_topics(conn, pyq_refs).get(subject_id, {}).get(focus, set()))
+    questions = quiz(conn, subject_id, topic_ids or None, list(BUZZ_TYPES), count) if topic_ids != [] else []
+    if focus != "all" and not questions:
+        used = "all"
+        questions = quiz(conn, subject_id, None, list(BUZZ_TYPES), count)
+    questions = [q for q in questions if 2 <= len(q["options"]) <= 4]  # four answer buttons per handset
+    for q in questions:
+        q["pyq"] = pyq_refs.get(q["topic_id"], [])[:3]
+    return {"focus": used, "questions": questions}
+
+
+def buzz_save_game(conn: sqlite3.Connection, subject_id: str, focus: str, players: list[dict], winner: str, prize: str) -> dict:
+    """Keep a finished party game for the history list. Study progress is never touched."""
+    cur = conn.execute(
+        "INSERT INTO p_buzz_games (played_at, subject_id, focus, players_json, winner, prize) VALUES (?, ?, ?, ?, ?, ?)",
+        (timeutil.now().isoformat(timespec="seconds"), subject_id, focus, json.dumps(players), winner, prize))
+    return {"id": cur.lastrowid}
+
+
+def buzz_history(conn: sqlite3.Connection, limit: int = 8) -> list[dict]:
+    subjects = subject_map(conn)
+    out = []
+    for r in conn.execute("SELECT * FROM p_buzz_games ORDER BY id DESC LIMIT ?", (limit,)):
+        out.append({"id": r["id"], "played_at": r["played_at"], "subject_id": r["subject_id"],
+                    "short_name": subjects.get(r["subject_id"], {}).get("short_name", r["subject_id"]),
+                    "focus": r["focus"], "players": json.loads(r["players_json"]), "winner": r["winner"], "prize": r["prize"]})
+    return out
+
+
 def written_start(conn: sqlite3.Connection, kind: str, topic_id: str, text: str, question_id: str = "") -> dict:
     topic = topic_json(conn, topic_id)
     if topic is None:

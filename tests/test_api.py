@@ -136,6 +136,53 @@ def test_today_summary_activity_search_quiz(client):
     assert quiz and all("answer" not in q for q in quiz)
 
 
+def test_buzz_answer_reveals_without_recording(client):
+    from athena import config, db
+
+    quiz = client.get("/api/v1/quiz", params={"subject_id": "mm", "types": "mcq,true_false", "count": 20}).json()
+    assert quiz and all("answer" not in q for q in quiz)
+    for q in quiz:
+        revealed = client.get(f"/api/v1/buzz/answer/{q['id']}").json()
+        assert revealed["answer"] in q["options"]  # the client finds the right button by exact text
+    conn = db.connect(config.DB_PATH)
+    try:
+        assert conn.execute("SELECT COUNT(*) FROM p_attempts").fetchone()[0] == 0  # party guesses are not his
+        fill_id = conn.execute("SELECT id FROM c_questions WHERE type = 'fill'").fetchone()[0]
+    finally:
+        conn.close()
+    assert client.get("/api/v1/review").json()["due"] == 0
+    assert client.get("/api/v1/buzz/answer/nope").status_code == 404
+    assert client.get(f"/api/v1/buzz/answer/{fill_id}").status_code == 400
+
+
+def test_buzz_setup_questions_history_and_lights(client, monkeypatch):
+    from athena import buzzlights
+
+    setup = client.get("/api/v1/buzz/setup").json()
+    mm = next(s for s in setup["subjects"] if s["id"] == "mm")
+    assert mm["questions"] >= 2 and setup["history"] == []
+    got = client.get("/api/v1/buzz/questions", params={"subject_id": "mm", "focus": "all", "count": 10}).json()
+    assert got["focus"] == "all" and got["questions"]
+    assert all("answer" not in q and 2 <= len(q["options"]) <= 4 and "pyq" in q for q in got["questions"])
+    # The small test content has no past papers, so the past-paper focus falls back to all topics.
+    assert client.get("/api/v1/buzz/questions", params={"subject_id": "mm", "focus": "pyq"}).json()["focus"] == "all"
+    assert client.get("/api/v1/buzz/questions", params={"subject_id": "nope"}).status_code == 404
+    assert client.get("/api/v1/buzz/questions", params={"subject_id": "mm", "focus": "bad"}).status_code == 400
+
+    game = {"subject_id": "mm", "focus": "all", "players": [{"name": "Asha", "score": 1200}, {"name": "Ravi", "score": 300}],
+            "winner": "Asha", "prize": "Loser buys chai"}
+    assert client.post("/api/v1/buzz/games", json=game).status_code == 200
+    history = client.get("/api/v1/buzz/setup").json()["history"]
+    assert history[0]["winner"] == "Asha" and history[0]["players"][1]["score"] == 300
+    assert client.post("/api/v1/buzz/games", json={**game, "players": []}).status_code == 422
+
+    monkeypatch.setattr(buzzlights.LIGHTS, "set", lambda on: False)  # no receiver plugged in
+    assert client.post("/api/v1/buzz/lights", json={"on": [True, False, False, False]}).status_code == 503
+    monkeypatch.setattr(buzzlights.LIGHTS, "set", lambda on: True)
+    assert client.post("/api/v1/buzz/lights", json={"on": [True, False, False, False]}).json() == {"ok": True}
+    assert client.post("/api/v1/buzz/lights", json={"on": [True]}).status_code == 422
+
+
 def test_settings_and_plan(client):
     bad = client.put("/api/v1/settings", json={"exams": [{"subject_id": "mm", "date": "not a date"}]})
     assert bad.status_code == 400

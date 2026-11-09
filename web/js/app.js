@@ -10,6 +10,7 @@ const NAV = [
   { route: "subjects", label: "Subjects", icon: "subjects" },
   { route: "review", label: "Review", icon: "review", badge: true },
   { route: "practice", label: "Practice", icon: "practice" },
+  { route: "buzz", label: "Buzz quiz", icon: "play" },
   { route: "plan", label: "Plan", icon: "plan" },
   { route: "insights", label: "Insights", icon: "insights" },
   { route: "library", label: "Library", icon: "library" },
@@ -17,7 +18,7 @@ const NAV = [
   { route: "settings", label: "Settings", icon: "settings" },
 ];
 const TABS = ["today", "subjects", "review", "practice", "more"];
-const PAGES = new Set(["today", "crash", "subjects", "subject", "learn", "review", "practice", "plan", "insights", "library", "sources", "settings", "more"]);
+const PAGES = new Set(["today", "crash", "subjects", "subject", "learn", "review", "practice", "buzz", "plan", "insights", "library", "sources", "settings", "more"]);
 
 const main = document.getElementById("main");
 let current = null;
