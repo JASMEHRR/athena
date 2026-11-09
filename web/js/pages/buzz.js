@@ -190,50 +190,105 @@ function makeOrb(canvas) {
   };
 }
 
-// ------------------------------------------------------------------ the world: a starfield that warps between rounds
+// ------------------------------------------------------------------ scenery: a calm, still landscape per question
+// Drawn as SVG in code (no image files): sky, sun or moon, stars, aurora, layered land, mist, water.
 
-function makeStars(canvas) {
-  const ctx = canvas.getContext("2d");
-  const reduced = window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches;
-  const stars = Array.from({ length: 220 }, () => ({ x: Math.random() * 2 - 1, y: Math.random() * 2 - 1, z: Math.random() }));
-  let speed = 0.05;
-  let target = 0.05;
-  let last = performance.now();
-  return {
-    warp(on) { target = on ? 1.1 : 0.05; },
-    draw(t) {
-      const dt = Math.min(0.1, (t - last) / 1000);
-      last = t;
-      speed += (target - speed) * (1 - Math.exp(-dt * 3));
-      const dpr = Math.min(2, window.devicePixelRatio || 1);
-      const w = canvas.clientWidth * dpr;
-      const h = canvas.clientHeight * dpr;
-      if (!w || !h) return;
-      if (canvas.width !== w || canvas.height !== h) { canvas.width = w; canvas.height = h; }
-      ctx.clearRect(0, 0, w, h);
-      const cx = w / 2;
-      const cy = h * 0.46;
-      const v = reduced ? 0.01 : speed;
-      for (const s of stars) {
-        const pz = s.z;
-        s.z -= v * dt;
-        if (s.z <= 0.02) { s.x = Math.random() * 2 - 1; s.y = Math.random() * 2 - 1; s.z = 1; continue; }
-        const x = cx + (s.x / s.z) * cx * 0.6;
-        const y = cy + (s.y / s.z) * cy * 0.6;
-        if (x < 0 || x > w || y < 0 || y > h) { s.z = 0; continue; }
-        const px = cx + (s.x / pz) * cx * 0.6;
-        const py = cy + (s.y / pz) * cy * 0.6;
-        const a = Math.min(1, (1 - s.z) * 1.4);
-        ctx.strokeStyle = `rgba(${s.y > 0 ? "103,232,249" : "232,190,255"},${a.toFixed(3)})`;
-        ctx.lineWidth = (1 - s.z) * 2.2 * dpr;
-        ctx.beginPath();
-        ctx.moveTo(px, py);
-        ctx.lineTo(x + (x === px ? 0.5 : 0), y);
-        ctx.stroke();
-      }
-    },
+const SCENES = [
+  { kind: "peaks", sky: ["#131a3a", "#3b2f63", "#b4687a", "#f3b48a"], glow: "#ffe2c2", body: { y: 0.6, r: 70, c: "#fff1dc" }, land: ["#4a3a66", "#352a52", "#251d3d", "#15112a"] },
+  { kind: "sea", sky: ["#0b1d2a", "#164557", "#3f8790", "#a8d5c9"], glow: "#d8fff4", body: { y: 0.5, r: 58, c: "#f4fffb" }, land: ["#245a5c", "#1b4547", "#123335", "#0a2224"] },
+  { kind: "forest", sky: ["#0d1a14", "#1f3b30", "#4f7a63", "#b9d3b8"], glow: "#eaf6e4", body: null, land: ["#365e4a", "#28493a", "#1b3529", "#10231b"], mist: true },
+  { kind: "lake", sky: ["#070b1f", "#121a3f", "#24306b", "#3c4a8f"], glow: "#cfd8ff", body: { y: 0.28, r: 44, c: "#eef2ff" }, land: ["#1e2752", "#171f44", "#111735", "#0a0f25"], stars: true },
+  { kind: "dunes", sky: ["#1e1410", "#5a3121", "#c0703d", "#f2c38f"], glow: "#ffe9c8", body: { y: 0.6, r: 80, c: "#fff3dd" }, land: ["#8a4b2c", "#6e3a22", "#52291a", "#371a10"] },
+  { kind: "peaks", sky: ["#050a18", "#0c1830", "#123a40", "#16263d"], glow: "#b8fff0", body: null, land: ["#122434", "#0e1c2a", "#0a1520", "#060d16"], stars: true, aurora: true },
+  { kind: "peaks", sky: ["#1c2133", "#3d4763", "#8a98b8", "#dfe6f2"], glow: "#ffffff", body: { y: 0.38, r: 52, c: "#ffffff" }, land: ["#7d8aa8", "#5f6b88", "#434d68", "#2b3248"], mist: true },
+  { kind: "hills", sky: ["#2a1630", "#5e2f5b", "#c76b8f", "#f7c1c7"], glow: "#ffe5ea", body: { y: 0.56, r: 62, c: "#fff0f2" }, land: ["#6b3a63", "#53304f", "#3c233b", "#261626"] },
+];
+const RIDGE = { peaks: 140, hills: 70, dunes: 50, forest: 55 };
+
+function seeded(seed) {
+  let a = seed >>> 0;
+  return () => {
+    a = (a + 0x6d2b79f5) | 0;
+    let t = Math.imul(a ^ (a >>> 15), 1 | a);
+    t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
   };
 }
+
+function sceneURL(n) {
+  const P = SCENES[((n % SCENES.length) + SCENES.length) % SCENES.length];
+  const r = seeded(n * 7919 + 13);
+  const W = 1600;
+  const H = 900;
+  const water = P.kind === "sea" || P.kind === "lake";
+  const waterTop = H * (P.kind === "sea" ? 0.6 : 0.68);
+  const out = [`<defs>
+    <linearGradient id="s" x1="0" y1="0" x2="0" y2="1">${P.sky.map((c, i) => `<stop offset="${(i / (P.sky.length - 1)).toFixed(2)}" stop-color="${c}"/>`).join("")}</linearGradient>
+    <radialGradient id="g"><stop offset="0" stop-color="${P.glow}" stop-opacity=".5"/><stop offset="1" stop-color="${P.glow}" stop-opacity="0"/></radialGradient>
+    <linearGradient id="m" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".16"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+    <linearGradient id="w" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${P.sky[2]}" stop-opacity=".85"/><stop offset="1" stop-color="${P.land[3]}"/></linearGradient>
+    <filter id="b" x="-20%" y="-150%" width="140%" height="400%"><feGaussianBlur stdDeviation="28"/></filter></defs>`,
+  `<rect width="${W}" height="${H}" fill="url(#s)"/>`];
+  if (P.stars) {
+    for (let i = 0; i < 110; i++) out.push(`<circle cx="${(r() * W).toFixed(0)}" cy="${(r() * H * 0.55).toFixed(0)}" r="${(r() * 1.5 + 0.4).toFixed(1)}" fill="#fff" opacity="${(r() * 0.55 + 0.2).toFixed(2)}"/>`);
+  }
+  if (P.aurora) {
+    for (let k = 0; k < 2; k++) {
+      const y0 = H * (0.2 + k * 0.1);
+      let d = `M-50 ${y0.toFixed(0)}`;
+      for (let x = -50; x <= W; x += 150) d += ` Q${x + 75} ${(y0 + (r() - 0.5) * 140).toFixed(0)} ${x + 150} ${(y0 + (r() - 0.5) * 70).toFixed(0)}`;
+      out.push(`<path d="${d}" stroke="${k ? "#7dd3fc" : "#5eead4"}" stroke-width="${80 - k * 30}" fill="none" opacity=".3" filter="url(#b)"/>`);
+    }
+  }
+  const bx = W * (0.25 + r() * 0.5);
+  if (P.body) {
+    const by = H * P.body.y;
+    out.push(`<circle cx="${bx.toFixed(0)}" cy="${by.toFixed(0)}" r="${P.body.r * 4}" fill="url(#g)"/><circle cx="${bx.toFixed(0)}" cy="${by.toFixed(0)}" r="${P.body.r}" fill="${P.body.c}" opacity=".92"/>`);
+  }
+  const layers = water ? P.land.slice(0, 2) : P.land;
+  layers.forEach((c, li) => {
+    const base = water ? waterTop + 4 - (1 - li) * 12 : H * (0.55 + li * 0.1);
+    const amp = (water ? (P.kind === "sea" ? 26 : 120) : RIDGE[P.kind]) * (1 - li * 0.22);
+    const f1 = 0.002 + r() * 0.003;
+    const f2 = f1 * (2 + r());
+    const p1 = r() * 6.28;
+    const p2 = r() * 6.28;
+    let d = `M0 ${H}`;
+    for (let x = 0; x <= W; x += 16) {
+      let y = base - amp * (0.6 * Math.sin(x * f1 + p1) + 0.4 * Math.sin(x * f2 + p2) + 0.5);
+      if (P.kind === "peaks" || P.kind === "lake") y -= amp * 0.45 * Math.abs(Math.sin(x * f1 * 3 + p2));
+      if (P.kind === "forest") y -= r() * 26 * (1 - li * 0.2); // a soft treeline
+      d += ` L${x} ${Math.min(water ? waterTop : H, y).toFixed(0)}`;
+    }
+    d += ` L${W} ${H} Z`;
+    out.push(`<path d="${d}" fill="${c}"/>`);
+    if (P.mist && li < layers.length - 1) out.push(`<rect y="${(base - 30).toFixed(0)}" width="${W}" height="110" fill="url(#m)"/>`);
+  });
+  if (water) {
+    out.push(`<rect y="${waterTop.toFixed(0)}" width="${W}" height="${(H - waterTop).toFixed(0)}" fill="url(#w)"/>`);
+    if (P.body) {
+      for (let i = 0; i < 9; i++) {
+        const ww = P.body.r * (2.3 - i * 0.17);
+        out.push(`<rect x="${(bx - ww / 2).toFixed(0)}" y="${(waterTop + 18 + i * 24).toFixed(0)}" width="${ww.toFixed(0)}" height="3" rx="1.5" fill="${P.body.c}" opacity="${(0.32 - i * 0.03).toFixed(2)}"/>`);
+      }
+    }
+  }
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" preserveAspectRatio="xMidYMid slice">${out.join("")}</svg>`;
+  return `url("data:image/svg+xml,${encodeURIComponent(svg)}")`;
+}
+
+// Cross-fade to a new scene: the two layers take turns.
+function setScene(n) {
+  if (!S) return;
+  const [a, b] = S.dom.scenes;
+  const next = S.sceneFlip ? a : b;
+  const prev = S.sceneFlip ? b : a;
+  next.style.backgroundImage = sceneURL(n);
+  next.classList.add("on");
+  prev.classList.remove("on");
+  S.sceneFlip = !S.sceneFlip;
+}
+function nextScene() { S.sceneN += 1; setScene(S.sceneBase + S.sceneN); }
 
 // ------------------------------------------------------------------ state and storage
 
@@ -250,6 +305,7 @@ function loadPrefs() {
     answerTime: ANSWER_TIMES.includes(p.answerTime) ? p.answerTime : 10,
     buzzWindow: BUZZ_WINDOWS.includes(p.buzzWindow) ? p.buzzWindow : 2,
     voice: typeof p.voice === "boolean" ? p.voice : true,
+    voiceName: typeof p.voiceName === "string" ? p.voiceName : "",
     music: typeof p.music === "boolean" ? p.music : true,
     prize: typeof p.prize === "string" ? p.prize.slice(0, 80) : "Bragging rights",
     focus: FOCI.some(([k]) => k === p.focus) ? p.focus : "all",
@@ -264,7 +320,7 @@ function savePrefs() {
   try {
     localStorage.setItem("athena-buzz", JSON.stringify({
       names: S.players.map((p) => p.name), length: S.length, answerTime: S.answerTime, buzzWindow: S.buzzWindow,
-      voice: S.voice, music: S.music, prize: S.prize, focus: S.focus, subject: subject ? subject.id : "", layout: S.layout,
+      voice: S.voice, voiceName: S.voiceName, music: S.music, prize: S.prize, focus: S.focus, subject: subject ? subject.id : "", layout: S.layout,
     }));
   } catch { /* private mode: settings just reset next time */ }
 }
@@ -387,12 +443,17 @@ function musicStop() { if (S && S.musicTimer) { clearInterval(S.musicTimer); S.m
 
 // ------------------------------------------------------------------ host voice
 
-let hostVoice = null;
-function chooseVoice() {
+// English voices, most natural first: Edge's "Natural" voices, then Chrome's Google voices, then the rest.
+let voices = [];
+function rankVoices() {
   if (!("speechSynthesis" in window)) return;
-  const voices = speechSynthesis.getVoices();
-  hostVoice = voices.find((v) => /^en-IN/i.test(v.lang)) || voices.find((v) => /^en-GB/i.test(v.lang)) || voices.find((v) => /^en/i.test(v.lang)) || null;
+  const score = (v) => (/natural/i.test(v.name) ? 100 : 0) + (/online/i.test(v.name) ? 20 : 0) + (/^google/i.test(v.name) ? 50 : 0)
+    + (/^en-IN/i.test(v.lang) ? 15 : /^en-GB/i.test(v.lang) ? 10 : 5);
+  voices = speechSynthesis.getVoices().filter((v) => /^en/i.test(v.lang)).sort((a, b) => score(b) - score(a));
+  if (S && S.phase === "lobby") renderMain();
 }
+const voiceLabel = (v) => v.name.replace(/^(Microsoft|Google)\s+/i, "").replace(/\s*\(Natural\)|\s+Online|\s+-\s+.*$/gi, "").trim();
+const currentVoice = () => voices.find((v) => v.name === S.voiceName) || voices[0] || null;
 
 // The host says a line: it shows in the speech bubble and, with the voice on, is spoken.
 function say(text, { bubble = true } = {}) {
@@ -408,9 +469,10 @@ function say(text, { bubble = true } = {}) {
   try {
     speechSynthesis.cancel(); // the newest line always wins, so the host never lags behind the game
     const u = new SpeechSynthesisUtterance(text);
-    if (hostVoice) u.voice = hostVoice;
-    u.rate = 1.08;
-    u.pitch = 1.1;
+    const voice = currentVoice();
+    if (voice) u.voice = voice;
+    u.rate = 1; // natural pace and pitch: speeding up or raising the pitch is what makes it sound robotic
+    u.pitch = 1;
     const done = () => { if (S && S.utter === u) { S.utter = null; S.speakingUntil = 0; } };
     u.onend = done;
     u.onerror = done;
@@ -435,12 +497,6 @@ function orbMood() {
   if (speaking()) return "speaking";
   if (["question", "revealing", "potato", "potatoJudging", "countdown"].includes(S.phase)) return "thinking";
   return "idle";
-}
-// The HUD line along the top pulses with the show: chase (building up), win, lose, hold (suspense).
-function marquee(mode, ms = 0) {
-  S.dom.marquee.className = "bz-hudline" + (mode ? " " + mode : "");
-  clearTimeout(S.marqueeTimer);
-  if (ms) S.marqueeTimer = setTimeout(() => { if (S) S.dom.marquee.className = "bz-hudline"; }, ms);
 }
 function dim(on) { S.dom.stage.classList.toggle("dim", on); }
 function strike() {
@@ -521,7 +577,7 @@ function onRaw(i) {
 function flashKey(p, b) {
   const pod = S.dom.pods.children[p];
   if (!pod) return;
-  const target = b === "red" ? pod.querySelector(".bz-dome") : pod.querySelector(`.bz-keys i[data-b="${b}"]`);
+  const target = b === "red" ? pod.querySelector(".bz-dome") : null; // only the buzzer dome reacts on screen
   if (!target) return;
   target.classList.add(b === "red" ? "press" : "on");
   setTimeout(() => target.classList.remove("press", "on"), 220);
@@ -601,10 +657,6 @@ function tick(t) {
   poll();
   S.orb.set(orbMood());
   S.orb.draw(t);
-  const warping = S.phase === "intro" || S.phase === "countdown";
-  S.stars.warp(warping);
-  S.stars.draw(t);
-  S.dom.stage.classList.toggle("warp", warping);
   if (S.auto && t >= S.auto.at && (!speaking() || t >= S.auto.max)) runAuto();
   if (S.phase === "question") {
     if (S.buzz.holder !== null && !S.buzz.judging) {
@@ -653,7 +705,6 @@ function countdown(then) {
     n -= 1;
     setTimeout(step, 750);
   };
-  marquee("chase");
   step();
 }
 
@@ -690,9 +741,9 @@ function showLobby() {
   shutUp();
   musicStop();
   setPhase("lobby");
+  setScene(S.sceneBase);
   S.game = null;
   dim(false);
-  marquee("");
   renderTop();
   renderMain(true);
   renderPods();
@@ -748,11 +799,11 @@ function nextRound() {
   g.qi = 0;
   musicStop();
   if (g.r >= g.rounds.length) { showFinal(); return; }
+  nextScene();
   const round = g.rounds[g.r];
   if (round.mode === "potato") g.potato = { left: round.potatoes, holder: null, fuseStart: 0, fuseEnd: 0, nextTick: 0, answered: null, passTo: null };
   setPhase("intro");
   setLights([false, false, false, false]);
-  marquee("chase");
   SFX.whoosh();
   renderTop();
   renderMain(true);
@@ -774,6 +825,7 @@ function startQuestion() {
   const g = S.game;
   const round = g.rounds[g.r];
   S.q = round.questions[g.qi];
+  if (g.qi > 0) nextScene(); // the round intro already brought a fresh scene for question one
   g.used.push(S.q);
   answerFor(S.q);
   S.answers = [null, null, null, null];
@@ -785,7 +837,6 @@ function startQuestion() {
   S.lastTick = -1;
   setPhase("question");
   dim(false);
-  marquee("");
   setLights(round.mode === "buzz" ? S.players.map((p) => p.joined) : [false, false, false, false]);
   renderTop();
   renderMain(true);
@@ -864,7 +915,6 @@ function wrongBuzz(p, timedOut) {
   SFX.wrong();
   strike();
   orbFlash("alarm", 1200);
-  marquee("lose", 1200);
   if (joined().every((i) => S.buzz.locked.has(i))) { reveal({ suspense: false }); return; }
   line("buzzWrong", { name: S.players[p].name }, timedOut ? "Too slow!" : "");
   S.timer.end = now() + Math.max(S.timer.remaining, 3000);
@@ -901,7 +951,6 @@ async function reveal({ suspense = true } = {}) {
   const ansP = answerFor(S.q);
   if (suspense) {
     dim(true);
-    marquee("hold");
     line("lockedIn");
     SFX.drumroll(1.1);
     renderMain();
@@ -942,13 +991,11 @@ async function reveal({ suspense = true } = {}) {
     SFX.right();
     SFX.applause(winners.length > 1 ? 2.2 : 1.8);
     blink(winners);
-    marquee("win", 2000);
     orbFlash("win");
   } else {
     SFX.wrong();
     if (round.mode !== "buzz") strike();
     setLights([false, false, false, false]);
-    marquee("lose", 1500);
     orbFlash("alarm", 1400);
   }
   if (kos.length) setTimeout(() => SFX.ko(), 500);
@@ -994,6 +1041,7 @@ function spareQuestion() {
 function startPotato() {
   const pot = S.game.potato;
   const t = now();
+  if (pot.left < S.game.rounds[S.game.r].potatoes) nextScene(); // a new potato, a new scene
   pot.holder = pick(joined());
   pot.fuseStart = t;
   pot.fuseEnd = t + 20000 + Math.random() * 15000; // nobody knows when
@@ -1008,7 +1056,6 @@ function potatoQuestion() {
   answerFor(S.q);
   S.game.potato.answered = null;
   setPhase("potato");
-  marquee("chase");
   setLights(S.players.map((_, i) => i === S.game.potato.holder));
   renderTop();
   renderMain(true);
@@ -1074,7 +1121,6 @@ function boom() {
   S.results = S.players.map((pl, i) => (pl.joined ? { delta: i === victim ? -POINTS.boom - (kos.includes(i) ? POINTS.ko : 0) : 0, ko: kos.includes(i) } : null));
   SFX.boom();
   blink([0, 1, 2, 3], 1600);
-  marquee("lose", 2000);
   orbFlash("alarm", 2200);
   renderMain();
   renderPods(true);
@@ -1088,9 +1134,9 @@ const ranked = () => joined().sort((a, b) => S.players[b].score - S.players[a].s
 
 function showScores() {
   setPhase("scores");
+  nextScene();
   musicStop();
   setLights([false, false, false, false]);
-  marquee("");
   SFX.whoosh();
   renderTop();
   renderMain(true);
@@ -1120,12 +1166,12 @@ function badges() {
 
 function showFinal() {
   setPhase("final");
+  nextScene();
   musicStop();
   const order = ranked();
   const top = S.players[order[0]].score;
   S.winners = order.filter((i) => S.players[i].score === top);
   S.badges = badges();
-  marquee("win");
   renderTop();
   renderMain(true);
   renderPods();
@@ -1215,7 +1261,7 @@ function renderTop() {
 
 function renderMain(enter = false) {
   const m = S.dom.main;
-  m.className = "bz-main" + (enter ? " bz-enter glitch" : "");
+  m.className = "bz-main" + (enter ? " bz-enter" : "");
   m.innerHTML = {
     lobby: lobbyHTML, calibrate: calibrateHTML, intro: introHTML, countdown: countdownHTML, question: questionHTML,
     revealing: questionHTML, reveal: questionHTML, potato: potatoHTML, potatoJudging: potatoHTML, potatoPause: potatoHTML,
@@ -1238,7 +1284,11 @@ function lobbyHTML() {
       <span class="foot"><span class="count">${fmtNum(n)} Qs</span>${exam}</span></button>`;
   }).join("");
   const seg = (label, list, cur, act, show = (x) => x) => `<div class="bz-setting"><span class="bz-eyebrow">${label}</span><div class="bz-seg">${
-    list.map((x) => `<button class="${String(x) === String(cur) ? "on" : ""}" data-act="${act}" data-v="${x}">${esc(show(x))}</button>`).join("")}</div></div>`;
+    list.map((x) => `<button class="${String(x) === String(cur) ? "on" : ""}" data-act="${act}" data-v="${esc(String(x))}">${esc(show(x))}</button>`).join("")}</div></div>`;
+  const voiceList = voices.slice(0, 4);
+  const voicePicker = seg(`Host voice${voices.some((v) => /natural/i.test(v.name)) ? "" : " · Edge has the most natural voices"}`,
+    ["off", ...voiceList.map((v) => v.name)], S.voice && currentVoice() ? currentVoice().name : "off", "voice",
+    (x) => (x === "off" ? "Off" : voiceLabel(voiceList.find((v) => v.name === x))));
   const hist = S.history.length ? S.history.slice(0, 6).map((h) => `<li><span class="d">${esc(fmtDate(h.played_at))} · ${esc(h.short_name)}</span>
       <span class="w">${esc(h.winner || "?")}</span><span class="s">${h.players[0] ? fmtNum(h.players[0].score) : ""}</span>${h.prize ? `<span class="p">${esc(h.prize)}</span>` : ""}</li>`).join("")
     : '<li><span class="d">No shows yet</span><span class="w">The first winner goes here</span><span></span></li>';
@@ -1260,9 +1310,9 @@ function lobbyHTML() {
         ${seg("Show length", Object.keys(LENGTHS), S.length, "length", (k) => LENGTHS[k].label)}
         ${seg("Answer time", ANSWER_TIMES, S.answerTime, "answerTime", (x) => x + "s")}
         ${seg("After a buzz", BUZZ_WINDOWS, S.buzzWindow, "buzzWindow", (x) => x + "s")}
-        ${seg("Host voice", ["on", "off"], S.voice ? "on" : "off", "voice")}
         ${seg("Music", ["on", "off"], S.music ? "on" : "off", "music")}
       </div>
+      ${voicePicker}
       <div class="bz-setting"><span class="bz-eyebrow">Prize for the winner</span><input id="bzPrize" class="bz-input" maxlength="80" value="${esc(S.prize)}" aria-label="Prize for the winner"></div>
     </section>
   </div>`;
@@ -1289,13 +1339,13 @@ function introHTML() {
   const count = round.mode === "potato" ? `${round.potatoes} potato${round.potatoes === 1 ? "" : "es"}` : `${round.questions.length} questions`;
   return `<div class="bz-center"><span class="bz-eyebrow cyan">Round ${g.r + 1} of ${g.rounds.length} · ${count}</span>
     <div class="bz-word">${esc(round.name)}</div>
-    <div class="bz-card bz-holo"><p class="bz-lead">${rules}</p><span class="bz-tick tr"></span><span class="bz-tick bl"></span></div></div>`;
+    <div class="bz-card bz-holo"><p class="bz-lead">${rules}</p></div></div>`;
 }
 
 function countdownHTML() {
   const round = S.game.rounds[S.game.r];
-  return `<div class="bz-center"><span class="bz-eyebrow cyan">${esc(round.name)} · entering arena</span>
-    <div class="bz-countwrap"><i></i><i></i><i></i><div class="bz-count" data-n="${S.countN}">${S.countN}</div></div><span class="bz-eyebrow">Get ready</span></div>`;
+  return `<div class="bz-center"><span class="bz-eyebrow cyan">${esc(round.name)}</span>
+    <div class="bz-count" data-n="${S.countN}">${S.countN}</div><span class="bz-eyebrow">Get ready</span></div>`;
 }
 
 function answersHTML(marks, pickers = []) {
@@ -1305,21 +1355,8 @@ function answersHTML(marks, pickers = []) {
     <span class="orb" aria-label="${COLORS[j]} button"></span><span class="txt">${esc(o)}</span>
     <span class="who">${(pickers[j] || []).map((i) => `<span style="--pc:${PLAYER_COLORS[i]}">${esc(S.players[i].name)}</span>`).join("")}</span></div>`).join("");
 }
-const answersGrid = (inner) => `<div class="bz-answers ${S.q.options.length <= 2 ? "" : ""}">${inner}</div>`;
-const questionPanel = () => `<div class="bz-holo bz-qpanel" data-qid="${esc(S.q.id)}"><p class="bz-q ${sizeClass(S.q.stem, 70, 120, 180)}">${esc(S.q.stem)}</p>
-  <span class="bz-tick tr"></span><span class="bz-tick bl"></span></div>`;
-
-function ladderHTML() {
-  const g = S.game;
-  const round = g.rounds[g.r];
-  const per = round.mode === "buzz" ? POINTS.buzz * round.mult : (POINTS.base + POINTS.speed) * round.mult;
-  const steps = round.questions.map((_, k) => k).reverse().map((k) => {
-    const cls = k === g.qi ? "now" : k < g.qi ? "done" : "next5";
-    return `<div class="bz-step ${cls}"><span>Q${k + 1}</span><span>${k < g.qi ? "done" : fmtNum(per)}</span></div>`;
-  }).join("");
-  return `<aside class="bz-ladder bz-holo"><span class="bz-eyebrow cyan head">${esc(round.name)}</span>${steps}
-    <span class="bz-eyebrow head" style="margin-top:8px">${round.mode === "buzz" ? "Per right buzz" : "Up to, per question"}</span></aside>`;
-}
+const answersGrid = (inner) => `<div class="bz-answers">${inner}</div>`;
+const questionPanel = () => `<div class="bz-holo bz-qpanel" data-qid="${esc(S.q.id)}"><p class="bz-q ${sizeClass(S.q.stem, 70, 120, 180)}">${esc(S.q.stem)}</p></div>`;
 
 function questionHTML() {
   const revealed = S.phase === "reveal";
@@ -1351,16 +1388,16 @@ function questionHTML() {
   }
   const g = S.game;
   const modeCap = { fastest: "Everyone answers", buzz: "Buzz in to answer", snatch: "Fastest steals", final: "Double points" }[round.mode];
-  return `<div class="bz-qwrap"><div class="bz-qcol">
+  return `<div class="bz-qcol">
       <div class="bz-qhead">
-        <div class="bz-clock"><svg viewBox="0 0 100 100"><circle class="tk" cx="50" cy="50" r="48"/><circle class="bg" cx="50" cy="50" r="42"/><circle class="fg" cx="50" cy="50" r="42" stroke-dasharray="${CIRC.toFixed(1)}" stroke-dashoffset="${revealed ? CIRC.toFixed(1) : 0}"/></svg><span class="n">${revealed ? "" : S.answerTime}</span></div>
+        <div class="bz-clock"><svg viewBox="0 0 100 100"><circle class="bg" cx="50" cy="50" r="42"/><circle class="fg" cx="50" cy="50" r="42" stroke-dasharray="${CIRC.toFixed(1)}" stroke-dashoffset="${revealed ? CIRC.toFixed(1) : 0}"/></svg><span class="n">${revealed ? "" : S.answerTime}</span></div>
         <div class="bz-qmeta"><span class="bz-eyebrow">Question ${g.qi + 1} of ${round.questions.length}</span><span class="v">${esc(modeCap)}</span></div>
       </div>
       ${questionPanel()}
       ${answersGrid(answersHTML(marks, pickers))}
       <div class="bz-info">${info}</div>
       <div class="bz-prompt">${esc(prompt)}</div>
-    </div>${ladderHTML()}</div>`;
+    </div>`;
 }
 
 function potatoHTML() {
@@ -1373,7 +1410,7 @@ function potatoHTML() {
   const round = S.game.rounds[S.game.r];
   return `<div class="bz-qcol" style="flex:1">
     <div class="bz-potrow"><span class="bz-potato" aria-hidden="true">\u{1F954}</span>
-      <span class="bz-holder" style="--pc:${PLAYER_COLORS[pot.holder]}">${esc(holder.name)} has the potato!</span>
+      <span class="bz-holder" style="--pc:${PLAYER_COLORS[pot.holder]}"><b>${esc(holder.name)}</b> has the potato</span>
       <span class="bz-eyebrow">Potato ${round.potatoes - pot.left + 1} of ${round.potatoes}</span></div>
     ${questionPanel()}
     ${answersGrid(answersHTML(marks))}
@@ -1383,7 +1420,7 @@ function potatoHTML() {
 
 function boomHTML() {
   const pot = S.game.potato;
-  return `<div class="bz-center bz-shake"><div class="bz-boomwrap"><i></i><i></i><div class="bz-boom">BOOM!</div></div>
+  return `<div class="bz-center bz-shake"><div class="bz-boom">BOOM!</div>
     <p class="bz-lead"><b>${esc(S.players[pot.holder].name)}</b> was holding it and loses <b>${POINTS.boom}</b>.${pot.left > 0 ? " Another potato is coming..." : ""}</p></div>`;
 }
 
@@ -1391,12 +1428,12 @@ function scoresHTML() {
   const order = ranked();
   return `<div class="bz-center"><span class="bz-eyebrow cyan">After round ${S.game.r + 1}</span><div class="bz-word sm">Scoreboard</div>
     <div class="bz-scores">${order.map((i, k) => `<div class="bz-row bz-holo ${k === 0 ? "lead" : ""}" style="--pc:${PLAYER_COLORS[i]};--i:${k}">
-      <span class="r">#${k + 1}</span><span class="nm">${esc(S.players[i].name)}</span><span class="sc">${fmtNum(S.players[i].score)}</span></div>`).join("")}</div></div>`;
+      <span class="r">#${k + 1}</span><span class="nm"><i></i>${esc(S.players[i].name)}</span><span class="sc">${fmtNum(S.players[i].score)}</span></div>`).join("")}</div></div>`;
 }
 
 function finalHTML() {
   const names = S.winners.map((i) => esc(S.players[i].name)).join(" and ");
-  return `<div class="bz-center"><div class="bz-trophywrap"><i></i><i></i><div class="bz-trophy" aria-hidden="true">\u{1F3C6}</div></div>
+  return `<div class="bz-center"><div class="bz-trophy" aria-hidden="true">\u{1F3C6}</div>
     <div class="bz-word">${S.winners.length > 1 ? "It's a tie!" : `${names} wins!`}</div>
     <div class="bz-legend"><span><i style="--kc:var(--red)"></i>Red play again</span><span><i style="--kc:var(--k-green)"></i>Green back to the lobby</span></div>
     ${S.prize ?`<div class="bz-prize bz-holo"><span class="bz-eyebrow cyan">The prize</span><div class="v">${esc(S.prize)}</div>${S.winners.length > 1 ? `<span class="bz-eyebrow">Shared by ${names}</span>` : ""}</div>` : ""}
@@ -1437,20 +1474,19 @@ function renderPods(animate = false) {
   S.dom.pods.innerHTML = S.players.map((pl, i) => {
     const st = podState(i);
     const from = animate && S.before ? S.before[i] : pl.score;
-    const hpOn = Math.ceil(pl.hp / 10);
+    // Lifelines only show while some are left, so a card never carries crossed-out clutter.
     const tokens = inGame && pl.joined
-      ? `${[0, 1].map((k) => `<span class="bz-tok ${k < pl.doubles ? "" : "used"}">x2</span>`).join("")}<span class="bz-tok ${pl.throws ? "" : "used"}">Throw</span>` : "";
+      ? `${pl.doubles ? `<span class="bz-tok">x2${pl.doubles > 1 ? ` · ${pl.doubles}` : ""}</span>` : ""}${pl.throws ? '<span class="bz-tok">Throw</span>' : ""}` : "";
     const body = pl.joined
       ? `<div class="sc" data-from="${from}" data-to="${pl.score}">${inGame ? fmtNum(from) : "Ready"}</div>
-         ${inGame ? `<div class="bz-hp ${pl.hp <= 30 ? "low" : ""}" title="Health ${pl.hp}">${Array.from({ length: 10 }, (_, k) => `<i class="${k < hpOn ? "on" : ""}"></i>`).join("")}</div><div class="bz-toks">${tokens}</div>` : ""}`
+         ${inGame ? `<div class="bz-hp ${pl.hp <= 30 ? "low" : ""}" title="Health ${pl.hp}"><i style="width:${pl.hp}%"></i></div>${tokens ? `<div class="bz-toks">${tokens}</div>` : ""}` : ""}`
       : '<div class="join">Press <span class="k-red">red</span> to join</div>';
     return `<div class="bz-pod ${st.cls}" style="--pc:${PLAYER_COLORS[i]}" data-act="pod" data-p="${i}">
       <div class="bz-delta" data-p="${i}"></div>${st.ko ? '<div class="bz-ko">K.O.</div>' : ""}
       <div class="row1"><div class="bz-face">${avatar(i, st.mood)}</div>
         <div class="bz-who"><div class="nm">${esc(pl.name)}</div>${body}</div>
-        <div class="bz-btns"><span class="bz-dome ${S.lights[i] ? "lit" : ""}"></span>
-          <span class="bz-keys">${COLORS.map((c) => `<i data-b="${c}" style="--kc:var(--k-${c})"></i>`).join("")}</span></div></div>
-      <div class="bz-status">${esc(st.status)}</div><div class="bz-desk"></div></div>`;
+        <span class="bz-dome ${S.lights[i] ? "lit" : ""}"></span></div>
+      <div class="bz-status">${esc(st.status)}</div></div>`;
   }).join("");
   if (!animate || !S.results) return;
   S.results.forEach((r, i) => {
@@ -1490,7 +1526,13 @@ function onClick(e) {
   else if (act === "length") { S.length = v; savePrefs(); renderMain(); }
   else if (act === "answerTime") { S.answerTime = +v; savePrefs(); renderMain(); }
   else if (act === "buzzWindow") { S.buzzWindow = +v; savePrefs(); renderMain(); }
-  else if (act === "voice") { S.voice = v === "on"; if (!S.voice) shutUp(); savePrefs(); renderMain(); if (S.voice) say("Bolt here. I'm back!"); }
+  else if (act === "voice") {
+    S.voice = v !== "off";
+    if (S.voice) S.voiceName = v; else shutUp();
+    savePrefs();
+    renderMain();
+    if (S.voice) say("Hi, I'm Bolt. Ready when you are.");
+  }
   else if (act === "music") { S.music = v === "on"; if (!S.music) musicStop(); savePrefs(); renderMain(); }
   else if (act === "start") startGame();
   else if (act === "calibrate") startCalibrate();
@@ -1520,11 +1562,9 @@ export async function render(root) {
   const prefs = loadPrefs();
   const stage = document.createElement("div");
   stage.className = "bz-stage";
-  stage.innerHTML = `<div class="bz-world" aria-hidden="true"><canvas class="bz-stars"></canvas><div class="bz-horizon"></div>
-      <div class="bz-grid"></div><div class="bz-grid ceiling"></div><div class="bz-scan"></div></div>
-    <div class="bz-hudline" aria-hidden="true"></div>
+  stage.innerHTML = `<div class="bz-world" aria-hidden="true"><div class="bz-scene"></div><div class="bz-scene"></div><div class="bz-scrim"></div></div>
     <header class="bz-top"><div class="bz-host"><canvas aria-hidden="true"></canvas></div>
-      <div class="bz-bubble bz-holo" aria-live="polite"><span class="bz-eyebrow cyan">Bolt · host</span><span class="t"></span><span class="bz-tick tr"></span><span class="bz-tick bl"></span></div>
+      <div class="bz-bubble bz-holo" aria-live="polite"><span class="bz-eyebrow cyan">Bolt · host</span><span class="t"></span></div>
       <div class="bz-meta"></div></header>
     <main class="bz-main"></main><footer class="bz-pods"></footer><div class="bz-strike" hidden></div>`;
   document.body.append(stage);
@@ -1532,9 +1572,9 @@ export async function render(root) {
   const savedSel = subjects.findIndex((s) => s.id === prefs.subject);
   S = {
     dom: { stage, bubble: stage.querySelector(".bz-bubble"), say: stage.querySelector(".bz-bubble .t"), meta: stage.querySelector(".bz-meta"),
-      marquee: stage.querySelector(".bz-hudline"), main: stage.querySelector(".bz-main"), pods: stage.querySelector(".bz-pods"), strike: stage.querySelector(".bz-strike"), clock: null },
+      scenes: [...stage.querySelectorAll(".bz-scene")], main: stage.querySelector(".bz-main"), pods: stage.querySelector(".bz-pods"), strike: stage.querySelector(".bz-strike"), clock: null },
     orb: makeOrb(stage.querySelector(".bz-host canvas")),
-    stars: makeStars(stage.querySelector(".bz-stars")),
+    sceneBase: Math.floor(Math.random() * 1000), sceneN: 0, sceneFlip: false, voiceName: prefs.voiceName,
     subjects, history: setup.history, sel: Math.max(0, savedSel >= 0 ? savedSel : subjects.findIndex((s) => s.questions >= MIN_SUBJECT_QUESTIONS)),
     focus: prefs.focus, length: prefs.length, answerTime: prefs.answerTime, buzzWindow: prefs.buzzWindow, voice: prefs.voice, music: prefs.music, prize: prefs.prize,
     layout: prefs.layout, lookup: buildLookup(prefs.layout),
@@ -1544,7 +1584,7 @@ export async function render(root) {
   };
   stage.addEventListener("click", onClick);
   if (!subjects.length) { S.dom.main.innerHTML = '<div class="bz-center"><div class="bz-word sm">No questions yet</div><p class="bz-lead">Import a subject first.</p></div>'; return; }
-  if ("speechSynthesis" in window) { chooseVoice(); speechSynthesis.onvoiceschanged = chooseVoice; }
+  if ("speechSynthesis" in window) { rankVoices(); speechSynthesis.onvoiceschanged = rankVoices; }
   showLobby();
   rafId = requestAnimationFrame(tick);
 }
@@ -1556,7 +1596,6 @@ export function cleanup() {
   musicStop();
   shutUp();
   clearTimeout(S.pickTimer);
-  clearTimeout(S.marqueeTimer);
   clearTimeout(S.strikeTimer);
   const lightsWereOn = !S.lightsOff;
   S.dom.stage.remove();
