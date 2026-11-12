@@ -277,6 +277,16 @@ def create_app() -> FastAPI:
         except ValueError as exc:
             raise HTTPException(status_code=400, detail=str(exc))
 
+    @app.get(f"{API}/buzz/lessons")
+    def buzz_lessons(subject_id: str, exam: str = "EST", count: int = Query(6, ge=1, le=20),
+                     conn: sqlite3.Connection = Depends(get_conn)):
+        try:
+            return services.buzz_lessons(conn, subject_id, exam, count)
+        except KeyError:
+            raise _not_found("subject")
+        except ValueError as exc:
+            raise HTTPException(status_code=400, detail=str(exc))
+
     @app.post(f"{API}/buzz/games")
     def buzz_save(body: BuzzGameBody, conn: sqlite3.Connection = Depends(get_conn)):
         return services.buzz_save_game(conn, body.subject_id, body.focus, [p.model_dump() for p in body.players],

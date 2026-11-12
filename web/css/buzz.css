@@ -194,6 +194,15 @@
 .bz-miss .a { margin: 0; font-weight: 700; color: var(--cyan-hi); font-size: clamp(13px, 1.05vw, 18px); }
 .bz-miss .a .bz-eyebrow { margin-right: 8px; }
 .bz-miss .w { margin: 0; font-weight: 500; color: rgba(255, 255, 255, .75); font-size: clamp(12px, .95vw, 16px); line-height: 1.4; }
+.bz-teach { width: min(1000px, 100%); padding: 2.6vh 2.6vw; text-align: left; display: grid; gap: 1.4vh; --cut: 18px; }
+.bz-teach h2 { margin: 0; font-family: var(--display); font-size: clamp(22px, 2.4vw, 40px); color: #fff; }
+.bz-teach .big { margin: 0; font-size: clamp(17px, 1.6vw, 28px); font-weight: 600; color: #fff; line-height: 1.4; }
+.bz-teach .terms { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.bz-teach .terms li { display: grid; grid-template-columns: minmax(120px, auto) 1fr; gap: 12px; font-size: clamp(13px, 1.1vw, 19px); }
+.bz-teach .terms b { color: var(--cyan-hi); }
+.bz-teach .terms span { color: rgba(255, 255, 255, .8); font-weight: 500; }
+.bz-teach .exam { margin: 0; padding: 10px 14px; border-radius: 10px; background: rgba(255, 255, 255, .06); font-size: clamp(13px, 1.1vw, 19px); }
+.bz-teach .exam .bz-eyebrow { display: block; margin-bottom: 4px; }
 .bz-setting { display: grid; gap: 6px; }
 .bz-grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 1.2vh .9vw; }
 .bz-seg { display: flex; flex-wrap: wrap; gap: 4px; padding: 4px; border-radius: 10px; background: rgba(0, 0, 0, .25); border: 1px solid rgba(255, 255, 255, .08); }

@@ -173,6 +173,11 @@ def test_buzz_setup_questions_history_and_lights(client, monkeypatch):
     assert client.get("/api/v1/buzz/questions", params={"subject_id": "mm", "focus": "bad"}).status_code == 400
     assert client.get("/api/v1/buzz/questions", params={"subject_id": "mm", "exam": "final"}).status_code == 400
 
+    lessons = client.get("/api/v1/buzz/lessons", params={"subject_id": "mm", "exam": "EST"}).json()["lessons"]
+    assert lessons and all(l["heading"] and l["questions"] for l in lessons)
+    assert all("answer" not in q for l in lessons for q in l["questions"])
+    assert client.get("/api/v1/buzz/lessons", params={"subject_id": "nope"}).status_code == 404
+
     game = {"subject_id": "mm", "focus": "est-all", "players": [{"name": "Asha", "score": 1200}, {"name": "Ravi", "score": 300}],
             "winner": "Asha", "prize": "Loser buys chai"}
     assert client.post("/api/v1/buzz/games", json=game).status_code == 200

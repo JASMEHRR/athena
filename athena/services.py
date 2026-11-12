@@ -495,6 +495,52 @@ def buzz_questions(conn: sqlite3.Connection, subject_id: str, exam: str = "EST",
     return {"exam": exam, "focus": used, "questions": questions}
 
 
+def buzz_lessons(conn: sqlite3.Connection, subject_id: str, exam: str = "EST", count: int = 6) -> dict:
+    """Teaching mode: short lesson parts, each followed by its own objective check questions (no answers).
+
+    Parts come from the exam's scope (for an EST, mostly the part after the MST), in course order.
+    """
+    if exam not in BUZZ_EXAMS:
+        raise ValueError(f"exam must be one of {', '.join(BUZZ_EXAMS)}")
+    if subject_id not in subject_map(conn):
+        raise KeyError(subject_id)
+    sets = _buzz_topic_sets(conn).get(subject_id, {"all": set(), "mst": set(), "late": set()})
+    scope = _buzz_scope(sets, exam)
+    marks = ",".join("?" * len(BUZZ_TYPES))
+    by_chunk: dict[str, list] = {}
+    for r in conn.execute(f"SELECT * FROM c_questions WHERE hidden = 0 AND subject_id = ? AND chunk_id != '' AND type IN ({marks})",
+                          (subject_id, *BUZZ_TYPES)):
+        if r["topic_id"] in scope:
+            by_chunk.setdefault(r["chunk_id"], []).append(r)
+    rows = {r["id"]: r for r in conn.execute("SELECT id, title, ord, json FROM c_topics WHERE subject_id = ?", (subject_id,))}
+    candidates = []
+    for chunk_id, qs in by_chunk.items():
+        topic_id = qs[0]["topic_id"]
+        if topic_id not in rows:
+            continue
+        topic = json.loads(rows[topic_id]["json"])
+        chunk = next((c for c in topic.get("chunks", []) if c["id"] == chunk_id and not c.get("needs_check")), None)
+        if chunk:
+            candidates.append((topic_id, rows[topic_id], chunk, qs))
+    if exam == "EST" and sets["late"]:
+        late = [c for c in candidates if c[0] in sets["late"]]
+        rest = [c for c in candidates if c[0] not in sets["late"]]
+        picked = random.sample(late, min(len(late), round(count * EST_NEW_SHARE)))
+        picked += random.sample(rest, min(len(rest), count - len(picked)))
+    else:
+        picked = random.sample(candidates, min(len(candidates), count))
+    picked.sort(key=lambda c: (c[1]["ord"], c[2]["id"]))
+    seed = timeutil.day_str()
+    out = []
+    for topic_id, row, chunk, qs in picked:
+        checks = [_question_payload(json.loads(q["json"]), topic_id, seed) for q in qs[:3]]
+        out.append({"chunk_id": chunk["id"], "topic_id": topic_id, "topic_title": row["title"], "heading": chunk["heading"],
+                    "big_idea": chunk.get("big_idea") or "", "exam_line": chunk.get("exam_line") or "",
+                    "terms": [{"term": k["term"], "meaning": k["meaning"]} for k in chunk.get("key_terms", [])[:3]],
+                    "questions": [c for c in checks if 2 <= len(c["options"]) <= 4]})
+    return {"exam": exam, "lessons": [l for l in out if l["questions"]]}
+
+
 def buzz_save_game(conn: sqlite3.Connection, subject_id: str, focus: str, players: list[dict], winner: str, prize: str) -> dict:
     """Keep a finished party game for the history list. Study progress is never touched."""
     cur = conn.execute(

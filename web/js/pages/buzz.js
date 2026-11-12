@@ -307,6 +307,7 @@ function loadPrefs() {
     voiceChosen: p.voiceChosen === true,
     voiceName: typeof p.voiceName === "string" ? p.voiceName : "",
     exam: EXAMS[p.exam] ? p.exam : "EST",
+    play: p.play === "learn" ? "learn" : "show",
     music: typeof p.music === "boolean" ? p.music : true,
     prize: typeof p.prize === "string" ? p.prize.slice(0, 80) : "Bragging rights",
     focus: FOCI.some(([k]) => k === p.focus) ? p.focus : "all",
@@ -321,7 +322,7 @@ function savePrefs() {
   try {
     localStorage.setItem("athena-buzz", JSON.stringify({
       names: S.players.map((p) => p.name), length: S.length, answerTime: S.answerTime, buzzWindow: S.buzzWindow,
-      voice: S.voice, voiceChosen: S.voiceChosen, voiceName: S.voiceName, exam: S.exam,
+      voice: S.voice, voiceChosen: S.voiceChosen, voiceName: S.voiceName, exam: S.exam, play: S.play,
       music: S.music, prize: S.prize, focus: S.focus, subject: subject ? subject.id : "", layout: S.layout,
     }));
   } catch { /* private mode: settings just reset next time */ }
@@ -601,7 +602,7 @@ function onButton(p, b) {
       else if (b === "green") showLobby();
       else if (b === "blue") { if (S.phase === "final") showRecap(); else backToFinal(); }
       return;
-    case "intro": case "reveal": case "scores": case "boom":
+    case "intro": case "teach": case "reveal": case "scores": case "boom":
       if (pl.joined && b === "red" && settled()) runAuto();
       return;
     case "question":
@@ -799,6 +800,7 @@ async function startGame() {
   const subject = S.subjects[S.sel];
   if (!subject || S.loading) return;
   S.loading = true;
+  if (S.play === "learn") { startLearning(subject); return; }
   const L = LENGTHS[S.length];
   const main = L.ff + L.buzz + L.snatch + L.final;
   let data;
@@ -829,6 +831,39 @@ async function startGame() {
   nextRound();
 }
 
+// Learn mode: each round is one lesson part, taught on a card, then checked with its own questions.
+async function startLearning(subject) {
+  const count = { short: 4, normal: 6, long: 10 }[S.length];
+  let data;
+  try {
+    data = await api.get(`/buzz/lessons${qs({ subject_id: subject.id, exam: S.exam, count })}`);
+  } catch (err) {
+    if (S) { S.loading = false; toast(err.message); }
+    return;
+  }
+  if (!S) return;
+  S.loading = false;
+  if (!data.lessons.length) { toast(`${subject.short_name} has no lessons with quiz checks for the ${S.exam} yet.`); return; }
+  const rounds = data.lessons.map((l) => ({ mode: "learn", name: l.heading, mult: 1, penalty: false, lesson: l, questions: l.questions }));
+  S.game = { subject, exam: S.exam, focus: "learn", rounds, r: -1, qi: 0, spare: [], used: [], potato: null, misses: [] };
+  S.players.forEach((p) => Object.assign(p, { score: 0, hp: 100, doubles: 2, throws: 1, stats: { fastest: 0, damage: 0, snatched: 0, kos: 0 } }));
+  savePrefs();
+  SFX.fanfare();
+  nextRound();
+}
+
+function teach(round) {
+  setPhase("teach");
+  setLights([false, false, false, false]);
+  SFX.whoosh();
+  renderTop();
+  renderMain(true);
+  renderPods();
+  const l = round.lesson;
+  say(l.big_idea || l.exam_line || l.heading);
+  autoAdvance(startQuestion, 7000, 25000);
+}
+
 function nextRound() {
   const g = S.game;
   g.r += 1;
@@ -837,6 +872,7 @@ function nextRound() {
   if (g.r >= g.rounds.length) { showFinal(); return; }
   nextScene();
   const round = g.rounds[g.r];
+  if (round.mode === "learn") { teach(round); return; }
   if (round.mode === "potato") g.potato = { left: round.potatoes, holder: null, fuseStart: 0, fuseEnd: 0, nextTick: 0, answered: null, passTo: null };
   setPhase("intro");
   setLights([false, false, false, false]);
@@ -1010,7 +1046,7 @@ async function reveal({ suspense = true } = {}) {
       return { delta: Math.round((POINTS.base + POINTS.speed * frac) / 10) * 10 * mult };
     }
     if (a) {
-      damage(i, DAMAGE.wrong * (S.doubled[i] ? 2 : 1));
+      if (round.mode !== "learn") damage(i, DAMAGE.wrong * (S.doubled[i] ? 2 : 1)); // learning should not hurt
       return { delta: round.penalty || S.doubled[i] ? -POINTS.penalty * (S.doubled[i] ? 2 : 1) : 0 };
     }
     return { delta: 0 };
@@ -1074,6 +1110,7 @@ function nextQuestion() {
   const g = S.game;
   g.qi += 1;
   if (g.qi < g.rounds[g.r].questions.length) startQuestion();
+  else if (g.rounds[g.r].mode === "learn") nextRound(); // straight to the next lesson, no scoreboard in between
   else showScores();
 }
 
@@ -1309,7 +1346,7 @@ function renderTop() {
   if (g && g.r >= 0 && g.r < g.rounds.length && S.phase !== "final") {
     const round = g.rounds[g.r];
     meta = `<span class="bz-roundtag">${g.exam} prep · Round ${g.r + 1} · ${esc(round.name)}${round.mult > 1 ? " x2" : ""}</span>
-      <span class="bz-eyebrow">${esc(g.subject.short_name)} · ${esc(FOCI.find(([k]) => k === g.focus)[1])}</span>`;
+      <span class="bz-eyebrow">${esc(g.subject.short_name)} · ${esc(g.focus === "learn" ? "Learn while playing" : FOCI.find(([k]) => k === g.focus)[1])}</span>`;
   } else if (S.phase === "final") {
     meta = '<span class="bz-roundtag">Final results</span>';
   } else {
@@ -1325,7 +1362,7 @@ function renderMain(enter = false) {
   const m = S.dom.main;
   m.className = "bz-main" + (enter ? " bz-enter" : "");
   m.innerHTML = {
-    lobby: lobbyHTML, calibrate: calibrateHTML, intro: introHTML, countdown: countdownHTML, question: questionHTML,
+    teach: teachHTML, lobby: lobbyHTML, calibrate: calibrateHTML, intro: introHTML, countdown: countdownHTML, question: questionHTML,
     revealing: questionHTML, reveal: questionHTML, potato: potatoHTML, potatoJudging: potatoHTML, potatoPause: potatoHTML,
     boom: boomHTML, scores: scoresHTML, final: finalHTML, recap: recapHTML,
   }[S.phase]();
@@ -1373,8 +1410,9 @@ function lobbyHTML() {
     </section>
     <section class="bz-holo bz-panel">
       <div class="bz-examswitch">${examSwitch}</div>
-      <div class="bz-cta" style="justify-content:space-between;align-items:center"><button class="bz-btn go" data-act="start">Start ${S.exam} show</button><button class="bz-btn ghost" data-act="calibrate">Fix buttons</button></div>
-      ${seg("Topics", FOCI.map(([k]) => k), S.focus, "focus", (k) => FOCI.find(([x]) => x === k)[1])}
+      <div class="bz-cta" style="justify-content:space-between;align-items:center"><button class="bz-btn go" data-act="start">${S.play === "learn" ? `Start ${S.exam} lesson` : `Start ${S.exam} show`}</button><button class="bz-btn ghost" data-act="calibrate">Fix buttons</button></div>
+      ${seg("Mode", ["learn", "show"], S.play, "play", (k) => (k === "learn" ? "Learn while playing" : "Game show"))}
+      ${S.play === "show" ? seg("Topics", FOCI.map(([k]) => k), S.focus, "focus", (k) => FOCI.find(([x]) => x === k)[1]) : ""}
       <div class="bz-grid2">
         ${seg("Show length", Object.keys(LENGTHS), S.length, "length", (k) => LENGTHS[k].label)}
         ${seg("Answer time", ANSWER_TIMES, S.answerTime, "answerTime", (x) => x + "s")}
@@ -1409,6 +1447,18 @@ function introHTML() {
   return `<div class="bz-center"><span class="bz-eyebrow cyan">Round ${g.r + 1} of ${g.rounds.length} · ${count}</span>
     <div class="bz-word">${esc(round.name)}</div>
     <div class="bz-card bz-holo"><p class="bz-lead">${rules}</p></div></div>`;
+}
+
+function teachHTML() {
+  const g = S.game;
+  const l = g.rounds[g.r].lesson;
+  const terms = l.terms.map((k) => `<li><b>${esc(k.term)}</b><span>${esc(k.meaning)}</span></li>`).join("");
+  return `<div class="bz-center"><span class="bz-eyebrow cyan">Lesson ${g.r + 1} of ${g.rounds.length} · ${esc(l.topic_title)}</span>
+    <div class="bz-teach bz-holo"><h2>${esc(l.heading)}</h2>
+      ${l.big_idea ? `<p class="big">${esc(l.big_idea)}</p>` : ""}
+      ${terms ? `<ul class="terms">${terms}</ul>` : ""}
+      ${l.exam_line ? `<p class="exam"><span class="bz-eyebrow cyan">For the exam</span>${esc(l.exam_line)}</p>` : ""}</div>
+    <span class="bz-eyebrow">Questions on this in a moment · red to skip ahead</span></div>`;
 }
 
 function countdownHTML() {
@@ -1456,7 +1506,7 @@ function questionHTML() {
     if (S.answer.explanation) info += `<div class="bz-chip"><span class="bz-eyebrow">Why</span>${esc(S.answer.explanation)}</div>`;
   }
   const g = S.game;
-  const modeCap = { fastest: "Everyone answers", buzz: "Buzz in to answer", snatch: "Fastest steals", final: "Double points" }[round.mode];
+  const modeCap = { learn: "Check what you just learned", fastest: "Everyone answers", buzz: "Buzz in to answer", snatch: "Fastest steals", final: "Double points" }[round.mode];
   return `<div class="bz-qcol">
       <div class="bz-qhead">
         <div class="bz-clock"><svg viewBox="0 0 100 100"><circle class="bg" cx="50" cy="50" r="42"/><circle class="fg" cx="50" cy="50" r="42" stroke-dasharray="${CIRC.toFixed(1)}" stroke-dashoffset="${revealed ? CIRC.toFixed(1) : 0}"/></svg><span class="n">${revealed ? "" : S.answerTime}</span></div>
@@ -1606,6 +1656,7 @@ function onClick(e) {
   const v = el.dataset.v;
   if (act === "subject") { S.sel = +el.dataset.i; SFX.move(); savePrefs(); renderMain(); line("pick", { subject: S.subjects[S.sel].name }); }
   else if (act === "focus") { S.focus = v; savePrefs(); renderMain(); }
+  else if (act === "play") { S.play = v === "learn" ? "learn" : "show"; savePrefs(); renderMain(); }
   else if (act === "exam" && EXAMS[v]) { setExam(v); say(`${EXAMS[v].long} prep.`); }
   else if (act === "length") { S.length = v; savePrefs(); renderMain(); }
   else if (act === "answerTime") { S.answerTime = +v; savePrefs(); renderMain(); }
@@ -1661,7 +1712,7 @@ export async function render(root) {
     orb: makeOrb(stage.querySelector(".bz-host canvas")),
     sceneBase: Math.floor(Math.random() * 1000), sceneN: 0, sceneFlip: false, voiceName: prefs.voiceName,
     subjects, history: setup.history, sel: Math.max(0, savedSel),
-    exam: prefs.exam, focus: prefs.focus, length: prefs.length, answerTime: prefs.answerTime, buzzWindow: prefs.buzzWindow,
+    exam: prefs.exam, play: prefs.play, focus: prefs.focus, length: prefs.length, answerTime: prefs.answerTime, buzzWindow: prefs.buzzWindow,
     voice: prefs.voice, voiceChosen: prefs.voiceChosen, music: prefs.music, prize: prefs.prize,
     layout: prefs.layout, lookup: buildLookup(prefs.layout),
     players: [0, 1, 2, 3].map((i) => ({ name: (typeof prefs.names[i] === "string" && prefs.names[i].trim()) ? prefs.names[i].trim().slice(0, 20) : `Player ${i + 1}`,
