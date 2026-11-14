@@ -2,9 +2,9 @@
   "subject_id": "be",
   "title": "BE one-shot: the end-term in one go",
   "exam": "End-term (EST)",
-  "intro_md": "Everything Athena has for the Business Economics end-term, in the order that wins marks: **production and cost first** (the 2025 end-term was built on them), then **demand forecasting**, then a fast revision of the **mid-term topics**.\n\nEach part gives you the idea in one line, a picture, a worked example from the slides, practice from the slides and past papers, and the exact way to write the answer. Pick your hours, follow the plan from the top, and tick each part when it feels solid.",
+  "intro_md": "Everything Athena has for the Business Economics end-term, in the order that wins marks: **market structures and monopoly numericals first**, then **industry concentration** and **specialized investments** (together these were most of the 2025 end-term), then **production and cost**, **demand forecasting**, and a fast revision of the **mid-term topics**.\n\nEach part gives you the idea in one line, a picture, a worked example from the slides, practice from the slides and past papers, and the exact way to write the answer. Pick your hours, follow the plan from the top, and tick each part when it feels solid.",
   "paper_md": "**The 2025 end-term:** 40 marks, 120 minutes, all questions compulsory, calculators allowed.\n\n- **Q1: five short questions × 4 marks = 20 marks** (explain, compare, one small calculation).\n- **Q2 to Q5: four questions × 5 marks = 20 marks** (a cost function, profit-maximizing output and price, a theory question with a diagram).\n\n**Timing:** about 3 minutes a mark. Q1 parts about 10 minutes each (50 minutes), each 5-mark question about 15 minutes (60 minutes), 10 minutes to check.\n\n**How to write each answer:** the definition in the slide's words, a diagram where one fits, the formula, the working laid out in a table, and a one-line conclusion. Numericals: formula first, then substitution, then the answer with units.",
-  "gaps_md": "**Not in Athena yet:** the 2025 end-term also asked about **market structures** (perfect competition, monopoly, monopolistic competition, oligopoly and the kinked demand curve), **industry concentration** (HHI, Rothschild and Dansby-Willig indexes) and **specialized investments and contract length**. Your BE slides in Athena stop at Session 9, so these are not covered here. If your professor has shared those slides, put them in the Business Economics inbox folder and they will be added.",
+  "gaps_md": "**Not in Athena yet:** the 2025 end-term Q5 asked about **Sweezy's kinked demand curve** under **oligopoly**. Your Session 11 slides only preview oligopoly and Session 12 stops at monopolistic competition, so oligopoly is not covered here. If your professor has shared an oligopoly deck, put it in the Business Economics inbox folder and it will be added.",
   "formulas": [
     {
       "name": "Production function",
@@ -143,9 +143,1438 @@
       "formula": "NPV = PV of future cash flows - C₀",
       "note": "Accept if NPV > 0",
       "source_ref": "be--session-1-and-2#31"
+    },
+    {
+      "name": "Price taker",
+      "formula": "P = MR; produce where P = MC",
+      "source_ref": "be--session-12#8"
+    },
+    {
+      "name": "Shutdown rule",
+      "formula": "Shut down if P < min AVC",
+      "source_ref": "be--session-12#12"
+    },
+    {
+      "name": "Profit",
+      "formula": "Profit = (P - ATC) x Q",
+      "source_ref": "be--session-12#26"
+    },
+    {
+      "name": "MR for linear demand",
+      "formula": "P = a - bQ gives MR = a - 2bQ",
+      "note": "Or MR = P[(1 + E)/E]",
+      "source_ref": "be--session-12#27"
+    },
+    {
+      "name": "Monopoly",
+      "formula": "MR = MC for Q; price from demand",
+      "source_ref": "be--session-12#25"
+    },
+    {
+      "name": "Multi-plant monopoly",
+      "formula": "MR(Q) = MC1(Q1) = MC2(Q2)",
+      "source_ref": "be--session-12#33"
+    },
+    {
+      "name": "Optimal advertising",
+      "formula": "A/R = EQ,A / (-EQ,P)",
+      "source_ref": "be--session-12#42"
+    },
+    {
+      "name": "Four-firm concentration ratio",
+      "formula": "C4 = w1 + w2 + w3 + w4, wi = Si/ST",
+      "source_ref": "be--session-11#6"
+    },
+    {
+      "name": "HHI",
+      "formula": "HHI = 10,000 x sum of wi²",
+      "source_ref": "be--session-11#6"
+    },
+    {
+      "name": "Merger guidelines",
+      "formula": "May challenge if HHI exceeds 1800 and rises by more than 100",
+      "source_ref": "be--session-11#17"
+    },
+    {
+      "name": "Rothschild Index",
+      "formula": "R = ET / EF",
+      "note": "0 perfect competition, 1 monopoly",
+      "source_ref": "be--session-11#10"
+    },
+    {
+      "name": "Lerner Index",
+      "formula": "L = (P - MC) / P",
+      "note": "Markup factor 1/(1 - L)",
+      "source_ref": "be--session-11#13"
+    },
+    {
+      "name": "Social welfare",
+      "formula": "Social Welfare = CS + PS",
+      "source_ref": "be--session-11#18"
     }
   ],
   "sections": [
+    {
+      "id": "monopoly-numericals",
+      "title": "Monopoly: profit-maximizing output, price and profit",
+      "unit": "Session 12",
+      "priority": 1,
+      "minutes": 45,
+      "why": "The 2025 end-term Q3 and Q4 (5 marks each) were both monopoly numericals: find Q where MR = MC, read P from demand, then profit.",
+      "topic_ids": [
+        "be-s12m-monopoly"
+      ],
+      "source_refs": [
+        "be--session-12#23",
+        "be--session-12#24",
+        "be--session-12#25",
+        "be--session-12#26",
+        "be--session-12#27",
+        "be--session-12#28"
+      ],
+      "big_idea": "A monopolist picks the quantity where MR = MC, then charges the highest price buyers will pay for that quantity.",
+      "body_md": "**Marginal revenue and profit maximization.** A monopoly can charge more than MC, but **not anything it likes\\**: the higher the price, the less it sells.\n\nTo sell one more unit it must **lower the price on every unit\\**, so **MR is below the demand curve\\**. For a straight-line demand **P = a - bQ\\**, MR has the same start but **twice the slope\\**: **MR = a - 2bQ\\**.\n\nMR and elasticity are linked: where demand is **elastic\\** MR is positive and revenue rises; at **unit elastic\\** MR = 0 and **total revenue is highest\\**; where **inelastic\\**, MR is negative.\n\n**The two-step rule:**\n\n1. Find the output where **MR = MC\\**.\n2. Go **up to the demand curve\\** to read the price.\n\nProfit = **(P - ATC) x Q**.\n\n**Worked example: P = 10 - Q.** This is the slide's example, drawn below with its own numbers. Notice how the profit box sits between the price **$6** and average cost at 4 units.",
+      "visuals": [
+        {
+          "title": "Demand and marginal revenue",
+          "caption": "MR starts at the same price as demand but falls twice as fast. Above the midpoint demand is elastic; at the midpoint MR = 0 and total revenue peaks; below it demand is inelastic.",
+          "source_ref": "be--session-12#24",
+          "kind": "plot",
+          "x_label": "Q",
+          "y_label": "P",
+          "x_max": 52.0,
+          "y_max": 105.0,
+          "y_min": 0.0,
+          "x_ticks": [
+            {
+              "at": 25.0,
+              "label": "25"
+            },
+            {
+              "at": 50.0,
+              "label": "50"
+            }
+          ],
+          "y_ticks": [
+            {
+              "at": 100.0,
+              "label": "100"
+            },
+            {
+              "at": 50.0,
+              "label": "50"
+            }
+          ],
+          "lines": [
+            {
+              "points": [
+                [
+                  0.0,
+                  100.0
+                ],
+                [
+                  50.0,
+                  0.0
+                ]
+              ],
+              "label": "Demand",
+              "label_at": "end",
+              "tone": "a",
+              "dashed": false,
+              "bold": true,
+              "curve": false
+            },
+            {
+              "points": [
+                [
+                  0.0,
+                  100.0
+                ],
+                [
+                  25.0,
+                  0.0
+                ]
+              ],
+              "label": "MR",
+              "label_at": "end",
+              "tone": "d",
+              "dashed": false,
+              "bold": false,
+              "curve": false
+            }
+          ],
+          "areas": [],
+          "dots": [
+            {
+              "x": 25.0,
+              "y": 50.0,
+              "label": "Unit elastic",
+              "label_at": "above",
+              "guides": true
+            }
+          ],
+          "notes": [
+            {
+              "x": 4.0,
+              "y": 92.0,
+              "text": "Elastic",
+              "tone": "b"
+            },
+            {
+              "x": 36.0,
+              "y": 30.0,
+              "text": "Inelastic",
+              "tone": "c"
+            }
+          ]
+        },
+        {
+          "title": "The slide's monopoly: P = 10 - Q, C(Q) = 6 + 2Q",
+          "caption": "MR = MC at Q = 4. Up to demand: P = $6. Average cost at 4 units is 3.5, so profit is (6 - 3.5) x 4 = $10.",
+          "source_ref": "be--session-12#28",
+          "kind": "plot",
+          "x_label": "Q",
+          "y_label": "$",
+          "x_max": 10.5,
+          "y_max": 10.5,
+          "y_min": 0.0,
+          "x_ticks": [
+            {
+              "at": 4.0,
+              "label": "4"
+            },
+            {
+              "at": 10.0,
+              "label": "10"
+            }
+          ],
+          "y_ticks": [
+            {
+              "at": 6.0,
+              "label": "6"
+            },
+            {
+              "at": 3.5,
+              "label": "3.5"
+            },
+            {
+              "at": 2.0,
+              "label": "2"
+            },
+            {
+              "at": 10.0,
+              "label": "10"
+            }
+          ],
+          "lines": [
+            {
+              "points": [
+                [
+                  0.0,
+                  10.0
+                ],
+                [
+                  10.0,
+                  0.0
+                ]
+              ],
+              "label": "D",
+              "label_at": "end",
+              "tone": "a",
+              "dashed": false,
+              "bold": true,
+              "curve": false
+            },
+            {
+              "points": [
+                [
+                  0.0,
+                  10.0
+                ],
+                [
+                  5.0,
+                  0.0
+                ]
+              ],
+              "label": "MR",
+              "label_at": "end",
+              "tone": "d",
+              "dashed": false,
+              "bold": false,
+              "curve": false
+            },
+            {
+              "points": [
+                [
+                  0.0,
+                  2.0
+                ],
+                [
+                  10.0,
+                  2.0
+                ]
+              ],
+              "label": "MC",
+              "label_at": "end",
+              "tone": "muted",
+              "dashed": false,
+              "bold": false,
+              "curve": false
+            },
+            {
+              "points": [
+                [
+                  1.0,
+                  8.0
+                ],
+                [
+                  2.0,
+                  5.0
+                ],
+                [
+                  3.0,
+                  4.0
+                ],
+                [
+                  4.0,
+                  3.5
+                ],
+                [
+                  6.0,
+                  3.0
+                ],
+                [
+                  8.0,
+                  2.75
+                ],
+                [
+                  10.0,
+                  2.6
+                ]
+              ],
+              "label": "Average cost",
+              "label_at": "end",
+              "tone": "c",
+              "dashed": false,
+              "bold": false,
+              "curve": true
+            }
+          ],
+          "areas": [
+            {
+              "points": [
+                [
+                  0.0,
+                  3.5
+                ],
+                [
+                  4.0,
+                  3.5
+                ],
+                [
+                  4.0,
+                  6.0
+                ],
+                [
+                  0.0,
+                  6.0
+                ]
+              ],
+              "label": "Profit",
+              "tone": "b"
+            }
+          ],
+          "dots": [
+            {
+              "x": 4.0,
+              "y": 6.0,
+              "label": "",
+              "label_at": "above",
+              "guides": true
+            },
+            {
+              "x": 4.0,
+              "y": 2.0,
+              "label": "",
+              "label_at": "above",
+              "guides": false
+            }
+          ],
+          "notes": []
+        }
+      ],
+      "analogy": null,
+      "worked": {
+        "question_md": "Given P = 10 - Q and C(Q) = 6 + 2Q. Find the optimal output, price and profit.",
+        "steps": [
+          {
+            "title": "MR",
+            "body_md": "P = 10 - Q, so with a = 10 and b = 1: **MR = 10 - 2Q\\**.",
+            "why": "MR = a - 2bQ for straight-line demand.",
+            "result": "MR = 10 - 2Q"
+          },
+          {
+            "title": "MC",
+            "body_md": "C(Q) = 6 + 2Q, so **MC = 2**.",
+            "why": "Each extra unit adds 2 to cost.",
+            "result": "MC = 2"
+          },
+          {
+            "title": "MR = MC",
+            "body_md": "10 - 2Q = 2, so 2Q = 8 and **Q = 4**.",
+            "why": "Profit is highest where the last unit adds as much revenue as cost.",
+            "result": "Q = 4"
+          },
+          {
+            "title": "Price from demand",
+            "body_md": "P = 10 - 4 = **$6**.",
+            "why": "Charge what buyers will pay for 4 units.",
+            "result": "P = $6"
+          },
+          {
+            "title": "Profit",
+            "body_md": "| Item | Working | Value |\n|---|---|---|\n| Revenue | 6 x 4 | 24 |\n| Cost | 6 + 2 x 4 | 14 |\n| Profit | 24 - 14 | **10** |",
+            "why": "Revenue minus cost.",
+            "result": "Profit = $10"
+          }
+        ],
+        "answer_md": "Q = 4 units, P = $6, profit = **$10**."
+      },
+      "watch_out": [
+        "MR for P = a - bQ is **a - 2bQ**: double the slope, keep the intercept.",
+        "Read the price off the **demand curve**, not the MR curve and not MC.",
+        "Put Q back into the **demand** equation for price: P = 10 - 4, not MR.",
+        "Include the fixed cost of 6 in total cost."
+      ],
+      "memory_trick": "**Quantity from MR = MC, price from demand.**",
+      "exam_answer_md": "A monopolist produces where **MR = MC\\** and charges the price on the demand curve that corresponds to that quantity. For linear demand P = a - bQ, **MR = a - 2bQ\\**; alternatively **MR = P[(1 + E)/E]**. Profit = (P - ATC) x Q. (Draw D, MR, MC and ATC; mark QM and PM and shade the profit box.)\n\nMR = 10 - 2Q; MC = 2. Set MR = MC: 10 - 2Q = 2, so **Q = 4**. P = 10 - 4 = **$6**. Profit = PQ - C(Q) = (6)(4) - (6 + 8) = **$10**.",
+      "practice": [
+        {
+          "question_md": "**2025 end-term (5 marks):** The inverse demand function and the total cost function of a monopolistic firm is as follows: P = 85 - 4Q, TC = 24 + 13Q. Calculate the profit maximizing quantity, price and profit.",
+          "marks": 5,
+          "pyq_id": "be-est-2025-q4",
+          "steps": [
+            {
+              "title": "MR",
+              "body_md": "P = 85 - 4Q, so **MR = 85 - 8Q**.",
+              "why": "MR = a - 2bQ.",
+              "result": "MR = 85 - 8Q"
+            },
+            {
+              "title": "MC",
+              "body_md": "TC = 24 + 13Q, so **MC = 13**.",
+              "why": "Each extra unit adds 13.",
+              "result": "MC = 13"
+            },
+            {
+              "title": "MR = MC",
+              "body_md": "85 - 8Q = 13, so 8Q = 72 and **Q = 9**.",
+              "why": "Profit is highest where MR = MC.",
+              "result": "Q = 9"
+            },
+            {
+              "title": "Price",
+              "body_md": "P = 85 - 4(9) = 85 - 36 = **49**.",
+              "why": "Read the price from demand.",
+              "result": "P = 49"
+            },
+            {
+              "title": "Profit",
+              "body_md": "| Item | Working | Value |\n|---|---|---|\n| Revenue | 49 x 9 | 441 |\n| Cost | 24 + 13 x 9 | 141 |\n| Profit | 441 - 141 | **300** |",
+              "why": "Revenue minus cost.",
+              "result": "Profit = 300"
+            }
+          ],
+          "answer_md": "Q = **9**, P = **49**, profit = **300**."
+        },
+        {
+          "question_md": "**2025 end-term (5 marks):** Bell Computers has a monopoly in the palmtop computers market with its demand and cost functions given below: TC = 10000 + 100Q + 0.02Q², Q = 20000 - 100P. Calculate its profit maximizing output and price.",
+          "marks": 5,
+          "pyq_id": "be-est-2025-q3",
+          "steps": [
+            {
+              "title": "Inverse demand",
+              "body_md": "Q = 20000 - 100P, so **P = 200 - 0.01Q**.",
+              "why": "Make P the subject before finding MR.",
+              "result": "P = 200 - 0.01Q"
+            },
+            {
+              "title": "MR and MC",
+              "body_md": "**MR = 200 - 0.02Q**; MC = dTC/dQ = **100 + 0.04Q**.",
+              "why": "MR = a - 2bQ; differentiate TC.",
+              "result": ""
+            },
+            {
+              "title": "MR = MC",
+              "body_md": "200 - 0.02Q = 100 + 0.04Q, so 0.06Q = 100 and **Q = 1,666.67**.",
+              "why": "Profit is highest where MR = MC.",
+              "result": "Q = 1,666.67"
+            },
+            {
+              "title": "Price",
+              "body_md": "P = 200 - 0.01(1,666.67) = **183.33**.",
+              "why": "Read the price from demand.",
+              "result": "P = 183.33"
+            },
+            {
+              "title": "Profit (optional)",
+              "body_md": "PQ - TC = 305,555.56 - 232,222.22 = **73,333.33**.",
+              "why": "Only if asked; the question asks for output and price.",
+              "result": ""
+            }
+          ],
+          "answer_md": "Q = **1,666.67** palmtops, P = **183.33**."
+        }
+      ],
+      "quiz_ids": [
+        "be-s12m-monopoly-q-73637d68"
+      ],
+      "derived": [
+        "25",
+        "50",
+        "3.5",
+        "24",
+        "14",
+        "8",
+        "ATC",
+        "85",
+        "8Q",
+        "13",
+        "72",
+        "9",
+        "36",
+        "49",
+        "441",
+        "117",
+        "141",
+        "300",
+        "200",
+        "0.01Q",
+        "0.02Q",
+        "100",
+        "0.04Q",
+        "0.06Q",
+        "1,666.67",
+        "0.01",
+        "0.04",
+        "0.06",
+        "183.33",
+        "305,555.56",
+        "232,222.22",
+        "73,333.33",
+        "4Q"
+      ]
+    },
+    {
+      "id": "perfect-vs-monopolistic",
+      "title": "Perfect competition vs monopolistic competition",
+      "unit": "Session 12",
+      "priority": 1,
+      "minutes": 30,
+      "why": "The 2025 end-term Q1(e) (4 marks) asked to compare the market environments of perfect competition and monopolistic competition with examples.",
+      "topic_ids": [
+        "be-s12m-perfect-competition",
+        "be-s12m-monopolistic-competition"
+      ],
+      "source_refs": [
+        "be--session-12#2",
+        "be--session-12#3",
+        "be--session-12#4",
+        "be--session-12#5",
+        "be--session-12#34",
+        "be--session-12#35",
+        "be--session-12#36",
+        "be--session-12#23",
+        "be--session-12#37",
+        "be--session-12#38",
+        "be--session-12#39",
+        "be--session-12#40",
+        "be--session-12#41"
+      ],
+      "big_idea": "When thousands of firms sell the exact same thing, no single firm can choose its price: it takes the market price.",
+      "body_md": "**The environment and its implications.** Picture a vegetable market where every stall sells identical tomatoes and every buyer can see every price. If one seller charges more, buyers simply walk to the next stall.\n\nThat is **perfect competition\\**: **many buyers and sellers\\**, an **identical product\\**, **perfect information\\**, **no transaction costs\\** and **free entry and exit\\**.\n\nThree things follow:\n\n- Each firm is a **price taker\\**, so the price it gets for one more unit is the market price: **P = MR\\**.\n- In the **short run\\** a firm can make a **profit or a loss\\**.\n- In the **long run\\**, entry and exit push **profit to zero\\**.\n\nWhy study something so rare? It is the **benchmark\\** every other market is compared with, and it shows managers why **differentiation\\** matters.\n\n**Environment and limited market power.** Think of shampoo brands. There are **numerous sellers\\**, and each brand is a little **different\\**, so each firm faces a **downward sloping demand curve\\**: it can raise its price a bit without losing every customer.\n\nBut the brands are **close substitutes\\**, so buyers do switch. That makes each firm's demand **more elastic\\** than a monopolist's. Add **free entry and exit\\**, and the firm has only **limited market power\\**.\n\nLike a monopolist, it can price **above MC\\**, and its MR lies below its demand curve.\n\n**Short run and long run.** **Short run:** produce where **MR = MC\\** and charge the price on the demand curve, exactly like a monopolist. If that price is above ATC, the brand **makes a profit\\**.\n\n**Long run:** profit attracts rivals. Their **new brands steal market share\\**, so your demand curve **shifts left\\** (D to D1). This continues until the demand curve just **touches the AC curve\\**: there **P = AC\\** and **profit is zero\\**.\n\n**The good, the bad and the ugly.** | For | Verdict |\n|---|---|\n| **Consumers (good)** | Product variety |\n| **Society (bad)** | P > MC, excess capacity, unexploited economies of scale |\n| **Managers (ugly)** | P = ATC > minimum average cost, and zero profits in the long run |",
+      "visuals": [
+        {
+          "title": "Perfect competition in two columns",
+          "caption": "",
+          "source_ref": "be--session-12#3",
+          "kind": "compare",
+          "sides": [
+            {
+              "title": "The environment",
+              "points": [
+                "Many buyers and sellers",
+                "Identical product",
+                "Perfect information",
+                "No transaction costs",
+                "Free entry and exit"
+              ],
+              "tone": "a"
+            },
+            {
+              "title": "What it means for the firm",
+              "points": [
+                "Price taker: P = MR",
+                "Short run: profit or loss",
+                "Long run: zero profit"
+              ],
+              "tone": "b"
+            }
+          ]
+        },
+        {
+          "title": "Monopolistic competition: like a monopoly, but",
+          "caption": "",
+          "source_ref": "be--session-12#35",
+          "kind": "compare",
+          "sides": [
+            {
+              "title": "Like a monopoly",
+              "points": [
+                "Downward sloping demand",
+                "Can price above MC",
+                "Sales depend on the price it sets"
+              ],
+              "tone": "a"
+            },
+            {
+              "title": "But",
+              "points": [
+                "Other brands make demand more elastic",
+                "Free entry and exit erode profit",
+                "So only limited market power"
+              ],
+              "tone": "c"
+            }
+          ]
+        },
+        {
+          "title": "Long run: demand falls until it just touches AC",
+          "caption": "Entry shifts the brand's demand to D1, which touches AC at Q1. There P = AC, so profit is zero, and P is still above MC.",
+          "source_ref": "be--session-12#40",
+          "kind": "plot",
+          "x_label": "Quantity of Brand X",
+          "y_label": "$",
+          "x_max": 10.0,
+          "y_max": 10.0,
+          "y_min": 0.0,
+          "x_ticks": [
+            {
+              "at": 4.0,
+              "label": "Q1"
+            }
+          ],
+          "y_ticks": [
+            {
+              "at": 4.6,
+              "label": "P1"
+            }
+          ],
+          "lines": [
+            {
+              "points": [
+                [
+                  1.0,
+                  9.0
+                ],
+                [
+                  2.5,
+                  6.0
+                ],
+                [
+                  4.0,
+                  4.6
+                ],
+                [
+                  5.5,
+                  4.2
+                ],
+                [
+                  7.0,
+                  4.6
+                ],
+                [
+                  9.0,
+                  6.0
+                ]
+              ],
+              "label": "AC",
+              "label_at": "end",
+              "tone": "a",
+              "dashed": false,
+              "bold": false,
+              "curve": true
+            },
+            {
+              "points": [
+                [
+                  1.0,
+                  2.5
+                ],
+                [
+                  2.5,
+                  1.9
+                ],
+                [
+                  4.0,
+                  2.2
+                ],
+                [
+                  5.5,
+                  4.2
+                ],
+                [
+                  7.0,
+                  7.0
+                ]
+              ],
+              "label": "MC",
+              "label_at": "end",
+              "tone": "d",
+              "dashed": false,
+              "bold": false,
+              "curve": true
+            },
+            {
+              "points": [
+                [
+                  0.0,
+                  7.0
+                ],
+                [
+                  10.0,
+                  1.0
+                ]
+              ],
+              "label": "D1",
+              "label_at": "end",
+              "tone": "b",
+              "dashed": false,
+              "bold": true,
+              "curve": false
+            },
+            {
+              "points": [
+                [
+                  0.0,
+                  7.0
+                ],
+                [
+                  5.83,
+                  0.0
+                ]
+              ],
+              "label": "MR1",
+              "label_at": "end",
+              "tone": "muted",
+              "dashed": false,
+              "bold": false,
+              "curve": false
+            }
+          ],
+          "areas": [],
+          "dots": [
+            {
+              "x": 4.0,
+              "y": 4.6,
+              "label": "P = AC",
+              "label_at": "above",
+              "guides": true
+            },
+            {
+              "x": 4.0,
+              "y": 2.2,
+              "label": "",
+              "label_at": "above",
+              "guides": false
+            }
+          ],
+          "notes": []
+        },
+        {
+          "title": "The good, the bad and the ugly",
+          "caption": "",
+          "source_ref": "be--session-12#41",
+          "kind": "compare",
+          "sides": [
+            {
+              "title": "Good, for consumers",
+              "points": [
+                "Product variety"
+              ],
+              "tone": "b"
+            },
+            {
+              "title": "Bad, for society",
+              "points": [
+                "P > MC",
+                "Excess capacity",
+                "Unexploited economies of scale"
+              ],
+              "tone": "c"
+            },
+            {
+              "title": "Ugly, for managers",
+              "points": [
+                "P = ATC > minimum average cost",
+                "Zero profits in the long run"
+              ],
+              "tone": "d"
+            }
+          ]
+        }
+      ],
+      "analogy": null,
+      "worked": null,
+      "watch_out": [
+        "Write **P = MR** for a price taker. It is not true for a monopoly.",
+        "Zero profit is a **long-run** result. In the short run the firm can still earn profit or make a loss.",
+        "Products are **differentiated**, not identical. Identical products mean perfect competition.",
+        "In the long run P = AC, but **not** minimum AC. That gap is the excess capacity."
+      ],
+      "memory_trick": "**Many, same, see, free, free**: many firms, same product, see all prices, free of transaction costs, free to enter.",
+      "exam_answer_md": "| Basis | Perfect competition | Monopolistic competition |\n|---|---|---|\n| Buyers and sellers | Many | Numerous |\n| Product | Homogeneous (identical) | Differentiated, close substitutes |\n| Firm's demand | Horizontal: price taker, P = MR | Downward sloping: limited market power |\n| Output rule | P = MC | MR = MC, so P > MC |\n| Entry and exit | Free | Free |\n| Short run | Profit or loss | Profit possible |\n| Long run | Zero profit; P = MC = minimum AC (efficient) | Zero profit; P = AC above minimum AC (excess capacity) |\n\n(Draw the price taker's flat demand at Pe, and the brand's downward demand tangent to AC in the long run.)",
+      "practice": [],
+      "quiz_ids": [
+        "be-s12m-perfect-competition-q-da7b2cbd",
+        "be-s12m-monopolistic-competition-q-db27ff82"
+      ],
+      "derived": []
+    },
+    {
+      "id": "hhi-c4",
+      "title": "Industry concentration: C4 and HHI",
+      "unit": "Session 11",
+      "priority": 1,
+      "minutes": 25,
+      "why": "The 2025 end-term Q1(c) (4 marks) gave three firms' sales and asked for the HHI.",
+      "topic_ids": [
+        "be-s11-concentration"
+      ],
+      "source_refs": [
+        "be--session-11#6",
+        "be--session-11#7",
+        "be--session-11#16",
+        "be--session-11#17"
+      ],
+      "big_idea": "C4 adds the top four firms' shares; HHI squares every firm's share, adds them up and multiplies by 10,000.",
+      "body_md": "**Two measures of concentration.** Both measure **how much of the market a few firms control**.\n\n**C4** (four-firm concentration ratio): add the market shares of the **four biggest** firms. Market share wi = Si / ST (firm's sales over total industry sales).\n\n**HHI** (Herfindahl-Hirschman Index): square **every** firm's share, add them, multiply by **10,000**.\n\nWhy square? Squaring makes **big firms count much more**: a 50% firm adds 2,500, but five 10% firms add only 500 together. So HHI rises sharply when one firm dominates.\n\n**Worked example: five banks.** This is the slide's example, and last year's paper asked the same kind of question with three firms, worked below.\n\n**Integration and the merger guidelines.** The **DOJ/FTC Horizontal Merger Guidelines** use HHI. A merger **may be challenged** if **both** hold:\n\n1. HHI **exceeds 1800** (or would after the merger), **and**\n2. the merger **raises HHI by more than 100**.\n\nBut the guidelines also accept that mergers can bring **efficiencies** that lower prices, and in most cases they let firms merge.",
+      "visuals": [
+        {
+          "title": "Three kinds of integration",
+          "caption": "",
+          "source_ref": "be--session-11#16",
+          "kind": "compare",
+          "sides": [
+            {
+              "title": "Vertical",
+              "points": [
+                "Different stages of one product in one firm"
+              ],
+              "tone": "a"
+            },
+            {
+              "title": "Horizontal",
+              "points": [
+                "Similar products merged into one firm"
+              ],
+              "tone": "b"
+            },
+            {
+              "title": "Conglomerate",
+              "points": [
+                "Different product lines in one firm"
+              ],
+              "tone": "c"
+            }
+          ]
+        }
+      ],
+      "analogy": null,
+      "worked": {
+        "question_md": "Last year's paper: There are only three firms in an industry. Two firms have sales of $10, and one firm has sales of $30. Calculate the HHI.",
+        "steps": [
+          {
+            "title": "Total sales",
+            "body_md": "10 + 10 + 30 = **50**.",
+            "why": "Shares are each firm's sales over total sales.",
+            "result": "ST = 50"
+          },
+          {
+            "title": "Market shares",
+            "body_md": "| Firm | Sales | Share wi |\n|---|---|---|\n| 1 | 10 | 10/50 = 0.2 |\n| 2 | 10 | 10/50 = 0.2 |\n| 3 | 30 | 30/50 = 0.6 |",
+            "why": "wi = Si / ST.",
+            "result": "0.2, 0.2, 0.6"
+          },
+          {
+            "title": "Square and add",
+            "body_md": "0.2² + 0.2² + 0.6² = 0.04 + 0.04 + 0.36 = **0.44**.",
+            "why": "HHI squares every firm's share.",
+            "result": "Sum of wi² = 0.44"
+          },
+          {
+            "title": "Times 10,000",
+            "body_md": "HHI = 10,000 x 0.44 = **4,400**.",
+            "why": "The index is scaled by 10,000.",
+            "result": "HHI = 4,400"
+          }
+        ],
+        "answer_md": "HHI = **4,400**: a highly concentrated industry."
+      },
+      "watch_out": [
+        "Use shares as **decimals** (0.2, not 20) before squaring, then multiply by 10,000.",
+        "C4 uses only the **top four**; HHI uses **all** firms.",
+        "Do not forget to divide by total sales first. Squaring raw sales (10², 30²) gives the wrong answer.",
+        "Both conditions are needed: above 1800 **and** an increase of more than 100."
+      ],
+      "memory_trick": "**C4: add four. HHI: square all, add, times 10,000.**",
+      "exam_answer_md": "**C4** = w1 + w2 + w3 + w4, the sum of the market shares of the top four firms, where wi = Si/ST. **HHI** = 10,000 x sum of wi², the sum of the squared market shares of all firms in the industry, multiplied by 10,000.\n\nFive banks at 20 percent each: **C4** = 0.2 + 0.2 + 0.2 + 0.2 = **0.8**; **HHI** = 10,000 x (5 x 0.2²) = **2,000**.\n\nThree firms with sales 10, 10 and 30: shares 0.2, 0.2, 0.6; HHI = 10,000 x (0.04 + 0.04 + 0.36) = **4,400**.\n\n**Vertical integration:** various stages in the production of a single product carried out by one firm. **Horizontal integration:** merging the production of similar products into a single firm. **Conglomerate merger:** integrating different product lines into a single firm. Under the horizontal merger guidelines, a merger may be challenged if HHI exceeds 1800 (or would after the merger) and the merger increases HHI by more than 100, though efficiencies are recognized.",
+      "practice": [],
+      "quiz_ids": [
+        "be-s11-concentration-q-71090489"
+      ],
+      "derived": [
+        "50",
+        "2,500",
+        "500",
+        "0.2",
+        "0.04",
+        "10",
+        "30",
+        "0.6",
+        "0.36",
+        "0.44",
+        "4,400"
+      ]
+    },
+    {
+      "id": "rothschild-dansby-willig",
+      "title": "Rothschild index, Lerner index and Dansby-Willig index",
+      "unit": "Session 11",
+      "priority": 1,
+      "minutes": 25,
+      "why": "The 2025 end-term Q1(d) (4 marks) asked to explain the Rothschild Index and Dansby-Willig Index with their applications.",
+      "topic_ids": [
+        "be-s11-rothschild-lerner",
+        "be-s11-performance"
+      ],
+      "source_refs": [
+        "be--session-11#10",
+        "be--session-11#11",
+        "be--session-11#18",
+        "be--session-11#19",
+        "be--session-11#21",
+        "be--session-11#13",
+        "be--session-11#14",
+        "be--session-11#15"
+      ],
+      "big_idea": "The Rothschild index compares how sensitive the whole market is to price with how sensitive one firm is: near 0 is competition, 1 is monopoly.",
+      "body_md": "**The Rothschild index.** **R = ET / EF**\n\n- **ET**: elasticity of demand for the **total market**.\n- **EF**: elasticity of demand for **one firm's** product.\n\nIf there are many similar firms, raising **your** price sends buyers to rivals, so **EF is large** and R is **close to 0** (perfect competition). If you are the only firm, your demand **is** the market demand, so EF = ET and **R = 1** (monopoly).\n\n**Application:** it tells a manager how much pricing power firms in the industry have. In the slide's table, Tobacco and Chemicals have R = 1.00; Food is only 0.26.\n\n**Performance and the Dansby-Willig index.** **Performance** is the **profits and social welfare** an industry produces.\n\n**Social welfare = CS + PS** (consumer surplus plus producer surplus).\n\nThe **Dansby-Willig Performance Index** measures **by how much social welfare would improve** if firms in the industry **expanded output in a socially efficient manner**. A **higher** number means more welfare is being left on the table, so the industry is performing **worse** for society.\n\n**Application:** regulators can use it to see which industries would gain most from more output. In the slide's table Chemicals (0.67) has the most room to improve and Textiles (0.38) the least.\n\n**The Lerner index.** **L = (P - MC) / P**\n\nIf a firm charges exactly its marginal cost, L = 0: it has **no market power**. The higher the markup, the closer L gets to **1**, meaning **weak price competition** and **market power**.\n\n**From Lerner index to markup factor.** Rearranging L = (P - MC) / P gives **P = [1 / (1 - L)] x MC**. The **markup factor** is **1/(1 - L)**.\n\n- L = 0: markup factor 1, so **P = MC**.\n- L = 0.20: markup factor **1/0.80 = 1.25**, so price is **1.25 times MC**.\n\nIn the slide's table, Tobacco has L = 0.76 and a markup factor of 4.17.",
+      "visuals": [
+        {
+          "title": "Rothschild indices from the slide",
+          "caption": "",
+          "source_ref": "be--session-11#11",
+          "kind": "matrix",
+          "row_title": "",
+          "col_title": "",
+          "rows": [
+            "Food",
+            "Tobacco",
+            "Textiles",
+            "Apparel",
+            "Paper",
+            "Chemicals",
+            "Rubber"
+          ],
+          "cols": [
+            "Market elasticity",
+            "Firm elasticity",
+            "Rothschild index"
+          ],
+          "cells": [
+            [
+              "1.0",
+              "3.8",
+              "0.26"
+            ],
+            [
+              "1.3",
+              "1.3",
+              "1.00"
+            ],
+            [
+              "1.5",
+              "4.7",
+              "0.32"
+            ],
+            [
+              "1.1",
+              "4.1",
+              "0.27"
+            ],
+            [
+              "1.5",
+              "1.7",
+              "0.88"
+            ],
+            [
+              "1.5",
+              "1.5",
+              "1.00"
+            ],
+            [
+              "1.8",
+              "2.3",
+              "0.78"
+            ]
+          ],
+          "highlight": [
+            [
+              1,
+              2
+            ],
+            [
+              5,
+              2
+            ]
+          ]
+        },
+        {
+          "title": "Dansby-Willig index from the slide",
+          "caption": "",
+          "source_ref": "be--session-11#19",
+          "kind": "matrix",
+          "row_title": "",
+          "col_title": "",
+          "rows": [
+            "Food",
+            "Textiles",
+            "Apparel",
+            "Paper",
+            "Chemicals",
+            "Petroleum",
+            "Rubber"
+          ],
+          "cols": [
+            "Dansby-Willig Index"
+          ],
+          "cells": [
+            [
+              "0.51"
+            ],
+            [
+              "0.38"
+            ],
+            [
+              "0.47"
+            ],
+            [
+              "0.63"
+            ],
+            [
+              "0.67"
+            ],
+            [
+              "0.63"
+            ],
+            [
+              "0.49"
+            ]
+          ],
+          "highlight": [
+            [
+              4,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ]
+        },
+        {
+          "title": "Reading the Lerner index",
+          "caption": "",
+          "source_ref": "be--session-11#13",
+          "kind": "flow",
+          "steps": [
+            {
+              "label": "L = 0",
+              "note": "P = MC, no market power"
+            },
+            {
+              "label": "L between 0 and 1",
+              "note": "Some markup over MC"
+            },
+            {
+              "label": "L close to 1",
+              "note": "Weak price competition, market power"
+            }
+          ],
+          "cycle": false
+        }
+      ],
+      "analogy": null,
+      "worked": null,
+      "watch_out": [
+        "Market elasticity goes on **top**: R = ET / EF.",
+        "R = 1 means **monopoly**, R near 0 means **perfect competition**.",
+        "A **higher** Dansby-Willig number means **more** room to improve welfare, not better performance.",
+        "Divide by **P**, not by MC."
+      ],
+      "memory_trick": "**Total over firm.**",
+      "exam_answer_md": "The **Rothschild Index** measures the elasticity of industry demand relative to that of an individual firm: **R = ET / EF**. It lies between 0 (perfect competition) and 1 (monopoly); with many firms producing similar products it is close to zero. **Application:** it measures the market power of firms in an industry, e.g. Tobacco and Chemicals 1.00, Food 0.26.\n\n**Performance** refers to the profits and social welfare that result in an industry; social welfare = CS + PS. The **Dansby-Willig Performance Index** measures by how much social welfare would improve if firms in an industry expanded output in a socially efficient manner. **Application:** it identifies industries where more output would raise welfare most (e.g. Chemicals 0.67 vs Textiles 0.38).\n\nThe **Lerner Index** L = (P - MC) / P measures the difference between price and marginal cost as a fraction of price. It ranges from 0 to 1. When P = MC it is zero and the firm has no market power; closer to 1 indicates weak price competition and market power.\n\nRearranging the Lerner index: P = [1/(1 - L)] x MC, so the **markup factor is 1/(1 - L)**. When L = 0 the markup factor is 1 and P = MC; when L = 0.20 the markup factor is 1.25.",
+      "practice": [],
+      "quiz_ids": [
+        "be-s11-rothschild-lerner-q-a32e5b9c",
+        "be-s11-performance-q-9eb8fe23"
+      ],
+      "derived": [
+        "0.80"
+      ]
+    },
+    {
+      "id": "specialized-investments",
+      "title": "Specialized investments and contract length",
+      "unit": "Session 10",
+      "priority": 1,
+      "minutes": 25,
+      "why": "The 2025 end-term Q1(b) (4 marks) asked to examine the impact of specialized investments on contract length with examples.",
+      "topic_ids": [
+        "be-s10-specialized-investments"
+      ],
+      "source_refs": [
+        "be--session-10#7",
+        "be--session-10#8",
+        "be--session-10#9",
+        "be--session-10#10",
+        "be--session-10#11",
+        "be--session-10#15"
+      ],
+      "big_idea": "A specialized investment is one that is worthless outside this one deal, which makes both sides nervous.",
+      "body_md": "**What specialized investments are.** Imagine a supplier who builds a factory **right next to** your plant, or buys a machine that only makes **your** part. If you walk away, that investment is almost useless.\n\nThat is a **specialized investment**: it allows the two parties to exchange but has **little or no value outside the relationship**.\n\nBecause one side is now locked in, these investments **raise transaction costs**: **costly bargaining**, **underinvestment** (nobody wants to be the one stuck) and **opportunism and the hold-up problem**.\n\n**Contract length: marginal benefit meets marginal cost.** How long should a contract be? Where the **marginal benefit** of one more year equals its **marginal cost**.\n\n- A **longer** contract protects specialized investments from hold-up, so when specialized investments matter more, the **MB curve shifts out** and the contract gets **longer**.\n- A **longer** contract is harder to write when the future is complicated, so a **more complex contracting environment** shifts **MC up** and the contract gets **shorter**. A **simpler** environment does the opposite.\n\n**Choosing the method: the decision tree.** Follow the tree from the top.\n\n- If there are **no substantial specialized investments**, nobody can be held up, so just use the **spot market**.\n- If there **are**, you need protection. If writing a contract is **not** too complex compared with the cost of integrating, use a **contract**.\n- If it **is** too complex, **make the input yourself** (vertical integration).",
+      "visuals": [
+        {
+          "title": "Four types of specialized investment",
+          "caption": "",
+          "source_ref": "be--session-10#7",
+          "kind": "tree",
+          "direction": "down",
+          "nodes": [
+            {
+              "id": "r",
+              "label": "Specialized investments",
+              "parent": null,
+              "edge": "",
+              "shape": "box",
+              "value": "",
+              "cut": false
+            },
+            {
+              "id": "a",
+              "label": "Site specificity",
+              "parent": "r",
+              "edge": "",
+              "shape": "box",
+              "value": "",
+              "cut": false
+            },
+            {
+              "id": "b",
+              "label": "Physical-asset specificity",
+              "parent": "r",
+              "edge": "",
+              "shape": "box",
+              "value": "",
+              "cut": false
+            },
+            {
+              "id": "c",
+              "label": "Dedicated assets",
+              "parent": "r",
+              "edge": "",
+              "shape": "box",
+              "value": "",
+              "cut": false
+            },
+            {
+              "id": "d",
+              "label": "Human capital",
+              "parent": "r",
+              "edge": "",
+              "shape": "box",
+              "value": "",
+              "cut": false
+            }
+          ]
+        },
+        {
+          "title": "More specialized investment: MB shifts out, contract gets longer",
+          "caption": "The need for specialized investments raises the benefit of a longer contract: MB0 moves to MB1 and optimal length rises from L0 to L1.",
+          "source_ref": "be--session-10#8",
+          "kind": "plot",
+          "x_label": "Contract Length",
+          "y_label": "$",
+          "x_max": 10.0,
+          "y_max": 10.0,
+          "y_min": 0.0,
+          "x_ticks": [
+            {
+              "at": 5.0,
+              "label": "L0"
+            },
+            {
+              "at": 6.0,
+              "label": "L1"
+            }
+          ],
+          "y_ticks": [],
+          "lines": [
+            {
+              "points": [
+                [
+                  0.0,
+                  1.0
+                ],
+                [
+                  10.0,
+                  9.0
+                ]
+              ],
+              "label": "MC",
+              "label_at": "end",
+              "tone": "d",
+              "dashed": false,
+              "bold": false,
+              "curve": false
+            },
+            {
+              "points": [
+                [
+                  0.0,
+                  9.0
+                ],
+                [
+                  10.0,
+                  1.0
+                ]
+              ],
+              "label": "MB0",
+              "label_at": "end",
+              "tone": "muted",
+              "dashed": false,
+              "bold": false,
+              "curve": false
+            },
+            {
+              "points": [
+                [
+                  0.0,
+                  10.0
+                ],
+                [
+                  10.0,
+                  3.0
+                ]
+              ],
+              "label": "MB1",
+              "label_at": "end",
+              "tone": "b",
+              "dashed": false,
+              "bold": true,
+              "curve": false
+            }
+          ],
+          "areas": [],
+          "dots": [
+            {
+              "x": 5.0,
+              "y": 5.0,
+              "label": "",
+              "label_at": "above",
+              "guides": true
+            },
+            {
+              "x": 6.0,
+              "y": 5.8,
+              "label": "",
+              "label_at": "above",
+              "guides": true
+            }
+          ],
+          "notes": []
+        },
+        {
+          "title": "More complex contracting: MC shifts up, contract gets shorter",
+          "caption": "A more complex environment raises the cost of each extra year: MC0 moves up to MC2 and optimal length falls from L0 to L2.",
+          "source_ref": "be--session-10#9",
+          "kind": "plot",
+          "x_label": "Contract Length",
+          "y_label": "$",
+          "x_max": 10.0,
+          "y_max": 10.0,
+          "y_min": 0.0,
+          "x_ticks": [
+            {
+              "at": 3.75,
+              "label": "L2"
+            },
+            {
+              "at": 5.0,
+              "label": "L0"
+            }
+          ],
+          "y_ticks": [],
+          "lines": [
+            {
+              "points": [
+                [
+                  0.0,
+                  9.0
+                ],
+                [
+                  10.0,
+                  1.0
+                ]
+              ],
+              "label": "MB0",
+              "label_at": "end",
+              "tone": "b",
+              "dashed": false,
+              "bold": false,
+              "curve": false
+            },
+            {
+              "points": [
+                [
+                  0.0,
+                  1.0
+                ],
+                [
+                  10.0,
+                  9.0
+                ]
+              ],
+              "label": "MC0",
+              "label_at": "end",
+              "tone": "muted",
+              "dashed": false,
+              "bold": false,
+              "curve": false
+            },
+            {
+              "points": [
+                [
+                  0.0,
+                  3.0
+                ],
+                [
+                  8.75,
+                  10.0
+                ]
+              ],
+              "label": "MC2",
+              "label_at": "end",
+              "tone": "d",
+              "dashed": false,
+              "bold": true,
+              "curve": false
+            }
+          ],
+          "areas": [],
+          "dots": [
+            {
+              "x": 5.0,
+              "y": 5.0,
+              "label": "",
+              "label_at": "above",
+              "guides": true
+            },
+            {
+              "x": 3.75,
+              "y": 6.0,
+              "label": "",
+              "label_at": "above",
+              "guides": true
+            }
+          ],
+          "notes": []
+        },
+        {
+          "title": "Optimal input procurement",
+          "caption": "",
+          "source_ref": "be--session-10#11",
+          "kind": "tree",
+          "direction": "right",
+          "nodes": [
+            {
+              "id": "q1",
+              "label": "Substantial specialized investments relative to contracting costs?",
+              "parent": null,
+              "edge": "",
+              "shape": "decision",
+              "value": "",
+              "cut": false
+            },
+            {
+              "id": "spot",
+              "label": "Spot exchange",
+              "parent": "q1",
+              "edge": "No",
+              "shape": "end",
+              "value": "",
+              "cut": false
+            },
+            {
+              "id": "q2",
+              "label": "Complex contracting environment relative to costs of integration?",
+              "parent": "q1",
+              "edge": "Yes",
+              "shape": "decision",
+              "value": "",
+              "cut": false
+            },
+            {
+              "id": "con",
+              "label": "Contract",
+              "parent": "q2",
+              "edge": "No",
+              "shape": "end",
+              "value": "",
+              "cut": false
+            },
+            {
+              "id": "vi",
+              "label": "Vertical integration",
+              "parent": "q2",
+              "edge": "Yes",
+              "shape": "end",
+              "value": "",
+              "cut": false
+            }
+          ]
+        }
+      ],
+      "analogy": null,
+      "worked": null,
+      "watch_out": [
+        "List all **four** types in the exam: site, physical-asset, dedicated assets, human capital.",
+        "Specialized investments move the **MB** curve; complexity moves the **MC** curve. Do not swap them.",
+        "Less complex contracting shifts MC **down**, so contracts get **longer**.",
+        "Spot exchange is the answer only when specialized investments are **not** substantial."
+      ],
+      "memory_trick": "**Site, stuff, staff**: where it is (site), the machine (physical asset, dedicated assets), the people (human capital).",
+      "exam_answer_md": "**Specialized investments** are investments made to allow two parties to exchange but which have little or no value outside the exchange relationship. Types: site specificity, physical-asset specificity, dedicated assets, human capital. They lead to higher transaction costs through costly bargaining, underinvestment, and opportunism and the hold-up problem.\n\nThe optimal contract length is where the marginal benefit (MB) of extending the contract equals its marginal cost (MC).\n\n- **Greater need for specialized investments** raises MB (MB0 to MB1): **longer contract** (L0 to L1). Example: a supplier building a plant next to the buyer wants a long contract.\n- **More complex contracting environment** raises MC (MC0 to MC2): **shorter contract** (L0 to L2).\n- **Less complex environment** lowers MC (MC0 to MC1): **longer contract**.\n\n(Draw the two graphs with contract length on the x-axis.)\n\nOptimal input procurement: if specialized investments are not substantial relative to contracting costs, use **spot exchange**. If they are, and the contracting environment is not complex relative to the costs of integration, use a **contract**; if it is complex, use **vertical integration**. The optimal method depends on the nature of transaction costs and the specialized nature of the inputs.",
+      "practice": [],
+      "quiz_ids": [
+        "be-s10-specialized-investments-q-a5124d67"
+      ],
+      "derived": [
+        "3.75",
+        "5.8"
+      ]
+    },
     {
       "id": "production-functions",
       "title": "Production functions: linear, Leontief, Cobb-Douglas",
@@ -1218,158 +2647,6 @@
       ]
     },
     {
-      "id": "scale-and-scope",
-      "title": "Long-run cost: economies of scale and scope",
-      "unit": "Unit IV",
-      "priority": 2,
-      "minutes": 30,
-      "why": "A favourite 'Explain' question: why the long-run average cost curve is U-shaped, plus economies of scope and cost complementarity.",
-      "source_refs": [
-        "be--session-8#37",
-        "be--session-8#38",
-        "be--session-8#39",
-        "be--session-8#40",
-        "be--session-8#41",
-        "be--session-8#42",
-        "be--session-8#43",
-        "be--session-8#45"
-      ],
-      "big_idea": "In the long run average cost first falls (economies of scale) and then rises (diseconomies of scale); producing two goods together can also be cheaper (economies of scope).",
-      "body_md": "**Long-run average cost (LRAC):** the minimum average cost of producing each output when the firm can choose **all** its inputs.\n\n**Economies of scale (LRAC falls as Q rises):** greater **specialisation** and division of labour; better use of **machinery**; **bulk purchasing** and input discounts; **spreading fixed/setup costs** over more units; managerial and technical efficiencies.\n\n**Diseconomies of scale (LRAC rises beyond the optimal scale Q*):** managerial and **coordination** difficulties; **bureaucracy** and slower decisions; difficulty **monitoring** a very large organisation; **congestion** and complexity.\n\n**Multi-product cost function C(Q1, Q2):** the cost of producing two outputs jointly.\n\n- **Economies of scope:** C(Q1, 0) + C(0, Q2) > C(Q1, Q2): cheaper to produce the two jointly than separately.\n- **Cost complementarity:** the marginal cost of good 1 **declines** as more of good 2 is produced.\n\nFor **C(Q1, Q2) = f + aQ1Q2 + (Q1)² + (Q2)²**: MC1 = aQ2 + 2Q1. **Cost complementarity if a < 0. Economies of scope if f > aQ1Q2.**",
-      "visuals": [
-        {
-          "kind": "plot",
-          "title": "The U-shaped LRAC",
-          "x_label": "Q",
-          "y_label": "$",
-          "x_max": 10,
-          "y_max": 10,
-          "x_ticks": [
-            {
-              "at": 5,
-              "label": "Q*"
-            }
-          ],
-          "lines": [
-            {
-              "points": [
-                [
-                  0.8,
-                  8.5
-                ],
-                [
-                  2.5,
-                  5.5
-                ],
-                [
-                  4,
-                  4.2
-                ],
-                [
-                  5,
-                  4
-                ],
-                [
-                  6,
-                  4.2
-                ],
-                [
-                  7.5,
-                  5.3
-                ],
-                [
-                  9.2,
-                  7.3
-                ]
-              ],
-              "label": "LRAC",
-              "tone": "a",
-              "curve": true
-            }
-          ],
-          "dots": [
-            {
-              "x": 5,
-              "y": 4,
-              "guides": true
-            }
-          ],
-          "notes": [
-            {
-              "x": 0.6,
-              "y": 1.6,
-              "text": "Economies of scale",
-              "tone": "b"
-            },
-            {
-              "x": 5.6,
-              "y": 1.6,
-              "text": "Diseconomies",
-              "tone": "d"
-            }
-          ],
-          "caption": "Left of Q* average cost falls (economies of scale); right of Q* it rises (diseconomies of scale).",
-          "source_ref": "be--session-8#38"
-        },
-        {
-          "kind": "compare",
-          "title": "Why LRAC falls, then rises",
-          "sides": [
-            {
-              "title": "Economies of scale",
-              "tone": "b",
-              "points": [
-                "Specialisation and division of labour",
-                "Better use of machinery",
-                "Bulk purchasing discounts",
-                "Fixed costs spread over more units"
-              ]
-            },
-            {
-              "title": "Diseconomies of scale",
-              "tone": "d",
-              "points": [
-                "Coordination difficulties",
-                "Bureaucracy, slower decisions",
-                "Hard to monitor a very large organisation",
-                "Congestion and complexity"
-              ]
-            }
-          ]
-        }
-      ],
-      "worked": {
-        "question_md": "**The professor's example:** C(Q1, Q2) = 90 - 2Q1Q2 + (Q1)² + (Q2)². Is there cost complementarity? Are there economies of scope?",
-        "steps": [
-          {
-            "title": "Match the form",
-            "body_md": "Compare with f + aQ1Q2 + (Q1)² + (Q2)²: **f = 90, a = -2**.",
-            "why": "",
-            "result": ""
-          },
-          {
-            "title": "Cost complementarity",
-            "body_md": "a = -2 < 0, so **yes**. MC1 = aQ2 + 2Q1 = **-2Q2 + 2Q1**: more Q2 lowers MC1.",
-            "why": "Cost complementarity needs a negative a.",
-            "result": "Cost complementarity: yes"
-          },
-          {
-            "title": "Economies of scope",
-            "body_md": "The rule is f > aQ1Q2. Here aQ1Q2 = -2Q1Q2, which is negative for any positive outputs, and f = 90 is positive, so **f > aQ1Q2: yes**.",
-            "why": "Joint production saves the fixed cost f.",
-            "result": "Economies of scope: yes"
-          }
-        ],
-        "answer_md": "**Yes to both:** a = -2 < 0 gives cost complementarity, and 90 > -2Q1Q2 gives economies of scope."
-      },
-      "watch_out": [
-        "Economies of **scale** are about one product at a bigger size. Economies of **scope** are about two products made **together**.",
-        "Cost complementarity needs **a < 0** in front of Q1Q2."
-      ],
-      "memory_trick": "**Scale is size; scope is variety.**",
-      "exam_answer_md": "**Economies of scale:** as output rises, LRAC falls (specialisation, better use of machinery, bulk buying, fixed costs spread over more units). **Diseconomies of scale:** beyond the optimal scale Q*, LRAC rises (coordination problems, bureaucracy, monitoring, congestion). So LRAC is U-shaped (draw it, with Q* at the bottom).\n\n**Economies of scope:** C(Q1, 0) + C(0, Q2) > C(Q1, Q2). **Cost complementarity:** the marginal cost of good 1 falls as more of good 2 is produced; with C = f + aQ1Q2 + (Q1)² + (Q2)² this needs a < 0."
-    },
-    {
       "id": "forecasting-basics",
       "title": "Demand forecasting: meaning, steps and methods",
       "unit": "Unit III",
@@ -1478,167 +2755,6 @@
       ],
       "memory_trick": "**Steps: What, Data, Model, Forecast, Monitor.**",
       "exam_answer_md": "**Demand forecasting** is the process of estimating the future demand for a product or service using historical data, market information, and/or statistical and judgmental methods.\n\n**Steps:** decide what needs to be forecast (detail, units, time horizon); see what data is available; select and test the model (cost, ease of use, accuracy); generate the forecast; monitor its accuracy over time.\n\n**Methods:** qualitative (market research and consumer surveys, the Delphi method) and quantitative (time series: trend, moving average, exponential smoothing; causal models with leading indicators)."
-    },
-    {
-      "id": "trend",
-      "title": "Trend forecasting by least squares (linear and quadratic)",
-      "unit": "Unit III",
-      "priority": 2,
-      "minutes": 35,
-      "why": "Trend fitting is a full table question (5 marks): build the table, solve two equations, forecast.",
-      "source_refs": [
-        "be--session-9#14",
-        "be--session-9#15",
-        "be--session-9#16",
-        "be--session-9#17",
-        "be--session-9#18",
-        "be--session-9#19"
-      ],
-      "big_idea": "Fit the straight line S = a + bt through past sales using two normal equations, then put in the future t to forecast.",
-      "body_md": "**Linear trend:** S = a + bt, where t numbers the periods 1, 2, 3, and so on.\n\nFind a and b from the two normal equations (the slide's worked example uses exactly these):\n\n- **ΣS = na + bΣt**\n- **ΣSt = aΣt + bΣt²**\n\nSo the table needs columns **t, t², St** and their sums.\n\n**Straight line or curve?** Look at the differences in sales. Roughly constant **first** differences: straight line. Roughly constant **second** differences: a **quadratic** trend S = a + bt + ct².\n\nFor the quadratic, number the years so the middle year is 0 (-3 to 3). Then Σt = 0 and Σt³ = 0, and **b = ΣSt / Σt²** directly.",
-      "worked": {
-        "question_md": "**The professor's question:** assuming the present trend continues, what is the expected sales value for the year 2000?\n\n| Year | 1993 | 1994 | 1995 | 1996 | 1997 |\n|---|---|---|---|---|---|\n| Sales (₹ crore) | 605 | 715 | 830 | 790 | 835 |",
-        "steps": [
-          {
-            "title": "Build the table",
-            "body_md": "| Year | Sales S | t | t² | St |\n|---|---|---|---|---|\n| 1993 | 605 | 1 | 1 | 605 |\n| 1994 | 715 | 2 | 4 | 1430 |\n| 1995 | 830 | 3 | 9 | 2490 |\n| 1996 | 790 | 4 | 16 | 3160 |\n| 1997 | 835 | 5 | 25 | 4175 |\n| Sum | 3775 | 15 | 55 | 11860 |",
-            "why": "The sums feed the two equations.",
-            "result": "ΣS = 3775, Σt = 15, Σt² = 55, ΣSt = 11860"
-          },
-          {
-            "title": "Write the two equations",
-            "body_md": "3775 = 5a + 15b\n\n11860 = 15a + 55b",
-            "why": "",
-            "result": ""
-          },
-          {
-            "title": "Solve",
-            "body_md": "Multiply the first by 3: 11325 = 15a + 45b. Subtract it from the second: 535 = 10b, so **b = 53.5**. Then 5a = 3775 - 15(53.5) = 2972.5, so **a = 594.5**.",
-            "why": "Make the a-terms equal, subtract, and one unknown disappears.",
-            "result": "a = 594.5, b = 53.5"
-          },
-          {
-            "title": "Forecast",
-            "body_md": "Trend: **S = 594.5 + 53.5t**. The year 2000 is t = 8.\n\nS = 594.5 + 53.5 × 8 = 594.5 + 428 = **1022.5**\n\nThe slide prints 1024.9 here, but 594.5 + 428 = 1022.5. Show your working so the examiner sees the right arithmetic.",
-            "why": "Keep counting t past the data: 1997 was 5, so 2000 is 8.",
-            "result": "Forecast for 2000 = 1022.5"
-          }
-        ],
-        "answer_md": "**S = 594.5 + 53.5t; expected sales in 2000 = ₹1022.5 crore.**"
-      },
-      "practice": [
-        {
-          "question_md": "**The professor's question:** (1) do we need a linear or non-linear trend? (2) Forecast sales for the year 2000.\n\n| Year | 1990 | 1991 | 1992 | 1993 | 1994 | 1995 | 1996 |\n|---|---|---|---|---|---|---|---|\n| Sales | 10 | 15 | 22 | 31 | 43 | 57 | 74 |",
-          "steps": [
-            {
-              "title": "Linear or not?",
-              "body_md": "First differences: 5, 7, 9, 12, 14, 17 (rising). Second differences: 2, 2, 3, 2, 3 (roughly constant). So use a **quadratic** trend S = a + bt + ct².",
-              "why": "Constant second differences point to a curve.",
-              "result": ""
-            },
-            {
-              "title": "Table with t from -3 to 3",
-              "body_md": "| Year | S | t | t² | St | St² |\n|---|---|---|---|---|---|\n| 1990 | 10 | -3 | 9 | -30 | 90 |\n| 1991 | 15 | -2 | 4 | -30 | 60 |\n| 1992 | 22 | -1 | 1 | -22 | 22 |\n| 1993 | 31 | 0 | 0 | 0 | 0 |\n| 1994 | 43 | 1 | 1 | 43 | 43 |\n| 1995 | 57 | 2 | 4 | 114 | 228 |\n| 1996 | 74 | 3 | 9 | 222 | 666 |\n| Sum | 252 | 0 | 28 | 297 | 1109 |",
-              "why": "With the middle year at 0, Σt and Σt³ are 0.",
-              "result": ""
-            },
-            {
-              "title": "Three equations",
-              "body_md": "252 = 7a + 28c\n\n297 = 28b\n\n1109 = 28a + 196c",
-              "why": "",
-              "result": ""
-            },
-            {
-              "title": "Solve",
-              "body_md": "b = 297/28 = **10.607**\n\nMultiply the first by 4: 1008 = 28a + 112c; subtract from the third: 101 = 84c, so **c = 1.202**\n\na = (252 - 28 × 1.202) / 7 = **31.19**\n\nThe slide writes b = 10.067 (and so gets 160.56); 297 ÷ 28 is actually 10.607.",
-              "why": "",
-              "result": "a = 31.19, b = 10.607, c = 1.202"
-            },
-            {
-              "title": "Forecast for 2000 (t = 7)",
-              "body_md": "S = 31.19 + 10.607(7) + 1.202(49) = 31.19 + 74.25 + 58.92 = **164.36**",
-              "why": "",
-              "result": ""
-            }
-          ],
-          "answer_md": "**Quadratic trend S = 31.19 + 10.607t + 1.202t²; forecast for 2000 is about 164.4.**"
-        }
-      ],
-      "watch_out": [
-        "Number the years 1, 2, 3 for a straight line, and keep counting for the forecast year (2000 is t = 8 in the first question).",
-        "Check the second differences before choosing a quadratic.",
-        "Two slips on the slides: 1024.9 should be 1022.5, and b = 10.067 should be 10.607. Trust your own working and show every step."
-      ],
-      "memory_trick": "**Table, two equations, solve, plug in.**",
-      "exam_answer_md": "1. Table of t, t² and St with their sums.\n2. Normal equations: ΣS = na + bΣt and ΣSt = aΣt + bΣt².\n3. Solve for a and b.\n4. Write the trend S = a + bt and put in the forecast year's t.\n\nFor the slide data: **S = 594.5 + 53.5t**, and the forecast for 2000 is **1022.5**.",
-      "derived": [
-        "0",
-        "1",
-        "10",
-        "1109",
-        "114",
-        "11860",
-        "1430",
-        "15",
-        "16",
-        "1990",
-        "1991",
-        "1992",
-        "1993",
-        "1994",
-        "1995",
-        "1996",
-        "1997",
-        "2",
-        "22",
-        "222",
-        "228",
-        "2490",
-        "25",
-        "252",
-        "28",
-        "297",
-        "3",
-        "30",
-        "31",
-        "3160",
-        "3775",
-        "4",
-        "4175",
-        "43",
-        "5",
-        "55",
-        "57",
-        "60",
-        "605",
-        "666",
-        "715",
-        "74",
-        "790",
-        "830",
-        "835",
-        "9",
-        "90",
-        "1.202",
-        "10.607",
-        "1008",
-        "101",
-        "1022.5",
-        "112",
-        "11325",
-        "164.36",
-        "164.4",
-        "2972.5",
-        "31.19",
-        "428",
-        "45",
-        "53.5",
-        "535",
-        "58.92",
-        "594.5",
-        "74.25",
-        "84"
-      ]
     },
     {
       "id": "moving-average",
@@ -2166,6 +3282,1621 @@
       ]
     },
     {
+      "id": "price-taker",
+      "title": "Perfect competition: P = MC, shutdown and the long run",
+      "unit": "Session 12",
+      "priority": 2,
+      "minutes": 30,
+      "why": "Market structures carried most of the 2025 end-term; the price-taker rule and shutdown rule are the base for every comparison.",
+      "topic_ids": [
+        "be-s12m-perfect-competition",
+        "be-s12m-shutdown-long-run"
+      ],
+      "source_refs": [
+        "be--session-12#6",
+        "be--session-12#7",
+        "be--session-12#8",
+        "be--session-12#9",
+        "be--session-12#10",
+        "be--session-12#11",
+        "be--session-12#12",
+        "be--session-12#13",
+        "be--session-12#15",
+        "be--session-12#16",
+        "be--session-12#17",
+        "be--session-12#18",
+        "be--session-12#19"
+      ],
+      "big_idea": "A price taker keeps producing until the cost of one more unit (MC) rises to the price it gets.",
+      "body_md": "**Setting price and output.** The **market\\** sets the price where supply meets demand. The single firm sees a **flat demand line\\** at that price: it can sell as much as it likes at Pe, and nothing above it.\n\nEvery firm maximizes profit where **MR = MC\\**. For a price taker MR is the price, so the rule becomes **P = MC\\**.\n\nOn the graph, follow the price line across until it hits the **MC\\** curve. Drop down: that is the best output **Qf\\***. The **profit\\** is the box between the price and **ATC\\** at that output: **(Pe - ATC) x Qf\\***.\n\n**Worked example: P = $10.** This is the slide's own numerical example, and it is exactly the kind of question the paper asks.\n\nThe recipe never changes: **find MC, set it equal to the price, solve for Q, then profit = revenue - cost\\**.\n\n**Losses and the shutdown rule.** Sometimes the price falls below **ATC\\**: the firm makes a **loss\\**. Should it close?\n\nIf it closes, it still has to pay its **fixed costs\\** (rent, machines), so it loses all of them. If it keeps operating and the price covers its **variable costs\\**, every unit also chips in a little towards the fixed costs. So operating loses **less\\**.\n\n**The rule:**\n\n- **Keep operating\\** while **P ≥ min AVC\\**.\n- **Shut down\\** when **P < min AVC\\**.\n\nThat is why the firm's **short-run supply curve\\** is just its **MC curve above minimum AVC\\**.\n\n**Entry in the long run.** If firms are making profit and anyone can enter, new firms **pour in\\**. This chain follows:\n\n1. Entry **shifts market supply right\\** (S to S\\*).\n2. The **market price falls\\** (Pe to Pe\\*).\n3. Each firm's flat demand line **drops\\** (Df to Df\\*).\n4. Each firm **cuts output\\** to where the new price meets MC.\n5. Entry stops only when **profit is zero\\**.\n\nAt that point three things are true: **P = MC\\** (socially efficient output), **P = minimum AC\\** (efficient plant size) and **zero profit\\** (firms earn just enough to cover their opportunity cost).\n\nIf there are **barriers to entry\\**, this never happens and profits **persist\\**.",
+      "visuals": [
+        {
+          "title": "The price taker's output decision",
+          "caption": "Go across from Pe to where it meets MC, then down to Qf*. The shaded box between Pe and ATC is profit.",
+          "source_ref": "be--session-12#9",
+          "kind": "plot",
+          "x_label": "Qf",
+          "y_label": "$",
+          "x_max": 10.0,
+          "y_max": 10.0,
+          "y_min": 0.0,
+          "x_ticks": [
+            {
+              "at": 7.4,
+              "label": "Qf*"
+            }
+          ],
+          "y_ticks": [
+            {
+              "at": 6.5,
+              "label": "Pe"
+            },
+            {
+              "at": 5.2,
+              "label": "ATC"
+            }
+          ],
+          "lines": [
+            {
+              "points": [
+                [
+                  1.0,
+                  4.0
+                ],
+                [
+                  3.0,
+                  2.6
+                ],
+                [
+                  5.0,
+                  3.3
+                ],
+                [
+                  7.4,
+                  6.5
+                ],
+                [
+                  8.6,
+                  9.0
+                ]
+              ],
+              "label": "MC",
+              "label_at": "end",
+              "tone": "d",
+              "dashed": false,
+              "bold": false,
+              "curve": true
+            },
+            {
+              "points": [
+                [
+                  1.5,
+                  8.5
+                ],
+                [
+                  3.0,
+                  6.0
+                ],
+                [
+                  4.8,
+                  4.9
+                ],
+                [
+                  6.2,
+                  4.8
+                ],
+                [
+                  7.4,
+                  5.2
+                ],
+                [
+                  8.8,
+                  6.6
+                ]
+              ],
+              "label": "ATC",
+              "label_at": "end",
+              "tone": "a",
+              "dashed": false,
+              "bold": false,
+              "curve": true
+            },
+            {
+              "points": [
+                [
+                  1.0,
+                  6.0
+                ],
+                [
+                  2.5,
+                  3.6
+                ],
+                [
+                  4.0,
+                  3.0
+                ],
+                [
+                  6.0,
+                  3.4
+                ],
+                [
+                  8.6,
+                  5.2
+                ]
+              ],
+              "label": "AVC",
+              "label_at": "end",
+              "tone": "muted",
+              "dashed": false,
+              "bold": false,
+              "curve": true
+            },
+            {
+              "points": [
+                [
+                  0.0,
+                  6.5
+                ],
+                [
+                  9.5,
+                  6.5
+                ]
+              ],
+              "label": "Pe = Df = MR",
+              "label_at": "mid",
+              "tone": "b",
+              "dashed": false,
+              "bold": true,
+              "curve": false
+            }
+          ],
+          "areas": [
+            {
+              "points": [
+                [
+                  0.0,
+                  5.2
+                ],
+                [
+                  7.4,
+                  5.2
+                ],
+                [
+                  7.4,
+                  6.5
+                ],
+                [
+                  0.0,
+                  6.5
+                ]
+              ],
+              "label": "Profit",
+              "tone": "b"
+            }
+          ],
+          "dots": [
+            {
+              "x": 7.4,
+              "y": 6.5,
+              "label": "",
+              "label_at": "above",
+              "guides": true
+            }
+          ],
+          "notes": []
+        },
+        {
+          "title": "Price below ATC but above AVC: keep operating",
+          "caption": "At Pe the firm loses the shaded box, but the price is still above AVC, so it covers its variable costs and loses less than its fixed costs.",
+          "source_ref": "be--session-12#11",
+          "kind": "plot",
+          "x_label": "Qf",
+          "y_label": "$",
+          "x_max": 10.0,
+          "y_max": 10.0,
+          "y_min": 0.0,
+          "x_ticks": [
+            {
+              "at": 5.6,
+              "label": "Qf*"
+            }
+          ],
+          "y_ticks": [
+            {
+              "at": 4.0,
+              "label": "Pe"
+            },
+            {
+              "at": 4.85,
+              "label": "ATC"
+            },
+            {
+              "at": 3.0,
+              "label": "min AVC"
+            }
+          ],
+          "lines": [
+            {
+              "points": [
+                [
+                  1.0,
+                  4.0
+                ],
+                [
+                  3.0,
+                  2.6
+                ],
+                [
+                  5.0,
+                  3.3
+                ],
+                [
+                  7.4,
+                  6.5
+                ],
+                [
+                  8.6,
+                  9.0
+                ]
+              ],
+              "label": "MC",
+              "label_at": "end",
+              "tone": "d",
+              "dashed": false,
+              "bold": false,
+              "curve": true
+            },
+            {
+              "points": [
+                [
+                  1.5,
+                  8.5
+                ],
+                [
+                  3.0,
+                  6.0
+                ],
+                [
+                  4.8,
+                  4.9
+                ],
+                [
+                  6.2,
+                  4.8
+                ],
+                [
+                  7.4,
+                  5.2
+                ],
+                [
+                  8.8,
+                  6.6
+                ]
+              ],
+              "label": "ATC",
+              "label_at": "end",
+              "tone": "a",
+              "dashed": false,
+              "bold": false,
+              "curve": true
+            },
+            {
+              "points": [
+                [
+                  1.0,
+                  6.0
+                ],
+                [
+                  2.5,
+                  3.6
+                ],
+                [
+                  4.0,
+                  3.0
+                ],
+                [
+                  6.0,
+                  3.4
+                ],
+                [
+                  8.6,
+                  5.2
+                ]
+              ],
+              "label": "AVC",
+              "label_at": "end",
+              "tone": "muted",
+              "dashed": false,
+              "bold": false,
+              "curve": true
+            },
+            {
+              "points": [
+                [
+                  0.0,
+                  4.0
+                ],
+                [
+                  9.5,
+                  4.0
+                ]
+              ],
+              "label": "Pe = Df = MR",
+              "label_at": "below",
+              "tone": "b",
+              "dashed": false,
+              "bold": true,
+              "curve": false
+            }
+          ],
+          "areas": [
+            {
+              "points": [
+                [
+                  0.0,
+                  4.0
+                ],
+                [
+                  5.6,
+                  4.0
+                ],
+                [
+                  5.6,
+                  4.85
+                ],
+                [
+                  0.0,
+                  4.85
+                ]
+              ],
+              "label": "Loss",
+              "tone": "d"
+            }
+          ],
+          "dots": [
+            {
+              "x": 5.6,
+              "y": 4.0,
+              "label": "",
+              "label_at": "above",
+              "guides": true
+            },
+            {
+              "x": 4.0,
+              "y": 3.0,
+              "label": "min AVC",
+              "label_at": "below",
+              "guides": false
+            }
+          ],
+          "notes": []
+        },
+        {
+          "title": "Entry shifts market supply and lowers the price",
+          "caption": "Entry moves supply from S to S*, so the market price falls from Pe to Pe* and quantity rises.",
+          "source_ref": "be--session-12#16",
+          "kind": "plot",
+          "x_label": "QM",
+          "y_label": "$",
+          "x_max": 10.0,
+          "y_max": 10.0,
+          "y_min": 0.0,
+          "x_ticks": [],
+          "y_ticks": [
+            {
+              "at": 5.25,
+              "label": "Pe"
+            },
+            {
+              "at": 4.25,
+              "label": "Pe*"
+            }
+          ],
+          "lines": [
+            {
+              "points": [
+                [
+                  1.0,
+                  9.0
+                ],
+                [
+                  9.0,
+                  1.0
+                ]
+              ],
+              "label": "D",
+              "label_at": "end",
+              "tone": "a",
+              "dashed": false,
+              "bold": false,
+              "curve": false
+            },
+            {
+              "points": [
+                [
+                  1.0,
+                  1.5
+                ],
+                [
+                  8.0,
+                  8.5
+                ]
+              ],
+              "label": "S",
+              "label_at": "end",
+              "tone": "muted",
+              "dashed": false,
+              "bold": false,
+              "curve": false
+            },
+            {
+              "points": [
+                [
+                  3.0,
+                  1.5
+                ],
+                [
+                  10.0,
+                  8.5
+                ]
+              ],
+              "label": "S*",
+              "label_at": "end",
+              "tone": "d",
+              "dashed": false,
+              "bold": true,
+              "curve": false
+            }
+          ],
+          "areas": [],
+          "dots": [
+            {
+              "x": 4.75,
+              "y": 5.25,
+              "label": "",
+              "label_at": "above",
+              "guides": true
+            },
+            {
+              "x": 5.75,
+              "y": 4.25,
+              "label": "",
+              "label_at": "above",
+              "guides": true
+            }
+          ],
+          "notes": []
+        },
+        {
+          "title": "The firm after entry: zero profit",
+          "caption": "The firm's price line falls from Df to Df*, which just touches the bottom of AC. Output falls from Qf* to QL and profit is zero.",
+          "source_ref": "be--session-12#17",
+          "kind": "plot",
+          "x_label": "Q",
+          "y_label": "$",
+          "x_max": 10.0,
+          "y_max": 10.0,
+          "y_min": 0.0,
+          "x_ticks": [
+            {
+              "at": 6.2,
+              "label": "QL"
+            },
+            {
+              "at": 7.4,
+              "label": "Qf*"
+            }
+          ],
+          "y_ticks": [
+            {
+              "at": 6.5,
+              "label": "Pe"
+            },
+            {
+              "at": 4.8,
+              "label": "Pe*"
+            }
+          ],
+          "lines": [
+            {
+              "points": [
+                [
+                  1.0,
+                  4.0
+                ],
+                [
+                  3.0,
+                  2.6
+                ],
+                [
+                  5.0,
+                  3.3
+                ],
+                [
+                  6.2,
+                  4.8
+                ],
+                [
+                  7.4,
+                  6.5
+                ],
+                [
+                  8.6,
+                  9.0
+                ]
+              ],
+              "label": "MC",
+              "label_at": "end",
+              "tone": "d",
+              "dashed": false,
+              "bold": false,
+              "curve": true
+            },
+            {
+              "points": [
+                [
+                  1.5,
+                  8.5
+                ],
+                [
+                  3.0,
+                  6.0
+                ],
+                [
+                  4.8,
+                  4.9
+                ],
+                [
+                  6.2,
+                  4.8
+                ],
+                [
+                  7.4,
+                  5.2
+                ],
+                [
+                  8.8,
+                  6.6
+                ]
+              ],
+              "label": "AC",
+              "label_at": "end",
+              "tone": "a",
+              "dashed": false,
+              "bold": false,
+              "curve": true
+            },
+            {
+              "points": [
+                [
+                  0.0,
+                  6.5
+                ],
+                [
+                  9.5,
+                  6.5
+                ]
+              ],
+              "label": "Df",
+              "label_at": "end",
+              "tone": "muted",
+              "dashed": true,
+              "bold": false,
+              "curve": false
+            },
+            {
+              "points": [
+                [
+                  0.0,
+                  4.8
+                ],
+                [
+                  9.5,
+                  4.8
+                ]
+              ],
+              "label": "Df*",
+              "label_at": "end",
+              "tone": "b",
+              "dashed": false,
+              "bold": true,
+              "curve": false
+            }
+          ],
+          "areas": [],
+          "dots": [
+            {
+              "x": 6.2,
+              "y": 4.8,
+              "label": "",
+              "label_at": "above",
+              "guides": true
+            },
+            {
+              "x": 7.4,
+              "y": 6.5,
+              "label": "",
+              "label_at": "above",
+              "guides": false
+            }
+          ],
+          "notes": []
+        }
+      ],
+      "analogy": null,
+      "worked": {
+        "question_md": "Given P = $10 and C(Q) = 5 + Q². Find the optimal price, output and maximum profit.",
+        "steps": [
+          {
+            "title": "Price",
+            "body_md": "The firm is a price taker, so it charges the market price: **P = $10**.",
+            "why": "A price taker cannot pick its own price.",
+            "result": "P = $10"
+          },
+          {
+            "title": "Marginal cost",
+            "body_md": "C(Q) = 5 + Q², so **MC = 2Q\\** (differentiate: the 5 disappears, Q² becomes 2Q).",
+            "why": "MC is the slope of the cost function.",
+            "result": "MC = 2Q"
+          },
+          {
+            "title": "Set P = MC",
+            "body_md": "10 = 2Q, so **Q = 5 units\\**.",
+            "why": "For a price taker, MR = P, so MR = MC means P = MC.",
+            "result": "Q = 5"
+          },
+          {
+            "title": "Profit",
+            "body_md": "| Item | Working | Value |\n|---|---|---|\n| Revenue | 10 x 5 | 50 |\n| Cost | 5 + 5² = 5 + 25 | 30 |\n| Profit | 50 - 30 | **20** |",
+            "why": "Profit is total revenue minus total cost.",
+            "result": "Profit = $20"
+          }
+        ],
+        "answer_md": "P = $10, Q = 5 units, maximum profit = **$20**."
+      },
+      "watch_out": [
+        "Profit is measured with **ATC**, not AVC: (Pe - ATC) x Qf*.",
+        "The firm's demand is the **flat line** at Pe; the downward market demand belongs to the market graph.",
+        "Do not forget the **fixed cost of 5** when you work out total cost.",
+        "Square Q before adding: C(5) = 5 + 25, not 5 + 10."
+      ],
+      "memory_trick": "**Across, then down**: across from the price to MC, down to the quantity.",
+      "exam_answer_md": "A perfectly competitive firm maximizes profit where **MR = MC\\**. Since **MR = P**, it sets **P = MC\\**.\n\nProfit = **(Pe - ATC) x Qf\\***. (Draw the market graph setting Pe, and the firm's graph with MC, ATC, AVC, the flat line Pe = Df = MR, and shade the profit box.)\n\nP = $10 (price taker). MC = 2Q. Set P = MC: 10 = 2Q, so **Q = 5**. Profit = PQ - C(Q) = (10)(5) - (5 + 25) = **$20**.\n\nA firm should continue to operate (sustain short-run losses) if its operating loss is less than its fixed costs.\n\n**Shut down when P < min AVC; continue while P ≥ min AVC.** Hence the firm's short-run supply curve is its **MC curve above minimum AVC\\**. (Draw MC, ATC, AVC with Pe between min AVC and ATC, and shade the loss.)\n\nShort-run profits lead to entry. Entry increases market supply, drives down the market price and increases market quantity. Each firm's demand shifts down, so it reduces output. **Long-run profits are zero.**\n\nLong-run competitive equilibrium: **P = MC\\** (socially efficient output), **P = minimum AC\\** (efficient plant size), **zero profits\\**. (Draw the market graph with S shifting to S\\*, and the firm's graph with Df falling to Df\\* at minimum AC.)",
+      "practice": [],
+      "quiz_ids": [
+        "be-s12m-perfect-competition-q-da7b2cbd",
+        "be-s12m-shutdown-long-run-q-fe7ab2ef"
+      ],
+      "derived": [
+        "50",
+        "30"
+      ]
+    },
+    {
+      "id": "monopoly-theory",
+      "title": "Monopoly power and deadweight loss",
+      "unit": "Session 12",
+      "priority": 2,
+      "minutes": 20,
+      "why": "A theory question with a diagram is likely: sources of monopoly power and why governments dislike monopoly.",
+      "topic_ids": [
+        "be-s12m-monopoly"
+      ],
+      "source_refs": [
+        "be--session-12#20",
+        "be--session-12#21",
+        "be--session-12#22",
+        "be--session-12#29",
+        "be--session-12#30",
+        "be--session-12#31",
+        "be--session-12#32",
+        "be--session-12#33"
+      ],
+      "big_idea": "A monopoly is the only seller in its market, and its power comes either from cost advantages or from legal and contract barriers.",
+      "body_md": "**The monopoly environment and its sources.** A **monopoly\\** is a **single firm serving the relevant market\\**. Most real monopolies are **local\\**: the only cinema in a small town.\n\nBecause it is the only seller, **its demand curve is the market demand curve\\**. It controls the price, but a higher price means it sells less.\n\nWhere does the power come from?\n\n**Long run, deadweight loss and the case for monopoly.** In the long run a monopoly **keeps its profit\\**: nothing changes **unless the source of its power is removed\\**.\n\nGovernments dislike this because **P > MC\\**: some buyers would happily pay more than it costs to make another unit, but the monopolist doesn't sell to them. Output is **too low\\** and the price **too high\\**. The value of those missing trades is the **deadweight loss of monopoly\\**.\n\nIn the slide's example, a competitive market would produce where demand meets MC (Q = 8), but the monopolist stops at 4.\n\n**The other side:** economies of scale, scope and cost complementarities can make a monopoly cheap enough to outweigh the harm, and monopoly profits **encourage innovation\\**.\n\n**Two plants:** a monopoly with two factories sets **MR = MC1 = MC2**, and charges the price for the total Q = Q1 + Q2.",
+      "visuals": [
+        {
+          "title": "Sources of monopoly power",
+          "caption": "",
+          "source_ref": "be--session-12#21",
+          "kind": "compare",
+          "sides": [
+            {
+              "title": "Natural",
+              "points": [
+                "Economies of scale",
+                "Economies of scope",
+                "Cost complementarities"
+              ],
+              "tone": "a"
+            },
+            {
+              "title": "Created",
+              "points": [
+                "Patents and legal barriers (like licenses)",
+                "Tying contracts",
+                "Exclusive contracts"
+              ],
+              "tone": "c"
+            }
+          ]
+        },
+        {
+          "title": "Deadweight loss of monopoly",
+          "caption": "The monopolist stops at 4 units where MR = MC. Between 4 and 8 units buyers value the good above MC, but those units are never made: the shaded triangle is the deadweight loss.",
+          "source_ref": "be--session-12#31",
+          "kind": "plot",
+          "x_label": "Q",
+          "y_label": "$",
+          "x_max": 10.5,
+          "y_max": 10.5,
+          "y_min": 0.0,
+          "x_ticks": [
+            {
+              "at": 4.0,
+              "label": "QM"
+            },
+            {
+              "at": 8.0,
+              "label": "8"
+            }
+          ],
+          "y_ticks": [
+            {
+              "at": 6.0,
+              "label": "PM"
+            },
+            {
+              "at": 2.0,
+              "label": "MC"
+            }
+          ],
+          "lines": [
+            {
+              "points": [
+                [
+                  0.0,
+                  10.0
+                ],
+                [
+                  10.0,
+                  0.0
+                ]
+              ],
+              "label": "D",
+              "label_at": "end",
+              "tone": "a",
+              "dashed": false,
+              "bold": true,
+              "curve": false
+            },
+            {
+              "points": [
+                [
+                  0.0,
+                  10.0
+                ],
+                [
+                  5.0,
+                  0.0
+                ]
+              ],
+              "label": "MR",
+              "label_at": "end",
+              "tone": "d",
+              "dashed": false,
+              "bold": false,
+              "curve": false
+            },
+            {
+              "points": [
+                [
+                  0.0,
+                  2.0
+                ],
+                [
+                  10.0,
+                  2.0
+                ]
+              ],
+              "label": "MC",
+              "label_at": "end",
+              "tone": "muted",
+              "dashed": false,
+              "bold": false,
+              "curve": false
+            }
+          ],
+          "areas": [
+            {
+              "points": [
+                [
+                  4.0,
+                  6.0
+                ],
+                [
+                  4.0,
+                  2.0
+                ],
+                [
+                  8.0,
+                  2.0
+                ]
+              ],
+              "label": "Deadweight loss",
+              "tone": "d"
+            }
+          ],
+          "dots": [
+            {
+              "x": 4.0,
+              "y": 6.0,
+              "label": "",
+              "label_at": "above",
+              "guides": true
+            },
+            {
+              "x": 8.0,
+              "y": 2.0,
+              "label": "",
+              "label_at": "above",
+              "guides": false
+            }
+          ],
+          "notes": []
+        }
+      ],
+      "analogy": null,
+      "worked": null,
+      "watch_out": [
+        "Patents are a **created** source, not a natural one.",
+        "The deadweight loss triangle runs from **QM** out to where **demand meets MC**, not to where MR meets MC."
+      ],
+      "memory_trick": "**Natural = cheaper to be big. Created = the law or a contract keeps others out.**",
+      "exam_answer_md": "A monopoly is a single firm serving the relevant market; its demand is the market demand curve.\n\n**Natural sources:** economies of scale, economies of scope, cost complementarities. **Created sources:** patents and other legal barriers (like licenses), tying contracts, exclusive contracts.\n\nUnder monopoly **P > MC\\**: too little output at too high a price, creating a **deadweight loss\\**. No long-run adjustment occurs unless the source of monopoly power is eliminated.\n\n**Arguments for monopoly:** economies of scale, scope and cost complementarities may outweigh the negative effects of market power; it encourages innovation. **Multi-plant rule:** MR(Q) = MC1(Q1) = MC2(Q2), with P = P(Q), Q = Q1 + Q2. (Draw D, MR, MC and shade the deadweight-loss triangle.)",
+      "practice": [],
+      "quiz_ids": [
+        "be-s12m-monopoly-q-73637d68"
+      ],
+      "derived": [
+        "8"
+      ]
+    },
+    {
+      "id": "three-structures",
+      "title": "One cost function, three market structures",
+      "unit": "Session 12",
+      "priority": 2,
+      "minutes": 20,
+      "why": "The slides' synthesizing example ties the whole session together in one numerical.",
+      "topic_ids": [
+        "be-s12m-synthesizing-example"
+      ],
+      "source_refs": [
+        "be--session-12#43",
+        "be--session-12#44",
+        "be--session-12#45",
+        "be--session-12#46",
+        "be--session-12#47"
+      ],
+      "big_idea": "Same cost function, but as a price taker at $40 the firm loses $25.",
+      "body_md": "**The set-up and the price taker.** One cost function, **C(Q) = 125 + 4Q²**, worked under three market structures. MC is the same in every case, **MC = 8Q\\**, because cost does not depend on the market.\n\nFirst case: you are a **price taker\\** and the market price is **$40**.\n\n**Monopoly or monopolistic competition.** Facing **P = 100 - Q**:\n\n- **MR = 100 - 2Q**; set 100 - 2Q = 8Q, so **Q = 10**\n- **P = 100 - 10 = $90**\n- Profit = (90)(10) - (125 + 4(100)) = **$375**\n\n**Implications:** a **monopolist** will not face entry unless patents or other barriers are removed. A **monopolistically competitive** firm should expect others to **clone** its product, so **profits decline over time**.",
+      "visuals": [],
+      "analogy": null,
+      "worked": {
+        "question_md": "C(Q) = 125 + 4Q². You are a price taker and other firms charge $40. Find output, profit and the implication.",
+        "steps": [
+          {
+            "title": "MC",
+            "body_md": "C(Q) = 125 + 4Q², so **MC = 8Q\\**.",
+            "why": "Differentiate: 125 disappears, 4Q² becomes 8Q.",
+            "result": "MC = 8Q"
+          },
+          {
+            "title": "P = MC",
+            "body_md": "MR = P = 40, so 40 = 8Q and **Q = 5**.",
+            "why": "A price taker sets P = MC.",
+            "result": "Q = 5"
+          },
+          {
+            "title": "Profit",
+            "body_md": "| Item | Working | Value |\n|---|---|---|\n| Revenue | 40 x 5 | 200 |\n| Cost | 125 + 4 x 25 | 225 |\n| Profit | 200 - 225 | **-25** |",
+            "why": "Revenue minus cost.",
+            "result": "Profit = -$25"
+          },
+          {
+            "title": "Implication",
+            "body_md": "The firm is making a loss, so **expect exit in the long run\\**.",
+            "why": "Losses push firms out of a competitive market.",
+            "result": "Expect exit"
+          }
+        ],
+        "answer_md": "Q = 5, profit = **-$25**: expect exit in the long run."
+      },
+      "watch_out": [
+        "MC = 8Q, not 4Q: bring the power down and multiply.",
+        "Set MR equal to **8Q**, not to 8.",
+        "The numbers are the same for monopoly and monopolistic competition; only the **long-run implication** differs."
+      ],
+      "memory_trick": "",
+      "exam_answer_md": "MC = 8Q. MR = P = $40; 40 = 8Q, so **Q = 5**. C(5) = 125 + 100 = $225; revenue = (40)(5) = $200; **profit = -$25**. Implication: expect exit in the long run.\n\nMR = 100 - 2Q; MC = 8Q. 100 - 2Q = 8Q, so **Q = 10**; P = 100 - 10 = **$90**. Profit = (90)(10) - (125 + 4(100)) = **$375**. A monopolist will not face entry unless patents or other barriers are eliminated; a monopolistically competitive firm should expect others to clone its product, so profits decline over time.",
+      "practice": [],
+      "quiz_ids": [
+        "be-s12m-synthesizing-example-q-3ea60f02"
+      ],
+      "derived": [
+        "900",
+        "525"
+      ]
+    },
+    {
+      "id": "procurement",
+      "title": "Procuring inputs and the principal-agent problem",
+      "unit": "Session 10",
+      "priority": 3,
+      "minutes": 20,
+      "why": "The rest of Session 10: spot exchange, contracts, vertical integration, transaction costs and incentives.",
+      "topic_ids": [
+        "be-s10-procuring-inputs",
+        "be-s10-principal-agent"
+      ],
+      "source_refs": [
+        "be--session-10#4",
+        "be--session-10#5",
+        "be--session-10#6",
+        "be--session-10#12",
+        "be--session-10#13",
+        "be--session-10#14",
+        "be--session-10#15"
+      ],
+      "big_idea": "A firm can buy an input once, sign a contract for it, or make it itself.",
+      "body_md": "**Three ways to get inputs.** Think of a car maker that needs seats.\n\n- **Spot exchange**: buy seats from whoever is selling today, then part ways.\n- **Contract**: sign a legal agreement with one seat supplier for, say, three years.\n- **Vertical integration**: stop buying seats and **make them in-house**.\n\nThe rest of the session is about **which one to choose**.\n\n**Strengths and weaknesses of each method.** Every method trades something off.\n\n**Hold-up** means that once you depend on one supplier, they can suddenly demand a higher price because you have nowhere else to go.\n\n**Opportunism** is the general version: one side taking advantage of the other.\n\n**Transaction costs.** The price on the invoice is not the whole cost. You also spend money and time **searching** for a supplier, **negotiating** the deal, and on **other investments** the deal needs.\n\nSome deals are **general** (anyone could supply you). Others are **specific** to one trading relationship, and those are the ones that cause trouble, as the next topic shows.\n\n**What the problem is.** The **principal** is the one who hires; the **agent** is the one who does the work.\n\n- **Shareholders** (principal) cannot watch the **manager** (agent) all day.\n- A **manager** (principal) cannot watch every **worker** (agent).\n\nSo when profits fall, was it **low effort** or **bad luck**? The principal cannot tell. That is the **principal-agent problem**, and the fix is to **align the agent's interests** with the principal's.\n\n**The fixes.** A manager who holds **stock options** gains when the share price rises, just like the shareholders. A worker on **piece rates** earns more for every unit made. That is what aligning interests means.\n\nOutside pressure helps too: a manager who does badly risks their **reputation**, and a badly run firm can be **taken over**.",
+      "visuals": [
+        {
+          "title": "Three ways to get an input",
+          "caption": "",
+          "source_ref": "be--session-10#4",
+          "kind": "compare",
+          "sides": [
+            {
+              "title": "Spot exchange",
+              "points": [
+                "Buyer and seller meet, exchange, go their separate ways"
+              ],
+              "tone": "a"
+            },
+            {
+              "title": "Contract",
+              "points": [
+                "Legal document",
+                "Extended relationship between buyer and seller"
+              ],
+              "tone": "b"
+            },
+            {
+              "title": "Vertical integration",
+              "points": [
+                "Shun other suppliers",
+                "Produce the input internally"
+              ],
+              "tone": "c"
+            }
+          ]
+        },
+        {
+          "title": "Good and bad of each method",
+          "caption": "",
+          "source_ref": "be--session-10#5",
+          "kind": "matrix",
+          "row_title": "",
+          "col_title": "",
+          "rows": [
+            "Spot exchange",
+            "Contract",
+            "Vertical integration"
+          ],
+          "cols": [
+            "Good",
+            "Bad"
+          ],
+          "cells": [
+            [
+              "Specialization; avoids contracting and integration costs",
+              "Possible hold-up problem"
+            ],
+            [
+              "Specialization; reduces opportunism; no skimping on specialized investments",
+              "Costly in complex environments"
+            ],
+            [
+              "Reduces opportunism; avoids contracting costs",
+              "Lost specialization; may raise organizational costs"
+            ]
+          ],
+          "highlight": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              1
+            ]
+          ]
+        },
+        {
+          "title": "The two principal-agent pairs",
+          "caption": "",
+          "source_ref": "be--session-10#12",
+          "kind": "flow",
+          "steps": [
+            {
+              "label": "Shareholders",
+              "note": "Principal"
+            },
+            {
+              "label": "Manager",
+              "note": "Agent of shareholders, principal of workers"
+            },
+            {
+              "label": "Workers",
+              "note": "Agents"
+            }
+          ],
+          "cycle": false
+        },
+        {
+          "title": "Fixing the problem",
+          "caption": "",
+          "source_ref": "be--session-10#13",
+          "kind": "compare",
+          "sides": [
+            {
+              "title": "Owners and managers: internal",
+              "points": [
+                "Incentive contracts",
+                "Stock options",
+                "Year-end bonuses"
+              ],
+              "tone": "a"
+            },
+            {
+              "title": "Owners and managers: external",
+              "points": [
+                "Personal reputation",
+                "Potential for takeover"
+              ],
+              "tone": "c"
+            },
+            {
+              "title": "Managers and workers",
+              "points": [
+                "Profit sharing",
+                "Revenue sharing",
+                "Piece rates",
+                "Time clocks and spot checks"
+              ],
+              "tone": "b"
+            }
+          ]
+        }
+      ],
+      "analogy": null,
+      "worked": null,
+      "watch_out": [
+        "Vertical integration here means making your **own input**. Do not confuse it with merging two competitors (that is horizontal).",
+        "Both contracts and vertical integration **reduce opportunism**; only spot exchange risks hold-up.",
+        "The price paid to the supplier is **not** a transaction cost; it is everything over and above it.",
+        "The manager is an **agent** to shareholders but a **principal** to workers."
+      ],
+      "memory_trick": "**Buy it, bind it, or build it.**",
+      "exam_answer_md": "**Spot exchange:** the buyer and seller of an input meet, exchange, and then go their separate ways. **Contract:** a legal document that creates an extended relationship between a buyer and a seller. **Vertical integration:** a firm shuns other suppliers and chooses to produce an input internally.\n\n**Spot exchange:** specialization, avoids contracting costs and the costs of vertical integration; but possible hold-up problem. **Contracting:** specialization, reduces opportunism, avoids skimping on specialized investments; but costly in complex environments. **Vertical integration:** reduces opportunism, avoids contracting costs; but lost specialization and may increase organizational costs.\n\n**Transaction costs** are the costs of acquiring an input over and above the amount paid to the input supplier. They include search costs, negotiation costs and other required investments or expenditures. Some transactions are general in nature, while others are specific to a trading relationship.\n\nThe **principal-agent problem** occurs when the principal cannot observe the effort of the agent (shareholders and managers; managers and workers). The principal cannot determine whether a bad outcome was the result of the agent's low effort or bad luck, so principals must devise plans to align the agents' interests with their own.\n\n**Owners and managers:** internal incentives (incentive contracts, stock options, year-end bonuses) and external incentives (personal reputation, potential for takeover). **Managers and workers:** profit sharing, revenue sharing, piece rates, time clocks and spot checks.",
+      "practice": [],
+      "quiz_ids": [
+        "be-s10-procuring-inputs-q-229112c2",
+        "be-s10-principal-agent-q-8c32a368"
+      ],
+      "derived": []
+    },
+    {
+      "id": "scp",
+      "title": "Structure, conduct, performance",
+      "unit": "Session 11",
+      "priority": 3,
+      "minutes": 15,
+      "why": "The framing of Session 11; useful as an introduction to any industry question.",
+      "topic_ids": [
+        "be-s11-scp-paradigm"
+      ],
+      "source_refs": [
+        "be--session-11#2",
+        "be--session-11#3",
+        "be--session-11#4",
+        "be--session-11#21",
+        "be--session-11#5",
+        "be--session-11#9",
+        "be--session-11#12",
+        "be--session-11#20"
+      ],
+      "big_idea": "To understand an industry, look at how it is built (structure), how firms behave (conduct) and how well it does (performance).",
+      "body_md": "**Structure, conduct and performance.** Economists study an industry in three layers:\n\n- **Structure** is the shape of the market: how many firms and how big, how **concentrated**, the technology and costs, demand, and how easy it is to **enter or exit**.\n- **Conduct** is what firms **do**: pricing, advertising, R&D, mergers.\n- **Performance** is the **result**: profitability and social welfare.\n\n**The SCP paradigm and the feedback critique.** The **SCP paradigm** takes a **causal view**: structure decides conduct, and conduct decides performance, in one direction.\n\nThe **feedback critique** says it is not one-way. A firm's **conduct** (say, a merger or heavy advertising) can **change the structure**. And **performance** (big profits) can change both conduct and structure, for example by attracting entrants.\n\nThe modern approach looks at all three **together**.\n\n**Five forces, technology and barriers to entry.** The **five forces** connect to SCP by explaining the **level, growth and sustainability of industry profits**:\n\n1. **Entry** (entry costs, sunk costs, economies of scale, network effects, reputation, switching costs)\n2. **Power of input suppliers**\n3. **Power of buyers**\n4. **Industry rivalry**\n5. **Substitutes and complements**\n\n**Barriers to entry** on the slides: **capital requirements**, **patents and copyrights**, **economies of scale**, **economies of scope**.\n\nIndustries also differ in **technology**: some are **labor intensive**, some **capital intensive**, others use both.",
+      "visuals": [
+        {
+          "title": "Three layers of industry analysis",
+          "caption": "",
+          "source_ref": "be--session-11#3",
+          "kind": "compare",
+          "sides": [
+            {
+              "title": "Structure",
+              "points": [
+                "Number and size of firms",
+                "Industry concentration",
+                "Technological and cost conditions",
+                "Demand conditions",
+                "Ease of entry and exit"
+              ],
+              "tone": "a"
+            },
+            {
+              "title": "Conduct",
+              "points": [
+                "Pricing",
+                "Advertising",
+                "R&D",
+                "Merger activity"
+              ],
+              "tone": "b"
+            },
+            {
+              "title": "Performance",
+              "points": [
+                "Profitability",
+                "Social welfare"
+              ],
+              "tone": "c"
+            }
+          ]
+        },
+        {
+          "title": "SCP causal view",
+          "caption": "",
+          "source_ref": "be--session-11#4",
+          "kind": "flow",
+          "steps": [
+            {
+              "label": "Market structure",
+              "note": ""
+            },
+            {
+              "label": "Conduct",
+              "note": ""
+            },
+            {
+              "label": "Performance",
+              "note": ""
+            }
+          ],
+          "cycle": false
+        },
+        {
+          "title": "Feedback critique: it loops back",
+          "caption": "",
+          "source_ref": "be--session-11#4",
+          "kind": "flow",
+          "steps": [
+            {
+              "label": "Structure",
+              "note": "shapes conduct"
+            },
+            {
+              "label": "Conduct",
+              "note": "shapes performance, and can change structure"
+            },
+            {
+              "label": "Performance",
+              "note": "can change conduct and structure"
+            }
+          ],
+          "cycle": true
+        },
+        {
+          "title": "The five forces around industry profits",
+          "caption": "",
+          "source_ref": "be--session-11#5",
+          "kind": "tree",
+          "direction": "down",
+          "nodes": [
+            {
+              "id": "p",
+              "label": "Level, growth and sustainability of industry profits",
+              "parent": null,
+              "edge": "",
+              "shape": "box",
+              "value": "",
+              "cut": false
+            },
+            {
+              "id": "e",
+              "label": "Entry",
+              "parent": "p",
+              "edge": "",
+              "shape": "box",
+              "value": "",
+              "cut": false
+            },
+            {
+              "id": "s",
+              "label": "Power of input suppliers",
+              "parent": "p",
+              "edge": "",
+              "shape": "box",
+              "value": "",
+              "cut": false
+            },
+            {
+              "id": "b",
+              "label": "Power of buyers",
+              "parent": "p",
+              "edge": "",
+              "shape": "box",
+              "value": "",
+              "cut": false
+            },
+            {
+              "id": "r",
+              "label": "Industry rivalry",
+              "parent": "p",
+              "edge": "",
+              "shape": "box",
+              "value": "",
+              "cut": false
+            },
+            {
+              "id": "x",
+              "label": "Substitutes and complements",
+              "parent": "p",
+              "edge": "",
+              "shape": "box",
+              "value": "",
+              "cut": false
+            }
+          ]
+        }
+      ],
+      "analogy": null,
+      "worked": null,
+      "watch_out": [
+        "Mergers are **conduct** (something firms do), even though they change structure.",
+        "Say clearly that the feedback critique means **no one-way causal link**.",
+        "Barriers to entry list: capital, patents and copyrights, economies of **scale** and of **scope**. Do not add things that are not on the slide."
+      ],
+      "memory_trick": "**Built, behave, result.**",
+      "exam_answer_md": "**Market structure:** number and size of firms, industry concentration, technological and cost conditions, demand conditions, ease of entry and exit. **Conduct:** pricing, advertising, R&D, merger activity. **Performance:** profitability, social welfare.\n\nThe **Structure-Conduct-Performance paradigm** holds a causal view: market structure determines conduct, which determines performance. The **feedback critique** argues there is no one-way causal link: conduct can affect market structure, and market performance can affect conduct as well as market structure.\n\nThe five forces (entry, power of input suppliers, power of buyers, industry rivalry, substitutes and complements) determine the level, growth and sustainability of industry profits. Barriers to entry include capital requirements, patents and copyrights, economies of scale and economies of scope.",
+      "practice": [],
+      "quiz_ids": [
+        "be-s11-scp-paradigm-q-7107de66"
+      ],
+      "derived": []
+    },
+    {
+      "id": "scale-and-scope",
+      "title": "Long-run cost: economies of scale and scope",
+      "unit": "Unit IV",
+      "priority": 2,
+      "minutes": 30,
+      "why": "A favourite 'Explain' question: why the long-run average cost curve is U-shaped, plus economies of scope and cost complementarity.",
+      "source_refs": [
+        "be--session-8#37",
+        "be--session-8#38",
+        "be--session-8#39",
+        "be--session-8#40",
+        "be--session-8#41",
+        "be--session-8#42",
+        "be--session-8#43",
+        "be--session-8#45"
+      ],
+      "big_idea": "In the long run average cost first falls (economies of scale) and then rises (diseconomies of scale); producing two goods together can also be cheaper (economies of scope).",
+      "body_md": "**Long-run average cost (LRAC):** the minimum average cost of producing each output when the firm can choose **all** its inputs.\n\n**Economies of scale (LRAC falls as Q rises):** greater **specialisation** and division of labour; better use of **machinery**; **bulk purchasing** and input discounts; **spreading fixed/setup costs** over more units; managerial and technical efficiencies.\n\n**Diseconomies of scale (LRAC rises beyond the optimal scale Q*):** managerial and **coordination** difficulties; **bureaucracy** and slower decisions; difficulty **monitoring** a very large organisation; **congestion** and complexity.\n\n**Multi-product cost function C(Q1, Q2):** the cost of producing two outputs jointly.\n\n- **Economies of scope:** C(Q1, 0) + C(0, Q2) > C(Q1, Q2): cheaper to produce the two jointly than separately.\n- **Cost complementarity:** the marginal cost of good 1 **declines** as more of good 2 is produced.\n\nFor **C(Q1, Q2) = f + aQ1Q2 + (Q1)² + (Q2)²**: MC1 = aQ2 + 2Q1. **Cost complementarity if a < 0. Economies of scope if f > aQ1Q2.**",
+      "visuals": [
+        {
+          "kind": "plot",
+          "title": "The U-shaped LRAC",
+          "x_label": "Q",
+          "y_label": "$",
+          "x_max": 10,
+          "y_max": 10,
+          "x_ticks": [
+            {
+              "at": 5,
+              "label": "Q*"
+            }
+          ],
+          "lines": [
+            {
+              "points": [
+                [
+                  0.8,
+                  8.5
+                ],
+                [
+                  2.5,
+                  5.5
+                ],
+                [
+                  4,
+                  4.2
+                ],
+                [
+                  5,
+                  4
+                ],
+                [
+                  6,
+                  4.2
+                ],
+                [
+                  7.5,
+                  5.3
+                ],
+                [
+                  9.2,
+                  7.3
+                ]
+              ],
+              "label": "LRAC",
+              "tone": "a",
+              "curve": true
+            }
+          ],
+          "dots": [
+            {
+              "x": 5,
+              "y": 4,
+              "guides": true
+            }
+          ],
+          "notes": [
+            {
+              "x": 0.6,
+              "y": 1.6,
+              "text": "Economies of scale",
+              "tone": "b"
+            },
+            {
+              "x": 5.6,
+              "y": 1.6,
+              "text": "Diseconomies",
+              "tone": "d"
+            }
+          ],
+          "caption": "Left of Q* average cost falls (economies of scale); right of Q* it rises (diseconomies of scale).",
+          "source_ref": "be--session-8#38"
+        },
+        {
+          "kind": "compare",
+          "title": "Why LRAC falls, then rises",
+          "sides": [
+            {
+              "title": "Economies of scale",
+              "tone": "b",
+              "points": [
+                "Specialisation and division of labour",
+                "Better use of machinery",
+                "Bulk purchasing discounts",
+                "Fixed costs spread over more units"
+              ]
+            },
+            {
+              "title": "Diseconomies of scale",
+              "tone": "d",
+              "points": [
+                "Coordination difficulties",
+                "Bureaucracy, slower decisions",
+                "Hard to monitor a very large organisation",
+                "Congestion and complexity"
+              ]
+            }
+          ]
+        }
+      ],
+      "worked": {
+        "question_md": "**The professor's example:** C(Q1, Q2) = 90 - 2Q1Q2 + (Q1)² + (Q2)². Is there cost complementarity? Are there economies of scope?",
+        "steps": [
+          {
+            "title": "Match the form",
+            "body_md": "Compare with f + aQ1Q2 + (Q1)² + (Q2)²: **f = 90, a = -2**.",
+            "why": "",
+            "result": ""
+          },
+          {
+            "title": "Cost complementarity",
+            "body_md": "a = -2 < 0, so **yes**. MC1 = aQ2 + 2Q1 = **-2Q2 + 2Q1**: more Q2 lowers MC1.",
+            "why": "Cost complementarity needs a negative a.",
+            "result": "Cost complementarity: yes"
+          },
+          {
+            "title": "Economies of scope",
+            "body_md": "The rule is f > aQ1Q2. Here aQ1Q2 = -2Q1Q2, which is negative for any positive outputs, and f = 90 is positive, so **f > aQ1Q2: yes**.",
+            "why": "Joint production saves the fixed cost f.",
+            "result": "Economies of scope: yes"
+          }
+        ],
+        "answer_md": "**Yes to both:** a = -2 < 0 gives cost complementarity, and 90 > -2Q1Q2 gives economies of scope."
+      },
+      "watch_out": [
+        "Economies of **scale** are about one product at a bigger size. Economies of **scope** are about two products made **together**.",
+        "Cost complementarity needs **a < 0** in front of Q1Q2."
+      ],
+      "memory_trick": "**Scale is size; scope is variety.**",
+      "exam_answer_md": "**Economies of scale:** as output rises, LRAC falls (specialisation, better use of machinery, bulk buying, fixed costs spread over more units). **Diseconomies of scale:** beyond the optimal scale Q*, LRAC rises (coordination problems, bureaucracy, monitoring, congestion). So LRAC is U-shaped (draw it, with Q* at the bottom).\n\n**Economies of scope:** C(Q1, 0) + C(0, Q2) > C(Q1, Q2). **Cost complementarity:** the marginal cost of good 1 falls as more of good 2 is produced; with C = f + aQ1Q2 + (Q1)² + (Q2)² this needs a < 0."
+    },
+    {
+      "id": "trend",
+      "title": "Trend forecasting by least squares (linear and quadratic)",
+      "unit": "Unit III",
+      "priority": 2,
+      "minutes": 35,
+      "why": "Trend fitting is a full table question (5 marks): build the table, solve two equations, forecast.",
+      "source_refs": [
+        "be--session-9#14",
+        "be--session-9#15",
+        "be--session-9#16",
+        "be--session-9#17",
+        "be--session-9#18",
+        "be--session-9#19"
+      ],
+      "big_idea": "Fit the straight line S = a + bt through past sales using two normal equations, then put in the future t to forecast.",
+      "body_md": "**Linear trend:** S = a + bt, where t numbers the periods 1, 2, 3, and so on.\n\nFind a and b from the two normal equations (the slide's worked example uses exactly these):\n\n- **ΣS = na + bΣt**\n- **ΣSt = aΣt + bΣt²**\n\nSo the table needs columns **t, t², St** and their sums.\n\n**Straight line or curve?** Look at the differences in sales. Roughly constant **first** differences: straight line. Roughly constant **second** differences: a **quadratic** trend S = a + bt + ct².\n\nFor the quadratic, number the years so the middle year is 0 (-3 to 3). Then Σt = 0 and Σt³ = 0, and **b = ΣSt / Σt²** directly.",
+      "worked": {
+        "question_md": "**The professor's question:** assuming the present trend continues, what is the expected sales value for the year 2000?\n\n| Year | 1993 | 1994 | 1995 | 1996 | 1997 |\n|---|---|---|---|---|---|\n| Sales (₹ crore) | 605 | 715 | 830 | 790 | 835 |",
+        "steps": [
+          {
+            "title": "Build the table",
+            "body_md": "| Year | Sales S | t | t² | St |\n|---|---|---|---|---|\n| 1993 | 605 | 1 | 1 | 605 |\n| 1994 | 715 | 2 | 4 | 1430 |\n| 1995 | 830 | 3 | 9 | 2490 |\n| 1996 | 790 | 4 | 16 | 3160 |\n| 1997 | 835 | 5 | 25 | 4175 |\n| Sum | 3775 | 15 | 55 | 11860 |",
+            "why": "The sums feed the two equations.",
+            "result": "ΣS = 3775, Σt = 15, Σt² = 55, ΣSt = 11860"
+          },
+          {
+            "title": "Write the two equations",
+            "body_md": "3775 = 5a + 15b\n\n11860 = 15a + 55b",
+            "why": "",
+            "result": ""
+          },
+          {
+            "title": "Solve",
+            "body_md": "Multiply the first by 3: 11325 = 15a + 45b. Subtract it from the second: 535 = 10b, so **b = 53.5**. Then 5a = 3775 - 15(53.5) = 2972.5, so **a = 594.5**.",
+            "why": "Make the a-terms equal, subtract, and one unknown disappears.",
+            "result": "a = 594.5, b = 53.5"
+          },
+          {
+            "title": "Forecast",
+            "body_md": "Trend: **S = 594.5 + 53.5t**. The year 2000 is t = 8.\n\nS = 594.5 + 53.5 × 8 = 594.5 + 428 = **1022.5**\n\nThe slide prints 1024.9 here, but 594.5 + 428 = 1022.5. Show your working so the examiner sees the right arithmetic.",
+            "why": "Keep counting t past the data: 1997 was 5, so 2000 is 8.",
+            "result": "Forecast for 2000 = 1022.5"
+          }
+        ],
+        "answer_md": "**S = 594.5 + 53.5t; expected sales in 2000 = ₹1022.5 crore.**"
+      },
+      "practice": [
+        {
+          "question_md": "**The professor's question:** (1) do we need a linear or non-linear trend? (2) Forecast sales for the year 2000.\n\n| Year | 1990 | 1991 | 1992 | 1993 | 1994 | 1995 | 1996 |\n|---|---|---|---|---|---|---|---|\n| Sales | 10 | 15 | 22 | 31 | 43 | 57 | 74 |",
+          "steps": [
+            {
+              "title": "Linear or not?",
+              "body_md": "First differences: 5, 7, 9, 12, 14, 17 (rising). Second differences: 2, 2, 3, 2, 3 (roughly constant). So use a **quadratic** trend S = a + bt + ct².",
+              "why": "Constant second differences point to a curve.",
+              "result": ""
+            },
+            {
+              "title": "Table with t from -3 to 3",
+              "body_md": "| Year | S | t | t² | St | St² |\n|---|---|---|---|---|---|\n| 1990 | 10 | -3 | 9 | -30 | 90 |\n| 1991 | 15 | -2 | 4 | -30 | 60 |\n| 1992 | 22 | -1 | 1 | -22 | 22 |\n| 1993 | 31 | 0 | 0 | 0 | 0 |\n| 1994 | 43 | 1 | 1 | 43 | 43 |\n| 1995 | 57 | 2 | 4 | 114 | 228 |\n| 1996 | 74 | 3 | 9 | 222 | 666 |\n| Sum | 252 | 0 | 28 | 297 | 1109 |",
+              "why": "With the middle year at 0, Σt and Σt³ are 0.",
+              "result": ""
+            },
+            {
+              "title": "Three equations",
+              "body_md": "252 = 7a + 28c\n\n297 = 28b\n\n1109 = 28a + 196c",
+              "why": "",
+              "result": ""
+            },
+            {
+              "title": "Solve",
+              "body_md": "b = 297/28 = **10.607**\n\nMultiply the first by 4: 1008 = 28a + 112c; subtract from the third: 101 = 84c, so **c = 1.202**\n\na = (252 - 28 × 1.202) / 7 = **31.19**\n\nThe slide writes b = 10.067 (and so gets 160.56); 297 ÷ 28 is actually 10.607.",
+              "why": "",
+              "result": "a = 31.19, b = 10.607, c = 1.202"
+            },
+            {
+              "title": "Forecast for 2000 (t = 7)",
+              "body_md": "S = 31.19 + 10.607(7) + 1.202(49) = 31.19 + 74.25 + 58.92 = **164.36**",
+              "why": "",
+              "result": ""
+            }
+          ],
+          "answer_md": "**Quadratic trend S = 31.19 + 10.607t + 1.202t²; forecast for 2000 is about 164.4.**"
+        }
+      ],
+      "watch_out": [
+        "Number the years 1, 2, 3 for a straight line, and keep counting for the forecast year (2000 is t = 8 in the first question).",
+        "Check the second differences before choosing a quadratic.",
+        "Two slips on the slides: 1024.9 should be 1022.5, and b = 10.067 should be 10.607. Trust your own working and show every step."
+      ],
+      "memory_trick": "**Table, two equations, solve, plug in.**",
+      "exam_answer_md": "1. Table of t, t² and St with their sums.\n2. Normal equations: ΣS = na + bΣt and ΣSt = aΣt + bΣt².\n3. Solve for a and b.\n4. Write the trend S = a + bt and put in the forecast year's t.\n\nFor the slide data: **S = 594.5 + 53.5t**, and the forecast for 2000 is **1022.5**.",
+      "derived": [
+        "0",
+        "1",
+        "10",
+        "1109",
+        "114",
+        "11860",
+        "1430",
+        "15",
+        "16",
+        "1990",
+        "1991",
+        "1992",
+        "1993",
+        "1994",
+        "1995",
+        "1996",
+        "1997",
+        "2",
+        "22",
+        "222",
+        "228",
+        "2490",
+        "25",
+        "252",
+        "28",
+        "297",
+        "3",
+        "30",
+        "31",
+        "3160",
+        "3775",
+        "4",
+        "4175",
+        "43",
+        "5",
+        "55",
+        "57",
+        "60",
+        "605",
+        "666",
+        "715",
+        "74",
+        "790",
+        "830",
+        "835",
+        "9",
+        "90",
+        "1.202",
+        "10.607",
+        "1008",
+        "101",
+        "1022.5",
+        "112",
+        "11325",
+        "164.36",
+        "164.4",
+        "2972.5",
+        "31.19",
+        "428",
+        "45",
+        "53.5",
+        "535",
+        "58.92",
+        "594.5",
+        "74.25",
+        "84"
+      ]
+    },
+    {
       "id": "elasticity",
       "title": "Elasticity: own price, cross price and income",
       "unit": "Unit II",
@@ -2606,6 +5337,13 @@
     }
   ],
   "last_hour": [
+    "Monopoly numerical: MR = a - 2bQ, set MR = MC, Q from that, **P from demand**, profit = PQ - TC.",
+    "If demand is given as Q = ..., rewrite it as P = ... before finding MR.",
+    "Price taker: P = MR = MC. Shut down only if P < min AVC.",
+    "Perfect vs monopolistic: identical vs differentiated; flat vs downward demand; long run P = min AC vs P = AC above min (excess capacity).",
+    "HHI: shares as decimals, square, add, times 10,000. C4: add the top four shares.",
+    "Rothschild R = ET/EF (0 competition, 1 monopoly). Dansby-Willig: welfare gain if output expanded efficiently.",
+    "Specialized investments lengthen contracts (MB up); complex contracting shortens them (MC up).",
     "Leontief: take the **smaller** of bK and cL. Cobb-Douglas K^0.5 means square root.",
     "AP = TP/L; MP = change in TP. Diminishing returns begin where **MP** first falls.",
     "Cost minimization: isocost **tangent** to isoquant; **MRTS_KL = MPL/MPK = w/r**. Draw it.",
