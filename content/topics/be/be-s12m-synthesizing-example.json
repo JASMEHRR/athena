@@ -20,7 +20,7 @@
     {
       "id": "be-s12m-synthesizing-example-c1",
       "heading": "The set-up and the price taker",
-      "explanation_md": "**C(Q) = 125 + 4Q²**, so **MC = 8Q** whatever the market structure.\n\n**Price taker at $40:**\n\n- MR = P = $40; 40 = 8Q, so **Q = 5**\n- Cost = 125 + 4(25) = 125 + 100 = **$225**\n- Revenue = (40)(5) = **$200**\n- Profit = **-$25**: **expect exit in the long run**.",
+      "explanation_md": "One cost function, **C(Q) = 125 + 4Q²**, worked under three market structures. MC is the same in every case, **MC = 8Q\\**, because cost does not depend on the market.\n\nFirst case: you are a **price taker\\** and the market price is **$40**.",
       "example_ids": [
         "be-ex-synthesizing-125"
       ],
@@ -89,13 +89,44 @@
       "derived": [],
       "needs_check": false,
       "retired": false,
-      "big_idea": "",
+      "big_idea": "Same cost function, but as a price taker at $40 the firm loses $25.",
       "analogy": null,
       "visuals": [],
-      "worked": null,
-      "watch_out": [],
+      "worked": {
+        "question_md": "C(Q) = 125 + 4Q². You are a price taker and other firms charge $40. Find output, profit and the implication.",
+        "steps": [
+          {
+            "title": "MC",
+            "body_md": "C(Q) = 125 + 4Q², so **MC = 8Q\\**.",
+            "why": "Differentiate: 125 disappears, 4Q² becomes 8Q.",
+            "result": "MC = 8Q"
+          },
+          {
+            "title": "P = MC",
+            "body_md": "MR = P = 40, so 40 = 8Q and **Q = 5**.",
+            "why": "A price taker sets P = MC.",
+            "result": "Q = 5"
+          },
+          {
+            "title": "Profit",
+            "body_md": "| Item | Working | Value |\n|---|---|---|\n| Revenue | 40 x 5 | 200 |\n| Cost | 125 + 4 x 25 | 225 |\n| Profit | 200 - 225 | **-25** |",
+            "why": "Revenue minus cost.",
+            "result": "Profit = -$25"
+          },
+          {
+            "title": "Implication",
+            "body_md": "The firm is making a loss, so **expect exit in the long run\\**.",
+            "why": "Losses push firms out of a competitive market.",
+            "result": "Expect exit"
+          }
+        ],
+        "answer_md": "Q = 5, profit = **-$25**: expect exit in the long run."
+      },
+      "watch_out": [
+        "MC = 8Q, not 4Q: bring the power down and multiply."
+      ],
       "memory_trick": "",
-      "exam_answer_md": ""
+      "exam_answer_md": "MC = 8Q. MR = P = $40; 40 = 8Q, so **Q = 5**. C(5) = 125 + 100 = $225; revenue = (40)(5) = $200; **profit = -$25**. Implication: expect exit in the long run."
     },
     {
       "id": "be-s12m-synthesizing-example-c2",
@@ -187,16 +218,57 @@
         "be--session-12#46",
         "be--session-12#47"
       ],
-      "derived": [],
+      "derived": [
+        "900",
+        "525"
+      ],
       "needs_check": false,
       "retired": false,
-      "big_idea": "",
+      "big_idea": "Facing P = 100 - Q, the firm makes 10 units at $90 and earns $375; a monopoly keeps it, a monopolistic competitor loses it to clones.",
       "analogy": null,
       "visuals": [],
-      "worked": null,
-      "watch_out": [],
+      "worked": {
+        "question_md": "C(Q) = 125 + 4Q² and inverse demand P = 100 - Q. Find output, price, profit and the implications for a monopolist and a monopolistically competitive firm.",
+        "steps": [
+          {
+            "title": "MR",
+            "body_md": "P = 100 - Q, so **MR = 100 - 2Q\\**.",
+            "why": "MR = a - 2bQ.",
+            "result": "MR = 100 - 2Q"
+          },
+          {
+            "title": "MR = MC",
+            "body_md": "100 - 2Q = 8Q, so 10Q = 100 and **Q = 10**.",
+            "why": "Profit is highest where MR = MC.",
+            "result": "Q = 10"
+          },
+          {
+            "title": "Price",
+            "body_md": "P = 100 - 10 = **$90**.",
+            "why": "Read the price from demand.",
+            "result": "P = $90"
+          },
+          {
+            "title": "Profit",
+            "body_md": "| Item | Working | Value |\n|---|---|---|\n| Revenue | 90 x 10 | 900 |\n| Cost | 125 + 4 x 100 | 525 |\n| Profit | 900 - 525 | **375** |",
+            "why": "Revenue minus cost.",
+            "result": "Profit = $375"
+          },
+          {
+            "title": "Implications",
+            "body_md": "**Monopolist:** no entry unless patents or other barriers go, so profit lasts. **Monopolistically competitive firm:** expect rivals to **clone\\** the product, so profit **declines over time\\**.",
+            "why": "Free entry is the difference.",
+            "result": "Barriers keep profit; free entry erodes it"
+          }
+        ],
+        "answer_md": "Q = 10, P = $90, profit = **$375**. The monopolist keeps it; the monopolistic competitor's profit declines as rivals clone."
+      },
+      "watch_out": [
+        "Set MR equal to **8Q**, not to 8.",
+        "The numbers are the same for monopoly and monopolistic competition; only the **long-run implication** differs."
+      ],
       "memory_trick": "",
-      "exam_answer_md": ""
+      "exam_answer_md": "MR = 100 - 2Q; MC = 8Q. 100 - 2Q = 8Q, so **Q = 10**; P = 100 - 10 = **$90**. Profit = (90)(10) - (125 + 4(100)) = **$375**. A monopolist will not face entry unless patents or other barriers are eliminated; a monopolistically competitive firm should expect others to clone its product, so profits decline over time."
     }
   ],
   "flashcards": [

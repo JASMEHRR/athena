@@ -24,7 +24,7 @@
     {
       "id": "be-s12m-perfect-competition-c1",
       "heading": "The environment and its implications",
-      "explanation_md": "**Perfect competition** has:\n\n- **Many buyers and sellers**\n- A **homogeneous (identical) product**\n- **Perfect information** on both sides\n- **No transaction costs**\n- **Free entry and exit**\n\n**Implications:** firms are **price takers (P = MR)**; in the **short run** they may earn **profits or losses**; **entry and exit force long-run profits to zero**.\n\n**Why learn it?** Many small businesses are price takers; it is a **useful benchmark**; it explains **why governments oppose monopolies**; and it shows the **danger** of competitive environments and the importance of **product differentiation** and **sustainable advantage**.",
+      "explanation_md": "Picture a vegetable market where every stall sells identical tomatoes and every buyer can see every price. If one seller charges more, buyers simply walk to the next stall.\n\nThat is **perfect competition\\**: **many buyers and sellers\\**, an **identical product\\**, **perfect information\\**, **no transaction costs\\** and **free entry and exit\\**.\n\nThree things follow:\n\n- Each firm is a **price taker\\**, so the price it gets for one more unit is the market price: **P = MR\\**.\n- In the **short run\\** a firm can make a **profit or a loss\\**.\n- In the **long run\\**, entry and exit push **profit to zero\\**.\n\nWhy study something so rare? It is the **benchmark\\** every other market is compared with, and it shows managers why **differentiation\\** matters.",
       "example_ids": [],
       "key_terms": [],
       "exam_line": "Many firms, identical product, perfect information, no transaction costs, free entry: price takers with zero long-run profit.",
@@ -117,18 +117,50 @@
       "derived": [],
       "needs_check": false,
       "retired": false,
-      "big_idea": "",
+      "big_idea": "When thousands of firms sell the exact same thing, no single firm can choose its price: it takes the market price.",
       "analogy": null,
-      "visuals": [],
+      "visuals": [
+        {
+          "title": "Perfect competition in two columns",
+          "caption": "",
+          "source_ref": "be--session-12#3",
+          "kind": "compare",
+          "sides": [
+            {
+              "title": "The environment",
+              "points": [
+                "Many buyers and sellers",
+                "Identical product",
+                "Perfect information",
+                "No transaction costs",
+                "Free entry and exit"
+              ],
+              "tone": "a"
+            },
+            {
+              "title": "What it means for the firm",
+              "points": [
+                "Price taker: P = MR",
+                "Short run: profit or loss",
+                "Long run: zero profit"
+              ],
+              "tone": "b"
+            }
+          ]
+        }
+      ],
       "worked": null,
-      "watch_out": [],
-      "memory_trick": "",
-      "exam_answer_md": ""
+      "watch_out": [
+        "Write **P = MR** for a price taker. It is not true for a monopoly.",
+        "Zero profit is a **long-run** result. In the short run the firm can still earn profit or make a loss."
+      ],
+      "memory_trick": "**Many, same, see, free, free**: many firms, same product, see all prices, free of transaction costs, free to enter.",
+      "exam_answer_md": "**Perfect competition\\** is a market with many buyers and sellers, a homogeneous product, perfect information, no transaction costs and free entry and exit.\n\n**Implications:** firms are price takers (P = MR); in the short run they may earn profits or losses; entry and exit force long-run profits to zero."
     },
     {
       "id": "be-s12m-perfect-competition-c2",
       "heading": "Setting price and output",
-      "explanation_md": "The **market** sets the price Pe where supply meets demand. The **firm** faces a **horizontal demand curve Df at Pe**: it can sell any amount at that price.\n\nProfit is maximized where **MR = MC**. Since **MR = P**, the rule becomes **P = MC**.\n\n**Profit = (Pe - ATC) x Qf***",
+      "explanation_md": "The **market\\** sets the price where supply meets demand. The single firm sees a **flat demand line\\** at that price: it can sell as much as it likes at Pe, and nothing above it.\n\nEvery firm maximizes profit where **MR = MC\\**. For a price taker MR is the price, so the rule becomes **P = MC\\**.\n\nOn the graph, follow the price line across until it hits the **MC\\** curve. Drop down: that is the best output **Qf\\***. The **profit\\** is the box between the price and **ATC\\** at that output: **(Pe - ATC) x Qf\\***.",
       "example_ids": [],
       "key_terms": [],
       "exam_line": "Price taker: set P = MC. Profit = (Pe - ATC) x Qf*.",
@@ -194,18 +226,197 @@
       "derived": [],
       "needs_check": false,
       "retired": false,
-      "big_idea": "",
+      "big_idea": "A price taker keeps producing until the cost of one more unit (MC) rises to the price it gets.",
       "analogy": null,
-      "visuals": [],
+      "visuals": [
+        {
+          "title": "The price taker's output decision",
+          "caption": "Go across from Pe to where it meets MC, then down to Qf*. The shaded box between Pe and ATC is profit.",
+          "source_ref": "be--session-12#9",
+          "kind": "plot",
+          "x_label": "Qf",
+          "y_label": "$",
+          "x_max": 10.0,
+          "y_max": 10.0,
+          "y_min": 0.0,
+          "x_ticks": [
+            {
+              "at": 7.4,
+              "label": "Qf*"
+            }
+          ],
+          "y_ticks": [
+            {
+              "at": 6.5,
+              "label": "Pe"
+            },
+            {
+              "at": 5.2,
+              "label": "ATC"
+            }
+          ],
+          "lines": [
+            {
+              "points": [
+                [
+                  1.0,
+                  4.0
+                ],
+                [
+                  3.0,
+                  2.6
+                ],
+                [
+                  5.0,
+                  3.3
+                ],
+                [
+                  7.4,
+                  6.5
+                ],
+                [
+                  8.6,
+                  9.0
+                ]
+              ],
+              "label": "MC",
+              "label_at": "end",
+              "tone": "d",
+              "dashed": false,
+              "bold": false,
+              "curve": true
+            },
+            {
+              "points": [
+                [
+                  1.5,
+                  8.5
+                ],
+                [
+                  3.0,
+                  6.0
+                ],
+                [
+                  4.8,
+                  4.9
+                ],
+                [
+                  6.2,
+                  4.8
+                ],
+                [
+                  7.4,
+                  5.2
+                ],
+                [
+                  8.8,
+                  6.6
+                ]
+              ],
+              "label": "ATC",
+              "label_at": "end",
+              "tone": "a",
+              "dashed": false,
+              "bold": false,
+              "curve": true
+            },
+            {
+              "points": [
+                [
+                  1.0,
+                  6.0
+                ],
+                [
+                  2.5,
+                  3.6
+                ],
+                [
+                  4.0,
+                  3.0
+                ],
+                [
+                  6.0,
+                  3.4
+                ],
+                [
+                  8.6,
+                  5.2
+                ]
+              ],
+              "label": "AVC",
+              "label_at": "end",
+              "tone": "muted",
+              "dashed": false,
+              "bold": false,
+              "curve": true
+            },
+            {
+              "points": [
+                [
+                  0.0,
+                  6.5
+                ],
+                [
+                  9.5,
+                  6.5
+                ]
+              ],
+              "label": "Pe = Df = MR",
+              "label_at": "mid",
+              "tone": "b",
+              "dashed": false,
+              "bold": true,
+              "curve": false
+            }
+          ],
+          "areas": [
+            {
+              "points": [
+                [
+                  0.0,
+                  5.2
+                ],
+                [
+                  7.4,
+                  5.2
+                ],
+                [
+                  7.4,
+                  6.5
+                ],
+                [
+                  0.0,
+                  6.5
+                ]
+              ],
+              "label": "Profit",
+              "tone": "b"
+            }
+          ],
+          "dots": [
+            {
+              "x": 7.4,
+              "y": 6.5,
+              "label": "",
+              "label_at": "above",
+              "guides": true
+            }
+          ],
+          "notes": []
+        }
+      ],
       "worked": null,
-      "watch_out": [],
-      "memory_trick": "",
-      "exam_answer_md": ""
+      "watch_out": [
+        "Profit is measured with **ATC**, not AVC: (Pe - ATC) x Qf*.",
+        "The firm's demand is the **flat line** at Pe; the downward market demand belongs to the market graph."
+      ],
+      "memory_trick": "**Across, then down**: across from the price to MC, down to the quantity.",
+      "exam_answer_md": "A perfectly competitive firm maximizes profit where **MR = MC\\**. Since **MR = P**, it sets **P = MC\\**.\n\nProfit = **(Pe - ATC) x Qf\\***. (Draw the market graph setting Pe, and the firm's graph with MC, ATC, AVC, the flat line Pe = Df = MR, and shade the profit box.)"
     },
     {
       "id": "be-s12m-perfect-competition-c3",
       "heading": "Worked example: P = $10",
-      "explanation_md": "Given **P = $10** and **C(Q) = 5 + Q²**:\n\n- MR = P = $10, and **MC = 2Q**\n- 10 = 2Q, so **Q = 5 units**\n- Profit = PQ - C(Q) = (10)(5) - (5 + 25) = **$20**",
+      "explanation_md": "This is the slide's own numerical example, and it is exactly the kind of question the paper asks.\n\nThe recipe never changes: **find MC, set it equal to the price, solve for Q, then profit = revenue - cost\\**.",
       "example_ids": [
         "be-ex-price-taker-10"
       ],
@@ -273,13 +484,45 @@
       ],
       "needs_check": false,
       "retired": false,
-      "big_idea": "",
+      "big_idea": "With price $10 and MC = 2Q, the firm produces 5 units and makes $20.",
       "analogy": null,
       "visuals": [],
-      "worked": null,
-      "watch_out": [],
+      "worked": {
+        "question_md": "Given P = $10 and C(Q) = 5 + Q². Find the optimal price, output and maximum profit.",
+        "steps": [
+          {
+            "title": "Price",
+            "body_md": "The firm is a price taker, so it charges the market price: **P = $10**.",
+            "why": "A price taker cannot pick its own price.",
+            "result": "P = $10"
+          },
+          {
+            "title": "Marginal cost",
+            "body_md": "C(Q) = 5 + Q², so **MC = 2Q\\** (differentiate: the 5 disappears, Q² becomes 2Q).",
+            "why": "MC is the slope of the cost function.",
+            "result": "MC = 2Q"
+          },
+          {
+            "title": "Set P = MC",
+            "body_md": "10 = 2Q, so **Q = 5 units\\**.",
+            "why": "For a price taker, MR = P, so MR = MC means P = MC.",
+            "result": "Q = 5"
+          },
+          {
+            "title": "Profit",
+            "body_md": "| Item | Working | Value |\n|---|---|---|\n| Revenue | 10 x 5 | 50 |\n| Cost | 5 + 5² = 5 + 25 | 30 |\n| Profit | 50 - 30 | **20** |",
+            "why": "Profit is total revenue minus total cost.",
+            "result": "Profit = $20"
+          }
+        ],
+        "answer_md": "P = $10, Q = 5 units, maximum profit = **$20**."
+      },
+      "watch_out": [
+        "Do not forget the **fixed cost of 5** when you work out total cost.",
+        "Square Q before adding: C(5) = 5 + 25, not 5 + 10."
+      ],
       "memory_trick": "",
-      "exam_answer_md": ""
+      "exam_answer_md": "P = $10 (price taker). MC = 2Q. Set P = MC: 10 = 2Q, so **Q = 5**. Profit = PQ - C(Q) = (10)(5) - (5 + 25) = **$20**."
     }
   ],
   "flashcards": [

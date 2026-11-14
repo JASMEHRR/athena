@@ -25,7 +25,7 @@
     {
       "id": "be-s12m-monopolistic-competition-c1",
       "heading": "Environment and limited market power",
-      "explanation_md": "**Monopolistic competition** has:\n\n- **Numerous buyers and sellers**\n- **Differentiated products**: each firm faces a **downward sloping demand curve**, but consumers see the products as **close substitutes**.\n- **Free entry and exit**: **zero profits in the long run**.\n\nLike a monopoly, the firm can **price above MC** and its sales depend on its price, and its MR behaves like a monopolist's. But **other brands make its demand more elastic**, and free entry hurts profits, so it has **limited market power**.",
+      "explanation_md": "Think of shampoo brands. There are **numerous sellers\\**, and each brand is a little **different\\**, so each firm faces a **downward sloping demand curve\\**: it can raise its price a bit without losing every customer.\n\nBut the brands are **close substitutes\\**, so buyers do switch. That makes each firm's demand **more elastic\\** than a monopolist's. Add **free entry and exit\\**, and the firm has only **limited market power\\**.\n\nLike a monopolist, it can price **above MC\\**, and its MR lies below its demand curve.",
       "example_ids": [],
       "key_terms": [],
       "exam_line": "Many firms, differentiated products, free entry: downward sloping demand but limited market power.",
@@ -91,18 +91,47 @@
       "derived": [],
       "needs_check": false,
       "retired": false,
-      "big_idea": "",
+      "big_idea": "Monopolistic competition is many firms selling slightly different brands: each has a little pricing power, but not much.",
       "analogy": null,
-      "visuals": [],
+      "visuals": [
+        {
+          "title": "Monopolistic competition: like a monopoly, but",
+          "caption": "",
+          "source_ref": "be--session-12#35",
+          "kind": "compare",
+          "sides": [
+            {
+              "title": "Like a monopoly",
+              "points": [
+                "Downward sloping demand",
+                "Can price above MC",
+                "Sales depend on the price it sets"
+              ],
+              "tone": "a"
+            },
+            {
+              "title": "But",
+              "points": [
+                "Other brands make demand more elastic",
+                "Free entry and exit erode profit",
+                "So only limited market power"
+              ],
+              "tone": "c"
+            }
+          ]
+        }
+      ],
       "worked": null,
-      "watch_out": [],
-      "memory_trick": "",
-      "exam_answer_md": ""
+      "watch_out": [
+        "Products are **differentiated**, not identical. Identical products mean perfect competition."
+      ],
+      "memory_trick": "**Many brands, a little power.**",
+      "exam_answer_md": "Monopolistic competition: numerous buyers and sellers, **differentiated products\\** (so each firm faces a downward sloping demand curve, but consumers see brands as close substitutes) and **free entry and exit\\** (so zero profits in the long run). Firms can price above MC, but other brands make demand more elastic, so they have **limited market power\\**."
     },
     {
       "id": "be-s12m-monopolistic-competition-c2",
       "heading": "Short run and long run",
-      "explanation_md": "**Short run:** maximize profits **like a monopolist**: produce where **MR = MC** and charge the price on the demand curve. The firm can earn a **profit**.\n\n**Long run:** with free entry, other firms enter and their **new brands steal market share**, shifting your demand down **until profits are zero**: **P = AC**.",
+      "explanation_md": "**Short run:** produce where **MR = MC\\** and charge the price on the demand curve, exactly like a monopolist. If that price is above ATC, the brand **makes a profit\\**.\n\n**Long run:** profit attracts rivals. Their **new brands steal market share\\**, so your demand curve **shifts left\\** (D to D1). This continues until the demand curve just **touches the AC curve\\**: there **P = AC\\** and **profit is zero\\**.",
       "example_ids": [],
       "key_terms": [],
       "exam_line": "Short run: MR = MC, possible profit. Long run: entry shifts demand down until P = AC and profit is zero.",
@@ -168,13 +197,159 @@
       "derived": [],
       "needs_check": false,
       "retired": false,
-      "big_idea": "",
+      "big_idea": "In the short run the brand acts like a little monopoly and can profit; in the long run copycats enter until profit is zero.",
       "analogy": null,
-      "visuals": [],
+      "visuals": [
+        {
+          "title": "Long run: demand falls until it just touches AC",
+          "caption": "Entry shifts the brand's demand to D1, which touches AC at Q1. There P = AC, so profit is zero, and P is still above MC.",
+          "source_ref": "be--session-12#40",
+          "kind": "plot",
+          "x_label": "Quantity of Brand X",
+          "y_label": "$",
+          "x_max": 10.0,
+          "y_max": 10.0,
+          "y_min": 0.0,
+          "x_ticks": [
+            {
+              "at": 4.0,
+              "label": "Q1"
+            }
+          ],
+          "y_ticks": [
+            {
+              "at": 4.6,
+              "label": "P1"
+            }
+          ],
+          "lines": [
+            {
+              "points": [
+                [
+                  1.0,
+                  9.0
+                ],
+                [
+                  2.5,
+                  6.0
+                ],
+                [
+                  4.0,
+                  4.6
+                ],
+                [
+                  5.5,
+                  4.2
+                ],
+                [
+                  7.0,
+                  4.6
+                ],
+                [
+                  9.0,
+                  6.0
+                ]
+              ],
+              "label": "AC",
+              "label_at": "end",
+              "tone": "a",
+              "dashed": false,
+              "bold": false,
+              "curve": true
+            },
+            {
+              "points": [
+                [
+                  1.0,
+                  2.5
+                ],
+                [
+                  2.5,
+                  1.9
+                ],
+                [
+                  4.0,
+                  2.2
+                ],
+                [
+                  5.5,
+                  4.2
+                ],
+                [
+                  7.0,
+                  7.0
+                ]
+              ],
+              "label": "MC",
+              "label_at": "end",
+              "tone": "d",
+              "dashed": false,
+              "bold": false,
+              "curve": true
+            },
+            {
+              "points": [
+                [
+                  0.0,
+                  7.0
+                ],
+                [
+                  10.0,
+                  1.0
+                ]
+              ],
+              "label": "D1",
+              "label_at": "end",
+              "tone": "b",
+              "dashed": false,
+              "bold": true,
+              "curve": false
+            },
+            {
+              "points": [
+                [
+                  0.0,
+                  7.0
+                ],
+                [
+                  5.83,
+                  0.0
+                ]
+              ],
+              "label": "MR1",
+              "label_at": "end",
+              "tone": "muted",
+              "dashed": false,
+              "bold": false,
+              "curve": false
+            }
+          ],
+          "areas": [],
+          "dots": [
+            {
+              "x": 4.0,
+              "y": 4.6,
+              "label": "P = AC",
+              "label_at": "above",
+              "guides": true
+            },
+            {
+              "x": 4.0,
+              "y": 2.2,
+              "label": "",
+              "label_at": "above",
+              "guides": false
+            }
+          ],
+          "notes": []
+        }
+      ],
       "worked": null,
-      "watch_out": [],
-      "memory_trick": "",
-      "exam_answer_md": ""
+      "watch_out": [
+        "In the long run P = AC, but **not** minimum AC. That gap is the excess capacity."
+      ],
+      "memory_trick": "**Short run like a monopoly, long run like perfect competition (zero profit).**",
+      "exam_answer_md": "**Short run:** maximize profits like a monopolist: produce where MR = MC and charge the price on the demand curve; the firm may earn profits. **Long run:** with free entry, rivals enter and new brands steal market share, reducing the firm's demand until profits are zero: **P = AC\\**. (Draw the short-run graph with a profit box, and the long-run graph with D1 tangent to AC.)"
     },
     {
       "id": "be-s12m-monopolistic-competition-c3",
@@ -216,18 +391,53 @@
       "derived": [],
       "needs_check": false,
       "retired": false,
-      "big_idea": "",
+      "big_idea": "Consumers get variety, society gets waste, and managers get zero long-run profit.",
       "analogy": null,
-      "visuals": [],
+      "visuals": [
+        {
+          "title": "The good, the bad and the ugly",
+          "caption": "",
+          "source_ref": "be--session-12#41",
+          "kind": "compare",
+          "sides": [
+            {
+              "title": "Good, for consumers",
+              "points": [
+                "Product variety"
+              ],
+              "tone": "b"
+            },
+            {
+              "title": "Bad, for society",
+              "points": [
+                "P > MC",
+                "Excess capacity",
+                "Unexploited economies of scale"
+              ],
+              "tone": "c"
+            },
+            {
+              "title": "Ugly, for managers",
+              "points": [
+                "P = ATC > minimum average cost",
+                "Zero profits in the long run"
+              ],
+              "tone": "d"
+            }
+          ]
+        }
+      ],
       "worked": null,
-      "watch_out": [],
+      "watch_out": [
+        "Excess capacity is bad for **society**, not for consumers."
+      ],
       "memory_trick": "",
-      "exam_answer_md": ""
+      "exam_answer_md": "**Good (consumers):** product variety. **Bad (society):** P > MC, excess capacity, unexploited economies of scale. **Ugly (managers):** P = ATC > minimum of average costs and zero profits in the long run."
     },
     {
       "id": "be-s12m-monopolistic-competition-c4",
       "heading": "Optimal advertising",
-      "explanation_md": "Advertising helps firms with market power **differentiate** their products.\n\n- Advertise until the **additional revenue from advertising equals its additional cost**.\n- Equivalently, the **advertising-to-sales ratio** equals the **advertising elasticity of demand** divided by minus the **own-price elasticity**: **A/R = EQ,A / (-EQ,P)**.",
+      "explanation_md": "Advertising is how firms with market power **differentiate\\** their brands. How much to spend?\n\nKeep advertising while the **extra revenue\\** from ads is more than the **extra cost\\**. Stop where they are equal.\n\nThe slide turns this into a ratio: the **advertising-to-sales ratio\\** equals the **advertising elasticity\\** divided by minus the **own-price elasticity\\**:\n\n**A/R = EQ,A / (-EQ,P)**\n\nSo if your buyers react strongly to ads (high EQ,A) and weakly to price, spend a bigger share of sales on advertising.",
       "example_ids": [],
       "key_terms": [],
       "exam_line": "A/R = EQ,A / (-EQ,P).",
@@ -264,13 +474,15 @@
       "derived": [],
       "needs_check": false,
       "retired": false,
-      "big_idea": "",
+      "big_idea": "Advertise until one more rupee of ads brings in exactly one more rupee of revenue.",
       "analogy": null,
       "visuals": [],
       "worked": null,
-      "watch_out": [],
+      "watch_out": [
+        "The own-price elasticity is negative, so the formula uses **minus** EQ,P to make the ratio positive."
+      ],
       "memory_trick": "",
-      "exam_answer_md": ""
+      "exam_answer_md": "Advertise to the point where the additional revenue from advertising equals its additional cost. Equivalently, the profit-maximizing **advertising-to-sales ratio A/R = EQ,A / (-EQ,P)**."
     }
   ],
   "flashcards": [

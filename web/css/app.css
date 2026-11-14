@@ -661,3 +661,9 @@ button.tl-row:hover { border-color: var(--border-strong); }
   .fformula { font-size: 14px; overflow-wrap: anywhere; }
 }
 .crash-cta > .grow { flex: 1; min-width: 0; }
+
+.learn.with-panel.panel-closed { grid-template-columns: minmax(0, 1fr); }
+.learn.panel-closed .panel { display: none; }
+.voice-bar { gap: 14px; align-items: center; }
+.voice-bar label { gap: 6px; cursor: pointer; }
+.teach .reading { background: rgba(91, 141, 255, .14); box-shadow: 0 0 0 6px rgba(91, 141, 255, .14); border-radius: 6px; transition: background .2s; }

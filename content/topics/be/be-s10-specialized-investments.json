@@ -21,7 +21,7 @@
     {
       "id": "be-s10-specialized-investments-c1",
       "heading": "What specialized investments are",
-      "explanation_md": "A **specialized investment** is an investment made to allow two parties to exchange that has **little or no value outside the exchange relationship**.\n\n**Four types:**\n\n1. **Site specificity**\n2. **Physical-asset specificity**\n3. **Dedicated assets**\n4. **Human capital**\n\nThey **lead to higher transaction costs** through:\n\n- **Costly bargaining**\n- **Underinvestment**\n- **Opportunism and the hold-up problem**",
+      "explanation_md": "Imagine a supplier who builds a factory **right next to** your plant, or buys a machine that only makes **your** part. If you walk away, that investment is almost useless.\n\nThat is a **specialized investment**: it allows the two parties to exchange but has **little or no value outside the relationship**.\n\nBecause one side is now locked in, these investments **raise transaction costs**: **costly bargaining**, **underinvestment** (nobody wants to be the one stuck) and **opportunism and the hold-up problem**.",
       "example_ids": [],
       "key_terms": [
         {
@@ -108,18 +108,75 @@
       "derived": [],
       "needs_check": false,
       "retired": false,
-      "big_idea": "",
+      "big_idea": "A specialized investment is one that is worthless outside this one deal, which makes both sides nervous.",
       "analogy": null,
-      "visuals": [],
+      "visuals": [
+        {
+          "title": "Four types of specialized investment",
+          "caption": "",
+          "source_ref": "be--session-10#7",
+          "kind": "tree",
+          "direction": "down",
+          "nodes": [
+            {
+              "id": "r",
+              "label": "Specialized investments",
+              "parent": null,
+              "edge": "",
+              "shape": "box",
+              "value": "",
+              "cut": false
+            },
+            {
+              "id": "a",
+              "label": "Site specificity",
+              "parent": "r",
+              "edge": "",
+              "shape": "box",
+              "value": "",
+              "cut": false
+            },
+            {
+              "id": "b",
+              "label": "Physical-asset specificity",
+              "parent": "r",
+              "edge": "",
+              "shape": "box",
+              "value": "",
+              "cut": false
+            },
+            {
+              "id": "c",
+              "label": "Dedicated assets",
+              "parent": "r",
+              "edge": "",
+              "shape": "box",
+              "value": "",
+              "cut": false
+            },
+            {
+              "id": "d",
+              "label": "Human capital",
+              "parent": "r",
+              "edge": "",
+              "shape": "box",
+              "value": "",
+              "cut": false
+            }
+          ]
+        }
+      ],
       "worked": null,
-      "watch_out": [],
-      "memory_trick": "",
-      "exam_answer_md": ""
+      "watch_out": [
+        "List all **four** types in the exam: site, physical-asset, dedicated assets, human capital."
+      ],
+      "memory_trick": "**Site, stuff, staff**: where it is (site), the machine (physical asset, dedicated assets), the people (human capital).",
+      "exam_answer_md": "**Specialized investments** are investments made to allow two parties to exchange but which have little or no value outside the exchange relationship. Types: site specificity, physical-asset specificity, dedicated assets, human capital. They lead to higher transaction costs through costly bargaining, underinvestment, and opportunism and the hold-up problem."
     },
     {
       "id": "be-s10-specialized-investments-c2",
       "heading": "Contract length: marginal benefit meets marginal cost",
-      "explanation_md": "The optimal contract length is where the **marginal benefit (MB)** of a longer contract equals its **marginal cost (MC)**.\n\n| Change | Curve that moves | Result |\n|---|---|---|\n| Greater need for specialized investments | MB shifts out (MB0 to MB1) | **Longer contract** (L0 to L1) |\n| More complex contracting environment | MC shifts up (MC0 to MC2) | **Shorter contract** (L0 to L2) |\n| Less complex contracting environment | MC shifts down (MC0 to MC1) | **Longer contract** |",
+      "explanation_md": "How long should a contract be? Where the **marginal benefit** of one more year equals its **marginal cost**.\n\n- A **longer** contract protects specialized investments from hold-up, so when specialized investments matter more, the **MB curve shifts out** and the contract gets **longer**.\n- A **longer** contract is harder to write when the future is complicated, so a **more complex contracting environment** shifts **MC up** and the contract gets **shorter**. A **simpler** environment does the opposite.",
       "example_ids": [],
       "key_terms": [],
       "exam_line": "More specialized investment: longer contracts. More complex contracting environment: shorter contracts.",
@@ -205,21 +262,220 @@
         "be--session-10#9",
         "be--session-10#10"
       ],
-      "derived": [],
+      "derived": [
+        "3.75",
+        "5.8"
+      ],
       "needs_check": false,
       "retired": false,
-      "big_idea": "",
+      "big_idea": "The more specialized the investment, the longer the contract; the more complex the deal, the shorter the contract.",
       "analogy": null,
-      "visuals": [],
+      "visuals": [
+        {
+          "title": "More specialized investment: MB shifts out, contract gets longer",
+          "caption": "The need for specialized investments raises the benefit of a longer contract: MB0 moves to MB1 and optimal length rises from L0 to L1.",
+          "source_ref": "be--session-10#8",
+          "kind": "plot",
+          "x_label": "Contract Length",
+          "y_label": "$",
+          "x_max": 10.0,
+          "y_max": 10.0,
+          "y_min": 0.0,
+          "x_ticks": [
+            {
+              "at": 5.0,
+              "label": "L0"
+            },
+            {
+              "at": 6.0,
+              "label": "L1"
+            }
+          ],
+          "y_ticks": [],
+          "lines": [
+            {
+              "points": [
+                [
+                  0.0,
+                  1.0
+                ],
+                [
+                  10.0,
+                  9.0
+                ]
+              ],
+              "label": "MC",
+              "label_at": "end",
+              "tone": "d",
+              "dashed": false,
+              "bold": false,
+              "curve": false
+            },
+            {
+              "points": [
+                [
+                  0.0,
+                  9.0
+                ],
+                [
+                  10.0,
+                  1.0
+                ]
+              ],
+              "label": "MB0",
+              "label_at": "end",
+              "tone": "muted",
+              "dashed": false,
+              "bold": false,
+              "curve": false
+            },
+            {
+              "points": [
+                [
+                  0.0,
+                  10.0
+                ],
+                [
+                  10.0,
+                  3.0
+                ]
+              ],
+              "label": "MB1",
+              "label_at": "end",
+              "tone": "b",
+              "dashed": false,
+              "bold": true,
+              "curve": false
+            }
+          ],
+          "areas": [],
+          "dots": [
+            {
+              "x": 5.0,
+              "y": 5.0,
+              "label": "",
+              "label_at": "above",
+              "guides": true
+            },
+            {
+              "x": 6.0,
+              "y": 5.8,
+              "label": "",
+              "label_at": "above",
+              "guides": true
+            }
+          ],
+          "notes": []
+        },
+        {
+          "title": "More complex contracting: MC shifts up, contract gets shorter",
+          "caption": "A more complex environment raises the cost of each extra year: MC0 moves up to MC2 and optimal length falls from L0 to L2.",
+          "source_ref": "be--session-10#9",
+          "kind": "plot",
+          "x_label": "Contract Length",
+          "y_label": "$",
+          "x_max": 10.0,
+          "y_max": 10.0,
+          "y_min": 0.0,
+          "x_ticks": [
+            {
+              "at": 3.75,
+              "label": "L2"
+            },
+            {
+              "at": 5.0,
+              "label": "L0"
+            }
+          ],
+          "y_ticks": [],
+          "lines": [
+            {
+              "points": [
+                [
+                  0.0,
+                  9.0
+                ],
+                [
+                  10.0,
+                  1.0
+                ]
+              ],
+              "label": "MB0",
+              "label_at": "end",
+              "tone": "b",
+              "dashed": false,
+              "bold": false,
+              "curve": false
+            },
+            {
+              "points": [
+                [
+                  0.0,
+                  1.0
+                ],
+                [
+                  10.0,
+                  9.0
+                ]
+              ],
+              "label": "MC0",
+              "label_at": "end",
+              "tone": "muted",
+              "dashed": false,
+              "bold": false,
+              "curve": false
+            },
+            {
+              "points": [
+                [
+                  0.0,
+                  3.0
+                ],
+                [
+                  8.75,
+                  10.0
+                ]
+              ],
+              "label": "MC2",
+              "label_at": "end",
+              "tone": "d",
+              "dashed": false,
+              "bold": true,
+              "curve": false
+            }
+          ],
+          "areas": [],
+          "dots": [
+            {
+              "x": 5.0,
+              "y": 5.0,
+              "label": "",
+              "label_at": "above",
+              "guides": true
+            },
+            {
+              "x": 3.75,
+              "y": 6.0,
+              "label": "",
+              "label_at": "above",
+              "guides": true
+            }
+          ],
+          "notes": []
+        }
+      ],
       "worked": null,
-      "watch_out": [],
-      "memory_trick": "",
-      "exam_answer_md": ""
+      "watch_out": [
+        "Specialized investments move the **MB** curve; complexity moves the **MC** curve. Do not swap them.",
+        "Less complex contracting shifts MC **down**, so contracts get **longer**."
+      ],
+      "memory_trick": "**Locked in? Lock it longer. Complicated? Keep it short.**",
+      "exam_answer_md": "The optimal contract length is where the marginal benefit (MB) of extending the contract equals its marginal cost (MC).\n\n- **Greater need for specialized investments** raises MB (MB0 to MB1): **longer contract** (L0 to L1). Example: a supplier building a plant next to the buyer wants a long contract.\n- **More complex contracting environment** raises MC (MC0 to MC2): **shorter contract** (L0 to L2).\n- **Less complex environment** lowers MC (MC0 to MC1): **longer contract**.\n\n(Draw the two graphs with contract length on the x-axis.)"
     },
     {
       "id": "be-s10-specialized-investments-c3",
       "heading": "Choosing the method: the decision tree",
-      "explanation_md": "1. Are there **substantial specialized investments relative to contracting costs**?\n   - **No**: use **spot exchange**.\n   - **Yes**: go to question 2.\n2. Is the **contracting environment complex relative to the costs of integration**?\n   - **No**: use a **contract**.\n   - **Yes**: use **vertical integration**.\n\nThe conclusion: the optimal method depends on the **nature of the transaction costs** and how **specialized** the inputs are.",
+      "explanation_md": "Follow the tree from the top.\n\n- If there are **no substantial specialized investments**, nobody can be held up, so just use the **spot market**.\n- If there **are**, you need protection. If writing a contract is **not** too complex compared with the cost of integrating, use a **contract**.\n- If it **is** too complex, **make the input yourself** (vertical integration).",
       "example_ids": [],
       "key_terms": [],
       "exam_line": "No big specialized investment: spot. Big specialized investment, simple contracting: contract. Big specialized investment, complex contracting: vertical integration.",
@@ -283,13 +539,70 @@
       "derived": [],
       "needs_check": false,
       "retired": false,
-      "big_idea": "",
+      "big_idea": "Ask two questions: are the specialized investments big, and is a contract too hard to write? The answers pick spot, contract or integration.",
       "analogy": null,
-      "visuals": [],
+      "visuals": [
+        {
+          "title": "Optimal input procurement",
+          "caption": "",
+          "source_ref": "be--session-10#11",
+          "kind": "tree",
+          "direction": "right",
+          "nodes": [
+            {
+              "id": "q1",
+              "label": "Substantial specialized investments relative to contracting costs?",
+              "parent": null,
+              "edge": "",
+              "shape": "decision",
+              "value": "",
+              "cut": false
+            },
+            {
+              "id": "spot",
+              "label": "Spot exchange",
+              "parent": "q1",
+              "edge": "No",
+              "shape": "end",
+              "value": "",
+              "cut": false
+            },
+            {
+              "id": "q2",
+              "label": "Complex contracting environment relative to costs of integration?",
+              "parent": "q1",
+              "edge": "Yes",
+              "shape": "decision",
+              "value": "",
+              "cut": false
+            },
+            {
+              "id": "con",
+              "label": "Contract",
+              "parent": "q2",
+              "edge": "No",
+              "shape": "end",
+              "value": "",
+              "cut": false
+            },
+            {
+              "id": "vi",
+              "label": "Vertical integration",
+              "parent": "q2",
+              "edge": "Yes",
+              "shape": "end",
+              "value": "",
+              "cut": false
+            }
+          ]
+        }
+      ],
       "worked": null,
-      "watch_out": [],
+      "watch_out": [
+        "Spot exchange is the answer only when specialized investments are **not** substantial."
+      ],
       "memory_trick": "",
-      "exam_answer_md": ""
+      "exam_answer_md": "Optimal input procurement: if specialized investments are not substantial relative to contracting costs, use **spot exchange**. If they are, and the contracting environment is not complex relative to the costs of integration, use a **contract**; if it is complex, use **vertical integration**. The optimal method depends on the nature of transaction costs and the specialized nature of the inputs."
     }
   ],
   "flashcards": [

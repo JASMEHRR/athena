@@ -20,7 +20,7 @@
     {
       "id": "be-s10-procuring-inputs-c1",
       "heading": "The manager's role",
-      "explanation_md": "A manager has two jobs here:\n\n- **Procure inputs in the least cost manner**, which puts the firm on its cost curve at a point like **B**.\n- **Provide incentives** for workers to put forth effort.\n\nFail at these and the firm ends up at a point like **A**: at 10 units of output it spends **$100** instead of **$80**. To reach B, managers must **use all inputs efficiently** and **acquire inputs by the least costly method**.",
+      "explanation_md": "The cost curve **C(Q)** shows the **lowest possible cost** of making each quantity. A well-run firm sits **on** the curve.\n\nAt **10 units**, the efficient firm is at **point B** and spends **$80**. A badly run firm making the same 10 units is at **point A**, spending **$100**: above the curve, wasting $20.\n\nTwo things get a firm from A down to B:\n\n- **Procure inputs in the least cost manner** (this session's first half).\n- **Give workers incentives** to put in effort (the principal-agent part).",
       "example_ids": [
         "be-ex-points-a-and-b"
       ],
@@ -79,21 +79,103 @@
         "be--session-10#2",
         "be--session-10#3"
       ],
-      "derived": [],
+      "derived": [
+        "20"
+      ],
       "needs_check": false,
       "retired": false,
-      "big_idea": "",
+      "big_idea": "A good manager gets the same output for less money by buying inputs the cheapest way and making people work properly.",
       "analogy": null,
-      "visuals": [],
+      "visuals": [
+        {
+          "title": "Point A wastes money; point B is on the cost curve",
+          "caption": "Both points make 10 units. B costs $80 and lies on C(Q); A costs $100 and lies above it.",
+          "source_ref": "be--session-10#3",
+          "kind": "plot",
+          "x_label": "Q",
+          "y_label": "Costs",
+          "x_max": 14.0,
+          "y_max": 120.0,
+          "y_min": 0.0,
+          "x_ticks": [
+            {
+              "at": 10.0,
+              "label": "10"
+            }
+          ],
+          "y_ticks": [
+            {
+              "at": 80.0,
+              "label": "$80"
+            },
+            {
+              "at": 100.0,
+              "label": "$100"
+            }
+          ],
+          "lines": [
+            {
+              "points": [
+                [
+                  0.0,
+                  20.0
+                ],
+                [
+                  4.0,
+                  40.0
+                ],
+                [
+                  8.0,
+                  62.0
+                ],
+                [
+                  10.0,
+                  80.0
+                ],
+                [
+                  12.0,
+                  104.0
+                ]
+              ],
+              "label": "C(Q)",
+              "label_at": "end",
+              "tone": "a",
+              "dashed": false,
+              "bold": true,
+              "curve": true
+            }
+          ],
+          "areas": [],
+          "dots": [
+            {
+              "x": 10.0,
+              "y": 80.0,
+              "label": "B",
+              "label_at": "below",
+              "guides": true
+            },
+            {
+              "x": 10.0,
+              "y": 100.0,
+              "label": "A",
+              "label_at": "above",
+              "guides": true
+            }
+          ],
+          "notes": []
+        }
+      ],
       "worked": null,
-      "watch_out": [],
+      "watch_out": [
+        "A point **above** the cost curve is possible but wasteful. A point **below** it is impossible."
+      ],
       "memory_trick": "",
-      "exam_answer_md": ""
+      "exam_answer_md": "The manager's role is to procure inputs in the least cost manner (a point like B on the cost curve) and to provide incentives for workers to put forth effort. Failure results in a point like A, above the cost curve. To reach B, managers must use all inputs efficiently and acquire inputs by the least costly method."
     },
     {
       "id": "be-s10-procuring-inputs-c2",
       "heading": "Three ways to get inputs",
-      "explanation_md": "| Method | What it is |\n|---|---|\n| **Spot exchange** | Buyer and seller meet, exchange, and then go their separate ways |\n| **Contract** | A legal document that creates an extended relationship between a buyer and a seller |\n| **Vertical integration** | The firm shuns other suppliers and produces the input internally |",
+      "explanation_md": "Think of a car maker that needs seats.\n\n- **Spot exchange**: buy seats from whoever is selling today, then part ways.\n- **Contract**: sign a legal agreement with one seat supplier for, say, three years.\n- **Vertical integration**: stop buying seats and **make them in-house**.\n\nThe rest of the session is about **which one to choose**.",
       "example_ids": [],
       "key_terms": [
         {
@@ -165,18 +247,52 @@
       "derived": [],
       "needs_check": false,
       "retired": false,
-      "big_idea": "",
+      "big_idea": "A firm can buy an input once, sign a contract for it, or make it itself.",
       "analogy": null,
-      "visuals": [],
+      "visuals": [
+        {
+          "title": "Three ways to get an input",
+          "caption": "",
+          "source_ref": "be--session-10#4",
+          "kind": "compare",
+          "sides": [
+            {
+              "title": "Spot exchange",
+              "points": [
+                "Buyer and seller meet, exchange, go their separate ways"
+              ],
+              "tone": "a"
+            },
+            {
+              "title": "Contract",
+              "points": [
+                "Legal document",
+                "Extended relationship between buyer and seller"
+              ],
+              "tone": "b"
+            },
+            {
+              "title": "Vertical integration",
+              "points": [
+                "Shun other suppliers",
+                "Produce the input internally"
+              ],
+              "tone": "c"
+            }
+          ]
+        }
+      ],
       "worked": null,
-      "watch_out": [],
-      "memory_trick": "",
-      "exam_answer_md": ""
+      "watch_out": [
+        "Vertical integration here means making your **own input**. Do not confuse it with merging two competitors (that is horizontal)."
+      ],
+      "memory_trick": "**Buy it, bind it, or build it.**",
+      "exam_answer_md": "**Spot exchange:** the buyer and seller of an input meet, exchange, and then go their separate ways. **Contract:** a legal document that creates an extended relationship between a buyer and a seller. **Vertical integration:** a firm shuns other suppliers and chooses to produce an input internally."
     },
     {
       "id": "be-s10-procuring-inputs-c3",
       "heading": "Strengths and weaknesses of each method",
-      "explanation_md": "| Method | Good | Bad |\n|---|---|---|\n| Spot exchange | Specialization, avoids contracting costs and the costs of vertical integration | Possible **hold-up problem** |\n| Contract | Specialization, reduces opportunism, avoids skimping on specialized investments | **Costly in complex environments** |\n| Vertical integration | Reduces opportunism, avoids contracting costs | **Lost specialization**, may increase organizational costs |",
+      "explanation_md": "Every method trades something off.\n\n**Hold-up** means that once you depend on one supplier, they can suddenly demand a higher price because you have nowhere else to go.\n\n**Opportunism** is the general version: one side taking advantage of the other.",
       "example_ids": [],
       "key_terms": [],
       "exam_line": "Spot: hold-up risk. Contract: costly when complex. Integration: lose specialization.",
@@ -257,18 +373,66 @@
       "derived": [],
       "needs_check": false,
       "retired": false,
-      "big_idea": "",
+      "big_idea": "Each method has one big weakness: spot buying risks hold-up, contracts get costly when things are complex, and making it yourself loses specialization.",
       "analogy": null,
-      "visuals": [],
+      "visuals": [
+        {
+          "title": "Good and bad of each method",
+          "caption": "",
+          "source_ref": "be--session-10#5",
+          "kind": "matrix",
+          "row_title": "",
+          "col_title": "",
+          "rows": [
+            "Spot exchange",
+            "Contract",
+            "Vertical integration"
+          ],
+          "cols": [
+            "Good",
+            "Bad"
+          ],
+          "cells": [
+            [
+              "Specialization; avoids contracting and integration costs",
+              "Possible hold-up problem"
+            ],
+            [
+              "Specialization; reduces opportunism; no skimping on specialized investments",
+              "Costly in complex environments"
+            ],
+            [
+              "Reduces opportunism; avoids contracting costs",
+              "Lost specialization; may raise organizational costs"
+            ]
+          ],
+          "highlight": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              1
+            ]
+          ]
+        }
+      ],
       "worked": null,
-      "watch_out": [],
+      "watch_out": [
+        "Both contracts and vertical integration **reduce opportunism**; only spot exchange risks hold-up."
+      ],
       "memory_trick": "",
-      "exam_answer_md": ""
+      "exam_answer_md": "**Spot exchange:** specialization, avoids contracting costs and the costs of vertical integration; but possible hold-up problem. **Contracting:** specialization, reduces opportunism, avoids skimping on specialized investments; but costly in complex environments. **Vertical integration:** reduces opportunism, avoids contracting costs; but lost specialization and may increase organizational costs."
     },
     {
       "id": "be-s10-procuring-inputs-c4",
       "heading": "Transaction costs",
-      "explanation_md": "**Transaction costs** are the costs of acquiring an input **over and above the amount paid to the input supplier**. They include:\n\n- **Search costs**\n- **Negotiation costs**\n- **Other required investments or expenditures**\n\nSome transactions are **general** in nature, while others are **specific to a trading relationship**.",
+      "explanation_md": "The price on the invoice is not the whole cost. You also spend money and time **searching** for a supplier, **negotiating** the deal, and on **other investments** the deal needs.\n\nSome deals are **general** (anyone could supply you). Others are **specific** to one trading relationship, and those are the ones that cause trouble, as the next topic shows.",
       "example_ids": [],
       "key_terms": [
         {
@@ -331,13 +495,15 @@
       "derived": [],
       "needs_check": false,
       "retired": false,
-      "big_idea": "",
+      "big_idea": "Transaction costs are everything you spend to get an input beyond the price you pay the supplier.",
       "analogy": null,
       "visuals": [],
       "worked": null,
-      "watch_out": [],
+      "watch_out": [
+        "The price paid to the supplier is **not** a transaction cost; it is everything over and above it."
+      ],
       "memory_trick": "",
-      "exam_answer_md": ""
+      "exam_answer_md": "**Transaction costs** are the costs of acquiring an input over and above the amount paid to the input supplier. They include search costs, negotiation costs and other required investments or expenditures. Some transactions are general in nature, while others are specific to a trading relationship."
     }
   ],
   "flashcards": [

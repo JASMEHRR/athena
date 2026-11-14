@@ -24,7 +24,7 @@
     {
       "id": "be-s12m-shutdown-long-run-c1",
       "heading": "Losses and the shutdown rule",
-      "explanation_md": "If Pe is below ATC, **Profit = (Pe - ATC) x Qf* < 0**: a loss.\n\nA firm should **keep operating** (sustain short-run losses) if its **operating loss is less than its fixed costs**, because operating loses less than shutting down.\n\n**Decision rule:**\n\n- **Shut down when P < min AVC.**\n- **Continue as long as P ≥ min AVC.**\n\nSo the firm's **short-run supply curve** is its **MC curve above minimum AVC**.",
+      "explanation_md": "Sometimes the price falls below **ATC\\**: the firm makes a **loss\\**. Should it close?\n\nIf it closes, it still has to pay its **fixed costs\\** (rent, machines), so it loses all of them. If it keeps operating and the price covers its **variable costs\\**, every unit also chips in a little towards the fixed costs. So operating loses **less\\**.\n\n**The rule:**\n\n- **Keep operating\\** while **P ≥ min AVC\\**.\n- **Shut down\\** when **P < min AVC\\**.\n\nThat is why the firm's **short-run supply curve\\** is just its **MC curve above minimum AVC\\**.",
       "example_ids": [],
       "key_terms": [],
       "exam_line": "Shut down if P < min AVC; supply curve = MC above min AVC.",
@@ -113,18 +113,208 @@
       "derived": [],
       "needs_check": false,
       "retired": false,
-      "big_idea": "",
+      "big_idea": "A firm losing money should keep going as long as the price still covers its variable cost (P ≥ min AVC).",
       "analogy": null,
-      "visuals": [],
+      "visuals": [
+        {
+          "title": "Price below ATC but above AVC: keep operating",
+          "caption": "At Pe the firm loses the shaded box, but the price is still above AVC, so it covers its variable costs and loses less than its fixed costs.",
+          "source_ref": "be--session-12#11",
+          "kind": "plot",
+          "x_label": "Qf",
+          "y_label": "$",
+          "x_max": 10.0,
+          "y_max": 10.0,
+          "y_min": 0.0,
+          "x_ticks": [
+            {
+              "at": 5.6,
+              "label": "Qf*"
+            }
+          ],
+          "y_ticks": [
+            {
+              "at": 4.0,
+              "label": "Pe"
+            },
+            {
+              "at": 4.85,
+              "label": "ATC"
+            },
+            {
+              "at": 3.0,
+              "label": "min AVC"
+            }
+          ],
+          "lines": [
+            {
+              "points": [
+                [
+                  1.0,
+                  4.0
+                ],
+                [
+                  3.0,
+                  2.6
+                ],
+                [
+                  5.0,
+                  3.3
+                ],
+                [
+                  7.4,
+                  6.5
+                ],
+                [
+                  8.6,
+                  9.0
+                ]
+              ],
+              "label": "MC",
+              "label_at": "end",
+              "tone": "d",
+              "dashed": false,
+              "bold": false,
+              "curve": true
+            },
+            {
+              "points": [
+                [
+                  1.5,
+                  8.5
+                ],
+                [
+                  3.0,
+                  6.0
+                ],
+                [
+                  4.8,
+                  4.9
+                ],
+                [
+                  6.2,
+                  4.8
+                ],
+                [
+                  7.4,
+                  5.2
+                ],
+                [
+                  8.8,
+                  6.6
+                ]
+              ],
+              "label": "ATC",
+              "label_at": "end",
+              "tone": "a",
+              "dashed": false,
+              "bold": false,
+              "curve": true
+            },
+            {
+              "points": [
+                [
+                  1.0,
+                  6.0
+                ],
+                [
+                  2.5,
+                  3.6
+                ],
+                [
+                  4.0,
+                  3.0
+                ],
+                [
+                  6.0,
+                  3.4
+                ],
+                [
+                  8.6,
+                  5.2
+                ]
+              ],
+              "label": "AVC",
+              "label_at": "end",
+              "tone": "muted",
+              "dashed": false,
+              "bold": false,
+              "curve": true
+            },
+            {
+              "points": [
+                [
+                  0.0,
+                  4.0
+                ],
+                [
+                  9.5,
+                  4.0
+                ]
+              ],
+              "label": "Pe = Df = MR",
+              "label_at": "below",
+              "tone": "b",
+              "dashed": false,
+              "bold": true,
+              "curve": false
+            }
+          ],
+          "areas": [
+            {
+              "points": [
+                [
+                  0.0,
+                  4.0
+                ],
+                [
+                  5.6,
+                  4.0
+                ],
+                [
+                  5.6,
+                  4.85
+                ],
+                [
+                  0.0,
+                  4.85
+                ]
+              ],
+              "label": "Loss",
+              "tone": "d"
+            }
+          ],
+          "dots": [
+            {
+              "x": 5.6,
+              "y": 4.0,
+              "label": "",
+              "label_at": "above",
+              "guides": true
+            },
+            {
+              "x": 4.0,
+              "y": 3.0,
+              "label": "min AVC",
+              "label_at": "below",
+              "guides": false
+            }
+          ],
+          "notes": []
+        }
+      ],
       "worked": null,
-      "watch_out": [],
-      "memory_trick": "",
-      "exam_answer_md": ""
+      "watch_out": [
+        "The shutdown line is **minimum AVC**, not minimum ATC. Below ATC the firm makes a loss but may still operate.",
+        "Keep operating if the **operating loss is less than fixed costs**."
+      ],
+      "memory_trick": "**AVC is the floor.** Above it, stay open; below it, shut the door.",
+      "exam_answer_md": "A firm should continue to operate (sustain short-run losses) if its operating loss is less than its fixed costs.\n\n**Shut down when P < min AVC; continue while P ≥ min AVC.** Hence the firm's short-run supply curve is its **MC curve above minimum AVC\\**. (Draw MC, ATC, AVC with Pe between min AVC and ATC, and shade the loss.)"
     },
     {
       "id": "be-s12m-shutdown-long-run-c2",
       "heading": "Market supply",
-      "explanation_md": "The **market supply curve** is the **summation of each firm's supply at each price**: at any price, add the quantities firm 1 and firm 2 would supply.",
+      "explanation_md": "Pick a price. Ask each firm how much it would supply at that price, and **add the quantities\\**. Do that at every price and you get the **market supply curve\\**.\n\nBecause you add quantities sideways at the same price, this is a **horizontal sum\\**.",
       "example_ids": [],
       "key_terms": [],
       "exam_line": "Market supply = horizontal sum of the firms' supply curves.",
@@ -157,18 +347,46 @@
       "derived": [],
       "needs_check": false,
       "retired": false,
-      "big_idea": "",
+      "big_idea": "Market supply is just every firm's supply added up at each price.",
       "analogy": null,
-      "visuals": [],
+      "visuals": [
+        {
+          "title": "Building market supply",
+          "caption": "",
+          "source_ref": "be--session-12#14",
+          "kind": "flow",
+          "steps": [
+            {
+              "label": "Pick a price",
+              "note": "The same price for every firm"
+            },
+            {
+              "label": "Read each firm's quantity",
+              "note": "From S1 and S2"
+            },
+            {
+              "label": "Add the quantities",
+              "note": "That point is on SM"
+            },
+            {
+              "label": "Repeat at every price",
+              "note": "The points form SM"
+            }
+          ],
+          "cycle": false
+        }
+      ],
       "worked": null,
-      "watch_out": [],
+      "watch_out": [
+        "Add **quantities** at the same price, not prices at the same quantity."
+      ],
       "memory_trick": "",
-      "exam_answer_md": ""
+      "exam_answer_md": "The short-run market supply curve is the **summation of each individual firm's supply at each price\\** (a horizontal sum)."
     },
     {
       "id": "be-s12m-shutdown-long-run-c3",
       "heading": "Entry in the long run",
-      "explanation_md": "With **barriers to entry**, price takers' profits **persist**. In **perfect competition** there is **free entry**, so:\n\n1. Short-run profits lead to **entry**.\n2. Entry **increases market supply**, **drives down the market price** and increases market quantity.\n3. Each firm's **demand shifts down**.\n4. The firm **reduces output**.\n5. **Long-run profits are zero.**\n\n**Long-run competitive equilibrium:**\n\n| Condition | Meaning |\n|---|---|\n| P = MC | Socially efficient output |\n| P = minimum AC | Efficient plant size |\n| Zero profits | Firms earn just enough to offset their opportunity cost |",
+      "explanation_md": "If firms are making profit and anyone can enter, new firms **pour in\\**. This chain follows:\n\n1. Entry **shifts market supply right\\** (S to S\\*).\n2. The **market price falls\\** (Pe to Pe\\*).\n3. Each firm's flat demand line **drops\\** (Df to Df\\*).\n4. Each firm **cuts output\\** to where the new price meets MC.\n5. Entry stops only when **profit is zero\\**.\n\nAt that point three things are true: **P = MC\\** (socially efficient output), **P = minimum AC\\** (efficient plant size) and **zero profit\\** (firms earn just enough to cover their opportunity cost).\n\nIf there are **barriers to entry\\**, this never happens and profits **persist\\**.",
       "example_ids": [],
       "key_terms": [],
       "exam_line": "Profits attract entry, price falls, profits go to zero; long run: P = MC = minimum AC.",
@@ -265,13 +483,268 @@
       "derived": [],
       "needs_check": false,
       "retired": false,
-      "big_idea": "",
+      "big_idea": "Profits attract new firms, the price falls, and in the long run every firm earns exactly zero profit.",
       "analogy": null,
-      "visuals": [],
+      "visuals": [
+        {
+          "title": "Entry shifts market supply and lowers the price",
+          "caption": "Entry moves supply from S to S*, so the market price falls from Pe to Pe* and quantity rises.",
+          "source_ref": "be--session-12#16",
+          "kind": "plot",
+          "x_label": "QM",
+          "y_label": "$",
+          "x_max": 10.0,
+          "y_max": 10.0,
+          "y_min": 0.0,
+          "x_ticks": [],
+          "y_ticks": [
+            {
+              "at": 5.25,
+              "label": "Pe"
+            },
+            {
+              "at": 4.25,
+              "label": "Pe*"
+            }
+          ],
+          "lines": [
+            {
+              "points": [
+                [
+                  1.0,
+                  9.0
+                ],
+                [
+                  9.0,
+                  1.0
+                ]
+              ],
+              "label": "D",
+              "label_at": "end",
+              "tone": "a",
+              "dashed": false,
+              "bold": false,
+              "curve": false
+            },
+            {
+              "points": [
+                [
+                  1.0,
+                  1.5
+                ],
+                [
+                  8.0,
+                  8.5
+                ]
+              ],
+              "label": "S",
+              "label_at": "end",
+              "tone": "muted",
+              "dashed": false,
+              "bold": false,
+              "curve": false
+            },
+            {
+              "points": [
+                [
+                  3.0,
+                  1.5
+                ],
+                [
+                  10.0,
+                  8.5
+                ]
+              ],
+              "label": "S*",
+              "label_at": "end",
+              "tone": "d",
+              "dashed": false,
+              "bold": true,
+              "curve": false
+            }
+          ],
+          "areas": [],
+          "dots": [
+            {
+              "x": 4.75,
+              "y": 5.25,
+              "label": "",
+              "label_at": "above",
+              "guides": true
+            },
+            {
+              "x": 5.75,
+              "y": 4.25,
+              "label": "",
+              "label_at": "above",
+              "guides": true
+            }
+          ],
+          "notes": []
+        },
+        {
+          "title": "The firm after entry: zero profit",
+          "caption": "The firm's price line falls from Df to Df*, which just touches the bottom of AC. Output falls from Qf* to QL and profit is zero.",
+          "source_ref": "be--session-12#17",
+          "kind": "plot",
+          "x_label": "Q",
+          "y_label": "$",
+          "x_max": 10.0,
+          "y_max": 10.0,
+          "y_min": 0.0,
+          "x_ticks": [
+            {
+              "at": 6.2,
+              "label": "QL"
+            },
+            {
+              "at": 7.4,
+              "label": "Qf*"
+            }
+          ],
+          "y_ticks": [
+            {
+              "at": 6.5,
+              "label": "Pe"
+            },
+            {
+              "at": 4.8,
+              "label": "Pe*"
+            }
+          ],
+          "lines": [
+            {
+              "points": [
+                [
+                  1.0,
+                  4.0
+                ],
+                [
+                  3.0,
+                  2.6
+                ],
+                [
+                  5.0,
+                  3.3
+                ],
+                [
+                  6.2,
+                  4.8
+                ],
+                [
+                  7.4,
+                  6.5
+                ],
+                [
+                  8.6,
+                  9.0
+                ]
+              ],
+              "label": "MC",
+              "label_at": "end",
+              "tone": "d",
+              "dashed": false,
+              "bold": false,
+              "curve": true
+            },
+            {
+              "points": [
+                [
+                  1.5,
+                  8.5
+                ],
+                [
+                  3.0,
+                  6.0
+                ],
+                [
+                  4.8,
+                  4.9
+                ],
+                [
+                  6.2,
+                  4.8
+                ],
+                [
+                  7.4,
+                  5.2
+                ],
+                [
+                  8.8,
+                  6.6
+                ]
+              ],
+              "label": "AC",
+              "label_at": "end",
+              "tone": "a",
+              "dashed": false,
+              "bold": false,
+              "curve": true
+            },
+            {
+              "points": [
+                [
+                  0.0,
+                  6.5
+                ],
+                [
+                  9.5,
+                  6.5
+                ]
+              ],
+              "label": "Df",
+              "label_at": "end",
+              "tone": "muted",
+              "dashed": true,
+              "bold": false,
+              "curve": false
+            },
+            {
+              "points": [
+                [
+                  0.0,
+                  4.8
+                ],
+                [
+                  9.5,
+                  4.8
+                ]
+              ],
+              "label": "Df*",
+              "label_at": "end",
+              "tone": "b",
+              "dashed": false,
+              "bold": true,
+              "curve": false
+            }
+          ],
+          "areas": [],
+          "dots": [
+            {
+              "x": 6.2,
+              "y": 4.8,
+              "label": "",
+              "label_at": "above",
+              "guides": true
+            },
+            {
+              "x": 7.4,
+              "y": 6.5,
+              "label": "",
+              "label_at": "above",
+              "guides": false
+            }
+          ],
+          "notes": []
+        }
+      ],
       "worked": null,
-      "watch_out": [],
-      "memory_trick": "",
-      "exam_answer_md": ""
+      "watch_out": [
+        "Entry shifts the **market supply** curve, not the market demand curve.",
+        "In long-run equilibrium P equals **minimum** AC, which is why the plant size is efficient."
+      ],
+      "memory_trick": "**Profit is a magnet**: it pulls firms in until it is gone.",
+      "exam_answer_md": "Short-run profits lead to entry. Entry increases market supply, drives down the market price and increases market quantity. Each firm's demand shifts down, so it reduces output. **Long-run profits are zero.**\n\nLong-run competitive equilibrium: **P = MC\\** (socially efficient output), **P = minimum AC\\** (efficient plant size), **zero profits\\**. (Draw the market graph with S shifting to S\\*, and the firm's graph with Df falling to Df\\* at minimum AC.)"
     }
   ],
   "flashcards": [

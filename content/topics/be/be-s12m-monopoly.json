@@ -29,7 +29,7 @@
     {
       "id": "be-s12m-monopoly-c1",
       "heading": "The monopoly environment and its sources",
-      "explanation_md": "- A **single firm serves the relevant market**; most monopolies are **local**.\n- The firm's demand **is the market demand curve**.\n- The firm **controls price**, but price affects how much it sells.\n\n| Natural sources | Created sources |\n|---|---|\n| Economies of scale | Patents and other legal barriers (like licenses) |\n| Economies of scope | Tying contracts |\n| Cost complementarities | Exclusive contracts |",
+      "explanation_md": "A **monopoly\\** is a **single firm serving the relevant market\\**. Most real monopolies are **local\\**: the only cinema in a small town.\n\nBecause it is the only seller, **its demand curve is the market demand curve\\**. It controls the price, but a higher price means it sells less.\n\nWhere does the power come from?",
       "example_ids": [],
       "key_terms": [],
       "exam_line": "Natural: scale, scope, cost complementarities. Created: patents and licenses, tying contracts, exclusive contracts.",
@@ -118,18 +118,47 @@
       "derived": [],
       "needs_check": false,
       "retired": false,
-      "big_idea": "",
+      "big_idea": "A monopoly is the only seller in its market, and its power comes either from cost advantages or from legal and contract barriers.",
       "analogy": null,
-      "visuals": [],
+      "visuals": [
+        {
+          "title": "Sources of monopoly power",
+          "caption": "",
+          "source_ref": "be--session-12#21",
+          "kind": "compare",
+          "sides": [
+            {
+              "title": "Natural",
+              "points": [
+                "Economies of scale",
+                "Economies of scope",
+                "Cost complementarities"
+              ],
+              "tone": "a"
+            },
+            {
+              "title": "Created",
+              "points": [
+                "Patents and legal barriers (like licenses)",
+                "Tying contracts",
+                "Exclusive contracts"
+              ],
+              "tone": "c"
+            }
+          ]
+        }
+      ],
       "worked": null,
-      "watch_out": [],
-      "memory_trick": "",
-      "exam_answer_md": ""
+      "watch_out": [
+        "Patents are a **created** source, not a natural one."
+      ],
+      "memory_trick": "**Natural = cheaper to be big. Created = the law or a contract keeps others out.**",
+      "exam_answer_md": "A monopoly is a single firm serving the relevant market; its demand is the market demand curve.\n\n**Natural sources:** economies of scale, economies of scope, cost complementarities. **Created sources:** patents and other legal barriers (like licenses), tying contracts, exclusive contracts."
     },
     {
       "id": "be-s12m-monopoly-c2",
       "heading": "Marginal revenue and profit maximization",
-      "explanation_md": "Market power lets you **price above MC**, but the sky is not the limit: **how much you sell depends on the price you set**.\n\n- MR lies **below demand**. Where demand is **elastic**, MR > 0 and TR rises; at **unit elastic**, MR = 0 and TR peaks; where **inelastic**, MR < 0.\n- **Produce where MR = MC**, then **charge the price on the demand curve** for that quantity.\n- **Profit = (P - ATC) x Q**.\n\n**Useful formulae:** for linear demand **P = a - bQ**, **MR = a - 2bQ**. Alternatively **MR = P[(1 + E) / E]**.",
+      "explanation_md": "A monopoly can charge more than MC, but **not anything it likes\\**: the higher the price, the less it sells.\n\nTo sell one more unit it must **lower the price on every unit\\**, so **MR is below the demand curve\\**. For a straight-line demand **P = a - bQ\\**, MR has the same start but **twice the slope\\**: **MR = a - 2bQ\\**.\n\nMR and elasticity are linked: where demand is **elastic\\** MR is positive and revenue rises; at **unit elastic\\** MR = 0 and **total revenue is highest\\**; where **inelastic\\**, MR is negative.\n\n**The two-step rule:**\n\n1. Find the output where **MR = MC\\**.\n2. Go **up to the demand curve\\** to read the price.\n\nProfit = **(P - ATC) x Q**.",
       "example_ids": [],
       "key_terms": [],
       "exam_line": "MR = MC for quantity, demand curve for price. Linear demand P = a - bQ gives MR = a - 2bQ.",
@@ -223,21 +252,121 @@
         "be--session-12#26",
         "be--session-12#27"
       ],
-      "derived": [],
+      "derived": [
+        "25",
+        "50"
+      ],
       "needs_check": false,
       "retired": false,
-      "big_idea": "",
+      "big_idea": "A monopolist picks the quantity where MR = MC, then charges the highest price buyers will pay for that quantity.",
       "analogy": null,
-      "visuals": [],
+      "visuals": [
+        {
+          "title": "Demand and marginal revenue",
+          "caption": "MR starts at the same price as demand but falls twice as fast. Above the midpoint demand is elastic; at the midpoint MR = 0 and total revenue peaks; below it demand is inelastic.",
+          "source_ref": "be--session-12#24",
+          "kind": "plot",
+          "x_label": "Q",
+          "y_label": "P",
+          "x_max": 52.0,
+          "y_max": 105.0,
+          "y_min": 0.0,
+          "x_ticks": [
+            {
+              "at": 25.0,
+              "label": "25"
+            },
+            {
+              "at": 50.0,
+              "label": "50"
+            }
+          ],
+          "y_ticks": [
+            {
+              "at": 100.0,
+              "label": "100"
+            },
+            {
+              "at": 50.0,
+              "label": "50"
+            }
+          ],
+          "lines": [
+            {
+              "points": [
+                [
+                  0.0,
+                  100.0
+                ],
+                [
+                  50.0,
+                  0.0
+                ]
+              ],
+              "label": "Demand",
+              "label_at": "end",
+              "tone": "a",
+              "dashed": false,
+              "bold": true,
+              "curve": false
+            },
+            {
+              "points": [
+                [
+                  0.0,
+                  100.0
+                ],
+                [
+                  25.0,
+                  0.0
+                ]
+              ],
+              "label": "MR",
+              "label_at": "end",
+              "tone": "d",
+              "dashed": false,
+              "bold": false,
+              "curve": false
+            }
+          ],
+          "areas": [],
+          "dots": [
+            {
+              "x": 25.0,
+              "y": 50.0,
+              "label": "Unit elastic",
+              "label_at": "above",
+              "guides": true
+            }
+          ],
+          "notes": [
+            {
+              "x": 4.0,
+              "y": 92.0,
+              "text": "Elastic",
+              "tone": "b"
+            },
+            {
+              "x": 36.0,
+              "y": 30.0,
+              "text": "Inelastic",
+              "tone": "c"
+            }
+          ]
+        }
+      ],
       "worked": null,
-      "watch_out": [],
-      "memory_trick": "",
-      "exam_answer_md": ""
+      "watch_out": [
+        "MR for P = a - bQ is **a - 2bQ**: double the slope, keep the intercept.",
+        "Read the price off the **demand curve**, not the MR curve and not MC."
+      ],
+      "memory_trick": "**Quantity from MR = MC, price from demand.**",
+      "exam_answer_md": "A monopolist produces where **MR = MC\\** and charges the price on the demand curve that corresponds to that quantity. For linear demand P = a - bQ, **MR = a - 2bQ\\**; alternatively **MR = P[(1 + E)/E]**. Profit = (P - ATC) x Q. (Draw D, MR, MC and ATC; mark QM and PM and shade the profit box.)"
     },
     {
       "id": "be-s12m-monopoly-c3",
       "heading": "Worked example: P = 10 - Q",
-      "explanation_md": "Given **P = 10 - Q** and **C(Q) = 6 + 2Q**:\n\n- **MR = 10 - 2Q**, **MC = 2**\n- 10 - 2Q = 2, so **Q = 4 units**\n- **P = 10 - 4 = $6**\n- Profit = (6)(4) - (6 + 8) = **$10**",
+      "explanation_md": "This is the slide's example, drawn below with its own numbers. Notice how the profit box sits between the price **$6** and average cost at 4 units.",
       "example_ids": [
         "be-ex-monopoly-10-q"
       ],
@@ -300,21 +429,240 @@
       "source_refs": [
         "be--session-12#28"
       ],
-      "derived": [],
+      "derived": [
+        "3.5",
+        "24",
+        "14",
+        "8",
+        "ATC"
+      ],
       "needs_check": false,
       "retired": false,
-      "big_idea": "",
+      "big_idea": "With P = 10 - Q and MC = 2, the monopolist makes 4 units, charges $6 and earns $10.",
       "analogy": null,
-      "visuals": [],
-      "worked": null,
-      "watch_out": [],
+      "visuals": [
+        {
+          "title": "The slide's monopoly: P = 10 - Q, C(Q) = 6 + 2Q",
+          "caption": "MR = MC at Q = 4. Up to demand: P = $6. Average cost at 4 units is 3.5, so profit is (6 - 3.5) x 4 = $10.",
+          "source_ref": "be--session-12#28",
+          "kind": "plot",
+          "x_label": "Q",
+          "y_label": "$",
+          "x_max": 10.5,
+          "y_max": 10.5,
+          "y_min": 0.0,
+          "x_ticks": [
+            {
+              "at": 4.0,
+              "label": "4"
+            },
+            {
+              "at": 10.0,
+              "label": "10"
+            }
+          ],
+          "y_ticks": [
+            {
+              "at": 6.0,
+              "label": "6"
+            },
+            {
+              "at": 3.5,
+              "label": "3.5"
+            },
+            {
+              "at": 2.0,
+              "label": "2"
+            },
+            {
+              "at": 10.0,
+              "label": "10"
+            }
+          ],
+          "lines": [
+            {
+              "points": [
+                [
+                  0.0,
+                  10.0
+                ],
+                [
+                  10.0,
+                  0.0
+                ]
+              ],
+              "label": "D",
+              "label_at": "end",
+              "tone": "a",
+              "dashed": false,
+              "bold": true,
+              "curve": false
+            },
+            {
+              "points": [
+                [
+                  0.0,
+                  10.0
+                ],
+                [
+                  5.0,
+                  0.0
+                ]
+              ],
+              "label": "MR",
+              "label_at": "end",
+              "tone": "d",
+              "dashed": false,
+              "bold": false,
+              "curve": false
+            },
+            {
+              "points": [
+                [
+                  0.0,
+                  2.0
+                ],
+                [
+                  10.0,
+                  2.0
+                ]
+              ],
+              "label": "MC",
+              "label_at": "end",
+              "tone": "muted",
+              "dashed": false,
+              "bold": false,
+              "curve": false
+            },
+            {
+              "points": [
+                [
+                  1.0,
+                  8.0
+                ],
+                [
+                  2.0,
+                  5.0
+                ],
+                [
+                  3.0,
+                  4.0
+                ],
+                [
+                  4.0,
+                  3.5
+                ],
+                [
+                  6.0,
+                  3.0
+                ],
+                [
+                  8.0,
+                  2.75
+                ],
+                [
+                  10.0,
+                  2.6
+                ]
+              ],
+              "label": "Average cost",
+              "label_at": "end",
+              "tone": "c",
+              "dashed": false,
+              "bold": false,
+              "curve": true
+            }
+          ],
+          "areas": [
+            {
+              "points": [
+                [
+                  0.0,
+                  3.5
+                ],
+                [
+                  4.0,
+                  3.5
+                ],
+                [
+                  4.0,
+                  6.0
+                ],
+                [
+                  0.0,
+                  6.0
+                ]
+              ],
+              "label": "Profit",
+              "tone": "b"
+            }
+          ],
+          "dots": [
+            {
+              "x": 4.0,
+              "y": 6.0,
+              "label": "",
+              "label_at": "above",
+              "guides": true
+            },
+            {
+              "x": 4.0,
+              "y": 2.0,
+              "label": "",
+              "label_at": "above",
+              "guides": false
+            }
+          ],
+          "notes": []
+        }
+      ],
+      "worked": {
+        "question_md": "Given P = 10 - Q and C(Q) = 6 + 2Q. Find the optimal output, price and profit.",
+        "steps": [
+          {
+            "title": "MR",
+            "body_md": "P = 10 - Q, so with a = 10 and b = 1: **MR = 10 - 2Q\\**.",
+            "why": "MR = a - 2bQ for straight-line demand.",
+            "result": "MR = 10 - 2Q"
+          },
+          {
+            "title": "MC",
+            "body_md": "C(Q) = 6 + 2Q, so **MC = 2**.",
+            "why": "Each extra unit adds 2 to cost.",
+            "result": "MC = 2"
+          },
+          {
+            "title": "MR = MC",
+            "body_md": "10 - 2Q = 2, so 2Q = 8 and **Q = 4**.",
+            "why": "Profit is highest where the last unit adds as much revenue as cost.",
+            "result": "Q = 4"
+          },
+          {
+            "title": "Price from demand",
+            "body_md": "P = 10 - 4 = **$6**.",
+            "why": "Charge what buyers will pay for 4 units.",
+            "result": "P = $6"
+          },
+          {
+            "title": "Profit",
+            "body_md": "| Item | Working | Value |\n|---|---|---|\n| Revenue | 6 x 4 | 24 |\n| Cost | 6 + 2 x 4 | 14 |\n| Profit | 24 - 14 | **10** |",
+            "why": "Revenue minus cost.",
+            "result": "Profit = $10"
+          }
+        ],
+        "answer_md": "Q = 4 units, P = $6, profit = **$10**."
+      },
+      "watch_out": [
+        "Put Q back into the **demand** equation for price: P = 10 - 4, not MR.",
+        "Include the fixed cost of 6 in total cost."
+      ],
       "memory_trick": "",
-      "exam_answer_md": ""
+      "exam_answer_md": "MR = 10 - 2Q; MC = 2. Set MR = MC: 10 - 2Q = 2, so **Q = 4**. P = 10 - 4 = **$6**. Profit = PQ - C(Q) = (6)(4) - (6 + 8) = **$10**."
     },
     {
       "id": "be-s12m-monopoly-c4",
       "heading": "Long run, deadweight loss and the case for monopoly",
-      "explanation_md": "**Long run:** no adjustment, **unless the source of monopoly power is eliminated**.\n\n**Why government dislikes monopoly:** **P > MC**, so there is **too little output at too high a price**, creating a **deadweight loss of monopoly**.\n\n**Arguments for monopoly:** economies of scale, economies of scope and cost complementarities **may outweigh** the harm from market power, and monopoly **encourages innovation**.\n\n**Multi-plant decisions:** a monopoly with two plants sets **MR(Q) = MC1(Q1) = MC2(Q2)** and charges **P(Q)** where **Q = Q1 + Q2**.",
+      "explanation_md": "In the long run a monopoly **keeps its profit\\**: nothing changes **unless the source of its power is removed\\**.\n\nGovernments dislike this because **P > MC\\**: some buyers would happily pay more than it costs to make another unit, but the monopolist doesn't sell to them. Output is **too low\\** and the price **too high\\**. The value of those missing trades is the **deadweight loss of monopoly\\**.\n\nIn the slide's example, a competitive market would produce where demand meets MC (Q = 8), but the monopolist stops at 4.\n\n**The other side:** economies of scale, scope and cost complementarities can make a monopoly cheap enough to outweigh the harm, and monopoly profits **encourage innovation\\**.\n\n**Two plants:** a monopoly with two factories sets **MR = MC1 = MC2**, and charges the price for the total Q = Q1 + Q2.",
       "example_ids": [
         "be-ex-electricity-two-plants"
       ],
@@ -410,16 +758,145 @@
         "be--session-12#32",
         "be--session-12#33"
       ],
-      "derived": [],
+      "derived": [
+        "8"
+      ],
       "needs_check": false,
       "retired": false,
-      "big_idea": "",
+      "big_idea": "Monopoly makes too little at too high a price, and the lost trades are the deadweight loss.",
       "analogy": null,
-      "visuals": [],
+      "visuals": [
+        {
+          "title": "Deadweight loss of monopoly",
+          "caption": "The monopolist stops at 4 units where MR = MC. Between 4 and 8 units buyers value the good above MC, but those units are never made: the shaded triangle is the deadweight loss.",
+          "source_ref": "be--session-12#31",
+          "kind": "plot",
+          "x_label": "Q",
+          "y_label": "$",
+          "x_max": 10.5,
+          "y_max": 10.5,
+          "y_min": 0.0,
+          "x_ticks": [
+            {
+              "at": 4.0,
+              "label": "QM"
+            },
+            {
+              "at": 8.0,
+              "label": "8"
+            }
+          ],
+          "y_ticks": [
+            {
+              "at": 6.0,
+              "label": "PM"
+            },
+            {
+              "at": 2.0,
+              "label": "MC"
+            }
+          ],
+          "lines": [
+            {
+              "points": [
+                [
+                  0.0,
+                  10.0
+                ],
+                [
+                  10.0,
+                  0.0
+                ]
+              ],
+              "label": "D",
+              "label_at": "end",
+              "tone": "a",
+              "dashed": false,
+              "bold": true,
+              "curve": false
+            },
+            {
+              "points": [
+                [
+                  0.0,
+                  10.0
+                ],
+                [
+                  5.0,
+                  0.0
+                ]
+              ],
+              "label": "MR",
+              "label_at": "end",
+              "tone": "d",
+              "dashed": false,
+              "bold": false,
+              "curve": false
+            },
+            {
+              "points": [
+                [
+                  0.0,
+                  2.0
+                ],
+                [
+                  10.0,
+                  2.0
+                ]
+              ],
+              "label": "MC",
+              "label_at": "end",
+              "tone": "muted",
+              "dashed": false,
+              "bold": false,
+              "curve": false
+            }
+          ],
+          "areas": [
+            {
+              "points": [
+                [
+                  4.0,
+                  6.0
+                ],
+                [
+                  4.0,
+                  2.0
+                ],
+                [
+                  8.0,
+                  2.0
+                ]
+              ],
+              "label": "Deadweight loss",
+              "tone": "d"
+            }
+          ],
+          "dots": [
+            {
+              "x": 4.0,
+              "y": 6.0,
+              "label": "",
+              "label_at": "above",
+              "guides": true
+            },
+            {
+              "x": 8.0,
+              "y": 2.0,
+              "label": "",
+              "label_at": "above",
+              "guides": false
+            }
+          ],
+          "notes": []
+        }
+      ],
       "worked": null,
-      "watch_out": [],
-      "memory_trick": "",
-      "exam_answer_md": ""
+      "watch_out": [
+        "The deadweight loss triangle runs from **QM** out to where **demand meets MC**, not to where MR meets MC."
+      ],
+      "memory_trick": "**Monopoly: P > MC, so too few units, too high a price.**",
+      "exam_answer_md": "Under monopoly **P > MC\\**: too little output at too high a price, creating a **deadweight loss\\**. No long-run adjustment occurs unless the source of monopoly power is eliminated.\n\n**Arguments for monopoly:** economies of scale, scope and cost complementarities may outweigh the negative effects of market power; it encourages innovation. **Multi-plant rule:** MR(Q) = MC1(Q1) = MC2(Q2), with P = P(Q), Q = Q1 + Q2. (Draw D, MR, MC and shade the deadweight-loss triangle.)"
     }
   ],
   "flashcards": [

@@ -23,7 +23,7 @@
     {
       "id": "be-s11-scp-paradigm-c1",
       "heading": "Structure, conduct and performance",
-      "explanation_md": "Industry analysis has three parts:\n\n| Part | What it covers |\n|---|---|\n| **Market structure** | Number and size of firms, industry concentration, technological and cost conditions, demand conditions, ease of entry and exit |\n| **Conduct** | Pricing, advertising, R&D, merger activity |\n| **Performance** | Profitability, social welfare |",
+      "explanation_md": "Economists study an industry in three layers:\n\n- **Structure** is the shape of the market: how many firms and how big, how **concentrated**, the technology and costs, demand, and how easy it is to **enter or exit**.\n- **Conduct** is what firms **do**: pricing, advertising, R&D, mergers.\n- **Performance** is the **result**: profitability and social welfare.",
       "example_ids": [],
       "key_terms": [],
       "exam_line": "Structure: firms, concentration, technology, demand, entry. Conduct: pricing, advertising, R&D, mergers. Performance: profits and welfare.",
@@ -87,18 +87,58 @@
       "derived": [],
       "needs_check": false,
       "retired": false,
-      "big_idea": "",
+      "big_idea": "To understand an industry, look at how it is built (structure), how firms behave (conduct) and how well it does (performance).",
       "analogy": null,
-      "visuals": [],
+      "visuals": [
+        {
+          "title": "Three layers of industry analysis",
+          "caption": "",
+          "source_ref": "be--session-11#3",
+          "kind": "compare",
+          "sides": [
+            {
+              "title": "Structure",
+              "points": [
+                "Number and size of firms",
+                "Industry concentration",
+                "Technological and cost conditions",
+                "Demand conditions",
+                "Ease of entry and exit"
+              ],
+              "tone": "a"
+            },
+            {
+              "title": "Conduct",
+              "points": [
+                "Pricing",
+                "Advertising",
+                "R&D",
+                "Merger activity"
+              ],
+              "tone": "b"
+            },
+            {
+              "title": "Performance",
+              "points": [
+                "Profitability",
+                "Social welfare"
+              ],
+              "tone": "c"
+            }
+          ]
+        }
+      ],
       "worked": null,
-      "watch_out": [],
-      "memory_trick": "",
-      "exam_answer_md": ""
+      "watch_out": [
+        "Mergers are **conduct** (something firms do), even though they change structure."
+      ],
+      "memory_trick": "**Built, behave, result.**",
+      "exam_answer_md": "**Market structure:** number and size of firms, industry concentration, technological and cost conditions, demand conditions, ease of entry and exit. **Conduct:** pricing, advertising, R&D, merger activity. **Performance:** profitability, social welfare."
     },
     {
       "id": "be-s11-scp-paradigm-c2",
       "heading": "The SCP paradigm and the feedback critique",
-      "explanation_md": "- The **Structure-Conduct-Performance (SCP) paradigm** takes a **causal view**: market structure determines conduct, which determines performance.\n- The **feedback critique** says there is **no one-way causal link**: **conduct can affect market structure**, and **performance can affect conduct as well as market structure**.\n\nThe modern approach examines the **interrelationship** between structure, conduct and performance.",
+      "explanation_md": "The **SCP paradigm** takes a **causal view**: structure decides conduct, and conduct decides performance, in one direction.\n\nThe **feedback critique** says it is not one-way. A firm's **conduct** (say, a merger or heavy advertising) can **change the structure**. And **performance** (big profits) can change both conduct and structure, for example by attracting entrants.\n\nThe modern approach looks at all three **together**.",
       "example_ids": [],
       "key_terms": [],
       "exam_line": "SCP: structure causes conduct causes performance. Feedback critique: the arrows run both ways.",
@@ -158,18 +198,63 @@
       "derived": [],
       "needs_check": false,
       "retired": false,
-      "big_idea": "",
+      "big_idea": "The old view says structure drives behaviour drives results; the feedback critique says each one also pushes back on the others.",
       "analogy": null,
-      "visuals": [],
+      "visuals": [
+        {
+          "title": "SCP causal view",
+          "caption": "",
+          "source_ref": "be--session-11#4",
+          "kind": "flow",
+          "steps": [
+            {
+              "label": "Market structure",
+              "note": ""
+            },
+            {
+              "label": "Conduct",
+              "note": ""
+            },
+            {
+              "label": "Performance",
+              "note": ""
+            }
+          ],
+          "cycle": false
+        },
+        {
+          "title": "Feedback critique: it loops back",
+          "caption": "",
+          "source_ref": "be--session-11#4",
+          "kind": "flow",
+          "steps": [
+            {
+              "label": "Structure",
+              "note": "shapes conduct"
+            },
+            {
+              "label": "Conduct",
+              "note": "shapes performance, and can change structure"
+            },
+            {
+              "label": "Performance",
+              "note": "can change conduct and structure"
+            }
+          ],
+          "cycle": true
+        }
+      ],
       "worked": null,
-      "watch_out": [],
+      "watch_out": [
+        "Say clearly that the feedback critique means **no one-way causal link**."
+      ],
       "memory_trick": "",
-      "exam_answer_md": ""
+      "exam_answer_md": "The **Structure-Conduct-Performance paradigm** holds a causal view: market structure determines conduct, which determines performance. The **feedback critique** argues there is no one-way causal link: conduct can affect market structure, and market performance can affect conduct as well as market structure."
     },
     {
       "id": "be-s11-scp-paradigm-c3",
       "heading": "Five forces, technology and barriers to entry",
-      "explanation_md": "The **five forces** link to the SCP view of industry profits: **entry**, **power of input suppliers**, **power of buyers**, **industry rivalry**, and **substitutes and complements**. Together they shape the **level, growth and sustainability of industry profits**.\n\n**Technology**: some industries are **labor intensive**, some **capital intensive**, others combine both.\n\n**Barriers to entry**: **capital requirements**, **patents and copyrights**, **economies of scale**, **economies of scope**.\n\nComing next: managing under **perfect competition, monopoly, monopolistic competition and oligopoly**.",
+      "explanation_md": "The **five forces** connect to SCP by explaining the **level, growth and sustainability of industry profits**:\n\n1. **Entry** (entry costs, sunk costs, economies of scale, network effects, reputation, switching costs)\n2. **Power of input suppliers**\n3. **Power of buyers**\n4. **Industry rivalry**\n5. **Substitutes and complements**\n\n**Barriers to entry** on the slides: **capital requirements**, **patents and copyrights**, **economies of scale**, **economies of scope**.\n\nIndustries also differ in **technology**: some are **labor intensive**, some **capital intensive**, others use both.",
       "example_ids": [],
       "key_terms": [],
       "exam_line": "Barriers to entry: capital requirements, patents and copyrights, economies of scale, economies of scope.",
@@ -235,13 +320,79 @@
       "derived": [],
       "needs_check": false,
       "retired": false,
-      "big_idea": "",
+      "big_idea": "Five forces decide how much profit an industry can keep, and barriers to entry are what keep outsiders away.",
       "analogy": null,
-      "visuals": [],
+      "visuals": [
+        {
+          "title": "The five forces around industry profits",
+          "caption": "",
+          "source_ref": "be--session-11#5",
+          "kind": "tree",
+          "direction": "down",
+          "nodes": [
+            {
+              "id": "p",
+              "label": "Level, growth and sustainability of industry profits",
+              "parent": null,
+              "edge": "",
+              "shape": "box",
+              "value": "",
+              "cut": false
+            },
+            {
+              "id": "e",
+              "label": "Entry",
+              "parent": "p",
+              "edge": "",
+              "shape": "box",
+              "value": "",
+              "cut": false
+            },
+            {
+              "id": "s",
+              "label": "Power of input suppliers",
+              "parent": "p",
+              "edge": "",
+              "shape": "box",
+              "value": "",
+              "cut": false
+            },
+            {
+              "id": "b",
+              "label": "Power of buyers",
+              "parent": "p",
+              "edge": "",
+              "shape": "box",
+              "value": "",
+              "cut": false
+            },
+            {
+              "id": "r",
+              "label": "Industry rivalry",
+              "parent": "p",
+              "edge": "",
+              "shape": "box",
+              "value": "",
+              "cut": false
+            },
+            {
+              "id": "x",
+              "label": "Substitutes and complements",
+              "parent": "p",
+              "edge": "",
+              "shape": "box",
+              "value": "",
+              "cut": false
+            }
+          ]
+        }
+      ],
       "worked": null,
-      "watch_out": [],
+      "watch_out": [
+        "Barriers to entry list: capital, patents and copyrights, economies of **scale** and of **scope**. Do not add things that are not on the slide."
+      ],
       "memory_trick": "",
-      "exam_answer_md": ""
+      "exam_answer_md": "The five forces (entry, power of input suppliers, power of buyers, industry rivalry, substitutes and complements) determine the level, growth and sustainability of industry profits. Barriers to entry include capital requirements, patents and copyrights, economies of scale and economies of scope."
     }
   ],
   "flashcards": [

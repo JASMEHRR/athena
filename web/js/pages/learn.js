@@ -4,6 +4,7 @@ import { api } from "../api.js";
 import { openSlideModal, questionCard, refChips, renderSlide, slideFigures, startTracking, workedSteps } from "../components.js";
 import { add, banner, clear, el, empty, icon, md, pill, refLabel, toast } from "../ui.js";
 import { renderVisual } from "../visuals.js";
+import * as voice from "../narrator.js";
 
 let topicTitle = "Learn";
 export const title = () => topicTitle;
@@ -20,6 +21,7 @@ function stepsBar() {
 
 function showRef(ref) {
   if (state.panel && wide()) {
+    state.layout.classList.remove("panel-closed");
     state.panelRef = ref;
     renderSlide(state.panelBody, ref);
   } else {
@@ -138,12 +140,15 @@ async function markChunk(chunk, status) {
 function renderChunkStage() {
   const chunk = state.lesson.chunks[state.step];
   if (chunk.status === "new") markChunk(chunk, "seen");
-  // Side panel: the slide a picture redraws is the most useful one to have open beside it.
+  // Taught parts redraw the slide themselves, so the original slide opens only when tapped.
+  // Older parts (just words) still show the slide beside them.
   const panelRef = (chunk.visuals || []).find((v) => v.source_ref)?.source_ref || chunk.source_refs[0];
-  if (panelRef && state.panel && wide()) showRef(panelRef);
+  if (chunk.big_idea) state.layout.classList.add("panel-closed");
+  else if (panelRef && state.panel && wide()) showRef(panelRef);
 
   state.worked = null;
   const content = chunk.big_idea ? teachView(chunk, state.step) : chunkView(chunk, state.step);
+  if (voice.supported()) content.prepend(voiceBar(content));
   const checksBox = el("div", { class: "stack lg" });
   const actions = el("div", { class: "row wrap section" });
   let checkIndex = 0;
@@ -152,6 +157,7 @@ function renderChunkStage() {
   const goNext = () => { state.step += 1; draw(); };
 
   function showChecks() {
+    voice.stop();
     checking = true;
     clear(actions);
     const qs = chunk.checks;
@@ -194,6 +200,55 @@ function renderChunkStage() {
   };
   state.keys = null;
   return el("div", {}, content, actions, el("div", { class: "section" }, checksBox));
+}
+
+// The teacher voice: reads the part block by block, highlighting what it is saying.
+function voiceBlocks(content) {
+  const blocks = [];
+  const push = (node, text) => { const say = voice.speakable(text || node.textContent || ""); if (say) blocks.push({ node, say }); };
+  const big = content.querySelector(".big-idea p");
+  if (big) push(big);
+  const body = content.querySelector(":scope > .lesson");
+  if (body) {
+    for (const child of body.children) {
+      if (child.matches("ul, ol")) for (const li of child.children) push(li);
+      else if (child.querySelector("table")) {
+        const heads = [...child.querySelectorAll("th")].map((th) => th.textContent);
+        for (const tr of child.querySelectorAll("tbody tr")) {
+          push(tr, [...tr.children].map((td, i) => (heads[i] && i ? `${heads[i]}: ` : "") + td.textContent).join(". "));
+        }
+      } else push(child);
+    }
+  }
+  for (const fig of content.querySelectorAll(".tsec figure")) {
+    const cap = fig.querySelector("figcaption");
+    const title = fig.querySelector(".viz-title");
+    push(cap || fig, `Look at the picture${title ? `: ${title.textContent}` : ""}. ${cap ? cap.textContent : ""}`);
+  }
+  if (content.querySelector(".worked, .steps-box, .tsec .btn")) {
+    const anchor = [...content.querySelectorAll(".tsec")].find((n) => /step by step/i.test(n.textContent));
+    if (anchor) push(anchor.querySelector(".sec-h") || anchor, "Now work through the example step by step. Press Enter to reveal each step.");
+  }
+  return blocks;
+}
+
+function voiceBar(content) {
+  const btn = el("button", { class: "btn ghost small" }, icon("play"), "Listen");
+  const auto = el("input", { type: "checkbox" });
+  auto.checked = voice.autoOn();
+  const setLabel = (st) => { btn.lastChild.textContent = st === "playing" ? "Pause" : st === "paused" ? "Resume" : "Listen"; };
+  let started = false;
+  btn.addEventListener("click", () => {
+    if (voice.playing()) voice.pause();
+    else if (started) voice.resume();
+    else { started = true; voice.play(voiceBlocks(content), setLabel); }
+  });
+  auto.addEventListener("change", () => voice.setAuto(auto.checked));
+  if (auto.checked) {
+    setTimeout(() => { if (content.isConnected && !started) { started = true; voice.play(voiceBlocks(content), setLabel); } }, 400);
+  }
+  return el("div", { class: "voice-bar row wrap" }, btn,
+    el("label", { class: "small muted row" }, auto, "Read every part aloud"));
 }
 
 function renderExplainStage() {
@@ -311,6 +366,7 @@ function renderConfidenceStage() {
 }
 
 function draw() {
+  voice.stop();
   clear(state.left);
   state.left.append(header());
   const n = state.lesson.chunks.length;
@@ -338,7 +394,7 @@ export async function render(root, { args, query }) {
   layout.append(left, panel);
   const page = el("div", { class: "page" }, layout);
   root.append(page);
-  state = { lesson, step: 0, left, panel, panelBody, keys: null, enter: null, worked: null };
+  state = { lesson, step: 0, left, panel, panelBody, layout, keys: null, enter: null, worked: null };
 
   if (!lesson.chunks.length) {
     left.append(header(), empty("No lesson parts", "This topic has no lesson content yet."));
@@ -353,5 +409,6 @@ export async function render(root, { args, query }) {
 }
 
 export function cleanup() {
+  voice.stop();
   state = null;
 }

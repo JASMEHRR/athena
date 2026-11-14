@@ -18,7 +18,7 @@
     {
       "id": "be-s11-performance-c1",
       "heading": "Performance and the Dansby-Willig index",
-      "explanation_md": "**Performance** is the **profits and social welfare** that result in an industry.\n\n**Social Welfare = CS + PS** (consumer surplus plus producer surplus).\n\nThe **Dansby-Willig Performance Index** measures **by how much social welfare would improve** if firms in an industry **expanded output in a socially efficient manner**. A higher value means more room to improve.\n\nFrom the table: **Chemicals 0.67** is highest; **Textiles 0.38** is lowest.",
+      "explanation_md": "**Performance** is the **profits and social welfare** an industry produces.\n\n**Social welfare = CS + PS** (consumer surplus plus producer surplus).\n\nThe **Dansby-Willig Performance Index** measures **by how much social welfare would improve** if firms in the industry **expanded output in a socially efficient manner**. A **higher** number means more welfare is being left on the table, so the industry is performing **worse** for society.\n\n**Application:** regulators can use it to see which industries would gain most from more output. In the slide's table Chemicals (0.67) has the most room to improve and Textiles (0.38) the least.",
       "example_ids": [
         "be-ex-dansby-willig-table"
       ],
@@ -115,13 +115,69 @@
       "derived": [],
       "needs_check": false,
       "retired": false,
-      "big_idea": "",
+      "big_idea": "The Dansby-Willig index tells you how much society would gain if the industry produced more, efficiently.",
       "analogy": null,
-      "visuals": [],
+      "visuals": [
+        {
+          "title": "Dansby-Willig index from the slide",
+          "caption": "",
+          "source_ref": "be--session-11#19",
+          "kind": "matrix",
+          "row_title": "",
+          "col_title": "",
+          "rows": [
+            "Food",
+            "Textiles",
+            "Apparel",
+            "Paper",
+            "Chemicals",
+            "Petroleum",
+            "Rubber"
+          ],
+          "cols": [
+            "Dansby-Willig Index"
+          ],
+          "cells": [
+            [
+              "0.51"
+            ],
+            [
+              "0.38"
+            ],
+            [
+              "0.47"
+            ],
+            [
+              "0.63"
+            ],
+            [
+              "0.67"
+            ],
+            [
+              "0.63"
+            ],
+            [
+              "0.49"
+            ]
+          ],
+          "highlight": [
+            [
+              4,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ]
+        }
+      ],
       "worked": null,
-      "watch_out": [],
+      "watch_out": [
+        "A **higher** Dansby-Willig number means **more** room to improve welfare, not better performance."
+      ],
       "memory_trick": "",
-      "exam_answer_md": ""
+      "exam_answer_md": "**Performance** refers to the profits and social welfare that result in an industry; social welfare = CS + PS. The **Dansby-Willig Performance Index** measures by how much social welfare would improve if firms in an industry expanded output in a socially efficient manner. **Application:** it identifies industries where more output would raise welfare most (e.g. Chemicals 0.67 vs Textiles 0.38)."
     }
   ],
   "flashcards": [

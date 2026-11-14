@@ -19,7 +19,7 @@
     {
       "id": "be-s10-principal-agent-c1",
       "heading": "What the problem is",
-      "explanation_md": "The **principal-agent problem** occurs when the **principal cannot observe the effort of the agent**.\n\n- **Shareholders** (principal) cannot observe the effort of the **manager** (agent).\n- A **manager** (principal) cannot observe the effort of **workers** (agents).\n\nThe core issue: the principal **cannot tell whether a bad outcome came from the agent's low effort or from bad luck**. So principals must devise plans to **align the agent's interests with their own**.",
+      "explanation_md": "The **principal** is the one who hires; the **agent** is the one who does the work.\n\n- **Shareholders** (principal) cannot watch the **manager** (agent) all day.\n- A **manager** (principal) cannot watch every **worker** (agent).\n\nSo when profits fall, was it **low effort** or **bad luck**? The principal cannot tell. That is the **principal-agent problem**, and the fix is to **align the agent's interests** with the principal's.",
       "example_ids": [],
       "key_terms": [
         {
@@ -82,18 +82,42 @@
       "derived": [],
       "needs_check": false,
       "retired": false,
-      "big_idea": "",
+      "big_idea": "When the boss cannot see how hard someone works, a bad result could be laziness or bad luck, and the boss cannot tell which.",
       "analogy": null,
-      "visuals": [],
+      "visuals": [
+        {
+          "title": "The two principal-agent pairs",
+          "caption": "",
+          "source_ref": "be--session-10#12",
+          "kind": "flow",
+          "steps": [
+            {
+              "label": "Shareholders",
+              "note": "Principal"
+            },
+            {
+              "label": "Manager",
+              "note": "Agent of shareholders, principal of workers"
+            },
+            {
+              "label": "Workers",
+              "note": "Agents"
+            }
+          ],
+          "cycle": false
+        }
+      ],
       "worked": null,
-      "watch_out": [],
+      "watch_out": [
+        "The manager is an **agent** to shareholders but a **principal** to workers."
+      ],
       "memory_trick": "",
-      "exam_answer_md": ""
+      "exam_answer_md": "The **principal-agent problem** occurs when the principal cannot observe the effort of the agent (shareholders and managers; managers and workers). The principal cannot determine whether a bad outcome was the result of the agent's low effort or bad luck, so principals must devise plans to align the agents' interests with their own."
     },
     {
       "id": "be-s10-principal-agent-c2",
       "heading": "The fixes",
-      "explanation_md": "**Owners and managers**\n\n- **Internal incentives**: incentive contracts, **stock options**, **year-end bonuses**.\n- **External incentives**: **personal reputation** and the **potential for takeover**.\n\n**Managers and workers**\n\n- **Profit sharing**\n- **Revenue sharing**\n- **Piece rates**\n- **Time clocks and spot checks**",
+      "explanation_md": "A manager who holds **stock options** gains when the share price rises, just like the shareholders. A worker on **piece rates** earns more for every unit made. That is what aligning interests means.\n\nOutside pressure helps too: a manager who does badly risks their **reputation**, and a badly run firm can be **taken over**.",
       "example_ids": [],
       "key_terms": [],
       "exam_line": "For managers: stock options, bonuses, reputation, takeover threat. For workers: profit sharing, revenue sharing, piece rates, time clocks and spot checks.",
@@ -182,13 +206,51 @@
       "derived": [],
       "needs_check": false,
       "retired": false,
-      "big_idea": "",
+      "big_idea": "Pay people in ways that reward results, and add outside pressure, so their interest matches the boss's.",
       "analogy": null,
-      "visuals": [],
+      "visuals": [
+        {
+          "title": "Fixing the problem",
+          "caption": "",
+          "source_ref": "be--session-10#13",
+          "kind": "compare",
+          "sides": [
+            {
+              "title": "Owners and managers: internal",
+              "points": [
+                "Incentive contracts",
+                "Stock options",
+                "Year-end bonuses"
+              ],
+              "tone": "a"
+            },
+            {
+              "title": "Owners and managers: external",
+              "points": [
+                "Personal reputation",
+                "Potential for takeover"
+              ],
+              "tone": "c"
+            },
+            {
+              "title": "Managers and workers",
+              "points": [
+                "Profit sharing",
+                "Revenue sharing",
+                "Piece rates",
+                "Time clocks and spot checks"
+              ],
+              "tone": "b"
+            }
+          ]
+        }
+      ],
       "worked": null,
-      "watch_out": [],
+      "watch_out": [
+        "Reputation and takeover are **external** incentives; stock options and bonuses are **internal**."
+      ],
       "memory_trick": "",
-      "exam_answer_md": ""
+      "exam_answer_md": "**Owners and managers:** internal incentives (incentive contracts, stock options, year-end bonuses) and external incentives (personal reputation, potential for takeover). **Managers and workers:** profit sharing, revenue sharing, piece rates, time clocks and spot checks."
     }
   ],
   "flashcards": [

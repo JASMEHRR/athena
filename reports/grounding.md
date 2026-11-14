@@ -1,10 +1,10 @@
 # Grounding report
 
-Generated 2026-11-14 07:57. Checked 9555 items against the slides they cite.
+Generated 2026-11-14 08:25. Checked 9555 items against the slides they cite.
 
 - Failures (visible items with a name or number not on the cited slides): **0**
 - Hidden items (needs_check, not shown in the app): 0
-- Items using derived numbers (worked answers): 549
+- Items using derived numbers (worked answers): 555
 
 Whole numbers 0 to 10 are not checked (list counts).
 
@@ -27,9 +27,12 @@ None.
 - question `aib-s34-ai-phases-q-4aa0d5c5`: 1,420, 1,800, 15.27, 6.45
 - question `aib-s45-ani-systems-market-q-04efa548`: 10.02, 131, 47.35, 6.46
 - question `aib-s45-ani-systems-market-q-73d87deb`: 2.125
+- chunk `be-s11-concentration-c1`: 0.2, 2,500, 50%, 500
+- chunk `be-s11-concentration-c2`: 0.04, 0.36, 0.44, 0.6, 30, 4,400, 50
 - check question `be-s11-concentration-q-cf2d00df`: 800
 - check question `be-s11-concentration-q-52e55a5b`: 50
 - check question `be-s11-rothschild-lerner-q-da5e3a9a`: 0.5
+- chunk `be-s11-rothschild-lerner-c3`: 0.80
 - check question `be-s11-rothschild-lerner-q-137c9169`: 0.80
 - chunk `be-s12-calculus-optimization-c3`: 1,000, 200
 - check question `be-s12-calculus-optimization-q-80289fea`: 1,000, 200
@@ -72,9 +75,12 @@ None.
 - question `be-s12-pv-of-series-q-178b539f`: 3,000
 - question `be-s12-time-value-q-b82452be`: 1.10
 - question `be-s12-time-value-q-ac76247b`: 1.10
+- chunk `be-s12m-monopoly-c2`: 25
+- chunk `be-s12m-monopoly-c3`: 14, 24, 3.5
 - check question `be-s12m-monopoly-q-92e4db87`: 14, 24
 - chunk `be-s12m-perfect-competition-c3`: 30, 50
 - check question `be-s12m-perfect-competition-q-92e4db87`: 50
+- chunk `be-s12m-synthesizing-example-c2`: 525, 900
 - check question `be-s12m-synthesizing-example-q-b8a01bea`: 50
 - check question `be-s12m-synthesizing-example-q-c902c488`: 525, 900
 - question `be-s12m-synthesizing-example-q-5bf1855f`: 400, 900
