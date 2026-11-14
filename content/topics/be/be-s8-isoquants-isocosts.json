@@ -94,13 +94,83 @@
       "derived": [],
       "needs_check": false,
       "retired": false,
-      "big_idea": "",
+      "big_idea": "An isoquant joins every mix of machines and workers that makes the same output; its slope is the MRTS.",
       "analogy": null,
-      "visuals": [],
+      "visuals": [
+        {
+          "title": "An isoquant: same output, different mixes",
+          "caption": "Moving down the curve swaps capital for labour. It is steep at the top and flat at the bottom: the MRTS diminishes.",
+          "source_ref": "be--session-8#15",
+          "kind": "plot",
+          "x_label": "L",
+          "y_label": "K",
+          "x_max": 10.0,
+          "y_max": 10.0,
+          "y_min": 0.0,
+          "x_ticks": [],
+          "y_ticks": [],
+          "lines": [
+            {
+              "points": [
+                [
+                  1.7,
+                  9.4
+                ],
+                [
+                  2.5,
+                  6.4
+                ],
+                [
+                  4.0,
+                  4.0
+                ],
+                [
+                  6.0,
+                  2.67
+                ],
+                [
+                  8.0,
+                  2.0
+                ],
+                [
+                  9.8,
+                  1.63
+                ]
+              ],
+              "label": "Q",
+              "label_at": "end",
+              "tone": "a",
+              "dashed": false,
+              "bold": true,
+              "curve": true
+            }
+          ],
+          "areas": [],
+          "dots": [
+            {
+              "x": 2.5,
+              "y": 6.4,
+              "label": "A",
+              "label_at": "above",
+              "guides": false
+            },
+            {
+              "x": 6.0,
+              "y": 2.67,
+              "label": "B",
+              "label_at": "above",
+              "guides": false
+            }
+          ],
+          "notes": []
+        }
+      ],
       "worked": null,
-      "watch_out": [],
+      "watch_out": [
+        "MRTS_KL = MPL / MPK: labour's product goes on **top**."
+      ],
       "memory_trick": "",
-      "exam_answer_md": ""
+      "exam_answer_md": "An **isoquant** defines the combinations of inputs (K, L) that yield the same level of output; its shape shows the degree of substitutability. The **MRTS** is the rate at which two inputs are substituted while maintaining the same output: **MRTS_KL = MPL / MPK**."
     },
     {
       "id": "be-s8-isoquants-isocosts-c2",
@@ -193,13 +263,269 @@
       "derived": [],
       "needs_check": false,
       "retired": false,
-      "big_idea": "",
+      "big_idea": "Straight isoquants mean perfect swaps, L-shapes mean a fixed recipe, and bowed curves mean swapping gets harder.",
       "analogy": null,
-      "visuals": [],
+      "visuals": [
+        {
+          "title": "Linear: perfect substitutes",
+          "caption": "Straight lines: K and L swap at the same rate everywhere.",
+          "source_ref": "be--session-8#16",
+          "kind": "plot",
+          "x_label": "L",
+          "y_label": "K",
+          "x_max": 10.0,
+          "y_max": 10.0,
+          "y_min": 0.0,
+          "x_ticks": [],
+          "y_ticks": [],
+          "lines": [
+            {
+              "points": [
+                [
+                  0.0,
+                  4.0
+                ],
+                [
+                  5.0,
+                  0.0
+                ]
+              ],
+              "label": "Q1",
+              "label_at": "end",
+              "tone": "a",
+              "dashed": false,
+              "bold": false,
+              "curve": false
+            },
+            {
+              "points": [
+                [
+                  0.0,
+                  6.0
+                ],
+                [
+                  7.5,
+                  0.0
+                ]
+              ],
+              "label": "Q2",
+              "label_at": "end",
+              "tone": "a",
+              "dashed": false,
+              "bold": false,
+              "curve": false
+            },
+            {
+              "points": [
+                [
+                  0.0,
+                  8.0
+                ],
+                [
+                  10.0,
+                  0.0
+                ]
+              ],
+              "label": "Q3",
+              "label_at": "end",
+              "tone": "a",
+              "dashed": false,
+              "bold": true,
+              "curve": false
+            }
+          ],
+          "areas": [],
+          "dots": [],
+          "notes": []
+        },
+        {
+          "title": "Leontief: perfect complements",
+          "caption": "L-shapes: extra of one input without the other adds nothing.",
+          "source_ref": "be--session-8#16",
+          "kind": "plot",
+          "x_label": "L",
+          "y_label": "K",
+          "x_max": 10.0,
+          "y_max": 10.0,
+          "y_min": 0.0,
+          "x_ticks": [],
+          "y_ticks": [],
+          "lines": [
+            {
+              "points": [
+                [
+                  2.0,
+                  9.0
+                ],
+                [
+                  2.0,
+                  2.0
+                ],
+                [
+                  9.0,
+                  2.0
+                ]
+              ],
+              "label": "Q1",
+              "label_at": "end",
+              "tone": "c",
+              "dashed": false,
+              "bold": false,
+              "curve": false
+            },
+            {
+              "points": [
+                [
+                  4.0,
+                  9.0
+                ],
+                [
+                  4.0,
+                  4.0
+                ],
+                [
+                  9.0,
+                  4.0
+                ]
+              ],
+              "label": "Q2",
+              "label_at": "end",
+              "tone": "c",
+              "dashed": false,
+              "bold": false,
+              "curve": false
+            },
+            {
+              "points": [
+                [
+                  6.0,
+                  9.0
+                ],
+                [
+                  6.0,
+                  6.0
+                ],
+                [
+                  9.0,
+                  6.0
+                ]
+              ],
+              "label": "Q3",
+              "label_at": "end",
+              "tone": "c",
+              "dashed": false,
+              "bold": true,
+              "curve": false
+            }
+          ],
+          "areas": [],
+          "dots": [],
+          "notes": []
+        },
+        {
+          "title": "Cobb-Douglas: diminishing MRTS",
+          "caption": "Bowed curves: the less you have of one input, the more of the other you need to replace it.",
+          "source_ref": "be--session-8#17",
+          "kind": "plot",
+          "x_label": "L",
+          "y_label": "K",
+          "x_max": 10.0,
+          "y_max": 10.0,
+          "y_min": 0.0,
+          "x_ticks": [],
+          "y_ticks": [],
+          "lines": [
+            {
+              "points": [
+                [
+                  1.0,
+                  6.0
+                ],
+                [
+                  2.0,
+                  3.0
+                ],
+                [
+                  3.0,
+                  2.0
+                ],
+                [
+                  6.0,
+                  1.0
+                ]
+              ],
+              "label": "Q1",
+              "label_at": "end",
+              "tone": "b",
+              "dashed": false,
+              "bold": false,
+              "curve": true
+            },
+            {
+              "points": [
+                [
+                  1.6,
+                  9.4
+                ],
+                [
+                  3.0,
+                  5.0
+                ],
+                [
+                  5.0,
+                  3.0
+                ],
+                [
+                  9.4,
+                  1.6
+                ]
+              ],
+              "label": "Q2",
+              "label_at": "end",
+              "tone": "b",
+              "dashed": false,
+              "bold": false,
+              "curve": true
+            },
+            {
+              "points": [
+                [
+                  3.0,
+                  9.8
+                ],
+                [
+                  5.0,
+                  5.9
+                ],
+                [
+                  7.0,
+                  4.2
+                ],
+                [
+                  9.8,
+                  3.0
+                ]
+              ],
+              "label": "Q3",
+              "label_at": "end",
+              "tone": "b",
+              "dashed": false,
+              "bold": true,
+              "curve": true
+            }
+          ],
+          "areas": [],
+          "dots": [],
+          "notes": []
+        }
+      ],
       "worked": null,
-      "watch_out": [],
+      "watch_out": [
+        "Leontief isoquants have **no MRTS** (no substitution along them).",
+        "Linear isoquants have a **constant** MRTS = b/a."
+      ],
       "memory_trick": "",
-      "exam_answer_md": ""
+      "exam_answer_md": "**Linear isoquants:** capital and labour are perfect substitutes; MRTS_KL = b/a (constant). **Leontief isoquants:** perfect complements, fixed proportions, no substitution (L-shaped). **Cobb-Douglas isoquants:** inputs not perfectly substitutable; diminishing MRTS. (Draw all three.)"
     },
     {
       "id": "be-s8-isoquants-isocosts-c3",
@@ -293,13 +619,110 @@
       "derived": [],
       "needs_check": false,
       "retired": false,
-      "big_idea": "",
+      "big_idea": "An isocost line joins every mix of workers and machines that costs the same; its slope is the wage over the rental rate.",
       "analogy": null,
-      "visuals": [],
+      "visuals": [
+        {
+          "title": "Isocost lines",
+          "caption": "Each line is one total cost. Lines farther out cost more (C1 > C0). A cheaper wage swings the labour end outwards.",
+          "source_ref": "be--session-8#19",
+          "kind": "plot",
+          "x_label": "L",
+          "y_label": "K",
+          "x_max": 10.0,
+          "y_max": 10.0,
+          "y_min": 0.0,
+          "x_ticks": [
+            {
+              "at": 4.0,
+              "label": "C0/w0"
+            },
+            {
+              "at": 6.0,
+              "label": "C1/w0"
+            },
+            {
+              "at": 8.0,
+              "label": "C0/w1"
+            }
+          ],
+          "y_ticks": [
+            {
+              "at": 4.0,
+              "label": "C0/r"
+            },
+            {
+              "at": 6.0,
+              "label": "C1/r"
+            }
+          ],
+          "lines": [
+            {
+              "points": [
+                [
+                  0.0,
+                  4.0
+                ],
+                [
+                  4.0,
+                  0.0
+                ]
+              ],
+              "label": "C0",
+              "label_at": "end",
+              "tone": "a",
+              "dashed": false,
+              "bold": false,
+              "curve": false
+            },
+            {
+              "points": [
+                [
+                  0.0,
+                  6.0
+                ],
+                [
+                  6.0,
+                  0.0
+                ]
+              ],
+              "label": "C1",
+              "label_at": "end",
+              "tone": "a",
+              "dashed": false,
+              "bold": true,
+              "curve": false
+            },
+            {
+              "points": [
+                [
+                  0.0,
+                  4.0
+                ],
+                [
+                  8.0,
+                  0.0
+                ]
+              ],
+              "label": "lower wage",
+              "label_at": "mid",
+              "tone": "b",
+              "dashed": true,
+              "bold": false,
+              "curve": false
+            }
+          ],
+          "areas": [],
+          "dots": [],
+          "notes": []
+        }
+      ],
       "worked": null,
-      "watch_out": [],
+      "watch_out": [
+        "The capital intercept is C/r and the labour intercept is C/w; the slope is **-w/r**."
+      ],
       "memory_trick": "",
-      "exam_answer_md": ""
+      "exam_answer_md": "An **isocost** line shows the combinations of inputs that cost the same: **wL + rK = C**, or K = (1/r)C - (w/r)L. Isocosts farther from the origin mean higher costs; a change in an input price changes the slope of the isocost. (Draw C0 and C1, and the line swinging out when w falls.)"
     }
   ],
   "flashcards": [

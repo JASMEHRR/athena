@@ -89,13 +89,88 @@
       "derived": [],
       "needs_check": false,
       "retired": false,
-      "big_idea": "",
+      "big_idea": "In the long run, average cost first falls as the firm grows (economies of scale), then rises when it gets too big (diseconomies).",
       "analogy": null,
-      "visuals": [],
+      "visuals": [
+        {
+          "title": "The long-run average cost curve",
+          "caption": "LRAC falls to Q* (economies of scale), then rises (diseconomies of scale).",
+          "source_ref": "be--session-8#38",
+          "kind": "plot",
+          "x_label": "Q",
+          "y_label": "$",
+          "x_max": 10.0,
+          "y_max": 10.0,
+          "y_min": 0.0,
+          "x_ticks": [
+            {
+              "at": 5.0,
+              "label": "Q*"
+            }
+          ],
+          "y_ticks": [],
+          "lines": [
+            {
+              "points": [
+                [
+                  0.8,
+                  8.8
+                ],
+                [
+                  2.5,
+                  5.2
+                ],
+                [
+                  5.0,
+                  3.6
+                ],
+                [
+                  7.5,
+                  5.0
+                ],
+                [
+                  9.4,
+                  7.8
+                ]
+              ],
+              "label": "LRAC",
+              "label_at": "end",
+              "tone": "a",
+              "dashed": false,
+              "bold": true,
+              "curve": true
+            }
+          ],
+          "areas": [],
+          "dots": [
+            {
+              "x": 5.0,
+              "y": 3.6,
+              "label": "",
+              "label_at": "above",
+              "guides": true
+            }
+          ],
+          "notes": [
+            {
+              "x": 0.8,
+              "y": 2.3,
+              "text": "Economies of scale",
+              "tone": "b"
+            },
+            {
+              "x": 5.6,
+              "y": 2.3,
+              "text": "Diseconomies",
+              "tone": "d"
+            }
+          ]
+        }
+      ],
       "worked": null,
       "watch_out": [],
       "memory_trick": "",
-      "exam_answer_md": ""
+      "exam_answer_md": "The **LRAC** curve defines the minimum average cost of producing alternative levels of output, allowing for optimal selection of both fixed and variable factors. LRAC falls up to Q* (**economies of scale**) and rises after Q* (**diseconomies of scale**). (Draw the U-shaped LRAC.)"
     },
     {
       "id": "be-s8-scale-and-scope-c2",
@@ -161,13 +236,43 @@
       "derived": [],
       "needs_check": false,
       "retired": false,
-      "big_idea": "",
+      "big_idea": "Getting bigger saves money through specialisation, bulk buying and spreading fixed costs, until the firm gets too big to manage.",
       "analogy": null,
-      "visuals": [],
+      "visuals": [
+        {
+          "title": "Why LRAC falls, then rises",
+          "caption": "",
+          "source_ref": "be--session-8#39",
+          "kind": "compare",
+          "sides": [
+            {
+              "title": "Economies of scale",
+              "points": [
+                "Specialisation and division of labour",
+                "Better use of machinery",
+                "Bulk purchasing discounts",
+                "Spreading fixed and setup costs",
+                "Managerial and technical efficiencies"
+              ],
+              "tone": "b"
+            },
+            {
+              "title": "Diseconomies of scale",
+              "points": [
+                "Coordination difficulties",
+                "Bureaucracy, slower decisions",
+                "Hard to monitor",
+                "Congestion and complexity"
+              ],
+              "tone": "d"
+            }
+          ]
+        }
+      ],
       "worked": null,
       "watch_out": [],
       "memory_trick": "",
-      "exam_answer_md": ""
+      "exam_answer_md": "Economies of scale arise from specialisation and division of labour, better use of machinery, bulk purchasing, spreading fixed costs and managerial efficiencies. Diseconomies of scale arise from coordination difficulties, bureaucracy, difficulty monitoring a very large organisation, and congestion."
     },
     {
       "id": "be-s8-scale-and-scope-c3",
@@ -245,13 +350,15 @@
       "derived": [],
       "needs_check": false,
       "retired": false,
-      "big_idea": "",
+      "big_idea": "Economies of scope: making two things together is cheaper than making them separately.",
       "analogy": null,
       "visuals": [],
       "worked": null,
-      "watch_out": [],
+      "watch_out": [
+        "The sign: C(Q1, 0) + C(0, Q2) **>** C(Q1, Q2) means scope economies exist."
+      ],
       "memory_trick": "",
-      "exam_answer_md": ""
+      "exam_answer_md": "A multi-product cost function C(Q1, Q2) is the cost of producing Q1 and Q2 together. **Economies of scope** exist when **C(Q1, 0) + C(0, Q2) > C(Q1, Q2)**: it is cheaper to produce the outputs jointly. Example: Time-Warner producing Internet connections and Instant Messaging services together."
     },
     {
       "id": "be-s8-scale-and-scope-c4",
@@ -353,13 +460,38 @@
       "derived": [],
       "needs_check": false,
       "retired": false,
-      "big_idea": "",
+      "big_idea": "Cost complementarity: making more of one good makes the other cheaper at the margin, which happens when a is negative.",
       "analogy": null,
       "visuals": [],
-      "worked": null,
-      "watch_out": [],
+      "worked": {
+        "question_md": "C(Q1, Q2) = 90 - 2Q1Q2 + (Q1)² + (Q2)². Is there cost complementarity? Find MC1.",
+        "steps": [
+          {
+            "title": "Match the form",
+            "body_md": "f + aQ1Q2 + (Q1)² + (Q2)², so **f = 90** and **a = -2**.",
+            "why": "Read the coefficients off the quadratic form.",
+            "result": "a = -2"
+          },
+          {
+            "title": "Complementarity",
+            "body_md": "a = -2 < 0, so **cost complementarity exists**.",
+            "why": "The rule is a < 0.",
+            "result": "Yes"
+          },
+          {
+            "title": "MC1",
+            "body_md": "MC1 = aQ2 + 2Q1 = **-2Q2 + 2Q1**.",
+            "why": "Differentiate with respect to Q1.",
+            "result": "MC1 = -2Q2 + 2Q1"
+          }
+        ],
+        "answer_md": "Cost complementarity exists (a = -2 < 0); MC1 = -2Q2 + 2Q1."
+      },
+      "watch_out": [
+        "Complementarity needs **a < 0**; scope needs **f > aQ1Q2**. Two different conditions."
+      ],
       "memory_trick": "",
-      "exam_answer_md": ""
+      "exam_answer_md": "**Cost complementarity:** the marginal cost of one output falls as the other increases, ΔMC1/ΔQ2 < 0 (e.g. cow hides and steaks). For C(Q1,Q2) = f + aQ1Q2 + (Q1)² + (Q2)²: MC1 = aQ2 + 2Q1; complementarity if **a < 0**; economies of scope if **f > aQ1Q2**. For C = 90 - 2Q1Q2 + (Q1)² + (Q2)², a = -2 < 0, so complementarity exists."
     }
   ],
   "flashcards": [

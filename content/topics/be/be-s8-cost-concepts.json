@@ -81,13 +81,40 @@
       "derived": [],
       "needs_check": false,
       "retired": false,
-      "big_idea": "",
+      "big_idea": "In the short run some costs are stuck; in the long run every cost can change.",
       "analogy": null,
-      "visuals": [],
+      "visuals": [
+        {
+          "title": "Short run vs long run costs",
+          "caption": "",
+          "source_ref": "be--session-8#23",
+          "kind": "compare",
+          "sides": [
+            {
+              "title": "Short run",
+              "points": [
+                "Fixed costs (FC)",
+                "Sunk costs",
+                "Variable costs (VC)",
+                "Total costs (TC)"
+              ],
+              "tone": "a"
+            },
+            {
+              "title": "Long run",
+              "points": [
+                "All costs are variable",
+                "No fixed costs"
+              ],
+              "tone": "b"
+            }
+          ]
+        }
+      ],
       "worked": null,
       "watch_out": [],
       "memory_trick": "",
-      "exam_answer_md": ""
+      "exam_answer_md": "Short-run costs: fixed costs (FC), sunk costs, short-run variable costs (VC), short-run total costs (TC). Long-run costs: all costs are variable; there are no fixed costs."
     },
     {
       "id": "be-s8-cost-concepts-c2",
@@ -184,13 +211,15 @@
       "derived": [],
       "needs_check": false,
       "retired": false,
-      "big_idea": "",
+      "big_idea": "Total cost = variable cost + fixed cost; and money already spent and gone (sunk) should not affect today's decision.",
       "analogy": null,
       "visuals": [],
       "worked": null,
-      "watch_out": [],
-      "memory_trick": "",
-      "exam_answer_md": ""
+      "watch_out": [
+        "Fixed cost and sunk cost are not the same: fixed cost does not change with output; sunk cost is **lost forever** once paid."
+      ],
+      "memory_trick": "**Sunk is sunk: don't cry over it, don't count it.**",
+      "exam_answer_md": "Short-run total cost **C(Q) = VC(Q) + FC**. Variable cost changes with output; fixed cost does not. A **sunk cost** is forever lost after it has been paid, so decision makers should ignore sunk costs to maximize profits or minimize losses."
     },
     {
       "id": "be-s8-cost-concepts-c3",
@@ -276,13 +305,196 @@
       "derived": [],
       "needs_check": false,
       "retired": false,
-      "big_idea": "",
+      "big_idea": "Divide each cost by Q to get its average; MC is the extra cost of one more unit, and it cuts AVC and ATC at their lowest points.",
       "analogy": null,
-      "visuals": [],
+      "visuals": [
+        {
+          "title": "AFC, AVC, ATC and MC from the slide's table",
+          "caption": "AFC keeps falling. AVC and ATC are U-shaped with ATC above AVC. MC turns up first and passes through the bottom of AVC, then the bottom of ATC.",
+          "source_ref": "be--session-8#30",
+          "kind": "plot",
+          "x_label": "Q",
+          "y_label": "₹",
+          "x_max": 6.5,
+          "y_max": 170.0,
+          "y_min": 0.0,
+          "x_ticks": [
+            {
+              "at": 1.0,
+              "label": ""
+            },
+            {
+              "at": 2.0,
+              "label": ""
+            },
+            {
+              "at": 3.0,
+              "label": ""
+            },
+            {
+              "at": 4.0,
+              "label": ""
+            },
+            {
+              "at": 5.0,
+              "label": ""
+            },
+            {
+              "at": 6.0,
+              "label": ""
+            }
+          ],
+          "y_ticks": [],
+          "lines": [
+            {
+              "points": [
+                [
+                  1.0,
+                  100.0
+                ],
+                [
+                  2.0,
+                  50.0
+                ],
+                [
+                  3.0,
+                  33.3
+                ],
+                [
+                  4.0,
+                  25.0
+                ],
+                [
+                  5.0,
+                  20.0
+                ],
+                [
+                  6.0,
+                  16.7
+                ]
+              ],
+              "label": "AFC",
+              "label_at": "end",
+              "tone": "muted",
+              "dashed": false,
+              "bold": false,
+              "curve": true
+            },
+            {
+              "points": [
+                [
+                  1.0,
+                  60.0
+                ],
+                [
+                  2.0,
+                  50.0
+                ],
+                [
+                  3.0,
+                  45.0
+                ],
+                [
+                  4.0,
+                  45.0
+                ],
+                [
+                  5.0,
+                  48.0
+                ],
+                [
+                  6.0,
+                  52.5
+                ]
+              ],
+              "label": "AVC",
+              "label_at": "end",
+              "tone": "b",
+              "dashed": false,
+              "bold": false,
+              "curve": true
+            },
+            {
+              "points": [
+                [
+                  1.0,
+                  160.0
+                ],
+                [
+                  2.0,
+                  100.0
+                ],
+                [
+                  3.0,
+                  78.3
+                ],
+                [
+                  4.0,
+                  70.0
+                ],
+                [
+                  5.0,
+                  68.0
+                ],
+                [
+                  6.0,
+                  69.2
+                ]
+              ],
+              "label": "ATC",
+              "label_at": "end",
+              "tone": "a",
+              "dashed": false,
+              "bold": true,
+              "curve": true
+            },
+            {
+              "points": [
+                [
+                  1.0,
+                  60.0
+                ],
+                [
+                  2.0,
+                  40.0
+                ],
+                [
+                  3.0,
+                  35.0
+                ],
+                [
+                  4.0,
+                  45.0
+                ],
+                [
+                  5.0,
+                  60.0
+                ],
+                [
+                  6.0,
+                  75.0
+                ]
+              ],
+              "label": "MC",
+              "label_at": "end",
+              "tone": "d",
+              "dashed": false,
+              "bold": false,
+              "curve": true
+            }
+          ],
+          "areas": [],
+          "dots": [],
+          "notes": []
+        }
+      ],
       "worked": null,
-      "watch_out": [],
+      "watch_out": [
+        "ATC = AVC + AFC, so the gap between ATC and AVC is AFC, and it shrinks as Q grows.",
+        "MC cuts ATC and AVC at their **minimum** points, from below."
+      ],
       "memory_trick": "",
-      "exam_answer_md": ""
+      "exam_answer_md": "**ATC = C(Q)/Q = AVC + AFC; AVC = VC(Q)/Q; AFC = FC/Q; MC = ΔC/ΔQ.** AFC falls continuously; AVC and ATC are U-shaped; MC intersects AVC and ATC at their minimum points. (Draw all four curves.)"
     },
     {
       "id": "be-s8-cost-concepts-c4",
@@ -350,13 +562,161 @@
       "derived": [],
       "needs_check": false,
       "retired": false,
-      "big_idea": "",
+      "big_idea": "At any output, each cost is a rectangle: Q times the matching average cost.",
       "analogy": null,
-      "visuals": [],
+      "visuals": [
+        {
+          "title": "Costs as areas at output Q0",
+          "caption": "Variable cost is Q0 x AVC (the lower box). Fixed cost is Q0 x (ATC - AVC) (the thin box on top). Together they make total cost, Q0 x ATC.",
+          "source_ref": "be--session-8#28",
+          "kind": "plot",
+          "x_label": "Q",
+          "y_label": "$",
+          "x_max": 10.0,
+          "y_max": 10.0,
+          "y_min": 0.0,
+          "x_ticks": [
+            {
+              "at": 6.0,
+              "label": "Q0"
+            }
+          ],
+          "y_ticks": [
+            {
+              "at": 5.25,
+              "label": "ATC(Q0)"
+            },
+            {
+              "at": 4.25,
+              "label": "AVC(Q0)"
+            }
+          ],
+          "lines": [
+            {
+              "points": [
+                [
+                  1.0,
+                  9.5
+                ],
+                [
+                  3.0,
+                  6.2
+                ],
+                [
+                  5.0,
+                  5.2
+                ],
+                [
+                  6.0,
+                  5.25
+                ],
+                [
+                  7.0,
+                  5.4
+                ],
+                [
+                  9.0,
+                  7.0
+                ]
+              ],
+              "label": "ATC",
+              "label_at": "end",
+              "tone": "a",
+              "dashed": false,
+              "bold": false,
+              "curve": true
+            },
+            {
+              "points": [
+                [
+                  1.0,
+                  7.0
+                ],
+                [
+                  3.0,
+                  4.5
+                ],
+                [
+                  5.0,
+                  4.0
+                ],
+                [
+                  6.0,
+                  4.25
+                ],
+                [
+                  7.0,
+                  4.6
+                ],
+                [
+                  9.0,
+                  6.5
+                ]
+              ],
+              "label": "AVC",
+              "label_at": "end",
+              "tone": "b",
+              "dashed": false,
+              "bold": false,
+              "curve": true
+            }
+          ],
+          "areas": [
+            {
+              "points": [
+                [
+                  0.0,
+                  0.0
+                ],
+                [
+                  6.0,
+                  0.0
+                ],
+                [
+                  6.0,
+                  4.25
+                ],
+                [
+                  0.0,
+                  4.25
+                ]
+              ],
+              "label": "Variable cost",
+              "tone": "b"
+            },
+            {
+              "points": [
+                [
+                  0.0,
+                  4.25
+                ],
+                [
+                  6.0,
+                  4.25
+                ],
+                [
+                  6.0,
+                  5.25
+                ],
+                [
+                  0.0,
+                  5.25
+                ]
+              ],
+              "label": "Fixed cost",
+              "tone": "c"
+            }
+          ],
+          "dots": [],
+          "notes": []
+        }
+      ],
       "worked": null,
-      "watch_out": [],
+      "watch_out": [
+        "Fixed cost is the **gap** between ATC and AVC times Q0, not ATC times Q0."
+      ],
       "memory_trick": "",
-      "exam_answer_md": ""
+      "exam_answer_md": "At output Q0: **Fixed cost** = Q0 x (ATC - AVC) = Q0 x AFC; **Variable cost** = Q0 x AVC = VC(Q0); **Total cost** = Q0 x ATC = C(Q0). (Draw ATC and AVC and shade the rectangles.)"
     },
     {
       "id": "be-s8-cost-concepts-c5",
@@ -445,16 +805,55 @@
         "be--session-8#30",
         "be--session-8#31"
       ],
-      "derived": [],
+      "derived": [
+        "0"
+      ],
       "needs_check": false,
       "retired": false,
-      "big_idea": "",
+      "big_idea": "Fill the cost table column by column: TC = 100 + TVC, then divide by Q for averages, and take differences for MC.",
       "analogy": null,
       "visuals": [],
-      "worked": null,
-      "watch_out": [],
+      "worked": {
+        "question_md": "Fixed cost is ₹100. Complete TC, AFC, AVC, ATC and MC for Q = 1 to 6, given TVC of 60, 100, 135, 180, 240, 315.",
+        "steps": [
+          {
+            "title": "TC = TFC + TVC",
+            "body_md": "Add 100 to each TVC: 160, 200, 235, 280, 340, 415.",
+            "why": "Fixed cost is the same at every output.",
+            "result": "TC column"
+          },
+          {
+            "title": "AFC = TFC/Q",
+            "body_md": "100/1, 100/2, ... : 100, 50, 33.3, 25, 20, 16.7.",
+            "why": "The same 100 spread over more units.",
+            "result": "AFC column"
+          },
+          {
+            "title": "AVC = TVC/Q",
+            "body_md": "60, 50, 45, 45, 48, 52.5.",
+            "why": "Variable cost per unit.",
+            "result": "AVC column"
+          },
+          {
+            "title": "ATC = TC/Q",
+            "body_md": "160, 100, 78.3, 70, 68, 69.2.",
+            "why": "Check: ATC = AFC + AVC.",
+            "result": "ATC column"
+          },
+          {
+            "title": "MC = change in TC",
+            "body_md": "MC is the change in **TC** from one more unit: 160 - 100 = 60, then 200 - 160 = 40, and so on: 60, 40, 35, 45, 60, 75.",
+            "why": "Fixed cost cancels out in the change, so MC is also the change in TVC.",
+            "result": "MC column"
+          }
+        ],
+        "answer_md": "| Q | TVC | TC | AFC | AVC | ATC | MC |\n|---|---|---|---|---|---|---|\n| 1 | 60 | 160 | 100 | 60 | 160 | 60 |\n| 2 | 100 | 200 | 50 | 50 | 100 | 40 |\n| 3 | 135 | 235 | 33.3 | 45 | 78.3 | 35 |\n| 4 | 180 | 280 | 25 | 45 | 70 | 45 |\n| 5 | 240 | 340 | 20 | 48 | 68 | 60 |\n| 6 | 315 | 415 | 16.7 | 52.5 | 69.2 | 75 |"
+      },
+      "watch_out": [
+        "MC at Q = 1 is 60 (the change in TC from 100 to 160), not 160."
+      ],
       "memory_trick": "",
-      "exam_answer_md": ""
+      "exam_answer_md": "TC = TFC + TVC; AFC = TFC/Q; AVC = TVC/Q; ATC = TC/Q; MC = ΔTC. (Lay out the full table.) MC is lowest at Q = 3, AVC lowest at Q = 3 and 4, ATC lowest at Q = 5."
     }
   ],
   "flashcards": [

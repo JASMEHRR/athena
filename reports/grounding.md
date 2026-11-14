@@ -1,6 +1,6 @@
 # Grounding report
 
-Generated 2026-11-14 08:25. Checked 9555 items against the slides they cite.
+Generated 2026-11-14 08:30. Checked 9555 items against the slides they cite.
 
 - Failures (visible items with a name or number not on the cited slides): **0**
 - Hidden items (needs_check, not shown in the app): 0
@@ -142,7 +142,7 @@ None.
 - check question `be-s6-demand-functions-q-7baa1aa7`: 0.25
 - check question `be-s6-linear-demand-tr-mr-q-0f4a1b06`: 600
 - check question `be-s6-linear-demand-tr-mr-q-df3710a5`: 400
-- chunk `be-s8-cost-functions-c4`: 30, 300, 32, 60
+- chunk `be-s8-cost-functions-c4`: 30, 300, 32, 320, 60
 - check question `be-s8-cost-functions-q-2afa67ec`: 30, 32, 60
 - check question `be-s8-cost-functions-q-30f1a59f`: 30, 32
 - question `be-s8-cost-functions-q-f24f07a1`: 30, 32, 60

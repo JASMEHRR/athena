@@ -93,13 +93,30 @@
       ],
       "needs_check": false,
       "retired": false,
-      "big_idea": "",
+      "big_idea": "With capital fixed at 16, the production function becomes Q = 4 times the square root of L, so 100 workers make 40 units.",
       "analogy": null,
       "visuals": [],
-      "worked": null,
+      "worked": {
+        "question_md": "Q = K^0.5 L^0.5, capital fixed at 16. Find output with 100 units of labour.",
+        "steps": [
+          {
+            "title": "Fix capital",
+            "body_md": "Q = (16)^0.5 L^0.5 = **4L^0.5**.",
+            "why": "The square root of 16 is 4.",
+            "result": "Q = 4L^0.5"
+          },
+          {
+            "title": "Put in L = 100",
+            "body_md": "Q = 4(100)^0.5 = 4 x 10 = **40**.",
+            "why": "The square root of 100 is 10.",
+            "result": "Q = 40"
+          }
+        ],
+        "answer_md": "**40 units**."
+      },
       "watch_out": [],
       "memory_trick": "",
-      "exam_answer_md": ""
+      "exam_answer_md": "**Total product** is the maximum level of output produced with given amounts of inputs. With Q = K^0.5 L^0.5 and K = 16: Q = 4L^0.5; with L = 100, Q = 4(10) = **40 units**."
     },
     {
       "id": "be-s8-productivity-c2",
@@ -202,13 +219,15 @@
       "derived": [],
       "needs_check": false,
       "retired": false,
-      "big_idea": "",
+      "big_idea": "Average product is output per worker; marginal product is what the last worker added.",
       "analogy": null,
       "visuals": [],
       "worked": null,
-      "watch_out": [],
-      "memory_trick": "",
-      "exam_answer_md": ""
+      "watch_out": [
+        "AP divides by L (Q/L); MP is the **change** in Q from one more worker (ΔQ/ΔL)."
+      ],
+      "memory_trick": "**Average = per head. Marginal = the last one.**",
+      "exam_answer_md": "**Average product of labour** APL = Q/L: the output of an average worker. **Marginal product of labour** MPL = ΔQ/ΔL: the change in output from the last worker; it is the slope of the production function."
     },
     {
       "id": "be-s8-productivity-c3",
@@ -300,13 +319,274 @@
       "derived": [],
       "needs_check": false,
       "retired": false,
-      "big_idea": "",
+      "big_idea": "From the table: AP = TP/L, MP = the jump in TP, and MP starts falling at the 4th worker.",
       "analogy": null,
-      "visuals": [],
+      "visuals": [
+        {
+          "title": "Total product from the slide's table",
+          "caption": "TP keeps rising, but each step up gets smaller after the 3rd worker.",
+          "source_ref": "be--session-8#9",
+          "kind": "plot",
+          "x_label": "L",
+          "y_label": "TP",
+          "x_max": 7.5,
+          "y_max": 80.0,
+          "y_min": 0.0,
+          "x_ticks": [
+            {
+              "at": 1.0,
+              "label": ""
+            },
+            {
+              "at": 2.0,
+              "label": ""
+            },
+            {
+              "at": 3.0,
+              "label": ""
+            },
+            {
+              "at": 4.0,
+              "label": ""
+            },
+            {
+              "at": 5.0,
+              "label": ""
+            },
+            {
+              "at": 6.0,
+              "label": ""
+            },
+            {
+              "at": 7.0,
+              "label": ""
+            }
+          ],
+          "y_ticks": [
+            {
+              "at": 10.0,
+              "label": ""
+            },
+            {
+              "at": 39.0,
+              "label": ""
+            },
+            {
+              "at": 70.0,
+              "label": ""
+            }
+          ],
+          "lines": [
+            {
+              "points": [
+                [
+                  0.0,
+                  0.0
+                ],
+                [
+                  1.0,
+                  10.0
+                ],
+                [
+                  2.0,
+                  24.0
+                ],
+                [
+                  3.0,
+                  39.0
+                ],
+                [
+                  4.0,
+                  52.0
+                ],
+                [
+                  5.0,
+                  60.0
+                ],
+                [
+                  6.0,
+                  66.0
+                ],
+                [
+                  7.0,
+                  70.0
+                ]
+              ],
+              "label": "TP",
+              "label_at": "end",
+              "tone": "a",
+              "dashed": false,
+              "bold": true,
+              "curve": true
+            }
+          ],
+          "areas": [],
+          "dots": [],
+          "notes": []
+        },
+        {
+          "title": "AP and MP from the same table",
+          "caption": "MP peaks at 15 with the 3rd worker, then falls. MP meets AP where AP is highest (13).",
+          "source_ref": "be--session-8#10",
+          "kind": "plot",
+          "x_label": "L",
+          "y_label": "Units",
+          "x_max": 7.5,
+          "y_max": 17.0,
+          "y_min": 0.0,
+          "x_ticks": [
+            {
+              "at": 1.0,
+              "label": ""
+            },
+            {
+              "at": 2.0,
+              "label": ""
+            },
+            {
+              "at": 3.0,
+              "label": ""
+            },
+            {
+              "at": 4.0,
+              "label": ""
+            },
+            {
+              "at": 5.0,
+              "label": ""
+            },
+            {
+              "at": 6.0,
+              "label": ""
+            },
+            {
+              "at": 7.0,
+              "label": ""
+            }
+          ],
+          "y_ticks": [
+            {
+              "at": 4.0,
+              "label": ""
+            },
+            {
+              "at": 10.0,
+              "label": ""
+            },
+            {
+              "at": 13.0,
+              "label": ""
+            },
+            {
+              "at": 15.0,
+              "label": ""
+            }
+          ],
+          "lines": [
+            {
+              "points": [
+                [
+                  1.0,
+                  10.0
+                ],
+                [
+                  2.0,
+                  14.0
+                ],
+                [
+                  3.0,
+                  15.0
+                ],
+                [
+                  4.0,
+                  13.0
+                ],
+                [
+                  5.0,
+                  8.0
+                ],
+                [
+                  6.0,
+                  6.0
+                ],
+                [
+                  7.0,
+                  4.0
+                ]
+              ],
+              "label": "MP",
+              "label_at": "end",
+              "tone": "d",
+              "dashed": false,
+              "bold": false,
+              "curve": true
+            },
+            {
+              "points": [
+                [
+                  1.0,
+                  10.0
+                ],
+                [
+                  2.0,
+                  12.0
+                ],
+                [
+                  3.0,
+                  13.0
+                ],
+                [
+                  4.0,
+                  13.0
+                ],
+                [
+                  5.0,
+                  12.0
+                ],
+                [
+                  6.0,
+                  11.0
+                ],
+                [
+                  7.0,
+                  10.0
+                ]
+              ],
+              "label": "AP",
+              "label_at": "end",
+              "tone": "b",
+              "dashed": false,
+              "bold": false,
+              "curve": true
+            }
+          ],
+          "areas": [],
+          "dots": [
+            {
+              "x": 3.0,
+              "y": 15.0,
+              "label": "MP peak",
+              "label_at": "above",
+              "guides": false
+            },
+            {
+              "x": 4.0,
+              "y": 13.0,
+              "label": "MP falls",
+              "label_at": "below",
+              "guides": false
+            }
+          ],
+          "notes": []
+        }
+      ],
       "worked": null,
-      "watch_out": [],
+      "watch_out": [
+        "Diminishing MP begins where MP first **falls** (15 to 13), which is the **4th** worker, not the 3rd.",
+        "MP of the first worker equals TP of 1 worker (10)."
+      ],
       "memory_trick": "",
-      "exam_answer_md": ""
+      "exam_answer_md": "AP = TP/L and MP = ΔTP/ΔL:\n\n| L | TP | AP | MP |\n|---|---|---|---|\n| 1 | 10 | 10 | 10 |\n| 2 | 24 | 12 | 14 |\n| 3 | 39 | 13 | 15 |\n| 4 | 52 | 13 | 13 |\n| 5 | 60 | 12 | 8 |\n| 6 | 66 | 11 | 6 |\n| 7 | 70 | 10 | 4 |\n\nDiminishing marginal product begins with the **4th unit of labour**."
     },
     {
       "id": "be-s8-productivity-c4",
@@ -365,16 +645,127 @@
       "source_refs": [
         "be--session-8#11"
       ],
-      "derived": [],
+      "derived": [
+        "TP"
+      ],
       "needs_check": false,
       "retired": false,
-      "big_idea": "",
+      "big_idea": "MP rises, then falls, then goes negative; when it goes negative, total output actually drops.",
       "analogy": null,
-      "visuals": [],
+      "visuals": [
+        {
+          "title": "Three stages of returns",
+          "caption": "MP peaks first, then crosses AP at the top of AP, then falls below zero, where total product starts to fall.",
+          "source_ref": "be--session-8#11",
+          "kind": "plot",
+          "x_label": "L",
+          "y_label": "Q",
+          "x_max": 9.0,
+          "y_max": 11.0,
+          "y_min": -3.0,
+          "x_ticks": [],
+          "y_ticks": [],
+          "lines": [
+            {
+              "points": [
+                [
+                  0.3,
+                  4.0
+                ],
+                [
+                  2.0,
+                  9.5
+                ],
+                [
+                  3.8,
+                  7.0
+                ],
+                [
+                  6.0,
+                  2.0
+                ],
+                [
+                  8.0,
+                  -2.0
+                ]
+              ],
+              "label": "MP",
+              "label_at": "end",
+              "tone": "d",
+              "dashed": false,
+              "bold": false,
+              "curve": true
+            },
+            {
+              "points": [
+                [
+                  0.3,
+                  4.0
+                ],
+                [
+                  2.0,
+                  6.5
+                ],
+                [
+                  3.8,
+                  7.0
+                ],
+                [
+                  6.0,
+                  5.2
+                ],
+                [
+                  8.0,
+                  3.6
+                ]
+              ],
+              "label": "AP",
+              "label_at": "end",
+              "tone": "b",
+              "dashed": false,
+              "bold": false,
+              "curve": true
+            }
+          ],
+          "areas": [],
+          "dots": [
+            {
+              "x": 3.8,
+              "y": 7.0,
+              "label": "MP = AP at top of AP",
+              "label_at": "above",
+              "guides": false
+            }
+          ],
+          "notes": [
+            {
+              "x": 0.4,
+              "y": 10.3,
+              "text": "Increasing",
+              "tone": "b"
+            },
+            {
+              "x": 3.2,
+              "y": 10.3,
+              "text": "Diminishing",
+              "tone": "c"
+            },
+            {
+              "x": 6.7,
+              "y": 10.3,
+              "text": "Negative",
+              "tone": "d"
+            }
+          ]
+        }
+      ],
       "worked": null,
-      "watch_out": [],
-      "memory_trick": "",
-      "exam_answer_md": ""
+      "watch_out": [
+        "Negative returns means **MP below zero**, not just MP falling.",
+        "MP crosses AP at AP's **maximum**."
+      ],
+      "memory_trick": "**Peaks in order: MP, then AP, then total product.**",
+      "exam_answer_md": "**Increasing marginal returns:** MP rising. **Diminishing marginal returns:** MP falling but positive. **Negative marginal returns:** MP below zero, total product falls. MP intersects AP at the maximum of AP. (Draw total product above, and AP and MP below, marking the three zones.)"
     },
     {
       "id": "be-s8-productivity-c5",
@@ -466,13 +857,40 @@
       "derived": [],
       "needs_check": false,
       "retired": false,
-      "big_idea": "",
+      "big_idea": "Add workers to a fixed machine and each new one helps more at first, then less, because the machine becomes the bottleneck.",
       "analogy": null,
-      "visuals": [],
+      "visuals": [
+        {
+          "title": "Why MP rises, then falls",
+          "caption": "",
+          "source_ref": "be--session-8#12",
+          "kind": "compare",
+          "sides": [
+            {
+              "title": "Rises first",
+              "points": [
+                "Specialisation",
+                "Better coordination",
+                "Better use of the fixed input"
+              ],
+              "tone": "b"
+            },
+            {
+              "title": "Falls later",
+              "points": [
+                "Fixed input becomes a constraint",
+                "Crowding",
+                "Specialisation already used up"
+              ],
+              "tone": "d"
+            }
+          ]
+        }
+      ],
       "worked": null,
       "watch_out": [],
       "memory_trick": "",
-      "exam_answer_md": ""
+      "exam_answer_md": "**Law of variable proportions:** as more units of a variable input are added to a fixed input, the marginal product of the variable input first increases, reaches a maximum and eventually decreases. It rises because of specialisation, coordination and better use of the fixed input; it falls because the fixed input becomes a constraint and the workplace gets crowded."
     },
     {
       "id": "be-s8-productivity-c6",
@@ -540,13 +958,15 @@
       "derived": [],
       "needs_check": false,
       "retired": false,
-      "big_idea": "",
+      "big_idea": "Hire workers until the money the last worker brings in (P x MPL) equals the wage.",
       "analogy": null,
       "visuals": [],
       "worked": null,
-      "watch_out": [],
-      "memory_trick": "",
-      "exam_answer_md": ""
+      "watch_out": [
+        "VMPL is **price times MPL**, not MPL alone."
+      ],
+      "memory_trick": "**Hire until the last worker just pays for themselves.**",
+      "exam_answer_md": "To guide production, managers must produce on the production function, align incentives, and employ the right inputs. A profit-maximizing manager hires labour until **VMPL = P x MPL = w** and capital until **VMPK = P x MPK = r**."
     }
   ],
   "flashcards": [

@@ -111,13 +111,15 @@
       "derived": [],
       "needs_check": false,
       "retired": false,
-      "big_idea": "",
+      "big_idea": "A production function tells you the most output you can get from a given amount of machines (K) and workers (L).",
       "analogy": null,
       "visuals": [],
       "worked": null,
-      "watch_out": [],
+      "watch_out": [
+        "It is the **maximum** output. Producing less with the same inputs means inputs are being wasted."
+      ],
       "memory_trick": "",
-      "exam_answer_md": ""
+      "exam_answer_md": "A **production function** Q = F(K, L) defines the maximum amount of output that can be produced with K units of capital and L units of labour. In the **short run** some inputs are fixed; in the **long run** inputs are variable."
     },
     {
       "id": "be-s8-production-functions-c2",
@@ -219,13 +221,46 @@
       "derived": [],
       "needs_check": false,
       "retired": false,
-      "big_idea": "",
+      "big_idea": "Inputs can be perfect swaps (linear), fixed recipes (Leontief), or partly swappable (Cobb-Douglas).",
       "analogy": null,
-      "visuals": [],
+      "visuals": [
+        {
+          "title": "Three production functions",
+          "caption": "",
+          "source_ref": "be--session-8#4",
+          "kind": "compare",
+          "sides": [
+            {
+              "title": "Linear: Q = aK + bL",
+              "points": [
+                "Perfect substitutes",
+                "Swap at a fixed rate"
+              ],
+              "tone": "a"
+            },
+            {
+              "title": "Leontief: Q = min{bK, cL}",
+              "points": [
+                "Fixed proportions",
+                "Extra of one input is useless alone"
+              ],
+              "tone": "c"
+            },
+            {
+              "title": "Cobb-Douglas: Q = K^a L^b",
+              "points": [
+                "Some substitutability",
+                "Swap, but not perfectly"
+              ],
+              "tone": "b"
+            }
+          ]
+        }
+      ],
       "worked": null,
       "watch_out": [],
-      "memory_trick": "",
-      "exam_answer_md": ""
+      "memory_trick": "**Linear: swap freely. Leontief: follow the recipe. Cobb-Douglas: swap, but it gets harder.**",
+      "exam_answer_md": "**Linear:** Q = F(K,L) = aK + bL (inputs are perfect substitutes). **Leontief:** Q = min{bK, cL} (inputs used in fixed proportions). **Cobb-Douglas:** Q = K^a L^b (inputs have a degree of substitutability)."
     },
     {
       "id": "be-s8-production-functions-c3",
@@ -296,13 +331,38 @@
       ],
       "needs_check": false,
       "retired": false,
-      "big_idea": "",
+      "big_idea": "With a fixed recipe, output is set by whichever input runs out first.",
       "analogy": null,
       "visuals": [],
-      "worked": null,
-      "watch_out": [],
+      "worked": {
+        "question_md": "Q = min{3K, 4L}, with K = 5 and L = 2. What is the maximum output?",
+        "steps": [
+          {
+            "title": "Capital term",
+            "body_md": "3K = 3 x 5 = **15**.",
+            "why": "Capital alone could support 15 units.",
+            "result": "15"
+          },
+          {
+            "title": "Labour term",
+            "body_md": "4L = 4 x 2 = **8**.",
+            "why": "Labour alone could support 8 units.",
+            "result": "8"
+          },
+          {
+            "title": "Take the smaller",
+            "body_md": "Q = min{15, 8} = **8**.",
+            "why": "In fixed proportions the scarcer input limits output.",
+            "result": "Q = 8"
+          }
+        ],
+        "answer_md": "Q = **8**. Labour is the bottleneck, so the extra capital adds nothing."
+      },
+      "watch_out": [
+        "Take the **minimum**, not the sum."
+      ],
       "memory_trick": "",
-      "exam_answer_md": ""
+      "exam_answer_md": "Q = min{3K, 4L} = min{3(5), 4(2)} = min{15, 8} = **8 units**."
     }
   ],
   "flashcards": [

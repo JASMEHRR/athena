@@ -96,13 +96,15 @@
       "derived": [],
       "needs_check": false,
       "retired": false,
-      "big_idea": "",
+      "big_idea": "You are spending well when the last rupee on workers makes as much output as the last rupee on machines.",
       "analogy": null,
       "visuals": [],
       "worked": null,
-      "watch_out": [],
-      "memory_trick": "",
-      "exam_answer_md": ""
+      "watch_out": [
+        "MPL goes with w, MPK goes with r: MPL/w = MPK/r."
+      ],
+      "memory_trick": "**Equal bang per buck.**",
+      "exam_answer_md": "Cost minimization: the marginal product per dollar spent is equal for all inputs, **MPL/w = MPK/r**, which is equivalent to **MRTS_KL = MPL/MPK = w/r**."
     },
     {
       "id": "be-s8-cost-minimization-c2",
@@ -164,16 +166,135 @@
         "be--session-8#21",
         "be--session-8#20"
       ],
-      "derived": [],
+      "derived": [
+        "C0",
+        "C1",
+        "C2"
+      ],
       "needs_check": false,
       "retired": false,
-      "big_idea": "",
+      "big_idea": "The cheapest way to make Q is where the isoquant just touches the lowest isocost line.",
       "analogy": null,
-      "visuals": [],
+      "visuals": [
+        {
+          "title": "Cost minimization: the isoquant touches the lowest isocost",
+          "caption": "The lower cost line cannot reach Q. The higher one reaches it but costs more. The middle line just touches Q: the cheapest way to produce Q.",
+          "source_ref": "be--session-8#21",
+          "kind": "plot",
+          "x_label": "L",
+          "y_label": "K",
+          "x_max": 10.0,
+          "y_max": 10.0,
+          "y_min": 0.0,
+          "x_ticks": [],
+          "y_ticks": [],
+          "lines": [
+            {
+              "points": [
+                [
+                  1.7,
+                  9.4
+                ],
+                [
+                  2.5,
+                  6.4
+                ],
+                [
+                  4.0,
+                  4.0
+                ],
+                [
+                  6.0,
+                  2.67
+                ],
+                [
+                  8.0,
+                  2.0
+                ],
+                [
+                  9.8,
+                  1.63
+                ]
+              ],
+              "label": "Q",
+              "label_at": "end",
+              "tone": "a",
+              "dashed": false,
+              "bold": true,
+              "curve": true
+            },
+            {
+              "points": [
+                [
+                  0.0,
+                  6.0
+                ],
+                [
+                  6.0,
+                  0.0
+                ]
+              ],
+              "label": "Lower cost",
+              "label_at": "end",
+              "tone": "muted",
+              "dashed": true,
+              "bold": false,
+              "curve": false
+            },
+            {
+              "points": [
+                [
+                  0.0,
+                  8.0
+                ],
+                [
+                  8.0,
+                  0.0
+                ]
+              ],
+              "label": "Lowest cost that reaches Q",
+              "label_at": "end",
+              "tone": "b",
+              "dashed": false,
+              "bold": true,
+              "curve": false
+            },
+            {
+              "points": [
+                [
+                  0.0,
+                  10.0
+                ],
+                [
+                  10.0,
+                  0.0
+                ]
+              ],
+              "label": "Higher cost",
+              "label_at": "end",
+              "tone": "muted",
+              "dashed": true,
+              "bold": false,
+              "curve": false
+            }
+          ],
+          "areas": [],
+          "dots": [
+            {
+              "x": 4.0,
+              "y": 4.0,
+              "label": "Point of cost minimization",
+              "label_at": "above",
+              "guides": true
+            }
+          ],
+          "notes": []
+        }
+      ],
       "worked": null,
       "watch_out": [],
       "memory_trick": "",
-      "exam_answer_md": ""
+      "exam_answer_md": "The point of cost minimization is where the isoquant is **tangent to the lowest isocost line**: the slope of the isocost (w/r) equals the slope of the isoquant (MRTS_KL). (Draw K against L, an isoquant and three isocosts, and mark the tangency.)"
     },
     {
       "id": "be-s8-cost-minimization-c3",
@@ -235,13 +356,141 @@
       "derived": [],
       "needs_check": false,
       "retired": false,
-      "big_idea": "",
+      "big_idea": "When workers get cheaper, the firm uses more workers and fewer machines to make the same output.",
       "analogy": null,
-      "visuals": [],
+      "visuals": [
+        {
+          "title": "The wage falls: substitute towards labour",
+          "caption": "At the old wage the firm is at A. The wage falls, the isocost gets flatter, and the new cheapest point B uses more labour and less capital, on a lower cost line C1.",
+          "source_ref": "be--session-8#22",
+          "kind": "plot",
+          "x_label": "L",
+          "y_label": "K",
+          "x_max": 16.0,
+          "y_max": 9.0,
+          "y_min": 0.0,
+          "x_ticks": [
+            {
+              "at": 4.0,
+              "label": "L0"
+            },
+            {
+              "at": 8.0,
+              "label": "L1"
+            }
+          ],
+          "y_ticks": [
+            {
+              "at": 4.0,
+              "label": "K0"
+            },
+            {
+              "at": 2.0,
+              "label": "K1"
+            }
+          ],
+          "lines": [
+            {
+              "points": [
+                [
+                  1.8,
+                  8.9
+                ],
+                [
+                  2.5,
+                  6.4
+                ],
+                [
+                  4.0,
+                  4.0
+                ],
+                [
+                  6.0,
+                  2.67
+                ],
+                [
+                  8.0,
+                  2.0
+                ],
+                [
+                  11.0,
+                  1.45
+                ],
+                [
+                  15.5,
+                  1.03
+                ]
+              ],
+              "label": "Q0",
+              "label_at": "end",
+              "tone": "a",
+              "dashed": false,
+              "bold": true,
+              "curve": true
+            },
+            {
+              "points": [
+                [
+                  0.0,
+                  8.0
+                ],
+                [
+                  8.0,
+                  0.0
+                ]
+              ],
+              "label": "C0 (w0)",
+              "label_at": "end",
+              "tone": "muted",
+              "dashed": false,
+              "bold": false,
+              "curve": false
+            },
+            {
+              "points": [
+                [
+                  0.0,
+                  4.0
+                ],
+                [
+                  16.0,
+                  0.0
+                ]
+              ],
+              "label": "C1 (w1)",
+              "label_at": "end",
+              "tone": "b",
+              "dashed": false,
+              "bold": true,
+              "curve": false
+            }
+          ],
+          "areas": [],
+          "dots": [
+            {
+              "x": 4.0,
+              "y": 4.0,
+              "label": "A",
+              "label_at": "above",
+              "guides": true
+            },
+            {
+              "x": 8.0,
+              "y": 2.0,
+              "label": "B",
+              "label_at": "above",
+              "guides": true
+            }
+          ],
+          "notes": []
+        }
+      ],
       "worked": null,
-      "watch_out": [],
+      "watch_out": [
+        "The isocost rotates because the **slope w/r** changes; the isoquant stays the same (same output)."
+      ],
       "memory_trick": "",
-      "exam_answer_md": ""
+      "exam_answer_md": "**Optimal input substitution:** a firm initially produces Q0 at A using L0 and K0. When the wage falls from w0 to w1, the isocost rotates counterclockwise; to minimize the cost of Q0 the firm moves to B on a lower isocost C1, using **more labour (L1) and less capital (K1)**. (Draw it.)"
     },
     {
       "id": "be-s8-cost-minimization-c4",
@@ -279,13 +528,13 @@
       "derived": [],
       "needs_check": false,
       "retired": false,
-      "big_idea": "",
+      "big_idea": "Pay each input what its extra output is worth, mix inputs where MRTS = w/r, and use cost functions to plan profit.",
       "analogy": null,
       "visuals": [],
       "worked": null,
       "watch_out": [],
       "memory_trick": "",
-      "exam_answer_md": ""
+      "exam_answer_md": "To maximize profit (minimize cost), managers use inputs so that the value of the marginal product of each input reflects its price. The optimal mix of inputs is achieved when **MRTS_KL = w/r**. Cost functions are the foundation for helping determine profit-maximizing behaviour."
     }
   ],
   "flashcards": [

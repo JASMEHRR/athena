@@ -78,13 +78,15 @@
       "derived": [],
       "needs_check": false,
       "retired": false,
-      "big_idea": "",
+      "big_idea": "In a cost function the plain number is fixed cost, everything with Q is variable cost, and MC is the derivative.",
       "analogy": null,
       "visuals": [],
       "worked": null,
-      "watch_out": [],
-      "memory_trick": "",
-      "exam_answer_md": ""
+      "watch_out": [
+        "The fixed cost **disappears** when you differentiate."
+      ],
+      "memory_trick": "**Bring the power down, take one off.**",
+      "exam_answer_md": "Cubic cost function **C(Q) = f + aQ + bQ² + cQ³**; fixed cost is f. Marginal cost **MC(Q) = a + 2bQ + 3cQ²**."
     },
     {
       "id": "be-s8-cost-functions-c2",
@@ -147,16 +149,20 @@
       "source_refs": [
         "be--session-8#33"
       ],
-      "derived": [],
+      "derived": [
+        "4"
+      ],
       "needs_check": false,
       "retired": false,
-      "big_idea": "",
+      "big_idea": "For C(Q) = 10 + Q + Q²: FC = 10, VC = Q + Q², MC = 1 + 2Q.",
       "analogy": null,
       "visuals": [],
       "worked": null,
-      "watch_out": [],
+      "watch_out": [
+        "VC of 2 units is 2 + 4 = 6, not 2 + 2."
+      ],
       "memory_trick": "",
-      "exam_answer_md": ""
+      "exam_answer_md": "C(Q) = 10 + Q + Q². VC(Q) = Q + Q²; VC(2) = 2 + 4 = **6**. FC = **10**. MC(Q) = **1 + 2Q**; MC(2) = **5**."
     },
     {
       "id": "be-s8-cost-functions-c3",
@@ -242,13 +248,15 @@
       "derived": [],
       "needs_check": false,
       "retired": false,
-      "big_idea": "",
+      "big_idea": "For TC = 100 + 20Q + 2Q² at Q = 10: ATC = 50 and MC = 60.",
       "analogy": null,
       "visuals": [],
       "worked": null,
-      "watch_out": [],
+      "watch_out": [
+        "ATC = TC/Q = 100/Q + 20 + 2Q: divide **every** term by Q."
+      ],
       "memory_trick": "",
-      "exam_answer_md": ""
+      "exam_answer_md": "FC = 100; VC = 20Q + 2Q²; ATC = 100/Q + 20 + 2Q; AVC = 20 + 2Q; MC = 20 + 4Q. At Q = 10: **ATC = 50**, **MC = 60**."
     },
     {
       "id": "be-s8-cost-functions-c4",
@@ -373,13 +381,50 @@
       ],
       "needs_check": false,
       "retired": false,
-      "big_idea": "",
+      "big_idea": "Last year's Q2: for C(Q) = 20 + 3Q² at Q = 10, MC = 60, AFC = 2, AVC = 30, ATC = 32.",
       "analogy": null,
       "visuals": [],
-      "worked": null,
-      "watch_out": [],
+      "worked": {
+        "question_md": "C(Q) = 20 + 3Q². Calculate MC, AFC, AVC and ATC when Q = 10.",
+        "steps": [
+          {
+            "title": "Split the costs",
+            "body_md": "Fixed cost = **20**; variable cost = **3Q²**.",
+            "why": "The constant is fixed; terms with Q are variable.",
+            "result": "FC = 20, VC = 3Q²"
+          },
+          {
+            "title": "MC",
+            "body_md": "MC = dC/dQ = **6Q** = 6 x 10 = **60**.",
+            "why": "Derivative of 3Q² is 6Q.",
+            "result": "MC = 60"
+          },
+          {
+            "title": "AFC",
+            "body_md": "AFC = 20/Q = 20/10 = **2**.",
+            "why": "Fixed cost per unit.",
+            "result": "AFC = 2"
+          },
+          {
+            "title": "AVC",
+            "body_md": "AVC = 3Q²/Q = 3Q = **30**.",
+            "why": "Variable cost per unit.",
+            "result": "AVC = 30"
+          },
+          {
+            "title": "ATC",
+            "body_md": "ATC = AFC + AVC = 2 + 30 = **32**. Check: (20 + 300)/10 = 32.",
+            "why": "ATC = AFC + AVC.",
+            "result": "ATC = 32"
+          }
+        ],
+        "answer_md": "MC = **60**, AFC = **2**, AVC = **30**, ATC = **32**."
+      },
+      "watch_out": [
+        "AVC = 3Q (one Q cancels), not 3Q²."
+      ],
       "memory_trick": "",
-      "exam_answer_md": ""
+      "exam_answer_md": "C(Q) = 20 + 3Q². MC = 6Q = **60**; AFC = 20/Q = **2**; AVC = 3Q = **30**; ATC = 20/Q + 3Q = **32** (check: 320/10 = 32)."
     }
   ],
   "flashcards": [
