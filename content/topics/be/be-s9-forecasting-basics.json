@@ -85,13 +85,13 @@
       "derived": [],
       "needs_check": false,
       "retired": false,
-      "big_idea": "",
+      "big_idea": "Forecasting is estimating future demand so today's decisions (what to make, how many to hire) are based on more than a guess.",
       "analogy": null,
       "visuals": [],
       "worked": null,
       "watch_out": [],
       "memory_trick": "",
-      "exam_answer_md": ""
+      "exam_answer_md": "**Demand forecasting** is estimating the future demand for a product or service using historical data, market information, and statistical or judgmental methods. Firms need forecasts to decide which markets to pursue, what products to produce, how many people to hire, how many inputs to buy and how many units to produce. A forecast is a bridge between uncertainty about the future and today's business decisions."
     },
     {
       "id": "be-s9-forecasting-basics-c2",
@@ -153,13 +153,13 @@
       "derived": [],
       "needs_check": false,
       "retired": false,
-      "big_idea": "",
+      "big_idea": "Forecasts are never perfect, but they are better for groups of products and for the near future.",
       "analogy": null,
       "visuals": [],
       "worked": null,
       "watch_out": [],
-      "memory_trick": "",
-      "exam_answer_md": ""
+      "memory_trick": "**Big groups, short times: better forecasts.**",
+      "exam_answer_md": "Forecasts are rarely perfect (the question is whether they are accurate enough to improve decisions), more accurate for aggregated data than for individual items, and more accurate for shorter than for longer time periods."
     },
     {
       "id": "be-s9-forecasting-basics-c3",
@@ -225,13 +225,43 @@
       "derived": [],
       "needs_check": false,
       "retired": false,
-      "big_idea": "",
+      "big_idea": "Decide what to forecast, check your data, pick and test a model, make the forecast, then keep checking it.",
       "analogy": null,
-      "visuals": [],
+      "visuals": [
+        {
+          "title": "The forecasting steps",
+          "caption": "",
+          "source_ref": "be--session-9#5",
+          "kind": "flow",
+          "steps": [
+            {
+              "label": "What needs to be forecast?",
+              "note": "Level of detail, units, time horizon"
+            },
+            {
+              "label": "What data is available?",
+              "note": "Identify the data needed"
+            },
+            {
+              "label": "Select and test the model",
+              "note": "Cost, ease of use, accuracy"
+            },
+            {
+              "label": "Generate the forecast",
+              "note": ""
+            },
+            {
+              "label": "Monitor accuracy over time",
+              "note": ""
+            }
+          ],
+          "cycle": false
+        }
+      ],
       "worked": null,
       "watch_out": [],
       "memory_trick": "",
-      "exam_answer_md": ""
+      "exam_answer_md": "Steps: (1) decide what needs to be forecast (level of detail, units of analysis, time horizon); (2) evaluate what data is available; (3) select and test the forecasting model (cost, ease of use, accuracy); (4) generate the forecast; (5) monitor forecast accuracy over time."
     }
   ],
   "flashcards": [

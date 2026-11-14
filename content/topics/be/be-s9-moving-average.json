@@ -78,13 +78,13 @@
       "derived": [],
       "needs_check": false,
       "retired": false,
-      "big_idea": "",
+      "big_idea": "A moving average smooths out random ups and downs without forcing a line or curve onto the data.",
       "analogy": null,
       "visuals": [],
       "worked": null,
       "watch_out": [],
       "memory_trick": "",
-      "exam_answer_md": ""
+      "exam_answer_md": "Historical data contain an underlying pattern and random fluctuations. Trend lines impose a mathematical pattern; a **moving average** instead smooths the data by averaging the most recent observations."
     },
     {
       "id": "be-s9-moving-average-c2",
@@ -180,13 +180,143 @@
       "derived": [],
       "needs_check": false,
       "retired": false,
-      "big_idea": "",
+      "big_idea": "Next year's forecast = the average of the last three years: for 2026, (130 + 140 + 150)/3 = 140.",
       "analogy": null,
-      "visuals": [],
+      "visuals": [
+        {
+          "title": "Actual sales and the 3-year moving average",
+          "caption": "The forecast line lags behind actual sales because it averages the past three years.",
+          "source_ref": "be--session-9#23",
+          "kind": "plot",
+          "x_label": "Year",
+          "y_label": "Sales",
+          "x_max": 10.5,
+          "y_max": 160.0,
+          "y_min": 0.0,
+          "x_ticks": [
+            {
+              "at": 1.0,
+              "label": "2017"
+            },
+            {
+              "at": 4.0,
+              "label": "2020"
+            },
+            {
+              "at": 7.0,
+              "label": "2023"
+            },
+            {
+              "at": 10.0,
+              "label": "2026"
+            }
+          ],
+          "y_ticks": [],
+          "lines": [
+            {
+              "points": [
+                [
+                  1.0,
+                  80.0
+                ],
+                [
+                  2.0,
+                  85.0
+                ],
+                [
+                  3.0,
+                  90.0
+                ],
+                [
+                  4.0,
+                  100.0
+                ],
+                [
+                  5.0,
+                  120.0
+                ],
+                [
+                  6.0,
+                  110.0
+                ],
+                [
+                  7.0,
+                  130.0
+                ],
+                [
+                  8.0,
+                  140.0
+                ],
+                [
+                  9.0,
+                  150.0
+                ]
+              ],
+              "label": "Actual",
+              "label_at": "end",
+              "tone": "a",
+              "dashed": false,
+              "bold": true,
+              "curve": false
+            },
+            {
+              "points": [
+                [
+                  4.0,
+                  85.0
+                ],
+                [
+                  5.0,
+                  91.67
+                ],
+                [
+                  6.0,
+                  103.33
+                ],
+                [
+                  7.0,
+                  110.0
+                ],
+                [
+                  8.0,
+                  120.0
+                ],
+                [
+                  9.0,
+                  126.67
+                ],
+                [
+                  10.0,
+                  140.0
+                ]
+              ],
+              "label": "3-year MA",
+              "label_at": "end",
+              "tone": "c",
+              "dashed": true,
+              "bold": false,
+              "curve": false
+            }
+          ],
+          "areas": [],
+          "dots": [
+            {
+              "x": 10.0,
+              "y": 140.0,
+              "label": "140",
+              "label_at": "above",
+              "guides": true
+            }
+          ],
+          "notes": []
+        }
+      ],
       "worked": null,
-      "watch_out": [],
+      "watch_out": [
+        "The forecast for a year uses the **three years before it**, not including itself."
+      ],
       "memory_trick": "",
-      "exam_answer_md": ""
+      "exam_answer_md": "F(t+1) = (Y(t) + Y(t-1) + Y(t-2))/3. Forecasts: 2020: 85, 2021: 91.67, 2022: 103.33, 2023: 110, 2024: 120, 2025: 126.67; **2026: (130 + 140 + 150)/3 = 140**."
     },
     {
       "id": "be-s9-moving-average-c3",
@@ -276,13 +406,44 @@
       "derived": [],
       "needs_check": false,
       "retired": false,
-      "big_idea": "",
+      "big_idea": "To pick between a 3-year and 5-year average, compute each one's RMSE and choose the smaller error.",
       "analogy": null,
       "visuals": [],
-      "worked": null,
-      "watch_out": [],
+      "worked": {
+        "question_md": "Compare the 3-year and 5-year moving averages using RMSE.",
+        "steps": [
+          {
+            "title": "Errors squared",
+            "body_md": "For each year with a forecast, compute (A - F)² and add them: 3-year MA: **2416.367**; 5-year MA: **2866**.",
+            "why": "Squaring stops positive and negative errors cancelling.",
+            "result": "Sums of squared errors"
+          },
+          {
+            "title": "Divide by n",
+            "body_md": "3-year: 2416.367 / 6. 5-year: 2866 / 4.",
+            "why": "n is the number of years that have a forecast.",
+            "result": "Mean squared errors"
+          },
+          {
+            "title": "Square root",
+            "body_md": "| Method | RMSE |\n|---|---|\n| 3-year MA | **20.068** |\n| 5-year MA | **26.767** |",
+            "why": "RMSE is in the same units as sales.",
+            "result": "20.068 vs 26.767"
+          },
+          {
+            "title": "Choose",
+            "body_md": "RMSE3 < RMSE5, so use the **3-year MA**: forecast for 2026 = **140**.",
+            "why": "Lower error means a better fit.",
+            "result": "3-year MA, 140"
+          }
+        ],
+        "answer_md": "The 3-year MA (RMSE 20.068) beats the 5-year MA (RMSE 26.767); forecast for 2026 = **140**."
+      },
+      "watch_out": [
+        "n differs: 6 forecasts for the 3-year MA, only 4 for the 5-year MA."
+      ],
       "memory_trick": "",
-      "exam_answer_md": ""
+      "exam_answer_md": "RMSE = square root of [sum of (At - Ft)² / n]. 3-year MA: square root of (2416.367/6) = **20.068**; 5-year MA: square root of (2866/4) = **26.767**. The 3-year MA has the lower RMSE and is preferred; forecast for 2026 = **140**."
     }
   ],
   "flashcards": [

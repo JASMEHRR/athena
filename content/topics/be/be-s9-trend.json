@@ -118,13 +118,134 @@
       ],
       "needs_check": false,
       "retired": false,
-      "big_idea": "",
+      "big_idea": "Fit a straight line S = a + bt through past sales with the normal equations, then plug in the future year's t.",
       "analogy": null,
-      "visuals": [],
+      "visuals": [
+        {
+          "title": "Sales 1993 to 1997 and the fitted trend",
+          "caption": "Dots are actual sales; the line is S = 594.5 + 53.5t, extended to the year 2000 (t = 8).",
+          "source_ref": "be--session-9#16",
+          "kind": "plot",
+          "x_label": "t",
+          "y_label": "Sales",
+          "x_max": 8.6,
+          "y_max": 1100.0,
+          "y_min": 0.0,
+          "x_ticks": [
+            {
+              "at": 1.0,
+              "label": ""
+            },
+            {
+              "at": 2.0,
+              "label": ""
+            },
+            {
+              "at": 3.0,
+              "label": ""
+            },
+            {
+              "at": 4.0,
+              "label": ""
+            },
+            {
+              "at": 5.0,
+              "label": ""
+            },
+            {
+              "at": 8.0,
+              "label": ""
+            }
+          ],
+          "y_ticks": [
+            {
+              "at": 605.0,
+              "label": ""
+            },
+            {
+              "at": 835.0,
+              "label": ""
+            },
+            {
+              "at": 1022.5,
+              "label": ""
+            }
+          ],
+          "lines": [
+            {
+              "points": [
+                [
+                  0.0,
+                  594.5
+                ],
+                [
+                  8.0,
+                  1022.5
+                ]
+              ],
+              "label": "Trend",
+              "label_at": "end",
+              "tone": "b",
+              "dashed": true,
+              "bold": false,
+              "curve": false
+            }
+          ],
+          "areas": [],
+          "dots": [
+            {
+              "x": 1.0,
+              "y": 605.0,
+              "label": "",
+              "label_at": "above",
+              "guides": false
+            },
+            {
+              "x": 2.0,
+              "y": 715.0,
+              "label": "",
+              "label_at": "above",
+              "guides": false
+            },
+            {
+              "x": 3.0,
+              "y": 830.0,
+              "label": "",
+              "label_at": "above",
+              "guides": false
+            },
+            {
+              "x": 4.0,
+              "y": 790.0,
+              "label": "",
+              "label_at": "above",
+              "guides": false
+            },
+            {
+              "x": 5.0,
+              "y": 835.0,
+              "label": "",
+              "label_at": "above",
+              "guides": false
+            },
+            {
+              "x": 8.0,
+              "y": 1022.5,
+              "label": "2000",
+              "label_at": "above",
+              "guides": true
+            }
+          ],
+          "notes": []
+        }
+      ],
       "worked": null,
-      "watch_out": [],
-      "memory_trick": "",
-      "exam_answer_md": ""
+      "watch_out": [
+        "The year 2000 is **t = 8** when 1993 is t = 1, not t = 6.",
+        "The slide prints 1024.9; the correct arithmetic is 1022.5."
+      ],
+      "memory_trick": "**Two unknowns, two normal equations.**",
+      "exam_answer_md": "Number years t = 1 to 5; build S, T, T², ST and sum: 3775, 15, 55, 11860. Normal equations: 3775 = 5a + 15b; 11860 = 15a + 55b. So b = 53.5, a = 594.5; **S = 594.5 + 53.5t**. For 2000 (t = 8): S = **1022.5**."
     },
     {
       "id": "be-s9-trend-c2",
@@ -191,13 +312,101 @@
       "derived": [],
       "needs_check": false,
       "retired": false,
-      "big_idea": "",
+      "big_idea": "If the jumps between years keep growing evenly, use a curved (quadratic) trend instead of a straight line.",
       "analogy": null,
-      "visuals": [],
+      "visuals": [
+        {
+          "title": "Sales 1990 to 1996: the jumps keep growing",
+          "caption": "Each year's increase is bigger than the last, so a straight line does not fit; a curve does.",
+          "source_ref": "be--session-9#17",
+          "kind": "plot",
+          "x_label": "t",
+          "y_label": "Sales",
+          "x_max": 3.6,
+          "y_max": 80.0,
+          "y_min": 0.0,
+          "x_ticks": [
+            {
+              "at": 0.5,
+              "label": "-3"
+            },
+            {
+              "at": 1.0,
+              "label": "-2"
+            },
+            {
+              "at": 1.5,
+              "label": "-1"
+            },
+            {
+              "at": 2.0,
+              "label": "0"
+            },
+            {
+              "at": 2.5,
+              "label": "1"
+            },
+            {
+              "at": 3.0,
+              "label": "2"
+            },
+            {
+              "at": 3.5,
+              "label": "3"
+            }
+          ],
+          "y_ticks": [],
+          "lines": [
+            {
+              "points": [
+                [
+                  0.5,
+                  10.0
+                ],
+                [
+                  1.0,
+                  15.0
+                ],
+                [
+                  1.5,
+                  22.0
+                ],
+                [
+                  2.0,
+                  31.0
+                ],
+                [
+                  2.5,
+                  43.0
+                ],
+                [
+                  3.0,
+                  57.0
+                ],
+                [
+                  3.5,
+                  74.0
+                ]
+              ],
+              "label": "Sales",
+              "label_at": "end",
+              "tone": "a",
+              "dashed": false,
+              "bold": false,
+              "curve": true
+            }
+          ],
+          "areas": [],
+          "dots": [],
+          "notes": []
+        }
+      ],
       "worked": null,
-      "watch_out": [],
+      "watch_out": [
+        "Constant **first** differences: linear. Constant **second** differences: quadratic."
+      ],
       "memory_trick": "",
-      "exam_answer_md": ""
+      "exam_answer_md": "First differences (5, 7, 9, 12, 14, 17) are not constant; second differences are nearly constant (about 2 to 3), so a **quadratic trend** S = a + bt + ct² is appropriate. Code t = -3 to 3 with 1993 = 0 so that the sum of t is 0."
     },
     {
       "id": "be-s9-trend-c3",
@@ -298,13 +507,16 @@
       ],
       "needs_check": false,
       "retired": false,
-      "big_idea": "",
+      "big_idea": "With coded t, the three normal equations solve quickly: S = 31.19 + 10.607t + 1.202t², and 2000 (t = 7) gives 164.36.",
       "analogy": null,
       "visuals": [],
       "worked": null,
-      "watch_out": [],
+      "watch_out": [
+        "297/28 = 10.607; the slide's 10.067 is a typo.",
+        "The year 2000 is t = 7 here, because 1996 is t = 3."
+      ],
       "memory_trick": "",
-      "exam_answer_md": ""
+      "exam_answer_md": "Normal equations: 252 = 7a + 28c; 297 = 28b; 1109 = 28a + 196c. b = 10.607, c = 1.202, a = 31.19. **S = 31.19 + 10.607t + 1.202t²**; for 2000 (t = 7): **164.36**."
     }
   ],
   "flashcards": [

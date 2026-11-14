@@ -79,13 +79,13 @@
       "derived": [],
       "needs_check": false,
       "retired": false,
-      "big_idea": "",
+      "big_idea": "Qualitative forecasts come from judgement; quantitative forecasts come from maths on data.",
       "analogy": null,
       "visuals": [],
       "worked": null,
       "watch_out": [],
       "memory_trick": "",
-      "exam_answer_md": ""
+      "exam_answer_md": "**Qualitative methods:** forecasts generated subjectively by the forecaster. **Quantitative (statistical) methods:** forecasts generated through mathematical modeling."
     },
     {
       "id": "be-s9-forecasting-methods-c2",
@@ -182,13 +182,52 @@
       "derived": [],
       "needs_check": false,
       "retired": false,
-      "big_idea": "",
+      "big_idea": "Ask customers (surveys), ask your managers (executive opinion), or get experts to agree (Delphi).",
       "analogy": null,
-      "visuals": [],
+      "visuals": [
+        {
+          "title": "Qualitative methods compared",
+          "caption": "",
+          "source_ref": "be--session-9#7",
+          "kind": "matrix",
+          "row_title": "",
+          "col_title": "",
+          "rows": [
+            "Market research / surveys",
+            "Executive opinion",
+            "Delphi method"
+          ],
+          "cols": [
+            "How",
+            "Strength",
+            "Weakness"
+          ],
+          "cells": [
+            [
+              "Surveys and interviews of customers",
+              "Good guide to customer preferences",
+              "Hard to write a good questionnaire"
+            ],
+            [
+              "Managers meet and agree a forecast",
+              "Strategic or new-product forecasts",
+              "One person can dominate"
+            ],
+            [
+              "Consensus among experts",
+              "Long-term and technological forecasts",
+              "Time consuming"
+            ]
+          ],
+          "highlight": []
+        }
+      ],
       "worked": null,
-      "watch_out": [],
+      "watch_out": [
+        "Delphi uses **experts**; executive opinion uses the firm's own **managers**."
+      ],
       "memory_trick": "",
-      "exam_answer_md": ""
+      "exam_answer_md": "Market research/consumer surveys use surveys and interviews to identify customer preferences (good determinant of preferences; hard to develop a good questionnaire). Executive opinion: managers meet and come up with a forecast (good for strategic or new-product forecasting; one person's opinion can dominate). Delphi method: seeks consensus among experts (excellent for long-term product demand and technological forecasting; time consuming)."
     },
     {
       "id": "be-s9-forecasting-methods-c3",
@@ -253,13 +292,13 @@
       "derived": [],
       "needs_check": false,
       "retired": false,
-      "big_idea": "",
+      "big_idea": "Time series models assume the past pattern repeats; causal models use one thing (like housing starts) to predict another (appliance sales).",
       "analogy": null,
       "visuals": [],
       "worked": null,
       "watch_out": [],
       "memory_trick": "",
-      "exam_answer_md": ""
+      "exam_answer_md": "**Time series models** assume the future will follow the same patterns as the past. **Causal models** explore cause-and-effect relationships and use leading indicators to predict the future, e.g. housing starts and appliance sales."
     },
     {
       "id": "be-s9-forecasting-methods-c4",
@@ -324,13 +363,304 @@
       "derived": [],
       "needs_check": false,
       "retired": false,
-      "big_idea": "",
+      "big_idea": "Past data is a pattern (level, trend, season, cycle) plus random noise.",
       "analogy": null,
-      "visuals": [],
+      "visuals": [
+        {
+          "title": "Level",
+          "caption": "Data moves sideways around a long-term average.",
+          "source_ref": "be--session-9#10",
+          "kind": "plot",
+          "x_label": "Time",
+          "y_label": "Quantity",
+          "x_max": 10.0,
+          "y_max": 10.0,
+          "y_min": 0.0,
+          "x_ticks": [],
+          "y_ticks": [],
+          "lines": [
+            {
+              "points": [
+                [
+                  0.0,
+                  5.0
+                ],
+                [
+                  1.0,
+                  5.6
+                ],
+                [
+                  2.0,
+                  4.6
+                ],
+                [
+                  3.0,
+                  5.4
+                ],
+                [
+                  4.0,
+                  4.8
+                ],
+                [
+                  5.0,
+                  5.5
+                ],
+                [
+                  6.0,
+                  4.5
+                ],
+                [
+                  7.0,
+                  5.3
+                ],
+                [
+                  8.0,
+                  4.9
+                ],
+                [
+                  9.0,
+                  5.5
+                ]
+              ],
+              "label": "",
+              "label_at": "end",
+              "tone": "a",
+              "dashed": false,
+              "bold": false,
+              "curve": false
+            },
+            {
+              "points": [
+                [
+                  0.0,
+                  5.0
+                ],
+                [
+                  9.5,
+                  5.0
+                ]
+              ],
+              "label": "mean",
+              "label_at": "end",
+              "tone": "muted",
+              "dashed": true,
+              "bold": false,
+              "curve": false
+            }
+          ],
+          "areas": [],
+          "dots": [],
+          "notes": []
+        },
+        {
+          "title": "Trend",
+          "caption": "Data rises (or falls) progressively.",
+          "source_ref": "be--session-9#10",
+          "kind": "plot",
+          "x_label": "Time",
+          "y_label": "Quantity",
+          "x_max": 10.0,
+          "y_max": 10.0,
+          "y_min": 0.0,
+          "x_ticks": [],
+          "y_ticks": [],
+          "lines": [
+            {
+              "points": [
+                [
+                  0.0,
+                  2.0
+                ],
+                [
+                  1.0,
+                  2.9
+                ],
+                [
+                  2.0,
+                  2.7
+                ],
+                [
+                  3.0,
+                  4.0
+                ],
+                [
+                  4.0,
+                  4.1
+                ],
+                [
+                  5.0,
+                  5.3
+                ],
+                [
+                  6.0,
+                  5.4
+                ],
+                [
+                  7.0,
+                  6.6
+                ],
+                [
+                  8.0,
+                  6.8
+                ],
+                [
+                  9.0,
+                  8.0
+                ]
+              ],
+              "label": "",
+              "label_at": "end",
+              "tone": "a",
+              "dashed": false,
+              "bold": false,
+              "curve": false
+            }
+          ],
+          "areas": [],
+          "dots": [],
+          "notes": []
+        },
+        {
+          "title": "Seasonality",
+          "caption": "A pattern that repeats every year, quarter by quarter.",
+          "source_ref": "be--session-9#10",
+          "kind": "plot",
+          "x_label": "Quarters",
+          "y_label": "Quantity",
+          "x_max": 12.5,
+          "y_max": 10.0,
+          "y_min": 0.0,
+          "x_ticks": [],
+          "y_ticks": [],
+          "lines": [
+            {
+              "points": [
+                [
+                  0.0,
+                  4.0
+                ],
+                [
+                  1.0,
+                  6.0
+                ],
+                [
+                  2.0,
+                  8.0
+                ],
+                [
+                  3.0,
+                  5.0
+                ],
+                [
+                  4.0,
+                  4.0
+                ],
+                [
+                  5.0,
+                  6.0
+                ],
+                [
+                  6.0,
+                  8.0
+                ],
+                [
+                  7.0,
+                  5.0
+                ],
+                [
+                  8.0,
+                  4.0
+                ],
+                [
+                  9.0,
+                  6.0
+                ],
+                [
+                  10.0,
+                  8.0
+                ],
+                [
+                  11.0,
+                  5.0
+                ],
+                [
+                  12.0,
+                  4.0
+                ]
+              ],
+              "label": "",
+              "label_at": "end",
+              "tone": "a",
+              "dashed": false,
+              "bold": false,
+              "curve": false
+            }
+          ],
+          "areas": [],
+          "dots": [],
+          "notes": []
+        },
+        {
+          "title": "Cycle",
+          "caption": "A slow wave up and down over several years.",
+          "source_ref": "be--session-9#10",
+          "kind": "plot",
+          "x_label": "Years",
+          "y_label": "Quantity",
+          "x_max": 10.0,
+          "y_max": 10.0,
+          "y_min": 0.0,
+          "x_ticks": [],
+          "y_ticks": [],
+          "lines": [
+            {
+              "points": [
+                [
+                  0.0,
+                  5.0
+                ],
+                [
+                  1.5,
+                  7.5
+                ],
+                [
+                  3.0,
+                  5.0
+                ],
+                [
+                  4.5,
+                  2.5
+                ],
+                [
+                  6.0,
+                  5.0
+                ],
+                [
+                  7.5,
+                  7.5
+                ],
+                [
+                  9.0,
+                  5.0
+                ]
+              ],
+              "label": "",
+              "label_at": "end",
+              "tone": "a",
+              "dashed": false,
+              "bold": false,
+              "curve": true
+            }
+          ],
+          "areas": [],
+          "dots": [],
+          "notes": []
+        }
+      ],
       "worked": null,
       "watch_out": [],
       "memory_trick": "",
-      "exam_answer_md": ""
+      "exam_answer_md": "Time series data = historic pattern + random variation. The historic pattern may include **level** (long-term average), **trend**, **seasonality** and **cycle**. (Sketch the four patterns.)"
     },
     {
       "id": "be-s9-forecasting-methods-c5",
@@ -395,13 +725,13 @@
       "derived": [],
       "needs_check": false,
       "retired": false,
-      "big_idea": "",
+      "big_idea": "Choose the method by how much data you have, how accurate you need to be, how far ahead you look, and what pattern the data shows.",
       "analogy": null,
       "visuals": [],
       "worked": null,
       "watch_out": [],
       "memory_trick": "",
-      "exam_answer_md": ""
+      "exam_answer_md": "Methods of forecasting: ordinary least square, regression, moving average, exponential smoothing. Factors for selecting a model: the amount and type of available data, the degree of accuracy required, the length of the forecast horizon, and the presence of data patterns."
     }
   ],
   "flashcards": [

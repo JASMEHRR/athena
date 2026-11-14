@@ -81,13 +81,13 @@
       "derived": [],
       "needs_check": false,
       "retired": false,
-      "big_idea": "",
+      "big_idea": "Exponential smoothing trusts recent years more than old ones, unlike a moving average that treats them equally.",
       "analogy": null,
       "visuals": [],
       "worked": null,
       "watch_out": [],
       "memory_trick": "",
-      "exam_answer_md": ""
+      "exam_answer_md": "A moving average gives equal importance to all observations in its window. **Exponential smoothing** gives more importance to recent observations and progressively less to older ones."
     },
     {
       "id": "be-s9-exponential-smoothing-c2",
@@ -157,13 +157,15 @@
       "derived": [],
       "needs_check": false,
       "retired": false,
-      "big_idea": "",
+      "big_idea": "New forecast = α x this year's actual + (1 - α) x this year's forecast.",
       "analogy": null,
       "visuals": [],
       "worked": null,
-      "watch_out": [],
-      "memory_trick": "",
-      "exam_answer_md": ""
+      "watch_out": [
+        "α goes with the **actual** Y(t); (1 - α) goes with the old **forecast** F(t)."
+      ],
+      "memory_trick": "**A little of the truth, a lot of the old guess** (when α is small).",
+      "exam_answer_md": "**F(t+1) = αY(t) + (1 - α)F(t)**, where α is the smoothing constant, 0 < α < 1."
     },
     {
       "id": "be-s9-exponential-smoothing-c3",
@@ -263,13 +265,127 @@
       ],
       "needs_check": false,
       "retired": false,
-      "big_idea": "",
+      "big_idea": "Start with the first actual as the first forecast, then apply the formula year by year: with α = 0.3, 2025 comes to 121.83.",
       "analogy": null,
-      "visuals": [],
+      "visuals": [
+        {
+          "title": "Actual sales vs smoothed forecast (α = 0.3)",
+          "caption": "The smoothed forecast follows sales but stays below them because sales keep rising.",
+          "source_ref": "be--session-9#30",
+          "kind": "plot",
+          "x_label": "Year",
+          "y_label": "Sales",
+          "x_max": 6.5,
+          "y_max": 150.0,
+          "y_min": 0.0,
+          "x_ticks": [
+            {
+              "at": 1.0,
+              "label": "2020"
+            },
+            {
+              "at": 2.0,
+              "label": "2021"
+            },
+            {
+              "at": 3.0,
+              "label": "2022"
+            },
+            {
+              "at": 4.0,
+              "label": "2023"
+            },
+            {
+              "at": 5.0,
+              "label": "2024"
+            },
+            {
+              "at": 6.0,
+              "label": "2025"
+            }
+          ],
+          "y_ticks": [],
+          "lines": [
+            {
+              "points": [
+                [
+                  1.0,
+                  100.0
+                ],
+                [
+                  2.0,
+                  120.0
+                ],
+                [
+                  3.0,
+                  110.0
+                ],
+                [
+                  4.0,
+                  130.0
+                ],
+                [
+                  5.0,
+                  140.0
+                ]
+              ],
+              "label": "Actual",
+              "label_at": "end",
+              "tone": "a",
+              "dashed": false,
+              "bold": true,
+              "curve": false
+            },
+            {
+              "points": [
+                [
+                  2.0,
+                  100.0
+                ],
+                [
+                  3.0,
+                  106.0
+                ],
+                [
+                  4.0,
+                  107.2
+                ],
+                [
+                  5.0,
+                  114.04
+                ],
+                [
+                  6.0,
+                  121.83
+                ]
+              ],
+              "label": "Forecast",
+              "label_at": "end",
+              "tone": "c",
+              "dashed": true,
+              "bold": false,
+              "curve": false
+            }
+          ],
+          "areas": [],
+          "dots": [
+            {
+              "x": 6.0,
+              "y": 121.83,
+              "label": "121.83",
+              "label_at": "above",
+              "guides": true
+            }
+          ],
+          "notes": []
+        }
+      ],
       "worked": null,
-      "watch_out": [],
+      "watch_out": [
+        "Each step uses the **previous forecast**, not the previous actual, inside (1 - α)F(t)."
+      ],
       "memory_trick": "",
-      "exam_answer_md": ""
+      "exam_answer_md": "With α = 0.3 and F2021 = 100: F2022 = 0.3(120) + 0.7(100) = 106; F2023 = 0.3(110) + 0.7(106) = 107.2; F2024 = 0.3(130) + 0.7(107.2) = 114.04; **F2025 = 0.3(140) + 0.7(114.04) = 121.83**."
     },
     {
       "id": "be-s9-exponential-smoothing-c4",
@@ -347,13 +463,13 @@
       ],
       "needs_check": false,
       "retired": false,
-      "big_idea": "",
+      "big_idea": "On steadily rising sales, a small α reacts too slowly, so the 3-year moving average wins on RMSE.",
       "analogy": null,
       "visuals": [],
       "worked": null,
       "watch_out": [],
       "memory_trick": "",
-      "exam_answer_md": ""
+      "exam_answer_md": "3-year MA: 2026 forecast 140, RMSE about 20.07. Exponential smoothing with α = 0.1: 2026 forecast about 103.21, RMSE about 38.21 (over 2020 to 2025). The moving average has the lower RMSE and is preferable; with α = 0.1 smoothing lags behind rising sales."
     }
   ],
   "flashcards": [
