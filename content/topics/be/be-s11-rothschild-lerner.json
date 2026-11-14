@@ -1,0 +1,403 @@
+{
+  "id": "be-s11-rothschild-lerner",
+  "subject_id": "be",
+  "deck_id": "be--session-11",
+  "title": "Rothschild index, Lerner index and markup factor",
+  "order": 3,
+  "summary": "Measuring demand conditions with the Rothschild index, measuring market power with the Lerner index, and turning the Lerner index into a markup factor.",
+  "est_minutes": 25,
+  "difficulty": 2,
+  "source_refs": [
+    "be--session-11#10",
+    "be--session-11#11",
+    "be--session-11#13",
+    "be--session-11#14",
+    "be--session-11#15"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "be-s11-rothschild-lerner-c1",
+      "heading": "The Rothschild index",
+      "explanation_md": "The **Rothschild Index** compares the elasticity of **industry** demand with that of an **individual firm**:\n\n**R = ET / EF**\n\n- ET: elasticity of demand for the total market\n- EF: elasticity of demand for an individual firm's product\n\nR lies between **0 (perfect competition)** and **1 (monopoly)**. Many firms making similar products push R **close to zero**.\n\nFrom the table: **Tobacco** and **Chemicals** have R = **1.00**; **Food** is **0.26**.",
+      "example_ids": [
+        "be-ex-rothschild-table"
+      ],
+      "key_terms": [
+        {
+          "term": "Rothschild Index",
+          "meaning": "R = ET / EF, between 0 (perfect competition) and 1 (monopoly)",
+          "source_ref": "be--session-11#10"
+        }
+      ],
+      "exam_line": "R = ET / EF; 0 is perfect competition, 1 is monopoly.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s11-rothschild-lerner-q-300a2ef3",
+          "type": "mcq",
+          "stem": "A Rothschild index of 1 indicates:",
+          "options": [
+            "Monopoly",
+            "Perfect competition",
+            "Zero market demand"
+          ],
+          "answer": "Monopoly",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-11#10",
+            "be--session-11#11"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s11-rothschild-lerner-q-bd9036c0",
+          "type": "mcq",
+          "stem": "The Rothschild index is:",
+          "options": [
+            "ET / EF",
+            "EF / ET",
+            "(P - MC) / P"
+          ],
+          "answer": "ET / EF",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-11#10",
+            "be--session-11#11"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s11-rothschild-lerner-q-59135918",
+          "type": "true_false",
+          "stem": "When an industry has many firms with similar products, the Rothschild index is close to zero.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-11#10",
+            "be--session-11#11"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-11#10",
+        "be--session-11#11"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false,
+      "big_idea": "",
+      "analogy": null,
+      "visuals": [],
+      "worked": null,
+      "watch_out": [],
+      "memory_trick": "",
+      "exam_answer_md": ""
+    },
+    {
+      "id": "be-s11-rothschild-lerner-c2",
+      "heading": "The Lerner index",
+      "explanation_md": "**L = (P - MC) / P**: the gap between price and marginal cost as a fraction of price.\n\n- Ranges from **0 to 1**.\n- **P = MC** gives L = 0: **no market power**.\n- L **closer to 1**: relatively **weak price competition**, the firm **has market power**.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Lerner Index",
+          "meaning": "L = (P - MC) / P; 0 means no market power, closer to 1 means market power",
+          "source_ref": "be--session-11#13"
+        }
+      ],
+      "exam_line": "L = (P - MC) / P; L = 0 when P = MC.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s11-rothschild-lerner-q-da5e3a9a",
+          "type": "mcq",
+          "stem": "When P = MC, the Lerner index is:",
+          "options": [
+            "0",
+            "1",
+            "0.5"
+          ],
+          "answer": "0",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-11#13"
+          ],
+          "derived": [
+            "0.5"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s11-rothschild-lerner-q-f0bbf536",
+          "type": "true_false",
+          "stem": "A Lerner index close to 1 means the firm has market power.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-11#13"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-11#13"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false,
+      "big_idea": "",
+      "analogy": null,
+      "visuals": [],
+      "worked": null,
+      "watch_out": [],
+      "memory_trick": "",
+      "exam_answer_md": ""
+    },
+    {
+      "id": "be-s11-rothschild-lerner-c3",
+      "heading": "From Lerner index to markup factor",
+      "explanation_md": "Rearranging the Lerner index:\n\n**P = [1 / (1 - L)] x MC**, so the **markup factor is 1/(1-L)**.\n\n| L | Markup factor | Meaning |\n|---|---|---|\n| 0 | 1 | P = MC |\n| 0.20 | 1.25 | Price is 1.25 times MC |\n\nFrom the table: **Tobacco** has L = **0.76** and a markup factor of **4.17**.",
+      "example_ids": [
+        "be-ex-lerner-table"
+      ],
+      "key_terms": [],
+      "exam_line": "Markup factor = 1/(1-L); L = 0.20 gives 1.25.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s11-rothschild-lerner-q-137c9169",
+          "type": "mcq",
+          "stem": "If the Lerner index is 0.20, the markup factor is:",
+          "options": [
+            "1.25",
+            "0.80",
+            "5"
+          ],
+          "answer": "1.25",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-11#14",
+            "be--session-11#15"
+          ],
+          "derived": [
+            "0.80"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s11-rothschild-lerner-q-bac8ab51",
+          "type": "fill",
+          "stem": "The markup factor is 1/(1 - ____)",
+          "options": [],
+          "answer": "L",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-11#14",
+            "be--session-11#15"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-11#14",
+        "be--session-11#15"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false,
+      "big_idea": "",
+      "analogy": null,
+      "visuals": [],
+      "worked": null,
+      "watch_out": [],
+      "memory_trick": "",
+      "exam_answer_md": ""
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "be-s11-rothschild-lerner-f1",
+      "front": "Rothschild Index",
+      "back": "R = ET / EF; 0 perfect competition, 1 monopoly",
+      "kind": "formula",
+      "source_refs": [
+        "be--session-11#10"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s11-rothschild-lerner-f2",
+      "front": "Lerner Index",
+      "back": "L = (P - MC) / P, from 0 (no market power) to 1",
+      "kind": "formula",
+      "source_refs": [
+        "be--session-11#13"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s11-rothschild-lerner-f3",
+      "front": "Markup factor",
+      "back": "1/(1-L); L = 0.20 gives 1.25",
+      "kind": "formula",
+      "source_refs": [
+        "be--session-11#14"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [
+    {
+      "id": "be-s11-rothschild-lerner-q-a32e5b9c",
+      "type": "mcq",
+      "stem": "In the slide table, which industry has a Lerner index of 0.76 and a markup factor of 4.17?",
+      "options": [
+        "Tobacco",
+        "Food",
+        "Textiles"
+      ],
+      "answer": "Tobacco",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "",
+      "source_refs": [
+        "be--session-11#15"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s11-rothschild-lerner-q-8d6e24a4",
+      "type": "short",
+      "stem": "Explain the Rothschild index and the Lerner index.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Rothschild index:** R = ET / EF, the elasticity of total market demand over the elasticity of one firm's demand. It lies between **0 (perfect competition)** and **1 (monopoly)**; many firms with similar products push it toward zero.\n\n**Lerner index:** L = (P - MC) / P, the price-cost gap as a fraction of price, from 0 to 1. L = 0 when P = MC (no market power); closer to 1 means market power. It gives the **markup factor 1/(1-L)**: L = 0.20 means price is 1.25 times MC.",
+      "rubric": [
+        {
+          "point": "Rothschild formula",
+          "source_ref": "be--session-11#10"
+        },
+        {
+          "point": "Rothschild range",
+          "source_ref": "be--session-11#10"
+        },
+        {
+          "point": "Lerner formula and meaning",
+          "source_ref": "be--session-11#13"
+        },
+        {
+          "point": "Markup factor",
+          "source_ref": "be--session-11#14"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "be--session-11#10",
+        "be--session-11#13",
+        "be--session-11#14"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "explain_back": {
+    "prompt": "Explain the Rothschild index and the Lerner index and what each tells a manager.",
+    "rubric": [
+      {
+        "point": "Rothschild index formula and range",
+        "source_ref": "be--session-11#10"
+      },
+      {
+        "point": "Lerner index formula and meaning",
+        "source_ref": "be--session-11#13"
+      },
+      {
+        "point": "Markup factor 1/(1-L)",
+        "source_ref": "be--session-11#14"
+      },
+      {
+        "point": "Worked value: L = 0.20 gives 1.25",
+        "source_ref": "be--session-11#14"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

@@ -1,0 +1,400 @@
+{
+  "id": "be-s12m-shutdown-long-run",
+  "subject_id": "be",
+  "deck_id": "be--session-12",
+  "title": "Short-run losses, shutdown, supply and long-run equilibrium",
+  "order": 2,
+  "summary": "When a loss-making firm should keep operating, the shutdown rule, the firm and market supply curves, and how entry drives long-run profits to zero.",
+  "est_minutes": 25,
+  "difficulty": 2,
+  "source_refs": [
+    "be--session-12#11",
+    "be--session-12#12",
+    "be--session-12#13",
+    "be--session-12#14",
+    "be--session-12#15",
+    "be--session-12#16",
+    "be--session-12#17",
+    "be--session-12#18",
+    "be--session-12#19"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "be-s12m-shutdown-long-run-c1",
+      "heading": "Losses and the shutdown rule",
+      "explanation_md": "If Pe is below ATC, **Profit = (Pe - ATC) x Qf* < 0**: a loss.\n\nA firm should **keep operating** (sustain short-run losses) if its **operating loss is less than its fixed costs**, because operating loses less than shutting down.\n\n**Decision rule:**\n\n- **Shut down when P < min AVC.**\n- **Continue as long as P ≥ min AVC.**\n\nSo the firm's **short-run supply curve** is its **MC curve above minimum AVC**.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "Shut down if P < min AVC; supply curve = MC above min AVC.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s12m-shutdown-long-run-q-6c7af90a",
+          "type": "mcq",
+          "stem": "A competitive firm should shut down in the short run when:",
+          "options": [
+            "P < min AVC",
+            "P < ATC",
+            "P = MC"
+          ],
+          "answer": "P < min AVC",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-12#11",
+            "be--session-12#12",
+            "be--session-12#13"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s12m-shutdown-long-run-q-64de6615",
+          "type": "mcq",
+          "stem": "The firm's short-run supply curve is:",
+          "options": [
+            "MC above minimum AVC",
+            "The whole ATC curve",
+            "The demand curve"
+          ],
+          "answer": "MC above minimum AVC",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-12#11",
+            "be--session-12#12",
+            "be--session-12#13"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s12m-shutdown-long-run-q-48c6a8eb",
+          "type": "true_false",
+          "stem": "A firm should keep operating if its operating loss is less than its fixed costs.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-12#11",
+            "be--session-12#12",
+            "be--session-12#13"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-12#11",
+        "be--session-12#12",
+        "be--session-12#13"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false,
+      "big_idea": "",
+      "analogy": null,
+      "visuals": [],
+      "worked": null,
+      "watch_out": [],
+      "memory_trick": "",
+      "exam_answer_md": ""
+    },
+    {
+      "id": "be-s12m-shutdown-long-run-c2",
+      "heading": "Market supply",
+      "explanation_md": "The **market supply curve** is the **summation of each firm's supply at each price**: at any price, add the quantities firm 1 and firm 2 would supply.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "Market supply = horizontal sum of the firms' supply curves.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s12m-shutdown-long-run-q-eee01750",
+          "type": "true_false",
+          "stem": "The short-run market supply curve sums each firm's supply at each price.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-12#14"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-12#14"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false,
+      "big_idea": "",
+      "analogy": null,
+      "visuals": [],
+      "worked": null,
+      "watch_out": [],
+      "memory_trick": "",
+      "exam_answer_md": ""
+    },
+    {
+      "id": "be-s12m-shutdown-long-run-c3",
+      "heading": "Entry in the long run",
+      "explanation_md": "With **barriers to entry**, price takers' profits **persist**. In **perfect competition** there is **free entry**, so:\n\n1. Short-run profits lead to **entry**.\n2. Entry **increases market supply**, **drives down the market price** and increases market quantity.\n3. Each firm's **demand shifts down**.\n4. The firm **reduces output**.\n5. **Long-run profits are zero.**\n\n**Long-run competitive equilibrium:**\n\n| Condition | Meaning |\n|---|---|\n| P = MC | Socially efficient output |\n| P = minimum AC | Efficient plant size |\n| Zero profits | Firms earn just enough to offset their opportunity cost |",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "Profits attract entry, price falls, profits go to zero; long run: P = MC = minimum AC.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s12m-shutdown-long-run-q-163e3910",
+          "type": "mcq",
+          "stem": "In perfect competition, entry of new firms:",
+          "options": [
+            "Drives down the market price",
+            "Raises the market price",
+            "Has no effect on price"
+          ],
+          "answer": "Drives down the market price",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-12#15",
+            "be--session-12#16",
+            "be--session-12#17",
+            "be--session-12#18",
+            "be--session-12#19"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s12m-shutdown-long-run-q-227739cf",
+          "type": "mcq",
+          "stem": "P = minimum AC in long-run equilibrium means:",
+          "options": [
+            "Efficient plant size",
+            "Monopoly power",
+            "Excess capacity"
+          ],
+          "answer": "Efficient plant size",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-12#15",
+            "be--session-12#16",
+            "be--session-12#17",
+            "be--session-12#18",
+            "be--session-12#19"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s12m-shutdown-long-run-q-4cb12d48",
+          "type": "true_false",
+          "stem": "Zero long-run profit means firms earn just enough to offset their opportunity cost.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-12#15",
+            "be--session-12#16",
+            "be--session-12#17",
+            "be--session-12#18",
+            "be--session-12#19"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-12#15",
+        "be--session-12#16",
+        "be--session-12#17",
+        "be--session-12#18",
+        "be--session-12#19"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false,
+      "big_idea": "",
+      "analogy": null,
+      "visuals": [],
+      "worked": null,
+      "watch_out": [],
+      "memory_trick": "",
+      "exam_answer_md": ""
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "be-s12m-shutdown-long-run-f1",
+      "front": "Shutdown rule",
+      "back": "Shut down when P < min AVC; continue while P ≥ min AVC",
+      "kind": "fact",
+      "source_refs": [
+        "be--session-12#12"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12m-shutdown-long-run-f2",
+      "front": "Short-run supply curve",
+      "back": "MC above minimum AVC",
+      "kind": "fact",
+      "source_refs": [
+        "be--session-12#13"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12m-shutdown-long-run-f3",
+      "front": "Long-run competitive equilibrium",
+      "back": "P = MC (efficient output); P = minimum AC (efficient plant size); zero profits",
+      "kind": "list",
+      "source_refs": [
+        "be--session-12#19"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [
+    {
+      "id": "be-s12m-shutdown-long-run-q-fe7ab2ef",
+      "type": "mcq",
+      "stem": "Which is a feature of long-run competitive equilibrium?",
+      "options": [
+        "Zero profits",
+        "P > MC",
+        "Excess capacity"
+      ],
+      "answer": "Zero profits",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "",
+      "source_refs": [
+        "be--session-12#19"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12m-shutdown-long-run-q-7f689eb0",
+      "type": "short",
+      "stem": "Explain the shutdown decision rule for a perfectly competitive firm.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "When **Pe < ATC** the firm makes a loss: (Pe - ATC) x Qf* < 0. It should still **operate** if its **operating loss is less than its fixed costs**, since shutting down would lose all fixed costs.\n\n- **Shut down when P < min AVC.**\n- **Continue while P ≥ min AVC.**\n\nSo the short-run supply curve is **MC above minimum AVC**.",
+      "rubric": [
+        {
+          "point": "Loss when P below ATC",
+          "source_ref": "be--session-12#11"
+        },
+        {
+          "point": "Operating loss versus fixed costs",
+          "source_ref": "be--session-12#12"
+        },
+        {
+          "point": "P < min AVC rule",
+          "source_ref": "be--session-12#12"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "be--session-12#11",
+        "be--session-12#12",
+        "be--session-12#13"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "explain_back": {
+    "prompt": "Explain the shutdown rule and how a perfectly competitive industry reaches long-run equilibrium.",
+    "rubric": [
+      {
+        "point": "Operate while operating loss is less than fixed costs",
+        "source_ref": "be--session-12#12"
+      },
+      {
+        "point": "Shut down when P < min AVC",
+        "source_ref": "be--session-12#12"
+      },
+      {
+        "point": "Entry lowers price and firm demand",
+        "source_ref": "be--session-12#18"
+      },
+      {
+        "point": "Long run: P = MC = min AC, zero profit",
+        "source_ref": "be--session-12#19"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

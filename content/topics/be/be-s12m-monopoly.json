@@ -1,0 +1,578 @@
+{
+  "id": "be-s12m-monopoly",
+  "subject_id": "be",
+  "deck_id": "be--session-12",
+  "title": "Monopoly: sources of power, profit maximization and deadweight loss",
+  "order": 3,
+  "summary": "The monopoly environment, natural and created sources of power, marginal revenue, MR = MC pricing, the useful formulae, the P = 10 - Q example, deadweight loss, arguments for monopoly and multi-plant decisions.",
+  "est_minutes": 35,
+  "difficulty": 3,
+  "source_refs": [
+    "be--session-12#20",
+    "be--session-12#21",
+    "be--session-12#22",
+    "be--session-12#23",
+    "be--session-12#24",
+    "be--session-12#25",
+    "be--session-12#26",
+    "be--session-12#27",
+    "be--session-12#28",
+    "be--session-12#29",
+    "be--session-12#30",
+    "be--session-12#31",
+    "be--session-12#32",
+    "be--session-12#33"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "be-s12m-monopoly-c1",
+      "heading": "The monopoly environment and its sources",
+      "explanation_md": "- A **single firm serves the relevant market**; most monopolies are **local**.\n- The firm's demand **is the market demand curve**.\n- The firm **controls price**, but price affects how much it sells.\n\n| Natural sources | Created sources |\n|---|---|\n| Economies of scale | Patents and other legal barriers (like licenses) |\n| Economies of scope | Tying contracts |\n| Cost complementarities | Exclusive contracts |",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "Natural: scale, scope, cost complementarities. Created: patents and licenses, tying contracts, exclusive contracts.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s12m-monopoly-q-ec87d9e5",
+          "type": "mcq",
+          "stem": "Which is a created source of monopoly power?",
+          "options": [
+            "Tying contracts",
+            "Economies of scale",
+            "Cost complementarities"
+          ],
+          "answer": "Tying contracts",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-12#20",
+            "be--session-12#21",
+            "be--session-12#22"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s12m-monopoly-q-f8e525a0",
+          "type": "mcq",
+          "stem": "Which is a natural source of monopoly power?",
+          "options": [
+            "Economies of scope",
+            "Patents",
+            "Exclusive contracts"
+          ],
+          "answer": "Economies of scope",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-12#20",
+            "be--session-12#21",
+            "be--session-12#22"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s12m-monopoly-q-7d983add",
+          "type": "true_false",
+          "stem": "A monopolist's demand curve is the market demand curve.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-12#20",
+            "be--session-12#21",
+            "be--session-12#22"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-12#20",
+        "be--session-12#21",
+        "be--session-12#22"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false,
+      "big_idea": "",
+      "analogy": null,
+      "visuals": [],
+      "worked": null,
+      "watch_out": [],
+      "memory_trick": "",
+      "exam_answer_md": ""
+    },
+    {
+      "id": "be-s12m-monopoly-c2",
+      "heading": "Marginal revenue and profit maximization",
+      "explanation_md": "Market power lets you **price above MC**, but the sky is not the limit: **how much you sell depends on the price you set**.\n\n- MR lies **below demand**. Where demand is **elastic**, MR > 0 and TR rises; at **unit elastic**, MR = 0 and TR peaks; where **inelastic**, MR < 0.\n- **Produce where MR = MC**, then **charge the price on the demand curve** for that quantity.\n- **Profit = (P - ATC) x Q**.\n\n**Useful formulae:** for linear demand **P = a - bQ**, **MR = a - 2bQ**. Alternatively **MR = P[(1 + E) / E]**.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "MR = MC for quantity, demand curve for price. Linear demand P = a - bQ gives MR = a - 2bQ.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s12m-monopoly-q-581e32c5",
+          "type": "mcq",
+          "stem": "If P = a - bQ, then MR is:",
+          "options": [
+            "a - 2bQ",
+            "a - bQ",
+            "2a - bQ"
+          ],
+          "answer": "a - 2bQ",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-12#23",
+            "be--session-12#24",
+            "be--session-12#25",
+            "be--session-12#26",
+            "be--session-12#27"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s12m-monopoly-q-3b33b0ff",
+          "type": "mcq",
+          "stem": "A monopolist sets its price:",
+          "options": [
+            "On the demand curve at the output where MR = MC",
+            "Equal to MC",
+            "Equal to ATC"
+          ],
+          "answer": "On the demand curve at the output where MR = MC",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-12#23",
+            "be--session-12#24",
+            "be--session-12#25",
+            "be--session-12#26",
+            "be--session-12#27"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s12m-monopoly-q-d07fe728",
+          "type": "true_false",
+          "stem": "Total revenue is highest where demand is unit elastic.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-12#23",
+            "be--session-12#24",
+            "be--session-12#25",
+            "be--session-12#26",
+            "be--session-12#27"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-12#23",
+        "be--session-12#24",
+        "be--session-12#25",
+        "be--session-12#26",
+        "be--session-12#27"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false,
+      "big_idea": "",
+      "analogy": null,
+      "visuals": [],
+      "worked": null,
+      "watch_out": [],
+      "memory_trick": "",
+      "exam_answer_md": ""
+    },
+    {
+      "id": "be-s12m-monopoly-c3",
+      "heading": "Worked example: P = 10 - Q",
+      "explanation_md": "Given **P = 10 - Q** and **C(Q) = 6 + 2Q**:\n\n- **MR = 10 - 2Q**, **MC = 2**\n- 10 - 2Q = 2, so **Q = 4 units**\n- **P = 10 - 4 = $6**\n- Profit = (6)(4) - (6 + 8) = **$10**",
+      "example_ids": [
+        "be-ex-monopoly-10-q"
+      ],
+      "key_terms": [],
+      "exam_line": "MR = 10 - 2Q = 2: Q = 4, P = $6, profit $10.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s12m-monopoly-q-129d8304",
+          "type": "mcq",
+          "stem": "With P = 10 - Q and C(Q) = 6 + 2Q, the optimal price is:",
+          "options": [
+            "$6",
+            "$4",
+            "$10"
+          ],
+          "answer": "$6",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-12#28"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s12m-monopoly-q-92e4db87",
+          "type": "mcq",
+          "stem": "In the same example, maximum profit is:",
+          "options": [
+            "$10",
+            "$24",
+            "$14"
+          ],
+          "answer": "$10",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-12#28"
+          ],
+          "derived": [
+            "24",
+            "14"
+          ],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-12#28"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false,
+      "big_idea": "",
+      "analogy": null,
+      "visuals": [],
+      "worked": null,
+      "watch_out": [],
+      "memory_trick": "",
+      "exam_answer_md": ""
+    },
+    {
+      "id": "be-s12m-monopoly-c4",
+      "heading": "Long run, deadweight loss and the case for monopoly",
+      "explanation_md": "**Long run:** no adjustment, **unless the source of monopoly power is eliminated**.\n\n**Why government dislikes monopoly:** **P > MC**, so there is **too little output at too high a price**, creating a **deadweight loss of monopoly**.\n\n**Arguments for monopoly:** economies of scale, economies of scope and cost complementarities **may outweigh** the harm from market power, and monopoly **encourages innovation**.\n\n**Multi-plant decisions:** a monopoly with two plants sets **MR(Q) = MC1(Q1) = MC2(Q2)** and charges **P(Q)** where **Q = Q1 + Q2**.",
+      "example_ids": [
+        "be-ex-electricity-two-plants"
+      ],
+      "key_terms": [],
+      "exam_line": "Monopoly: P > MC, too little output, deadweight loss. Two plants: MR = MC1 = MC2.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s12m-monopoly-q-6c4b212c",
+          "type": "mcq",
+          "stem": "Governments dislike monopoly because:",
+          "options": [
+            "P > MC, giving too little output at too high a price",
+            "Monopolies always make losses",
+            "P = MC"
+          ],
+          "answer": "P > MC, giving too little output at too high a price",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-12#29",
+            "be--session-12#30",
+            "be--session-12#31",
+            "be--session-12#32",
+            "be--session-12#33"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s12m-monopoly-q-123fda06",
+          "type": "mcq",
+          "stem": "A monopoly with two plants produces where:",
+          "options": [
+            "MR = MC1 and MR = MC2",
+            "MC1 + MC2 = P",
+            "P = MC1 only"
+          ],
+          "answer": "MR = MC1 and MR = MC2",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-12#29",
+            "be--session-12#30",
+            "be--session-12#31",
+            "be--session-12#32",
+            "be--session-12#33"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s12m-monopoly-q-36ffb01b",
+          "type": "true_false",
+          "stem": "One argument for monopoly is that it encourages innovation.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-12#29",
+            "be--session-12#30",
+            "be--session-12#31",
+            "be--session-12#32",
+            "be--session-12#33"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-12#29",
+        "be--session-12#30",
+        "be--session-12#31",
+        "be--session-12#32",
+        "be--session-12#33"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false,
+      "big_idea": "",
+      "analogy": null,
+      "visuals": [],
+      "worked": null,
+      "watch_out": [],
+      "memory_trick": "",
+      "exam_answer_md": ""
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "be-s12m-monopoly-f1",
+      "front": "Sources of monopoly power",
+      "back": "Natural: scale, scope, cost complementarities; created: patents and licenses, tying and exclusive contracts",
+      "kind": "list",
+      "source_refs": [
+        "be--session-12#21",
+        "be--session-12#22"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12m-monopoly-f2",
+      "front": "Monopoly rule",
+      "back": "Produce where MR = MC; charge the demand-curve price for that output",
+      "kind": "formula",
+      "source_refs": [
+        "be--session-12#25"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12m-monopoly-f3",
+      "front": "Linear demand MR",
+      "back": "P = a - bQ gives MR = a - 2bQ",
+      "kind": "formula",
+      "source_refs": [
+        "be--session-12#27"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12m-monopoly-f4",
+      "front": "P = 10 - Q example",
+      "back": "C(Q) = 6 + 2Q: Q = 4, P = $6, profit $10",
+      "kind": "fact",
+      "source_refs": [
+        "be--session-12#28"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12m-monopoly-f5",
+      "front": "Multi-plant monopoly",
+      "back": "MR(Q) = MC1(Q1) = MC2(Q2), with Q = Q1 + Q2",
+      "kind": "formula",
+      "source_refs": [
+        "be--session-12#33"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [
+    {
+      "id": "be-s12m-monopoly-q-73637d68",
+      "type": "mcq",
+      "stem": "In the long run, a monopoly's profits:",
+      "options": [
+        "Persist unless the source of monopoly power is eliminated",
+        "Fall to zero through entry",
+        "Always turn to losses"
+      ],
+      "answer": "Persist unless the source of monopoly power is eliminated",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "",
+      "source_refs": [
+        "be--session-12#29"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12m-monopoly-q-9929a5de",
+      "type": "long",
+      "stem": "A monopolist faces P = 10 - Q and C(Q) = 6 + 2Q. Find the profit-maximizing output, price and profit, and explain why governments dislike monopoly.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "- MR = 10 - 2Q (MR = a - 2bQ) and MC = 2.\n- Set **MR = MC**: 10 - 2Q = 2, so **Q = 4**.\n- Price from demand: **P = 10 - 4 = $6**.\n- Profit = (6)(4) - (6 + 8) = **$10**.\n\nGovernments dislike monopoly because **P > MC**: output is too low and price too high, creating a **deadweight loss**.",
+      "rubric": [
+        {
+          "point": "MR and MC",
+          "source_ref": "be--session-12#27"
+        },
+        {
+          "point": "Q = 4",
+          "source_ref": "be--session-12#28"
+        },
+        {
+          "point": "P = $6 and profit $10",
+          "source_ref": "be--session-12#28"
+        },
+        {
+          "point": "P > MC and deadweight loss",
+          "source_ref": "be--session-12#30"
+        }
+      ],
+      "marks": 5.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "be--session-12#27",
+        "be--session-12#28",
+        "be--session-12#30",
+        "be--session-12#31"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "explain_back": {
+    "prompt": "Explain how a monopolist maximizes profit and why governments dislike monopoly.",
+    "rubric": [
+      {
+        "point": "Sources of monopoly power",
+        "source_ref": "be--session-12#21"
+      },
+      {
+        "point": "MR = MC and price from demand",
+        "source_ref": "be--session-12#25"
+      },
+      {
+        "point": "P > MC causes deadweight loss",
+        "source_ref": "be--session-12#30"
+      },
+      {
+        "point": "Arguments for monopoly",
+        "source_ref": "be--session-12#32"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

@@ -1,0 +1,316 @@
+{
+  "id": "be-s10-principal-agent",
+  "subject_id": "be",
+  "deck_id": "be--session-10",
+  "title": "The principal-agent problem",
+  "order": 3,
+  "summary": "Why the principal-agent problem arises, the owner-manager and manager-worker cases, and the incentives that solve each.",
+  "est_minutes": 15,
+  "difficulty": 1,
+  "source_refs": [
+    "be--session-10#12",
+    "be--session-10#13",
+    "be--session-10#14",
+    "be--session-10#15"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "be-s10-principal-agent-c1",
+      "heading": "What the problem is",
+      "explanation_md": "The **principal-agent problem** occurs when the **principal cannot observe the effort of the agent**.\n\n- **Shareholders** (principal) cannot observe the effort of the **manager** (agent).\n- A **manager** (principal) cannot observe the effort of **workers** (agents).\n\nThe core issue: the principal **cannot tell whether a bad outcome came from the agent's low effort or from bad luck**. So principals must devise plans to **align the agent's interests with their own**.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Principal-agent problem",
+          "meaning": "Arises when the principal cannot observe the effort of the agent",
+          "source_ref": "be--session-10#12"
+        }
+      ],
+      "exam_line": "The principal cannot tell low effort from bad luck, so incentives must align the agent with the principal.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s10-principal-agent-q-813f8449",
+          "type": "mcq",
+          "stem": "The principal-agent problem occurs when:",
+          "options": [
+            "The principal cannot observe the agent's effort",
+            "The agent owns the firm",
+            "Inputs are bought on the spot market"
+          ],
+          "answer": "The principal cannot observe the agent's effort",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-10#12"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s10-principal-agent-q-dfae7036",
+          "type": "true_false",
+          "stem": "In the owner-manager case, shareholders are the principal and the manager is the agent.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-10#12"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-10#12"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false,
+      "big_idea": "",
+      "analogy": null,
+      "visuals": [],
+      "worked": null,
+      "watch_out": [],
+      "memory_trick": "",
+      "exam_answer_md": ""
+    },
+    {
+      "id": "be-s10-principal-agent-c2",
+      "heading": "The fixes",
+      "explanation_md": "**Owners and managers**\n\n- **Internal incentives**: incentive contracts, **stock options**, **year-end bonuses**.\n- **External incentives**: **personal reputation** and the **potential for takeover**.\n\n**Managers and workers**\n\n- **Profit sharing**\n- **Revenue sharing**\n- **Piece rates**\n- **Time clocks and spot checks**",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "For managers: stock options, bonuses, reputation, takeover threat. For workers: profit sharing, revenue sharing, piece rates, time clocks and spot checks.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s10-principal-agent-q-59804933",
+          "type": "mcq",
+          "stem": "Which is an external incentive for managers?",
+          "options": [
+            "Potential for takeover",
+            "Stock options",
+            "Piece rates"
+          ],
+          "answer": "Potential for takeover",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-10#13",
+            "be--session-10#14",
+            "be--session-10#15"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s10-principal-agent-q-3faea44a",
+          "type": "mcq",
+          "stem": "Which tool solves the problem between managers and workers?",
+          "options": [
+            "Piece rates",
+            "Potential for takeover",
+            "Vertical integration"
+          ],
+          "answer": "Piece rates",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-10#13",
+            "be--session-10#14",
+            "be--session-10#15"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s10-principal-agent-q-144e5a23",
+          "type": "true_false",
+          "stem": "Year-end bonuses are an internal incentive for managers.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-10#13",
+            "be--session-10#14",
+            "be--session-10#15"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-10#13",
+        "be--session-10#14",
+        "be--session-10#15"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false,
+      "big_idea": "",
+      "analogy": null,
+      "visuals": [],
+      "worked": null,
+      "watch_out": [],
+      "memory_trick": "",
+      "exam_answer_md": ""
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "be-s10-principal-agent-f1",
+      "front": "Principal-agent problem",
+      "back": "The principal cannot observe the agent's effort, so cannot tell low effort from bad luck",
+      "kind": "term",
+      "source_refs": [
+        "be--session-10#12"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s10-principal-agent-f2",
+      "front": "Owners and managers",
+      "back": "Internal: incentive contracts, stock options, bonuses; external: reputation, takeover threat",
+      "kind": "list",
+      "source_refs": [
+        "be--session-10#13"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s10-principal-agent-f3",
+      "front": "Managers and workers",
+      "back": "Profit sharing; revenue sharing; piece rates; time clocks and spot checks",
+      "kind": "list",
+      "source_refs": [
+        "be--session-10#14"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [
+    {
+      "id": "be-s10-principal-agent-q-8c32a368",
+      "type": "mcq",
+      "stem": "Time clocks and spot checks address the principal-agent problem between:",
+      "options": [
+        "Managers and workers",
+        "Owners and managers",
+        "Buyers and suppliers"
+      ],
+      "answer": "Managers and workers",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "",
+      "source_refs": [
+        "be--session-10#14"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s10-principal-agent-q-858b16b0",
+      "type": "short",
+      "stem": "What is the principal-agent problem? How can owners solve it with managers?",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "The **principal-agent problem** occurs when the principal **cannot observe the agent's effort**, so a bad outcome could be low effort or bad luck. Shareholders (principal) and managers (agent) are one case.\n\nOwners can use **internal incentives** (incentive contracts, stock options, year-end bonuses) and rely on **external incentives** (personal reputation, potential for takeover).",
+      "rubric": [
+        {
+          "point": "Definition: effort cannot be observed",
+          "source_ref": "be--session-10#12"
+        },
+        {
+          "point": "Internal incentives",
+          "source_ref": "be--session-10#13"
+        },
+        {
+          "point": "External incentives",
+          "source_ref": "be--session-10#13"
+        }
+      ],
+      "marks": 3.0,
+      "difficulty": 1,
+      "style_tag": "explain",
+      "source_refs": [
+        "be--session-10#12",
+        "be--session-10#13"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "explain_back": {
+    "prompt": "Explain the principal-agent problem and how it is solved between owners and managers and between managers and workers.",
+    "rubric": [
+      {
+        "point": "Principal cannot observe agent's effort",
+        "source_ref": "be--session-10#12"
+      },
+      {
+        "point": "Low effort versus bad luck",
+        "source_ref": "be--session-10#12"
+      },
+      {
+        "point": "Internal and external incentives for managers",
+        "source_ref": "be--session-10#13"
+      },
+      {
+        "point": "Tools for workers",
+        "source_ref": "be--session-10#14"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

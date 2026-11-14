@@ -1,0 +1,452 @@
+{
+  "id": "be-s11-concentration",
+  "subject_id": "be",
+  "deck_id": "be--session-11",
+  "title": "Industry concentration: C4, HHI and mergers",
+  "order": 2,
+  "summary": "The four-firm concentration ratio and the Herfindahl-Hirschman Index, the five-bank example, limits of concentration measures, types of integration and the merger guidelines.",
+  "est_minutes": 25,
+  "difficulty": 2,
+  "source_refs": [
+    "be--session-11#6",
+    "be--session-11#7",
+    "be--session-11#8",
+    "be--session-11#16",
+    "be--session-11#17"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "be-s11-concentration-c1",
+      "heading": "Two measures of concentration",
+      "explanation_md": "**Four-firm concentration ratio (C4)**: the sum of the market shares of the **top four firms**.\n\n**C4 = w1 + w2 + w3 + w4**, where wi = Si / ST (firm sales over total industry sales).\n\n**Herfindahl-Hirschman Index (HHI)**: the sum of the **squared** market shares of **all** firms, **multiplied by 10,000**.\n\n**HHI = 10,000 x sum of wi²**",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Four-firm concentration ratio",
+          "meaning": "Sum of the market shares of the top four firms in the industry",
+          "source_ref": "be--session-11#6"
+        },
+        {
+          "term": "Herfindahl-Hirschman Index",
+          "meaning": "Sum of squared market shares of all firms, multiplied by 10,000",
+          "source_ref": "be--session-11#6"
+        }
+      ],
+      "exam_line": "C4 = w1 + w2 + w3 + w4; HHI = 10,000 x sum of wi².",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s11-concentration-q-fd1b8a1e",
+          "type": "mcq",
+          "stem": "The HHI is:",
+          "options": [
+            "The sum of squared market shares multiplied by 10,000",
+            "The sum of the top four market shares",
+            "Price minus marginal cost over price"
+          ],
+          "answer": "The sum of squared market shares multiplied by 10,000",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-11#6"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s11-concentration-q-9f208be8",
+          "type": "true_false",
+          "stem": "C4 adds up the market shares of the top four firms.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-11#6"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-11#6"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false,
+      "big_idea": "",
+      "analogy": null,
+      "visuals": [],
+      "worked": null,
+      "watch_out": [],
+      "memory_trick": "",
+      "exam_answer_md": ""
+    },
+    {
+      "id": "be-s11-concentration-c2",
+      "heading": "Worked example: five banks",
+      "explanation_md": "Five banks each have a **20 percent** market share.\n\n- **C4** = 0.2 + 0.2 + 0.2 + 0.2 = **0.8**\n- **HHI** = 10,000 x (0.2² + 0.2² + 0.2² + 0.2² + 0.2²) = 10,000 x 0.2 = **2,000**\n\nNote that C4 uses only four banks, while HHI uses all five.",
+      "example_ids": [
+        "be-ex-five-banks"
+      ],
+      "key_terms": [],
+      "exam_line": "Five equal banks: C4 = 0.8, HHI = 2,000.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s11-concentration-q-cf2d00df",
+          "type": "mcq",
+          "stem": "Five banks each have a 20 percent share. What is the HHI?",
+          "options": [
+            "2,000",
+            "800",
+            "10,000"
+          ],
+          "answer": "2,000",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-11#7"
+          ],
+          "derived": [
+            "800"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s11-concentration-q-0eade1f4",
+          "type": "mcq",
+          "stem": "In the same market, C4 is:",
+          "options": [
+            "0.8",
+            "1.0",
+            "0.2"
+          ],
+          "answer": "0.8",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-11#7"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-11#7"
+      ],
+      "derived": [
+        "0.04"
+      ],
+      "needs_check": false,
+      "retired": false,
+      "big_idea": "",
+      "analogy": null,
+      "visuals": [],
+      "worked": null,
+      "watch_out": [],
+      "memory_trick": "",
+      "exam_answer_md": ""
+    },
+    {
+      "id": "be-s11-concentration-c3",
+      "heading": "Limits of concentration measures",
+      "explanation_md": "- **Market definition**: is the market national, regional or local?\n- **Global market**: foreign producers are excluded.\n- **Industry definition and product classes**.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "Limits: market definition, foreign producers excluded, industry and product class definition.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s11-concentration-q-44c49499",
+          "type": "true_false",
+          "stem": "One limitation of concentration measures is that foreign producers are excluded.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-11#8"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-11#8"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false,
+      "big_idea": "",
+      "analogy": null,
+      "visuals": [],
+      "worked": null,
+      "watch_out": [],
+      "memory_trick": "",
+      "exam_answer_md": ""
+    },
+    {
+      "id": "be-s11-concentration-c4",
+      "heading": "Integration and the merger guidelines",
+      "explanation_md": "| Type | Meaning |\n|---|---|\n| **Vertical integration** | Various stages in producing a single product are carried out by one firm |\n| **Horizontal integration** | Merging the production of similar products into a single firm |\n| **Conglomerate merger** | Integrating different product lines into a single firm |\n\n**DOJ/FTC Horizontal Merger Guidelines** (based on HHI): a merger **may be challenged** if the **HHI exceeds 1800** (or would after the merger) **and** the merger **increases the HHI by more than 100**. The guidelines also recognize that mergers can bring **efficiencies** that lower prices.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "Merger may be challenged if HHI exceeds 1800 and rises by more than 100.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s11-concentration-q-e528f09e",
+          "type": "mcq",
+          "stem": "Merging the production of similar products into one firm is:",
+          "options": [
+            "Horizontal integration",
+            "Vertical integration",
+            "A conglomerate merger"
+          ],
+          "answer": "Horizontal integration",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-11#16",
+            "be--session-11#17"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s11-concentration-q-52e55a5b",
+          "type": "mcq",
+          "stem": "Under the guidelines, a merger may be challenged if HHI exceeds 1800 and the merger raises it by more than:",
+          "options": [
+            "100",
+            "1000",
+            "50"
+          ],
+          "answer": "100",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-11#16",
+            "be--session-11#17"
+          ],
+          "derived": [
+            "50"
+          ],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-11#16",
+        "be--session-11#17"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false,
+      "big_idea": "",
+      "analogy": null,
+      "visuals": [],
+      "worked": null,
+      "watch_out": [],
+      "memory_trick": "",
+      "exam_answer_md": ""
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "be-s11-concentration-f1",
+      "front": "C4",
+      "back": "Sum of the market shares of the top four firms",
+      "kind": "formula",
+      "source_refs": [
+        "be--session-11#6"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s11-concentration-f2",
+      "front": "HHI",
+      "back": "10,000 x sum of squared market shares of all firms",
+      "kind": "formula",
+      "source_refs": [
+        "be--session-11#6"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s11-concentration-f3",
+      "front": "Five banks example",
+      "back": "Each 20 percent: C4 = 0.8, HHI = 2,000",
+      "kind": "fact",
+      "source_refs": [
+        "be--session-11#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s11-concentration-f4",
+      "front": "Merger guidelines",
+      "back": "May challenge if HHI exceeds 1800 and rises by more than 100",
+      "kind": "fact",
+      "source_refs": [
+        "be--session-11#17"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s11-concentration-f5",
+      "front": "Types of integration",
+      "back": "Vertical: stages of one product; horizontal: similar products; conglomerate: different product lines",
+      "kind": "list",
+      "source_refs": [
+        "be--session-11#16"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [
+    {
+      "id": "be-s11-concentration-q-71090489",
+      "type": "mcq",
+      "stem": "Which is a limitation of concentration measures?",
+      "options": [
+        "Market definition: national, regional or local",
+        "They ignore the top four firms",
+        "They need marginal cost data"
+      ],
+      "answer": "Market definition: national, regional or local",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "",
+      "source_refs": [
+        "be--session-11#8"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s11-concentration-q-d3ba9a06",
+      "type": "long",
+      "stem": "Define the four-firm concentration ratio and the HHI. Five banks compete in a local market, each with a 20 percent share. Calculate both measures.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**C4** = sum of the market shares of the top four firms: C4 = w1 + w2 + w3 + w4, with wi = Si/ST.\n\n**HHI** = 10,000 x sum of the squared market shares of all firms.\n\nFive banks at 20 percent each:\n\n- C4 = 0.2 + 0.2 + 0.2 + 0.2 = **0.8**\n- HHI = 10,000 x (5 x 0.2²) = **2,000**\n\nAn HHI of 2,000 is above the 1800 level in the merger guidelines.",
+      "rubric": [
+        {
+          "point": "C4 defined",
+          "source_ref": "be--session-11#6"
+        },
+        {
+          "point": "HHI defined",
+          "source_ref": "be--session-11#6"
+        },
+        {
+          "point": "C4 = 0.8",
+          "source_ref": "be--session-11#7"
+        },
+        {
+          "point": "HHI = 2,000",
+          "source_ref": "be--session-11#7"
+        }
+      ],
+      "marks": 5.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "be--session-11#6",
+        "be--session-11#7",
+        "be--session-11#17"
+      ],
+      "derived": [
+        "0.04"
+      ],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "explain_back": {
+    "prompt": "Explain how industry concentration is measured and how the merger guidelines use it.",
+    "rubric": [
+      {
+        "point": "C4 definition",
+        "source_ref": "be--session-11#6"
+      },
+      {
+        "point": "HHI definition",
+        "source_ref": "be--session-11#6"
+      },
+      {
+        "point": "Five-bank example",
+        "source_ref": "be--session-11#7"
+      },
+      {
+        "point": "Merger guideline thresholds",
+        "source_ref": "be--session-11#17"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

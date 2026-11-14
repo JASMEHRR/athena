@@ -1,0 +1,411 @@
+{
+  "id": "be-s12m-perfect-competition",
+  "subject_id": "be",
+  "deck_id": "be--session-12",
+  "title": "Perfect competition: the price taker's output decision",
+  "order": 1,
+  "summary": "The perfectly competitive environment and its implications, why it is worth studying, how price is set, the P = MC rule and the $10 numerical example.",
+  "est_minutes": 25,
+  "difficulty": 2,
+  "source_refs": [
+    "be--session-12#2",
+    "be--session-12#3",
+    "be--session-12#4",
+    "be--session-12#5",
+    "be--session-12#6",
+    "be--session-12#7",
+    "be--session-12#8",
+    "be--session-12#9",
+    "be--session-12#10"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "be-s12m-perfect-competition-c1",
+      "heading": "The environment and its implications",
+      "explanation_md": "**Perfect competition** has:\n\n- **Many buyers and sellers**\n- A **homogeneous (identical) product**\n- **Perfect information** on both sides\n- **No transaction costs**\n- **Free entry and exit**\n\n**Implications:** firms are **price takers (P = MR)**; in the **short run** they may earn **profits or losses**; **entry and exit force long-run profits to zero**.\n\n**Why learn it?** Many small businesses are price takers; it is a **useful benchmark**; it explains **why governments oppose monopolies**; and it shows the **danger** of competitive environments and the importance of **product differentiation** and **sustainable advantage**.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "Many firms, identical product, perfect information, no transaction costs, free entry: price takers with zero long-run profit.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s12m-perfect-competition-q-30c13847",
+          "type": "mcq",
+          "stem": "Which is a feature of perfect competition?",
+          "options": [
+            "Homogeneous product",
+            "A single seller",
+            "High transaction costs"
+          ],
+          "answer": "Homogeneous product",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-12#2",
+            "be--session-12#3",
+            "be--session-12#4",
+            "be--session-12#5"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s12m-perfect-competition-q-4ad9b7b4",
+          "type": "true_false",
+          "stem": "In perfect competition, entry and exit force long-run profits to zero.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-12#2",
+            "be--session-12#3",
+            "be--session-12#4",
+            "be--session-12#5"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s12m-perfect-competition-q-bb49919a",
+          "type": "mcq",
+          "stem": "For a price taker:",
+          "options": [
+            "P = MR",
+            "P > MR",
+            "MR = 0"
+          ],
+          "answer": "P = MR",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-12#2",
+            "be--session-12#3",
+            "be--session-12#4",
+            "be--session-12#5"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-12#2",
+        "be--session-12#3",
+        "be--session-12#4",
+        "be--session-12#5"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false,
+      "big_idea": "",
+      "analogy": null,
+      "visuals": [],
+      "worked": null,
+      "watch_out": [],
+      "memory_trick": "",
+      "exam_answer_md": ""
+    },
+    {
+      "id": "be-s12m-perfect-competition-c2",
+      "heading": "Setting price and output",
+      "explanation_md": "The **market** sets the price Pe where supply meets demand. The **firm** faces a **horizontal demand curve Df at Pe**: it can sell any amount at that price.\n\nProfit is maximized where **MR = MC**. Since **MR = P**, the rule becomes **P = MC**.\n\n**Profit = (Pe - ATC) x Qf***",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "Price taker: set P = MC. Profit = (Pe - ATC) x Qf*.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s12m-perfect-competition-q-25e3df07",
+          "type": "mcq",
+          "stem": "A perfectly competitive firm maximizes profit by producing where:",
+          "options": [
+            "P = MC",
+            "P = ATC",
+            "MC = 0"
+          ],
+          "answer": "P = MC",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-12#6",
+            "be--session-12#7",
+            "be--session-12#8",
+            "be--session-12#9"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s12m-perfect-competition-q-340ba2dd",
+          "type": "true_false",
+          "stem": "The perfectly competitive firm's demand curve is horizontal at the market price.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-12#6",
+            "be--session-12#7",
+            "be--session-12#8",
+            "be--session-12#9"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-12#6",
+        "be--session-12#7",
+        "be--session-12#8",
+        "be--session-12#9"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false,
+      "big_idea": "",
+      "analogy": null,
+      "visuals": [],
+      "worked": null,
+      "watch_out": [],
+      "memory_trick": "",
+      "exam_answer_md": ""
+    },
+    {
+      "id": "be-s12m-perfect-competition-c3",
+      "heading": "Worked example: P = $10",
+      "explanation_md": "Given **P = $10** and **C(Q) = 5 + Q²**:\n\n- MR = P = $10, and **MC = 2Q**\n- 10 = 2Q, so **Q = 5 units**\n- Profit = PQ - C(Q) = (10)(5) - (5 + 25) = **$20**",
+      "example_ids": [
+        "be-ex-price-taker-10"
+      ],
+      "key_terms": [],
+      "exam_line": "P = 10, MC = 2Q: Q = 5, profit = 50 - 30 = $20.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s12m-perfect-competition-q-4d353edc",
+          "type": "mcq",
+          "stem": "With P = $10 and C(Q) = 5 + Q², the profit-maximizing output is:",
+          "options": [
+            "5 units",
+            "10 units",
+            "2 units"
+          ],
+          "answer": "5 units",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-12#10"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s12m-perfect-competition-q-92e4db87",
+          "type": "mcq",
+          "stem": "In the same example, maximum profit is:",
+          "options": [
+            "$20",
+            "$50",
+            "$25"
+          ],
+          "answer": "$20",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-12#10"
+          ],
+          "derived": [
+            "50"
+          ],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-12#10"
+      ],
+      "derived": [
+        "50",
+        "30"
+      ],
+      "needs_check": false,
+      "retired": false,
+      "big_idea": "",
+      "analogy": null,
+      "visuals": [],
+      "worked": null,
+      "watch_out": [],
+      "memory_trick": "",
+      "exam_answer_md": ""
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "be-s12m-perfect-competition-f1",
+      "front": "Perfect competition",
+      "back": "Many buyers and sellers; homogeneous product; perfect information; no transaction costs; free entry and exit",
+      "kind": "list",
+      "source_refs": [
+        "be--session-12#3"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12m-perfect-competition-f2",
+      "front": "Price taker rule",
+      "back": "MR = P, so set P = MC",
+      "kind": "formula",
+      "source_refs": [
+        "be--session-12#8"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12m-perfect-competition-f3",
+      "front": "P = $10 example",
+      "back": "C(Q) = 5 + Q²: Q = 5, profit $20",
+      "kind": "fact",
+      "source_refs": [
+        "be--session-12#10"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [
+    {
+      "id": "be-s12m-perfect-competition-q-da7b2cbd",
+      "type": "mcq",
+      "stem": "Which is a reason the slides give for studying perfect competition?",
+      "options": [
+        "It is a useful benchmark",
+        "Most industries are monopolies",
+        "It has no short-run losses"
+      ],
+      "answer": "It is a useful benchmark",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "",
+      "source_refs": [
+        "be--session-12#5"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12m-perfect-competition-q-a95a7b18",
+      "type": "long",
+      "stem": "A price-taking firm faces P = $10 and C(Q) = 5 + Q². Find the optimal price, output and maximum profit.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "- Optimal price: the firm is a price taker, so **P = $10**.\n- MR = P = 10 and MC = 2Q. Set **MR = MC**: 10 = 2Q, so **Q = 5 units**.\n- Profit = PQ - C(Q) = (10)(5) - (5 + 25) = **$20**.",
+      "rubric": [
+        {
+          "point": "P = $10 as price taker",
+          "source_ref": "be--session-12#10"
+        },
+        {
+          "point": "MC = 2Q and P = MC",
+          "source_ref": "be--session-12#10"
+        },
+        {
+          "point": "Q = 5",
+          "source_ref": "be--session-12#10"
+        },
+        {
+          "point": "Profit $20",
+          "source_ref": "be--session-12#10"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "numerical",
+      "source_refs": [
+        "be--session-12#8",
+        "be--session-12#10"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "explain_back": {
+    "prompt": "Explain how a perfectly competitive firm chooses its output and its profit.",
+    "rubric": [
+      {
+        "point": "Features of perfect competition",
+        "source_ref": "be--session-12#3"
+      },
+      {
+        "point": "Firm is a price taker, P = MR",
+        "source_ref": "be--session-12#4"
+      },
+      {
+        "point": "Set P = MC",
+        "source_ref": "be--session-12#8"
+      },
+      {
+        "point": "Profit = (Pe - ATC) x Qf*",
+        "source_ref": "be--session-12#9"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

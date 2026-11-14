@@ -1,0 +1,436 @@
+{
+  "id": "be-s10-specialized-investments",
+  "subject_id": "be",
+  "deck_id": "be--session-10",
+  "title": "Specialized investments, contract length and optimal procurement",
+  "order": 2,
+  "summary": "What specialized investments are, their four types, why they raise transaction costs, how they and contracting complexity change optimal contract length, and the decision tree for choosing a procurement method.",
+  "est_minutes": 25,
+  "difficulty": 2,
+  "source_refs": [
+    "be--session-10#7",
+    "be--session-10#8",
+    "be--session-10#9",
+    "be--session-10#10",
+    "be--session-10#11",
+    "be--session-10#15"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "be-s10-specialized-investments-c1",
+      "heading": "What specialized investments are",
+      "explanation_md": "A **specialized investment** is an investment made to allow two parties to exchange that has **little or no value outside the exchange relationship**.\n\n**Four types:**\n\n1. **Site specificity**\n2. **Physical-asset specificity**\n3. **Dedicated assets**\n4. **Human capital**\n\nThey **lead to higher transaction costs** through:\n\n- **Costly bargaining**\n- **Underinvestment**\n- **Opportunism and the hold-up problem**",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Specialized investment",
+          "meaning": "An investment that allows two parties to exchange but has little or no value outside the exchange relationship",
+          "source_ref": "be--session-10#7"
+        }
+      ],
+      "exam_line": "Four types: site specificity, physical-asset specificity, dedicated assets, human capital. They cause costly bargaining, underinvestment and hold-up.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s10-specialized-investments-q-b03d89b8",
+          "type": "mcq",
+          "stem": "Which is a type of specialized investment?",
+          "options": [
+            "Site specificity",
+            "Search costs",
+            "Piece rates"
+          ],
+          "answer": "Site specificity",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-10#7"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s10-specialized-investments-q-b95705fa",
+          "type": "mcq",
+          "stem": "Specialized investments lead to higher transaction costs through:",
+          "options": [
+            "Opportunism and the hold-up problem",
+            "Lower search costs",
+            "Perfect information"
+          ],
+          "answer": "Opportunism and the hold-up problem",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-10#7"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s10-specialized-investments-q-0ea71194",
+          "type": "true_false",
+          "stem": "A specialized investment has little or no value outside the exchange relationship.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-10#7"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-10#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false,
+      "big_idea": "",
+      "analogy": null,
+      "visuals": [],
+      "worked": null,
+      "watch_out": [],
+      "memory_trick": "",
+      "exam_answer_md": ""
+    },
+    {
+      "id": "be-s10-specialized-investments-c2",
+      "heading": "Contract length: marginal benefit meets marginal cost",
+      "explanation_md": "The optimal contract length is where the **marginal benefit (MB)** of a longer contract equals its **marginal cost (MC)**.\n\n| Change | Curve that moves | Result |\n|---|---|---|\n| Greater need for specialized investments | MB shifts out (MB0 to MB1) | **Longer contract** (L0 to L1) |\n| More complex contracting environment | MC shifts up (MC0 to MC2) | **Shorter contract** (L0 to L2) |\n| Less complex contracting environment | MC shifts down (MC0 to MC1) | **Longer contract** |",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "More specialized investment: longer contracts. More complex contracting environment: shorter contracts.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s10-specialized-investments-q-82c13871",
+          "type": "mcq",
+          "stem": "A greater need for specialized investments makes the optimal contract:",
+          "options": [
+            "Longer",
+            "Shorter",
+            "Unchanged"
+          ],
+          "answer": "Longer",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-10#8",
+            "be--session-10#9",
+            "be--session-10#10"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s10-specialized-investments-q-8b19ea9f",
+          "type": "mcq",
+          "stem": "A more complex contracting environment shifts the marginal cost curve up, so contracts become:",
+          "options": [
+            "Shorter",
+            "Longer",
+            "Unchanged"
+          ],
+          "answer": "Shorter",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-10#8",
+            "be--session-10#9",
+            "be--session-10#10"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s10-specialized-investments-q-1d4c6c04",
+          "type": "true_false",
+          "stem": "A less complex contracting environment leads to a longer contract.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-10#8",
+            "be--session-10#9",
+            "be--session-10#10"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-10#8",
+        "be--session-10#9",
+        "be--session-10#10"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false,
+      "big_idea": "",
+      "analogy": null,
+      "visuals": [],
+      "worked": null,
+      "watch_out": [],
+      "memory_trick": "",
+      "exam_answer_md": ""
+    },
+    {
+      "id": "be-s10-specialized-investments-c3",
+      "heading": "Choosing the method: the decision tree",
+      "explanation_md": "1. Are there **substantial specialized investments relative to contracting costs**?\n   - **No**: use **spot exchange**.\n   - **Yes**: go to question 2.\n2. Is the **contracting environment complex relative to the costs of integration**?\n   - **No**: use a **contract**.\n   - **Yes**: use **vertical integration**.\n\nThe conclusion: the optimal method depends on the **nature of the transaction costs** and how **specialized** the inputs are.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "No big specialized investment: spot. Big specialized investment, simple contracting: contract. Big specialized investment, complex contracting: vertical integration.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s10-specialized-investments-q-bbc6a45e",
+          "type": "mcq",
+          "stem": "With substantial specialized investments and a complex contracting environment relative to integration costs, the firm should use:",
+          "options": [
+            "Vertical integration",
+            "Spot exchange",
+            "A contract"
+          ],
+          "answer": "Vertical integration",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-10#11",
+            "be--session-10#15"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s10-specialized-investments-q-55ba6113",
+          "type": "mcq",
+          "stem": "If specialized investments are not substantial relative to contracting costs, the firm should use:",
+          "options": [
+            "Spot exchange",
+            "Vertical integration",
+            "A long contract"
+          ],
+          "answer": "Spot exchange",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-10#11",
+            "be--session-10#15"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-10#11",
+        "be--session-10#15"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false,
+      "big_idea": "",
+      "analogy": null,
+      "visuals": [],
+      "worked": null,
+      "watch_out": [],
+      "memory_trick": "",
+      "exam_answer_md": ""
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "be-s10-specialized-investments-f1",
+      "front": "Specialized investment",
+      "back": "Investment allowing exchange that has little or no value outside the relationship",
+      "kind": "term",
+      "source_refs": [
+        "be--session-10#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s10-specialized-investments-f2",
+      "front": "Types of specialized investments",
+      "back": "Site specificity; physical-asset specificity; dedicated assets; human capital",
+      "kind": "list",
+      "source_refs": [
+        "be--session-10#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s10-specialized-investments-f3",
+      "front": "Contract length",
+      "back": "More specialized investment lengthens contracts; more complex contracting shortens them",
+      "kind": "fact",
+      "source_refs": [
+        "be--session-10#8",
+        "be--session-10#9"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s10-specialized-investments-f4",
+      "front": "Optimal procurement",
+      "back": "Not substantial: spot exchange; substantial and simple: contract; substantial and complex: vertical integration",
+      "kind": "fact",
+      "source_refs": [
+        "be--session-10#11"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [
+    {
+      "id": "be-s10-specialized-investments-q-a5124d67",
+      "type": "mcq",
+      "stem": "Which is NOT one of the ways specialized investments raise transaction costs?",
+      "options": [
+        "Lower search costs",
+        "Costly bargaining",
+        "Underinvestment"
+      ],
+      "answer": "Lower search costs",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "",
+      "source_refs": [
+        "be--session-10#7"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s10-specialized-investments-q-a820923d",
+      "type": "long",
+      "stem": "Explain specialized investments and how they affect the optimal length of a contract, using graphs.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**Specialized investments** let two parties exchange but have little or no value outside the relationship. Types: **site specificity, physical-asset specificity, dedicated assets, human capital**. They raise transaction costs through **costly bargaining, underinvestment, and opportunism and the hold-up problem**.\n\nOptimal contract length is where **MB = MC** of a longer contract:\n\n- A **greater need for specialized investments** shifts MB out (MB0 to MB1): a **longer contract** (L0 to L1).\n- A **more complex contracting environment** shifts MC up (MC0 to MC2): a **shorter contract** (L0 to L2).\n- A **less complex** environment shifts MC down: a **longer contract**.",
+      "rubric": [
+        {
+          "point": "Definition and types",
+          "source_ref": "be--session-10#7"
+        },
+        {
+          "point": "Higher transaction costs explained",
+          "source_ref": "be--session-10#7"
+        },
+        {
+          "point": "MB shift from specialized investments lengthens contract",
+          "source_ref": "be--session-10#8"
+        },
+        {
+          "point": "MC shift from complexity shortens contract",
+          "source_ref": "be--session-10#9"
+        }
+      ],
+      "marks": 5.0,
+      "difficulty": 2,
+      "style_tag": "explain",
+      "source_refs": [
+        "be--session-10#7",
+        "be--session-10#8",
+        "be--session-10#9",
+        "be--session-10#10"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "explain_back": {
+    "prompt": "Explain specialized investments and how they and the contracting environment affect contract length and the choice of procurement method.",
+    "rubric": [
+      {
+        "point": "Definition and four types of specialized investments",
+        "source_ref": "be--session-10#7"
+      },
+      {
+        "point": "They raise transaction costs: bargaining, underinvestment, hold-up",
+        "source_ref": "be--session-10#7"
+      },
+      {
+        "point": "Specialized investments lengthen contracts; complexity shortens them",
+        "source_ref": "be--session-10#9"
+      },
+      {
+        "point": "The decision tree for spot, contract or integration",
+        "source_ref": "be--session-10#11"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

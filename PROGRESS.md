@@ -151,3 +151,5 @@ Plan agreed with JasMehr: (1) teaching layer and drawn pictures, (2) a simpler a
 - Lesson "Topic done" card shows past-paper questions mapped to the topic, its frameworks, and a link to answer practice.
 - Public repo https://github.com/JASMEHRR/athena; Vercel site https://athena-peach-iota.vercel.app (api/index.py, vercel.json with no framework preset; DB rebuilt in /tmp per cold start, so online progress is not kept).
 
+- [x] P4 pass A: be--session-10, be--session-11, be--session-12 (EST syllabus)
+  - 12 topics (be-s10-*, be-s11-*, be-s12m-*; short s12m because be-s12-* is sessions 1-2). Written 14 Nov 2026 for the BE EST on 16 Nov. EST 2025 Q1(b) to Q1(e) now link to these lessons and Q3/Q4 also link to be-s12m-monopoly. Q5 (kinked demand, oligopoly) stays unlinked: no oligopoly slides yet.

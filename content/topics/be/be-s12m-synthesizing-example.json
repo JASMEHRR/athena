@@ -1,0 +1,334 @@
+{
+  "id": "be-s12m-synthesizing-example",
+  "subject_id": "be",
+  "deck_id": "be--session-12",
+  "title": "One cost function, three market structures",
+  "order": 5,
+  "summary": "The synthesizing example C(Q) = 125 + 4Q² worked as a price taker, a monopolist and a monopolistically competitive firm, and the session's conclusion.",
+  "est_minutes": 20,
+  "difficulty": 3,
+  "source_refs": [
+    "be--session-12#43",
+    "be--session-12#44",
+    "be--session-12#45",
+    "be--session-12#46",
+    "be--session-12#47"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "be-s12m-synthesizing-example-c1",
+      "heading": "The set-up and the price taker",
+      "explanation_md": "**C(Q) = 125 + 4Q²**, so **MC = 8Q** whatever the market structure.\n\n**Price taker at $40:**\n\n- MR = P = $40; 40 = 8Q, so **Q = 5**\n- Cost = 125 + 4(25) = 125 + 100 = **$225**\n- Revenue = (40)(5) = **$200**\n- Profit = **-$25**: **expect exit in the long run**.",
+      "example_ids": [
+        "be-ex-synthesizing-125"
+      ],
+      "key_terms": [],
+      "exam_line": "Price taker at $40: Q = 5, profit -$25, expect exit.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s12m-synthesizing-example-q-9c4b6f8f",
+          "type": "mcq",
+          "stem": "With C(Q) = 125 + 4Q², marginal cost is:",
+          "options": [
+            "8Q",
+            "4Q",
+            "125 + 8Q"
+          ],
+          "answer": "8Q",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-12#43",
+            "be--session-12#44",
+            "be--session-12#45"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s12m-synthesizing-example-q-8ca9e3bf",
+          "type": "mcq",
+          "stem": "As a price taker at $40, the firm's profit is:",
+          "options": [
+            "-$25",
+            "$200",
+            "$25"
+          ],
+          "answer": "-$25",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-12#43",
+            "be--session-12#44",
+            "be--session-12#45"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-12#43",
+        "be--session-12#44",
+        "be--session-12#45"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false,
+      "big_idea": "",
+      "analogy": null,
+      "visuals": [],
+      "worked": null,
+      "watch_out": [],
+      "memory_trick": "",
+      "exam_answer_md": ""
+    },
+    {
+      "id": "be-s12m-synthesizing-example-c2",
+      "heading": "Monopoly or monopolistic competition",
+      "explanation_md": "Facing **P = 100 - Q**:\n\n- **MR = 100 - 2Q**; set 100 - 2Q = 8Q, so **Q = 10**\n- **P = 100 - 10 = $90**\n- Profit = (90)(10) - (125 + 4(100)) = **$375**\n\n**Implications:** a **monopolist** will not face entry unless patents or other barriers are removed. A **monopolistically competitive** firm should expect others to **clone** its product, so **profits decline over time**.",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "P = 100 - Q: Q = 10, P = $90, profit $375; monopoly keeps it, monopolistic competition loses it to clones.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s12m-synthesizing-example-q-b8a01bea",
+          "type": "mcq",
+          "stem": "Facing P = 100 - Q with MC = 8Q, the optimal output is:",
+          "options": [
+            "10",
+            "5",
+            "50"
+          ],
+          "answer": "10",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-12#46",
+            "be--session-12#47"
+          ],
+          "derived": [
+            "50"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s12m-synthesizing-example-q-c902c488",
+          "type": "mcq",
+          "stem": "In the same case, maximum profit is:",
+          "options": [
+            "$375",
+            "$900",
+            "$525"
+          ],
+          "answer": "$375",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-12#46",
+            "be--session-12#47"
+          ],
+          "derived": [
+            "525",
+            "900"
+          ],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s12m-synthesizing-example-q-acfad0b0",
+          "type": "true_false",
+          "stem": "A monopolistically competitive firm should expect its profits to decline over time as rivals clone its product.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-12#46",
+            "be--session-12#47"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-12#46",
+        "be--session-12#47"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false,
+      "big_idea": "",
+      "analogy": null,
+      "visuals": [],
+      "worked": null,
+      "watch_out": [],
+      "memory_trick": "",
+      "exam_answer_md": ""
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "be-s12m-synthesizing-example-f1",
+      "front": "Synthesizing example MC",
+      "back": "C(Q) = 125 + 4Q² gives MC = 8Q in every market structure",
+      "kind": "formula",
+      "source_refs": [
+        "be--session-12#44"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12m-synthesizing-example-f2",
+      "front": "Price taker at $40",
+      "back": "Q = 5, revenue $200, cost $225, profit -$25: expect exit",
+      "kind": "fact",
+      "source_refs": [
+        "be--session-12#45"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12m-synthesizing-example-f3",
+      "front": "Facing P = 100 - Q",
+      "back": "Q = 10, P = $90, profit $375",
+      "kind": "fact",
+      "source_refs": [
+        "be--session-12#46"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [
+    {
+      "id": "be-s12m-synthesizing-example-q-3ea60f02",
+      "type": "mcq",
+      "stem": "In the synthesizing example, why should the price taker expect exit in the long run?",
+      "options": [
+        "It makes a loss of $25",
+        "It earns $375 profit",
+        "Its MC is zero"
+      ],
+      "answer": "It makes a loss of $25",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "",
+      "source_refs": [
+        "be--session-12#45",
+        "be--session-12#46"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s12m-synthesizing-example-q-5bf1855f",
+      "type": "long",
+      "stem": "A firm has C(Q) = 125 + 4Q². Find the profit-maximizing output, price and profit if (a) it is a price taker and other firms charge $40, and (b) it is a monopolist facing P = 100 - Q. Discuss the implications.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "**MC = 8Q** in both cases.\n\n**(a) Price taker:** MR = P = 40 = 8Q, so **Q = 5**. Cost = 125 + 100 = $225, revenue = $200, profit = **-$25**. Expect **exit** in the long run.\n\n**(b) Monopoly:** MR = 100 - 2Q = 8Q, so **Q = 10**, **P = $90**. Profit = 900 - (125 + 400) = **$375**. A monopolist faces no entry unless its barriers are removed; a monopolistically competitive firm with the same demand would see rivals clone it and profits decline.",
+      "rubric": [
+        {
+          "point": "MC = 8Q",
+          "source_ref": "be--session-12#44"
+        },
+        {
+          "point": "Price taker Q = 5 and loss $25",
+          "source_ref": "be--session-12#45"
+        },
+        {
+          "point": "Monopoly Q = 10, P = $90",
+          "source_ref": "be--session-12#46"
+        },
+        {
+          "point": "Profit $375 and implications",
+          "source_ref": "be--session-12#46"
+        }
+      ],
+      "marks": 5.0,
+      "difficulty": 3,
+      "style_tag": "numerical",
+      "source_refs": [
+        "be--session-12#43",
+        "be--session-12#44",
+        "be--session-12#45",
+        "be--session-12#46"
+      ],
+      "derived": [
+        "900",
+        "400"
+      ],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "explain_back": {
+    "prompt": "Using C(Q) = 125 + 4Q², explain how output, price and profit differ for a price taker and a firm facing P = 100 - Q.",
+    "rubric": [
+      {
+        "point": "MC = 8Q in every structure",
+        "source_ref": "be--session-12#44"
+      },
+      {
+        "point": "Price taker: Q = 5, loss of $25",
+        "source_ref": "be--session-12#45"
+      },
+      {
+        "point": "P = 100 - Q: Q = 10, P = $90, profit $375",
+        "source_ref": "be--session-12#46"
+      },
+      {
+        "point": "Long-run implications differ",
+        "source_ref": "be--session-12#46"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}

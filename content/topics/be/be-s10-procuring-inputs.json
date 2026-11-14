@@ -1,0 +1,481 @@
+{
+  "id": "be-s10-procuring-inputs",
+  "subject_id": "be",
+  "deck_id": "be--session-10",
+  "title": "Manager's role and methods of procuring inputs",
+  "order": 1,
+  "summary": "Why managers must buy inputs at least cost, spot exchange versus contracts versus vertical integration, their key features, and what transaction costs are.",
+  "est_minutes": 20,
+  "difficulty": 1,
+  "source_refs": [
+    "be--session-10#2",
+    "be--session-10#3",
+    "be--session-10#4",
+    "be--session-10#5",
+    "be--session-10#6"
+  ],
+  "stale": false,
+  "retired": false,
+  "chunks": [
+    {
+      "id": "be-s10-procuring-inputs-c1",
+      "heading": "The manager's role",
+      "explanation_md": "A manager has two jobs here:\n\n- **Procure inputs in the least cost manner**, which puts the firm on its cost curve at a point like **B**.\n- **Provide incentives** for workers to put forth effort.\n\nFail at these and the firm ends up at a point like **A**: at 10 units of output it spends **$100** instead of **$80**. To reach B, managers must **use all inputs efficiently** and **acquire inputs by the least costly method**.",
+      "example_ids": [
+        "be-ex-points-a-and-b"
+      ],
+      "key_terms": [],
+      "exam_line": "Point B is on the cost curve (least cost); point A is above it because inputs were bought or used badly.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s10-procuring-inputs-q-52f87d8b",
+          "type": "mcq",
+          "stem": "In the slide's graph, producing 10 units at point A instead of point B costs:",
+          "options": [
+            "$100 instead of $80",
+            "$80 instead of $100",
+            "The same amount"
+          ],
+          "answer": "$100 instead of $80",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-10#2",
+            "be--session-10#3"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s10-procuring-inputs-q-69f4b26c",
+          "type": "true_false",
+          "stem": "To reach a point like B, managers must acquire inputs by the least costly method.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-10#2",
+            "be--session-10#3"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-10#2",
+        "be--session-10#3"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false,
+      "big_idea": "",
+      "analogy": null,
+      "visuals": [],
+      "worked": null,
+      "watch_out": [],
+      "memory_trick": "",
+      "exam_answer_md": ""
+    },
+    {
+      "id": "be-s10-procuring-inputs-c2",
+      "heading": "Three ways to get inputs",
+      "explanation_md": "| Method | What it is |\n|---|---|\n| **Spot exchange** | Buyer and seller meet, exchange, and then go their separate ways |\n| **Contract** | A legal document that creates an extended relationship between a buyer and a seller |\n| **Vertical integration** | The firm shuns other suppliers and produces the input internally |",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Spot exchange",
+          "meaning": "Buyer and seller of an input meet, exchange, and then go their separate ways",
+          "source_ref": "be--session-10#4"
+        },
+        {
+          "term": "Vertical integration",
+          "meaning": "A firm shuns other suppliers and produces an input internally",
+          "source_ref": "be--session-10#4"
+        }
+      ],
+      "exam_line": "Spot exchange: one-off. Contract: extended legal relationship. Vertical integration: make it yourself.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s10-procuring-inputs-q-fbc0a6be",
+          "type": "mcq",
+          "stem": "A firm that shuns other suppliers and produces an input itself is using:",
+          "options": [
+            "Vertical integration",
+            "Spot exchange",
+            "A contract"
+          ],
+          "answer": "Vertical integration",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-10#4"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s10-procuring-inputs-q-b6bb7dae",
+          "type": "mcq",
+          "stem": "A legal document creating an extended relationship between buyer and seller is a:",
+          "options": [
+            "Contract",
+            "Spot exchange",
+            "Piece rate"
+          ],
+          "answer": "Contract",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-10#4"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-10#4"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false,
+      "big_idea": "",
+      "analogy": null,
+      "visuals": [],
+      "worked": null,
+      "watch_out": [],
+      "memory_trick": "",
+      "exam_answer_md": ""
+    },
+    {
+      "id": "be-s10-procuring-inputs-c3",
+      "heading": "Strengths and weaknesses of each method",
+      "explanation_md": "| Method | Good | Bad |\n|---|---|---|\n| Spot exchange | Specialization, avoids contracting costs and the costs of vertical integration | Possible **hold-up problem** |\n| Contract | Specialization, reduces opportunism, avoids skimping on specialized investments | **Costly in complex environments** |\n| Vertical integration | Reduces opportunism, avoids contracting costs | **Lost specialization**, may increase organizational costs |",
+      "example_ids": [],
+      "key_terms": [],
+      "exam_line": "Spot: hold-up risk. Contract: costly when complex. Integration: lose specialization.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s10-procuring-inputs-q-be1cf988",
+          "type": "mcq",
+          "stem": "The main risk of spot exchange listed on the slides is:",
+          "options": [
+            "The hold-up problem",
+            "Lost specialization",
+            "High organizational costs"
+          ],
+          "answer": "The hold-up problem",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-10#5"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s10-procuring-inputs-q-7e6f4616",
+          "type": "true_false",
+          "stem": "Contracts are costly in complex environments.",
+          "options": [],
+          "answer": "True",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-10#5"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s10-procuring-inputs-q-c9bc3f5a",
+          "type": "mcq",
+          "stem": "A drawback of vertical integration is:",
+          "options": [
+            "Lost specialization",
+            "The hold-up problem",
+            "Skimping on specialized investments"
+          ],
+          "answer": "Lost specialization",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-10#5"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-10#5"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false,
+      "big_idea": "",
+      "analogy": null,
+      "visuals": [],
+      "worked": null,
+      "watch_out": [],
+      "memory_trick": "",
+      "exam_answer_md": ""
+    },
+    {
+      "id": "be-s10-procuring-inputs-c4",
+      "heading": "Transaction costs",
+      "explanation_md": "**Transaction costs** are the costs of acquiring an input **over and above the amount paid to the input supplier**. They include:\n\n- **Search costs**\n- **Negotiation costs**\n- **Other required investments or expenditures**\n\nSome transactions are **general** in nature, while others are **specific to a trading relationship**.",
+      "example_ids": [],
+      "key_terms": [
+        {
+          "term": "Transaction costs",
+          "meaning": "Costs of acquiring an input over and above the amount paid to the input supplier",
+          "source_ref": "be--session-10#6"
+        }
+      ],
+      "exam_line": "Transaction costs = search + negotiation + other required investments, over and above the price paid.",
+      "clarification": null,
+      "check_questions": [
+        {
+          "id": "be-s10-procuring-inputs-q-43b7618e",
+          "type": "mcq",
+          "stem": "Which is a transaction cost?",
+          "options": [
+            "Search costs",
+            "The price paid to the supplier",
+            "Depreciation of the factory"
+          ],
+          "answer": "Search costs",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-10#6"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        },
+        {
+          "id": "be-s10-procuring-inputs-q-c312c439",
+          "type": "true_false",
+          "stem": "Transaction costs include the amount paid to the input supplier.",
+          "options": [],
+          "answer": "False",
+          "accept": [],
+          "explanation": "",
+          "model_answer_md": "",
+          "rubric": [],
+          "marks": 1.0,
+          "difficulty": 1,
+          "style_tag": "",
+          "source_refs": [
+            "be--session-10#6"
+          ],
+          "derived": [],
+          "needs_check": false,
+          "retired": false
+        }
+      ],
+      "source_refs": [
+        "be--session-10#6"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false,
+      "big_idea": "",
+      "analogy": null,
+      "visuals": [],
+      "worked": null,
+      "watch_out": [],
+      "memory_trick": "",
+      "exam_answer_md": ""
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "be-s10-procuring-inputs-f1",
+      "front": "Manager's role",
+      "back": "Procure inputs at least cost and give workers incentives to put forth effort",
+      "kind": "fact",
+      "source_refs": [
+        "be--session-10#3"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s10-procuring-inputs-f2",
+      "front": "Methods of procuring inputs",
+      "back": "Spot exchange; contracts; vertical integration",
+      "kind": "list",
+      "source_refs": [
+        "be--session-10#4"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s10-procuring-inputs-f3",
+      "front": "Transaction costs",
+      "back": "Costs of acquiring an input over and above the amount paid to the supplier: search, negotiation, other investments",
+      "kind": "term",
+      "source_refs": [
+        "be--session-10#6"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s10-procuring-inputs-f4",
+      "front": "Weak spots",
+      "back": "Spot exchange: hold-up; contract: costly when complex; integration: lost specialization",
+      "kind": "fact",
+      "source_refs": [
+        "be--session-10#5"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "questions": [
+    {
+      "id": "be-s10-procuring-inputs-q-229112c2",
+      "type": "mcq",
+      "stem": "Which method reduces opportunism and avoids contracting costs?",
+      "options": [
+        "Vertical integration",
+        "Spot exchange",
+        "A contract"
+      ],
+      "answer": "Vertical integration",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "",
+      "rubric": [],
+      "marks": 1.0,
+      "difficulty": 1,
+      "style_tag": "",
+      "source_refs": [
+        "be--session-10#5"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    },
+    {
+      "id": "be-s10-procuring-inputs-q-bdcf1f04",
+      "type": "short",
+      "stem": "Compare spot exchange, contracts and vertical integration as methods of procuring inputs.",
+      "options": [],
+      "answer": "",
+      "accept": [],
+      "explanation": "",
+      "model_answer_md": "| Method | Meaning | Good | Bad |\n|---|---|---|---|\n| Spot exchange | Meet, exchange, part ways | Specialization, no contracting or integration costs | Hold-up problem |\n| Contract | Legal document for an extended relationship | Specialization, less opportunism, no skimping on specialized investments | Costly in complex environments |\n| Vertical integration | Produce the input internally | Less opportunism, no contracting costs | Lost specialization, higher organizational costs |",
+      "rubric": [
+        {
+          "point": "Definitions of the three methods",
+          "source_ref": "be--session-10#4"
+        },
+        {
+          "point": "Features of spot exchange",
+          "source_ref": "be--session-10#5"
+        },
+        {
+          "point": "Features of contracts",
+          "source_ref": "be--session-10#5"
+        },
+        {
+          "point": "Features of vertical integration",
+          "source_ref": "be--session-10#5"
+        }
+      ],
+      "marks": 4.0,
+      "difficulty": 2,
+      "style_tag": "differentiate",
+      "source_refs": [
+        "be--session-10#4",
+        "be--session-10#5"
+      ],
+      "derived": [],
+      "needs_check": false,
+      "retired": false
+    }
+  ],
+  "explain_back": {
+    "prompt": "Explain the three methods of procuring inputs and the key features of each.",
+    "rubric": [
+      {
+        "point": "Spot exchange, contract and vertical integration defined",
+        "source_ref": "be--session-10#4"
+      },
+      {
+        "point": "Features of spot exchange including hold-up",
+        "source_ref": "be--session-10#5"
+      },
+      {
+        "point": "Features of contracts and their cost in complex environments",
+        "source_ref": "be--session-10#5"
+      },
+      {
+        "point": "Features of vertical integration including lost specialization",
+        "source_ref": "be--session-10#5"
+      }
+    ]
+  },
+  "framework_ids": [],
+  "link_ids": [],
+  "video_ids": []
+}
